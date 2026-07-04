@@ -37,6 +37,12 @@
     html += '<h2 class="view-title">🏠 ホーム</h2>' +
       '<p class="view-desc">目的：' + KE.esc(profile.goalLabel) + '（<a href="#/plan">プランを見直す</a>）</p>';
 
+    /* 憧れを忘れないマインド：自分で書いた「憧れ」を毎日目にする */
+    if (profile.aspiration) {
+      html += '<div class="card mb-8" style="border-left:3px solid var(--series-1)"><p style="font-size:14px">🔥 <strong>あなたの憧れ</strong>：' +
+        KE.esc(profile.aspiration) + "</p></div>";
+    }
+
     /* 統計タイル */
     html += '<div class="grid grid-4">' +
       tile("連続学習", streak, "日") +
@@ -44,6 +50,12 @@
       tile("累計学習", total >= 60 ? Math.floor(total / 60) : total, total >= 60 ? "時間" + (total % 60 ? (total % 60) + "分" : "") : "分") +
       tile("復習期限カード", due, "枚") +
       "</div>";
+
+    /* 今日のマインドセット（サバイバルトライアングルの Mindset を日替わりで） */
+    var ms = KE_DATA.mindsets[new Date().getDate() % KE_DATA.mindsets.length];
+    html += '<div class="card mt-16"><h3>💡 今日のマインドセット：' + KE.esc(ms.name) + "</h3>" +
+      '<p style="font-size:13.5px">' + KE.esc(ms.desc) + "</p>" +
+      '<p class="sub mt-8">' + KE.esc(ms.episode) + "</p></div>";
 
     /* 今日のメニュー */
     html += '<div class="card mt-16"><h3>📋 今日のメニュー（1 日 ' + profile.dailyMinutes + ' 分プラン）</h3>';

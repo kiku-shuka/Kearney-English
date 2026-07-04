@@ -12,7 +12,7 @@
 
   function renderList(el) {
     var html = '<h2 class="view-title">🎭 実践ロールプレイ</h2>' +
-      '<p class="view-desc">相手のセリフが音声で流れます。<strong>あなたの番では実際に声に出して</strong>応答してから、モデル回答と比べて自己評価しましょう。英文表示を隠せばリスニングの負荷も上げられます。</p>';
+      '<p class="view-desc">相手のセリフが音声で流れます。<strong>あなたの番では実際に声に出して</strong>応答してから、モデル回答と比べて自己評価しましょう。Kearney流スピーキングメソッドの通り、<strong>覚えた表現を「この場面で◯回使う」と決めて</strong>臨むと効果が上がります。英文表示を隠せばリスニングの負荷も上げられます。</p>';
 
     KE_DATA.scenarios.forEach(function (sc) {
       html += '<div class="card mb-8"><div class="flex-between">' +

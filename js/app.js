@@ -2,21 +2,24 @@
 window.KE = window.KE || {};
 KE.views = KE.views || {};
 
-/* 学習モジュールのメタ情報（プラン生成・進捗集計で共通利用） */
+/* 学習モジュールのメタ情報（プラン生成・進捗集計で共通利用）
+ * axes は原典＜本編1＞の「英語力習得におけるゴールイメージ」5 スキルに対応 */
 KE.MODULES = [
-  { id: "composition", name: "瞬間英作文", icon: "⚡", desc: "日本語→英語の瞬発力を鍛える", axes: ["speaking", "vocab"] },
-  { id: "phrases", name: "型・表現", icon: "📚", desc: "ビジネス頻出の型をストックする", axes: ["vocab"] },
-  { id: "prep", name: "PREP構成", icon: "🏗️", desc: "結論ファーストで話を組み立てる", axes: ["structure"] },
-  { id: "shadowing", name: "シャドーイング", icon: "🎧", desc: "耳と口を英語のスピードに慣らす", axes: ["listening", "fluency"] },
-  { id: "roleplay", name: "ロールプレイ", icon: "🎭", desc: "実際の場面を通しで演じる", axes: ["speaking", "structure"] }
+  { id: "reading", name: "速読リーディング", icon: "📖", desc: "簡単な英語をざっくり速く読む", axes: ["research"] },
+  { id: "composition", name: "瞬間英作文", icon: "⚡", desc: "日本語→英語の瞬発力を鍛える", axes: ["discussion", "interview"] },
+  { id: "phrases", name: "型・表現", icon: "📚", desc: "業界の型をストックし例文を書く", axes: ["writing", "discussion"] },
+  { id: "prep", name: "PREP構成", icon: "🏗️", desc: "シンプルな構造で意見を組み立てる", axes: ["presentation", "discussion"] },
+  { id: "shadowing", name: "シャドーイング", icon: "🎧", desc: "短いパッセージをそらんじるまで", axes: ["interview", "presentation"] },
+  { id: "roleplay", name: "ロールプレイ", icon: "🎭", desc: "覚えた表現を実践の場で使う", axes: ["interview", "discussion"] }
 ];
 
+/* 原典＜本編1＞のゴールイメージ（コンサルワークで必要な 5 スキル） */
 KE.AXES = [
-  { id: "vocab", label: "語彙・表現" },
-  { id: "listening", label: "リスニング" },
-  { id: "speaking", label: "瞬発力" },
-  { id: "fluency", label: "発音・流暢さ" },
-  { id: "structure", label: "構成力" }
+  { id: "research", label: "リサーチ", goal: "一定時間内に外国語ソースからリサーチメモをまとめられる" },
+  { id: "interview", label: "インタビュー", goal: "インタビューの時間内で知りたいことの回答を得られる" },
+  { id: "writing", label: "メール・チャット", goal: "日本語と変わらない速度で読める・文面を作れる" },
+  { id: "discussion", label: "ディスカッション", goal: "望むタイミングで発言のターンを得て意見を述べられる" },
+  { id: "presentation", label: "プレゼン", goal: "簡潔かつロジカルにプレゼンし、関連するQAに対応できる" }
 ];
 
 KE.moduleById = function (id) {

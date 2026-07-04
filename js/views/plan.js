@@ -1,18 +1,20 @@
 /* 診断・学習プラン
- * Kearney流の出発点：「なんとなく勉強する」のではなく、
- * 目的から逆算して課題を特定し、限られた時間を最も効く練習に配分する。
+ * 原典＜本編1＞のサバイバルトライアングル（Mindset × Method × Technique）に基づく設計。
+ * 目的（＜導入＞の英語活用 3 シーン）と現在地（ゴールイメージ 5 スキルの自己評価）から、
+ * 限られた時間を最も効く練習に配分する。
+ * 「憧れを忘れないマインド」のため、英語で何をしたいかを言語化して保存する。
  */
 (function () {
   var S = KE.storage;
 
+  /* 原典＜導入＞の「英語活用の 3 シーン」（難易度ピラミッド）に対応 */
   var GOALS = [
-    { id: "meeting", title: "会議で発言できるようになりたい", desc: "英語会議で意見を言い、議論に参加する", weights: { composition: 3, phrases: 2.5, prep: 2, shadowing: 1.5, roleplay: 2 } },
-    { id: "listening", title: "電話会議を聞き取れるようになりたい", desc: "海外オフィスとのコールで内容を正確に理解する", weights: { shadowing: 4, phrases: 1.5, composition: 1.5, roleplay: 1, prep: 1 } },
-    { id: "versant", title: "スピーキングテスト（VERSANT等）対策", desc: "採用・昇格で使われるテストのスコアを上げる", weights: { composition: 3.5, prep: 2.5, shadowing: 2, phrases: 1.5, roleplay: 1 } },
-    { id: "global", title: "海外メンバーと信頼関係を築きたい", desc: "雑談も含め、対等に協働できる関係をつくる", weights: { phrases: 2.5, roleplay: 2.5, shadowing: 2, composition: 2, prep: 1 } }
+    { id: "domestic", title: "国内プロジェクトで英語を活用したい", desc: "英語でのリサーチ・資料作成・プレゼン、グローバル企業クライアントとの議論をこなす", weights: { reading: 3, phrases: 2, prep: 2, composition: 1.5, shadowing: 1.5, roleplay: 1 } },
+    { id: "collab", title: "海外オフィスとの協働案件に参画したい", desc: "事前準備のうえで、英語会議で一定時間のディスカッションができるようになる", weights: { shadowing: 3, composition: 2.5, phrases: 2, roleplay: 2, prep: 1.5, reading: 1 } },
+    { id: "abroad", title: "海外勤務・出向を目指したい", desc: "海外メンバーと日常的に深いコミュニケーションができるレベルへ", weights: { shadowing: 2.5, roleplay: 2.5, composition: 2, reading: 1.5, phrases: 1.5, prep: 1.5 } }
   ];
 
-  function goalById(id) { return GOALS.filter(function (g) { return g.id === id; })[0]; }
+  function goalById(id) { return GOALS.filter(function (g) { return g.id === id; })[0] || GOALS[0]; }
 
   /* 目的の重み × 弱点ブーストで 1 日の学習時間を配分する */
   function generatePlan(goalId, dailyMinutes, levels) {
@@ -45,24 +47,24 @@
     return KE.AXES.filter(function (a) { return a.id === id; })[0];
   }
 
-  function axisLabel(id) {
-    var a = KE.AXES.filter(function (x) { return x.id === id; })[0];
-    return a ? a.label : id;
-  }
-
   KE.views.plan = function (el) {
     var profile = S.getProfile();
     var draft = {
-      goal: profile ? profile.goal : "meeting",
+      goal: profile ? profile.goal : "collab",
       dailyMinutes: profile ? profile.dailyMinutes : 30,
-      levels: profile ? Object.assign({}, profile.levels) : { vocab: 3, listening: 3, speaking: 2, fluency: 3, structure: 3 },
-      target: profile ? profile.target : 4
+      levels: profile ? Object.assign({ research: 3, interview: 2, writing: 3, discussion: 2, presentation: 3 }, profile.levels) : { research: 3, interview: 2, writing: 3, discussion: 2, presentation: 3 },
+      target: profile ? profile.target : 4,
+      aspiration: profile && profile.aspiration ? profile.aspiration : ""
     };
+    // 旧バージョンの軸データが残っていても新 5 軸で描画できるようにする
+    KE.AXES.forEach(function (a) { if (!draft.levels[a.id]) draft.levels[a.id] = 3; });
 
     var html = '<h2 class="view-title">🧭 診断・学習プラン</h2>' +
-      '<p class="view-desc">Kearney流の第一歩は「目的の明確化」と「課題の特定」。目的と現在地を入力すると、限られた時間で最も効果が出る 1 日のメニューを設計します。</p>';
+      '<p class="view-desc">Kearney流の英語習得は <strong>Mindset × Method × Technique</strong> の「サバイバルトライアングル」。' +
+      'ここでは目的と現在地から毎日のメニュー（Method）を設計し、あなたの「憧れ」（Mindset）を言語化します。</p>';
 
-    html += '<div class="card"><h3>STEP 1　英語を使う目的（ゴール）</h3><div id="goal-list">';
+    html += '<div class="card"><h3>STEP 1　英語を使う目的（活用シーン）</h3>' +
+      '<p class="sub mb-8">コンサルの英語活用は「国内プロジェクト → 海外協働 → 海外勤務」の順に難易度が上がります。目指すシーンを選んでください。</p><div id="goal-list">';
     GOALS.forEach(function (g) {
       html += '<label class="radio-card' + (draft.goal === g.id ? " selected" : "") + '" data-goal="' + g.id + '">' +
         '<input type="radio" name="goal" value="' + g.id + '"' + (draft.goal === g.id ? " checked" : "") + ">" +
@@ -70,24 +72,29 @@
     });
     html += "</div></div>";
 
-    html += '<div class="card mt-16"><h3>STEP 2　現在のレベル（自己評価：1=苦手 〜 5=得意）</h3>';
+    html += '<div class="card mt-16"><h3>STEP 2　現在のレベル（ゴールイメージ 5 スキルの自己評価：1=苦手 〜 5=できる）</h3>';
     KE.AXES.forEach(function (a) {
       var v = draft.levels[a.id];
-      html += '<div class="slider-row"><span class="s-label">' + a.label + "</span>" +
+      html += '<div class="slider-row"><span class="s-label" title="' + KE.esc(a.goal) + '">' + a.label + "</span>" +
         '<input type="range" min="1" max="5" step="1" value="' + v + '" data-axis="' + a.id + '">' +
         '<span class="s-val" id="val-' + a.id + '">' + v + "</span></div>";
     });
-    html += '<label class="form-label">目標レベル（全スキル共通）</label>' +
+    html += '<p class="sub mt-8">各スキルのゴール：リサーチ＝時間内に外国語ソースからメモをまとめる ／ インタビュー＝時間内に知りたい回答を得る ／ メール・チャット＝日本語並みの速度で読み書き ／ ディスカッション＝望むタイミングで発言する ／ プレゼン＝簡潔にプレゼンしQA対応。</p>' +
+      '<label class="form-label">目標レベル（活用シーンの 3 段階に対応）</label>' +
       '<select id="target-select">' +
-      '<option value="3"' + (draft.target === 3 ? " selected" : "") + ">3 — 会議で困らないレベル</option>" +
-      '<option value="4"' + (draft.target === 4 ? " selected" : "") + ">4 — 議論をリードできるレベル</option>" +
-      '<option value="5"' + (draft.target === 5 ? " selected" : "") + ">5 — ネイティブと対等なレベル</option></select></div>";
+      '<option value="3"' + (draft.target === 3 ? " selected" : "") + ">3 — ビジネス文脈の理解・発信が最小限できる（国内プロジェクトの英語活用）</option>" +
+      '<option value="4"' + (draft.target === 4 ? " selected" : "") + ">4 — 事前準備の上で一定時間の議論ができる（海外オフィスとの協働）</option>" +
+      '<option value="5"' + (draft.target === 5 ? " selected" : "") + ">5 — 海外メンバーと日常的に深く協働できる（海外勤務）</option></select></div>";
 
     html += '<div class="card mt-16"><h3>STEP 3　1 日に使える学習時間</h3><div class="btn-row" id="minute-btns">';
     [15, 30, 45, 60].forEach(function (m) {
       html += '<button class="btn' + (draft.dailyMinutes === m ? " btn-primary" : "") + '" data-min="' + m + '">' + m + "分</button>";
     });
-    html += '</div><p class="sub mt-8">短くても毎日続けることが最重要。まずは無理のない時間で。</p></div>';
+    html += '</div><p class="sub mt-8">原典いわく、どのトレーニングも「頻度と量」が効きます。短くても毎日続けられる時間で。</p></div>';
+
+    html += '<div class="card mt-16"><h3>STEP 4　憧れメモ（憧れを忘れないマインド）</h3>' +
+      '<p class="sub mb-8">英語を使って何をしたいのか、どうなりたいのかをビビッドに書いておきましょう。苦しいときの燃料になります（ホーム画面に表示されます）。</p>' +
+      '<textarea id="aspiration-input" placeholder="例：ヘルスケア領域のグローバル案件に参画して、海外の専門家と対等に議論したい">' + KE.esc(draft.aspiration) + "</textarea></div>";
 
     html += '<div class="center mt-16"><button class="btn btn-primary btn-lg" id="generate-btn">学習プランを作成する</button></div>' +
       '<div id="plan-result" class="mt-16"></div>';
@@ -135,12 +142,13 @@
       });
       h += '<hr class="divider"><p class="sub">📌 <strong>設計の考え方</strong>：目的「' + goal.title + "」の達成に効く練習を重み付けし、自己評価が低い「" +
         weak.label + "」に関わるメニューを増やしています。最重点は<strong>" + top.icon + " " + top.name + "</strong>。" +
-        "プランは毎日のホーム画面に表示され、実施状況が自動で記録されます。</p></div>";
+        "毎日の実施状況はホーム画面に自動で記録されます。</p></div>";
       box.innerHTML = h;
       if (save) {
         S.setProfile({
           goal: draft.goal, goalLabel: goal.title, dailyMinutes: draft.dailyMinutes,
           levels: draft.levels, target: draft.target, plan: plan,
+          aspiration: document.getElementById("aspiration-input").value.trim(),
           createdAt: (profile && profile.createdAt) || Date.now()
         });
         KE.toast("学習プランを保存しました");
@@ -152,7 +160,7 @@
       showPlan(generatePlan(draft.goal, draft.dailyMinutes, draft.levels), true);
     });
 
-    // 既存プランがあれば表示しておく
+    // 既存プランがあれば表示しておく（旧目的IDのプランでも表示は可能）
     if (profile && profile.plan) showPlan(profile.plan, false);
   };
 })();

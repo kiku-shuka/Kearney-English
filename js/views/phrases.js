@@ -31,7 +31,7 @@
     var matured = KE.srs.maturedCount(ids);
 
     var html = '<h2 class="view-title">📚 型・表現トレーニング</h2>' +
-      '<p class="view-desc">会議・電話・雑談などシーン別の「型」をストックします。日本語を見て英語の型が即座に出るか試し、間隔反復で定着させます。</p>';
+      '<p class="view-desc">Kearney流ライティング／スピーキングメソッドの土台。<strong>パターンごとに使われる表現をストックし、すぐ取り出して組み合わせられる</strong>状態をつくります。日本語を見て型が即座に出るか試し、間隔反復で定着。業務やドラマで出会った表現は自分のノートに追加し、<strong>実際に例文を書いて</strong>使える形にしましょう。</p>';
 
     html += '<div class="card"><div class="flex-between">' +
       '<div><h3>今日の復習</h3><p class="sub">全 ' + ids.length + " 表現 ｜ 学習済み " + learned + " ｜ 定着 " + matured + "</p>" +
@@ -62,12 +62,15 @@
       '<label class="form-label">英語表現</label><input type="text" id="note-en" placeholder="例：Let me circle back on that.">' +
       '<label class="form-label">意味（日本語）</label><input type="text" id="note-ja" placeholder="例：その件は後で戻って確認します">' +
       '<label class="form-label">メモ（任意）</label><input type="text" id="note-tip" placeholder="例：会議で宿題を持ち帰るときの定番">' +
+      '<label class="form-label">この表現を使った自分の例文（任意・推奨）</label><input type="text" id="note-ex" placeholder="例：Let me circle back on the pricing issue tomorrow.">' +
+      '<p class="sub">ストックした表現は「実際に例文を書いてみる」ことで初めて使える形になります。</p>' +
       '<div class="mt-16"><button class="btn btn-primary" id="note-add">ノートに追加</button></div>';
     if (notes.length) {
       html += '<ul class="item-list mt-16">';
       notes.forEach(function (n) {
         html += '<li><div class="li-main"><div class="li-en">' + KE.esc(n.en) + '</div><div class="li-ja">' + KE.esc(n.ja) +
-          (n.tip ? " ｜ 💡 " + KE.esc(n.tip) : "") + "</div></div>" +
+          (n.tip ? " ｜ 💡 " + KE.esc(n.tip) : "") +
+          (n.ex ? '<br>✍️ ' + KE.esc(n.ex) : "") + "</div></div>" +
           '<button class="btn btn-sm btn-icon" data-say="' + KE.esc(n.en) + '">🔊</button>' +
           '<button class="btn btn-sm" data-del="' + n.id + '">削除</button></li>';
       });
@@ -96,9 +99,10 @@
       var en = document.getElementById("note-en").value.trim();
       var ja = document.getElementById("note-ja").value.trim();
       var tip = document.getElementById("note-tip").value.trim();
+      var ex = document.getElementById("note-ex").value.trim();
       if (!en || !ja) { KE.toast("英語表現と意味の両方を入力してください"); return; }
       var notes = S.getNotes();
-      notes.unshift({ id: "note-" + Date.now(), en: en, ja: ja, tip: tip, createdAt: Date.now() });
+      notes.unshift({ id: "note-" + Date.now(), en: en, ja: ja, tip: tip, ex: ex, createdAt: Date.now() });
       S.setNotes(notes);
       KE.toast("表現ノートに追加しました");
       renderHome(el);

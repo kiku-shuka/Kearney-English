@@ -11,7 +11,7 @@
     { n: 2, label: "マンブリング — 音声に合わせて小さな声でモゴモゴついていく", showText: false, showJa: false },
     { n: 3, label: "スクリプト確認 — 文字と意味を確認し、聞き取れなかった箇所を潰す", showText: true, showJa: true },
     { n: 4, label: "シャドーイング — スクリプトを見ずに、影のように追いかけて発話する", showText: false, showJa: false },
-    { n: 5, label: "仕上げ — 1 文ずつループ再生し、口が回らない文を集中練習する", showText: true, showJa: false }
+    { n: 5, label: "仕上げ — 文字を見ずに、そらんじられるまで 1 文ずつループで繰り返す", showText: false, showJa: false }
   ];
 
   KE.views.shadowing = function (el) {
@@ -20,7 +20,7 @@
 
   function renderList(el) {
     var html = '<h2 class="view-title">🎧 シャドーイング</h2>' +
-      '<p class="view-desc">聞こえた英語を 1 秒遅れで追いかけて発話します。「なんとなく聞く」のではなく、5 ステップの手順で 1 本のスクリプトを完全に口が回るまで仕上げるのがコツ。</p>';
+      '<p class="view-desc">Kearney流リスニングメソッドの中心。200 ワード程度の短いパッセージを、<strong>1 日 1 本、文字を見ずにそらんじられるまで</strong>徹底的にシャドーイングします。最初は 1 文ずつ止めながら、徐々に全体を通して。慣れたら海外ドラマの登場人物になりきって追いかけるのも効果的です。</p>';
 
     KE_DATA.shadowingScripts.forEach(function (sc) {
       html += '<div class="card mb-8"><div class="flex-between">' +

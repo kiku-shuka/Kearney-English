@@ -55,11 +55,15 @@ KE_DATA.prepTopics = [
   }
 ];
 
-/* PREP セルフチェック項目 */
+/* PREP セルフチェック項目
+ * 後半 2 項目は Kearney流「英語コミュニケーション3つのテクニック」のうち
+ * 「アウトプットをシンプルにする」「具体的なワードを選択する」に対応 */
 KE_DATA.prepChecklist = [
   { id: "c1", label: "最初の一文で結論（Point）を言い切った" },
   { id: "c2", label: "理由（Reason）を because / this is because で繋げた" },
   { id: "c3", label: "具体例（Example）に数字や固有の状況を入れた" },
   { id: "c4", label: "最後にもう一度結論（Point）で締めた" },
-  { id: "c5", label: "全体を60〜90秒以内で言えた" }
+  { id: "c5", label: "全体を60〜90秒以内で言えた" },
+  { id: "c6", label: "複文を避け、シンプルな文をシンプルにつないだ" },
+  { id: "c7", label: "曖昧な語ではなく、一意に取れる具体的なワードを選んだ" }
 ];

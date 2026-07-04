@@ -29,7 +29,14 @@
     S.getPrepAnswers().forEach(function (a) { answered[a.topicId] = (answered[a.topicId] || 0) + 1; });
 
     var html = '<h2 class="view-title">🏗️ PREP 構成ドリル</h2>' +
-      '<p class="view-desc"><strong>P</strong>oint（結論）→ <strong>R</strong>eason（理由）→ <strong>E</strong>xample（例）→ <strong>P</strong>oint（再結論）の型で意見を組み立てます。まず声に出して 60〜90 秒で話し、その後に書いて整理すると効果的です。</p>';
+      '<p class="view-desc"><strong>P</strong>oint（結論）→ <strong>R</strong>eason（理由）→ <strong>E</strong>xample（例）→ <strong>P</strong>oint（再結論）の型で意見を組み立てます。まず声に出して 60〜90 秒で話し、その後に書いて整理すると効果的です。「伝えたいことを事前に文字に落とす」練習は、そのまま実践のテクニック（スピーキング依存を減らす）になります。</p>';
+
+    /* Kearney流：英語コミュニケーション 3 つのテクニック */
+    html += '<div class="card mb-8"><h3>🛠 実践の 3 テクニック（このドリルで鍛えるもの）</h3><ul class="item-list">';
+    KE_DATA.techniques.forEach(function (t) {
+      html += '<li><div class="li-main"><div class="li-en" style="font-size:13.5px">' + KE.esc(t.name) + '</div><div class="li-ja">' + KE.esc(t.desc) + "</div></div></li>";
+    });
+    html += "</ul></div>";
 
     html += '<div class="card"><div class="flex-between"><div><h3>ランダムなお題に挑戦</h3>' +
       '<p class="sub">本番の会議で「意見は？」と振られる状況を再現します。</p></div>' +
@@ -156,7 +163,7 @@
       answers.unshift({ topicId: topic.id, texts: texts, checks: checks, ts: Date.now() });
       S.setPrepAnswers(answers);
       var minutes = KE.sessionTimer.minutes();
-      S.addLog("prep", minutes, 1, checks >= 4 ? 1 : 0);
+      S.addLog("prep", minutes, 1, checks >= 5 ? 1 : 0);
       KE.updateHeader();
       KE.toast("回答を保存しました（" + minutes + "分）");
       renderList(el);
