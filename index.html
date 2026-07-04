@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kearney流 英会話トレーナー</title>
+  <meta name="description" content="Kearney流英語力習得術に基づく、ブラウザ完結型の英会話トレーニングアプリ">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🗣️</text></svg>">
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-header-inner">
+      <div class="app-title-row">
+        <div class="app-title"><span class="accent">K</span>-English Trainer <span class="tag">Kearney流 英会話トレーナー</span></div>
+        <div class="app-streak" id="header-streak"></div>
+      </div>
+      <nav class="nav-tabs" id="nav-tabs">
+        <a class="nav-tab" href="#/dashboard" data-route="dashboard">🏠 ホーム</a>
+        <a class="nav-tab" href="#/plan" data-route="plan">🧭 診断・プラン</a>
+        <a class="nav-tab" href="#/composition" data-route="composition">⚡ 瞬間英作文</a>
+        <a class="nav-tab" href="#/phrases" data-route="phrases">📚 型・表現</a>
+        <a class="nav-tab" href="#/prep" data-route="prep">🏗️ PREP構成</a>
+        <a class="nav-tab" href="#/shadowing" data-route="shadowing">🎧 シャドーイング</a>
+        <a class="nav-tab" href="#/roleplay" data-route="roleplay">🎭 ロールプレイ</a>
+        <a class="nav-tab" href="#/log" data-route="log">📈 記録・振り返り</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="view"></main>
+  <div id="toast"></div>
+
+  <!-- データ -->
+  <script src="js/data/sentences.js"></script>
+  <script src="js/data/phrases.js"></script>
+  <script src="js/data/shadowing.js"></script>
+  <script src="js/data/scenarios.js"></script>
+  <script src="js/data/prep.js"></script>
+  <!-- コア -->
+  <script src="js/storage.js"></script>
+  <script src="js/srs.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/charts.js"></script>
+  <!-- ビュー -->
+  <script src="js/views/dashboard.js"></script>
+  <script src="js/views/plan.js"></script>
+  <script src="js/views/composition.js"></script>
+  <script src="js/views/phrases.js"></script>
+  <script src="js/views/prep.js"></script>
+  <script src="js/views/shadowing.js"></script>
+  <script src="js/views/roleplay.js"></script>
+  <script src="js/views/log.js"></script>
+  <!-- 起動 -->
+  <script src="js/app.js"></script>
+</body>
+</html>
