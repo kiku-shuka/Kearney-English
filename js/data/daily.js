@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-08",
+    passages: [
+      {
+        id: "d0708-1",
+        title: "Big Tech Sends Its Engineers to the Client",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "For years, software companies mostly sold tools and left customers to figure out how to use them. That model is changing fast. Microsoft has announced a new unit with a 2.5 billion dollar budget and about six thousand employees whose job is to sit inside client companies and help them put AI to work. Other major AI companies have started similar teams this year.\nWhy is this happening? Many companies bought AI tools during the boom, but a large share of those projects never produced real results. Employees did not know how to use the new systems, old data was messy, and business processes did not change. Buying technology, it turns out, is the easy part.\nThe new approach is sometimes called forward deployed engineering. Instead of selling from a distance, engineers work next to the customer's own staff, rebuild processes together, and stay until the results appear. It looks less like traditional software sales and more like consulting.\nFor workers, the lesson is encouraging: companies are learning that people, not just tools, decide whether technology creates value. Skills such as explaining technology in plain language, managing change, and working across teams are becoming more valuable, not less, in the age of AI.",
+        summaryJa: "マイクロソフトが25億ドル・約6,000人規模の新組織を発表。エンジニアが顧客企業に常駐してAI導入を支援する「フォワードデプロイ」型で、他の大手AI企業も同様のチームを設立中。AIツールを買っても成果が出ない企業が多い中、技術の売り切りからコンサルティングに近い伴走型へ業界が移行している。",
+        quiz: [
+          { q: "マイクロソフトの新組織の特徴は？", options: ["エンジニアが顧客企業に入り込んでAI導入を支援する", "AIチップを製造する", "広告事業を拡大する"], answer: 0 },
+          { q: "多くのAIプロジェクトが成果を出せなかった理由として挙げられているのは？", options: ["AIの価格が高すぎた", "使い方の浸透・データ整備・業務プロセスの変革が伴わなかった", "法律で禁止された"], answer: 1 },
+          { q: "本文が示す「AI時代に価値が上がるスキル」は？", options: ["平易な説明・変革の推進・チーム横断の協働", "タイピングの速さ", "プログラミングのみ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0708-2",
+        title: "AI Agents Go to Work — and Raise New Questions",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Until recently, most people used AI as a smart chat tool: you ask a question, it gives an answer. The next stage is already here, and it is called the AI agent. An agent does not just answer — it acts. It can read your emails, book meetings, update a database, or complete a purchase, all by itself.\nBusiness adoption is moving at a surprising speed. One major research firm expects that by the end of this year, around forty percent of large companies' software applications will include AI agents, up from almost none a year earlier. The market for these tools is now worth more than ten billion dollars.\nBut speed creates risk. When an AI only talks, a mistake produces a wrong sentence. When an AI acts, a mistake can send money to the wrong place or delete important data. Security researchers have already shown that attackers can hide malicious instructions inside ordinary-looking content and trick agents into doing harmful things.\nExperts therefore repeat one piece of advice: give agents clear limits. Decide what they may do alone, what needs human approval, and keep records of every action. Companies that skip these guardrails may learn an expensive lesson.",
+        summaryJa: "「答えるAI」から「行動するAIエージェント」への移行が加速。大手調査会社は年末までに大企業のアプリの約4割がエージェントを組み込むと予測し、市場は100億ドル超に。一方、行動するAIのミスは実害に直結し、悪意ある指示を紛れ込ませる攻撃も実証済み。権限の制限・人間の承認・行動記録というガードレールが不可欠。",
+        quiz: [
+          { q: "AIエージェントと従来のチャットAIの違いは？", options: ["答えるだけでなく、メール処理や予約などの行動ができる", "日本語が話せる", "無料で使える"], answer: 0 },
+          { q: "調査会社の予測は？", options: ["年末までに大企業アプリの約4割がエージェントを組み込む", "エージェントは来年消える", "利用は5%未満にとどまる"], answer: 0 },
+          { q: "専門家が勧める対策は？", options: ["エージェントに無制限の権限を与える", "権限の制限・人間の承認・行動記録", "AIの利用を全面禁止"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0708-3",
+        title: "Can AI Help 118 Million Displaced People?",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "While companies race to use AI for profit, humanitarian organizations are asking a different question: can this technology help the world's most vulnerable people? The International Rescue Committee, a major aid group, is urging the tech industry to put AI to work for the roughly 118 million people who have been forced from their homes by war, persecution, and disaster.\nThe needs are practical. Aid groups must decide where to send food, medicine, and staff, often with limited information. AI systems can study weather data, crop conditions, and conflict reports to warn about coming crises earlier. Translation tools can help refugees understand medical instructions or legal documents in their own language. Chat-based tutors can support children who have lost years of school.\nThere are also real concerns. Refugees' personal data must be protected, because in the wrong hands it could put lives in danger. Aid budgets are tight, and technology should not replace basic needs like food and shelter. And AI tools built for rich markets often work poorly in languages spoken by displaced communities.\nStill, the message from aid groups is clear: the same technology that writes emails and code could also predict famines and reunite families — if the industry chooses to invest in it.",
+        summaryJa: "国際救援委員会(IRC)が、戦争や災害で家を追われた世界の約1億1,800万人のためにAIを活用するようテック業界に要請。危機の早期警報、翻訳による医療・法律支援、教育支援チャットなどの応用が期待される一方、難民の個人データ保護や、少数言語での性能不足といった課題も。技術の投資先の選択が問われている。",
+        quiz: [
+          { q: "IRCがテック業界に求めていることは？", options: ["約1億1,800万人の避難民のためにAIを活用すること", "広告費の増額", "SNSの新機能開発"], answer: 0 },
+          { q: "AIの人道支援での活用例として挙げられていないものは？", options: ["危機の早期警報", "翻訳による医療・法律支援", "軍事作戦の立案"], answer: 2 },
+          { q: "本文が指摘する懸念は？", options: ["AIが高価すぎて誰も使えない", "難民の個人データ保護と少数言語での性能不足", "支援団体がAIを使いすぎている"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0708-4",
+        title: "Japan's Plan to Revive Basic Science",
+        level: "★★☆",
+        genre: "日本",
+        text: "The Japanese government has approved this year's Science and Technology White Paper, and its message is unusually direct: Japan needs to revive its science. The report, approved by the Cabinet this week, calls for a major expansion of investment in basic research — the kind of curiosity-driven work that does not promise quick profits but produces the seeds of future innovation.\nThe sense of urgency comes from the numbers. Japan once stood near the top of world science, but its share of highly cited academic papers has been falling for years, and the country now ranks far below its position a generation ago. Young researchers often work on short contracts with unstable funding, and many talented students choose careers outside academia or move abroad.\nWhy does this matter for the economy? History shows that today's basic research becomes tomorrow's industry. The technologies behind smartphones, vaccines, and AI all grew from decades of quiet fundamental work. A country that stops planting these seeds may still harvest for a while, but eventually the fields go empty.\nThe white paper argues that stable funding, better career paths for young scientists, and stronger links between universities and companies are all needed. The debate now moves to the budget process, where promises will meet reality.",
+        summaryJa: "日本政府が2026年版の科学技術白書を閣議決定。「科学の再興」を掲げ、基礎研究への投資の抜本的拡充を訴えた。背景には注目論文の国際順位の長期低下や、若手研究者の不安定な雇用がある。スマホもワクチンもAIも基礎研究から生まれた——安定資金・若手のキャリア・産学連携の強化が課題で、焦点は今後の予算編成に移る。",
+        quiz: [
+          { q: "今年の科学技術白書の中心メッセージは？", options: ["基礎研究への投資を拡充し科学を再興する", "研究予算を削減する", "大学を減らす"], answer: 0 },
+          { q: "危機感の背景として挙げられているのは？", options: ["注目論文の国際順位の低下と若手研究者の不安定な雇用", "研究者が多すぎること", "留学生の増加"], answer: 0 },
+          { q: "本文の「種まき」の比喩が意味するものは？", options: ["農業への補助金", "基礎研究が将来の産業を生むこと", "株式投資のこと"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0708-5",
+        title: "Why Deep Sleep Helps Your Body Grow and Repair",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "\"Sleep well and you will grow\" — parents have said this for generations. Now scientists can explain why it is true at the level of brain circuits. Researchers have identified the specific wiring in the brain that connects deep sleep with the release of growth hormone, one of the body's most important repair signals.\nGrowth hormone does much more than make children taller. In adults, it helps repair muscles, manage fat, and keep the brain working well. The new research shows that deep sleep triggers the release of this hormone, and the hormone in turn acts back on the brain's sleep circuits — a feedback loop in which each side supports the other.\nThis loop explains something many people feel but could not prove: when you sleep badly, your body seems to recover more slowly, your training results suffer, and your thinking feels dull. Poor sleep breaks the loop, which means less growth hormone, which can further disturb sleep — a frustrating cycle.\nThe practical advice is not new, but the science behind it is stronger than ever. Protect your deep sleep: keep regular hours, avoid screens and heavy meals late at night, and treat sleep as part of your training plan, not a luxury. Your brain, quite literally, does repair work while you rest.",
+        summaryJa: "深い睡眠と成長ホルモンの分泌をつなぐ脳内回路が特定された。成長ホルモンは筋肉の修復や脂肪代謝、脳機能の維持に働き、深い睡眠が分泌を促し、ホルモンが睡眠回路に働き返す「相互のフィードバックループ」を形成。睡眠不足がこのループを壊すことで回復力や思考力の低下につながる。規則正しい睡眠を「トレーニングの一部」として守るべき理由が科学的に裏付けられた。",
+        quiz: [
+          { q: "研究で特定されたのは？", options: ["深い睡眠と成長ホルモン分泌をつなぐ脳の回路", "新しい睡眠薬", "夢の内容を読む技術"], answer: 0 },
+          { q: "成長ホルモンの成人での働きとして挙げられているのは？", options: ["筋肉の修復・脂肪代謝・脳機能の維持", "身長を伸ばすことだけ", "視力の回復"], answer: 0 },
+          { q: "本文の実践的アドバイスは？", options: ["睡眠時間を削って学習する", "深い睡眠を守り、睡眠を計画の一部として扱う", "昼寝だけで十分"], answer: 1 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-07",
     passages: [
       {
