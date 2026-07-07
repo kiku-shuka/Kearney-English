@@ -1,8 +1,7 @@
 /* 速読リーディング
- * Kearney流リーディングメソッド：難しい文章を頭から和訳するのではなく、
- * 「簡単な英語をざっくり速く読む」能力をまず鍛える。
- * 読了時間から WPM（1 分あたりの語数）を計測し、理解度クイズで
- * 「意味を取り違えていないか」を確認する。
+ * Kearney流リーディングメソッド：「簡単な英語をざっくり速く読む」多読・速読。
+ * 反復は不要なため、毎朝自動配信される「今日の 5 本」を消化するのが基本動線。
+ * 過去の配信とベーシック教材はアーカイブに畳んで、迷いをなくす。
  */
 (function () {
   var S = KE.storage;
@@ -13,35 +12,99 @@
 
   function stats() { return S.get("reading", {}); }
   function saveStats(s) { S.set("reading", s); }
+  function readDone() { return S.get("readDone", {}); }
+
+  function dailyDays() {
+    var days = (KE_DATA.dailyReading && KE_DATA.dailyReading.days) || [];
+    return days.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+  }
+
+  function passageById(id) {
+    var hit = null;
+    dailyDays().forEach(function (d) {
+      d.passages.forEach(function (p) { if (p.id === id) hit = p; });
+    });
+    KE_DATA.readingPassages.forEach(function (p) { if (p.id === id) hit = p; });
+    return hit;
+  }
 
   KE.views.reading = function (el) {
     renderList(el);
   };
 
-  function renderList(el) {
-    var st = stats();
-    var html = '<h2 class="view-title">📖 速読リーディング</h2>' +
-      '<p class="view-desc">和訳しながら精読するのではなく、<strong>意味を取り違えない前提で、ざっくり速く読む</strong>のがKearney流。' +
-      '読了までの時間から WPM（words per minute）を計測し、理解度クイズで確認します。目安として 1 日数千〜1 万語の多読が推奨されています。</p>';
+  function passageRow(p, primary) {
+    var words = wordCount(p.text);
+    var done = readDone()[p.id];
+    var best = stats()[p.id];
+    return '<li><div class="li-main"><div class="li-en">' + KE.esc(p.title) +
+      (done ? ' <span class="badge-done">✔ 読了</span>' : "") + "</div>" +
+      '<div class="li-ja">' + p.level + (p.genre ? " ｜ " + KE.esc(p.genre) : p.theme ? " ｜ " + KE.esc(p.theme) : "") +
+      " ｜ 約" + words + "語" + (best ? " ｜ ベスト " + best.bestWpm + " WPM" : "") + "</div></div>" +
+      '<button class="btn btn-sm' + (primary && !done ? " btn-primary" : "") + '" data-passage="' + p.id + '">読む</button></li>';
+  }
 
-    KE_DATA.readingPassages.forEach(function (p) {
-      var words = wordCount(p.text);
-      var best = st[p.id];
-      html += '<div class="card mb-8"><div class="flex-between">' +
-        '<div><h3>' + KE.esc(p.title) + ' <span class="tag">' + p.level + " ｜ " + p.theme + " ｜ 約" + words + "語</span></h3>" +
-        '<p class="sub">' + (best ? "ベスト " + best.bestWpm + " WPM ｜ 挑戦 " + best.tries + " 回" : "未挑戦") + "</p></div>" +
-        '<button class="btn btn-primary" data-passage="' + p.id + '">読む</button></div></div>';
-    });
+  function renderList(el) {
+    var days = dailyDays();
+    var today = S.todayStr();
+    var html = '<h2 class="view-title">📖 速読リーディング</h2>' +
+      '<p class="view-desc">和訳しながら精読するのではなく、<strong>意味を取り違えない前提で、ざっくり速く読む</strong>のがKearney流。読了時間から WPM を計測し、理解度クイズで確認します。リーディングは反復不要 — 毎日新しい文章を読みましょう。</p>';
+
+    /* 今日の配信 */
+    var latest = days[0];
+    html += '<div class="card" style="border-left:3px solid var(--series-1)">';
+    if (latest) {
+      var doneCount = latest.passages.filter(function (p) { return readDone()[p.id]; }).length;
+      html += '<h3>▶ ' + (latest.date === today ? "今日のリーディング" : "最新の配信（" + latest.date.slice(5).replace("-", "/") + "分）") +
+        ' <span class="tag">' + doneCount + " / " + latest.passages.length + " 読了</span></h3>" +
+        '<ul class="item-list">';
+      latest.passages.forEach(function (p) { html += passageRow(p, true); });
+      html += "</ul>";
+    } else {
+      html += '<h3>▶ 今日のリーディング</h3>' +
+        '<p class="sub">毎朝の自動配信が始まると、ここに時事トピックのオリジナルパッセージが 5 本並びます。それまでは下のベーシック教材をどうぞ。</p>';
+    }
+    html += "</div>";
+
+    /* 過去の配信（直近 7 日、アーカイブ） */
+    var past = days.slice(1);
+    if (past.length) {
+      html += '<div class="card mt-16"><div class="flex-between" style="cursor:pointer" id="past-toggle">' +
+        '<h3>📦 過去の配信（' + past.length + ' 日分）</h3><span class="tag" id="past-arrow">▼ 開く</span></div>' +
+        '<div id="past-list" style="display:none">';
+      past.forEach(function (d) {
+        html += '<p class="sub mt-8" style="font-weight:700">' + d.date + '</p><ul class="item-list">';
+        d.passages.forEach(function (p) { html += passageRow(p, false); });
+        html += "</ul>";
+      });
+      html += "</div></div>";
+    }
+
+    /* ベーシック教材（固定 5 本、アーカイブ） */
+    html += '<div class="card mt-16"><div class="flex-between" style="cursor:pointer" id="basic-toggle">' +
+      '<h3>📦 ベーシック教材（' + KE_DATA.readingPassages.length + ' 本）</h3><span class="tag" id="basic-arrow">▼ 開く</span></div>' +
+      '<ul class="item-list" id="basic-list" style="display:none">';
+    KE_DATA.readingPassages.forEach(function (p) { html += passageRow(p, false); });
+    html += "</ul></div>";
 
     html += '<div class="card mt-16"><h3>WPM の目安</h3><p class="sub">' +
       '〜100：じっくり読み ｜ 100〜150：良いペース（まずここを目標に） ｜ 150〜200：速読レベル ｜ ネイティブの平均は 200〜250 と言われます。' +
       '速さだけでなく、クイズ全問正解（＝意味を取り違えない）とセットで伸ばしましょう。</p></div>';
 
     el.innerHTML = html;
+
+    [["past-toggle", "past-list", "past-arrow"], ["basic-toggle", "basic-list", "basic-arrow"]].forEach(function (t) {
+      var toggle = document.getElementById(t[0]);
+      if (!toggle) return;
+      toggle.addEventListener("click", function () {
+        var list = document.getElementById(t[1]);
+        var open = list.style.display !== "none";
+        list.style.display = open ? "none" : "";
+        document.getElementById(t[2]).textContent = open ? "▼ 開く" : "▲ 閉じる";
+      });
+    });
     el.querySelectorAll("[data-passage]").forEach(function (b) {
       b.addEventListener("click", function () {
-        var p = KE_DATA.readingPassages.filter(function (x) { return x.id === b.getAttribute("data-passage"); })[0];
-        renderReader(el, p);
+        renderReader(el, passageById(b.getAttribute("data-passage")));
       });
     });
   }
@@ -109,6 +172,9 @@
       var prev = st[p.id] || { bestWpm: 0, tries: 0 };
       st[p.id] = { bestWpm: Math.max(prev.bestWpm, result.wpm), tries: prev.tries + 1 };
       saveStats(st);
+      var done = readDone();
+      done[p.id] = true;
+      S.set("readDone", done);
       KE.updateHeader();
 
       var comment;
@@ -123,11 +189,9 @@
         '<p class="sub">' + KE.esc(comment) + "<br>読了 " + Math.floor(result.sec / 60) + "分" + (result.sec % 60) + "秒（約" + result.words + "語）・学習 " + minutes + " 分を記録しました。</p>" +
         '<div class="mt-8" style="background:var(--wash);border-radius:10px;padding:12px 14px;text-align:left"><p class="sub"><strong>大意（日本語）</strong>：' + KE.esc(p.summaryJa) + "</p></div>" +
         '<div class="btn-row mt-16" style="justify-content:center">' +
-        '<button class="btn btn-primary" id="retry-btn">もう一度読む</button>' +
-        '<a class="btn" href="#/reading">別のパッセージへ</a>' +
+        '<a class="btn btn-primary" href="#/reading">次のパッセージへ</a>' +
         '<a class="btn" href="#/dashboard">ホームへ</a></div></div>';
       this.style.display = "none";
-      document.getElementById("retry-btn").addEventListener("click", function () { renderReader(el, p); });
     });
   }
 })();

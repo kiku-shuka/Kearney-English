@@ -58,5 +58,65 @@ KE.srs = (function () {
     return allIds.filter(function (id) { return srs[id] && srs[id].interval >= 7; }).length;
   }
 
-  return { getCard: getCard, grade: grade, dueIds: dueIds, learnedCount: learnedCount, maturedCount: maturedCount };
+  /* ---- 新規カードの 1 日あたり導入制限（全モジュール共通の枠） ---- */
+
+  var NEW_CAP = 8;
+
+  function newQuota() {
+    var q = S.get("newCount", {});
+    return q.d === S.todayStr() ? Math.max(0, NEW_CAP - (q.n || 0)) : NEW_CAP;
+  }
+
+  function consumeNew(n) {
+    var today = S.todayStr();
+    var q = S.get("newCount", {});
+    if (q.d !== today) q = { d: today, n: 0 };
+    q.n += n;
+    S.set("newCount", q);
+  }
+
+  function shuffle(a) {
+    return a.slice().sort(function () { return Math.random() - 0.5; });
+  }
+
+  /* 今日のセッションを組む：復習期限のカード優先 → 空きに新規（1 日 8 枚まで）。
+   * コンテンツがいくら蓄積しても、ユーザーに見えるのは「今日の 1 セッション」だけになる。 */
+  function buildSession(allIds, limit) {
+    limit = limit || 10;
+    var srsMap = S.getSrs();
+    var today = S.todayStr();
+    var due = [], fresh = [];
+    allIds.forEach(function (id) {
+      var c = srsMap[id];
+      if (!c || !c.reps) fresh.push(id);
+      else if (c.due <= today) due.push(id);
+    });
+    var take = shuffle(due).slice(0, limit);
+    if (take.length < limit) {
+      var allow = Math.min(newQuota(), limit - take.length);
+      var newly = shuffle(fresh).slice(0, allow);
+      consumeNew(newly.length);
+      take = take.concat(newly);
+    }
+    return take;
+  }
+
+  /* セッション情報（開始前の表示用） */
+  function sessionInfo(allIds) {
+    var srsMap = S.getSrs();
+    var today = S.todayStr();
+    var due = 0, fresh = 0;
+    allIds.forEach(function (id) {
+      var c = srsMap[id];
+      if (!c || !c.reps) fresh++;
+      else if (c.due <= today) due++;
+    });
+    return { due: due, fresh: fresh, newQuota: newQuota() };
+  }
+
+  return {
+    getCard: getCard, grade: grade, dueIds: dueIds,
+    learnedCount: learnedCount, maturedCount: maturedCount,
+    buildSession: buildSession, sessionInfo: sessionInfo
+  };
 })();

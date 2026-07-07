@@ -13,6 +13,9 @@
         items.push({ id: i.id, ja: i.ja, en: i.en, tip: i.tip, scene: sc.name });
       });
     });
+    (KE_DATA.extraPhrases || []).forEach(function (i) {
+      items.push({ id: i.id, ja: i.ja, en: i.en, tip: i.tip || "", scene: "週次配信" });
+    });
     S.getNotes().forEach(function (n) {
       items.push({ id: n.id, ja: n.ja, en: n.en, tip: n.tip || "", scene: "表現ノート" });
     });
@@ -26,7 +29,8 @@
   function renderHome(el) {
     var items = allReviewItems();
     var ids = items.map(function (i) { return i.id; });
-    var due = KE.srs.dueIds(ids).length;
+    var info = KE.srs.sessionInfo(ids);
+    var due = info.due;
     var learned = KE.srs.learnedCount(ids);
     var matured = KE.srs.maturedCount(ids);
 
@@ -35,8 +39,8 @@
 
     html += '<div class="card"><div class="flex-between">' +
       '<div><h3>今日の復習</h3><p class="sub">全 ' + ids.length + " 表現 ｜ 学習済み " + learned + " ｜ 定着 " + matured + "</p>" +
-      '<p class="mt-8">' + (due ? '<strong style="color:var(--series-1)">復習期限のカードが ' + due + " 枚あります</strong>" : "今日の復習はありません。新しい表現を覚えましょう。") + "</p></div>" +
-      '<button class="btn btn-primary" id="review-btn">' + (due ? "復習をはじめる" : "ランダムに10枚") + "</button></div></div>";
+      '<p class="mt-8">' + (due ? '<strong style="color:var(--series-1)">復習期限 ' + due + " 枚＋新規（1日の枠内）を自動で選びます</strong>" : "復習期限なし。新規（1日の枠内）または自主練になります。") + "</p></div>" +
+      '<button class="btn btn-primary" id="review-btn">はじめる</button></div></div>';
 
     /* シーン別ブラウズ */
     html += '<h3 class="mt-16 mb-8" style="font-size:15px">シーン別に覚える</h3>';
@@ -117,10 +121,14 @@
 
   function startReview(el) {
     var items = allReviewItems();
-    var dueIds = KE.srs.dueIds(items.map(function (i) { return i.id; }));
-    var pool = items.filter(function (i) { return dueIds.indexOf(i.id) !== -1; });
-    if (!pool.length) pool = items.slice();
-    pool = pool.sort(function () { return Math.random() - 0.5; }).slice(0, 10);
+    var take = KE.srs.buildSession(items.map(function (i) { return i.id; }), 10);
+    if (!take.length) {
+      // 期限なし・新規枠なし → 自主練（ランダム）
+      take = items.map(function (i) { return i.id; }).sort(function () { return Math.random() - 0.5; }).slice(0, 10);
+    }
+    var pool = take.map(function (id) {
+      return items.filter(function (i) { return i.id === id; })[0];
+    }).filter(Boolean);
 
     var idx = 0, correct = 0;
     KE.sessionTimer.start();

@@ -1,60 +1,102 @@
 /* 瞬間英作文
  * 日本語を見て数秒以内に英語を「口に出す」トレーニング。
- * 知っている英語を「使える英語」に変える、スピーキングの土台づくり。
- * 出題は間隔反復（SRS）で管理され、忘れかけた文が優先的に出る。
+ * 出題は SRS が自動で選ぶ：復習期限のカード優先＋新規は 1 日の枠内で少しずつ。
+ * コンテンツが蓄積しても、ユーザーが見るのは「今日のセッション」だけ。
  */
 (function () {
   var S = KE.storage;
   var TIME_LIMIT = 10; // 秒
 
-  KE.views.composition = function (el) {
-    renderDeckList(el);
-  };
-
-  function deckIds(deck) {
-    return deck.items.map(function (i) { return i.id; });
+  function allDecks() {
+    var decks = KE_DATA.sentenceDecks.slice();
+    var extra = (KE_DATA.extraSentences || []);
+    if (extra.length) {
+      decks = decks.concat([{
+        id: "extra", name: "週次配信", level: "★★☆",
+        description: "毎週自動配信される追加の文", items: extra
+      }]);
+    }
+    return decks;
   }
 
-  function renderDeckList(el) {
-    var html = '<h2 class="view-title">⚡ 瞬間英作文</h2>' +
-      '<p class="view-desc">日本語を見たら <strong>' + TIME_LIMIT + ' 秒以内に声に出して</strong>英語にします。頭で考えるのではなく、口が勝手に動くまで反復するのがポイント。結果は間隔反復（SRS）で管理され、忘れる直前に再出題されます。</p>';
-
-    KE_DATA.sentenceDecks.forEach(function (deck) {
-      var ids = deckIds(deck);
-      var due = KE.srs.dueIds(ids).length;
-      var learned = KE.srs.learnedCount(ids);
-      var matured = KE.srs.maturedCount(ids);
-      html += '<div class="card mb-8"><div class="flex-between">' +
-        '<div><h3>' + KE.esc(deck.name) + ' <span class="tag">' + deck.level + "</span></h3>" +
-        '<p class="sub">' + KE.esc(deck.description) + "</p>" +
-        '<p class="sub mt-8">全 ' + ids.length + " 文 ｜ 学習済み " + learned + " ｜ 定着 " + matured +
-        (due ? ' ｜ <strong style="color:var(--series-1)">今日の復習 ' + due + " 文</strong>" : " ｜ 今日の復習なし") + "</p></div>" +
-        '<button class="btn btn-primary" data-deck="' + deck.id + '">はじめる</button>' +
-        "</div></div>";
+  function itemById(id) {
+    var hit = null;
+    allDecks().forEach(function (d) {
+      d.items.forEach(function (i) { if (i.id === id) hit = i; });
     });
+    return hit;
+  }
+
+  function allIds() {
+    var ids = [];
+    allDecks().forEach(function (d) { d.items.forEach(function (i) { ids.push(i.id); }); });
+    return ids;
+  }
+
+  KE.views.composition = function (el) {
+    renderHome(el);
+  };
+
+  function renderHome(el) {
+    var ids = allIds();
+    var info = KE.srs.sessionInfo(ids);
+    var learned = KE.srs.learnedCount(ids);
+    var matured = KE.srs.maturedCount(ids);
+    var todayNew = Math.min(info.fresh, info.newQuota);
+
+    var html = '<h2 class="view-title">⚡ 瞬間英作文</h2>' +
+      '<p class="view-desc">日本語を見たら <strong>' + TIME_LIMIT + ' 秒以内に声に出して</strong>英語にします。今日やるべきカードはアプリが自動で選びます（復習期限のもの優先＋新規は 1 日 8 枚まで）。</p>';
+
+    /* 今日のセッション（メインの入口） */
+    html += '<div class="card" style="border-left:3px solid var(--series-1)"><div class="flex-between">' +
+      '<div><h3>▶ 今日のセッション</h3>' +
+      '<p class="sub">復習期限 <strong>' + info.due + '</strong> 枚 ＋ 新規 <strong>' + todayNew + '</strong> 枚' +
+      (info.due === 0 && todayNew === 0 ? ' ｜ 今日の分は完了です 🎉' : "") + "</p></div>" +
+      '<button class="btn btn-primary btn-lg" id="today-btn">' +
+      (info.due === 0 && todayNew === 0 ? "おかわり（ランダム10枚）" : "はじめる") + "</button></div>" +
+      '<p class="sub mt-8">全 ' + ids.length + " 文 ｜ 学習済み " + learned + " ｜ 定着 " + matured + "</p></div>";
+
+    /* デッキ一覧はアーカイブとして折りたたみ */
+    html += '<div class="card mt-16"><div class="flex-between" style="cursor:pointer" id="deck-toggle">' +
+      '<h3>📦 デッキ別に練習する（アーカイブ）</h3><span class="tag" id="deck-arrow">▼ 開く</span></div>' +
+      '<div id="deck-list" style="display:none">';
+    allDecks().forEach(function (deck) {
+      var dIds = deck.items.map(function (i) { return i.id; });
+      html += '<div class="flex-between" style="padding:10px 0;border-bottom:1px solid var(--gridline)">' +
+        '<div><strong style="font-size:14px">' + KE.esc(deck.name) + '</strong> <span class="tag">' + deck.level + " ｜ " + dIds.length + "文 ｜ 定着 " + KE.srs.maturedCount(dIds) + "</span>" +
+        '<div class="sub">' + KE.esc(deck.description) + "</div></div>" +
+        '<button class="btn btn-sm" data-deck="' + deck.id + '">練習</button></div>';
+    });
+    html += "</div></div>";
 
     el.innerHTML = html;
+
+    document.getElementById("today-btn").addEventListener("click", function () {
+      startSession(el, KE.srs.buildSession(allIds(), 10), "今日のセッション");
+    });
+    document.getElementById("deck-toggle").addEventListener("click", function () {
+      var list = document.getElementById("deck-list");
+      var open = list.style.display !== "none";
+      list.style.display = open ? "none" : "";
+      document.getElementById("deck-arrow").textContent = open ? "▼ 開く" : "▲ 閉じる";
+    });
     el.querySelectorAll("[data-deck]").forEach(function (b) {
       b.addEventListener("click", function () {
-        startSession(el, b.getAttribute("data-deck"));
+        var deck = allDecks().filter(function (d) { return d.id === b.getAttribute("data-deck"); })[0];
+        var pool = deck.items.map(function (i) { return i.id; }).sort(function () { return Math.random() - 0.5; }).slice(0, 10);
+        startSession(el, pool, deck.name);
       });
     });
   }
 
-  function startSession(el, deckId) {
-    var deck = KE_DATA.sentenceDecks.filter(function (d) { return d.id === deckId; })[0];
-    var due = KE.srs.dueIds(deckIds(deck));
-    var pool;
-    if (due.length) {
-      pool = deck.items.filter(function (i) { return due.indexOf(i.id) !== -1; });
-    } else {
-      // 復習期限がなければ全文からランダムに出題（追い込み練習）
-      pool = deck.items.slice();
+  function startSession(el, poolIds, label) {
+    if (!poolIds.length) {
+      // 期限なし・新規枠なし → 学習済みからランダムで自主練
+      poolIds = allIds().sort(function () { return Math.random() - 0.5; }).slice(0, 10);
     }
-    // シャッフルして最大 10 文
-    pool = pool.sort(function () { return Math.random() - 0.5; }).slice(0, 10);
+    var pool = poolIds.map(itemById).filter(Boolean);
 
-    var idx = 0, correct = 0, results = [];
+    var idx = 0, correct = 0;
     var timerId = null;
     KE.sessionTimer.start();
 
@@ -67,7 +109,7 @@
       KE.speech.stop();
       var item = pool[idx];
       var html = '<div class="practice-stage">' +
-        '<div class="practice-progress"><span>' + KE.esc(deck.name) + "</span><span>" + (idx + 1) + " / " + pool.length + "</span></div>" +
+        '<div class="practice-progress"><span>' + KE.esc(label) + "</span><span>" + (idx + 1) + " / " + pool.length + "</span></div>" +
         '<div class="timer-track"><div class="timer-fill" id="timer-fill" style="width:100%"></div></div>' +
         '<p class="sub">声に出して英語にしましょう：</p>' +
         '<p class="prompt-ja">' + KE.esc(item.ja) + "</p>" +
@@ -133,7 +175,6 @@
             var g = parseInt(b.getAttribute("data-g"), 10);
             KE.srs.grade(item.id, g);
             if (g === 2) correct++;
-            results.push({ id: item.id, g: g });
             idx++;
             if (idx < pool.length) showCard();
             else finish();
@@ -151,13 +192,10 @@
       el.innerHTML = '<div class="practice-stage session-result">' +
         '<div class="big">' + (rate >= 80 ? "🎉" : rate >= 50 ? "👍" : "💪") + "</div>" +
         '<div class="score">' + correct + " / " + pool.length + " 文（" + rate + "%）</div>" +
-        '<p class="sub">学習時間 ' + minutes + " 分を記録しました。<br>できなかった文は明日また出題されます。</p>" +
+        '<p class="sub">学習時間 ' + minutes + " 分を記録しました。<br>できなかった文は忘れる前に再出題されます。</p>" +
         '<div class="btn-row mt-16" style="justify-content:center">' +
-        '<button class="btn btn-primary" id="again-btn">もう 1 セット</button>' +
+        '<a class="btn btn-primary" href="#/composition" id="back-btn">セッション一覧へ</a>' +
         '<a class="btn" href="#/dashboard">ホームへ戻る</a></div></div>';
-      document.getElementById("again-btn").addEventListener("click", function () {
-        startSession(el, deckId);
-      });
     }
 
     showCard();

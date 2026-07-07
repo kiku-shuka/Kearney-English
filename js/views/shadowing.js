@@ -18,25 +18,66 @@
     renderList(el);
   };
 
+  function allScripts() {
+    // 配信分（新しいものが配列末尾に追記される）を先頭に
+    return (KE_DATA.extraShadowing || []).slice().reverse().concat(KE_DATA.shadowingScripts);
+  }
+
+  function doneMap() { return S.get("shadowDone", {}); }
+
+  function doneBadge(id) {
+    var d = doneMap()[id];
+    if (!d) return "";
+    return d.rating === 2 ? ' <span class="badge-done">✔ スラスラ</span>' : ' <span class="tag">△ 練習中</span>';
+  }
+
+  /* 今週やるべき 1 本：未仕上げ（スラスラ未達）の中で最も新しいもの */
+  function currentScript() {
+    var list = allScripts();
+    var undone = list.filter(function (s) {
+      var d = doneMap()[s.id];
+      return !d || d.rating < 2;
+    });
+    return undone[0] || list[0];
+  }
+
   function renderList(el) {
     var html = '<h2 class="view-title">🎧 シャドーイング</h2>' +
-      '<p class="view-desc">Kearney流リスニングメソッドの中心。200 ワード程度の短いパッセージを、<strong>1 日 1 本、文字を見ずにそらんじられるまで</strong>徹底的にシャドーイングします。最初は 1 文ずつ止めながら、徐々に全体を通して。慣れたら海外ドラマの登場人物になりきって追いかけるのも効果的です。</p>';
+      '<p class="view-desc">Kearney流リスニングメソッドの中心。<strong>1 本を、文字を見ずにそらんじられるまで</strong>徹底的に仕上げます。今週の 1 本に集中し、仕上がったら次へ。</p>';
 
-    KE_DATA.shadowingScripts.forEach(function (sc) {
-      html += '<div class="card mb-8"><div class="flex-between">' +
-        '<div><h3>' + KE.esc(sc.title) + ' <span class="tag">' + sc.level + " ｜ " + sc.lines.length + "文</span></h3>" +
-        '<p class="sub">' + KE.esc(sc.description) + "</p></div>" +
-        '<button class="btn btn-primary" data-script="' + sc.id + '">練習する</button></div></div>';
+    var cur = currentScript();
+    html += '<div class="card" style="border-left:3px solid var(--series-1)"><div class="flex-between">' +
+      '<div><h3>▶ 今週の 1 本：' + KE.esc(cur.title) + ' <span class="tag">' + cur.level + " ｜ " + cur.lines.length + "文</span>" + doneBadge(cur.id) + "</h3>" +
+      '<p class="sub">' + KE.esc(cur.description) + "</p></div>" +
+      '<button class="btn btn-primary btn-lg" data-script="' + cur.id + '">練習する</button></div></div>';
+
+    /* 過去のスクリプトはライブラリとして折りたたみ */
+    html += '<div class="card mt-16"><div class="flex-between" style="cursor:pointer" id="lib-toggle">' +
+      '<h3>📦 スクリプトライブラリ（全 ' + allScripts().length + ' 本）</h3><span class="tag" id="lib-arrow">▼ 開く</span></div>' +
+      '<div id="lib-list" style="display:none">';
+    allScripts().forEach(function (sc) {
+      html += '<div class="flex-between" style="padding:10px 0;border-bottom:1px solid var(--gridline)">' +
+        '<div><strong style="font-size:14px">' + KE.esc(sc.title) + '</strong> <span class="tag">' + sc.level + " ｜ " + sc.lines.length + "文</span>" + doneBadge(sc.id) +
+        '<div class="sub">' + KE.esc(sc.description) + "</div></div>" +
+        '<button class="btn btn-sm" data-script="' + sc.id + '">練習</button></div>';
     });
+    html += "</div></div>";
 
     if (!KE.speech.available()) {
-      html += '<p class="warn-note">⚠️ このブラウザは音声合成に対応していないため、音声を再生できません。Chrome / Edge / Safari の利用を推奨します。</p>';
+      html += '<p class="warn-note mt-8">⚠️ このブラウザは音声合成に対応していないため、音声を再生できません。Chrome / Edge / Safari の利用を推奨します。</p>';
     }
 
     el.innerHTML = html;
+    var toggle = document.getElementById("lib-toggle");
+    toggle.addEventListener("click", function () {
+      var list = document.getElementById("lib-list");
+      var open = list.style.display !== "none";
+      list.style.display = open ? "none" : "";
+      document.getElementById("lib-arrow").textContent = open ? "▼ 開く" : "▲ 閉じる";
+    });
     el.querySelectorAll("[data-script]").forEach(function (b) {
       b.addEventListener("click", function () {
-        var sc = KE_DATA.shadowingScripts.filter(function (s) { return s.id === b.getAttribute("data-script"); })[0];
+        var sc = allScripts().filter(function (s) { return s.id === b.getAttribute("data-script"); })[0];
         renderPlayer(el, sc);
       });
     });
@@ -201,6 +242,10 @@
           var r = parseInt(b.getAttribute("data-r"), 10);
           var minutes = KE.sessionTimer.minutes();
           S.addLog("shadowing", minutes, sc.lines.length, r === 2 ? sc.lines.length : r === 1 ? Math.round(sc.lines.length / 2) : 0);
+          // 仕上がり状態を保存（「今週の1本」の選定と一覧のバッジに使う）
+          var done = S.get("shadowDone", {});
+          done[sc.id] = { rating: Math.max(r, (done[sc.id] || {}).rating || 0), d: S.todayStr() };
+          S.set("shadowDone", done);
           KE.updateHeader();
           KE.toast("シャドーイング " + minutes + " 分を記録しました");
           renderList(el);

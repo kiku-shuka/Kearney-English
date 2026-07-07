@@ -24,6 +24,14 @@
     renderList(el);
   };
 
+  function allTopics() {
+    return KE_DATA.prepTopics.concat(KE_DATA.extraPrep || []);
+  }
+
+  function topicById(id) {
+    return allTopics().filter(function (t) { return t.id === id; })[0];
+  }
+
   function renderList(el) {
     var answered = {};
     S.getPrepAnswers().forEach(function (a) { answered[a.topicId] = (answered[a.topicId] || 0) + 1; });
@@ -38,12 +46,27 @@
     });
     html += "</ul></div>";
 
-    html += '<div class="card"><div class="flex-between"><div><h3>ランダムなお題に挑戦</h3>' +
+    /* 今週の時事お題（週次配信の最新 3 題）。配信がなければランダム挑戦が主役 */
+    var extras = (KE_DATA.extraPrep || []).slice().reverse().slice(0, 3);
+    if (extras.length) {
+      html += '<div class="card" style="border-left:3px solid var(--series-1)"><h3>▶ 今週のお題（時事）</h3><ul class="item-list">';
+      extras.forEach(function (t) {
+        html += '<li><div class="li-main"><div class="li-en">' + KE.esc(t.ja) + '</div><div class="li-ja">' + KE.esc(t.en) + "</div></div>" +
+          (answered[t.id] ? '<span class="badge-done">✔ 済</span>' : "") +
+          '<button class="btn btn-sm btn-primary" data-topic="' + t.id + '">挑戦</button></li>';
+      });
+      html += "</ul></div>";
+    }
+
+    html += '<div class="card' + (extras.length ? " mt-16" : "") + '"><div class="flex-between"><div><h3>ランダムなお題に挑戦</h3>' +
       '<p class="sub">本番の会議で「意見は？」と振られる状況を再現します。</p></div>' +
       '<button class="btn btn-primary" id="random-btn">お題を引く</button></div></div>';
 
-    html += '<div class="card mt-16"><h3>お題一覧</h3><ul class="item-list">';
-    KE_DATA.prepTopics.forEach(function (t) {
+    /* 全お題はアーカイブとして折りたたみ */
+    html += '<div class="card mt-16"><div class="flex-between" style="cursor:pointer" id="topic-toggle">' +
+      '<h3>📦 お題アーカイブ（全 ' + allTopics().length + ' 題）</h3><span class="tag" id="topic-arrow">▼ 開く</span></div>' +
+      '<ul class="item-list" id="topic-list" style="display:none">';
+    allTopics().forEach(function (t) {
       html += '<li><div class="li-main"><div class="li-en">' + KE.esc(t.ja) + '</div><div class="li-ja">' + KE.esc(t.en) + "</div></div>" +
         (answered[t.id] ? '<span class="badge-done">✔ ' + answered[t.id] + "回</span>" : "") +
         '<button class="btn btn-sm" data-topic="' + t.id + '">挑戦</button></li>';
@@ -54,7 +77,7 @@
     if (history.length) {
       html += '<div class="card mt-16"><h3>これまでの回答（' + history.length + '件）</h3><ul class="item-list">';
       history.slice(0, 5).forEach(function (a) {
-        var topic = KE_DATA.prepTopics.filter(function (t) { return t.id === a.topicId; })[0];
+        var topic = topicById(a.topicId);
         html += '<li><div class="li-main"><div class="li-en">' + KE.esc(topic ? topic.ja : a.topicId) + "</div>" +
           '<div class="li-ja">' + new Date(a.ts).toLocaleDateString("ja-JP") + " ｜ セルフチェック " + a.checks + " / 5 ｜ " +
           KE.esc((a.texts.point || "").slice(0, 40)) + "…</div></div></li>";
@@ -64,13 +87,18 @@
 
     el.innerHTML = html;
     document.getElementById("random-btn").addEventListener("click", function () {
-      var t = KE_DATA.prepTopics[Math.floor(Math.random() * KE_DATA.prepTopics.length)];
-      renderPractice(el, t);
+      var pool = allTopics();
+      renderPractice(el, pool[Math.floor(Math.random() * pool.length)]);
+    });
+    document.getElementById("topic-toggle").addEventListener("click", function () {
+      var list = document.getElementById("topic-list");
+      var open = list.style.display !== "none";
+      list.style.display = open ? "none" : "";
+      document.getElementById("topic-arrow").textContent = open ? "▼ 開く" : "▲ 閉じる";
     });
     el.querySelectorAll("[data-topic]").forEach(function (b) {
       b.addEventListener("click", function () {
-        var t = KE_DATA.prepTopics.filter(function (x) { return x.id === b.getAttribute("data-topic"); })[0];
-        renderPractice(el, t);
+        renderPractice(el, topicById(b.getAttribute("data-topic")));
       });
     });
   }

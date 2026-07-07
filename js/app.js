@@ -79,6 +79,16 @@ KE.updateHeader = function () {
   }
 
   window.addEventListener("hashchange", render);
+
+  // 現在と同じルートへのリンク（結果画面 →「一覧へ」等）は hashchange が
+  // 発火しないため、明示的に再描画する
+  document.addEventListener("click", function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href^="#/"]') : null;
+    if (a && a.getAttribute("href") === location.hash) {
+      e.preventDefault();
+      render();
+    }
+  });
   window.addEventListener("DOMContentLoaded", function () {
     // 初回訪問（プロフィール未作成）なら診断へ誘導
     if (!location.hash && !KE.storage.getProfile()) {

@@ -14,9 +14,14 @@
     var html = '<h2 class="view-title">🎭 実践ロールプレイ</h2>' +
       '<p class="view-desc">相手のセリフが音声で流れます。<strong>あなたの番では実際に声に出して</strong>応答してから、モデル回答と比べて自己評価しましょう。Kearney流スピーキングメソッドの通り、<strong>覚えた表現を「この場面で◯回使う」と決めて</strong>臨むと効果が上がります。英文表示を隠せばリスニングの負荷も上げられます。</p>';
 
-    KE_DATA.scenarios.forEach(function (sc) {
-      html += '<div class="card mb-8"><div class="flex-between">' +
-        '<div><h3>' + KE.esc(sc.title) + ' <span class="tag">' + sc.level + "</span></h3>" +
+    var extras = (KE_DATA.extraScenarios || []).slice().reverse();
+    var all = extras.concat(KE_DATA.scenarios);
+    var done = S.get("rpDone", {});
+    all.forEach(function (sc, i) {
+      var isNew = extras.length && i === 0 && !done[sc.id];
+      html += '<div class="card mb-8"' + (isNew ? ' style="border-left:3px solid var(--series-1)"' : "") + '><div class="flex-between">' +
+        '<div><h3>' + (isNew ? "🆕 " : "") + KE.esc(sc.title) + ' <span class="tag">' + sc.level + "</span>" +
+        (done[sc.id] ? ' <span class="badge-done">✔ 完走</span>' : "") + "</h3>" +
         '<p class="sub">' + KE.esc(sc.description) + "</p>" +
         '<p class="sub mt-8">あなたの役：' + KE.esc(sc.userRole) + " ｜ 相手役：" + KE.esc(sc.partnerRole) + "</p></div>" +
         '<button class="btn btn-primary" data-scenario="' + sc.id + '">開始</button></div></div>';
@@ -25,7 +30,7 @@
     el.innerHTML = html;
     el.querySelectorAll("[data-scenario]").forEach(function (b) {
       b.addEventListener("click", function () {
-        var sc = KE_DATA.scenarios.filter(function (s) { return s.id === b.getAttribute("data-scenario"); })[0];
+        var sc = all.filter(function (s) { return s.id === b.getAttribute("data-scenario"); })[0];
         startSession(el, sc);
       });
     });
@@ -150,6 +155,9 @@
     function finish() {
       var minutes = KE.sessionTimer.minutes();
       S.addLog("roleplay", minutes, userTurns, okCount);
+      var done = S.get("rpDone", {});
+      done[sc.id] = true;
+      S.set("rpDone", done);
       KE.updateHeader();
       var rate = userTurns ? Math.round(100 * okCount / userTurns) : 0;
       action.innerHTML = '<div class="session-result">' +
