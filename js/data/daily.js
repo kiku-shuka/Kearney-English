@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-09",
+    passages: [
+      {
+        id: "d0709-1",
+        title: "The Billion-Dollar Race for a Weight-Loss Pill",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Weight-loss medicine has become one of the biggest business stories of the decade. Until now, the most famous treatments were weekly injections, which are expensive to make and need refrigeration. The next battle is about something much simpler: a daily pill.\nThis week brought important news from a major clinical trial. A new once-daily tablet helped patients lose more weight and control their blood sugar better than the leading oral treatment currently on the market. For drug companies, results like this are worth billions. Pills are cheaper to produce than injections, easier to ship around the world, and much easier for patients to accept.\nThe business impact could be huge. Analysts expect the global market for these medicines to keep growing for years, and the company with the best pill could take a large share of it. Health systems and insurers are watching closely too, because lower production costs could finally make these treatments affordable for more people.\nThere are still open questions. Long-term safety data takes years to collect, and doctors warn that medicine works best together with changes in diet and exercise. But one thing seems clear: the competition to put weight loss in a small daily tablet has become one of the most valuable races in modern business.",
+        summaryJa: "肥満治療薬ビジネスの主戦場が「注射」から「1日1回の飲み薬」へ。大規模治験で新しい経口薬が既存の主力経口薬を上回る減量・血糖改善効果を示した。錠剤は製造・輸送コストが低く患者にも受け入れられやすいため、市場への影響は巨大。長期安全性の検証はこれからだが、製薬業界で最も価値のある開発競争になっている。",
+        quiz: [
+          { q: "今回の治験ニュースの内容は？", options: ["新しい経口薬が既存の経口薬を上回る効果を示した", "注射薬が販売中止になった", "薬の価格が2倍になった"], answer: 0 },
+          { q: "錠剤が注射より有利な点として挙げられているのは？", options: ["製造・輸送コストが低く患者に受け入れられやすい", "効果が永久に続く", "医師が不要になる"], answer: 0 },
+          { q: "本文が示す注意点は？", options: ["長期安全性の確認には時間がかかり、食事・運動との併用が大事", "薬はすでに完璧である", "市場は縮小している"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0709-2",
+        title: "A Material That Can 'Program' Heat",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "We are used to controlling electricity with switches and chips. Controlling heat has always been harder: it flows where it wants, and our main tools are simple insulation or fans. That may be starting to change. Researchers have developed a new material that can direct thermal radiation, switch between different modes, and even remember its settings without a continuous power supply.\nThink of it as a kind of switch for heat. The material can be set to send warmth in a chosen direction, or to change how much heat it releases, and it keeps that setting like a memory chip keeps data. Because it does not need constant energy to hold its state, it could save power in many applications.\nWhy does this matter for industry? Managing heat is one of the biggest hidden costs in modern technology. Data centers spend enormous amounts of money on cooling. Electric car batteries need careful temperature control to stay safe and efficient. Buildings lose energy through walls and windows every day. A material that can direct and program heat could make all of these systems smarter and cheaper to run.\nThe technology is still in the laboratory stage, and scaling it up will take years. But it points to a future where heat, like electricity, becomes something we control with precision.",
+        summaryJa: "熱の放射方向やモードを切り替え、電源なしで設定を記憶できる「熱をプログラムできる」新材料が開発された。データセンターの冷却、EVバッテリーの温度管理、建物の断熱など、熱管理は現代技術の隠れた巨大コストであり、応用範囲は広い。実用化はまだ先だが、電気のように熱を精密制御する未来を示す成果。",
+        quiz: [
+          { q: "新材料ができることとして正しいのは？", options: ["熱の放射を制御し、設定を電源なしで記憶する", "熱を完全に消し去る", "電気を無限に生み出す"], answer: 0 },
+          { q: "応用先として挙げられていないものは？", options: ["データセンターの冷却", "EVバッテリーの温度管理", "宇宙旅行のチケット販売"], answer: 2 },
+          { q: "この技術の現状は？", options: ["すでに全世界で販売中", "実験室段階で実用化には年月が必要", "法律で禁止された"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0709-3",
+        title: "Cities Learn to Live with Extreme Heat",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "July is high summer in much of the world, and once again cities from Europe to Asia are facing dangerous heat. Extreme temperatures are no longer rare events; they have become a seasonal challenge that governments must plan for, like snow in winter.\nThe costs are real and rising. Heat slows down outdoor work, damages roads and rail lines, and pushes power grids to their limits as millions of air conditioners run at once. Health systems feel the pressure too, especially where many elderly people live alone.\nCities are responding in creative ways. Some have appointed 'heat officers' whose only job is to prepare for hot weather. Others are painting roofs white to reflect sunlight, planting thousands of trees to create shade, and opening public cooling centers in libraries and community halls. Schools and companies are moving activity to early morning hours, and some countries now give outdoor workers a legal right to rest breaks when temperatures pass certain levels.\nExperts say the deeper lesson is about planning. Emergency responses save lives during a heat wave, but the cities that suffer least are the ones that redesigned themselves in advance — with greener streets, better buildings, and clear rules. In a warming world, heat management is becoming a normal part of good government.",
+        summaryJa: "7月、欧州からアジアまで各都市が危険な暑さに直面。猛暑はもはや珍しい災害ではなく、政府が備えるべき「季節の課題」になった。屋外労働や交通、電力網、医療への負荷が増す中、都市は「暑さ対策責任者」の任命、屋根の白塗装、植樹、クーリングセンター開設、屋外労働者の休憩権などで対応。事前に都市を設計し直した街ほど被害が少ない——暑さ対策は行政の標準業務になりつつある。",
+        quiz: [
+          { q: "本文の主張として正しいのは？", options: ["猛暑は政府が計画的に備えるべき季節的課題になった", "猛暑は今年で終わる", "暑さは経済に影響しない"], answer: 0 },
+          { q: "都市の対策として挙げられていないものは？", options: ["屋根を白く塗る", "クーリングセンターを開く", "夏の外出を法律で禁止する"], answer: 2 },
+          { q: "被害が少ない都市の特徴は？", options: ["事前に緑化や建物改善など都市を設計し直している", "偶然涼しい年が続いている", "人口が多い"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0709-4",
+        title: "A Hidden Weakness Behind the 2011 Tsunami",
+        level: "★★★",
+        genre: "日本",
+        text: "The earthquake and tsunami of March 2011 changed Japan forever, and scientists have spent years asking why that event became so extreme. New research now points to a hidden weakness in the sea floor off the Tohoku coast that may explain the disaster's terrible scale.\nEarthquakes in this region happen where one tectonic plate slides beneath another. Normally, friction between the plates limits how far the sea floor can suddenly move. But the new study found that part of the boundary zone beneath the Pacific was mechanically much weaker than expected. When the 2011 earthquake began, this weak section allowed an enormous slip — tens of meters — right up to the shallow sea floor near the trench. That huge shallow movement lifted the ocean above it and created the devastating tsunami.\nWhy does this discovery matter today? Because similar weak zones may exist along other subduction boundaries, including areas that threaten Japan's Pacific coast in the future. If scientists can map where these zones are, they can better estimate which regions face the highest tsunami risk and improve building rules, sea walls, and evacuation plans.\nThe research is also a reminder of how much the 2011 disaster still teaches. Fifteen years later, every new detail helps Japan — and other coastal nations — prepare for the next big one.",
+        summaryJa: "2011年の東日本大震災がなぜあれほど巨大化したのか——東北沖の海底下にあるプレート境界の「想定以上に弱い領域」が、海溝近くの浅部まで数十メートルの巨大なすべりを許し、津波を極大化させたとする新研究が発表された。同様の弱い領域は他の沈み込み帯にも存在しうるため、その分布を特定できれば津波リスク評価や防潮堤・避難計画の改善につながる。",
+        quiz: [
+          { q: "新研究が特定したものは？", options: ["プレート境界の想定以上に弱い領域", "新しい火山", "海底都市の遺跡"], answer: 0 },
+          { q: "その弱い領域が引き起こしたことは？", options: ["海溝近くの浅部での巨大なすべりと津波の極大化", "地震の発生を防いだ", "海流の変化"], answer: 0 },
+          { q: "この発見の今後への意味は？", options: ["津波リスク評価や防災計画の改善に役立つ", "地震予知が完全に可能になった", "防潮堤が不要になる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0709-5",
+        title: "Quantum Weirdness You Can Almost See",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Quantum physics has a reputation for being invisible. Its strange rules — particles in two states at once, mysterious connections across distance — usually apply only to atoms and electrons, far too small to see. That is why a new experiment is getting so much attention: scientists found clear signs of quantum entanglement in a crystal about one centimeter wide, an object you could hold between your fingers.\nEntanglement is the strange link Einstein called 'spooky action at a distance.' When two particles are entangled, measuring one instantly tells you about the other, no matter how far apart they are. Physicists have demonstrated this with photons and atoms for decades. Showing related behavior in a large, everyday-sized object is a different level of surprise.\nWhy do researchers care? First, it tests the boundary between the quantum world and our normal world. Nobody fully understands where quantum rules stop applying, and every experiment like this pushes that line further. Second, it has practical promise. Quantum sensors built from larger objects could detect incredibly small forces, which is useful for navigation, medicine, and studying the Earth.\nThe result does not mean your coffee cup is entangled with your phone. But it shows that the quantum world is closer to daily life than we usually think — and that physics still has surprises left.",
+        summaryJa: "約1センチの結晶——指でつまめるサイズの物体——で量子もつれの明確な証拠が確認された。量子もつれは通常、原子や光子など極小の世界の現象で、日常サイズの物体での実証は「量子と日常の境界」を探る大きな一歩。微小な力を検出できる量子センサーへの応用も期待され、航法・医療・地球観測などに役立つ可能性がある。",
+        quiz: [
+          { q: "今回の実験の驚きは？", options: ["1センチほどの結晶で量子もつれの証拠が見つかった", "新しい惑星が見つかった", "光より速い通信が実現した"], answer: 0 },
+          { q: "アインシュタインが量子もつれを何と呼んだ？", options: ["不気味な遠隔作用", "美しい調和", "小さな奇跡"], answer: 0 },
+          { q: "この研究の実用的な可能性は？", options: ["微小な力を検出する量子センサー", "永久機関の実現", "テレポーテーション旅行"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-08",
     passages: [
       {
