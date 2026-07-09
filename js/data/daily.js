@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-10",
+    passages: [
+      {
+        id: "d0710-1",
+        title: "How Investors Made Billions on Memory Chips",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "One of the most talked-about business stories in Asia this year is a quiet exit. A major American investment fund has finished selling its stake in a large Japanese memory chip maker, closing a deal that began years ago and ended with very large returns.\nThe story is a classic example of how private equity works. A private equity fund buys a company — or a large part of it — that it believes is undervalued. It then works to improve the business over several years: cutting costs, changing management, investing in new products. Finally, it sells its stake, hoping the company is now worth far more than the purchase price.\nIn this case, timing did much of the work. The fund bought into the memory chip business when prices were low and the industry looked risky. Then the AI boom arrived. Data centers need enormous amounts of memory, and demand for advanced chips exploded. The value of chip companies rose around the world, and what once looked like a risky bet became one of the decade's great investments.\nThe lesson for business readers is not simply that chips are hot. It is that patient capital, bought at the right moment in an unpopular industry, can beat the most exciting trends — because the price you pay matters as much as the story you believe.",
+        summaryJa: "米大手投資ファンドが日本の大手メモリ半導体メーカーの持ち分売却を完了し、巨額のリターンを得た。安く買い、数年かけて事業を改善し、高く売るというPE(プライベートエクイティ)の典型例で、AIブームによるメモリ需要の爆発が追い風になった。教訓は「買値は信じるストーリーと同じくらい重要」ということ。",
+        quiz: [
+          { q: "プライベートエクイティの基本的な手法は？", options: ["割安な企業を買い、改善して、高く売る", "毎日株を売買する", "銀行に預金する"], answer: 0 },
+          { q: "この投資が大きな利益になった追い風は？", options: ["AIブームによるメモリ需要の急増", "円高", "チップ価格の下落"], answer: 0 },
+          { q: "本文の教訓は？", options: ["買値はストーリーと同じくらい重要", "人気産業だけに投資すべき", "投資は運だけで決まる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0710-2",
+        title: "Foldable Phones Try to Go Mainstream",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Phones that fold in half have existed for several years, but until recently they were a niche product: expensive, heavy, and a little fragile. That may be changing. Industry reports say production targets for foldable phones are reaching around ten million units, a scale that suggests makers now see them as a mainstream product, not an experiment.\nWhy the new confidence? Three things have improved. First, the folding screens themselves are stronger, and the crease in the middle is much less visible than before. Second, the phones have become thinner and lighter, so a folded device no longer feels like two phones glued together. Third, prices are slowly coming down as factories produce more units and competition increases.\nThe business logic is simple: the regular smartphone market is saturated. Almost everyone who wants a phone already has one, and new models look much like old ones. Foldables give makers something genuinely different to sell, with higher prices and higher profits — if customers accept them.\nChallenges remain. Repair costs are high, some apps still do not use the larger screen well, and many buyers simply do not see why they need a folding device. The next year or two will show whether foldables become the new normal or stay a stylish minority choice.",
+        summaryJa: "折りたたみスマホの生産目標が約1,000万台規模に達し、実験的製品から主流製品への転換点を迎えつつある。画面の耐久性向上・薄型軽量化・価格低下が背景。スマホ市場の飽和で差別化商品が必要というメーカー側の事情もある。修理費の高さやアプリ対応、そもそもの必要性への疑問など課題は残り、今後1〜2年が正念場。",
+        quiz: [
+          { q: "折りたたみスマホの生産目標の規模は？", options: ["約1,000万台", "約100台", "約10億台"], answer: 0 },
+          { q: "改善点として挙げられていないものは？", options: ["画面の強度", "薄型軽量化", "バッテリーの完全ワイヤレス化"], answer: 2 },
+          { q: "メーカーが折りたたみに力を入れる理由は？", options: ["通常のスマホ市場が飽和し差別化が必要だから", "法律で義務化されたから", "製造が簡単だから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0710-3",
+        title: "Japan and India Move Closer",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Two of Asia's largest democracies are building a deeper partnership. Recent summit talks between Japan and India covered an ambitious agenda, and analysts note that both sides now want practical cooperation, not just friendly declarations.\nThe logic of the partnership is easy to see. Japan has advanced technology, capital, and decades of manufacturing know-how, but its population is shrinking. India has a huge and young workforce, a fast-growing economy, and enormous demand for infrastructure, but it needs investment and technology. Each country has what the other lacks.\nEconomic security is a central theme. Both countries want supply chains that do not depend too heavily on any single nation, especially for critical goods like semiconductors, batteries, and rare materials. Japanese companies are expanding factories in India, and the two governments are discussing cooperation in defense technology, digital payments, and even the movement of skilled workers — Indian engineers for Japanese companies, for example.\nThere are obstacles, of course. Business cultures differ, infrastructure gaps remain, and big projects move slowly. But the direction is clear: in an uncertain world, Tokyo and New Delhi see each other as long-term partners. For businesspeople, the message is practical — the Japan-India corridor is becoming one of the most important economic relationships to watch in Asia.",
+        summaryJa: "日印首脳会談は宣言にとどまらない実務協力へ踏み出した。少子化の日本は技術と資本を、若い労働力と成長市場を持つインドは投資と技術を必要とし、相互補完の関係にある。半導体・電池・重要物資のサプライチェーン多元化という経済安全保障が中心テーマで、防衛技術・デジタル決済・高度人材の移動でも協力を協議。日印回廊はアジアで最も注目すべき経済関係の一つになりつつある。",
+        quiz: [
+          { q: "日印協力の背景にある相互補完とは？", options: ["日本の技術・資本とインドの若い労働力・成長市場", "両国とも人口が増えている", "同じ言語を話す"], answer: 0 },
+          { q: "経済安全保障の中心テーマは？", options: ["特定国に依存しないサプライチェーンづくり", "観光客の誘致", "映画の共同製作"], answer: 0 },
+          { q: "本文が挙げる協力分野に含まれないものは？", options: ["防衛技術", "デジタル決済", "宇宙人の研究"], answer: 2 }
+        ]
+      },
+      {
+        id: "d0710-4",
+        title: "A Chip Boomtown Grows in Kyushu",
+        level: "★★☆",
+        genre: "日本",
+        text: "A few years ago, few people outside Japan had heard of the farming towns of Kumamoto prefecture. Today the region is one of the most watched places in the global semiconductor industry. Since the world's largest contract chipmaker opened factories there, a whole ecosystem has grown around them — and it keeps expanding.\nRecent reports say local suppliers are adding significant new capacity, with one manufacturer expanding its local production by about forty percent to serve the growing hub. Chemical makers, equipment companies, and logistics firms are all building facilities nearby. The goal is a complete supply chain in one region, so that materials and parts do not have to travel far.\nThe effects reach far beyond the factories. Land prices around the plants have jumped, new restaurants and apartments are opening, and local schools are adding engineering programs. Young people who once left for Tokyo or Osaka now see careers at home. At the same time, growth brings problems familiar to boomtowns everywhere: traffic jams, worker shortages, and worries about water use by the factories.\nFor Japan, Kyushu's chip cluster is a test case. The country wants to rebuild the semiconductor strength it lost decades ago. If the model works — foreign investment, local suppliers, and government support pulling together — other regions will try to copy it.",
+        summaryJa: "世界最大の半導体受託製造企業の工場進出以来、熊本を中心とする九州が世界的な半導体集積地に変貌しつつある。地場サプライヤーは生産能力を約4割増強するなど拡大が続き、材料・装置・物流が一体となった地域完結型サプライチェーンを目指す。地価上昇や雇用の地元定着という恩恵の一方、渋滞・人手不足・水資源への懸念も。日本の半導体復権のテストケースとして注目される。",
+        quiz: [
+          { q: "熊本周辺で起きていることは？", options: ["半導体の supply chain 集積地として拡大している", "工場がすべて閉鎖された", "農業だけが成長している"], answer: 0 },
+          { q: "地場サプライヤーの動きは？", options: ["生産能力を約4割増強", "生産を海外へ全面移転", "半導体事業から撤退"], answer: 0 },
+          { q: "ブームの課題として挙げられているのは？", options: ["渋滞・人手不足・水資源への懸念", "観光客の減少", "地価の暴落"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0710-5",
+        title: "Small Rockets, Big Dreams",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Space used to be a game for superpowers. Building and launching rockets cost so much that only governments could afford it. That era is ending. Around the world — including in Japan, where space is now one of the strongest startup fields — small private companies are building rockets, satellites, and services that were unthinkable for startups a decade ago.\nThe key change is cost. Modern small satellites can be built with standard electronic parts, and they weigh kilograms instead of tons. Small rockets, designed to carry these light payloads, are cheaper to build and can launch more often. Reusable technology, pioneered by larger players, has pushed prices down across the industry.\nWhat do all these small satellites actually do? More than most people think. They photograph farmland to help farmers use water and fertilizer wisely. They track ships and monitor illegal fishing. They measure greenhouse gases, connect remote areas to the internet, and watch disasters like floods and wildfires in near real time.\nJapan's government has named space a national priority, and universities, startups, and big manufacturers are joining the field. Challenges are real — launches fail, funding is risky, and competition is global. But the message of the new space race is inspiring: the sky is no longer the limit for small teams with big ideas.",
+        summaryJa: "宇宙開発は超大国の独占物から、スタートアップの主戦場へ。小型衛星は標準部品で安価に作れ、小型ロケットの登場と再使用技術の普及で打ち上げコストが激減した。小型衛星は農業支援、船舶追跡、温室効果ガス観測、災害監視など幅広く活躍。日本も宇宙を国家的優先分野に位置づけ、スタートアップの最有力分野の一つになっている。",
+        quiz: [
+          { q: "宇宙開発の変化の鍵は？", options: ["小型化と再使用技術によるコスト激減", "宇宙人との協力", "ロケットの大型化"], answer: 0 },
+          { q: "小型衛星の用途として挙げられていないものは？", options: ["農業の支援", "災害の監視", "月面ホテルの運営"], answer: 2 },
+          { q: "日本の宇宙分野の現状は？", options: ["国家的優先分野でスタートアップの有力分野", "全面的に禁止されている", "関心が失われている"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-09",
     passages: [
       {
