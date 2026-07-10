@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-11",
+    passages: [
+      {
+        id: "d0711-1",
+        title: "When Your Biggest Customer Becomes Your Biggest Risk",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Factories across the Asia-Pacific region are quietly changing their plans. Reports say manufacturers in Japan, South Korea, Taiwan, and Australia are turning more attention to local and regional customers, because orders from the United States have become harder to predict.\nFor decades, the strategy was simple: make good products and sell them to the world's biggest consumer market. But trade rules now change quickly, tariffs appear and disappear with politics, and long supply chains can be disrupted overnight. A factory that depends on one distant market can see its plans destroyed by a single policy announcement.\nThe response is diversification. Companies are building customer bases closer to home, selling more within Asia, and opening production sites in the regions where their buyers actually are. This costs money in the short term — new factories and new sales networks are expensive — but it buys something valuable: stability.\nThe lesson applies far beyond manufacturing. Any business that earns most of its money from one client faces the same danger. Consultants often call this customer concentration risk. A useful exercise for any company, large or small, is to ask a simple question: if our biggest customer disappeared tomorrow, would we survive? If the honest answer is no, diversification is not a luxury — it is homework.",
+        summaryJa: "日韓台豪のメーカーが、予測しにくくなった米国からの受注に頼らず、地域内の顧客開拓や現地生産へ軸足を移しつつある。貿易ルールや関税が政治で急変する時代、一つの遠い市場への依存は大きなリスク。短期的にはコストがかかっても多角化は安定を買う投資であり、「最大顧客が明日消えたら生き残れるか」という顧客集中リスクの問いはどんな企業にも当てはまる。",
+        quiz: [
+          { q: "アジア太平洋のメーカーが起こしている変化は？", options: ["地域内の顧客や現地生産へ軸足を移している", "全工場を米国へ移転している", "生産を全面停止している"], answer: 0 },
+          { q: "背景にある問題は？", options: ["米国からの受注が予測しにくくなった", "労働者が急増した", "原材料が無料になった"], answer: 0 },
+          { q: "「顧客集中リスク」への問いとして本文が挙げるのは？", options: ["最大顧客が明日消えたら生き残れるか", "社員旅行の行き先はどこか", "オフィスの広さは十分か"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0711-2",
+        title: "A Clever Upgrade Makes Old MRI Machines Better",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Hospitals face a constant dilemma: medical technology improves every year, but the machines are enormously expensive. An MRI scanner can cost millions of dollars, so most hospitals must use the same machine for a decade or more. That is why a new piece of research is attracting attention — it improves MRI images without replacing the scanner at all.\nResearchers redesigned a key piece of MRI hardware using metamaterials. These are engineered structures whose behavior comes from their carefully designed shape and pattern, not just from the substance they are made of. Placed in the imaging system, the new component helps existing scanners produce clearer pictures of body parts that are usually difficult to see — and in less time.\nThe benefits multiply quickly. Clearer images mean doctors can spot problems earlier and with more confidence. Shorter scan times mean less discomfort for patients, especially children and people who feel anxious in the narrow tunnel. And because each scan takes less time, hospitals can examine more patients with the same machine.\nThe wider lesson is about innovation itself. We often imagine progress as replacing old machines with new ones. But some of the most valuable engineering makes existing equipment better — a cheaper, faster, and greener path that matters everywhere, from hospitals to factories.",
+        summaryJa: "MRIの主要部品をメタマテリアル(形状と構造で性質を設計した人工材料)で再設計し、既存のスキャナのまま「見えにくい部位をより鮮明に・より短時間で」撮影できるようにする研究が注目されている。画像の鮮明化は早期発見に、時間短縮は患者負担の軽減と検査数の増加につながる。買い替えではなく既存設備を賢く改良するイノベーションの好例。",
+        quiz: [
+          { q: "この研究の特徴は？", options: ["既存のMRIを買い替えずに画質と速度を改善する", "MRIを廃止する", "新しい巨大スキャナを開発した"], answer: 0 },
+          { q: "メタマテリアルとは？", options: ["形状や構造の設計で性質を生み出す人工材料", "宇宙から採れる鉱物", "新種の医薬品"], answer: 0 },
+          { q: "スキャン時間短縮の利点として挙げられていないものは？", options: ["患者の負担軽減", "より多くの患者を検査できる", "電気代が無料になる"], answer: 2 }
+        ]
+      },
+      {
+        id: "d0711-3",
+        title: "The Global Race for Critical Minerals",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Behind every electric car, wind turbine, and smartphone lies a handful of materials most people never think about: lithium, cobalt, nickel, and the group known as rare earth elements. As the world electrifies, these critical minerals have become a matter of national strategy — and international tension.\nThe problem is concentration. Mining and, even more importantly, processing of many critical minerals are dominated by a small number of countries. When one nation controls most of the world's supply of a material that everyone needs, it gains enormous leverage. Export restrictions on such materials can shake industries on the other side of the planet within weeks.\nGovernments are responding on several fronts. Some are investing in domestic mines and processing plants, accepting higher costs for greater security. Others are signing partnership agreements with resource-rich countries in Africa, South America, and Southeast Asia. Companies, meanwhile, are redesigning products to use less of the riskiest materials, and building recycling systems to recover metals from old batteries and electronics.\nNo single solution will be enough. New mines take a decade to develop, recycling covers only part of demand, and substitutes do not exist for every material. The realistic goal is not independence but resilience: enough diversity of supply that no single actor can turn off the lights. Expect critical minerals to stay in the headlines for years.",
+        summaryJa: "EV・風力・スマホに不可欠なリチウムやレアアース等の重要鉱物は、採掘・精錬が少数の国に集中しており、輸出規制が世界の産業を揺らす戦略物資になっている。各国は国内生産への投資、資源国との連携協定、省資源設計やリサイクルで対応を急ぐが、鉱山開発には10年単位の時間が必要。目標は完全自給ではなく、供給源の多様化による「強靱性」の確保にある。",
+        quiz: [
+          { q: "重要鉱物問題の核心は？", options: ["採掘・精錬が少数の国に集中していること", "地球上から鉱物が消えたこと", "価格が下がりすぎたこと"], answer: 0 },
+          { q: "各国・企業の対応として挙げられていないものは？", options: ["国内での生産投資", "資源国との連携", "スマホの製造禁止"], answer: 2 },
+          { q: "本文が示す現実的な目標は？", options: ["完全な自給自足", "供給の多様化による強靱性", "鉱物の使用をやめること"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0711-4",
+        title: "Bonus Season: A Test for Japan's New Economy",
+        level: "★★☆",
+        genre: "日本",
+        text: "July in Japan means summer heat, festivals — and bonus season. Twice a year, most Japanese companies pay their employees a special bonus on top of the monthly salary, and the summer payment lands in bank accounts around this time. Economists watch these numbers closely, because they reveal much about the country's economic health.\nFor decades, Japan struggled with deflation: prices barely moved, and neither did wages. That era appears to be ending. Prices of food, energy, and services have risen noticeably in recent years, and the big question is whether pay can keep up. Bonuses are often the fastest-moving part of Japanese pay, because companies adjust them each year based on profits. When business is good, bonuses rise quickly.\nThe stakes are high for the whole economy. If bonuses and wages grow faster than prices, households feel richer, spend more, and support a healthy cycle of growth. If prices win the race, families quietly cut back — fewer restaurant visits, cheaper brands, postponed purchases — and the recovery stalls.\nThere is also a widening gap to watch. Large companies with strong profits can afford generous bonuses, while many small firms, squeezed by rising costs, cannot. For workers, the season is a reminder that in the new Japanese economy, where you work matters more than ever.",
+        summaryJa: "7月は日本のボーナス支給シーズン。デフレ時代の終わりが見える中、賃金と物価の競争を映す指標としてエコノミストが注目する。ボーナスは企業業績を反映して最も動きやすい報酬であり、物価上昇を上回れば消費と成長の好循環に、下回れば家計の節約と景気停滞につながる。好業績の大企業と、コスト増に苦しむ中小企業の格差拡大も焦点。",
+        quiz: [
+          { q: "エコノミストが夏のボーナスに注目する理由は？", options: ["賃金が物価上昇に追いつくかを映す指標だから", "銀行が休みになるから", "税金が免除されるから"], answer: 0 },
+          { q: "ボーナスが「動きやすい」報酬である理由は？", options: ["企業が毎年業績に応じて調整するから", "法律で毎年倍増するから", "現金で支払われるから"], answer: 0 },
+          { q: "本文が指摘する「広がる格差」は？", options: ["大企業と中小企業のボーナス格差", "東京と大阪の家賃格差", "夏と冬の気温差"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0711-5",
+        title: "A Surprising Ally Against Cancer: Bacteria",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Sometimes the most powerful medical ideas come from unexpected places. Researchers studying bacteria that live in the intestines of amphibians made a remarkable discovery: one naturally occurring bacterium, given as a single treatment, completely eliminated colorectal tumors in laboratory mice.\nWhat makes the result especially interesting is how the bacterium works. It attacks tumors in two ways at once. First, it targets the cancer cells directly. Second — and perhaps more importantly — it wakes up the body's own immune system, teaching it to recognize and destroy the tumor. This double action is exactly what cancer researchers dream about, because tumors are experts at hiding from immune defenses.\nThe idea of using bacteria against cancer is actually more than a century old. Doctors long ago noticed that some patients' tumors shrank after serious bacterial infections. But the approach was too dangerous and unpredictable to control — until modern tools made it possible to study and engineer microbes precisely.\nA strong dose of caution is required. Results in mice often fail to repeat in humans, and years of safety testing lie ahead before any patient benefits. Still, the discovery points to a promising frontier: the trillions of microbes living in and around us may hold treatments we have barely begun to explore. The next great cancer drug might not be invented — it might be found.",
+        summaryJa: "両生類の腸内に住む天然の細菌が、1回の投与でマウスの大腸腫瘍を完全に消失させたという研究成果。がん細胞を直接攻撃すると同時に免疫系を活性化させる「二重の作用」が特徴。細菌でがんと闘う発想は100年以上前からあるが、現代の技術でようやく精密な制御が可能に。マウスの結果が人間で再現されるとは限らず安全性試験はこれからだが、体内の微生物が未開拓の治療法の宝庫である可能性を示す。",
+        quiz: [
+          { q: "研究で発見されたのは？", options: ["両生類由来の細菌がマウスの大腸腫瘍を消失させたこと", "新しい手術ロボット", "がんを予防する食事法"], answer: 0 },
+          { q: "この細菌の「二重の作用」とは？", options: ["がん細胞への直接攻撃と免疫系の活性化", "痛み止めと栄養補給", "殺菌と保湿"], answer: 0 },
+          { q: "本文が促す注意点は？", options: ["マウスの結果が人間で再現されるとは限らない", "すでに薬局で買える", "細菌はすべて危険である"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-10",
     passages: [
       {
