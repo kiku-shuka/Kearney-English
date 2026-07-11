@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-12",
+    passages: [
+      {
+        id: "d0712-1",
+        title: "A Japanese Challenger in the Memory Chip Race",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "In the global memory chip market, one giant has led for decades: Samsung of South Korea. But reports say a Japanese challenger is betting on a new manufacturing approach to close the gap. Kioxia, Japan's largest memory maker, is developing wafer-bonding technology for its next generation of chips.\nThe idea behind wafer bonding is elegant. A memory chip has two main parts: the memory cells that store data, and the control circuits that manage them. Traditionally, both are built together on one silicon wafer, which forces engineers to make design compromises. With wafer bonding, the two parts are manufactured separately — each optimized on its own wafer — and then joined together with extreme precision. The result can be faster, denser memory.\nWhy does this matter beyond the laboratory? Memory chips are the quiet workhorses of the AI era. Every data center training or running AI models needs vast amounts of fast memory, and demand keeps climbing. The companies that deliver better memory first will win contracts worth billions.\nFor Japan, the story carries extra weight. The country once dominated the memory business, then lost most of it in the 1990s and 2000s. A technical comeback by a Japanese maker — in the middle of an AI boom — would be a milestone both for the company and for the nation's chip revival strategy.",
+        summaryJa: "日本最大のメモリメーカー、キオクシアが「ウエハ接合(ウエハボンディング)」技術で王者サムスンに挑む。メモリセルと制御回路を別々のウエハで最適化して作り、高精度で貼り合わせる手法で、より高速・高密度なメモリを実現できる可能性がある。AI時代のデータセンターはメモリを大量に必要としており、勝者には巨額の契約が待つ。かつてメモリで世界を制した日本の復権をかけた挑戦でもある。",
+        quiz: [
+          { q: "ウエハ接合技術の特徴は？", options: ["メモリセルと制御回路を別々に作って貼り合わせる", "チップを水で冷やす", "ウエハを薄く削るだけ"], answer: 0 },
+          { q: "メモリ需要が伸びている背景は？", options: ["AIのデータセンターが大量の高速メモリを必要とするから", "テレビの販売増", "紙の書類の増加"], answer: 0 },
+          { q: "この挑戦が日本にとって特別な意味を持つ理由は？", options: ["かつて世界を制したメモリ産業の復権がかかるから", "初めての半導体製造だから", "政府が禁止していたから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0712-2",
+        title: "Ceramics That Change How Heat Flows — on Command",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Imagine a material that normally spreads heat evenly, but when you apply electricity, suddenly conducts heat almost three times better in one chosen direction. Researchers have discovered exactly this behavior in certain ceramic materials, and engineers are already imagining what they could do with it.\nHeat has always been the stubborn partner of electronics. We can switch electric current on and off billions of times per second, but heat simply flows wherever temperature differences push it. Our tools for managing it — fans, fins, and heat pipes — are passive and fixed. A material whose heat conduction can be switched and steered electrically would change the game.\nThe potential applications are wide. Computer chips could actively push heat away from their hottest spots at critical moments. Electric vehicle batteries could distribute warmth evenly in winter and shed it quickly in summer. Buildings and spacecraft could switch their walls between insulating and conducting modes as conditions change.\nAs with most laboratory breakthroughs, patience is required. The effect must work reliably at everyday temperatures, survive years of switching, and be manufactured at reasonable cost. Many promising materials never clear those hurdles. But the direction of research is clear and exciting: after a century of controlling electricity, we are learning to control heat with the same precision.",
+        summaryJa: "特定のセラミック材料に電気を加えると、熱伝導が特定方向に約3倍まで高まる現象が発見された。熱は電気と違いオン・オフや方向の制御が難しく、従来の冷却は受動的な手段に限られていた。実用化されれば、チップの局所冷却、EV電池の温度管理、建物や宇宙機の「切り替え可能な断熱壁」などに応用できる可能性がある。常温での信頼性や製造コストなど実用化のハードルはこれから。",
+        quiz: [
+          { q: "発見された現象は？", options: ["電気でセラミックの熱伝導が約3倍・方向付きで高まる", "セラミックが光る", "熱が完全に消える"], answer: 0 },
+          { q: "従来の熱管理の限界は？", options: ["受動的で、熱の流れを自在に制御できない", "コストが安すぎる", "電気を使いすぎる"], answer: 0 },
+          { q: "応用例として挙げられていないものは？", options: ["チップの冷却", "EV電池の温度管理", "食品の味付け"], answer: 2 }
+        ]
+      },
+      {
+        id: "d0712-3",
+        title: "Tiny Invaders: How Species Cross the World",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Europe has two new residents, and scientists are not happy about it. Two species of Asian praying mantis, which have spread rapidly across the continent in recent years, have now been officially classified as invasive. The decision sounds small, but it reflects one of globalization's least discussed problems.\nInvasive species are animals and plants that arrive in a new region — usually with human help — and spread at the cost of native wildlife. The newcomers often have no natural enemies in their new home, so their populations explode. The mantises, for example, are large, hungry predators that compete with native insects and may reduce local biodiversity.\nHow do such species travel? Mostly through trade and transport. Eggs hide in shipped plants and garden products, insects ride in containers, and some species are sold as exotic pets and later escape or are released. As global trade grows and the climate warms, more species can survive in places that were once too cold for them.\nThe costs are surprisingly large. Invasive species damage agriculture, forestry, and fisheries, and controlling them costs the world economy tens of billions of dollars every year. The lesson for a globalized world is simple: goods, people, and unfortunately ecosystems now travel together, and prevention is far cheaper than cleanup.",
+        summaryJa: "欧州で急拡大したアジア原産のカマキリ2種が正式に侵略的外来種に指定された。外来種は貿易や輸送に紛れて移動し、天敵のいない新天地で爆発的に増え、在来の生態系を脅かす。地球温暖化と貿易拡大がこの流れを加速。農林水産業への被害と対策費は世界で年間数百億ドル規模にのぼり、「予防は駆除よりはるかに安い」というのがグローバル時代の教訓。",
+        quiz: [
+          { q: "欧州で外来種指定されたのは？", options: ["アジア原産のカマキリ2種", "アフリカのゾウ", "南米のチョウ"], answer: 0 },
+          { q: "外来種が新天地で急増しやすい理由は？", options: ["天敵がいないことが多いから", "餌が不要だから", "寿命が無限だから"], answer: 0 },
+          { q: "本文の教訓は？", options: ["予防は駆除よりはるかに安い", "外来種は経済に無害", "貿易をやめるべき"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0712-4",
+        title: "Japan's Rockets Go Commercial",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japan's space program is preparing for an important handover. Reports say the operation of the country's next-generation flagship rocket will be transferred to Mitsubishi Heavy Industries, moving day-to-day launch business from the national space agency to a private company.\nThis follows a global pattern. In the United States, NASA stopped operating routine launches years ago and now buys rides from private companies, whose competition has driven costs down dramatically. Europe and other space powers are moving the same way. The logic: government agencies should focus on exploration and research, while companies handle the repeatable business of putting satellites into orbit.\nFor Japan, the stakes are high. The global launch market is growing fast — satellites for communication, navigation, and Earth observation all need rides to space — but competition is brutal, led by American companies with reusable rockets. To win commercial customers, Japan's rockets must launch on schedule, at competitive prices, and with the reliability the country's manufacturing is famous for.\nPrivate operation should help. A company can negotiate contracts, adjust prices, and streamline operations faster than a government agency. Combined with Japan's growing space startup scene — from small rockets to satellite services — the handover signals a clear national direction: space is no longer just a science project. It is an industry, and Japan intends to compete in it.",
+        summaryJa: "日本の次世代基幹ロケットの運用が三菱重工業へ移管される見通しに。米国でNASAが打ち上げを民間に委ね、コスト競争が進んだのと同じ流れで、国の機関は探査・研究に集中し、定常的な打ち上げビジネスは民間が担う分業になる。急成長する世界の打ち上げ市場で、価格・スケジュール・信頼性の競争力が問われる。宇宙を「産業」として育てる日本の方向性を示す動き。",
+        quiz: [
+          { q: "報じられた移管の内容は？", options: ["次世代ロケットの運用を三菱重工に移す", "宇宙開発を中止する", "ロケットを外国に売却する"], answer: 0 },
+          { q: "世界的な流れとして正しいのは？", options: ["政府は研究に集中し、民間が定常打ち上げを担う", "すべて政府が独占する", "宇宙開発は縮小している"], answer: 0 },
+          { q: "商業打ち上げで競争力の鍵となるのは？", options: ["価格・スケジュール・信頼性", "ロケットの色", "発射場の観光施設"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0712-5",
+        title: "A New Flatland: Two-Dimensional Quantum Materials",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Some of the most exciting places in physics are almost unimaginably thin. Researchers have announced the creation of a long-sought two-dimensional quantum material — a sheet just atoms thick — and confirmed that it carries electric current along its edges in a special, protected way.\nWhy do scientists care so much about flat materials? Because when a material becomes truly two-dimensional, electrons inside it start behaving by different rules. Since the discovery of graphene, a single layer of carbon atoms, researchers have been building a whole family of atom-thin materials, each with strange and useful properties.\nThe new material belongs to a class where the interesting action happens at the edges. While the interior blocks electric current, the edges conduct it in channels that are protected by the material's fundamental structure. Electrons in these edge channels resist scattering — they flow with very little loss, almost like cars on a highway with no exits and no oncoming traffic.\nThe long-term hopes are big: electronics that waste far less energy, and possibly components for quantum computers that are naturally protected from certain errors. Those applications are years away, and many challenges remain. But every time physicists confirm a new quantum material, the toolbox for future technology grows — and this week, it grew by one.",
+        summaryJa: "原子数個分の厚さしかない2次元量子材料の作製に成功し、「端(エッジ)だけが電気を通す」特殊な伝導状態が確認された。内部は絶縁体なのに端では電子が散乱されにくい保護されたチャネルを流れるため、エネルギー損失の少ないエレクトロニクスや、エラーに強い量子コンピュータ部品への応用が期待される。実用化は先だが、未来技術の「道具箱」がまた一つ増えた。",
+        quiz: [
+          { q: "確認された特殊な性質は？", options: ["材料の端だけが保護された形で電気を通す", "材料が空中に浮く", "材料が音を出す"], answer: 0 },
+          { q: "2次元材料の研究が盛んになったきっかけは？", options: ["グラフェン(炭素1原子層)の発見", "月面着陸", "インターネットの普及"], answer: 0 },
+          { q: "期待される応用は？", options: ["低損失エレクトロニクスや量子コンピュータ部品", "新しい調味料", "高速道路の舗装"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-11",
     passages: [
       {
