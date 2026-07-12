@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-13",
+    passages: [
+      {
+        id: "d0713-1",
+        title: "A Record Stock Listing Far From Home",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "A South Korean memory chip maker has just completed the largest stock market listing by a foreign company in United States history. Instead of listing only at home, the company chose to sell its shares on a major American exchange, raising a huge amount of money from global investors.\nWhy would an Asian company list in New York rather than Seoul? The answer is about access to capital. American stock markets are the deepest in the world, meaning they hold the most money and the most investors. A company that lists there can raise larger sums, gain a global reputation, and use its shares more easily to buy other companies. For a chip maker that needs billions of dollars to build new factories, that access is powerful.\nThe timing is not an accident. Memory chips are in huge demand because of AI, and investors are eager to own a piece of the companies that make them. A strong market mood makes it the perfect moment to sell shares at a high price.\nThere are trade-offs. Listing abroad means following strict American rules, reporting in English, and answering to investors on the other side of the world. But for a global company in a global industry, the message is clear: capital has no nationality, and businesses increasingly go wherever the money and the opportunity are largest.",
+        summaryJa: "韓国のメモリ半導体大手が、米市場史上最大の外国企業上場を果たした。米国株式市場は世界で最も資金と投資家が厚く、巨額調達・国際的信用・M&Aのしやすさという利点がある。AIによるメモリ需要と強気相場が絶好の売り時を生んだ。厳しい米国基準や英語での報告義務という代償はあるが、「資本に国籍はない」という時代を映す動き。",
+        quiz: [
+          { q: "この企業が米国市場を選んだ主な理由は？", options: ["世界で最も資金と投資家が厚く、巨額調達ができるから", "韓国で上場が禁止されたから", "米国の方が税金がゼロだから"], answer: 0 },
+          { q: "上場のタイミングが良かった背景は？", options: ["AIによるメモリ需要と強気相場", "戦争の終結", "原油価格の暴落"], answer: 0 },
+          { q: "海外上場の代償として挙げられているのは？", options: ["厳しい米国基準や英語での報告義務", "製品を無料配布すること", "本社の移転"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0713-2",
+        title: "When Tech Giants Go to Court",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "A major legal battle is beginning in the technology world. Apple has filed a lawsuit against OpenAI, accusing the AI company of stealing trade secrets. Whatever the outcome, the case shows how fierce competition in artificial intelligence has become.\nA trade secret is valuable business information that a company keeps private — a recipe, a design, a method, or in the tech world, the details of how a system is built. Unlike a patent, which is public but protected by law for a limited time, a trade secret has value precisely because rivals do not know it. Lawsuits over trade secrets often center on employees who move from one company to another, carrying knowledge in their heads.\nThese cases are hard to judge. Skilled workers naturally learn things at one job and use that experience at the next; that is normal and legal. The line is crossed only when someone takes specific confidential material, not just general skill. Proving which side of that line an action falls on can take years in court.\nFor the wider industry, the lawsuit is a signal. As AI becomes central to every big tech company's future, they will defend their advantages aggressively — in the market and in the courtroom. For workers, it is a reminder to understand what counts as confidential, because the boundary between 'experience' and 'secret' matters more than ever.",
+        summaryJa: "アップルがOpenAIを営業秘密の窃取で提訴し、AI競争の激しさを象徴する法廷闘争が始まった。営業秘密は特許と異なり「公開されていないこと自体に価値」があり、係争の多くは転職者が持ち出す知識を巡る。一般的なスキルの活用は合法だが、特定の機密資料の持ち出しは違法——その線引きの立証には年月がかかる。「経験」と「秘密」の境界を理解する重要性が増している。",
+        quiz: [
+          { q: "営業秘密が特許と違う点は？", options: ["公開されていないこと自体に価値がある", "永久に保護される", "誰でも自由に使える"], answer: 0 },
+          { q: "営業秘密の係争でよく争点になるのは？", options: ["転職者が持ち出す知識", "オフィスの家賃", "製品の色"], answer: 0 },
+          { q: "合法と違法の線引きはどこにある？", options: ["一般的スキルの活用は合法、特定の機密資料の持ち出しは違法", "転職そのものが違法", "すべての知識の利用が違法"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0713-3",
+        title: "Dual-Use Technology: A Delicate Balance",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Japan's government has announced plans to work more closely with industry and universities on 'dual-use' technology. The term refers to technology that can serve both civilian and military purposes — and it sits at the center of a difficult global debate.\nMany everyday technologies are dual-use. A drone can deliver medicine or carry a weapon. Advanced AI can plan delivery routes or military operations. The same rocket that launches a weather satellite could, in principle, carry something far more dangerous. Because the underlying science is the same, it is almost impossible to develop powerful technology that has no military application at all.\nFor decades, Japanese universities largely avoided research with military links, a stance rooted in the country's postwar history. But the security environment has changed, and governments now argue that a nation must develop critical technologies itself rather than depend on others. Supporters say cooperation strengthens both the economy and national security. Critics worry about the direction of academic freedom and the risk of an arms race.\nThe debate is not unique to Japan; every advanced country wrestles with it. The realistic questions are about rules and limits: which projects are acceptable, how open the research should be, and who decides. As technology grows more powerful, societies everywhere must find their own answers to where the line should be drawn.",
+        summaryJa: "日本政府が産学と連携して「デュアルユース(軍民両用)」技術に取り組む方針を示した。ドローンやAI、ロケットなど強力な技術は民生・軍事の両方に使え、両者を完全に切り離すのは難しい。戦後、軍事関連研究を避けてきた日本の大学だが、安全保障環境の変化で「重要技術は自国で持つべき」との議論が強まる。経済と安全保障の強化を説く声と、学問の自由や軍拡を懸念する声があり、線引きのルールが問われている。",
+        quiz: [
+          { q: "「デュアルユース」技術とは？", options: ["民生と軍事の両方に使える技術", "二人で使う技術", "二か国で開発する技術"], answer: 0 },
+          { q: "民生と軍事を切り離すのが難しい理由は？", options: ["土台となる科学が同じだから", "予算が足りないから", "法律がないから"], answer: 0 },
+          { q: "この問題について本文が述べていることは？", options: ["どの先進国も直面し、線引きのルールが問われている", "日本だけの問題である", "すでに世界で解決済み"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0713-4",
+        title: "Japan Sticks the Landing: A Reusable Rocket",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japan has reached an important milestone in space technology: successfully launching a rocket and then landing it back safely for reuse. Watching a rocket rise into the sky and then return to land upright, balanced on its own engine, still looks like something from a science fiction film — but it is quickly becoming the standard for modern spaceflight.\nWhy does landing a rocket matter so much? Because of cost. For most of the space age, rockets were used once and thrown away, like taking a single flight and then scrapping the entire airplane. Reusable rockets can fly again and again, dramatically cutting the price of reaching orbit. American companies proved the concept and used it to dominate the global launch market.\nFor Japan, developing this ability is about staying competitive. The demand for launches — satellites for communication, navigation, weather, and Earth observation — keeps growing, but customers choose the cheapest reliable ride. A country without reusable rockets risks being left behind, forced to buy launches from others.\nThe achievement also fits a bigger national picture. Japan has named space a priority industry, its startups are active in satellites and small rockets, and operation of its flagship rocket is moving toward private hands. Landing a rocket is not just an engineering trick; it is a signal that Japan intends to compete seriously in the new economy of space.",
+        summaryJa: "日本が再使用ロケットの打ち上げと着陸に成功し、宇宙技術で重要な節目を迎えた。使い捨てだったロケットを繰り返し使えれば打ち上げコストが激減する。米企業がこの方式で市場を席巻する中、再使用能力なしでは競争に取り残される恐れがある。宇宙を優先産業に位置づけ、スタートアップが活発で基幹ロケットの民間移管も進む日本にとって、本気で宇宙経済に参入する意思を示す成果。",
+        quiz: [
+          { q: "ロケットの着陸(再使用)がなぜ重要か？", options: ["繰り返し使えて打ち上げコストが激減するから", "見た目が格好いいから", "着陸すると燃料が増えるから"], answer: 0 },
+          { q: "再使用ロケットがないと日本はどうなる恐れがある？", options: ["競争に取り残され、他国から打ち上げを買うことになる", "宇宙に行けなくなる", "衛星が不要になる"], answer: 0 },
+          { q: "この成果が示す国家的方向性は？", options: ["宇宙経済に本気で参入する意思", "宇宙開発からの撤退", "軍事利用のみへの転換"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0713-5",
+        title: "How Your Brain Turns Moments into Memories",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "You probably think of memory as a kind of recording — moments captured and stored, ready to replay. The reality is far more active. Your brain constantly rebuilds and reorganizes memories, and new research has revealed a surprising player in that process: a protein called tau.\nTau has a bad reputation. In diseases like Alzheimer's, tangles of this protein build up in the brain and are linked to memory loss. Because of that, scientists have mostly studied tau as a villain. But the new research shows a different side: normal, healthy tau is actually essential for turning new experiences into lasting memories. It helps organize the brain's memory-storing cells so that a fresh experience can be locked into long-term storage.\nThis discovery matters for two reasons. First, it changes how we understand memory itself, showing that a protein famous for causing damage also does vital everyday work. Second, it complicates the search for treatments. If a drug simply removes all tau to prevent disease, it might also block the healthy process of forming new memories. Future medicines will need to be far more precise, targeting only the harmful form.\nThe broader lesson is a familiar one in biology: few things are purely good or purely bad. The same molecule can build memories and, when something goes wrong, destroy them. Understanding that balance is where the real science begins.",
+        summaryJa: "記憶は「録画」ではなく、脳が絶えず再構築する能動的な営み。新研究で、アルツハイマー病では「悪役」とされるタンパク質タウが、健康な状態では新しい経験を長期記憶に定着させるのに不可欠だと判明した。タウを一律に除去する薬は記憶形成も妨げかねず、有害な型だけを狙う精密な治療が必要になる。「同じ分子が記憶を作りも壊しもする」——その均衡の理解こそ科学の出発点。",
+        quiz: [
+          { q: "タウについて新研究が示したことは？", options: ["健康なタウは新しい記憶の定着に不可欠", "タウは脳に存在しない", "タウは記憶と無関係"], answer: 0 },
+          { q: "この発見が治療を難しくする理由は？", options: ["タウを一律に除くと記憶形成も妨げる恐れがあるから", "薬が高価だから", "タウが増え続けるから"], answer: 0 },
+          { q: "本文の「広い教訓」は？", options: ["同じ分子が記憶を作りも壊しもする——均衡の理解が重要", "タンパク質はすべて有害", "記憶は変化しない"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-12",
     passages: [
       {
