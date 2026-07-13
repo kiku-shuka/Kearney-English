@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-14",
+    passages: [
+      {
+        id: "d0714-1",
+        title: "Why Regional Startup Hubs Are Rising",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "For a long time, if you wanted to build a technology company in Japan, there was really only one place to be: Tokyo. That is starting to change. Reports on Japan's startup scene describe a market that is strong not only in the capital but also in rising regional hubs, with support from government, universities, and local governments.\nWhy are startups spreading out? Several forces push in the same direction. Remote work, now normal since the pandemic, means engineers no longer must live near the head office. Office and living costs are far lower outside Tokyo, so a young company's money lasts longer. Regional universities produce talented graduates who would prefer to stay near home if good jobs exist. And local governments, eager to keep young people, offer grants, cheap office space, and other support.\nThe pattern is not unique to Japan. Around the world, technology used to cluster in a few expensive cities, but the same forces are spreading it more widely. Second-tier cities are competing to become the next hub for a particular industry — batteries here, biotech there, space technology somewhere else.\nFor workers and founders, the lesson is encouraging. Opportunity is becoming less tied to a single address. A great idea, a skilled team, and a good internet connection can now build a serious company far from the traditional center — and that is good news for balanced national growth.",
+        summaryJa: "かつて日本でテック企業を作るなら東京一択だったが、政府・大学・自治体の支援を背景に地方のスタートアップ拠点が台頭している。リモートワークの定着、東京より安い生活・オフィスコスト、地元に残りたい地方大学の人材、若者流出を防ぎたい自治体の補助——複数の力が同じ方向に働く。世界的にも技術が一部の高コスト都市から分散する流れで、機会が「住所」に縛られなくなりつつある。",
+        quiz: [
+          { q: "地方のスタートアップ拠点が台頭している理由に含まれないものは？", options: ["リモートワークの定着", "東京より安いコスト", "地方では税金がゼロになる法律"], answer: 2 },
+          { q: "自治体がスタートアップを支援する動機は？", options: ["若者の流出を防ぎたいから", "観光客を増やすため", "工場を減らすため"], answer: 0 },
+          { q: "本文の結論は？", options: ["機会が単一の住所に縛られなくなりつつある", "東京以外では起業できない", "地方拠点はすぐ消える"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0714-2",
+        title: "The Tiny Cracks That Break a Battery",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Solid-state batteries are one of the most anticipated technologies for electric cars. By replacing the flammable liquid inside today's batteries with a solid ceramic, they promise more range, faster charging, and greater safety. But one stubborn problem has slowed them down, and researchers have just uncovered how it works.\nThe villain is something called a dendrite. When a battery charges, lithium moves through it. Sometimes, instead of spreading evenly, the lithium forms tiny finger-like growths. In a solid-state battery, these soft lithium fingers can crack the hard ceramic inside, creating pathways that cause a short circuit — and a dead, or even dangerous, battery.\nWhat puzzled scientists was how something soft could break something hard. The new research explains the mechanism: the lithium pushes into tiny existing flaws in the ceramic and, like water freezing in a crack in a rock, applies enough pressure over time to split it open. Understanding this process is the key to preventing it.\nWhy does this matter beyond the laboratory? Because whoever solves the dendrite problem could unlock the next generation of electric vehicles. Car makers and battery companies around the world are racing toward solid-state technology, and each scientific insight brings mass production closer. This discovery does not finish the race, but it hands engineers a clearer map of the road ahead.",
+        summaryJa: "全固体電池はEVの本命技術だが、「デンドライト」という問題が実用化を阻んできた。充電時にリチウムが指状に成長し、柔らかいはずのそれが硬いセラミックの微小な欠陥に入り込み、岩の割れ目で凍る水のように圧力をかけて割り、短絡を起こす——その仕組みを新研究が解明した。原因が分かれば対策が立てられる。デンドライト問題を解いた者が次世代EVの扉を開くとされ、量産化に一歩近づく成果。",
+        quiz: [
+          { q: "全固体電池の利点として挙げられていないものは？", options: ["航続距離が伸びる", "充電が速い", "重さがゼロになる"], answer: 2 },
+          { q: "「デンドライト」とは？", options: ["充電時にリチウムが作る指状の成長物", "電池の外装", "冷却装置"], answer: 0 },
+          { q: "柔らかいリチウムが硬いセラミックを割る仕組みは？", options: ["微小な欠陥に入り込み、時間をかけて圧力で割る", "熱で溶かす", "電気で燃やす"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0714-3",
+        title: "Dementia Risk Is Not the Same Everywhere",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "As populations age around the world, dementia has become one of the great health challenges of our time. Common advice tells us how to lower our risk: exercise, control blood pressure, stay socially active, keep learning. But a large new study of more than 214,000 people suggests that this advice may need to be adjusted for each country, because risk factors differ widely across the world.\nThe idea of a single, universal prevention plan is appealing but may be too simple. In one country, physical inactivity might be the biggest driver of dementia risk. In another, it could be untreated high blood pressure, air pollution, limited education, or hearing loss. The same behavior does not carry the same weight everywhere, because populations differ in genetics, diet, healthcare, and environment.\nWhy does this matter for policy? Because health resources are limited, and money spent on the wrong target does little good. A country that identifies its own leading risk factors can design campaigns that actually work — promoting hearing checks in one place, cleaner air in another, better blood pressure treatment somewhere else.\nThe broader lesson reaches beyond medicine. In a connected world, we often look for one answer that fits everyone. But the most effective solutions usually start with a local question: what is really driving the problem here? Global knowledge works best when it is applied with local understanding.",
+        summaryJa: "高齢化で認知症は世界的な健康課題に。運動や血圧管理などの予防助言は有名だが、21万人超の大規模研究は、リスク要因が国ごとに大きく異なり、万国共通の予防策では不十分だと示す。ある国では運動不足、別の国では高血圧・大気汚染・教育機会・難聴が最大要因になりうる。限られた医療資源を本当に効く対象に向けるには、まず「ここで問題を動かしているのは何か」という地域の問いから始めることが重要。",
+        quiz: [
+          { q: "21万人超の研究が示したことは？", options: ["認知症のリスク要因は国ごとに大きく異なる", "認知症は予防できない", "運動だけで防げる"], answer: 0 },
+          { q: "国ごとに主要リスクが違う理由として本文が挙げるのは？", options: ["遺伝・食事・医療・環境の違い", "国の面積の違い", "国旗の色の違い"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["世界の知見は地域の理解と組み合わせてこそ効く", "一つの答えが万人に効く", "地域差は無視してよい"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0714-4",
+        title: "Japan Bets on Robots to Fill a Labor Gap",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japan faces a demographic challenge unlike almost any other country: its population is both aging and shrinking. Fewer young workers enter the labor force each year, while the number of people needing care keeps rising. In response, Japan is placing a big bet on one of its traditional strengths — robotics — and it is now one of the strongest fields in the country's startup scene.\nRobots are moving beyond the factory floor, where Japan has long been a leader, into everyday life. In restaurants, robots carry dishes between the kitchen and tables. In warehouses, they move goods so human workers walk less. In hospitals and care homes, robots help lift patients, deliver supplies, and even provide simple conversation for lonely residents. Each of these tasks helps a smaller workforce do more.\nThe technology is not a complete solution. Robots are expensive, they struggle with tasks that require a soft human touch, and many jobs still need people. Care work in particular depends on warmth and judgment that machines cannot replace. The realistic goal is partnership: let robots handle heavy, repetitive, or dangerous tasks so that human workers can focus on the parts only people can do.\nFor the rest of the world, Japan is a preview. Many countries will grow older in the coming decades, and they are watching closely to see how a society uses technology to stay productive and care for its people as the workforce shrinks.",
+        summaryJa: "高齢化と人口減が同時に進む日本は、伝統的な強みであるロボティクスに賭けており、スタートアップの最有力分野の一つになっている。工場だけでなく、飲食店の配膳、倉庫の運搬、病院・介護施設での移乗支援や見守り会話へと用途が拡大。ただしコストや「人の手」が要る仕事の限界もあり、現実的な目標は「重労働や危険な作業はロボット、人にしかできない部分は人」という協働。世界の高齢化の先行事例として注目される。",
+        quiz: [
+          { q: "日本がロボティクスに賭ける背景は？", options: ["高齢化と人口減で労働力が不足するから", "ロボットが安いから", "工場が余っているから"], answer: 0 },
+          { q: "ロボットの活躍の場として挙げられていないものは？", options: ["飲食店の配膳", "倉庫の運搬", "選挙の投票"], answer: 2 },
+          { q: "本文が示す現実的な目標は？", options: ["重労働はロボット、人にしかできない部分は人という協働", "すべてを機械に置き換える", "ロボットの使用をやめる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0714-5",
+        title: "Your Brain Decides Before You Know It",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "When do you actually make a decision? It feels obvious: you weigh your options, then choose. But a new study suggests that the brain begins forming decisions much earlier than scientists previously believed — often before we are consciously aware that we are deciding at all.\nResearchers have long known that measurable brain activity can appear before a person reports making a choice. The new work pushes that moment even earlier, showing that the groundwork for a decision is laid well in advance. In other words, by the time you 'decide' to reach for a cup of coffee, your brain may have been preparing the action for a surprisingly long time.\nThis raises deep and slightly uncomfortable questions. If our brains prepare decisions before we are aware of them, how much of our choice is truly 'free'? Philosophers have debated free will for centuries, and neuroscience now adds hard data to the conversation. Most scientists are careful, though: preparing an action is not the same as forcing it, and we can still cancel or change a movement at the last moment.\nThere are practical angles too. Understanding the timing of decisions could improve technologies that read brain signals, helping people with paralysis control devices with their thoughts. For everyone else, the research is a humbling reminder that the mind is stranger, and more automatic, than it feels from the inside.",
+        summaryJa: "私たちが「決めた」と感じるより前に、脳は決定の準備を始めている——新研究はその瞬間をさらに早い段階に押し下げた。コーヒーに手を伸ばす前から脳は動作を準備しているという。これは自由意志を巡る古い議論に科学的データを加えるが、「準備」は「強制」ではなく、直前に取り消せる点に科学者は慎重。応用面では、脳信号を読む技術の向上を通じ、麻痺のある人が思考で機器を操作する助けになる可能性がある。心は内側から感じるより自動的で不思議だと気づかせる研究。",
+        quiz: [
+          { q: "新研究が示したことは？", options: ["脳は意識より前に決定の準備を始めている", "人は決定しない", "決定は一瞬で終わる"], answer: 0 },
+          { q: "科学者が慎重に付け加えている点は？", options: ["「準備」は「強制」ではなく直前に取り消せる", "自由意志は完全に存在しない", "脳は決定に関与しない"], answer: 0 },
+          { q: "この研究の応用として挙げられているのは？", options: ["麻痺のある人が思考で機器を操作する技術", "天気予報の改善", "自動車の燃費向上"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-13",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "研究で特定されたのは？", options: ["深い睡眠と成長ホルモン分泌をつなぐ脳の回路", "新しい睡眠薬", "夢の内容を読む技術"], answer: 0 },
           { q: "成長ホルモンの成人での働きとして挙げられているのは？", options: ["筋肉の修復・脂肪代謝・脳機能の維持", "身長を伸ばすことだけ", "視力の回復"], answer: 0 },
           { q: "本文の実践的アドバイスは？", options: ["睡眠時間を削って学習する", "深い睡眠を守り、睡眠を計画の一部として扱う", "昼寝だけで十分"], answer: 1 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-07",
-    passages: [
-      {
-        id: "d0707-1",
-        title: "A Record Half-Year for Startup Funding",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "The first half of 2026 was the biggest six months for startup investment in history. According to industry data, startups around the world raised about 510 billion dollars between January and June. The main driver was artificial intelligence. A large share of the money went to a small number of big AI companies, while thousands of smaller startups shared the rest.\nInvestors explain the boom in simple terms: they believe AI will change almost every industry, and nobody wants to miss the winners. However, some analysts are worried. When too much money chases a few companies, prices can rise far above their real value. If results come more slowly than expected, some investors could lose a lot.\nFor people working in business, there are two practical lessons. First, competition for AI talent and AI tools will stay strong, so companies need a clear plan for how they use the technology. Second, a boom is not a strategy. The companies that win in the long run are usually the ones that connect new technology to a real customer problem, not the ones that simply spend the most money.",
-        summaryJa: "2026年上半期のスタートアップ調達額は約5,100億ドルと過去最高。牽引役はAIで、資金は少数の大手AI企業に集中。投資家は「AIが全産業を変える」と見る一方、過熱による割高リスクを懸念する声もある。教訓は、AI活用の明確な計画を持つこと、そして「ブームは戦略ではない」ということ。",
-        quiz: [
-          { q: "2026年上半期のスタートアップ調達の特徴は？", options: ["過去最高の約5,100億ドルだった", "前年から大きく減少した", "AI以外の分野が中心だった"], answer: 0 },
-          { q: "アナリストが心配していることは？", options: ["AI人材が余ること", "少数企業への資金集中で価格が実力以上に上がること", "投資額が少なすぎること"], answer: 1 },
-          { q: "本文の「勝つ企業」の条件は？", options: ["最も多くのお金を使う企業", "技術を実際の顧客課題につなげる企業", "最も早く上場する企業"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0707-2",
-        title: "Driverless Taxis Hit the Streets",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Taxis without drivers are no longer a science fiction story. In several American cities, robotaxis now pick up passengers with no human safety driver in the car. Miami recently joined the list, and other cities are preparing to follow.\nRiding in a robotaxi feels surprisingly normal after the first few minutes. You order the car with an app, the doors unlock automatically, and a screen shows the route. The car drives carefully, sometimes more carefully than a human driver. Supporters say this technology could reduce traffic accidents, because most crashes are caused by human mistakes such as texting or driving too fast.\nHowever, there are still hard questions. Who is responsible when a driverless car makes a mistake? How should cities design roads and rules for cars with no driver? And what happens to the millions of people who earn money by driving? Taxi and delivery drivers are watching this change with real concern.\nMost experts expect a long period in which human drivers and robotaxis share the road. The technology is ready for simple routes in good weather, but rain, snow, and complex city traffic are still difficult. The next few years will show how fast the change really comes.",
-        summaryJa: "米国の複数都市で、安全要員なしの完全無人ロボタクシーが営業を開始し、マイアミも仲間入り。人為ミスによる事故を減らせるとの期待の一方、事故時の責任、道路設計やルール、運転で生計を立てる人々への影響という課題が残る。悪天候や複雑な市街地はまだ苦手で、人間との共存期間が続く見込み。",
-        quiz: [
-          { q: "マイアミで始まったサービスの特徴は？", options: ["安全要員が同乗する自動運転", "人間が遠隔操作するタクシー", "人間の監視なしで走るロボタクシー"], answer: 2 },
-          { q: "支持者が挙げる利点は？", options: ["人為ミスによる事故を減らせる", "料金が必ず安くなる", "渋滞が完全になくなる"], answer: 0 },
-          { q: "技術がまだ苦手とする状況は？", options: ["高速道路の直線", "雨や雪、複雑な市街地の交通", "夜間の走行すべて"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0707-3",
-        title: "The Global Race for AI Chips",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Behind every AI service is a physical machine, and at the heart of that machine is a chip. Advanced AI chips have become one of the most important resources in the world economy, and governments now treat them almost like oil in the twentieth century.\nThe United States currently leads in chip design, and its companies dominate the market for AI processors. To protect this lead, Washington limits the export of the most advanced chips to certain countries. In response, China is investing heavily in its own chip industry. Recent reports say the Chinese government put nearly 900 million dollars into a single domestic chip company, hoping to reduce its dependence on foreign technology.\nThe relationship between governments and AI companies is also getting closer in the West. Some large AI firms have discussed giving governments a financial stake in their business, which would have been unthinkable a few years ago.\nWhy does this matter for ordinary business people? Because chip politics can affect prices, supply chains, and even which AI tools are available in which countries. A company that plans its AI strategy without watching this global race may find that the ground has moved under its feet.",
-        summaryJa: "AIチップは「21世紀の石油」のように扱われ、各国政府が戦略資源と見なす。米国は設計で先行し先端チップの輸出を規制、中国は国産チップ企業に約9億ドルを投じ依存脱却を急ぐ。政府とAI企業の距離も接近中。チップを巡る政治は価格・サプライチェーン・利用できるAIツールにまで影響するため、ビジネスにも無関係ではない。",
-        quiz: [
-          { q: "本文はAIチップを何に例えている？", options: ["20世紀の石油", "現代の金", "新しい電気"], answer: 0 },
-          { q: "中国の対応として書かれているのは？", options: ["チップの輸入を増やした", "国内チップ企業に約9億ドルを投資した", "AI開発を中止した"], answer: 1 },
-          { q: "チップを巡る政治がビジネスに与える影響は？", options: ["ほとんど影響はない", "価格や供給網、使えるAIツールに影響する", "広告費だけに影響する"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0707-4",
-        title: "Japan's Tourism Boom Changes the Streets",
-        level: "★★☆",
-        genre: "日本",
-        text: "Walk through Kyoto, Osaka, or the ski towns of Hokkaido, and you will hear languages from all over the world. Japan is in the middle of a historic tourism boom. A weak yen, easy flight connections, and Japan's global image for food, safety, and culture have made it one of the most popular destinations on the planet.\nThe boom brings clear economic benefits. Visitors spend money in hotels, restaurants, and shops, supporting jobs far beyond the big cities. Small towns with hot springs or historic streets are finding new life as travelers look for places that feel authentic and less crowded.\nAt the same time, popular areas face real problems. Residents in some neighborhoods complain about crowded buses, noise, and rising prices. Local governments are testing solutions such as tourist fees, separate lines for visitors, and campaigns that guide travelers to less famous regions.\nFor Japanese businesses, the message is practical: English and other language skills are becoming everyday tools, not special talents. A restaurant that can explain its menu in simple English, or a shop that can handle questions from foreign customers, has a direct advantage. The tourism boom is not only a policy topic — it is a daily business opportunity.",
-        summaryJa: "円安・航空アクセス・食や文化の魅力を背景に、日本は歴史的な観光ブームの真っ只中。地方にも経済効果が広がる一方、混雑・騒音・物価上昇などオーバーツーリズムの課題も。自治体は観光客向け料金や分散策を試行中。ビジネスの現場では、簡単な英語で対応できることがそのまま競争力になっている。",
-        quiz: [
-          { q: "観光ブームの背景として挙げられていないものは？", options: ["円安", "航空路線の利便性", "入国審査の廃止"], answer: 2 },
-          { q: "人気エリアで起きている問題は？", options: ["観光客の減少", "混雑・騒音・物価上昇", "ホテルの過剰供給だけ"], answer: 1 },
-          { q: "日本企業への実務的なメッセージは？", options: ["英語対応力が日常的な競争力になっている", "観光業から撤退すべき", "外国人客は増えない見込み"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0707-5",
-        title: "The Hidden Cost of AI: Electricity",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Every time you ask an AI a question, somewhere in the world a data center uses electricity to answer it. As AI services grow, their hunger for power is becoming a serious topic. One major tech company recently reported that its electricity use jumped 37 percent in a single year — the largest increase in its history — mainly because of AI infrastructure. Its data centers now use more electricity in a year than some entire countries.\nWhy does AI need so much power? Training a large AI model means running thousands of computers day and night for weeks. After that, every single user request also costs a small amount of energy, and billions of requests add up quickly.\nTech companies say they are working on solutions. They are buying renewable energy, designing more efficient chips, and even exploring nuclear power for their data centers. Critics answer that demand is growing faster than these solutions, and that local communities near data centers worry about their water and power supplies.\nThe debate matters for everyone who uses AI at work. In the future, the environmental cost of computing may influence which tools companies choose, how much they pay, and how they report their own carbon footprint.",
-        summaryJa: "AIの拡大でデータセンターの電力消費が急増。ある大手テック企業は年間電力使用量が過去最大の37%増となり、一部の国の年間消費量を上回る規模に。学習にも利用にも電力がかかるためで、再エネ購入・高効率チップ・原子力活用などの対策が進む一方、需要の伸びが上回るとの批判も。計算の環境コストは今後、企業のツール選定やコスト、CO2報告にも影響しうる。",
-        quiz: [
-          { q: "ある大手テック企業の電力使用はどうなった？", options: ["1年で37%増加した", "半分に減った", "横ばいだった"], answer: 0 },
-          { q: "AIが大量の電力を使う理由は？", options: ["学習と日々の利用の両方に電力がかかるから", "画面が大きいから", "夜間しか動かせないから"], answer: 0 },
-          { q: "テック企業の対策として挙げられていないものは？", options: ["再生可能エネルギーの購入", "高効率チップの設計", "AIサービスの全面停止"], answer: 2 }
         ]
       }
     ]
