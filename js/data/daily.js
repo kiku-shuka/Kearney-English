@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-17",
+    passages: [
+      {
+        id: "d0717-1",
+        title: "A Home Electronics Giant Reinvents Itself",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Panasonic is a name that once filled living rooms around the world with televisions, cameras, and kitchen appliances. Today, reports say the company is turning its energy toward a very different market: data centers, the giant warehouses of computers that power the internet and artificial intelligence.\nWhy would a maker of home electronics chase such a change? Because markets shift, and companies that do not shift with them fade away. The market for televisions and home appliances is mature and crowded, with thin profits and tough competition from lower-cost rivals. Data centers, by contrast, are booming. The rise of AI has created enormous demand for computing power, and every data center needs reliable electricity, cooling, and energy storage — areas where Panasonic's long experience in batteries and power systems can shine.\nThis kind of reinvention is a recurring theme in business history. Great companies often survive not by doing the same thing forever, but by carrying their core skills into new markets. A firm that once made batteries for laptops can make batteries for cars or data centers. The product changes; the underlying strength remains.\nThe move is not without risk. New markets bring new competitors and new demands. But standing still is often the greater danger. For any business, the story is a useful reminder: your industry may change faster than you expect, and the ability to redeploy your strengths into fresh opportunities can matter more than defending an old position.",
+        summaryJa: "かつて世界の家庭をテレビや家電で満たしたパナソニックが、AIとインターネットを支える「データセンター」市場へ軸足を移していると報じられる。成熟し利益の薄い家電市場に対し、AIで急拡大するデータセンターは電力・冷却・蓄電を必要とし、同社の電池・電源技術が活きる。優れた企業は同じことを続けるのではなく、中核の強みを新市場へ持ち込んで生き残る——製品は変わっても土台の強みは残る。業界は予想より速く変わり、強みを再配置する力が古い地位の防衛より重要になりうる。",
+        quiz: [
+          { q: "パナソニックが力を入れ始めた市場は？", options: ["データセンター", "映画製作", "観光業"], answer: 0 },
+          { q: "データセンター市場が有望な理由は？", options: ["AIで computing の需要が急拡大しているから", "家電より簡単だから", "競争がないから"], answer: 0 },
+          { q: "本文の教訓は？", options: ["中核の強みを新市場へ再配置する力が重要", "同じ製品を作り続けるべき", "変化は避けるべき"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0717-2",
+        title: "Building Detectors to Read the Universe",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Some of the biggest secrets of the universe are hidden in the faintest of signals — particles and waves so weak that our normal instruments cannot notice them. Scientists have taken an important step toward building a new generation of quantum detectors, devices sensitive enough to catch these whispers from the cosmos.\nWhat makes quantum detectors special is their extraordinary sensitivity. By using the strange rules of quantum physics, they can measure incredibly small amounts of energy or tiny changes in a field. This precision could help answer some of physics' deepest questions: What is dark matter, the invisible substance that makes up most of the universe's mass? Are there particles we have never detected? Such questions have puzzled scientists for decades because the signals involved are almost impossibly faint.\nThe technology is difficult to build. Quantum states are delicate and easily destroyed by heat, vibration, or stray signals, so these detectors often must be cooled to near absolute zero and shielded from the outside world. Each engineering advance that makes them more stable brings real experiments closer.\nThough this research aims at the cosmos, the tools it produces rarely stay in the laboratory. Ultra-sensitive detectors developed for physics have a way of turning up later in medical scanners, navigation systems, and security devices. Curiosity about the universe, again and again, ends up improving technology here on Earth.",
+        summaryJa: "宇宙の最大の謎は、通常の機器では捉えられないほど微弱な信号に潜む。科学者は、その「宇宙のささやき」を捉えられる次世代の量子検出器の構築へ重要な一歩を踏み出した。量子物理の性質を使い極めて微小なエネルギーや場の変化を測れるため、暗黒物質や未知の粒子といった難問に迫れる。量子状態は熱や振動に弱く、絶対零度近くまで冷却・遮蔽する必要がある。宇宙を狙う技術だが、超高感度検出器は後に医療スキャナや航法・セキュリティにも応用され、宇宙への好奇心が地上の技術を高めてきた。",
+        quiz: [
+          { q: "量子検出器の特別な点は？", options: ["極めて微小なエネルギーや場の変化を測れる高感度", "安く作れること", "冷却が不要なこと"], answer: 0 },
+          { q: "この検出器で迫れる難問は？", options: ["暗黒物質や未知の粒子", "天気予報", "株価の予測"], answer: 0 },
+          { q: "宇宙向け技術の副次効果は？", options: ["医療・航法・セキュリティにも応用される", "宇宙でしか使えない", "何も生まない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0717-3",
+        title: "The World's Quiet Shift to Electric Two-Wheelers",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "When people picture the electric vehicle revolution, they usually imagine cars. But in much of the world, the most important shift is happening on two wheels. A Japanese motorcycle maker is betting on the continued growth of electric scooters and motorcycles in cities, and the reasoning reveals a lot about how global transport is changing.\nIn many countries — across Southeast Asia, India, Africa, and beyond — motorcycles and scooters, not cars, are the main way people get around. They are cheap, easy to park, and perfect for crowded streets. Because there are so many of them, switching these vehicles to electric power could cut air pollution and fuel use dramatically, perhaps even more than switching cars in wealthy nations.\nElectric two-wheelers have real advantages. They are simpler and cheaper than electric cars, their smaller batteries charge quickly, and in some cities riders can swap an empty battery for a full one in seconds at special stations. For crowded, polluted cities, they offer a fast path to cleaner air.\nChallenges remain: building charging or battery-swap networks, keeping prices low enough for ordinary buyers, and ensuring a steady supply of batteries. But the direction is clear. The electric future may arrive first not in the expensive cars of rich countries, but in the millions of small, practical two-wheelers that move the cities of the developing world.",
+        summaryJa: "EV革命というと自動車を思い浮かべがちだが、世界の多くの地域では変化は「二輪」で起きている。日本のバイクメーカーが都市の電動スクーター・バイクの成長に賭ける。東南アジアやインド、アフリカでは二輪が主要な移動手段で、数が多いぶん電動化の汚染・燃料削減効果は大きい。電動二輪は電動車より簡単・安価で、小さい電池は素早く充電でき、数秒で電池交換できる都市もある。充電網や価格、電池供給の課題は残るが、電動化の未来はまず途上国都市の実用的な二輪から訪れるかもしれない。",
+        quiz: [
+          { q: "世界の多くの地域でEV化が進む乗り物は？", options: ["スクーターやバイクなどの二輪", "大型トラック", "飛行機"], answer: 0 },
+          { q: "二輪の電動化の効果が大きい理由は？", options: ["数が多く、汚染・燃料削減の効果が大きいから", "高価だから", "誰も乗らないから"], answer: 0 },
+          { q: "電動二輪の利点として挙げられていないものは？", options: ["電動車より簡単・安価", "小さい電池が素早く充電できる", "空を飛べる"], answer: 2 }
+        ]
+      },
+      {
+        id: "d0717-4",
+        title: "Cool Biz: How Japan Fights Summer Heat at Work",
+        level: "★★☆",
+        genre: "日本",
+        text: "Every summer, Japanese offices run an experiment that mixes environmental policy, business culture, and simple common sense. It is called 'Cool Biz,' a campaign that encourages workers to dress lightly and set air conditioners no lower than 28 degrees Celsius, in order to save energy during the hottest months.\nThe idea began years ago as a response to energy shortages, but it has become a normal part of the working year. During Cool Biz season, the strict business suit relaxes. Men leave their jackets and ties at home, lighter shirts are acceptable, and the whole dress code becomes more comfortable. What was once considered too casual for a serious office is now official policy.\nThe benefits go beyond saving electricity. Comfortable workers are often more productive, and lighter clothing reduces the risk of heat-related illness. The campaign also sends a public message: saving energy is a shared responsibility, and small daily choices — a temperature setting, a change of shirt — add up across millions of offices.\nCool Biz is a good example of how culture and policy can work together. A government suggestion alone rarely changes behavior, and neither does personal preference alone. But when an idea fits both the climate and the practical needs of workers, it can quietly reshape a whole country's habits. For visitors and new employees, understanding Cool Biz is a small but useful window into how Japan balances tradition, comfort, and shared goals.",
+        summaryJa: "日本の夏の職場では「クールビズ」が定着している。軽装を促し冷房を28度以上に設定して猛暑期の省エネを図る取り組みで、元は電力不足への対応から始まり今や年中行事に。上着やネクタイを外す軽装が公式方針となり、省エネだけでなく生産性向上や熱中症予防にもつながる。政府の呼びかけだけでも個人の好みだけでも行動は変わらないが、気候と働く人の実際的ニーズの双方に合う考えは国全体の習慣を静かに変える。クールビズは伝統・快適さ・共通目標を両立させる日本の一例。",
+        quiz: [
+          { q: "クールビズの内容は？", options: ["軽装を促し冷房を28度以上に設定して省エネする", "冬に暖房を強くする", "残業を増やす"], answer: 0 },
+          { q: "クールビズの効果として挙げられていないものは？", options: ["省エネ", "生産性向上や熱中症予防", "売上の倍増"], answer: 2 },
+          { q: "本文が示す教訓は？", options: ["気候と働く人のニーズに合う考えは国の習慣を変える", "政府の命令だけで十分", "習慣は変えられない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0717-5",
+        title: "The Science of Staying Cool",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "As summers grow hotter, understanding how the human body handles heat is more useful than ever. Your body is a remarkable temperature-control machine, working constantly to keep its core near 37 degrees Celsius. When you get too hot, it has two main tools: it sends more blood to the skin to release heat, and it produces sweat, which cools you as it evaporates.\nThis system is powerful but has limits. Sweating only cools you if the sweat can evaporate, which is why humid days feel so much worse than dry ones — the air is already full of moisture, so sweat stays on the skin and does little good. Heavy activity, poor hydration, and high humidity can overwhelm the body's cooling, leading to heat exhaustion or, in serious cases, heatstroke.\nScience points to simple, effective habits. Drinking water regularly keeps sweat production going. Loose, light-colored clothing lets air move and reflects sunlight. Resting during the hottest hours reduces the heat your body must fight. And a fan or air conditioner helps sweat evaporate and moves warm air away.\nInterestingly, humans are among the best natural coolers in the animal kingdom. Our ability to sweat across nearly the whole body let our ancestors stay active in the heat when other animals had to rest. But that ancient advantage still needs support. Working with your body's cooling system, rather than against it, is the smartest way to stay safe and comfortable through a hot summer.",
+        summaryJa: "夏が暑くなる中、体が熱をどう扱うかの理解が役立つ。人体は核心温を約37度に保つ精巧な装置で、暑いと皮膚に血流を送り、汗の蒸発で冷やす。だが汗は蒸発してこそ冷え、湿度の高い日は汗が残り効きにくい。激しい活動・水分不足・高湿度は冷却を上回り熱中症を招く。こまめな水分補給、ゆったりした明色の服、暑い時間帯の休息、扇風機やエアコンが有効。全身で汗をかけるヒトは動物界でも屈指の「冷却上手」だが、その仕組みに逆らわず協力することが安全で快適な夏の鍵。",
+        quiz: [
+          { q: "体が熱を逃がす主な方法は？", options: ["皮膚への血流増加と汗の蒸発", "呼吸を止めること", "食事を増やすこと"], answer: 0 },
+          { q: "湿度の高い日が暑く感じる理由は？", options: ["汗が蒸発しにくく冷却が効かないから", "気温が必ず高いから", "風が強いから"], answer: 0 },
+          { q: "暑さ対策として挙げられていないものは？", options: ["こまめな水分補給", "ゆったりした明色の服", "厚手の黒い服を着る"], answer: 2 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-16",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "研究で発見されたのは？", options: ["両生類由来の細菌がマウスの大腸腫瘍を消失させたこと", "新しい手術ロボット", "がんを予防する食事法"], answer: 0 },
           { q: "この細菌の「二重の作用」とは？", options: ["がん細胞への直接攻撃と免疫系の活性化", "痛み止めと栄養補給", "殺菌と保湿"], answer: 0 },
           { q: "本文が促す注意点は？", options: ["マウスの結果が人間で再現されるとは限らない", "すでに薬局で買える", "細菌はすべて危険である"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-10",
-    passages: [
-      {
-        id: "d0710-1",
-        title: "How Investors Made Billions on Memory Chips",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "One of the most talked-about business stories in Asia this year is a quiet exit. A major American investment fund has finished selling its stake in a large Japanese memory chip maker, closing a deal that began years ago and ended with very large returns.\nThe story is a classic example of how private equity works. A private equity fund buys a company — or a large part of it — that it believes is undervalued. It then works to improve the business over several years: cutting costs, changing management, investing in new products. Finally, it sells its stake, hoping the company is now worth far more than the purchase price.\nIn this case, timing did much of the work. The fund bought into the memory chip business when prices were low and the industry looked risky. Then the AI boom arrived. Data centers need enormous amounts of memory, and demand for advanced chips exploded. The value of chip companies rose around the world, and what once looked like a risky bet became one of the decade's great investments.\nThe lesson for business readers is not simply that chips are hot. It is that patient capital, bought at the right moment in an unpopular industry, can beat the most exciting trends — because the price you pay matters as much as the story you believe.",
-        summaryJa: "米大手投資ファンドが日本の大手メモリ半導体メーカーの持ち分売却を完了し、巨額のリターンを得た。安く買い、数年かけて事業を改善し、高く売るというPE(プライベートエクイティ)の典型例で、AIブームによるメモリ需要の爆発が追い風になった。教訓は「買値は信じるストーリーと同じくらい重要」ということ。",
-        quiz: [
-          { q: "プライベートエクイティの基本的な手法は？", options: ["割安な企業を買い、改善して、高く売る", "毎日株を売買する", "銀行に預金する"], answer: 0 },
-          { q: "この投資が大きな利益になった追い風は？", options: ["AIブームによるメモリ需要の急増", "円高", "チップ価格の下落"], answer: 0 },
-          { q: "本文の教訓は？", options: ["買値はストーリーと同じくらい重要", "人気産業だけに投資すべき", "投資は運だけで決まる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0710-2",
-        title: "Foldable Phones Try to Go Mainstream",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Phones that fold in half have existed for several years, but until recently they were a niche product: expensive, heavy, and a little fragile. That may be changing. Industry reports say production targets for foldable phones are reaching around ten million units, a scale that suggests makers now see them as a mainstream product, not an experiment.\nWhy the new confidence? Three things have improved. First, the folding screens themselves are stronger, and the crease in the middle is much less visible than before. Second, the phones have become thinner and lighter, so a folded device no longer feels like two phones glued together. Third, prices are slowly coming down as factories produce more units and competition increases.\nThe business logic is simple: the regular smartphone market is saturated. Almost everyone who wants a phone already has one, and new models look much like old ones. Foldables give makers something genuinely different to sell, with higher prices and higher profits — if customers accept them.\nChallenges remain. Repair costs are high, some apps still do not use the larger screen well, and many buyers simply do not see why they need a folding device. The next year or two will show whether foldables become the new normal or stay a stylish minority choice.",
-        summaryJa: "折りたたみスマホの生産目標が約1,000万台規模に達し、実験的製品から主流製品への転換点を迎えつつある。画面の耐久性向上・薄型軽量化・価格低下が背景。スマホ市場の飽和で差別化商品が必要というメーカー側の事情もある。修理費の高さやアプリ対応、そもそもの必要性への疑問など課題は残り、今後1〜2年が正念場。",
-        quiz: [
-          { q: "折りたたみスマホの生産目標の規模は？", options: ["約1,000万台", "約100台", "約10億台"], answer: 0 },
-          { q: "改善点として挙げられていないものは？", options: ["画面の強度", "薄型軽量化", "バッテリーの完全ワイヤレス化"], answer: 2 },
-          { q: "メーカーが折りたたみに力を入れる理由は？", options: ["通常のスマホ市場が飽和し差別化が必要だから", "法律で義務化されたから", "製造が簡単だから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0710-3",
-        title: "Japan and India Move Closer",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Two of Asia's largest democracies are building a deeper partnership. Recent summit talks between Japan and India covered an ambitious agenda, and analysts note that both sides now want practical cooperation, not just friendly declarations.\nThe logic of the partnership is easy to see. Japan has advanced technology, capital, and decades of manufacturing know-how, but its population is shrinking. India has a huge and young workforce, a fast-growing economy, and enormous demand for infrastructure, but it needs investment and technology. Each country has what the other lacks.\nEconomic security is a central theme. Both countries want supply chains that do not depend too heavily on any single nation, especially for critical goods like semiconductors, batteries, and rare materials. Japanese companies are expanding factories in India, and the two governments are discussing cooperation in defense technology, digital payments, and even the movement of skilled workers — Indian engineers for Japanese companies, for example.\nThere are obstacles, of course. Business cultures differ, infrastructure gaps remain, and big projects move slowly. But the direction is clear: in an uncertain world, Tokyo and New Delhi see each other as long-term partners. For businesspeople, the message is practical — the Japan-India corridor is becoming one of the most important economic relationships to watch in Asia.",
-        summaryJa: "日印首脳会談は宣言にとどまらない実務協力へ踏み出した。少子化の日本は技術と資本を、若い労働力と成長市場を持つインドは投資と技術を必要とし、相互補完の関係にある。半導体・電池・重要物資のサプライチェーン多元化という経済安全保障が中心テーマで、防衛技術・デジタル決済・高度人材の移動でも協力を協議。日印回廊はアジアで最も注目すべき経済関係の一つになりつつある。",
-        quiz: [
-          { q: "日印協力の背景にある相互補完とは？", options: ["日本の技術・資本とインドの若い労働力・成長市場", "両国とも人口が増えている", "同じ言語を話す"], answer: 0 },
-          { q: "経済安全保障の中心テーマは？", options: ["特定国に依存しないサプライチェーンづくり", "観光客の誘致", "映画の共同製作"], answer: 0 },
-          { q: "本文が挙げる協力分野に含まれないものは？", options: ["防衛技術", "デジタル決済", "宇宙人の研究"], answer: 2 }
-        ]
-      },
-      {
-        id: "d0710-4",
-        title: "A Chip Boomtown Grows in Kyushu",
-        level: "★★☆",
-        genre: "日本",
-        text: "A few years ago, few people outside Japan had heard of the farming towns of Kumamoto prefecture. Today the region is one of the most watched places in the global semiconductor industry. Since the world's largest contract chipmaker opened factories there, a whole ecosystem has grown around them — and it keeps expanding.\nRecent reports say local suppliers are adding significant new capacity, with one manufacturer expanding its local production by about forty percent to serve the growing hub. Chemical makers, equipment companies, and logistics firms are all building facilities nearby. The goal is a complete supply chain in one region, so that materials and parts do not have to travel far.\nThe effects reach far beyond the factories. Land prices around the plants have jumped, new restaurants and apartments are opening, and local schools are adding engineering programs. Young people who once left for Tokyo or Osaka now see careers at home. At the same time, growth brings problems familiar to boomtowns everywhere: traffic jams, worker shortages, and worries about water use by the factories.\nFor Japan, Kyushu's chip cluster is a test case. The country wants to rebuild the semiconductor strength it lost decades ago. If the model works — foreign investment, local suppliers, and government support pulling together — other regions will try to copy it.",
-        summaryJa: "世界最大の半導体受託製造企業の工場進出以来、熊本を中心とする九州が世界的な半導体集積地に変貌しつつある。地場サプライヤーは生産能力を約4割増強するなど拡大が続き、材料・装置・物流が一体となった地域完結型サプライチェーンを目指す。地価上昇や雇用の地元定着という恩恵の一方、渋滞・人手不足・水資源への懸念も。日本の半導体復権のテストケースとして注目される。",
-        quiz: [
-          { q: "熊本周辺で起きていることは？", options: ["半導体の supply chain 集積地として拡大している", "工場がすべて閉鎖された", "農業だけが成長している"], answer: 0 },
-          { q: "地場サプライヤーの動きは？", options: ["生産能力を約4割増強", "生産を海外へ全面移転", "半導体事業から撤退"], answer: 0 },
-          { q: "ブームの課題として挙げられているのは？", options: ["渋滞・人手不足・水資源への懸念", "観光客の減少", "地価の暴落"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0710-5",
-        title: "Small Rockets, Big Dreams",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Space used to be a game for superpowers. Building and launching rockets cost so much that only governments could afford it. That era is ending. Around the world — including in Japan, where space is now one of the strongest startup fields — small private companies are building rockets, satellites, and services that were unthinkable for startups a decade ago.\nThe key change is cost. Modern small satellites can be built with standard electronic parts, and they weigh kilograms instead of tons. Small rockets, designed to carry these light payloads, are cheaper to build and can launch more often. Reusable technology, pioneered by larger players, has pushed prices down across the industry.\nWhat do all these small satellites actually do? More than most people think. They photograph farmland to help farmers use water and fertilizer wisely. They track ships and monitor illegal fishing. They measure greenhouse gases, connect remote areas to the internet, and watch disasters like floods and wildfires in near real time.\nJapan's government has named space a national priority, and universities, startups, and big manufacturers are joining the field. Challenges are real — launches fail, funding is risky, and competition is global. But the message of the new space race is inspiring: the sky is no longer the limit for small teams with big ideas.",
-        summaryJa: "宇宙開発は超大国の独占物から、スタートアップの主戦場へ。小型衛星は標準部品で安価に作れ、小型ロケットの登場と再使用技術の普及で打ち上げコストが激減した。小型衛星は農業支援、船舶追跡、温室効果ガス観測、災害監視など幅広く活躍。日本も宇宙を国家的優先分野に位置づけ、スタートアップの最有力分野の一つになっている。",
-        quiz: [
-          { q: "宇宙開発の変化の鍵は？", options: ["小型化と再使用技術によるコスト激減", "宇宙人との協力", "ロケットの大型化"], answer: 0 },
-          { q: "小型衛星の用途として挙げられていないものは？", options: ["農業の支援", "災害の監視", "月面ホテルの運営"], answer: 2 },
-          { q: "日本の宇宙分野の現状は？", options: ["国家的優先分野でスタートアップの有力分野", "全面的に禁止されている", "関心が失われている"], answer: 0 }
         ]
       }
     ]
