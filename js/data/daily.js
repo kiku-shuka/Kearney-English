@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-18",
+    passages: [
+      {
+        id: "d0718-1",
+        title: "A Retailer Looks to Europe for Growth",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "One of Japan's biggest retail companies is reportedly considering a large investment — several hundred billion yen — in the largest convenience store operator in Poland. The move is part of a wider strategy: as growth slows at home, Japanese retailers are looking abroad for new customers.\nThe reason is demographics. Japan's population is shrinking and aging, which means fewer shoppers each year. A company that depends only on the domestic market faces a hard ceiling on its growth. Europe, by contrast, offers large populations and regions where convenience stores are still expanding. Buying an established local operator is often smarter than starting from zero, because the local company already understands its customers, suppliers, and rules.\nConvenience stores are a Japanese specialty. Over decades, Japanese chains perfected the art of running small, efficient shops that offer fresh food, services, and long opening hours. That know-how is valuable abroad, where the convenience-store model is less developed. Exporting a business system, not just products, can be a powerful form of growth.\nThere are risks in crossing borders. Consumer tastes differ, labor rules vary, and managing a company thousands of kilometers away is hard. But the strategic logic is clear. When your home market cannot grow, you must either find new products or new places — and for Japan's retailers, the world's growing regions increasingly look like the future.",
+        summaryJa: "日本の大手小売企業が、ポーランド最大のコンビニ運営会社に数千億円規模の投資を検討していると報じられた。人口減・高齢化で国内の買い物客が減る中、海外に成長を求める戦略の一環。ゼロから始めるより現地の既存企業を買う方が、顧客・取引先・規制を理解している分有利。日本が磨いたコンビニ運営のノウハウは、モデルが未発達な海外で価値を持つ。国境を越えるリスクはあるが、国内が伸びないなら「新しい製品か新しい場所」を探すしかない。",
+        quiz: [
+          { q: "日本の小売企業が海外に目を向ける主な理由は？", options: ["国内は人口減で買い物客が減るから", "海外の方が家賃が安いから", "国内の店が多すぎるから"], answer: 0 },
+          { q: "ゼロから始めるより現地企業を買う利点は？", options: ["顧客・取引先・規制を既に理解しているから", "従業員が不要だから", "商品が無料になるから"], answer: 0 },
+          { q: "本文が示す成長の考え方は？", options: ["国内が伸びないなら新しい製品か新しい場所を探す", "何もしないのが最善", "海外進出は避けるべき"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0718-2",
+        title: "AI Moves onto the Factory Floor",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "For years, most people met artificial intelligence on their phones and computers. Now AI is entering a very different place: the factory. Several major Japanese manufacturers — companies that make robots, machines, and industrial equipment — have announced new AI initiatives, often in partnership with a leading maker of AI chips.\nWhat does AI actually do in a factory? A great deal. It can inspect thousands of products per hour, spotting tiny defects a human eye would miss. It can predict when a machine is about to break down, so it can be fixed before it stops the whole line. It can guide robots to handle objects of different shapes, a task that once required careful programming for every case. In short, AI makes factories more flexible, more reliable, and more efficient.\nJapan is a natural home for this shift. The country has long been a leader in robotics and precision manufacturing, and it faces a shrinking workforce that makes automation especially valuable. Combining decades of factory know-how with modern AI could help Japanese industry stay competitive as fewer young workers are available.\nThere are challenges. AI systems need large amounts of good data, skilled engineers to run them, and careful testing to ensure safety. Workers will need training as their jobs change. But the direction is clear: the same technology that answers questions on your phone is quietly moving into the machines that make the physical world, and manufacturing may never look the same again.",
+        summaryJa: "スマホやPCで出会うことが多かったAIが、工場という別の場所に入り込んでいる。日本の大手製造業(ロボットや産業機器メーカー)が、AIチップの主要企業と組んで新たなAI施策を発表した。工場のAIは、微細な欠陥検査、故障の予知保全、多様な形状の物を扱うロボット制御などを担い、工場を柔軟・確実・効率的にする。ロボットと精密製造に強く、労働力が縮む日本には特に価値が高い。良質なデータや人材、安全性検証、労働者の再教育という課題はあるが、AIは物理世界を作る機械へ静かに移りつつある。",
+        quiz: [
+          { q: "工場でのAIの役割として挙げられていないものは？", options: ["微細な欠陥の検査", "故障の予知保全", "商品の値段を勝手に決める"], answer: 2 },
+          { q: "日本がこの変化に向くとされる理由は？", options: ["ロボット・精密製造に強く、労働力が縮んでいるから", "工場が少ないから", "AIを禁止しているから"], answer: 0 },
+          { q: "課題として挙げられているのは？", options: ["良質なデータ・人材・安全性検証・労働者の再教育", "電気が使えないこと", "工場が海外にしかないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0718-3",
+        title: "Why Household Inflation Fears Matter",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Central banks watch many numbers, but one of the most important is surprisingly personal: what ordinary households expect to happen to prices. Recent reports say inflation expectations among Japanese households have hit a record high, keeping pressure on the country's central bank to keep raising interest rates.\nWhy do expectations matter so much? Because they can become self-fulfilling. If people believe prices will rise sharply, they change their behavior. Workers demand higher wages to keep up. Shoppers buy now rather than later, fearing higher prices ahead. Companies raise prices more confidently, expecting customers to accept it. All of this can actually push inflation higher — simply because everyone expected it.\nThis is why central banks care about psychology as much as economics. Part of their job is to keep expectations 'anchored,' meaning people trust that prices will stay reasonably stable. Once that trust breaks and expectations climb, controlling inflation becomes much harder, because the belief itself drives the problem.\nFor Japan, this is a new challenge. After decades of near-zero inflation, prices are now rising, and households have noticed. The central bank must respond carefully: raise rates enough to calm expectations, but not so fast that it damages the economy. It is a delicate balance, and it shows an important truth about money — the economy runs not only on hard numbers, but also on what millions of people believe will happen next.",
+        summaryJa: "中央銀行が注視する最重要指標の一つが、家計が抱く「物価の見通し」。日本の家計のインフレ期待が過去最高に達し、利上げ継続の圧力になっていると報じられる。期待は自己実現しうる——値上がりを予想すると人は賃上げを求め、早めに買い、企業も強気に値上げし、結果として本当にインフレが進む。だから中央銀行は心理も重視し、期待を「安定(アンカー)」させようとする。長年ほぼゼロ物価だった日本にとって新たな試練で、期待を鎮めつつ景気を壊さない微妙な舵取りが要る。経済は数字だけでなく人々の予想でも動く。",
+        quiz: [
+          { q: "インフレ期待が重要なのはなぜ？", options: ["自己実現して実際にインフレを進めうるから", "数字が面白いから", "無関係だから"], answer: 0 },
+          { q: "人々が値上がりを予想すると起きることは？", options: ["賃上げ要求・早めの購入・強気の値上げ", "誰も買わなくなる", "価格が必ず下がる"], answer: 0 },
+          { q: "中央銀行の課題は？", options: ["期待を鎮めつつ景気を壊さない微妙な舵取り", "利上げを無限に続ける", "何もしないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0718-4",
+        title: "Preparing for Longer, Hotter Summers",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japan's summers are changing, and science is putting numbers to what many people already feel. Advanced climate simulations suggest that as global temperatures rise, Japan is likely to face increasingly long and dangerously hot summers, along with more frequent torrential rain, rising seas, and accelerating ice loss around the world by the end of the century.\nThese projections are more than distant warnings; they shape decisions being made today. Longer hot seasons mean more strain on power grids as air conditioners run for months, more heatstroke cases in hospitals, and tougher conditions for farmers and outdoor workers. More intense rain raises the risk of floods and landslides, forcing cities to strengthen drainage and rethink where people build.\nJapan has long experience preparing for natural disasters, from earthquakes to typhoons, and that culture of preparation is now being applied to a warming climate. Cities are planting trees, redesigning buildings to stay cool, upgrading flood defenses, and improving warning systems that tell people when dangerous heat or rain is coming.\nThe deeper message is about adaptation. Reducing greenhouse gases remains essential to limit how far the climate changes. But some warming is already locked in, so societies must also adapt to the world that is coming. For a country as exposed to natural forces as Japan, learning to live safely with hotter summers and wilder weather is becoming one of the great practical challenges of the century.",
+        summaryJa: "日本の夏は変わりつつあり、科学がその実感を数値化している。高度な気候シミュレーションは、地球温暖化で日本の夏がより長く危険に暑くなり、世界全体で集中豪雨の増加・海面上昇・氷の減少が今世紀末までに進むと示す。これは電力網の負荷、熱中症、農作業への影響、洪水・土砂災害リスクの増大として今日の意思決定に関わる。地震や台風に備えてきた日本の防災文化が温暖化にも応用され、植樹・涼しい建物・治水・警報の強化が進む。温室効果ガス削減は不可欠だが、ある程度の温暖化は避けられず、来る世界への「適応」も社会の大きな課題になる。",
+        quiz: [
+          { q: "気候シミュレーションが示す日本の夏は？", options: ["より長く危険に暑くなる", "急に涼しくなる", "変化しない"], answer: 0 },
+          { q: "予測がもたらす今日的な影響に含まれないものは？", options: ["電力網の負荷や熱中症", "洪水・土砂災害リスク", "地震の消滅"], answer: 2 },
+          { q: "本文が伝える「より深いメッセージ」は？", options: ["削減に加え、来る世界への適応も必要", "対策は不要", "温暖化はすでに止まった"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0718-5",
+        title: "The Comeback of a Family Car",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Cars are not only machines; they are also cultural objects that reflect how families live. A Japanese automaker recently unveiled a fully redesigned large minivan, the model's first complete overhaul in sixteen years. Behind that long gap and fresh design lies an interesting story about how products and lifestyles change together.\nWhy would a company wait sixteen years to redesign a car? Because a major overhaul is expensive and risky. Engineers must rethink the engine, the body, the safety systems, and the technology inside, while guessing what families will want years into the future. Wait too long, and the product feels old; move too fast, and you waste money on changes customers do not need. Timing is everything.\nThe new minivan reflects modern family life. Buyers now expect advanced safety systems, big screens, comfortable seating for several passengers, and, increasingly, electric or hybrid power for better efficiency. A car designed sixteen years ago simply cannot meet these expectations, no matter how good it once was.\nThere is a broader lesson about staying relevant. Every product, from cars to phones to software, must eventually be reimagined for a new generation. The companies that succeed are those that watch how people actually live — how families travel, what they value, what they worry about — and update their products to match. A car is really a mirror of its time, and redesigning one is a bet on how we will all live next.",
+        summaryJa: "車は機械であると同時に、家族の暮らしを映す文化的存在でもある。日本の自動車メーカーが大型ミニバンを16年ぶりに全面刷新して発表した。全面刷新は高コストで、エンジン・車体・安全・技術を作り直しつつ数年先の家族のニーズを読む必要があり、遅すぎれば古び, 早すぎれば無駄——タイミングが肝心。新型は先進安全、大型画面, 多人数の快適な座席, 電動・ハイブリッド化など現代の家族生活を反映する。あらゆる製品は新世代向けに再構想が要り, 成功する企業は人々の実際の暮らしを観察して製品を更新する。車はその時代を映す鏡だ。",
+        quiz: [
+          { q: "会社が16年間も全面刷新を待つ理由は？", options: ["刷新は高コストで、将来のニーズを読む必要があるから", "法律で禁止されているから", "誰も車を買わないから"], answer: 0 },
+          { q: "新型ミニバンが反映する現代のニーズに含まれないものは？", options: ["先進安全システム", "電動・ハイブリッド化", "馬で引く仕組み"], answer: 2 },
+          { q: "本文の広い教訓は？", options: ["製品は人々の暮らしを観察して新世代向けに更新すべき", "製品は変えない方がよい", "デザインは重要でない"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-17",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "確認された特殊な性質は？", options: ["材料の端だけが保護された形で電気を通す", "材料が空中に浮く", "材料が音を出す"], answer: 0 },
           { q: "2次元材料の研究が盛んになったきっかけは？", options: ["グラフェン(炭素1原子層)の発見", "月面着陸", "インターネットの普及"], answer: 0 },
           { q: "期待される応用は？", options: ["低損失エレクトロニクスや量子コンピュータ部品", "新しい調味料", "高速道路の舗装"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-11",
-    passages: [
-      {
-        id: "d0711-1",
-        title: "When Your Biggest Customer Becomes Your Biggest Risk",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Factories across the Asia-Pacific region are quietly changing their plans. Reports say manufacturers in Japan, South Korea, Taiwan, and Australia are turning more attention to local and regional customers, because orders from the United States have become harder to predict.\nFor decades, the strategy was simple: make good products and sell them to the world's biggest consumer market. But trade rules now change quickly, tariffs appear and disappear with politics, and long supply chains can be disrupted overnight. A factory that depends on one distant market can see its plans destroyed by a single policy announcement.\nThe response is diversification. Companies are building customer bases closer to home, selling more within Asia, and opening production sites in the regions where their buyers actually are. This costs money in the short term — new factories and new sales networks are expensive — but it buys something valuable: stability.\nThe lesson applies far beyond manufacturing. Any business that earns most of its money from one client faces the same danger. Consultants often call this customer concentration risk. A useful exercise for any company, large or small, is to ask a simple question: if our biggest customer disappeared tomorrow, would we survive? If the honest answer is no, diversification is not a luxury — it is homework.",
-        summaryJa: "日韓台豪のメーカーが、予測しにくくなった米国からの受注に頼らず、地域内の顧客開拓や現地生産へ軸足を移しつつある。貿易ルールや関税が政治で急変する時代、一つの遠い市場への依存は大きなリスク。短期的にはコストがかかっても多角化は安定を買う投資であり、「最大顧客が明日消えたら生き残れるか」という顧客集中リスクの問いはどんな企業にも当てはまる。",
-        quiz: [
-          { q: "アジア太平洋のメーカーが起こしている変化は？", options: ["地域内の顧客や現地生産へ軸足を移している", "全工場を米国へ移転している", "生産を全面停止している"], answer: 0 },
-          { q: "背景にある問題は？", options: ["米国からの受注が予測しにくくなった", "労働者が急増した", "原材料が無料になった"], answer: 0 },
-          { q: "「顧客集中リスク」への問いとして本文が挙げるのは？", options: ["最大顧客が明日消えたら生き残れるか", "社員旅行の行き先はどこか", "オフィスの広さは十分か"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0711-2",
-        title: "A Clever Upgrade Makes Old MRI Machines Better",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Hospitals face a constant dilemma: medical technology improves every year, but the machines are enormously expensive. An MRI scanner can cost millions of dollars, so most hospitals must use the same machine for a decade or more. That is why a new piece of research is attracting attention — it improves MRI images without replacing the scanner at all.\nResearchers redesigned a key piece of MRI hardware using metamaterials. These are engineered structures whose behavior comes from their carefully designed shape and pattern, not just from the substance they are made of. Placed in the imaging system, the new component helps existing scanners produce clearer pictures of body parts that are usually difficult to see — and in less time.\nThe benefits multiply quickly. Clearer images mean doctors can spot problems earlier and with more confidence. Shorter scan times mean less discomfort for patients, especially children and people who feel anxious in the narrow tunnel. And because each scan takes less time, hospitals can examine more patients with the same machine.\nThe wider lesson is about innovation itself. We often imagine progress as replacing old machines with new ones. But some of the most valuable engineering makes existing equipment better — a cheaper, faster, and greener path that matters everywhere, from hospitals to factories.",
-        summaryJa: "MRIの主要部品をメタマテリアル(形状と構造で性質を設計した人工材料)で再設計し、既存のスキャナのまま「見えにくい部位をより鮮明に・より短時間で」撮影できるようにする研究が注目されている。画像の鮮明化は早期発見に、時間短縮は患者負担の軽減と検査数の増加につながる。買い替えではなく既存設備を賢く改良するイノベーションの好例。",
-        quiz: [
-          { q: "この研究の特徴は？", options: ["既存のMRIを買い替えずに画質と速度を改善する", "MRIを廃止する", "新しい巨大スキャナを開発した"], answer: 0 },
-          { q: "メタマテリアルとは？", options: ["形状や構造の設計で性質を生み出す人工材料", "宇宙から採れる鉱物", "新種の医薬品"], answer: 0 },
-          { q: "スキャン時間短縮の利点として挙げられていないものは？", options: ["患者の負担軽減", "より多くの患者を検査できる", "電気代が無料になる"], answer: 2 }
-        ]
-      },
-      {
-        id: "d0711-3",
-        title: "The Global Race for Critical Minerals",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Behind every electric car, wind turbine, and smartphone lies a handful of materials most people never think about: lithium, cobalt, nickel, and the group known as rare earth elements. As the world electrifies, these critical minerals have become a matter of national strategy — and international tension.\nThe problem is concentration. Mining and, even more importantly, processing of many critical minerals are dominated by a small number of countries. When one nation controls most of the world's supply of a material that everyone needs, it gains enormous leverage. Export restrictions on such materials can shake industries on the other side of the planet within weeks.\nGovernments are responding on several fronts. Some are investing in domestic mines and processing plants, accepting higher costs for greater security. Others are signing partnership agreements with resource-rich countries in Africa, South America, and Southeast Asia. Companies, meanwhile, are redesigning products to use less of the riskiest materials, and building recycling systems to recover metals from old batteries and electronics.\nNo single solution will be enough. New mines take a decade to develop, recycling covers only part of demand, and substitutes do not exist for every material. The realistic goal is not independence but resilience: enough diversity of supply that no single actor can turn off the lights. Expect critical minerals to stay in the headlines for years.",
-        summaryJa: "EV・風力・スマホに不可欠なリチウムやレアアース等の重要鉱物は、採掘・精錬が少数の国に集中しており、輸出規制が世界の産業を揺らす戦略物資になっている。各国は国内生産への投資、資源国との連携協定、省資源設計やリサイクルで対応を急ぐが、鉱山開発には10年単位の時間が必要。目標は完全自給ではなく、供給源の多様化による「強靱性」の確保にある。",
-        quiz: [
-          { q: "重要鉱物問題の核心は？", options: ["採掘・精錬が少数の国に集中していること", "地球上から鉱物が消えたこと", "価格が下がりすぎたこと"], answer: 0 },
-          { q: "各国・企業の対応として挙げられていないものは？", options: ["国内での生産投資", "資源国との連携", "スマホの製造禁止"], answer: 2 },
-          { q: "本文が示す現実的な目標は？", options: ["完全な自給自足", "供給の多様化による強靱性", "鉱物の使用をやめること"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0711-4",
-        title: "Bonus Season: A Test for Japan's New Economy",
-        level: "★★☆",
-        genre: "日本",
-        text: "July in Japan means summer heat, festivals — and bonus season. Twice a year, most Japanese companies pay their employees a special bonus on top of the monthly salary, and the summer payment lands in bank accounts around this time. Economists watch these numbers closely, because they reveal much about the country's economic health.\nFor decades, Japan struggled with deflation: prices barely moved, and neither did wages. That era appears to be ending. Prices of food, energy, and services have risen noticeably in recent years, and the big question is whether pay can keep up. Bonuses are often the fastest-moving part of Japanese pay, because companies adjust them each year based on profits. When business is good, bonuses rise quickly.\nThe stakes are high for the whole economy. If bonuses and wages grow faster than prices, households feel richer, spend more, and support a healthy cycle of growth. If prices win the race, families quietly cut back — fewer restaurant visits, cheaper brands, postponed purchases — and the recovery stalls.\nThere is also a widening gap to watch. Large companies with strong profits can afford generous bonuses, while many small firms, squeezed by rising costs, cannot. For workers, the season is a reminder that in the new Japanese economy, where you work matters more than ever.",
-        summaryJa: "7月は日本のボーナス支給シーズン。デフレ時代の終わりが見える中、賃金と物価の競争を映す指標としてエコノミストが注目する。ボーナスは企業業績を反映して最も動きやすい報酬であり、物価上昇を上回れば消費と成長の好循環に、下回れば家計の節約と景気停滞につながる。好業績の大企業と、コスト増に苦しむ中小企業の格差拡大も焦点。",
-        quiz: [
-          { q: "エコノミストが夏のボーナスに注目する理由は？", options: ["賃金が物価上昇に追いつくかを映す指標だから", "銀行が休みになるから", "税金が免除されるから"], answer: 0 },
-          { q: "ボーナスが「動きやすい」報酬である理由は？", options: ["企業が毎年業績に応じて調整するから", "法律で毎年倍増するから", "現金で支払われるから"], answer: 0 },
-          { q: "本文が指摘する「広がる格差」は？", options: ["大企業と中小企業のボーナス格差", "東京と大阪の家賃格差", "夏と冬の気温差"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0711-5",
-        title: "A Surprising Ally Against Cancer: Bacteria",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Sometimes the most powerful medical ideas come from unexpected places. Researchers studying bacteria that live in the intestines of amphibians made a remarkable discovery: one naturally occurring bacterium, given as a single treatment, completely eliminated colorectal tumors in laboratory mice.\nWhat makes the result especially interesting is how the bacterium works. It attacks tumors in two ways at once. First, it targets the cancer cells directly. Second — and perhaps more importantly — it wakes up the body's own immune system, teaching it to recognize and destroy the tumor. This double action is exactly what cancer researchers dream about, because tumors are experts at hiding from immune defenses.\nThe idea of using bacteria against cancer is actually more than a century old. Doctors long ago noticed that some patients' tumors shrank after serious bacterial infections. But the approach was too dangerous and unpredictable to control — until modern tools made it possible to study and engineer microbes precisely.\nA strong dose of caution is required. Results in mice often fail to repeat in humans, and years of safety testing lie ahead before any patient benefits. Still, the discovery points to a promising frontier: the trillions of microbes living in and around us may hold treatments we have barely begun to explore. The next great cancer drug might not be invented — it might be found.",
-        summaryJa: "両生類の腸内に住む天然の細菌が、1回の投与でマウスの大腸腫瘍を完全に消失させたという研究成果。がん細胞を直接攻撃すると同時に免疫系を活性化させる「二重の作用」が特徴。細菌でがんと闘う発想は100年以上前からあるが、現代の技術でようやく精密な制御が可能に。マウスの結果が人間で再現されるとは限らず安全性試験はこれからだが、体内の微生物が未開拓の治療法の宝庫である可能性を示す。",
-        quiz: [
-          { q: "研究で発見されたのは？", options: ["両生類由来の細菌がマウスの大腸腫瘍を消失させたこと", "新しい手術ロボット", "がんを予防する食事法"], answer: 0 },
-          { q: "この細菌の「二重の作用」とは？", options: ["がん細胞への直接攻撃と免疫系の活性化", "痛み止めと栄養補給", "殺菌と保湿"], answer: 0 },
-          { q: "本文が促す注意点は？", options: ["マウスの結果が人間で再現されるとは限らない", "すでに薬局で買える", "細菌はすべて危険である"], answer: 0 }
         ]
       }
     ]
