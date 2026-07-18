@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-19",
+    passages: [
+      {
+        id: "d0719-1",
+        title: "A Sudden Drop: When Markets Fall Fast",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Stock markets can rise slowly for months and then fall sharply in a single afternoon. Japan's main index recently dropped thousands of points in a few hours, driven by heavy selling of chip-related shares. One major memory chip maker saw its market value fall to roughly half of its recent peak. For anyone learning about business, a day like this is a lesson in how markets really work.\nWhy do prices swing so violently? Because a stock price reflects not just today's profits but investors' hopes about the future. When those hopes are very high, prices climb far above current earnings. But high hopes are fragile. A single worrying signal — a disappointing forecast, a rival's success, or simply the feeling that prices rose too fast — can make investors rush to sell at once. Selling feeds more selling, and prices tumble.\nThe recent fall centered on companies tied to artificial intelligence. For over a year, AI excitement pushed chip stocks to extraordinary heights. When some investors decided the prices had gone too far, the reversal was quick and painful.\nDoes a crash mean the technology is worthless? Usually not. Even after a sharp drop, a good company keeps making products and earning money. The lesson is about the difference between a business and its stock price. A business is built over years; a stock price can change in minutes. Wise investors and managers focus on the slow, real work of building value, and try not to be ruled by the market's sudden moods.",
+        summaryJa: "株式市場は数か月かけて上昇しても、一つの午後で急落しうる。日本の主要指数が数時間で数千ポイント下げ、半導体関連の売りが主因で、あるメモリ大手の時価総額はピークの約半分に。株価は今の利益だけでなく将来への期待も映すため、高すぎる期待は些細な悪材料で崩れ、売りが売りを呼ぶ。今回はAI関連が中心。ただ暴落は技術が無価値という意味ではなく、良い企業は下落後も製品を作り稼ぐ。「企業」は年単位で築かれ「株価」は分単位で動く——賢明な人は市場の気分に振り回されず、価値を築く地道な仕事に集中する。",
+        quiz: [
+          { q: "株価が激しく変動する理由は？", options: ["株価は将来への期待も映し、期待は崩れやすいから", "企業が毎日変わるから", "理由はない"], answer: 0 },
+          { q: "今回の急落の中心は？", options: ["AI関連・半導体関連の銘柄", "食品会社", "鉄道会社"], answer: 0 },
+          { q: "本文の教訓は？", options: ["企業は年単位、株価は分単位——市場の気分に振り回されない", "暴落は技術が無価値の証拠", "株価だけを見るべき"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0719-2",
+        title: "What Does a Smartphone Really Cost?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "A new entry-level smartphone from a major maker was recently priced at around 140,000 yen in Japan — close to 900 US dollars. Many people were surprised that an 'entry-level' phone could cost so much. The price tells an interesting story about technology, currency, and value.\nFirst, phones have quietly become powerful computers. The device in your pocket now has better cameras, faster chips, and more storage than laptops did a few years ago. As the technology inside improves, the cost to build it rises, and so does the price.\nSecond, currency matters. When a country's money weakens against the US dollar, imported products become more expensive in local prices, even if the maker did not raise the dollar price at all. A weaker yen means the same phone costs more yen than before. Buyers feel the pinch, but the cause is partly in the exchange rate, not just the product.\nThird, 'value' is not only about price. A phone that lasts five years and receives software updates may be cheaper, over time, than a cheap phone replaced every two years. Smart buyers think about cost per year of use, not just the number on the price tag.\nThe bigger lesson applies to many purchases, from phones to cars to appliances. The sticker price is only the beginning of the story. Understanding what drives it — technology, currency, and durability — helps you judge whether something is truly expensive or actually good value.",
+        summaryJa: "大手の新しい「エントリー向け」スマホが日本で約14万円(約900ドル)と、その高さに驚く人も多い。理由は三つ。①スマホは高性能コンピュータ化し、中身の進化で製造コストと価格が上がる。②通貨——円安になると、メーカーがドル価格を上げなくても円建てでは高くなる。③「価値」は価格だけではない——5年使えてソフト更新される端末は、2年で買い替える安物より結局安いこともある。値札は物語の始まりにすぎず、技術・通貨・耐久性という要因を理解すれば、本当に高いのか実はお得かを見極められる。",
+        quiz: [
+          { q: "スマホが高価になる理由に含まれないものは？", options: ["高性能化で製造コストが上がる", "円安で円建て価格が上がる", "色が増えたから"], answer: 2 },
+          { q: "円安が価格に与える影響は？", options: ["ドル価格が同じでも円建てでは高くなる", "価格は必ず下がる", "無関係"], answer: 0 },
+          { q: "賢い買い手が考えることは？", options: ["価格だけでなく1年あたりの使用コスト", "値札の数字だけ", "色だけ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0719-3",
+        title: "How Nations Build Technology Ecosystems",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "No powerful technology is built by a single company alone. Behind every advanced product lies an 'ecosystem' — a web of chip makers, software developers, factories, universities, and investors that support one another. Recently, a leading maker of AI chips announced an expansion of its partnerships across Japan's robotics and industrial sector, a good example of how such ecosystems form.\nWhy does an ecosystem matter? Because modern technology is too complex for one firm to master everything. A chip company needs software partners to make its hardware useful. A robot maker needs chips, sensors, and AI models it does not build itself. When many specialized companies work together, each doing what it does best, the whole system advances faster than any single player could alone.\nCountries compete to become the home of such ecosystems. Once a strong network forms in a region, it tends to grow. Skilled workers move there, suppliers open nearby, universities train the right graduates, and investors look for the next promising firm. Success attracts more success, which is why governments work hard to attract key companies and research centers.\nThere are risks in depending too heavily on outside partners, especially for critical technology. A country may find that the most important chips or software are controlled by companies elsewhere. This is why nations try to balance cooperation with self-reliance — welcoming global partners while building their own strengths. In a connected world, technological power comes not from working alone, but from being a strong, valued part of the right network.",
+        summaryJa: "強力な技術は単独企業では作れず、背後にはチップメーカー・ソフト開発者・工場・大学・投資家が支え合う「エコシステム」がある。AIチップの主要企業が日本のロボット・産業分野との連携拡大を発表したのは好例。現代技術は複雑すぎて一社で全てを担えず、専門企業が各々の得意を持ち寄ると全体が速く進む。強いネットワークができた地域には人材・供給業者・大学・投資が集まり成功が成功を呼ぶため、各国は主要企業や研究拠点の誘致に力を注ぐ。ただ外部依存のリスクもあり、協力と自立の均衡が要る。技術力は単独ではなく「適切なネットワークの一員である」ことから生まれる。",
+        quiz: [
+          { q: "技術の「エコシステム」とは？", options: ["チップ・ソフト・工場・大学・投資家が支え合う網", "一社だけの工場", "自然の生態系のみ"], answer: 0 },
+          { q: "エコシステムが重要な理由は？", options: ["現代技術は複雑で一社では全てを担えないから", "競争をなくすため", "コストを隠すため"], answer: 0 },
+          { q: "各国が均衡を取ろうとするのは？", options: ["協力と自立(外部依存のリスク回避)", "孤立と鎖国", "価格と品質"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0719-4",
+        title: "When One Factory Stops, Who Feels It?",
+        level: "★★☆",
+        genre: "日本",
+        text: "A large Japanese food company recently began restarting its refrigerated warehouses and food factories after a disruption, first accepting limited orders and planning a full return soon. It may sound like a small business story, but it offers a clear window into something we rarely think about: the hidden supply chains that keep daily life running.\nRefrigerated warehouses are a quiet but vital part of the food system. They store frozen and chilled products — meat, seafood, vegetables, ready meals — and keep them safe until they reach shops and restaurants. When such facilities stop working, even briefly, the effects ripple outward. Shops may run short of certain items, restaurants may change their menus, and other companies that depend on steady deliveries must adjust.\nThis is why modern businesses think carefully about resilience — the ability to keep going, or recover quickly, when something goes wrong. A company might keep backup facilities, spread its operations across several locations, or hold extra stock of critical items. Restarting with limited orders, as this company did, is itself a careful strategy: bring the system back gradually to avoid new problems, rather than switching everything on at once.\nThe broader lesson is about how connected our world has become. A single warehouse most people never see can affect what appears on store shelves and restaurant tables. Behind the simple act of buying dinner lies a vast, mostly invisible network — and keeping that network strong is one of the quiet, essential jobs of modern business.",
+        summaryJa: "日本の大手食品会社が、混乱後に冷蔵倉庫と食品工場の稼働を再開し、まず限定的な受注から始めて近く全面再開を予定。小さな話に見えて、日常を支える「見えないサプライチェーン」を映す好例だ。冷蔵倉庫は肉・魚・野菜・調理済み食品を安全に保つ要で、止まれば店の品薄や飲食店のメニュー変更など影響が波及する。だから企業は「レジリエンス(回復力)」を重視し、予備施設・拠点分散・在庫確保などで備える。限定受注からの再開も、一気に戻さず段階的に立ち上げる慎重な戦略。夕食を買う行為の裏に広大で見えない網があり、それを保つのが現代ビジネスの静かで不可欠な仕事だ。",
+        quiz: [
+          { q: "冷蔵倉庫が食品システムで果たす役割は？", options: ["冷凍・冷蔵品を安全に保ち店や飲食店へ届ける", "野菜を育てる", "料理を作る"], answer: 0 },
+          { q: "「レジリエンス」とは？", options: ["問題が起きても続ける・素早く回復する力", "価格を上げる力", "広告を打つ力"], answer: 0 },
+          { q: "限定受注から再開する狙いは？", options: ["一気に戻さず段階的に立ち上げ新たな問題を避ける", "利益を隠す", "顧客を減らす"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0719-5",
+        title: "Cheap Style: The Science of Affordable Fashion",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "A well-known low-price fashion brand recently made news by working with a luxury designer to sell jeans for the price of a couple of lunches. The idea of famous designers creating cheap clothing might sound strange, but it reveals a lot about how modern fashion — and modern business — works.\nFor most of history, good design and low price rarely went together. Skilled designers worked for expensive brands, while cheap clothes were plain and forgettable. That has changed. Fast-fashion companies discovered that they could offer stylish, well-designed clothing at low prices by producing enormous quantities, simplifying materials, and running highly efficient supply chains. When you make millions of the same item, the cost of each one falls dramatically.\nWorking with a famous designer is a clever move. It brings prestige and fresh ideas to an affordable brand, attracting customers who want style without a high price. The designer gains a huge audience, and the company gains attention and sales. Both sides win.\nThere is a serious side to cheap fashion too. Very low prices can encourage people to buy more than they need and throw clothes away quickly, creating waste. In response, some companies are experimenting with recycling, better-quality basics meant to last, and more responsible production. The future of affordable fashion may depend on balancing three goals at once: style, low price, and care for the planet — a difficult but increasingly important combination.",
+        summaryJa: "低価格ファッションブランドが高級デザイナーと組み、ランチ2回分ほどの値段でジーンズを売って話題に。有名デザイナーが安い服を作るのは奇妙に見えて、現代のファッションとビジネスの仕組みをよく表す。かつて良いデザインと低価格は両立しなかったが、大量生産・素材の簡素化・効率的なサプライチェーンで、おしゃれな服を安く出せるようになった。有名デザイナーとの協業は、手頃なブランドに名声と新鮮な発想をもたらし双方に利益。一方で安さは大量消費と廃棄を招くため、リサイクルや長持ちする定番品など責任ある生産の試みも。今後は「スタイル・低価格・環境配慮」の三立が課題になる。",
+        quiz: [
+          { q: "安くておしゃれな服が可能になった理由は？", options: ["大量生産・素材の簡素化・効率的なサプライチェーン", "デザイナーが無料で働くから", "布が無料だから"], answer: 0 },
+          { q: "有名デザイナーとの協業で双方が得るものは？", options: ["ブランドは名声と売上、デザイナーは大きな観客", "何も得ない", "損失だけ"], answer: 0 },
+          { q: "安いファッションの深刻な側面は？", options: ["大量消費と廃棄による無駄", "価格が高すぎること", "服が丈夫すぎること"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-18",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "タウについて新研究が示したことは？", options: ["健康なタウは新しい記憶の定着に不可欠", "タウは脳に存在しない", "タウは記憶と無関係"], answer: 0 },
           { q: "この発見が治療を難しくする理由は？", options: ["タウを一律に除くと記憶形成も妨げる恐れがあるから", "薬が高価だから", "タウが増え続けるから"], answer: 0 },
           { q: "本文の「広い教訓」は？", options: ["同じ分子が記憶を作りも壊しもする——均衡の理解が重要", "タンパク質はすべて有害", "記憶は変化しない"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-12",
-    passages: [
-      {
-        id: "d0712-1",
-        title: "A Japanese Challenger in the Memory Chip Race",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "In the global memory chip market, one giant has led for decades: Samsung of South Korea. But reports say a Japanese challenger is betting on a new manufacturing approach to close the gap. Kioxia, Japan's largest memory maker, is developing wafer-bonding technology for its next generation of chips.\nThe idea behind wafer bonding is elegant. A memory chip has two main parts: the memory cells that store data, and the control circuits that manage them. Traditionally, both are built together on one silicon wafer, which forces engineers to make design compromises. With wafer bonding, the two parts are manufactured separately — each optimized on its own wafer — and then joined together with extreme precision. The result can be faster, denser memory.\nWhy does this matter beyond the laboratory? Memory chips are the quiet workhorses of the AI era. Every data center training or running AI models needs vast amounts of fast memory, and demand keeps climbing. The companies that deliver better memory first will win contracts worth billions.\nFor Japan, the story carries extra weight. The country once dominated the memory business, then lost most of it in the 1990s and 2000s. A technical comeback by a Japanese maker — in the middle of an AI boom — would be a milestone both for the company and for the nation's chip revival strategy.",
-        summaryJa: "日本最大のメモリメーカー、キオクシアが「ウエハ接合(ウエハボンディング)」技術で王者サムスンに挑む。メモリセルと制御回路を別々のウエハで最適化して作り、高精度で貼り合わせる手法で、より高速・高密度なメモリを実現できる可能性がある。AI時代のデータセンターはメモリを大量に必要としており、勝者には巨額の契約が待つ。かつてメモリで世界を制した日本の復権をかけた挑戦でもある。",
-        quiz: [
-          { q: "ウエハ接合技術の特徴は？", options: ["メモリセルと制御回路を別々に作って貼り合わせる", "チップを水で冷やす", "ウエハを薄く削るだけ"], answer: 0 },
-          { q: "メモリ需要が伸びている背景は？", options: ["AIのデータセンターが大量の高速メモリを必要とするから", "テレビの販売増", "紙の書類の増加"], answer: 0 },
-          { q: "この挑戦が日本にとって特別な意味を持つ理由は？", options: ["かつて世界を制したメモリ産業の復権がかかるから", "初めての半導体製造だから", "政府が禁止していたから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0712-2",
-        title: "Ceramics That Change How Heat Flows — on Command",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Imagine a material that normally spreads heat evenly, but when you apply electricity, suddenly conducts heat almost three times better in one chosen direction. Researchers have discovered exactly this behavior in certain ceramic materials, and engineers are already imagining what they could do with it.\nHeat has always been the stubborn partner of electronics. We can switch electric current on and off billions of times per second, but heat simply flows wherever temperature differences push it. Our tools for managing it — fans, fins, and heat pipes — are passive and fixed. A material whose heat conduction can be switched and steered electrically would change the game.\nThe potential applications are wide. Computer chips could actively push heat away from their hottest spots at critical moments. Electric vehicle batteries could distribute warmth evenly in winter and shed it quickly in summer. Buildings and spacecraft could switch their walls between insulating and conducting modes as conditions change.\nAs with most laboratory breakthroughs, patience is required. The effect must work reliably at everyday temperatures, survive years of switching, and be manufactured at reasonable cost. Many promising materials never clear those hurdles. But the direction of research is clear and exciting: after a century of controlling electricity, we are learning to control heat with the same precision.",
-        summaryJa: "特定のセラミック材料に電気を加えると、熱伝導が特定方向に約3倍まで高まる現象が発見された。熱は電気と違いオン・オフや方向の制御が難しく、従来の冷却は受動的な手段に限られていた。実用化されれば、チップの局所冷却、EV電池の温度管理、建物や宇宙機の「切り替え可能な断熱壁」などに応用できる可能性がある。常温での信頼性や製造コストなど実用化のハードルはこれから。",
-        quiz: [
-          { q: "発見された現象は？", options: ["電気でセラミックの熱伝導が約3倍・方向付きで高まる", "セラミックが光る", "熱が完全に消える"], answer: 0 },
-          { q: "従来の熱管理の限界は？", options: ["受動的で、熱の流れを自在に制御できない", "コストが安すぎる", "電気を使いすぎる"], answer: 0 },
-          { q: "応用例として挙げられていないものは？", options: ["チップの冷却", "EV電池の温度管理", "食品の味付け"], answer: 2 }
-        ]
-      },
-      {
-        id: "d0712-3",
-        title: "Tiny Invaders: How Species Cross the World",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Europe has two new residents, and scientists are not happy about it. Two species of Asian praying mantis, which have spread rapidly across the continent in recent years, have now been officially classified as invasive. The decision sounds small, but it reflects one of globalization's least discussed problems.\nInvasive species are animals and plants that arrive in a new region — usually with human help — and spread at the cost of native wildlife. The newcomers often have no natural enemies in their new home, so their populations explode. The mantises, for example, are large, hungry predators that compete with native insects and may reduce local biodiversity.\nHow do such species travel? Mostly through trade and transport. Eggs hide in shipped plants and garden products, insects ride in containers, and some species are sold as exotic pets and later escape or are released. As global trade grows and the climate warms, more species can survive in places that were once too cold for them.\nThe costs are surprisingly large. Invasive species damage agriculture, forestry, and fisheries, and controlling them costs the world economy tens of billions of dollars every year. The lesson for a globalized world is simple: goods, people, and unfortunately ecosystems now travel together, and prevention is far cheaper than cleanup.",
-        summaryJa: "欧州で急拡大したアジア原産のカマキリ2種が正式に侵略的外来種に指定された。外来種は貿易や輸送に紛れて移動し、天敵のいない新天地で爆発的に増え、在来の生態系を脅かす。地球温暖化と貿易拡大がこの流れを加速。農林水産業への被害と対策費は世界で年間数百億ドル規模にのぼり、「予防は駆除よりはるかに安い」というのがグローバル時代の教訓。",
-        quiz: [
-          { q: "欧州で外来種指定されたのは？", options: ["アジア原産のカマキリ2種", "アフリカのゾウ", "南米のチョウ"], answer: 0 },
-          { q: "外来種が新天地で急増しやすい理由は？", options: ["天敵がいないことが多いから", "餌が不要だから", "寿命が無限だから"], answer: 0 },
-          { q: "本文の教訓は？", options: ["予防は駆除よりはるかに安い", "外来種は経済に無害", "貿易をやめるべき"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0712-4",
-        title: "Japan's Rockets Go Commercial",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan's space program is preparing for an important handover. Reports say the operation of the country's next-generation flagship rocket will be transferred to Mitsubishi Heavy Industries, moving day-to-day launch business from the national space agency to a private company.\nThis follows a global pattern. In the United States, NASA stopped operating routine launches years ago and now buys rides from private companies, whose competition has driven costs down dramatically. Europe and other space powers are moving the same way. The logic: government agencies should focus on exploration and research, while companies handle the repeatable business of putting satellites into orbit.\nFor Japan, the stakes are high. The global launch market is growing fast — satellites for communication, navigation, and Earth observation all need rides to space — but competition is brutal, led by American companies with reusable rockets. To win commercial customers, Japan's rockets must launch on schedule, at competitive prices, and with the reliability the country's manufacturing is famous for.\nPrivate operation should help. A company can negotiate contracts, adjust prices, and streamline operations faster than a government agency. Combined with Japan's growing space startup scene — from small rockets to satellite services — the handover signals a clear national direction: space is no longer just a science project. It is an industry, and Japan intends to compete in it.",
-        summaryJa: "日本の次世代基幹ロケットの運用が三菱重工業へ移管される見通しに。米国でNASAが打ち上げを民間に委ね、コスト競争が進んだのと同じ流れで、国の機関は探査・研究に集中し、定常的な打ち上げビジネスは民間が担う分業になる。急成長する世界の打ち上げ市場で、価格・スケジュール・信頼性の競争力が問われる。宇宙を「産業」として育てる日本の方向性を示す動き。",
-        quiz: [
-          { q: "報じられた移管の内容は？", options: ["次世代ロケットの運用を三菱重工に移す", "宇宙開発を中止する", "ロケットを外国に売却する"], answer: 0 },
-          { q: "世界的な流れとして正しいのは？", options: ["政府は研究に集中し、民間が定常打ち上げを担う", "すべて政府が独占する", "宇宙開発は縮小している"], answer: 0 },
-          { q: "商業打ち上げで競争力の鍵となるのは？", options: ["価格・スケジュール・信頼性", "ロケットの色", "発射場の観光施設"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0712-5",
-        title: "A New Flatland: Two-Dimensional Quantum Materials",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Some of the most exciting places in physics are almost unimaginably thin. Researchers have announced the creation of a long-sought two-dimensional quantum material — a sheet just atoms thick — and confirmed that it carries electric current along its edges in a special, protected way.\nWhy do scientists care so much about flat materials? Because when a material becomes truly two-dimensional, electrons inside it start behaving by different rules. Since the discovery of graphene, a single layer of carbon atoms, researchers have been building a whole family of atom-thin materials, each with strange and useful properties.\nThe new material belongs to a class where the interesting action happens at the edges. While the interior blocks electric current, the edges conduct it in channels that are protected by the material's fundamental structure. Electrons in these edge channels resist scattering — they flow with very little loss, almost like cars on a highway with no exits and no oncoming traffic.\nThe long-term hopes are big: electronics that waste far less energy, and possibly components for quantum computers that are naturally protected from certain errors. Those applications are years away, and many challenges remain. But every time physicists confirm a new quantum material, the toolbox for future technology grows — and this week, it grew by one.",
-        summaryJa: "原子数個分の厚さしかない2次元量子材料の作製に成功し、「端(エッジ)だけが電気を通す」特殊な伝導状態が確認された。内部は絶縁体なのに端では電子が散乱されにくい保護されたチャネルを流れるため、エネルギー損失の少ないエレクトロニクスや、エラーに強い量子コンピュータ部品への応用が期待される。実用化は先だが、未来技術の「道具箱」がまた一つ増えた。",
-        quiz: [
-          { q: "確認された特殊な性質は？", options: ["材料の端だけが保護された形で電気を通す", "材料が空中に浮く", "材料が音を出す"], answer: 0 },
-          { q: "2次元材料の研究が盛んになったきっかけは？", options: ["グラフェン(炭素1原子層)の発見", "月面着陸", "インターネットの普及"], answer: 0 },
-          { q: "期待される応用は？", options: ["低損失エレクトロニクスや量子コンピュータ部品", "新しい調味料", "高速道路の舗装"], answer: 0 }
         ]
       }
     ]
