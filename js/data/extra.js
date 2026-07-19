@@ -19,7 +19,19 @@ KE_DATA.extraSentences = [
   { id: "w2628-s09", ja: "認識に齟齬がないよう、議事録を共有します。", en: "To make sure we're aligned, I'll share the meeting notes.", note: "aligned = 認識が揃っている" },
   { id: "w2628-s10", ja: "その点は持ち帰って、チームと相談させてください。", en: "Let me take that back and discuss it with my team.", note: "take back = 持ち帰る" },
   { id: "w2628-s11", ja: "予定が重なってしまったので、時間の変更をお願いできますか。", en: "I have a scheduling conflict — could we change the time?", note: "scheduling conflict = 予定の重複" },
-  { id: "w2628-s12", ja: "結論を先に言うと、この投資は見送るべきです。", en: "To give you the conclusion first, we should hold off on this investment.", note: "hold off on = 見送る・保留する" }
+  { id: "w2628-s12", ja: "結論を先に言うと、この投資は見送るべきです。", en: "To give you the conclusion first, we should hold off on this investment.", note: "hold off on = 見送る・保留する" },
+  { id: "w2629-s01", ja: "まず全体像を共有してから、詳細に入ります。", en: "Let me share the big picture first, then get into the details.", note: "big picture = 全体像" },
+  { id: "w2629-s02", ja: "その数字の前提を確認させてください。", en: "Let me double-check the assumptions behind that number.", note: "double-check = 再確認する" },
+  { id: "w2629-s03", ja: "今週は立て込んでいるので、来週初めではいかがですか。", en: "I'm swamped this week, so how about early next week?", note: "swamped = 非常に忙しい" },
+  { id: "w2629-s04", ja: "この点については認識が一致していますね。", en: "We're on the same page on this point, right?", note: "on the same page = 認識一致" },
+  { id: "w2629-s05", ja: "リスクを3つに分けて説明します。", en: "Let me break the risks down into three categories.", note: "break down = 分解する" },
+  { id: "w2629-s06", ja: "念のため、確認のメールをお送りします。", en: "Just to be safe, I'll send a confirmation email.", note: "just to be safe = 念のため" },
+  { id: "w2629-s07", ja: "この案のメリットとデメリットを比較しましょう。", en: "Let's weigh the pros and cons of this option.", note: "weigh the pros and cons = 利害を比較する" },
+  { id: "w2629-s08", ja: "予算内に収める方法を一緒に考えましょう。", en: "Let's figure out how to keep this within budget.", note: "within budget = 予算内で" },
+  { id: "w2629-s09", ja: "そのフィードバックを反映して修正します。", en: "I'll revise it based on your feedback.", note: "based on = 〜を踏まえて" },
+  { id: "w2629-s10", ja: "この件は優先度を上げて対応します。", en: "I'll bump up the priority on this and handle it.", note: "bump up = 引き上げる" },
+  { id: "w2629-s11", ja: "現時点での見通しを率直に共有します。", en: "Let me be honest about where we stand right now.", note: "where we stand = 現状" },
+  { id: "w2629-s12", ja: "この決定は次のステアリングで最終確認します。", en: "We'll finalize this decision at the next steering committee.", note: "finalize = 最終決定する" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -53,6 +65,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Great goal. Is there anything you need from me?", ja: "いい目標だね。私に何かしてほしいことはある？" },
       { s: "B", en: "Could you give me a chance to present at the next client meeting?", ja: "次のクライアント会議で、プレゼンする機会をいただけますか？" }
     ]
+  },
+  {
+    id: "w2629-sh1",
+    title: "顧客への値上げ交渉",
+    level: "★★★",
+    description: "コスト上昇を理由に価格改定を切り出し、相手の懸念に応えながら合意を目指す難しい場面。",
+    lines: [
+      { s: "A", en: "Thank you for meeting with me today. I have something important to discuss.", ja: "本日はお時間をいただきありがとうございます。重要なご相談があります。" },
+      { s: "B", en: "Of course. What's on your mind?", ja: "もちろんです。どうされましたか？" },
+      { s: "A", en: "Due to rising material costs, we need to review our pricing.", ja: "材料費の高騰により、価格の見直しが必要になっています。" },
+      { s: "B", en: "I see. How much of an increase are we talking about?", ja: "なるほど。どの程度の値上げでしょうか？" },
+      { s: "A", en: "We're proposing a five percent increase, starting next quarter.", ja: "来四半期から5％の値上げを提案しています。" },
+      { s: "B", en: "That's significant. Our budget is already tight this year.", ja: "それは大きいですね。今年は予算が既に厳しいのです。" },
+      { s: "A", en: "I understand your concern. Let me explain what's behind the number.", ja: "ご懸念は理解できます。この数字の背景をご説明させてください。" },
+      { s: "A", en: "To soften the impact, we can phase it in over two quarters.", ja: "影響を和らげるため、2四半期に分けて段階的に導入できます。" },
+      { s: "B", en: "That helps. Could you also keep the current terms for existing orders?", ja: "それは助かります。既存の注文分は現行条件のままにできますか？" },
+      { s: "A", en: "That's a fair request. Let me confirm and send you a written proposal.", ja: "妥当なご要望です。確認のうえ、書面で提案をお送りします。" }
+    ]
   }
 ];
 
@@ -69,6 +99,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2628-t03", ja: "政府は基礎研究への投資を増やすべきだと思いますか？", en: "Should the government invest more in basic research?",
     sample: { point: "I strongly believe the government should invest more in basic research.", reason: "This is because basic research is the seed of future industries, even when it looks unprofitable today.", example: "For example, the technologies behind smartphones, vaccines, and AI all grew out of decades of fundamental research.", point2: "Therefore, cutting basic research to save money is like eating your seed corn." }
+  },
+  {
+    id: "w2629-t01", ja: "日本企業はもっと積極的に海外へ進出すべきだと思いますか？", en: "Should Japanese companies expand overseas more aggressively?",
+    sample: { point: "Yes, I think Japanese companies should expand overseas more aggressively.", reason: "The main reason is that the domestic market is shrinking as the population declines.", example: "For example, a major Japanese retailer is reportedly investing heavily in a European convenience store chain to find new growth.", point2: "So overseas expansion is not just an option — it's a necessity for long-term growth." }
+  },
+  {
+    id: "w2629-t02", ja: "AIは工場やものづくりの仕事を良くすると思いますか？", en: "Will AI make factory and manufacturing jobs better?",
+    sample: { point: "On balance, I believe AI will make manufacturing jobs better, not worse.", reason: "This is because AI takes over dangerous and repetitive tasks, letting people focus on skilled work.", example: "For example, many Japanese manufacturers now use AI to inspect products and predict machine failures, so workers spend less time on dull checks.", point2: "So with the right training, AI can make factory work safer and more rewarding." }
+  },
+  {
+    id: "w2629-t03", ja: "株価が急落したとき、個人はどう行動すべきだと思いますか？", en: "How should individuals act when stock prices crash?",
+    sample: { point: "In my view, individuals should stay calm and avoid panic-selling when prices crash.", reason: "Because a falling price does not mean a good company has become worthless overnight.", example: "For example, chip stocks recently halved in value, yet the companies kept making products and earning money.", point2: "So the smart move is usually to focus on long-term value rather than react to sudden market moods." }
   }
 ];
 
