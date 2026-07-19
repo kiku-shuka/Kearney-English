@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-20",
+    passages: [
+      {
+        id: "d0720-1",
+        title: "Three Rivals Consider Joining Forces",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Three major Japanese electronics companies are reportedly exploring a merger of their power-chip businesses. Power chips are a special kind of semiconductor that controls the flow of electricity in cars, appliances, factories, and renewable energy systems. Combining three of the world's top suppliers would create a giant in a fast-growing part of the industry.\nWhy would competitors want to join forces? The main reason is scale. Building advanced chips requires enormous investment in factories and research — costs so high that even large companies struggle to keep up alone. By merging, the companies can share these costs, avoid duplicating effort, and invest more in future technology. A single strong player can also compete better against big foreign rivals.\nThere is a national angle too. Governments increasingly see chips as strategic, wanting reliable domestic suppliers rather than depending entirely on other countries. A merged company would strengthen Japan's position in a technology the whole economy depends on.\nMergers are not simple, however. Combining three companies means blending different cultures, systems, and teams — a process that can take years and sometimes fails. Customers may worry about reduced competition and higher prices. Regulators will examine whether the deal is fair to the market.\nFor students of business, the story shows a key strategic choice. When an industry demands more scale than any single firm can provide, companies face a decision: keep competing alone and risk falling behind, or combine forces and gain strength while giving up some independence. It is one of the hardest and most important calls a company can make.",
+        summaryJa: "日本の大手電機3社が、パワー半導体事業の統合を検討していると報じられた。パワー半導体は自動車・家電・工場・再エネで電流を制御する重要チップ。世界有数の供給3社が統合すれば、成長分野で巨大企業が生まれる。狙いは規模——巨額の設備・研究投資を分担し、重複を避け、海外勢に対抗できる。チップを戦略物資とみなす国家的観点もある。ただ3社の文化・システム統合は難しく数年かかり失敗もあり、競争減少や値上げへの懸念、規制当局の審査もある。単独では足りない規模が要る産業で「単独で戦うか、力を合わせて独立性を一部手放すか」という重要な戦略判断を示す。",
+        quiz: [
+          { q: "パワー半導体とは？", options: ["自動車や家電などで電流を制御するチップ", "写真を撮るチップ", "音を出す部品"], answer: 0 },
+          { q: "競合が統合を検討する主な理由は？", options: ["巨額の投資コストを分担し規模を得るため", "従業員を減らすため", "工場を閉じるため"], answer: 0 },
+          { q: "統合の難しさとして挙げられていないものは？", options: ["異なる文化・システムの統合", "競争減少や規制審査", "電気が使えなくなること"], answer: 2 }
+        ]
+      },
+      {
+        id: "d0720-2",
+        title: "Linking Light and Magnetism",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Scientists have reported a quantum breakthrough that links light and magnetism inside materials only a few atoms thick. It sounds abstract, but connecting these two forces could open new paths for the computers and devices of the future.\nLight and magnetism are both fundamental parts of nature, but they usually do not interact strongly. Light carries energy and information at incredible speed; magnetism is how we store data on hard drives and how many sensors work. If we could make light control magnetism, or magnetism shape light, inside a tiny material, we could combine the best of both — fast communication and stable storage — in a single system.\nThe key is the use of extremely thin materials, sometimes just one layer of atoms. At that scale, the normal rules soften and quantum effects take over, allowing forces to interact in ways impossible in ordinary bulk materials. Researchers have been building a whole family of these atom-thin materials, each with surprising powers, ever since the discovery of graphene.\nThe potential uses are exciting but still distant. Devices that manage information with both light and magnetism could be faster and use less energy than today's electronics. Some scientists also see links to quantum computing, where controlling delicate quantum states is essential.\nAs always with early research, patience is required. Effects shown in a laboratory must be made reliable, scalable, and affordable before they change the products we use. But each new way of connecting nature's forces expands the toolbox from which tomorrow's technology will be built.",
+        summaryJa: "原子数個分の薄い材料の中で「光と磁気」を結びつける量子的成果が報告された。光は高速で情報を運び、磁気はデータ保存やセンサーに使われるが、通常は強く相互作用しない。ごく薄い材料では量子効果が支配的になり、光で磁気を操る等が可能になれば、高速通信と安定保存を一つの系に統合できる。グラフェン以来の原子薄膜材料群の一例で、より高速・低消費電力の機器や量子コンピュータへの応用が期待される。実験室の効果を信頼性・量産性・低コストにするのはこれからだが、自然の力を結ぶ新手法が未来技術の道具箱を広げる。",
+        quiz: [
+          { q: "今回の成果は何を結びつけた？", options: ["光と磁気", "音と熱", "水と油"], answer: 0 },
+          { q: "極薄材料でこれが可能になる理由は？", options: ["量子効果が支配的になるから", "材料が重いから", "色が変わるから"], answer: 0 },
+          { q: "期待される応用は？", options: ["高速・低消費電力の機器や量子コンピュータ", "新しい飲み物", "道路の舗装"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0720-3",
+        title: "One Year After a Tariff Deal",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "A year after a major trade agreement, reports say only about twenty percent of the investments Japan pledged to make in the United States are actually underway. The gap between promise and progress reveals an important truth about international economics: agreements are signed quickly, but real investment takes years.\nWhy the slow pace? Building factories, research centers, or supply chains is enormously complex. Companies must find land, hire workers, obtain permits, and be confident that the investment will pay off over decades. A government can announce a large number in a trade deal, but the actual spending depends on thousands of individual business decisions, each made carefully.\nTrade deals often mix politics and economics. Leaders want to show quick results, so they announce big totals. But businesses invest based on costs, demand, and stability — not on political timelines. If conditions change, or if the numbers were optimistic to begin with, real investment can lag far behind the headline figure.\nThis matters for anyone trying to understand the global economy. Big announced numbers grab attention, but the more useful question is always: how much is actually happening? Following the slow, real flow of money tells you more than the exciting figures in a signing ceremony.\nThe broader lesson applies to business and life alike. A promise is a statement of intention; progress is what actually gets done. Wise observers watch not just what is announced, but what is delivered — and understand that the distance between the two can be very large.",
+        summaryJa: "大型通商合意から1年、日本が約束した対米投資のうち実際に動いているのは約2割にとどまると報じられる。合意は速く結ばれても実投資は数年かかるという国際経済の真実を示す。工場・研究所・サプライチェーンの建設は複雑で、企業は土地・人材・許認可・数十年の採算を見極める。政治は大きな数字を打ち出したがるが、企業はコスト・需要・安定性で判断し政治日程では動かない。だから「発表額」より「実際に進んでいる量」を見るべき。約束は意図の表明、進捗は実際に成されたこと——賢明な観察者は発表ではなく実現を見る。",
+        quiz: [
+          { q: "合意から1年で実際に動いている投資は？", options: ["約2割", "10割", "ゼロ"], answer: 0 },
+          { q: "実投資が遅い理由は？", options: ["建設は複雑で数十年の採算を見極める必要があるから", "企業がやる気がないから", "お金がないから"], answer: 0 },
+          { q: "本文が勧める見方は？", options: ["発表額より実際に進んでいる量を見る", "発表額だけを信じる", "投資は無視する"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0720-4",
+        title: "A Tourism Boom That Keeps Shifting",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japan's tourism boom continues at a remarkable pace. Reports say the number of visitors in the first half of the year topped twenty million for the second year in a row. But beneath that strong headline lies a more complicated picture: where the visitors come from is changing sharply, with a large drop in tourists from one major country balanced by growth from many others.\nThis shift carries an important business lesson about diversification. A tourism industry — or any business — that depends too heavily on customers from a single country is fragile. If political tensions, economic trouble, or changing tastes reduce travel from that one source, the whole industry suffers. When visitors come from many countries instead, a fall from one can be offset by rises from others, keeping total numbers stable.\nJapan's appeal is broad, which helps. Its food, safety, culture, nature, and cities attract travelers from across Asia, Europe, North America, and beyond. Regions once dependent mainly on visitors from nearby countries are now welcoming a wider mix, which makes the boom more resilient.\nThere are challenges alongside the benefits. Popular areas face crowding, rising prices, and strain on local life. Different visitors have different needs — languages, foods, and travel styles — so businesses must adapt. But a diverse base of customers is a strength, not a weakness.\nThe wider point reaches beyond tourism. Whether you run a hotel, a factory, or a shop, depending on one big source of income is risky. Spreading that dependence across many sources — customers, markets, or suppliers — is one of the simplest and most powerful ways to build something that lasts.",
+        summaryJa: "日本の観光ブームは続き、上半期の訪日客は2年連続で2,000万人を超えた。だが好調の裏で客の出身国が大きく変化し、ある大国からの減少を他の多くの国からの増加が補っている。これは多角化という重要な教訓を示す——単一の国の客に依存する産業は脆く、多国から来れば一国の落ち込みを他が補い総数が安定する。食・治安・文化・自然・都市という幅広い魅力が助けになる。混雑や物価上昇、多様なニーズへの対応という課題はあるが、多様な客層は強みだ。ホテルでも工場でも店でも、一つの収入源への依存は危険で、依存を分散することが長続きする事業の要となる。",
+        quiz: [
+          { q: "上半期の訪日客数は？", options: ["2年連続で2,000万人超", "初めて100万人", "前年の半分"], answer: 0 },
+          { q: "本文が示す教訓は？", options: ["単一の客に依存せず多角化する", "一国に集中すべき", "観光をやめるべき"], answer: 0 },
+          { q: "客の出身が多国にわたる利点は？", options: ["一国の落ち込みを他が補い総数が安定する", "混雑がなくなる", "言語が一つで済む"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0720-5",
+        title: "The Wonder of Atom-Thin Materials",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Some of the most exciting materials in science are almost nothing at all — sheets just one atom thick. The story began in 2004 with graphene, a single layer of carbon atoms famously first isolated using ordinary sticky tape to peel flakes from a pencil-like block of graphite. That simple trick launched a scientific revolution.\nWhy does thinness change everything? When a material becomes truly two-dimensional, its electrons can only move in a flat plane, and the ordinary rules of physics give way to strange quantum behavior. Graphene turned out to be stronger than steel, an excellent conductor of electricity and heat, and nearly transparent. Since then, scientists have discovered a whole family of atom-thin materials, each with its own surprising powers — some conduct, some insulate, some are magnetic, and some interact with light in unusual ways.\nThe potential uses are vast. These materials could lead to faster and more efficient electronics, flexible screens that bend without breaking, better batteries, ultra-sensitive sensors, and components for quantum computers. Because they are so thin and light, they might fit into devices where today's materials are too bulky.\nThere is still a gap between promise and product. Making these materials cheaply, in large sheets, and with few flaws remains difficult, and many laboratory wonders never reach the market. But the field keeps growing, and the toolbox of atom-thin materials keeps expanding. From a piece of sticky tape to the frontier of quantum technology, it is a reminder that some of science's biggest leaps begin with the simplest of ideas.",
+        summaryJa: "科学で最も刺激的な材料の一つは、原子1個分の薄さのシートだ。始まりは2004年のグラフェン(炭素1原子層)で、鉛筆のような黒鉛から粘着テープで薄片を剥がすという単純な方法で初めて単離され、科学革命を起こした。真に2次元になると電子は平面しか動けず量子的な奇妙な性質が現れる。グラフェンは鋼より強く、電気・熱をよく通し、ほぼ透明。以来、伝導・絶縁・磁性・光との相互作用など多彩な原子薄膜材料群が見つかった。高速電子機器、曲がる画面、より良い電池、高感度センサー、量子コンピュータ部品などへの応用が期待される。安価に大面積・低欠陥で作る難しさは残るが、粘着テープから量子技術の最前線へ——最大の飛躍は最も単純な発想から始まる。",
+        quiz: [
+          { q: "グラフェンが最初に単離された方法は？", options: ["粘着テープで黒鉛から薄片を剥がす", "高温で溶かす", "海から採取する"], answer: 0 },
+          { q: "極薄になると何が起きる？", options: ["量子的な奇妙な性質が現れる", "材料が消える", "色だけが変わる"], answer: 0 },
+          { q: "原子薄膜材料の課題は？", options: ["安価に大面積・低欠陥で作るのが難しい", "軽すぎて使えない", "研究できない"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-19",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "新研究が示したことは？", options: ["脳は意識より前に決定の準備を始めている", "人は決定しない", "決定は一瞬で終わる"], answer: 0 },
           { q: "科学者が慎重に付け加えている点は？", options: ["「準備」は「強制」ではなく直前に取り消せる", "自由意志は完全に存在しない", "脳は決定に関与しない"], answer: 0 },
           { q: "この研究の応用として挙げられているのは？", options: ["麻痺のある人が思考で機器を操作する技術", "天気予報の改善", "自動車の燃費向上"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-13",
-    passages: [
-      {
-        id: "d0713-1",
-        title: "A Record Stock Listing Far From Home",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "A South Korean memory chip maker has just completed the largest stock market listing by a foreign company in United States history. Instead of listing only at home, the company chose to sell its shares on a major American exchange, raising a huge amount of money from global investors.\nWhy would an Asian company list in New York rather than Seoul? The answer is about access to capital. American stock markets are the deepest in the world, meaning they hold the most money and the most investors. A company that lists there can raise larger sums, gain a global reputation, and use its shares more easily to buy other companies. For a chip maker that needs billions of dollars to build new factories, that access is powerful.\nThe timing is not an accident. Memory chips are in huge demand because of AI, and investors are eager to own a piece of the companies that make them. A strong market mood makes it the perfect moment to sell shares at a high price.\nThere are trade-offs. Listing abroad means following strict American rules, reporting in English, and answering to investors on the other side of the world. But for a global company in a global industry, the message is clear: capital has no nationality, and businesses increasingly go wherever the money and the opportunity are largest.",
-        summaryJa: "韓国のメモリ半導体大手が、米市場史上最大の外国企業上場を果たした。米国株式市場は世界で最も資金と投資家が厚く、巨額調達・国際的信用・M&Aのしやすさという利点がある。AIによるメモリ需要と強気相場が絶好の売り時を生んだ。厳しい米国基準や英語での報告義務という代償はあるが、「資本に国籍はない」という時代を映す動き。",
-        quiz: [
-          { q: "この企業が米国市場を選んだ主な理由は？", options: ["世界で最も資金と投資家が厚く、巨額調達ができるから", "韓国で上場が禁止されたから", "米国の方が税金がゼロだから"], answer: 0 },
-          { q: "上場のタイミングが良かった背景は？", options: ["AIによるメモリ需要と強気相場", "戦争の終結", "原油価格の暴落"], answer: 0 },
-          { q: "海外上場の代償として挙げられているのは？", options: ["厳しい米国基準や英語での報告義務", "製品を無料配布すること", "本社の移転"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0713-2",
-        title: "When Tech Giants Go to Court",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "A major legal battle is beginning in the technology world. Apple has filed a lawsuit against OpenAI, accusing the AI company of stealing trade secrets. Whatever the outcome, the case shows how fierce competition in artificial intelligence has become.\nA trade secret is valuable business information that a company keeps private — a recipe, a design, a method, or in the tech world, the details of how a system is built. Unlike a patent, which is public but protected by law for a limited time, a trade secret has value precisely because rivals do not know it. Lawsuits over trade secrets often center on employees who move from one company to another, carrying knowledge in their heads.\nThese cases are hard to judge. Skilled workers naturally learn things at one job and use that experience at the next; that is normal and legal. The line is crossed only when someone takes specific confidential material, not just general skill. Proving which side of that line an action falls on can take years in court.\nFor the wider industry, the lawsuit is a signal. As AI becomes central to every big tech company's future, they will defend their advantages aggressively — in the market and in the courtroom. For workers, it is a reminder to understand what counts as confidential, because the boundary between 'experience' and 'secret' matters more than ever.",
-        summaryJa: "アップルがOpenAIを営業秘密の窃取で提訴し、AI競争の激しさを象徴する法廷闘争が始まった。営業秘密は特許と異なり「公開されていないこと自体に価値」があり、係争の多くは転職者が持ち出す知識を巡る。一般的なスキルの活用は合法だが、特定の機密資料の持ち出しは違法——その線引きの立証には年月がかかる。「経験」と「秘密」の境界を理解する重要性が増している。",
-        quiz: [
-          { q: "営業秘密が特許と違う点は？", options: ["公開されていないこと自体に価値がある", "永久に保護される", "誰でも自由に使える"], answer: 0 },
-          { q: "営業秘密の係争でよく争点になるのは？", options: ["転職者が持ち出す知識", "オフィスの家賃", "製品の色"], answer: 0 },
-          { q: "合法と違法の線引きはどこにある？", options: ["一般的スキルの活用は合法、特定の機密資料の持ち出しは違法", "転職そのものが違法", "すべての知識の利用が違法"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0713-3",
-        title: "Dual-Use Technology: A Delicate Balance",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Japan's government has announced plans to work more closely with industry and universities on 'dual-use' technology. The term refers to technology that can serve both civilian and military purposes — and it sits at the center of a difficult global debate.\nMany everyday technologies are dual-use. A drone can deliver medicine or carry a weapon. Advanced AI can plan delivery routes or military operations. The same rocket that launches a weather satellite could, in principle, carry something far more dangerous. Because the underlying science is the same, it is almost impossible to develop powerful technology that has no military application at all.\nFor decades, Japanese universities largely avoided research with military links, a stance rooted in the country's postwar history. But the security environment has changed, and governments now argue that a nation must develop critical technologies itself rather than depend on others. Supporters say cooperation strengthens both the economy and national security. Critics worry about the direction of academic freedom and the risk of an arms race.\nThe debate is not unique to Japan; every advanced country wrestles with it. The realistic questions are about rules and limits: which projects are acceptable, how open the research should be, and who decides. As technology grows more powerful, societies everywhere must find their own answers to where the line should be drawn.",
-        summaryJa: "日本政府が産学と連携して「デュアルユース(軍民両用)」技術に取り組む方針を示した。ドローンやAI、ロケットなど強力な技術は民生・軍事の両方に使え、両者を完全に切り離すのは難しい。戦後、軍事関連研究を避けてきた日本の大学だが、安全保障環境の変化で「重要技術は自国で持つべき」との議論が強まる。経済と安全保障の強化を説く声と、学問の自由や軍拡を懸念する声があり、線引きのルールが問われている。",
-        quiz: [
-          { q: "「デュアルユース」技術とは？", options: ["民生と軍事の両方に使える技術", "二人で使う技術", "二か国で開発する技術"], answer: 0 },
-          { q: "民生と軍事を切り離すのが難しい理由は？", options: ["土台となる科学が同じだから", "予算が足りないから", "法律がないから"], answer: 0 },
-          { q: "この問題について本文が述べていることは？", options: ["どの先進国も直面し、線引きのルールが問われている", "日本だけの問題である", "すでに世界で解決済み"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0713-4",
-        title: "Japan Sticks the Landing: A Reusable Rocket",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan has reached an important milestone in space technology: successfully launching a rocket and then landing it back safely for reuse. Watching a rocket rise into the sky and then return to land upright, balanced on its own engine, still looks like something from a science fiction film — but it is quickly becoming the standard for modern spaceflight.\nWhy does landing a rocket matter so much? Because of cost. For most of the space age, rockets were used once and thrown away, like taking a single flight and then scrapping the entire airplane. Reusable rockets can fly again and again, dramatically cutting the price of reaching orbit. American companies proved the concept and used it to dominate the global launch market.\nFor Japan, developing this ability is about staying competitive. The demand for launches — satellites for communication, navigation, weather, and Earth observation — keeps growing, but customers choose the cheapest reliable ride. A country without reusable rockets risks being left behind, forced to buy launches from others.\nThe achievement also fits a bigger national picture. Japan has named space a priority industry, its startups are active in satellites and small rockets, and operation of its flagship rocket is moving toward private hands. Landing a rocket is not just an engineering trick; it is a signal that Japan intends to compete seriously in the new economy of space.",
-        summaryJa: "日本が再使用ロケットの打ち上げと着陸に成功し、宇宙技術で重要な節目を迎えた。使い捨てだったロケットを繰り返し使えれば打ち上げコストが激減する。米企業がこの方式で市場を席巻する中、再使用能力なしでは競争に取り残される恐れがある。宇宙を優先産業に位置づけ、スタートアップが活発で基幹ロケットの民間移管も進む日本にとって、本気で宇宙経済に参入する意思を示す成果。",
-        quiz: [
-          { q: "ロケットの着陸(再使用)がなぜ重要か？", options: ["繰り返し使えて打ち上げコストが激減するから", "見た目が格好いいから", "着陸すると燃料が増えるから"], answer: 0 },
-          { q: "再使用ロケットがないと日本はどうなる恐れがある？", options: ["競争に取り残され、他国から打ち上げを買うことになる", "宇宙に行けなくなる", "衛星が不要になる"], answer: 0 },
-          { q: "この成果が示す国家的方向性は？", options: ["宇宙経済に本気で参入する意思", "宇宙開発からの撤退", "軍事利用のみへの転換"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0713-5",
-        title: "How Your Brain Turns Moments into Memories",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "You probably think of memory as a kind of recording — moments captured and stored, ready to replay. The reality is far more active. Your brain constantly rebuilds and reorganizes memories, and new research has revealed a surprising player in that process: a protein called tau.\nTau has a bad reputation. In diseases like Alzheimer's, tangles of this protein build up in the brain and are linked to memory loss. Because of that, scientists have mostly studied tau as a villain. But the new research shows a different side: normal, healthy tau is actually essential for turning new experiences into lasting memories. It helps organize the brain's memory-storing cells so that a fresh experience can be locked into long-term storage.\nThis discovery matters for two reasons. First, it changes how we understand memory itself, showing that a protein famous for causing damage also does vital everyday work. Second, it complicates the search for treatments. If a drug simply removes all tau to prevent disease, it might also block the healthy process of forming new memories. Future medicines will need to be far more precise, targeting only the harmful form.\nThe broader lesson is a familiar one in biology: few things are purely good or purely bad. The same molecule can build memories and, when something goes wrong, destroy them. Understanding that balance is where the real science begins.",
-        summaryJa: "記憶は「録画」ではなく、脳が絶えず再構築する能動的な営み。新研究で、アルツハイマー病では「悪役」とされるタンパク質タウが、健康な状態では新しい経験を長期記憶に定着させるのに不可欠だと判明した。タウを一律に除去する薬は記憶形成も妨げかねず、有害な型だけを狙う精密な治療が必要になる。「同じ分子が記憶を作りも壊しもする」——その均衡の理解こそ科学の出発点。",
-        quiz: [
-          { q: "タウについて新研究が示したことは？", options: ["健康なタウは新しい記憶の定着に不可欠", "タウは脳に存在しない", "タウは記憶と無関係"], answer: 0 },
-          { q: "この発見が治療を難しくする理由は？", options: ["タウを一律に除くと記憶形成も妨げる恐れがあるから", "薬が高価だから", "タウが増え続けるから"], answer: 0 },
-          { q: "本文の「広い教訓」は？", options: ["同じ分子が記憶を作りも壊しもする——均衡の理解が重要", "タンパク質はすべて有害", "記憶は変化しない"], answer: 0 }
         ]
       }
     ]
