@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-21",
+    passages: [
+      {
+        id: "d0721-1",
+        title: "Why Startups Spread Across a Country",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Japan's startup scene is growing, and it is no longer only a Tokyo story. Reports say that while the capital still leads, cities such as Osaka, Nagoya, Fukuoka, and Sapporo are becoming useful bases for startups focused on specific industries, for research spin-offs from universities, and for foreign companies entering the market.\nWhy do startups cluster in particular regions? Because young companies grow best where the right ingredients already exist. A startup in robotics wants to be near factories and engineers; one in biotech wants universities and hospitals; one in food technology wants farms and processing plants. Each region develops its own strengths, and companies gather where those strengths match their needs.\nThis regional spread brings real benefits. It keeps talented graduates in their home areas instead of forcing everyone to move to the capital. It spreads economic growth more evenly across the country. And it lets each city build a specialty, becoming known for a particular kind of innovation.\nThere are still challenges. Regional hubs usually have less money from investors than the capital, fewer experienced mentors, and smaller networks. Building these takes years of patient effort by local governments, universities, and companies working together.\nThe broader lesson applies to any growing field. Success tends to concentrate where supporting resources gather — money, skills, customers, and knowledge. Understanding what a place offers, and matching your plans to its strengths, is one of the most practical decisions any business or worker can make.",
+        summaryJa: "日本のスタートアップは成長し、もはや東京だけの話ではない。首都が先行しつつ、大阪・名古屋・福岡・札幌などが特定産業や大学発スピンオフ、外資参入の拠点になりつつある。若い企業は必要な要素が既にある場所で育ちやすく、ロボットなら工場と技術者の近く、バイオなら大学と病院の近くに集まる。地方分散は人材の地元定着、経済成長の平準化、都市ごとの得意分野形成という利点をもたらす。投資資金・経験あるメンター・人脈の少なさという課題は残り、産官学の地道な連携が要る。成功は資源(資金・技能・顧客・知識)が集まる場所に集中する——場所の強みに計画を合わせることが実務的な要点だ。",
+        quiz: [
+          { q: "スタートアップが特定地域に集まる理由は？", options: ["必要な要素(工場・大学など)が既にある場所で育ちやすいから", "家賃が無料だから", "税金がないから"], answer: 0 },
+          { q: "地方分散の利点として挙げられていないものは？", options: ["人材の地元定着", "経済成長の平準化", "全企業の海外移転"], answer: 2 },
+          { q: "地方拠点の課題は？", options: ["投資資金・メンター・人脈の少なさ", "土地が全くないこと", "技術者が多すぎること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0721-2",
+        title: "A Cheaper Battery Made from Salt",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Most batteries in phones and electric cars today rely on lithium, a metal that is expensive and found in only a few places. Researchers and companies have long searched for an alternative, and one candidate is getting attention: the sodium-ion battery. Reports say a new sodium battery performs far better than expected, with quality and design features rivaling top lithium batteries.\nWhy sodium? Because it is one of the most common elements on Earth — it is part of ordinary table salt. Unlike lithium, which is concentrated in a few countries and can be costly, sodium is cheap and available almost everywhere. A battery based on sodium could be less expensive and less dependent on a small number of suppliers.\nFor years, sodium batteries had a serious drawback: they stored less energy for their weight than lithium batteries, making them too heavy for cars or phones. But steady improvements are closing that gap. Even if sodium batteries remain a little heavier, their low cost could make them ideal for uses where weight matters less — such as storing energy from solar and wind power on the electric grid.\nThis is a good example of how technology progresses. Rarely does one solution win everything. More often, different tools suit different jobs. Lithium may keep powering the lightest devices, while cheaper sodium handles large, stationary storage. The future of energy will likely rely on many kinds of batteries, each matched to the task it does best.",
+        summaryJa: "スマホやEVの電池は高価で産地が限られるリチウムに依存する。代替候補として注目されるのがナトリウムイオン電池で、新型は期待を大きく上回る性能と、上位リチウム電池に迫る品質・設計を示したと報じられる。ナトリウムは食塩に含まれる地球上で最も豊富な元素の一つで、安価でほぼどこでも手に入り、少数の供給国への依存も減る。重量あたりの蓄電量が少ない弱点は改善が進み、多少重くても低コストゆえ太陽光・風力の系統蓄電など重量が問題になりにくい用途に向く。一つの解が全てを制するのは稀で、用途ごとに最適な電池が使い分けられる未来が見込まれる。",
+        quiz: [
+          { q: "ナトリウム電池が注目される理由は？", options: ["ナトリウムは安価でほぼどこでも手に入るから", "光るから", "軽さで圧勝だから"], answer: 0 },
+          { q: "ナトリウム電池の弱点は？", options: ["重量あたりの蓄電量が少ない", "危険すぎる", "作れない"], answer: 0 },
+          { q: "本文が示す技術進歩の見方は？", options: ["用途ごとに最適な電池が使い分けられる", "一つの電池が全てを制する", "電池は不要になる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0721-3",
+        title: "The Race to Store Clean Energy",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "The world is building more solar panels and wind turbines than ever before. But clean energy has a stubborn problem: the sun does not always shine, and the wind does not always blow. Solving this — storing energy for when it is needed — has become one of the great challenges of the global shift to cleaner power.\nThe difficulty is one of timing. Solar panels produce the most electricity at midday, but people use the most in the evening. Wind farms may generate huge amounts overnight, when demand is low. Without a way to store that energy, much of it is simply wasted, and countries must keep fossil-fuel plants running for the hours when clean power is scarce.\nSeveral solutions are competing. Giant batteries can store electricity and release it within seconds, which is useful for short gaps. Pumped hydro storage moves water uphill when power is cheap and lets it flow down to generate electricity when needed. Newer ideas include storing energy as heat, compressed air, or even hydrogen gas. Each has strengths and weaknesses in cost, size, and how long it can hold energy.\nWhy does this matter globally? Because a country that masters energy storage can rely more on cheap, clean power and less on imported fuel. Storage turns unpredictable sun and wind into steady, dependable electricity. The nations and companies that solve it best will gain both an environmental and an economic advantage — which is why the race to store clean energy is one of the defining contests of our time.",
+        summaryJa: "世界はかつてないほど太陽光・風力を増やしているが、太陽は常に照らず風も常には吹かない——「必要な時のために蓄える」ことが脱炭素の大課題だ。太陽光は正午に最も発電するが需要は夕方、風力は需要の低い夜に大量発電しうる。蓄えなければ多くが無駄になり、クリーン電力が乏しい時間帯に化石燃料発電を動かし続けねばならない。大型電池(短時間向け)、揚水発電、熱・圧縮空気・水素での貯蔵などが競合し、コスト・規模・保持時間に一長一短がある。蓄電を制する国は安いクリーン電力に頼り輸入燃料への依存を減らせるため、環境と経済の両面で優位に立つ。蓄電競争は現代を象徴する戦いだ。",
+        quiz: [
+          { q: "クリーンエネルギーの「頑固な問題」とは？", options: ["太陽や風が常に得られず、蓄える必要があること", "発電しすぎること", "誰も使わないこと"], answer: 0 },
+          { q: "蓄電の解決策として挙げられていないものは？", options: ["大型電池や揚水発電", "熱・圧縮空気・水素での貯蔵", "電気を捨てること"], answer: 2 },
+          { q: "蓄電を制する国が得る優位は？", options: ["環境と経済の両面での優位", "軍事力のみ", "優位はない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0721-4",
+        title: "Satellites Made of Wood",
+        level: "★★☆",
+        genre: "日本",
+        text: "When you imagine a satellite, you probably picture shining metal and gold foil. Japanese researchers are exploring a surprising alternative: satellites made partly from wood. The idea sounds almost like a joke, but it addresses a real and growing problem in space.\nThe problem is space junk. Thousands of satellites now orbit the Earth, and when they stop working, many burn up as they fall back into the atmosphere. Metal satellites, when they burn, can release tiny particles that may harm the upper atmosphere. As the number of satellites grows into the tens of thousands, these effects could add up.\nWood offers a clever solution. A wooden satellite would burn up more cleanly when it re-enters the atmosphere, leaving less harmful material behind. Wood is also surprisingly tough in the vacuum of space, where there is no oxygen or moisture to rot it. Early experiments have tested small wooden satellites to see how the material survives the harsh conditions of orbit.\nThere are limits, of course. Wood cannot replace metal for every part; electronics, engines, and structural frames still need traditional materials. But using wood where possible could make satellites cleaner and cheaper.\nThe deeper lesson is about creative problem-solving. Faced with the challenge of space pollution, researchers did not only look for high-tech fixes; they reconsidered one of humanity's oldest materials. Sometimes progress comes not from inventing something entirely new, but from seeing an old, familiar thing in a completely fresh way.",
+        summaryJa: "衛星というと輝く金属と金箔を思い浮かべるが、日本の研究者は一部を木で作る衛星を探究している。冗談のようで、宇宙ごみという現実の問題に応える発想だ。多数の衛星が寿命後に大気圏で燃え尽きる際、金属は上層大気を害しうる微粒子を出す恐れがあり、衛星が数万機に増えると影響が積み重なる。木製衛星は再突入時によりクリーンに燃え、有害物質が少ない。真空の宇宙は酸素も水分もなく木は腐らず意外に丈夫で、小型木製衛星の実験も行われた。電子機器やエンジンは金属が要り全ては置き換えられないが、可能な範囲での木材利用で衛星をよりクリーンで安価にできる。人類最古の素材を新しい目で見直す創造的問題解決の好例だ。",
+        quiz: [
+          { q: "木製衛星が応えようとする問題は？", options: ["宇宙ごみと再突入時の大気への影響", "衛星の色", "電池の重さ"], answer: 0 },
+          { q: "木が宇宙で意外に丈夫な理由は？", options: ["真空で酸素も水分もなく腐らないから", "金属より重いから", "光るから"], answer: 0 },
+          { q: "本文が示す教訓は？", options: ["古い素材を新しい目で見直す創造的問題解決", "新素材だけが進歩を生む", "木は宇宙に使えない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0721-5",
+        title: "Making Cosmic Dust in a Glass Tube",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Everything around you — your body, this planet, the air you breathe — is made from atoms that were once scattered through space as cosmic dust. Now researchers have managed to create this cosmic dust from scratch, recreating space-like conditions inside glass tubes in a laboratory. It is a small experiment with very large implications.\nCosmic dust is made of tiny grains, far smaller than a speck of household dust, floating in the vast space between stars. These grains are important because they are the building blocks of planets. Over millions of years, dust clumps together, forming larger and larger pieces until, eventually, worlds like Earth are born. Understanding how the first grains form is a key step in understanding where planets — and life — come from.\nStudying real cosmic dust is extremely hard, because it exists far away and forms over enormous timescales. So scientists brought the process into the laboratory. By carefully recreating the cold, near-empty conditions of space inside sealed tubes, they watched dust grains form under controlled conditions they could measure and repeat.\nThis is the power of experiment. Rather than only observing the distant universe through telescopes, scientists can now build tiny pieces of it on a laboratory bench. Each such experiment tests our theories about how stars, planets, and eventually life came to be.\nThe wonder of it is worth pausing on. In a glass tube on Earth, researchers are recreating the very process that, billions of years ago, began building the world we live in. It is a reminder that the story of the cosmos and the story of ourselves are, in the end, the same story.",
+        summaryJa: "あなたの体も地球も空気も、かつて宇宙に漂う「宇宙塵」だった原子からできている。研究者がガラス管の中に宇宙のような環境を再現し、宇宙塵をゼロから作り出すことに成功した。宇宙塵は星間空間に漂う微細な粒で、数百万年かけて集まり惑星の材料になる。最初の粒がどうできるかの理解は、惑星や生命の起源に迫る鍵だ。本物の宇宙塵は遠く長い時間で形成されるため研究が難しく、科学者は冷たくほぼ真空の条件を密閉管内に再現し、制御・反復できる形で粒の形成を観察した。望遠鏡で遠い宇宙を眺めるだけでなく、実験台の上に宇宙の小片を作れる——宇宙の物語と私たち自身の物語が、結局は同じ物語だと気づかせる。",
+        quiz: [
+          { q: "研究者がガラス管内で作り出したものは？", options: ["宇宙塵", "本物の惑星", "新しい星"], answer: 0 },
+          { q: "宇宙塵が重要な理由は？", options: ["集まって惑星の材料になるから", "光るから", "食べられるから"], answer: 0 },
+          { q: "実験室で再現した理由は？", options: ["本物は遠く長い時間で形成され研究が難しいから", "宇宙に行けないから", "望遠鏡が壊れたから"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-20",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "新材料の特徴は？", options: ["電源なしで熱の方向や放出量の設定を記憶できる", "電気を作り出す", "熱を完全に消す"], answer: 0 },
           { q: "熱の制御が電気より難しかった理由は？", options: ["熱は高温から低温へ流れ、案内する道具が受動的だから", "熱は存在しないから", "熱は目に見えるから"], answer: 0 },
           { q: "応用例として挙げられていないものは？", options: ["チップの冷却", "EV電池の温度管理", "料理の味付け"], answer: 2 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-14",
-    passages: [
-      {
-        id: "d0714-1",
-        title: "Why Regional Startup Hubs Are Rising",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "For a long time, if you wanted to build a technology company in Japan, there was really only one place to be: Tokyo. That is starting to change. Reports on Japan's startup scene describe a market that is strong not only in the capital but also in rising regional hubs, with support from government, universities, and local governments.\nWhy are startups spreading out? Several forces push in the same direction. Remote work, now normal since the pandemic, means engineers no longer must live near the head office. Office and living costs are far lower outside Tokyo, so a young company's money lasts longer. Regional universities produce talented graduates who would prefer to stay near home if good jobs exist. And local governments, eager to keep young people, offer grants, cheap office space, and other support.\nThe pattern is not unique to Japan. Around the world, technology used to cluster in a few expensive cities, but the same forces are spreading it more widely. Second-tier cities are competing to become the next hub for a particular industry — batteries here, biotech there, space technology somewhere else.\nFor workers and founders, the lesson is encouraging. Opportunity is becoming less tied to a single address. A great idea, a skilled team, and a good internet connection can now build a serious company far from the traditional center — and that is good news for balanced national growth.",
-        summaryJa: "かつて日本でテック企業を作るなら東京一択だったが、政府・大学・自治体の支援を背景に地方のスタートアップ拠点が台頭している。リモートワークの定着、東京より安い生活・オフィスコスト、地元に残りたい地方大学の人材、若者流出を防ぎたい自治体の補助——複数の力が同じ方向に働く。世界的にも技術が一部の高コスト都市から分散する流れで、機会が「住所」に縛られなくなりつつある。",
-        quiz: [
-          { q: "地方のスタートアップ拠点が台頭している理由に含まれないものは？", options: ["リモートワークの定着", "東京より安いコスト", "地方では税金がゼロになる法律"], answer: 2 },
-          { q: "自治体がスタートアップを支援する動機は？", options: ["若者の流出を防ぎたいから", "観光客を増やすため", "工場を減らすため"], answer: 0 },
-          { q: "本文の結論は？", options: ["機会が単一の住所に縛られなくなりつつある", "東京以外では起業できない", "地方拠点はすぐ消える"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0714-2",
-        title: "The Tiny Cracks That Break a Battery",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Solid-state batteries are one of the most anticipated technologies for electric cars. By replacing the flammable liquid inside today's batteries with a solid ceramic, they promise more range, faster charging, and greater safety. But one stubborn problem has slowed them down, and researchers have just uncovered how it works.\nThe villain is something called a dendrite. When a battery charges, lithium moves through it. Sometimes, instead of spreading evenly, the lithium forms tiny finger-like growths. In a solid-state battery, these soft lithium fingers can crack the hard ceramic inside, creating pathways that cause a short circuit — and a dead, or even dangerous, battery.\nWhat puzzled scientists was how something soft could break something hard. The new research explains the mechanism: the lithium pushes into tiny existing flaws in the ceramic and, like water freezing in a crack in a rock, applies enough pressure over time to split it open. Understanding this process is the key to preventing it.\nWhy does this matter beyond the laboratory? Because whoever solves the dendrite problem could unlock the next generation of electric vehicles. Car makers and battery companies around the world are racing toward solid-state technology, and each scientific insight brings mass production closer. This discovery does not finish the race, but it hands engineers a clearer map of the road ahead.",
-        summaryJa: "全固体電池はEVの本命技術だが、「デンドライト」という問題が実用化を阻んできた。充電時にリチウムが指状に成長し、柔らかいはずのそれが硬いセラミックの微小な欠陥に入り込み、岩の割れ目で凍る水のように圧力をかけて割り、短絡を起こす——その仕組みを新研究が解明した。原因が分かれば対策が立てられる。デンドライト問題を解いた者が次世代EVの扉を開くとされ、量産化に一歩近づく成果。",
-        quiz: [
-          { q: "全固体電池の利点として挙げられていないものは？", options: ["航続距離が伸びる", "充電が速い", "重さがゼロになる"], answer: 2 },
-          { q: "「デンドライト」とは？", options: ["充電時にリチウムが作る指状の成長物", "電池の外装", "冷却装置"], answer: 0 },
-          { q: "柔らかいリチウムが硬いセラミックを割る仕組みは？", options: ["微小な欠陥に入り込み、時間をかけて圧力で割る", "熱で溶かす", "電気で燃やす"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0714-3",
-        title: "Dementia Risk Is Not the Same Everywhere",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "As populations age around the world, dementia has become one of the great health challenges of our time. Common advice tells us how to lower our risk: exercise, control blood pressure, stay socially active, keep learning. But a large new study of more than 214,000 people suggests that this advice may need to be adjusted for each country, because risk factors differ widely across the world.\nThe idea of a single, universal prevention plan is appealing but may be too simple. In one country, physical inactivity might be the biggest driver of dementia risk. In another, it could be untreated high blood pressure, air pollution, limited education, or hearing loss. The same behavior does not carry the same weight everywhere, because populations differ in genetics, diet, healthcare, and environment.\nWhy does this matter for policy? Because health resources are limited, and money spent on the wrong target does little good. A country that identifies its own leading risk factors can design campaigns that actually work — promoting hearing checks in one place, cleaner air in another, better blood pressure treatment somewhere else.\nThe broader lesson reaches beyond medicine. In a connected world, we often look for one answer that fits everyone. But the most effective solutions usually start with a local question: what is really driving the problem here? Global knowledge works best when it is applied with local understanding.",
-        summaryJa: "高齢化で認知症は世界的な健康課題に。運動や血圧管理などの予防助言は有名だが、21万人超の大規模研究は、リスク要因が国ごとに大きく異なり、万国共通の予防策では不十分だと示す。ある国では運動不足、別の国では高血圧・大気汚染・教育機会・難聴が最大要因になりうる。限られた医療資源を本当に効く対象に向けるには、まず「ここで問題を動かしているのは何か」という地域の問いから始めることが重要。",
-        quiz: [
-          { q: "21万人超の研究が示したことは？", options: ["認知症のリスク要因は国ごとに大きく異なる", "認知症は予防できない", "運動だけで防げる"], answer: 0 },
-          { q: "国ごとに主要リスクが違う理由として本文が挙げるのは？", options: ["遺伝・食事・医療・環境の違い", "国の面積の違い", "国旗の色の違い"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["世界の知見は地域の理解と組み合わせてこそ効く", "一つの答えが万人に効く", "地域差は無視してよい"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0714-4",
-        title: "Japan Bets on Robots to Fill a Labor Gap",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan faces a demographic challenge unlike almost any other country: its population is both aging and shrinking. Fewer young workers enter the labor force each year, while the number of people needing care keeps rising. In response, Japan is placing a big bet on one of its traditional strengths — robotics — and it is now one of the strongest fields in the country's startup scene.\nRobots are moving beyond the factory floor, where Japan has long been a leader, into everyday life. In restaurants, robots carry dishes between the kitchen and tables. In warehouses, they move goods so human workers walk less. In hospitals and care homes, robots help lift patients, deliver supplies, and even provide simple conversation for lonely residents. Each of these tasks helps a smaller workforce do more.\nThe technology is not a complete solution. Robots are expensive, they struggle with tasks that require a soft human touch, and many jobs still need people. Care work in particular depends on warmth and judgment that machines cannot replace. The realistic goal is partnership: let robots handle heavy, repetitive, or dangerous tasks so that human workers can focus on the parts only people can do.\nFor the rest of the world, Japan is a preview. Many countries will grow older in the coming decades, and they are watching closely to see how a society uses technology to stay productive and care for its people as the workforce shrinks.",
-        summaryJa: "高齢化と人口減が同時に進む日本は、伝統的な強みであるロボティクスに賭けており、スタートアップの最有力分野の一つになっている。工場だけでなく、飲食店の配膳、倉庫の運搬、病院・介護施設での移乗支援や見守り会話へと用途が拡大。ただしコストや「人の手」が要る仕事の限界もあり、現実的な目標は「重労働や危険な作業はロボット、人にしかできない部分は人」という協働。世界の高齢化の先行事例として注目される。",
-        quiz: [
-          { q: "日本がロボティクスに賭ける背景は？", options: ["高齢化と人口減で労働力が不足するから", "ロボットが安いから", "工場が余っているから"], answer: 0 },
-          { q: "ロボットの活躍の場として挙げられていないものは？", options: ["飲食店の配膳", "倉庫の運搬", "選挙の投票"], answer: 2 },
-          { q: "本文が示す現実的な目標は？", options: ["重労働はロボット、人にしかできない部分は人という協働", "すべてを機械に置き換える", "ロボットの使用をやめる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0714-5",
-        title: "Your Brain Decides Before You Know It",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "When do you actually make a decision? It feels obvious: you weigh your options, then choose. But a new study suggests that the brain begins forming decisions much earlier than scientists previously believed — often before we are consciously aware that we are deciding at all.\nResearchers have long known that measurable brain activity can appear before a person reports making a choice. The new work pushes that moment even earlier, showing that the groundwork for a decision is laid well in advance. In other words, by the time you 'decide' to reach for a cup of coffee, your brain may have been preparing the action for a surprisingly long time.\nThis raises deep and slightly uncomfortable questions. If our brains prepare decisions before we are aware of them, how much of our choice is truly 'free'? Philosophers have debated free will for centuries, and neuroscience now adds hard data to the conversation. Most scientists are careful, though: preparing an action is not the same as forcing it, and we can still cancel or change a movement at the last moment.\nThere are practical angles too. Understanding the timing of decisions could improve technologies that read brain signals, helping people with paralysis control devices with their thoughts. For everyone else, the research is a humbling reminder that the mind is stranger, and more automatic, than it feels from the inside.",
-        summaryJa: "私たちが「決めた」と感じるより前に、脳は決定の準備を始めている——新研究はその瞬間をさらに早い段階に押し下げた。コーヒーに手を伸ばす前から脳は動作を準備しているという。これは自由意志を巡る古い議論に科学的データを加えるが、「準備」は「強制」ではなく、直前に取り消せる点に科学者は慎重。応用面では、脳信号を読む技術の向上を通じ、麻痺のある人が思考で機器を操作する助けになる可能性がある。心は内側から感じるより自動的で不思議だと気づかせる研究。",
-        quiz: [
-          { q: "新研究が示したことは？", options: ["脳は意識より前に決定の準備を始めている", "人は決定しない", "決定は一瞬で終わる"], answer: 0 },
-          { q: "科学者が慎重に付け加えている点は？", options: ["「準備」は「強制」ではなく直前に取り消せる", "自由意志は完全に存在しない", "脳は決定に関与しない"], answer: 0 },
-          { q: "この研究の応用として挙げられているのは？", options: ["麻痺のある人が思考で機器を操作する技術", "天気予報の改善", "自動車の燃費向上"], answer: 0 }
         ]
       }
     ]
