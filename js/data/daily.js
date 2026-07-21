@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-22",
+    passages: [
+      {
+        id: "d0722-1",
+        title: "Cleaning Up the Crowded Sky",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Space is getting crowded. Tens of thousands of satellites now circle the Earth, along with countless pieces of old rockets and broken equipment. This growing cloud of 'space junk' has created a new business opportunity: companies that turn space technology into commercial services to protect our increasingly busy orbit.\nWhy is this a business, and not just a science project? Because crowded orbits are a real and expensive problem. A single piece of junk, traveling faster than a bullet, can destroy a working satellite worth hundreds of millions of dollars. Satellite operators, insurers, and governments all have strong reasons to pay for solutions that reduce this risk.\nSeveral kinds of services are emerging. Some companies track objects in orbit and warn operators when a collision is likely, so satellites can move out of the way. Others are developing spacecraft that can capture dead satellites and pull them safely out of orbit. A few even design satellites that clean up after themselves, removing themselves from orbit when their work is done.\nInternational cooperation is part of the picture too. Governments are signing agreements to work together on satellite networks and orbital safety, because space is shared by all and no single country can manage it alone.\nThe deeper lesson is a familiar one in business: today's problems create tomorrow's markets. As human activity in space grows, so does the need to manage it responsibly. The companies that build the tools to keep orbit safe are turning a challenge into an industry — and helping ensure that space stays usable for everyone.",
+        summaryJa: "宇宙は混雑している。数万機の衛星と無数の宇宙ごみが地球を回り、この問題が新たなビジネスを生んだ——宇宙技術を商用サービスに変え、混み合う軌道を守る企業だ。弾丸より速いごみ一つが数億ドルの衛星を壊すため、衛星事業者・保険会社・政府には対策を買う強い動機がある。衝突警報、故障衛星の捕獲・除去、役目を終えたら自ら軌道を離れる衛星などのサービスが登場。宇宙は全員の共有物で一国では管理できず、衛星網や軌道安全での国際協力も進む。「今日の問題は明日の市場を生む」——軌道を安全に保つ道具を作る企業が、課題を産業に変え、宇宙を皆が使える状態に保つ。",
+        quiz: [
+          { q: "新たなビジネス機会を生んだ問題は？", options: ["宇宙ごみで軌道が混雑していること", "宇宙が寒いこと", "衛星が安すぎること"], answer: 0 },
+          { q: "登場しているサービスに含まれないものは？", options: ["衝突警報", "故障衛星の捕獲・除去", "宇宙旅行の格安販売"], answer: 2 },
+          { q: "本文の教訓は？", options: ["今日の問題は明日の市場を生む", "宇宙開発はやめるべき", "ごみは無害"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0722-2",
+        title: "A Robot Priest and the Future of AI Conversation",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "In Japan, a humanoid robot has been trained on vast collections of Buddhist scriptures and can now hold conversations about life and philosophy while moving and gesturing like a human priest. It may sound unusual, but it points to an important direction in artificial intelligence: machines that can discuss deep and personal subjects, not just answer simple questions.\nWhat makes this possible? Modern AI systems learn by studying enormous amounts of text. By training on centuries of religious and philosophical writing, the robot can draw on those ideas to respond thoughtfully when people ask about suffering, meaning, or how to live. Combined with a moving, gesturing body, the experience feels more human than talking to a screen.\nThe idea raises interesting questions. Can a machine truly offer comfort or wisdom, or is it only repeating patterns from the texts it studied? Many people feel that human warmth and lived experience cannot be replaced by a robot, however clever. Others point out that a patient, always-available listener — even a mechanical one — might genuinely help people who feel lonely or troubled.\nBeyond religion, the technology hints at where conversational AI is heading. Machines that can discuss emotions, ethics, and personal problems could become companions, counselors, or teachers. But such roles carry real responsibility, because people may form deep attachments to them.\nThe robot priest, then, is more than a curiosity. It is a small window into a future where we must decide, carefully, what roles we want thinking machines to play in the most human parts of our lives.",
+        summaryJa: "日本で、膨大な仏教経典を学習した人型ロボットが、人間の僧侶のように動き身振りを交えて人生や哲学を語れるようになった。奇妙に見えて、AIの重要な方向——単純な質問への回答でなく、深く個人的な話題を語れる機械——を示す。現代AIは大量の文章から学び、数世紀の宗教・哲学文献を学ぶことで苦しみや意味への問いに思慮深く応じ、動く身体が画面より人間的な体験を生む。機械が本当に慰めや知恵を与えられるのか、パターンの反復にすぎないのかという問いも生む。宗教を超え、感情・倫理・悩みを語るAIは伴侶・相談役・教師になりうるが、人が深く愛着を抱くため大きな責任も伴う。人生の最も人間的な部分で機械に何を担わせるかを慎重に決める未来への窓だ。",
+        quiz: [
+          { q: "このロボットができることは？", options: ["経典を学び人生や哲学を語る", "料理を作る", "空を飛ぶ"], answer: 0 },
+          { q: "この技術が示すAIの方向とは？", options: ["深く個人的な話題を語れる機械", "計算だけをする機械", "画面のない機械"], answer: 0 },
+          { q: "本文が挙げる懸念は？", options: ["人が機械に深く愛着を抱く責任", "電気代が高いこと", "ロボットが重いこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0722-3",
+        title: "Small Nations, Big Ambitions in Space",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Space used to belong to a handful of powerful nations. That is changing quickly. Recently, Japan and Thailand signed an agreement to cooperate on low-Earth-orbit satellite networks — a sign that more and more countries want a place in the growing space economy.\nWhy would smaller or developing nations invest in space? Because satellites have become essential tools for everyday life on the ground. They provide internet to remote villages, guide ships and planes, monitor crops and forests, warn of floods and storms, and support communication during disasters. A country that can access these services gains real advantages in its economy and safety.\nFew nations can afford to build a full space program alone, so cooperation is key. A technologically advanced country can share knowledge, equipment, and launch services, while a partner country provides funding, ground stations, or a strategic location. Both sides benefit: one extends its influence and industry, the other gains capabilities it could not build by itself.\nLow-Earth orbit — the region relatively close to the planet — is especially attractive. Satellites there are cheaper to launch and can provide fast internet and detailed images. This is why so many countries and companies are rushing to place networks of small satellites in this busy zone.\nThe broader story is about a shift in global power. Space technology, once a symbol of superpower rivalry, is becoming a shared tool for development. As more nations gain access, space is turning from an exclusive club into a crowded, cooperative, and competitive part of the world economy — with all the opportunities and challenges that brings.",
+        summaryJa: "宇宙はかつて少数の大国のものだったが、急速に変わりつつある。日本とタイが低軌道衛星網での協力に合意し、より多くの国が成長する宇宙経済に加わろうとしている。衛星は遠隔地へのネット提供、船舶・航空の誘導、農地・森林の監視、防災、災害時通信など地上の生活に不可欠な道具になったからだ。単独で宇宙計画を賄える国は少なく協力が鍵で、先進国が技術・機器・打ち上げを、相手国が資金・地上局・戦略的立地を提供し双方が得をする。打ち上げが安く高速ネットや詳細画像を得られる低軌道は特に魅力的。宇宙技術は超大国の競争の象徴から発展の共有ツールへ——排他的なクラブから、協力と競争が交わる世界経済の一部へと変わりつつある。",
+        quiz: [
+          { q: "小国や途上国が宇宙に投資する理由は？", options: ["衛星が生活に不可欠な道具になったから", "宇宙が空いているから", "打ち上げが趣味だから"], answer: 0 },
+          { q: "宇宙協力で双方が得るものは？", options: ["一方は影響力と産業、他方は単独では持てない能力", "何も得ない", "損失だけ"], answer: 0 },
+          { q: "低軌道が魅力的な理由は？", options: ["打ち上げが安く高速ネットや詳細画像を得られる", "重力がないから", "誰もいないから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0722-4",
+        title: "What Whales Teach Us About Health",
+        level: "★★☆",
+        genre: "日本",
+        text: "Science often advances in unexpected places — even inside the stomachs of whales. Studying decades of records from stranded pygmy sperm whales, researchers recently discovered three previously unknown types of Helicobacter, a kind of bacteria. The finding is a reminder of how much we still have to learn from the natural world.\nHelicobacter may sound unfamiliar, but one member of this family is well known to doctors: Helicobacter pylori, a bacterium that lives in the human stomach and can cause ulcers and even cancer. Understanding how these bacteria live inside different animals helps scientists learn how they survive the harsh, acidic environment of the stomach, and how they affect the health of their hosts.\nWhy study whales for this? Because animals that are very different from us can reveal general truths about biology. If a type of bacteria has adapted to live in a whale's stomach as well as a human's, comparing the two can show what these microbes need to survive — knowledge that might one day help treat diseases in people.\nThis kind of research also depends on patient, long-term record-keeping. The discovery came from decades of careful notes about stranded whales. Without those steady records, the pattern could never have been seen.\nThe lesson reaches beyond medicine. Nature is full of hidden connections, and knowledge often comes from studying things that seem unrelated to our daily lives. A stranded whale on a distant beach may, in the end, help doctors understand a disease that affects millions of people. Curiosity about the natural world remains one of humanity's most powerful tools.",
+        summaryJa: "科学は思わぬ場所——クジラの胃の中——でも進む。座礁したコマッコウの数十年の記録を調べた研究者が、未知のヘリコバクター菌3種を発見した。この仲間の一つが、胃に住み潰瘍やがんの原因になるヘリコバクター・ピロリだ。異なる動物の胃でどう生きるかを知ることは、過酷な酸性環境での生存や宿主の健康への影響の理解に役立つ。人と大きく異なる動物こそ生物学の一般法則を明かす。数十年の丁寧な記録があってこそ発見でき、無関係に見えるものの研究から知が生まれる。遠い浜のクジラが、いつか何百万人を苦しめる病の理解を助けるかもしれない——自然への好奇心は人類最強の道具の一つだ。",
+        quiz: [
+          { q: "研究者がクジラの胃で発見したものは？", options: ["未知のヘリコバクター菌3種", "新種の魚", "プラスチックごみ"], answer: 0 },
+          { q: "ヘリコバクターの仲間で有名なものは？", options: ["胃で潰瘍やがんの原因になるピロリ菌", "風邪のウイルス", "食中毒菌のみ"], answer: 0 },
+          { q: "本文の教訓は？", options: ["無関係に見えるものの研究から知が生まれる", "クジラは研究できない", "自然は無関係"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0722-5",
+        title: "The Everyday Foods That May Boost Vaccines",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Vaccines are one of medicine's greatest achievements, but they do not work equally well for everyone. In older adults, whose immune systems weaken with age, vaccines often produce a smaller protective response. New research suggests that a natural compound found in ordinary foods — wheat germ, mushrooms, and aged cheese among them — may help older people build stronger protection after vaccination.\nThe compound is called spermidine, and it occurs naturally in many foods and in our own bodies. Scientists have been studying it for years because it appears to support a cellular process that helps cells clean out damaged parts and stay healthy. As we age, this process slows down, and so does the immune system's ability to respond strongly to threats — including vaccines.\nThe new findings suggest that giving the immune system more of this compound might help older cells respond more effectively, producing better protection from a vaccine. If confirmed, this could be an inexpensive and simple way to improve vaccine results in exactly the group that needs the most protection.\nCaution is important, as always in science. A promising result in the laboratory does not automatically work in every person, and no one should expect a slice of cheese to replace medical advice. Careful trials in humans are needed before firm conclusions can be drawn.\nStill, the research points to an appealing idea: that everyday nutrition and modern medicine might work together. The foods on our plates may play a larger role in our health than we realize, quietly supporting the systems that keep us well — a reminder that science often finds power in the ordinary.",
+        summaryJa: "ワクチンは医学の大きな成果だが、加齢で免疫が弱る高齢者では効きが小さくなりがち。新研究は、小麦胚芽・きのこ・熟成チーズなど普通の食品に含まれる天然成分「スペルミジン」が、高齢者のワクチン後の防御を高めうると示す。この成分は、細胞が傷んだ部分を掃除して健康を保つ働きを支え、加齢で衰えるその働きと免疫応答を助ける可能性がある。確認されれば、最も守りが必要な層のワクチン効果を安価に高める手段になりうる。ただし実験室の好結果が万人に効くとは限らず、人での慎重な試験が必要で、チーズが医療の代わりにはならない。日々の栄養と現代医療が協働しうるという魅力的な発想で、科学はしばしば「ありふれたもの」に力を見いだす。",
+        quiz: [
+          { q: "研究が注目した天然成分は？", options: ["食品に含まれるスペルミジン", "砂糖", "塩"], answer: 0 },
+          { q: "高齢者でワクチンが効きにくい理由は？", options: ["加齢で免疫の応答が弱まるから", "食べ過ぎるから", "運動しすぎるから"], answer: 0 },
+          { q: "本文が促す注意点は？", options: ["実験室の結果が万人に効くとは限らず人での試験が必要", "チーズが薬の代わりになる", "栄養は健康と無関係"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-21",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "神経細胞内の「骨格」について新研究が示したことは？", options: ["取り込む物質と時機を制御する門番の役割を持つ", "何もしていない", "細胞を破壊する"], answer: 0 },
           { q: "取り込みの量とタイミングが重要な理由は？", options: ["情報伝達と記憶を左右するから", "細胞の色を決めるから", "無関係だから"], answer: 0 },
           { q: "本文が示す生物学の教訓は？", options: ["単純に見える構造が実は複数の役割を担う", "構造はすべて単純", "細胞は研究できない"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-15",
-    passages: [
-      {
-        id: "d0715-1",
-        title: "A Bank Becomes Japan's Most Valuable Company",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "For many years, one name sat at the top of Japan's stock market: Toyota. The carmaker was the country's most valuable company and a symbol of its manufacturing strength. Recently, that changed. Japan's largest banking group, Mitsubishi UFJ Financial Group, overtook Toyota to become the most valuable company on the Tokyo market for the first time.\nWhat lies behind this shift? In one word: interest rates. For decades, Japan kept interest rates near zero to fight deflation. Banks struggled, because they make much of their money from the gap between the rate they pay on deposits and the rate they charge on loans. When rates are near zero, that gap is thin. Now, as Japan slowly raises interest rates, banks can earn much more on every loan, and investors expect their profits to grow.\nThe change is more than a corporate ranking. It signals that investors believe Japan's long era of ultra-low rates is truly ending. A country moving from zero rates to normal rates is a country whose economy is finally behaving differently after a generation of stagnation.\nThere are winners and losers. Savers earn more on deposits, and banks profit. But companies and homeowners face higher borrowing costs, and the government must pay more interest on its large debt. For anyone doing business in Japan, the message is clear: the rules of money are shifting, and strategies built for a zero-rate world may need to be rewritten.",
-        summaryJa: "長年トヨタが占めた日本の時価総額首位を、三菱UFJフィナンシャル・グループが初めて上回った。背景は金利。デフレ対策のゼロ金利下で銀行は利ざやが薄く苦しんできたが、日本が利上げに動くと1件の融資で得られる収益が増え、投資家は増益を期待する。これは「超低金利時代の終わり」を市場が信じ始めた兆し。預金者や銀行には追い風だが、企業・住宅ローン・政府債務には負担増。ゼロ金利前提の戦略は書き換えが必要になる。",
-        quiz: [
-          { q: "日本の時価総額首位になったのは？", options: ["三菱UFJフィナンシャル・グループ(銀行)", "トヨタ", "ソニー"], answer: 0 },
-          { q: "銀行の利益が増えると期待される理由は？", options: ["金利上昇で融資の利ざやが広がるから", "預金がゼロになるから", "支店を減らすから"], answer: 0 },
-          { q: "金利上昇で負担が増える側は？", options: ["企業・住宅ローン・政府債務", "預金者のみ", "誰も影響を受けない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0715-2",
-        title: "Solving the Puzzle Inside a Better Battery",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "The battery inside your phone or electric car still uses a flammable liquid to move energy from one side to the other. Engineers dream of replacing that liquid with a solid ceramic, creating a 'solid-state' battery that would be safer, charge faster, and store more energy. One stubborn problem has blocked the way — and researchers have just explained it.\nThe trouble comes from tiny structures called dendrites. As the battery charges, lithium can form thin, finger-like growths instead of spreading evenly. In a solid-state battery, these soft lithium fingers somehow crack the hard ceramic, opening pathways that short-circuit and ruin the cell. For years it was a mystery how something soft could break something hard.\nThe new research reveals the mechanism. The lithium seeps into microscopic flaws already present in the ceramic and builds up pressure inside them. Like water freezing inside a crack in a rock and slowly splitting it, the lithium forces the flaw wider until the ceramic breaks. The damage starts not on the smooth surface but deep within tiny imperfections.\nThis insight points engineers toward solutions: make the ceramic with fewer internal flaws, or design it to relieve the pressure. Solid-state batteries are not finished yet, but understanding exactly how they fail is the crucial first step toward making them succeed — and toward electric cars that go farther and charge in minutes.",
-        summaryJa: "全固体電池は安全・高速充電・大容量が期待されるが、「デンドライト」という問題が実用化を阻んできた。充電時にリチウムが指状に成長し、柔らかいはずのそれが硬いセラミックを割って短絡させる仕組みが新研究で解明された。リチウムはセラミック内部の微小な欠陥に染み込み、岩の割れ目で凍る水のように圧力をかけて内側から割る。原因が分かれば「欠陥の少ないセラミックを作る」等の対策が立てられ、量産化への重要な一歩となる。",
-        quiz: [
-          { q: "全固体電池が液体電池より優れる点として挙げられていないものは？", options: ["安全性", "充電の速さ", "重さがゼロになる"], answer: 2 },
-          { q: "デンドライトがセラミックを割る仕組みは？", options: ["内部の微小欠陥に染み込み圧力で割る", "熱で溶かす", "電流で燃やす"], answer: 0 },
-          { q: "この解明が示す対策の方向は？", options: ["欠陥の少ないセラミックを作る", "電池を大きくする", "充電をやめる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0715-3",
-        title: "How Technology Crosses Borders in Secret",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Reports suggest that Japan has become an unexpected transit point for efforts to move restricted high-technology goods to Russia, despite international rules meant to block such trade. The story highlights a difficult challenge of the modern world: controlling the flow of technology across borders.\nAfter Russia's invasion of Ukraine, many countries banned the export of advanced goods — computer chips, precision machines, and other items that could support a military — to Russia. But such rules are hard to enforce. Technology is small, valuable, and easy to disguise. A sensitive chip can be relabeled, routed through several countries, and hidden inside ordinary products before reaching its final destination.\nThis is the world of export controls and their evasion. Governments draw up lists of banned items and watch for suspicious shipments, while others look for gaps in the system, using front companies and complicated routes. It is a constant contest, and no country's controls are perfect.\nWhy does this matter to ordinary businesses? Because export rules now affect many normal companies, not just weapons makers. A firm selling machine parts or electronics must know who its customers really are and where its products will end up. Ignorance is not a defense. In a connected world, understanding the rules of what can cross which border — and to whom — has become a basic part of doing global business responsibly.",
-        summaryJa: "国際的な規制にもかかわらず、日本が対ロシアの規制技術品の中継地になっているとの報道がある。半導体や精密機械など軍事転用可能な品の対ロ輸出は多くの国が禁じたが、技術は小型で偽装しやすく、複数国を経由し一般製品に隠して運ばれるため取り締まりは難しい。輸出管理とその抜け穴は絶えざる攻防で、完璧な国はない。武器メーカー以外の普通の企業も「顧客が誰で、製品がどこへ行くか」を把握する責任があり、無知は言い訳にならない。",
-        quiz: [
-          { q: "本文が指摘する現代の難題は？", options: ["国境を越える技術の流れを管理すること", "石油の輸送", "観光客の増加"], answer: 0 },
-          { q: "技術品の規制が難しい理由は？", options: ["小型で偽装しやすく複数国を経由できるから", "重すぎて運べないから", "誰も欲しがらないから"], answer: 0 },
-          { q: "普通の企業に求められることは？", options: ["顧客と製品の最終仕向地を把握する責任", "輸出を全面停止する", "規制を無視する"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0715-4",
-        title: "Japan's Record-Breaking Heat Alerts",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan is once again in the grip of dangerous summer heat. Weather authorities have issued heatstroke alerts for a record number of prefectures on a single day, warning that conditions create an extremely high risk to health. For many regions, it is the first such warning of the year, and it arrives earlier and stronger than in the past.\nHeatstroke is a serious medical emergency. When the body cannot cool itself, its temperature rises to dangerous levels, and without quick treatment it can be fatal. The elderly, young children, and outdoor workers are most at risk. Every summer, Japanese hospitals treat thousands of heatstroke cases, and many people die.\nThe official advice is simple but important: drink water often, even before you feel thirsty; use air conditioning without hesitation; avoid strenuous activity during the hottest hours; and check on elderly neighbors and relatives who live alone. Schools adjust outdoor activities, and some companies shift working hours to cooler parts of the day.\nBeyond the daily warnings lies a bigger question. Summers in Japan, as in much of the world, are growing hotter and longer. What was once unusual is becoming normal, and cities are slowly adapting — planting trees for shade, painting roofs to reflect heat, and rethinking how buildings are designed. Managing extreme heat is no longer an occasional emergency; it is becoming a permanent part of life.",
-        summaryJa: "日本が再び危険な暑さに見舞われ、1日で過去最多の都道府県に熱中症警戒アラートが発令された。多くの地域で今年初、しかも例年より早く強い。熱中症は命に関わる緊急事態で、高齢者・幼児・屋外労働者が高リスク。こまめな水分補給、エアコンの使用、暑い時間帯の激しい活動の回避、独居高齢者への声かけが重要。夏は世界的に長く暑くなり、植樹や屋根の反射塗装など都市の適応が進む。猛暑対策は「時々の緊急事態」から「生活の常態」へ。",
-        quiz: [
-          { q: "今回のニュースの内容は？", options: ["過去最多の都道府県に熱中症警戒アラートが出た", "記録的な寒波が来た", "台風が上陸した"], answer: 0 },
-          { q: "熱中症のリスクが特に高いのは？", options: ["高齢者・幼児・屋外労働者", "若い会社員だけ", "誰もリスクはない"], answer: 0 },
-          { q: "本文が示す大きな流れは？", options: ["猛暑対策が生活の常態になりつつある", "夏が涼しくなっている", "エアコンは使うべきでない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0715-5",
-        title: "Programming Heat, One Material at a Time",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "We have become experts at controlling electricity. With switches and chips, we route it, store it, and turn it on and off billions of times per second. Heat has been much harder to command — it simply flows from hot to cold, and our tools for guiding it are mostly passive. Now scientists have created a material that can direct heat, switch how it flows, and even remember its setting without a constant supply of power.\nThink of it as a programmable material for warmth. Applying a signal can tell the material to send heat in a chosen direction or to change how much it releases, and it holds that state like a memory chip holds a bit of data. Because it does not need continuous energy to keep its setting, it could save power in countless devices.\nThe possibilities stretch across many fields. Computer chips could push heat away from their hottest points exactly when needed. Electric-car batteries could spread warmth evenly in winter and release it fast in summer. Spacecraft and buildings could switch their surfaces between trapping heat and letting it escape as conditions change.\nAs with most laboratory advances, patience is required. The effect must work reliably at everyday temperatures, survive years of use, and be made at reasonable cost. Many promising materials never clear those hurdles. But the direction is clear and quietly revolutionary: after mastering electricity, we are beginning to program heat with the same precision — and that could reshape how efficiently our machines run.",
-        summaryJa: "私たちは電気の制御に長けているが、熱は高温から低温へ流れるだけで扱いが難しかった。電源なしで設定を記憶し、熱の方向や放出量を切り替えられる「熱をプログラムできる」材料が開発された。チップの局所冷却、EV電池の温度管理、宇宙機や建物の「熱を閉じ込める/逃がす」切り替えなど応用は広い。常温での信頼性や製造コストなど実用化のハードルは残るが、電気に続いて熱を精密制御する静かな革命が始まりつつある。",
-        quiz: [
-          { q: "新材料の特徴は？", options: ["電源なしで熱の方向や放出量の設定を記憶できる", "電気を作り出す", "熱を完全に消す"], answer: 0 },
-          { q: "熱の制御が電気より難しかった理由は？", options: ["熱は高温から低温へ流れ、案内する道具が受動的だから", "熱は存在しないから", "熱は目に見えるから"], answer: 0 },
-          { q: "応用例として挙げられていないものは？", options: ["チップの冷却", "EV電池の温度管理", "料理の味付け"], answer: 2 }
         ]
       }
     ]
