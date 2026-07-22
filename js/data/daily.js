@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-23",
+    passages: [
+      {
+        id: "d0723-1",
+        title: "Economic Security Becomes Business Strategy",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Governments used to leave trade mostly to markets: companies bought and sold across borders wherever prices were best. That era is changing. Japan's trade ministry recently published its annual white paper on the international economy, and a central theme was 'economic security' — the idea that a country must protect its access to critical goods, not just chase the lowest price.\nWhat does economic security mean in practice? It means making sure a nation can still obtain essential things — energy, food, medicine, computer chips, key minerals — even if trade is disrupted by conflict, disaster, or political pressure. For decades, efficiency ruled: companies built long global supply chains to cut costs, often depending heavily on a single country for a critical part. Recent shocks, from pandemics to geopolitical tension, revealed how fragile that model can be.\nBusinesses are now adjusting. Many are diversifying suppliers across several countries, keeping larger stockpiles of vital materials, and sometimes bringing production closer to home even when it costs more. The goal is resilience — the ability to keep operating when something goes wrong — rather than pure efficiency.\nThis shift creates both costs and opportunities. Shorter, safer supply chains can be more expensive, which may raise prices. But they also create new business for companies and countries that offer reliable, secure alternatives.\nThe broader lesson is that 'cheapest' and 'safest' are not the same, and the balance between them is shifting. For any business, understanding this new landscape — where governments increasingly treat trade as a matter of security — is becoming an essential part of long-term strategy.",
+        summaryJa: "かつて政府は貿易を市場に任せ、企業は最も安い場所で国境を越えて売買した。その時代が変わりつつある。日本の通商白書の中心テーマは「経済安全保障」——最安値だけを追うのでなく、重要物資へのアクセスを守るという考えだ。エネルギー・食料・医薬・半導体・重要鉱物などを、紛争・災害・政治的圧力で貿易が乱れても確保できるようにすること。効率重視で単一国に依存した長いサプライチェーンの脆さが近年の危機で露呈した。企業は供給先の分散、重要材料の在庫増、コスト増でも国内回帰などで「効率」より「強靱性」を重視し始めた。最安と最安全は別物で、そのバランスが移りつつある——貿易を安全保障とみなす新環境の理解が長期戦略に不可欠になっている。",
+        quiz: [
+          { q: "「経済安全保障」の考え方は？", options: ["最安値だけでなく重要物資へのアクセスを守る", "貿易を全面禁止する", "価格を無視する"], answer: 0 },
+          { q: "近年の危機が露呈させたことは？", options: ["単一国依存の長いサプライチェーンの脆さ", "効率が常に最善であること", "貿易は不要であること"], answer: 0 },
+          { q: "企業が今重視し始めたのは？", options: ["効率より強靱性(レジリエンス)", "とにかく最安値", "在庫ゼロ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0723-2",
+        title: "AI That Runs on Your Phone",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "For the past few years, most artificial intelligence has lived in giant data centers. When you ask an AI a question, your words usually travel over the internet to a distant building full of powerful computers, which send an answer back. Now a quiet shift is underway: running AI directly on the device in your hand, without needing the cloud at all.\nWhy move AI onto phones and laptops? There are several reasons. Privacy is a big one — if the AI runs on your own device, your personal data never has to leave it. Speed is another; a local AI can respond instantly, without waiting for information to travel across the internet. On-device AI also works offline, in places with no signal, and it reduces the enormous electricity costs of running everything in data centers.\nThe challenge is size. The most powerful AI models are huge, far too big to fit on a phone. So engineers are learning to shrink them — creating smaller models that keep most of the ability while using far less memory and power. Special chips designed for AI, now built into many new phones, make this possible.\nThe result is a new balance. Simple, private, everyday tasks — writing a message, summarizing a note, translating a sign — can run on your device. Complex jobs that need enormous power still go to the cloud. Together, they form a system that is faster, more private, and more efficient.\nThe broader trend is a familiar one in technology: power that once required a huge central facility gradually becomes small enough to carry in your pocket. Just as computers shrank from room-sized machines to smartphones, AI is beginning the same journey — from distant data centers toward the device in your hand.",
+        summaryJa: "ここ数年、AIの多くは巨大データセンターにあり、質問は遠くの計算機群に送られ答えが返ってきた。今、手元の端末で直接AIを動かす静かな変化が進む。利点はプライバシー(個人データが端末から出ない)、速度(通信待ちなしで即応)、オフライン動作、データセンターの膨大な電力コスト削減。課題はサイズで、強力なモデルは大きすぎて携帯に載らないため、能力を保ちつつ小型化する工夫と、新型スマホ搭載のAI専用チップが鍵になる。簡単で私的な日常作業は端末上で、複雑な処理はクラウドで、という新しい役割分担が生まれる。かつて巨大施設が要った力が徐々にポケットに収まる——部屋サイズの計算機がスマホになったように、AiもデータセンターからHand の端末へ向かい始めた。",
+        quiz: [
+          { q: "AIを端末上で動かす利点に含まれないものは？", options: ["プライバシーと速度", "オフライン動作", "画面が大きくなる"], answer: 2 },
+          { q: "端末上AIの課題は？", options: ["強力なモデルは大きすぎるので小型化が必要", "電気が使えない", "遅すぎる"], answer: 0 },
+          { q: "本文が示す新しい役割分担は？", options: ["簡単で私的な作業は端末、複雑な処理はクラウド", "すべて端末で処理", "すべてクラウドで処理"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0723-3",
+        title: "The New Map of Global Trade",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "For decades, globalization followed a simple rule: make each product wherever it is cheapest, and ship it around the world. That map of global trade is being redrawn. Rising political tension and recent supply shocks have pushed countries to think not only about cost, but about who they trade with and how much they depend on any single partner.\nOne result is a trend sometimes called 'friend-shoring' — the idea of building supply chains among countries that trust one another, even if it is not the cheapest option. Instead of depending on a single distant factory, companies and governments increasingly want reliable partners who are unlikely to cut them off during a crisis. Trade is becoming as much about trust and security as about price.\nThis shift has winners and losers. Countries seen as stable and friendly may attract new factories and investment as companies move production to safer locations. Others may lose business they long depended on. Meanwhile, consumers may pay slightly more, because the cheapest possible supply chain is no longer always the goal.\nThere are risks in going too far. If the world splits into rival trading blocs that barely deal with each other, everyone could become poorer, since trade has lifted billions out of poverty by letting countries specialize and exchange. The challenge is to balance security with openness — reducing dangerous dependencies without abandoning the benefits of a connected world.\nThe deeper lesson is that economics and politics can never be fully separated. Trade routes are not just lines on a map of costs; they are also relationships between nations. As those relationships change, so does the map of how the world does business.",
+        summaryJa: "数十年、グローバル化は「最も安い場所で作り世界へ運ぶ」という単純な原則に従った。その地図が描き直されつつある。政治的緊張と供給ショックで、各国はコストだけでなく「誰と取引し、単一の相手にどれだけ依存するか」を考え始めた。結果の一つが「フレンドショアリング」——最安でなくても信頼できる国々でサプライチェーンを築く発想だ。貿易は価格と同じくらい信頼と安全保障の問題になりつつある。安定・友好とみなされる国は投資を呼び込み、依存されてきた国は仕事を失いうる。消費者はやや高く払うことも。ただ世界が対立するブロックに分裂すれば、専門化と交換で数十億人を貧困から救った貿易の恩恵が失われ皆が貧しくなる。危険な依存を減らしつつ開放性を保つ均衡が課題だ。貿易路はコストの線であると同時に国家間の関係でもある。",
+        quiz: [
+          { q: "「フレンドショアリング」とは？", options: ["最安でなくても信頼できる国々で供給網を築く", "友人に商品を配る", "国内だけで生産する"], answer: 0 },
+          { q: "貿易が今や何の問題になりつつあるか？", options: ["価格と同じくらい信頼と安全保障", "価格だけ", "天候だけ"], answer: 0 },
+          { q: "世界が対立ブロックに分裂するリスクは？", options: ["貿易の恩恵が失われ皆が貧しくなりうる", "全員が豊かになる", "影響はない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0723-4",
+        title: "The Business Behind Summer Festivals",
+        level: "★★☆",
+        genre: "日本",
+        text: "Summer in Japan means festivals. Across the country, towns and cities hold matsuri — lively events with food stalls, music, dancing, and fireworks that light up the night sky. These festivals are beloved traditions, but they are also an important part of local economies, and keeping them alive has become a real challenge and opportunity.\nA festival brings money into a community. Visitors travel from other areas, filling hotels, restaurants, and shops. Local farmers and makers sell food and crafts. For a small town, a single famous festival can be one of the biggest economic events of the year, supporting jobs long after the fireworks fade.\nBut festivals face difficulties. Many rural towns are shrinking and aging, leaving fewer young people to carry heavy floats, perform dances, or organize the events. Rising costs and, increasingly, dangerous summer heat add further pressure. Some traditional festivals have had to shorten their schedules, change their timing, or even stop altogether.\nCommunities are responding with creativity. Some invite volunteers and tourists to take part in roles once filled only by locals. Others use social media to attract visitors from across the country and abroad. A few have adjusted their events to cope with the heat, adding shade, water stations, and cooler evening hours.\nThe deeper story is about how tradition and economics depend on each other. A festival is a cultural treasure, but it survives partly because it brings real economic value. Protecting these events means finding ways to keep them meaningful and affordable in a changing society — a small but telling example of how communities everywhere work to carry the past into the future.",
+        summaryJa: "日本の夏は祭りの季節。全国の町で屋台・音楽・踊り・花火の「祭り」が開かれる。愛される伝統であると同時に地域経済の重要な柱でもあり、その存続が課題であり機会でもある。祭りは他地域からの来訪者でホテル・飲食・商店を潤し、地元の農家や作り手が食や工芸を売る。小さな町では一つの有名な祭りが年最大級の経済イベントになる。だが過疎・高齢化で担い手が減り、コスト増や危険な猛暑も重なり、日程短縮や時期変更、中止に追い込まれる祭りもある。地域はボランティアや観光客の参加、SNSでの集客、日陰・給水・夕方開催など暑さ対策で応える。伝統と経済は相互に支え合う——文化的宝である祭りが実際の経済価値ゆえに生き残る面もある。過去を未来へ運ぶ地域の営みの好例だ。",
+        quiz: [
+          { q: "祭りが地域にもたらすものは？", options: ["来訪者による経済効果と雇用", "騒音だけ", "経済的損失"], answer: 0 },
+          { q: "祭りが直面する困難に含まれないものは？", options: ["過疎・高齢化で担い手不足", "コスト増や猛暑", "観光客が多すぎて中止"], answer: 2 },
+          { q: "本文が示す深い物語は？", options: ["伝統と経済は相互に支え合う", "祭りは無意味", "経済だけが重要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0723-5",
+        title: "The Science of Building Better Habits",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Why is it so hard to start exercising, yet so easy to check your phone a hundred times a day? The answer lies in how the brain forms habits — automatic behaviors that we repeat with little conscious thought. Understanding the science of habits can help anyone, including language learners, build routines that actually stick.\nScientists describe a habit as a loop with three parts: a cue, a routine, and a reward. The cue is a trigger — a time, a place, or a feeling. The routine is the behavior itself. The reward is the good feeling that follows, which teaches the brain to repeat the loop. Checking your phone is a strong habit because the cue (boredom) is constant and the reward (something new) comes instantly. Exercise is weaker because the reward often comes only later.\nThis science offers practical tools. To build a good habit, make the cue obvious and the reward quick. Attach a new habit to an existing one — for example, 'after I pour my morning coffee, I will study English for ten minutes.' Start small, because tiny habits are easy to repeat, and repetition is what makes a behavior automatic. To break a bad habit, remove the cue or replace the routine with a better one that gives a similar reward.\nThe most important lesson is about consistency over intensity. A short activity done every day beats a long one done rarely, because habits are built by repetition, not by occasional bursts of effort. For learning a language, this is especially true: ten minutes of daily practice, tied to a reliable cue, will beat a three-hour session once a month.\nHabits are the quiet architecture of our lives. By understanding how they form, we can design routines that carry us, almost effortlessly, toward the things we want to achieve.",
+        summaryJa: "運動を始めるのは難しいのに、スマホは1日に何百回も見てしまうのはなぜか。答えは脳の習慣の仕組みにある。習慣は「きっかけ→行動→報酬」のループで、報酬が良い感覚を与えるとループが繰り返される。スマホは退屈というきっかけが常にあり報酬(新しい情報)が即座に来るため強い習慣に、運動は報酬が後回しなので弱い。良い習慣を作るにはきっかけを明確に・報酬を早くし、既存の習慣に紐づけ(「朝コーヒーを注いだら英語を10分」)、小さく始めて反復する。悪い習慣はきっかけを除くか、似た報酬の良い行動に置き換える。最重要は「強度より継続」——習慣は反復で作られるため、毎日10分が月1回3時間に勝る。語学は特にそうだ。習慣は人生の静かな設計図で、仕組みを理解すれば目標へ楽に運んでくれる。",
+        quiz: [
+          { q: "習慣の3つの部分は？", options: ["きっかけ・行動・報酬", "朝・昼・夜", "見る・聞く・話す"], answer: 0 },
+          { q: "良い習慣を作るコツに含まれないものは？", options: ["既存の習慣に紐づける", "小さく始めて反復する", "報酬をなくす"], answer: 2 },
+          { q: "本文の最重要の教訓は？", options: ["強度より継続——毎日10分が月1回3時間に勝る", "たまに長時間やればよい", "習慣は変えられない"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-22",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "体が熱を逃がす主な方法は？", options: ["皮膚への血流増加と汗の蒸発", "呼吸を止めること", "食事を増やすこと"], answer: 0 },
           { q: "湿度の高い日が暑く感じる理由は？", options: ["汗が蒸発しにくく冷却が効かないから", "気温が必ず高いから", "風が強いから"], answer: 0 },
           { q: "暑さ対策として挙げられていないものは？", options: ["こまめな水分補給", "ゆったりした明色の服", "厚手の黒い服を着る"], answer: 2 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-16",
-    passages: [
-      {
-        id: "d0716-1",
-        title: "When Oil Routes Become a Business Risk",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Tension in the Middle East has once again put a global spotlight on a narrow strip of water: the Strait of Hormuz. Reports say Iran has threatened to block oil-exporting routes in the region in response to a maritime blockade of its ports. For businesses far from the Gulf, the news is a reminder of how a single geographic chokepoint can shake the world economy.\nThe Strait of Hormuz is one of the most important passages on Earth. A large share of the world's oil and natural gas is shipped through this narrow channel between the Gulf and the open sea. If ships cannot pass safely, energy supplies tighten and prices can jump within days — even for countries thousands of kilometers away.\nWhy does this matter to companies with no connection to oil? Because energy is an input to almost everything. Higher oil prices raise the cost of shipping goods, running factories, and heating buildings. A café, a software firm, and a car maker all feel the effect, directly or indirectly, when energy becomes more expensive.\nSmart businesses prepare for such shocks rather than react in panic. They diversify suppliers, sign flexible contracts, and keep some financial cushion for sudden cost increases. Consultants call this scenario planning: asking 'what would we do if energy prices doubled next month?' The companies that have already answered that question sleep better when headlines about distant straits appear.",
-        summaryJa: "中東の緊張が再び「ホルムズ海峡」という狭い水路に世界の注目を集めている。イランが港湾封鎖への対抗として地域の石油輸出路の封鎖を警告したと報じられた。世界の石油・天然ガスの多くがこの海峡を通るため、通航が妨げられると数日で供給が逼迫し価格が急騰しうる。エネルギーはほぼ全産業の投入要素で、輸送・工場・暖房のコストを押し上げる。賢明な企業は供給先の分散や柔軟な契約、資金の余裕でショックに備える——「来月エネルギー価格が倍になったら?」に答えておくシナリオプランニングが効く。",
-        quiz: [
-          { q: "ホルムズ海峡が重要な理由は？", options: ["世界の石油・天然ガスの多くが通る狭い水路だから", "観光名所だから", "漁業が盛んだから"], answer: 0 },
-          { q: "石油と無関係の企業にも影響する理由は？", options: ["エネルギーがほぼ全産業の投入要素だから", "全社が石油を売っているから", "影響しない"], answer: 0 },
-          { q: "本文が勧める備えは？", options: ["供給先の分散や柔軟な契約などシナリオプランニング", "何もしないこと", "価格急騰を待つこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0716-2",
-        title: "NASA Bets on Small Companies for Big Missions",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Sending humans back to the Moon and eventually to Mars is one of the great challenges of our age, and NASA has decided it cannot solve every problem alone. The agency has selected dozens of commercial technology projects — reportedly 41 of them — that could help overcome critical difficulties in future deep-space missions.\nThe list of problems is long and surprisingly practical. How do you keep astronauts healthy during months in space? How do you store fuel that would normally boil away? How do you make oxygen, water, or building materials from the resources found on the Moon itself, rather than carrying everything from Earth? Each of these questions is being handed, at least in part, to private companies with fresh ideas.\nThis approach marks a big change in how space exploration works. For most of history, a single government agency designed and built nearly everything. Today, NASA increasingly acts like a customer, setting goals and buying solutions from a competitive market of companies large and small. The competition drives down costs and speeds up innovation.\nThe benefits may reach far beyond space. Technologies invented to recycle water on the Moon, generate power in harsh conditions, or keep humans healthy in isolation often find uses back on Earth. Space has always been an engine of everyday innovation, and by inviting many companies to contribute, NASA is widening the pipeline of ideas that could shape life both off and on our planet.",
-        summaryJa: "月・火星探査という難題をNASAは単独では解けないと判断し、41件の民間技術プロジェクトを選定した。長期滞在中の健康維持、蒸発しやすい燃料の貯蔵、月の資源から酸素・水・建材を作る技術など、実務的な課題を民間に委ねる。政府機関がほぼ全てを設計した時代から、NASAが「顧客」として目標を示し競争市場から解を買う方式への転換で、コスト低減と技術革新の加速につながる。宇宙向け技術は地上にも波及し、日常のイノベーションの源になる。",
-        quiz: [
-          { q: "NASAが民間に委ねようとしている課題に含まれないものは？", options: ["長期滞在中の健康維持", "月の資源から酸素や水を作る", "地球の天気を変える"], answer: 2 },
-          { q: "宇宙探査の進め方の変化とは？", options: ["NASAが顧客として目標を示し競争市場から解を買う", "政府がすべてを独占する", "探査をやめる"], answer: 0 },
-          { q: "宇宙向け技術の副次的な利点は？", options: ["地上の日常にも波及する", "宇宙でしか使えない", "利点はない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0716-3",
-        title: "Bookstores and the Freedom to Read",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "A bookstore may seem like a quiet, ordinary place, but around the world it can be a symbol of something much larger: the freedom to read and share ideas. Reports describe how Hong Kong, once celebrated for its lively and open publishing scene, has become a difficult environment for independent bookstores after major political changes.\nIndependent bookshops have always played a special role in society. Unlike large chains that stock mainly bestsellers, small stores often carry unusual, challenging, or local titles. They host talks, support new writers, and give communities a place to encounter ideas they might not find elsewhere. When such stores struggle or close, a society loses more than a business — it loses part of its public conversation.\nThe pressures they face vary from place to place. In some cities, the challenge is economic: online shopping and e-books have made it hard for small stores to survive. In others, the pressure is political, as certain books become risky to sell and owners must weigh every title against possible trouble. Often the two forces combine.\nThe wider theme is the value of open access to information. Healthy societies depend on people being able to read widely, disagree freely, and question those in power. A bookstore is a small building, but the freedom it represents is not small at all. Watching how bookstores fare in different places tells us something important about the health of the societies around them.",
-        summaryJa: "書店は静かな場所に見えて、「読み、考えを共有する自由」の象徴でもある。かつて自由な出版文化で知られた香港が、政治的変化の後、独立系書店にとって厳しい環境になったと報じられる。独立書店は変わった本や地元の本を扱い、講演や新人支援を通じて社会に「考えに出会う場」を提供する。経済的圧力(通販・電子書籍)と政治的圧力が重なることも。健全な社会は人々が広く読み、自由に異論を述べ、権力に問える環境に支えられており、書店の盛衰はその社会の健康状態を映す。",
-        quiz: [
-          { q: "本文が書店を何の象徴として描いているか？", options: ["読み、考えを共有する自由", "経済成長", "観光"], answer: 0 },
-          { q: "独立書店が果たす役割は？", options: ["変わった本や地元の本を扱い、考えに出会う場を提供する", "ベストセラーだけを売る", "本を高く売る"], answer: 0 },
-          { q: "書店が直面する圧力として挙げられているのは？", options: ["経済的圧力と政治的圧力の両方", "天候だけ", "圧力はない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0716-4",
-        title: "Japan's Startups Look Beyond Tokyo",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan's startup scene is growing more diverse, and not only in Tokyo. Reports describe a market that is strong across several fields — artificial intelligence, robotics, mobility, space, biotech, and manufacturing technology — supported by government backing, demand from big companies, and a rise of regional hubs beyond the capital.\nEach of these fields plays to a Japanese strength. In robotics and manufacturing, the country has deep engineering experience. In mobility and space, established giants provide knowledge and partners for young companies. In biotech, universities and hospitals offer research and testing grounds. Startups do not grow in isolation; they thrive where skills, money, and customers already exist, and Japan has these ingredients in many regions.\nThe role of large enterprises is especially important here. In some countries, startups mainly sell to consumers. In Japan, many of the most promising young firms sell to other businesses — providing AI tools, automation, or specialized services to established manufacturers and service companies. This 'business-to-business' demand gives startups real customers and steady revenue from the start.\nChallenges remain. Japan has fewer large venture investors than the United States, and a traditional preference for stable careers can make it hard to attract risk-takers. But the direction is encouraging. A country once known mainly for its giant corporations is building a new layer of smaller, faster companies — and spreading them across the whole nation, not just one city.",
-        summaryJa: "日本のスタートアップはAI・ロボティクス・モビリティ・宇宙・バイオ・製造技術など多分野で成長し、東京以外の地方拠点も台頭している。政府支援、大企業の需要、既存の技術・資金・顧客の存在が追い風。特に、消費者向けよりも大企業向け(BtoB)にAIや自動化を提供する有望企業が多く、初期から安定収益を得やすい。大型VCの少なさや安定志向という課題は残るが、巨大企業で知られた国が、より小さく速い企業層を全国に築きつつある。",
-        quiz: [
-          { q: "日本のスタートアップが強い分野に含まれないものは？", options: ["AI・ロボティクス", "宇宙・バイオ", "農作物の輸入"], answer: 2 },
-          { q: "日本のスタートアップの特徴として挙げられているのは？", options: ["大企業向け(BtoB)の需要で初期から安定収益を得やすい", "消費者向けのみ", "海外だけで営業する"], answer: 0 },
-          { q: "残る課題は？", options: ["大型VCの少なさや安定志向", "技術者がいないこと", "顧客が全くいないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0716-5",
-        title: "The Hidden Gatekeeper Inside Your Neurons",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Inside every brain cell is a tiny internal skeleton, a web of fine fibers that scientists long assumed did just one simple job: holding the cell in shape. New research suggests this structure is far more clever than that. It appears to act as a gatekeeper, controlling what a neuron absorbs from its surroundings and precisely when it does so.\nNeurons are constantly taking in molecules — nutrients, signals, and chemical messages — from the space around them. The timing and amount of this uptake matter enormously, because they shape how brain cells communicate and store information. The new work shows that the cell's internal skeleton actively manages this process, opening and closing the door rather than simply standing still like scaffolding.\nWhy is this discovery important? Because many brain disorders involve problems with how neurons handle molecules and signals. If a cell absorbs too much, too little, or at the wrong moment, its function can break down. Understanding the gatekeeper that controls this flow could open new directions for studying diseases of the brain and, eventually, for designing treatments.\nThe finding also carries a lesson that appears again and again in biology: structures we assume are simple often turn out to do several jobs at once. A framework that seems to just provide support may quietly be making important decisions. As tools for observing living cells improve, scientists keep discovering that even the smallest parts of us are busier — and smarter — than we thought.",
-        summaryJa: "神経細胞の中にある微小な「骨格(細い繊維の網)」は、これまで細胞の形を保つだけと考えられてきたが、新研究は、それが「門番」として細胞が周囲から何をいつ取り込むかを能動的に制御していることを示した。神経細胞は栄養や信号分子を絶えず取り込み、その量とタイミングが情報伝達と記憶を左右する。多くの脳疾患はこの取り込みの異常と関わるため、この門番の理解は病気研究や治療設計の新たな方向を開く。「単純だと思われた構造が実は複数の役割を担う」という生物学の教訓も示す。",
-        quiz: [
-          { q: "神経細胞内の「骨格」について新研究が示したことは？", options: ["取り込む物質と時機を制御する門番の役割を持つ", "何もしていない", "細胞を破壊する"], answer: 0 },
-          { q: "取り込みの量とタイミングが重要な理由は？", options: ["情報伝達と記憶を左右するから", "細胞の色を決めるから", "無関係だから"], answer: 0 },
-          { q: "本文が示す生物学の教訓は？", options: ["単純に見える構造が実は複数の役割を担う", "構造はすべて単純", "細胞は研究できない"], answer: 0 }
         ]
       }
     ]
