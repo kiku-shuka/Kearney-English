@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-24",
+    passages: [
+      {
+        id: "d0724-1",
+        title: "Two Sides of a Changing Economy",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Japan's economy is sending two very different signals at once, and reading them together tells an important story. On one hand, this year's wage talks produced a third straight year of pay increases above five percent — a strong sign after decades of nearly flat wages. On the other hand, business bankruptcies in the first half of the year reached their highest level since 2022, partly because of a weak yen that raised the cost of imported goods.\nHow can both be true? Because an economy is never a single number; it is millions of businesses and workers in different situations. Large companies with strong profits can afford generous raises, and workers in demand are winning higher pay. Meanwhile, small firms with thin margins are squeezed by rising costs for imported materials, energy, and parts. The same weak yen that helps exporters can hurt companies that must buy from abroad.\nThis split matters for anyone trying to understand the economy. A cheerful headline about rising wages and a worrying headline about rising bankruptcies are not contradictions; they are two parts of the same complex picture. Averages hide these differences, so wise observers look beneath them.\nThe deeper lesson applies to business and life. Big changes rarely help everyone equally. A shift that lifts one group — say, workers winning raises or exporters gaining from a weak yen — may pressure another at the same time. Understanding who benefits and who struggles, rather than relying on a single headline number, is the beginning of real economic insight.",
+        summaryJa: "日本経済は同時に二つの異なる信号を発している。今年の賃上げは3年連続で5%超と、長年ほぼ横ばいだった後の力強い兆し。一方、上半期の企業倒産は2022年以来最多で、輸入品コストを押し上げる円安が一因だ。両立するのは、経済が単一の数字でなく多様な状況の企業・労働者の集まりだから。好業績の大企業は手厚い賃上げができ、需要の高い人材は高賃金を得る一方、利幅の薄い中小は輸入材料・エネルギー・部品の高騰に苦しむ。輸出企業を助ける円安が、海外調達の企業を痛める。賃上げの明るい見出しと倒産増の暗い見出しは矛盾でなく同じ複雑な絵の二面だ。平均は差を隠す。大きな変化が皆を等しく助けることは稀で、誰が得て誰が苦しむかを見ることが経済洞察の出発点だ。",
+        quiz: [
+          { q: "日本経済が同時に発している二つの信号は？", options: ["賃上げの強さと倒産の増加", "人口増と物価下落", "輸出減と輸入減"], answer: 0 },
+          { q: "円安が持つ二面性とは？", options: ["輸出企業を助けるが、海外調達の企業を痛める", "全員を助ける", "誰も影響を受けない"], answer: 0 },
+          { q: "本文が勧める経済の見方は？", options: ["単一の見出し数字でなく、誰が得て誰が苦しむかを見る", "平均だけを見る", "見出しを信じる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0724-2",
+        title: "Biotech Against an Aging Society",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Japan is one of the oldest societies in the world, with a large share of its population over sixty-five. This creates enormous pressure on healthcare, but it is also driving a wave of innovation. Japanese biotech companies are becoming pioneers in two fast-growing fields: preventative medicine and precision cancer treatment.\nPreventative medicine aims to stop illness before it starts, rather than only treating people once they are sick. Using genetic testing, regular monitoring, and analysis of huge amounts of health data, doctors can identify risks early — sometimes years before symptoms appear — and help patients change their habits or begin treatment sooner. For an aging population, keeping people healthy longer is far better, and cheaper, than treating serious disease later.\nPrecision oncology is another frontier. Traditional cancer treatment often uses the same drugs for everyone with a given cancer. Precision medicine instead studies the specific genetic features of each patient's tumor, then chooses the treatment most likely to work for that individual. This can improve results and reduce harmful side effects.\nWhy is Japan pushing so hard in these fields? Necessity is part of the answer. A country facing the challenges of aging must find better, more efficient ways to keep its people healthy. That pressure turns a social problem into a driver of scientific progress.\nThe wider lesson is encouraging. Challenges that seem purely negative — like an aging population — can also spark innovation that benefits the whole world. Solutions developed in Japan to care for its older citizens may one day help aging societies everywhere, turning a national difficulty into a global contribution.",
+        summaryJa: "日本は世界有数の高齢社会で、医療に大きな負担がかかる一方、それが技術革新を促している。日本のバイオ企業は、予防医療と精密がん治療という成長分野の先駆けになりつつある。予防医療は病気になってから治すのでなく発症前に防ぐことを目指し、遺伝子検査・定期モニタリング・膨大な健康データ分析で症状の何年も前にリスクを見つけ、習慣改善や早期治療につなげる。高齢社会では健康を長く保つ方が重症を後で治すより良く安い。精密腫瘍学は、患者ごとの腫瘍の遺伝的特徴を調べ最も効きそうな治療を選ぶことで効果を高め副作用を減らす。日本が力を入れるのは必要性ゆえで、高齢化という社会課題が科学の進歩を駆動する。純粋に否定的に見える課題が世界に役立つ革新を生みうる——高齢者ケアの解が、いつか世界の高齢社会を助けるかもしれない。",
+        quiz: [
+          { q: "予防医療の目的は？", options: ["病気を発症前に防ぐ", "病気になってから治すだけ", "薬を売ること"], answer: 0 },
+          { q: "精密腫瘍学(precision oncology)の特徴は？", options: ["患者ごとの腫瘍の特徴に合わせて治療を選ぶ", "全員に同じ薬を使う", "治療をしない"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["否定的に見える課題が世界に役立つ革新を生みうる", "高齢化に解決策はない", "革新は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0724-3",
+        title: "When a Currency Loses Value",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Money seems fixed, but the value of a currency constantly changes against others. When a country's currency 'weakens,' each unit buys less of foreign money — and that simple shift ripples through the whole economy in ways that help some people and hurt others.\nConsider a weak yen, which has affected Japan in recent years. When the yen falls against the US dollar, Japanese exporters benefit: their goods become cheaper for foreign buyers, boosting sales abroad. Tourists visiting Japan also gain, because their foreign money stretches further, which is one reason visitor numbers have surged.\nBut the same weak currency raises the cost of everything a country imports. Japan buys much of its energy, food, and raw materials from abroad, and a weak yen makes all of these more expensive. Families pay more for fuel and groceries, and companies that rely on imported parts see their costs climb. For a country that imports a great deal, a falling currency can quietly squeeze household budgets and business profits alike.\nWhy do currencies move? Many forces are involved: differences in interest rates between countries, the strength of each economy, and the decisions of millions of investors. A currency is, in a sense, a constant vote on a country's economic prospects.\nThe broader lesson is that in a connected world, no economy stands alone. The exchange rate — a single number most people rarely think about — links a nation's fortunes to the rest of the world, shaping the price of a tank of gas, a foreign holiday, and a factory's raw materials all at once. Understanding it is a key part of understanding the modern global economy.",
+        summaryJa: "お金は固定に見えて、通貨の価値は他通貨に対し絶えず変わる。通貨が「弱くなる」と1単位で買える外貨が減り、その変化が経済全体に波及し、得する人と損する人を生む。近年の円安では、輸出企業は製品が海外で安くなり売上増、訪日客も外貨が有利で急増した。だが弱い通貨は輸入品すべてを高くする。エネルギー・食料・原材料の多くを輸入する日本では、燃料や食料品が高くなり、輸入部品に頼る企業のコストも上がる。輸入の多い国では通貨安が家計と企業利益を静かに圧迫しうる。通貨が動く要因は各国の金利差・経済の強さ・無数の投資家の判断で、通貨はいわば国の経済見通しへの絶え間ない投票だ。つながった世界で単独の経済はなく、為替という数字がガソリン代・海外旅行・工場の原料の価格を一度に左右する。",
+        quiz: [
+          { q: "通貨が「弱くなる」と何が起きる？", options: ["1単位で買える外貨が減る", "国が豊かになる", "物価が必ず下がる"], answer: 0 },
+          { q: "円安で得をするのは？", options: ["輸出企業と訪日観光客", "輸入に頼る企業", "全員が損"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["つながった世界で単独の経済はなく為替が多くの価格を左右する", "為替は無関係", "通貨は動かない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0724-4",
+        title: "Paying for a Longer Life",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japan is famous for its long life expectancy — its people, on average, live longer than almost anyone else on Earth. This is a great achievement, the result of good healthcare, healthy diets, and safe communities. But a long-living, low-birth-rate society also creates one of the country's biggest challenges: how to support so many older citizens with a shrinking number of working-age people.\nThe math is simple but difficult. Pensions, healthcare, and elderly care are largely paid for by taxes and contributions from people who are working. When the share of retired people grows and the share of workers shrinks, each worker must support more retirees. This puts pressure on government budgets and on younger generations.\nJapan is trying many solutions at once. Some people are working later in life, staying in jobs past the traditional retirement age, which keeps their skills in use and eases the burden. Companies are using robots and automation to do more with fewer workers. The government encourages higher birth rates with support for families, and debates how to fund care fairly across generations. Immigration, long limited, is slowly being reconsidered as another way to add workers.\nNone of these alone is a complete answer. Together, they form a gradual response to a deep, slow-moving challenge.\nThe wider importance is that Japan is a preview for the world. Many countries — in Europe, East Asia, and beyond — are aging too, just a few decades behind. How Japan manages to care for its elderly while keeping its economy healthy will offer lessons, both hopeful and cautionary, for every society that will one day face the same question.",
+        summaryJa: "日本は平均寿命の長さで名高く、良い医療・健康的な食事・安全な地域の成果だ。だが長寿かつ少子の社会は、減り続ける現役世代でどう多くの高齢者を支えるかという大きな課題も生む。年金・医療・介護は主に働く人の税と保険料で賄われ、引退者の割合が増え現役が減ると、一人の労働者がより多くの引退者を支えることになり、財政と若い世代を圧迫する。日本は多くの解を同時に試す——定年後も働き技能を活かす、ロボットと自動化で少人数でこなす、家族支援で出生率を促し世代間の公平な負担を議論、長く限定的だった移民も再考。どれ一つでは完全な答えにならず、合わせて緩やかな対応になる。日本は世界の先取りで、数十年遅れて高齢化する各国に、希望と警告の両方の教訓を与える。",
+        quiz: [
+          { q: "長寿・少子社会の課題は？", options: ["減る現役世代で多くの高齢者をどう支えるか", "人が多すぎること", "医療が悪いこと"], answer: 0 },
+          { q: "日本が試している解決策に含まれないものは？", options: ["定年後も働く・自動化・家族支援", "移民の再考", "医療の廃止"], answer: 2 },
+          { q: "日本が「世界の先取り」とされる理由は？", options: ["多くの国が数十年遅れて高齢化するから", "日本だけの問題だから", "高齢化は起きないから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0724-5",
+        title: "Why We Sleep",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "We spend about a third of our lives asleep, yet for centuries sleep was one of the great mysteries of science. Why would nature make animals spend so much time unconscious and vulnerable? Modern research has revealed that sleep is not wasted time at all — it is when some of the body's and brain's most important work gets done.\nDuring sleep, the brain is remarkably busy. It sorts through the day's experiences, deciding what to keep and what to discard, and moves important memories into long-term storage. This is why a good night's sleep after studying helps you remember more the next day — the brain literally strengthens what you learned while you rested. Sleep also appears to clear away waste products that build up in the brain during waking hours, a kind of nightly cleaning.\nThe body benefits too. Sleep is when muscles repair, growth and healing hormones are released, and the immune system strengthens its defenses. People who sleep too little are more likely to get sick, gain weight, and struggle to concentrate.\nModern life makes good sleep harder. Bright screens, late-night work, and constant stimulation can disturb the body's natural rhythm. Scientists recommend simple habits: keep a regular schedule, avoid screens and heavy meals before bed, and treat sleep as essential, not optional.\nFor learners of any subject, including language, sleep is a secret weapon. Study in the evening, sleep well, and your brain will keep working on what you learned while you rest. Far from being lost time, sleep is one of the most productive things we do — a reminder that sometimes the best way to move forward is to stop, rest, and let the quiet work of the night do its part.",
+        summaryJa: "人生の約3分の1を眠って過ごすが、睡眠は長く科学の大きな謎だった。なぜ動物は無防備に長時間眠るのか。現代研究は、睡眠が無駄でなく、体と脳の最も重要な作業が行われる時間だと明かした。睡眠中、脳は一日の経験を選別し重要な記憶を長期保存に移す——学習後によく眠ると翌日多く覚えているのは、脳が休息中に学びを強化するからだ。覚醒中にたまる老廃物を除く「夜間清掃」も行われる。体では筋肉の修復、成長・治癒ホルモンの分泌、免疫の強化が起きる。睡眠不足の人は病気・体重増・集中困難になりやすい。画面や夜更かしが良い睡眠を妨げるため、規則的な時間・就寝前の画面や大食を避ける・睡眠を必須と扱う習慣が勧められる。語学を含むあらゆる学習者にとって睡眠は秘密兵器——夜、脳は学びを働かせ続ける。時に前進の最善策は、止まって休むことだ。",
+        quiz: [
+          { q: "睡眠中に脳が行うことは？", options: ["記憶の選別・強化と老廃物の除去", "何もしない", "筋肉を動かす"], answer: 0 },
+          { q: "睡眠不足の人に起きやすいことは？", options: ["病気・体重増・集中困難", "記憶力の向上", "免疫の強化"], answer: 0 },
+          { q: "学習者にとっての睡眠の意味は？", options: ["夜も脳が学びを働かせ続ける秘密兵器", "時間の無駄", "学習と無関係"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-23",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "会社が16年間も全面刷新を待つ理由は？", options: ["刷新は高コストで、将来のニーズを読む必要があるから", "法律で禁止されているから", "誰も車を買わないから"], answer: 0 },
           { q: "新型ミニバンが反映する現代のニーズに含まれないものは？", options: ["先進安全システム", "電動・ハイブリッド化", "馬で引く仕組み"], answer: 2 },
           { q: "本文の広い教訓は？", options: ["製品は人々の暮らしを観察して新世代向けに更新すべき", "製品は変えない方がよい", "デザインは重要でない"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-17",
-    passages: [
-      {
-        id: "d0717-1",
-        title: "A Home Electronics Giant Reinvents Itself",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Panasonic is a name that once filled living rooms around the world with televisions, cameras, and kitchen appliances. Today, reports say the company is turning its energy toward a very different market: data centers, the giant warehouses of computers that power the internet and artificial intelligence.\nWhy would a maker of home electronics chase such a change? Because markets shift, and companies that do not shift with them fade away. The market for televisions and home appliances is mature and crowded, with thin profits and tough competition from lower-cost rivals. Data centers, by contrast, are booming. The rise of AI has created enormous demand for computing power, and every data center needs reliable electricity, cooling, and energy storage — areas where Panasonic's long experience in batteries and power systems can shine.\nThis kind of reinvention is a recurring theme in business history. Great companies often survive not by doing the same thing forever, but by carrying their core skills into new markets. A firm that once made batteries for laptops can make batteries for cars or data centers. The product changes; the underlying strength remains.\nThe move is not without risk. New markets bring new competitors and new demands. But standing still is often the greater danger. For any business, the story is a useful reminder: your industry may change faster than you expect, and the ability to redeploy your strengths into fresh opportunities can matter more than defending an old position.",
-        summaryJa: "かつて世界の家庭をテレビや家電で満たしたパナソニックが、AIとインターネットを支える「データセンター」市場へ軸足を移していると報じられる。成熟し利益の薄い家電市場に対し、AIで急拡大するデータセンターは電力・冷却・蓄電を必要とし、同社の電池・電源技術が活きる。優れた企業は同じことを続けるのではなく、中核の強みを新市場へ持ち込んで生き残る——製品は変わっても土台の強みは残る。業界は予想より速く変わり、強みを再配置する力が古い地位の防衛より重要になりうる。",
-        quiz: [
-          { q: "パナソニックが力を入れ始めた市場は？", options: ["データセンター", "映画製作", "観光業"], answer: 0 },
-          { q: "データセンター市場が有望な理由は？", options: ["AIで computing の需要が急拡大しているから", "家電より簡単だから", "競争がないから"], answer: 0 },
-          { q: "本文の教訓は？", options: ["中核の強みを新市場へ再配置する力が重要", "同じ製品を作り続けるべき", "変化は避けるべき"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0717-2",
-        title: "Building Detectors to Read the Universe",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Some of the biggest secrets of the universe are hidden in the faintest of signals — particles and waves so weak that our normal instruments cannot notice them. Scientists have taken an important step toward building a new generation of quantum detectors, devices sensitive enough to catch these whispers from the cosmos.\nWhat makes quantum detectors special is their extraordinary sensitivity. By using the strange rules of quantum physics, they can measure incredibly small amounts of energy or tiny changes in a field. This precision could help answer some of physics' deepest questions: What is dark matter, the invisible substance that makes up most of the universe's mass? Are there particles we have never detected? Such questions have puzzled scientists for decades because the signals involved are almost impossibly faint.\nThe technology is difficult to build. Quantum states are delicate and easily destroyed by heat, vibration, or stray signals, so these detectors often must be cooled to near absolute zero and shielded from the outside world. Each engineering advance that makes them more stable brings real experiments closer.\nThough this research aims at the cosmos, the tools it produces rarely stay in the laboratory. Ultra-sensitive detectors developed for physics have a way of turning up later in medical scanners, navigation systems, and security devices. Curiosity about the universe, again and again, ends up improving technology here on Earth.",
-        summaryJa: "宇宙の最大の謎は、通常の機器では捉えられないほど微弱な信号に潜む。科学者は、その「宇宙のささやき」を捉えられる次世代の量子検出器の構築へ重要な一歩を踏み出した。量子物理の性質を使い極めて微小なエネルギーや場の変化を測れるため、暗黒物質や未知の粒子といった難問に迫れる。量子状態は熱や振動に弱く、絶対零度近くまで冷却・遮蔽する必要がある。宇宙を狙う技術だが、超高感度検出器は後に医療スキャナや航法・セキュリティにも応用され、宇宙への好奇心が地上の技術を高めてきた。",
-        quiz: [
-          { q: "量子検出器の特別な点は？", options: ["極めて微小なエネルギーや場の変化を測れる高感度", "安く作れること", "冷却が不要なこと"], answer: 0 },
-          { q: "この検出器で迫れる難問は？", options: ["暗黒物質や未知の粒子", "天気予報", "株価の予測"], answer: 0 },
-          { q: "宇宙向け技術の副次効果は？", options: ["医療・航法・セキュリティにも応用される", "宇宙でしか使えない", "何も生まない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0717-3",
-        title: "The World's Quiet Shift to Electric Two-Wheelers",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "When people picture the electric vehicle revolution, they usually imagine cars. But in much of the world, the most important shift is happening on two wheels. A Japanese motorcycle maker is betting on the continued growth of electric scooters and motorcycles in cities, and the reasoning reveals a lot about how global transport is changing.\nIn many countries — across Southeast Asia, India, Africa, and beyond — motorcycles and scooters, not cars, are the main way people get around. They are cheap, easy to park, and perfect for crowded streets. Because there are so many of them, switching these vehicles to electric power could cut air pollution and fuel use dramatically, perhaps even more than switching cars in wealthy nations.\nElectric two-wheelers have real advantages. They are simpler and cheaper than electric cars, their smaller batteries charge quickly, and in some cities riders can swap an empty battery for a full one in seconds at special stations. For crowded, polluted cities, they offer a fast path to cleaner air.\nChallenges remain: building charging or battery-swap networks, keeping prices low enough for ordinary buyers, and ensuring a steady supply of batteries. But the direction is clear. The electric future may arrive first not in the expensive cars of rich countries, but in the millions of small, practical two-wheelers that move the cities of the developing world.",
-        summaryJa: "EV革命というと自動車を思い浮かべがちだが、世界の多くの地域では変化は「二輪」で起きている。日本のバイクメーカーが都市の電動スクーター・バイクの成長に賭ける。東南アジアやインド、アフリカでは二輪が主要な移動手段で、数が多いぶん電動化の汚染・燃料削減効果は大きい。電動二輪は電動車より簡単・安価で、小さい電池は素早く充電でき、数秒で電池交換できる都市もある。充電網や価格、電池供給の課題は残るが、電動化の未来はまず途上国都市の実用的な二輪から訪れるかもしれない。",
-        quiz: [
-          { q: "世界の多くの地域でEV化が進む乗り物は？", options: ["スクーターやバイクなどの二輪", "大型トラック", "飛行機"], answer: 0 },
-          { q: "二輪の電動化の効果が大きい理由は？", options: ["数が多く、汚染・燃料削減の効果が大きいから", "高価だから", "誰も乗らないから"], answer: 0 },
-          { q: "電動二輪の利点として挙げられていないものは？", options: ["電動車より簡単・安価", "小さい電池が素早く充電できる", "空を飛べる"], answer: 2 }
-        ]
-      },
-      {
-        id: "d0717-4",
-        title: "Cool Biz: How Japan Fights Summer Heat at Work",
-        level: "★★☆",
-        genre: "日本",
-        text: "Every summer, Japanese offices run an experiment that mixes environmental policy, business culture, and simple common sense. It is called 'Cool Biz,' a campaign that encourages workers to dress lightly and set air conditioners no lower than 28 degrees Celsius, in order to save energy during the hottest months.\nThe idea began years ago as a response to energy shortages, but it has become a normal part of the working year. During Cool Biz season, the strict business suit relaxes. Men leave their jackets and ties at home, lighter shirts are acceptable, and the whole dress code becomes more comfortable. What was once considered too casual for a serious office is now official policy.\nThe benefits go beyond saving electricity. Comfortable workers are often more productive, and lighter clothing reduces the risk of heat-related illness. The campaign also sends a public message: saving energy is a shared responsibility, and small daily choices — a temperature setting, a change of shirt — add up across millions of offices.\nCool Biz is a good example of how culture and policy can work together. A government suggestion alone rarely changes behavior, and neither does personal preference alone. But when an idea fits both the climate and the practical needs of workers, it can quietly reshape a whole country's habits. For visitors and new employees, understanding Cool Biz is a small but useful window into how Japan balances tradition, comfort, and shared goals.",
-        summaryJa: "日本の夏の職場では「クールビズ」が定着している。軽装を促し冷房を28度以上に設定して猛暑期の省エネを図る取り組みで、元は電力不足への対応から始まり今や年中行事に。上着やネクタイを外す軽装が公式方針となり、省エネだけでなく生産性向上や熱中症予防にもつながる。政府の呼びかけだけでも個人の好みだけでも行動は変わらないが、気候と働く人の実際的ニーズの双方に合う考えは国全体の習慣を静かに変える。クールビズは伝統・快適さ・共通目標を両立させる日本の一例。",
-        quiz: [
-          { q: "クールビズの内容は？", options: ["軽装を促し冷房を28度以上に設定して省エネする", "冬に暖房を強くする", "残業を増やす"], answer: 0 },
-          { q: "クールビズの効果として挙げられていないものは？", options: ["省エネ", "生産性向上や熱中症予防", "売上の倍増"], answer: 2 },
-          { q: "本文が示す教訓は？", options: ["気候と働く人のニーズに合う考えは国の習慣を変える", "政府の命令だけで十分", "習慣は変えられない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0717-5",
-        title: "The Science of Staying Cool",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "As summers grow hotter, understanding how the human body handles heat is more useful than ever. Your body is a remarkable temperature-control machine, working constantly to keep its core near 37 degrees Celsius. When you get too hot, it has two main tools: it sends more blood to the skin to release heat, and it produces sweat, which cools you as it evaporates.\nThis system is powerful but has limits. Sweating only cools you if the sweat can evaporate, which is why humid days feel so much worse than dry ones — the air is already full of moisture, so sweat stays on the skin and does little good. Heavy activity, poor hydration, and high humidity can overwhelm the body's cooling, leading to heat exhaustion or, in serious cases, heatstroke.\nScience points to simple, effective habits. Drinking water regularly keeps sweat production going. Loose, light-colored clothing lets air move and reflects sunlight. Resting during the hottest hours reduces the heat your body must fight. And a fan or air conditioner helps sweat evaporate and moves warm air away.\nInterestingly, humans are among the best natural coolers in the animal kingdom. Our ability to sweat across nearly the whole body let our ancestors stay active in the heat when other animals had to rest. But that ancient advantage still needs support. Working with your body's cooling system, rather than against it, is the smartest way to stay safe and comfortable through a hot summer.",
-        summaryJa: "夏が暑くなる中、体が熱をどう扱うかの理解が役立つ。人体は核心温を約37度に保つ精巧な装置で、暑いと皮膚に血流を送り、汗の蒸発で冷やす。だが汗は蒸発してこそ冷え、湿度の高い日は汗が残り効きにくい。激しい活動・水分不足・高湿度は冷却を上回り熱中症を招く。こまめな水分補給、ゆったりした明色の服、暑い時間帯の休息、扇風機やエアコンが有効。全身で汗をかけるヒトは動物界でも屈指の「冷却上手」だが、その仕組みに逆らわず協力することが安全で快適な夏の鍵。",
-        quiz: [
-          { q: "体が熱を逃がす主な方法は？", options: ["皮膚への血流増加と汗の蒸発", "呼吸を止めること", "食事を増やすこと"], answer: 0 },
-          { q: "湿度の高い日が暑く感じる理由は？", options: ["汗が蒸発しにくく冷却が効かないから", "気温が必ず高いから", "風が強いから"], answer: 0 },
-          { q: "暑さ対策として挙げられていないものは？", options: ["こまめな水分補給", "ゆったりした明色の服", "厚手の黒い服を着る"], answer: 2 }
         ]
       }
     ]
