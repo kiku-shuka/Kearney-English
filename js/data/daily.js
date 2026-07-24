@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-25",
+    passages: [
+      {
+        id: "d0725-1",
+        title: "What Makes a Region Good for Startups",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When people think of Japanese business, they often picture Tokyo. But Japan's startup world is spreading, and different regions are becoming known for different specialties. The Kansai area around Osaka, the Aichi region near Nagoya, and cities like Fukuoka and Sapporo are each attracting particular kinds of new companies, research spin-offs from universities, and foreign firms entering the market.\nWhy do certain places suit certain businesses? A region's history shapes its strengths. Areas with a long tradition of manufacturing offer skilled engineers and nearby factories, which is ideal for robotics or hardware startups. Cities with strong universities and hospitals attract biotech and medical companies. A place near ports and airports may suit businesses that trade internationally. Startups thrive where the local environment matches what they need.\nGovernment support plays a role too. Local governments compete to attract new companies by offering lower costs, office space, and programs that connect startups with investors and mentors. A city that succeeds in building a cluster in one field often finds that success feeds on itself: more talent arrives, more suppliers open, and the area becomes known as the place to be for that industry.\nThe practical lesson applies to workers and founders alike. Where you build a business, or where you look for work, matters. Choosing a location whose strengths match your goals — the right skills, customers, and support nearby — can be as important as the idea itself. In business, geography is not just a backdrop; it is part of the strategy.",
+        summaryJa: "日本のビジネスというと東京を思い浮かべがちだが、スタートアップの世界は広がり、地域ごとに得意分野ができつつある。大阪圏の関西、名古屋圏の愛知、福岡や札幌などが、それぞれ特定の新興企業や大学発スピンオフ、外資を引き寄せている。ものづくりの伝統がある地域は技術者と工場が近くロボット・ハードに向き、大学・病院が強い都市はバイオ・医療を呼ぶ。港や空港に近ければ国際取引の企業に向く。自治体もコスト減・オフィス・投資家やメンターとの橋渡しで誘致を競い、一分野の集積に成功すると人材や供給業者が集まり自己強化する。どこで起業し、どこで職を探すかは重要で、強みと目標が合う立地選びはアイデアと同じくらい大切だ。ビジネスで地理は背景でなく戦略の一部だ。",
+        quiz: [
+          { q: "ものづくりの伝統がある地域が向くのは？", options: ["ロボットやハードウェアのスタートアップ", "農業のみ", "観光のみ"], answer: 0 },
+          { q: "自治体がスタートアップ誘致で提供するものは？", options: ["コスト減・オフィス・投資家との橋渡し", "無料の休暇", "商品の販売"], answer: 0 },
+          { q: "本文の実務的教訓は？", options: ["強みと目標が合う立地選びはアイデアと同じくらい大切", "立地は関係ない", "東京以外では起業できない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0725-2",
+        title: "Tiny Brains Grown in the Lab",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "One of the most remarkable tools in modern medicine is almost too strange to believe: miniature models of the human brain, grown in a laboratory from a patient's own cells. In a recent study, these tiny brain models revealed striking differences in how Alzheimer's-affected tissue responded to a common antidepressant — a discovery that could shape future treatments.\nHow can scientists grow a brain model? They take ordinary cells from a person — often from skin or blood — and use special techniques to turn them back into stem cells, which can become almost any kind of cell. Guided carefully, these stem cells organize themselves into small, three-dimensional clusters that mimic parts of a real brain. They are far simpler than a true brain and cannot think or feel, but they contain real human brain cells behaving in realistic ways.\nWhy is this so useful? Because studying disease in a living human brain is nearly impossible. These models let scientists watch how a disease develops and how cells react to drugs, using tissue that carries a specific patient's own genetics. That means researchers can test which treatment might work best for a particular person, moving toward truly personalized medicine.\nThere are limits and questions. The models are still simplified, results in a dish do not always match a whole body, and growing brain-like tissue raises careful ethical discussions. Scientists proceed thoughtfully, keeping the models simple and their purposes clear.\nThe broader wonder is how far biology has come. Using a few of a patient's own cells, researchers can now build a tiny, living tool to study one of the most complex objects in the universe — the human brain — and search, cell by cell, for better ways to heal it.",
+        summaryJa: "現代医療の驚くべき道具の一つが、患者自身の細胞から実験室で育てる小型の脳モデルだ。最近の研究で、この小さな脳モデルが、アルツハイマーの組織がありふれた抗うつ薬にどう反応するかの顕著な違いを明かし、将来の治療に示唆を与えた。皮膚や血液の細胞を幹細胞に戻し、導いて立体の塊にすると本物の脳の一部を模す。思考や感情はないが、実際のヒト脳細胞が現実的に振る舞う。生きた人の脳での病気研究はほぼ不可能なため、これで病気の進行や薬への反応を、特定患者の遺伝情報を持つ組織で観察でき、個別化医療へ近づく。モデルは簡略で、皿の結果が全身と一致しないこともあり、倫理的議論も伴うため慎重に進める。患者の数個の細胞から、宇宙で最も複雑な脳を研究する生きた道具を作れる——生物学の到達点を示す。",
+        quiz: [
+          { q: "脳モデルは何から作られる？", options: ["患者自身の細胞(皮膚や血液)から", "動物の脳から", "金属から"], answer: 0 },
+          { q: "脳モデルが有用な理由は？", options: ["生きた人の脳での研究がほぼ不可能だから", "脳より賢いから", "安いから"], answer: 0 },
+          { q: "この技術の限界・課題に含まれるものは？", options: ["モデルは簡略で倫理的議論も伴う", "全く課題がない", "思考して感情を持つ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0725-3",
+        title: "Forecasting the Melting Ice",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Far from most people's daily lives, at the bottom of the world, lies a force that could reshape coastlines everywhere: the ice of Antarctica. Scientists have made an important advance, suggesting they may be able to reliably forecast how much Antarctic ice will melt through the middle of this century. That knowledge could give governments a vital head start in preparing for rising seas.\nWhy does Antarctic ice matter so much? Because it holds an enormous amount of frozen water. If large parts of it melt and flow into the ocean, sea levels around the world rise. Even a modest rise threatens low-lying cities, coastal farmland, and island nations, where hundreds of millions of people live. Understanding how fast this will happen is one of the most important questions in climate science.\nForecasting ice loss is extremely difficult. Ice behaves in complex ways, affected by ocean temperatures, wind, and the shape of the land beneath it. For years, predictions varied widely, making it hard for governments to plan. A more reliable forecast, even for the next few decades, is therefore a major step forward.\nWhy does better prediction help? Because preparation takes time. Building sea walls, redesigning drainage, protecting freshwater supplies, and, in some cases, planning to move communities all require years or decades of work. A clearer picture of what is coming lets societies act early, when it is cheaper and more effective, rather than scrambling in a crisis.\nThe deeper message is about the value of knowledge itself. We cannot stop all sea-level rise, but understanding it gives us the power to prepare. In facing a changing planet, good science is not just about explaining the world — it is about buying precious time to protect the people who live in it.",
+        summaryJa: "多くの人の日常から遠い世界の南端に、各地の海岸線を作り変えうる力——南極の氷がある。科学者は、今世紀半ばまでの南極の氷の融解量を信頼できる形で予測できるかもしれないという重要な前進を遂げた。これは海面上昇への備えで各国に貴重な先行時間を与える。南極の氷は膨大な水を蓄え、大量に海へ流れれば世界の海面が上がる。わずかな上昇でも低地の都市・沿岸農地・島国を脅かし、数億人が暮らす。融解の速さの理解は気候科学の最重要問題の一つだ。氷は海水温・風・地形に左右され複雑で、予測は長く大きくばらつき計画が難しかった。数十年でも信頼できる予測は大きな前進だ。防潮堤・排水設計・淡水確保・移転計画は年月を要するため、早く安く効果的に動ける。科学は世界を説明するだけでなく、人々を守る貴重な時間を稼ぐ。",
+        quiz: [
+          { q: "南極の氷が重要な理由は？", options: ["融けて海へ流れると世界の海面が上がるから", "観光地だから", "寒いから"], answer: 0 },
+          { q: "氷の融解予測が難しい理由は？", options: ["海水温・風・地形に左右され複雑だから", "誰も興味がないから", "氷が動かないから"], answer: 0 },
+          { q: "より良い予測が助けになる理由は？", options: ["防潮堤などの備えは年月を要し、早く動けるから", "予測は無意味だから", "備えは不要だから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0725-4",
+        title: "The Ups and Downs of Public Opinion",
+        level: "★★☆",
+        genre: "日本",
+        text: "In a democracy, leaders live and die by public opinion, and that opinion can change quickly. Recent polls in Japan showed support for the government falling several points in a single month, with one survey putting approval near half after it had been higher before. Numbers like these are watched closely, because they shape what a government can and cannot do.\nWhy does approval rise and fall? Many things move it. A strong economy, successful policies, or skillful handling of a crisis can lift a leader's support. Rising prices, scandals, unpopular decisions, or a sense that promises are not being kept can pull it down. Because voters react to daily events, approval ratings can swing based on the news of the moment, not only on long-term results.\nApproval ratings matter for practical reasons. A popular government finds it easier to pass laws, because other politicians want to be on the winning side. A government losing support may struggle to act boldly, fearing further backlash, and rivals grow more confident. In this way, public opinion becomes a kind of political currency — one that can be spent on difficult decisions but also quickly lost.\nThere is a lesson here about leadership in any field, not just politics. Trust and support are powerful but fragile. They are built slowly through consistent results and honest communication, yet can fall fast when people feel let down. Leaders — of countries, companies, or teams — who understand this treat public confidence as something to be earned again and again, never simply assumed.",
+        summaryJa: "民主主義では指導者は世論に生かされ滅ぼされ、世論は素早く変わる。日本の最近の世論調査で、政権支持率が一か月で数ポイント下がり、以前より高かった支持が半分近くになったものもあった。この数字は政府にできること・できないことを左右するため注視される。支持は、好景気・成功した政策・危機対応で上がり、物価高・不祥事・不人気な決定・約束不履行の感覚で下がる。有権者は日々の出来事に反応するため、長期成果でなくその時のニュースで揺れる。人気の政権は他の政治家が勝ち馬に乗りたがり法案を通しやすく、支持を失う政権は反発を恐れ大胆に動けず、対立勢力が勢いづく。世論は難しい決定に使えるが素早く失う「政治的通貨」だ。信頼と支持は強力だが脆く、着実な成果と誠実な対話で少しずつ築かれ、失望で速く崩れる——政治に限らず指導の教訓だ。",
+        quiz: [
+          { q: "支持率が下がる要因として挙げられていないものは？", options: ["物価高や不祥事", "約束の不履行", "良い天気が続くこと"], answer: 2 },
+          { q: "支持率が政府に実務上重要な理由は？", options: ["人気があると法案を通しやすいから", "数字が面白いから", "無関係だから"], answer: 0 },
+          { q: "本文の指導の教訓は？", options: ["信頼は着実な成果と誠実な対話で築かれ、失望で速く崩れる", "支持は永久に続く", "対話は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0725-5",
+        title: "The Hidden Cost of Sweet Drinks",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "A cold, sweet drink on a hot day feels harmless — even refreshing. But a long-term study following people for twenty-five years found that frequently drinking soda, sports drinks, and fruit juice, especially starting in childhood, was linked to a higher risk of high blood pressure in adulthood. The finding is a reminder that small daily habits can have large effects over time.\nWhy would sweet drinks affect blood pressure decades later? Scientists point to several possible reasons. These drinks contain large amounts of sugar, which can lead to weight gain, and excess weight is a known cause of high blood pressure. Sugary drinks may also affect the body's handling of salt and blood vessels in ways that raise pressure over the years. And habits formed in childhood tend to last, so a child who drinks a lot of sweet beverages often becomes an adult who does the same.\nHigh blood pressure matters because it is a major cause of heart disease and stroke, two of the leading causes of death worldwide. Often it has no symptoms for years, quietly damaging the body — which is why it is sometimes called a 'silent' condition. Small changes early in life can lower the risk significantly.\nThe study points to simple, practical choices. Water is the healthiest everyday drink, and even fruit juice, though it sounds healthy, is high in sugar and best enjoyed in moderation. Helping children develop a taste for less sweet drinks may protect their health for decades.\nThe wider lesson is about the power of habits repeated over time. A single sweet drink does no harm, but the same choice made daily for years can quietly shape our health. Understanding this helps us see everyday decisions not as isolated moments, but as small investments — for better or worse — in the person we will become.",
+        summaryJa: "暑い日の冷たい甘い飲み物は無害に、むしろ爽やかに感じる。だが25年追跡した研究で、特に子ども時代から炭酸飲料・スポーツドリンク・果汁を頻繁に飲むことが、成人後の高血圧リスク上昇と関連すると分かった。小さな日々の習慣が長期に大きな影響を持つと気づかせる。理由として、多量の糖が体重増を招き高血圧の要因になること、塩の処理や血管への影響、子ども時代の習慣が続きやすいことが挙げられる。高血圧は心臓病・脳卒中の主因で、長年無症状で体を蝕むため「沈黙の」状態と呼ばれる。早期の小さな変化でリスクを下げられる。水が最も健康的で、健康的に聞こえる果汁も糖が多くほどほどが良い。子どもが甘さ控えめの飲み物を好むようにすれば数十年の健康を守れる。一杯は無害でも、毎日の同じ選択が健康を静かに形づくる——日々の決定は「なりたい自分への小さな投資」だ。",
+        quiz: [
+          { q: "25年の研究が示した関連は？", options: ["甘い飲み物の頻繁な摂取と成人後の高血圧リスク", "甘い飲み物と視力", "甘い飲み物と身長"], answer: 0 },
+          { q: "高血圧が「沈黙の」状態と呼ばれる理由は？", options: ["長年無症状で体を蝕むから", "音がするから", "すぐ治るから"], answer: 0 },
+          { q: "本文が勧める選択は？", options: ["水を基本にし、果汁もほどほどにする", "甘い飲み物を増やす", "水を避ける"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-24",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "安くておしゃれな服が可能になった理由は？", options: ["大量生産・素材の簡素化・効率的なサプライチェーン", "デザイナーが無料で働くから", "布が無料だから"], answer: 0 },
           { q: "有名デザイナーとの協業で双方が得るものは？", options: ["ブランドは名声と売上、デザイナーは大きな観客", "何も得ない", "損失だけ"], answer: 0 },
           { q: "安いファッションの深刻な側面は？", options: ["大量消費と廃棄による無駄", "価格が高すぎること", "服が丈夫すぎること"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-18",
-    passages: [
-      {
-        id: "d0718-1",
-        title: "A Retailer Looks to Europe for Growth",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "One of Japan's biggest retail companies is reportedly considering a large investment — several hundred billion yen — in the largest convenience store operator in Poland. The move is part of a wider strategy: as growth slows at home, Japanese retailers are looking abroad for new customers.\nThe reason is demographics. Japan's population is shrinking and aging, which means fewer shoppers each year. A company that depends only on the domestic market faces a hard ceiling on its growth. Europe, by contrast, offers large populations and regions where convenience stores are still expanding. Buying an established local operator is often smarter than starting from zero, because the local company already understands its customers, suppliers, and rules.\nConvenience stores are a Japanese specialty. Over decades, Japanese chains perfected the art of running small, efficient shops that offer fresh food, services, and long opening hours. That know-how is valuable abroad, where the convenience-store model is less developed. Exporting a business system, not just products, can be a powerful form of growth.\nThere are risks in crossing borders. Consumer tastes differ, labor rules vary, and managing a company thousands of kilometers away is hard. But the strategic logic is clear. When your home market cannot grow, you must either find new products or new places — and for Japan's retailers, the world's growing regions increasingly look like the future.",
-        summaryJa: "日本の大手小売企業が、ポーランド最大のコンビニ運営会社に数千億円規模の投資を検討していると報じられた。人口減・高齢化で国内の買い物客が減る中、海外に成長を求める戦略の一環。ゼロから始めるより現地の既存企業を買う方が、顧客・取引先・規制を理解している分有利。日本が磨いたコンビニ運営のノウハウは、モデルが未発達な海外で価値を持つ。国境を越えるリスクはあるが、国内が伸びないなら「新しい製品か新しい場所」を探すしかない。",
-        quiz: [
-          { q: "日本の小売企業が海外に目を向ける主な理由は？", options: ["国内は人口減で買い物客が減るから", "海外の方が家賃が安いから", "国内の店が多すぎるから"], answer: 0 },
-          { q: "ゼロから始めるより現地企業を買う利点は？", options: ["顧客・取引先・規制を既に理解しているから", "従業員が不要だから", "商品が無料になるから"], answer: 0 },
-          { q: "本文が示す成長の考え方は？", options: ["国内が伸びないなら新しい製品か新しい場所を探す", "何もしないのが最善", "海外進出は避けるべき"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0718-2",
-        title: "AI Moves onto the Factory Floor",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "For years, most people met artificial intelligence on their phones and computers. Now AI is entering a very different place: the factory. Several major Japanese manufacturers — companies that make robots, machines, and industrial equipment — have announced new AI initiatives, often in partnership with a leading maker of AI chips.\nWhat does AI actually do in a factory? A great deal. It can inspect thousands of products per hour, spotting tiny defects a human eye would miss. It can predict when a machine is about to break down, so it can be fixed before it stops the whole line. It can guide robots to handle objects of different shapes, a task that once required careful programming for every case. In short, AI makes factories more flexible, more reliable, and more efficient.\nJapan is a natural home for this shift. The country has long been a leader in robotics and precision manufacturing, and it faces a shrinking workforce that makes automation especially valuable. Combining decades of factory know-how with modern AI could help Japanese industry stay competitive as fewer young workers are available.\nThere are challenges. AI systems need large amounts of good data, skilled engineers to run them, and careful testing to ensure safety. Workers will need training as their jobs change. But the direction is clear: the same technology that answers questions on your phone is quietly moving into the machines that make the physical world, and manufacturing may never look the same again.",
-        summaryJa: "スマホやPCで出会うことが多かったAIが、工場という別の場所に入り込んでいる。日本の大手製造業(ロボットや産業機器メーカー)が、AIチップの主要企業と組んで新たなAI施策を発表した。工場のAIは、微細な欠陥検査、故障の予知保全、多様な形状の物を扱うロボット制御などを担い、工場を柔軟・確実・効率的にする。ロボットと精密製造に強く、労働力が縮む日本には特に価値が高い。良質なデータや人材、安全性検証、労働者の再教育という課題はあるが、AIは物理世界を作る機械へ静かに移りつつある。",
-        quiz: [
-          { q: "工場でのAIの役割として挙げられていないものは？", options: ["微細な欠陥の検査", "故障の予知保全", "商品の値段を勝手に決める"], answer: 2 },
-          { q: "日本がこの変化に向くとされる理由は？", options: ["ロボット・精密製造に強く、労働力が縮んでいるから", "工場が少ないから", "AIを禁止しているから"], answer: 0 },
-          { q: "課題として挙げられているのは？", options: ["良質なデータ・人材・安全性検証・労働者の再教育", "電気が使えないこと", "工場が海外にしかないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0718-3",
-        title: "Why Household Inflation Fears Matter",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Central banks watch many numbers, but one of the most important is surprisingly personal: what ordinary households expect to happen to prices. Recent reports say inflation expectations among Japanese households have hit a record high, keeping pressure on the country's central bank to keep raising interest rates.\nWhy do expectations matter so much? Because they can become self-fulfilling. If people believe prices will rise sharply, they change their behavior. Workers demand higher wages to keep up. Shoppers buy now rather than later, fearing higher prices ahead. Companies raise prices more confidently, expecting customers to accept it. All of this can actually push inflation higher — simply because everyone expected it.\nThis is why central banks care about psychology as much as economics. Part of their job is to keep expectations 'anchored,' meaning people trust that prices will stay reasonably stable. Once that trust breaks and expectations climb, controlling inflation becomes much harder, because the belief itself drives the problem.\nFor Japan, this is a new challenge. After decades of near-zero inflation, prices are now rising, and households have noticed. The central bank must respond carefully: raise rates enough to calm expectations, but not so fast that it damages the economy. It is a delicate balance, and it shows an important truth about money — the economy runs not only on hard numbers, but also on what millions of people believe will happen next.",
-        summaryJa: "中央銀行が注視する最重要指標の一つが、家計が抱く「物価の見通し」。日本の家計のインフレ期待が過去最高に達し、利上げ継続の圧力になっていると報じられる。期待は自己実現しうる——値上がりを予想すると人は賃上げを求め、早めに買い、企業も強気に値上げし、結果として本当にインフレが進む。だから中央銀行は心理も重視し、期待を「安定(アンカー)」させようとする。長年ほぼゼロ物価だった日本にとって新たな試練で、期待を鎮めつつ景気を壊さない微妙な舵取りが要る。経済は数字だけでなく人々の予想でも動く。",
-        quiz: [
-          { q: "インフレ期待が重要なのはなぜ？", options: ["自己実現して実際にインフレを進めうるから", "数字が面白いから", "無関係だから"], answer: 0 },
-          { q: "人々が値上がりを予想すると起きることは？", options: ["賃上げ要求・早めの購入・強気の値上げ", "誰も買わなくなる", "価格が必ず下がる"], answer: 0 },
-          { q: "中央銀行の課題は？", options: ["期待を鎮めつつ景気を壊さない微妙な舵取り", "利上げを無限に続ける", "何もしないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0718-4",
-        title: "Preparing for Longer, Hotter Summers",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan's summers are changing, and science is putting numbers to what many people already feel. Advanced climate simulations suggest that as global temperatures rise, Japan is likely to face increasingly long and dangerously hot summers, along with more frequent torrential rain, rising seas, and accelerating ice loss around the world by the end of the century.\nThese projections are more than distant warnings; they shape decisions being made today. Longer hot seasons mean more strain on power grids as air conditioners run for months, more heatstroke cases in hospitals, and tougher conditions for farmers and outdoor workers. More intense rain raises the risk of floods and landslides, forcing cities to strengthen drainage and rethink where people build.\nJapan has long experience preparing for natural disasters, from earthquakes to typhoons, and that culture of preparation is now being applied to a warming climate. Cities are planting trees, redesigning buildings to stay cool, upgrading flood defenses, and improving warning systems that tell people when dangerous heat or rain is coming.\nThe deeper message is about adaptation. Reducing greenhouse gases remains essential to limit how far the climate changes. But some warming is already locked in, so societies must also adapt to the world that is coming. For a country as exposed to natural forces as Japan, learning to live safely with hotter summers and wilder weather is becoming one of the great practical challenges of the century.",
-        summaryJa: "日本の夏は変わりつつあり、科学がその実感を数値化している。高度な気候シミュレーションは、地球温暖化で日本の夏がより長く危険に暑くなり、世界全体で集中豪雨の増加・海面上昇・氷の減少が今世紀末までに進むと示す。これは電力網の負荷、熱中症、農作業への影響、洪水・土砂災害リスクの増大として今日の意思決定に関わる。地震や台風に備えてきた日本の防災文化が温暖化にも応用され、植樹・涼しい建物・治水・警報の強化が進む。温室効果ガス削減は不可欠だが、ある程度の温暖化は避けられず、来る世界への「適応」も社会の大きな課題になる。",
-        quiz: [
-          { q: "気候シミュレーションが示す日本の夏は？", options: ["より長く危険に暑くなる", "急に涼しくなる", "変化しない"], answer: 0 },
-          { q: "予測がもたらす今日的な影響に含まれないものは？", options: ["電力網の負荷や熱中症", "洪水・土砂災害リスク", "地震の消滅"], answer: 2 },
-          { q: "本文が伝える「より深いメッセージ」は？", options: ["削減に加え、来る世界への適応も必要", "対策は不要", "温暖化はすでに止まった"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0718-5",
-        title: "The Comeback of a Family Car",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Cars are not only machines; they are also cultural objects that reflect how families live. A Japanese automaker recently unveiled a fully redesigned large minivan, the model's first complete overhaul in sixteen years. Behind that long gap and fresh design lies an interesting story about how products and lifestyles change together.\nWhy would a company wait sixteen years to redesign a car? Because a major overhaul is expensive and risky. Engineers must rethink the engine, the body, the safety systems, and the technology inside, while guessing what families will want years into the future. Wait too long, and the product feels old; move too fast, and you waste money on changes customers do not need. Timing is everything.\nThe new minivan reflects modern family life. Buyers now expect advanced safety systems, big screens, comfortable seating for several passengers, and, increasingly, electric or hybrid power for better efficiency. A car designed sixteen years ago simply cannot meet these expectations, no matter how good it once was.\nThere is a broader lesson about staying relevant. Every product, from cars to phones to software, must eventually be reimagined for a new generation. The companies that succeed are those that watch how people actually live — how families travel, what they value, what they worry about — and update their products to match. A car is really a mirror of its time, and redesigning one is a bet on how we will all live next.",
-        summaryJa: "車は機械であると同時に、家族の暮らしを映す文化的存在でもある。日本の自動車メーカーが大型ミニバンを16年ぶりに全面刷新して発表した。全面刷新は高コストで、エンジン・車体・安全・技術を作り直しつつ数年先の家族のニーズを読む必要があり、遅すぎれば古び, 早すぎれば無駄——タイミングが肝心。新型は先進安全、大型画面, 多人数の快適な座席, 電動・ハイブリッド化など現代の家族生活を反映する。あらゆる製品は新世代向けに再構想が要り, 成功する企業は人々の実際の暮らしを観察して製品を更新する。車はその時代を映す鏡だ。",
-        quiz: [
-          { q: "会社が16年間も全面刷新を待つ理由は？", options: ["刷新は高コストで、将来のニーズを読む必要があるから", "法律で禁止されているから", "誰も車を買わないから"], answer: 0 },
-          { q: "新型ミニバンが反映する現代のニーズに含まれないものは？", options: ["先進安全システム", "電動・ハイブリッド化", "馬で引く仕組み"], answer: 2 },
-          { q: "本文の広い教訓は？", options: ["製品は人々の暮らしを観察して新世代向けに更新すべき", "製品は変えない方がよい", "デザインは重要でない"], answer: 0 }
         ]
       }
     ]
