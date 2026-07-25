@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-26",
+    passages: [
+      {
+        id: "d0726-1",
+        title: "The Business of Going Back to the Moon",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Returning to the Moon is no longer only a government mission — it is becoming a business. NASA recently announced it would award nearly six hundred million dollars for four commercial Moon landings, planned for the coming years, as part of a larger effort to build a permanent base on the lunar surface. Private companies, not just space agencies, will carry the equipment.\nWhy hire companies for something as difficult as landing on the Moon? The answer is the same reason businesses outsource many tasks: competition and specialization lower costs and speed up progress. Instead of building and operating every lander itself, NASA acts as a customer, paying private firms to deliver cargo to the lunar surface. Companies compete to offer the best service at the lowest price, and the ones that succeed can sell the same service again and again.\nThis approach has already transformed the launch industry, where private rockets dramatically cut the cost of reaching orbit. Applying the same model to Moon landings could make lunar missions far more frequent and affordable than in the past, when each one was a rare and hugely expensive government project.\nThere are risks. Landing on the Moon is extremely hard, and some private attempts have failed. A company that loses a spacecraft loses money and reputation. But the potential rewards — a share of a new space economy — are large enough to attract serious investment.\nThe wider lesson is about how industries form. A field that once belonged only to governments is becoming a marketplace, with customers, suppliers, and competition. As with aviation and computing before it, space is following a familiar path: from a rare government achievement to an everyday commercial service — one small business deal at a time.",
+        summaryJa: "月に戻ることは政府の使命だけでなくビジネスになりつつある。NASAは、月面基地建設の一環として、今後計画される4回の民間月着陸に約6億ドルを拠出すると発表した。機材を運ぶのは宇宙機関でなく民間企業だ。なぜ月着陸のような難事を企業に委ねるのか——業務委託と同じで、競争と専門化がコストを下げ進歩を速めるからだ。NASAは自ら全着陸機を作らず「顧客」として貨物輸送に対価を払い、企業は最良のサービスを最低価格で競い、成功すれば同じサービスを繰り返し売れる。この方式は打ち上げ産業を既に変え、民間ロケットが軌道到達コストを激減させた。月着陸に応用すれば頻度と手頃さが増す。着陸は難しく失敗もありリスクは高いが、新しい宇宙経済の取り分は投資を呼ぶ。政府だけの分野が顧客・供給者・競争のある市場へ——航空や計算機と同じ道を宇宙も辿る。",
+        quiz: [
+          { q: "NASAが民間企業に月着陸を委ねる理由は？", options: ["競争と専門化でコストを下げ進歩を速めるため", "宇宙飛行士が足りないから", "月に興味がないから"], answer: 0 },
+          { q: "この方式が既に変えた産業は？", options: ["打ち上げ(ロケット)産業", "農業", "漁業"], answer: 0 },
+          { q: "本文が示す産業形成の教訓は？", options: ["政府だけの分野が競争のある市場へ変わる", "宇宙は政府専用のまま", "民間は関与できない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0726-2",
+        title: "AI Enters the World of Diplomacy",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Artificial intelligence has been discussed mainly as a matter of business and industry. Now it is entering a very different arena: high diplomacy. Reports say AI is moving into the same category as nuclear technology, cybersecurity, and arms control, with major powers scheduling talks about how to manage it. This shift marks an important moment in how the world views the technology.\nWhy would nations treat AI like nuclear weapons? Because powerful AI, like powerful weapons, could affect global security. Advanced AI systems might be used to guide military operations, spread disinformation at massive scale, launch cyberattacks, or shift the balance of economic power. When a technology becomes strong enough to change the balance between nations, governments start to negotiate rules for it, just as they did for nuclear arms decades ago.\nDiplomacy around technology is difficult. Countries both compete and cooperate at the same time. Each wants the advantages that AI can bring, so none wishes to fall behind. Yet all share an interest in avoiding dangerous outcomes, such as accidents, misunderstandings, or an uncontrolled race. The challenge is to build trust and set limits without giving up too much advantage — a delicate balance that has always defined arms control.\nThere are reasons for hope and caution. History shows that rival nations can agree on rules for dangerous technologies when the risks are clear enough; treaties on nuclear weapons are one example. But AI is harder to define and monitor than a missile, and it changes quickly, which makes agreements difficult to write and enforce.\nThe deeper significance is clear: the world now sees AI not just as a tool for making money, but as a force that could shape the future of nations. How humanity chooses to govern it may become one of the defining questions of our century.",
+        summaryJa: "AIは主にビジネス・産業の問題として語られてきたが、今や高度な外交の舞台に入りつつある。報道では、AIは核技術・サイバーセキュリティ・軍備管理と同じ範疇に入り、主要国が管理の協議を予定している。世界のAI観の重要な転換点だ。なぜ核兵器のように扱うのか——強力なAiは軍事作戦の誘導、大規模な偽情報、サイバー攻撃、経済力の均衡変化など安全保障に関わりうるからだ。国家間の均衡を変える技術には、かつての核と同様、ルール交渉が始まる。技術外交は難しく、各国は競争と協力を同時に行う。誰も後れを取りたくない一方、事故・誤解・制御不能な競争は避けたい。優位を失わず信頼と制限を築く微妙な均衡だ。核条約のように危険な技術で合意した歴史は希望だが、AIはミサイルより定義・監視が難しく速く変わる。世界はAiを金儲けの道具でなく国家の未来を形づくる力と見始めた——その統治は今世紀の中心的問いになりうる。",
+        quiz: [
+          { q: "AIが新たに入りつつある領域は？", options: ["核技術や軍備管理と同じ高度な外交の範疇", "スポーツ", "料理"], answer: 0 },
+          { q: "国家がAIをルール交渉の対象にする理由は？", options: ["国家間の安全保障の均衡に関わりうるから", "AIが安いから", "誰も使わないから"], answer: 0 },
+          { q: "AIの合意が核兵器より難しい理由は？", options: ["定義・監視が難しく速く変わるから", "AIは危険でないから", "変化しないから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0726-3",
+        title: "Do Small Green Choices Really Matter?",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Many people wonder whether their personal efforts to help the environment — recycling, eating less meat, driving less — make any real difference against a problem as huge as climate change. Some even worry that focusing on small personal choices distracts people from demanding big changes in laws and industry. A recent study offers a reassuring answer: personal green choices do not reduce support for large-scale reforms. In fact, the two go together.\nThe worry made sense in theory. If people feel they have 'done their part' by recycling, might they stop pushing for the bigger changes — new energy systems, stricter rules for companies — that matter most? Some argued that emphasizing personal responsibility lets governments and big polluters off the hook.\nThe study suggests this fear is largely unfounded. People who make green choices in their own lives are, if anything, more likely to support major environmental policies, not less. Acting on a value seems to strengthen it, rather than satisfy it. Someone who bothers to recycle or eat less meat often cares more about the issue overall, and that concern extends to supporting broader action.\nThis matters because solving climate change requires both individual and collective effort. Personal choices alone cannot fix a global problem — that needs changes in energy, transport, and industry, driven by governments and companies. But personal action and political support are not rivals competing for a limited supply of concern. They reinforce each other.\nThe broader lesson reaches beyond the environment. In many areas of life, small personal actions and large systemic changes are often seen as opposites, forcing a choice between them. This research suggests a more hopeful view: doing something yourself and demanding bigger change can grow from the same root — and strengthen each other along the way.",
+        summaryJa: "リサイクルや肉を減らす、車に乗らないといった個人の環境努力が、気候変動という巨大問題に本当に意味があるのか疑う人は多い。個人の小さな選択に注目すると、法や産業の大改革を求める気持ちがそがれると心配する声もある。最近の研究は安心できる答えを示す——個人の環境選択は大規模改革への支持を減らさず、むしろ両者は一緒に進む。理屈上は「自分の役目は果たした」と感じて大改革を求めなくなる懸念があったが、研究では、生活で環境選択をする人ほど大きな環境政策も支持しやすい。価値に沿って行動するとその価値は満たされるより強まるようだ。気候変動の解決は個人と集団の両方の努力を要し、個人の選択だけでは足りずエネルギー・交通・産業の変化が要る。だが個人行動と政治的支持は限られた関心を奪い合う競争相手でなく、互いを強め合う。小さな個人行動と大きな制度変革は対立でなく同じ根から育ちうる。",
+        quiz: [
+          { q: "研究が示した安心できる答えは？", options: ["個人の環境選択は大改革への支持を減らさない", "個人の選択は無意味", "リサイクルは有害"], answer: 0 },
+          { q: "価値に沿って行動すると起きることは？", options: ["その価値が満たされるより強まる", "関心が消える", "何も変わらない"], answer: 0 },
+          { q: "個人行動と政治的支持の関係は？", options: ["競争相手でなく互いを強め合う", "常に対立する", "無関係"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0726-4",
+        title: "A Nation Betting on New Industries",
+        level: "★★☆",
+        genre: "日本",
+        text: "Every country must decide where to focus its energy and money as the economy changes. Japan has made its choice clear: it is betting on a group of advanced fields — artificial intelligence, robotics, mobility, space, biotechnology, and manufacturing technology — supported by government backing, demand from established companies, and a growing network of startup hubs across the country.\nWhy these particular fields? Because each builds on a strength Japan already has, or addresses a challenge it must solve. Robotics and manufacturing draw on decades of engineering excellence. Space and mobility connect to major existing industries. Biotechnology addresses the needs of an aging society. By choosing areas where it can compete, Japan aims to turn its existing advantages into future growth.\nGovernment support plays a large role. Through funding, favorable policies, and programs that link startups with big companies and investors, the state tries to help new industries grow faster than they would alone. Meanwhile, established firms provide something startups badly need: real customers with real budgets, ready to buy new technology.\nThis strategy carries both promise and risk. Focusing on chosen fields can concentrate resources where they matter most, helping a country lead. But betting on the wrong areas, or moving too slowly, can leave a nation behind as technology shifts. No one can perfectly predict which industries will define the future.\nThe broader lesson applies to businesses and individuals too. With limited time and money, everyone must choose where to focus. Building on your existing strengths, while addressing the challenges you cannot avoid, is often the wisest strategy. For a person or a nation, success comes less from doing everything, and more from choosing the right things to do well.",
+        summaryJa: "どの国も経済の変化に応じてどこに力と資金を注ぐか決めねばならない。日本は明確に選んだ——AI・ロボティクス・モビリティ・宇宙・バイオ・製造技術という先進分野に、政府支援・既存企業の需要・全国のスタートアップ拠点網で賭ける。なぜこれらか。各分野が日本の既存の強みを活かすか、解くべき課題に応えるからだ。ロボット・製造は長年の技術力、宇宙・モビリティは主要既存産業、バイオは高齢社会の需要に対応。競争できる領域を選び、既存の優位を将来の成長に変えようとする。資金・政策・大企業や投資家との橋渡しで新産業の成長を後押しし、既存企業は「実際の予算を持つ顧客」を提供する。分野を絞れば資源を集中できるが、選択を誤り遅れれば取り残される。限られた時間と資金では誰もが集中先を選ぶ——既存の強みを活かしつつ避けられぬ課題に応えるのが賢明で、成功は「全部やる」より「正しいことを選んでうまくやる」ことから来る。",
+        quiz: [
+          { q: "日本が賭ける分野に含まれないものは？", options: ["AI・ロボティクス・宇宙", "バイオ・製造技術", "石炭採掘の拡大"], answer: 2 },
+          { q: "既存企業がスタートアップに提供するものは？", options: ["実際の予算を持つ顧客", "無料の労働力", "宇宙船"], answer: 0 },
+          { q: "本文が示す賢明な戦略は？", options: ["既存の強みを活かしつつ避けられぬ課題に応える", "とにかく全部やる", "何も選ばない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0726-5",
+        title: "The Mystery of the SuperAgers",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Most of us expect memory to fade as we grow old. But a rare group of people, sometimes called 'SuperAgers,' keep sharp memories well into their eighties and beyond, performing as well as people decades younger. Scientists studying them recently made a puzzling discovery: the genes of SuperAgers look much like those of typical older adults. Whatever protects their memory does not seem to lie simply in obvious genetic differences.\nThis is surprising because we often assume that exceptional abilities come from special genes. If SuperAgers' DNA looks ordinary, then something else must be protecting their brains. Researchers suspect a combination of factors — perhaps the way their genes are used rather than the genes themselves, along with lifestyle, mental activity, social connection, and forces we do not yet understand.\nWhy study these rare individuals? Because they may hold clues to preventing the memory loss that affects millions as they age, including diseases like Alzheimer's. If scientists can discover what keeps a SuperAger's brain healthy, they might find ways to help others protect their memory too. Studying the exceptional, in other words, can teach us how to help everyone.\nThe research also carries a hopeful message. If sharp memory in old age is not fixed entirely by the genes we are born with, then our choices and habits — staying mentally and socially active, caring for our health — may play a meaningful role. Nothing is guaranteed, but the SuperAgers suggest that a healthy aging brain is not purely a matter of luck.\nThe deeper wonder is how much we still have to learn about ourselves. Even the brain we carry every day holds mysteries, and understanding rare people who age exceptionally well may help all of us grow older with our minds intact.",
+        summaryJa: "多くは加齢で記憶が衰えると思っている。だが「スーパーエイジャー」と呼ばれる稀な人々は80代以降も鋭い記憶を保ち、数十歳若い人並みの成績を示す。研究者は不思議な発見をした——スーパーエイジャーの遺伝子は普通の高齢者とよく似ている。記憶を守る何かは、明白な遺伝的差異だけにはないようだ。優れた能力は特別な遺伝子から来ると考えがちだが、DNAが普通なら別の何かが脳を守っている。研究者は、遺伝子そのものより使われ方、生活習慣、知的活動、社会的つながり、未解明の要因の組み合わせを疑う。彼らを研究するのは、加齢に伴う記憶低下やアルツハイマーの予防の手がかりになりうるからだ。稀な例外の研究が万人を助ける道を教える。希望のメッセージもある——老年の鋭い記憶が生来の遺伝子で完全に決まらないなら、知的・社会的活動や健康管理といった選択や習慣が意味を持ちうる。保証はないが、健康な老いた脳は単なる運任せではないと示す。日々使う脳にも謎があり、例外を理解することが皆の健やかな老いを助けうる。",
+        quiz: [
+          { q: "スーパーエイジャーとは？", options: ["高齢でも鋭い記憶を保つ稀な人々", "若くして記憶を失う人", "眠らない人"], answer: 0 },
+          { q: "研究者が驚いた発見は？", options: ["彼らの遺伝子が普通の高齢者と似ていること", "彼らが超人だったこと", "記憶がないこと"], answer: 0 },
+          { q: "この研究の希望のメッセージは？", options: ["選択や習慣が記憶の維持に意味を持ちうる", "すべては運任せ", "習慣は無意味"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-25",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "グラフェンが最初に単離された方法は？", options: ["粘着テープで黒鉛から薄片を剥がす", "高温で溶かす", "海から採取する"], answer: 0 },
           { q: "極薄になると何が起きる？", options: ["量子的な奇妙な性質が現れる", "材料が消える", "色だけが変わる"], answer: 0 },
           { q: "原子薄膜材料の課題は？", options: ["安価に大面積・低欠陥で作るのが難しい", "軽すぎて使えない", "研究できない"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-19",
-    passages: [
-      {
-        id: "d0719-1",
-        title: "A Sudden Drop: When Markets Fall Fast",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Stock markets can rise slowly for months and then fall sharply in a single afternoon. Japan's main index recently dropped thousands of points in a few hours, driven by heavy selling of chip-related shares. One major memory chip maker saw its market value fall to roughly half of its recent peak. For anyone learning about business, a day like this is a lesson in how markets really work.\nWhy do prices swing so violently? Because a stock price reflects not just today's profits but investors' hopes about the future. When those hopes are very high, prices climb far above current earnings. But high hopes are fragile. A single worrying signal — a disappointing forecast, a rival's success, or simply the feeling that prices rose too fast — can make investors rush to sell at once. Selling feeds more selling, and prices tumble.\nThe recent fall centered on companies tied to artificial intelligence. For over a year, AI excitement pushed chip stocks to extraordinary heights. When some investors decided the prices had gone too far, the reversal was quick and painful.\nDoes a crash mean the technology is worthless? Usually not. Even after a sharp drop, a good company keeps making products and earning money. The lesson is about the difference between a business and its stock price. A business is built over years; a stock price can change in minutes. Wise investors and managers focus on the slow, real work of building value, and try not to be ruled by the market's sudden moods.",
-        summaryJa: "株式市場は数か月かけて上昇しても、一つの午後で急落しうる。日本の主要指数が数時間で数千ポイント下げ、半導体関連の売りが主因で、あるメモリ大手の時価総額はピークの約半分に。株価は今の利益だけでなく将来への期待も映すため、高すぎる期待は些細な悪材料で崩れ、売りが売りを呼ぶ。今回はAI関連が中心。ただ暴落は技術が無価値という意味ではなく、良い企業は下落後も製品を作り稼ぐ。「企業」は年単位で築かれ「株価」は分単位で動く——賢明な人は市場の気分に振り回されず、価値を築く地道な仕事に集中する。",
-        quiz: [
-          { q: "株価が激しく変動する理由は？", options: ["株価は将来への期待も映し、期待は崩れやすいから", "企業が毎日変わるから", "理由はない"], answer: 0 },
-          { q: "今回の急落の中心は？", options: ["AI関連・半導体関連の銘柄", "食品会社", "鉄道会社"], answer: 0 },
-          { q: "本文の教訓は？", options: ["企業は年単位、株価は分単位——市場の気分に振り回されない", "暴落は技術が無価値の証拠", "株価だけを見るべき"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0719-2",
-        title: "What Does a Smartphone Really Cost?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "A new entry-level smartphone from a major maker was recently priced at around 140,000 yen in Japan — close to 900 US dollars. Many people were surprised that an 'entry-level' phone could cost so much. The price tells an interesting story about technology, currency, and value.\nFirst, phones have quietly become powerful computers. The device in your pocket now has better cameras, faster chips, and more storage than laptops did a few years ago. As the technology inside improves, the cost to build it rises, and so does the price.\nSecond, currency matters. When a country's money weakens against the US dollar, imported products become more expensive in local prices, even if the maker did not raise the dollar price at all. A weaker yen means the same phone costs more yen than before. Buyers feel the pinch, but the cause is partly in the exchange rate, not just the product.\nThird, 'value' is not only about price. A phone that lasts five years and receives software updates may be cheaper, over time, than a cheap phone replaced every two years. Smart buyers think about cost per year of use, not just the number on the price tag.\nThe bigger lesson applies to many purchases, from phones to cars to appliances. The sticker price is only the beginning of the story. Understanding what drives it — technology, currency, and durability — helps you judge whether something is truly expensive or actually good value.",
-        summaryJa: "大手の新しい「エントリー向け」スマホが日本で約14万円(約900ドル)と、その高さに驚く人も多い。理由は三つ。①スマホは高性能コンピュータ化し、中身の進化で製造コストと価格が上がる。②通貨——円安になると、メーカーがドル価格を上げなくても円建てでは高くなる。③「価値」は価格だけではない——5年使えてソフト更新される端末は、2年で買い替える安物より結局安いこともある。値札は物語の始まりにすぎず、技術・通貨・耐久性という要因を理解すれば、本当に高いのか実はお得かを見極められる。",
-        quiz: [
-          { q: "スマホが高価になる理由に含まれないものは？", options: ["高性能化で製造コストが上がる", "円安で円建て価格が上がる", "色が増えたから"], answer: 2 },
-          { q: "円安が価格に与える影響は？", options: ["ドル価格が同じでも円建てでは高くなる", "価格は必ず下がる", "無関係"], answer: 0 },
-          { q: "賢い買い手が考えることは？", options: ["価格だけでなく1年あたりの使用コスト", "値札の数字だけ", "色だけ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0719-3",
-        title: "How Nations Build Technology Ecosystems",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "No powerful technology is built by a single company alone. Behind every advanced product lies an 'ecosystem' — a web of chip makers, software developers, factories, universities, and investors that support one another. Recently, a leading maker of AI chips announced an expansion of its partnerships across Japan's robotics and industrial sector, a good example of how such ecosystems form.\nWhy does an ecosystem matter? Because modern technology is too complex for one firm to master everything. A chip company needs software partners to make its hardware useful. A robot maker needs chips, sensors, and AI models it does not build itself. When many specialized companies work together, each doing what it does best, the whole system advances faster than any single player could alone.\nCountries compete to become the home of such ecosystems. Once a strong network forms in a region, it tends to grow. Skilled workers move there, suppliers open nearby, universities train the right graduates, and investors look for the next promising firm. Success attracts more success, which is why governments work hard to attract key companies and research centers.\nThere are risks in depending too heavily on outside partners, especially for critical technology. A country may find that the most important chips or software are controlled by companies elsewhere. This is why nations try to balance cooperation with self-reliance — welcoming global partners while building their own strengths. In a connected world, technological power comes not from working alone, but from being a strong, valued part of the right network.",
-        summaryJa: "強力な技術は単独企業では作れず、背後にはチップメーカー・ソフト開発者・工場・大学・投資家が支え合う「エコシステム」がある。AIチップの主要企業が日本のロボット・産業分野との連携拡大を発表したのは好例。現代技術は複雑すぎて一社で全てを担えず、専門企業が各々の得意を持ち寄ると全体が速く進む。強いネットワークができた地域には人材・供給業者・大学・投資が集まり成功が成功を呼ぶため、各国は主要企業や研究拠点の誘致に力を注ぐ。ただ外部依存のリスクもあり、協力と自立の均衡が要る。技術力は単独ではなく「適切なネットワークの一員である」ことから生まれる。",
-        quiz: [
-          { q: "技術の「エコシステム」とは？", options: ["チップ・ソフト・工場・大学・投資家が支え合う網", "一社だけの工場", "自然の生態系のみ"], answer: 0 },
-          { q: "エコシステムが重要な理由は？", options: ["現代技術は複雑で一社では全てを担えないから", "競争をなくすため", "コストを隠すため"], answer: 0 },
-          { q: "各国が均衡を取ろうとするのは？", options: ["協力と自立(外部依存のリスク回避)", "孤立と鎖国", "価格と品質"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0719-4",
-        title: "When One Factory Stops, Who Feels It?",
-        level: "★★☆",
-        genre: "日本",
-        text: "A large Japanese food company recently began restarting its refrigerated warehouses and food factories after a disruption, first accepting limited orders and planning a full return soon. It may sound like a small business story, but it offers a clear window into something we rarely think about: the hidden supply chains that keep daily life running.\nRefrigerated warehouses are a quiet but vital part of the food system. They store frozen and chilled products — meat, seafood, vegetables, ready meals — and keep them safe until they reach shops and restaurants. When such facilities stop working, even briefly, the effects ripple outward. Shops may run short of certain items, restaurants may change their menus, and other companies that depend on steady deliveries must adjust.\nThis is why modern businesses think carefully about resilience — the ability to keep going, or recover quickly, when something goes wrong. A company might keep backup facilities, spread its operations across several locations, or hold extra stock of critical items. Restarting with limited orders, as this company did, is itself a careful strategy: bring the system back gradually to avoid new problems, rather than switching everything on at once.\nThe broader lesson is about how connected our world has become. A single warehouse most people never see can affect what appears on store shelves and restaurant tables. Behind the simple act of buying dinner lies a vast, mostly invisible network — and keeping that network strong is one of the quiet, essential jobs of modern business.",
-        summaryJa: "日本の大手食品会社が、混乱後に冷蔵倉庫と食品工場の稼働を再開し、まず限定的な受注から始めて近く全面再開を予定。小さな話に見えて、日常を支える「見えないサプライチェーン」を映す好例だ。冷蔵倉庫は肉・魚・野菜・調理済み食品を安全に保つ要で、止まれば店の品薄や飲食店のメニュー変更など影響が波及する。だから企業は「レジリエンス(回復力)」を重視し、予備施設・拠点分散・在庫確保などで備える。限定受注からの再開も、一気に戻さず段階的に立ち上げる慎重な戦略。夕食を買う行為の裏に広大で見えない網があり、それを保つのが現代ビジネスの静かで不可欠な仕事だ。",
-        quiz: [
-          { q: "冷蔵倉庫が食品システムで果たす役割は？", options: ["冷凍・冷蔵品を安全に保ち店や飲食店へ届ける", "野菜を育てる", "料理を作る"], answer: 0 },
-          { q: "「レジリエンス」とは？", options: ["問題が起きても続ける・素早く回復する力", "価格を上げる力", "広告を打つ力"], answer: 0 },
-          { q: "限定受注から再開する狙いは？", options: ["一気に戻さず段階的に立ち上げ新たな問題を避ける", "利益を隠す", "顧客を減らす"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0719-5",
-        title: "Cheap Style: The Science of Affordable Fashion",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "A well-known low-price fashion brand recently made news by working with a luxury designer to sell jeans for the price of a couple of lunches. The idea of famous designers creating cheap clothing might sound strange, but it reveals a lot about how modern fashion — and modern business — works.\nFor most of history, good design and low price rarely went together. Skilled designers worked for expensive brands, while cheap clothes were plain and forgettable. That has changed. Fast-fashion companies discovered that they could offer stylish, well-designed clothing at low prices by producing enormous quantities, simplifying materials, and running highly efficient supply chains. When you make millions of the same item, the cost of each one falls dramatically.\nWorking with a famous designer is a clever move. It brings prestige and fresh ideas to an affordable brand, attracting customers who want style without a high price. The designer gains a huge audience, and the company gains attention and sales. Both sides win.\nThere is a serious side to cheap fashion too. Very low prices can encourage people to buy more than they need and throw clothes away quickly, creating waste. In response, some companies are experimenting with recycling, better-quality basics meant to last, and more responsible production. The future of affordable fashion may depend on balancing three goals at once: style, low price, and care for the planet — a difficult but increasingly important combination.",
-        summaryJa: "低価格ファッションブランドが高級デザイナーと組み、ランチ2回分ほどの値段でジーンズを売って話題に。有名デザイナーが安い服を作るのは奇妙に見えて、現代のファッションとビジネスの仕組みをよく表す。かつて良いデザインと低価格は両立しなかったが、大量生産・素材の簡素化・効率的なサプライチェーンで、おしゃれな服を安く出せるようになった。有名デザイナーとの協業は、手頃なブランドに名声と新鮮な発想をもたらし双方に利益。一方で安さは大量消費と廃棄を招くため、リサイクルや長持ちする定番品など責任ある生産の試みも。今後は「スタイル・低価格・環境配慮」の三立が課題になる。",
-        quiz: [
-          { q: "安くておしゃれな服が可能になった理由は？", options: ["大量生産・素材の簡素化・効率的なサプライチェーン", "デザイナーが無料で働くから", "布が無料だから"], answer: 0 },
-          { q: "有名デザイナーとの協業で双方が得るものは？", options: ["ブランドは名声と売上、デザイナーは大きな観客", "何も得ない", "損失だけ"], answer: 0 },
-          { q: "安いファッションの深刻な側面は？", options: ["大量消費と廃棄による無駄", "価格が高すぎること", "服が丈夫すぎること"], answer: 0 }
         ]
       }
     ]
