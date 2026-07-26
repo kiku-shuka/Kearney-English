@@ -31,7 +31,19 @@ KE_DATA.extraSentences = [
   { id: "w2629-s09", ja: "そのフィードバックを反映して修正します。", en: "I'll revise it based on your feedback.", note: "based on = 〜を踏まえて" },
   { id: "w2629-s10", ja: "この件は優先度を上げて対応します。", en: "I'll bump up the priority on this and handle it.", note: "bump up = 引き上げる" },
   { id: "w2629-s11", ja: "現時点での見通しを率直に共有します。", en: "Let me be honest about where we stand right now.", note: "where we stand = 現状" },
-  { id: "w2629-s12", ja: "この決定は次のステアリングで最終確認します。", en: "We'll finalize this decision at the next steering committee.", note: "finalize = 最終決定する" }
+  { id: "w2629-s12", ja: "この決定は次のステアリングで最終確認します。", en: "We'll finalize this decision at the next steering committee.", note: "finalize = 最終決定する" },
+  { id: "w2630-s01", ja: "アジェンダを共有しますので、事前にご確認ください。", en: "I'll share the agenda, so please review it in advance.", note: "in advance = 事前に" },
+  { id: "w2630-s02", ja: "議論が長引いているので、一度整理させてください。", en: "The discussion is getting long, so let me sum up where we are.", note: "sum up = 要約する" },
+  { id: "w2630-s03", ja: "その仮定は少し楽観的すぎるかもしれません。", en: "That assumption might be a little too optimistic.", note: "婉曲に異論を述べる型" },
+  { id: "w2630-s04", ja: "詳細は割愛して、結論だけ申し上げます。", en: "I'll skip the details and just give you the conclusion.", note: "skip = 省く" },
+  { id: "w2630-s05", ja: "この点はあなたの判断にお任せします。", en: "I'll leave this point to your judgment.", note: "leave ... to = 〜に委ねる" },
+  { id: "w2630-s06", ja: "スケジュールに余裕を持たせておきましょう。", en: "Let's build some buffer into the schedule.", note: "buffer = 余裕・緩衝" },
+  { id: "w2630-s07", ja: "その数字は少し保守的に見積もっています。", en: "We've estimated that number a bit conservatively.", note: "conservatively = 保守的に" },
+  { id: "w2630-s08", ja: "認識に相違があれば、遠慮なくおっしゃってください。", en: "If your understanding differs, please don't hesitate to say so.", note: "don't hesitate to = 遠慮なく〜する" },
+  { id: "w2630-s09", ja: "この件は関係部署にも共有しておきます。", en: "I'll loop in the relevant departments on this.", note: "loop in = 情報共有の輪に入れる" },
+  { id: "w2630-s10", ja: "想定外の事態に備えて代替案も用意しています。", en: "We've prepared a plan B in case something unexpected happens.", note: "plan B = 代替案" },
+  { id: "w2630-s11", ja: "本題に入る前に、前回の確認をさせてください。", en: "Before we dive in, let me recap the last meeting.", note: "dive in = 本題に入る、recap = 要約" },
+  { id: "w2630-s12", ja: "最終的な判断は来週まで保留にしましょう。", en: "Let's hold off on the final decision until next week.", note: "hold off on = 保留する" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -43,7 +55,15 @@ KE_DATA.extraPhrases = [
   { id: "w2628-p05", en: "I'll keep you posted.", ja: "進捗があれば随時お知らせします。", tip: "keep you posted = 逐次報告する" },
   { id: "w2628-p06", en: "Can we lock in the date?", ja: "日程を確定してしまいましょうか。", tip: "lock in = 確定させる" },
   { id: "w2628-p07", en: "That works for me.", ja: "私はそれで大丈夫です。", tip: "日程・提案への同意の最短形" },
-  { id: "w2628-p08", en: "I owe you one.", ja: "一つ借りができました（ありがとう）。", tip: "助けてもらった時のカジュアルな感謝" }
+  { id: "w2628-p08", en: "I owe you one.", ja: "一つ借りができました（ありがとう）。", tip: "助けてもらった時のカジュアルな感謝" },
+  { id: "w2630-p01", en: "Let me play that back to make sure I understand.", ja: "理解が合っているか、言い直して確認させてください。", tip: "play back = 復唱して確認する" },
+  { id: "w2630-p02", en: "That's outside my area, but I can connect you with the right person.", ja: "それは私の担当外ですが、適任者におつなぎできます。", tip: "できない時の丁寧な受け渡し" },
+  { id: "w2630-p03", en: "Let's not reinvent the wheel.", ja: "一から作り直すのはやめましょう（既存を活かそう）。", tip: "reinvent the wheel = 無駄に一から作る" },
+  { id: "w2630-p04", en: "Can you give me the short version?", ja: "手短に要点だけ教えてもらえますか。", tip: "the short version = 要約版" },
+  { id: "w2630-p05", en: "I'll take it from here.", ja: "ここからは私が引き継ぎます。", tip: "take it from here = 以降を引き受ける" },
+  { id: "w2630-p06", en: "Let's touch base next week.", ja: "来週、状況をすり合わせましょう。", tip: "touch base = 近況を確認し合う" },
+  { id: "w2630-p07", en: "That's a hard no for us, unfortunately.", ja: "残念ですが、それは我々には受け入れられません。", tip: "a hard no = きっぱりした拒否" },
+  { id: "w2630-p08", en: "Let's circle back once we have the data.", ja: "データが揃ってから改めて議論しましょう。", tip: "circle back = 後で改めて取り上げる" }
 ];
 
 /* シャドーイングの追加スクリプト（shadowing.js と同スキーマ） */
@@ -83,6 +103,24 @@ KE_DATA.extraShadowing = [
       { s: "B", en: "That helps. Could you also keep the current terms for existing orders?", ja: "それは助かります。既存の注文分は現行条件のままにできますか？" },
       { s: "A", en: "That's a fair request. Let me confirm and send you a written proposal.", ja: "妥当なご要望です。確認のうえ、書面で提案をお送りします。" }
     ]
+  },
+  {
+    id: "w2630-sh1",
+    title: "海外チームとのブレインストーミング",
+    level: "★★☆",
+    description: "アイデアを出し合い、相手の案に乗ったり広げたりする協働の場面。相づちと発想の広げ方を体に入れる。",
+    lines: [
+      { s: "A", en: "Thanks for joining. Today, let's brainstorm ideas for the new campaign.", ja: "参加ありがとう。今日は新しいキャンペーンのアイデアを出し合いましょう。" },
+      { s: "B", en: "Sounds good. Should we aim for quantity first and filter later?", ja: "いいですね。まず数を出して、後で絞りますか？" },
+      { s: "A", en: "Exactly. No idea is a bad idea at this stage.", ja: "その通り。この段階では悪いアイデアはありません。" },
+      { s: "B", en: "Okay, how about a short video series featuring real customers?", ja: "では、実際の顧客を起用した短い動画シリーズはどうでしょう？" },
+      { s: "A", en: "I like that. We could build on it with a social media challenge.", ja: "いいですね。それを発展させて、SNSのチャレンジ企画も加えられます。" },
+      { s: "B", en: "Great point. That would encourage people to share their own stories.", ja: "なるほど。それなら人々が自分の体験を共有したくなりますね。" },
+      { s: "A", en: "Let's park that idea and come back to it after we list a few more.", ja: "そのアイデアは一旦置いて、もう少し出してから戻りましょう。" },
+      { s: "B", en: "Fair enough. Another option is partnering with a local influencer.", ja: "もっともです。もう一つの案は、地元のインフルエンサーとの提携です。" },
+      { s: "A", en: "Interesting. Let's note it and evaluate all the ideas together later.", ja: "面白いですね。メモして、後で全案をまとめて評価しましょう。" },
+      { s: "B", en: "Perfect. This has been a really productive session.", ja: "完璧です。とても生産的な打ち合わせでした。" }
+    ]
   }
 ];
 
@@ -111,6 +149,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2629-t03", ja: "株価が急落したとき、個人はどう行動すべきだと思いますか？", en: "How should individuals act when stock prices crash?",
     sample: { point: "In my view, individuals should stay calm and avoid panic-selling when prices crash.", reason: "Because a falling price does not mean a good company has become worthless overnight.", example: "For example, chip stocks recently halved in value, yet the companies kept making products and earning money.", point2: "So the smart move is usually to focus on long-term value rather than react to sudden market moods." }
+  },
+  {
+    id: "w2630-t01", ja: "宇宙開発は民間企業に任せるべきだと思いますか？", en: "Should space development be left to private companies?",
+    sample: { point: "I think space development should be a partnership between governments and private companies, not left entirely to either.", reason: "This is because competition among private firms lowers costs, while governments provide long-term goals and safety rules.", example: "For example, NASA now pays private companies to deliver cargo to the Moon, which has made missions far cheaper and more frequent.", point2: "So the best approach combines private efficiency with public direction." }
+  },
+  {
+    id: "w2630-t02", ja: "各国はAIを核兵器のように国際ルールで管理すべきだと思いますか？", en: "Should nations manage AI with international rules, like nuclear weapons?",
+    sample: { point: "Yes, I believe powerful AI needs international rules, similar to those for nuclear technology.", reason: "The main reason is that advanced AI can affect global security through cyberattacks, disinformation, and military use.", example: "For example, major powers have started to hold talks about AI safety, treating it as a matter of diplomacy, not just business.", point2: "So while rules will be hard to write, trying to manage AI cooperatively is wiser than an uncontrolled race." }
+  },
+  {
+    id: "w2630-t03", ja: "個人の環境への取り組み（リサイクル等）は意味があると思いますか？", en: "Do individual environmental efforts, like recycling, really matter?",
+    sample: { point: "Yes, I think individual green efforts matter, both directly and indirectly.", reason: "This is because taking action on a value tends to strengthen it, making people support bigger reforms too.", example: "For example, a recent study found that people who recycle or eat less meat are actually more likely to support major environmental policies.", point2: "So personal action and large-scale change are not rivals — they reinforce each other." }
   }
 ];
 
