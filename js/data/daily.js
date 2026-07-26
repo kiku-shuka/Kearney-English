@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-27",
+    passages: [
+      {
+        id: "d0727-1",
+        title: "One Company, Factories Everywhere",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "The most advanced computer chips in the world are made by only a handful of companies, and one of them is now building new factories in several countries at once — the United States, Japan, Germany, and its home base in Taiwan. At the same time, it is developing ever more advanced and expensive manufacturing processes. This global expansion tells a story about how modern business balances risk and cost.\nWhy build factories in so many places instead of keeping everything in one efficient location? The answer is largely about risk. Chips are now so important to the world economy — used in cars, phones, weapons, and every kind of machine — that governments want them made inside their own borders, not only far away. By spreading its factories, the company reduces the danger that a single natural disaster, political conflict, or supply problem could cut off the world's chips.\nBut this safety has a price. Building the same advanced factory in several countries costs far more than concentrating in one place. Workers must be trained, local suppliers developed, and each site brought up to the same extreme standards. Meanwhile, each new generation of chips requires machines of almost unbelievable complexity and cost.\nThe company is making a classic business trade-off. Concentration is cheaper but riskier; spreading out is safer but more expensive. In a world where governments increasingly treat chips as strategic, and where a single disruption could ripple across the globe, the firm is choosing resilience — even at a higher cost.\nThe deeper lesson applies broadly. For decades, businesses optimized almost entirely for efficiency. Now, after repeated shocks, many are rediscovering an older wisdom: that being able to survive a crisis can matter more than squeezing out the last bit of savings.",
+        summaryJa: "世界最先端のチップを作れるのは一握りの企業で、その一社が今、米国・日本・ドイツ・本拠地の台湾と同時に新工場を建てつつ、より高度で高価な製造プロセスも開発している。この世界展開は、現代ビジネスがリスクとコストをどう均衡させるかを物語る。なぜ効率的な一拠点に集約せず各地に建てるのか——主にリスクゆえだ。チップは自動車・スマホ・兵器などに不可欠で、各国は自国内での生産を望む。工場を分散すれば、災害・政治対立・供給問題で世界のチップが途絶える危険が減る。だが安全には代償があり、同じ高度工場を各国に建てるのは集約より遥かに高くつく。集約は安いが危険、分散は安全だが高価という古典的なトレードオフで、チップを戦略物資とみなす世界で企業は高コストでも強靱性を選んでいる。数十年効率一辺倒だった企業が、度重なる衝撃の後、「危機を生き延びる力」の古い知恵を再発見しつつある。",
+        quiz: [
+          { q: "この企業が各国に工場を分散する主な理由は？", options: ["災害や対立で世界のチップが途絶えるリスクを減らすため", "工場が余っているから", "税金がゼロだから"], answer: 0 },
+          { q: "分散の代償は？", options: ["同じ高度工場を各国に建てるのは集約より高くつく", "品質が下がる", "従業員が不要になる"], answer: 0 },
+          { q: "本文が示す古い知恵とは？", options: ["危機を生き延びる力が最後の節約より重要", "効率がすべて", "分散は無意味"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0727-2",
+        title: "When Hackers Stop the Factory",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "In recent years, a growing threat has been able to do something once thought impossible: stop the factories of major companies without touching a single machine physically. The weapon is ransomware — malicious software that locks up a company's computer systems until a ransom is paid. Recent attacks have halted production at well-known consumer brands, showing how digital crime can cause very real-world damage.\nHow does ransomware work? Attackers find a way into a company's computer network, often by tricking an employee into clicking a harmful link or opening an infected file. The software then spreads, scrambling important files so no one can use them, and displays a demand for payment — usually in hard-to-trace digital currency — in exchange for unlocking the data. Because modern factories, shipping, and sales all depend on computers, freezing those systems can bring an entire business to a stop.\nThe damage goes beyond any ransom. A company may lose days or weeks of production, disappoint customers, and suffer lasting harm to its reputation. Even paying the ransom is risky, since there is no guarantee the criminals will restore the systems, and paying may encourage more attacks.\nDefending against ransomware requires constant effort. Companies train employees to recognize suspicious messages, keep backup copies of their data so they can recover without paying, update their software to fix weaknesses, and limit how far an intruder can spread inside the network.\nThe broader lesson is that in a connected world, security is everyone's job. As more of business and daily life moves online, the line between digital and physical safety fades. A careless click can stop a factory floor, which means that understanding basic cybersecurity is no longer only a task for specialists — it is a skill everyone in a modern organization needs.",
+        summaryJa: "近年、かつて不可能と思われたこと——物理的に機械に触れず大企業の工場を止める——を可能にする脅威が増えている。武器は「ランサムウェア」で、身代金を払うまで企業のシステムをロックする悪意あるソフトだ。最近の攻撃は有名ブランドの生産を停止させ、デジタル犯罪が現実の被害を生むことを示した。攻撃者は従業員に有害なリンクを踏ませるなどで侵入し、ソフトが広がって重要ファイルを暗号化し、追跡困難なデジタル通貨での支払いを要求する。現代の工場・物流・販売は計算機に依存するため、システム凍結が事業全体を止める。被害は身代金を超え、数日〜数週の生産停止・顧客の失望・評判の毀損に及ぶ。支払っても復旧の保証はなく、さらなる攻撃を招きうる。防御には、不審メールの見分け、バックアップ、ソフト更新、侵入の拡散制限が要る。つながった世界でセキュリティは全員の仕事——不用意な一クリックが工場を止めうる。",
+        quiz: [
+          { q: "ランサムウェアとは？", options: ["身代金を払うまでシステムをロックする悪意あるソフト", "工場の機械", "新しい通貨"], answer: 0 },
+          { q: "被害が身代金を超えるとされる理由は？", options: ["生産停止・顧客の失望・評判の毀損に及ぶから", "身代金だけで済むから", "被害はないから"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["つながった世界でセキュリティは全員の仕事", "専門家だけの問題", "クリックは安全"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0727-3",
+        title: "Europe Looks for Its Own Rare Earths",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Modern green technology has a hidden dependence. The powerful magnets inside electric-car motors and wind turbines rely on a group of materials called rare earth elements. For years, the mining and processing of these materials has been dominated by a small number of countries. Now reports suggest that Sweden could become an important new source of rare earths for Europe — a development with large strategic meaning.\nWhy does the source of these materials matter so much? Because whoever controls the supply of a critical material gains power over everyone who needs it. If most of the world's rare earths come from one place, and that source is cut off — by conflict, politics, or export limits — industries everywhere could suddenly struggle. For Europe, which wants to build electric cars and clean energy on a massive scale, depending entirely on distant suppliers is a serious risk.\nDeveloping a home source is not simple. Finding rare earths in the ground is only the first step; the harder challenge is processing them, which is complex, costly, and can harm the environment if not done carefully. Building this capacity takes years of investment and skill, which is why no region can shift its supply overnight.\nStill, the strategic logic is powerful. A reliable domestic supply would make Europe less vulnerable to distant disruptions and give it more control over its own green transition. Even if it costs more than importing, the security may be worth the price.\nThe broader theme is one that appears again and again in today's world: the tension between efficiency and security. The cheapest source is not always the safest, and for materials a society truly cannot do without, many nations are now deciding that some independence is worth paying for.",
+        summaryJa: "現代のグリーン技術には隠れた依存がある。EVモーターや風力タービンの強力な磁石は「レアアース」に頼る。長年、その採掘・精錬は少数の国に支配されてきた。今、スウェーデンが欧州の新たなレアアース源になりうると報じられ、大きな戦略的意味を持つ。なぜ供給源が重要か——重要材料の供給を握る者は、それを必要とする皆に対し力を持つからだ。世界のレアアースが一か所に偏り、それが対立・政治・輸出制限で断たれれば、各地の産業が突然苦境に陥る。EVとクリーンエネルギーを大規模に築きたい欧州には、遠方依存は深刻なリスクだ。国内供給の構築は容易でなく、鉱石発見は第一歩で、環境負荷を伴う精錬こそ難しく、年月と技術投資が要る。それでも、信頼できる国内供給は遠方の混乱への脆さを減らし、緑の移行を自ら制御できる。効率と安全の緊張——最安が最安全とは限らず、欠かせない材料では多くの国が「一定の自立には払う価値がある」と判断し始めた。",
+        quiz: [
+          { q: "レアアースは何に使われる？", options: ["EVモーターや風力タービンの強力な磁石", "食品の保存", "紙の製造"], answer: 0 },
+          { q: "供給源が偏ると起きうる問題は？", options: ["供給が断たれると各地の産業が苦境に陥る", "価格が必ず下がる", "何も起きない"], answer: 0 },
+          { q: "国内供給構築の難しさは？", options: ["環境負荷を伴う精錬が難しく年月と投資が要る", "鉱石がないこと", "誰も必要としないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0727-4",
+        title: "Rehearsing in Space",
+        level: "★★☆",
+        genre: "日本",
+        text: "Before doing something difficult and dangerous, it is wise to practice. This simple idea is guiding one of the boldest space plans in years: an ambitious orbital rehearsal for landing astronauts on the Moon. Rather than attempting everything for the first time during the real landing, engineers plan to test the key steps in space first — a careful, methodical approach that reflects a deep principle of good engineering.\nReturning humans to the Moon after decades is enormously complex. Spacecraft must travel far from Earth, meet and connect in orbit, and support astronauts through many delicate steps. A single mistake could endanger lives. By rehearsing critical parts of the mission in space before the actual landing, teams can find and fix problems where the stakes are lower, building confidence for the real attempt.\nThis method — test, learn, and improve before the final performance — is not unique to space. It is how careful engineers, athletes, musicians, and professionals of all kinds prepare for high-pressure moments. Practicing under realistic conditions reveals problems that no amount of planning on paper can predict.\nThere is a lesson here for learners too, including those studying a language. Rehearsal matters. Practicing a presentation before giving it, or having a trial conversation before an important meeting, is the same principle at work: reduce risk and build confidence by trying the hard parts in advance, when mistakes are cheap.\nThe broader wonder is how methodical space exploration has become. What looks like a giant leap is, in reality, the result of countless small, careful steps — each one tested, checked, and rehearsed. Behind every bold achievement lies patient preparation, and the courage to reach the Moon rests on the quiet discipline of practicing first.",
+        summaryJa: "難しく危険なことをする前に練習するのは賢明だ。この単純な考えが、近年最も大胆な宇宙計画の一つ——月への有人着陸に向けた野心的な軌道上リハーサル——を導いている。本番の着陸で初めて全てを試すのでなく、鍵となる工程を先に宇宙で試す、優れた工学の原理を反映した慎重な手法だ。数十年ぶりの有人月帰還は極めて複雑で、遠方への航行、軌道上でのランデブーと結合、繊細な多くの工程を要し、一つのミスが命を危険にさらす。本番前に重要部分を宇宙でリハーサルすれば、賭け金の低いうちに問題を見つけ直せ、本番への自信になる。「本番前に試し学び改善する」は宇宙に限らず、技術者・アスリート・音楽家が高圧の場面に備える方法だ。語学学習者にも通じる——プレゼンや重要会議前の予行は、ミスが安いうちに難所を試しリスクを減らし自信を築く同じ原理だ。大胆な達成の裏には忍耐強い準備があり、月へ届く勇気は「まず練習する」静かな規律に支えられている。",
+        quiz: [
+          { q: "月着陸計画で採られている慎重な手法は？", options: ["本番前に鍵となる工程を宇宙でリハーサルする", "練習なしで本番を行う", "着陸をやめる"], answer: 0 },
+          { q: "リハーサルの利点は？", options: ["賭け金の低いうちに問題を見つけ自信を築ける", "時間の無駄になる", "危険が増す"], answer: 0 },
+          { q: "語学学習者への教訓は？", options: ["プレゼンや会議前の予行でミスが安いうちに難所を試す", "練習は不要", "本番だけが大事"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0727-5",
+        title: "Passing Energy, One Particle at a Time",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Deep inside the world of the very small, scientists study how energy moves from one tiny object to another — and each new understanding can lead to better technology. Recently, researchers discovered a surprising helper in this process: a proton, one of the basic particles inside an atom, that greatly improves how energy travels between tiny structures called quantum dots and nearby molecules.\nQuantum dots are incredibly small crystals, so tiny that the rules of quantum physics shape their behavior. They can absorb and release light in precise, controllable ways, which makes them useful in many technologies — from brighter, more efficient displays to advanced sensors and solar cells. A key challenge is controlling how energy passes from a quantum dot to other materials, because that transfer determines how well a device works.\nThe new research revealed that a proton can act like a tiny assistant, helping energy jump more efficiently from one place to the next. Understanding this hidden step gives scientists a new tool to design better materials — for example, solar cells that capture more sunlight, or displays that use less power.\nWhy does such a small discovery matter? Because much of modern technology is built on precisely controlling energy and light at the smallest scales. A screen, a solar panel, and a medical sensor all depend on getting these tiny transfers right. Each improvement in understanding, however small it seems, can ripple outward into real devices that touch daily life.\nThe deeper wonder is how the largest technologies grow from the smallest details. The glowing screen in your hand and the solar panel on a roof both rely on the quiet, invisible movement of energy between particles. By learning to guide that movement more skillfully, scientists slowly expand what our machines can do — proof that in science, understanding the very small can change the very large.",
+        summaryJa: "極めて小さな世界の奥で、科学者はエネルギーが一つの微小物体から別へどう移るかを研究し、新たな理解が良い技術を生む。最近、その過程の意外な助っ人が見つかった——原子内の基本粒子である陽子が、「量子ドット」という微小構造と近くの分子との間のエネルギー移動を大きく改善するのだ。量子ドットは量子物理が振る舞いを支配するほど小さな結晶で、光を精密・制御可能に吸収・放出でき、高効率ディスプレイ・センサー・太陽電池などに有用だ。鍵は量子ドットから他材料へのエネルギー移動の制御で、それが性能を決める。新研究は、陽子が小さな助手のように働き、エネルギーがより効率よく飛び移るのを助けると明かした。この隠れた段階の理解は、より多くの光を捉える太陽電池や低消費電力の画面など、良い材料設計の新しい道具になる。現代技術の多くは最小スケールでのエネルギーと光の精密制御に支えられ、小さな理解の改善が日常の機器へ波及する。最大の技術が最小の細部から育つ——小を理解することが大を変える。",
+        quiz: [
+          { q: "研究で見つかった「意外な助っ人」は？", options: ["陽子", "電気ケーブル", "レンズ"], answer: 0 },
+          { q: "量子ドットが有用な理由は？", options: ["光を精密・制御可能に吸収・放出できる", "とても大きいから", "光らないから"], answer: 0 },
+          { q: "本文の深い驚きは？", options: ["最大の技術が最小の細部から育つ", "小さな研究は無意味", "技術は変わらない"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-26",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "研究者がガラス管内で作り出したものは？", options: ["宇宙塵", "本物の惑星", "新しい星"], answer: 0 },
           { q: "宇宙塵が重要な理由は？", options: ["集まって惑星の材料になるから", "光るから", "食べられるから"], answer: 0 },
           { q: "実験室で再現した理由は？", options: ["本物は遠く長い時間で形成され研究が難しいから", "宇宙に行けないから", "望遠鏡が壊れたから"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-20",
-    passages: [
-      {
-        id: "d0720-1",
-        title: "Three Rivals Consider Joining Forces",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Three major Japanese electronics companies are reportedly exploring a merger of their power-chip businesses. Power chips are a special kind of semiconductor that controls the flow of electricity in cars, appliances, factories, and renewable energy systems. Combining three of the world's top suppliers would create a giant in a fast-growing part of the industry.\nWhy would competitors want to join forces? The main reason is scale. Building advanced chips requires enormous investment in factories and research — costs so high that even large companies struggle to keep up alone. By merging, the companies can share these costs, avoid duplicating effort, and invest more in future technology. A single strong player can also compete better against big foreign rivals.\nThere is a national angle too. Governments increasingly see chips as strategic, wanting reliable domestic suppliers rather than depending entirely on other countries. A merged company would strengthen Japan's position in a technology the whole economy depends on.\nMergers are not simple, however. Combining three companies means blending different cultures, systems, and teams — a process that can take years and sometimes fails. Customers may worry about reduced competition and higher prices. Regulators will examine whether the deal is fair to the market.\nFor students of business, the story shows a key strategic choice. When an industry demands more scale than any single firm can provide, companies face a decision: keep competing alone and risk falling behind, or combine forces and gain strength while giving up some independence. It is one of the hardest and most important calls a company can make.",
-        summaryJa: "日本の大手電機3社が、パワー半導体事業の統合を検討していると報じられた。パワー半導体は自動車・家電・工場・再エネで電流を制御する重要チップ。世界有数の供給3社が統合すれば、成長分野で巨大企業が生まれる。狙いは規模——巨額の設備・研究投資を分担し、重複を避け、海外勢に対抗できる。チップを戦略物資とみなす国家的観点もある。ただ3社の文化・システム統合は難しく数年かかり失敗もあり、競争減少や値上げへの懸念、規制当局の審査もある。単独では足りない規模が要る産業で「単独で戦うか、力を合わせて独立性を一部手放すか」という重要な戦略判断を示す。",
-        quiz: [
-          { q: "パワー半導体とは？", options: ["自動車や家電などで電流を制御するチップ", "写真を撮るチップ", "音を出す部品"], answer: 0 },
-          { q: "競合が統合を検討する主な理由は？", options: ["巨額の投資コストを分担し規模を得るため", "従業員を減らすため", "工場を閉じるため"], answer: 0 },
-          { q: "統合の難しさとして挙げられていないものは？", options: ["異なる文化・システムの統合", "競争減少や規制審査", "電気が使えなくなること"], answer: 2 }
-        ]
-      },
-      {
-        id: "d0720-2",
-        title: "Linking Light and Magnetism",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Scientists have reported a quantum breakthrough that links light and magnetism inside materials only a few atoms thick. It sounds abstract, but connecting these two forces could open new paths for the computers and devices of the future.\nLight and magnetism are both fundamental parts of nature, but they usually do not interact strongly. Light carries energy and information at incredible speed; magnetism is how we store data on hard drives and how many sensors work. If we could make light control magnetism, or magnetism shape light, inside a tiny material, we could combine the best of both — fast communication and stable storage — in a single system.\nThe key is the use of extremely thin materials, sometimes just one layer of atoms. At that scale, the normal rules soften and quantum effects take over, allowing forces to interact in ways impossible in ordinary bulk materials. Researchers have been building a whole family of these atom-thin materials, each with surprising powers, ever since the discovery of graphene.\nThe potential uses are exciting but still distant. Devices that manage information with both light and magnetism could be faster and use less energy than today's electronics. Some scientists also see links to quantum computing, where controlling delicate quantum states is essential.\nAs always with early research, patience is required. Effects shown in a laboratory must be made reliable, scalable, and affordable before they change the products we use. But each new way of connecting nature's forces expands the toolbox from which tomorrow's technology will be built.",
-        summaryJa: "原子数個分の薄い材料の中で「光と磁気」を結びつける量子的成果が報告された。光は高速で情報を運び、磁気はデータ保存やセンサーに使われるが、通常は強く相互作用しない。ごく薄い材料では量子効果が支配的になり、光で磁気を操る等が可能になれば、高速通信と安定保存を一つの系に統合できる。グラフェン以来の原子薄膜材料群の一例で、より高速・低消費電力の機器や量子コンピュータへの応用が期待される。実験室の効果を信頼性・量産性・低コストにするのはこれからだが、自然の力を結ぶ新手法が未来技術の道具箱を広げる。",
-        quiz: [
-          { q: "今回の成果は何を結びつけた？", options: ["光と磁気", "音と熱", "水と油"], answer: 0 },
-          { q: "極薄材料でこれが可能になる理由は？", options: ["量子効果が支配的になるから", "材料が重いから", "色が変わるから"], answer: 0 },
-          { q: "期待される応用は？", options: ["高速・低消費電力の機器や量子コンピュータ", "新しい飲み物", "道路の舗装"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0720-3",
-        title: "One Year After a Tariff Deal",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "A year after a major trade agreement, reports say only about twenty percent of the investments Japan pledged to make in the United States are actually underway. The gap between promise and progress reveals an important truth about international economics: agreements are signed quickly, but real investment takes years.\nWhy the slow pace? Building factories, research centers, or supply chains is enormously complex. Companies must find land, hire workers, obtain permits, and be confident that the investment will pay off over decades. A government can announce a large number in a trade deal, but the actual spending depends on thousands of individual business decisions, each made carefully.\nTrade deals often mix politics and economics. Leaders want to show quick results, so they announce big totals. But businesses invest based on costs, demand, and stability — not on political timelines. If conditions change, or if the numbers were optimistic to begin with, real investment can lag far behind the headline figure.\nThis matters for anyone trying to understand the global economy. Big announced numbers grab attention, but the more useful question is always: how much is actually happening? Following the slow, real flow of money tells you more than the exciting figures in a signing ceremony.\nThe broader lesson applies to business and life alike. A promise is a statement of intention; progress is what actually gets done. Wise observers watch not just what is announced, but what is delivered — and understand that the distance between the two can be very large.",
-        summaryJa: "大型通商合意から1年、日本が約束した対米投資のうち実際に動いているのは約2割にとどまると報じられる。合意は速く結ばれても実投資は数年かかるという国際経済の真実を示す。工場・研究所・サプライチェーンの建設は複雑で、企業は土地・人材・許認可・数十年の採算を見極める。政治は大きな数字を打ち出したがるが、企業はコスト・需要・安定性で判断し政治日程では動かない。だから「発表額」より「実際に進んでいる量」を見るべき。約束は意図の表明、進捗は実際に成されたこと——賢明な観察者は発表ではなく実現を見る。",
-        quiz: [
-          { q: "合意から1年で実際に動いている投資は？", options: ["約2割", "10割", "ゼロ"], answer: 0 },
-          { q: "実投資が遅い理由は？", options: ["建設は複雑で数十年の採算を見極める必要があるから", "企業がやる気がないから", "お金がないから"], answer: 0 },
-          { q: "本文が勧める見方は？", options: ["発表額より実際に進んでいる量を見る", "発表額だけを信じる", "投資は無視する"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0720-4",
-        title: "A Tourism Boom That Keeps Shifting",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan's tourism boom continues at a remarkable pace. Reports say the number of visitors in the first half of the year topped twenty million for the second year in a row. But beneath that strong headline lies a more complicated picture: where the visitors come from is changing sharply, with a large drop in tourists from one major country balanced by growth from many others.\nThis shift carries an important business lesson about diversification. A tourism industry — or any business — that depends too heavily on customers from a single country is fragile. If political tensions, economic trouble, or changing tastes reduce travel from that one source, the whole industry suffers. When visitors come from many countries instead, a fall from one can be offset by rises from others, keeping total numbers stable.\nJapan's appeal is broad, which helps. Its food, safety, culture, nature, and cities attract travelers from across Asia, Europe, North America, and beyond. Regions once dependent mainly on visitors from nearby countries are now welcoming a wider mix, which makes the boom more resilient.\nThere are challenges alongside the benefits. Popular areas face crowding, rising prices, and strain on local life. Different visitors have different needs — languages, foods, and travel styles — so businesses must adapt. But a diverse base of customers is a strength, not a weakness.\nThe wider point reaches beyond tourism. Whether you run a hotel, a factory, or a shop, depending on one big source of income is risky. Spreading that dependence across many sources — customers, markets, or suppliers — is one of the simplest and most powerful ways to build something that lasts.",
-        summaryJa: "日本の観光ブームは続き、上半期の訪日客は2年連続で2,000万人を超えた。だが好調の裏で客の出身国が大きく変化し、ある大国からの減少を他の多くの国からの増加が補っている。これは多角化という重要な教訓を示す——単一の国の客に依存する産業は脆く、多国から来れば一国の落ち込みを他が補い総数が安定する。食・治安・文化・自然・都市という幅広い魅力が助けになる。混雑や物価上昇、多様なニーズへの対応という課題はあるが、多様な客層は強みだ。ホテルでも工場でも店でも、一つの収入源への依存は危険で、依存を分散することが長続きする事業の要となる。",
-        quiz: [
-          { q: "上半期の訪日客数は？", options: ["2年連続で2,000万人超", "初めて100万人", "前年の半分"], answer: 0 },
-          { q: "本文が示す教訓は？", options: ["単一の客に依存せず多角化する", "一国に集中すべき", "観光をやめるべき"], answer: 0 },
-          { q: "客の出身が多国にわたる利点は？", options: ["一国の落ち込みを他が補い総数が安定する", "混雑がなくなる", "言語が一つで済む"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0720-5",
-        title: "The Wonder of Atom-Thin Materials",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Some of the most exciting materials in science are almost nothing at all — sheets just one atom thick. The story began in 2004 with graphene, a single layer of carbon atoms famously first isolated using ordinary sticky tape to peel flakes from a pencil-like block of graphite. That simple trick launched a scientific revolution.\nWhy does thinness change everything? When a material becomes truly two-dimensional, its electrons can only move in a flat plane, and the ordinary rules of physics give way to strange quantum behavior. Graphene turned out to be stronger than steel, an excellent conductor of electricity and heat, and nearly transparent. Since then, scientists have discovered a whole family of atom-thin materials, each with its own surprising powers — some conduct, some insulate, some are magnetic, and some interact with light in unusual ways.\nThe potential uses are vast. These materials could lead to faster and more efficient electronics, flexible screens that bend without breaking, better batteries, ultra-sensitive sensors, and components for quantum computers. Because they are so thin and light, they might fit into devices where today's materials are too bulky.\nThere is still a gap between promise and product. Making these materials cheaply, in large sheets, and with few flaws remains difficult, and many laboratory wonders never reach the market. But the field keeps growing, and the toolbox of atom-thin materials keeps expanding. From a piece of sticky tape to the frontier of quantum technology, it is a reminder that some of science's biggest leaps begin with the simplest of ideas.",
-        summaryJa: "科学で最も刺激的な材料の一つは、原子1個分の薄さのシートだ。始まりは2004年のグラフェン(炭素1原子層)で、鉛筆のような黒鉛から粘着テープで薄片を剥がすという単純な方法で初めて単離され、科学革命を起こした。真に2次元になると電子は平面しか動けず量子的な奇妙な性質が現れる。グラフェンは鋼より強く、電気・熱をよく通し、ほぼ透明。以来、伝導・絶縁・磁性・光との相互作用など多彩な原子薄膜材料群が見つかった。高速電子機器、曲がる画面、より良い電池、高感度センサー、量子コンピュータ部品などへの応用が期待される。安価に大面積・低欠陥で作る難しさは残るが、粘着テープから量子技術の最前線へ——最大の飛躍は最も単純な発想から始まる。",
-        quiz: [
-          { q: "グラフェンが最初に単離された方法は？", options: ["粘着テープで黒鉛から薄片を剥がす", "高温で溶かす", "海から採取する"], answer: 0 },
-          { q: "極薄になると何が起きる？", options: ["量子的な奇妙な性質が現れる", "材料が消える", "色だけが変わる"], answer: 0 },
-          { q: "原子薄膜材料の課題は？", options: ["安価に大面積・低欠陥で作るのが難しい", "軽すぎて使えない", "研究できない"], answer: 0 }
         ]
       }
     ]
