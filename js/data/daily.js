@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
   {
+    date: "2026-07-28",
+    passages: [
+      {
+        id: "d0728-1",
+        title: "Rivals Team Up to Build a Car's Brain",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Two of Japan's biggest carmakers, long-time competitors, have reportedly entered final-stage talks to work together on something surprising: the software that will act as the 'brain' of their next-generation vehicles. An agreement could come within weeks. Rivals cooperating on a core technology is a growing trend, and it reveals how much the car industry is changing.\nWhy would competitors share such an important system? Because modern cars are becoming computers on wheels. The software that controls a vehicle's functions — its 'operating system' — is now as important as the engine once was. But developing this software is enormously expensive and complex, requiring skills more common in technology companies than traditional carmakers. By sharing the cost and effort, two firms can move faster and cheaper than either could alone.\nThis kind of partnership involves a careful balance. The companies will still compete fiercely on design, brand, and driving experience. They cooperate only on the shared foundation — the software platform — that neither gains much advantage from building separately. It is like rival restaurants sharing a supplier for basic ingredients while competing on their recipes.\nThe change reflects a bigger shift in the auto industry. For a century, a car's value lay mainly in its mechanical engineering. Now, more and more, it lies in software: how the car connects, updates, drives itself, and serves its passengers. Carmakers that cannot master software risk falling behind newer, technology-focused competitors.\nThe broader business lesson is about knowing when to compete and when to cooperate. Building the same expensive foundation separately can waste resources that could go toward what truly sets a company apart. Sometimes the smartest strategy is to join forces on the basics, and save the real competition for what customers actually notice.",
+        summaryJa: "長年のライバルである日本の大手自動車2社が、次世代車の「頭脳」となるソフトウェアで協業する最終段階の交渉に入ったと報じられ、数週内の合意もありうる。ライバルが中核技術で協力するのは増える傾向で、車産業の変化を映す。なぜ重要なシステムを共有するのか——現代の車は「車輪の上のコンピュータ」化し、機能を制御するOSがかつてのエンジン並みに重要だが、開発は極めて高価・複雑でIT企業寄りの技術が要る。費用と労力を分担すれば単独より速く安く進める。協業は微妙な均衡で、デザイン・ブランド・走りでは激しく競い、単独開発で差がつかない共通基盤(ソフト基盤)だけ協力する。ライバル店が基本食材の仕入れを共有しレシピで競うようなものだ。車の価値は機械工学からソフトへ移りつつあり、ソフトを制せぬメーカーは新興IT勢に後れる。基本で手を組み、顧客が気づく部分で真に競う——競争と協力の見極めが賢い戦略だ。",
+        quiz: [
+          { q: "2社が協業しようとしている対象は？", options: ["次世代車の中核ソフトウェア(OS)", "エンジンの部品", "販売店の場所"], answer: 0 },
+          { q: "ライバルが基盤で協力する理由は？", options: ["ソフト開発は高価・複雑で分担すれば速く安いから", "競争が嫌いだから", "法律の要求だから"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["基本で協力し、顧客が気づく部分で競う見極めが賢い", "常に単独で作るべき", "協力は無意味"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0728-2",
+        title: "A Car That Is Really a Computer",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Not long ago, a car was mainly a mechanical machine: an engine, wheels, and steel. Today, a modern vehicle contains dozens of computers and millions of lines of software code, and increasingly its most important part is not the engine but the 'operating system' — the master software that controls everything from the dashboard to the brakes.\nWhy has software become so central? Because it determines what a car can do and how it improves over time. A software-defined car can receive updates over the internet, just like a smartphone, gaining new features or fixing problems without a trip to the garage. It can connect to other services, learn a driver's preferences, and support advanced safety systems or self-driving features. The physical car may stay the same, but the software can make it better month after month.\nThis shift changes what carmakers must be good at. For a century, they mastered metal, engines, and mechanical precision. Now they also need the skills of technology companies: writing reliable software, managing data, and updating systems safely. Some traditional carmakers find this transition difficult, while newer companies built around software have an advantage.\nThere are challenges. Software in a car must be extremely reliable, because a failure can be dangerous. It must be secure against hackers, since a connected car is a possible target. And it must last for many years, far longer than a typical phone.\nThe deeper trend is one seen across many industries: physical products are becoming platforms for software. Just as phones became app machines and televisions became streaming devices, cars are becoming computers that happen to move. Understanding this shift helps explain why carmakers now compete not only on horsepower and design, but increasingly on code.",
+        summaryJa: "少し前まで車は主に機械——エンジン・車輪・鋼だった。今の車は数十の計算機と数百万行のコードを持ち、最重要部分はエンジンでなく、ダッシュボードからブレーキまで制御する「OS」になりつつある。なぜソフトが中心か——車にできることと、時間とともにどう良くなるかを決めるからだ。ソフト定義の車はスマホのようにネット経由で更新でき、整備工場に行かず新機能追加や不具合修正ができ、他サービスと接続し、運転者の好みを学び、先進安全や自動運転を支える。物理的な車は同じでもソフトが毎月良くする。これはメーカーに必要な能力を変える。長年、金属・エンジン・機械精度を極めたが、今は信頼できるソフト開発・データ管理・安全な更新というIT企業の技能も要る。車のソフトは極めて信頼性が高く、ハッカーに強く、スマホより遥かに長寿命でねばならない。物理製品がソフトの土台になる——電話がアプリ機に、テレビが配信機になったように、車は「動く計算機」になりつつある。",
+        quiz: [
+          { q: "現代の車で最重要になりつつある部分は？", options: ["すべてを制御するOS(ソフトウェア)", "エンジンのみ", "タイヤの色"], answer: 0 },
+          { q: "ソフト定義の車の利点は？", options: ["ネット経由で更新し新機能追加や不具合修正ができる", "更新できない", "重くなる"], answer: 0 },
+          { q: "車のソフトに求められる条件に含まれないものは？", options: ["高い信頼性とセキュリティ", "長い寿命", "毎年買い替えること"], answer: 2 }
+        ]
+      },
+      {
+        id: "d0728-3",
+        title: "Treasure in the Deep-Sea Mud",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Far below the ocean surface, in the mud of the deep seabed near Japan's easternmost island, scientists have confirmed the presence of several rare earth elements — the valuable materials essential for magnets, electronics, and green technology. The discovery could one day help reduce the world's dependence on a small number of land-based suppliers, but turning seabed mud into usable materials is far from simple.\nWhy is this exciting? Because rare earths are critical to modern technology, yet their supply is dominated by only a few countries. A nation with its own source — even one deep underwater — could gain valuable independence. For a country like Japan, which imports most of its raw materials, finding these elements within its own waters is strategically important.\nBut the challenges are enormous. The mud lies thousands of meters below the surface, in cold, dark, high-pressure conditions where working is extremely difficult and expensive. Bringing up the mud, separating the rare earths, and doing so without harming the deep-sea environment are all major technical and ethical problems. Deep-sea mining raises real concerns about damage to fragile ocean ecosystems that we still barely understand.\nSo the discovery is a beginning, not an answer. It shows that valuable resources exist, but using them will require years of research, new technology, and careful thought about environmental costs. A resource that cannot be reached affordably and responsibly is, for now, only a possibility.\nThe broader lesson is about the gap between finding and using. Discovering a resource is exciting, but value comes from being able to obtain it in a way that is affordable, safe, and responsible. Whether under the sea or anywhere else, potential only becomes real through the hard, patient work of turning discovery into practical use.",
+        summaryJa: "海面のはるか下、日本最東端の島近くの深海底の泥に、磁石・電子機器・グリーン技術に不可欠なレアアース数種の存在が確認された。いつか世界の陸上供給国への依存を減らせるかもしれないが、海底の泥を使える材料にするのは容易でない。なぜ画期的か——レアアースは現代技術に不可欠なのに供給が少数国に偏り、自前の源(たとえ深海でも)を持てば貴重な自立を得られる。原材料の多くを輸入する日本には自国水域での発見は戦略的に重要だ。だが課題は膨大で、泥は数千メートル下の冷たく暗い高圧環境にあり、作業は極めて難しく高価。泥の引き上げ、レアアースの分離、そして脆い深海生態系を傷めずに行うことは大きな技術的・倫理的問題だ。深海採掘はまだよく分からない生態系への損傷の懸念を生む。発見は答えでなく始まりで、利用には年月の研究・新技術・環境コストへの熟慮が要る。手頃かつ責任ある形で得られない資源は今は可能性にすぎない。発見と利用の間の隔たり——潜在は、発見を実用に変える地道な努力でのみ現実になる。",
+        quiz: [
+          { q: "深海の泥で確認されたものは？", options: ["レアアース元素", "石油", "金塊"], answer: 0 },
+          { q: "この発見が戦略的に重要な理由は？", options: ["レアアースの供給が少数国に偏り、自前の源で自立できるから", "泥が珍しいから", "海がきれいだから"], answer: 0 },
+          { q: "本文が示す「発見と利用の隔たり」とは？", options: ["手頃・安全・責任ある形で得られて初めて価値になる", "発見すればすぐ使える", "利用は簡単"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0728-4",
+        title: "Where Japan Began",
+        level: "★★☆",
+        genre: "日本",
+        text: "In the quiet countryside of Nara Prefecture lie the remains of a place where, more than thirteen hundred years ago, the shape of modern Japan first took form. UNESCO has now added the Asuka-Fujiwara sites — the location of Japan's early capitals — to its World Cultural Heritage list, making them the country's twenty-seventh World Heritage property. The decision recognizes a landscape where a nation was, in many ways, born.\nWhy are these sites so important? Because it was here, in the Asuka and Fujiwara periods, that Japan began to organize itself as a unified state. Rulers built the country's first permanent, planned capital, introduced systems of law and government influenced by China, and helped Buddhism take deep root. Many features of Japanese culture and governance can be traced back to what happened in this small area so long ago.\nBecoming a World Heritage site brings both honor and responsibility. The recognition celebrates the area's global importance and can attract visitors, supporting the local economy. But it also creates a duty to protect the fragile remains and landscape for future generations, balancing tourism with careful preservation.\nWorld Heritage status matters beyond any single country. The idea behind it is that some places belong, in a sense, to all of humanity — treasures whose value crosses borders. Protecting them is seen as a shared human responsibility, not just a national one.\nThe deeper meaning is about the value of remembering where we come from. A pile of ancient foundations in a rural field may look modest, but it holds the roots of a civilization. Honoring such places reminds a society of its long story, connecting the busy present to a distant past — and reminding us that every modern nation grew, slowly, from beginnings that once seemed small.",
+        summaryJa: "奈良県の静かな田園に、1300年以上前に現代日本の形が初めて形づくられた場所の遺構がある。UNESCOが飛鳥・藤原(日本初期の都の地)を世界文化遺産に登録し、日本27件目の世界遺産となった。国がいわば生まれた景観を認める決定だ。なぜ重要か——飛鳥・藤原の時代にここで日本は統一国家として組織化を始め、初の恒久的計画都市を建て、中国に影響された法・統治の仕組みを導入し、仏教が深く根付いた。日本の文化と統治の多くの特徴が、この小さな地域で起きたことに遡れる。世界遺産化は名誉と責任を伴い、地球規模の重要性を称え観光を呼ぶ一方、脆い遺構と景観を将来へ守り、観光と保存を両立する義務を生む。世界遺産の理念は、ある場所は人類全体に属する国境を越える宝であり、その保護は国だけでなく人類共通の責任だという点にある。自らの起源を覚えておくことの価値——素朴に見える古代の基礎が文明の根を宿す。忙しい現在と遠い過去をつなぎ、どの近代国家も小さく見えた始まりから育ったと思い出させる。",
+        quiz: [
+          { q: "飛鳥・藤原の地が重要な理由は？", options: ["日本が統一国家として組織化を始めた場所だから", "工業地帯だから", "港があったから"], answer: 0 },
+          { q: "世界遺産化がもたらす責任は？", options: ["脆い遺構と景観を将来へ守り観光と保存を両立する", "自由に開発できる", "観光を禁止する"], answer: 0 },
+          { q: "世界遺産の理念とは？", options: ["ある場所は人類全体に属し保護は共通の責任", "国だけのもの", "価値は国境で止まる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0728-5",
+        title: "Reading a Storm Before It Arrives",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "When a typhoon forms over the ocean, one of the most difficult questions is also the most important: where will it go? A newly formed storm may grow into a violent system, yet forecasters can be sharply divided over whether it will strike land or curve harmlessly out to sea. The science of predicting a storm's path is a fascinating mix of physics, data, and honest uncertainty.\nWhy is forecasting so hard? Because a storm is shaped by countless forces at once — ocean temperatures, wind patterns high in the atmosphere, and the positions of other weather systems far away. Small differences in these conditions can send a typhoon in completely different directions. To predict its path, scientists feed enormous amounts of data into powerful computer models that calculate many possible futures. Often these models disagree, which is why forecasters sometimes speak of a range of possibilities rather than a single certain track.\nThis uncertainty is not a weakness; it is honesty. A responsible forecast tells people not just the most likely path, but how confident scientists are, so communities can prepare wisely. Warning people too late costs lives, but crying wolf too often makes them stop listening. Balancing these is a serious challenge.\nForecasting has improved dramatically over the decades. Better satellites, more data, and faster computers now give days of warning where once there were only hours. Countless lives have been saved because people had time to prepare or evacuate. Yet nature remains complex, and perfect prediction may never be possible.\nThe broader lesson is about living wisely with uncertainty. We often want clear, confident answers, but some of the most important questions — about weather, health, or the future — can only be answered in terms of probability. Learning to act sensibly on 'likely' and 'possible,' rather than demanding false certainty, is a vital skill, in science and in life.",
+        summaryJa: "台風が海上で発生すると、最も難しく最も重要な問いが生じる——どこへ進むか。生まれたばかりの storm が猛烈に発達しても、上陸するか海上へ逸れるか予報が大きく割れることがある。進路予測の科学は物理・データ・率直な不確実性の魅力的な混合だ。なぜ難しいか——台風は海水温、上空の風、遠くの他の気象系の位置など無数の力に同時に形づくられ、条件のわずかな差が全く異なる方向へ向かわせる。科学者は膨大なデータを強力な計算モデルに入れ多くの未来を計算するが、モデルは食い違うことが多く、単一の確実な進路でなく可能性の幅で語る。この不確実性は弱さでなく誠実さだ。責任ある予報は最も可能性の高い進路と科学者の確信度を伝え、地域が賢く備えられるようにする。警告が遅れれば命を失い、頻繁すぎれば人は聞かなくなる。予報は衛星・データ・計算機の向上で数十年で劇的に改善し、かつて数時間だった警告が数日になり多くの命が救われた。だが自然は複雑で完全な予測は不可能かもしれない。不確実性と賢く付き合うこと——「likely」「possible」に基づき分別ある行動をとる力は、科学でも人生でも重要な技能だ。",
+        quiz: [
+          { q: "台風の進路予測が難しい理由は？", options: ["海水温・風・他の気象系など無数の力に同時に形づくられるから", "台風が動かないから", "データがないから"], answer: 0 },
+          { q: "予報の不確実性を本文はどう捉える？", options: ["弱さでなく誠実さ", "無能の証拠", "無視すべきもの"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["「likely」「possible」に基づき分別ある行動をとる力が重要", "確実な答えだけを求める", "不確実性は無視する"], answer: 0 }
+        ]
+      }
+    ]
+  },
+  {
     date: "2026-07-27",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "研究が注目した天然成分は？", options: ["食品に含まれるスペルミジン", "砂糖", "塩"], answer: 0 },
           { q: "高齢者でワクチンが効きにくい理由は？", options: ["加齢で免疫の応答が弱まるから", "食べ過ぎるから", "運動しすぎるから"], answer: 0 },
           { q: "本文が促す注意点は？", options: ["実験室の結果が万人に効くとは限らず人での試験が必要", "チーズが薬の代わりになる", "栄養は健康と無関係"], answer: 0 }
-        ]
-      }
-    ]
-  },
-  {
-    date: "2026-07-21",
-    passages: [
-      {
-        id: "d0721-1",
-        title: "Why Startups Spread Across a Country",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Japan's startup scene is growing, and it is no longer only a Tokyo story. Reports say that while the capital still leads, cities such as Osaka, Nagoya, Fukuoka, and Sapporo are becoming useful bases for startups focused on specific industries, for research spin-offs from universities, and for foreign companies entering the market.\nWhy do startups cluster in particular regions? Because young companies grow best where the right ingredients already exist. A startup in robotics wants to be near factories and engineers; one in biotech wants universities and hospitals; one in food technology wants farms and processing plants. Each region develops its own strengths, and companies gather where those strengths match their needs.\nThis regional spread brings real benefits. It keeps talented graduates in their home areas instead of forcing everyone to move to the capital. It spreads economic growth more evenly across the country. And it lets each city build a specialty, becoming known for a particular kind of innovation.\nThere are still challenges. Regional hubs usually have less money from investors than the capital, fewer experienced mentors, and smaller networks. Building these takes years of patient effort by local governments, universities, and companies working together.\nThe broader lesson applies to any growing field. Success tends to concentrate where supporting resources gather — money, skills, customers, and knowledge. Understanding what a place offers, and matching your plans to its strengths, is one of the most practical decisions any business or worker can make.",
-        summaryJa: "日本のスタートアップは成長し、もはや東京だけの話ではない。首都が先行しつつ、大阪・名古屋・福岡・札幌などが特定産業や大学発スピンオフ、外資参入の拠点になりつつある。若い企業は必要な要素が既にある場所で育ちやすく、ロボットなら工場と技術者の近く、バイオなら大学と病院の近くに集まる。地方分散は人材の地元定着、経済成長の平準化、都市ごとの得意分野形成という利点をもたらす。投資資金・経験あるメンター・人脈の少なさという課題は残り、産官学の地道な連携が要る。成功は資源(資金・技能・顧客・知識)が集まる場所に集中する——場所の強みに計画を合わせることが実務的な要点だ。",
-        quiz: [
-          { q: "スタートアップが特定地域に集まる理由は？", options: ["必要な要素(工場・大学など)が既にある場所で育ちやすいから", "家賃が無料だから", "税金がないから"], answer: 0 },
-          { q: "地方分散の利点として挙げられていないものは？", options: ["人材の地元定着", "経済成長の平準化", "全企業の海外移転"], answer: 2 },
-          { q: "地方拠点の課題は？", options: ["投資資金・メンター・人脈の少なさ", "土地が全くないこと", "技術者が多すぎること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0721-2",
-        title: "A Cheaper Battery Made from Salt",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Most batteries in phones and electric cars today rely on lithium, a metal that is expensive and found in only a few places. Researchers and companies have long searched for an alternative, and one candidate is getting attention: the sodium-ion battery. Reports say a new sodium battery performs far better than expected, with quality and design features rivaling top lithium batteries.\nWhy sodium? Because it is one of the most common elements on Earth — it is part of ordinary table salt. Unlike lithium, which is concentrated in a few countries and can be costly, sodium is cheap and available almost everywhere. A battery based on sodium could be less expensive and less dependent on a small number of suppliers.\nFor years, sodium batteries had a serious drawback: they stored less energy for their weight than lithium batteries, making them too heavy for cars or phones. But steady improvements are closing that gap. Even if sodium batteries remain a little heavier, their low cost could make them ideal for uses where weight matters less — such as storing energy from solar and wind power on the electric grid.\nThis is a good example of how technology progresses. Rarely does one solution win everything. More often, different tools suit different jobs. Lithium may keep powering the lightest devices, while cheaper sodium handles large, stationary storage. The future of energy will likely rely on many kinds of batteries, each matched to the task it does best.",
-        summaryJa: "スマホやEVの電池は高価で産地が限られるリチウムに依存する。代替候補として注目されるのがナトリウムイオン電池で、新型は期待を大きく上回る性能と、上位リチウム電池に迫る品質・設計を示したと報じられる。ナトリウムは食塩に含まれる地球上で最も豊富な元素の一つで、安価でほぼどこでも手に入り、少数の供給国への依存も減る。重量あたりの蓄電量が少ない弱点は改善が進み、多少重くても低コストゆえ太陽光・風力の系統蓄電など重量が問題になりにくい用途に向く。一つの解が全てを制するのは稀で、用途ごとに最適な電池が使い分けられる未来が見込まれる。",
-        quiz: [
-          { q: "ナトリウム電池が注目される理由は？", options: ["ナトリウムは安価でほぼどこでも手に入るから", "光るから", "軽さで圧勝だから"], answer: 0 },
-          { q: "ナトリウム電池の弱点は？", options: ["重量あたりの蓄電量が少ない", "危険すぎる", "作れない"], answer: 0 },
-          { q: "本文が示す技術進歩の見方は？", options: ["用途ごとに最適な電池が使い分けられる", "一つの電池が全てを制する", "電池は不要になる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0721-3",
-        title: "The Race to Store Clean Energy",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "The world is building more solar panels and wind turbines than ever before. But clean energy has a stubborn problem: the sun does not always shine, and the wind does not always blow. Solving this — storing energy for when it is needed — has become one of the great challenges of the global shift to cleaner power.\nThe difficulty is one of timing. Solar panels produce the most electricity at midday, but people use the most in the evening. Wind farms may generate huge amounts overnight, when demand is low. Without a way to store that energy, much of it is simply wasted, and countries must keep fossil-fuel plants running for the hours when clean power is scarce.\nSeveral solutions are competing. Giant batteries can store electricity and release it within seconds, which is useful for short gaps. Pumped hydro storage moves water uphill when power is cheap and lets it flow down to generate electricity when needed. Newer ideas include storing energy as heat, compressed air, or even hydrogen gas. Each has strengths and weaknesses in cost, size, and how long it can hold energy.\nWhy does this matter globally? Because a country that masters energy storage can rely more on cheap, clean power and less on imported fuel. Storage turns unpredictable sun and wind into steady, dependable electricity. The nations and companies that solve it best will gain both an environmental and an economic advantage — which is why the race to store clean energy is one of the defining contests of our time.",
-        summaryJa: "世界はかつてないほど太陽光・風力を増やしているが、太陽は常に照らず風も常には吹かない——「必要な時のために蓄える」ことが脱炭素の大課題だ。太陽光は正午に最も発電するが需要は夕方、風力は需要の低い夜に大量発電しうる。蓄えなければ多くが無駄になり、クリーン電力が乏しい時間帯に化石燃料発電を動かし続けねばならない。大型電池(短時間向け)、揚水発電、熱・圧縮空気・水素での貯蔵などが競合し、コスト・規模・保持時間に一長一短がある。蓄電を制する国は安いクリーン電力に頼り輸入燃料への依存を減らせるため、環境と経済の両面で優位に立つ。蓄電競争は現代を象徴する戦いだ。",
-        quiz: [
-          { q: "クリーンエネルギーの「頑固な問題」とは？", options: ["太陽や風が常に得られず、蓄える必要があること", "発電しすぎること", "誰も使わないこと"], answer: 0 },
-          { q: "蓄電の解決策として挙げられていないものは？", options: ["大型電池や揚水発電", "熱・圧縮空気・水素での貯蔵", "電気を捨てること"], answer: 2 },
-          { q: "蓄電を制する国が得る優位は？", options: ["環境と経済の両面での優位", "軍事力のみ", "優位はない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0721-4",
-        title: "Satellites Made of Wood",
-        level: "★★☆",
-        genre: "日本",
-        text: "When you imagine a satellite, you probably picture shining metal and gold foil. Japanese researchers are exploring a surprising alternative: satellites made partly from wood. The idea sounds almost like a joke, but it addresses a real and growing problem in space.\nThe problem is space junk. Thousands of satellites now orbit the Earth, and when they stop working, many burn up as they fall back into the atmosphere. Metal satellites, when they burn, can release tiny particles that may harm the upper atmosphere. As the number of satellites grows into the tens of thousands, these effects could add up.\nWood offers a clever solution. A wooden satellite would burn up more cleanly when it re-enters the atmosphere, leaving less harmful material behind. Wood is also surprisingly tough in the vacuum of space, where there is no oxygen or moisture to rot it. Early experiments have tested small wooden satellites to see how the material survives the harsh conditions of orbit.\nThere are limits, of course. Wood cannot replace metal for every part; electronics, engines, and structural frames still need traditional materials. But using wood where possible could make satellites cleaner and cheaper.\nThe deeper lesson is about creative problem-solving. Faced with the challenge of space pollution, researchers did not only look for high-tech fixes; they reconsidered one of humanity's oldest materials. Sometimes progress comes not from inventing something entirely new, but from seeing an old, familiar thing in a completely fresh way.",
-        summaryJa: "衛星というと輝く金属と金箔を思い浮かべるが、日本の研究者は一部を木で作る衛星を探究している。冗談のようで、宇宙ごみという現実の問題に応える発想だ。多数の衛星が寿命後に大気圏で燃え尽きる際、金属は上層大気を害しうる微粒子を出す恐れがあり、衛星が数万機に増えると影響が積み重なる。木製衛星は再突入時によりクリーンに燃え、有害物質が少ない。真空の宇宙は酸素も水分もなく木は腐らず意外に丈夫で、小型木製衛星の実験も行われた。電子機器やエンジンは金属が要り全ては置き換えられないが、可能な範囲での木材利用で衛星をよりクリーンで安価にできる。人類最古の素材を新しい目で見直す創造的問題解決の好例だ。",
-        quiz: [
-          { q: "木製衛星が応えようとする問題は？", options: ["宇宙ごみと再突入時の大気への影響", "衛星の色", "電池の重さ"], answer: 0 },
-          { q: "木が宇宙で意外に丈夫な理由は？", options: ["真空で酸素も水分もなく腐らないから", "金属より重いから", "光るから"], answer: 0 },
-          { q: "本文が示す教訓は？", options: ["古い素材を新しい目で見直す創造的問題解決", "新素材だけが進歩を生む", "木は宇宙に使えない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0721-5",
-        title: "Making Cosmic Dust in a Glass Tube",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Everything around you — your body, this planet, the air you breathe — is made from atoms that were once scattered through space as cosmic dust. Now researchers have managed to create this cosmic dust from scratch, recreating space-like conditions inside glass tubes in a laboratory. It is a small experiment with very large implications.\nCosmic dust is made of tiny grains, far smaller than a speck of household dust, floating in the vast space between stars. These grains are important because they are the building blocks of planets. Over millions of years, dust clumps together, forming larger and larger pieces until, eventually, worlds like Earth are born. Understanding how the first grains form is a key step in understanding where planets — and life — come from.\nStudying real cosmic dust is extremely hard, because it exists far away and forms over enormous timescales. So scientists brought the process into the laboratory. By carefully recreating the cold, near-empty conditions of space inside sealed tubes, they watched dust grains form under controlled conditions they could measure and repeat.\nThis is the power of experiment. Rather than only observing the distant universe through telescopes, scientists can now build tiny pieces of it on a laboratory bench. Each such experiment tests our theories about how stars, planets, and eventually life came to be.\nThe wonder of it is worth pausing on. In a glass tube on Earth, researchers are recreating the very process that, billions of years ago, began building the world we live in. It is a reminder that the story of the cosmos and the story of ourselves are, in the end, the same story.",
-        summaryJa: "あなたの体も地球も空気も、かつて宇宙に漂う「宇宙塵」だった原子からできている。研究者がガラス管の中に宇宙のような環境を再現し、宇宙塵をゼロから作り出すことに成功した。宇宙塵は星間空間に漂う微細な粒で、数百万年かけて集まり惑星の材料になる。最初の粒がどうできるかの理解は、惑星や生命の起源に迫る鍵だ。本物の宇宙塵は遠く長い時間で形成されるため研究が難しく、科学者は冷たくほぼ真空の条件を密閉管内に再現し、制御・反復できる形で粒の形成を観察した。望遠鏡で遠い宇宙を眺めるだけでなく、実験台の上に宇宙の小片を作れる——宇宙の物語と私たち自身の物語が、結局は同じ物語だと気づかせる。",
-        quiz: [
-          { q: "研究者がガラス管内で作り出したものは？", options: ["宇宙塵", "本物の惑星", "新しい星"], answer: 0 },
-          { q: "宇宙塵が重要な理由は？", options: ["集まって惑星の材料になるから", "光るから", "食べられるから"], answer: 0 },
-          { q: "実験室で再現した理由は？", options: ["本物は遠く長い時間で形成され研究が難しいから", "宇宙に行けないから", "望遠鏡が壊れたから"], answer: 0 }
         ]
       }
     ]
