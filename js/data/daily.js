@@ -6,7 +6,77 @@
 window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
-  {
+    {
+    date: "2026-07-29",
+    passages: [
+      {
+        id: "d0729-1",
+        title: "How AI Companies Charge for Their Services",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "When you buy electricity, you pay for how much you use. Artificial intelligence services work in a surprisingly similar way. Instead of a simple flat fee, most AI companies bill their customers based on 'tokens' — small units of text that measure how much work the AI does. Understanding this billing model reveals a lot about how the new AI economy operates.\nWhat is a token? Roughly speaking, a token is a piece of a word — a few characters of text. When you send a question to an AI and it sends an answer back, the system counts the tokens in both the question and the reply. The more text involved, the more tokens are used, and the more the customer pays. A short question costs little; a long document costs much more.\nWhy do companies charge this way? Because it closely matches their real costs. Running these AI systems requires huge amounts of computing power and electricity, and that cost rises with the amount of text processed. By billing per token, companies charge more when a customer uses more, which is fair and predictable, much like a utility bill.\nThis model shapes how businesses use AI. A company building products on top of AI must think carefully about how many tokens each task consumes, because costs can add up quickly at large scale. Some redesign their systems to use fewer tokens, keeping bills manageable — a new kind of efficiency that did not exist a few years ago.\nThe broader lesson is that how a product is priced shapes how it is used. Just as pay-per-use pricing makes people mindful of electricity, token-based billing makes companies mindful of how they use AI. As new technologies create new business models, understanding how they charge is often the key to understanding the whole industry.",
+        summaryJa: "電気は使った量に応じて払う。AIサービスも驚くほど似ていて、多くのAI企業は定額でなく「トークン」——AIの仕事量を測る小さな文章単位——で課金する。この課金モデルは新しいAI経済の仕組みをよく表す。トークンとはおおむね単語の一部(数文字)で、質問と回答の両方のトークンが数えられ、扱う文章が多いほどトークンが増え支払いも増える。短い質問は安く、長い文書は高い。なぜこう課金するのか——実際のコストによく合うからだ。AI稼働には膨大な計算力と電力が要り、処理する文章量とともに増える。トークン課金は使うほど多く払う公平で予測可能な方式で、公共料金に似る。この方式は企業のAI利用を形づくり、AI上に製品を作る企業は各作業のトークン消費を慎重に考え、大規模ではコストが急増するため、少ないトークンで済むよう設計し直す新しい効率も生まれた。価格の付け方が使い方を形づくる——従量課金が電気を意識させるように、トークン課金はAI利用を意識させる。課金の仕組みの理解が産業全体の理解の鍵だ。",
+        quiz: [
+          { q: "多くのAI企業の課金方式は？", options: ["トークン(文章単位)に基づく従量課金", "完全な定額", "無料"], answer: 0 },
+          { q: "この方式が使われる理由は？", options: ["計算力・電力の実際のコストによく合うから", "計算が簡単だから", "顧客が喜ぶから"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["価格の付け方が使い方を形づくる", "価格は無関係", "AIは無料であるべき"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0729-2",
+        title: "The Helpers That Keep Us Healthy",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Inside the body, health often depends on tiny helpers working quietly behind the scenes. New research into diabetes has revealed one such example: the cells that produce insulin, the hormone that controls blood sugar, rely on 'helper proteins' to do their job. When one key partner was missing, damaged proteins built up inside the cells, and they made less insulin. The discovery may point toward new ways to treat a disease affecting hundreds of millions.\nWhy does this matter? Because insulin is essential for turning food into energy. In diabetes, the body either cannot make enough insulin or cannot use it well, causing blood sugar to rise to dangerous levels. Understanding exactly why insulin-producing cells fail is a crucial step toward helping them work again.\nThe new research highlights the role of the helper proteins. Inside every cell, proteins must be folded into the right shapes to work, and helper proteins assist in this delicate process. When a key helper is missing, misshapen and damaged proteins pile up, stressing the cell and reducing its ability to make insulin. In other words, the problem is not only in the insulin itself, but in the support system that keeps the cells healthy.\nThis kind of discovery could open new paths for treatment. If scientists can protect or strengthen these helper systems, they might keep insulin-producing cells working longer, slowing or preventing some forms of diabetes.\nThe deeper lesson reaches beyond medicine. In the body, as in any complex system, the visible star — here, insulin — depends on a hidden network of support. Problems often arise not in the obvious place, but in the quiet helpers we overlook. Understanding the whole system, not just its most famous part, is often where real solutions are found.",
+        summaryJa: "体内では、健康はしばしば陰で静かに働く小さな助っ人に依存する。糖尿病の新研究がその一例を明かした——血糖を制御するホルモン「インスリン」を作る細胞は、仕事をこなすのに「ヘルパータンパク質」に頼る。鍵となる相棒が欠けると、傷んだタンパク質が細胞内に蓄積し、インスリンの産生が減る。数億人を苦しめる病の新治療への手がかりになりうる。なぜ重要か——インスリンは食物をエネルギーに変えるのに不可欠で、糖尿病では十分作れないか使えず血糖が危険な水準に上がる。細胞が機能不全になる理由の理解が、再び働かせる重要な一歩だ。細胞内でタンパク質は正しい形に折りたたまれて働き、ヘルパーがその繊細な過程を助ける。鍵のヘルパーが欠けると、いびつで傷んだタンパク質がたまり細胞を疲弊させインスリン産生を落とす。問題はインスリン自体でなく、細胞を健康に保つ支援系にある。この系を守り強められれば、細胞を長く働かせ一部の糖尿病を遅らせ防げるかもしれない。目立つ主役(インスリン)は見えない支援網に依存する——見過ごされがちな静かな助っ人に問題は生じる。全体系の理解こそ解決の場だ。",
+        quiz: [
+          { q: "インスリンを作る細胞が頼るものは？", options: ["ヘルパータンパク質", "太陽光", "砂糖"], answer: 0 },
+          { q: "鍵のヘルパーが欠けると起きることは？", options: ["傷んだタンパク質がたまりインスリン産生が減る", "細胞が増える", "何も起きない"], answer: 0 },
+          { q: "本文の深い教訓は？", options: ["目立つ主役は見えない支援網に依存する", "主役だけ見ればよい", "助っ人は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0729-3",
+        title: "When Heat and Fire Force People to Flee",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "As summer temperatures rise across the northern hemisphere, extreme heat and wildfires are forcing communities to make hard, sudden decisions. In France, authorities recently ordered nearly four thousand people to evacuate tourist areas along the Atlantic coast, as returning heat threatened firefighters' efforts to control a large wildfire. Scenes like this are becoming a regular feature of hot summers around the world.\nWhy do heat and fire go together so dangerously? High temperatures dry out forests, grass, and soil, turning the landscape into fuel. A single spark — from lightning, a machine, or human carelessness — can then start a fire that spreads with frightening speed, especially in strong wind. Once a large wildfire begins, controlling it is extremely difficult, and protecting people becomes the first priority.\nEvacuation is a powerful but difficult tool. Moving thousands of people quickly saves lives, but it also disrupts communities, empties businesses, and can cause panic if not managed well. Officials must decide when the danger is serious enough to order people to leave, balancing safety against the cost and stress of evacuation. Acting too late risks lives; acting too early wastes resources and trust.\nPreparation makes a huge difference. Regions that plan ahead — clearing dry brush, building firebreaks, training firefighters, and creating clear evacuation routes — suffer far less than those caught unprepared. As hot, dry summers grow more common, this kind of readiness is becoming an essential part of public safety.\nThe broader lesson is about living with a changing climate. We cannot prevent every heatwave or fire, but we can prepare for them — reducing risk in advance and responding quickly when danger comes. In a warming world, the difference between disaster and safety often lies in how well a society prepares before the worst arrives.",
+        summaryJa: "北半球で夏の気温が上がる中、猛暑と山火事が地域に急な難しい決断を迫っている。フランスでは、戻ってきた暑さが大規模山火事の制圧を脅かし、当局が大西洋岸の観光地の約4,000人に避難を命じた。こうした光景は世界の暑い夏で常態になりつつある。なぜ暑さと火は危険に結びつくのか——高温が森・草・土を乾かし景観を燃料に変える。雷・機械・人の不注意の一つの火花が、特に強風下で恐ろしい速さで広がる火事を起こしうる。大規模化すると制御は極めて難しく、人命保護が最優先になる。避難は強力だが難しい手段で、迅速な移動は命を救うが地域を混乱させ、うまく管理しないとパニックを招く。当局はいつ避難を命じるか、安全と避難のコスト・ストレスを天秤にかける。遅すぎれば命を、早すぎれば資源と信頼を失う。備えが大きな差を生む——枯れ枝除去・防火帯・消防訓練・明確な避難路を planする地域は被害が遥かに小さい。暑く乾いた夏が増える中、この備えは公共安全の要になる。変わる気候と生きる——すべての熱波や火事は防げなくても備えられる。事前のリスク低減と迅速な対応の差が、災害と安全を分ける。",
+        quiz: [
+          { q: "フランスで避難が命じられた理由は？", options: ["暑さが大規模山火事の制圧を脅かしたから", "地震が起きたから", "洪水が来たから"], answer: 0 },
+          { q: "避難という手段の難しさは？", options: ["命を救うが地域を混乱させ、判断のタイミングが難しい", "常に簡単", "効果がない"], answer: 0 },
+          { q: "本文が強調することは？", options: ["事前の備えが災害と安全を分ける", "備えは無意味", "火事は防げない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0729-4",
+        title: "Reading Time in the Ocean's Currents",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Deep in the Atlantic Ocean flows a vast, slow-moving system of currents that quietly shapes weather across much of the world. New research suggests that if this system weakens, it could dramatically change rainfall patterns — bringing much stronger storms, known as atmospheric rivers, to places like California, while leaving other regions, such as Greenland, with fewer snow-producing storms. It is a striking reminder of how connected the planet's climate really is.\nWhat is this ocean system? It is a giant loop of currents that carries warm water from the tropics toward the poles and cold water back again, moving heat around the globe like a slow conveyor belt. This flow helps determine where rain falls, how warm different regions are, and how storms form. When such a powerful system changes, the effects can reach thousands of kilometers away.\nAn 'atmospheric river' is a long, narrow band of moist air that carries enormous amounts of water across the sky, sometimes releasing it as intense rain or snow. These events can bring vital water to dry regions — or dangerous floods, depending on their strength. The new research suggests that changes in the ocean could make these events more extreme in some places.\nWhy does this matter? Because societies plan around familiar weather patterns. Cities build their water systems, farms plant their crops, and governments prepare for floods based on what they expect. If ocean changes shift these patterns, communities may face storms and droughts they are not prepared for.\nThe deeper wonder is how deeply the parts of our planet are connected. A change in ocean currents can alter the rain over a distant coast and the snow on a far-off island. Understanding these hidden links helps scientists warn us of what may come — and reminds us that Earth is not a collection of separate places, but a single, interconnected system.",
+        summaryJa: "大西洋の深部に、世界の広範な天候を静かに形づくる巨大でゆっくりした海流系が流れている。新研究は、この系が弱まると降雨パターンが劇的に変わりうると示す——カリフォルニアのような地域に「大気の川」と呼ばれる遥かに強い storm をもたらし、グリーンランドなど他地域では雪をもたらす storm が減る。地球の気候がいかに連関しているかを鮮やかに思い出させる。この海流系は熱帯の暖水を極へ、冷水を戻す巨大なループで、遅いコンベアのように熱を地球中に運ぶ。この流れが雨の降る場所・各地の暖かさ・storm の形成を左右し、強力な系が変わると影響は数千キロ先まで及ぶ。「大気の川」は膨大な水分を運ぶ細長い帯で、乾いた地域に貴重な水を、あるいは危険な洪水をもたらす。海の変化がこれらを一部地域で極端にしうる。なぜ重要か——社会は馴染みの天候を前提に、水道・作付け・防災を計画する。パターンが変われば、備えのない storm や干ばつに直面しうる。惑星の各部の深い連関——海流の変化が遠い海岸の雨や遠い島の雪を変える。この隠れたつながりの理解が来るものを警告し、地球が別々の場所の集まりでなく一つの連関系だと思い出させる。",
+        quiz: [
+          { q: "海流系が弱まると起きうることは？", options: ["降雨パターンが変わり一部地域で storm が極端になる", "海が消える", "気候は変わらない"], answer: 0 },
+          { q: "「大気の川」とは？", options: ["膨大な水分を運ぶ細長い空の帯", "海底の川", "地下水路"], answer: 0 },
+          { q: "本文の深い驚きは？", options: ["地球は別々でなく一つの連関系である", "各地は無関係", "海は天候と無関係"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0729-5",
+        title: "Putting a Date on Ancient Art",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "In a cave in France called Font-de-Gaume, ancient people painted animals on stone walls long before writing existed. For years, one question was hard to answer: exactly how old are these paintings? Now scientists have found a clever way to date them precisely, by discovering tiny bits of charcoal hidden inside the black pigment — charcoal that can be measured using a method called radiocarbon dating.\nWhy was dating cave art so difficult? Because many ancient paintings were made with mineral pigments, which contain no material that scientists can date directly. Without a way to measure age, researchers could only guess, based on the style of the images or their surroundings. Guesses are useful, but they can be wrong by thousands of years.\nRadiocarbon dating solves this by measuring carbon. All living things absorb a special form of carbon while alive, and after they die, this carbon slowly and steadily breaks down over thousands of years. By measuring how much remains, scientists can calculate how long ago something lived. Charcoal — made from burnt wood — contains this carbon, so finding charcoal inside the black paint gives researchers something they can actually date.\nThis discovery matters because knowing the true age of ancient art changes our understanding of history. It tells us when people lived in a place, how their art developed, and how early humans thought and created. A precise date turns a mysterious image into a fixed point in the human story.\nThe broader lesson is about the power of careful observation. The answer to an old question was hidden in plain sight — tiny flecks of charcoal within the paint. Great discoveries often come not from looking somewhere new, but from looking more closely at what was there all along. In science, patience and attention can turn an ancient mystery into knowledge.",
+        summaryJa: "フランスのフォン・ド・ゴーム洞窟で、古代の人々は文字が生まれる遥か前に石壁に動物を描いた。長年難しかったのは「正確に何歳か」だ。科学者は巧妙な年代測定法を見つけた——黒い顔料の中に隠れた微小な炭(木炭)を発見し、放射性炭素年代測定で測れるのだ。なぜ洞窟壁画の年代測定は難しかったか——多くは鉱物顔料で描かれ、直接年代測定できる material を含まないからだ。測る術がなく、絵の様式や周囲から推測するしかなく、推測は数千年ずれうる。放射性炭素年代測定は炭素を測る。生物は生きている間に特殊な炭素を取り込み、死後、数千年かけてゆっくり一定して壊れる。残量を測れば、いつ生きていたか計算できる。焼いた木からできる木炭はこの炭素を含むため、黒い塗料の中に木炭を見つければ実際に年代測定できる。古代美術の真の年代を知ることは歴史理解を変える——人がいつそこに住み、美術がどう発展し、初期人類がどう考え創ったかを教える。正確な年代が、謎の絵を人類の物語の定点に変える。丁寧な観察の力——古い問いの答えは塗料の中の微小な炭という「見えていた場所」に隠れていた。偉大な発見は新しい場所でなく、ずっとそこにあったものをより注意深く見ることから来る。忍耐と注意が古代の謎を知識に変える。",
+        quiz: [
+          { q: "洞窟壁画を年代測定できた鍵は？", options: ["黒い顔料の中の木炭を発見したこと", "絵の署名", "壁の色"], answer: 0 },
+          { q: "放射性炭素年代測定の原理は？", options: ["死後ゆっくり壊れる炭素の残量から年代を計算する", "色の濃さを測る", "重さを量る"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["ずっとそこにあったものを注意深く見ることが発見を生む", "新しい場所だけを探すべき", "観察は無意味"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-07-28",
     passages: [
       {
@@ -76,7 +146,7 @@ KE_DATA.dailyReading = { days: [
       }
     ]
   },
-  {
+    {
     date: "2026-07-27",
     passages: [
       {
@@ -146,7 +216,7 @@ KE_DATA.dailyReading = { days: [
       }
     ]
   },
-  {
+    {
     date: "2026-07-26",
     passages: [
       {
@@ -216,7 +286,7 @@ KE_DATA.dailyReading = { days: [
       }
     ]
   },
-  {
+    {
     date: "2026-07-25",
     passages: [
       {
@@ -286,7 +356,7 @@ KE_DATA.dailyReading = { days: [
       }
     ]
   },
-  {
+    {
     date: "2026-07-24",
     passages: [
       {
@@ -356,7 +426,7 @@ KE_DATA.dailyReading = { days: [
       }
     ]
   },
-  {
+    {
     date: "2026-07-23",
     passages: [
       {
@@ -425,75 +495,5 @@ KE_DATA.dailyReading = { days: [
         ]
       }
     ]
-  },
-  {
-    date: "2026-07-22",
-    passages: [
-      {
-        id: "d0722-1",
-        title: "Cleaning Up the Crowded Sky",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Space is getting crowded. Tens of thousands of satellites now circle the Earth, along with countless pieces of old rockets and broken equipment. This growing cloud of 'space junk' has created a new business opportunity: companies that turn space technology into commercial services to protect our increasingly busy orbit.\nWhy is this a business, and not just a science project? Because crowded orbits are a real and expensive problem. A single piece of junk, traveling faster than a bullet, can destroy a working satellite worth hundreds of millions of dollars. Satellite operators, insurers, and governments all have strong reasons to pay for solutions that reduce this risk.\nSeveral kinds of services are emerging. Some companies track objects in orbit and warn operators when a collision is likely, so satellites can move out of the way. Others are developing spacecraft that can capture dead satellites and pull them safely out of orbit. A few even design satellites that clean up after themselves, removing themselves from orbit when their work is done.\nInternational cooperation is part of the picture too. Governments are signing agreements to work together on satellite networks and orbital safety, because space is shared by all and no single country can manage it alone.\nThe deeper lesson is a familiar one in business: today's problems create tomorrow's markets. As human activity in space grows, so does the need to manage it responsibly. The companies that build the tools to keep orbit safe are turning a challenge into an industry — and helping ensure that space stays usable for everyone.",
-        summaryJa: "宇宙は混雑している。数万機の衛星と無数の宇宙ごみが地球を回り、この問題が新たなビジネスを生んだ——宇宙技術を商用サービスに変え、混み合う軌道を守る企業だ。弾丸より速いごみ一つが数億ドルの衛星を壊すため、衛星事業者・保険会社・政府には対策を買う強い動機がある。衝突警報、故障衛星の捕獲・除去、役目を終えたら自ら軌道を離れる衛星などのサービスが登場。宇宙は全員の共有物で一国では管理できず、衛星網や軌道安全での国際協力も進む。「今日の問題は明日の市場を生む」——軌道を安全に保つ道具を作る企業が、課題を産業に変え、宇宙を皆が使える状態に保つ。",
-        quiz: [
-          { q: "新たなビジネス機会を生んだ問題は？", options: ["宇宙ごみで軌道が混雑していること", "宇宙が寒いこと", "衛星が安すぎること"], answer: 0 },
-          { q: "登場しているサービスに含まれないものは？", options: ["衝突警報", "故障衛星の捕獲・除去", "宇宙旅行の格安販売"], answer: 2 },
-          { q: "本文の教訓は？", options: ["今日の問題は明日の市場を生む", "宇宙開発はやめるべき", "ごみは無害"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0722-2",
-        title: "A Robot Priest and the Future of AI Conversation",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "In Japan, a humanoid robot has been trained on vast collections of Buddhist scriptures and can now hold conversations about life and philosophy while moving and gesturing like a human priest. It may sound unusual, but it points to an important direction in artificial intelligence: machines that can discuss deep and personal subjects, not just answer simple questions.\nWhat makes this possible? Modern AI systems learn by studying enormous amounts of text. By training on centuries of religious and philosophical writing, the robot can draw on those ideas to respond thoughtfully when people ask about suffering, meaning, or how to live. Combined with a moving, gesturing body, the experience feels more human than talking to a screen.\nThe idea raises interesting questions. Can a machine truly offer comfort or wisdom, or is it only repeating patterns from the texts it studied? Many people feel that human warmth and lived experience cannot be replaced by a robot, however clever. Others point out that a patient, always-available listener — even a mechanical one — might genuinely help people who feel lonely or troubled.\nBeyond religion, the technology hints at where conversational AI is heading. Machines that can discuss emotions, ethics, and personal problems could become companions, counselors, or teachers. But such roles carry real responsibility, because people may form deep attachments to them.\nThe robot priest, then, is more than a curiosity. It is a small window into a future where we must decide, carefully, what roles we want thinking machines to play in the most human parts of our lives.",
-        summaryJa: "日本で、膨大な仏教経典を学習した人型ロボットが、人間の僧侶のように動き身振りを交えて人生や哲学を語れるようになった。奇妙に見えて、AIの重要な方向——単純な質問への回答でなく、深く個人的な話題を語れる機械——を示す。現代AIは大量の文章から学び、数世紀の宗教・哲学文献を学ぶことで苦しみや意味への問いに思慮深く応じ、動く身体が画面より人間的な体験を生む。機械が本当に慰めや知恵を与えられるのか、パターンの反復にすぎないのかという問いも生む。宗教を超え、感情・倫理・悩みを語るAIは伴侶・相談役・教師になりうるが、人が深く愛着を抱くため大きな責任も伴う。人生の最も人間的な部分で機械に何を担わせるかを慎重に決める未来への窓だ。",
-        quiz: [
-          { q: "このロボットができることは？", options: ["経典を学び人生や哲学を語る", "料理を作る", "空を飛ぶ"], answer: 0 },
-          { q: "この技術が示すAIの方向とは？", options: ["深く個人的な話題を語れる機械", "計算だけをする機械", "画面のない機械"], answer: 0 },
-          { q: "本文が挙げる懸念は？", options: ["人が機械に深く愛着を抱く責任", "電気代が高いこと", "ロボットが重いこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0722-3",
-        title: "Small Nations, Big Ambitions in Space",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Space used to belong to a handful of powerful nations. That is changing quickly. Recently, Japan and Thailand signed an agreement to cooperate on low-Earth-orbit satellite networks — a sign that more and more countries want a place in the growing space economy.\nWhy would smaller or developing nations invest in space? Because satellites have become essential tools for everyday life on the ground. They provide internet to remote villages, guide ships and planes, monitor crops and forests, warn of floods and storms, and support communication during disasters. A country that can access these services gains real advantages in its economy and safety.\nFew nations can afford to build a full space program alone, so cooperation is key. A technologically advanced country can share knowledge, equipment, and launch services, while a partner country provides funding, ground stations, or a strategic location. Both sides benefit: one extends its influence and industry, the other gains capabilities it could not build by itself.\nLow-Earth orbit — the region relatively close to the planet — is especially attractive. Satellites there are cheaper to launch and can provide fast internet and detailed images. This is why so many countries and companies are rushing to place networks of small satellites in this busy zone.\nThe broader story is about a shift in global power. Space technology, once a symbol of superpower rivalry, is becoming a shared tool for development. As more nations gain access, space is turning from an exclusive club into a crowded, cooperative, and competitive part of the world economy — with all the opportunities and challenges that brings.",
-        summaryJa: "宇宙はかつて少数の大国のものだったが、急速に変わりつつある。日本とタイが低軌道衛星網での協力に合意し、より多くの国が成長する宇宙経済に加わろうとしている。衛星は遠隔地へのネット提供、船舶・航空の誘導、農地・森林の監視、防災、災害時通信など地上の生活に不可欠な道具になったからだ。単独で宇宙計画を賄える国は少なく協力が鍵で、先進国が技術・機器・打ち上げを、相手国が資金・地上局・戦略的立地を提供し双方が得をする。打ち上げが安く高速ネットや詳細画像を得られる低軌道は特に魅力的。宇宙技術は超大国の競争の象徴から発展の共有ツールへ——排他的なクラブから、協力と競争が交わる世界経済の一部へと変わりつつある。",
-        quiz: [
-          { q: "小国や途上国が宇宙に投資する理由は？", options: ["衛星が生活に不可欠な道具になったから", "宇宙が空いているから", "打ち上げが趣味だから"], answer: 0 },
-          { q: "宇宙協力で双方が得るものは？", options: ["一方は影響力と産業、他方は単独では持てない能力", "何も得ない", "損失だけ"], answer: 0 },
-          { q: "低軌道が魅力的な理由は？", options: ["打ち上げが安く高速ネットや詳細画像を得られる", "重力がないから", "誰もいないから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0722-4",
-        title: "What Whales Teach Us About Health",
-        level: "★★☆",
-        genre: "日本",
-        text: "Science often advances in unexpected places — even inside the stomachs of whales. Studying decades of records from stranded pygmy sperm whales, researchers recently discovered three previously unknown types of Helicobacter, a kind of bacteria. The finding is a reminder of how much we still have to learn from the natural world.\nHelicobacter may sound unfamiliar, but one member of this family is well known to doctors: Helicobacter pylori, a bacterium that lives in the human stomach and can cause ulcers and even cancer. Understanding how these bacteria live inside different animals helps scientists learn how they survive the harsh, acidic environment of the stomach, and how they affect the health of their hosts.\nWhy study whales for this? Because animals that are very different from us can reveal general truths about biology. If a type of bacteria has adapted to live in a whale's stomach as well as a human's, comparing the two can show what these microbes need to survive — knowledge that might one day help treat diseases in people.\nThis kind of research also depends on patient, long-term record-keeping. The discovery came from decades of careful notes about stranded whales. Without those steady records, the pattern could never have been seen.\nThe lesson reaches beyond medicine. Nature is full of hidden connections, and knowledge often comes from studying things that seem unrelated to our daily lives. A stranded whale on a distant beach may, in the end, help doctors understand a disease that affects millions of people. Curiosity about the natural world remains one of humanity's most powerful tools.",
-        summaryJa: "科学は思わぬ場所——クジラの胃の中——でも進む。座礁したコマッコウの数十年の記録を調べた研究者が、未知のヘリコバクター菌3種を発見した。この仲間の一つが、胃に住み潰瘍やがんの原因になるヘリコバクター・ピロリだ。異なる動物の胃でどう生きるかを知ることは、過酷な酸性環境での生存や宿主の健康への影響の理解に役立つ。人と大きく異なる動物こそ生物学の一般法則を明かす。数十年の丁寧な記録があってこそ発見でき、無関係に見えるものの研究から知が生まれる。遠い浜のクジラが、いつか何百万人を苦しめる病の理解を助けるかもしれない——自然への好奇心は人類最強の道具の一つだ。",
-        quiz: [
-          { q: "研究者がクジラの胃で発見したものは？", options: ["未知のヘリコバクター菌3種", "新種の魚", "プラスチックごみ"], answer: 0 },
-          { q: "ヘリコバクターの仲間で有名なものは？", options: ["胃で潰瘍やがんの原因になるピロリ菌", "風邪のウイルス", "食中毒菌のみ"], answer: 0 },
-          { q: "本文の教訓は？", options: ["無関係に見えるものの研究から知が生まれる", "クジラは研究できない", "自然は無関係"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0722-5",
-        title: "The Everyday Foods That May Boost Vaccines",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Vaccines are one of medicine's greatest achievements, but they do not work equally well for everyone. In older adults, whose immune systems weaken with age, vaccines often produce a smaller protective response. New research suggests that a natural compound found in ordinary foods — wheat germ, mushrooms, and aged cheese among them — may help older people build stronger protection after vaccination.\nThe compound is called spermidine, and it occurs naturally in many foods and in our own bodies. Scientists have been studying it for years because it appears to support a cellular process that helps cells clean out damaged parts and stay healthy. As we age, this process slows down, and so does the immune system's ability to respond strongly to threats — including vaccines.\nThe new findings suggest that giving the immune system more of this compound might help older cells respond more effectively, producing better protection from a vaccine. If confirmed, this could be an inexpensive and simple way to improve vaccine results in exactly the group that needs the most protection.\nCaution is important, as always in science. A promising result in the laboratory does not automatically work in every person, and no one should expect a slice of cheese to replace medical advice. Careful trials in humans are needed before firm conclusions can be drawn.\nStill, the research points to an appealing idea: that everyday nutrition and modern medicine might work together. The foods on our plates may play a larger role in our health than we realize, quietly supporting the systems that keep us well — a reminder that science often finds power in the ordinary.",
-        summaryJa: "ワクチンは医学の大きな成果だが、加齢で免疫が弱る高齢者では効きが小さくなりがち。新研究は、小麦胚芽・きのこ・熟成チーズなど普通の食品に含まれる天然成分「スペルミジン」が、高齢者のワクチン後の防御を高めうると示す。この成分は、細胞が傷んだ部分を掃除して健康を保つ働きを支え、加齢で衰えるその働きと免疫応答を助ける可能性がある。確認されれば、最も守りが必要な層のワクチン効果を安価に高める手段になりうる。ただし実験室の好結果が万人に効くとは限らず、人での慎重な試験が必要で、チーズが医療の代わりにはならない。日々の栄養と現代医療が協働しうるという魅力的な発想で、科学はしばしば「ありふれたもの」に力を見いだす。",
-        quiz: [
-          { q: "研究が注目した天然成分は？", options: ["食品に含まれるスペルミジン", "砂糖", "塩"], answer: 0 },
-          { q: "高齢者でワクチンが効きにくい理由は？", options: ["加齢で免疫の応答が弱まるから", "食べ過ぎるから", "運動しすぎるから"], answer: 0 },
-          { q: "本文が促す注意点は？", options: ["実験室の結果が万人に効くとは限らず人での試験が必要", "チーズが薬の代わりになる", "栄養は健康と無関係"], answer: 0 }
-        ]
-      }
-    ]
   }
-] };
+  ] };
