@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-07-30",
+    passages: [
+      {
+        id: "d0730-1",
+        title: "Paying for Computing Power",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Building modern artificial intelligence takes an enormous amount of computing power, and that power is expensive. To train and run their systems, technology companies need thousands of specialized computer chips, huge buildings full of machines called data centers, and a great deal of electricity. Recently, several large firms have signed deals worth billions of dollars to lock in this capacity for years to come.\nWhy spend so much? Because in the AI business, computing power has become a key resource, much like oil or steel in older industries. A company that cannot get enough chips or electricity simply cannot compete. By reserving capacity early, firms protect themselves against shortages and rising prices.\nThis has created a booming market. Chip makers, electricity providers, and even satellite operators are all racing to sell their services to AI companies. Some investors are putting money into nuclear energy and new power lines, betting that demand for electricity will keep climbing.\nThere are risks, too. If a company spends heavily on computing power but its products do not sell well, it could lose a great deal of money. And using so much electricity raises questions about cost and the environment.\nStill, the pattern is clear. In today's economy, the ability to buy and manage computing power has become a serious business decision — one that can decide which companies lead the AI age and which fall behind.",
+        summaryJa: "現代のAI構築には膨大な計算能力が必要で、それは高価だ。企業は数千個の専用チップ、データセンター、大量の電力を要し、近年は数十億ドル規模の契約で数年分の能力を確保している。AIビジネスでは計算能力が石油や鉄のような重要資源となり、チップや電力を十分得られない企業は競争できない。早期の確保は不足や価格上昇への備えになる。チップメーカー・電力会社・衛星事業者がAI企業への販売を競い、原子力や送電網に投資する動きもある。一方、大金を投じても製品が売れなければ大損しうるし、大量の電力は費用と環境の問題も生む。それでも計算能力を買い、管理する力は、AI時代の勝者を左右する重大な経営判断になっている。",
+        quiz: [
+          { q: "AI構築に大量に必要なものは？", options: ["計算能力（チップ・データセンター・電力）", "紙とペン", "広い駐車場"], answer: 0 },
+          { q: "企業が早くから能力を確保する理由は？", options: ["不足や価格上昇に備えるため", "電気が嫌いだから", "チップが安いから"], answer: 0 },
+          { q: "本文が挙げるリスクは？", options: ["製品が売れなければ大損しうる", "計算は無料である", "電力は無限にある"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0730-2",
+        title: "When AI Helps Design Computer Chips",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Designing a computer chip is one of the hardest jobs in technology. A single chip can hold billions of tiny parts, all of which must be placed and connected perfectly. This work usually takes teams of skilled engineers many months. Now, a new idea is gaining attention: using artificial intelligence to help design the very chips that AI runs on.\nThe concept is a kind of loop. Powerful chips make AI systems smarter, and smarter AI can, in turn, help design better chips. Recently a young company that builds such 'AI design assistants' raised sixty million dollars to grow its technology. The tools can suggest layouts, find mistakes, and test ideas far faster than people working alone.\nSupporters say this could speed up progress in electronics and lower costs. If AI handles the slow, repetitive parts of design, human engineers can focus on the creative and difficult decisions. Chips might reach the market sooner and use less energy.\nOthers urge caution. Chip design is complex, and a small error can ruin an expensive product. AI tools still make mistakes, so human experts must check their work carefully. There are also worries about which countries and companies will control this powerful technology.\nWhatever the outcome, the direction is striking. Machines are beginning to help build the machines that will power the next generation of computing — a sign of how deeply AI is now woven into technology itself.",
+        summaryJa: "コンピューターチップの設計は技術の中でも最難関の一つ。一枚に数十億もの微小な部品を完璧に配置・接続せねばならず、熟練技術者チームで何か月もかかる。いま、AIが動くチップの設計自体をAIに手伝わせる発想が注目されている。強力なチップが賢いAIを生み、賢いAIがより良いチップの設計を助けるという循環だ。こうした「AI設計アシスタント」を作る新興企業が6000万ドルを調達。配置の提案・ミス発見・案の試験を人より速く行える。支持者は、遅く反復的な作業をAIが担えば技術者が創造的判断に集中でき、開発が速まり省エネにもなると言う。一方、設計は複雑で小さな誤りが高価な製品を台無しにし、AIも誤るため人の確認が要る。誰がこの技術を握るかへの懸念もある。機械が次世代計算を担う機械づくりを助け始めた——AIが技術そのものに深く織り込まれた証だ。",
+        quiz: [
+          { q: "チップ設計が難しい理由は？", options: ["数十億の部品を完璧に配置・接続する必要があるから", "部品が一つしかないから", "電気を使わないから"], answer: 0 },
+          { q: "本文が言う「循環」とは？", options: ["強力なチップが賢いAIを生み、AIが良いチップ設計を助ける", "チップが自分で動く", "AIが電気を作る"], answer: 0 },
+          { q: "支持者が期待する効果は？", options: ["技術者が創造的判断に集中でき開発が速まる", "人間が不要になる", "確認が要らなくなる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0730-3",
+        title: "A Summer of Wildfires",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Across southern Europe, this summer has brought some of the largest wildfires in years. In south-west France, a single blaze grew to cover an area several times the size of Paris, forcing thousands of people to leave their homes and holiday spots along the Atlantic coast. In Greece, firefighters battled flames on the island of Crete and in other regions, and several lost their lives in the effort.\nWhy are these fires so hard to control? Hot, dry weather turns forests and grassland into fuel, and strong winds can carry flames faster than crews can respond. Once a fire grows large, it can create its own weather, sending burning material far ahead and starting new fires. Thousands of firefighters and many aircraft may be needed for a single blaze.\nGovernments are responding in several ways. They evacuate people early to keep them safe, share aircraft and crews across borders, and warn the public when the risk is high. Some countries are investing in better forecasting and in clearing dry brush before summer begins.\nScientists note that hotter, drier summers make large fires more likely, and they urge long-term planning as well as emergency response.\nThe immediate goal, though, is simple and urgent: protect lives. Behind the dramatic images of smoke and flame are ordinary people leaving their homes, and the firefighters — sometimes at great personal risk — working to bring the fires under control.",
+        summaryJa: "この夏、南欧では近年最大級の山火事が相次いだ。仏南西部では一つの火災がパリの数倍の面積に広がり、大西洋岸の住民や行楽客数千人が避難。ギリシャではクレタ島などで消火にあたり、命を落とした消防士もいた。なぜ制御が難しいのか——高温乾燥が森や草地を燃料に変え、強風が炎を隊員の対応より速く運ぶ。大火は自ら気象を生み、燃える物を遠くへ飛ばして新たな火を起こす。一つの火災に数千の消防士と多数の航空機が要ることもある。各国は早期避難、航空機や部隊の国境を越えた共有、高リスク時の警報で対応し、予報改善や夏前の乾いた下草の除去に投資する国もある。科学者は高温乾燥の夏が大火を招きやすいとし、緊急対応に加え長期計画を促す。当面の目標は明快で切迫している——命を守ること。煙と炎の背後には家を離れる人々と、時に大きな危険を冒す消防士がいる。",
+        quiz: [
+          { q: "南欧の火災が制御しにくい理由は？", options: ["高温乾燥と強風が炎を速く広げるから", "雨が多すぎるから", "森がないから"], answer: 0 },
+          { q: "各国の対応に含まれるものは？", options: ["早期避難と部隊・航空機の国境を越えた共有", "何もしない", "火を無視する"], answer: 0 },
+          { q: "本文が挙げる当面の目標は？", options: ["命を守ること", "観光を増やすこと", "写真を撮ること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0730-4",
+        title: "After the Earthquake: The Race to Help",
+        level: "★★☆",
+        genre: "日本",
+        text: "When a strong earthquake struck the Kumamoto area on the southern Japanese island of Kyushu this week, rescue teams began a race against time. In the hours and days after a major quake, the chance of finding survivors under damaged buildings drops quickly, so speed matters enormously.\nJapan is one of the most earthquake-prone countries in the world, and it has long prepared for moments like this. Buildings are designed to sway rather than break, schools hold regular drills, and phones receive warnings seconds before strong shaking arrives. These few seconds can be enough to stop a train, pause surgery, or let a family take cover.\nAfter a quake, many groups work together. Rescue crews search collapsed structures, medical teams treat the injured, and engineers check whether bridges and buildings are safe to use. Volunteers and neighbors often help too, sharing water, food, and information.\nPreparation continues at home as well. Many families keep emergency kits with water, food, flashlights, and radios, and agree in advance on where to meet if phones stop working.\nEarthquakes cannot be prevented, and they remain frightening and dangerous. But Japan's long experience shows that good building design, early warning, regular practice, and quick cooperation can save many lives. Each disaster is also studied carefully, so that the lessons learned can make the response to the next one faster and safer.",
+        summaryJa: "今週、九州・熊本地方を強い地震が襲うと、救助隊は時間との闘いを始めた。大地震の後は、損壊した建物の下で生存者を見つけられる可能性が急速に下がるため、速さが極めて重要だ。日本は世界有数の地震国で、長くこうした事態に備えてきた。建物は壊れずに揺れるよう設計され、学校は定期的に訓練を行い、強い揺れの数秒前に警報が携帯に届く。この数秒で電車を止め、手術を中断し、家族が身を守れる。地震後は多くの集団が協力する——救助隊が倒壊建物を捜索し、医療班が負傷者を治療し、技術者が橋や建物の安全を確認する。ボランティアや近隣も水・食料・情報を分け合う。家庭でも備えは続き、水・食料・懐中電灯・ラジオの防災袋を用意し、通信が途絶えた時の集合場所を事前に決める家族も多い。地震は防げず、依然として恐ろしく危険だ。だが日本の長い経験は、堅牢な設計・早期警報・定期訓練・迅速な協力が多くの命を救うことを示す。各災害は丁寧に検証され、次への対応をより速く安全にする。",
+        quiz: [
+          { q: "大地震の後で速さが重要な理由は？", options: ["時間が経つと生存者を見つけられる可能性が下がるから", "救助が楽しいから", "建物が新しいから"], answer: 0 },
+          { q: "日本の地震への備えに含まれないものは？", options: ["地震を完全に防ぐ装置", "強い揺れの前の警報", "揺れて壊れない設計と訓練"], answer: 0 },
+          { q: "本文の結論は？", options: ["設計・警報・訓練・協力が多くの命を救う", "地震は無害だ", "備えは無意味だ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0730-5",
+        title: "Why Nuclear Power Is Back",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "For years, nuclear power seemed to be fading in many countries. Now it is returning to the center of attention, driven by a surprising force: the huge demand for electricity created by artificial intelligence and its data centers. Investors are pouring money into nuclear projects, betting that the world will need vast amounts of steady, low-carbon power.\nWhy nuclear? Unlike coal or gas, nuclear plants produce very little of the carbon dioxide that warms the planet. And unlike solar or wind, they generate power day and night, in any weather. That makes them attractive for data centers, which must run without pause. A new generation of smaller, factory-built reactors promises to be quicker and cheaper to construct than the giant plants of the past.\nThere are real challenges. Nuclear plants are costly and slow to build, and many people worry about safety and about the radioactive waste they produce, which must be stored securely for a very long time. Public trust, damaged by past accidents, is not easily won back.\nSupporters argue that modern designs are far safer and that the climate benefits are too large to ignore. Critics reply that money might be better spent on renewable energy and storage.\nThe debate is far from settled. But the return of nuclear power shows how a single new demand — the electricity to run artificial intelligence — can reshape decisions about energy, the environment, and the technologies that will define the coming decades.",
+        summaryJa: "長年、多くの国で衰退して見えた原子力が、意外な力——AIとそのデータセンターが生む膨大な電力需要——に押されて再び注目の中心に戻っている。投資家は、世界が安定した低炭素電力を大量に必要とすると見て原子力に資金を注ぐ。なぜ原子力か。石炭やガスと違い温暖化を招く二酸化炭素の排出が非常に少なく、太陽光や風力と違い昼夜・天候を問わず発電できる。無停止で動くデータセンターに向く。工場で作る小型の新型炉は、従来の巨大炉より速く安く建てられると期待される。課題も現実的だ。建設は高価で遅く、安全性や長期保管が必要な放射性廃棄物への不安も根強い。過去の事故で損なわれた信頼は簡単には戻らない。支持者は新設計は格段に安全で気候上の利点が大きすぎると主張し、批判者は再生可能エネルギーや蓄電に使う方が良いと返す。決着は遠い。だが原子力の復活は、AIを動かす電力という新たな需要一つが、エネルギー・環境・未来の技術をめぐる判断をどれほど塗り替えうるかを示している。",
+        quiz: [
+          { q: "原子力が再注目される主な理由は？", options: ["AIとデータセンターの膨大な電力需要", "石油が安いから", "原子力が新発明だから"], answer: 0 },
+          { q: "原子力が持つ利点は？", options: ["低炭素で昼夜・天候を問わず発電できる", "廃棄物が出ない", "建設が一瞬で終わる"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["高コスト・安全性・放射性廃棄物への不安", "電気を作れないこと", "二酸化炭素を大量に出すこと"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-07-29",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "睡眠中に脳が行うことは？", options: ["記憶の選別・強化と老廃物の除去", "何もしない", "筋肉を動かす"], answer: 0 },
           { q: "睡眠不足の人に起きやすいことは？", options: ["病気・体重増・集中困難", "記憶力の向上", "免疫の強化"], answer: 0 },
           { q: "学習者にとっての睡眠の意味は？", options: ["夜も脳が学びを働かせ続ける秘密兵器", "時間の無駄", "学習と無関係"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-07-23",
-    passages: [
-      {
-        id: "d0723-1",
-        title: "Economic Security Becomes Business Strategy",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Governments used to leave trade mostly to markets: companies bought and sold across borders wherever prices were best. That era is changing. Japan's trade ministry recently published its annual white paper on the international economy, and a central theme was 'economic security' — the idea that a country must protect its access to critical goods, not just chase the lowest price.\nWhat does economic security mean in practice? It means making sure a nation can still obtain essential things — energy, food, medicine, computer chips, key minerals — even if trade is disrupted by conflict, disaster, or political pressure. For decades, efficiency ruled: companies built long global supply chains to cut costs, often depending heavily on a single country for a critical part. Recent shocks, from pandemics to geopolitical tension, revealed how fragile that model can be.\nBusinesses are now adjusting. Many are diversifying suppliers across several countries, keeping larger stockpiles of vital materials, and sometimes bringing production closer to home even when it costs more. The goal is resilience — the ability to keep operating when something goes wrong — rather than pure efficiency.\nThis shift creates both costs and opportunities. Shorter, safer supply chains can be more expensive, which may raise prices. But they also create new business for companies and countries that offer reliable, secure alternatives.\nThe broader lesson is that 'cheapest' and 'safest' are not the same, and the balance between them is shifting. For any business, understanding this new landscape — where governments increasingly treat trade as a matter of security — is becoming an essential part of long-term strategy.",
-        summaryJa: "かつて政府は貿易を市場に任せ、企業は最も安い場所で国境を越えて売買した。その時代が変わりつつある。日本の通商白書の中心テーマは「経済安全保障」——最安値だけを追うのでなく、重要物資へのアクセスを守るという考えだ。エネルギー・食料・医薬・半導体・重要鉱物などを、紛争・災害・政治的圧力で貿易が乱れても確保できるようにすること。効率重視で単一国に依存した長いサプライチェーンの脆さが近年の危機で露呈した。企業は供給先の分散、重要材料の在庫増、コスト増でも国内回帰などで「効率」より「強靱性」を重視し始めた。最安と最安全は別物で、そのバランスが移りつつある——貿易を安全保障とみなす新環境の理解が長期戦略に不可欠になっている。",
-        quiz: [
-          { q: "「経済安全保障」の考え方は？", options: ["最安値だけでなく重要物資へのアクセスを守る", "貿易を全面禁止する", "価格を無視する"], answer: 0 },
-          { q: "近年の危機が露呈させたことは？", options: ["単一国依存の長いサプライチェーンの脆さ", "効率が常に最善であること", "貿易は不要であること"], answer: 0 },
-          { q: "企業が今重視し始めたのは？", options: ["効率より強靱性(レジリエンス)", "とにかく最安値", "在庫ゼロ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0723-2",
-        title: "AI That Runs on Your Phone",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "For the past few years, most artificial intelligence has lived in giant data centers. When you ask an AI a question, your words usually travel over the internet to a distant building full of powerful computers, which send an answer back. Now a quiet shift is underway: running AI directly on the device in your hand, without needing the cloud at all.\nWhy move AI onto phones and laptops? There are several reasons. Privacy is a big one — if the AI runs on your own device, your personal data never has to leave it. Speed is another; a local AI can respond instantly, without waiting for information to travel across the internet. On-device AI also works offline, in places with no signal, and it reduces the enormous electricity costs of running everything in data centers.\nThe challenge is size. The most powerful AI models are huge, far too big to fit on a phone. So engineers are learning to shrink them — creating smaller models that keep most of the ability while using far less memory and power. Special chips designed for AI, now built into many new phones, make this possible.\nThe result is a new balance. Simple, private, everyday tasks — writing a message, summarizing a note, translating a sign — can run on your device. Complex jobs that need enormous power still go to the cloud. Together, they form a system that is faster, more private, and more efficient.\nThe broader trend is a familiar one in technology: power that once required a huge central facility gradually becomes small enough to carry in your pocket. Just as computers shrank from room-sized machines to smartphones, AI is beginning the same journey — from distant data centers toward the device in your hand.",
-        summaryJa: "ここ数年、AIの多くは巨大データセンターにあり、質問は遠くの計算機群に送られ答えが返ってきた。今、手元の端末で直接AIを動かす静かな変化が進む。利点はプライバシー(個人データが端末から出ない)、速度(通信待ちなしで即応)、オフライン動作、データセンターの膨大な電力コスト削減。課題はサイズで、強力なモデルは大きすぎて携帯に載らないため、能力を保ちつつ小型化する工夫と、新型スマホ搭載のAI専用チップが鍵になる。簡単で私的な日常作業は端末上で、複雑な処理はクラウドで、という新しい役割分担が生まれる。かつて巨大施設が要った力が徐々にポケットに収まる——部屋サイズの計算機がスマホになったように、AiもデータセンターからHand の端末へ向かい始めた。",
-        quiz: [
-          { q: "AIを端末上で動かす利点に含まれないものは？", options: ["プライバシーと速度", "オフライン動作", "画面が大きくなる"], answer: 2 },
-          { q: "端末上AIの課題は？", options: ["強力なモデルは大きすぎるので小型化が必要", "電気が使えない", "遅すぎる"], answer: 0 },
-          { q: "本文が示す新しい役割分担は？", options: ["簡単で私的な作業は端末、複雑な処理はクラウド", "すべて端末で処理", "すべてクラウドで処理"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0723-3",
-        title: "The New Map of Global Trade",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "For decades, globalization followed a simple rule: make each product wherever it is cheapest, and ship it around the world. That map of global trade is being redrawn. Rising political tension and recent supply shocks have pushed countries to think not only about cost, but about who they trade with and how much they depend on any single partner.\nOne result is a trend sometimes called 'friend-shoring' — the idea of building supply chains among countries that trust one another, even if it is not the cheapest option. Instead of depending on a single distant factory, companies and governments increasingly want reliable partners who are unlikely to cut them off during a crisis. Trade is becoming as much about trust and security as about price.\nThis shift has winners and losers. Countries seen as stable and friendly may attract new factories and investment as companies move production to safer locations. Others may lose business they long depended on. Meanwhile, consumers may pay slightly more, because the cheapest possible supply chain is no longer always the goal.\nThere are risks in going too far. If the world splits into rival trading blocs that barely deal with each other, everyone could become poorer, since trade has lifted billions out of poverty by letting countries specialize and exchange. The challenge is to balance security with openness — reducing dangerous dependencies without abandoning the benefits of a connected world.\nThe deeper lesson is that economics and politics can never be fully separated. Trade routes are not just lines on a map of costs; they are also relationships between nations. As those relationships change, so does the map of how the world does business.",
-        summaryJa: "数十年、グローバル化は「最も安い場所で作り世界へ運ぶ」という単純な原則に従った。その地図が描き直されつつある。政治的緊張と供給ショックで、各国はコストだけでなく「誰と取引し、単一の相手にどれだけ依存するか」を考え始めた。結果の一つが「フレンドショアリング」——最安でなくても信頼できる国々でサプライチェーンを築く発想だ。貿易は価格と同じくらい信頼と安全保障の問題になりつつある。安定・友好とみなされる国は投資を呼び込み、依存されてきた国は仕事を失いうる。消費者はやや高く払うことも。ただ世界が対立するブロックに分裂すれば、専門化と交換で数十億人を貧困から救った貿易の恩恵が失われ皆が貧しくなる。危険な依存を減らしつつ開放性を保つ均衡が課題だ。貿易路はコストの線であると同時に国家間の関係でもある。",
-        quiz: [
-          { q: "「フレンドショアリング」とは？", options: ["最安でなくても信頼できる国々で供給網を築く", "友人に商品を配る", "国内だけで生産する"], answer: 0 },
-          { q: "貿易が今や何の問題になりつつあるか？", options: ["価格と同じくらい信頼と安全保障", "価格だけ", "天候だけ"], answer: 0 },
-          { q: "世界が対立ブロックに分裂するリスクは？", options: ["貿易の恩恵が失われ皆が貧しくなりうる", "全員が豊かになる", "影響はない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0723-4",
-        title: "The Business Behind Summer Festivals",
-        level: "★★☆",
-        genre: "日本",
-        text: "Summer in Japan means festivals. Across the country, towns and cities hold matsuri — lively events with food stalls, music, dancing, and fireworks that light up the night sky. These festivals are beloved traditions, but they are also an important part of local economies, and keeping them alive has become a real challenge and opportunity.\nA festival brings money into a community. Visitors travel from other areas, filling hotels, restaurants, and shops. Local farmers and makers sell food and crafts. For a small town, a single famous festival can be one of the biggest economic events of the year, supporting jobs long after the fireworks fade.\nBut festivals face difficulties. Many rural towns are shrinking and aging, leaving fewer young people to carry heavy floats, perform dances, or organize the events. Rising costs and, increasingly, dangerous summer heat add further pressure. Some traditional festivals have had to shorten their schedules, change their timing, or even stop altogether.\nCommunities are responding with creativity. Some invite volunteers and tourists to take part in roles once filled only by locals. Others use social media to attract visitors from across the country and abroad. A few have adjusted their events to cope with the heat, adding shade, water stations, and cooler evening hours.\nThe deeper story is about how tradition and economics depend on each other. A festival is a cultural treasure, but it survives partly because it brings real economic value. Protecting these events means finding ways to keep them meaningful and affordable in a changing society — a small but telling example of how communities everywhere work to carry the past into the future.",
-        summaryJa: "日本の夏は祭りの季節。全国の町で屋台・音楽・踊り・花火の「祭り」が開かれる。愛される伝統であると同時に地域経済の重要な柱でもあり、その存続が課題であり機会でもある。祭りは他地域からの来訪者でホテル・飲食・商店を潤し、地元の農家や作り手が食や工芸を売る。小さな町では一つの有名な祭りが年最大級の経済イベントになる。だが過疎・高齢化で担い手が減り、コスト増や危険な猛暑も重なり、日程短縮や時期変更、中止に追い込まれる祭りもある。地域はボランティアや観光客の参加、SNSでの集客、日陰・給水・夕方開催など暑さ対策で応える。伝統と経済は相互に支え合う——文化的宝である祭りが実際の経済価値ゆえに生き残る面もある。過去を未来へ運ぶ地域の営みの好例だ。",
-        quiz: [
-          { q: "祭りが地域にもたらすものは？", options: ["来訪者による経済効果と雇用", "騒音だけ", "経済的損失"], answer: 0 },
-          { q: "祭りが直面する困難に含まれないものは？", options: ["過疎・高齢化で担い手不足", "コスト増や猛暑", "観光客が多すぎて中止"], answer: 2 },
-          { q: "本文が示す深い物語は？", options: ["伝統と経済は相互に支え合う", "祭りは無意味", "経済だけが重要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0723-5",
-        title: "The Science of Building Better Habits",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Why is it so hard to start exercising, yet so easy to check your phone a hundred times a day? The answer lies in how the brain forms habits — automatic behaviors that we repeat with little conscious thought. Understanding the science of habits can help anyone, including language learners, build routines that actually stick.\nScientists describe a habit as a loop with three parts: a cue, a routine, and a reward. The cue is a trigger — a time, a place, or a feeling. The routine is the behavior itself. The reward is the good feeling that follows, which teaches the brain to repeat the loop. Checking your phone is a strong habit because the cue (boredom) is constant and the reward (something new) comes instantly. Exercise is weaker because the reward often comes only later.\nThis science offers practical tools. To build a good habit, make the cue obvious and the reward quick. Attach a new habit to an existing one — for example, 'after I pour my morning coffee, I will study English for ten minutes.' Start small, because tiny habits are easy to repeat, and repetition is what makes a behavior automatic. To break a bad habit, remove the cue or replace the routine with a better one that gives a similar reward.\nThe most important lesson is about consistency over intensity. A short activity done every day beats a long one done rarely, because habits are built by repetition, not by occasional bursts of effort. For learning a language, this is especially true: ten minutes of daily practice, tied to a reliable cue, will beat a three-hour session once a month.\nHabits are the quiet architecture of our lives. By understanding how they form, we can design routines that carry us, almost effortlessly, toward the things we want to achieve.",
-        summaryJa: "運動を始めるのは難しいのに、スマホは1日に何百回も見てしまうのはなぜか。答えは脳の習慣の仕組みにある。習慣は「きっかけ→行動→報酬」のループで、報酬が良い感覚を与えるとループが繰り返される。スマホは退屈というきっかけが常にあり報酬(新しい情報)が即座に来るため強い習慣に、運動は報酬が後回しなので弱い。良い習慣を作るにはきっかけを明確に・報酬を早くし、既存の習慣に紐づけ(「朝コーヒーを注いだら英語を10分」)、小さく始めて反復する。悪い習慣はきっかけを除くか、似た報酬の良い行動に置き換える。最重要は「強度より継続」——習慣は反復で作られるため、毎日10分が月1回3時間に勝る。語学は特にそうだ。習慣は人生の静かな設計図で、仕組みを理解すれば目標へ楽に運んでくれる。",
-        quiz: [
-          { q: "習慣の3つの部分は？", options: ["きっかけ・行動・報酬", "朝・昼・夜", "見る・聞く・話す"], answer: 0 },
-          { q: "良い習慣を作るコツに含まれないものは？", options: ["既存の習慣に紐づける", "小さく始めて反復する", "報酬をなくす"], answer: 2 },
-          { q: "本文の最重要の教訓は？", options: ["強度より継続——毎日10分が月1回3時間に勝る", "たまに長時間やればよい", "習慣は変えられない"], answer: 0 }
         ]
       }
     ]
