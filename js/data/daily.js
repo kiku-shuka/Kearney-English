@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-07-31",
+    passages: [
+      {
+        id: "d0731-1",
+        title: "Why Governments Support Their Money",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "The value of a country's money can rise and fall quickly against other currencies, and sometimes governments step in to influence it. Recently, Japan's financial authorities are believed to have acted to strengthen the yen after it moved sharply against the U.S. dollar. This kind of action is called currency intervention.\nHow does it work? A country's central bank or treasury can buy or sell large amounts of its own currency. To make the yen stronger, for example, authorities buy yen using their reserves of foreign money. Buying increases demand, which tends to push the value up. To weaken it, they would do the opposite.\nWhy bother? The exchange rate affects the whole economy. A very weak currency makes imported goods, such as food and energy, more expensive, which can hurt households. A very strong currency can make a country's exports harder to sell abroad. Governments often want to avoid sudden, extreme swings that make it hard for businesses to plan.\nIntervention has limits. Global currency markets are enormous, trading trillions of dollars every day, so even a large government cannot control prices for long. Sometimes just the threat of action is enough to calm the market.\nFor learners of business English, the lesson is useful: money itself is a market, shaped by supply, demand, and expectations. When a government acts, it is not setting a price by force, but trying to steer a huge and restless system.",
+        summaryJa: "国の通貨の価値は他通貨に対して急に上下し、政府が介入して動かすこともある。最近、日本の当局は円がドルに対し急変した後、円を強めるために動いたとみられる。これを為替介入という。仕組みは、中央銀行や財務当局が自国通貨を大量に売買すること。円を強めるには外貨準備で円を買い、需要が増えて価値が上がりやすくなる。弱めるには逆を行う。なぜか——為替レートは経済全体に影響する。極端に弱い通貨は食料やエネルギーなど輸入品を高くし家計を圧迫し、極端に強い通貨は輸出を売りにくくする。政府は企業が計画しにくい急激な変動を避けたい。ただし世界の為替市場は日々何兆ドルも取引される巨大なもので、大きな政府でも長くは価格を支配できず、介入をほのめかすだけで市場が落ち着くこともある。ビジネス英語の学習者への教訓——お金自体が需要・供給・期待で形づくられる市場であり、政府の介入は力で価格を決めるのでなく、巨大で落ち着かない仕組みを操ろうとする試みなのだ。",
+        quiz: [
+          { q: "為替介入とは何か？", options: ["政府や中央銀行が自国通貨を売買して価値に影響を与えること", "通貨を印刷して配ること", "銀行を閉じること"], answer: 0 },
+          { q: "円を強めるために当局が行うことは？", options: ["外貨で円を買い需要を増やす", "円を大量に売る", "何もしない"], answer: 0 },
+          { q: "介入の限界として本文が挙げるのは？", options: ["市場が巨大で長くは価格を支配できない", "政府は無限に介入できる", "市場は小さい"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0731-2",
+        title: "Building a Stronger Cyber Defense",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "As more of daily life moves online, protecting computer systems from attack has become a national priority. Governments now treat 'cyber defense' — the work of stopping hackers and other digital threats — as seriously as they treat protecting land, sea, and air. Recently, Japan announced a new policy focused on detecting threats early, with the goal of building one of the world's strongest cyber defenses.\nWhy is early detection so important? Many cyberattacks succeed because they go unnoticed for a long time. Intruders may quietly enter a system, watch, and steal information for weeks or months before anyone realizes. The sooner a threat is found, the less damage it can do. Modern defense therefore relies on constant monitoring, quick warnings, and fast response.\nSeveral tools help with this. Software can watch network traffic and flag unusual activity. Teams of experts study new kinds of attacks and share what they learn. Increasingly, artificial intelligence is used to spot patterns that humans might miss, sorting through huge amounts of data in seconds.\nThere are challenges. Attackers also improve their methods, and monitoring must respect people's privacy. Skilled defenders are in short supply, so training and cooperation between countries matter.\nThe larger point is that security is no longer only about physical walls and borders. In a connected world, a nation's safety depends partly on invisible defenses — the systems and people quietly working to keep networks, hospitals, and power grids running.",
+        summaryJa: "生活の多くがオンラインに移るにつれ、コンピューターシステムを攻撃から守ることが国家的優先課題になった。政府は今や「サイバー防衛」——ハッカーなどのデジタル脅威を止める仕事——を陸海空の防衛と同じく重視する。日本は最近、脅威の早期検知に重点を置き、世界有数のサイバー防衛を築くという方針を発表した。なぜ早期検知が重要か——多くの攻撃は長く気づかれず成功する。侵入者は静かに入り込み、数週間から数か月も監視や情報窃取を続けることがある。早く見つけるほど被害は小さい。だから現代の防衛は常時監視・迅速な警報・速い対応に頼る。ネットワークの通信を監視して異常を示すソフト、新種の攻撃を研究し知見を共有する専門家チーム、人が見逃す模様を膨大なデータから数秒で見つけるAIが役立つ。課題もある——攻撃側も手口を高度化し、監視は人々のプライバシーを尊重せねばならず、熟練の防御者は不足しており訓練や国際協力が重要だ。要点は、安全がもはや物理的な壁や国境だけの話ではないこと。つながった世界では、国の安全は目に見えない防衛にも支えられている。",
+        quiz: [
+          { q: "日本の新方針が重点を置くのは？", options: ["脅威の早期検知", "攻撃をやめること", "インターネットの禁止"], answer: 0 },
+          { q: "早期検知が重要な理由は？", options: ["攻撃は長く気づかれず被害を広げるから", "攻撃は無害だから", "監視は不要だから"], answer: 0 },
+          { q: "本文が挙げる課題に含まれるものは？", options: ["熟練の防御者の不足とプライバシーの尊重", "防御者が多すぎること", "攻撃者がいないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0731-3",
+        title: "Cities Learn to Beat the Heat",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Summers are getting hotter in many parts of the world, and cities are feeling the heat most of all. Streets, buildings, and concrete absorb sunlight during the day and release it at night, making urban areas warmer than the countryside around them. To protect residents, cities are now trying creative ways to cool down.\nIn one German city, officials recently tested a system that sprays a fine mist of chilled groundwater into the air, using equipment connected to fire hoses. The tiny droplets cool the surrounding air as they evaporate, offering relief on the hottest days. Other cities are experimenting with their own solutions.\nMany of these ideas are surprisingly simple. Planting more trees creates shade and naturally cools the air. Painting roofs white helps reflect sunlight instead of absorbing it. Adding parks, fountains, and water features gives people cool places to gather. Some cities open special 'cooling centers' where anyone can escape the heat indoors.\nWhy does this matter so much? Extreme heat is dangerous, especially for older people, young children, and those who work outdoors. During severe heat waves, the number of people who become ill can rise sharply. Keeping cities cooler is therefore a matter of health and safety, not just comfort.\nThe trend reflects a broader shift. As hot summers become more common, cities around the world are learning to adapt — redesigning streets and buildings so that millions of people can live more safely through the warmest months of the year.",
+        summaryJa: "世界の多くの地域で夏はより暑くなり、都市が最も影響を受けている。道路・建物・コンクリートが日中に日光を吸収し夜に放出するため、都市は周囲の田園より暑くなる。住民を守るため、都市は今や創意工夫で涼を得ようとしている。ドイツのある都市は最近、消防ホースに接続した装置で冷たい地下水の細かい霧を空気中に噴霧する仕組みを試した。微小な水滴が蒸発しながら周囲の空気を冷やし、最も暑い日に涼をもたらす。他の都市も独自の解決策を試している。多くは驚くほど単純だ——木を増やせば日陰ができ自然に空気が冷える。屋根を白く塗れば日光を吸収せず反射する。公園・噴水・水辺は涼しい集いの場になる。屋内で暑さを避けられる「クーリングセンター」を開く都市もある。なぜ重要か——極端な暑さは、特に高齢者・幼児・屋外労働者に危険で、猛暑では体調を崩す人が急増しうる。都市を涼しく保つことは快適さだけでなく健康と安全の問題だ。暑い夏が当たり前になる中、世界の都市は街や建物を作り替え、多くの人が最も暑い時期を安全に暮らせるよう適応を学んでいる。",
+        quiz: [
+          { q: "都市が周囲より暑くなる理由は？", options: ["建物やコンクリートが日光を吸収し放出するから", "田園が近いから", "木が多いから"], answer: 0 },
+          { q: "本文が挙げる冷却の工夫に含まれないものは？", options: ["屋根を黒く塗る", "木を植えて日陰を作る", "冷たい水の霧を噴霧する"], answer: 0 },
+          { q: "都市を涼しく保つことが重要なのはなぜか？", options: ["極端な暑さは高齢者などに危険だから", "暑さは無害だから", "快適さだけの問題だから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0731-4",
+        title: "Japan's Shrinking Population",
+        level: "★★★",
+        genre: "日本",
+        text: "Japan has reached a milestone that worries many experts: its population has fallen below 120 million for the first time in over forty years. The number of people living in the country has been declining for years, and the pace is expected to continue. Behind this simple figure lies one of the biggest challenges Japan faces.\nTwo forces drive the change. First, people are having fewer children, so fewer young people are being born each year. Second, Japan has one of the longest life expectancies in the world, which means a large and growing share of the population is elderly. Together, these trends create a society with many older people and relatively few young workers.\nWhy does this matter? A smaller working-age population must support a larger number of retirees through taxes and care. Businesses may struggle to find enough workers, and some rural towns are shrinking so fast that schools and shops close. Government budgets for pensions and health care come under strain.\nJapan is responding in many ways. Some companies raise wages or use robots and automation to make up for fewer workers. The government encourages family-friendly policies and looks at ways to welcome more workers from abroad. Older people are staying in jobs longer than before.\nThere are no easy answers, and other countries are watching closely, because many face similar trends. How Japan adapts to a smaller, older population may offer lessons for much of the world in the decades ahead.",
+        summaryJa: "日本は多くの専門家が憂慮する節目を迎えた——人口が40年余りで初めて1億2千万人を割った。居住人口は長年減り続け、この流れは今後も続くと見られる。この単純な数字の背後に、日本が直面する最大級の課題がある。変化を生む力は二つ。第一に子どもの数が減り、毎年生まれる若者が少ないこと。第二に日本は世界有数の長寿国で、高齢者の割合が大きく増えていること。両者が相まって、高齢者が多く若い働き手が比較的少ない社会になる。なぜ問題か——少ない現役世代が税や介護で多くの引退者を支えねばならない。企業は人手確保に苦しみ、学校や店が閉じるほど急速に縮む地方の町もある。年金や医療の予算は逼迫する。日本は多様に対応している——賃上げやロボット・自動化で人手不足を補う企業、子育て支援策や海外からの受け入れを探る政府、以前より長く働き続ける高齢者。簡単な答えはなく、同様の傾向に直面する各国が注視している。より小さく高齢化した人口に日本がどう適応するかは、今後数十年の世界の多くに教訓を与えるかもしれない。",
+        quiz: [
+          { q: "日本の人口減少を生む二つの力は？", options: ["出生数の減少と高齢者割合の増加", "移民の急増と出生増", "戦争と災害"], answer: 0 },
+          { q: "人口減少が問題となる理由は？", options: ["少ない現役世代が多くの引退者を支える必要がある", "働き手が多すぎる", "高齢者がいない"], answer: 0 },
+          { q: "日本の対応に含まれるものは？", options: ["賃上げや自動化、海外からの受け入れの検討", "何もしない", "若者の追放"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0731-5",
+        title: "Making Factories Ready for Earthquakes",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "When a powerful earthquake struck southern Japan this week, it raised an important question for industry: how can factories that make delicate products keep working in a land that shakes? Nowhere is this more pressing than in the region's growing hub for making computer chips, where even tiny vibrations can ruin a product.\nChip factories are extraordinarily sensitive. The circuits they build are thinner than a human hair, so machines must sit almost perfectly still. A strong quake can crack equipment, spill chemicals, and halt production for weeks — a serious problem when the whole world depends on a steady supply of chips.\nEngineers have developed clever defenses. Buildings rest on special bearings and dampers that let the ground move while the structure above stays steadier. Sensitive machines sit on platforms designed to absorb shaking. Early-warning systems can pause delicate processes automatically in the seconds before strong tremors arrive.\nPreparation also means planning for what comes after. Factories store extra materials, keep backup power ready, and practice how to restart safely once a quake has passed. Companies increasingly spread production across several sites, so that damage in one place does not stop everything.\nThe wider lesson reaches beyond Japan. As advanced manufacturing spreads to more regions, and as natural hazards remain a fact of life, building factories that can survive disasters is becoming part of good engineering. Making resilience part of the design — not an afterthought — helps keep both workers and the products they build safe.",
+        summaryJa: "今週、南日本を強い地震が襲い、産業に重要な問いを突きつけた——揺れる土地で、繊細な製品を作る工場はどう稼働を保てるのか。地域で成長するコンピューターチップ製造の拠点ほど、この問いが切実な場所はない。わずかな振動でも製品を台無しにするからだ。チップ工場は極めて敏感で、人の髪より細い回路を作るため機械はほぼ完全に静止していなければならない。強い地震は装置を割り、薬品をこぼし、生産を数週間止めうる——世界がチップの安定供給に依存する中では深刻だ。技術者は巧妙な防御を編み出した。建物は特殊な支承やダンパーの上に載り、地面が動いても上の構造はより安定を保つ。敏感な機械は揺れを吸収する台に据えられる。早期警報は強い揺れの数秒前に繊細な工程を自動で止める。備えは「その後」の計画も意味する——予備の材料を蓄え、非常用電源を用意し、地震後に安全に再稼働する手順を訓練する。損害が全てを止めないよう生産を複数拠点に分散する企業も増える。教訓は日本を超える。先端製造が各地に広がり自然災害が生活の一部であり続ける中、災害に耐える工場づくりは良い工学の一部になりつつある。回復力を後付けでなく設計に組み込むことが、働く人と製品を守る。",
+        quiz: [
+          { q: "チップ工場が地震に弱い理由は？", options: ["わずかな振動でも繊細な製品を台無しにするから", "工場が小さいから", "電気を使わないから"], answer: 0 },
+          { q: "本文が挙げる防御に含まれるものは？", options: ["建物を支承やダンパーに載せ揺れを抑える", "地震を止める", "工場を海に浮かべる"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["回復力を後付けでなく設計に組み込むこと", "災害は無視できる", "工場は不要だ"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-07-30",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "25年の研究が示した関連は？", options: ["甘い飲み物の頻繁な摂取と成人後の高血圧リスク", "甘い飲み物と視力", "甘い飲み物と身長"], answer: 0 },
           { q: "高血圧が「沈黙の」状態と呼ばれる理由は？", options: ["長年無症状で体を蝕むから", "音がするから", "すぐ治るから"], answer: 0 },
           { q: "本文が勧める選択は？", options: ["水を基本にし、果汁もほどほどにする", "甘い飲み物を増やす", "水を避ける"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-07-24",
-    passages: [
-      {
-        id: "d0724-1",
-        title: "Two Sides of a Changing Economy",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Japan's economy is sending two very different signals at once, and reading them together tells an important story. On one hand, this year's wage talks produced a third straight year of pay increases above five percent — a strong sign after decades of nearly flat wages. On the other hand, business bankruptcies in the first half of the year reached their highest level since 2022, partly because of a weak yen that raised the cost of imported goods.\nHow can both be true? Because an economy is never a single number; it is millions of businesses and workers in different situations. Large companies with strong profits can afford generous raises, and workers in demand are winning higher pay. Meanwhile, small firms with thin margins are squeezed by rising costs for imported materials, energy, and parts. The same weak yen that helps exporters can hurt companies that must buy from abroad.\nThis split matters for anyone trying to understand the economy. A cheerful headline about rising wages and a worrying headline about rising bankruptcies are not contradictions; they are two parts of the same complex picture. Averages hide these differences, so wise observers look beneath them.\nThe deeper lesson applies to business and life. Big changes rarely help everyone equally. A shift that lifts one group — say, workers winning raises or exporters gaining from a weak yen — may pressure another at the same time. Understanding who benefits and who struggles, rather than relying on a single headline number, is the beginning of real economic insight.",
-        summaryJa: "日本経済は同時に二つの異なる信号を発している。今年の賃上げは3年連続で5%超と、長年ほぼ横ばいだった後の力強い兆し。一方、上半期の企業倒産は2022年以来最多で、輸入品コストを押し上げる円安が一因だ。両立するのは、経済が単一の数字でなく多様な状況の企業・労働者の集まりだから。好業績の大企業は手厚い賃上げができ、需要の高い人材は高賃金を得る一方、利幅の薄い中小は輸入材料・エネルギー・部品の高騰に苦しむ。輸出企業を助ける円安が、海外調達の企業を痛める。賃上げの明るい見出しと倒産増の暗い見出しは矛盾でなく同じ複雑な絵の二面だ。平均は差を隠す。大きな変化が皆を等しく助けることは稀で、誰が得て誰が苦しむかを見ることが経済洞察の出発点だ。",
-        quiz: [
-          { q: "日本経済が同時に発している二つの信号は？", options: ["賃上げの強さと倒産の増加", "人口増と物価下落", "輸出減と輸入減"], answer: 0 },
-          { q: "円安が持つ二面性とは？", options: ["輸出企業を助けるが、海外調達の企業を痛める", "全員を助ける", "誰も影響を受けない"], answer: 0 },
-          { q: "本文が勧める経済の見方は？", options: ["単一の見出し数字でなく、誰が得て誰が苦しむかを見る", "平均だけを見る", "見出しを信じる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0724-2",
-        title: "Biotech Against an Aging Society",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Japan is one of the oldest societies in the world, with a large share of its population over sixty-five. This creates enormous pressure on healthcare, but it is also driving a wave of innovation. Japanese biotech companies are becoming pioneers in two fast-growing fields: preventative medicine and precision cancer treatment.\nPreventative medicine aims to stop illness before it starts, rather than only treating people once they are sick. Using genetic testing, regular monitoring, and analysis of huge amounts of health data, doctors can identify risks early — sometimes years before symptoms appear — and help patients change their habits or begin treatment sooner. For an aging population, keeping people healthy longer is far better, and cheaper, than treating serious disease later.\nPrecision oncology is another frontier. Traditional cancer treatment often uses the same drugs for everyone with a given cancer. Precision medicine instead studies the specific genetic features of each patient's tumor, then chooses the treatment most likely to work for that individual. This can improve results and reduce harmful side effects.\nWhy is Japan pushing so hard in these fields? Necessity is part of the answer. A country facing the challenges of aging must find better, more efficient ways to keep its people healthy. That pressure turns a social problem into a driver of scientific progress.\nThe wider lesson is encouraging. Challenges that seem purely negative — like an aging population — can also spark innovation that benefits the whole world. Solutions developed in Japan to care for its older citizens may one day help aging societies everywhere, turning a national difficulty into a global contribution.",
-        summaryJa: "日本は世界有数の高齢社会で、医療に大きな負担がかかる一方、それが技術革新を促している。日本のバイオ企業は、予防医療と精密がん治療という成長分野の先駆けになりつつある。予防医療は病気になってから治すのでなく発症前に防ぐことを目指し、遺伝子検査・定期モニタリング・膨大な健康データ分析で症状の何年も前にリスクを見つけ、習慣改善や早期治療につなげる。高齢社会では健康を長く保つ方が重症を後で治すより良く安い。精密腫瘍学は、患者ごとの腫瘍の遺伝的特徴を調べ最も効きそうな治療を選ぶことで効果を高め副作用を減らす。日本が力を入れるのは必要性ゆえで、高齢化という社会課題が科学の進歩を駆動する。純粋に否定的に見える課題が世界に役立つ革新を生みうる——高齢者ケアの解が、いつか世界の高齢社会を助けるかもしれない。",
-        quiz: [
-          { q: "予防医療の目的は？", options: ["病気を発症前に防ぐ", "病気になってから治すだけ", "薬を売ること"], answer: 0 },
-          { q: "精密腫瘍学(precision oncology)の特徴は？", options: ["患者ごとの腫瘍の特徴に合わせて治療を選ぶ", "全員に同じ薬を使う", "治療をしない"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["否定的に見える課題が世界に役立つ革新を生みうる", "高齢化に解決策はない", "革新は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0724-3",
-        title: "When a Currency Loses Value",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Money seems fixed, but the value of a currency constantly changes against others. When a country's currency 'weakens,' each unit buys less of foreign money — and that simple shift ripples through the whole economy in ways that help some people and hurt others.\nConsider a weak yen, which has affected Japan in recent years. When the yen falls against the US dollar, Japanese exporters benefit: their goods become cheaper for foreign buyers, boosting sales abroad. Tourists visiting Japan also gain, because their foreign money stretches further, which is one reason visitor numbers have surged.\nBut the same weak currency raises the cost of everything a country imports. Japan buys much of its energy, food, and raw materials from abroad, and a weak yen makes all of these more expensive. Families pay more for fuel and groceries, and companies that rely on imported parts see their costs climb. For a country that imports a great deal, a falling currency can quietly squeeze household budgets and business profits alike.\nWhy do currencies move? Many forces are involved: differences in interest rates between countries, the strength of each economy, and the decisions of millions of investors. A currency is, in a sense, a constant vote on a country's economic prospects.\nThe broader lesson is that in a connected world, no economy stands alone. The exchange rate — a single number most people rarely think about — links a nation's fortunes to the rest of the world, shaping the price of a tank of gas, a foreign holiday, and a factory's raw materials all at once. Understanding it is a key part of understanding the modern global economy.",
-        summaryJa: "お金は固定に見えて、通貨の価値は他通貨に対し絶えず変わる。通貨が「弱くなる」と1単位で買える外貨が減り、その変化が経済全体に波及し、得する人と損する人を生む。近年の円安では、輸出企業は製品が海外で安くなり売上増、訪日客も外貨が有利で急増した。だが弱い通貨は輸入品すべてを高くする。エネルギー・食料・原材料の多くを輸入する日本では、燃料や食料品が高くなり、輸入部品に頼る企業のコストも上がる。輸入の多い国では通貨安が家計と企業利益を静かに圧迫しうる。通貨が動く要因は各国の金利差・経済の強さ・無数の投資家の判断で、通貨はいわば国の経済見通しへの絶え間ない投票だ。つながった世界で単独の経済はなく、為替という数字がガソリン代・海外旅行・工場の原料の価格を一度に左右する。",
-        quiz: [
-          { q: "通貨が「弱くなる」と何が起きる？", options: ["1単位で買える外貨が減る", "国が豊かになる", "物価が必ず下がる"], answer: 0 },
-          { q: "円安で得をするのは？", options: ["輸出企業と訪日観光客", "輸入に頼る企業", "全員が損"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["つながった世界で単独の経済はなく為替が多くの価格を左右する", "為替は無関係", "通貨は動かない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0724-4",
-        title: "Paying for a Longer Life",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan is famous for its long life expectancy — its people, on average, live longer than almost anyone else on Earth. This is a great achievement, the result of good healthcare, healthy diets, and safe communities. But a long-living, low-birth-rate society also creates one of the country's biggest challenges: how to support so many older citizens with a shrinking number of working-age people.\nThe math is simple but difficult. Pensions, healthcare, and elderly care are largely paid for by taxes and contributions from people who are working. When the share of retired people grows and the share of workers shrinks, each worker must support more retirees. This puts pressure on government budgets and on younger generations.\nJapan is trying many solutions at once. Some people are working later in life, staying in jobs past the traditional retirement age, which keeps their skills in use and eases the burden. Companies are using robots and automation to do more with fewer workers. The government encourages higher birth rates with support for families, and debates how to fund care fairly across generations. Immigration, long limited, is slowly being reconsidered as another way to add workers.\nNone of these alone is a complete answer. Together, they form a gradual response to a deep, slow-moving challenge.\nThe wider importance is that Japan is a preview for the world. Many countries — in Europe, East Asia, and beyond — are aging too, just a few decades behind. How Japan manages to care for its elderly while keeping its economy healthy will offer lessons, both hopeful and cautionary, for every society that will one day face the same question.",
-        summaryJa: "日本は平均寿命の長さで名高く、良い医療・健康的な食事・安全な地域の成果だ。だが長寿かつ少子の社会は、減り続ける現役世代でどう多くの高齢者を支えるかという大きな課題も生む。年金・医療・介護は主に働く人の税と保険料で賄われ、引退者の割合が増え現役が減ると、一人の労働者がより多くの引退者を支えることになり、財政と若い世代を圧迫する。日本は多くの解を同時に試す——定年後も働き技能を活かす、ロボットと自動化で少人数でこなす、家族支援で出生率を促し世代間の公平な負担を議論、長く限定的だった移民も再考。どれ一つでは完全な答えにならず、合わせて緩やかな対応になる。日本は世界の先取りで、数十年遅れて高齢化する各国に、希望と警告の両方の教訓を与える。",
-        quiz: [
-          { q: "長寿・少子社会の課題は？", options: ["減る現役世代で多くの高齢者をどう支えるか", "人が多すぎること", "医療が悪いこと"], answer: 0 },
-          { q: "日本が試している解決策に含まれないものは？", options: ["定年後も働く・自動化・家族支援", "移民の再考", "医療の廃止"], answer: 2 },
-          { q: "日本が「世界の先取り」とされる理由は？", options: ["多くの国が数十年遅れて高齢化するから", "日本だけの問題だから", "高齢化は起きないから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0724-5",
-        title: "Why We Sleep",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "We spend about a third of our lives asleep, yet for centuries sleep was one of the great mysteries of science. Why would nature make animals spend so much time unconscious and vulnerable? Modern research has revealed that sleep is not wasted time at all — it is when some of the body's and brain's most important work gets done.\nDuring sleep, the brain is remarkably busy. It sorts through the day's experiences, deciding what to keep and what to discard, and moves important memories into long-term storage. This is why a good night's sleep after studying helps you remember more the next day — the brain literally strengthens what you learned while you rested. Sleep also appears to clear away waste products that build up in the brain during waking hours, a kind of nightly cleaning.\nThe body benefits too. Sleep is when muscles repair, growth and healing hormones are released, and the immune system strengthens its defenses. People who sleep too little are more likely to get sick, gain weight, and struggle to concentrate.\nModern life makes good sleep harder. Bright screens, late-night work, and constant stimulation can disturb the body's natural rhythm. Scientists recommend simple habits: keep a regular schedule, avoid screens and heavy meals before bed, and treat sleep as essential, not optional.\nFor learners of any subject, including language, sleep is a secret weapon. Study in the evening, sleep well, and your brain will keep working on what you learned while you rest. Far from being lost time, sleep is one of the most productive things we do — a reminder that sometimes the best way to move forward is to stop, rest, and let the quiet work of the night do its part.",
-        summaryJa: "人生の約3分の1を眠って過ごすが、睡眠は長く科学の大きな謎だった。なぜ動物は無防備に長時間眠るのか。現代研究は、睡眠が無駄でなく、体と脳の最も重要な作業が行われる時間だと明かした。睡眠中、脳は一日の経験を選別し重要な記憶を長期保存に移す——学習後によく眠ると翌日多く覚えているのは、脳が休息中に学びを強化するからだ。覚醒中にたまる老廃物を除く「夜間清掃」も行われる。体では筋肉の修復、成長・治癒ホルモンの分泌、免疫の強化が起きる。睡眠不足の人は病気・体重増・集中困難になりやすい。画面や夜更かしが良い睡眠を妨げるため、規則的な時間・就寝前の画面や大食を避ける・睡眠を必須と扱う習慣が勧められる。語学を含むあらゆる学習者にとって睡眠は秘密兵器——夜、脳は学びを働かせ続ける。時に前進の最善策は、止まって休むことだ。",
-        quiz: [
-          { q: "睡眠中に脳が行うことは？", options: ["記憶の選別・強化と老廃物の除去", "何もしない", "筋肉を動かす"], answer: 0 },
-          { q: "睡眠不足の人に起きやすいことは？", options: ["病気・体重増・集中困難", "記憶力の向上", "免疫の強化"], answer: 0 },
-          { q: "学習者にとっての睡眠の意味は？", options: ["夜も脳が学びを働かせ続ける秘密兵器", "時間の無駄", "学習と無関係"], answer: 0 }
         ]
       }
     ]
