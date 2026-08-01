@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-01",
+    passages: [
+      {
+        id: "d0801-1",
+        title: "Turning Trash into Treasure",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "For most of the last century, business followed a simple line: make a product, sell it, and let the customer throw it away. A different idea is now gaining ground, called the 'circular economy.' Instead of ending as waste, products and materials are reused, repaired, and remade — and companies are discovering that this can be good for profits as well as the planet.\nHow does waste become valuable? A worn-out phone contains gold, copper, and other useful metals. Old clothing can be turned into new fabric. Even food scraps can become fertilizer or energy. When a company recovers these materials, it buys fewer new ones, which can lower costs and reduce its dependence on unstable supplies.\nMany businesses are building this thinking into their plans. Some sell products as a service, keeping ownership and taking items back to refurbish and resell. Others design goods to be taken apart easily, so parts can be reused. A growing industry now specializes in collecting and processing what others discard.\nThere are obstacles. Recycling can be expensive, and some products are hard to take apart. New rules and better technology are often needed to make the numbers work.\nStill, the direction is clear. As raw materials grow scarcer and customers care more about the environment, treating waste as a resource is becoming smart business. The old line — make, sell, throw away — is slowly bending into a circle, where yesterday's trash becomes tomorrow's raw material.",
+        summaryJa: "前世紀の大半、ビジネスは単純な道筋をたどった——作って売り、客が捨てる。いま別の考え方「サーキュラーエコノミー（循環経済）」が広がっている。製品や素材を廃棄で終わらせず、再利用・修理・再生する——そしてこれが地球だけでなく利益にも良いと企業は気づきつつある。廃棄物がどう価値になるのか。使い古した携帯には金・銅など有用な金属が入り、古着は新しい生地になり、生ごみさえ肥料やエネルギーになる。素材を回収すれば新品の購入が減り、コスト低下と不安定な供給への依存軽減につながる。多くの企業がこの発想を計画に組み込む。製品をサービスとして売り所有権を保ち、回収して再生・再販する企業、簡単に分解できるよう設計し部品を再利用する企業もある。他人が捨てる物を集め処理する産業も成長している。障害もある——リサイクルは高価で、分解が難しい製品もあり、採算を合わせるには新たな規則や技術が要る。それでも方向は明確だ。原材料が希少になり客が環境を気にかける中、廃棄物を資源と捉えることは賢い商売になりつつある。「作る・売る・捨てる」の直線は、昨日のごみが明日の原材料になる円へと、ゆっくり曲がっている。",
+        quiz: [
+          { q: "「循環経済」の考え方とは？", options: ["製品や素材を再利用・修理・再生する", "もっと速く捨てる", "何も作らない"], answer: 0 },
+          { q: "廃棄物の回収が企業に利益をもたらす理由は？", options: ["新品の購入が減りコストや供給依存が下がるから", "ごみが無料でもらえるから", "客が自動的に増えるから"], answer: 0 },
+          { q: "本文が挙げる障害は？", options: ["リサイクルは高価で分解が難しい製品もある", "廃棄物が存在しない", "素材が無限にある"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0801-2",
+        title: "A New Way to Recycle Plastic",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Plastic is one of the world's most useful materials, but also one of its biggest waste problems. Much of it is never recycled, partly because there are many different kinds, and sorting them apart is slow and expensive. Now scientists have described a new chemical process that could change this: a method that turns several common types of plastic into pure hydrogen gas — without sorting them first.\nWhy does that matter? Hydrogen is a clean fuel. When it burns or is used in a fuel cell, it produces mostly water, not the gases that warm the planet. If mixed plastic waste could be turned cheaply into hydrogen, two problems might be eased at once: less plastic piling up, and more clean energy available.\nThe process works by using chemistry to break the long molecules in plastic into simpler pieces, releasing hydrogen along the way. Because it can handle a mixture, it removes one of the hardest and most costly steps in ordinary recycling — the careful separation of different plastics.\nIt is important to stay cautious. A promising result in the laboratory does not always work at the scale of a real factory, and questions of cost, energy use, and safety must be answered first. Years of testing usually lie between a discovery and everyday use.\nStill, the idea is appealing: taking something we struggle to get rid of and turning it into something we badly need. It is a reminder that clever chemistry can open new doors in the fight against waste.",
+        summaryJa: "プラスチックは世界で最も有用な素材の一つだが、最大級の廃棄物問題でもある。多くは決して再生されない——種類が多く、分別が遅く高価なことも一因だ。いま科学者が、これを変えうる新しい化学プロセスを発表した。数種類の一般的なプラスチックを、分別せずに純粋な水素ガスに変える方法だ。なぜ重要か。水素はクリーンな燃料で、燃やしても燃料電池で使っても主に水を生じ、温暖化ガスを出さない。混ざったプラスチックごみを安く水素に変えられれば、プラスチックの山が減り、クリーンエネルギーが増えるという二つの問題を同時に和らげうる。この工程は化学の力でプラスチックの長い分子を単純な断片に分解し、その過程で水素を放出する。混合物を扱えるため、通常のリサイクルで最も難しく高価な工程——異なるプラスチックの丁寧な分別——を省ける。ただし慎重さも要る。実験室の好結果が実際の工場規模で常に通用するとは限らず、費用・エネルギー・安全の問いにまず答えねばならない。発見から日常利用までには通常何年もの試験がある。それでも、捨てるのに苦労する物を、切実に必要な物へ変えるという発想は魅力的だ。巧妙な化学が廃棄物との闘いに新たな扉を開きうることを思い出させる。",
+        quiz: [
+          { q: "プラスチックの多くが再生されない一因は？", options: ["種類が多く分別が遅く高価だから", "有用でないから", "燃えないから"], answer: 0 },
+          { q: "新プロセスがプラスチックから作るものは？", options: ["クリーンな燃料である水素", "新しいプラスチック", "金属"], answer: 0 },
+          { q: "本文が促す慎重さの理由は？", options: ["実験室の結果が工場規模で常に通用するとは限らない", "化学は危険すぎる", "水素は役に立たない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0801-3",
+        title: "Countries Team Up to Explore the Moon",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Space exploration was once a contest between two superpowers. Today it looks more like a group project. Recently, space experts from India and Japan met to review progress on a shared mission to explore the Moon, a sign of how nations increasingly join forces to reach beyond Earth.\nWhy work together? Space missions are extremely expensive and technically difficult. By sharing the cost, the risk, and the knowledge, two countries can attempt things that would be hard to manage alone. One partner may build part of the spacecraft, another may provide instruments or a landing system, and both share the scientific results.\nThe Moon is a popular destination again for good reasons. Scientists want to study its surface and search for water ice, which future explorers could use for drinking or even fuel. The Moon can also serve as a testing ground for the technologies needed to travel farther, one day perhaps to Mars.\nThese partnerships are about more than science. They build trust between countries, train engineers, and grow industries that create jobs back home. A successful mission can become a source of national pride and a symbol of what cooperation can achieve.\nOf course, challenges remain. Partners must coordinate closely across languages, time zones, and different ways of working, and space is unforgiving of mistakes. Yet the trend is clear: as humanity reaches for the Moon and beyond, it is increasingly doing so hand in hand, sharing both the burdens and the rewards of exploration.",
+        summaryJa: "宇宙探査はかつて二つの超大国の競争だった。今日ではむしろ共同プロジェクトに見える。最近、インドと日本の宇宙専門家が、月を探査する共同ミッションの進捗を検討するため会合した。地球の外へ届くために各国がますます力を合わせる証だ。なぜ協力するのか。宇宙ミッションは極めて高価で技術的に難しい。費用・リスク・知識を分け合えば、単独では難しいことに挑める。一方が探査機の一部を作り、他方が観測機器や着陸系を提供し、双方が科学的成果を共有する。月が再び人気の目的地なのには理由がある。科学者は表面を研究し、将来の探査者が飲料や燃料に使える水の氷を探したい。月は、いつか火星へ——より遠くへ旅する技術の試験場にもなる。こうした協力は科学以上の意味を持つ。国家間の信頼を築き、技術者を育て、母国で雇用を生む産業を成長させる。成功は国民の誇りとなり、協力が成し遂げうるものの象徴になる。もちろん課題は残る。言語・時差・仕事の進め方の違いを越えて緊密に調整せねばならず、宇宙は失敗を許さない。それでも流れは明確だ。人類は月やその先へ手を伸ばすとき、負担も報酬も分かち合いながら、ますます手を取り合って進んでいる。",
+        quiz: [
+          { q: "各国が宇宙で協力する理由は？", options: ["費用・リスク・知識を分け合えるから", "宇宙が安いから", "一国では危険がないから"], answer: 0 },
+          { q: "科学者が月で探したいものは？", options: ["飲料や燃料に使える水の氷", "金の鉱山", "新しい大陸"], answer: 0 },
+          { q: "宇宙協力が科学以外にもたらすものは？", options: ["国家間の信頼・技術者育成・雇用", "戦争", "孤立"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0801-4",
+        title: "More Japanese Fathers Take Time Off",
+        level: "★★☆",
+        genre: "日本",
+        text: "For the first time, more than half of new fathers working in Japan took child-care leave, according to figures for the past fiscal year. It is a striking change in a country where, not long ago, very few men stepped away from work to help raise a baby. The shift reflects new laws, company efforts, and slowly changing attitudes about family and work.\nWhy does this matter? Raising a newborn is hard, and support in the early weeks makes a real difference. When both parents can share the care, mothers recover more easily and are more likely to keep their careers, while fathers build a closer bond with their children. Families become more equal, and the pressure does not fall on one person alone.\nSeveral forces pushed the numbers up. The government strengthened rules that let fathers take leave and encouraged companies to inform employees of their rights. Some firms now treat taking leave as normal and expected, rather than a favor. Younger workers, in particular, increasingly want time with their families.\nChallenges remain. In some workplaces, men still worry that taking leave could hurt their careers, and small companies may find it harder to cover for absent staff. The length of leave men take is often still short.\nEven so, crossing the halfway mark is a milestone. It suggests that ideas about work and fatherhood in Japan are changing — and that policies, when paired with shifting attitudes, really can reshape how a society balances work and family life.",
+        summaryJa: "前年度の統計で初めて、日本で働く新米父親の半数超が育児休業を取得した。少し前まで赤ちゃんの世話のために仕事を離れる男性がごくわずかだった国での、際立った変化だ。新しい法律、企業の取り組み、家庭と仕事に関する少しずつの意識変化を映している。なぜ重要か。新生児の育児は大変で、最初の数週間の支えは大きな違いを生む。両親が世話を分け合えれば、母親は回復しやすくキャリアを続けやすくなり、父親は子とより深い絆を築く。家庭はより対等になり、負担が一人に集中しない。数字を押し上げた力はいくつかある。政府は父親の休業取得を促す規則を強化し、企業に権利の周知を促した。休業を「恩恵」でなく当然のことと扱う企業もある。特に若い世代が家族との時間を望むようになっている。課題は残る。取得がキャリアに響くと心配する男性、休んだ人員を補いにくい小企業もあり、取得期間はなお短いことが多い。それでも半数超えは節目だ。仕事と父親であることをめぐる日本の考え方が変わりつつあり、政策が意識の変化と結びつけば、社会の仕事と家庭の両立の仕方を本当に作り替えうることを示している。",
+        quiz: [
+          { q: "日本で初めて起きた変化とは？", options: ["新米父親の半数超が育児休業を取得した", "父親が全員退職した", "育児休業が廃止された"], answer: 0 },
+          { q: "両親が世話を分け合う利点は？", options: ["母親がキャリアを続けやすく父子の絆も深まる", "誰も休めなくなる", "費用が増えるだけ"], answer: 0 },
+          { q: "本文が挙げる残る課題は？", options: ["キャリアへの不安や小企業の人員補充の難しさ", "男性が多すぎること", "赤ちゃんがいないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0801-5",
+        title: "What Ancient DNA Tells Us About Ourselves",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "The story of where humans come from keeps growing more surprising. Scientists studying ancient DNA have found signs that modern people carry small pieces of genetic material from two mysterious, long-extinct groups of early humans — in addition to the Neanderthals and Denisovans already known. In other words, our ancestors mixed with more kinds of relatives than we once believed.\nHow can researchers know this? Every person's DNA is a kind of record, passed down and slightly changed over thousands of generations. By comparing the DNA of many people living today, and sometimes DNA taken from very old bones, scientists can spot unusual patterns. Some sections do not match any known group, hinting at ancestors we have not yet identified.\nWhy does this matter? These findings reshape the human family tree. They suggest that early humans did not live in neat, separate branches, but met, traveled, and had children together across the ancient world. A little of those vanished peoples still lives on inside us today.\nThe research also has practical value. Genes inherited from ancient relatives can affect how our bodies handle disease, altitude, or diet, so understanding this history may help medicine.\nThere is still much we do not know, and new discoveries may change the picture again. But that is part of the appeal. Each fragment of ancient DNA is like a sentence from a lost book, slowly helping us read the long, tangled, and deeply human story of where we all came from.",
+        summaryJa: "人類がどこから来たのかという物語は、ますます驚きを増している。古代DNAを研究する科学者は、現代人が、既知のネアンデルタール人やデニソワ人に加えて、二つの謎めいた絶滅した初期人類の遺伝物質のかけらを受け継いでいる兆候を見つけた。つまり私たちの祖先は、かつて考えられていたより多くの種類の親戚と混ざり合っていた。なぜ分かるのか。人のDNAは一種の記録で、何千世代も受け継がれ少しずつ変化する。今生きる多くの人のDNAや、時に非常に古い骨から採ったDNAを比べ、科学者は珍しい模様を見つける。既知のどの集団とも一致しない部分が、まだ特定されていない祖先を示唆する。なぜ重要か。この発見は人類の家系図を描き直す。初期人類は整然と分かれた枝に住んでいたのでなく、古代世界で出会い、旅し、子をもうけたことを示す。消えた人々の一部が今も私たちの中に生きている。研究は実用的価値も持つ。古代の親戚から受け継いだ遺伝子は、病気・高地・食事への体の対応に影響しうるため、この歴史の理解は医療に役立つかもしれない。分からないことはなお多く、新発見が再び絵を変えるかもしれない。だがそれこそ魅力だ。古代DNAの断片一つ一つは失われた本の一文のようで、私たちがどこから来たのかという長く絡み合った、深く人間的な物語を少しずつ読み解かせてくれる。",
+        quiz: [
+          { q: "科学者が見つけた兆候とは？", options: ["現代人が未知の絶滅集団のDNAも受け継いでいる", "人類は一種類だけだった", "DNAは変化しない"], answer: 0 },
+          { q: "研究者がこれを知る方法は？", options: ["多くの人や古い骨のDNAを比べ珍しい模様を見つける", "化石の色を見る", "推測だけで決める"], answer: 0 },
+          { q: "この発見が示すことは？", options: ["初期人類は出会い交わっていて家系図を描き直す", "人類は常に孤立していた", "祖先はただ一つだった"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-07-31",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "スーパーエイジャーとは？", options: ["高齢でも鋭い記憶を保つ稀な人々", "若くして記憶を失う人", "眠らない人"], answer: 0 },
           { q: "研究者が驚いた発見は？", options: ["彼らの遺伝子が普通の高齢者と似ていること", "彼らが超人だったこと", "記憶がないこと"], answer: 0 },
           { q: "この研究の希望のメッセージは？", options: ["選択や習慣が記憶の維持に意味を持ちうる", "すべては運任せ", "習慣は無意味"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-07-25",
-    passages: [
-      {
-        id: "d0725-1",
-        title: "What Makes a Region Good for Startups",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When people think of Japanese business, they often picture Tokyo. But Japan's startup world is spreading, and different regions are becoming known for different specialties. The Kansai area around Osaka, the Aichi region near Nagoya, and cities like Fukuoka and Sapporo are each attracting particular kinds of new companies, research spin-offs from universities, and foreign firms entering the market.\nWhy do certain places suit certain businesses? A region's history shapes its strengths. Areas with a long tradition of manufacturing offer skilled engineers and nearby factories, which is ideal for robotics or hardware startups. Cities with strong universities and hospitals attract biotech and medical companies. A place near ports and airports may suit businesses that trade internationally. Startups thrive where the local environment matches what they need.\nGovernment support plays a role too. Local governments compete to attract new companies by offering lower costs, office space, and programs that connect startups with investors and mentors. A city that succeeds in building a cluster in one field often finds that success feeds on itself: more talent arrives, more suppliers open, and the area becomes known as the place to be for that industry.\nThe practical lesson applies to workers and founders alike. Where you build a business, or where you look for work, matters. Choosing a location whose strengths match your goals — the right skills, customers, and support nearby — can be as important as the idea itself. In business, geography is not just a backdrop; it is part of the strategy.",
-        summaryJa: "日本のビジネスというと東京を思い浮かべがちだが、スタートアップの世界は広がり、地域ごとに得意分野ができつつある。大阪圏の関西、名古屋圏の愛知、福岡や札幌などが、それぞれ特定の新興企業や大学発スピンオフ、外資を引き寄せている。ものづくりの伝統がある地域は技術者と工場が近くロボット・ハードに向き、大学・病院が強い都市はバイオ・医療を呼ぶ。港や空港に近ければ国際取引の企業に向く。自治体もコスト減・オフィス・投資家やメンターとの橋渡しで誘致を競い、一分野の集積に成功すると人材や供給業者が集まり自己強化する。どこで起業し、どこで職を探すかは重要で、強みと目標が合う立地選びはアイデアと同じくらい大切だ。ビジネスで地理は背景でなく戦略の一部だ。",
-        quiz: [
-          { q: "ものづくりの伝統がある地域が向くのは？", options: ["ロボットやハードウェアのスタートアップ", "農業のみ", "観光のみ"], answer: 0 },
-          { q: "自治体がスタートアップ誘致で提供するものは？", options: ["コスト減・オフィス・投資家との橋渡し", "無料の休暇", "商品の販売"], answer: 0 },
-          { q: "本文の実務的教訓は？", options: ["強みと目標が合う立地選びはアイデアと同じくらい大切", "立地は関係ない", "東京以外では起業できない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0725-2",
-        title: "Tiny Brains Grown in the Lab",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "One of the most remarkable tools in modern medicine is almost too strange to believe: miniature models of the human brain, grown in a laboratory from a patient's own cells. In a recent study, these tiny brain models revealed striking differences in how Alzheimer's-affected tissue responded to a common antidepressant — a discovery that could shape future treatments.\nHow can scientists grow a brain model? They take ordinary cells from a person — often from skin or blood — and use special techniques to turn them back into stem cells, which can become almost any kind of cell. Guided carefully, these stem cells organize themselves into small, three-dimensional clusters that mimic parts of a real brain. They are far simpler than a true brain and cannot think or feel, but they contain real human brain cells behaving in realistic ways.\nWhy is this so useful? Because studying disease in a living human brain is nearly impossible. These models let scientists watch how a disease develops and how cells react to drugs, using tissue that carries a specific patient's own genetics. That means researchers can test which treatment might work best for a particular person, moving toward truly personalized medicine.\nThere are limits and questions. The models are still simplified, results in a dish do not always match a whole body, and growing brain-like tissue raises careful ethical discussions. Scientists proceed thoughtfully, keeping the models simple and their purposes clear.\nThe broader wonder is how far biology has come. Using a few of a patient's own cells, researchers can now build a tiny, living tool to study one of the most complex objects in the universe — the human brain — and search, cell by cell, for better ways to heal it.",
-        summaryJa: "現代医療の驚くべき道具の一つが、患者自身の細胞から実験室で育てる小型の脳モデルだ。最近の研究で、この小さな脳モデルが、アルツハイマーの組織がありふれた抗うつ薬にどう反応するかの顕著な違いを明かし、将来の治療に示唆を与えた。皮膚や血液の細胞を幹細胞に戻し、導いて立体の塊にすると本物の脳の一部を模す。思考や感情はないが、実際のヒト脳細胞が現実的に振る舞う。生きた人の脳での病気研究はほぼ不可能なため、これで病気の進行や薬への反応を、特定患者の遺伝情報を持つ組織で観察でき、個別化医療へ近づく。モデルは簡略で、皿の結果が全身と一致しないこともあり、倫理的議論も伴うため慎重に進める。患者の数個の細胞から、宇宙で最も複雑な脳を研究する生きた道具を作れる——生物学の到達点を示す。",
-        quiz: [
-          { q: "脳モデルは何から作られる？", options: ["患者自身の細胞(皮膚や血液)から", "動物の脳から", "金属から"], answer: 0 },
-          { q: "脳モデルが有用な理由は？", options: ["生きた人の脳での研究がほぼ不可能だから", "脳より賢いから", "安いから"], answer: 0 },
-          { q: "この技術の限界・課題に含まれるものは？", options: ["モデルは簡略で倫理的議論も伴う", "全く課題がない", "思考して感情を持つ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0725-3",
-        title: "Forecasting the Melting Ice",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Far from most people's daily lives, at the bottom of the world, lies a force that could reshape coastlines everywhere: the ice of Antarctica. Scientists have made an important advance, suggesting they may be able to reliably forecast how much Antarctic ice will melt through the middle of this century. That knowledge could give governments a vital head start in preparing for rising seas.\nWhy does Antarctic ice matter so much? Because it holds an enormous amount of frozen water. If large parts of it melt and flow into the ocean, sea levels around the world rise. Even a modest rise threatens low-lying cities, coastal farmland, and island nations, where hundreds of millions of people live. Understanding how fast this will happen is one of the most important questions in climate science.\nForecasting ice loss is extremely difficult. Ice behaves in complex ways, affected by ocean temperatures, wind, and the shape of the land beneath it. For years, predictions varied widely, making it hard for governments to plan. A more reliable forecast, even for the next few decades, is therefore a major step forward.\nWhy does better prediction help? Because preparation takes time. Building sea walls, redesigning drainage, protecting freshwater supplies, and, in some cases, planning to move communities all require years or decades of work. A clearer picture of what is coming lets societies act early, when it is cheaper and more effective, rather than scrambling in a crisis.\nThe deeper message is about the value of knowledge itself. We cannot stop all sea-level rise, but understanding it gives us the power to prepare. In facing a changing planet, good science is not just about explaining the world — it is about buying precious time to protect the people who live in it.",
-        summaryJa: "多くの人の日常から遠い世界の南端に、各地の海岸線を作り変えうる力——南極の氷がある。科学者は、今世紀半ばまでの南極の氷の融解量を信頼できる形で予測できるかもしれないという重要な前進を遂げた。これは海面上昇への備えで各国に貴重な先行時間を与える。南極の氷は膨大な水を蓄え、大量に海へ流れれば世界の海面が上がる。わずかな上昇でも低地の都市・沿岸農地・島国を脅かし、数億人が暮らす。融解の速さの理解は気候科学の最重要問題の一つだ。氷は海水温・風・地形に左右され複雑で、予測は長く大きくばらつき計画が難しかった。数十年でも信頼できる予測は大きな前進だ。防潮堤・排水設計・淡水確保・移転計画は年月を要するため、早く安く効果的に動ける。科学は世界を説明するだけでなく、人々を守る貴重な時間を稼ぐ。",
-        quiz: [
-          { q: "南極の氷が重要な理由は？", options: ["融けて海へ流れると世界の海面が上がるから", "観光地だから", "寒いから"], answer: 0 },
-          { q: "氷の融解予測が難しい理由は？", options: ["海水温・風・地形に左右され複雑だから", "誰も興味がないから", "氷が動かないから"], answer: 0 },
-          { q: "より良い予測が助けになる理由は？", options: ["防潮堤などの備えは年月を要し、早く動けるから", "予測は無意味だから", "備えは不要だから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0725-4",
-        title: "The Ups and Downs of Public Opinion",
-        level: "★★☆",
-        genre: "日本",
-        text: "In a democracy, leaders live and die by public opinion, and that opinion can change quickly. Recent polls in Japan showed support for the government falling several points in a single month, with one survey putting approval near half after it had been higher before. Numbers like these are watched closely, because they shape what a government can and cannot do.\nWhy does approval rise and fall? Many things move it. A strong economy, successful policies, or skillful handling of a crisis can lift a leader's support. Rising prices, scandals, unpopular decisions, or a sense that promises are not being kept can pull it down. Because voters react to daily events, approval ratings can swing based on the news of the moment, not only on long-term results.\nApproval ratings matter for practical reasons. A popular government finds it easier to pass laws, because other politicians want to be on the winning side. A government losing support may struggle to act boldly, fearing further backlash, and rivals grow more confident. In this way, public opinion becomes a kind of political currency — one that can be spent on difficult decisions but also quickly lost.\nThere is a lesson here about leadership in any field, not just politics. Trust and support are powerful but fragile. They are built slowly through consistent results and honest communication, yet can fall fast when people feel let down. Leaders — of countries, companies, or teams — who understand this treat public confidence as something to be earned again and again, never simply assumed.",
-        summaryJa: "民主主義では指導者は世論に生かされ滅ぼされ、世論は素早く変わる。日本の最近の世論調査で、政権支持率が一か月で数ポイント下がり、以前より高かった支持が半分近くになったものもあった。この数字は政府にできること・できないことを左右するため注視される。支持は、好景気・成功した政策・危機対応で上がり、物価高・不祥事・不人気な決定・約束不履行の感覚で下がる。有権者は日々の出来事に反応するため、長期成果でなくその時のニュースで揺れる。人気の政権は他の政治家が勝ち馬に乗りたがり法案を通しやすく、支持を失う政権は反発を恐れ大胆に動けず、対立勢力が勢いづく。世論は難しい決定に使えるが素早く失う「政治的通貨」だ。信頼と支持は強力だが脆く、着実な成果と誠実な対話で少しずつ築かれ、失望で速く崩れる——政治に限らず指導の教訓だ。",
-        quiz: [
-          { q: "支持率が下がる要因として挙げられていないものは？", options: ["物価高や不祥事", "約束の不履行", "良い天気が続くこと"], answer: 2 },
-          { q: "支持率が政府に実務上重要な理由は？", options: ["人気があると法案を通しやすいから", "数字が面白いから", "無関係だから"], answer: 0 },
-          { q: "本文の指導の教訓は？", options: ["信頼は着実な成果と誠実な対話で築かれ、失望で速く崩れる", "支持は永久に続く", "対話は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0725-5",
-        title: "The Hidden Cost of Sweet Drinks",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "A cold, sweet drink on a hot day feels harmless — even refreshing. But a long-term study following people for twenty-five years found that frequently drinking soda, sports drinks, and fruit juice, especially starting in childhood, was linked to a higher risk of high blood pressure in adulthood. The finding is a reminder that small daily habits can have large effects over time.\nWhy would sweet drinks affect blood pressure decades later? Scientists point to several possible reasons. These drinks contain large amounts of sugar, which can lead to weight gain, and excess weight is a known cause of high blood pressure. Sugary drinks may also affect the body's handling of salt and blood vessels in ways that raise pressure over the years. And habits formed in childhood tend to last, so a child who drinks a lot of sweet beverages often becomes an adult who does the same.\nHigh blood pressure matters because it is a major cause of heart disease and stroke, two of the leading causes of death worldwide. Often it has no symptoms for years, quietly damaging the body — which is why it is sometimes called a 'silent' condition. Small changes early in life can lower the risk significantly.\nThe study points to simple, practical choices. Water is the healthiest everyday drink, and even fruit juice, though it sounds healthy, is high in sugar and best enjoyed in moderation. Helping children develop a taste for less sweet drinks may protect their health for decades.\nThe wider lesson is about the power of habits repeated over time. A single sweet drink does no harm, but the same choice made daily for years can quietly shape our health. Understanding this helps us see everyday decisions not as isolated moments, but as small investments — for better or worse — in the person we will become.",
-        summaryJa: "暑い日の冷たい甘い飲み物は無害に、むしろ爽やかに感じる。だが25年追跡した研究で、特に子ども時代から炭酸飲料・スポーツドリンク・果汁を頻繁に飲むことが、成人後の高血圧リスク上昇と関連すると分かった。小さな日々の習慣が長期に大きな影響を持つと気づかせる。理由として、多量の糖が体重増を招き高血圧の要因になること、塩の処理や血管への影響、子ども時代の習慣が続きやすいことが挙げられる。高血圧は心臓病・脳卒中の主因で、長年無症状で体を蝕むため「沈黙の」状態と呼ばれる。早期の小さな変化でリスクを下げられる。水が最も健康的で、健康的に聞こえる果汁も糖が多くほどほどが良い。子どもが甘さ控えめの飲み物を好むようにすれば数十年の健康を守れる。一杯は無害でも、毎日の同じ選択が健康を静かに形づくる——日々の決定は「なりたい自分への小さな投資」だ。",
-        quiz: [
-          { q: "25年の研究が示した関連は？", options: ["甘い飲み物の頻繁な摂取と成人後の高血圧リスク", "甘い飲み物と視力", "甘い飲み物と身長"], answer: 0 },
-          { q: "高血圧が「沈黙の」状態と呼ばれる理由は？", options: ["長年無症状で体を蝕むから", "音がするから", "すぐ治るから"], answer: 0 },
-          { q: "本文が勧める選択は？", options: ["水を基本にし、果汁もほどほどにする", "甘い飲み物を増やす", "水を避ける"], answer: 0 }
         ]
       }
     ]
