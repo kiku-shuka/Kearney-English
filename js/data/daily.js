@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-02",
+    passages: [
+      {
+        id: "d0802-1",
+        title: "Japan Bets Big on Chips and AI",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Japan is making one of its boldest economic moves in years. The government has decided to sharply increase its support for two technologies it sees as vital to the future: computer chips and artificial intelligence. This year it is spending several times more than before, aiming to rebuild the country's position as a leader in advanced technology.\nWhy such a large bet? Chips are the tiny brains inside almost every modern device, from phones to cars to factory robots. As AI spreads, demand for powerful chips is soaring, and countries worry about depending too much on others to supply them. By investing at home, Japan hopes to create jobs, strengthen its industries, and avoid being left behind.\nThe strategy has several parts. Public money is helping to build new factories and support companies working on the most advanced chips. The government has also set long-term goals for how much the industry should grow over the coming decades.\nInvestors have noticed. Japan's stock market has climbed to record highs this year, led by companies tied to semiconductors, and a weaker yen has made their exports more competitive abroad.\nThere are risks, of course. Building advanced chip factories is extremely expensive and difficult, and success is not guaranteed. But the message from Tokyo is clear: in the age of AI, Japan intends to compete at the very front, and it is willing to spend heavily to get there.",
+        summaryJa: "日本は近年で最も大胆な経済判断の一つを下している。政府は、未来に不可欠と見る二つの技術——コンピューターチップとAI——への支援を大幅に増やすと決めた。今年は従来の数倍を投じ、先端技術の主導国としての地位再建を目指す。なぜ大きく賭けるのか。チップは携帯から車、工場のロボットまで、ほぼあらゆる現代機器の中の小さな頭脳だ。AIの普及で高性能チップの需要が急増し、各国は供給を他国に頼りすぎることを懸念する。国内に投資することで、日本は雇用を生み、産業を強化し、取り残されるのを避けたい。戦略は複数の柱を持つ。公的資金が新工場の建設や最先端チップに取り組む企業を支え、政府は今後数十年の産業成長の長期目標も掲げた。投資家も注目している。日本の株式市場は半導体関連企業に牽引され今年最高値を更新し、円安が輸出の競争力を高めた。もちろんリスクもある。先端チップ工場の建設は極めて高価で難しく、成功は保証されない。だが東京の発信は明確だ——AIの時代に、日本は最前線で競う意志を持ち、そのために大きく投じる用意がある。",
+        quiz: [
+          { q: "日本政府が支援を大幅に増やす二つの技術は？", options: ["コンピューターチップとAI", "石油と石炭", "農業と漁業"], answer: 0 },
+          { q: "国内投資で日本が狙うことは？", options: ["雇用創出・産業強化・取り残されないこと", "輸入を増やすこと", "技術開発をやめること"], answer: 0 },
+          { q: "今年の日本株の動きは？", options: ["半導体関連に牽引され最高値を更新", "暴落した", "全く変化しなかった"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0802-2",
+        title: "The Rise of Physical AI",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "For years, most artificial intelligence lived on screens. It answered questions, wrote text, and sorted photos, but it did not touch the world around it. That is beginning to change. A new wave of technology, sometimes called 'physical AI,' is putting intelligence into machines that can move, sense, and act in the real world.\nWhat does that look like? Think of a robot that can look at a messy shelf, recognize each item, and carefully pick it up. Or a delivery machine that finds its own way along a busy sidewalk. Instead of only processing information, physical AI combines smart software with cameras, sensors, and motors so that machines can do useful physical tasks.\nWhy is this important now? AI has become much better at understanding images and making quick decisions, while robots have grown cheaper and more capable. Putting the two together opens the door to machines that can help in factories, warehouses, hospitals, and even homes.\nThere are real challenges. The physical world is messy and unpredictable, and a small mistake by a moving machine can cause real harm. Safety, cost, and trust all matter, and progress may be slower than the excitement suggests.\nStill, the direction is striking. If the last wave of AI changed how we work with information, physical AI aims to change how machines work with the world — lifting, sorting, cleaning, and building alongside us, and reshaping many jobs in the process.",
+        summaryJa: "長年、AIの多くは画面の中にいた。質問に答え、文章を書き、写真を整理したが、周囲の世界には触れなかった。それが変わり始めている。「フィジカルAI（物理的AI）」とも呼ばれる新しい波が、現実世界で動き・感じ・行動する機械に知能を吹き込んでいる。どんな姿か。散らかった棚を見て各品を認識し、丁寧に取り上げるロボット。混雑した歩道を自ら進む配送機械。情報を処理するだけでなく、フィジカルAIは賢いソフトをカメラ・センサー・モーターと組み合わせ、機械が役立つ物理的作業を行えるようにする。なぜ今重要か。AIは画像理解や素早い判断が格段に上達し、ロボットは安く高性能になった。両者を結べば、工場・倉庫・病院、さらには家庭で助ける機械への扉が開く。課題も現実的だ。物理世界は雑然として予測しにくく、動く機械の小さな誤りが実害を生みうる。安全・費用・信頼が重要で、進歩は期待より遅いかもしれない。それでも方向は鮮烈だ。前の波が情報との働き方を変えたなら、フィジカルAIは機械と世界の関わり方を変えようとしている——私たちの傍らで持ち上げ、仕分け、掃除し、作り、多くの仕事を作り替えながら。",
+        quiz: [
+          { q: "「フィジカルAI」とは何か？", options: ["現実世界で動き・感じ・行動する機械の知能", "画面の中だけのAI", "新しい携帯電話"], answer: 0 },
+          { q: "今それが可能になった理由は？", options: ["AIの判断力向上とロボットの低価格・高性能化", "世界が単純になったから", "人間が減ったから"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["物理世界は予測しにくく誤りが実害を生む", "機械は完璧である", "現実は単純だ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0802-3",
+        title: "Talking Instead of Fighting",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When tensions rise between countries, the world often fears the worst. But recent news from the Middle East offered a reminder of a different path: instead of launching an attack, several countries pressed for talks, saying that the outline of a possible deal had been reached. Diplomacy, quiet and slow, was given a chance to work.\nWhy does this matter? War brings terrible costs — lost lives, ruined cities, and years of hardship that can last long after the fighting stops. Negotiation, by contrast, tries to find a solution that both sides can accept, even if neither gets everything it wants. It is rarely dramatic, but it can prevent enormous suffering.\nDiplomacy is hard work. It often takes place far from cameras, in long meetings where officials search for common ground. Trust must be built slowly, and a single misunderstanding can undo months of effort. Outside countries sometimes help by carrying messages or offering guarantees.\nOf course, talks can fail, and promises are not always kept. A pause in tension is not the same as lasting peace. History is full of agreements that broke down, as well as ones that held for generations.\nEven so, the willingness to talk is itself meaningful. Choosing negotiation over force, even briefly, keeps the door to a peaceful solution open. For learners watching the world, it is a useful lesson: some of the most important victories are the conflicts that never happen.",
+        summaryJa: "国家間の緊張が高まると、世界はしばしば最悪を恐れる。だが最近の中東のニュースは別の道を思い出させた——攻撃を仕掛ける代わりに、複数の国が対話を強く求め、合意案の輪郭に達したと述べたのだ。静かで遅い外交に、機能する機会が与えられた。なぜ重要か。戦争は恐ろしい代償を伴う——失われる命、破壊される都市、戦闘が終わった後も長く続く苦難。対照的に交渉は、双方が全てを得られなくても受け入れられる解を探す。劇的ではないが、甚大な苦しみを防ぎうる。外交は骨の折れる仕事だ。多くはカメラから遠く、当局者が共通点を探す長い会合で行われる。信頼はゆっくり築かれ、一つの誤解が数か月の努力を無にしうる。外部の国が伝言を運んだり保証を示したりして助けることもある。もちろん交渉は決裂しうるし、約束が守られるとも限らない。緊張の休止は恒久平和と同じではない。歴史は破綻した合意も、世代を越えて保たれた合意も多く抱える。それでも、話し合おうとする意志自体に意味がある。たとえ短くとも力より交渉を選ぶことは、平和的解決への扉を開けておく。世界を見る学習者への教訓——最も重要な勝利のいくつかは、決して起きなかった対立なのだ。",
+        quiz: [
+          { q: "最近の中東のニュースが示した別の道とは？", options: ["攻撃の代わりに対話を求めたこと", "すぐに攻撃したこと", "何もしなかったこと"], answer: 0 },
+          { q: "交渉が目指すものは？", options: ["双方が受け入れられる解を探すこと", "一方が全てを得ること", "戦争を始めること"], answer: 0 },
+          { q: "本文の教訓は？", options: ["最も重要な勝利は起きなかった対立でもある", "戦争は避けられない", "交渉は無意味だ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0802-4",
+        title: "Japan, the Land of Robots",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japan has long been famous for its robots, and today that reputation is becoming a real economic advantage. The country makes a large share of the world's industrial robots — the powerful machines that weld, assemble, and lift inside factories. As artificial intelligence enters the physical world, Japan hopes to turn this strength into leadership in a new field.\nWhy did robots take root so strongly in Japan? One reason is history: after decades of building cars and electronics, Japanese companies became experts in precise, reliable machines. Another reason is need. Japan's population is aging and shrinking, so there are fewer young workers, and robots help fill the gap in factories, farms, and even care homes.\nNow a new idea is taking shape. By combining its robot-building skill with modern AI, Japan aims to lead in machines that can see, decide, and act on their own. A robot arm guided by smart software can handle tasks that once needed a human touch, working safely alongside people.\nThere are challenges. Building trust in these machines takes time, and other countries are investing heavily too. Robots must be safe, affordable, and genuinely useful, not just impressive.\nStill, the fit is natural. A nation that needs more workers, and already knows how to build machines, is well placed for an age when intelligence moves into the physical world. Japan's long love of robots may turn out to be excellent preparation for the decades ahead.",
+        summaryJa: "日本は長くロボットで有名だが、今日その評判が現実の経済的強みになりつつある。日本は世界の産業用ロボット——工場で溶接・組立・運搬を担う強力な機械——の大きな割合を作る。AIが物理世界に入る中、日本はこの強みを新分野の主導力に変えたい。なぜ日本でロボットが根づいたのか。一つは歴史——車や電子機器を数十年作る中で、日本企業は精密で信頼できる機械の専門家になった。もう一つは必要性だ。人口が高齢化・減少し若い働き手が減るため、ロボットが工場・農場・介護の現場で穴を埋める。今、新しい発想が形になりつつある。ロボット製造の技術と現代のAIを組み合わせ、日本は自ら見て・判断し・行動する機械で先頭に立とうとする。賢いソフトに導かれるロボットアームは、かつて人の手が要った作業を扱い、人と安全に並んで働く。課題もある。こうした機械への信頼構築には時間がかかり、他国も多額を投じている。ロボットは印象的なだけでなく、安全・手頃・本当に役立つ必要がある。それでも相性は自然だ。より多くの働き手を必要とし、既に機械の作り方を知る国は、知能が物理世界へ移る時代に有利な位置にいる。日本の長いロボット愛は、来る数十年への見事な備えとなるかもしれない。",
+        quiz: [
+          { q: "日本が世界で大きな割合を作っているものは？", options: ["産業用ロボット", "石油", "小麦"], answer: 0 },
+          { q: "日本でロボットが根づいた理由の一つは？", options: ["人口減少で働き手が減り穴を埋める必要があるから", "国土が広いから", "若者が多すぎるから"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["機械への信頼構築に時間がかかり他国も投資している", "ロボットは全く不要だ", "日本に技術がない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0802-5",
+        title: "Helping Babies Get a Healthy Start",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "In a small fishing community, researchers noticed a troubling pattern: a very high number of babies were being born too early. Around the world, premature birth — when a baby arrives weeks before its due date — remains one of the biggest challenges in newborn health. Scientists are working hard to understand why it happens and how to prevent it.\nWhy is being born early such a problem? Babies who arrive too soon may have lungs, brains, and other organs that are not fully ready for life outside the womb. With good medical care, many grow up healthy, but such care is not available everywhere, and very early birth can be dangerous.\nThe causes are complex. Poor nutrition, infections, pollution, stress, and a lack of medical care during pregnancy can all play a role, often together. In some communities, many of these problems appear at once, which may explain why premature births are especially common there.\nResearchers approach the problem step by step. They gather data, compare communities, and test simple, affordable actions — better nutrition for mothers, cleaner water, and regular check-ups during pregnancy. Small improvements can make a real difference.\nThe wider lesson reaches beyond any single village. Healthy pregnancies depend not only on medicine but on clean surroundings, good food, and steady support. By studying the places where problems are worst, scientists hope to find answers that help mothers and babies everywhere begin life with a stronger, safer start.",
+        summaryJa: "小さな漁村で、研究者は憂慮すべき傾向に気づいた——非常に多くの赤ちゃんが早く生まれていたのだ。世界中で、早産——予定日より数週間早く生まれること——は新生児の健康における最大級の課題であり続ける。科学者はなぜ起きるのか、どう防ぐかの理解に懸命だ。早く生まれることがなぜ問題か。早すぎる赤ちゃんは、肺や脳など臓器が子宮の外での生活に十分準備できていないことがある。良い医療があれば多くは健康に育つが、そうした医療はどこにでもあるわけではなく、極端な早産は危険になりうる。原因は複雑だ。栄養不足、感染症、汚染、ストレス、妊娠中の医療不足がすべて、しばしば重なって作用する。いくつかの地域ではこれらの問題が一度に現れ、早産が特に多い理由を説明するかもしれない。研究者は一歩ずつ取り組む。データを集め、地域を比べ、単純で手頃な対策——母親のより良い栄養、清潔な水、妊娠中の定期健診——を試す。小さな改善が本当に違いを生む。より広い教訓は一つの村を超える。健康な妊娠は医療だけでなく、清潔な環境・良い食事・着実な支えに支えられる。問題が最も深刻な場所を研究することで、科学者は世界中の母子がより強く安全に人生を始める助けとなる答えを見つけたいと願う。",
+        quiz: [
+          { q: "研究者が漁村で気づいた傾向は？", options: ["多くの赤ちゃんが早く生まれていた", "魚が減っていた", "人口が増えていた"], answer: 0 },
+          { q: "早産がなぜ問題になりうるのか？", options: ["臓器が子宮の外での生活に十分準備できていないことがある", "赤ちゃんが大きすぎるから", "医療が不要だから"], answer: 0 },
+          { q: "研究者が試す手頃な対策は？", options: ["母親の栄養改善・清潔な水・定期健診", "何もしないこと", "村を閉じること"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-01",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "研究で見つかった「意外な助っ人」は？", options: ["陽子", "電気ケーブル", "レンズ"], answer: 0 },
           { q: "量子ドットが有用な理由は？", options: ["光を精密・制御可能に吸収・放出できる", "とても大きいから", "光らないから"], answer: 0 },
           { q: "本文の深い驚きは？", options: ["最大の技術が最小の細部から育つ", "小さな研究は無意味", "技術は変わらない"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-07-26",
-    passages: [
-      {
-        id: "d0726-1",
-        title: "The Business of Going Back to the Moon",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Returning to the Moon is no longer only a government mission — it is becoming a business. NASA recently announced it would award nearly six hundred million dollars for four commercial Moon landings, planned for the coming years, as part of a larger effort to build a permanent base on the lunar surface. Private companies, not just space agencies, will carry the equipment.\nWhy hire companies for something as difficult as landing on the Moon? The answer is the same reason businesses outsource many tasks: competition and specialization lower costs and speed up progress. Instead of building and operating every lander itself, NASA acts as a customer, paying private firms to deliver cargo to the lunar surface. Companies compete to offer the best service at the lowest price, and the ones that succeed can sell the same service again and again.\nThis approach has already transformed the launch industry, where private rockets dramatically cut the cost of reaching orbit. Applying the same model to Moon landings could make lunar missions far more frequent and affordable than in the past, when each one was a rare and hugely expensive government project.\nThere are risks. Landing on the Moon is extremely hard, and some private attempts have failed. A company that loses a spacecraft loses money and reputation. But the potential rewards — a share of a new space economy — are large enough to attract serious investment.\nThe wider lesson is about how industries form. A field that once belonged only to governments is becoming a marketplace, with customers, suppliers, and competition. As with aviation and computing before it, space is following a familiar path: from a rare government achievement to an everyday commercial service — one small business deal at a time.",
-        summaryJa: "月に戻ることは政府の使命だけでなくビジネスになりつつある。NASAは、月面基地建設の一環として、今後計画される4回の民間月着陸に約6億ドルを拠出すると発表した。機材を運ぶのは宇宙機関でなく民間企業だ。なぜ月着陸のような難事を企業に委ねるのか——業務委託と同じで、競争と専門化がコストを下げ進歩を速めるからだ。NASAは自ら全着陸機を作らず「顧客」として貨物輸送に対価を払い、企業は最良のサービスを最低価格で競い、成功すれば同じサービスを繰り返し売れる。この方式は打ち上げ産業を既に変え、民間ロケットが軌道到達コストを激減させた。月着陸に応用すれば頻度と手頃さが増す。着陸は難しく失敗もありリスクは高いが、新しい宇宙経済の取り分は投資を呼ぶ。政府だけの分野が顧客・供給者・競争のある市場へ——航空や計算機と同じ道を宇宙も辿る。",
-        quiz: [
-          { q: "NASAが民間企業に月着陸を委ねる理由は？", options: ["競争と専門化でコストを下げ進歩を速めるため", "宇宙飛行士が足りないから", "月に興味がないから"], answer: 0 },
-          { q: "この方式が既に変えた産業は？", options: ["打ち上げ(ロケット)産業", "農業", "漁業"], answer: 0 },
-          { q: "本文が示す産業形成の教訓は？", options: ["政府だけの分野が競争のある市場へ変わる", "宇宙は政府専用のまま", "民間は関与できない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0726-2",
-        title: "AI Enters the World of Diplomacy",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Artificial intelligence has been discussed mainly as a matter of business and industry. Now it is entering a very different arena: high diplomacy. Reports say AI is moving into the same category as nuclear technology, cybersecurity, and arms control, with major powers scheduling talks about how to manage it. This shift marks an important moment in how the world views the technology.\nWhy would nations treat AI like nuclear weapons? Because powerful AI, like powerful weapons, could affect global security. Advanced AI systems might be used to guide military operations, spread disinformation at massive scale, launch cyberattacks, or shift the balance of economic power. When a technology becomes strong enough to change the balance between nations, governments start to negotiate rules for it, just as they did for nuclear arms decades ago.\nDiplomacy around technology is difficult. Countries both compete and cooperate at the same time. Each wants the advantages that AI can bring, so none wishes to fall behind. Yet all share an interest in avoiding dangerous outcomes, such as accidents, misunderstandings, or an uncontrolled race. The challenge is to build trust and set limits without giving up too much advantage — a delicate balance that has always defined arms control.\nThere are reasons for hope and caution. History shows that rival nations can agree on rules for dangerous technologies when the risks are clear enough; treaties on nuclear weapons are one example. But AI is harder to define and monitor than a missile, and it changes quickly, which makes agreements difficult to write and enforce.\nThe deeper significance is clear: the world now sees AI not just as a tool for making money, but as a force that could shape the future of nations. How humanity chooses to govern it may become one of the defining questions of our century.",
-        summaryJa: "AIは主にビジネス・産業の問題として語られてきたが、今や高度な外交の舞台に入りつつある。報道では、AIは核技術・サイバーセキュリティ・軍備管理と同じ範疇に入り、主要国が管理の協議を予定している。世界のAI観の重要な転換点だ。なぜ核兵器のように扱うのか——強力なAiは軍事作戦の誘導、大規模な偽情報、サイバー攻撃、経済力の均衡変化など安全保障に関わりうるからだ。国家間の均衡を変える技術には、かつての核と同様、ルール交渉が始まる。技術外交は難しく、各国は競争と協力を同時に行う。誰も後れを取りたくない一方、事故・誤解・制御不能な競争は避けたい。優位を失わず信頼と制限を築く微妙な均衡だ。核条約のように危険な技術で合意した歴史は希望だが、AIはミサイルより定義・監視が難しく速く変わる。世界はAiを金儲けの道具でなく国家の未来を形づくる力と見始めた——その統治は今世紀の中心的問いになりうる。",
-        quiz: [
-          { q: "AIが新たに入りつつある領域は？", options: ["核技術や軍備管理と同じ高度な外交の範疇", "スポーツ", "料理"], answer: 0 },
-          { q: "国家がAIをルール交渉の対象にする理由は？", options: ["国家間の安全保障の均衡に関わりうるから", "AIが安いから", "誰も使わないから"], answer: 0 },
-          { q: "AIの合意が核兵器より難しい理由は？", options: ["定義・監視が難しく速く変わるから", "AIは危険でないから", "変化しないから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0726-3",
-        title: "Do Small Green Choices Really Matter?",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Many people wonder whether their personal efforts to help the environment — recycling, eating less meat, driving less — make any real difference against a problem as huge as climate change. Some even worry that focusing on small personal choices distracts people from demanding big changes in laws and industry. A recent study offers a reassuring answer: personal green choices do not reduce support for large-scale reforms. In fact, the two go together.\nThe worry made sense in theory. If people feel they have 'done their part' by recycling, might they stop pushing for the bigger changes — new energy systems, stricter rules for companies — that matter most? Some argued that emphasizing personal responsibility lets governments and big polluters off the hook.\nThe study suggests this fear is largely unfounded. People who make green choices in their own lives are, if anything, more likely to support major environmental policies, not less. Acting on a value seems to strengthen it, rather than satisfy it. Someone who bothers to recycle or eat less meat often cares more about the issue overall, and that concern extends to supporting broader action.\nThis matters because solving climate change requires both individual and collective effort. Personal choices alone cannot fix a global problem — that needs changes in energy, transport, and industry, driven by governments and companies. But personal action and political support are not rivals competing for a limited supply of concern. They reinforce each other.\nThe broader lesson reaches beyond the environment. In many areas of life, small personal actions and large systemic changes are often seen as opposites, forcing a choice between them. This research suggests a more hopeful view: doing something yourself and demanding bigger change can grow from the same root — and strengthen each other along the way.",
-        summaryJa: "リサイクルや肉を減らす、車に乗らないといった個人の環境努力が、気候変動という巨大問題に本当に意味があるのか疑う人は多い。個人の小さな選択に注目すると、法や産業の大改革を求める気持ちがそがれると心配する声もある。最近の研究は安心できる答えを示す——個人の環境選択は大規模改革への支持を減らさず、むしろ両者は一緒に進む。理屈上は「自分の役目は果たした」と感じて大改革を求めなくなる懸念があったが、研究では、生活で環境選択をする人ほど大きな環境政策も支持しやすい。価値に沿って行動するとその価値は満たされるより強まるようだ。気候変動の解決は個人と集団の両方の努力を要し、個人の選択だけでは足りずエネルギー・交通・産業の変化が要る。だが個人行動と政治的支持は限られた関心を奪い合う競争相手でなく、互いを強め合う。小さな個人行動と大きな制度変革は対立でなく同じ根から育ちうる。",
-        quiz: [
-          { q: "研究が示した安心できる答えは？", options: ["個人の環境選択は大改革への支持を減らさない", "個人の選択は無意味", "リサイクルは有害"], answer: 0 },
-          { q: "価値に沿って行動すると起きることは？", options: ["その価値が満たされるより強まる", "関心が消える", "何も変わらない"], answer: 0 },
-          { q: "個人行動と政治的支持の関係は？", options: ["競争相手でなく互いを強め合う", "常に対立する", "無関係"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0726-4",
-        title: "A Nation Betting on New Industries",
-        level: "★★☆",
-        genre: "日本",
-        text: "Every country must decide where to focus its energy and money as the economy changes. Japan has made its choice clear: it is betting on a group of advanced fields — artificial intelligence, robotics, mobility, space, biotechnology, and manufacturing technology — supported by government backing, demand from established companies, and a growing network of startup hubs across the country.\nWhy these particular fields? Because each builds on a strength Japan already has, or addresses a challenge it must solve. Robotics and manufacturing draw on decades of engineering excellence. Space and mobility connect to major existing industries. Biotechnology addresses the needs of an aging society. By choosing areas where it can compete, Japan aims to turn its existing advantages into future growth.\nGovernment support plays a large role. Through funding, favorable policies, and programs that link startups with big companies and investors, the state tries to help new industries grow faster than they would alone. Meanwhile, established firms provide something startups badly need: real customers with real budgets, ready to buy new technology.\nThis strategy carries both promise and risk. Focusing on chosen fields can concentrate resources where they matter most, helping a country lead. But betting on the wrong areas, or moving too slowly, can leave a nation behind as technology shifts. No one can perfectly predict which industries will define the future.\nThe broader lesson applies to businesses and individuals too. With limited time and money, everyone must choose where to focus. Building on your existing strengths, while addressing the challenges you cannot avoid, is often the wisest strategy. For a person or a nation, success comes less from doing everything, and more from choosing the right things to do well.",
-        summaryJa: "どの国も経済の変化に応じてどこに力と資金を注ぐか決めねばならない。日本は明確に選んだ——AI・ロボティクス・モビリティ・宇宙・バイオ・製造技術という先進分野に、政府支援・既存企業の需要・全国のスタートアップ拠点網で賭ける。なぜこれらか。各分野が日本の既存の強みを活かすか、解くべき課題に応えるからだ。ロボット・製造は長年の技術力、宇宙・モビリティは主要既存産業、バイオは高齢社会の需要に対応。競争できる領域を選び、既存の優位を将来の成長に変えようとする。資金・政策・大企業や投資家との橋渡しで新産業の成長を後押しし、既存企業は「実際の予算を持つ顧客」を提供する。分野を絞れば資源を集中できるが、選択を誤り遅れれば取り残される。限られた時間と資金では誰もが集中先を選ぶ——既存の強みを活かしつつ避けられぬ課題に応えるのが賢明で、成功は「全部やる」より「正しいことを選んでうまくやる」ことから来る。",
-        quiz: [
-          { q: "日本が賭ける分野に含まれないものは？", options: ["AI・ロボティクス・宇宙", "バイオ・製造技術", "石炭採掘の拡大"], answer: 2 },
-          { q: "既存企業がスタートアップに提供するものは？", options: ["実際の予算を持つ顧客", "無料の労働力", "宇宙船"], answer: 0 },
-          { q: "本文が示す賢明な戦略は？", options: ["既存の強みを活かしつつ避けられぬ課題に応える", "とにかく全部やる", "何も選ばない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0726-5",
-        title: "The Mystery of the SuperAgers",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Most of us expect memory to fade as we grow old. But a rare group of people, sometimes called 'SuperAgers,' keep sharp memories well into their eighties and beyond, performing as well as people decades younger. Scientists studying them recently made a puzzling discovery: the genes of SuperAgers look much like those of typical older adults. Whatever protects their memory does not seem to lie simply in obvious genetic differences.\nThis is surprising because we often assume that exceptional abilities come from special genes. If SuperAgers' DNA looks ordinary, then something else must be protecting their brains. Researchers suspect a combination of factors — perhaps the way their genes are used rather than the genes themselves, along with lifestyle, mental activity, social connection, and forces we do not yet understand.\nWhy study these rare individuals? Because they may hold clues to preventing the memory loss that affects millions as they age, including diseases like Alzheimer's. If scientists can discover what keeps a SuperAger's brain healthy, they might find ways to help others protect their memory too. Studying the exceptional, in other words, can teach us how to help everyone.\nThe research also carries a hopeful message. If sharp memory in old age is not fixed entirely by the genes we are born with, then our choices and habits — staying mentally and socially active, caring for our health — may play a meaningful role. Nothing is guaranteed, but the SuperAgers suggest that a healthy aging brain is not purely a matter of luck.\nThe deeper wonder is how much we still have to learn about ourselves. Even the brain we carry every day holds mysteries, and understanding rare people who age exceptionally well may help all of us grow older with our minds intact.",
-        summaryJa: "多くは加齢で記憶が衰えると思っている。だが「スーパーエイジャー」と呼ばれる稀な人々は80代以降も鋭い記憶を保ち、数十歳若い人並みの成績を示す。研究者は不思議な発見をした——スーパーエイジャーの遺伝子は普通の高齢者とよく似ている。記憶を守る何かは、明白な遺伝的差異だけにはないようだ。優れた能力は特別な遺伝子から来ると考えがちだが、DNAが普通なら別の何かが脳を守っている。研究者は、遺伝子そのものより使われ方、生活習慣、知的活動、社会的つながり、未解明の要因の組み合わせを疑う。彼らを研究するのは、加齢に伴う記憶低下やアルツハイマーの予防の手がかりになりうるからだ。稀な例外の研究が万人を助ける道を教える。希望のメッセージもある——老年の鋭い記憶が生来の遺伝子で完全に決まらないなら、知的・社会的活動や健康管理といった選択や習慣が意味を持ちうる。保証はないが、健康な老いた脳は単なる運任せではないと示す。日々使う脳にも謎があり、例外を理解することが皆の健やかな老いを助けうる。",
-        quiz: [
-          { q: "スーパーエイジャーとは？", options: ["高齢でも鋭い記憶を保つ稀な人々", "若くして記憶を失う人", "眠らない人"], answer: 0 },
-          { q: "研究者が驚いた発見は？", options: ["彼らの遺伝子が普通の高齢者と似ていること", "彼らが超人だったこと", "記憶がないこと"], answer: 0 },
-          { q: "この研究の希望のメッセージは？", options: ["選択や習慣が記憶の維持に意味を持ちうる", "すべては運任せ", "習慣は無意味"], answer: 0 }
         ]
       }
     ]
