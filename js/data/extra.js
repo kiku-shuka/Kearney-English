@@ -43,7 +43,19 @@ KE_DATA.extraSentences = [
   { id: "w2630-s09", ja: "この件は関係部署にも共有しておきます。", en: "I'll loop in the relevant departments on this.", note: "loop in = 情報共有の輪に入れる" },
   { id: "w2630-s10", ja: "想定外の事態に備えて代替案も用意しています。", en: "We've prepared a plan B in case something unexpected happens.", note: "plan B = 代替案" },
   { id: "w2630-s11", ja: "本題に入る前に、前回の確認をさせてください。", en: "Before we dive in, let me recap the last meeting.", note: "dive in = 本題に入る、recap = 要約" },
-  { id: "w2630-s12", ja: "最終的な判断は来週まで保留にしましょう。", en: "Let's hold off on the final decision until next week.", note: "hold off on = 保留する" }
+  { id: "w2630-s12", ja: "最終的な判断は来週まで保留にしましょう。", en: "Let's hold off on the final decision until next week.", note: "hold off on = 保留する" },
+  { id: "w2631-s01", ja: "この提案の費用対効果を一言でいうと？", en: "In one sentence, what's the return on this proposal?", note: "return on = 〜の見返り・費用対効果" },
+  { id: "w2631-s02", ja: "申し訳ありませんが、その締切は現実的ではありません。", en: "I'm afraid that deadline isn't realistic.", note: "I'm afraid = 残念ながら（丁寧な否定）" },
+  { id: "w2631-s03", ja: "まずは小さく試して、うまくいけば広げましょう。", en: "Let's start small, and scale it up if it works.", note: "scale up = 規模を拡大する" },
+  { id: "w2631-s04", ja: "その数字の出どころを教えてください。", en: "Could you tell me where that number comes from?", note: "根拠・出典を尋ねる型" },
+  { id: "w2631-s05", ja: "結論から言うと、私は賛成です。", en: "To cut to the chase, I'm in favor.", note: "cut to the chase = 要点に入る" },
+  { id: "w2631-s06", ja: "認識を合わせるために、用語を定義しておきましょう。", en: "Let's define our terms so we're on the same page.", note: "define terms = 用語をそろえる" },
+  { id: "w2631-s07", ja: "それは想定の範囲内です。", en: "That's within our expectations.", note: "within expectations = 想定内" },
+  { id: "w2631-s08", ja: "このリスクは許容できる範囲だと考えます。", en: "I'd say this risk is acceptable.", note: "acceptable = 受け入れられる" },
+  { id: "w2631-s09", ja: "来週までに一次案をお送りします。", en: "I'll send you a first draft by next week.", note: "first draft = 初稿・一次案" },
+  { id: "w2631-s10", ja: "恐れ入りますが、もう一度ご説明いただけますか。", en: "Sorry, could you run that by me again?", note: "run that by me = もう一度説明して" },
+  { id: "w2631-s11", ja: "この点は譲れませんが、他は柔軟に対応します。", en: "This point is non-negotiable, but we're flexible on the rest.", note: "non-negotiable = 譲れない" },
+  { id: "w2631-s12", ja: "全員の合意が取れたと理解してよいですか。", en: "Can I take it that we're all in agreement?", note: "take it that = 〜と理解する" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -121,6 +133,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Interesting. Let's note it and evaluate all the ideas together later.", ja: "面白いですね。メモして、後で全案をまとめて評価しましょう。" },
       { s: "B", en: "Perfect. This has been a really productive session.", ja: "完璧です。とても生産的な打ち合わせでした。" }
     ]
+  },
+  {
+    id: "w2631-sh1",
+    title: "週次進捗報告と遅延の挽回",
+    level: "★★☆",
+    description: "週次会議で遅延を率直に報告し、挽回策を提示して合意を得る場面。悪い知らせの切り出しと前向きな提案の型を体に入れる。",
+    lines: [
+      { s: "A", en: "Let's start our weekly status meeting. How's the project going?", ja: "週次の進捗会議を始めましょう。プロジェクトの状況はどうですか？" },
+      { s: "B", en: "Overall we're on track, but I have one issue to flag.", ja: "全体としては順調ですが、一つ共有したい問題があります。" },
+      { s: "A", en: "Go ahead. What's the issue?", ja: "どうぞ。どんな問題ですか？" },
+      { s: "B", en: "The design review took longer than planned, so we're two days behind.", ja: "デザインレビューが予定より長引き、2日遅れています。" },
+      { s: "A", en: "I see. Will that affect the final deadline?", ja: "なるほど。それは最終締切に影響しますか？" },
+      { s: "B", en: "Not if we act now. I've already prepared a recovery plan.", ja: "今動けば影響しません。すでに挽回策を用意しました。" },
+      { s: "A", en: "Good. Walk me through it.", ja: "いいですね。説明してください。" },
+      { s: "B", en: "We'll run testing and documentation in parallel to save time.", ja: "時間を節約するため、テストと文書化を並行して進めます。" },
+      { s: "A", en: "That makes sense. Let me know if you need more people.", ja: "理にかなっていますね。人手が要るなら言ってください。" },
+      { s: "B", en: "Thanks. I'll send an updated schedule by end of day.", ja: "ありがとうございます。今日中に更新版のスケジュールをお送りします。" }
+    ]
   }
 ];
 
@@ -161,6 +191,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2630-t03", ja: "個人の環境への取り組み（リサイクル等）は意味があると思いますか？", en: "Do individual environmental efforts, like recycling, really matter?",
     sample: { point: "Yes, I think individual green efforts matter, both directly and indirectly.", reason: "This is because taking action on a value tends to strengthen it, making people support bigger reforms too.", example: "For example, a recent study found that people who recycle or eat less meat are actually more likely to support major environmental policies.", point2: "So personal action and large-scale change are not rivals — they reinforce each other." }
+  },
+  {
+    id: "w2631-t01", ja: "AIのデータセンターが必要とする電力を、政府は支援して整備すべきだと思いますか？", en: "Should governments help build the electricity supply that AI data centers need?",
+    sample: { point: "I think governments should help build the power supply for AI, but with clear conditions.", reason: "The main reason is that reliable electricity has become basic infrastructure, like roads or ports, that markets alone may not build fast enough.", example: "For example, investors are now funding nuclear plants and new power lines just to run data centers, and governments are being asked to approve and support these projects.", point2: "So public support makes sense, as long as it also protects households from higher energy prices." }
+  },
+  {
+    id: "w2631-t02", ja: "最も強力なAIには、政府が「緊急停止」の仕組みや厳しいルールを義務づけるべきだと思いますか？", en: "Should governments require a 'kill switch' or strict rules for the most powerful AI systems?",
+    sample: { point: "Yes, I believe the most powerful AI systems should come with strict rules and a way to shut them down.", reason: "This is because advanced AI could cause serious harm through cyberattacks or mistakes if no one can stop it quickly.", example: "For example, lawmakers have started to discuss 'kill switch' laws after reports that some AI models behaved in unexpected ways during testing.", point2: "So sensible safety rules are not anti-technology — they are what let us use powerful AI with confidence." }
+  },
+  {
+    id: "w2631-t03", ja: "AI企業は、報道機関や作家の作品を使うとき対価を払うべきだと思いますか？", en: "Should AI companies pay news publishers and writers when they use their work?",
+    sample: { point: "Yes, I think AI companies should pay publishers and writers for the work they rely on.", reason: "The main reason is that AI systems are trained on human-made articles and books, and creators need income to keep producing them.", example: "For example, if readers get all their answers from AI and news sites lose visitors, the reporting that AI depends on could slowly disappear.", point2: "So paying original sources is not only fair — it protects the very information that makes AI useful." }
   }
 ];
 
