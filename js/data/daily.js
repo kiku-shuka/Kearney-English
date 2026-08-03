@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-03",
+    passages: [
+      {
+        id: "d0803-1",
+        title: "When a Stronger Yen Worries the Market",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Stock markets can react in surprising ways to news. On Monday, Tokyo's main stock index fell after the Japanese yen suddenly rose in value against the U.S. dollar. At first, a stronger currency might sound like good news — so why did share prices drop?\nThe answer lies in exports. Many of Japan's biggest companies, such as carmakers and electronics firms, sell much of what they make overseas. When the yen is weak, the dollars they earn abroad turn into more yen back home, boosting their profits. A weak yen had been quietly supporting these exporters for months.\nThen the currency moved the other way. Reports suggested that Japan, possibly with help from the United States, had acted to push the yen higher. A stronger yen means those same overseas sales bring in fewer yen, squeezing profits. Investors, expecting slimmer earnings, quickly sold shares in export-heavy companies, and the market fell.\nThis shows how tightly currencies and stock prices are linked. A change that helps one group can hurt another: a stronger yen makes imported food and fuel cheaper for households, but it can trouble the big exporters that drive the stock market.\nFor anyone learning business English, the lesson is worth remembering. In a connected economy, there is rarely a simple 'good' or 'bad' number. A single move in the currency market sends ripples through company profits, investor decisions, and the daily headlines that follow.",
+        summaryJa: "株式市場はニュースに意外な反応を示す。月曜、円がドルに対し急上昇した後、東京の主要株価指数は下落した。一見、通貨高は良い知らせに聞こえる——ならなぜ株価は下がったのか。答えは輸出にある。自動車や電機など日本の大企業の多くは、作る物の多くを海外で売る。円安のとき、海外で稼ぐドルは国内で円に換えると増え、利益を押し上げる。円安は数か月、こうした輸出企業を静かに支えていた。ところが通貨が逆に動いた。日本が、おそらく米国の協力を得て、円を押し上げる行動を取ったと報じられた。円高は同じ海外売上をより少ない円に変え、利益を圧迫する。利益減を見込んだ投資家は輸出偏重の企業の株を素早く売り、市場は下げた。これは通貨と株価がいかに密接に結びつくかを示す。一方を助ける変化が他方を害しうる——円高は家計にとって輸入食料や燃料を安くするが、株式市場を牽引する大輸出企業を困らせうる。ビジネス英語を学ぶ人への教訓——つながった経済に、単純な「良い」「悪い」数字はめったにない。為替市場の一つの動きが、企業利益・投資家の判断・続く日々の見出しへと波紋を広げる。",
+        quiz: [
+          { q: "円高なのに株価が下がった理由は？", options: ["輸出企業の利益が減ると見込まれたから", "円が無価値になったから", "会社が倒産したから"], answer: 0 },
+          { q: "円安が輸出企業を助けていた仕組みは？", options: ["海外で稼ぐドルが円に換えると増えるから", "輸入が増えるから", "税金が下がるから"], answer: 0 },
+          { q: "本文の教訓は？", options: ["つながった経済に単純な良い・悪い数字はない", "通貨高は常に良い", "株は常に上がる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0803-2",
+        title: "Designing Materials Atom by Atom",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Much of modern technology depends not just on clever design, but on the materials we can make. Scientists have now reported a way to build larger versions of special 'twisted' materials, while precisely controlling how their ultra-thin layers line up. It may sound abstract, but such control could shape the electronics of the future.\nWhat are these materials? Imagine stacking incredibly thin sheets, each only a few atoms thick, and then slightly rotating one layer against another. This tiny twist can dramatically change how the material behaves — how it carries electricity, responds to light, or holds magnetism. By choosing the angle carefully, researchers can unlock properties that ordinary materials do not have.\nThe problem, until now, has been size and control. These twisted materials were often tiny and hard to make consistently, which made them difficult to study or use. The new method allows larger, more uniform samples, giving scientists a better chance to understand them and, eventually, to build useful devices.\nWhy does this matter? The electronics in our phones and computers are reaching the limits of older designs. New materials with unusual properties could lead to faster, more efficient chips, better sensors, or entirely new kinds of devices.\nProgress here is slow and careful, moving one atomic layer at a time. But it points to a powerful idea: by controlling matter at the smallest scale, scientists are learning to design materials with the exact properties they want — building the foundations of tomorrow's technology from the atom up.",
+        summaryJa: "現代技術の多くは、巧みな設計だけでなく、作れる素材にも左右される。科学者はこのほど、特殊な「ねじれた」素材をより大きく作り、極薄の層の重なり方を精密に制御する方法を報告した。抽象的に聞こえるが、こうした制御は未来の電子機器を形づくりうる。この素材とは何か。わずか数原子分の厚さの極薄シートを重ね、一つの層を別の層に対しわずかに回転させると想像してほしい。この小さなねじれが、電気の運び方・光への反応・磁性など、素材のふるまいを劇的に変える。角度を慎重に選ぶことで、普通の素材にない性質を引き出せる。これまでの課題は大きさと制御だった。ねじれた素材はしばしば微小で一様に作るのが難しく、研究や利用が困難だった。新手法はより大きく均一な試料を可能にし、理解と、いずれは有用なデバイス作製への好機を与える。なぜ重要か。携帯やコンピューターの電子回路は旧来の設計の限界に近づいている。珍しい性質を持つ新素材は、より速く効率的なチップ、優れたセンサー、まったく新しいデバイスにつながりうる。ここでの進歩は遅く慎重で、一原子層ずつ進む。だが強力な発想を示す——最小のスケールで物質を制御することで、科学者は望む性質を持つ素材を設計し、明日の技術の土台を原子から築くことを学びつつある。",
+        quiz: [
+          { q: "この素材の性質を大きく変えるものは？", options: ["極薄の層をわずかに回転させる「ねじれ」", "素材の色", "素材の重さ"], answer: 0 },
+          { q: "これまでの課題は？", options: ["素材が微小で一様に作るのが難しかったこと", "素材が大きすぎたこと", "素材が安すぎたこと"], answer: 0 },
+          { q: "新素材が期待される用途は？", options: ["より速く効率的なチップやセンサー", "新しい食品", "建物の塗料のみ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0803-3",
+        title: "When Politics Reaches the Workplace",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Businesses do not operate in a vacuum. When relations between two countries grow tense, companies that work across their borders often feel the effects. A recent survey showed that many Japanese firms operating in China had become more worried about business there, as political tensions between the two nations weighed on their confidence.\nWhy does politics matter so much to business? Companies that invest abroad depend on stability. They need clear rules, reliable partners, and the freedom to move goods and money. When two governments argue, new restrictions, delays, or public anger can suddenly make it harder to operate. Even the fear of such problems can cause firms to slow their plans.\nThe two countries in this case are deeply connected. China is an enormous market and a major manufacturing base, while Japan supplies advanced machines, parts, and know-how. Trade between them supports countless jobs on both sides. That is exactly why rising tension makes businesses nervous: they have a great deal to lose.\nCompanies respond in careful ways. Some spread their operations across several countries to reduce their dependence on any single one. Others wait and watch before making big new investments. Few want to leave a valuable market, but few want to bet everything on it either.\nThe wider lesson is that economics and politics cannot be separated. Behind the headlines about diplomacy are factories, workers, and customers whose daily lives are shaped, quietly but powerfully, by how well nations manage to get along.",
+        summaryJa: "企業は真空の中で活動しない。二国間の関係が緊張すると、その国境をまたいで働く企業はしばしば影響を受ける。最近の調査では、中国で事業を行う多くの日本企業が、両国の政治的緊張に自信を削がれ、現地事業をより懸念するようになったと示された。なぜ政治が事業にそれほど重要か。海外投資する企業は安定に依存する。明確な規則、信頼できる相手、物や金を動かす自由が要る。二つの政府が争うと、新たな規制・遅延・世論の反発が突然、事業を難しくしうる。そうした問題への恐れだけでも、企業は計画を鈍らせうる。この二国は深く結びついている。中国は巨大な市場かつ主要な製造拠点で、日本は先端機械・部品・ノウハウを供給する。両国の貿易は双方で無数の雇用を支える。だからこそ緊張の高まりは企業を不安にさせる——失うものが大きいのだ。企業は慎重に対応する。事業を複数国に分散して単一国への依存を減らす者、大型の新規投資の前に様子を見る者もいる。価値ある市場を去りたい者は少ないが、そこに全てを賭けたい者も少ない。より広い教訓は、経済と政治は切り離せないということ。外交の見出しの背後には、国同士がどれだけうまくやれるかに、静かに、しかし強く左右される工場・労働者・顧客の日々の暮らしがある。",
+        quiz: [
+          { q: "調査が示した日本企業の変化は？", options: ["中国での事業をより懸念するようになった", "中国事業を全て閉じた", "懸念が完全になくなった"], answer: 0 },
+          { q: "海外投資する企業が依存するものは？", options: ["安定・明確な規則・信頼できる相手", "政治的な争い", "不確実性"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["経済と政治は切り離せない", "政治は事業に無関係", "貿易は不要だ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0803-4",
+        title: "Making Sugar from Thin Air",
+        level: "★★☆",
+        genre: "日本",
+        text: "In a laboratory in Osaka, a young researcher is working on an idea that sounds almost like magic: making sugar out of the air. The goal is to capture carbon dioxide — the gas that plants absorb and that also warms our planet — and turn it into sugar that could feed farm animals.\nWhy sugar, and why for animals? Livestock such as cows and pigs need large amounts of feed, and much of that feed is grown on farmland or imported from far away. As the world's population grows and extreme weather damages harvests, many people worry about future shortages of food and feed. A new, steady source of feed that does not depend on good weather or vast fields could be very valuable.\nThe science borrows from nature. Plants already turn carbon dioxide into sugar through photosynthesis, using sunlight. The researcher hopes to do something similar, but faster and in a factory, using chemical and biological tools instead of waiting for crops to grow season by season.\nThe work is still at an early stage, and many questions remain about cost, energy, and scale. Turning a clever laboratory result into something farmers can use will take years of effort.\nStill, the vision is inspiring. It combines two of the world's biggest challenges — too much carbon dioxide in the air and the need to feed a growing population — and tries to solve them together, turning a problem in the atmosphere into food on the farm.",
+        summaryJa: "大阪の研究室で、若い研究者がほとんど魔法のような発想に取り組んでいる——空気から砂糖を作るのだ。目標は、植物が吸収し地球を温めもする気体・二酸化炭素を捕らえ、家畜のえさになる砂糖に変えること。なぜ砂糖で、なぜ家畜向けか。牛や豚などの家畜は大量のえさを必要とし、その多くは農地で育てるか遠方から輸入される。世界人口が増え、極端な気象が収穫を害する中、多くの人が将来の食料・飼料不足を心配する。好天や広大な畑に依存しない新たな安定した飼料源は、非常に価値がありうる。その科学は自然に学ぶ。植物は既に光合成で日光を使い二酸化炭素を砂糖に変える。研究者は似たことを、しかしより速く工場で、作物が季節ごとに育つのを待つ代わりに化学と生物の手法で行いたい。研究はまだ初期段階で、費用・エネルギー・規模に多くの問いが残る。巧みな実験結果を農家が使えるものに変えるには何年もの努力が要る。それでも構想は心を打つ。世界最大級の二つの課題——大気中の二酸化炭素の多さと、増える人口を養う必要——を結び、一緒に解こうとする。大気の問題を農場の食べ物に変えようとしているのだ。",
+        quiz: [
+          { q: "研究者が空気から作ろうとしているものは？", options: ["家畜のえさになる砂糖", "飲み水", "燃料の石油"], answer: 0 },
+          { q: "新しい飼料源が価値を持ちうる理由は？", options: ["好天や広大な畑に依存しないから", "味が良いから", "色が美しいから"], answer: 0 },
+          { q: "この研究が結びつける二つの課題は？", options: ["大気中の二酸化炭素と人口増加への食料", "戦争と平和", "電気と水"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0803-5",
+        title: "Poison That Could Heal",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Nature is full of surprises, and some of its most dangerous creations may also be among its most useful. Scientists have recently worked out how two famously poisonous plants make their toxic chemicals — and those same chemicals show promise as future medicines. It is a striking reminder that in nature, poison and medicine are often two sides of the same coin.\nHow can a poison become a cure? The answer often lies in dose and target. A chemical that harms the body in large amounts may, in tiny, carefully controlled doses, do something useful — such as slowing a runaway process in a diseased cell. Many powerful medicines, including some cancer treatments and painkillers, began as toxins found in plants, animals, or fungi.\nUnderstanding how a plant builds its poison is a crucial step. Once scientists know the chemical recipe, they can try to make the substance in a laboratory, adjust it to be safer, and produce it in reliable amounts. This avoids having to harvest rare plants and allows careful testing.\nCaution is essential, of course. A promising chemical in the lab is far from a finished drug. Years of study are needed to prove that it is safe and effective in people, and many hopeful candidates never make it that far.\nStill, the research shows why protecting the natural world matters so much. Each plant, even a poisonous one, may hold chemical secrets we have not yet learned — and some of those secrets could one day help heal us.",
+        summaryJa: "自然は驚きに満ち、最も危険な産物の一部は最も有用でもありうる。科学者は最近、有名な二つの毒草がどう毒性の化学物質を作るのかを解明した——そしてその同じ物質が、将来の薬として有望性を示す。自然では毒と薬がしばしば同じコインの表裏であることを、鮮やかに思い出させる。毒がどう治療になりうるのか。答えはしばしば用量と標的にある。大量では体を害する物質が、ごく微量で慎重に管理された用量では、病んだ細胞の暴走を遅らせるなど有用なことをしうる。がん治療薬や鎮痛薬を含む多くの強力な薬は、植物・動物・菌に見つかった毒として始まった。植物がどう毒を作るかの理解は重要な一歩だ。化学のレシピが分かれば、実験室で物質を作り、より安全に調整し、安定した量で生産しようと試みられる。これは希少な植物の採取を避け、慎重な試験を可能にする。もちろん慎重さが不可欠だ。実験室で有望な物質も、完成した薬にはほど遠い。人で安全かつ有効と証明するには何年もの研究が要り、多くの有望候補はそこまで到達しない。それでも研究は、自然界を守ることがなぜ重要かを示す。毒草でさえ、まだ知らない化学の秘密を秘めているかもしれず、その秘密のいくつかが、いつか私たちを癒す助けになりうるのだ。",
+        quiz: [
+          { q: "科学者が解明したことは？", options: ["二つの毒草がどう毒性物質を作るか", "毒草をどう食べるか", "毒草の育て方だけ"], answer: 0 },
+          { q: "毒が治療になりうる鍵は？", options: ["用量と標的（微量で有用に働きうる）", "色と香り", "値段の安さ"], answer: 0 },
+          { q: "本文が示す教訓は？", options: ["自然界を守ることが重要で毒草も秘密を秘める", "毒は常に無用だ", "自然は危険なだけだ"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-02",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "台風の進路予測が難しい理由は？", options: ["海水温・風・他の気象系など無数の力に同時に形づくられるから", "台風が動かないから", "データがないから"], answer: 0 },
           { q: "予報の不確実性を本文はどう捉える？", options: ["弱さでなく誠実さ", "無能の証拠", "無視すべきもの"], answer: 0 },
           { q: "本文の広い教訓は？", options: ["「likely」「possible」に基づき分別ある行動をとる力が重要", "確実な答えだけを求める", "不確実性は無視する"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-07-27",
-    passages: [
-      {
-        id: "d0727-1",
-        title: "One Company, Factories Everywhere",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "The most advanced computer chips in the world are made by only a handful of companies, and one of them is now building new factories in several countries at once — the United States, Japan, Germany, and its home base in Taiwan. At the same time, it is developing ever more advanced and expensive manufacturing processes. This global expansion tells a story about how modern business balances risk and cost.\nWhy build factories in so many places instead of keeping everything in one efficient location? The answer is largely about risk. Chips are now so important to the world economy — used in cars, phones, weapons, and every kind of machine — that governments want them made inside their own borders, not only far away. By spreading its factories, the company reduces the danger that a single natural disaster, political conflict, or supply problem could cut off the world's chips.\nBut this safety has a price. Building the same advanced factory in several countries costs far more than concentrating in one place. Workers must be trained, local suppliers developed, and each site brought up to the same extreme standards. Meanwhile, each new generation of chips requires machines of almost unbelievable complexity and cost.\nThe company is making a classic business trade-off. Concentration is cheaper but riskier; spreading out is safer but more expensive. In a world where governments increasingly treat chips as strategic, and where a single disruption could ripple across the globe, the firm is choosing resilience — even at a higher cost.\nThe deeper lesson applies broadly. For decades, businesses optimized almost entirely for efficiency. Now, after repeated shocks, many are rediscovering an older wisdom: that being able to survive a crisis can matter more than squeezing out the last bit of savings.",
-        summaryJa: "世界最先端のチップを作れるのは一握りの企業で、その一社が今、米国・日本・ドイツ・本拠地の台湾と同時に新工場を建てつつ、より高度で高価な製造プロセスも開発している。この世界展開は、現代ビジネスがリスクとコストをどう均衡させるかを物語る。なぜ効率的な一拠点に集約せず各地に建てるのか——主にリスクゆえだ。チップは自動車・スマホ・兵器などに不可欠で、各国は自国内での生産を望む。工場を分散すれば、災害・政治対立・供給問題で世界のチップが途絶える危険が減る。だが安全には代償があり、同じ高度工場を各国に建てるのは集約より遥かに高くつく。集約は安いが危険、分散は安全だが高価という古典的なトレードオフで、チップを戦略物資とみなす世界で企業は高コストでも強靱性を選んでいる。数十年効率一辺倒だった企業が、度重なる衝撃の後、「危機を生き延びる力」の古い知恵を再発見しつつある。",
-        quiz: [
-          { q: "この企業が各国に工場を分散する主な理由は？", options: ["災害や対立で世界のチップが途絶えるリスクを減らすため", "工場が余っているから", "税金がゼロだから"], answer: 0 },
-          { q: "分散の代償は？", options: ["同じ高度工場を各国に建てるのは集約より高くつく", "品質が下がる", "従業員が不要になる"], answer: 0 },
-          { q: "本文が示す古い知恵とは？", options: ["危機を生き延びる力が最後の節約より重要", "効率がすべて", "分散は無意味"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0727-2",
-        title: "When Hackers Stop the Factory",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "In recent years, a growing threat has been able to do something once thought impossible: stop the factories of major companies without touching a single machine physically. The weapon is ransomware — malicious software that locks up a company's computer systems until a ransom is paid. Recent attacks have halted production at well-known consumer brands, showing how digital crime can cause very real-world damage.\nHow does ransomware work? Attackers find a way into a company's computer network, often by tricking an employee into clicking a harmful link or opening an infected file. The software then spreads, scrambling important files so no one can use them, and displays a demand for payment — usually in hard-to-trace digital currency — in exchange for unlocking the data. Because modern factories, shipping, and sales all depend on computers, freezing those systems can bring an entire business to a stop.\nThe damage goes beyond any ransom. A company may lose days or weeks of production, disappoint customers, and suffer lasting harm to its reputation. Even paying the ransom is risky, since there is no guarantee the criminals will restore the systems, and paying may encourage more attacks.\nDefending against ransomware requires constant effort. Companies train employees to recognize suspicious messages, keep backup copies of their data so they can recover without paying, update their software to fix weaknesses, and limit how far an intruder can spread inside the network.\nThe broader lesson is that in a connected world, security is everyone's job. As more of business and daily life moves online, the line between digital and physical safety fades. A careless click can stop a factory floor, which means that understanding basic cybersecurity is no longer only a task for specialists — it is a skill everyone in a modern organization needs.",
-        summaryJa: "近年、かつて不可能と思われたこと——物理的に機械に触れず大企業の工場を止める——を可能にする脅威が増えている。武器は「ランサムウェア」で、身代金を払うまで企業のシステムをロックする悪意あるソフトだ。最近の攻撃は有名ブランドの生産を停止させ、デジタル犯罪が現実の被害を生むことを示した。攻撃者は従業員に有害なリンクを踏ませるなどで侵入し、ソフトが広がって重要ファイルを暗号化し、追跡困難なデジタル通貨での支払いを要求する。現代の工場・物流・販売は計算機に依存するため、システム凍結が事業全体を止める。被害は身代金を超え、数日〜数週の生産停止・顧客の失望・評判の毀損に及ぶ。支払っても復旧の保証はなく、さらなる攻撃を招きうる。防御には、不審メールの見分け、バックアップ、ソフト更新、侵入の拡散制限が要る。つながった世界でセキュリティは全員の仕事——不用意な一クリックが工場を止めうる。",
-        quiz: [
-          { q: "ランサムウェアとは？", options: ["身代金を払うまでシステムをロックする悪意あるソフト", "工場の機械", "新しい通貨"], answer: 0 },
-          { q: "被害が身代金を超えるとされる理由は？", options: ["生産停止・顧客の失望・評判の毀損に及ぶから", "身代金だけで済むから", "被害はないから"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["つながった世界でセキュリティは全員の仕事", "専門家だけの問題", "クリックは安全"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0727-3",
-        title: "Europe Looks for Its Own Rare Earths",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Modern green technology has a hidden dependence. The powerful magnets inside electric-car motors and wind turbines rely on a group of materials called rare earth elements. For years, the mining and processing of these materials has been dominated by a small number of countries. Now reports suggest that Sweden could become an important new source of rare earths for Europe — a development with large strategic meaning.\nWhy does the source of these materials matter so much? Because whoever controls the supply of a critical material gains power over everyone who needs it. If most of the world's rare earths come from one place, and that source is cut off — by conflict, politics, or export limits — industries everywhere could suddenly struggle. For Europe, which wants to build electric cars and clean energy on a massive scale, depending entirely on distant suppliers is a serious risk.\nDeveloping a home source is not simple. Finding rare earths in the ground is only the first step; the harder challenge is processing them, which is complex, costly, and can harm the environment if not done carefully. Building this capacity takes years of investment and skill, which is why no region can shift its supply overnight.\nStill, the strategic logic is powerful. A reliable domestic supply would make Europe less vulnerable to distant disruptions and give it more control over its own green transition. Even if it costs more than importing, the security may be worth the price.\nThe broader theme is one that appears again and again in today's world: the tension between efficiency and security. The cheapest source is not always the safest, and for materials a society truly cannot do without, many nations are now deciding that some independence is worth paying for.",
-        summaryJa: "現代のグリーン技術には隠れた依存がある。EVモーターや風力タービンの強力な磁石は「レアアース」に頼る。長年、その採掘・精錬は少数の国に支配されてきた。今、スウェーデンが欧州の新たなレアアース源になりうると報じられ、大きな戦略的意味を持つ。なぜ供給源が重要か——重要材料の供給を握る者は、それを必要とする皆に対し力を持つからだ。世界のレアアースが一か所に偏り、それが対立・政治・輸出制限で断たれれば、各地の産業が突然苦境に陥る。EVとクリーンエネルギーを大規模に築きたい欧州には、遠方依存は深刻なリスクだ。国内供給の構築は容易でなく、鉱石発見は第一歩で、環境負荷を伴う精錬こそ難しく、年月と技術投資が要る。それでも、信頼できる国内供給は遠方の混乱への脆さを減らし、緑の移行を自ら制御できる。効率と安全の緊張——最安が最安全とは限らず、欠かせない材料では多くの国が「一定の自立には払う価値がある」と判断し始めた。",
-        quiz: [
-          { q: "レアアースは何に使われる？", options: ["EVモーターや風力タービンの強力な磁石", "食品の保存", "紙の製造"], answer: 0 },
-          { q: "供給源が偏ると起きうる問題は？", options: ["供給が断たれると各地の産業が苦境に陥る", "価格が必ず下がる", "何も起きない"], answer: 0 },
-          { q: "国内供給構築の難しさは？", options: ["環境負荷を伴う精錬が難しく年月と投資が要る", "鉱石がないこと", "誰も必要としないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0727-4",
-        title: "Rehearsing in Space",
-        level: "★★☆",
-        genre: "日本",
-        text: "Before doing something difficult and dangerous, it is wise to practice. This simple idea is guiding one of the boldest space plans in years: an ambitious orbital rehearsal for landing astronauts on the Moon. Rather than attempting everything for the first time during the real landing, engineers plan to test the key steps in space first — a careful, methodical approach that reflects a deep principle of good engineering.\nReturning humans to the Moon after decades is enormously complex. Spacecraft must travel far from Earth, meet and connect in orbit, and support astronauts through many delicate steps. A single mistake could endanger lives. By rehearsing critical parts of the mission in space before the actual landing, teams can find and fix problems where the stakes are lower, building confidence for the real attempt.\nThis method — test, learn, and improve before the final performance — is not unique to space. It is how careful engineers, athletes, musicians, and professionals of all kinds prepare for high-pressure moments. Practicing under realistic conditions reveals problems that no amount of planning on paper can predict.\nThere is a lesson here for learners too, including those studying a language. Rehearsal matters. Practicing a presentation before giving it, or having a trial conversation before an important meeting, is the same principle at work: reduce risk and build confidence by trying the hard parts in advance, when mistakes are cheap.\nThe broader wonder is how methodical space exploration has become. What looks like a giant leap is, in reality, the result of countless small, careful steps — each one tested, checked, and rehearsed. Behind every bold achievement lies patient preparation, and the courage to reach the Moon rests on the quiet discipline of practicing first.",
-        summaryJa: "難しく危険なことをする前に練習するのは賢明だ。この単純な考えが、近年最も大胆な宇宙計画の一つ——月への有人着陸に向けた野心的な軌道上リハーサル——を導いている。本番の着陸で初めて全てを試すのでなく、鍵となる工程を先に宇宙で試す、優れた工学の原理を反映した慎重な手法だ。数十年ぶりの有人月帰還は極めて複雑で、遠方への航行、軌道上でのランデブーと結合、繊細な多くの工程を要し、一つのミスが命を危険にさらす。本番前に重要部分を宇宙でリハーサルすれば、賭け金の低いうちに問題を見つけ直せ、本番への自信になる。「本番前に試し学び改善する」は宇宙に限らず、技術者・アスリート・音楽家が高圧の場面に備える方法だ。語学学習者にも通じる——プレゼンや重要会議前の予行は、ミスが安いうちに難所を試しリスクを減らし自信を築く同じ原理だ。大胆な達成の裏には忍耐強い準備があり、月へ届く勇気は「まず練習する」静かな規律に支えられている。",
-        quiz: [
-          { q: "月着陸計画で採られている慎重な手法は？", options: ["本番前に鍵となる工程を宇宙でリハーサルする", "練習なしで本番を行う", "着陸をやめる"], answer: 0 },
-          { q: "リハーサルの利点は？", options: ["賭け金の低いうちに問題を見つけ自信を築ける", "時間の無駄になる", "危険が増す"], answer: 0 },
-          { q: "語学学習者への教訓は？", options: ["プレゼンや会議前の予行でミスが安いうちに難所を試す", "練習は不要", "本番だけが大事"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0727-5",
-        title: "Passing Energy, One Particle at a Time",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Deep inside the world of the very small, scientists study how energy moves from one tiny object to another — and each new understanding can lead to better technology. Recently, researchers discovered a surprising helper in this process: a proton, one of the basic particles inside an atom, that greatly improves how energy travels between tiny structures called quantum dots and nearby molecules.\nQuantum dots are incredibly small crystals, so tiny that the rules of quantum physics shape their behavior. They can absorb and release light in precise, controllable ways, which makes them useful in many technologies — from brighter, more efficient displays to advanced sensors and solar cells. A key challenge is controlling how energy passes from a quantum dot to other materials, because that transfer determines how well a device works.\nThe new research revealed that a proton can act like a tiny assistant, helping energy jump more efficiently from one place to the next. Understanding this hidden step gives scientists a new tool to design better materials — for example, solar cells that capture more sunlight, or displays that use less power.\nWhy does such a small discovery matter? Because much of modern technology is built on precisely controlling energy and light at the smallest scales. A screen, a solar panel, and a medical sensor all depend on getting these tiny transfers right. Each improvement in understanding, however small it seems, can ripple outward into real devices that touch daily life.\nThe deeper wonder is how the largest technologies grow from the smallest details. The glowing screen in your hand and the solar panel on a roof both rely on the quiet, invisible movement of energy between particles. By learning to guide that movement more skillfully, scientists slowly expand what our machines can do — proof that in science, understanding the very small can change the very large.",
-        summaryJa: "極めて小さな世界の奥で、科学者はエネルギーが一つの微小物体から別へどう移るかを研究し、新たな理解が良い技術を生む。最近、その過程の意外な助っ人が見つかった——原子内の基本粒子である陽子が、「量子ドット」という微小構造と近くの分子との間のエネルギー移動を大きく改善するのだ。量子ドットは量子物理が振る舞いを支配するほど小さな結晶で、光を精密・制御可能に吸収・放出でき、高効率ディスプレイ・センサー・太陽電池などに有用だ。鍵は量子ドットから他材料へのエネルギー移動の制御で、それが性能を決める。新研究は、陽子が小さな助手のように働き、エネルギーがより効率よく飛び移るのを助けると明かした。この隠れた段階の理解は、より多くの光を捉える太陽電池や低消費電力の画面など、良い材料設計の新しい道具になる。現代技術の多くは最小スケールでのエネルギーと光の精密制御に支えられ、小さな理解の改善が日常の機器へ波及する。最大の技術が最小の細部から育つ——小を理解することが大を変える。",
-        quiz: [
-          { q: "研究で見つかった「意外な助っ人」は？", options: ["陽子", "電気ケーブル", "レンズ"], answer: 0 },
-          { q: "量子ドットが有用な理由は？", options: ["光を精密・制御可能に吸収・放出できる", "とても大きいから", "光らないから"], answer: 0 },
-          { q: "本文の深い驚きは？", options: ["最大の技術が最小の細部から育つ", "小さな研究は無意味", "技術は変わらない"], answer: 0 }
         ]
       }
     ]
