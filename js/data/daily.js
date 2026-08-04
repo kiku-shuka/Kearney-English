@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-04",
+    passages: [
+      {
+        id: "d0804-1",
+        title: "How a Struggling Company Turns Around",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When a big company loses money, its future can look bleak. But businesses in trouble can recover, and the story of how they do it is a useful lesson in economics. Recently, a major Japanese carmaker returned to profit after a difficult period, showing how careful management can turn a company around.\nWhat does a 'turnaround' involve? Usually, it starts with cutting costs. A struggling company may close inefficient factories, reduce spending, simplify its product line, and renegotiate deals with suppliers. The aim is to spend less while keeping the products that customers actually want.\nCutting costs alone is not enough, though. A company must also protect the things that earn it money — good products, skilled workers, and loyal customers. Cut too deeply, and it may damage the very strengths it needs to grow again. The best turnarounds balance saving money with investing in the future.\nRecovery also depends on outside conditions. Exchange rates, the price of materials, and demand from customers all affect the result. A weaker home currency, for example, can help a carmaker that sells abroad, while cheaper parts lower its costs.\nReturning to profit is an important milestone, but not the end of the story. The company must prove it can stay profitable, keep improving, and compete with rivals. Still, the lesson is encouraging: with clear decisions and steady effort, even a company in serious trouble can find its way back to health.",
+        summaryJa: "大企業が損失を出すと、その未来は暗く見えうる。だが苦境の企業も回復でき、その方法は経済の有益な教訓だ。最近、日本の大手自動車メーカーが困難な時期を経て黒字に戻り、丁寧な経営が会社を立て直せることを示した。「ターンアラウンド（再建）」とは何を伴うのか。多くはコスト削減から始まる。苦境の企業は非効率な工場を閉じ、支出を減らし、製品ラインを簡素化し、供給業者との取引を再交渉する。狙いは、顧客が本当に望む製品を保ちつつ支出を減らすことだ。だがコスト削減だけでは足りない。会社は収益を生むもの——良い製品・熟練従業員・忠実な顧客——も守らねばならない。切りすぎれば、再成長に必要な強みそのものを損なう。最良の再建は、節約と未来への投資を両立する。回復は外部条件にも左右される。為替・材料価格・顧客需要がすべて結果に影響する。例えば自国通貨安は海外で売るメーカーを助け、安い部品はコストを下げる。黒字回復は重要な節目だが物語の終わりではない。会社は黒字を保ち、改善を続け、競合と戦えると証明せねばならない。それでも教訓は励みになる——明確な決断と着実な努力があれば、深刻な苦境の企業でも健全さを取り戻せる。",
+        quiz: [
+          { q: "「ターンアラウンド（再建）」が多くの場合まず始めることは？", options: ["コスト削減", "従業員の大量増員", "広告の全面停止"], answer: 0 },
+          { q: "コスト削減だけでは足りない理由は？", options: ["収益を生む製品・人・顧客も守る必要があるから", "削減は不可能だから", "顧客が自然に増えるから"], answer: 0 },
+          { q: "黒字回復について本文が述べることは？", options: ["重要な節目だが物語の終わりではない", "会社の完成である", "もう努力は不要になる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0804-2",
+        title: "Printing Super-Hard Tools",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "When we think of 3D printing, we often picture small plastic toys or models. But the technology is growing far more powerful, and researchers have now found a way to 3D-print one of the hardest materials used in industry — a tough blend of tungsten carbide and cobalt — while using less of its expensive raw materials.\nWhy does this matter? This hard material is used to make cutting tools, drills, and parts that must survive heavy wear. Traditionally, shaping it is difficult and wasteful: a lot of costly material is cut away and thrown out. 3D printing works differently. It builds an object layer by layer, adding material only where it is needed, so less is wasted.\nThe new method is important for two reasons. First, it saves money by using less of a rare and expensive ingredient. Second, it allows complex shapes that would be hard or impossible to make with older methods, giving engineers more freedom to design better tools.\nThere are still hurdles. Printing very hard materials requires great precision and high temperatures, and the finished parts must be strong and reliable enough for demanding jobs. Moving from the laboratory to the factory floor takes time and testing.\nStill, the progress points to a larger trend. 3D printing is moving beyond plastic trinkets into serious industrial use, letting manufacturers build strong, complex parts with less waste. Little by little, the way we make things is being reinvented — one carefully printed layer at a time.",
+        summaryJa: "3Dプリンティングと聞くと、小さなプラスチックの玩具や模型を思い浮かべがちだ。だがこの技術ははるかに強力になりつつあり、研究者はこのほど、産業で使われる最も硬い材料の一つ——タングステンカーバイドとコバルトの強靭な混合物——を、高価な原料をより少なく使いながら3D印刷する方法を見つけた。なぜ重要か。この硬い材料は切削工具・ドリル・激しい摩耗に耐える部品に使われる。従来は成形が難しく無駄が多い——高価な材料が大量に削り取られ捨てられる。3D印刷は違う。物体を層ごとに築き、必要な場所にだけ材料を加えるので無駄が少ない。新手法が重要な理由は二つ。第一に、希少で高価な材料を少なく使い費用を節約する。第二に、旧来の方法では難しいか不可能な複雑な形状を可能にし、技術者により良い工具を設計する自由を与える。まだ障害もある。非常に硬い材料の印刷は高い精度と高温を要し、完成部品は過酷な用途に十分な強さと信頼性が必要だ。実験室から工場の現場へ移るには時間と試験がかかる。それでも進歩は大きな流れを示す。3Dプリンティングはプラスチックの小物を超え本格的な産業利用へ進み、より少ない無駄で強く複雑な部品を作れるようにする。少しずつ、物の作り方が作り替えられている——丁寧に印刷される一層ずつ。",
+        quiz: [
+          { q: "この硬い材料は何に使われるか？", options: ["切削工具・ドリル・摩耗に耐える部品", "玩具だけ", "食器だけ"], answer: 0 },
+          { q: "3D印刷が無駄を減らせる理由は？", options: ["必要な場所にだけ材料を加えて層ごとに築くから", "材料を大量に削るから", "材料を全く使わないから"], answer: 0 },
+          { q: "新手法の利点に含まれるものは？", options: ["費用節約と複雑な形状の実現", "印刷が遅くなること", "強度が下がること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0804-3",
+        title: "Drones That Deliver Medicine",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "In parts of the world where roads are poor and hospitals are far apart, getting medicine to patients quickly can be a matter of life and death. In one African country, small aircraft called drones are helping to solve this problem, carrying blood, vaccines, and other medical supplies across the sky to clinics that are hard to reach by road.\nHow does it work? A health worker at a distant clinic sends a request, and a drone is loaded and launched from a central station. Flying in a straight line above rivers, hills, and traffic, it can deliver supplies in minutes rather than the hours a truck might take. The package is dropped gently by parachute, and the drone returns home.\nThe benefits are clear. Blood for emergencies and vaccines that must stay cold can arrive fresh and fast. Clinics no longer need to store large amounts of supplies, and fewer patients die waiting for treatment. The system is especially valuable during floods or other emergencies, when roads may be blocked.\nThere are challenges too. Drones are expensive to run, need trained staff, and depend on steady funding, which can be uncertain when outside support rises and falls. Weather and rules about flying must also be managed carefully.\nStill, the idea shows how technology can leap over old obstacles. Instead of waiting years to build new roads, some countries are using the sky to connect people to care — a reminder that clever solutions can save lives today, not just in the distant future.",
+        summaryJa: "道路が悪く病院が遠く離れた世界の地域では、患者に薬を素早く届けることが生死を分けうる。あるアフリカの国では、ドローンと呼ばれる小型航空機がこの問題の解決を助け、血液・ワクチン・その他の医療物資を空から、道路では到達しにくい診療所へ運んでいる。仕組みは。遠隔の診療所の医療従事者が要請を送ると、中央基地でドローンに荷が積まれ発進する。川・丘・渋滞の上を直線で飛び、トラックなら数時間かかる物資を数分で届けられる。荷はパラシュートでそっと落とされ、ドローンは帰還する。利点は明白だ。緊急用の血液や低温を保つ必要のあるワクチンが、新鮮に速く届く。診療所は大量の物資を保管する必要がなくなり、治療を待って亡くなる患者が減る。道路が塞がれうる洪水などの非常時に特に価値がある。課題もある。ドローンは運用費が高く、訓練された職員を要し、外部支援の増減で不確かになりうる安定した資金に依存する。天候や飛行の規則も慎重に管理せねばならない。それでもこの発想は、技術が古い障害を飛び越えられることを示す。新しい道路を何年もかけて造るのを待つ代わりに、空を使って人々を医療につなぐ国もある——巧みな解決策が遠い未来でなく今日、命を救えることを思い出させる。",
+        quiz: [
+          { q: "ドローンがこの国で運んでいるものは？", options: ["血液・ワクチンなどの医療物資", "観光客", "建築資材"], answer: 0 },
+          { q: "ドローン配送が特に価値を持つのは？", options: ["道路が塞がれうる洪水などの非常時", "晴れた日だけ", "都市の中心部だけ"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["運用費が高く安定した資金に依存する", "荷物が重すぎること", "空が狭すぎること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0804-4",
+        title: "Getting Ready for Typhoon Season",
+        level: "★★☆",
+        genre: "日本",
+        text: "Every summer and autumn, Japan prepares for one of nature's most powerful visitors: the typhoon. These huge storms form over warm seas and can bring fierce winds, heavy rain, and dangerous waves. Recently, a typhoon moved toward Japan's southern islands, and once again the country put its long experience with such storms to work.\nHow does Japan prepare? Warnings are key. Weather agencies track a typhoon for days as it approaches, predicting its path and strength, so people have time to get ready. Television, phones, and loudspeakers share updates, telling residents when to stay home or move to safer places.\nPreparation also happens at home and in the community. Families secure loose objects, stock up on water and food, and charge their phones in case the power goes out. Local governments open shelters, check rivers and drains, and stop trains and flights when the danger is high. Fishing boats return to port, and shops may close their shutters.\nWhy so much care? Typhoons can cause floods and landslides, damage homes, and put lives at risk. But good preparation makes a real difference. Many storms pass with far less harm than they might have caused, precisely because people acted early.\nLiving with typhoons has taught Japan an important habit: respect the storm, but do not panic. By watching forecasts, following advice, and helping neighbors, communities face even powerful typhoons with calm and readiness — turning a frightening event into something they know how to handle.",
+        summaryJa: "毎年の夏と秋、日本は自然の最も強力な来訪者の一つ——台風に備える。この巨大な嵐は暖かい海の上で生まれ、激しい風・大雨・危険な波をもたらす。最近、台風が日本の南の島々へ向かい、国は再びこうした嵐への長い経験を生かした。日本はどう備えるか。警報が鍵だ。気象機関は接近する台風を数日追い、進路と強さを予測するので、人々に備える時間ができる。テレビ・携帯・防災無線が更新を伝え、家にとどまるか安全な場所へ移るべき時を住民に知らせる。備えは家庭や地域でも行われる。家族は飛びやすい物を固定し、水や食料を蓄え、停電に備えて携帯を充電する。自治体は避難所を開き、川や排水路を点検し、危険が高いと電車や航空便を止める。漁船は港に戻り、店はシャッターを閉じることもある。なぜそれほど慎重に。台風は洪水や土砂崩れを起こし、家を壊し、命を危険にさらしうる。だが良い備えは本当に違いを生む。多くの嵐が本来より遥かに少ない被害で過ぎるのは、まさに人々が早く動いたからだ。台風との共生は日本に大切な習慣を教えた——嵐を敬い、しかし慌てない。予報を見て、助言に従い、隣人を助けることで、地域は強い台風にも落ち着いて備えて向き合い、恐ろしい出来事を「対処の仕方を知るもの」に変えている。",
+        quiz: [
+          { q: "台風はどこで生まれるか？", options: ["暖かい海の上", "高い山の上", "砂漠の中"], answer: 0 },
+          { q: "日本の備えで「鍵」とされるものは？", options: ["数日前からの警報・予報", "嵐を止める機械", "何もしないこと"], answer: 0 },
+          { q: "本文が教える習慣は？", options: ["嵐を敬い、しかし慌てないこと", "予報を無視すること", "一人だけで対処すること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0804-5",
+        title: "What Food Labels Really Tell Us",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Walk down any supermarket aisle and you will see them everywhere: words like 'organic,' 'natural,' and 'high protein' printed proudly on packages. These labels are designed to catch your eye and shape your choices — but they do not always mean what shoppers think, and they can lead people to pay more than they need to.\nWhy are labels sometimes misleading? Some words are carefully defined and checked by law, while others are almost free for companies to use. 'Organic,' in many countries, follows strict rules. But a word like 'natural' often has no clear meaning, and 'high protein' may describe a food that was never lacking protein in the first place. A cheerful label can make an ordinary product feel special.\nWhy does this matter? Food is a huge business, and small changes in wording can change what millions of people buy. Shoppers may spend extra money believing a product is healthier or better for the planet, when a plainer, cheaper option is just as good.\nHow can people protect themselves? The advice is simple but powerful: look past the front of the package. The back, where ingredients and nutrition facts are listed, tells a more honest story. Comparing similar products often reveals that the fancy label adds little except cost.\nThe lesson reaches beyond groceries. In a world full of marketing, being a thoughtful consumer means asking what words really mean — and remembering that the boldest claim on the box is not always the most important fact inside it.",
+        summaryJa: "スーパーのどの通路を歩いても、あちこちで目にする——「オーガニック」「ナチュラル」「高タンパク」といった言葉がパッケージに誇らしげに印刷されている。こうしたラベルは目を引き、選択を左右するよう作られている——だが買い物客が思う意味とは限らず、必要以上に払わせることもある。なぜ時に誤解を招くのか。法律で慎重に定義され確認される言葉もあれば、企業がほぼ自由に使える言葉もある。多くの国で「オーガニック」は厳格な規則に従う。だが「ナチュラル」のような言葉はしばしば明確な意味がなく、「高タンパク」はもともとタンパク質に不足のなかった食品を指すこともある。明るいラベルは、平凡な製品を特別に感じさせうる。なぜ重要か。食品は巨大な商売で、言葉の小さな違いが何百万人の購買を変えうる。買い物客は、より地味で安い選択肢が同じくらい良いのに、健康的だ・地球に良いと信じて余分に払うかもしれない。どう身を守るか。助言は単純だが強力だ——パッケージの表を越えて見よ。原材料と栄養成分が並ぶ裏面が、より正直な物語を語る。似た製品を比べると、しゃれたラベルは費用以外ほとんど何も足していないと分かることが多い。教訓は食品を超える。宣伝に満ちた世界で思慮深い消費者であるとは、言葉が本当に何を意味するかを問うこと——そして箱の最も大胆な主張が、中の最も重要な事実とは限らないと覚えておくことだ。",
+        quiz: [
+          { q: "食品ラベルが時に誤解を招く理由は？", options: ["企業がほぼ自由に使える言葉もあるから", "全て法律で禁止されているから", "誰も読まないから"], answer: 0 },
+          { q: "本文が勧める身を守る方法は？", options: ["パッケージ裏面の原材料・栄養成分を見る", "表の言葉だけ信じる", "値段だけ見る"], answer: 0 },
+          { q: "本文の教訓は？", options: ["最も大胆な主張が最も重要な事実とは限らない", "高いものほど必ず良い", "ラベルは常に正しい"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-03",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "洞窟壁画を年代測定できた鍵は？", options: ["黒い顔料の中の木炭を発見したこと", "絵の署名", "壁の色"], answer: 0 },
           { q: "放射性炭素年代測定の原理は？", options: ["死後ゆっくり壊れる炭素の残量から年代を計算する", "色の濃さを測る", "重さを量る"], answer: 0 },
           { q: "本文の広い教訓は？", options: ["ずっとそこにあったものを注意深く見ることが発見を生む", "新しい場所だけを探すべき", "観察は無意味"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-07-28",
-    passages: [
-      {
-        id: "d0728-1",
-        title: "Rivals Team Up to Build a Car's Brain",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Two of Japan's biggest carmakers, long-time competitors, have reportedly entered final-stage talks to work together on something surprising: the software that will act as the 'brain' of their next-generation vehicles. An agreement could come within weeks. Rivals cooperating on a core technology is a growing trend, and it reveals how much the car industry is changing.\nWhy would competitors share such an important system? Because modern cars are becoming computers on wheels. The software that controls a vehicle's functions — its 'operating system' — is now as important as the engine once was. But developing this software is enormously expensive and complex, requiring skills more common in technology companies than traditional carmakers. By sharing the cost and effort, two firms can move faster and cheaper than either could alone.\nThis kind of partnership involves a careful balance. The companies will still compete fiercely on design, brand, and driving experience. They cooperate only on the shared foundation — the software platform — that neither gains much advantage from building separately. It is like rival restaurants sharing a supplier for basic ingredients while competing on their recipes.\nThe change reflects a bigger shift in the auto industry. For a century, a car's value lay mainly in its mechanical engineering. Now, more and more, it lies in software: how the car connects, updates, drives itself, and serves its passengers. Carmakers that cannot master software risk falling behind newer, technology-focused competitors.\nThe broader business lesson is about knowing when to compete and when to cooperate. Building the same expensive foundation separately can waste resources that could go toward what truly sets a company apart. Sometimes the smartest strategy is to join forces on the basics, and save the real competition for what customers actually notice.",
-        summaryJa: "長年のライバルである日本の大手自動車2社が、次世代車の「頭脳」となるソフトウェアで協業する最終段階の交渉に入ったと報じられ、数週内の合意もありうる。ライバルが中核技術で協力するのは増える傾向で、車産業の変化を映す。なぜ重要なシステムを共有するのか——現代の車は「車輪の上のコンピュータ」化し、機能を制御するOSがかつてのエンジン並みに重要だが、開発は極めて高価・複雑でIT企業寄りの技術が要る。費用と労力を分担すれば単独より速く安く進める。協業は微妙な均衡で、デザイン・ブランド・走りでは激しく競い、単独開発で差がつかない共通基盤(ソフト基盤)だけ協力する。ライバル店が基本食材の仕入れを共有しレシピで競うようなものだ。車の価値は機械工学からソフトへ移りつつあり、ソフトを制せぬメーカーは新興IT勢に後れる。基本で手を組み、顧客が気づく部分で真に競う——競争と協力の見極めが賢い戦略だ。",
-        quiz: [
-          { q: "2社が協業しようとしている対象は？", options: ["次世代車の中核ソフトウェア(OS)", "エンジンの部品", "販売店の場所"], answer: 0 },
-          { q: "ライバルが基盤で協力する理由は？", options: ["ソフト開発は高価・複雑で分担すれば速く安いから", "競争が嫌いだから", "法律の要求だから"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["基本で協力し、顧客が気づく部分で競う見極めが賢い", "常に単独で作るべき", "協力は無意味"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0728-2",
-        title: "A Car That Is Really a Computer",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Not long ago, a car was mainly a mechanical machine: an engine, wheels, and steel. Today, a modern vehicle contains dozens of computers and millions of lines of software code, and increasingly its most important part is not the engine but the 'operating system' — the master software that controls everything from the dashboard to the brakes.\nWhy has software become so central? Because it determines what a car can do and how it improves over time. A software-defined car can receive updates over the internet, just like a smartphone, gaining new features or fixing problems without a trip to the garage. It can connect to other services, learn a driver's preferences, and support advanced safety systems or self-driving features. The physical car may stay the same, but the software can make it better month after month.\nThis shift changes what carmakers must be good at. For a century, they mastered metal, engines, and mechanical precision. Now they also need the skills of technology companies: writing reliable software, managing data, and updating systems safely. Some traditional carmakers find this transition difficult, while newer companies built around software have an advantage.\nThere are challenges. Software in a car must be extremely reliable, because a failure can be dangerous. It must be secure against hackers, since a connected car is a possible target. And it must last for many years, far longer than a typical phone.\nThe deeper trend is one seen across many industries: physical products are becoming platforms for software. Just as phones became app machines and televisions became streaming devices, cars are becoming computers that happen to move. Understanding this shift helps explain why carmakers now compete not only on horsepower and design, but increasingly on code.",
-        summaryJa: "少し前まで車は主に機械——エンジン・車輪・鋼だった。今の車は数十の計算機と数百万行のコードを持ち、最重要部分はエンジンでなく、ダッシュボードからブレーキまで制御する「OS」になりつつある。なぜソフトが中心か——車にできることと、時間とともにどう良くなるかを決めるからだ。ソフト定義の車はスマホのようにネット経由で更新でき、整備工場に行かず新機能追加や不具合修正ができ、他サービスと接続し、運転者の好みを学び、先進安全や自動運転を支える。物理的な車は同じでもソフトが毎月良くする。これはメーカーに必要な能力を変える。長年、金属・エンジン・機械精度を極めたが、今は信頼できるソフト開発・データ管理・安全な更新というIT企業の技能も要る。車のソフトは極めて信頼性が高く、ハッカーに強く、スマホより遥かに長寿命でねばならない。物理製品がソフトの土台になる——電話がアプリ機に、テレビが配信機になったように、車は「動く計算機」になりつつある。",
-        quiz: [
-          { q: "現代の車で最重要になりつつある部分は？", options: ["すべてを制御するOS(ソフトウェア)", "エンジンのみ", "タイヤの色"], answer: 0 },
-          { q: "ソフト定義の車の利点は？", options: ["ネット経由で更新し新機能追加や不具合修正ができる", "更新できない", "重くなる"], answer: 0 },
-          { q: "車のソフトに求められる条件に含まれないものは？", options: ["高い信頼性とセキュリティ", "長い寿命", "毎年買い替えること"], answer: 2 }
-        ]
-      },
-      {
-        id: "d0728-3",
-        title: "Treasure in the Deep-Sea Mud",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Far below the ocean surface, in the mud of the deep seabed near Japan's easternmost island, scientists have confirmed the presence of several rare earth elements — the valuable materials essential for magnets, electronics, and green technology. The discovery could one day help reduce the world's dependence on a small number of land-based suppliers, but turning seabed mud into usable materials is far from simple.\nWhy is this exciting? Because rare earths are critical to modern technology, yet their supply is dominated by only a few countries. A nation with its own source — even one deep underwater — could gain valuable independence. For a country like Japan, which imports most of its raw materials, finding these elements within its own waters is strategically important.\nBut the challenges are enormous. The mud lies thousands of meters below the surface, in cold, dark, high-pressure conditions where working is extremely difficult and expensive. Bringing up the mud, separating the rare earths, and doing so without harming the deep-sea environment are all major technical and ethical problems. Deep-sea mining raises real concerns about damage to fragile ocean ecosystems that we still barely understand.\nSo the discovery is a beginning, not an answer. It shows that valuable resources exist, but using them will require years of research, new technology, and careful thought about environmental costs. A resource that cannot be reached affordably and responsibly is, for now, only a possibility.\nThe broader lesson is about the gap between finding and using. Discovering a resource is exciting, but value comes from being able to obtain it in a way that is affordable, safe, and responsible. Whether under the sea or anywhere else, potential only becomes real through the hard, patient work of turning discovery into practical use.",
-        summaryJa: "海面のはるか下、日本最東端の島近くの深海底の泥に、磁石・電子機器・グリーン技術に不可欠なレアアース数種の存在が確認された。いつか世界の陸上供給国への依存を減らせるかもしれないが、海底の泥を使える材料にするのは容易でない。なぜ画期的か——レアアースは現代技術に不可欠なのに供給が少数国に偏り、自前の源(たとえ深海でも)を持てば貴重な自立を得られる。原材料の多くを輸入する日本には自国水域での発見は戦略的に重要だ。だが課題は膨大で、泥は数千メートル下の冷たく暗い高圧環境にあり、作業は極めて難しく高価。泥の引き上げ、レアアースの分離、そして脆い深海生態系を傷めずに行うことは大きな技術的・倫理的問題だ。深海採掘はまだよく分からない生態系への損傷の懸念を生む。発見は答えでなく始まりで、利用には年月の研究・新技術・環境コストへの熟慮が要る。手頃かつ責任ある形で得られない資源は今は可能性にすぎない。発見と利用の間の隔たり——潜在は、発見を実用に変える地道な努力でのみ現実になる。",
-        quiz: [
-          { q: "深海の泥で確認されたものは？", options: ["レアアース元素", "石油", "金塊"], answer: 0 },
-          { q: "この発見が戦略的に重要な理由は？", options: ["レアアースの供給が少数国に偏り、自前の源で自立できるから", "泥が珍しいから", "海がきれいだから"], answer: 0 },
-          { q: "本文が示す「発見と利用の隔たり」とは？", options: ["手頃・安全・責任ある形で得られて初めて価値になる", "発見すればすぐ使える", "利用は簡単"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0728-4",
-        title: "Where Japan Began",
-        level: "★★☆",
-        genre: "日本",
-        text: "In the quiet countryside of Nara Prefecture lie the remains of a place where, more than thirteen hundred years ago, the shape of modern Japan first took form. UNESCO has now added the Asuka-Fujiwara sites — the location of Japan's early capitals — to its World Cultural Heritage list, making them the country's twenty-seventh World Heritage property. The decision recognizes a landscape where a nation was, in many ways, born.\nWhy are these sites so important? Because it was here, in the Asuka and Fujiwara periods, that Japan began to organize itself as a unified state. Rulers built the country's first permanent, planned capital, introduced systems of law and government influenced by China, and helped Buddhism take deep root. Many features of Japanese culture and governance can be traced back to what happened in this small area so long ago.\nBecoming a World Heritage site brings both honor and responsibility. The recognition celebrates the area's global importance and can attract visitors, supporting the local economy. But it also creates a duty to protect the fragile remains and landscape for future generations, balancing tourism with careful preservation.\nWorld Heritage status matters beyond any single country. The idea behind it is that some places belong, in a sense, to all of humanity — treasures whose value crosses borders. Protecting them is seen as a shared human responsibility, not just a national one.\nThe deeper meaning is about the value of remembering where we come from. A pile of ancient foundations in a rural field may look modest, but it holds the roots of a civilization. Honoring such places reminds a society of its long story, connecting the busy present to a distant past — and reminding us that every modern nation grew, slowly, from beginnings that once seemed small.",
-        summaryJa: "奈良県の静かな田園に、1300年以上前に現代日本の形が初めて形づくられた場所の遺構がある。UNESCOが飛鳥・藤原(日本初期の都の地)を世界文化遺産に登録し、日本27件目の世界遺産となった。国がいわば生まれた景観を認める決定だ。なぜ重要か——飛鳥・藤原の時代にここで日本は統一国家として組織化を始め、初の恒久的計画都市を建て、中国に影響された法・統治の仕組みを導入し、仏教が深く根付いた。日本の文化と統治の多くの特徴が、この小さな地域で起きたことに遡れる。世界遺産化は名誉と責任を伴い、地球規模の重要性を称え観光を呼ぶ一方、脆い遺構と景観を将来へ守り、観光と保存を両立する義務を生む。世界遺産の理念は、ある場所は人類全体に属する国境を越える宝であり、その保護は国だけでなく人類共通の責任だという点にある。自らの起源を覚えておくことの価値——素朴に見える古代の基礎が文明の根を宿す。忙しい現在と遠い過去をつなぎ、どの近代国家も小さく見えた始まりから育ったと思い出させる。",
-        quiz: [
-          { q: "飛鳥・藤原の地が重要な理由は？", options: ["日本が統一国家として組織化を始めた場所だから", "工業地帯だから", "港があったから"], answer: 0 },
-          { q: "世界遺産化がもたらす責任は？", options: ["脆い遺構と景観を将来へ守り観光と保存を両立する", "自由に開発できる", "観光を禁止する"], answer: 0 },
-          { q: "世界遺産の理念とは？", options: ["ある場所は人類全体に属し保護は共通の責任", "国だけのもの", "価値は国境で止まる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0728-5",
-        title: "Reading a Storm Before It Arrives",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "When a typhoon forms over the ocean, one of the most difficult questions is also the most important: where will it go? A newly formed storm may grow into a violent system, yet forecasters can be sharply divided over whether it will strike land or curve harmlessly out to sea. The science of predicting a storm's path is a fascinating mix of physics, data, and honest uncertainty.\nWhy is forecasting so hard? Because a storm is shaped by countless forces at once — ocean temperatures, wind patterns high in the atmosphere, and the positions of other weather systems far away. Small differences in these conditions can send a typhoon in completely different directions. To predict its path, scientists feed enormous amounts of data into powerful computer models that calculate many possible futures. Often these models disagree, which is why forecasters sometimes speak of a range of possibilities rather than a single certain track.\nThis uncertainty is not a weakness; it is honesty. A responsible forecast tells people not just the most likely path, but how confident scientists are, so communities can prepare wisely. Warning people too late costs lives, but crying wolf too often makes them stop listening. Balancing these is a serious challenge.\nForecasting has improved dramatically over the decades. Better satellites, more data, and faster computers now give days of warning where once there were only hours. Countless lives have been saved because people had time to prepare or evacuate. Yet nature remains complex, and perfect prediction may never be possible.\nThe broader lesson is about living wisely with uncertainty. We often want clear, confident answers, but some of the most important questions — about weather, health, or the future — can only be answered in terms of probability. Learning to act sensibly on 'likely' and 'possible,' rather than demanding false certainty, is a vital skill, in science and in life.",
-        summaryJa: "台風が海上で発生すると、最も難しく最も重要な問いが生じる——どこへ進むか。生まれたばかりの storm が猛烈に発達しても、上陸するか海上へ逸れるか予報が大きく割れることがある。進路予測の科学は物理・データ・率直な不確実性の魅力的な混合だ。なぜ難しいか——台風は海水温、上空の風、遠くの他の気象系の位置など無数の力に同時に形づくられ、条件のわずかな差が全く異なる方向へ向かわせる。科学者は膨大なデータを強力な計算モデルに入れ多くの未来を計算するが、モデルは食い違うことが多く、単一の確実な進路でなく可能性の幅で語る。この不確実性は弱さでなく誠実さだ。責任ある予報は最も可能性の高い進路と科学者の確信度を伝え、地域が賢く備えられるようにする。警告が遅れれば命を失い、頻繁すぎれば人は聞かなくなる。予報は衛星・データ・計算機の向上で数十年で劇的に改善し、かつて数時間だった警告が数日になり多くの命が救われた。だが自然は複雑で完全な予測は不可能かもしれない。不確実性と賢く付き合うこと——「likely」「possible」に基づき分別ある行動をとる力は、科学でも人生でも重要な技能だ。",
-        quiz: [
-          { q: "台風の進路予測が難しい理由は？", options: ["海水温・風・他の気象系など無数の力に同時に形づくられるから", "台風が動かないから", "データがないから"], answer: 0 },
-          { q: "予報の不確実性を本文はどう捉える？", options: ["弱さでなく誠実さ", "無能の証拠", "無視すべきもの"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["「likely」「possible」に基づき分別ある行動をとる力が重要", "確実な答えだけを求める", "不確実性は無視する"], answer: 0 }
         ]
       }
     ]
