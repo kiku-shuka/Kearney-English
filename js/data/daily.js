@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-05",
+    passages: [
+      {
+        id: "d0805-1",
+        title: "When Big Spending Worries Investors",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "It might seem strange, but a company can report fast growth and still see its share price fall. This happened recently to several technology firms whose profits or forecasts disappointed investors, even as their businesses expanded. The reason lies in how markets judge a company: not just by what it earns today, but by what people expect it to earn tomorrow.\nMuch of the worry centers on spending. To compete in artificial intelligence, companies are pouring enormous sums into chips, data centers, and electricity. Investors like ambition, but they also ask a hard question: will all this spending eventually produce enough profit to justify it? When the answer is unclear, share prices can drop, even for companies that are growing.\nExpectations matter enormously. If investors expect a company to grow 50 percent and it grows 40 percent, the stock may fall — not because 40 percent is bad, but because it is less than hoped. In the stock market, missing high expectations can hurt as much as poor results.\nThis creates pressure on company leaders. They must invest boldly to stay ahead, yet show that the spending will pay off. Promising too little looks weak; promising too much and falling short disappoints the market.\nFor learners of business English, the lesson is subtle but important. A stock price is not a simple report card of the past. It is a bet on the future — and in the age of expensive AI, investors are watching costs as closely as they watch growth.",
+        summaryJa: "奇妙に思えるかもしれないが、企業は急成長を報告しながら株価が下がることがある。最近、事業を拡大しながらも利益や見通しが投資家を失望させた複数の技術企業に起きた。理由は市場が企業を判断する仕方にある——今日の稼ぎだけでなく、明日いくら稼ぐと人々が期待するかによって判断するのだ。懸念の多くは支出に集まる。AIで競うため、企業はチップ・データセンター・電力に莫大な資金を注ぐ。投資家は野心を好むが、厳しい問いも投げる——この支出はいずれ、それを正当化するだけの利益を生むのか。答えが不明だと、成長中の企業でも株価は下がりうる。期待は極めて重要だ。投資家が50％成長を期待し40％成長なら、株は下がりうる——40％が悪いからでなく、望みより少ないからだ。株式市場では、高い期待に届かないことは、悪い結果と同じくらい痛手になりうる。これは経営者に圧力をかける。先頭を保つため大胆に投資しつつ、その支出が実を結ぶと示さねばならない。約束が小さすぎれば弱く見え、大きすぎて届かなければ市場を失望させる。ビジネス英語の学習者への教訓は微妙だが重要だ。株価は過去の単純な成績表ではない。未来への賭けであり——高価なAIの時代に、投資家は成長と同じくらい費用を注視している。",
+        quiz: [
+          { q: "急成長でも株価が下がりうる理由は？", options: ["投資家は将来の期待で判断し、期待に届かないと下がるから", "成長は常に悪いことだから", "会社が必ず消えるから"], answer: 0 },
+          { q: "投資家がAI支出に投げる厳しい問いは？", options: ["支出は正当化できるだけの利益を生むのか", "なぜ社員がいるのか", "なぜ電気を使うのか"], answer: 0 },
+          { q: "本文が言う株価とは？", options: ["未来への賭け", "過去の単純な成績表", "会社の年齢の記録"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0805-2",
+        title: "A Robot Hand with a Human Touch",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "The human hand is a marvel of engineering. It can grip a hammer, turn a key, and gently pick up an egg without breaking it. For robots, copying this skill has been surprisingly hard. Now a Japanese company has developed a robotic hand able to make highly dexterous movements, bringing machines a step closer to the delicate touch of a person.\nWhy is a good hand so difficult to build? Human hands combine strength with fine control and a rich sense of touch. We adjust our grip without thinking, using tiny signals from our skin to hold objects firmly but gently. A robot must sense pressure, control many small joints at once, and react instantly — all while avoiding crushing or dropping what it holds.\nA truly skillful robotic hand could be useful in many places. In factories, it could assemble small, delicate parts. In warehouses, it could sort objects of different shapes. One day, such hands might help in hospitals or homes, assisting people with everyday tasks that require a careful touch.\nChallenges remain. Dexterous hands are complex and expensive, and they must be safe around people. Teaching a machine to handle the endless variety of real objects is slow, careful work.\nStill, progress in this field is important. As artificial intelligence gives machines better 'brains,' skillful hands give them a way to act in the physical world. Together, they move us toward robots that can not only think, but also do — working carefully alongside us.",
+        summaryJa: "人間の手は工学の驚異だ。ハンマーを握り、鍵を回し、卵を割らずにそっと持ち上げられる。ロボットにとって、この技を真似るのは意外にも難しかった。いま日本の企業が、非常に器用な動きができるロボットハンドを開発し、機械を人の繊細な感触に一歩近づけた。なぜ良い手を作るのが難しいのか。人の手は力と精緻な制御、そして豊かな触覚を兼ね備える。私たちは肌からの小さな信号を使い、物をしっかりだが優しく持つよう、考えずに握りを調整する。ロボットは圧力を感じ、多くの小さな関節を同時に制御し、瞬時に反応せねばならない——しかも持つ物を潰したり落としたりせずに。本当に器用なロボットハンドは多くの場所で役立ちうる。工場では小さく繊細な部品を組み立て、倉庫では形の異なる物を仕分けられる。いつか病院や家庭で、丁寧な感触を要する日常の作業を助けるかもしれない。課題も残る。器用な手は複雑で高価で、人の周りで安全でなければならない。現実の物の無限の多様性を扱うよう機械に教えるのは、遅く慎重な仕事だ。それでもこの分野の進歩は重要だ。AIが機械により良い「頭脳」を与える中、器用な手は物理世界で行動する手段を与える。両者が相まって、考えるだけでなく「行う」ロボット——私たちの傍らで丁寧に働く機械へと近づけていく。",
+        quiz: [
+          { q: "ロボットにとって手の技を真似るのが難しい理由は？", options: ["力・精緻な制御・触覚を同時に必要とするから", "手が大きすぎるから", "電気が要らないから"], answer: 0 },
+          { q: "器用なロボットハンドの用途に含まれるものは？", options: ["繊細な部品の組立や物の仕分け", "空を飛ぶこと", "料理の味付けだけ"], answer: 0 },
+          { q: "AIと器用な手の関係は？", options: ["頭脳と行動する手段が相まって役立つ", "互いに全く無関係", "手が頭脳を不要にする"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0805-3",
+        title: "Europe Tells AI to Introduce Itself",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Imagine chatting online with what you think is a person, only to learn later that it was a computer program. To prevent this kind of confusion, Europe has begun switching on new, continent-wide rules that require artificial intelligence systems to identify themselves to the humans they talk to. In short, an AI must now make clear that it is an AI.\nWhy make such a rule? As AI becomes better at writing and speaking like a person, it grows harder to tell machine from human. That can be used to trick people — for example, to spread false information or to pretend to be a real customer-service worker. Requiring AI to reveal itself helps people know who, or what, they are really dealing with.\nMaking rules for an entire continent is not easy. Europe is made up of many countries, each with its own laws and views. Agreeing on shared rules takes years of discussion and compromise. Yet acting together gives these rules real weight: companies that want to reach millions of European customers must follow them.\nNot everyone agrees on the details. Some worry the rules may slow down useful technology or be hard to enforce. Others say they do not go far enough. Balancing safety and innovation is a genuine challenge.\nStill, the move is significant. It shows how governments are trying to guide a fast-moving technology rather than simply react to it — setting basic expectations, such as honesty, before problems grow too large to manage.",
+        summaryJa: "人だと思ってオンラインでやり取りしていた相手が、実はコンピュータープログラムだったと後で知る——そんな場面を想像してほしい。この種の混乱を防ぐため、欧州はAIが対話する人間に対し自らの正体を明かすよう求める、大陸全体の新しい規則を施行し始めた。要するに、AIは今や自分がAIだと明確にせねばならない。なぜそんな規則を。AIが人のように書き話すのが上手くなるほど、機械と人の区別は難しくなる。それは人をだますのに使われうる——例えば偽情報を広めたり、本物の顧客対応係のふりをしたり。AIに正体を明かさせることは、人が本当に誰・何を相手にしているかを知る助けになる。大陸全体の規則作りは簡単ではない。欧州は多くの国から成り、各国が独自の法や見解を持つ。共有の規則への合意には何年もの議論と妥協が要る。だが共に動けば規則は実質的な重みを持つ——数百万の欧州の顧客に届きたい企業は従わねばならない。細部で全員が一致するわけではない。有用な技術を遅らせる、あるいは執行が難しいと懸念する声、逆に不十分だという声もある。安全と革新の両立は本物の難題だ。それでもこの動きは重要だ。政府が急速に動く技術に、ただ反応するのでなく導こうとしていること——問題が手に負えなくなる前に、誠実さのような基本的な期待を定めることを示している。",
+        quiz: [
+          { q: "欧州の新しい規則がAIに求めることは？", options: ["対話する人間に自らがAIだと明かすこと", "人間のふりをすること", "無料になること"], answer: 0 },
+          { q: "なぜこの規則が必要とされるのか？", options: ["AIが人をだますのに使われうるから", "AIが遅いから", "AIが高価だから"], answer: 0 },
+          { q: "大陸全体で規則を作る難しさは？", options: ["多くの国の合意に議論と妥協が要る", "国が一つしかないこと", "規則が軽くなること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0805-4",
+        title: "Japan's Rising Wages",
+        level: "★★☆",
+        genre: "日本",
+        text: "For many years, wages in Japan barely moved. Prices were stable, and so were paychecks, and workers grew used to salaries that stayed nearly the same. That pattern is now changing. Major Japanese companies have agreed to raise monthly wages by more than five percent for the third year in a row — a notable shift for the country.\nWhy are wages rising now? Several forces are at work. Prices have been climbing, so workers need higher pay just to keep up with the cost of living. At the same time, Japan's shrinking population means fewer young workers, so companies must offer better pay to attract and keep staff. Strong company profits and pressure from the government to share them have also helped.\nWhy does this matter? Wages affect almost everything. When people earn more, they can spend more, which supports shops and businesses. Higher pay can also lift confidence, encouraging workers to make plans and companies to invest. Economists hope that rising wages and prices together can pull Japan out of decades of slow growth.\nThere are risks and questions. If prices rise faster than wages, workers may still feel poorer. Smaller companies may struggle to match the big raises, and the trend must continue for years to truly change habits.\nStill, the change is meaningful. After a long period of standing still, paychecks in Japan are moving again — a small but hopeful sign that the country's economy may be entering a new and more dynamic chapter.",
+        summaryJa: "長年、日本の賃金はほとんど動かなかった。物価が安定し、給与も同様で、労働者はほぼ変わらない賃金に慣れていた。その様相が今、変わりつつある。日本の大企業が3年連続で月給を5％超引き上げることに合意した——この国にとって注目すべき転換だ。なぜ今賃金が上がるのか。いくつかの力が働く。物価が上がり続け、労働者は生活費に追いつくだけでも高い賃金が要る。同時に、人口減少で若い働き手が減り、企業は人材の獲得・定着のためより良い賃金を出さねばならない。企業の好業績と、それを分配せよという政府の圧力も後押しした。なぜ重要か。賃金はほぼ全てに影響する。人々の稼ぎが増えれば支出も増え、店や事業を支える。高い賃金は自信も高め、労働者に計画を、企業に投資を促す。経済学者は、賃金と物価がともに上がることで日本を数十年の低成長から引き出せると期待する。リスクや問いもある。物価が賃金より速く上がれば、労働者はなお貧しく感じうる。大幅な賃上げに追随しにくい中小企業もあり、習慣を本当に変えるには何年も続く必要がある。それでも変化には意味がある。長く止まっていた後、日本の給与は再び動き出した——経済がより力強い新章に入りつつあるかもしれない、小さくも希望のある兆しだ。",
+        quiz: [
+          { q: "日本の賃金が上がっている理由の一つは？", options: ["物価上昇と人口減少による人手確保の必要", "物価が下がったから", "若者が増えすぎたから"], answer: 0 },
+          { q: "賃金上昇が経済に良い理由は？", options: ["人々の支出が増え店や事業を支えるから", "支出が減るから", "企業が倒産するから"], answer: 0 },
+          { q: "本文が挙げるリスクは？", options: ["物価が賃金より速く上がると貧しく感じうる", "賃金が高すぎて困ること", "変化が速すぎること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0805-5",
+        title: "Seeing Deep Beneath the Ground",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "We cannot dig very far into the Earth, yet scientists have just mapped an enormous body of hot, partly melted rock — called magma — lying deep beneath a region of Italy. The reservoir is huge, and understanding it could help experts learn more about the ground we live on. But how do you 'see' something buried kilometers below the surface?\nThe answer is clever: scientists listen to the Earth's own vibrations. The ground is always trembling very slightly, shaken by distant earthquakes, ocean waves, and even human activity. As these waves travel through the planet, they change speed and direction depending on the rock they pass through. Hot, soft magma affects them differently than cold, solid rock.\nBy placing many sensitive instruments across the surface and recording these tiny vibrations, researchers can work backward to picture what lies below — much as a doctor uses sound waves to see inside the body. Powerful computers turn the signals into a three-dimensional map of the hidden reservoir.\nWhy does this matter? Knowing where magma sits, and how much there is, helps scientists understand volcanoes and the slow forces that shape the land. It does not mean an eruption is coming; rather, it is a step toward reading the Earth's deep structure more clearly.\nThe achievement is a reminder of how science extends our senses. With patience and clever tools, we can explore places no one can ever visit — turning the planet's faint whispers into detailed maps of a world hidden beneath our feet.",
+        summaryJa: "私たちは地球を深くは掘れないが、科学者はこのほど、イタリアのある地域の地下深くにある巨大な熱く一部溶けた岩——マグマ——の塊を地図化した。その溜まりは巨大で、理解が進めば私たちの暮らす大地についてより多くを学べる。だが地表の何キロも下に埋もれた物を、どう「見る」のか。答えは巧妙だ——科学者は地球自身の振動に耳を澄ます。大地は常にごくわずかに震えている。遠い地震・海の波・人間の活動にさえ揺らされて。これらの波が地球を進むとき、通る岩によって速さと向きを変える。熱く柔らかいマグマは、冷たく固い岩とは異なる影響を与える。多くの高感度の機器を地表に並べ、この小さな振動を記録することで、研究者は下に何があるかを逆算して描ける——医師が音波で体内を見るように。強力なコンピューターが信号を、隠れた溜まりの三次元地図に変える。なぜ重要か。マグマがどこにどれだけあるかを知ることは、火山や大地を形づくる緩やかな力の理解を助ける。噴火が来るという意味ではない。むしろ地球の深部構造をより明瞭に読む一歩だ。この成果は、科学が私たちの感覚を拡張することを思い出させる。忍耐と巧妙な道具で、誰も決して訪れられない場所を探れる——地球のかすかなささやきを、足下に隠れた世界の詳細な地図に変えて。",
+        quiz: [
+          { q: "科学者が地下のマグマを「見る」ために使うものは？", options: ["地球の微小な振動（地震波など）", "巨大なドリル", "強い光"], answer: 0 },
+          { q: "熱く柔らかいマグマが波に与える影響は？", options: ["冷たく固い岩とは異なる", "全く影響しない", "波を消してしまう"], answer: 0 },
+          { q: "この地図化が意味することは？", options: ["地球の深部構造をより明瞭に読む一歩", "噴火が確実に来ること", "地球が空洞であること"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-04",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "原子力が再注目される主な理由は？", options: ["AIとデータセンターの膨大な電力需要", "石油が安いから", "原子力が新発明だから"], answer: 0 },
           { q: "原子力が持つ利点は？", options: ["低炭素で昼夜・天候を問わず発電できる", "廃棄物が出ない", "建設が一瞬で終わる"], answer: 0 },
           { q: "本文が挙げる課題は？", options: ["高コスト・安全性・放射性廃棄物への不安", "電気を作れないこと", "二酸化炭素を大量に出すこと"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-07-29",
-    passages: [
-      {
-        id: "d0729-1",
-        title: "How AI Companies Charge for Their Services",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "When you buy electricity, you pay for how much you use. Artificial intelligence services work in a surprisingly similar way. Instead of a simple flat fee, most AI companies bill their customers based on 'tokens' — small units of text that measure how much work the AI does. Understanding this billing model reveals a lot about how the new AI economy operates.\nWhat is a token? Roughly speaking, a token is a piece of a word — a few characters of text. When you send a question to an AI and it sends an answer back, the system counts the tokens in both the question and the reply. The more text involved, the more tokens are used, and the more the customer pays. A short question costs little; a long document costs much more.\nWhy do companies charge this way? Because it closely matches their real costs. Running these AI systems requires huge amounts of computing power and electricity, and that cost rises with the amount of text processed. By billing per token, companies charge more when a customer uses more, which is fair and predictable, much like a utility bill.\nThis model shapes how businesses use AI. A company building products on top of AI must think carefully about how many tokens each task consumes, because costs can add up quickly at large scale. Some redesign their systems to use fewer tokens, keeping bills manageable — a new kind of efficiency that did not exist a few years ago.\nThe broader lesson is that how a product is priced shapes how it is used. Just as pay-per-use pricing makes people mindful of electricity, token-based billing makes companies mindful of how they use AI. As new technologies create new business models, understanding how they charge is often the key to understanding the whole industry.",
-        summaryJa: "電気は使った量に応じて払う。AIサービスも驚くほど似ていて、多くのAI企業は定額でなく「トークン」——AIの仕事量を測る小さな文章単位——で課金する。この課金モデルは新しいAI経済の仕組みをよく表す。トークンとはおおむね単語の一部(数文字)で、質問と回答の両方のトークンが数えられ、扱う文章が多いほどトークンが増え支払いも増える。短い質問は安く、長い文書は高い。なぜこう課金するのか——実際のコストによく合うからだ。AI稼働には膨大な計算力と電力が要り、処理する文章量とともに増える。トークン課金は使うほど多く払う公平で予測可能な方式で、公共料金に似る。この方式は企業のAI利用を形づくり、AI上に製品を作る企業は各作業のトークン消費を慎重に考え、大規模ではコストが急増するため、少ないトークンで済むよう設計し直す新しい効率も生まれた。価格の付け方が使い方を形づくる——従量課金が電気を意識させるように、トークン課金はAI利用を意識させる。課金の仕組みの理解が産業全体の理解の鍵だ。",
-        quiz: [
-          { q: "多くのAI企業の課金方式は？", options: ["トークン(文章単位)に基づく従量課金", "完全な定額", "無料"], answer: 0 },
-          { q: "この方式が使われる理由は？", options: ["計算力・電力の実際のコストによく合うから", "計算が簡単だから", "顧客が喜ぶから"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["価格の付け方が使い方を形づくる", "価格は無関係", "AIは無料であるべき"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0729-2",
-        title: "The Helpers That Keep Us Healthy",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Inside the body, health often depends on tiny helpers working quietly behind the scenes. New research into diabetes has revealed one such example: the cells that produce insulin, the hormone that controls blood sugar, rely on 'helper proteins' to do their job. When one key partner was missing, damaged proteins built up inside the cells, and they made less insulin. The discovery may point toward new ways to treat a disease affecting hundreds of millions.\nWhy does this matter? Because insulin is essential for turning food into energy. In diabetes, the body either cannot make enough insulin or cannot use it well, causing blood sugar to rise to dangerous levels. Understanding exactly why insulin-producing cells fail is a crucial step toward helping them work again.\nThe new research highlights the role of the helper proteins. Inside every cell, proteins must be folded into the right shapes to work, and helper proteins assist in this delicate process. When a key helper is missing, misshapen and damaged proteins pile up, stressing the cell and reducing its ability to make insulin. In other words, the problem is not only in the insulin itself, but in the support system that keeps the cells healthy.\nThis kind of discovery could open new paths for treatment. If scientists can protect or strengthen these helper systems, they might keep insulin-producing cells working longer, slowing or preventing some forms of diabetes.\nThe deeper lesson reaches beyond medicine. In the body, as in any complex system, the visible star — here, insulin — depends on a hidden network of support. Problems often arise not in the obvious place, but in the quiet helpers we overlook. Understanding the whole system, not just its most famous part, is often where real solutions are found.",
-        summaryJa: "体内では、健康はしばしば陰で静かに働く小さな助っ人に依存する。糖尿病の新研究がその一例を明かした——血糖を制御するホルモン「インスリン」を作る細胞は、仕事をこなすのに「ヘルパータンパク質」に頼る。鍵となる相棒が欠けると、傷んだタンパク質が細胞内に蓄積し、インスリンの産生が減る。数億人を苦しめる病の新治療への手がかりになりうる。なぜ重要か——インスリンは食物をエネルギーに変えるのに不可欠で、糖尿病では十分作れないか使えず血糖が危険な水準に上がる。細胞が機能不全になる理由の理解が、再び働かせる重要な一歩だ。細胞内でタンパク質は正しい形に折りたたまれて働き、ヘルパーがその繊細な過程を助ける。鍵のヘルパーが欠けると、いびつで傷んだタンパク質がたまり細胞を疲弊させインスリン産生を落とす。問題はインスリン自体でなく、細胞を健康に保つ支援系にある。この系を守り強められれば、細胞を長く働かせ一部の糖尿病を遅らせ防げるかもしれない。目立つ主役(インスリン)は見えない支援網に依存する——見過ごされがちな静かな助っ人に問題は生じる。全体系の理解こそ解決の場だ。",
-        quiz: [
-          { q: "インスリンを作る細胞が頼るものは？", options: ["ヘルパータンパク質", "太陽光", "砂糖"], answer: 0 },
-          { q: "鍵のヘルパーが欠けると起きることは？", options: ["傷んだタンパク質がたまりインスリン産生が減る", "細胞が増える", "何も起きない"], answer: 0 },
-          { q: "本文の深い教訓は？", options: ["目立つ主役は見えない支援網に依存する", "主役だけ見ればよい", "助っ人は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0729-3",
-        title: "When Heat and Fire Force People to Flee",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "As summer temperatures rise across the northern hemisphere, extreme heat and wildfires are forcing communities to make hard, sudden decisions. In France, authorities recently ordered nearly four thousand people to evacuate tourist areas along the Atlantic coast, as returning heat threatened firefighters' efforts to control a large wildfire. Scenes like this are becoming a regular feature of hot summers around the world.\nWhy do heat and fire go together so dangerously? High temperatures dry out forests, grass, and soil, turning the landscape into fuel. A single spark — from lightning, a machine, or human carelessness — can then start a fire that spreads with frightening speed, especially in strong wind. Once a large wildfire begins, controlling it is extremely difficult, and protecting people becomes the first priority.\nEvacuation is a powerful but difficult tool. Moving thousands of people quickly saves lives, but it also disrupts communities, empties businesses, and can cause panic if not managed well. Officials must decide when the danger is serious enough to order people to leave, balancing safety against the cost and stress of evacuation. Acting too late risks lives; acting too early wastes resources and trust.\nPreparation makes a huge difference. Regions that plan ahead — clearing dry brush, building firebreaks, training firefighters, and creating clear evacuation routes — suffer far less than those caught unprepared. As hot, dry summers grow more common, this kind of readiness is becoming an essential part of public safety.\nThe broader lesson is about living with a changing climate. We cannot prevent every heatwave or fire, but we can prepare for them — reducing risk in advance and responding quickly when danger comes. In a warming world, the difference between disaster and safety often lies in how well a society prepares before the worst arrives.",
-        summaryJa: "北半球で夏の気温が上がる中、猛暑と山火事が地域に急な難しい決断を迫っている。フランスでは、戻ってきた暑さが大規模山火事の制圧を脅かし、当局が大西洋岸の観光地の約4,000人に避難を命じた。こうした光景は世界の暑い夏で常態になりつつある。なぜ暑さと火は危険に結びつくのか——高温が森・草・土を乾かし景観を燃料に変える。雷・機械・人の不注意の一つの火花が、特に強風下で恐ろしい速さで広がる火事を起こしうる。大規模化すると制御は極めて難しく、人命保護が最優先になる。避難は強力だが難しい手段で、迅速な移動は命を救うが地域を混乱させ、うまく管理しないとパニックを招く。当局はいつ避難を命じるか、安全と避難のコスト・ストレスを天秤にかける。遅すぎれば命を、早すぎれば資源と信頼を失う。備えが大きな差を生む——枯れ枝除去・防火帯・消防訓練・明確な避難路を planする地域は被害が遥かに小さい。暑く乾いた夏が増える中、この備えは公共安全の要になる。変わる気候と生きる——すべての熱波や火事は防げなくても備えられる。事前のリスク低減と迅速な対応の差が、災害と安全を分ける。",
-        quiz: [
-          { q: "フランスで避難が命じられた理由は？", options: ["暑さが大規模山火事の制圧を脅かしたから", "地震が起きたから", "洪水が来たから"], answer: 0 },
-          { q: "避難という手段の難しさは？", options: ["命を救うが地域を混乱させ、判断のタイミングが難しい", "常に簡単", "効果がない"], answer: 0 },
-          { q: "本文が強調することは？", options: ["事前の備えが災害と安全を分ける", "備えは無意味", "火事は防げない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0729-4",
-        title: "Reading Time in the Ocean's Currents",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Deep in the Atlantic Ocean flows a vast, slow-moving system of currents that quietly shapes weather across much of the world. New research suggests that if this system weakens, it could dramatically change rainfall patterns — bringing much stronger storms, known as atmospheric rivers, to places like California, while leaving other regions, such as Greenland, with fewer snow-producing storms. It is a striking reminder of how connected the planet's climate really is.\nWhat is this ocean system? It is a giant loop of currents that carries warm water from the tropics toward the poles and cold water back again, moving heat around the globe like a slow conveyor belt. This flow helps determine where rain falls, how warm different regions are, and how storms form. When such a powerful system changes, the effects can reach thousands of kilometers away.\nAn 'atmospheric river' is a long, narrow band of moist air that carries enormous amounts of water across the sky, sometimes releasing it as intense rain or snow. These events can bring vital water to dry regions — or dangerous floods, depending on their strength. The new research suggests that changes in the ocean could make these events more extreme in some places.\nWhy does this matter? Because societies plan around familiar weather patterns. Cities build their water systems, farms plant their crops, and governments prepare for floods based on what they expect. If ocean changes shift these patterns, communities may face storms and droughts they are not prepared for.\nThe deeper wonder is how deeply the parts of our planet are connected. A change in ocean currents can alter the rain over a distant coast and the snow on a far-off island. Understanding these hidden links helps scientists warn us of what may come — and reminds us that Earth is not a collection of separate places, but a single, interconnected system.",
-        summaryJa: "大西洋の深部に、世界の広範な天候を静かに形づくる巨大でゆっくりした海流系が流れている。新研究は、この系が弱まると降雨パターンが劇的に変わりうると示す——カリフォルニアのような地域に「大気の川」と呼ばれる遥かに強い storm をもたらし、グリーンランドなど他地域では雪をもたらす storm が減る。地球の気候がいかに連関しているかを鮮やかに思い出させる。この海流系は熱帯の暖水を極へ、冷水を戻す巨大なループで、遅いコンベアのように熱を地球中に運ぶ。この流れが雨の降る場所・各地の暖かさ・storm の形成を左右し、強力な系が変わると影響は数千キロ先まで及ぶ。「大気の川」は膨大な水分を運ぶ細長い帯で、乾いた地域に貴重な水を、あるいは危険な洪水をもたらす。海の変化がこれらを一部地域で極端にしうる。なぜ重要か——社会は馴染みの天候を前提に、水道・作付け・防災を計画する。パターンが変われば、備えのない storm や干ばつに直面しうる。惑星の各部の深い連関——海流の変化が遠い海岸の雨や遠い島の雪を変える。この隠れたつながりの理解が来るものを警告し、地球が別々の場所の集まりでなく一つの連関系だと思い出させる。",
-        quiz: [
-          { q: "海流系が弱まると起きうることは？", options: ["降雨パターンが変わり一部地域で storm が極端になる", "海が消える", "気候は変わらない"], answer: 0 },
-          { q: "「大気の川」とは？", options: ["膨大な水分を運ぶ細長い空の帯", "海底の川", "地下水路"], answer: 0 },
-          { q: "本文の深い驚きは？", options: ["地球は別々でなく一つの連関系である", "各地は無関係", "海は天候と無関係"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0729-5",
-        title: "Putting a Date on Ancient Art",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "In a cave in France called Font-de-Gaume, ancient people painted animals on stone walls long before writing existed. For years, one question was hard to answer: exactly how old are these paintings? Now scientists have found a clever way to date them precisely, by discovering tiny bits of charcoal hidden inside the black pigment — charcoal that can be measured using a method called radiocarbon dating.\nWhy was dating cave art so difficult? Because many ancient paintings were made with mineral pigments, which contain no material that scientists can date directly. Without a way to measure age, researchers could only guess, based on the style of the images or their surroundings. Guesses are useful, but they can be wrong by thousands of years.\nRadiocarbon dating solves this by measuring carbon. All living things absorb a special form of carbon while alive, and after they die, this carbon slowly and steadily breaks down over thousands of years. By measuring how much remains, scientists can calculate how long ago something lived. Charcoal — made from burnt wood — contains this carbon, so finding charcoal inside the black paint gives researchers something they can actually date.\nThis discovery matters because knowing the true age of ancient art changes our understanding of history. It tells us when people lived in a place, how their art developed, and how early humans thought and created. A precise date turns a mysterious image into a fixed point in the human story.\nThe broader lesson is about the power of careful observation. The answer to an old question was hidden in plain sight — tiny flecks of charcoal within the paint. Great discoveries often come not from looking somewhere new, but from looking more closely at what was there all along. In science, patience and attention can turn an ancient mystery into knowledge.",
-        summaryJa: "フランスのフォン・ド・ゴーム洞窟で、古代の人々は文字が生まれる遥か前に石壁に動物を描いた。長年難しかったのは「正確に何歳か」だ。科学者は巧妙な年代測定法を見つけた——黒い顔料の中に隠れた微小な炭(木炭)を発見し、放射性炭素年代測定で測れるのだ。なぜ洞窟壁画の年代測定は難しかったか——多くは鉱物顔料で描かれ、直接年代測定できる material を含まないからだ。測る術がなく、絵の様式や周囲から推測するしかなく、推測は数千年ずれうる。放射性炭素年代測定は炭素を測る。生物は生きている間に特殊な炭素を取り込み、死後、数千年かけてゆっくり一定して壊れる。残量を測れば、いつ生きていたか計算できる。焼いた木からできる木炭はこの炭素を含むため、黒い塗料の中に木炭を見つければ実際に年代測定できる。古代美術の真の年代を知ることは歴史理解を変える——人がいつそこに住み、美術がどう発展し、初期人類がどう考え創ったかを教える。正確な年代が、謎の絵を人類の物語の定点に変える。丁寧な観察の力——古い問いの答えは塗料の中の微小な炭という「見えていた場所」に隠れていた。偉大な発見は新しい場所でなく、ずっとそこにあったものをより注意深く見ることから来る。忍耐と注意が古代の謎を知識に変える。",
-        quiz: [
-          { q: "洞窟壁画を年代測定できた鍵は？", options: ["黒い顔料の中の木炭を発見したこと", "絵の署名", "壁の色"], answer: 0 },
-          { q: "放射性炭素年代測定の原理は？", options: ["死後ゆっくり壊れる炭素の残量から年代を計算する", "色の濃さを測る", "重さを量る"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["ずっとそこにあったものを注意深く見ることが発見を生む", "新しい場所だけを探すべき", "観察は無意味"], answer: 0 }
         ]
       }
     ]
