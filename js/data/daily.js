@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-06",
+    passages: [
+      {
+        id: "d0806-1",
+        title: "Why Used Phones Are Booming",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "New smartphones grab the headlines, but a quieter market is growing fast: used phones. In Japan, sales of secondhand smartphones have risen for seven years in a row, recently reaching record numbers. More and more people are choosing a pre-owned device instead of the latest expensive model — and this shift says a lot about how shoppers think today.\nWhy are used phones so popular? The most obvious reason is price. A gently used phone can cost far less than a new one, while still working well. As new models grow more expensive, many buyers decide that last year's phone is more than good enough for their needs.\nThere are other reasons too. Modern phones last longer than they used to, so a two- or three-year-old device still runs smoothly. Some buyers also like the idea of reusing a product instead of throwing it away, which reduces waste and is kinder to the environment.\nThe trend has created a real business. Shops and websites now specialize in checking, cleaning, and reselling used phones, offering warranties to reassure buyers. This turns what was once simply 'old' into a valuable product.\nThe wider lesson is about changing values. For years, newer always meant better. Now, many customers care about price, longer use, and sustainability. In markets from phones to cars to clothing, the growing appetite for secondhand goods shows that 'used' is losing its old stigma — and becoming, for many, a smart and responsible choice.",
+        summaryJa: "新品スマホは見出しをさらうが、より静かな市場が急成長している——中古スマホだ。日本では中古スマホの販売が7年連続で伸び、近年は過去最高の台数に達した。最新の高価なモデルでなく中古端末を選ぶ人が増えており、この変化は今日の買い物客の考え方を多く物語る。なぜ中古が人気か。最も明白な理由は価格だ。丁寧に使われた端末は新品よりずっと安く、なお十分に動く。新モデルが高価になるほど、多くの買い手は昨年の機種が自分の用途には十分すぎると判断する。他の理由もある。現代のスマホは以前より長持ちし、2〜3年前の端末でも滑らかに動く。捨てる代わりに製品を再利用する発想を好む買い手もいる——無駄が減り環境に優しい。この流れは本物の商売を生んだ。店やサイトが中古スマホの点検・清掃・再販を専門にし、買い手を安心させる保証を付ける。かつて単に「古い」だった物を、価値ある製品に変える。より広い教訓は価値観の変化だ。長年、新しいほど良いとされた。今や多くの客が価格・長い使用・持続可能性を大切にする。スマホから車、衣類まで、中古品への高まる需要は、「中古」が古い負のイメージを失い、多くの人にとって賢く責任ある選択になりつつあることを示している。",
+        quiz: [
+          { q: "中古スマホが人気の最も明白な理由は？", options: ["価格が新品よりずっと安いこと", "色が豊富なこと", "電池が要らないこと"], answer: 0 },
+          { q: "本文が挙げる他の理由に含まれるものは？", options: ["現代のスマホは長持ちし再利用は環境に優しい", "古いほど速いから", "中古は必ず壊れるから"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["「中古」が負のイメージを失い賢い選択になりつつある", "新しいほど常に良い", "中古は価値がない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0806-2",
+        title: "Computing with Light",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Almost all of today's computers work by moving electricity through tiny wires and switches. But electricity has limits: it produces heat and can only move so fast. Scientists have long dreamed of computing with light instead, and a new tiny chip brings that dream closer. The chip can generate, steer, and read light-based information all in one device.\nWhy use light? Light travels extremely fast and, unlike electricity, produces very little heat as it moves. A computer that carries information as light could, in theory, be faster and far more energy-efficient than today's machines. As data centers use more and more electricity, saving energy has become a serious goal.\nThe hard part has been putting everything on one small chip. In the past, creating light, guiding it, and measuring it often required separate, bulky equipment. Combining all three jobs in a single device is a major step toward practical light-based computers.\nThere is still a long road ahead. This kind of technology is complex and expensive to make, and it must prove itself reliable enough for everyday machines. It may first appear in specialized systems before ever reaching ordinary computers.\nStill, the direction is exciting. For decades, progress in computing has come mainly from making electronic parts smaller. Light offers a different path forward. If these chips can be built at scale, they could help power a future of faster, cooler, and more efficient computing — using the oldest and fastest messenger we know: light itself.",
+        summaryJa: "今日のほぼ全てのコンピューターは、微小な配線とスイッチに電気を流して動く。だが電気には限界がある——熱を生み、速さにも上限がある。科学者は長く、代わりに光で計算する夢を抱いてきた。新しい小さなチップがその夢を近づける。このチップは、光による情報を生成・操作・読み取りする働きを、一つの装置に収める。なぜ光か。光は極めて速く進み、電気と違い動く際にほとんど熱を生まない。情報を光として運ぶコンピューターは、理論上、今日の機械より速く、はるかに省エネになりうる。データセンターがますます電力を使う中、省エネは重大な目標になった。難しかったのは全てを一つの小さなチップに載せることだ。かつては光を作り・導き・測るのに、しばしば別々でかさばる機器が要った。三つの仕事を一つの装置にまとめるのは、実用的な光コンピューターへの大きな一歩だ。前途はなお長い。この種の技術は複雑で製造が高価で、日常の機械に十分な信頼性を証明せねばならない。普通のコンピューターに届く前に、まず専用システムに現れるかもしれない。それでも方向は心躍る。数十年、計算の進歩は主に電子部品を小さくすることで来た。光は別の前進の道を示す。こうしたチップを大規模に作れれば、より速く・涼しく・効率的な計算の未来を支えうる——私たちが知る最古で最速の使者、光そのものを使って。",
+        quiz: [
+          { q: "光で計算する利点は？", options: ["速く進み熱をほとんど生まない", "色が美しいこと", "電気より重いこと"], answer: 0 },
+          { q: "これまで難しかったことは？", options: ["光の生成・誘導・測定を一つのチップに載せること", "光を作ること自体", "電気を消すこと"], answer: 0 },
+          { q: "省エネが重大な目標になった背景は？", options: ["データセンターがますます電力を使うから", "光が高価だから", "電気が無料だから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0806-3",
+        title: "Sharing a Narrow Sea Lane",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Some places on the map are small but hugely important. The Strait of Hormuz, a narrow stretch of sea between the Persian Gulf and the open ocean, is one of them. A large share of the world's oil passes through this slim channel by ship. Recently, two countries that share its waters agreed on the exact coordinates for a shipping corridor — a quiet but meaningful step toward keeping this vital route running smoothly.\nWhy does a narrow strait matter so much? Because it is a chokepoint: a place where a great deal of traffic must squeeze through a small space. If ships cannot pass safely, oil and goods may be delayed, and prices around the world can rise. Countries far from the region feel the effects at gas stations and in shops.\nAgreeing on a shipping corridor helps in several ways. Clear, shared lines on the map tell captains exactly where to sail, reducing confusion and the risk of accidents or disputes. It also signals that neighboring countries can cooperate on practical matters, even when broader relations are tense.\nSuch agreements are not always easy. Waters can be contested, and trust may be limited. Small technical deals, however, can build habits of working together that make bigger problems easier to manage.\nThe lesson reaches beyond one strait. In a connected world, the smooth flow of ships, energy, and goods depends on quiet cooperation — often over places most people never see, yet rely on every single day.",
+        summaryJa: "地図上のある場所は、小さくとも極めて重要だ。ペルシャ湾と外洋を結ぶ狭い海峡、ホルムズ海峡はその一つ。世界の石油の大きな割合が、この細い水路を船で通る。最近、その海域を共有する二国が、船舶用航路の正確な座標に合意した——この重要な経路を円滑に保つための、静かだが意味ある一歩だ。なぜ狭い海峡がそれほど重要か。そこが「チョークポイント（隘路）」だからだ——大量の交通が小さな空間を通り抜けねばならない場所。船が安全に通れなければ、石油や物資が遅れ、世界中で価格が上がりうる。地域から遠い国々も、ガソリンスタンドや店でその影響を感じる。航路への合意は複数の点で役立つ。地図上の明確で共有された線が、船長にどこを進むべきか正確に伝え、混乱や事故・紛争のリスクを減らす。より広い関係が緊張していても、隣国が実務的な事柄で協力できることも示す。こうした合意は常に容易ではない。海域は争われることがあり、信頼は限られうる。だが小さな技術的取り決めは、共に働く習慣を築き、より大きな問題を扱いやすくする。教訓は一つの海峡を超える。つながった世界で、船・エネルギー・物資の円滑な流れは静かな協力に支えられる——多くの人が決して見ないが、毎日頼っている場所を巡って。",
+        quiz: [
+          { q: "ホルムズ海峡が重要な理由は？", options: ["世界の石油の大きな割合が船で通る隘路だから", "観光地だから", "魚が多いから"], answer: 0 },
+          { q: "航路の座標に合意する利点は？", options: ["船長にどこを進むべきか伝え事故や紛争のリスクを減らす", "船を全て止めること", "海を広げること"], answer: 0 },
+          { q: "本文の教訓は？", options: ["物資の円滑な流れは静かな協力に支えられる", "協力は不要だ", "狭い場所は重要でない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0806-4",
+        title: "A Country That Attracts Global Investors",
+        level: "★★☆",
+        genre: "日本",
+        text: "When a large fund from one country decides to invest billions of dollars in another, it is a sign of confidence. Recently, an investment fund from the Middle East was reported to be considering a huge investment — several billion dollars — in building AI data centers in Japan. Such news says something important: global investors increasingly see Japan as an attractive place to put their money.\nWhy Japan, and why now? For one, Japan is stable, with reliable laws, skilled workers, and strong technology. As demand for artificial intelligence grows, the world needs many new data centers — the large buildings full of computers that make AI possible. Japan offers a safe and capable place to build them.\nForeign investment can bring real benefits. It creates jobs, brings in new technology, and helps build infrastructure that local companies can also use. When outsiders invest, they are betting that a country's economy will grow, which can encourage others to invest too.\nThere are things to watch, however. Data centers use large amounts of electricity and water, so they must be planned carefully. And a country wants investment that helps its people over the long term, not just quick projects that leave little behind.\nStill, the interest is a hopeful sign. After years in which Japan was sometimes overlooked by global investors, big international money is looking its way again. For an economy working to grow, being seen as a smart place to invest is welcome news indeed.",
+        summaryJa: "ある国の大きなファンドが別の国に数十億ドルを投じると決めるのは、信頼の証だ。最近、中東の投資ファンドが、日本でのAIデータセンター建設に数十億ドルという巨額の投資を検討していると報じられた。この知らせは重要なことを物語る——世界の投資家がますます日本を、資金を置く魅力的な場所と見ているのだ。なぜ日本で、なぜ今か。一つに、日本は安定し、信頼できる法・熟練した労働者・強い技術を持つ。AIの需要が高まる中、世界は多くの新しいデータセンター——AIを可能にするコンピューターで満ちた大きな建物——を必要とする。日本はそれを建てる安全で有能な場所を提供する。外国投資は現実の利益をもたらしうる。雇用を生み、新技術を持ち込み、地元企業も使えるインフラの構築を助ける。外部者が投資するのは、その国の経済が成長すると賭けることであり、他の投資家も促しうる。だが注意すべき点もある。データセンターは大量の電力と水を使うので、慎重な計画が要る。国は、後にほとんど残さない手早い事業でなく、長期的に人々の役に立つ投資を望む。それでもこの関心は希望ある兆しだ。日本が時に世界の投資家に見過ごされた年月の後、大きな国際資金が再び日本へ目を向けている。成長しようと努める経済にとって、賢い投資先と見られることは、まさに歓迎すべき知らせだ。",
+        quiz: [
+          { q: "中東のファンドが日本で検討している投資は？", options: ["AIデータセンターの建設", "農場の購入", "鉄道の運営"], answer: 0 },
+          { q: "投資家が日本を選ぶ理由に含まれるものは？", options: ["安定した法・熟練労働者・強い技術", "税金がないこと", "土地が無料なこと"], answer: 0 },
+          { q: "外国投資で注意すべき点は？", options: ["データセンターは電力と水を多く使い慎重な計画が要る", "雇用が減ること", "技術が失われること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0806-5",
+        title: "A Spacecraft Slingshots Past Mars",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Traveling through space takes an enormous amount of energy, so engineers use a clever trick to save fuel: they borrow a push from a planet's gravity. Recently, a NASA spacecraft on a long journey flew close to Mars, using the planet's pull to gain speed and adjust its path — a maneuver known as a 'gravity assist.'\nHow does it work? As the spacecraft passes a planet, the planet's gravity grabs it and flings it forward, like a stone swung on a string and then released. The spacecraft speeds up and changes direction without burning much fuel. The planet loses a tiny, unnoticeable amount of motion in exchange. It is a beautiful example of using nature's forces to travel farther for less.\nThis particular spacecraft is heading toward a distant, metal-rich asteroid, which it is due to reach several years from now. During the Mars flyby, the team also tested the craft's cameras and instruments, making sure everything works well before the main event.\nWhy explore a metal asteroid? Scientists believe it may be similar to the core of a planet like Earth — a place we can never dig down to see. Studying it could teach us how planets, including our own, were built long ago.\nThe flyby is a reminder of how patient and clever space travel can be. By using gravity as a free engine and testing carefully along the way, engineers guide small machines across vast distances — turning the whole solar system into a road toward discovery.",
+        summaryJa: "宇宙を旅するには莫大なエネルギーが要るため、技術者は燃料を節約する巧妙な技を使う——惑星の重力から「一押し」を借りるのだ。最近、長い旅の途中のNASAの探査機が火星に接近し、その引力を使って速度を得て進路を調整した——「スイングバイ（重力アシスト）」と呼ばれる操作だ。仕組みは。探査機が惑星のそばを通ると、惑星の重力がそれを掴み前方へ放り出す——ひもで振って放つ石のように。探査機は燃料をあまり燃やさず加速し向きを変える。惑星は代わりにごくわずかで気づかない運動を失う。自然の力を使い、より少ない代償で遠くへ旅する美しい例だ。この探査機は、金属に富む遠い小惑星へ向かっており、数年後に到達予定だ。火星接近の間、チームは本番前に探査機のカメラや観測機器も試し、全てが正常に働くか確認した。なぜ金属の小惑星を探るのか。科学者は、それが地球のような惑星の核に似ているかもしれないと考える——私たちが決して掘り下げて見られない場所だ。それを研究すれば、地球を含む惑星が大昔にどう作られたかを学べる。この接近は、宇宙の旅がいかに忍耐強く巧妙でありうるかを思い出させる。重力を無料のエンジンとして使い、道中で慎重に試験することで、技術者は小さな機械を広大な距離の先へ導く——太陽系全体を、発見への道に変えて。",
+        quiz: [
+          { q: "「スイングバイ（重力アシスト）」とは？", options: ["惑星の重力を使って加速し進路を変えること", "惑星に着陸すること", "燃料を大量に燃やすこと"], answer: 0 },
+          { q: "この探査機が向かっている先は？", options: ["金属に富む遠い小惑星", "太陽", "月"], answer: 0 },
+          { q: "金属の小惑星を探る理由は？", options: ["惑星の核に似て惑星の成り立ちを学べるから", "金を採るため", "燃料を得るため"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-05",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "チップ工場が地震に弱い理由は？", options: ["わずかな振動でも繊細な製品を台無しにするから", "工場が小さいから", "電気を使わないから"], answer: 0 },
           { q: "本文が挙げる防御に含まれるものは？", options: ["建物を支承やダンパーに載せ揺れを抑える", "地震を止める", "工場を海に浮かべる"], answer: 0 },
           { q: "本文の広い教訓は？", options: ["回復力を後付けでなく設計に組み込むこと", "災害は無視できる", "工場は不要だ"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-07-30",
-    passages: [
-      {
-        id: "d0730-1",
-        title: "Paying for Computing Power",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Building modern artificial intelligence takes an enormous amount of computing power, and that power is expensive. To train and run their systems, technology companies need thousands of specialized computer chips, huge buildings full of machines called data centers, and a great deal of electricity. Recently, several large firms have signed deals worth billions of dollars to lock in this capacity for years to come.\nWhy spend so much? Because in the AI business, computing power has become a key resource, much like oil or steel in older industries. A company that cannot get enough chips or electricity simply cannot compete. By reserving capacity early, firms protect themselves against shortages and rising prices.\nThis has created a booming market. Chip makers, electricity providers, and even satellite operators are all racing to sell their services to AI companies. Some investors are putting money into nuclear energy and new power lines, betting that demand for electricity will keep climbing.\nThere are risks, too. If a company spends heavily on computing power but its products do not sell well, it could lose a great deal of money. And using so much electricity raises questions about cost and the environment.\nStill, the pattern is clear. In today's economy, the ability to buy and manage computing power has become a serious business decision — one that can decide which companies lead the AI age and which fall behind.",
-        summaryJa: "現代のAI構築には膨大な計算能力が必要で、それは高価だ。企業は数千個の専用チップ、データセンター、大量の電力を要し、近年は数十億ドル規模の契約で数年分の能力を確保している。AIビジネスでは計算能力が石油や鉄のような重要資源となり、チップや電力を十分得られない企業は競争できない。早期の確保は不足や価格上昇への備えになる。チップメーカー・電力会社・衛星事業者がAI企業への販売を競い、原子力や送電網に投資する動きもある。一方、大金を投じても製品が売れなければ大損しうるし、大量の電力は費用と環境の問題も生む。それでも計算能力を買い、管理する力は、AI時代の勝者を左右する重大な経営判断になっている。",
-        quiz: [
-          { q: "AI構築に大量に必要なものは？", options: ["計算能力（チップ・データセンター・電力）", "紙とペン", "広い駐車場"], answer: 0 },
-          { q: "企業が早くから能力を確保する理由は？", options: ["不足や価格上昇に備えるため", "電気が嫌いだから", "チップが安いから"], answer: 0 },
-          { q: "本文が挙げるリスクは？", options: ["製品が売れなければ大損しうる", "計算は無料である", "電力は無限にある"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0730-2",
-        title: "When AI Helps Design Computer Chips",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Designing a computer chip is one of the hardest jobs in technology. A single chip can hold billions of tiny parts, all of which must be placed and connected perfectly. This work usually takes teams of skilled engineers many months. Now, a new idea is gaining attention: using artificial intelligence to help design the very chips that AI runs on.\nThe concept is a kind of loop. Powerful chips make AI systems smarter, and smarter AI can, in turn, help design better chips. Recently a young company that builds such 'AI design assistants' raised sixty million dollars to grow its technology. The tools can suggest layouts, find mistakes, and test ideas far faster than people working alone.\nSupporters say this could speed up progress in electronics and lower costs. If AI handles the slow, repetitive parts of design, human engineers can focus on the creative and difficult decisions. Chips might reach the market sooner and use less energy.\nOthers urge caution. Chip design is complex, and a small error can ruin an expensive product. AI tools still make mistakes, so human experts must check their work carefully. There are also worries about which countries and companies will control this powerful technology.\nWhatever the outcome, the direction is striking. Machines are beginning to help build the machines that will power the next generation of computing — a sign of how deeply AI is now woven into technology itself.",
-        summaryJa: "コンピューターチップの設計は技術の中でも最難関の一つ。一枚に数十億もの微小な部品を完璧に配置・接続せねばならず、熟練技術者チームで何か月もかかる。いま、AIが動くチップの設計自体をAIに手伝わせる発想が注目されている。強力なチップが賢いAIを生み、賢いAIがより良いチップの設計を助けるという循環だ。こうした「AI設計アシスタント」を作る新興企業が6000万ドルを調達。配置の提案・ミス発見・案の試験を人より速く行える。支持者は、遅く反復的な作業をAIが担えば技術者が創造的判断に集中でき、開発が速まり省エネにもなると言う。一方、設計は複雑で小さな誤りが高価な製品を台無しにし、AIも誤るため人の確認が要る。誰がこの技術を握るかへの懸念もある。機械が次世代計算を担う機械づくりを助け始めた——AIが技術そのものに深く織り込まれた証だ。",
-        quiz: [
-          { q: "チップ設計が難しい理由は？", options: ["数十億の部品を完璧に配置・接続する必要があるから", "部品が一つしかないから", "電気を使わないから"], answer: 0 },
-          { q: "本文が言う「循環」とは？", options: ["強力なチップが賢いAIを生み、AIが良いチップ設計を助ける", "チップが自分で動く", "AIが電気を作る"], answer: 0 },
-          { q: "支持者が期待する効果は？", options: ["技術者が創造的判断に集中でき開発が速まる", "人間が不要になる", "確認が要らなくなる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0730-3",
-        title: "A Summer of Wildfires",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Across southern Europe, this summer has brought some of the largest wildfires in years. In south-west France, a single blaze grew to cover an area several times the size of Paris, forcing thousands of people to leave their homes and holiday spots along the Atlantic coast. In Greece, firefighters battled flames on the island of Crete and in other regions, and several lost their lives in the effort.\nWhy are these fires so hard to control? Hot, dry weather turns forests and grassland into fuel, and strong winds can carry flames faster than crews can respond. Once a fire grows large, it can create its own weather, sending burning material far ahead and starting new fires. Thousands of firefighters and many aircraft may be needed for a single blaze.\nGovernments are responding in several ways. They evacuate people early to keep them safe, share aircraft and crews across borders, and warn the public when the risk is high. Some countries are investing in better forecasting and in clearing dry brush before summer begins.\nScientists note that hotter, drier summers make large fires more likely, and they urge long-term planning as well as emergency response.\nThe immediate goal, though, is simple and urgent: protect lives. Behind the dramatic images of smoke and flame are ordinary people leaving their homes, and the firefighters — sometimes at great personal risk — working to bring the fires under control.",
-        summaryJa: "この夏、南欧では近年最大級の山火事が相次いだ。仏南西部では一つの火災がパリの数倍の面積に広がり、大西洋岸の住民や行楽客数千人が避難。ギリシャではクレタ島などで消火にあたり、命を落とした消防士もいた。なぜ制御が難しいのか——高温乾燥が森や草地を燃料に変え、強風が炎を隊員の対応より速く運ぶ。大火は自ら気象を生み、燃える物を遠くへ飛ばして新たな火を起こす。一つの火災に数千の消防士と多数の航空機が要ることもある。各国は早期避難、航空機や部隊の国境を越えた共有、高リスク時の警報で対応し、予報改善や夏前の乾いた下草の除去に投資する国もある。科学者は高温乾燥の夏が大火を招きやすいとし、緊急対応に加え長期計画を促す。当面の目標は明快で切迫している——命を守ること。煙と炎の背後には家を離れる人々と、時に大きな危険を冒す消防士がいる。",
-        quiz: [
-          { q: "南欧の火災が制御しにくい理由は？", options: ["高温乾燥と強風が炎を速く広げるから", "雨が多すぎるから", "森がないから"], answer: 0 },
-          { q: "各国の対応に含まれるものは？", options: ["早期避難と部隊・航空機の国境を越えた共有", "何もしない", "火を無視する"], answer: 0 },
-          { q: "本文が挙げる当面の目標は？", options: ["命を守ること", "観光を増やすこと", "写真を撮ること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0730-4",
-        title: "After the Earthquake: The Race to Help",
-        level: "★★☆",
-        genre: "日本",
-        text: "When a strong earthquake struck the Kumamoto area on the southern Japanese island of Kyushu this week, rescue teams began a race against time. In the hours and days after a major quake, the chance of finding survivors under damaged buildings drops quickly, so speed matters enormously.\nJapan is one of the most earthquake-prone countries in the world, and it has long prepared for moments like this. Buildings are designed to sway rather than break, schools hold regular drills, and phones receive warnings seconds before strong shaking arrives. These few seconds can be enough to stop a train, pause surgery, or let a family take cover.\nAfter a quake, many groups work together. Rescue crews search collapsed structures, medical teams treat the injured, and engineers check whether bridges and buildings are safe to use. Volunteers and neighbors often help too, sharing water, food, and information.\nPreparation continues at home as well. Many families keep emergency kits with water, food, flashlights, and radios, and agree in advance on where to meet if phones stop working.\nEarthquakes cannot be prevented, and they remain frightening and dangerous. But Japan's long experience shows that good building design, early warning, regular practice, and quick cooperation can save many lives. Each disaster is also studied carefully, so that the lessons learned can make the response to the next one faster and safer.",
-        summaryJa: "今週、九州・熊本地方を強い地震が襲うと、救助隊は時間との闘いを始めた。大地震の後は、損壊した建物の下で生存者を見つけられる可能性が急速に下がるため、速さが極めて重要だ。日本は世界有数の地震国で、長くこうした事態に備えてきた。建物は壊れずに揺れるよう設計され、学校は定期的に訓練を行い、強い揺れの数秒前に警報が携帯に届く。この数秒で電車を止め、手術を中断し、家族が身を守れる。地震後は多くの集団が協力する——救助隊が倒壊建物を捜索し、医療班が負傷者を治療し、技術者が橋や建物の安全を確認する。ボランティアや近隣も水・食料・情報を分け合う。家庭でも備えは続き、水・食料・懐中電灯・ラジオの防災袋を用意し、通信が途絶えた時の集合場所を事前に決める家族も多い。地震は防げず、依然として恐ろしく危険だ。だが日本の長い経験は、堅牢な設計・早期警報・定期訓練・迅速な協力が多くの命を救うことを示す。各災害は丁寧に検証され、次への対応をより速く安全にする。",
-        quiz: [
-          { q: "大地震の後で速さが重要な理由は？", options: ["時間が経つと生存者を見つけられる可能性が下がるから", "救助が楽しいから", "建物が新しいから"], answer: 0 },
-          { q: "日本の地震への備えに含まれないものは？", options: ["地震を完全に防ぐ装置", "強い揺れの前の警報", "揺れて壊れない設計と訓練"], answer: 0 },
-          { q: "本文の結論は？", options: ["設計・警報・訓練・協力が多くの命を救う", "地震は無害だ", "備えは無意味だ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0730-5",
-        title: "Why Nuclear Power Is Back",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "For years, nuclear power seemed to be fading in many countries. Now it is returning to the center of attention, driven by a surprising force: the huge demand for electricity created by artificial intelligence and its data centers. Investors are pouring money into nuclear projects, betting that the world will need vast amounts of steady, low-carbon power.\nWhy nuclear? Unlike coal or gas, nuclear plants produce very little of the carbon dioxide that warms the planet. And unlike solar or wind, they generate power day and night, in any weather. That makes them attractive for data centers, which must run without pause. A new generation of smaller, factory-built reactors promises to be quicker and cheaper to construct than the giant plants of the past.\nThere are real challenges. Nuclear plants are costly and slow to build, and many people worry about safety and about the radioactive waste they produce, which must be stored securely for a very long time. Public trust, damaged by past accidents, is not easily won back.\nSupporters argue that modern designs are far safer and that the climate benefits are too large to ignore. Critics reply that money might be better spent on renewable energy and storage.\nThe debate is far from settled. But the return of nuclear power shows how a single new demand — the electricity to run artificial intelligence — can reshape decisions about energy, the environment, and the technologies that will define the coming decades.",
-        summaryJa: "長年、多くの国で衰退して見えた原子力が、意外な力——AIとそのデータセンターが生む膨大な電力需要——に押されて再び注目の中心に戻っている。投資家は、世界が安定した低炭素電力を大量に必要とすると見て原子力に資金を注ぐ。なぜ原子力か。石炭やガスと違い温暖化を招く二酸化炭素の排出が非常に少なく、太陽光や風力と違い昼夜・天候を問わず発電できる。無停止で動くデータセンターに向く。工場で作る小型の新型炉は、従来の巨大炉より速く安く建てられると期待される。課題も現実的だ。建設は高価で遅く、安全性や長期保管が必要な放射性廃棄物への不安も根強い。過去の事故で損なわれた信頼は簡単には戻らない。支持者は新設計は格段に安全で気候上の利点が大きすぎると主張し、批判者は再生可能エネルギーや蓄電に使う方が良いと返す。決着は遠い。だが原子力の復活は、AIを動かす電力という新たな需要一つが、エネルギー・環境・未来の技術をめぐる判断をどれほど塗り替えうるかを示している。",
-        quiz: [
-          { q: "原子力が再注目される主な理由は？", options: ["AIとデータセンターの膨大な電力需要", "石油が安いから", "原子力が新発明だから"], answer: 0 },
-          { q: "原子力が持つ利点は？", options: ["低炭素で昼夜・天候を問わず発電できる", "廃棄物が出ない", "建設が一瞬で終わる"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["高コスト・安全性・放射性廃棄物への不安", "電気を作れないこと", "二酸化炭素を大量に出すこと"], answer: 0 }
         ]
       }
     ]
