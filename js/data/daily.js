@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-07",
+    passages: [
+      {
+        id: "d0807-1",
+        title: "How a Nation Invests for Retirement",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Most people know they should save for retirement, but few realize how their savings are put to work. In Japan, a giant public fund manages the pension savings of millions of workers, investing the money so it can grow over time. Recently, this fund reported one of its largest-ever quarterly gains — a reminder of how deeply ordinary savings are tied to the ups and downs of global markets.\nWhy invest pension money at all? If savings simply sat in a bank, they would barely grow, especially over the many decades between a young worker's first paycheck and retirement. By carefully investing in stocks, bonds, and other assets around the world, a fund aims to grow the money so it can support people when they stop working.\nSuch funds must balance risk and safety. Invest too cautiously, and the money may not grow enough. Invest too boldly, and a market crash could cause painful losses. To manage this, big funds spread their money across many countries and types of investment, so that a fall in one area can be balanced by gains in another.\nStrong results in one quarter are welcome, but managers focus on the long term. Markets rise and fall, and a single good or bad quarter matters less than steady growth over many years.\nThe lesson is quietly powerful. Behind a huge investment fund are millions of individual futures. How wisely that money is managed today helps decide how comfortably people will live decades from now.",
+        summaryJa: "多くの人は老後に備えて貯蓄すべきだと知っているが、その貯蓄がどう働かされるかを知る人は少ない。日本では、巨大な公的基金が何百万もの労働者の年金貯蓄を運用し、時間をかけて増やせるよう投資している。最近、この基金は過去最大級の四半期利益を報告した——普通の貯蓄が世界市場の浮き沈みにいかに深く結びついているかを思い出させる。そもそもなぜ年金を投資するのか。貯蓄をただ銀行に置けば、特に若い労働者の初給料から退職までの数十年でほとんど増えない。世界中の株・債券・その他の資産に慎重に投資することで、基金は人々が働くのをやめたとき支えられるよう資金を増やそうとする。こうした基金はリスクと安全を釣り合わせねばならない。慎重すぎれば十分に増えず、大胆すぎれば市場暴落で痛い損失を招きうる。これを管理するため、大きな基金は資金を多くの国と種類の投資に分散し、一分野の下落を別の利益で相殺できるようにする。ある四半期の好成績は歓迎だが、運用者は長期に注目する。市場は上下し、一度の良し悪しは長年の着実な成長ほど重要ではない。教訓は静かに力強い。巨大な投資基金の背後には、何百万もの個人の未来がある。今日その資金がいかに賢く運用されるかが、数十年後に人々がどれだけ快適に暮らせるかを左右する。",
+        quiz: [
+          { q: "年金を投資する理由は？", options: ["銀行に置くだけでは数十年でほとんど増えないから", "投資は簡単だから", "貯蓄が禁止だから"], answer: 0 },
+          { q: "大きな基金がリスクを管理する方法は？", options: ["資金を多くの国と種類に分散する", "一つの株に全額入れる", "現金で持つだけ"], answer: 0 },
+          { q: "運用者が注目するのは？", options: ["長年の着実な成長", "一度の四半期だけ", "昨日の天気"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0807-2",
+        title: "Steel That Keeps Getting Better",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Steel is one of the oldest and most important materials in the world. It is in our buildings, bridges, cars, and countless machines. It may seem old-fashioned, but steel is still improving, and a Japanese steelmaker recently opened a new production line, investing heavily to make more high-performance steel, especially for carmakers.\nWhy does better steel matter? Modern cars need steel that is both strong and light. Strength keeps passengers safe in a crash, while lighter weight helps a car use less fuel or, in an electric vehicle, travel farther on a charge. Making steel that is strong and light at the same time is surprisingly difficult, and small improvements can make a big difference.\nHow is steel improved? Engineers carefully adjust what goes into it and how it is heated and shaped. Tiny changes in the recipe or the process can produce metal with new qualities — harder, more flexible, or more resistant to rust. Advanced factories use precise controls and testing to make these special types reliably.\nThere are challenges. Building new production lines is very expensive, and steelmakers face strong competition and pressure to use less energy, since making steel produces a lot of carbon dioxide.\nStill, the story shows that even ancient materials can keep evolving. As cars, buildings, and machines demand more, steelmakers keep finding ways to make their metal stronger, lighter, and cleaner — proof that innovation is not only about new inventions, but also about improving the things we have relied on for centuries.",
+        summaryJa: "鋼は世界で最も古く重要な材料の一つだ。建物・橋・車・無数の機械に使われる。古臭く見えるかもしれないが、鋼は今も進化しており、日本の鉄鋼メーカーが最近、新しい生産ラインを開き、特に自動車メーカー向けの高性能鋼を多く作るため多額を投じた。なぜより良い鋼が重要か。現代の車は、強く軽い鋼を必要とする。強さは衝突時に乗員を守り、軽さは車の燃費を良くし、電気自動車では一充電での走行距離を伸ばす。強さと軽さを同時に備える鋼を作るのは意外に難しく、小さな改良が大きな違いを生む。どう改良するのか。技術者は、何を入れ、どう加熱し成形するかを慎重に調整する。配合や工程の小さな変化が、より硬い・柔軟な・錆びにくいといった新しい性質の金属を生む。先端の工場は精密な制御と試験でこうした特殊鋼を安定して作る。課題もある。新しい生産ラインの建設は非常に高価で、鉄鋼メーカーは激しい競争と、鋼の製造が大量の二酸化炭素を出すため省エネの圧力に直面する。それでもこの話は、古代の材料でさえ進化し続けられることを示す。車・建物・機械がより多くを求める中、メーカーは金属をより強く・軽く・クリーンにする方法を見つけ続ける——革新は新発明だけでなく、何世紀も頼ってきた物を改良することでもある証だ。",
+        quiz: [
+          { q: "現代の車に必要な鋼の性質は？", options: ["強さと軽さの両立", "色の美しさ", "安さだけ"], answer: 0 },
+          { q: "鋼を軽くする利点は？", options: ["燃費が良くなりEVの走行距離が伸びる", "重くなること", "錆びやすくなること"], answer: 0 },
+          { q: "鉄鋼メーカーが直面する課題は？", options: ["高い建設費と省エネへの圧力", "材料が全く無いこと", "需要が全くないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0807-3",
+        title: "The Global Effort Against the Flu",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Every year, the flu spreads around the world, making millions of people sick. Fighting it is a truly global effort, requiring cooperation between many countries. Recently, health authorities prepared a new type of flu vaccine for the coming season — the latest step in a worldwide system that quietly protects public health year after year.\nWhy must the flu be fought globally? The virus is always changing, and it travels easily across borders with people. A new form appearing in one country can reach others within weeks. To stay ahead, scientists in many nations share samples and data, watching how the virus changes and predicting which forms will spread next.\nThis information guides vaccine makers. Each year, the vaccine is updated to match the strains expected to be most common. Getting this right is difficult, because the virus can change in unexpected ways. New technologies may help make vaccines faster and more accurately in the future.\nInternational organizations play a key role, coordinating this work and helping poorer countries get vaccines they might not afford alone. Fighting a global disease is fairer and more effective when nations act together rather than each on its own.\nThe flu may seem ordinary, but the system built to fight it is a quiet marvel of cooperation. Every year, without most people noticing, scientists, doctors, and officials around the world work together to prepare — a reminder that some of humanity's greatest challenges can only be met by many hands, across many borders, pulling in the same direction.",
+        summaryJa: "毎年、インフルエンザは世界中に広がり、何百万もの人を病気にする。それと闘うのは真に世界的な取り組みで、多くの国の協力を要する。最近、保健当局は来たる季節に向けて新型のインフルワクチンを準備した——年々静かに公衆衛生を守る世界的な仕組みの最新の一歩だ。なぜ世界規模で闘わねばならないのか。ウイルスは常に変化し、人とともに容易に国境を越える。ある国で現れた新型は数週間で他国に届きうる。先手を打つため、多くの国の科学者が検体とデータを共有し、ウイルスの変化を見守り、次にどの型が広がるかを予測する。この情報がワクチン製造を導く。毎年、最も多いと予想される株に合わせてワクチンが更新される。ウイルスは予想外に変化しうるため、これを当てるのは難しい。新技術が将来、より速く正確なワクチン作りを助けるかもしれない。国際機関は重要な役割を果たし、この作業を調整し、単独では賄えないワクチンを貧しい国が得る助けをする。世界的な病と闘うのは、各国がばらばらより共に動く方が公平で効果的だ。インフルは平凡に見えるが、それと闘うために築かれた仕組みは協力の静かな驚異だ。毎年、多くの人が気づかぬうちに、世界中の科学者・医師・当局者が協力して備える——人類の最大級の課題のいくつかは、多くの国境を越えた多くの手が同じ方向へ引くことでしか越えられないことを思い出させる。",
+        quiz: [
+          { q: "インフルを世界規模で闘う必要がある理由は？", options: ["ウイルスが常に変化し国境を容易に越えるから", "インフルは無害だから", "一国だけの病だから"], answer: 0 },
+          { q: "毎年ワクチンが更新される理由は？", options: ["最も多いと予想される株に合わせるため", "色を変えるため", "値段を上げるため"], answer: 0 },
+          { q: "国際機関の役割は？", options: ["作業の調整と貧しい国のワクチン取得の支援", "ワクチンの禁止", "国境の封鎖"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0807-4",
+        title: "The Great Obon Homecoming",
+        level: "★★☆",
+        genre: "日本",
+        text: "Once a year in summer, Japan experiences one of its largest travel rushes, as millions of people head to their hometowns for a holiday called Obon. During Obon, families gather to honor their ancestors, visit graves, and spend time together. For many who live and work in big cities, it is a rare chance to return home and reconnect with family and tradition.\nThe scale of the movement is remarkable. Trains, planes, highways, and stations fill with travelers carrying gifts and luggage. Bullet trains run at full capacity, and famous traffic jams stretch along expressways. Booking a ticket weeks in advance is often necessary, and prices rise with demand.\nThis year, the rush met an extra challenge: a powerful typhoon approaching from the south. Airlines canceled hundreds of flights, and railway and highway operators watched the weather closely, ready to stop services to keep people safe. Travelers had to check forecasts carefully and sometimes change their plans.\nDespite the crowds and the weather, Obon remains deeply important. It reflects a value found in many cultures — remembering those who came before us and keeping family bonds strong across the distances of modern life.\nThe Obon rush, then, is more than a transport story. It is a yearly reminder of how tradition and modern life meet: high-speed trains carrying an ancient custom, and millions of individual journeys, each one a small act of remembering where, and to whom, a person belongs.",
+        summaryJa: "夏に年に一度、日本は最大級の移動ラッシュを迎える。何百万もの人が「お盆」という休みに故郷へ向かうのだ。お盆の間、家族は集まって先祖を敬い、墓参りをし、共に時を過ごす。大都市で暮らし働く多くの人にとって、故郷へ帰り家族と伝統に再びつながる貴重な機会だ。移動の規模は驚くほどだ。電車・飛行機・高速道路・駅が、土産や荷物を抱えた旅行者で埋まる。新幹線は満席で走り、高速道路には有名な渋滞が伸びる。数週間前の予約がしばしば必要で、需要とともに価格も上がる。今年、このラッシュはさらなる難題に直面した——南から接近する強い台風だ。航空会社は数百便を欠航し、鉄道や高速道路の事業者は天候を注視し、安全のため運行を止める用意をした。旅行者は予報を慎重に確認し、時に予定を変えねばならなかった。混雑と天候にもかかわらず、お盆は深く重要であり続ける。多くの文化に見られる価値——先に逝った人々を偲び、現代の暮らしの距離を越えて家族の絆を保つこと——を映している。だからお盆のラッシュは単なる交通の話ではない。伝統と現代の暮らしがどう出会うかの、年に一度の思い出しだ——古い習わしを運ぶ高速列車と、何百万もの個々の旅、その一つ一つが、人がどこに、誰に属するかを思い出す小さな営みなのだ。",
+        quiz: [
+          { q: "お盆に人々が故郷へ帰る目的は？", options: ["家族が集まり先祖を敬い墓参りをするため", "買い物のため", "仕事のため"], answer: 0 },
+          { q: "今年のラッシュが直面した難題は？", options: ["南から接近する強い台風", "大雪", "地震だけ"], answer: 0 },
+          { q: "本文がお盆に見出す価値は？", options: ["先人を偲び家族の絆を保つこと", "速く移動すること", "土産を買うこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0807-5",
+        title: "When Heat Travels in a Beam",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "We usually think of heat as something that spreads out slowly and in all directions, warming everything around it evenly. But scientists have shown something surprising: in a special crystal, at room temperature, heat can travel in focused, wave-like rays — moving in a particular direction, almost like a beam, instead of spreading randomly.\nWhy is this strange? In most materials, heat is carried by tiny vibrations that bounce around in a messy, disorganized way, like a crowd pushing in every direction. That is why a hot spot usually warms its whole surroundings. In this crystal, however, those vibrations can move together in an orderly wave, carrying heat along a chosen path.\nWhy does it matter? Controlling how heat moves is a huge challenge in technology. Computer chips, for example, can overheat when heat builds up in one place. If engineers could guide heat along a chosen route — steering it away from delicate parts, as one might steer light — they could design cooler, more efficient devices.\nThis discovery is still basic science, far from any product. Making it work in useful materials and everyday conditions will take much more research. But it changes how scientists think about heat itself.\nThe finding is a good reminder that even familiar things can hold surprises. Heat is one of the most common experiences in the world, yet by studying it closely, scientists found a hidden, orderly behavior — opening a door to new ways of managing one of technology's oldest and most stubborn problems.",
+        summaryJa: "私たちは普通、熱をゆっくりと四方八方に広がり、周りを均等に温めるものと考える。だが科学者は驚くべきことを示した——ある特殊な結晶では、室温で、熱が焦点を絞った波のような光線として進みうるのだ。ランダムに広がる代わりに、まるでビームのように特定の方向へ動く。なぜ奇妙か。ほとんどの材料では、熱は微小な振動が乱雑に跳ね回って運ばれる——あらゆる方向へ押し合う群衆のように。だから熱い点は普通、周囲全体を温める。しかしこの結晶では、その振動が秩序ある波として一緒に動き、選ばれた経路に沿って熱を運べる。なぜ重要か。熱の動きを制御することは技術における大きな難題だ。例えばコンピューターチップは、一か所に熱がたまると過熱しうる。もし技術者が、光を導くように熱を選んだ経路に沿って導き、繊細な部品から遠ざけられれば、より涼しく効率的な装置を設計できる。この発見はまだ基礎科学で、製品にはほど遠い。有用な材料や日常の条件で働かせるには、はるかに多くの研究が要る。だが熱そのものについての科学者の考え方を変える。この発見は、見慣れたものでさえ驚きを秘めうることを思い出させる。熱は世界で最もありふれた経験の一つだが、丁寧に研究することで、科学者は隠れた秩序あるふるまいを見つけた——技術の最も古く手強い問題の一つを扱う新しい方法への扉を開いて。",
+        quiz: [
+          { q: "この結晶で熱が示した驚きのふるまいは？", options: ["焦点を絞った波として特定の方向へ進む", "完全に消えてしまう", "自然に冷たくなる"], answer: 0 },
+          { q: "普通の材料で熱が広がる理由は？", options: ["微小な振動が乱雑に跳ね回るから", "光そのものだから", "水でできているから"], answer: 0 },
+          { q: "この制御が役立ちうる場面は？", options: ["チップの熱を繊細な部品から遠ざける", "部屋を暗くする", "音を消す"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-06",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が見つけた兆候とは？", options: ["現代人が未知の絶滅集団のDNAも受け継いでいる", "人類は一種類だけだった", "DNAは変化しない"], answer: 0 },
           { q: "研究者がこれを知る方法は？", options: ["多くの人や古い骨のDNAを比べ珍しい模様を見つける", "化石の色を見る", "推測だけで決める"], answer: 0 },
           { q: "この発見が示すことは？", options: ["初期人類は出会い交わっていて家系図を描き直す", "人類は常に孤立していた", "祖先はただ一つだった"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-07-31",
-    passages: [
-      {
-        id: "d0731-1",
-        title: "Why Governments Support Their Money",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "The value of a country's money can rise and fall quickly against other currencies, and sometimes governments step in to influence it. Recently, Japan's financial authorities are believed to have acted to strengthen the yen after it moved sharply against the U.S. dollar. This kind of action is called currency intervention.\nHow does it work? A country's central bank or treasury can buy or sell large amounts of its own currency. To make the yen stronger, for example, authorities buy yen using their reserves of foreign money. Buying increases demand, which tends to push the value up. To weaken it, they would do the opposite.\nWhy bother? The exchange rate affects the whole economy. A very weak currency makes imported goods, such as food and energy, more expensive, which can hurt households. A very strong currency can make a country's exports harder to sell abroad. Governments often want to avoid sudden, extreme swings that make it hard for businesses to plan.\nIntervention has limits. Global currency markets are enormous, trading trillions of dollars every day, so even a large government cannot control prices for long. Sometimes just the threat of action is enough to calm the market.\nFor learners of business English, the lesson is useful: money itself is a market, shaped by supply, demand, and expectations. When a government acts, it is not setting a price by force, but trying to steer a huge and restless system.",
-        summaryJa: "国の通貨の価値は他通貨に対して急に上下し、政府が介入して動かすこともある。最近、日本の当局は円がドルに対し急変した後、円を強めるために動いたとみられる。これを為替介入という。仕組みは、中央銀行や財務当局が自国通貨を大量に売買すること。円を強めるには外貨準備で円を買い、需要が増えて価値が上がりやすくなる。弱めるには逆を行う。なぜか——為替レートは経済全体に影響する。極端に弱い通貨は食料やエネルギーなど輸入品を高くし家計を圧迫し、極端に強い通貨は輸出を売りにくくする。政府は企業が計画しにくい急激な変動を避けたい。ただし世界の為替市場は日々何兆ドルも取引される巨大なもので、大きな政府でも長くは価格を支配できず、介入をほのめかすだけで市場が落ち着くこともある。ビジネス英語の学習者への教訓——お金自体が需要・供給・期待で形づくられる市場であり、政府の介入は力で価格を決めるのでなく、巨大で落ち着かない仕組みを操ろうとする試みなのだ。",
-        quiz: [
-          { q: "為替介入とは何か？", options: ["政府や中央銀行が自国通貨を売買して価値に影響を与えること", "通貨を印刷して配ること", "銀行を閉じること"], answer: 0 },
-          { q: "円を強めるために当局が行うことは？", options: ["外貨で円を買い需要を増やす", "円を大量に売る", "何もしない"], answer: 0 },
-          { q: "介入の限界として本文が挙げるのは？", options: ["市場が巨大で長くは価格を支配できない", "政府は無限に介入できる", "市場は小さい"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0731-2",
-        title: "Building a Stronger Cyber Defense",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "As more of daily life moves online, protecting computer systems from attack has become a national priority. Governments now treat 'cyber defense' — the work of stopping hackers and other digital threats — as seriously as they treat protecting land, sea, and air. Recently, Japan announced a new policy focused on detecting threats early, with the goal of building one of the world's strongest cyber defenses.\nWhy is early detection so important? Many cyberattacks succeed because they go unnoticed for a long time. Intruders may quietly enter a system, watch, and steal information for weeks or months before anyone realizes. The sooner a threat is found, the less damage it can do. Modern defense therefore relies on constant monitoring, quick warnings, and fast response.\nSeveral tools help with this. Software can watch network traffic and flag unusual activity. Teams of experts study new kinds of attacks and share what they learn. Increasingly, artificial intelligence is used to spot patterns that humans might miss, sorting through huge amounts of data in seconds.\nThere are challenges. Attackers also improve their methods, and monitoring must respect people's privacy. Skilled defenders are in short supply, so training and cooperation between countries matter.\nThe larger point is that security is no longer only about physical walls and borders. In a connected world, a nation's safety depends partly on invisible defenses — the systems and people quietly working to keep networks, hospitals, and power grids running.",
-        summaryJa: "生活の多くがオンラインに移るにつれ、コンピューターシステムを攻撃から守ることが国家的優先課題になった。政府は今や「サイバー防衛」——ハッカーなどのデジタル脅威を止める仕事——を陸海空の防衛と同じく重視する。日本は最近、脅威の早期検知に重点を置き、世界有数のサイバー防衛を築くという方針を発表した。なぜ早期検知が重要か——多くの攻撃は長く気づかれず成功する。侵入者は静かに入り込み、数週間から数か月も監視や情報窃取を続けることがある。早く見つけるほど被害は小さい。だから現代の防衛は常時監視・迅速な警報・速い対応に頼る。ネットワークの通信を監視して異常を示すソフト、新種の攻撃を研究し知見を共有する専門家チーム、人が見逃す模様を膨大なデータから数秒で見つけるAIが役立つ。課題もある——攻撃側も手口を高度化し、監視は人々のプライバシーを尊重せねばならず、熟練の防御者は不足しており訓練や国際協力が重要だ。要点は、安全がもはや物理的な壁や国境だけの話ではないこと。つながった世界では、国の安全は目に見えない防衛にも支えられている。",
-        quiz: [
-          { q: "日本の新方針が重点を置くのは？", options: ["脅威の早期検知", "攻撃をやめること", "インターネットの禁止"], answer: 0 },
-          { q: "早期検知が重要な理由は？", options: ["攻撃は長く気づかれず被害を広げるから", "攻撃は無害だから", "監視は不要だから"], answer: 0 },
-          { q: "本文が挙げる課題に含まれるものは？", options: ["熟練の防御者の不足とプライバシーの尊重", "防御者が多すぎること", "攻撃者がいないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0731-3",
-        title: "Cities Learn to Beat the Heat",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Summers are getting hotter in many parts of the world, and cities are feeling the heat most of all. Streets, buildings, and concrete absorb sunlight during the day and release it at night, making urban areas warmer than the countryside around them. To protect residents, cities are now trying creative ways to cool down.\nIn one German city, officials recently tested a system that sprays a fine mist of chilled groundwater into the air, using equipment connected to fire hoses. The tiny droplets cool the surrounding air as they evaporate, offering relief on the hottest days. Other cities are experimenting with their own solutions.\nMany of these ideas are surprisingly simple. Planting more trees creates shade and naturally cools the air. Painting roofs white helps reflect sunlight instead of absorbing it. Adding parks, fountains, and water features gives people cool places to gather. Some cities open special 'cooling centers' where anyone can escape the heat indoors.\nWhy does this matter so much? Extreme heat is dangerous, especially for older people, young children, and those who work outdoors. During severe heat waves, the number of people who become ill can rise sharply. Keeping cities cooler is therefore a matter of health and safety, not just comfort.\nThe trend reflects a broader shift. As hot summers become more common, cities around the world are learning to adapt — redesigning streets and buildings so that millions of people can live more safely through the warmest months of the year.",
-        summaryJa: "世界の多くの地域で夏はより暑くなり、都市が最も影響を受けている。道路・建物・コンクリートが日中に日光を吸収し夜に放出するため、都市は周囲の田園より暑くなる。住民を守るため、都市は今や創意工夫で涼を得ようとしている。ドイツのある都市は最近、消防ホースに接続した装置で冷たい地下水の細かい霧を空気中に噴霧する仕組みを試した。微小な水滴が蒸発しながら周囲の空気を冷やし、最も暑い日に涼をもたらす。他の都市も独自の解決策を試している。多くは驚くほど単純だ——木を増やせば日陰ができ自然に空気が冷える。屋根を白く塗れば日光を吸収せず反射する。公園・噴水・水辺は涼しい集いの場になる。屋内で暑さを避けられる「クーリングセンター」を開く都市もある。なぜ重要か——極端な暑さは、特に高齢者・幼児・屋外労働者に危険で、猛暑では体調を崩す人が急増しうる。都市を涼しく保つことは快適さだけでなく健康と安全の問題だ。暑い夏が当たり前になる中、世界の都市は街や建物を作り替え、多くの人が最も暑い時期を安全に暮らせるよう適応を学んでいる。",
-        quiz: [
-          { q: "都市が周囲より暑くなる理由は？", options: ["建物やコンクリートが日光を吸収し放出するから", "田園が近いから", "木が多いから"], answer: 0 },
-          { q: "本文が挙げる冷却の工夫に含まれないものは？", options: ["屋根を黒く塗る", "木を植えて日陰を作る", "冷たい水の霧を噴霧する"], answer: 0 },
-          { q: "都市を涼しく保つことが重要なのはなぜか？", options: ["極端な暑さは高齢者などに危険だから", "暑さは無害だから", "快適さだけの問題だから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0731-4",
-        title: "Japan's Shrinking Population",
-        level: "★★★",
-        genre: "日本",
-        text: "Japan has reached a milestone that worries many experts: its population has fallen below 120 million for the first time in over forty years. The number of people living in the country has been declining for years, and the pace is expected to continue. Behind this simple figure lies one of the biggest challenges Japan faces.\nTwo forces drive the change. First, people are having fewer children, so fewer young people are being born each year. Second, Japan has one of the longest life expectancies in the world, which means a large and growing share of the population is elderly. Together, these trends create a society with many older people and relatively few young workers.\nWhy does this matter? A smaller working-age population must support a larger number of retirees through taxes and care. Businesses may struggle to find enough workers, and some rural towns are shrinking so fast that schools and shops close. Government budgets for pensions and health care come under strain.\nJapan is responding in many ways. Some companies raise wages or use robots and automation to make up for fewer workers. The government encourages family-friendly policies and looks at ways to welcome more workers from abroad. Older people are staying in jobs longer than before.\nThere are no easy answers, and other countries are watching closely, because many face similar trends. How Japan adapts to a smaller, older population may offer lessons for much of the world in the decades ahead.",
-        summaryJa: "日本は多くの専門家が憂慮する節目を迎えた——人口が40年余りで初めて1億2千万人を割った。居住人口は長年減り続け、この流れは今後も続くと見られる。この単純な数字の背後に、日本が直面する最大級の課題がある。変化を生む力は二つ。第一に子どもの数が減り、毎年生まれる若者が少ないこと。第二に日本は世界有数の長寿国で、高齢者の割合が大きく増えていること。両者が相まって、高齢者が多く若い働き手が比較的少ない社会になる。なぜ問題か——少ない現役世代が税や介護で多くの引退者を支えねばならない。企業は人手確保に苦しみ、学校や店が閉じるほど急速に縮む地方の町もある。年金や医療の予算は逼迫する。日本は多様に対応している——賃上げやロボット・自動化で人手不足を補う企業、子育て支援策や海外からの受け入れを探る政府、以前より長く働き続ける高齢者。簡単な答えはなく、同様の傾向に直面する各国が注視している。より小さく高齢化した人口に日本がどう適応するかは、今後数十年の世界の多くに教訓を与えるかもしれない。",
-        quiz: [
-          { q: "日本の人口減少を生む二つの力は？", options: ["出生数の減少と高齢者割合の増加", "移民の急増と出生増", "戦争と災害"], answer: 0 },
-          { q: "人口減少が問題となる理由は？", options: ["少ない現役世代が多くの引退者を支える必要がある", "働き手が多すぎる", "高齢者がいない"], answer: 0 },
-          { q: "日本の対応に含まれるものは？", options: ["賃上げや自動化、海外からの受け入れの検討", "何もしない", "若者の追放"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0731-5",
-        title: "Making Factories Ready for Earthquakes",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "When a powerful earthquake struck southern Japan this week, it raised an important question for industry: how can factories that make delicate products keep working in a land that shakes? Nowhere is this more pressing than in the region's growing hub for making computer chips, where even tiny vibrations can ruin a product.\nChip factories are extraordinarily sensitive. The circuits they build are thinner than a human hair, so machines must sit almost perfectly still. A strong quake can crack equipment, spill chemicals, and halt production for weeks — a serious problem when the whole world depends on a steady supply of chips.\nEngineers have developed clever defenses. Buildings rest on special bearings and dampers that let the ground move while the structure above stays steadier. Sensitive machines sit on platforms designed to absorb shaking. Early-warning systems can pause delicate processes automatically in the seconds before strong tremors arrive.\nPreparation also means planning for what comes after. Factories store extra materials, keep backup power ready, and practice how to restart safely once a quake has passed. Companies increasingly spread production across several sites, so that damage in one place does not stop everything.\nThe wider lesson reaches beyond Japan. As advanced manufacturing spreads to more regions, and as natural hazards remain a fact of life, building factories that can survive disasters is becoming part of good engineering. Making resilience part of the design — not an afterthought — helps keep both workers and the products they build safe.",
-        summaryJa: "今週、南日本を強い地震が襲い、産業に重要な問いを突きつけた——揺れる土地で、繊細な製品を作る工場はどう稼働を保てるのか。地域で成長するコンピューターチップ製造の拠点ほど、この問いが切実な場所はない。わずかな振動でも製品を台無しにするからだ。チップ工場は極めて敏感で、人の髪より細い回路を作るため機械はほぼ完全に静止していなければならない。強い地震は装置を割り、薬品をこぼし、生産を数週間止めうる——世界がチップの安定供給に依存する中では深刻だ。技術者は巧妙な防御を編み出した。建物は特殊な支承やダンパーの上に載り、地面が動いても上の構造はより安定を保つ。敏感な機械は揺れを吸収する台に据えられる。早期警報は強い揺れの数秒前に繊細な工程を自動で止める。備えは「その後」の計画も意味する——予備の材料を蓄え、非常用電源を用意し、地震後に安全に再稼働する手順を訓練する。損害が全てを止めないよう生産を複数拠点に分散する企業も増える。教訓は日本を超える。先端製造が各地に広がり自然災害が生活の一部であり続ける中、災害に耐える工場づくりは良い工学の一部になりつつある。回復力を後付けでなく設計に組み込むことが、働く人と製品を守る。",
-        quiz: [
-          { q: "チップ工場が地震に弱い理由は？", options: ["わずかな振動でも繊細な製品を台無しにするから", "工場が小さいから", "電気を使わないから"], answer: 0 },
-          { q: "本文が挙げる防御に含まれるものは？", options: ["建物を支承やダンパーに載せ揺れを抑える", "地震を止める", "工場を海に浮かべる"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["回復力を後付けでなく設計に組み込むこと", "災害は無視できる", "工場は不要だ"], answer: 0 }
         ]
       }
     ]
