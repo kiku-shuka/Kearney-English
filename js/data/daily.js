@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-08",
+    passages: [
+      {
+        id: "d0808-1",
+        title: "A Tax Cut on Everyday Food",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Governments raise most of their money through taxes, and one common kind is a tax added to the things we buy. In Japan, the government has approved a plan to cut this consumption tax on food and non-alcoholic drinks from eight percent down to one percent, for two years. It is a big change aimed at helping households cope with rising prices.\nHow does a consumption tax work? A small percentage is added to the price of goods at the shop, and the store passes that money to the government. Because everyone buys food, a tax on it affects every household, rich or poor. Cutting the tax on food means families pay a little less each time they shop for groceries.\nWhy target food in particular? Food is something no one can avoid buying, so its price hits low-income families hardest. By lowering the tax on essentials while keeping it on other goods, the government tries to ease the burden where it is felt most, especially when prices are climbing.\nThere are trade-offs, of course. Taxes pay for schools, roads, hospitals, and pensions, so cutting one tax means finding money elsewhere or spending less. That is why the cut is temporary, lasting two years.\nFor learners of business English, this is a useful example of how governments use taxes as tools. A tax is not only a way to raise money; it is also a lever that leaders can pull to shape the economy and support people during difficult times.",
+        summaryJa: "政府は歳入の多くを税で得ており、よくある一種が、買う物に加わる税だ。日本政府は、食品と酒以外の飲料にかかるこの消費税を、2年間、8％から1％へ引き下げる案を承認した。物価上昇に家計が対処するのを助けることを狙った大きな変更だ。消費税はどう働くか。店で商品の価格に小さな割合が加わり、店がそのお金を政府に渡す。誰もが食品を買うため、それへの税は貧富を問わず全家庭に影響する。食品の税を下げれば、家族は買い物のたびに少しだけ安く払う。なぜ特に食品を対象にするのか。食品は誰も買わずにいられないので、その価格は低所得の家庭に最も重くのしかかる。生活必需品への税を下げ、他の商品には残すことで、政府は特に物価上昇時に、最も強く感じられる負担を和らげようとする。もちろん代償もある。税は学校・道路・病院・年金を賄うので、一つの税を下げれば別の財源を探すか支出を減らすことになる。だからこの引き下げは2年間の一時的なものだ。ビジネス英語の学習者には、政府が税を道具としてどう使うかの良い例だ。税は歳入を得る手段だけでなく、指導者が経済を形づくり困難な時に人々を支えるために引けるレバーでもある。",
+        quiz: [
+          { q: "日本政府が承認した案は？", options: ["食品などの消費税を8％から1％へ2年間引き下げる", "消費税を完全に廃止する", "食品をすべて無料にする"], answer: 0 },
+          { q: "なぜ特に食品を対象にするのか？", options: ["食品は誰も避けられず低所得家庭に最も重いから", "食品が安いから", "食品は課税できないから"], answer: 0 },
+          { q: "税を下げる代償は？", options: ["別の財源を探すか支出を減らす必要がある", "歳入が自動的に増える", "何も起きない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0808-2",
+        title: "Cleaner Power with Less Precious Metal",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Hydrogen fuel cells are a promising clean technology. They combine hydrogen and oxygen to make electricity, producing only water as waste — no smoke, no carbon dioxide. But they have a costly problem: many fuel cells rely on platinum, a rare and expensive metal, to make the reaction work. Now scientists have found a way to use far less of it.\nWhy is platinum such an obstacle? It is one of the rarest metals on Earth, so it is expensive and hard to obtain in large amounts. If every fuel cell needs a lot of platinum, the technology becomes too costly to use widely. Reducing the amount needed could help fuel cells compete with other ways of making power.\nThe new approach uses a specially designed carbon structure at a tiny scale. This clever material holds even small amounts of platinum in a way that keeps the reaction fast, efficient, and stable over time. In other words, it does more with less.\nWhy does this matter now? As the world seeks clean energy, fuel cells could power vehicles, buildings, and even the huge data centers that run artificial intelligence. Making them cheaper and more durable brings that future closer.\nChallenges remain, as always. Laboratory success must be proven at large scale, and hydrogen itself must be produced cleanly and cheaply. Still, the discovery is encouraging. By using a precious resource more wisely, scientists take another small but meaningful step toward practical, clean power for a hungry, energy-using world.",
+        summaryJa: "水素燃料電池は有望なクリーン技術だ。水素と酸素を結びつけて電気を作り、廃棄物は水だけ——煙も二酸化炭素も出さない。だが高価な問題がある。多くの燃料電池は、反応を働かせるために希少で高価な金属・白金（プラチナ）に頼る。いま科学者が、それをはるかに少なく使う方法を見つけた。なぜ白金が障害なのか。地球で最も希少な金属の一つで、高価で大量に得るのが難しい。全ての燃料電池が多くの白金を要すれば、技術は広く使うには高価すぎる。必要量を減らせれば、燃料電池が他の発電方法と競えるようになる。新手法は、微小スケールで特別に設計した炭素構造を使う。この巧妙な材料は、少量の白金でも反応を速く・効率的に・長期に安定して保つように支える。つまり、より少なくより多くを成す。なぜ今重要か。世界がクリーンエネルギーを求める中、燃料電池は車・建物・さらにはAIを動かす巨大なデータセンターに電力を供給しうる。より安く丈夫にすることが、その未来を近づける。課題は常に残る。実験室の成功は大規模で証明せねばならず、水素自体もクリーンかつ安く作らねばならない。それでも発見は励みになる。貴重な資源をより賢く使うことで、科学者は、エネルギーを渇望する世界のための実用的でクリーンな電力へ、また小さくも意味ある一歩を進める。",
+        quiz: [
+          { q: "水素燃料電池の廃棄物は？", options: ["水だけ", "煙", "二酸化炭素"], answer: 0 },
+          { q: "白金が障害となる理由は？", options: ["希少で高価、大量に得るのが難しいから", "柔らかすぎるから", "電気を通さないから"], answer: 0 },
+          { q: "新手法が使う工夫は？", options: ["微小スケールの特別な炭素構造で少量の白金を効率よく働かせる", "白金を増やす", "水を使わない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0808-3",
+        title: "Why Countries Spread Their Bets",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "There is an old piece of advice: do not put all your eggs in one basket. Countries are learning to apply this wisdom to the vital materials they import. Recently, Japan announced that it would seek to buy crude oil and rare earth metals from a wider range of sources, rather than relying too heavily on just a few. The goal is a safer, more stable supply.\nWhy spread out suppliers? If a country buys a crucial material from only one place, it becomes vulnerable. A political dispute, a natural disaster, or a sudden price rise could cut off the supply, harming factories and daily life. By buying from many countries, a nation reduces the risk that any single problem will leave it short.\nRare earths are a good example. These metals are essential for magnets, motors, electronics, and clean-energy technology, yet they come mostly from a small number of places. Depending on one supplier for such important materials is risky, so countries are searching for new sources and even trying to recycle what they already have.\nDiversifying is not simple or cheap. Building new trade relationships takes time, and new suppliers may cost more or need new infrastructure. But many governments now see this as worthwhile insurance.\nThe wider lesson applies to businesses and individuals too. Relying on a single source of anything important — a supplier, a customer, or a skill — carries hidden risk. Spreading your bets may cost a little more today, but it can protect you against a much larger loss tomorrow.",
+        summaryJa: "古い助言がある——卵を一つのかごに全部盛るな。各国は、この知恵を輸入する重要な材料に当てはめ始めている。最近、日本は、原油やレアアース（希土類金属）を、ごく少数に頼りすぎるのでなく、より広い供給元から買おうとすると表明した。狙いはより安全で安定した供給だ。なぜ供給元を分散するのか。ある国が重要な材料を一か所からしか買わなければ、脆くなる。政治的対立・自然災害・急な価格上昇が供給を断ち、工場や日常を害しうる。多くの国から買うことで、一つの問題で不足に陥るリスクを減らせる。レアアースは良い例だ。これらの金属は磁石・モーター・電子機器・クリーンエネルギー技術に不可欠だが、主に少数の場所から来る。そんな重要な材料を一つの供給元に頼るのは危ういので、各国は新たな供給源を探し、既にある物を再生しようとさえする。分散は単純でも安くもない。新たな貿易関係の構築には時間がかかり、新供給元は費用が高いか新しいインフラを要しうる。だが多くの政府は今、これを価値ある保険と見る。より広い教訓は企業や個人にも当てはまる。重要な何か——供給元・顧客・技能——を単一の源に頼ることは、隠れたリスクを伴う。賭けを分散することは今日は少し高くつくかもしれないが、明日のはるかに大きな損失から守りうる。",
+        quiz: [
+          { q: "日本が表明した方針は？", options: ["原油やレアアースをより広い供給元から買う", "輸入を全てやめる", "一か所だけから買う"], answer: 0 },
+          { q: "供給元を分散する理由は？", options: ["一つの問題で不足に陥るリスクを減らすため", "費用を増やすため", "材料を捨てるため"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["重要な何かを単一の源に頼るのは隠れたリスクがある", "分散は無意味である", "一つに頼るのが最善である"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0808-4",
+        title: "A Day of Lucky Eights",
+        level: "★★☆",
+        genre: "日本",
+        text: "On August 8, 2026, many people in Japan celebrated a date they considered especially lucky. Written out, the day lined up three eights: the eighth day of the eighth month, in the eighth year of the current imperial era, Reiwa. Couples chose it for their weddings, shops offered special sales, and events marked the rare arrangement of numbers.\nWhy is eight seen as lucky? In Japan, the shape of the character for eight widens toward the bottom. This spreading form is linked to the idea of growing, expanding good fortune — prosperity that opens out and increases over time. Because of this, eight has long been considered a favorable number.\nBeliefs about lucky and unlucky numbers appear in many cultures. In some places, certain numbers are avoided in buildings or phone numbers, while others are welcomed for weddings or business openings. These ideas may not be based on science, but they carry real meaning for people, shaping choices about important days.\nDates like this one show how culture adds color to the calendar. A day that is, on the surface, just another summer date becomes a reason to celebrate, to marry, or to start something new — simply because of how its numbers line up.\nFor learners of Japanese culture, such customs are a friendly window into how a society thinks. Behind the sales and the weddings is a gentle, hopeful idea: that with the right timing and a bit of good fortune, life can keep growing, expanding, and getting better.",
+        summaryJa: "2026年8月8日、日本の多くの人が、特に縁起が良いと考える日を祝った。書き出すと、その日は三つの八が並ぶ——現在の元号・令和8年の、8月8日。カップルは結婚式にこの日を選び、店は特別セールを行い、催しが珍しい数字の並びを祝った。なぜ八は縁起が良いとされるのか。日本では、八の字の形が下へ向かって広がる。この広がる形が、育ち広がる幸運——時とともに末広がりに増える繁栄——の考えに結びつく。このため八は長く好ましい数とされてきた。縁起の良い・悪い数への信念は多くの文化に現れる。ある場所では特定の数が建物や電話番号で避けられ、別の数は結婚式や開店で歓迎される。こうした考えは科学に基づかないかもしれないが、人々には本当の意味を持ち、大切な日の選択を形づくる。この日のような日付は、文化が暦に彩りを添える様子を示す。表面上はただの夏の一日が、数字の並び方だけで、祝い、結婚し、何かを始める理由になる。日本文化の学習者には、こうした習わしは社会の考え方をのぞく親しみやすい窓だ。セールや結婚式の背後には、穏やかで希望に満ちた考えがある——適切な時機と少しの幸運があれば、人生は育ち、広がり、良くなり続けられる、という。",
+        quiz: [
+          { q: "2026年8月8日が縁起が良いとされた理由は？", options: ["令和8年8月8日と三つの八が並ぶから", "国民の祝日だから", "満月だったから"], answer: 0 },
+          { q: "なぜ八が好ましい数とされるのか？", options: ["字の形が下へ広がり末広がりの繁栄に結びつくから", "数が大きいから", "発音が短いから"], answer: 0 },
+          { q: "本文が縁起の数について述べることは？", options: ["科学に基づかなくとも人々に本当の意味を持つ", "全て科学的に証明された事実である", "日本だけに存在する考えである"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0808-5",
+        title: "A Visitor from the Early Solar System",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "One day, a rock crashed through the roof of a house, startling the people inside. It turned out to be a meteorite — a piece of an asteroid that had traveled through space for billions of years before landing on Earth. When scientists examined it, they found something remarkable: traces of ancient salty water, organic compounds, and even amino acids, the building blocks of proteins.\nWhy is such a rock so valuable? Meteorites are like time capsules from the birth of the solar system. While Earth has changed enormously over billions of years, small asteroids have stayed almost the same. Studying a meteorite lets scientists look back to a time long before our planet formed its oceans and life.\nThe discovery of amino acids is especially exciting. Amino acids are essential to life as we know it. Finding them inside a space rock suggests that some of the ingredients for life may form in space and be delivered to planets by falling meteorites. This does not mean the rock carried life, only some of its chemical building blocks.\nScientists study such samples with great care, using powerful instruments to read their chemistry without contaminating them. Each meteorite adds a small clue to a very big question: how did life begin?\nThe fallen rock is a reminder that the universe is not far away and separate from us. Material from distant asteroids reaches Earth, carrying stories from the deep past — and perhaps hints about how, on at least one small planet, lifeless chemistry once became something alive.",
+        summaryJa: "ある日、一つの岩が家の屋根を突き破り、中の人々を驚かせた。それは隕石だった——地球に落ちる前、何十億年も宇宙を旅した小惑星のかけらだ。科学者が調べると、驚くべきものを見つけた。古い塩水の痕跡、有機化合物、そしてタンパク質の構成要素であるアミノ酸までも。なぜそんな岩が価値あるのか。隕石は太陽系誕生時のタイムカプセルのようなものだ。地球は何十億年で大きく変わったが、小さな小惑星はほとんど変わらないままだった。隕石を研究することで、科学者は地球が海や生命を形づくるはるか前の時代を振り返れる。アミノ酸の発見は特に胸躍る。アミノ酸は私たちの知る生命に不可欠だ。宇宙の岩の中にそれを見つけたことは、生命の材料の一部が宇宙で形成され、落ちてくる隕石によって惑星に運ばれうることを示唆する。これは岩が生命を運んだという意味ではなく、その化学的な構成要素の一部だけだ。科学者はこうした試料を、汚染せずに化学を読み取る強力な機器を使い、細心の注意で研究する。各隕石が、非常に大きな問い——生命はどう始まったのか——に小さな手がかりを加える。落ちてきた岩は、宇宙が私たちから遠く隔たってはいないことを思い出させる。遠い小惑星の物質が地球に届き、深い過去の物語を運ぶ——そしておそらく、少なくとも一つの小さな惑星で、生命なき化学がかつてどう生きたものになったかのヒントも。",
+        quiz: [
+          { q: "隕石の中から見つかったものは？", options: ["古い塩水の痕跡・有機化合物・アミノ酸", "金と銀", "生きた動物"], answer: 0 },
+          { q: "隕石が価値ある理由は？", options: ["太陽系誕生時のほぼ変わらないタイムカプセルだから", "高価な宝石だから", "最近作られたものだから"], answer: 0 },
+          { q: "アミノ酸の発見が示唆することは？", options: ["生命の材料の一部が宇宙で形成され惑星に運ばれうる", "岩が生命そのものを運んだ", "生命は不要である"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-07",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "研究者が漁村で気づいた傾向は？", options: ["多くの赤ちゃんが早く生まれていた", "魚が減っていた", "人口が増えていた"], answer: 0 },
           { q: "早産がなぜ問題になりうるのか？", options: ["臓器が子宮の外での生活に十分準備できていないことがある", "赤ちゃんが大きすぎるから", "医療が不要だから"], answer: 0 },
           { q: "研究者が試す手頃な対策は？", options: ["母親の栄養改善・清潔な水・定期健診", "何もしないこと", "村を閉じること"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-01",
-    passages: [
-      {
-        id: "d0801-1",
-        title: "Turning Trash into Treasure",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "For most of the last century, business followed a simple line: make a product, sell it, and let the customer throw it away. A different idea is now gaining ground, called the 'circular economy.' Instead of ending as waste, products and materials are reused, repaired, and remade — and companies are discovering that this can be good for profits as well as the planet.\nHow does waste become valuable? A worn-out phone contains gold, copper, and other useful metals. Old clothing can be turned into new fabric. Even food scraps can become fertilizer or energy. When a company recovers these materials, it buys fewer new ones, which can lower costs and reduce its dependence on unstable supplies.\nMany businesses are building this thinking into their plans. Some sell products as a service, keeping ownership and taking items back to refurbish and resell. Others design goods to be taken apart easily, so parts can be reused. A growing industry now specializes in collecting and processing what others discard.\nThere are obstacles. Recycling can be expensive, and some products are hard to take apart. New rules and better technology are often needed to make the numbers work.\nStill, the direction is clear. As raw materials grow scarcer and customers care more about the environment, treating waste as a resource is becoming smart business. The old line — make, sell, throw away — is slowly bending into a circle, where yesterday's trash becomes tomorrow's raw material.",
-        summaryJa: "前世紀の大半、ビジネスは単純な道筋をたどった——作って売り、客が捨てる。いま別の考え方「サーキュラーエコノミー（循環経済）」が広がっている。製品や素材を廃棄で終わらせず、再利用・修理・再生する——そしてこれが地球だけでなく利益にも良いと企業は気づきつつある。廃棄物がどう価値になるのか。使い古した携帯には金・銅など有用な金属が入り、古着は新しい生地になり、生ごみさえ肥料やエネルギーになる。素材を回収すれば新品の購入が減り、コスト低下と不安定な供給への依存軽減につながる。多くの企業がこの発想を計画に組み込む。製品をサービスとして売り所有権を保ち、回収して再生・再販する企業、簡単に分解できるよう設計し部品を再利用する企業もある。他人が捨てる物を集め処理する産業も成長している。障害もある——リサイクルは高価で、分解が難しい製品もあり、採算を合わせるには新たな規則や技術が要る。それでも方向は明確だ。原材料が希少になり客が環境を気にかける中、廃棄物を資源と捉えることは賢い商売になりつつある。「作る・売る・捨てる」の直線は、昨日のごみが明日の原材料になる円へと、ゆっくり曲がっている。",
-        quiz: [
-          { q: "「循環経済」の考え方とは？", options: ["製品や素材を再利用・修理・再生する", "もっと速く捨てる", "何も作らない"], answer: 0 },
-          { q: "廃棄物の回収が企業に利益をもたらす理由は？", options: ["新品の購入が減りコストや供給依存が下がるから", "ごみが無料でもらえるから", "客が自動的に増えるから"], answer: 0 },
-          { q: "本文が挙げる障害は？", options: ["リサイクルは高価で分解が難しい製品もある", "廃棄物が存在しない", "素材が無限にある"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0801-2",
-        title: "A New Way to Recycle Plastic",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Plastic is one of the world's most useful materials, but also one of its biggest waste problems. Much of it is never recycled, partly because there are many different kinds, and sorting them apart is slow and expensive. Now scientists have described a new chemical process that could change this: a method that turns several common types of plastic into pure hydrogen gas — without sorting them first.\nWhy does that matter? Hydrogen is a clean fuel. When it burns or is used in a fuel cell, it produces mostly water, not the gases that warm the planet. If mixed plastic waste could be turned cheaply into hydrogen, two problems might be eased at once: less plastic piling up, and more clean energy available.\nThe process works by using chemistry to break the long molecules in plastic into simpler pieces, releasing hydrogen along the way. Because it can handle a mixture, it removes one of the hardest and most costly steps in ordinary recycling — the careful separation of different plastics.\nIt is important to stay cautious. A promising result in the laboratory does not always work at the scale of a real factory, and questions of cost, energy use, and safety must be answered first. Years of testing usually lie between a discovery and everyday use.\nStill, the idea is appealing: taking something we struggle to get rid of and turning it into something we badly need. It is a reminder that clever chemistry can open new doors in the fight against waste.",
-        summaryJa: "プラスチックは世界で最も有用な素材の一つだが、最大級の廃棄物問題でもある。多くは決して再生されない——種類が多く、分別が遅く高価なことも一因だ。いま科学者が、これを変えうる新しい化学プロセスを発表した。数種類の一般的なプラスチックを、分別せずに純粋な水素ガスに変える方法だ。なぜ重要か。水素はクリーンな燃料で、燃やしても燃料電池で使っても主に水を生じ、温暖化ガスを出さない。混ざったプラスチックごみを安く水素に変えられれば、プラスチックの山が減り、クリーンエネルギーが増えるという二つの問題を同時に和らげうる。この工程は化学の力でプラスチックの長い分子を単純な断片に分解し、その過程で水素を放出する。混合物を扱えるため、通常のリサイクルで最も難しく高価な工程——異なるプラスチックの丁寧な分別——を省ける。ただし慎重さも要る。実験室の好結果が実際の工場規模で常に通用するとは限らず、費用・エネルギー・安全の問いにまず答えねばならない。発見から日常利用までには通常何年もの試験がある。それでも、捨てるのに苦労する物を、切実に必要な物へ変えるという発想は魅力的だ。巧妙な化学が廃棄物との闘いに新たな扉を開きうることを思い出させる。",
-        quiz: [
-          { q: "プラスチックの多くが再生されない一因は？", options: ["種類が多く分別が遅く高価だから", "有用でないから", "燃えないから"], answer: 0 },
-          { q: "新プロセスがプラスチックから作るものは？", options: ["クリーンな燃料である水素", "新しいプラスチック", "金属"], answer: 0 },
-          { q: "本文が促す慎重さの理由は？", options: ["実験室の結果が工場規模で常に通用するとは限らない", "化学は危険すぎる", "水素は役に立たない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0801-3",
-        title: "Countries Team Up to Explore the Moon",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Space exploration was once a contest between two superpowers. Today it looks more like a group project. Recently, space experts from India and Japan met to review progress on a shared mission to explore the Moon, a sign of how nations increasingly join forces to reach beyond Earth.\nWhy work together? Space missions are extremely expensive and technically difficult. By sharing the cost, the risk, and the knowledge, two countries can attempt things that would be hard to manage alone. One partner may build part of the spacecraft, another may provide instruments or a landing system, and both share the scientific results.\nThe Moon is a popular destination again for good reasons. Scientists want to study its surface and search for water ice, which future explorers could use for drinking or even fuel. The Moon can also serve as a testing ground for the technologies needed to travel farther, one day perhaps to Mars.\nThese partnerships are about more than science. They build trust between countries, train engineers, and grow industries that create jobs back home. A successful mission can become a source of national pride and a symbol of what cooperation can achieve.\nOf course, challenges remain. Partners must coordinate closely across languages, time zones, and different ways of working, and space is unforgiving of mistakes. Yet the trend is clear: as humanity reaches for the Moon and beyond, it is increasingly doing so hand in hand, sharing both the burdens and the rewards of exploration.",
-        summaryJa: "宇宙探査はかつて二つの超大国の競争だった。今日ではむしろ共同プロジェクトに見える。最近、インドと日本の宇宙専門家が、月を探査する共同ミッションの進捗を検討するため会合した。地球の外へ届くために各国がますます力を合わせる証だ。なぜ協力するのか。宇宙ミッションは極めて高価で技術的に難しい。費用・リスク・知識を分け合えば、単独では難しいことに挑める。一方が探査機の一部を作り、他方が観測機器や着陸系を提供し、双方が科学的成果を共有する。月が再び人気の目的地なのには理由がある。科学者は表面を研究し、将来の探査者が飲料や燃料に使える水の氷を探したい。月は、いつか火星へ——より遠くへ旅する技術の試験場にもなる。こうした協力は科学以上の意味を持つ。国家間の信頼を築き、技術者を育て、母国で雇用を生む産業を成長させる。成功は国民の誇りとなり、協力が成し遂げうるものの象徴になる。もちろん課題は残る。言語・時差・仕事の進め方の違いを越えて緊密に調整せねばならず、宇宙は失敗を許さない。それでも流れは明確だ。人類は月やその先へ手を伸ばすとき、負担も報酬も分かち合いながら、ますます手を取り合って進んでいる。",
-        quiz: [
-          { q: "各国が宇宙で協力する理由は？", options: ["費用・リスク・知識を分け合えるから", "宇宙が安いから", "一国では危険がないから"], answer: 0 },
-          { q: "科学者が月で探したいものは？", options: ["飲料や燃料に使える水の氷", "金の鉱山", "新しい大陸"], answer: 0 },
-          { q: "宇宙協力が科学以外にもたらすものは？", options: ["国家間の信頼・技術者育成・雇用", "戦争", "孤立"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0801-4",
-        title: "More Japanese Fathers Take Time Off",
-        level: "★★☆",
-        genre: "日本",
-        text: "For the first time, more than half of new fathers working in Japan took child-care leave, according to figures for the past fiscal year. It is a striking change in a country where, not long ago, very few men stepped away from work to help raise a baby. The shift reflects new laws, company efforts, and slowly changing attitudes about family and work.\nWhy does this matter? Raising a newborn is hard, and support in the early weeks makes a real difference. When both parents can share the care, mothers recover more easily and are more likely to keep their careers, while fathers build a closer bond with their children. Families become more equal, and the pressure does not fall on one person alone.\nSeveral forces pushed the numbers up. The government strengthened rules that let fathers take leave and encouraged companies to inform employees of their rights. Some firms now treat taking leave as normal and expected, rather than a favor. Younger workers, in particular, increasingly want time with their families.\nChallenges remain. In some workplaces, men still worry that taking leave could hurt their careers, and small companies may find it harder to cover for absent staff. The length of leave men take is often still short.\nEven so, crossing the halfway mark is a milestone. It suggests that ideas about work and fatherhood in Japan are changing — and that policies, when paired with shifting attitudes, really can reshape how a society balances work and family life.",
-        summaryJa: "前年度の統計で初めて、日本で働く新米父親の半数超が育児休業を取得した。少し前まで赤ちゃんの世話のために仕事を離れる男性がごくわずかだった国での、際立った変化だ。新しい法律、企業の取り組み、家庭と仕事に関する少しずつの意識変化を映している。なぜ重要か。新生児の育児は大変で、最初の数週間の支えは大きな違いを生む。両親が世話を分け合えれば、母親は回復しやすくキャリアを続けやすくなり、父親は子とより深い絆を築く。家庭はより対等になり、負担が一人に集中しない。数字を押し上げた力はいくつかある。政府は父親の休業取得を促す規則を強化し、企業に権利の周知を促した。休業を「恩恵」でなく当然のことと扱う企業もある。特に若い世代が家族との時間を望むようになっている。課題は残る。取得がキャリアに響くと心配する男性、休んだ人員を補いにくい小企業もあり、取得期間はなお短いことが多い。それでも半数超えは節目だ。仕事と父親であることをめぐる日本の考え方が変わりつつあり、政策が意識の変化と結びつけば、社会の仕事と家庭の両立の仕方を本当に作り替えうることを示している。",
-        quiz: [
-          { q: "日本で初めて起きた変化とは？", options: ["新米父親の半数超が育児休業を取得した", "父親が全員退職した", "育児休業が廃止された"], answer: 0 },
-          { q: "両親が世話を分け合う利点は？", options: ["母親がキャリアを続けやすく父子の絆も深まる", "誰も休めなくなる", "費用が増えるだけ"], answer: 0 },
-          { q: "本文が挙げる残る課題は？", options: ["キャリアへの不安や小企業の人員補充の難しさ", "男性が多すぎること", "赤ちゃんがいないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0801-5",
-        title: "What Ancient DNA Tells Us About Ourselves",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "The story of where humans come from keeps growing more surprising. Scientists studying ancient DNA have found signs that modern people carry small pieces of genetic material from two mysterious, long-extinct groups of early humans — in addition to the Neanderthals and Denisovans already known. In other words, our ancestors mixed with more kinds of relatives than we once believed.\nHow can researchers know this? Every person's DNA is a kind of record, passed down and slightly changed over thousands of generations. By comparing the DNA of many people living today, and sometimes DNA taken from very old bones, scientists can spot unusual patterns. Some sections do not match any known group, hinting at ancestors we have not yet identified.\nWhy does this matter? These findings reshape the human family tree. They suggest that early humans did not live in neat, separate branches, but met, traveled, and had children together across the ancient world. A little of those vanished peoples still lives on inside us today.\nThe research also has practical value. Genes inherited from ancient relatives can affect how our bodies handle disease, altitude, or diet, so understanding this history may help medicine.\nThere is still much we do not know, and new discoveries may change the picture again. But that is part of the appeal. Each fragment of ancient DNA is like a sentence from a lost book, slowly helping us read the long, tangled, and deeply human story of where we all came from.",
-        summaryJa: "人類がどこから来たのかという物語は、ますます驚きを増している。古代DNAを研究する科学者は、現代人が、既知のネアンデルタール人やデニソワ人に加えて、二つの謎めいた絶滅した初期人類の遺伝物質のかけらを受け継いでいる兆候を見つけた。つまり私たちの祖先は、かつて考えられていたより多くの種類の親戚と混ざり合っていた。なぜ分かるのか。人のDNAは一種の記録で、何千世代も受け継がれ少しずつ変化する。今生きる多くの人のDNAや、時に非常に古い骨から採ったDNAを比べ、科学者は珍しい模様を見つける。既知のどの集団とも一致しない部分が、まだ特定されていない祖先を示唆する。なぜ重要か。この発見は人類の家系図を描き直す。初期人類は整然と分かれた枝に住んでいたのでなく、古代世界で出会い、旅し、子をもうけたことを示す。消えた人々の一部が今も私たちの中に生きている。研究は実用的価値も持つ。古代の親戚から受け継いだ遺伝子は、病気・高地・食事への体の対応に影響しうるため、この歴史の理解は医療に役立つかもしれない。分からないことはなお多く、新発見が再び絵を変えるかもしれない。だがそれこそ魅力だ。古代DNAの断片一つ一つは失われた本の一文のようで、私たちがどこから来たのかという長く絡み合った、深く人間的な物語を少しずつ読み解かせてくれる。",
-        quiz: [
-          { q: "科学者が見つけた兆候とは？", options: ["現代人が未知の絶滅集団のDNAも受け継いでいる", "人類は一種類だけだった", "DNAは変化しない"], answer: 0 },
-          { q: "研究者がこれを知る方法は？", options: ["多くの人や古い骨のDNAを比べ珍しい模様を見つける", "化石の色を見る", "推測だけで決める"], answer: 0 },
-          { q: "この発見が示すことは？", options: ["初期人類は出会い交わっていて家系図を描き直す", "人類は常に孤立していた", "祖先はただ一つだった"], answer: 0 }
         ]
       }
     ]
