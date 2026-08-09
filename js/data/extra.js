@@ -55,7 +55,19 @@ KE_DATA.extraSentences = [
   { id: "w2631-s09", ja: "来週までに一次案をお送りします。", en: "I'll send you a first draft by next week.", note: "first draft = 初稿・一次案" },
   { id: "w2631-s10", ja: "恐れ入りますが、もう一度ご説明いただけますか。", en: "Sorry, could you run that by me again?", note: "run that by me = もう一度説明して" },
   { id: "w2631-s11", ja: "この点は譲れませんが、他は柔軟に対応します。", en: "This point is non-negotiable, but we're flexible on the rest.", note: "non-negotiable = 譲れない" },
-  { id: "w2631-s12", ja: "全員の合意が取れたと理解してよいですか。", en: "Can I take it that we're all in agreement?", note: "take it that = 〜と理解する" }
+  { id: "w2631-s12", ja: "全員の合意が取れたと理解してよいですか。", en: "Can I take it that we're all in agreement?", note: "take it that = 〜と理解する" },
+  { id: "w2632-s01", ja: "今日はお時間をいただきありがとうございます。", en: "Thank you for taking the time to meet today.", note: "会議冒頭の定番" },
+  { id: "w2632-s02", ja: "結論としては、この案で進めたいと考えています。", en: "In conclusion, we'd like to move forward with this plan.", note: "in conclusion = 結論として" },
+  { id: "w2632-s03", ja: "その見積もりには予備の費用も含まれていますか。", en: "Does that estimate include a buffer for extra costs?", note: "buffer = 予備・余裕" },
+  { id: "w2632-s04", ja: "念のため、前提を一つ確認させてください。", en: "Just to be sure, let me confirm one assumption.", note: "assumption = 前提" },
+  { id: "w2632-s05", ja: "今の段階では何とも言えません。", en: "It's too early to say at this point.", note: "様子見の丁寧な言い方" },
+  { id: "w2632-s06", ja: "その課題は私のほうで引き取ります。", en: "I'll take ownership of that issue.", note: "take ownership = 責任を持って担当する" },
+  { id: "w2632-s07", ja: "優先順位を一緒に整理しましょう。", en: "Let's sort out our priorities together.", note: "sort out = 整理する" },
+  { id: "w2632-s08", ja: "この提案の狙いを一言で言うと、コスト削減です。", en: "In a nutshell, this proposal is about cutting costs.", note: "in a nutshell = 一言で言えば" },
+  { id: "w2632-s09", ja: "締切を一週間延ばしていただくことは可能でしょうか。", en: "Would it be possible to push the deadline back a week?", note: "push back = 後ろ倒しにする" },
+  { id: "w2632-s10", ja: "その点は次回までの宿題にさせてください。", en: "Let me take that as an action item for next time.", note: "action item = 宿題・対応事項" },
+  { id: "w2632-s11", ja: "数字の裏付けを添えて説明します。", en: "I'll explain it with the numbers to back it up.", note: "back up = 裏付ける" },
+  { id: "w2632-s12", ja: "認識が合っているか、最後に確認させてください。", en: "Let me check at the end that we're aligned.", note: "aligned = 認識が一致した" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -75,7 +87,15 @@ KE_DATA.extraPhrases = [
   { id: "w2630-p05", en: "I'll take it from here.", ja: "ここからは私が引き継ぎます。", tip: "take it from here = 以降を引き受ける" },
   { id: "w2630-p06", en: "Let's touch base next week.", ja: "来週、状況をすり合わせましょう。", tip: "touch base = 近況を確認し合う" },
   { id: "w2630-p07", en: "That's a hard no for us, unfortunately.", ja: "残念ですが、それは我々には受け入れられません。", tip: "a hard no = きっぱりした拒否" },
-  { id: "w2630-p08", en: "Let's circle back once we have the data.", ja: "データが揃ってから改めて議論しましょう。", tip: "circle back = 後で改めて取り上げる" }
+  { id: "w2630-p08", en: "Let's circle back once we have the data.", ja: "データが揃ってから改めて議論しましょう。", tip: "circle back = 後で改めて取り上げる" },
+  { id: "w2632-p01", en: "Let me get back to you on that.", ja: "その件は後ほど回答します。", tip: "即答を避ける丁寧な保留" },
+  { id: "w2632-p02", en: "Correct me if I'm wrong, but ...", ja: "間違っていたら指摘してほしいのですが…", tip: "やわらかく確認・反論する前置き" },
+  { id: "w2632-p03", en: "That's a good point.", ja: "それは良い指摘ですね。", tip: "相手の意見を受け止める一言" },
+  { id: "w2632-p04", en: "Let's keep it simple.", ja: "シンプルにいきましょう。", tip: "複雑化を避ける提案" },
+  { id: "w2632-p05", en: "Can we put a pin in that for now?", ja: "それは一旦保留にできますか。", tip: "put a pin in = 一旦置いておく" },
+  { id: "w2632-p06", en: "I'll loop you in when it's ready.", ja: "準備ができたら共有します。", tip: "loop you in = 情報共有の輪に入れる" },
+  { id: "w2632-p07", en: "Where do we go from here?", ja: "ここからどう進めましょうか。", tip: "次の一手を促す" },
+  { id: "w2632-p08", en: "Let's call it a day.", ja: "今日はここまでにしましょう。", tip: "会議・作業を切り上げる定番" }
 ];
 
 /* シャドーイングの追加スクリプト（shadowing.js と同スキーマ） */
@@ -151,6 +171,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "That makes sense. Let me know if you need more people.", ja: "理にかなっていますね。人手が要るなら言ってください。" },
       { s: "B", en: "Thanks. I'll send an updated schedule by end of day.", ja: "ありがとうございます。今日中に更新版のスケジュールをお送りします。" }
     ]
+  },
+  {
+    id: "w2632-sh1",
+    title: "プロジェクトのキックオフ会議",
+    level: "★★☆",
+    description: "新規プロジェクトの冒頭で、目的・役割・進め方の期待値をすり合わせる場面。合意形成と確認の言い回しを体に入れる。",
+    lines: [
+      { s: "A", en: "Welcome, everyone. Let's kick off our new project today.", ja: "皆さん、ようこそ。今日は新プロジェクトを始めましょう。" },
+      { s: "B", en: "Great. Could you start by sharing the main goal?", ja: "いいですね。まず主な目的を共有してもらえますか？" },
+      { s: "A", en: "Sure. Our goal is to launch the new service by the end of the year.", ja: "もちろん。目的は、年末までに新サービスを立ち上げることです。" },
+      { s: "B", en: "Understood. Who will be responsible for each part?", ja: "承知しました。各パートの担当は誰になりますか？" },
+      { s: "A", en: "I'll handle planning, and I'd like you to lead the design.", ja: "私が企画を担当し、あなたにはデザインを主導してほしいです。" },
+      { s: "B", en: "Happy to. When do you need the first draft?", ja: "喜んで。最初の案はいつ必要ですか？" },
+      { s: "A", en: "Let's aim for two weeks from now, if that works for you.", ja: "問題なければ、今から2週間後を目指しましょう。" },
+      { s: "B", en: "That works. Let's also agree on how often we'll meet.", ja: "大丈夫です。どのくらいの頻度で会うかも決めましょう。" },
+      { s: "A", en: "Good idea. How about a short check-in every Monday?", ja: "いい考えですね。毎週月曜の短い進捗確認はどうですか？" },
+      { s: "B", en: "Perfect. Then we're all aligned. Let's get started.", ja: "完璧です。では認識は揃いましたね。始めましょう。" }
+    ]
   }
 ];
 
@@ -203,6 +241,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2631-t03", ja: "AI企業は、報道機関や作家の作品を使うとき対価を払うべきだと思いますか？", en: "Should AI companies pay news publishers and writers when they use their work?",
     sample: { point: "Yes, I think AI companies should pay publishers and writers for the work they rely on.", reason: "The main reason is that AI systems are trained on human-made articles and books, and creators need income to keep producing them.", example: "For example, if readers get all their answers from AI and news sites lose visitors, the reporting that AI depends on could slowly disappear.", point2: "So paying original sources is not only fair — it protects the very information that makes AI useful." }
+  },
+  {
+    id: "w2632-t01", ja: "企業は週4日勤務を導入すべきだと思いますか？", en: "Should companies adopt a four-day work week?",
+    sample: { point: "I think a four-day work week is worth trying, at least in the right industries.", reason: "The main reason is that well-rested workers are often more focused and productive, so output may not fall as much as people fear.", example: "For example, trials in countries such as Iceland found that many workers kept the same output while reporting less stress and better health.", point2: "So a shorter week is not only about free time — it could be a smarter way to work." }
+  },
+  {
+    id: "w2632-t02", ja: "政府は食品などの生活必需品の税を下げて家計を助けるべきだと思いますか？", en: "Should governments cut taxes on essentials like food to help households?",
+    sample: { point: "Yes, I believe cutting taxes on essentials like food is a fair way to help struggling households.", reason: "This is because everyone must buy food, so a tax on it hits low-income families the hardest.", example: "For example, some governments have recently lowered the tax on food and drinks to ease the pressure of rising prices.", point2: "So targeting relief at essentials is a sensible way to support people who need it most." }
+  },
+  {
+    id: "w2632-t03", ja: "AIは、人間ではないことを常に相手に明かすべきだと思いますか？", en: "Should an AI always be required to tell people it is not human?",
+    sample: { point: "Yes, I strongly believe an AI should always make clear that it is not a human.", reason: "The main reason is that people deserve to know who, or what, they are really dealing with, especially when making decisions.", example: "For example, new rules in Europe now require AI systems to identify themselves, so users are not tricked into thinking a machine is a person.", point2: "So honesty about being an AI is a basic form of respect for the people who use it." }
   }
 ];
 
