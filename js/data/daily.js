@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-09",
+    passages: [
+      {
+        id: "d0809-1",
+        title: "Why Markets React to Elections",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "When a country holds an election, the results can move more than just its government — they can move its financial markets too. Recently, stock markets in Asia rose after an election in Japan, as investors expected the new political situation to lead to more government spending. But why should a vote change the price of shares?\nThe key is expectations. Stock prices reflect what investors think will happen in the future, not just what is happening now. An election can change those expectations. If investors believe a new government will spend more, cut taxes, or support certain industries, they may expect companies to earn more — and buy their shares, pushing prices up.\nDifferent policies affect different businesses. A promise to spend on construction may lift building companies, while plans for clean energy may boost solar or battery firms. Investors try to guess who will benefit and act quickly, often before any policy is actually put in place.\nMarkets can also fall after elections, if the result brings uncertainty or policies that worry investors. What markets dislike most is not any single outcome, but confusion about what will happen next.\nIt is important to remember that these early moves are guesses, not guarantees. Promises made in a campaign do not always become reality, and the economy depends on far more than one election.\nStill, the link is real. An election is not only a political event; it is also a moment when millions of investors quietly rewrite their expectations about the future — and money moves as a result.",
+        summaryJa: "国が選挙を行うと、その結果は政府だけでなく金融市場も動かしうる。最近、日本の選挙の後、投資家が新しい政治状況はより多くの政府支出につながると期待し、アジアの株式市場が上昇した。だがなぜ投票が株価を変えるのか。鍵は「期待」だ。株価は、今起きていることだけでなく、投資家が将来起きると考えることを映す。選挙はその期待を変えうる。新政府がより多く支出し、減税し、特定の産業を支えると投資家が信じれば、企業がより稼ぐと期待し、株を買って価格を押し上げうる。政策ごとに影響する事業は異なる。建設への支出の約束は建設会社を押し上げ、クリーンエネルギーの計画は太陽光や電池の企業を押し上げうる。投資家は誰が恩恵を受けるか推測し、政策が実際に実施される前に素早く動くことが多い。選挙後に市場が下がることもある——結果が不確実性や投資家を不安にさせる政策をもたらせば。市場が最も嫌うのは、特定の結果でなく、次に何が起きるかの混乱だ。こうした早い動きは推測であって保証ではないと覚えておくことが重要だ。選挙戦の約束は常に現実になるとは限らず、経済は一つの選挙よりはるかに多くに左右される。それでも結びつきは本物だ。選挙は政治的な出来事だけでなく、何百万もの投資家が将来への期待を静かに書き換える瞬間でもあり——その結果、お金が動く。",
+        quiz: [
+          { q: "選挙が株価を動かす鍵は？", options: ["投資家の将来への「期待」が変わること", "天気が変わること", "株の数が減ること"], answer: 0 },
+          { q: "政策ごとに影響が異なる例は？", options: ["建設支出は建設会社、クリーンエネ計画は太陽光や電池を押し上げる", "全企業が同じように動く", "影響は全くない"], answer: 0 },
+          { q: "市場が最も嫌うものは？", options: ["次に何が起きるかの混乱（不確実性）", "支出の増加", "減税"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0809-2",
+        title: "Tiny Cleaners Underground",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Some of the most powerful tools for cleaning up pollution may be too small to see. Deep underground, scientists have found, certain bacteria can trap toxic uranium, locking it in place so it cannot spread through soil and water. This natural ability could one day help clean up dangerous pollution left by mining and industry.\nHow can bacteria do this? These tiny living things carry out chemical reactions as part of their normal lives. In some cases, those reactions change harmful metals like uranium into forms that do not dissolve in water. Instead of flowing away and spreading, the uranium becomes solid and stays put, safely trapped underground.\nWhy is this useful? Toxic metals from old mines or factories can seep into groundwater, threatening drinking water and harming health. Cleaning such pollution with machines is expensive and difficult, especially deep below the surface. Using bacteria that are already there — a method called bioremediation — could be cheaper and gentler on the environment.\nThere are challenges. Scientists must understand exactly how the bacteria work, make sure the trapped metal stays locked away, and check that helping these microbes does not cause other problems. Nature is complex, and every action has side effects.\nStill, the idea is inspiring. It shows that solutions to human-made problems can come from unexpected places — even from invisible life beneath our feet. By working with nature rather than against it, scientists hope to turn tiny bacteria into quiet, tireless helpers in the effort to heal polluted land.",
+        summaryJa: "汚染を浄化する最も強力な道具のいくつかは、目に見えないほど小さいかもしれない。地下深くで、ある種の細菌が有毒なウランを捕らえ、その場に固定して土壌や水中に広がらないようにできることを科学者が見つけた。この自然の能力は、いつか採掘や産業が残した危険な汚染の浄化を助けうる。細菌はどうやってこれを行うのか。この小さな生き物は、通常の生活の一部として化学反応を行う。場合によっては、その反応がウランのような有害金属を水に溶けない形へ変える。流れ去って広がる代わりに、ウランは固体になりその場にとどまり、地下に安全に閉じ込められる。なぜ有用か。古い鉱山や工場からの有毒金属は地下水に染み込み、飲料水を脅かし健康を害しうる。そうした汚染を機械で浄化するのは高価で難しく、特に地表の深くではなおさらだ。既にそこにいる細菌を使う方法——バイオレメディエーション（生物学的浄化）——は、より安価で環境に優しくなりうる。課題もある。科学者は細菌の働きを正確に理解し、捕らえた金属が閉じ込められたままか確かめ、この微生物を助けることが別の問題を起こさないか確認せねばならない。自然は複雑で、あらゆる行動に副作用がある。それでもこの発想は心を打つ。人間が作った問題への解決策が、思わぬ場所——足下の見えない生命からさえ——来うることを示す。自然に逆らうのでなく共に働くことで、科学者は小さな細菌を、汚染された土地を癒す静かでたゆまぬ助け手に変えたいと願う。",
+        quiz: [
+          { q: "地下の細菌ができることは？", options: ["有毒なウランを溶けない形にして固定する", "金を作ること", "水を増やすこと"], answer: 0 },
+          { q: "細菌を使う浄化（バイオレメディエーション）の利点は？", options: ["機械より安価で環境に優しくなりうる", "必ず一瞬で終わる", "副作用が全くない"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["働きの理解や別の問題を起こさないかの確認が必要", "細菌が大きすぎること", "ウランが安全なこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0809-3",
+        title: "When the World Plays Together",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Few events bring the world together like a major international sports tournament. When teams from many countries gather to compete, billions of people watch, cheer, and share the same moments of excitement. Beyond the games themselves, such events have a big impact on business, cities, and the relationships between nations.\nWhy do these tournaments matter so much? For the host countries, they bring huge numbers of visitors, along with money for hotels, restaurants, and transport. Cities build new stadiums, train stations, and parks, some of which serve local people for years afterward. Companies pay large sums to sponsor teams and advertise to a global audience.\nThere are cultural benefits too. When people from different countries meet as fans, players, and visitors, they share food, language, and customs. A tournament can soften borders for a few weeks, reminding people how much they have in common through a simple love of the game.\nOf course, hosting is not without problems. Building stadiums is expensive, and some are little used after the event. Large crowds require careful planning for safety and transport. Not every promise of lasting benefit comes true.\nStill, the appeal endures. A global tournament is one of the rare moments when the whole world pays attention to the same thing at the same time — not a conflict or a crisis, but a game. In a divided world, that shared joy, however brief, is itself something worth celebrating, connecting strangers across continents through the simple drama of sport.",
+        summaryJa: "大きな国際スポーツ大会ほど世界を一つにする出来事は少ない。多くの国のチームが集まって競うと、何十億もの人が見て、応援し、同じ興奮の瞬間を分かち合う。試合そのものを超え、こうした大会はビジネス・都市・国家間の関係に大きな影響を与える。なぜこれらの大会がそれほど重要か。開催国には、膨大な数の来訪者と、ホテル・飲食・交通へのお金をもたらす。都市は新しいスタジアム・駅・公園を建て、その一部は後々何年も地元の人々に役立つ。企業はチームの協賛や世界的な観客への広告に多額を払う。文化的な利点もある。異なる国の人々がファン・選手・来訪者として出会うと、食・言語・習慣を分かち合う。大会は数週間、国境を和らげ、単純な競技への愛を通じて人々がいかに多くの共通点を持つかを思い出させうる。もちろん開催に問題がないわけではない。スタジアム建設は高価で、一部は大会後ほとんど使われない。大群衆は安全と交通の入念な計画を要する。持続的利益の約束が全て叶うわけではない。それでも魅力は続く。世界的な大会は、世界全体が同時に同じもの——対立や危機でなく、一つの試合——に注目する稀な瞬間の一つだ。分断された世界で、その分かち合う喜びは、たとえ短くとも、それ自体祝う価値がある。単純なスポーツのドラマを通じ、大陸を越えて見知らぬ者同士をつなぐのだ。",
+        quiz: [
+          { q: "国際スポーツ大会が開催国にもたらすものは？", options: ["多くの来訪者とホテル・交通などへのお金", "戦争", "孤立"], answer: 0 },
+          { q: "大会の文化的な利点は？", options: ["異なる国の人々が食・言語・習慣を分かち合う", "国境が永久に消える", "言語が一つになる"], answer: 0 },
+          { q: "本文が挙げる開催の問題は？", options: ["スタジアム建設が高価で後で使われないこともある", "観客が全く来ないこと", "試合が行われないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0809-4",
+        title: "The Cooling Custom of Uchimizu",
+        level: "★★☆",
+        genre: "日本",
+        text: "On a hot summer day in Japan, you may see people gently sprinkling water on the street in front of their homes or shops. This simple, old custom is called uchimizu, and it is a gentle way to cool the air and settle the dust. In an age of rising summer temperatures, this centuries-old habit is drawing new interest.\nHow does uchimizu work? When water is spread on a hot surface and then evaporates, it takes heat from the air around it. This is the same reason we feel cool when sweat dries on our skin. A little water on a warm street can lower the temperature nearby by a small but noticeable amount, especially in the shade.\nUchimizu is about more than temperature. Traditionally, sprinkling water was also a way to welcome guests, showing that a space had been prepared and cared for. It carries a feeling of politeness and calm, turning a practical act into a small daily ritual.\nToday, as cities grow hotter, some communities hold uchimizu events, where many people sprinkle water at the same time to cool a whole street. Using leftover or rain water makes the custom friendly to the environment as well.\nOf course, uchimizu alone cannot solve the problem of extreme heat. But it is a gentle reminder that not every solution needs to be high-tech. Sometimes an old, simple habit — a little water, spread with care — can bring a moment of coolness and a touch of tradition to a hot summer day.",
+        summaryJa: "日本の暑い夏の日、家や店の前の道に人々がそっと水をまく光景を見るかもしれない。この単純で古い習わしは「打ち水」と呼ばれ、空気を冷やし埃を鎮める穏やかな方法だ。夏の気温が上がる時代に、この何世紀も続く習慣が新たな関心を集めている。打ち水はどう働くのか。熱い表面に水がまかれて蒸発すると、周りの空気から熱を奪う。汗が肌で乾くと涼しく感じるのと同じ理由だ。暖かい道への少しの水は、特に日陰で、近くの温度をわずかだが感じられるほど下げうる。打ち水は温度だけの話ではない。伝統的に、水をまくことは客を迎える方法でもあり、空間が整えられ心を配られたことを示した。丁寧さと落ち着きの感覚を伴い、実用的な行いを小さな日々の儀式に変える。今日、都市が暑くなる中、多くの人が同時に水をまいて通り全体を冷やす打ち水イベントを開く地域もある。残り水や雨水を使えば、習わしは環境にも優しくなる。もちろん打ち水だけで猛暑の問題は解けない。だが、あらゆる解決策が高度な技術を要するわけではないという穏やかな気づきだ。時に、古く単純な習慣——心を込めてまかれた少しの水——が、暑い夏の日に一瞬の涼しさと伝統の趣をもたらしうる。",
+        quiz: [
+          { q: "「打ち水」とは何をすることか？", options: ["道に水をまいて空気を冷やし埃を鎮める", "道を掃くこと", "花を植えること"], answer: 0 },
+          { q: "打ち水が涼しさを生む仕組みは？", options: ["水が蒸発する際に周りの空気から熱を奪う", "水が光るから", "水が重いから"], answer: 0 },
+          { q: "本文が伝える気づきは？", options: ["あらゆる解決策が高度な技術を要するわけではない", "打ち水で猛暑は完全に解決する", "伝統は無意味だ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0809-5",
+        title: "Ancient Art on an Eggshell",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Long before writing was invented, humans were already creating art. Scientists studying pieces of ostrich eggshell from southern Africa have found that people were engraving them with careful geometric patterns more than sixty thousand years ago. A closer look shows these designs were even more organized and deliberate than experts once believed.\nWhy is this important? Making patterns on purpose is a sign of symbolic thinking — the ability to use marks to carry meaning. This is one of the qualities that makes humans special. Finding such careful designs so long ago suggests that our ancestors had rich, creative minds far earlier than we sometimes imagine.\nWhy ostrich eggshells? In that time and place, ostrich eggs were valuable. Their strong shells could be used as containers to carry water, much like a bottle. Decorating them may have marked ownership, shown group identity, or simply expressed a love of beauty. The patterns may even have been a kind of message, understood by people who shared the same culture.\nStudying these objects is delicate work. The shells are fragile and ancient, so scientists handle them with great care, using close observation and modern tools to understand the patterns without damaging them.\nThe engraved eggshells are a moving reminder of how deeply human creativity runs. Tens of thousands of years ago, someone sat down and carefully carved a design, for reasons we can only partly guess. Across an enormous gulf of time, that simple act of making art still speaks to us — proof that the urge to create is very old indeed.",
+        summaryJa: "文字が発明されるはるか前、人類は既に芸術を生み出していた。南アフリカのダチョウの卵の殻の破片を研究する科学者が、人々が6万年以上前に、丁寧な幾何学模様をそこに彫っていたことを見つけた。よく見ると、これらの意匠は専門家がかつて信じたよりさらに整い、意図的だった。なぜ重要か。意図して模様を作ることは、象徴的思考——印に意味を持たせる能力——の証だ。これは人類を特別にする性質の一つだ。これほど昔にそんな丁寧な意匠が見つかることは、私たちの祖先が、時に想像するよりずっと早くから豊かで創造的な心を持っていたことを示唆する。なぜダチョウの卵の殻か。その時代と場所で、ダチョウの卵は貴重だった。その丈夫な殻は、瓶のように水を運ぶ容器に使えた。装飾は所有を示したり、集団の帰属（アイデンティティ）を表したり、単に美への愛を表したのかもしれない。模様は、同じ文化を共有する人々に理解される一種のメッセージだったことさえありうる。こうした品の研究は繊細な仕事だ。殻は脆く古いので、科学者は細心の注意で扱い、丁寧な観察と現代の道具を使い、傷つけずに模様を理解する。彫られた卵の殻は、人間の創造性がいかに深く流れているかの心打つ気づきだ。何万年も前、誰かが座って丁寧に意匠を刻んだ——その理由を私たちは一部しか推測できない。膨大な時の隔たりを越え、その単純な芸術を作る営みは今も私たちに語りかける——創造したいという衝動が実に古いものである証だ。",
+        quiz: [
+          { q: "科学者が見つけたことは？", options: ["6万年以上前に卵の殻に幾何学模様が彫られていた", "文字が最初に作られた場所", "新種の鳥"], answer: 0 },
+          { q: "意図して模様を作ることが示すのは？", options: ["象徴的思考（印に意味を持たせる能力）", "食べ物の好み", "天気の予測能力"], answer: 0 },
+          { q: "ダチョウの卵の殻が使われた理由は？", options: ["丈夫で水を運ぶ容器に使えたから", "食べられないから", "光るから"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-08",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が解明したことは？", options: ["二つの毒草がどう毒性物質を作るか", "毒草をどう食べるか", "毒草の育て方だけ"], answer: 0 },
           { q: "毒が治療になりうる鍵は？", options: ["用量と標的（微量で有用に働きうる）", "色と香り", "値段の安さ"], answer: 0 },
           { q: "本文が示す教訓は？", options: ["自然界を守ることが重要で毒草も秘密を秘める", "毒は常に無用だ", "自然は危険なだけだ"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-02",
-    passages: [
-      {
-        id: "d0802-1",
-        title: "Japan Bets Big on Chips and AI",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Japan is making one of its boldest economic moves in years. The government has decided to sharply increase its support for two technologies it sees as vital to the future: computer chips and artificial intelligence. This year it is spending several times more than before, aiming to rebuild the country's position as a leader in advanced technology.\nWhy such a large bet? Chips are the tiny brains inside almost every modern device, from phones to cars to factory robots. As AI spreads, demand for powerful chips is soaring, and countries worry about depending too much on others to supply them. By investing at home, Japan hopes to create jobs, strengthen its industries, and avoid being left behind.\nThe strategy has several parts. Public money is helping to build new factories and support companies working on the most advanced chips. The government has also set long-term goals for how much the industry should grow over the coming decades.\nInvestors have noticed. Japan's stock market has climbed to record highs this year, led by companies tied to semiconductors, and a weaker yen has made their exports more competitive abroad.\nThere are risks, of course. Building advanced chip factories is extremely expensive and difficult, and success is not guaranteed. But the message from Tokyo is clear: in the age of AI, Japan intends to compete at the very front, and it is willing to spend heavily to get there.",
-        summaryJa: "日本は近年で最も大胆な経済判断の一つを下している。政府は、未来に不可欠と見る二つの技術——コンピューターチップとAI——への支援を大幅に増やすと決めた。今年は従来の数倍を投じ、先端技術の主導国としての地位再建を目指す。なぜ大きく賭けるのか。チップは携帯から車、工場のロボットまで、ほぼあらゆる現代機器の中の小さな頭脳だ。AIの普及で高性能チップの需要が急増し、各国は供給を他国に頼りすぎることを懸念する。国内に投資することで、日本は雇用を生み、産業を強化し、取り残されるのを避けたい。戦略は複数の柱を持つ。公的資金が新工場の建設や最先端チップに取り組む企業を支え、政府は今後数十年の産業成長の長期目標も掲げた。投資家も注目している。日本の株式市場は半導体関連企業に牽引され今年最高値を更新し、円安が輸出の競争力を高めた。もちろんリスクもある。先端チップ工場の建設は極めて高価で難しく、成功は保証されない。だが東京の発信は明確だ——AIの時代に、日本は最前線で競う意志を持ち、そのために大きく投じる用意がある。",
-        quiz: [
-          { q: "日本政府が支援を大幅に増やす二つの技術は？", options: ["コンピューターチップとAI", "石油と石炭", "農業と漁業"], answer: 0 },
-          { q: "国内投資で日本が狙うことは？", options: ["雇用創出・産業強化・取り残されないこと", "輸入を増やすこと", "技術開発をやめること"], answer: 0 },
-          { q: "今年の日本株の動きは？", options: ["半導体関連に牽引され最高値を更新", "暴落した", "全く変化しなかった"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0802-2",
-        title: "The Rise of Physical AI",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "For years, most artificial intelligence lived on screens. It answered questions, wrote text, and sorted photos, but it did not touch the world around it. That is beginning to change. A new wave of technology, sometimes called 'physical AI,' is putting intelligence into machines that can move, sense, and act in the real world.\nWhat does that look like? Think of a robot that can look at a messy shelf, recognize each item, and carefully pick it up. Or a delivery machine that finds its own way along a busy sidewalk. Instead of only processing information, physical AI combines smart software with cameras, sensors, and motors so that machines can do useful physical tasks.\nWhy is this important now? AI has become much better at understanding images and making quick decisions, while robots have grown cheaper and more capable. Putting the two together opens the door to machines that can help in factories, warehouses, hospitals, and even homes.\nThere are real challenges. The physical world is messy and unpredictable, and a small mistake by a moving machine can cause real harm. Safety, cost, and trust all matter, and progress may be slower than the excitement suggests.\nStill, the direction is striking. If the last wave of AI changed how we work with information, physical AI aims to change how machines work with the world — lifting, sorting, cleaning, and building alongside us, and reshaping many jobs in the process.",
-        summaryJa: "長年、AIの多くは画面の中にいた。質問に答え、文章を書き、写真を整理したが、周囲の世界には触れなかった。それが変わり始めている。「フィジカルAI（物理的AI）」とも呼ばれる新しい波が、現実世界で動き・感じ・行動する機械に知能を吹き込んでいる。どんな姿か。散らかった棚を見て各品を認識し、丁寧に取り上げるロボット。混雑した歩道を自ら進む配送機械。情報を処理するだけでなく、フィジカルAIは賢いソフトをカメラ・センサー・モーターと組み合わせ、機械が役立つ物理的作業を行えるようにする。なぜ今重要か。AIは画像理解や素早い判断が格段に上達し、ロボットは安く高性能になった。両者を結べば、工場・倉庫・病院、さらには家庭で助ける機械への扉が開く。課題も現実的だ。物理世界は雑然として予測しにくく、動く機械の小さな誤りが実害を生みうる。安全・費用・信頼が重要で、進歩は期待より遅いかもしれない。それでも方向は鮮烈だ。前の波が情報との働き方を変えたなら、フィジカルAIは機械と世界の関わり方を変えようとしている——私たちの傍らで持ち上げ、仕分け、掃除し、作り、多くの仕事を作り替えながら。",
-        quiz: [
-          { q: "「フィジカルAI」とは何か？", options: ["現実世界で動き・感じ・行動する機械の知能", "画面の中だけのAI", "新しい携帯電話"], answer: 0 },
-          { q: "今それが可能になった理由は？", options: ["AIの判断力向上とロボットの低価格・高性能化", "世界が単純になったから", "人間が減ったから"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["物理世界は予測しにくく誤りが実害を生む", "機械は完璧である", "現実は単純だ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0802-3",
-        title: "Talking Instead of Fighting",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When tensions rise between countries, the world often fears the worst. But recent news from the Middle East offered a reminder of a different path: instead of launching an attack, several countries pressed for talks, saying that the outline of a possible deal had been reached. Diplomacy, quiet and slow, was given a chance to work.\nWhy does this matter? War brings terrible costs — lost lives, ruined cities, and years of hardship that can last long after the fighting stops. Negotiation, by contrast, tries to find a solution that both sides can accept, even if neither gets everything it wants. It is rarely dramatic, but it can prevent enormous suffering.\nDiplomacy is hard work. It often takes place far from cameras, in long meetings where officials search for common ground. Trust must be built slowly, and a single misunderstanding can undo months of effort. Outside countries sometimes help by carrying messages or offering guarantees.\nOf course, talks can fail, and promises are not always kept. A pause in tension is not the same as lasting peace. History is full of agreements that broke down, as well as ones that held for generations.\nEven so, the willingness to talk is itself meaningful. Choosing negotiation over force, even briefly, keeps the door to a peaceful solution open. For learners watching the world, it is a useful lesson: some of the most important victories are the conflicts that never happen.",
-        summaryJa: "国家間の緊張が高まると、世界はしばしば最悪を恐れる。だが最近の中東のニュースは別の道を思い出させた——攻撃を仕掛ける代わりに、複数の国が対話を強く求め、合意案の輪郭に達したと述べたのだ。静かで遅い外交に、機能する機会が与えられた。なぜ重要か。戦争は恐ろしい代償を伴う——失われる命、破壊される都市、戦闘が終わった後も長く続く苦難。対照的に交渉は、双方が全てを得られなくても受け入れられる解を探す。劇的ではないが、甚大な苦しみを防ぎうる。外交は骨の折れる仕事だ。多くはカメラから遠く、当局者が共通点を探す長い会合で行われる。信頼はゆっくり築かれ、一つの誤解が数か月の努力を無にしうる。外部の国が伝言を運んだり保証を示したりして助けることもある。もちろん交渉は決裂しうるし、約束が守られるとも限らない。緊張の休止は恒久平和と同じではない。歴史は破綻した合意も、世代を越えて保たれた合意も多く抱える。それでも、話し合おうとする意志自体に意味がある。たとえ短くとも力より交渉を選ぶことは、平和的解決への扉を開けておく。世界を見る学習者への教訓——最も重要な勝利のいくつかは、決して起きなかった対立なのだ。",
-        quiz: [
-          { q: "最近の中東のニュースが示した別の道とは？", options: ["攻撃の代わりに対話を求めたこと", "すぐに攻撃したこと", "何もしなかったこと"], answer: 0 },
-          { q: "交渉が目指すものは？", options: ["双方が受け入れられる解を探すこと", "一方が全てを得ること", "戦争を始めること"], answer: 0 },
-          { q: "本文の教訓は？", options: ["最も重要な勝利は起きなかった対立でもある", "戦争は避けられない", "交渉は無意味だ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0802-4",
-        title: "Japan, the Land of Robots",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan has long been famous for its robots, and today that reputation is becoming a real economic advantage. The country makes a large share of the world's industrial robots — the powerful machines that weld, assemble, and lift inside factories. As artificial intelligence enters the physical world, Japan hopes to turn this strength into leadership in a new field.\nWhy did robots take root so strongly in Japan? One reason is history: after decades of building cars and electronics, Japanese companies became experts in precise, reliable machines. Another reason is need. Japan's population is aging and shrinking, so there are fewer young workers, and robots help fill the gap in factories, farms, and even care homes.\nNow a new idea is taking shape. By combining its robot-building skill with modern AI, Japan aims to lead in machines that can see, decide, and act on their own. A robot arm guided by smart software can handle tasks that once needed a human touch, working safely alongside people.\nThere are challenges. Building trust in these machines takes time, and other countries are investing heavily too. Robots must be safe, affordable, and genuinely useful, not just impressive.\nStill, the fit is natural. A nation that needs more workers, and already knows how to build machines, is well placed for an age when intelligence moves into the physical world. Japan's long love of robots may turn out to be excellent preparation for the decades ahead.",
-        summaryJa: "日本は長くロボットで有名だが、今日その評判が現実の経済的強みになりつつある。日本は世界の産業用ロボット——工場で溶接・組立・運搬を担う強力な機械——の大きな割合を作る。AIが物理世界に入る中、日本はこの強みを新分野の主導力に変えたい。なぜ日本でロボットが根づいたのか。一つは歴史——車や電子機器を数十年作る中で、日本企業は精密で信頼できる機械の専門家になった。もう一つは必要性だ。人口が高齢化・減少し若い働き手が減るため、ロボットが工場・農場・介護の現場で穴を埋める。今、新しい発想が形になりつつある。ロボット製造の技術と現代のAIを組み合わせ、日本は自ら見て・判断し・行動する機械で先頭に立とうとする。賢いソフトに導かれるロボットアームは、かつて人の手が要った作業を扱い、人と安全に並んで働く。課題もある。こうした機械への信頼構築には時間がかかり、他国も多額を投じている。ロボットは印象的なだけでなく、安全・手頃・本当に役立つ必要がある。それでも相性は自然だ。より多くの働き手を必要とし、既に機械の作り方を知る国は、知能が物理世界へ移る時代に有利な位置にいる。日本の長いロボット愛は、来る数十年への見事な備えとなるかもしれない。",
-        quiz: [
-          { q: "日本が世界で大きな割合を作っているものは？", options: ["産業用ロボット", "石油", "小麦"], answer: 0 },
-          { q: "日本でロボットが根づいた理由の一つは？", options: ["人口減少で働き手が減り穴を埋める必要があるから", "国土が広いから", "若者が多すぎるから"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["機械への信頼構築に時間がかかり他国も投資している", "ロボットは全く不要だ", "日本に技術がない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0802-5",
-        title: "Helping Babies Get a Healthy Start",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "In a small fishing community, researchers noticed a troubling pattern: a very high number of babies were being born too early. Around the world, premature birth — when a baby arrives weeks before its due date — remains one of the biggest challenges in newborn health. Scientists are working hard to understand why it happens and how to prevent it.\nWhy is being born early such a problem? Babies who arrive too soon may have lungs, brains, and other organs that are not fully ready for life outside the womb. With good medical care, many grow up healthy, but such care is not available everywhere, and very early birth can be dangerous.\nThe causes are complex. Poor nutrition, infections, pollution, stress, and a lack of medical care during pregnancy can all play a role, often together. In some communities, many of these problems appear at once, which may explain why premature births are especially common there.\nResearchers approach the problem step by step. They gather data, compare communities, and test simple, affordable actions — better nutrition for mothers, cleaner water, and regular check-ups during pregnancy. Small improvements can make a real difference.\nThe wider lesson reaches beyond any single village. Healthy pregnancies depend not only on medicine but on clean surroundings, good food, and steady support. By studying the places where problems are worst, scientists hope to find answers that help mothers and babies everywhere begin life with a stronger, safer start.",
-        summaryJa: "小さな漁村で、研究者は憂慮すべき傾向に気づいた——非常に多くの赤ちゃんが早く生まれていたのだ。世界中で、早産——予定日より数週間早く生まれること——は新生児の健康における最大級の課題であり続ける。科学者はなぜ起きるのか、どう防ぐかの理解に懸命だ。早く生まれることがなぜ問題か。早すぎる赤ちゃんは、肺や脳など臓器が子宮の外での生活に十分準備できていないことがある。良い医療があれば多くは健康に育つが、そうした医療はどこにでもあるわけではなく、極端な早産は危険になりうる。原因は複雑だ。栄養不足、感染症、汚染、ストレス、妊娠中の医療不足がすべて、しばしば重なって作用する。いくつかの地域ではこれらの問題が一度に現れ、早産が特に多い理由を説明するかもしれない。研究者は一歩ずつ取り組む。データを集め、地域を比べ、単純で手頃な対策——母親のより良い栄養、清潔な水、妊娠中の定期健診——を試す。小さな改善が本当に違いを生む。より広い教訓は一つの村を超える。健康な妊娠は医療だけでなく、清潔な環境・良い食事・着実な支えに支えられる。問題が最も深刻な場所を研究することで、科学者は世界中の母子がより強く安全に人生を始める助けとなる答えを見つけたいと願う。",
-        quiz: [
-          { q: "研究者が漁村で気づいた傾向は？", options: ["多くの赤ちゃんが早く生まれていた", "魚が減っていた", "人口が増えていた"], answer: 0 },
-          { q: "早産がなぜ問題になりうるのか？", options: ["臓器が子宮の外での生活に十分準備できていないことがある", "赤ちゃんが大きすぎるから", "医療が不要だから"], answer: 0 },
-          { q: "研究者が試す手頃な対策は？", options: ["母親の栄養改善・清潔な水・定期健診", "何もしないこと", "村を閉じること"], answer: 0 }
         ]
       }
     ]
