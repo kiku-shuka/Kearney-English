@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-10",
+    passages: [
+      {
+        id: "d0810-1",
+        title: "Setting a Floor Under Wages",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "How little can a company legally pay its workers? In many countries, the answer is set by a rule called the minimum wage — the lowest hourly pay allowed by law. In Japan, a new, higher wage floor is due to take effect, affecting more than fifty million workers. Changes like this spark an important economic debate.\nWhy have a minimum wage at all? The main goal is to protect workers. Without a legal floor, some employers might pay very low wages, leaving people unable to afford basic needs even while working full time. A minimum wage aims to ensure that work provides at least a modest standard of living.\nRaising the minimum wage has clear benefits. Low-paid workers earn more, can spend more, and may feel their work is valued. Because they often spend most of what they earn, this extra money can flow quickly back into local shops and businesses.\nBut there are trade-offs, which is why the topic is debated. If wages rise too fast, some businesses, especially small ones, may struggle to pay. They might raise prices, reduce hours, or hire fewer people. Supporters argue that fair pay is worth it; critics worry about these side effects.\nMost experts agree that gradual, predictable increases work best, giving businesses time to adjust. The debate is really about balance: how to lift the lowest earners without harming the very jobs they depend on. It is a clear example of how a single number can shape millions of lives.",
+        summaryJa: "企業は労働者にどこまで低く支払っても合法なのか。多くの国で、その答えは「最低賃金」という規則——法律が許す最も低い時給——で定められる。日本では、新しくより高い賃金の下限が施行される予定で、5000万人を超える労働者に影響する。こうした変更は重要な経済論争を呼ぶ。そもそもなぜ最低賃金があるのか。主な目的は労働者の保護だ。法的な下限がなければ、一部の雇い主は非常に低い賃金を払い、フルタイムで働いても基本的な必需品を賄えない人を生みうる。最低賃金は、働くことが少なくともささやかな生活水準をもたらすようにすることを狙う。最低賃金の引き上げには明白な利点がある。低賃金の労働者はより多く稼ぎ、より多く使え、自分の仕事が評価されていると感じうる。彼らは稼ぎの大半を使うことが多いので、この追加のお金は素早く地元の店や事業に還流しうる。だが代償もあり、だからこそ論じられる。賃金が速く上がりすぎると、一部の企業、特に小企業は支払いに苦しみうる。価格を上げ、労働時間を減らし、雇用を減らすかもしれない。支持者は公正な賃金にはその価値があると論じ、批判者はこうした副作用を懸念する。多くの専門家は、段階的で予測可能な引き上げが最も良く、企業に適応の時間を与えると同意する。論争は本当は均衡についてだ——最も低い稼ぎ手を、彼らが頼る仕事そのものを害さずにどう引き上げるか。一つの数字が何百万もの人生を形づくる明快な例だ。",
+        quiz: [
+          { q: "最低賃金の主な目的は？", options: ["労働者を保護し一定の生活水準を確保すること", "企業の利益を最大化すること", "物価を上げること"], answer: 0 },
+          { q: "最低賃金引き上げの利点は？", options: ["低賃金の人が稼ぎ地元の店に還流する", "誰も得をしない", "輸出が止まる"], answer: 0 },
+          { q: "多くの専門家が最良とする方法は？", options: ["段階的で予測可能な引き上げ", "一度に急激な引き上げ", "引き上げをしないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0810-2",
+        title: "The Quest for Fusion Energy",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "For decades, scientists have chased one of the boldest goals in energy: to create power the way the sun does. This process, called nuclear fusion, joins tiny particles together to release enormous amounts of energy. If it can be made to work reliably on Earth, fusion could provide vast, clean power — and researchers in Japan and around the world are racing to get there.\nHow is fusion different from today's nuclear power? Current reactors use fission, which splits heavy atoms apart and leaves behind long-lasting radioactive waste. Fusion instead joins light atoms together, produces far less dangerous waste, and cannot melt down in the same way. Its main fuel can be drawn from water, making it almost limitless.\nWhy is it so hard? To fuse atoms, you must heat fuel to temperatures hotter than the center of the sun and hold it steady long enough to release energy. Building machines that can do this — and get more energy out than they put in — has challenged scientists for generations.\nProgress is now speeding up. New materials, powerful magnets, and better computers are helping researchers and private companies inch closer. Some hope to build working power plants within a few decades.\nFusion is not ready yet, and promises have been broken before. But the prize is enormous: a clean, safe, almost endless source of energy. Each experiment brings that dream a little nearer, as scientists try, patiently, to capture the power of the stars and bring it down to Earth.",
+        summaryJa: "何十年もの間、科学者はエネルギーで最も大胆な目標の一つを追ってきた——太陽と同じやり方で電力を作ることだ。「核融合」と呼ばれるこの過程は、小さな粒子を結び合わせて膨大なエネルギーを放出する。地球で確実に機能させられれば、核融合は莫大でクリーンな電力を供給しうる——日本や世界中の研究者がそこへ到達しようと競っている。核融合は今日の原子力とどう違うのか。現在の原子炉は「核分裂」を使い、重い原子を割って長く残る放射性廃棄物を残す。核融合は代わりに軽い原子を結合させ、はるかに危険の少ない廃棄物を出し、同じようには炉心溶融しない。主な燃料は水から得られ、ほぼ無限にできる。なぜそんなに難しいのか。原子を融合させるには、燃料を太陽の中心より高温に熱し、エネルギーを放出するのに十分な時間、安定に保たねばならない。これを行い、投入より多くのエネルギーを取り出せる機械を作ることが、何世代も科学者を悩ませてきた。今、進歩が加速している。新素材・強力な磁石・優れたコンピューターが、研究者や民間企業が少しずつ近づくのを助ける。数十年内に稼働する発電所を建てたいと望む者もいる。核融合はまだ準備が整っておらず、約束は以前にも破られた。だが報酬は莫大だ——クリーンで安全な、ほぼ無限のエネルギー源。各実験がその夢を少しずつ近づける。科学者は忍耐強く、星の力を捕らえて地上へもたらそうとしている。",
+        quiz: [
+          { q: "核融合は何をする過程か？", options: ["小さな粒子を結び合わせて膨大なエネルギーを放出する", "原子を割ること", "水を凍らせること"], answer: 0 },
+          { q: "核融合が核分裂（今の原子力）と違う点は？", options: ["軽い原子を結合し危険の少ない廃棄物を出す", "より多くの廃棄物を出す", "燃料が石炭である"], answer: 0 },
+          { q: "核融合が難しい理由は？", options: ["太陽の中心より高温に熱し安定に保つ必要があるから", "燃料が無いから", "冷やすのが簡単すぎるから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0810-3",
+        title: "Turning Climate Promises into Action",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Countries around the world have made many promises to fight climate change. The harder task is turning those promises into real results. Recently, a global partnership of governments, cities, businesses, and investors launched a new plan focused on exactly that: moving from words to concrete action on clean air, energy, and the environment.\nWhy is this shift so important? For years, nations have set goals to cut pollution and switch to cleaner energy. But a goal on paper does not clean the air by itself. It must be followed by real projects — building wind and solar power, protecting forests, and helping communities adapt to a changing climate. Coordinating this work across many countries is a huge challenge.\nThere is encouraging news to build on. Investment in clean technology has grown enormously in recent years, and, for the first time, the world now generates more electricity from renewable sources than from coal. This shows that big change is possible when money, technology, and political will come together.\nSerious problems remain. The world faces energy shortages, economic tensions, and conflicts that make cooperation harder. Progress is uneven, and some promises risk being forgotten.\nStill, the direction matters. By focusing on turning commitments into results, countries hope to make climate action something people can actually see and feel — cleaner air, more reliable energy, and safer communities. The lesson is simple but powerful: promises open the door, but only action can carry us through it.",
+        summaryJa: "世界中の国々が気候変動と闘う多くの約束をしてきた。より難しい課題は、その約束を現実の成果に変えることだ。最近、政府・都市・企業・投資家の世界的な連携が、まさにそれに焦点を当てた新計画を立ち上げた——言葉から、清浄な空気・エネルギー・環境に関する具体的な行動へ移ることだ。なぜこの転換が重要か。長年、各国は汚染を減らしよりクリーンなエネルギーへ切り替える目標を掲げてきた。だが紙の上の目標はそれ自体で空気を清めない。現実の事業が続かねばならない——風力や太陽光の建設、森林の保護、変わる気候への地域の適応の支援だ。この作業を多くの国で調整するのは大きな挑戦だ。積み上げるべき明るい知らせもある。近年、クリーン技術への投資は大きく伸び、初めて、世界は今や石炭より再生可能エネルギーから多くの電力を生んでいる。お金・技術・政治的意志が揃えば大きな変化が可能であることを示す。深刻な問題は残る。世界はエネルギー不足・経済的緊張・協力を難しくする対立に直面する。進歩は不均一で、一部の約束は忘れられる恐れがある。それでも方向は重要だ。約束を成果に変えることに注力することで、各国は気候対策を人々が実際に見て感じられるもの——清浄な空気・より信頼できるエネルギー・より安全な地域——にしたい。教訓は単純だが力強い——約束は扉を開くが、私たちをその先へ運べるのは行動だけだ。",
+        quiz: [
+          { q: "新計画が焦点を当てるのは？", options: ["約束を具体的な行動・成果に変えること", "新しい約束を増やすこと", "何もしないこと"], answer: 0 },
+          { q: "本文が挙げる明るい知らせは？", options: ["世界が石炭より再生可能エネルギーから多く発電するようになった", "石炭が増えたこと", "投資が消えたこと"], answer: 0 },
+          { q: "本文の教訓は？", options: ["約束は扉を開くが先へ運べるのは行動だけ", "約束だけで十分", "行動は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0810-4",
+        title: "Reviving the Countryside with Craft",
+        level: "★★☆",
+        genre: "日本",
+        text: "Many rural areas in Japan face a difficult future. As young people move to big cities, small towns lose population, and local shops and traditions struggle to survive. To fight back, some communities are trying a creative strategy: attracting wealthy visitors from around the world with rare, high-quality crafts — including custom-made swords that can cost tens of thousands of dollars.\nWhy focus on luxury crafts? Rural Japan is home to skilled artisans who have practiced their crafts for generations, making swords, pottery, textiles, and other goods by hand. These items cannot be mass-produced, so they are rare and highly valued. A single wealthy traveler who buys one can bring in more money than many ordinary tourists.\nThe idea is not only about selling objects. Visitors come to meet the artisans, watch them work, and learn the stories behind their crafts. This kind of deep, personal experience is exactly what many rich travelers are looking for — something authentic that they cannot find anywhere else.\nThere are challenges. Very few people can afford such expensive items, so the market is small. And communities must protect their traditions from becoming mere shows for tourists.\nStill, the strategy offers hope. By turning their heritage into a valuable experience, struggling towns can earn money, support their artisans, and keep ancient skills alive. It is a reminder that the answer to a modern problem may lie in something very old — a craft, patiently perfected, that the wider world is willing to travel far to see.",
+        summaryJa: "日本の多くの地方は難しい未来に直面している。若者が大都市へ移るにつれ、小さな町は人口を失い、地元の店や伝統は生き残りに苦しむ。反撃するため、一部の地域は創意ある戦略を試している——世界中の裕福な訪問者を、希少で高品質な工芸品で惹きつけるのだ。数万ドルもする注文製の刀を含めて。なぜ高級工芸品に注目するのか。地方の日本には、何世代も技を磨いてきた熟練の職人がいて、刀・陶器・織物などを手作りする。こうした品は大量生産できないので希少で高く評価される。一つ買う裕福な旅行者一人が、多くの普通の観光客より多くのお金をもたらしうる。この発想は品物を売ることだけではない。訪問者は職人に会い、作業を見て、工芸の背後の物語を学びに来る。この種の深く個人的な体験こそ、多くの富裕な旅行者が求めるもの——他のどこにも見つからない本物だ。課題もある。そんな高価な品を買える人はごくわずかなので市場は小さい。そして地域は、伝統が観光客向けの単なる見世物になるのを防がねばならない。それでも戦略は希望を与える。遺産を価値ある体験に変えることで、苦境の町はお金を稼ぎ、職人を支え、古い技を生かし続けられる。現代の問題への答えが、とても古いもの——忍耐強く磨かれた工芸、広い世界がはるばる見に来る価値のあるもの——にあるかもしれないことを思い出させる。",
+        quiz: [
+          { q: "一部の地方が試している戦略は？", options: ["希少で高品質な工芸品で裕福な訪問者を惹きつける", "工場を増やすこと", "伝統をやめること"], answer: 0 },
+          { q: "高級工芸品に注目する理由は？", options: ["手作りで希少なため裕福な旅行者一人が多くのお金をもたらす", "安く大量に作れるから", "誰でも買えるから"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["買える人が少なく市場が小さい／伝統が見世物になる恐れ", "職人が全くいないこと", "刀が作れないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0810-5",
+        title: "A New Pill for Weight Loss",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "For people struggling with obesity, losing weight can be extremely difficult, and it affects their health in serious ways. Recently, scientists reported promising results from an experimental pill that helped people lose a significant amount of weight — as much as around twelve percent of their body weight over several months. If proven safe, such medicines could change how a common health problem is treated.\nHow does it work? The pill belongs to a family of drugs that copy a natural hormone in the body. This hormone helps control appetite and the feeling of being full. By boosting its effect, the medicine helps people eat less without feeling constantly hungry, so they gradually lose weight.\nWhy is a pill exciting? Similar medicines already exist, but many must be given by injection. A pill that people can simply swallow would be easier and more comfortable to use, which might help more people benefit from the treatment.\nCaution is essential, of course. Every medicine can have side effects, and losing weight safely still depends on healthy eating and activity. A drug is a tool, not a magic cure, and doctors must decide who should use it. Long-term studies are needed to be sure it is both safe and effective.\nStill, the research offers hope. Obesity raises the risk of many serious illnesses, so better treatments could improve millions of lives. Combined with healthy habits, medicines like this may give people a powerful new way to take control of their health — one careful step at a time.",
+        summaryJa: "肥満に苦しむ人にとって、体重を減らすのは極めて難しく、健康にも深刻な影響を与える。最近、科学者が、実験段階の錠剤の有望な結果を報告した——数か月で体重の約12％もの大幅な減量を助けたのだ。安全性が証明されれば、こうした薬は、ありふれた健康問題の治療の仕方を変えうる。どう働くのか。この錠剤は、体内の自然なホルモンを模倣する薬の仲間だ。このホルモンは食欲と満腹感の制御を助ける。その効果を高めることで、薬は人々が常に空腹を感じずに食べる量を減らす助けをし、徐々に体重が落ちる。なぜ錠剤が期待されるのか。似た薬は既にあるが、多くは注射で投与せねばならない。ただ飲み込むだけの錠剤は使いやすく快適で、より多くの人が治療の恩恵を受ける助けになるかもしれない。もちろん慎重さが不可欠だ。あらゆる薬に副作用がありうるし、安全に減量するにはなお健康的な食事と運動が要る。薬は道具であって魔法の治療ではなく、誰が使うべきかは医師が判断せねばならない。安全かつ有効と確かめるには長期の研究が必要だ。それでも研究は希望を与える。肥満は多くの深刻な病のリスクを高めるので、より良い治療は何百万もの人生を改善しうる。健康的な習慣と組み合わせれば、こうした薬は人々に健康を取り戻す強力な新しい方法を与えうる——慎重な一歩ずつ。",
+        quiz: [
+          { q: "この錠剤はどう働くか？", options: ["食欲や満腹感を制御するホルモンの効果を高める", "眠りを深くする", "筋肉を増やす"], answer: 0 },
+          { q: "錠剤が期待される理由は？", options: ["注射より飲みやすく多くの人が恩恵を受けうる", "味が良いから", "無料だから"], answer: 0 },
+          { q: "本文が促す慎重さは？", options: ["副作用がありうるし健康的な食事と運動もなお必要", "薬だけで十分", "医師の判断は不要"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-09",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "食品ラベルが時に誤解を招く理由は？", options: ["企業がほぼ自由に使える言葉もあるから", "全て法律で禁止されているから", "誰も読まないから"], answer: 0 },
           { q: "本文が勧める身を守る方法は？", options: ["パッケージ裏面の原材料・栄養成分を見る", "表の言葉だけ信じる", "値段だけ見る"], answer: 0 },
           { q: "本文の教訓は？", options: ["最も大胆な主張が最も重要な事実とは限らない", "高いものほど必ず良い", "ラベルは常に正しい"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-03",
-    passages: [
-      {
-        id: "d0803-1",
-        title: "When a Stronger Yen Worries the Market",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Stock markets can react in surprising ways to news. On Monday, Tokyo's main stock index fell after the Japanese yen suddenly rose in value against the U.S. dollar. At first, a stronger currency might sound like good news — so why did share prices drop?\nThe answer lies in exports. Many of Japan's biggest companies, such as carmakers and electronics firms, sell much of what they make overseas. When the yen is weak, the dollars they earn abroad turn into more yen back home, boosting their profits. A weak yen had been quietly supporting these exporters for months.\nThen the currency moved the other way. Reports suggested that Japan, possibly with help from the United States, had acted to push the yen higher. A stronger yen means those same overseas sales bring in fewer yen, squeezing profits. Investors, expecting slimmer earnings, quickly sold shares in export-heavy companies, and the market fell.\nThis shows how tightly currencies and stock prices are linked. A change that helps one group can hurt another: a stronger yen makes imported food and fuel cheaper for households, but it can trouble the big exporters that drive the stock market.\nFor anyone learning business English, the lesson is worth remembering. In a connected economy, there is rarely a simple 'good' or 'bad' number. A single move in the currency market sends ripples through company profits, investor decisions, and the daily headlines that follow.",
-        summaryJa: "株式市場はニュースに意外な反応を示す。月曜、円がドルに対し急上昇した後、東京の主要株価指数は下落した。一見、通貨高は良い知らせに聞こえる——ならなぜ株価は下がったのか。答えは輸出にある。自動車や電機など日本の大企業の多くは、作る物の多くを海外で売る。円安のとき、海外で稼ぐドルは国内で円に換えると増え、利益を押し上げる。円安は数か月、こうした輸出企業を静かに支えていた。ところが通貨が逆に動いた。日本が、おそらく米国の協力を得て、円を押し上げる行動を取ったと報じられた。円高は同じ海外売上をより少ない円に変え、利益を圧迫する。利益減を見込んだ投資家は輸出偏重の企業の株を素早く売り、市場は下げた。これは通貨と株価がいかに密接に結びつくかを示す。一方を助ける変化が他方を害しうる——円高は家計にとって輸入食料や燃料を安くするが、株式市場を牽引する大輸出企業を困らせうる。ビジネス英語を学ぶ人への教訓——つながった経済に、単純な「良い」「悪い」数字はめったにない。為替市場の一つの動きが、企業利益・投資家の判断・続く日々の見出しへと波紋を広げる。",
-        quiz: [
-          { q: "円高なのに株価が下がった理由は？", options: ["輸出企業の利益が減ると見込まれたから", "円が無価値になったから", "会社が倒産したから"], answer: 0 },
-          { q: "円安が輸出企業を助けていた仕組みは？", options: ["海外で稼ぐドルが円に換えると増えるから", "輸入が増えるから", "税金が下がるから"], answer: 0 },
-          { q: "本文の教訓は？", options: ["つながった経済に単純な良い・悪い数字はない", "通貨高は常に良い", "株は常に上がる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0803-2",
-        title: "Designing Materials Atom by Atom",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Much of modern technology depends not just on clever design, but on the materials we can make. Scientists have now reported a way to build larger versions of special 'twisted' materials, while precisely controlling how their ultra-thin layers line up. It may sound abstract, but such control could shape the electronics of the future.\nWhat are these materials? Imagine stacking incredibly thin sheets, each only a few atoms thick, and then slightly rotating one layer against another. This tiny twist can dramatically change how the material behaves — how it carries electricity, responds to light, or holds magnetism. By choosing the angle carefully, researchers can unlock properties that ordinary materials do not have.\nThe problem, until now, has been size and control. These twisted materials were often tiny and hard to make consistently, which made them difficult to study or use. The new method allows larger, more uniform samples, giving scientists a better chance to understand them and, eventually, to build useful devices.\nWhy does this matter? The electronics in our phones and computers are reaching the limits of older designs. New materials with unusual properties could lead to faster, more efficient chips, better sensors, or entirely new kinds of devices.\nProgress here is slow and careful, moving one atomic layer at a time. But it points to a powerful idea: by controlling matter at the smallest scale, scientists are learning to design materials with the exact properties they want — building the foundations of tomorrow's technology from the atom up.",
-        summaryJa: "現代技術の多くは、巧みな設計だけでなく、作れる素材にも左右される。科学者はこのほど、特殊な「ねじれた」素材をより大きく作り、極薄の層の重なり方を精密に制御する方法を報告した。抽象的に聞こえるが、こうした制御は未来の電子機器を形づくりうる。この素材とは何か。わずか数原子分の厚さの極薄シートを重ね、一つの層を別の層に対しわずかに回転させると想像してほしい。この小さなねじれが、電気の運び方・光への反応・磁性など、素材のふるまいを劇的に変える。角度を慎重に選ぶことで、普通の素材にない性質を引き出せる。これまでの課題は大きさと制御だった。ねじれた素材はしばしば微小で一様に作るのが難しく、研究や利用が困難だった。新手法はより大きく均一な試料を可能にし、理解と、いずれは有用なデバイス作製への好機を与える。なぜ重要か。携帯やコンピューターの電子回路は旧来の設計の限界に近づいている。珍しい性質を持つ新素材は、より速く効率的なチップ、優れたセンサー、まったく新しいデバイスにつながりうる。ここでの進歩は遅く慎重で、一原子層ずつ進む。だが強力な発想を示す——最小のスケールで物質を制御することで、科学者は望む性質を持つ素材を設計し、明日の技術の土台を原子から築くことを学びつつある。",
-        quiz: [
-          { q: "この素材の性質を大きく変えるものは？", options: ["極薄の層をわずかに回転させる「ねじれ」", "素材の色", "素材の重さ"], answer: 0 },
-          { q: "これまでの課題は？", options: ["素材が微小で一様に作るのが難しかったこと", "素材が大きすぎたこと", "素材が安すぎたこと"], answer: 0 },
-          { q: "新素材が期待される用途は？", options: ["より速く効率的なチップやセンサー", "新しい食品", "建物の塗料のみ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0803-3",
-        title: "When Politics Reaches the Workplace",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Businesses do not operate in a vacuum. When relations between two countries grow tense, companies that work across their borders often feel the effects. A recent survey showed that many Japanese firms operating in China had become more worried about business there, as political tensions between the two nations weighed on their confidence.\nWhy does politics matter so much to business? Companies that invest abroad depend on stability. They need clear rules, reliable partners, and the freedom to move goods and money. When two governments argue, new restrictions, delays, or public anger can suddenly make it harder to operate. Even the fear of such problems can cause firms to slow their plans.\nThe two countries in this case are deeply connected. China is an enormous market and a major manufacturing base, while Japan supplies advanced machines, parts, and know-how. Trade between them supports countless jobs on both sides. That is exactly why rising tension makes businesses nervous: they have a great deal to lose.\nCompanies respond in careful ways. Some spread their operations across several countries to reduce their dependence on any single one. Others wait and watch before making big new investments. Few want to leave a valuable market, but few want to bet everything on it either.\nThe wider lesson is that economics and politics cannot be separated. Behind the headlines about diplomacy are factories, workers, and customers whose daily lives are shaped, quietly but powerfully, by how well nations manage to get along.",
-        summaryJa: "企業は真空の中で活動しない。二国間の関係が緊張すると、その国境をまたいで働く企業はしばしば影響を受ける。最近の調査では、中国で事業を行う多くの日本企業が、両国の政治的緊張に自信を削がれ、現地事業をより懸念するようになったと示された。なぜ政治が事業にそれほど重要か。海外投資する企業は安定に依存する。明確な規則、信頼できる相手、物や金を動かす自由が要る。二つの政府が争うと、新たな規制・遅延・世論の反発が突然、事業を難しくしうる。そうした問題への恐れだけでも、企業は計画を鈍らせうる。この二国は深く結びついている。中国は巨大な市場かつ主要な製造拠点で、日本は先端機械・部品・ノウハウを供給する。両国の貿易は双方で無数の雇用を支える。だからこそ緊張の高まりは企業を不安にさせる——失うものが大きいのだ。企業は慎重に対応する。事業を複数国に分散して単一国への依存を減らす者、大型の新規投資の前に様子を見る者もいる。価値ある市場を去りたい者は少ないが、そこに全てを賭けたい者も少ない。より広い教訓は、経済と政治は切り離せないということ。外交の見出しの背後には、国同士がどれだけうまくやれるかに、静かに、しかし強く左右される工場・労働者・顧客の日々の暮らしがある。",
-        quiz: [
-          { q: "調査が示した日本企業の変化は？", options: ["中国での事業をより懸念するようになった", "中国事業を全て閉じた", "懸念が完全になくなった"], answer: 0 },
-          { q: "海外投資する企業が依存するものは？", options: ["安定・明確な規則・信頼できる相手", "政治的な争い", "不確実性"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["経済と政治は切り離せない", "政治は事業に無関係", "貿易は不要だ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0803-4",
-        title: "Making Sugar from Thin Air",
-        level: "★★☆",
-        genre: "日本",
-        text: "In a laboratory in Osaka, a young researcher is working on an idea that sounds almost like magic: making sugar out of the air. The goal is to capture carbon dioxide — the gas that plants absorb and that also warms our planet — and turn it into sugar that could feed farm animals.\nWhy sugar, and why for animals? Livestock such as cows and pigs need large amounts of feed, and much of that feed is grown on farmland or imported from far away. As the world's population grows and extreme weather damages harvests, many people worry about future shortages of food and feed. A new, steady source of feed that does not depend on good weather or vast fields could be very valuable.\nThe science borrows from nature. Plants already turn carbon dioxide into sugar through photosynthesis, using sunlight. The researcher hopes to do something similar, but faster and in a factory, using chemical and biological tools instead of waiting for crops to grow season by season.\nThe work is still at an early stage, and many questions remain about cost, energy, and scale. Turning a clever laboratory result into something farmers can use will take years of effort.\nStill, the vision is inspiring. It combines two of the world's biggest challenges — too much carbon dioxide in the air and the need to feed a growing population — and tries to solve them together, turning a problem in the atmosphere into food on the farm.",
-        summaryJa: "大阪の研究室で、若い研究者がほとんど魔法のような発想に取り組んでいる——空気から砂糖を作るのだ。目標は、植物が吸収し地球を温めもする気体・二酸化炭素を捕らえ、家畜のえさになる砂糖に変えること。なぜ砂糖で、なぜ家畜向けか。牛や豚などの家畜は大量のえさを必要とし、その多くは農地で育てるか遠方から輸入される。世界人口が増え、極端な気象が収穫を害する中、多くの人が将来の食料・飼料不足を心配する。好天や広大な畑に依存しない新たな安定した飼料源は、非常に価値がありうる。その科学は自然に学ぶ。植物は既に光合成で日光を使い二酸化炭素を砂糖に変える。研究者は似たことを、しかしより速く工場で、作物が季節ごとに育つのを待つ代わりに化学と生物の手法で行いたい。研究はまだ初期段階で、費用・エネルギー・規模に多くの問いが残る。巧みな実験結果を農家が使えるものに変えるには何年もの努力が要る。それでも構想は心を打つ。世界最大級の二つの課題——大気中の二酸化炭素の多さと、増える人口を養う必要——を結び、一緒に解こうとする。大気の問題を農場の食べ物に変えようとしているのだ。",
-        quiz: [
-          { q: "研究者が空気から作ろうとしているものは？", options: ["家畜のえさになる砂糖", "飲み水", "燃料の石油"], answer: 0 },
-          { q: "新しい飼料源が価値を持ちうる理由は？", options: ["好天や広大な畑に依存しないから", "味が良いから", "色が美しいから"], answer: 0 },
-          { q: "この研究が結びつける二つの課題は？", options: ["大気中の二酸化炭素と人口増加への食料", "戦争と平和", "電気と水"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0803-5",
-        title: "Poison That Could Heal",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Nature is full of surprises, and some of its most dangerous creations may also be among its most useful. Scientists have recently worked out how two famously poisonous plants make their toxic chemicals — and those same chemicals show promise as future medicines. It is a striking reminder that in nature, poison and medicine are often two sides of the same coin.\nHow can a poison become a cure? The answer often lies in dose and target. A chemical that harms the body in large amounts may, in tiny, carefully controlled doses, do something useful — such as slowing a runaway process in a diseased cell. Many powerful medicines, including some cancer treatments and painkillers, began as toxins found in plants, animals, or fungi.\nUnderstanding how a plant builds its poison is a crucial step. Once scientists know the chemical recipe, they can try to make the substance in a laboratory, adjust it to be safer, and produce it in reliable amounts. This avoids having to harvest rare plants and allows careful testing.\nCaution is essential, of course. A promising chemical in the lab is far from a finished drug. Years of study are needed to prove that it is safe and effective in people, and many hopeful candidates never make it that far.\nStill, the research shows why protecting the natural world matters so much. Each plant, even a poisonous one, may hold chemical secrets we have not yet learned — and some of those secrets could one day help heal us.",
-        summaryJa: "自然は驚きに満ち、最も危険な産物の一部は最も有用でもありうる。科学者は最近、有名な二つの毒草がどう毒性の化学物質を作るのかを解明した——そしてその同じ物質が、将来の薬として有望性を示す。自然では毒と薬がしばしば同じコインの表裏であることを、鮮やかに思い出させる。毒がどう治療になりうるのか。答えはしばしば用量と標的にある。大量では体を害する物質が、ごく微量で慎重に管理された用量では、病んだ細胞の暴走を遅らせるなど有用なことをしうる。がん治療薬や鎮痛薬を含む多くの強力な薬は、植物・動物・菌に見つかった毒として始まった。植物がどう毒を作るかの理解は重要な一歩だ。化学のレシピが分かれば、実験室で物質を作り、より安全に調整し、安定した量で生産しようと試みられる。これは希少な植物の採取を避け、慎重な試験を可能にする。もちろん慎重さが不可欠だ。実験室で有望な物質も、完成した薬にはほど遠い。人で安全かつ有効と証明するには何年もの研究が要り、多くの有望候補はそこまで到達しない。それでも研究は、自然界を守ることがなぜ重要かを示す。毒草でさえ、まだ知らない化学の秘密を秘めているかもしれず、その秘密のいくつかが、いつか私たちを癒す助けになりうるのだ。",
-        quiz: [
-          { q: "科学者が解明したことは？", options: ["二つの毒草がどう毒性物質を作るか", "毒草をどう食べるか", "毒草の育て方だけ"], answer: 0 },
-          { q: "毒が治療になりうる鍵は？", options: ["用量と標的（微量で有用に働きうる）", "色と香り", "値段の安さ"], answer: 0 },
-          { q: "本文が示す教訓は？", options: ["自然界を守ることが重要で毒草も秘密を秘める", "毒は常に無用だ", "自然は危険なだけだ"], answer: 0 }
         ]
       }
     ]
