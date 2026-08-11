@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-11",
+    passages: [
+      {
+        id: "d0811-1",
+        title: "What a Market Forecast Really Means",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Every so often, a big bank makes headlines by predicting where the stock market will go. Recently, one major bank raised its forecast for a well-known U.S. stock index, pointing to strong company profits and rising demand for artificial intelligence. But what does such a forecast really mean, and how much should we trust it?\nA market forecast, sometimes called a price target, is an educated guess. Analysts study company earnings, the wider economy, and current trends, then estimate where prices might be months from now. It is not a promise, and no one truly knows the future — it is a careful opinion, based on today's information.\nWhy do these forecasts matter? They shape how investors feel. An optimistic forecast from a respected bank can boost confidence, encouraging people to buy and pushing prices higher, at least for a while. A gloomy forecast can do the opposite. In this way, predictions can influence the very market they describe.\nStill, forecasts are often wrong. The economy can be surprised by sudden events — a crisis, a new technology, or a change in policy. Analysts frequently update their targets as conditions change, which shows how uncertain such predictions really are.\nThe lesson for a careful reader is to treat forecasts as useful opinions, not facts. They summarize what informed experts expect, which is valuable. But the future remains unknown, and wise investors weigh many views, stay cautious, and remember that even the most confident prediction is still, in the end, only a guess.",
+        summaryJa: "時折、大銀行が株式市場の行方を予測して見出しをにぎわす。最近、ある大手銀行が、有名な米国の株価指数の予測を引き上げ、好調な企業利益とAIへの高まる需要を理由に挙げた。だがこうした予測は本当は何を意味し、どこまで信じるべきか。市場予測（プライスターゲットとも呼ばれる）は、根拠ある推測だ。アナリストは企業の利益・広い経済・今の傾向を調べ、数か月後に価格がどこにあるかを見積もる。約束ではなく、誰も本当に未来を知らない——今日の情報に基づく慎重な意見だ。なぜこうした予測が重要か。投資家の感じ方を形づくる。尊敬される銀行の楽観的な予測は自信を高め、人々に買いを促し、少なくともしばらく価格を押し上げうる。暗い予測は逆を行う。こうして予測は、それが描く市場そのものに影響しうる。それでも予測はしばしば外れる。経済は突然の出来事——危機・新技術・政策変更——に驚かされうる。アナリストは状況の変化とともに頻繁に目標を更新し、そうした予測がいかに不確実かを示す。慎重な読者への教訓は、予測を事実でなく有用な意見として扱うことだ。情報通の専門家が何を期待するかを要約しており、それは価値がある。だが未来は不明のままで、賢い投資家は多くの見方を比べ、慎重を保ち、最も自信ある予測でさえ結局はただの推測だと忘れない。",
+        quiz: [
+          { q: "市場予測（プライスターゲット）とは何か？", options: ["今日の情報に基づく根拠ある推測", "確実な約束", "過去の記録だけ"], answer: 0 },
+          { q: "予測が市場に影響しうる理由は？", options: ["投資家の自信や感じ方を左右するから", "価格を法律で決めるから", "株の数を変えるから"], answer: 0 },
+          { q: "本文が勧める予測への向き合い方は？", options: ["事実でなく有用な意見として扱う", "必ず従う", "完全に無視する"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0811-2",
+        title: "The Fierce Race in Smartphones",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Every year, phone makers around the world release new models, each promising to be faster, smarter, or better value than the last. Recently, one company launched a new series of phones with the latest 5G technology and upgraded features. Behind these launches lies one of the most competitive businesses on Earth: the global smartphone market.\nWhy is competition so fierce? Billions of people use smartphones, so even a small share of the market means huge sales. To win customers, companies compete on price, camera quality, battery life, screen, and speed. A single popular feature can help one brand pull ahead of the others.\nMuch of the latest competition centers on 5G, the newest kind of mobile network. 5G can move data much faster than older networks, making video, games, and downloads smoother. As more countries build 5G networks, phone makers race to offer devices that use them well, even in cheaper models.\nThis competition brings real benefits to buyers. Strong rivalry pushes companies to improve their products and keep prices reasonable. Features that were once found only in expensive phones now appear in affordable ones, so more people can enjoy powerful technology.\nThere are downsides too. New models appear so quickly that older phones can feel out of date, encouraging waste. Some 'upgrades' offer only small improvements.\nStill, the smartphone race shows competition at its most intense. In a market of billions, companies must keep innovating just to stay in the game — and, along the way, they place remarkable technology into everyday hands.",
+        summaryJa: "毎年、世界中の携帯電話メーカーが新モデルを出し、それぞれ前より速く・賢く・割安だと約束する。最近、ある企業が最新の5G技術と改良機能を備えた新シリーズを発売した。こうした発売の背後には、地球で最も競争の激しい商売の一つ——世界のスマートフォン市場がある。なぜ競争がそれほど激しいか。何十億もの人がスマホを使うので、市場のわずかな割合でも巨大な売上を意味する。顧客を勝ち取るため、企業は価格・カメラ画質・電池持ち・画面・速度で競う。一つの人気機能が、あるブランドを他社より前に出す助けになりうる。最近の競争の多くは、最新の携帯ネットワークである5Gに集まる。5Gは旧来のネットワークよりずっと速くデータを運び、動画・ゲーム・ダウンロードを滑らかにする。より多くの国が5G網を築く中、メーカーは、安価なモデルでもそれをうまく使える端末を出そうと競う。この競争は買い手に本当の利益をもたらす。激しい競争は企業に製品改良と手頃な価格の維持を促す。かつて高価な携帯だけにあった機能が今や手頃な機種にも現れ、より多くの人が強力な技術を楽しめる。難点もある。新モデルが速く現れるため古い携帯が時代遅れに感じられ、無駄を促す。わずかな改善だけの「改良」もある。それでもスマホ競争は、最も激しい競争の姿を示す。何十億の市場で、企業は生き残るためだけでも革新を続けねばならない——そしてその過程で、目覚ましい技術を日々の手の中に置いていく。",
+        quiz: [
+          { q: "スマホ市場の競争が激しい理由は？", options: ["何十億人も使い、わずかな市場割合でも巨大な売上になるから", "使う人が少ないから", "作るのが簡単だから"], answer: 0 },
+          { q: "5Gの利点は？", options: ["旧来より速くデータを運び動画やゲームが滑らかになる", "電池が要らなくなる", "画面が消える"], answer: 0 },
+          { q: "激しい競争が買い手にもたらす利益は？", options: ["製品改良と手頃な価格の維持", "価格の高騰", "選択肢の減少"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0811-3",
+        title: "Gifts Between Nations",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "When countries want to show friendship, they sometimes exchange unusual gifts. Recently, one nation revived an old tradition by giving several pairs of peacocks — its beautiful national bird — to an international organization, as a symbol of friendship and shared culture. Such gifts may seem small beside serious world affairs, but they carry real meaning.\nWhy do nations give gifts? Diplomacy is not only about treaties and trade. It is also about building trust and goodwill between peoples. A thoughtful gift can express respect, celebrate a shared history, or simply create a warm feeling that makes future cooperation easier. Animals, plants, and works of art are common choices, each carrying a message about the country that gives them.\nGifts of animals have a long history. Over the centuries, nations have exchanged everything from horses to rare birds. Some gifts, like pandas sent to zoos around the world, have become famous symbols of friendship, drawing crowds and creating lasting bonds between countries.\nOf course, such gifts also raise practical questions. Animals need proper care, suitable homes, and attention to their health. A living gift is a responsibility, not just a symbol, and must be looked after well.\nStill, the tradition endures because it speaks to something human. Behind the formal language of diplomacy are people who, like friends anywhere, use gifts to say what words alone cannot. A pair of beautiful birds, offered in friendship, is a quiet reminder that nations, in the end, are made of people who wish to get along.",
+        summaryJa: "国々は友好を示したいとき、時に珍しい贈り物を交わす。最近、ある国が古い伝統を復活させ、美しい国鳥であるクジャクを数つがい、友好と共有する文化の象徴として国際機関に贈った。こうした贈り物は深刻な世界情勢の傍らでは小さく見えるかもしれないが、本当の意味を持つ。なぜ国は贈り物をするのか。外交は条約や貿易だけではない。国民同士の信頼と善意を築くことでもある。心のこもった贈り物は敬意を表し、共有する歴史を祝い、あるいは単に、将来の協力を容易にする温かな感情を生みうる。動物・植物・芸術品がよく選ばれ、それぞれ贈る国についてのメッセージを担う。動物の贈り物には長い歴史がある。何世紀もの間、国々は馬から珍しい鳥まで交換してきた。世界中の動物園に送られたパンダのように、友好の有名な象徴となり、人だかりを呼び国同士の永続的な絆を生んだ贈り物もある。もちろん、こうした贈り物は実際的な問いも生む。動物には適切な世話・住処・健康への配慮が要る。生きた贈り物は象徴であるだけでなく責任であり、よく世話されねばならない。それでも伝統が続くのは、それが人間的な何かに語りかけるからだ。外交の形式的な言葉の背後には、どこの友人とも同じように、言葉だけでは言えないことを贈り物で伝える人々がいる。友好のうちに贈られる美しい一つがいの鳥は、国が結局、仲良くやりたいと願う人々でできていることの静かな気づきだ。",
+        quiz: [
+          { q: "ある国が国際機関に贈ったものは？", options: ["国鳥のクジャク数つがい", "大量の金貨", "武器"], answer: 0 },
+          { q: "国が贈り物をする理由は？", options: ["国民同士の信頼と善意を築くため", "相手を困らせるため", "貿易を止めるため"], answer: 0 },
+          { q: "生きた動物の贈り物が生む問いは？", options: ["適切な世話・住処・健康への配慮という責任", "象徴にならないこと", "歴史がないこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0811-4",
+        title: "Japan's Own Eyes in the Sky",
+        level: "★★★",
+        genre: "日本",
+        text: "Almost everyone with a smartphone relies on satellites to find their way. Maps, ride services, and delivery apps all need to know exactly where you are. To make this positioning more accurate over its territory, Japan has built its own set of satellites, sometimes called the Quasi-Zenith Satellite System, designed to work closely with the well-known global positioning services.\nHow does satellite positioning work? Satellites high above the Earth send out signals. Your phone receives signals from several of them and, by measuring tiny differences in time, calculates your location. The more satellites your phone can 'see,' and the better their position, the more accurate the result.\nWhy does Japan need its own satellites? In cities full of tall buildings, and in mountainous areas, signals from distant satellites can be blocked or bounced around, causing errors. Japan's satellites are placed so that at least one is almost always high overhead, giving a clearer signal and greatly improving accuracy — sometimes down to a few centimeters.\nSuch precision has many uses. It can guide self-driving cars, help farmers steer machines through fields, support drones, and make navigation more reliable in crowded streets. As technology depends more and more on knowing exact positions, this accuracy becomes increasingly valuable.\nThe system is a quiet example of important infrastructure — technology most people never notice but use every day. High above Japan, these satellites circle patiently, helping phones, cars, and machines below answer a simple but essential question: exactly where am I right now?",
+        summaryJa: "スマートフォンを持つほぼ誰もが、道を見つけるのに衛星に頼っている。地図・配車・配達アプリはすべて、あなたが正確にどこにいるかを知る必要がある。自国の領域上でこの位置測定をより正確にするため、日本は独自の衛星群——準天頂衛星システム（みちびき）とも呼ばれる——を築き、有名な全地球測位サービスと密に連携するよう設計した。衛星測位はどう働くのか。地球のはるか上の衛星が信号を送る。あなたの携帯はそのいくつかから信号を受け、時間のごく小さな差を測って位置を計算する。携帯が「見える」衛星が多く、その位置が良いほど、結果は正確になる。なぜ日本に独自の衛星が要るのか。高い建物だらけの都市や山がちな地域では、遠い衛星からの信号が遮られたり反射したりして誤差を生みうる。日本の衛星は、少なくとも一つがほぼ常に真上高くにあるよう配置され、より明瞭な信号を与えて精度を大きく高める——時に数センチ単位まで。こうした精度には多くの用途がある。自動運転車を導き、農家が畑で機械を操るのを助け、ドローンを支え、混雑した街路でも案内をより確実にする。技術が正確な位置を知ることにますます依存する中、この精度は一層価値を持つ。このシステムは重要なインフラの静かな一例だ——多くの人が気づかないが毎日使う技術。日本のはるか上で、これらの衛星は忍耐強く周回し、下の携帯・車・機械が単純だが不可欠な問い——今この瞬間、私は正確にどこにいるのか——に答える手助けをしている。",
+        quiz: [
+          { q: "衛星測位で位置を計算する方法は？", options: ["複数の衛星の信号の時間差を測る", "衛星の色を見る", "電話番号を使う"], answer: 0 },
+          { q: "日本が独自の衛星を必要とする理由は？", options: ["高い建物や山で信号が遮られ誤差が出るのを防ぐため", "衛星が安いから", "宇宙が空いているから"], answer: 0 },
+          { q: "高い精度の用途に含まれるものは？", options: ["自動運転車や農業機械の誘導", "天気を変えること", "電池を作ること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0811-5",
+        title: "Helping Crops Survive Drought",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Water is essential for growing food, but in many parts of the world it is becoming scarce. As droughts grow more common, farmers face a hard question: how can crops survive with less water? Scientists are working to answer it, and their research is quietly becoming one of the most important efforts for our future. One researcher was recently honored for pioneering work in this field.\nWhy does drought research matter so much? Most of the food we eat depends on plants, and plants depend on water. When rains fail, crops can wither, harvests shrink, and food becomes scarce and expensive. With a growing population and a changing climate, finding ways to grow food with less water is vital.\nHow do scientists help? They study how different plants cope with dry conditions, searching for varieties that need less water or can survive longer without it. They also develop better ways to use water wisely, such as watering only where and when plants truly need it. Some work to improve the soil so it holds moisture longer.\nThis research combines many fields — biology, chemistry, weather science, and engineering. Progress is often slow, tested season after season in real fields, but small improvements can help millions of farmers.\nThe work is a reminder that some of the most important science is not flashy. Quietly, in laboratories and fields, researchers are helping to make sure that as the climate changes, the world can still be fed — turning knowledge into something as basic, and as precious, as food on the table.",
+        summaryJa: "水は食料を育てるのに不可欠だが、世界の多くの地域で乏しくなりつつある。干ばつがより一般的になる中、農家は難しい問いに直面する——より少ない水で作物はどう生き延びられるのか。科学者はそれに答えようと取り組んでおり、その研究は静かに、私たちの未来にとって最も重要な努力の一つになりつつある。ある研究者が最近、この分野の先駆的な業績で表彰された。なぜ干ばつ研究がそれほど重要か。私たちが食べる食料の多くは植物に、植物は水に依存する。雨が降らなければ作物は枯れ、収穫は縮み、食料は乏しく高価になる。人口が増え気候が変わる中、より少ない水で食料を育てる方法を見つけることは極めて重要だ。科学者はどう助けるのか。異なる植物が乾いた条件にどう対処するかを研究し、より少ない水で済む、あるいは水なしでより長く生きられる品種を探す。植物が本当に必要とする場所と時にだけ水をやるなど、水を賢く使うより良い方法も開発する。土壌を改良して水分をより長く保たせる研究をする者もいる。この研究は多くの分野——生物学・化学・気象科学・工学——を組み合わせる。進歩はしばしば遅く、実際の畑で季節ごとに試されるが、小さな改善が何百万もの農家を助けうる。この仕事は、最も重要な科学のいくつかが派手ではないことを思い出させる。研究室や畑で静かに、研究者は、気候が変わっても世界が食べていけるようにする手助けをしている——知識を、食卓の食べ物と同じくらい基本的で貴重なものに変えて。",
+        quiz: [
+          { q: "科学者が探しているものは？", options: ["より少ない水で育つ、または乾燥に耐える作物の品種", "水を消す方法", "雨を止める方法"], answer: 0 },
+          { q: "干ばつ研究が重要な理由は？", options: ["食料は植物に、植物は水に依存し、干ばつで食料が乏しくなるから", "水が無限にあるから", "植物は水が不要だから"], answer: 0 },
+          { q: "本文が伝えることは？", options: ["最も重要な科学のいくつかは派手ではない", "科学は常に派手だ", "農業に科学は不要"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-10",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が地下のマグマを「見る」ために使うものは？", options: ["地球の微小な振動（地震波など）", "巨大なドリル", "強い光"], answer: 0 },
           { q: "熱く柔らかいマグマが波に与える影響は？", options: ["冷たく固い岩とは異なる", "全く影響しない", "波を消してしまう"], answer: 0 },
           { q: "この地図化が意味することは？", options: ["地球の深部構造をより明瞭に読む一歩", "噴火が確実に来ること", "地球が空洞であること"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-04",
-    passages: [
-      {
-        id: "d0804-1",
-        title: "How a Struggling Company Turns Around",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When a big company loses money, its future can look bleak. But businesses in trouble can recover, and the story of how they do it is a useful lesson in economics. Recently, a major Japanese carmaker returned to profit after a difficult period, showing how careful management can turn a company around.\nWhat does a 'turnaround' involve? Usually, it starts with cutting costs. A struggling company may close inefficient factories, reduce spending, simplify its product line, and renegotiate deals with suppliers. The aim is to spend less while keeping the products that customers actually want.\nCutting costs alone is not enough, though. A company must also protect the things that earn it money — good products, skilled workers, and loyal customers. Cut too deeply, and it may damage the very strengths it needs to grow again. The best turnarounds balance saving money with investing in the future.\nRecovery also depends on outside conditions. Exchange rates, the price of materials, and demand from customers all affect the result. A weaker home currency, for example, can help a carmaker that sells abroad, while cheaper parts lower its costs.\nReturning to profit is an important milestone, but not the end of the story. The company must prove it can stay profitable, keep improving, and compete with rivals. Still, the lesson is encouraging: with clear decisions and steady effort, even a company in serious trouble can find its way back to health.",
-        summaryJa: "大企業が損失を出すと、その未来は暗く見えうる。だが苦境の企業も回復でき、その方法は経済の有益な教訓だ。最近、日本の大手自動車メーカーが困難な時期を経て黒字に戻り、丁寧な経営が会社を立て直せることを示した。「ターンアラウンド（再建）」とは何を伴うのか。多くはコスト削減から始まる。苦境の企業は非効率な工場を閉じ、支出を減らし、製品ラインを簡素化し、供給業者との取引を再交渉する。狙いは、顧客が本当に望む製品を保ちつつ支出を減らすことだ。だがコスト削減だけでは足りない。会社は収益を生むもの——良い製品・熟練従業員・忠実な顧客——も守らねばならない。切りすぎれば、再成長に必要な強みそのものを損なう。最良の再建は、節約と未来への投資を両立する。回復は外部条件にも左右される。為替・材料価格・顧客需要がすべて結果に影響する。例えば自国通貨安は海外で売るメーカーを助け、安い部品はコストを下げる。黒字回復は重要な節目だが物語の終わりではない。会社は黒字を保ち、改善を続け、競合と戦えると証明せねばならない。それでも教訓は励みになる——明確な決断と着実な努力があれば、深刻な苦境の企業でも健全さを取り戻せる。",
-        quiz: [
-          { q: "「ターンアラウンド（再建）」が多くの場合まず始めることは？", options: ["コスト削減", "従業員の大量増員", "広告の全面停止"], answer: 0 },
-          { q: "コスト削減だけでは足りない理由は？", options: ["収益を生む製品・人・顧客も守る必要があるから", "削減は不可能だから", "顧客が自然に増えるから"], answer: 0 },
-          { q: "黒字回復について本文が述べることは？", options: ["重要な節目だが物語の終わりではない", "会社の完成である", "もう努力は不要になる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0804-2",
-        title: "Printing Super-Hard Tools",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "When we think of 3D printing, we often picture small plastic toys or models. But the technology is growing far more powerful, and researchers have now found a way to 3D-print one of the hardest materials used in industry — a tough blend of tungsten carbide and cobalt — while using less of its expensive raw materials.\nWhy does this matter? This hard material is used to make cutting tools, drills, and parts that must survive heavy wear. Traditionally, shaping it is difficult and wasteful: a lot of costly material is cut away and thrown out. 3D printing works differently. It builds an object layer by layer, adding material only where it is needed, so less is wasted.\nThe new method is important for two reasons. First, it saves money by using less of a rare and expensive ingredient. Second, it allows complex shapes that would be hard or impossible to make with older methods, giving engineers more freedom to design better tools.\nThere are still hurdles. Printing very hard materials requires great precision and high temperatures, and the finished parts must be strong and reliable enough for demanding jobs. Moving from the laboratory to the factory floor takes time and testing.\nStill, the progress points to a larger trend. 3D printing is moving beyond plastic trinkets into serious industrial use, letting manufacturers build strong, complex parts with less waste. Little by little, the way we make things is being reinvented — one carefully printed layer at a time.",
-        summaryJa: "3Dプリンティングと聞くと、小さなプラスチックの玩具や模型を思い浮かべがちだ。だがこの技術ははるかに強力になりつつあり、研究者はこのほど、産業で使われる最も硬い材料の一つ——タングステンカーバイドとコバルトの強靭な混合物——を、高価な原料をより少なく使いながら3D印刷する方法を見つけた。なぜ重要か。この硬い材料は切削工具・ドリル・激しい摩耗に耐える部品に使われる。従来は成形が難しく無駄が多い——高価な材料が大量に削り取られ捨てられる。3D印刷は違う。物体を層ごとに築き、必要な場所にだけ材料を加えるので無駄が少ない。新手法が重要な理由は二つ。第一に、希少で高価な材料を少なく使い費用を節約する。第二に、旧来の方法では難しいか不可能な複雑な形状を可能にし、技術者により良い工具を設計する自由を与える。まだ障害もある。非常に硬い材料の印刷は高い精度と高温を要し、完成部品は過酷な用途に十分な強さと信頼性が必要だ。実験室から工場の現場へ移るには時間と試験がかかる。それでも進歩は大きな流れを示す。3Dプリンティングはプラスチックの小物を超え本格的な産業利用へ進み、より少ない無駄で強く複雑な部品を作れるようにする。少しずつ、物の作り方が作り替えられている——丁寧に印刷される一層ずつ。",
-        quiz: [
-          { q: "この硬い材料は何に使われるか？", options: ["切削工具・ドリル・摩耗に耐える部品", "玩具だけ", "食器だけ"], answer: 0 },
-          { q: "3D印刷が無駄を減らせる理由は？", options: ["必要な場所にだけ材料を加えて層ごとに築くから", "材料を大量に削るから", "材料を全く使わないから"], answer: 0 },
-          { q: "新手法の利点に含まれるものは？", options: ["費用節約と複雑な形状の実現", "印刷が遅くなること", "強度が下がること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0804-3",
-        title: "Drones That Deliver Medicine",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "In parts of the world where roads are poor and hospitals are far apart, getting medicine to patients quickly can be a matter of life and death. In one African country, small aircraft called drones are helping to solve this problem, carrying blood, vaccines, and other medical supplies across the sky to clinics that are hard to reach by road.\nHow does it work? A health worker at a distant clinic sends a request, and a drone is loaded and launched from a central station. Flying in a straight line above rivers, hills, and traffic, it can deliver supplies in minutes rather than the hours a truck might take. The package is dropped gently by parachute, and the drone returns home.\nThe benefits are clear. Blood for emergencies and vaccines that must stay cold can arrive fresh and fast. Clinics no longer need to store large amounts of supplies, and fewer patients die waiting for treatment. The system is especially valuable during floods or other emergencies, when roads may be blocked.\nThere are challenges too. Drones are expensive to run, need trained staff, and depend on steady funding, which can be uncertain when outside support rises and falls. Weather and rules about flying must also be managed carefully.\nStill, the idea shows how technology can leap over old obstacles. Instead of waiting years to build new roads, some countries are using the sky to connect people to care — a reminder that clever solutions can save lives today, not just in the distant future.",
-        summaryJa: "道路が悪く病院が遠く離れた世界の地域では、患者に薬を素早く届けることが生死を分けうる。あるアフリカの国では、ドローンと呼ばれる小型航空機がこの問題の解決を助け、血液・ワクチン・その他の医療物資を空から、道路では到達しにくい診療所へ運んでいる。仕組みは。遠隔の診療所の医療従事者が要請を送ると、中央基地でドローンに荷が積まれ発進する。川・丘・渋滞の上を直線で飛び、トラックなら数時間かかる物資を数分で届けられる。荷はパラシュートでそっと落とされ、ドローンは帰還する。利点は明白だ。緊急用の血液や低温を保つ必要のあるワクチンが、新鮮に速く届く。診療所は大量の物資を保管する必要がなくなり、治療を待って亡くなる患者が減る。道路が塞がれうる洪水などの非常時に特に価値がある。課題もある。ドローンは運用費が高く、訓練された職員を要し、外部支援の増減で不確かになりうる安定した資金に依存する。天候や飛行の規則も慎重に管理せねばならない。それでもこの発想は、技術が古い障害を飛び越えられることを示す。新しい道路を何年もかけて造るのを待つ代わりに、空を使って人々を医療につなぐ国もある——巧みな解決策が遠い未来でなく今日、命を救えることを思い出させる。",
-        quiz: [
-          { q: "ドローンがこの国で運んでいるものは？", options: ["血液・ワクチンなどの医療物資", "観光客", "建築資材"], answer: 0 },
-          { q: "ドローン配送が特に価値を持つのは？", options: ["道路が塞がれうる洪水などの非常時", "晴れた日だけ", "都市の中心部だけ"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["運用費が高く安定した資金に依存する", "荷物が重すぎること", "空が狭すぎること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0804-4",
-        title: "Getting Ready for Typhoon Season",
-        level: "★★☆",
-        genre: "日本",
-        text: "Every summer and autumn, Japan prepares for one of nature's most powerful visitors: the typhoon. These huge storms form over warm seas and can bring fierce winds, heavy rain, and dangerous waves. Recently, a typhoon moved toward Japan's southern islands, and once again the country put its long experience with such storms to work.\nHow does Japan prepare? Warnings are key. Weather agencies track a typhoon for days as it approaches, predicting its path and strength, so people have time to get ready. Television, phones, and loudspeakers share updates, telling residents when to stay home or move to safer places.\nPreparation also happens at home and in the community. Families secure loose objects, stock up on water and food, and charge their phones in case the power goes out. Local governments open shelters, check rivers and drains, and stop trains and flights when the danger is high. Fishing boats return to port, and shops may close their shutters.\nWhy so much care? Typhoons can cause floods and landslides, damage homes, and put lives at risk. But good preparation makes a real difference. Many storms pass with far less harm than they might have caused, precisely because people acted early.\nLiving with typhoons has taught Japan an important habit: respect the storm, but do not panic. By watching forecasts, following advice, and helping neighbors, communities face even powerful typhoons with calm and readiness — turning a frightening event into something they know how to handle.",
-        summaryJa: "毎年の夏と秋、日本は自然の最も強力な来訪者の一つ——台風に備える。この巨大な嵐は暖かい海の上で生まれ、激しい風・大雨・危険な波をもたらす。最近、台風が日本の南の島々へ向かい、国は再びこうした嵐への長い経験を生かした。日本はどう備えるか。警報が鍵だ。気象機関は接近する台風を数日追い、進路と強さを予測するので、人々に備える時間ができる。テレビ・携帯・防災無線が更新を伝え、家にとどまるか安全な場所へ移るべき時を住民に知らせる。備えは家庭や地域でも行われる。家族は飛びやすい物を固定し、水や食料を蓄え、停電に備えて携帯を充電する。自治体は避難所を開き、川や排水路を点検し、危険が高いと電車や航空便を止める。漁船は港に戻り、店はシャッターを閉じることもある。なぜそれほど慎重に。台風は洪水や土砂崩れを起こし、家を壊し、命を危険にさらしうる。だが良い備えは本当に違いを生む。多くの嵐が本来より遥かに少ない被害で過ぎるのは、まさに人々が早く動いたからだ。台風との共生は日本に大切な習慣を教えた——嵐を敬い、しかし慌てない。予報を見て、助言に従い、隣人を助けることで、地域は強い台風にも落ち着いて備えて向き合い、恐ろしい出来事を「対処の仕方を知るもの」に変えている。",
-        quiz: [
-          { q: "台風はどこで生まれるか？", options: ["暖かい海の上", "高い山の上", "砂漠の中"], answer: 0 },
-          { q: "日本の備えで「鍵」とされるものは？", options: ["数日前からの警報・予報", "嵐を止める機械", "何もしないこと"], answer: 0 },
-          { q: "本文が教える習慣は？", options: ["嵐を敬い、しかし慌てないこと", "予報を無視すること", "一人だけで対処すること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0804-5",
-        title: "What Food Labels Really Tell Us",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Walk down any supermarket aisle and you will see them everywhere: words like 'organic,' 'natural,' and 'high protein' printed proudly on packages. These labels are designed to catch your eye and shape your choices — but they do not always mean what shoppers think, and they can lead people to pay more than they need to.\nWhy are labels sometimes misleading? Some words are carefully defined and checked by law, while others are almost free for companies to use. 'Organic,' in many countries, follows strict rules. But a word like 'natural' often has no clear meaning, and 'high protein' may describe a food that was never lacking protein in the first place. A cheerful label can make an ordinary product feel special.\nWhy does this matter? Food is a huge business, and small changes in wording can change what millions of people buy. Shoppers may spend extra money believing a product is healthier or better for the planet, when a plainer, cheaper option is just as good.\nHow can people protect themselves? The advice is simple but powerful: look past the front of the package. The back, where ingredients and nutrition facts are listed, tells a more honest story. Comparing similar products often reveals that the fancy label adds little except cost.\nThe lesson reaches beyond groceries. In a world full of marketing, being a thoughtful consumer means asking what words really mean — and remembering that the boldest claim on the box is not always the most important fact inside it.",
-        summaryJa: "スーパーのどの通路を歩いても、あちこちで目にする——「オーガニック」「ナチュラル」「高タンパク」といった言葉がパッケージに誇らしげに印刷されている。こうしたラベルは目を引き、選択を左右するよう作られている——だが買い物客が思う意味とは限らず、必要以上に払わせることもある。なぜ時に誤解を招くのか。法律で慎重に定義され確認される言葉もあれば、企業がほぼ自由に使える言葉もある。多くの国で「オーガニック」は厳格な規則に従う。だが「ナチュラル」のような言葉はしばしば明確な意味がなく、「高タンパク」はもともとタンパク質に不足のなかった食品を指すこともある。明るいラベルは、平凡な製品を特別に感じさせうる。なぜ重要か。食品は巨大な商売で、言葉の小さな違いが何百万人の購買を変えうる。買い物客は、より地味で安い選択肢が同じくらい良いのに、健康的だ・地球に良いと信じて余分に払うかもしれない。どう身を守るか。助言は単純だが強力だ——パッケージの表を越えて見よ。原材料と栄養成分が並ぶ裏面が、より正直な物語を語る。似た製品を比べると、しゃれたラベルは費用以外ほとんど何も足していないと分かることが多い。教訓は食品を超える。宣伝に満ちた世界で思慮深い消費者であるとは、言葉が本当に何を意味するかを問うこと——そして箱の最も大胆な主張が、中の最も重要な事実とは限らないと覚えておくことだ。",
-        quiz: [
-          { q: "食品ラベルが時に誤解を招く理由は？", options: ["企業がほぼ自由に使える言葉もあるから", "全て法律で禁止されているから", "誰も読まないから"], answer: 0 },
-          { q: "本文が勧める身を守る方法は？", options: ["パッケージ裏面の原材料・栄養成分を見る", "表の言葉だけ信じる", "値段だけ見る"], answer: 0 },
-          { q: "本文の教訓は？", options: ["最も大胆な主張が最も重要な事実とは限らない", "高いものほど必ず良い", "ラベルは常に正しい"], answer: 0 }
         ]
       }
     ]
