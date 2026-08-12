@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-12",
+    passages: [
+      {
+        id: "d0812-1",
+        title: "From the Lab to the Market",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Some of today's most exciting companies did not begin in a boardroom, but in a university laboratory. When researchers make a discovery — a new material, a clever robot, or a better way to make medicine — they sometimes start a company to turn that idea into a real product. These new firms, often called university 'spinouts,' are becoming an important source of innovation, including in Japan.\nWhy do discoveries need companies? A great idea in a research paper does not automatically help anyone. To reach the world, it must be developed, tested, manufactured, and sold — work that requires money, staff, and business skills. By founding a company, researchers can raise money from investors and build a team to bring their invention to life.\nThis path is not easy. Scientists are experts in their field, but running a business requires very different skills — managing people, finding customers, and handling money. Many spinouts fail, and even successful ones take years to grow. Support from universities, investors, and experienced managers can make a big difference.\nWhen these companies succeed, everyone can benefit. They create jobs, bring useful new products to market, and help a country stay competitive in advanced fields such as robotics, biotechnology, and clean energy.\nThe rise of university spinouts shows how closely knowledge and business are linked. A discovery is only the beginning. Turning it into something people can actually use is a long journey — and the companies that make that journey help carry the fruits of research from the quiet lab into everyday life.",
+        summaryJa: "今日の最も刺激的な企業のいくつかは、役員会議室でなく大学の研究室で生まれた。研究者が発見をしたとき——新素材、巧妙なロボット、より良い薬の作り方——その着想を現実の製品に変えるため会社を興すことがある。しばしば大学「スピンアウト」と呼ばれるこうした新会社は、日本を含め、革新の重要な源になりつつある。なぜ発見に会社が要るのか。論文の中の素晴らしい着想は、自動的に誰かを助けはしない。世界に届くには、開発・試験・製造・販売されねばならず、それにはお金・人材・経営技能が要る。会社を設立すれば、研究者は投資家から資金を集め、発明を形にするチームを築ける。この道は容易ではない。科学者は専門分野の達人だが、事業運営には全く異なる技能——人の管理、顧客の獲得、お金の扱い——が要る。多くのスピンアウトは失敗し、成功するものも成長に何年もかかる。大学・投資家・経験ある経営者の支援が大きな違いを生みうる。こうした企業が成功すれば、皆が恩恵を受けうる。雇用を生み、有用な新製品を市場にもたらし、ロボット工学・バイオテクノロジー・クリーンエネルギーなど先端分野で国が競争力を保つ助けになる。大学スピンアウトの台頭は、知識と事業がいかに密接に結びつくかを示す。発見は始まりにすぎない。それを人々が実際に使えるものに変えるのは長い旅であり、その旅を成し遂げる企業が、研究の果実を静かな研究室から日々の暮らしへ運ぶ助けをする。",
+        quiz: [
+          { q: "大学「スピンアウト」とは？", options: ["研究の発見を製品に変えるため研究者が興す会社", "大学の授業の一種", "政府機関"], answer: 0 },
+          { q: "発見に会社が必要な理由は？", options: ["開発・試験・製造・販売にお金や人材、経営技能が要るから", "研究が自動で製品になるから", "会社は不要だから"], answer: 0 },
+          { q: "この道が容易でない理由は？", options: ["事業運営は研究とは異なる技能を要し多くが失敗する", "科学者は何でもできるから", "すぐ成功するから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0812-2",
+        title: "A Patch That Helps You Sleep",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Good sleep is one of the most important things for our health, yet many people struggle to get enough of it. Scientists are now testing a small wearable patch designed to help people reach deep, restful sleep more quickly. In an early study, the device helped users reach an important stage of sleep sooner and stay in it longer.\nWhy does the stage of sleep matter? During the night, we pass through different stages. One of them, often called REM sleep, is especially important for the brain — it helps with memory, learning, and emotional balance. People who do not get enough of this stage may feel tired and unfocused, even after a full night in bed.\nHow might a patch help? Worn on the body, the device gently sends signals that encourage the brain to move into deeper sleep more easily. Instead of using drugs, it works with the body's natural rhythms, which may make it gentler and safer for regular use.\nIt is important to be careful. The study was small, and much more testing is needed before such a device could be widely used. Sleep is complex, and what helps in a laboratory may work differently for different people.\nStill, the research points to an appealing idea: using gentle technology to improve something as basic as sleep. If devices like this prove safe and effective, they could help millions of people rest better — and wake up ready to face the day, refreshed by the simple, powerful medicine of a good night's sleep.",
+        summaryJa: "良い睡眠は健康にとって最も重要なものの一つだが、多くの人が十分に取れずに苦しむ。科学者は今、人々がより早く深く安らかな睡眠に達する助けとなる、小さな装着型パッチを試している。初期の研究で、この装置は利用者が重要な睡眠段階により早く達し、より長くとどまる助けをした。なぜ睡眠の段階が重要か。夜の間、私たちは異なる段階を通る。その一つ、しばしばレム睡眠と呼ばれる段階は脳に特に重要だ——記憶・学習・感情の安定を助ける。この段階が足りない人は、一晩寝ても疲れて集中できないと感じうる。パッチはどう助けうるのか。体に装着され、装置は脳がより容易に深い睡眠へ移るよう促す穏やかな信号を送る。薬を使う代わりに、体の自然なリズムと協働するので、日常的な使用にもより穏やかで安全かもしれない。慎重さが大切だ。研究は小規模で、こうした装置が広く使われる前にはるかに多くの試験が要る。睡眠は複雑で、実験室で効くものが人によって異なる働きをしうる。それでも研究は魅力的な発想を示す——穏やかな技術で、睡眠のような基本的なものを改善すること。こうした装置が安全で有効と証明されれば、何百万もの人がより良く休む助けになりうる——そして良い睡眠という単純で強力な薬に癒され、一日に立ち向かう準備をして目覚める。",
+        quiz: [
+          { q: "この装置が助けるのは？", options: ["深く安らかな睡眠に早く達すること", "目を覚まし続けること", "運動すること"], answer: 0 },
+          { q: "レム睡眠が重要な理由は？", options: ["記憶・学習・感情の安定を助けるから", "体温を上げるから", "空腹を防ぐから"], answer: 0 },
+          { q: "本文が促す慎重さは？", options: ["研究は小規模でさらなる試験が必要", "装置は完璧である", "睡眠は単純である"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0812-3",
+        title: "Science the Whole World Shares",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Some of humanity's greatest scientific tools are too big and too expensive for any single country to build alone. Giant telescopes, particle laboratories, and space missions often cost billions of dollars and require the skills of thousands of experts. To make them possible, countries around the world join together, sharing the cost, the work, and the discoveries.\nWhy cooperate on science? Beyond saving money, working together brings the best minds from many nations to one problem. A telescope built by several countries can be more powerful than any one nation could afford. And when new knowledge is found — about distant planets, tiny particles, or the origins of the universe — it belongs to all of humanity, not just one country.\nModern tools are making these projects even more powerful. Advanced computers and artificial intelligence now help scientists sort through the enormous amounts of data these instruments produce, spotting patterns that humans might miss and speeding up discovery.\nSuch cooperation is not always simple. Countries must agree on goals, share control, and keep working together even when their relations are tense elsewhere. Yet science has often been a bridge, connecting people across borders through shared curiosity.\nThe results belong to everyone. Images from a great telescope, or knowledge about how the universe began, are shared freely with students, scientists, and dreamers everywhere. In a divided world, these shared scientific adventures are a quiet reminder of what people can achieve when they look outward together, united by the simple wish to understand.",
+        summaryJa: "人類の最も偉大な科学の道具のいくつかは、どの一国にとっても単独で建てるには大きすぎ高価すぎる。巨大望遠鏡、素粒子研究所、宇宙ミッションはしばしば数十億ドルを要し、何千もの専門家の技能を必要とする。それらを可能にするため、世界中の国々が手を組み、費用・作業・発見を分かち合う。なぜ科学で協力するのか。お金の節約を超え、共に働くことは多くの国の最良の頭脳を一つの問題に集める。数か国で建てた望遠鏡は、どの一国が賄えるものより強力になりうる。そして新しい知——遠い惑星、小さな粒子、宇宙の起源についての——が見つかれば、それは一国でなく全人類のものだ。現代の道具はこうした事業をさらに強力にしている。先端のコンピューターとAIが、これらの機器が生む膨大なデータを整理し、人が見逃す模様を見つけ、発見を速める助けをする。こうした協力は常に単純ではない。国々は目標に合意し、統制を分かち合い、他所で関係が緊張していても共に働き続けねばならない。だが科学はしばしば橋となり、共有する好奇心を通じて国境を越えて人々をつないできた。成果は皆のものだ。偉大な望遠鏡の画像や、宇宙がどう始まったかの知識は、どこの学生・科学者・夢見る人にも自由に共有される。分断された世界で、こうした共有される科学の冒険は、人々が共に外を見つめ、理解したいという単純な願いに結ばれたとき何を成し遂げられるかの、静かな気づきだ。",
+        quiz: [
+          { q: "巨大な科学の道具で国々が協力する理由は？", options: ["費用が高く単独では建てられず知恵も集められるから", "科学は簡単だから", "一国で十分だから"], answer: 0 },
+          { q: "AIやコンピューターが科学で果たす役割は？", options: ["膨大なデータを整理し模様を見つけ発見を速める", "望遠鏡を建てること", "国境を引くこと"], answer: 0 },
+          { q: "発見された知は誰のものか？", options: ["全人類のもの", "一国だけのもの", "誰のものでもない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0812-4",
+        title: "The Fireworks of Summer",
+        level: "★★☆",
+        genre: "日本",
+        text: "In summer, the night skies over Japan light up with color. From July through August, towns and cities hold hanabi, or fireworks festivals, drawing huge crowds who gather along rivers and in parks to watch. For many people in Japan, a summer without fireworks would hardly feel like summer at all.\nWhy are fireworks so loved here? Part of the answer is history. Japan has a long tradition of firework-making, and its craftspeople are famous for creating beautiful, perfectly round bursts of light in many colors and shapes. A big festival can send up thousands of fireworks, sometimes set to music, in a show that lasts an hour or more.\nBut hanabi is about more than the fireworks themselves. It is a social event, a chance to gather with family and friends. Many people wear a light summer kimono called a yukata, buy food from festival stalls, and enjoy the warm evening together. The brief, brilliant flashes in the sky become a shared memory of the season.\nThere is also a gentle feeling behind the tradition. In Japanese culture, the beauty of fireworks is tied to the idea that lovely things do not last — each burst shines for only a moment before fading. This makes the experience feel precious.\nSo a fireworks festival is more than a show. It is a celebration of summer, of community, and of fleeting beauty — a reminder to pause, look up, and enjoy a bright moment together before it gently disappears into the night.",
+        summaryJa: "夏、日本の夜空は色で輝く。7月から8月にかけて、町や都市は花火大会を開き、川沿いや公園に集う大群衆を惹きつける。日本の多くの人にとって、花火のない夏はほとんど夏らしく感じられない。なぜここで花火はそれほど愛されるのか。答えの一部は歴史だ。日本には長い花火作りの伝統があり、その職人は、多くの色と形で美しく完璧に丸い光の炸裂を生むことで有名だ。大きな大会は時に音楽に合わせ、数千発の花火を打ち上げ、一時間以上続く見世物になる。だが花火大会は花火そのもの以上のものだ。社交の場であり、家族や友人と集う機会だ。多くの人が浴衣という薄手の夏の着物を着て、屋台で食べ物を買い、暖かな夕べを共に楽しむ。空の短く鮮やかな閃光は、季節の共有された思い出になる。この伝統の背後には穏やかな感情もある。日本文化では、花火の美しさは、美しいものは続かないという考えに結びつく——各炸裂は消える前のほんの一瞬だけ輝く。これが体験を貴重に感じさせる。だから花火大会は見世物以上のものだ。夏の、地域の、そしてはかない美しさの祝いだ——立ち止まり、見上げ、夜へと静かに消える前の明るい一瞬を共に楽しむようにという気づきなのだ。",
+        quiz: [
+          { q: "花火大会が開かれる時期は？", options: ["夏（7〜8月）", "冬", "春の初め"], answer: 0 },
+          { q: "花火大会が花火以上のものである理由は？", options: ["家族や友人と集う社交の場だから", "静かに一人で見るものだから", "昼に行うから"], answer: 0 },
+          { q: "花火の美しさが結びつく日本文化の考えは？", options: ["美しいものは続かない（はかなさ）", "花火は永遠に残る", "音が最も重要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0812-5",
+        title: "Asteroids: Hardware Stores in Space",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "If humans ever build a lasting home on Mars, they will need building materials — metal, in particular. Carrying everything from Earth would be enormously expensive. So scientists are exploring a bold idea: using metal-rich asteroids, floating rocks in space, as a kind of hardware store for future explorers.\nWhy asteroids? Some asteroids are packed with useful metals such as iron and nickel. Instead of launching heavy metal from Earth, explorers might one day mine these space rocks and use the material to build tools, structures, or spacecraft parts closer to where they are needed. A new analysis suggests that certain carefully chosen asteroids could be reached with the kind of spacecraft we already have.\nHow would it work? First, scientists must find the right asteroids — those with valuable materials and paths that make them easy to reach. Then, machines would have to travel there, collect the metal, and process it in space, far from any factory. Each of these steps is difficult and has never been done on a large scale.\nThere are big challenges. Space mining is expensive and risky, the technology is still young, and questions remain about who would own such resources. It may be many years before any of this becomes real.\nStill, the idea captures the imagination. It suggests a future where explorers do not carry everything with them, but use what space itself provides. Like early travelers living off the land, future settlers might one day build new worlds using the raw materials floating quietly among the stars.",
+        summaryJa: "もし人類がいつか火星に永続的な住まいを築くなら、建材——特に金属——が必要になる。全てを地球から運ぶのは莫大な費用がかかる。そこで科学者は大胆な発想を探っている——金属に富む小惑星、宇宙に浮かぶ岩を、未来の探検者のための一種のホームセンターとして使うのだ。なぜ小惑星か。一部の小惑星は鉄やニッケルなど有用な金属で満ちている。重い金属を地球から打ち上げる代わりに、探検者はいつかこの宇宙の岩を採掘し、その材料を必要とされる場所の近くで道具・構造物・探査機の部品を作るのに使えるかもしれない。新しい分析は、慎重に選ばれた特定の小惑星が、既にある種類の探査機で到達できうると示す。どう機能するのか。まず、科学者は適切な小惑星——価値ある材料を持ち、到達しやすい軌道の——を見つけねばならない。次に、機械がそこへ行き、金属を集め、どの工場からも遠い宇宙で加工せねばならない。これらの各段階は難しく、大規模に行われたことは一度もない。大きな課題がある。宇宙採掘は高価で危険で、技術はまだ若く、そうした資源を誰が所有するかの問いも残る。これのいずれかが現実になるまで何年もかかるかもしれない。それでもこの発想は想像力を捕らえる。探検者が全てを持ち運ぶのでなく、宇宙そのものが提供するものを使う未来を示す。土地の恵みで暮らした初期の旅人のように、未来の入植者はいつか、星々の間に静かに浮かぶ原材料で新しい世界を築くかもしれない。",
+        quiz: [
+          { q: "科学者が探る大胆な発想は？", options: ["金属に富む小惑星を建材の供給源として使う", "小惑星を地球に落とす", "小惑星を燃やす"], answer: 0 },
+          { q: "小惑星の金属を使う利点は？", options: ["重い金属を地球から打ち上げずに済む", "味が良いから", "光るから"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["宇宙採掘は高価で危険、技術も若く所有の問いも残る", "小惑星が存在しないこと", "金属が無価値なこと"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-11",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "「スイングバイ（重力アシスト）」とは？", options: ["惑星の重力を使って加速し進路を変えること", "惑星に着陸すること", "燃料を大量に燃やすこと"], answer: 0 },
           { q: "この探査機が向かっている先は？", options: ["金属に富む遠い小惑星", "太陽", "月"], answer: 0 },
           { q: "金属の小惑星を探る理由は？", options: ["惑星の核に似て惑星の成り立ちを学べるから", "金を採るため", "燃料を得るため"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-05",
-    passages: [
-      {
-        id: "d0805-1",
-        title: "When Big Spending Worries Investors",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "It might seem strange, but a company can report fast growth and still see its share price fall. This happened recently to several technology firms whose profits or forecasts disappointed investors, even as their businesses expanded. The reason lies in how markets judge a company: not just by what it earns today, but by what people expect it to earn tomorrow.\nMuch of the worry centers on spending. To compete in artificial intelligence, companies are pouring enormous sums into chips, data centers, and electricity. Investors like ambition, but they also ask a hard question: will all this spending eventually produce enough profit to justify it? When the answer is unclear, share prices can drop, even for companies that are growing.\nExpectations matter enormously. If investors expect a company to grow 50 percent and it grows 40 percent, the stock may fall — not because 40 percent is bad, but because it is less than hoped. In the stock market, missing high expectations can hurt as much as poor results.\nThis creates pressure on company leaders. They must invest boldly to stay ahead, yet show that the spending will pay off. Promising too little looks weak; promising too much and falling short disappoints the market.\nFor learners of business English, the lesson is subtle but important. A stock price is not a simple report card of the past. It is a bet on the future — and in the age of expensive AI, investors are watching costs as closely as they watch growth.",
-        summaryJa: "奇妙に思えるかもしれないが、企業は急成長を報告しながら株価が下がることがある。最近、事業を拡大しながらも利益や見通しが投資家を失望させた複数の技術企業に起きた。理由は市場が企業を判断する仕方にある——今日の稼ぎだけでなく、明日いくら稼ぐと人々が期待するかによって判断するのだ。懸念の多くは支出に集まる。AIで競うため、企業はチップ・データセンター・電力に莫大な資金を注ぐ。投資家は野心を好むが、厳しい問いも投げる——この支出はいずれ、それを正当化するだけの利益を生むのか。答えが不明だと、成長中の企業でも株価は下がりうる。期待は極めて重要だ。投資家が50％成長を期待し40％成長なら、株は下がりうる——40％が悪いからでなく、望みより少ないからだ。株式市場では、高い期待に届かないことは、悪い結果と同じくらい痛手になりうる。これは経営者に圧力をかける。先頭を保つため大胆に投資しつつ、その支出が実を結ぶと示さねばならない。約束が小さすぎれば弱く見え、大きすぎて届かなければ市場を失望させる。ビジネス英語の学習者への教訓は微妙だが重要だ。株価は過去の単純な成績表ではない。未来への賭けであり——高価なAIの時代に、投資家は成長と同じくらい費用を注視している。",
-        quiz: [
-          { q: "急成長でも株価が下がりうる理由は？", options: ["投資家は将来の期待で判断し、期待に届かないと下がるから", "成長は常に悪いことだから", "会社が必ず消えるから"], answer: 0 },
-          { q: "投資家がAI支出に投げる厳しい問いは？", options: ["支出は正当化できるだけの利益を生むのか", "なぜ社員がいるのか", "なぜ電気を使うのか"], answer: 0 },
-          { q: "本文が言う株価とは？", options: ["未来への賭け", "過去の単純な成績表", "会社の年齢の記録"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0805-2",
-        title: "A Robot Hand with a Human Touch",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "The human hand is a marvel of engineering. It can grip a hammer, turn a key, and gently pick up an egg without breaking it. For robots, copying this skill has been surprisingly hard. Now a Japanese company has developed a robotic hand able to make highly dexterous movements, bringing machines a step closer to the delicate touch of a person.\nWhy is a good hand so difficult to build? Human hands combine strength with fine control and a rich sense of touch. We adjust our grip without thinking, using tiny signals from our skin to hold objects firmly but gently. A robot must sense pressure, control many small joints at once, and react instantly — all while avoiding crushing or dropping what it holds.\nA truly skillful robotic hand could be useful in many places. In factories, it could assemble small, delicate parts. In warehouses, it could sort objects of different shapes. One day, such hands might help in hospitals or homes, assisting people with everyday tasks that require a careful touch.\nChallenges remain. Dexterous hands are complex and expensive, and they must be safe around people. Teaching a machine to handle the endless variety of real objects is slow, careful work.\nStill, progress in this field is important. As artificial intelligence gives machines better 'brains,' skillful hands give them a way to act in the physical world. Together, they move us toward robots that can not only think, but also do — working carefully alongside us.",
-        summaryJa: "人間の手は工学の驚異だ。ハンマーを握り、鍵を回し、卵を割らずにそっと持ち上げられる。ロボットにとって、この技を真似るのは意外にも難しかった。いま日本の企業が、非常に器用な動きができるロボットハンドを開発し、機械を人の繊細な感触に一歩近づけた。なぜ良い手を作るのが難しいのか。人の手は力と精緻な制御、そして豊かな触覚を兼ね備える。私たちは肌からの小さな信号を使い、物をしっかりだが優しく持つよう、考えずに握りを調整する。ロボットは圧力を感じ、多くの小さな関節を同時に制御し、瞬時に反応せねばならない——しかも持つ物を潰したり落としたりせずに。本当に器用なロボットハンドは多くの場所で役立ちうる。工場では小さく繊細な部品を組み立て、倉庫では形の異なる物を仕分けられる。いつか病院や家庭で、丁寧な感触を要する日常の作業を助けるかもしれない。課題も残る。器用な手は複雑で高価で、人の周りで安全でなければならない。現実の物の無限の多様性を扱うよう機械に教えるのは、遅く慎重な仕事だ。それでもこの分野の進歩は重要だ。AIが機械により良い「頭脳」を与える中、器用な手は物理世界で行動する手段を与える。両者が相まって、考えるだけでなく「行う」ロボット——私たちの傍らで丁寧に働く機械へと近づけていく。",
-        quiz: [
-          { q: "ロボットにとって手の技を真似るのが難しい理由は？", options: ["力・精緻な制御・触覚を同時に必要とするから", "手が大きすぎるから", "電気が要らないから"], answer: 0 },
-          { q: "器用なロボットハンドの用途に含まれるものは？", options: ["繊細な部品の組立や物の仕分け", "空を飛ぶこと", "料理の味付けだけ"], answer: 0 },
-          { q: "AIと器用な手の関係は？", options: ["頭脳と行動する手段が相まって役立つ", "互いに全く無関係", "手が頭脳を不要にする"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0805-3",
-        title: "Europe Tells AI to Introduce Itself",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Imagine chatting online with what you think is a person, only to learn later that it was a computer program. To prevent this kind of confusion, Europe has begun switching on new, continent-wide rules that require artificial intelligence systems to identify themselves to the humans they talk to. In short, an AI must now make clear that it is an AI.\nWhy make such a rule? As AI becomes better at writing and speaking like a person, it grows harder to tell machine from human. That can be used to trick people — for example, to spread false information or to pretend to be a real customer-service worker. Requiring AI to reveal itself helps people know who, or what, they are really dealing with.\nMaking rules for an entire continent is not easy. Europe is made up of many countries, each with its own laws and views. Agreeing on shared rules takes years of discussion and compromise. Yet acting together gives these rules real weight: companies that want to reach millions of European customers must follow them.\nNot everyone agrees on the details. Some worry the rules may slow down useful technology or be hard to enforce. Others say they do not go far enough. Balancing safety and innovation is a genuine challenge.\nStill, the move is significant. It shows how governments are trying to guide a fast-moving technology rather than simply react to it — setting basic expectations, such as honesty, before problems grow too large to manage.",
-        summaryJa: "人だと思ってオンラインでやり取りしていた相手が、実はコンピュータープログラムだったと後で知る——そんな場面を想像してほしい。この種の混乱を防ぐため、欧州はAIが対話する人間に対し自らの正体を明かすよう求める、大陸全体の新しい規則を施行し始めた。要するに、AIは今や自分がAIだと明確にせねばならない。なぜそんな規則を。AIが人のように書き話すのが上手くなるほど、機械と人の区別は難しくなる。それは人をだますのに使われうる——例えば偽情報を広めたり、本物の顧客対応係のふりをしたり。AIに正体を明かさせることは、人が本当に誰・何を相手にしているかを知る助けになる。大陸全体の規則作りは簡単ではない。欧州は多くの国から成り、各国が独自の法や見解を持つ。共有の規則への合意には何年もの議論と妥協が要る。だが共に動けば規則は実質的な重みを持つ——数百万の欧州の顧客に届きたい企業は従わねばならない。細部で全員が一致するわけではない。有用な技術を遅らせる、あるいは執行が難しいと懸念する声、逆に不十分だという声もある。安全と革新の両立は本物の難題だ。それでもこの動きは重要だ。政府が急速に動く技術に、ただ反応するのでなく導こうとしていること——問題が手に負えなくなる前に、誠実さのような基本的な期待を定めることを示している。",
-        quiz: [
-          { q: "欧州の新しい規則がAIに求めることは？", options: ["対話する人間に自らがAIだと明かすこと", "人間のふりをすること", "無料になること"], answer: 0 },
-          { q: "なぜこの規則が必要とされるのか？", options: ["AIが人をだますのに使われうるから", "AIが遅いから", "AIが高価だから"], answer: 0 },
-          { q: "大陸全体で規則を作る難しさは？", options: ["多くの国の合意に議論と妥協が要る", "国が一つしかないこと", "規則が軽くなること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0805-4",
-        title: "Japan's Rising Wages",
-        level: "★★☆",
-        genre: "日本",
-        text: "For many years, wages in Japan barely moved. Prices were stable, and so were paychecks, and workers grew used to salaries that stayed nearly the same. That pattern is now changing. Major Japanese companies have agreed to raise monthly wages by more than five percent for the third year in a row — a notable shift for the country.\nWhy are wages rising now? Several forces are at work. Prices have been climbing, so workers need higher pay just to keep up with the cost of living. At the same time, Japan's shrinking population means fewer young workers, so companies must offer better pay to attract and keep staff. Strong company profits and pressure from the government to share them have also helped.\nWhy does this matter? Wages affect almost everything. When people earn more, they can spend more, which supports shops and businesses. Higher pay can also lift confidence, encouraging workers to make plans and companies to invest. Economists hope that rising wages and prices together can pull Japan out of decades of slow growth.\nThere are risks and questions. If prices rise faster than wages, workers may still feel poorer. Smaller companies may struggle to match the big raises, and the trend must continue for years to truly change habits.\nStill, the change is meaningful. After a long period of standing still, paychecks in Japan are moving again — a small but hopeful sign that the country's economy may be entering a new and more dynamic chapter.",
-        summaryJa: "長年、日本の賃金はほとんど動かなかった。物価が安定し、給与も同様で、労働者はほぼ変わらない賃金に慣れていた。その様相が今、変わりつつある。日本の大企業が3年連続で月給を5％超引き上げることに合意した——この国にとって注目すべき転換だ。なぜ今賃金が上がるのか。いくつかの力が働く。物価が上がり続け、労働者は生活費に追いつくだけでも高い賃金が要る。同時に、人口減少で若い働き手が減り、企業は人材の獲得・定着のためより良い賃金を出さねばならない。企業の好業績と、それを分配せよという政府の圧力も後押しした。なぜ重要か。賃金はほぼ全てに影響する。人々の稼ぎが増えれば支出も増え、店や事業を支える。高い賃金は自信も高め、労働者に計画を、企業に投資を促す。経済学者は、賃金と物価がともに上がることで日本を数十年の低成長から引き出せると期待する。リスクや問いもある。物価が賃金より速く上がれば、労働者はなお貧しく感じうる。大幅な賃上げに追随しにくい中小企業もあり、習慣を本当に変えるには何年も続く必要がある。それでも変化には意味がある。長く止まっていた後、日本の給与は再び動き出した——経済がより力強い新章に入りつつあるかもしれない、小さくも希望のある兆しだ。",
-        quiz: [
-          { q: "日本の賃金が上がっている理由の一つは？", options: ["物価上昇と人口減少による人手確保の必要", "物価が下がったから", "若者が増えすぎたから"], answer: 0 },
-          { q: "賃金上昇が経済に良い理由は？", options: ["人々の支出が増え店や事業を支えるから", "支出が減るから", "企業が倒産するから"], answer: 0 },
-          { q: "本文が挙げるリスクは？", options: ["物価が賃金より速く上がると貧しく感じうる", "賃金が高すぎて困ること", "変化が速すぎること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0805-5",
-        title: "Seeing Deep Beneath the Ground",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "We cannot dig very far into the Earth, yet scientists have just mapped an enormous body of hot, partly melted rock — called magma — lying deep beneath a region of Italy. The reservoir is huge, and understanding it could help experts learn more about the ground we live on. But how do you 'see' something buried kilometers below the surface?\nThe answer is clever: scientists listen to the Earth's own vibrations. The ground is always trembling very slightly, shaken by distant earthquakes, ocean waves, and even human activity. As these waves travel through the planet, they change speed and direction depending on the rock they pass through. Hot, soft magma affects them differently than cold, solid rock.\nBy placing many sensitive instruments across the surface and recording these tiny vibrations, researchers can work backward to picture what lies below — much as a doctor uses sound waves to see inside the body. Powerful computers turn the signals into a three-dimensional map of the hidden reservoir.\nWhy does this matter? Knowing where magma sits, and how much there is, helps scientists understand volcanoes and the slow forces that shape the land. It does not mean an eruption is coming; rather, it is a step toward reading the Earth's deep structure more clearly.\nThe achievement is a reminder of how science extends our senses. With patience and clever tools, we can explore places no one can ever visit — turning the planet's faint whispers into detailed maps of a world hidden beneath our feet.",
-        summaryJa: "私たちは地球を深くは掘れないが、科学者はこのほど、イタリアのある地域の地下深くにある巨大な熱く一部溶けた岩——マグマ——の塊を地図化した。その溜まりは巨大で、理解が進めば私たちの暮らす大地についてより多くを学べる。だが地表の何キロも下に埋もれた物を、どう「見る」のか。答えは巧妙だ——科学者は地球自身の振動に耳を澄ます。大地は常にごくわずかに震えている。遠い地震・海の波・人間の活動にさえ揺らされて。これらの波が地球を進むとき、通る岩によって速さと向きを変える。熱く柔らかいマグマは、冷たく固い岩とは異なる影響を与える。多くの高感度の機器を地表に並べ、この小さな振動を記録することで、研究者は下に何があるかを逆算して描ける——医師が音波で体内を見るように。強力なコンピューターが信号を、隠れた溜まりの三次元地図に変える。なぜ重要か。マグマがどこにどれだけあるかを知ることは、火山や大地を形づくる緩やかな力の理解を助ける。噴火が来るという意味ではない。むしろ地球の深部構造をより明瞭に読む一歩だ。この成果は、科学が私たちの感覚を拡張することを思い出させる。忍耐と巧妙な道具で、誰も決して訪れられない場所を探れる——地球のかすかなささやきを、足下に隠れた世界の詳細な地図に変えて。",
-        quiz: [
-          { q: "科学者が地下のマグマを「見る」ために使うものは？", options: ["地球の微小な振動（地震波など）", "巨大なドリル", "強い光"], answer: 0 },
-          { q: "熱く柔らかいマグマが波に与える影響は？", options: ["冷たく固い岩とは異なる", "全く影響しない", "波を消してしまう"], answer: 0 },
-          { q: "この地図化が意味することは？", options: ["地球の深部構造をより明瞭に読む一歩", "噴火が確実に来ること", "地球が空洞であること"], answer: 0 }
         ]
       }
     ]
