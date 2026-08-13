@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-13",
+    passages: [
+      {
+        id: "d0813-1",
+        title: "Why Online Giants Open Real Shops",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "It might seem strange for a company famous for the internet to open a physical store, yet that is exactly what is happening. Recently, a major technology company opened its first flagship store in Japan, in a fashionable district of Tokyo. Why would a business built online want a real shop made of glass and concrete?\nOne reason is experience. Online, customers can read about a product, but they cannot touch it. In a physical store, people can hold a device, try its features, and ask questions face to face. This hands-on experience can build trust and excitement that a website alone cannot create.\nAnother reason is the brand. A beautiful flagship store in a famous shopping area is like a giant advertisement. Even people who do not buy anything see the store, remember the brand, and may feel it is important and reliable. The building itself sends a message.\nStores also offer support. Customers can bring in broken devices, get advice, or learn how to use new features. Good service in person can turn a buyer into a loyal, long-term customer.\nOf course, physical stores are expensive to build and run, so companies open them carefully, usually in busy, high-profile locations.\nThe trend shows that online and offline business are not enemies but partners. Even in a digital age, people still value real places, real objects, and real human help. A well-designed store lets an online company meet its customers in person — and turn clicks into a lasting relationship.",
+        summaryJa: "インターネットで有名な企業が実店舗を開くのは奇妙に見えるかもしれないが、まさにそれが起きている。最近、ある大手技術企業が、東京のおしゃれな地区に日本初の旗艦店を開いた。オンラインで築かれた事業が、なぜガラスとコンクリートの実店舗を欲しがるのか。理由の一つは体験だ。オンラインでは製品について読めるが、触れられない。実店舗では、人は端末を手に取り、機能を試し、対面で質問できる。この実際に触れる体験は、ウェブサイトだけでは生めない信頼と高揚を築きうる。もう一つの理由はブランドだ。有名な商店街の美しい旗艦店は、巨大な広告のようなものだ。何も買わない人でも店を見て、ブランドを覚え、重要で信頼できると感じるかもしれない。建物自体がメッセージを送る。店はサポートも提供する。客は壊れた端末を持ち込み、助言を得て、新機能の使い方を学べる。対面の良いサービスは、買い手を忠実で長期の顧客に変えうる。もちろん実店舗は建設も運営も高価なので、企業は普通、賑やかで注目される場所に慎重に開く。この流れは、オンラインとオフラインの事業が敵でなく相棒であることを示す。デジタル時代でも、人はなお本物の場所・本物の品・本物の人の助けを大切にする。よく設計された店は、オンライン企業が顧客と対面で会い、クリックを永続的な関係に変えることを可能にする。",
+        quiz: [
+          { q: "オンライン企業が実店舗を開く理由の一つは？", options: ["客が製品を手に取り試せる体験を提供できる", "店の方が安いから", "ウェブが使えないから"], answer: 0 },
+          { q: "旗艦店がブランドに与える効果は？", options: ["巨大な広告となりブランドを覚えさせる", "客を追い返す", "製品を隠す"], answer: 0 },
+          { q: "本文の結論は？", options: ["オンラインとオフラインは敵でなく相棒", "実店舗は不要である", "オンラインはもう終わった"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0813-2",
+        title: "Mining the Ocean Floor",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Far below the surface of the sea, in cold and total darkness, lie valuable metals that the modern world badly needs. Recently, plans were announced for one of the deepest undersea mines ever attempted, aiming to collect rare earth elements from the ocean floor. These metals are essential for many technologies, and reaching them is a huge engineering challenge.\nWhy mine the deep sea? Rare earth elements are used in magnets, motors, batteries, wind turbines, and electronics. They are found on land in only a few places, so countries are searching for new sources. The deep ocean floor holds large amounts — enough, some say, to meet industrial demand for a very long time.\nBut mining thousands of meters underwater is extremely difficult. The pressure is crushing, there is no light, and machines must operate far from any human hand. Engineers must design robots and systems that can dig, collect, and lift material to the surface, all while working reliably in one of the harshest places on Earth.\nThere are serious concerns too. The deep sea is home to strange and little-understood life, and mining could damage these fragile ecosystems. Scientists warn that we must understand the risks before disturbing a world we know so little about.\nThe project shows both human ingenuity and difficult choices. We have the technology to reach places once thought impossible, but with that power comes responsibility. As we search the deep ocean for the metals of the future, we must also decide how to protect the mysterious world we find there.",
+        summaryJa: "海面のはるか下、冷たく完全な暗闇の中に、現代世界が切実に必要とする貴重な金属が眠っている。最近、これまでで最も深い海底鉱山の一つの計画が発表され、海底からレアアース（希土類元素）を集めることを目指す。これらの金属は多くの技術に不可欠で、それに到達するのは巨大な工学的挑戦だ。なぜ深海を採掘するのか。レアアースは磁石・モーター・電池・風力タービン・電子機器に使われる。陸上ではわずかな場所にしかないため、各国は新たな供給源を探している。深海の海底は大量に蓄え、一部は非常に長い間、産業需要を満たすのに十分だと言う。だが水中数千メートルでの採掘は極めて難しい。圧力は押し潰すほどで、光はなく、機械は人の手から遠く離れて動かねばならない。技術者は、地球で最も過酷な場所の一つで確実に働きつつ、掘り・集め・材料を海面へ持ち上げるロボットとシステムを設計せねばならない。深刻な懸念もある。深海は奇妙でほとんど理解されていない生命の住処で、採掘はこの脆い生態系を損ないうる。科学者は、ほとんど知らない世界をかき乱す前に、リスクを理解せねばならないと警告する。この事業は人間の創意と難しい選択の双方を示す。かつて不可能と思われた場所に到達する技術を持つが、その力には責任が伴う。未来の金属を求めて深海を探るとき、私たちはそこで見つける神秘の世界をどう守るかも決めねばならない。",
+        quiz: [
+          { q: "なぜ深海を採掘しようとするのか？", options: ["技術に不可欠なレアアースが大量にあるから", "水が欲しいから", "魚を採るため"], answer: 0 },
+          { q: "深海採掘が難しい理由は？", options: ["高い圧力・暗闇で機械が人の手から遠く働くから", "浅すぎるから", "暖かすぎるから"], answer: 0 },
+          { q: "本文が挙げる懸念は？", options: ["脆い深海の生態系を損ないうる", "金属が無価値なこと", "海が浅くなること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0813-3",
+        title: "The Rise of a Global Language",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Around the world, when people from different countries meet, they often need a shared language to understand each other. More and more, that language is English. A business meeting between a German and a Japanese company, a science conference, or a group of tourists from many nations — all may use English as a common tool, even when it is no one's first language.\nWhy did English spread so widely? History and trade played a large part, and today English is the main language of international business, science, aviation, and the internet. Because so many people already study it, learning English opens doors to jobs, education, and communication across borders.\nA shared global language brings real benefits. It lets a doctor in one country read research from another, helps businesses trade, and allows travelers to find their way. In a connected world, being able to communicate widely is a valuable skill.\nBut there are concerns too. As English grows, some worry that smaller languages may be used less, and that a piece of each culture could be lost with them. Many people believe it is important to learn English while also protecting one's own language and traditions.\nInterestingly, global English no longer belongs only to countries where it began. It is shaped by millions of speakers worldwide, each adding their own accent and style.\nFor learners, this is encouraging. English is not about sounding perfect, but about connecting with others. Every new phrase learned is another bridge to the wider world — and to the many people waiting to be understood.",
+        summaryJa: "世界中で、異なる国の人々が出会うとき、互いを理解するために共有する言語がしばしば必要になる。ますますその言語は英語だ。ドイツと日本の企業の商談、科学会議、多くの国から来た観光客の一団——すべてが、誰の母語でなくても、英語を共通の道具として使いうる。なぜ英語はそれほど広まったのか。歴史と貿易が大きな役割を果たし、今日、英語は国際ビジネス・科学・航空・インターネットの主要言語だ。既に多くの人が学んでいるため、英語を学ぶことは、国境を越えた仕事・教育・意思疎通への扉を開く。共有の世界言語は本当の利益をもたらす。ある国の医師が別の国の研究を読めるようにし、企業の取引を助け、旅行者が道を見つけられるようにする。つながった世界で、広く意思疎通できることは価値ある技能だ。だが懸念もある。英語が広がるにつれ、より小さな言語が使われなくなり、それとともに各文化の一部が失われうると心配する人もいる。多くの人は、自分の言語や伝統を守りつつ英語を学ぶことが重要だと信じる。興味深いことに、世界の英語はもはや、それが始まった国だけのものではない。世界中の何百万もの話者に形づくられ、各自が独自の訛りとスタイルを加える。学習者には、これは励みだ。英語は完璧に聞こえることでなく、他者とつながることだ。学んだ新しい表現の一つ一つが、より広い世界——そして理解されるのを待つ多くの人々——への、もう一つの橋なのだ。",
+        quiz: [
+          { q: "異なる国の人々が共通の道具として使うことが増えている言語は？", options: ["英語", "どの言語でもない", "数字だけ"], answer: 0 },
+          { q: "共有の世界言語の利益は？", options: ["他国の研究を読めたり取引や旅行を助けたりする", "文化を消すこと", "移動を止めること"], answer: 0 },
+          { q: "本文が学習者に伝えることは？", options: ["英語は完璧さでなく他者とつながること", "完璧に話せねば無意味", "英語は学ぶ必要がない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0813-4",
+        title: "Japan's Cooling Summer Foods",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japanese summers are hot and humid, and over the centuries people have developed clever, delicious ways to cool down through food. When the weather is at its hottest, certain dishes appear on tables and at festivals across the country, each designed to bring a feeling of coolness and refreshment.\nOne favorite is kakigori, or shaved ice. Fine, fluffy ice is piled into a mountain and topped with sweet, colorful syrups — strawberry, green tea, lemon, and many more. Sold at festivals and shops, it is a bright, icy treat that both children and adults love on a hot afternoon.\nAnother summer classic is somen, very thin noodles served cold. They are often eaten with a light dipping sauce and simple toppings. In a playful tradition called nagashi-somen, the noodles slide down a channel of running water, and diners catch them with chopsticks as they pass — a cool and fun way to eat.\nThese foods are about more than taste. Cold dishes help the body feel cooler, and their light flavors are easy to enjoy even when the heat takes away one's appetite. Eating them is also part of the rhythm of the season, a small ritual that marks the arrival of summer.\nFood, in this way, becomes a gentle answer to the weather. Instead of only fighting the heat with machines, people also welcome it with special dishes. A bowl of shaved ice or cold noodles turns a hot day into something to enjoy — proof that even summer's discomforts can be met with a little pleasure and tradition.",
+        summaryJa: "日本の夏は暑く湿気が多く、何世紀もかけて人々は食べ物で涼をとる巧みでおいしい方法を編み出してきた。天気が最も暑いとき、涼しさと爽やかさをもたらすよう作られた特定の料理が、全国の食卓や祭りに現れる。人気の一つはかき氷だ。細かくふわふわの氷が山盛りにされ、甘く色とりどりのシロップ——いちご・抹茶・レモンなど——がかけられる。祭りや店で売られ、暑い午後に子供も大人も愛する明るく冷たい一品だ。もう一つの夏の定番はそうめん、冷たく供される非常に細い麺だ。しばしば軽いつゆと簡素な薬味で食べる。流しそうめんという遊び心ある慣わしでは、麺が流れる水の樋を滑り下り、食べる人が通り過ぎるのを箸で捕まえる——涼しく楽しい食べ方だ。これらの食べ物は味以上のものだ。冷たい料理は体を涼しく感じさせ、その軽い味は、暑さで食欲が失せるときでも楽しみやすい。食べることは季節のリズムの一部でもあり、夏の到来を告げる小さな儀式だ。こうして食べ物は天気への穏やかな答えになる。機械だけで暑さと闘う代わりに、人々は特別な料理でそれを迎えもする。かき氷や冷たい麺の一杯が、暑い日を楽しめるものに変える——夏の不快さでさえ、少しの喜びと伝統で迎えられる証だ。",
+        quiz: [
+          { q: "かき氷とはどんな食べ物か？", options: ["細かい氷に甘いシロップをかけた冷たい一品", "温かいスープ", "焼いた肉"], answer: 0 },
+          { q: "流しそうめんとは？", options: ["流れる水を滑る麺を箸で捕まえて食べる慣わし", "麺を焼く方法", "麺を売る店"], answer: 0 },
+          { q: "夏の冷たい料理が味以上に持つ意味は？", options: ["体を涼しく感じさせ季節のリズムを告げる", "体を温めること", "食欲を無くすこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0813-5",
+        title: "Mysterious Lights Above the Storm",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "One night, people in Japan reported seeing a strange red light stretching upward across the sky. It was not a UFO or a trick of the eyes, but a rare and beautiful natural event called a 'sprite' — a brief flash of light that appears high above thunderstorms, far above the clouds we usually see.\nWhat exactly is a sprite? Everyone knows lightning, which flashes between clouds or down to the ground. Sprites are different. They occur much higher up, in the thin air near the edge of space, and they often glow red rather than white. They are triggered by powerful lightning in the storm below, but they leap upward instead of down.\nWhy are sprites so hard to see? They last only a tiny fraction of a second and appear very high in the sky, usually far from the observer. For a long time, pilots reported strange flashes, but scientists could not easily study them. Only with modern high-speed cameras have we begun to capture and understand these events.\nStudying sprites teaches us about the upper atmosphere, a region that is difficult to reach and still full of mysteries. Understanding how energy moves through it helps scientists learn more about our planet's weather and the edge of space.\nThe sighting is a reminder that wonders can appear in the everyday sky. Above an ordinary thunderstorm, for a single instant, nature paints a red flash most people never see. To notice it is to be reminded how much beauty and mystery still hang quietly above our heads.",
+        summaryJa: "ある夜、日本の人々が、空を上へと伸びる奇妙な赤い光を見たと報告した。UFOでも目の錯覚でもなく、「スプライト」と呼ばれる稀で美しい自然現象だった——雷雨のはるか上、普段見る雲よりずっと高くに現れる、一瞬の光の閃きだ。スプライトとは正確には何か。誰もが、雲の間や地面へ光る稲妻を知っている。スプライトは違う。ずっと高く、宇宙の縁に近い薄い空気の中で起き、白でなく赤く輝くことが多い。下の嵐の強力な雷に引き起こされるが、下でなく上へ跳ね上がる。なぜスプライトはそれほど見えにくいのか。ほんの一瞬しか続かず、空の非常に高いところに、普通は観測者から遠く現れる。長い間、操縦士が奇妙な閃光を報告したが、科学者は容易には研究できなかった。現代の高速度カメラがあって初めて、私たちはこうした現象を捉え理解し始めた。スプライトの研究は、到達が難しく今も謎に満ちた領域である上層大気について教えてくれる。そこをエネルギーがどう動くかを理解することは、地球の天気や宇宙の縁についてより多くを学ぶ助けになる。この目撃は、日々の空にも驚異が現れうることを思い出させる。ありふれた雷雨の上で、ただ一瞬、自然はほとんどの人が見ない赤い閃光を描く。それに気づくことは、私たちの頭上に、どれほど多くの美と神秘が今も静かに漂っているかを思い出すことだ。",
+        quiz: [
+          { q: "「スプライト」とは何か？", options: ["雷雨のはるか上に現れる一瞬の光", "UFO", "街の照明"], answer: 0 },
+          { q: "スプライトが普通の稲妻と違う点は？", options: ["ずっと高くで起き、上へ跳ね赤く輝くことが多い", "地面に落ちること", "音が非常に大きいこと"], answer: 0 },
+          { q: "スプライトの研究が教えてくれるものは？", options: ["謎に満ちた上層大気について", "海の深さ", "地下の金属"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-12",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "この結晶で熱が示した驚きのふるまいは？", options: ["焦点を絞った波として特定の方向へ進む", "完全に消えてしまう", "自然に冷たくなる"], answer: 0 },
           { q: "普通の材料で熱が広がる理由は？", options: ["微小な振動が乱雑に跳ね回るから", "光そのものだから", "水でできているから"], answer: 0 },
           { q: "この制御が役立ちうる場面は？", options: ["チップの熱を繊細な部品から遠ざける", "部屋を暗くする", "音を消す"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-06",
-    passages: [
-      {
-        id: "d0806-1",
-        title: "Why Used Phones Are Booming",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "New smartphones grab the headlines, but a quieter market is growing fast: used phones. In Japan, sales of secondhand smartphones have risen for seven years in a row, recently reaching record numbers. More and more people are choosing a pre-owned device instead of the latest expensive model — and this shift says a lot about how shoppers think today.\nWhy are used phones so popular? The most obvious reason is price. A gently used phone can cost far less than a new one, while still working well. As new models grow more expensive, many buyers decide that last year's phone is more than good enough for their needs.\nThere are other reasons too. Modern phones last longer than they used to, so a two- or three-year-old device still runs smoothly. Some buyers also like the idea of reusing a product instead of throwing it away, which reduces waste and is kinder to the environment.\nThe trend has created a real business. Shops and websites now specialize in checking, cleaning, and reselling used phones, offering warranties to reassure buyers. This turns what was once simply 'old' into a valuable product.\nThe wider lesson is about changing values. For years, newer always meant better. Now, many customers care about price, longer use, and sustainability. In markets from phones to cars to clothing, the growing appetite for secondhand goods shows that 'used' is losing its old stigma — and becoming, for many, a smart and responsible choice.",
-        summaryJa: "新品スマホは見出しをさらうが、より静かな市場が急成長している——中古スマホだ。日本では中古スマホの販売が7年連続で伸び、近年は過去最高の台数に達した。最新の高価なモデルでなく中古端末を選ぶ人が増えており、この変化は今日の買い物客の考え方を多く物語る。なぜ中古が人気か。最も明白な理由は価格だ。丁寧に使われた端末は新品よりずっと安く、なお十分に動く。新モデルが高価になるほど、多くの買い手は昨年の機種が自分の用途には十分すぎると判断する。他の理由もある。現代のスマホは以前より長持ちし、2〜3年前の端末でも滑らかに動く。捨てる代わりに製品を再利用する発想を好む買い手もいる——無駄が減り環境に優しい。この流れは本物の商売を生んだ。店やサイトが中古スマホの点検・清掃・再販を専門にし、買い手を安心させる保証を付ける。かつて単に「古い」だった物を、価値ある製品に変える。より広い教訓は価値観の変化だ。長年、新しいほど良いとされた。今や多くの客が価格・長い使用・持続可能性を大切にする。スマホから車、衣類まで、中古品への高まる需要は、「中古」が古い負のイメージを失い、多くの人にとって賢く責任ある選択になりつつあることを示している。",
-        quiz: [
-          { q: "中古スマホが人気の最も明白な理由は？", options: ["価格が新品よりずっと安いこと", "色が豊富なこと", "電池が要らないこと"], answer: 0 },
-          { q: "本文が挙げる他の理由に含まれるものは？", options: ["現代のスマホは長持ちし再利用は環境に優しい", "古いほど速いから", "中古は必ず壊れるから"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["「中古」が負のイメージを失い賢い選択になりつつある", "新しいほど常に良い", "中古は価値がない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0806-2",
-        title: "Computing with Light",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Almost all of today's computers work by moving electricity through tiny wires and switches. But electricity has limits: it produces heat and can only move so fast. Scientists have long dreamed of computing with light instead, and a new tiny chip brings that dream closer. The chip can generate, steer, and read light-based information all in one device.\nWhy use light? Light travels extremely fast and, unlike electricity, produces very little heat as it moves. A computer that carries information as light could, in theory, be faster and far more energy-efficient than today's machines. As data centers use more and more electricity, saving energy has become a serious goal.\nThe hard part has been putting everything on one small chip. In the past, creating light, guiding it, and measuring it often required separate, bulky equipment. Combining all three jobs in a single device is a major step toward practical light-based computers.\nThere is still a long road ahead. This kind of technology is complex and expensive to make, and it must prove itself reliable enough for everyday machines. It may first appear in specialized systems before ever reaching ordinary computers.\nStill, the direction is exciting. For decades, progress in computing has come mainly from making electronic parts smaller. Light offers a different path forward. If these chips can be built at scale, they could help power a future of faster, cooler, and more efficient computing — using the oldest and fastest messenger we know: light itself.",
-        summaryJa: "今日のほぼ全てのコンピューターは、微小な配線とスイッチに電気を流して動く。だが電気には限界がある——熱を生み、速さにも上限がある。科学者は長く、代わりに光で計算する夢を抱いてきた。新しい小さなチップがその夢を近づける。このチップは、光による情報を生成・操作・読み取りする働きを、一つの装置に収める。なぜ光か。光は極めて速く進み、電気と違い動く際にほとんど熱を生まない。情報を光として運ぶコンピューターは、理論上、今日の機械より速く、はるかに省エネになりうる。データセンターがますます電力を使う中、省エネは重大な目標になった。難しかったのは全てを一つの小さなチップに載せることだ。かつては光を作り・導き・測るのに、しばしば別々でかさばる機器が要った。三つの仕事を一つの装置にまとめるのは、実用的な光コンピューターへの大きな一歩だ。前途はなお長い。この種の技術は複雑で製造が高価で、日常の機械に十分な信頼性を証明せねばならない。普通のコンピューターに届く前に、まず専用システムに現れるかもしれない。それでも方向は心躍る。数十年、計算の進歩は主に電子部品を小さくすることで来た。光は別の前進の道を示す。こうしたチップを大規模に作れれば、より速く・涼しく・効率的な計算の未来を支えうる——私たちが知る最古で最速の使者、光そのものを使って。",
-        quiz: [
-          { q: "光で計算する利点は？", options: ["速く進み熱をほとんど生まない", "色が美しいこと", "電気より重いこと"], answer: 0 },
-          { q: "これまで難しかったことは？", options: ["光の生成・誘導・測定を一つのチップに載せること", "光を作ること自体", "電気を消すこと"], answer: 0 },
-          { q: "省エネが重大な目標になった背景は？", options: ["データセンターがますます電力を使うから", "光が高価だから", "電気が無料だから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0806-3",
-        title: "Sharing a Narrow Sea Lane",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Some places on the map are small but hugely important. The Strait of Hormuz, a narrow stretch of sea between the Persian Gulf and the open ocean, is one of them. A large share of the world's oil passes through this slim channel by ship. Recently, two countries that share its waters agreed on the exact coordinates for a shipping corridor — a quiet but meaningful step toward keeping this vital route running smoothly.\nWhy does a narrow strait matter so much? Because it is a chokepoint: a place where a great deal of traffic must squeeze through a small space. If ships cannot pass safely, oil and goods may be delayed, and prices around the world can rise. Countries far from the region feel the effects at gas stations and in shops.\nAgreeing on a shipping corridor helps in several ways. Clear, shared lines on the map tell captains exactly where to sail, reducing confusion and the risk of accidents or disputes. It also signals that neighboring countries can cooperate on practical matters, even when broader relations are tense.\nSuch agreements are not always easy. Waters can be contested, and trust may be limited. Small technical deals, however, can build habits of working together that make bigger problems easier to manage.\nThe lesson reaches beyond one strait. In a connected world, the smooth flow of ships, energy, and goods depends on quiet cooperation — often over places most people never see, yet rely on every single day.",
-        summaryJa: "地図上のある場所は、小さくとも極めて重要だ。ペルシャ湾と外洋を結ぶ狭い海峡、ホルムズ海峡はその一つ。世界の石油の大きな割合が、この細い水路を船で通る。最近、その海域を共有する二国が、船舶用航路の正確な座標に合意した——この重要な経路を円滑に保つための、静かだが意味ある一歩だ。なぜ狭い海峡がそれほど重要か。そこが「チョークポイント（隘路）」だからだ——大量の交通が小さな空間を通り抜けねばならない場所。船が安全に通れなければ、石油や物資が遅れ、世界中で価格が上がりうる。地域から遠い国々も、ガソリンスタンドや店でその影響を感じる。航路への合意は複数の点で役立つ。地図上の明確で共有された線が、船長にどこを進むべきか正確に伝え、混乱や事故・紛争のリスクを減らす。より広い関係が緊張していても、隣国が実務的な事柄で協力できることも示す。こうした合意は常に容易ではない。海域は争われることがあり、信頼は限られうる。だが小さな技術的取り決めは、共に働く習慣を築き、より大きな問題を扱いやすくする。教訓は一つの海峡を超える。つながった世界で、船・エネルギー・物資の円滑な流れは静かな協力に支えられる——多くの人が決して見ないが、毎日頼っている場所を巡って。",
-        quiz: [
-          { q: "ホルムズ海峡が重要な理由は？", options: ["世界の石油の大きな割合が船で通る隘路だから", "観光地だから", "魚が多いから"], answer: 0 },
-          { q: "航路の座標に合意する利点は？", options: ["船長にどこを進むべきか伝え事故や紛争のリスクを減らす", "船を全て止めること", "海を広げること"], answer: 0 },
-          { q: "本文の教訓は？", options: ["物資の円滑な流れは静かな協力に支えられる", "協力は不要だ", "狭い場所は重要でない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0806-4",
-        title: "A Country That Attracts Global Investors",
-        level: "★★☆",
-        genre: "日本",
-        text: "When a large fund from one country decides to invest billions of dollars in another, it is a sign of confidence. Recently, an investment fund from the Middle East was reported to be considering a huge investment — several billion dollars — in building AI data centers in Japan. Such news says something important: global investors increasingly see Japan as an attractive place to put their money.\nWhy Japan, and why now? For one, Japan is stable, with reliable laws, skilled workers, and strong technology. As demand for artificial intelligence grows, the world needs many new data centers — the large buildings full of computers that make AI possible. Japan offers a safe and capable place to build them.\nForeign investment can bring real benefits. It creates jobs, brings in new technology, and helps build infrastructure that local companies can also use. When outsiders invest, they are betting that a country's economy will grow, which can encourage others to invest too.\nThere are things to watch, however. Data centers use large amounts of electricity and water, so they must be planned carefully. And a country wants investment that helps its people over the long term, not just quick projects that leave little behind.\nStill, the interest is a hopeful sign. After years in which Japan was sometimes overlooked by global investors, big international money is looking its way again. For an economy working to grow, being seen as a smart place to invest is welcome news indeed.",
-        summaryJa: "ある国の大きなファンドが別の国に数十億ドルを投じると決めるのは、信頼の証だ。最近、中東の投資ファンドが、日本でのAIデータセンター建設に数十億ドルという巨額の投資を検討していると報じられた。この知らせは重要なことを物語る——世界の投資家がますます日本を、資金を置く魅力的な場所と見ているのだ。なぜ日本で、なぜ今か。一つに、日本は安定し、信頼できる法・熟練した労働者・強い技術を持つ。AIの需要が高まる中、世界は多くの新しいデータセンター——AIを可能にするコンピューターで満ちた大きな建物——を必要とする。日本はそれを建てる安全で有能な場所を提供する。外国投資は現実の利益をもたらしうる。雇用を生み、新技術を持ち込み、地元企業も使えるインフラの構築を助ける。外部者が投資するのは、その国の経済が成長すると賭けることであり、他の投資家も促しうる。だが注意すべき点もある。データセンターは大量の電力と水を使うので、慎重な計画が要る。国は、後にほとんど残さない手早い事業でなく、長期的に人々の役に立つ投資を望む。それでもこの関心は希望ある兆しだ。日本が時に世界の投資家に見過ごされた年月の後、大きな国際資金が再び日本へ目を向けている。成長しようと努める経済にとって、賢い投資先と見られることは、まさに歓迎すべき知らせだ。",
-        quiz: [
-          { q: "中東のファンドが日本で検討している投資は？", options: ["AIデータセンターの建設", "農場の購入", "鉄道の運営"], answer: 0 },
-          { q: "投資家が日本を選ぶ理由に含まれるものは？", options: ["安定した法・熟練労働者・強い技術", "税金がないこと", "土地が無料なこと"], answer: 0 },
-          { q: "外国投資で注意すべき点は？", options: ["データセンターは電力と水を多く使い慎重な計画が要る", "雇用が減ること", "技術が失われること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0806-5",
-        title: "A Spacecraft Slingshots Past Mars",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Traveling through space takes an enormous amount of energy, so engineers use a clever trick to save fuel: they borrow a push from a planet's gravity. Recently, a NASA spacecraft on a long journey flew close to Mars, using the planet's pull to gain speed and adjust its path — a maneuver known as a 'gravity assist.'\nHow does it work? As the spacecraft passes a planet, the planet's gravity grabs it and flings it forward, like a stone swung on a string and then released. The spacecraft speeds up and changes direction without burning much fuel. The planet loses a tiny, unnoticeable amount of motion in exchange. It is a beautiful example of using nature's forces to travel farther for less.\nThis particular spacecraft is heading toward a distant, metal-rich asteroid, which it is due to reach several years from now. During the Mars flyby, the team also tested the craft's cameras and instruments, making sure everything works well before the main event.\nWhy explore a metal asteroid? Scientists believe it may be similar to the core of a planet like Earth — a place we can never dig down to see. Studying it could teach us how planets, including our own, were built long ago.\nThe flyby is a reminder of how patient and clever space travel can be. By using gravity as a free engine and testing carefully along the way, engineers guide small machines across vast distances — turning the whole solar system into a road toward discovery.",
-        summaryJa: "宇宙を旅するには莫大なエネルギーが要るため、技術者は燃料を節約する巧妙な技を使う——惑星の重力から「一押し」を借りるのだ。最近、長い旅の途中のNASAの探査機が火星に接近し、その引力を使って速度を得て進路を調整した——「スイングバイ（重力アシスト）」と呼ばれる操作だ。仕組みは。探査機が惑星のそばを通ると、惑星の重力がそれを掴み前方へ放り出す——ひもで振って放つ石のように。探査機は燃料をあまり燃やさず加速し向きを変える。惑星は代わりにごくわずかで気づかない運動を失う。自然の力を使い、より少ない代償で遠くへ旅する美しい例だ。この探査機は、金属に富む遠い小惑星へ向かっており、数年後に到達予定だ。火星接近の間、チームは本番前に探査機のカメラや観測機器も試し、全てが正常に働くか確認した。なぜ金属の小惑星を探るのか。科学者は、それが地球のような惑星の核に似ているかもしれないと考える——私たちが決して掘り下げて見られない場所だ。それを研究すれば、地球を含む惑星が大昔にどう作られたかを学べる。この接近は、宇宙の旅がいかに忍耐強く巧妙でありうるかを思い出させる。重力を無料のエンジンとして使い、道中で慎重に試験することで、技術者は小さな機械を広大な距離の先へ導く——太陽系全体を、発見への道に変えて。",
-        quiz: [
-          { q: "「スイングバイ（重力アシスト）」とは？", options: ["惑星の重力を使って加速し進路を変えること", "惑星に着陸すること", "燃料を大量に燃やすこと"], answer: 0 },
-          { q: "この探査機が向かっている先は？", options: ["金属に富む遠い小惑星", "太陽", "月"], answer: 0 },
-          { q: "金属の小惑星を探る理由は？", options: ["惑星の核に似て惑星の成り立ちを学べるから", "金を採るため", "燃料を得るため"], answer: 0 }
         ]
       }
     ]
