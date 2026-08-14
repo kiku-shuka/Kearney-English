@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-14",
+    passages: [
+      {
+        id: "d0814-1",
+        title: "Price Wars in Artificial Intelligence",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "When several companies sell a similar service, they often compete on price — and the market for artificial intelligence is no exception. Recently, some AI companies have been cutting the prices they charge to use their systems, while others have raised theirs. Behind these moves lies a fierce battle to win customers in one of the fastest-growing industries in the world.\nWhy cut prices? Lowering the cost of using an AI service can attract more customers, especially businesses that use these tools in large amounts. If a company can offer similar quality for less money, users may switch to it. Winning many customers now can help a company grow and stay ahead, even if profits are thin at first.\nBut cutting prices is risky. Building and running AI systems is enormously expensive, requiring powerful computers and huge amounts of electricity. If prices fall too far, companies may struggle to cover their costs. Some firms instead raise prices, betting that customers will pay more for better speed or quality.\nSpeed itself has become a weapon. A service that answers faster can be more useful, so companies compete not only on price but on how quickly their systems respond.\nFor customers, this competition is mostly good news: more choice, better tools, and often lower prices. For the companies, it is a high-stakes game. In a young and booming market, each must decide whether to chase customers with low prices or profit with higher ones — a classic business question, now playing out at the cutting edge of technology.",
+        summaryJa: "複数の企業が似たサービスを売るとき、しばしば価格で競う——AIの市場も例外ではない。最近、一部のAI企業は自社システムの利用料金を引き下げ、別の企業は引き上げている。こうした動きの背後には、世界で最も急成長する産業の一つで顧客を勝ち取る激しい戦いがある。なぜ値下げするのか。AIサービスの利用コストを下げれば、特にこうした道具を大量に使う企業など、より多くの顧客を惹きつけられる。似た品質をより安く提供できれば、利用者は乗り換えるかもしれない。今多くの顧客を勝ち取ることは、たとえ当初の利益が薄くても、企業の成長と先行維持を助けうる。だが値下げは危険だ。AIシステムの構築と運用は莫大に高価で、強力なコンピューターと大量の電力を要する。価格が下がりすぎれば、企業はコストを賄うのに苦しみうる。一部の企業は代わりに、顧客がより良い速度や品質にはより多く払うと賭けて値上げする。速度そのものも武器になった。より速く答えるサービスはより有用でありうるので、企業は価格だけでなく、システムがどれだけ速く応答するかでも競う。顧客にとって、この競争はおおむね朗報だ——選択肢が増え、道具が良くなり、しばしば価格も下がる。企業にとっては高い賭けだ。若く活況の市場で、各社は低価格で顧客を追うか、高価格で利益を得るかを決めねばならない——古典的な経営の問いが、今や技術の最前線で繰り広げられている。",
+        quiz: [
+          { q: "AI企業が値下げする狙いは？", options: ["より多くの顧客を惹きつけ成長し先行すること", "コストを増やすこと", "顧客を減らすこと"], answer: 0 },
+          { q: "値下げが危険な理由は？", options: ["AIの運用は高価で価格が下がりすぎるとコストを賄えない", "電気が無料だから", "顧客が嫌がるから"], answer: 0 },
+          { q: "価格以外に企業が競う要素は？", options: ["システムの応答の速さ", "建物の色", "社名の長さ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0814-2",
+        title: "Robotaxis Come to the City",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Imagine calling a taxi with your phone, and when it arrives, there is no driver at the wheel. This is becoming real. Companies are preparing to put thousands of self-driving taxis, or 'robotaxis,' onto the roads of European cities, working together with popular ride-hailing apps to reach passengers.\nHow does it work? A robotaxi uses cameras, sensors, and computers to see the road, follow traffic rules, and drive itself. To find customers, some robotaxi companies are teaming up with ride-hailing services people already use. When you request a ride, the app might send a self-driving car instead of a human driver.\nWhy team up with an app? Building the self-driving technology is one challenge; finding passengers is another. A popular app already has millions of users, a payment system, and a way to match riders with cars. By joining forces, a robotaxi maker gets instant access to customers, while the app can offer a new kind of service.\nThere are still hurdles. Self-driving cars must prove they are safe in busy, unpredictable streets. Rules differ from country to country, and some passengers may feel nervous without a driver. Trust takes time to build.\nStill, the change could be significant. Robotaxis might one day make travel cheaper and reduce the need to own a car. For now, each city that welcomes them becomes a real-world test — a place where a technology once seen only in science fiction quietly pulls up to the curb, ready to take passengers into an autonomous future.",
+        summaryJa: "スマホでタクシーを呼び、着いたら運転席に誰もいない——そんな場面を想像してほしい。これが現実になりつつある。企業は、何千台もの自動運転タクシー「ロボタクシー」を欧州の都市の道路に投入する準備を進め、人気の配車アプリと協力して乗客に届こうとしている。どう機能するのか。ロボタクシーはカメラ・センサー・コンピューターを使って道路を見て、交通規則に従い、自ら運転する。顧客を見つけるため、一部のロボタクシー企業は、人々が既に使う配車サービスと組んでいる。乗車を頼むと、アプリが人間の運転手の代わりに自動運転車を送るかもしれない。なぜアプリと組むのか。自動運転技術を作るのは一つの挑戦、乗客を見つけるのは別の挑戦だ。人気アプリには既に何百万もの利用者、決済の仕組み、乗客と車を結ぶ方法がある。力を合わせれば、ロボタクシーの作り手は顧客に即座にアクセスでき、アプリは新種のサービスを提供できる。まだ障害もある。自動運転車は、混雑し予測しにくい街路で安全だと証明せねばならない。規則は国ごとに異なり、運転手がいないと不安を感じる乗客もいる。信頼は築くのに時間がかかる。それでも変化は大きくなりうる。ロボタクシーはいつか移動を安くし、車を所有する必要を減らすかもしれない。今のところ、それを迎える各都市が現実の試験場になる——かつてSFでしか見られなかった技術が、静かに縁石に寄せて、乗客を自律の未来へ乗せる準備をする場所だ。",
+        quiz: [
+          { q: "ロボタクシーが自ら運転する仕組みは？", options: ["カメラ・センサー・コンピューターで道路を見て規則に従う", "運転手が遠隔で運転する", "レールの上を走る"], answer: 0 },
+          { q: "ロボタクシー企業が配車アプリと組む理由は？", options: ["既存の利用者・決済・マッチングにすぐアクセスできる", "技術が不要になるから", "車を隠すため"], answer: 0 },
+          { q: "本文が挙げる障害は？", options: ["安全の証明・国ごとの規則の違い・乗客の不安", "車が速すぎること", "道路が無いこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0814-3",
+        title: "The Long Journey of Everyday Things",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Look closely at an ordinary object — a phone, a shirt, or a chocolate bar — and you may be holding the work of many countries. In today's connected world, the things we use every day are often made through long, complex journeys that cross borders many times before reaching a shop near us.\nHow does this happen? A single product may be designed in one country, using materials dug from the ground in another. Its parts might be made in several places, then shipped somewhere else to be put together. Finally, it travels to stores around the world. This web of steps is called a global supply chain.\nWhy make things this way? Different countries have different strengths — some have raw materials, some have skilled workers, some have advanced factories. By using the best of each, companies can make goods more cheaply and efficiently than any single country could alone. The result is products that are better and often less expensive.\nBut such long chains can be fragile. A storm, a closed port, a shortage, or a political dispute in one country can delay products all over the world. Recent years have shown how quickly a problem in one place can ripple across the globe.\nUnderstanding supply chains helps make sense of the news. When prices rise or shelves go empty, the cause is often far away. Behind almost everything we own is a hidden, worldwide network of people and places, quietly working together to bring the world's goods to our hands.",
+        summaryJa: "ありふれた物——携帯・シャツ・板チョコ——をよく見ると、多くの国の仕事を手にしているかもしれない。今日のつながった世界で、私たちが毎日使う物は、近くの店に届く前に何度も国境を越える、長く複雑な旅を経て作られることが多い。どうしてそうなるのか。一つの製品が、ある国で設計され、別の国の地中から掘り出した材料を使うことがある。その部品はいくつかの場所で作られ、別のどこかへ運ばれて組み立てられる。最後に、世界中の店へ旅する。この工程の網は「グローバル・サプライチェーン（世界的な供給網）」と呼ばれる。なぜこう作るのか。国ごとに強みが違う——材料を持つ国、熟練労働者のいる国、先端工場のある国。それぞれの最良を使うことで、企業はどの一国が単独でできるより安く効率的に物を作れる。結果として、より良く、しばしばより安い製品ができる。だがこうした長い連鎖はもろくなりうる。ある国の嵐・閉ざされた港・不足・政治的対立が、世界中の製品を遅らせうる。近年は、一か所の問題がいかに速く世界へ波及するかを示してきた。供給網を理解すると、ニュースが腑に落ちる。価格が上がったり棚が空になったりするとき、原因はしばしば遠くにある。私たちが持つほぼ全ての物の背後には、世界の品を私たちの手に運ぶため静かに協働する、人と場所の隠れた世界的な網があるのだ。",
+        quiz: [
+          { q: "「グローバル・サプライチェーン」とは？", options: ["国境を越えて物を作り届ける工程の網", "一国だけの工場", "店の名前"], answer: 0 },
+          { q: "各国の強みを使って作る利点は？", options: ["より安く効率的に、より良い製品を作れる", "製品が必ず高くなる", "一国で全て作れる"], answer: 0 },
+          { q: "長い供給網がもろい理由は？", options: ["一か所の問題が世界中の製品を遅らせうる", "物が丈夫すぎるから", "国が一つだから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0814-4",
+        title: "Why Japan Lives So Long",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japan is famous for something remarkable: its people live, on average, among the longest lives in the world. Many Japanese reach their eighties, nineties, and beyond, and the country has a large number of people over one hundred years old. Why do people in Japan tend to live so long?\nOne important reason is diet. Traditional Japanese meals include a lot of fish, vegetables, rice, and soy foods, with smaller portions than in many countries. This kind of eating is generally low in unhealthy fats and rich in nutrients, which is good for the heart and body over a lifetime.\nHealthcare also plays a big part. Japan has a system that makes it easy for people to see a doctor, so illnesses can be found and treated early. Regular check-ups help people stay healthy as they age.\nDaily habits matter too. Many people walk or cycle as part of their routine, staying active without needing a gym. Strong social ties — staying connected with family, friends, and community — are also linked to longer, healthier lives.\nOf course, long life brings challenges. As more people grow old and fewer babies are born, Japan must find ways to care for its aging population and support them well.\nStill, Japan's long lives hold useful lessons for everyone. Good food, regular movement, medical care, and close relationships all seem to help. Living long is not the result of a single secret, but of many small, healthy habits, repeated patiently over many years.",
+        summaryJa: "日本はある驚くべきことで有名だ——その人々は平均して、世界で最も長い部類の人生を生きる。多くの日本人が80代・90代、さらにその先に達し、100歳を超える人も多い。なぜ日本の人々はそれほど長生きしがちなのか。重要な理由の一つは食事だ。伝統的な和食は魚・野菜・米・大豆食品を多く含み、多くの国より一人前が小さい。この食べ方は概して不健康な脂肪が少なく栄養に富み、生涯を通じて心臓と体に良い。医療も大きな役割を果たす。日本には医者にかかりやすい仕組みがあり、病気を早く見つけて治療できる。定期健診は、年を重ねても健康を保つ助けになる。日々の習慣も重要だ。多くの人が日課の一部として歩いたり自転車に乗ったりし、ジムを要さず活動的でいる。強い社会的つながり——家族・友人・地域とつながり続けること——も、より長く健康な人生に結びつく。もちろん長寿は課題も生む。より多くの人が老い、生まれる赤ちゃんが減る中、日本は高齢の人々を世話し、よく支える方法を見つけねばならない。それでも日本の長い人生は、誰にとっても有益な教訓を持つ。良い食事、規則的な運動、医療、親密な関係——すべてが助けになるようだ。長生きは一つの秘密の結果でなく、多くの小さな健康的な習慣を、長年忍耐強く繰り返した結果なのだ。",
+        quiz: [
+          { q: "日本人が長生きしがちな理由の一つは？", options: ["魚・野菜・米・大豆中心で量が控えめな食事", "甘い物ばかりの食事", "運動を全くしないこと"], answer: 0 },
+          { q: "医療が長寿に果たす役割は？", options: ["医者にかかりやすく病気を早く見つけ治療できる", "病院が無いこと", "健診をしないこと"], answer: 0 },
+          { q: "本文の結論は？", options: ["長生きは多くの小さな健康習慣の積み重ねの結果", "一つの秘密の薬のおかげ", "運だけで決まる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0814-5",
+        title: "The True Colors of Ancient Creatures",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "When we picture dinosaurs or other ancient animals, we usually imagine dull greens and browns. But how do we really know what color they were? Recently, scientists studying a fossil more than one hundred million years old found evidence that one flying reptile may have shimmered with bright, iridescent greens and pinks — colors that shine and shift like those on a soap bubble or a beetle's shell.\nHow can anyone know the color of an animal that died so long ago? The answer lies in tiny structures. Colors in feathers, skin, and shells often come not only from pigments but from the microscopic shape of the material itself. Certain shapes bend light in ways that create shimmering, changing colors. Amazingly, traces of these tiny structures can sometimes survive in fossils.\nBy examining these structures under powerful microscopes and comparing them to living animals, scientists can make careful guesses about an ancient creature's colors. It is like reading a faint message left behind in stone.\nWhy does color matter to science? Color can tell us how an animal lived — whether it used bright shades to attract mates, to warn enemies, or to blend in. Learning about color helps bring extinct animals to life and reveals how they behaved.\nThe discovery reminds us that the ancient world may have been far more colorful than the grey fossils suggest. With patient study and clever tools, scientists are slowly repainting the past — showing that creatures long gone may once have glittered brilliantly in the light of a very different world.",
+        summaryJa: "恐竜や他の古代の動物を思い描くとき、私たちはたいてい地味な緑や茶色を想像する。だが本当は、彼らが何色だったのかをどう知るのか。最近、1億年以上前の化石を研究する科学者が、ある飛ぶ爬虫類が、明るく虹色に輝く緑やピンク——シャボン玉や甲虫の殻のように光り、移ろう色——できらめいていたかもしれない証拠を見つけた。そんなに昔に死んだ動物の色を、どうして知りうるのか。答えは微細な構造にある。羽・皮膚・殻の色は、しばしば色素だけでなく、材料そのものの顕微鏡的な形から生まれる。特定の形は、きらめき移ろう色を生むように光を曲げる。驚くことに、こうした微細な構造の痕跡が、化石に残ることがある。強力な顕微鏡でこれらの構造を調べ、生きた動物と比べることで、科学者は古代の生き物の色について慎重な推測ができる。石に残されたかすかな伝言を読むようなものだ。なぜ色が科学に重要か。色は、動物がどう生きたか——明るい色合いで配偶者を惹きつけたか、敵を警告したか、周囲に紛れたか——を教えうる。色を知ることは、絶滅した動物を生き生きとよみがえらせ、その振る舞いを明かす助けになる。この発見は、古代の世界が灰色の化石が示すよりはるかに色彩豊かだったかもしれないことを思い出させる。忍耐強い研究と巧妙な道具で、科学者は少しずつ過去を描き直している——遠く消えた生き物が、かつてまったく異なる世界の光の中できらびやかに輝いていたかもしれないことを示して。",
+        quiz: [
+          { q: "科学者が古代の動物の色を知る手がかりは？", options: ["色を生む微細な構造の痕跡が化石に残ること", "当時の絵画", "文字の記録"], answer: 0 },
+          { q: "羽や殻の色が生まれる要因は？", options: ["色素だけでなく材料の顕微鏡的な形", "温度だけ", "音"], answer: 0 },
+          { q: "色が科学に重要な理由は？", options: ["動物がどう生きたか（求愛・警告・擬態）を教えうる", "色は無意味だから", "化石を壊すから"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-13",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "隕石の中から見つかったものは？", options: ["古い塩水の痕跡・有機化合物・アミノ酸", "金と銀", "生きた動物"], answer: 0 },
           { q: "隕石が価値ある理由は？", options: ["太陽系誕生時のほぼ変わらないタイムカプセルだから", "高価な宝石だから", "最近作られたものだから"], answer: 0 },
           { q: "アミノ酸の発見が示唆することは？", options: ["生命の材料の一部が宇宙で形成され惑星に運ばれうる", "岩が生命そのものを運んだ", "生命は不要である"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-07",
-    passages: [
-      {
-        id: "d0807-1",
-        title: "How a Nation Invests for Retirement",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Most people know they should save for retirement, but few realize how their savings are put to work. In Japan, a giant public fund manages the pension savings of millions of workers, investing the money so it can grow over time. Recently, this fund reported one of its largest-ever quarterly gains — a reminder of how deeply ordinary savings are tied to the ups and downs of global markets.\nWhy invest pension money at all? If savings simply sat in a bank, they would barely grow, especially over the many decades between a young worker's first paycheck and retirement. By carefully investing in stocks, bonds, and other assets around the world, a fund aims to grow the money so it can support people when they stop working.\nSuch funds must balance risk and safety. Invest too cautiously, and the money may not grow enough. Invest too boldly, and a market crash could cause painful losses. To manage this, big funds spread their money across many countries and types of investment, so that a fall in one area can be balanced by gains in another.\nStrong results in one quarter are welcome, but managers focus on the long term. Markets rise and fall, and a single good or bad quarter matters less than steady growth over many years.\nThe lesson is quietly powerful. Behind a huge investment fund are millions of individual futures. How wisely that money is managed today helps decide how comfortably people will live decades from now.",
-        summaryJa: "多くの人は老後に備えて貯蓄すべきだと知っているが、その貯蓄がどう働かされるかを知る人は少ない。日本では、巨大な公的基金が何百万もの労働者の年金貯蓄を運用し、時間をかけて増やせるよう投資している。最近、この基金は過去最大級の四半期利益を報告した——普通の貯蓄が世界市場の浮き沈みにいかに深く結びついているかを思い出させる。そもそもなぜ年金を投資するのか。貯蓄をただ銀行に置けば、特に若い労働者の初給料から退職までの数十年でほとんど増えない。世界中の株・債券・その他の資産に慎重に投資することで、基金は人々が働くのをやめたとき支えられるよう資金を増やそうとする。こうした基金はリスクと安全を釣り合わせねばならない。慎重すぎれば十分に増えず、大胆すぎれば市場暴落で痛い損失を招きうる。これを管理するため、大きな基金は資金を多くの国と種類の投資に分散し、一分野の下落を別の利益で相殺できるようにする。ある四半期の好成績は歓迎だが、運用者は長期に注目する。市場は上下し、一度の良し悪しは長年の着実な成長ほど重要ではない。教訓は静かに力強い。巨大な投資基金の背後には、何百万もの個人の未来がある。今日その資金がいかに賢く運用されるかが、数十年後に人々がどれだけ快適に暮らせるかを左右する。",
-        quiz: [
-          { q: "年金を投資する理由は？", options: ["銀行に置くだけでは数十年でほとんど増えないから", "投資は簡単だから", "貯蓄が禁止だから"], answer: 0 },
-          { q: "大きな基金がリスクを管理する方法は？", options: ["資金を多くの国と種類に分散する", "一つの株に全額入れる", "現金で持つだけ"], answer: 0 },
-          { q: "運用者が注目するのは？", options: ["長年の着実な成長", "一度の四半期だけ", "昨日の天気"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0807-2",
-        title: "Steel That Keeps Getting Better",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Steel is one of the oldest and most important materials in the world. It is in our buildings, bridges, cars, and countless machines. It may seem old-fashioned, but steel is still improving, and a Japanese steelmaker recently opened a new production line, investing heavily to make more high-performance steel, especially for carmakers.\nWhy does better steel matter? Modern cars need steel that is both strong and light. Strength keeps passengers safe in a crash, while lighter weight helps a car use less fuel or, in an electric vehicle, travel farther on a charge. Making steel that is strong and light at the same time is surprisingly difficult, and small improvements can make a big difference.\nHow is steel improved? Engineers carefully adjust what goes into it and how it is heated and shaped. Tiny changes in the recipe or the process can produce metal with new qualities — harder, more flexible, or more resistant to rust. Advanced factories use precise controls and testing to make these special types reliably.\nThere are challenges. Building new production lines is very expensive, and steelmakers face strong competition and pressure to use less energy, since making steel produces a lot of carbon dioxide.\nStill, the story shows that even ancient materials can keep evolving. As cars, buildings, and machines demand more, steelmakers keep finding ways to make their metal stronger, lighter, and cleaner — proof that innovation is not only about new inventions, but also about improving the things we have relied on for centuries.",
-        summaryJa: "鋼は世界で最も古く重要な材料の一つだ。建物・橋・車・無数の機械に使われる。古臭く見えるかもしれないが、鋼は今も進化しており、日本の鉄鋼メーカーが最近、新しい生産ラインを開き、特に自動車メーカー向けの高性能鋼を多く作るため多額を投じた。なぜより良い鋼が重要か。現代の車は、強く軽い鋼を必要とする。強さは衝突時に乗員を守り、軽さは車の燃費を良くし、電気自動車では一充電での走行距離を伸ばす。強さと軽さを同時に備える鋼を作るのは意外に難しく、小さな改良が大きな違いを生む。どう改良するのか。技術者は、何を入れ、どう加熱し成形するかを慎重に調整する。配合や工程の小さな変化が、より硬い・柔軟な・錆びにくいといった新しい性質の金属を生む。先端の工場は精密な制御と試験でこうした特殊鋼を安定して作る。課題もある。新しい生産ラインの建設は非常に高価で、鉄鋼メーカーは激しい競争と、鋼の製造が大量の二酸化炭素を出すため省エネの圧力に直面する。それでもこの話は、古代の材料でさえ進化し続けられることを示す。車・建物・機械がより多くを求める中、メーカーは金属をより強く・軽く・クリーンにする方法を見つけ続ける——革新は新発明だけでなく、何世紀も頼ってきた物を改良することでもある証だ。",
-        quiz: [
-          { q: "現代の車に必要な鋼の性質は？", options: ["強さと軽さの両立", "色の美しさ", "安さだけ"], answer: 0 },
-          { q: "鋼を軽くする利点は？", options: ["燃費が良くなりEVの走行距離が伸びる", "重くなること", "錆びやすくなること"], answer: 0 },
-          { q: "鉄鋼メーカーが直面する課題は？", options: ["高い建設費と省エネへの圧力", "材料が全く無いこと", "需要が全くないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0807-3",
-        title: "The Global Effort Against the Flu",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Every year, the flu spreads around the world, making millions of people sick. Fighting it is a truly global effort, requiring cooperation between many countries. Recently, health authorities prepared a new type of flu vaccine for the coming season — the latest step in a worldwide system that quietly protects public health year after year.\nWhy must the flu be fought globally? The virus is always changing, and it travels easily across borders with people. A new form appearing in one country can reach others within weeks. To stay ahead, scientists in many nations share samples and data, watching how the virus changes and predicting which forms will spread next.\nThis information guides vaccine makers. Each year, the vaccine is updated to match the strains expected to be most common. Getting this right is difficult, because the virus can change in unexpected ways. New technologies may help make vaccines faster and more accurately in the future.\nInternational organizations play a key role, coordinating this work and helping poorer countries get vaccines they might not afford alone. Fighting a global disease is fairer and more effective when nations act together rather than each on its own.\nThe flu may seem ordinary, but the system built to fight it is a quiet marvel of cooperation. Every year, without most people noticing, scientists, doctors, and officials around the world work together to prepare — a reminder that some of humanity's greatest challenges can only be met by many hands, across many borders, pulling in the same direction.",
-        summaryJa: "毎年、インフルエンザは世界中に広がり、何百万もの人を病気にする。それと闘うのは真に世界的な取り組みで、多くの国の協力を要する。最近、保健当局は来たる季節に向けて新型のインフルワクチンを準備した——年々静かに公衆衛生を守る世界的な仕組みの最新の一歩だ。なぜ世界規模で闘わねばならないのか。ウイルスは常に変化し、人とともに容易に国境を越える。ある国で現れた新型は数週間で他国に届きうる。先手を打つため、多くの国の科学者が検体とデータを共有し、ウイルスの変化を見守り、次にどの型が広がるかを予測する。この情報がワクチン製造を導く。毎年、最も多いと予想される株に合わせてワクチンが更新される。ウイルスは予想外に変化しうるため、これを当てるのは難しい。新技術が将来、より速く正確なワクチン作りを助けるかもしれない。国際機関は重要な役割を果たし、この作業を調整し、単独では賄えないワクチンを貧しい国が得る助けをする。世界的な病と闘うのは、各国がばらばらより共に動く方が公平で効果的だ。インフルは平凡に見えるが、それと闘うために築かれた仕組みは協力の静かな驚異だ。毎年、多くの人が気づかぬうちに、世界中の科学者・医師・当局者が協力して備える——人類の最大級の課題のいくつかは、多くの国境を越えた多くの手が同じ方向へ引くことでしか越えられないことを思い出させる。",
-        quiz: [
-          { q: "インフルを世界規模で闘う必要がある理由は？", options: ["ウイルスが常に変化し国境を容易に越えるから", "インフルは無害だから", "一国だけの病だから"], answer: 0 },
-          { q: "毎年ワクチンが更新される理由は？", options: ["最も多いと予想される株に合わせるため", "色を変えるため", "値段を上げるため"], answer: 0 },
-          { q: "国際機関の役割は？", options: ["作業の調整と貧しい国のワクチン取得の支援", "ワクチンの禁止", "国境の封鎖"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0807-4",
-        title: "The Great Obon Homecoming",
-        level: "★★☆",
-        genre: "日本",
-        text: "Once a year in summer, Japan experiences one of its largest travel rushes, as millions of people head to their hometowns for a holiday called Obon. During Obon, families gather to honor their ancestors, visit graves, and spend time together. For many who live and work in big cities, it is a rare chance to return home and reconnect with family and tradition.\nThe scale of the movement is remarkable. Trains, planes, highways, and stations fill with travelers carrying gifts and luggage. Bullet trains run at full capacity, and famous traffic jams stretch along expressways. Booking a ticket weeks in advance is often necessary, and prices rise with demand.\nThis year, the rush met an extra challenge: a powerful typhoon approaching from the south. Airlines canceled hundreds of flights, and railway and highway operators watched the weather closely, ready to stop services to keep people safe. Travelers had to check forecasts carefully and sometimes change their plans.\nDespite the crowds and the weather, Obon remains deeply important. It reflects a value found in many cultures — remembering those who came before us and keeping family bonds strong across the distances of modern life.\nThe Obon rush, then, is more than a transport story. It is a yearly reminder of how tradition and modern life meet: high-speed trains carrying an ancient custom, and millions of individual journeys, each one a small act of remembering where, and to whom, a person belongs.",
-        summaryJa: "夏に年に一度、日本は最大級の移動ラッシュを迎える。何百万もの人が「お盆」という休みに故郷へ向かうのだ。お盆の間、家族は集まって先祖を敬い、墓参りをし、共に時を過ごす。大都市で暮らし働く多くの人にとって、故郷へ帰り家族と伝統に再びつながる貴重な機会だ。移動の規模は驚くほどだ。電車・飛行機・高速道路・駅が、土産や荷物を抱えた旅行者で埋まる。新幹線は満席で走り、高速道路には有名な渋滞が伸びる。数週間前の予約がしばしば必要で、需要とともに価格も上がる。今年、このラッシュはさらなる難題に直面した——南から接近する強い台風だ。航空会社は数百便を欠航し、鉄道や高速道路の事業者は天候を注視し、安全のため運行を止める用意をした。旅行者は予報を慎重に確認し、時に予定を変えねばならなかった。混雑と天候にもかかわらず、お盆は深く重要であり続ける。多くの文化に見られる価値——先に逝った人々を偲び、現代の暮らしの距離を越えて家族の絆を保つこと——を映している。だからお盆のラッシュは単なる交通の話ではない。伝統と現代の暮らしがどう出会うかの、年に一度の思い出しだ——古い習わしを運ぶ高速列車と、何百万もの個々の旅、その一つ一つが、人がどこに、誰に属するかを思い出す小さな営みなのだ。",
-        quiz: [
-          { q: "お盆に人々が故郷へ帰る目的は？", options: ["家族が集まり先祖を敬い墓参りをするため", "買い物のため", "仕事のため"], answer: 0 },
-          { q: "今年のラッシュが直面した難題は？", options: ["南から接近する強い台風", "大雪", "地震だけ"], answer: 0 },
-          { q: "本文がお盆に見出す価値は？", options: ["先人を偲び家族の絆を保つこと", "速く移動すること", "土産を買うこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0807-5",
-        title: "When Heat Travels in a Beam",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "We usually think of heat as something that spreads out slowly and in all directions, warming everything around it evenly. But scientists have shown something surprising: in a special crystal, at room temperature, heat can travel in focused, wave-like rays — moving in a particular direction, almost like a beam, instead of spreading randomly.\nWhy is this strange? In most materials, heat is carried by tiny vibrations that bounce around in a messy, disorganized way, like a crowd pushing in every direction. That is why a hot spot usually warms its whole surroundings. In this crystal, however, those vibrations can move together in an orderly wave, carrying heat along a chosen path.\nWhy does it matter? Controlling how heat moves is a huge challenge in technology. Computer chips, for example, can overheat when heat builds up in one place. If engineers could guide heat along a chosen route — steering it away from delicate parts, as one might steer light — they could design cooler, more efficient devices.\nThis discovery is still basic science, far from any product. Making it work in useful materials and everyday conditions will take much more research. But it changes how scientists think about heat itself.\nThe finding is a good reminder that even familiar things can hold surprises. Heat is one of the most common experiences in the world, yet by studying it closely, scientists found a hidden, orderly behavior — opening a door to new ways of managing one of technology's oldest and most stubborn problems.",
-        summaryJa: "私たちは普通、熱をゆっくりと四方八方に広がり、周りを均等に温めるものと考える。だが科学者は驚くべきことを示した——ある特殊な結晶では、室温で、熱が焦点を絞った波のような光線として進みうるのだ。ランダムに広がる代わりに、まるでビームのように特定の方向へ動く。なぜ奇妙か。ほとんどの材料では、熱は微小な振動が乱雑に跳ね回って運ばれる——あらゆる方向へ押し合う群衆のように。だから熱い点は普通、周囲全体を温める。しかしこの結晶では、その振動が秩序ある波として一緒に動き、選ばれた経路に沿って熱を運べる。なぜ重要か。熱の動きを制御することは技術における大きな難題だ。例えばコンピューターチップは、一か所に熱がたまると過熱しうる。もし技術者が、光を導くように熱を選んだ経路に沿って導き、繊細な部品から遠ざけられれば、より涼しく効率的な装置を設計できる。この発見はまだ基礎科学で、製品にはほど遠い。有用な材料や日常の条件で働かせるには、はるかに多くの研究が要る。だが熱そのものについての科学者の考え方を変える。この発見は、見慣れたものでさえ驚きを秘めうることを思い出させる。熱は世界で最もありふれた経験の一つだが、丁寧に研究することで、科学者は隠れた秩序あるふるまいを見つけた——技術の最も古く手強い問題の一つを扱う新しい方法への扉を開いて。",
-        quiz: [
-          { q: "この結晶で熱が示した驚きのふるまいは？", options: ["焦点を絞った波として特定の方向へ進む", "完全に消えてしまう", "自然に冷たくなる"], answer: 0 },
-          { q: "普通の材料で熱が広がる理由は？", options: ["微小な振動が乱雑に跳ね回るから", "光そのものだから", "水でできているから"], answer: 0 },
-          { q: "この制御が役立ちうる場面は？", options: ["チップの熱を繊細な部品から遠ざける", "部屋を暗くする", "音を消す"], answer: 0 }
         ]
       }
     ]
