@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-15",
+    passages: [
+      {
+        id: "d0815-1",
+        title: "How New Technology Grows an Economy",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Why do countries invest so much money in science and technology? Around the world, governments are pouring resources into fields like artificial intelligence, biotechnology, and space research. Recently, one large nation announced a major push to accelerate its work in these areas, hoping that new technology will drive economic growth. The reason is simple: today, knowledge itself has become a powerful engine of wealth.\nHow does technology grow an economy? New inventions create new industries, and new industries create jobs. A country that develops advanced skills can build products the world wants to buy, from medicines to machines to software. This brings money into the country and helps it compete globally.\nInvestment in science also has effects that spread widely. A single breakthrough — a better battery, a new crop, a faster computer chip — can help many other businesses. Universities train skilled workers, and research centers attract talented people and companies from around the world.\nOf course, such investment is a gamble. Research is expensive and uncertain; many projects fail, and success can take years or even decades. Governments must choose carefully where to put their money, and be patient while results slowly appear.\nStill, history shows the payoff can be enormous. The industries that power today's economy — computers, the internet, modern medicine — all grew from earlier investment in science. By funding research now, countries are planting seeds for future growth, betting that the knowledge they build today will become the jobs, products, and prosperity of tomorrow.",
+        summaryJa: "なぜ国々は科学技術にそれほど多くのお金を投じるのか。世界中で、政府はAI・バイオテクノロジー・宇宙研究といった分野に資源を注いでいる。最近、ある大国が、新技術が経済成長を牽引すると期待して、これらの分野の取り組みを加速する大きな方針を発表した。理由は単純だ——今日、知識そのものが強力な富の原動力になった。技術はどう経済を成長させるのか。新しい発明が新しい産業を生み、新しい産業が雇用を生む。先端技能を育てる国は、薬から機械、ソフトウェアまで、世界が買いたがる製品を作れる。これが国にお金をもたらし、世界で競う助けになる。科学への投資は広く波及する効果も持つ。一つの突破——より良い電池、新しい作物、より速いチップ——が、他の多くの事業を助けうる。大学は熟練労働者を育て、研究拠点は世界中から才能ある人材や企業を惹きつける。もちろん、こうした投資は賭けだ。研究は高価で不確実で、多くの計画は失敗し、成功には何年、時に何十年もかかりうる。政府はどこにお金を置くか慎重に選び、成果がゆっくり現れる間、忍耐せねばならない。それでも歴史は、見返りが莫大でありうることを示す。今日の経済を動かす産業——コンピューター、インターネット、現代医療——はすべて、以前の科学への投資から育った。今研究に資金を投じることで、国々は未来の成長の種をまき、今日築く知識が明日の雇用・製品・繁栄になると賭けているのだ。",
+        quiz: [
+          { q: "技術が経済を成長させる仕組みは？", options: ["新しい発明が新産業と雇用を生む", "お金を捨てること", "輸入を止めること"], answer: 0 },
+          { q: "科学投資が広く波及する例は？", options: ["一つの突破が他の多くの事業を助ける", "一社だけが得をする", "効果は全くない"], answer: 0 },
+          { q: "こうした投資が「賭け」である理由は？", options: ["研究は高価で不確実、成功に長い時間がかかる", "必ずすぐ成功するから", "費用がかからないから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0815-2",
+        title: "Making Things Closer to Home",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "For a long time, the trend in technology was to make things bigger and more centralized — giant factories, huge power plants, and large farms far from cities. Now a new idea is growing in the opposite direction: producing food, energy, and materials closer to where people actually live and use them. Experts see this shift toward 'distributed' technology as one of the most important trends of our time.\nWhat does this look like? Instead of relying only on distant power stations, homes and neighborhoods can generate their own electricity with solar panels and store it in batteries. Instead of shipping vegetables thousands of kilometers, cities can grow fresh food in indoor farms. New tools even allow small factories to produce parts on demand, close to their customers.\nWhy is this useful? Making things nearby can reduce the long journeys that add cost and pollution. It can also make communities more resilient: if a storm or shortage disrupts distant supplies, a town that produces some of its own energy or food is better protected.\nThere are challenges. Small-scale production is not always cheaper than the huge factories it competes with, and new systems take time and money to build. Not everything can, or should, be made locally.\nStill, the direction is promising. As technology becomes smaller, smarter, and more personal, it can bring production out of distant giants and into everyday communities — giving people more control over the food, energy, and goods that shape their daily lives.",
+        summaryJa: "長い間、技術の潮流は物をより大きく、より中央集権的にすることだった——巨大工場、巨大発電所、都市から遠い大農場。今、逆方向へ新しい発想が育っている——食料・エネルギー・材料を、人々が実際に暮らし使う場所の近くで生産することだ。専門家は、この「分散型」技術への移行を、現代で最も重要な潮流の一つと見る。それはどんな姿か。遠い発電所だけに頼る代わりに、家や地域が太陽光パネルで自ら電気を作り、電池に蓄える。野菜を数千キロ運ぶ代わりに、都市が屋内農場で新鮮な食料を育てる。新しい道具は、小さな工場が顧客の近くで必要に応じて部品を作ることさえ可能にする。なぜ有用か。近くで作れば、費用と汚染を増やす長い旅を減らせる。地域をより強靭にもする——嵐や不足が遠い供給を乱しても、エネルギーや食料の一部を自ら作る町はよりよく守られる。課題もある。小規模生産は、競う巨大工場より必ずしも安くなく、新しい仕組みの構築には時間とお金がかかる。すべてが地元で作れる、あるいは作るべきというわけではない。それでも方向は有望だ。技術がより小さく、賢く、個人的になるにつれ、生産を遠い巨人から日々の地域へと持ち込みうる——人々に、暮らしを形づくる食料・エネルギー・品への、より多くの制御を与えて。",
+        quiz: [
+          { q: "「分散型」技術への移行とは？", options: ["食料・エネルギー・材料を使う場所の近くで生産すること", "全てを一つの巨大工場で作ること", "生産をやめること"], answer: 0 },
+          { q: "近くで作る利点は？", options: ["長い輸送の費用と汚染を減らし地域を強靭にする", "費用を必ず増やす", "汚染を増やす"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["小規模生産は必ずしも安くなく構築に時間と費用がかかる", "地元で全て作れる", "巨大工場が消えた"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0815-3",
+        title: "When the Whole World Looks Up",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Every so often, a natural event captures the attention of people across many countries at the same time. A total solar eclipse is one such moment. When the Moon passes exactly between the Earth and the Sun, it can briefly block the Sun's light, turning day into an eerie twilight. Recently, one such eclipse crossed parts of Europe, drawing crowds of watchers and teams of scientists.\nWhat happens during an eclipse? For a few minutes, the Moon covers the Sun completely along a narrow path on the Earth. The sky darkens, the air grows cooler, and the Sun's faint outer atmosphere becomes visible as a glowing ring. It is a rare and beautiful sight that many people travel far to see.\nEclipses are more than a spectacle. They give scientists a special chance to study the Sun. Instruments on the ground and in space observe the Sun's atmosphere and the 'space weather' it creates, which can affect satellites and power systems on Earth. A single eclipse can teach us a great deal.\nThere is also something human about these events. People from different countries gather in the same fields and cities, sharing the same few minutes of wonder. For a moment, borders and differences seem to fade as everyone looks up at the same sky.\nAn eclipse, then, is both a scientific event and a shared human one. It reminds us that we all live under the same Sun — and that some of the most powerful experiences are the ones the whole world can witness together.",
+        summaryJa: "時折、自然の出来事が、多くの国の人々の注目を同時に集める。皆既日食はそんな瞬間の一つだ。月が地球と太陽のちょうど間を通ると、太陽の光を一時的に遮り、昼を不気味な薄明かりに変えうる。最近、そんな日食が欧州の一部を横切り、見物の群衆と科学者チームを惹きつけた。日食の間、何が起きるのか。数分間、月が地球上の細い帯に沿って太陽を完全に覆う。空は暗くなり、空気は涼しくなり、太陽の淡い外側の大気が輝く環として見えるようになる。多くの人が遠くまで見に行く、稀で美しい光景だ。日食は見世物以上のものだ。科学者に太陽を研究する特別な機会を与える。地上と宇宙の機器が太陽の大気と、それが生む「宇宙天気」——地球の衛星や電力系統に影響しうる——を観測する。一度の日食が多くを教えうる。こうした出来事には人間的な何かもある。異なる国の人々が同じ野や都市に集い、同じ数分間の驚きを分かち合う。一瞬、誰もが同じ空を見上げる中で、国境や違いが薄れて見える。だから日食は、科学の出来事であり、共有される人間的な出来事でもある。私たちが皆、同じ太陽の下に生きていること——そして最も強烈な体験のいくつかは、世界全体が共に目撃できるものであることを思い出させる。",
+        quiz: [
+          { q: "皆既日食はどうして起きるか？", options: ["月が地球と太陽の間を通り太陽の光を遮る", "太陽が消えるから", "地球が止まるから"], answer: 0 },
+          { q: "日食が科学者にとって価値ある理由は？", options: ["太陽の大気や「宇宙天気」を研究する機会になる", "何も学べない", "地球を暗くするため"], answer: 0 },
+          { q: "本文が日食に見出す人間的な意味は？", options: ["異なる国の人々が同じ空を見上げ驚きを分かち合う", "国境を強めること", "争いを生むこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0815-4",
+        title: "The Quiet Art of the Japanese Garden",
+        level: "★★☆",
+        genre: "日本",
+        text: "In the middle of a busy Japanese city, you can sometimes step through a gate and suddenly find calm. Japanese gardens are famous around the world for their beauty and their deep sense of peace. Unlike gardens designed simply to show many bright flowers, a Japanese garden is carefully arranged to feel natural, balanced, and quiet.\nWhat makes these gardens special? Every element is chosen with care — rocks, water, moss, trees, and gravel are placed to create harmony. A pond may reflect the sky, a stone path may lead the eye slowly through the scene, and raked gravel may suggest flowing water, even where there is none. Nothing is random, yet the whole garden feels as if nature made it.\nMany Japanese gardens are also tied to ideas about the seasons and the passing of time. Cherry blossoms in spring, green leaves in summer, red maples in autumn, and bare branches in winter each bring their own beauty. The garden changes through the year, reminding visitors that nothing stays the same.\nThese gardens are meant to be experienced slowly. Visitors are invited to walk quietly, sit, and simply look, letting their thoughts settle. In a fast and noisy world, this kind of calm has become more valuable than ever.\nA Japanese garden, then, is more than a pretty place. It is a work of art that teaches patience and attention, a small, carefully made world where people can pause, breathe, and feel, for a while, a deep and simple peace.",
+        summaryJa: "忙しい日本の都市の真ん中で、門をくぐると突然、静けさに出会うことがある。日本庭園は、その美しさと深い安らぎの感覚で世界中に有名だ。ただ多くの鮮やかな花を見せるために設計された庭と違い、日本庭園は自然で・調和し・静かに感じられるよう入念に整えられている。これらの庭を特別にするものは何か。あらゆる要素が丁寧に選ばれる——石・水・苔・木・砂利が調和を生むように配される。池は空を映し、石の小道は視線をゆっくり景色へ導き、掻き均した砂利は、水が無くても流れる水を思わせる。何も無作為ではないのに、庭全体が自然が作ったかのように感じられる。多くの日本庭園は、季節や時の移ろいの考えにも結びつく。春の桜、夏の緑の葉、秋の紅葉、冬の裸の枝が、それぞれの美をもたらす。庭は一年を通じて変わり、何も同じままではないことを訪れる人に思い出させる。これらの庭は、ゆっくり体験されるためのものだ。訪問者は静かに歩き、座り、ただ眺め、思いを落ち着かせるよう誘われる。速く騒がしい世界で、この種の静けさはかつてなく価値あるものになった。だから日本庭園は、美しい場所以上のものだ。忍耐と注意を教える芸術作品であり、人々が立ち止まり、息をつき、しばし深く単純な安らぎを感じられる、小さく丁寧に作られた世界なのだ。",
+        quiz: [
+          { q: "日本庭園が普通の花壇と違う点は？", options: ["自然で調和し静かに感じるよう入念に整えられる", "できるだけ多くの花を見せる", "無作為に作られる"], answer: 0 },
+          { q: "掻き均した砂利が表すものは？", options: ["水が無くても流れる水を思わせる", "本物の川", "道路"], answer: 0 },
+          { q: "日本庭園の楽しみ方は？", options: ["静かに歩き座り眺めて思いを落ち着かせる", "急いで通り過ぎる", "大声で話す"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0815-5",
+        title: "Tiny Whirlpools on the Sun",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "The Sun may look like a smooth, glowing ball, but its surface is a wild and stormy place. Recently, scientists using powerful instruments discovered something new there: tiny whirlpools of hot, electrically charged gas, some only about twenty kilometers wide. On the scale of the Sun, which is more than a million kilometers across, these swirls are astonishingly small.\nWhat are these whirlpools? The Sun is made of plasma, a superheated gas so hot that it behaves differently from ordinary matter. This plasma is always moving, boiling and swirling like water in a pot. The newly seen whirlpools are small, spinning eddies within that restless sea of fire.\nWhy do such tiny features matter? Scientists believe that small movements on the Sun's surface may help carry energy upward into its outer atmosphere, which is strangely much hotter than the surface below. Understanding these swirls could help solve that long-standing mystery, and also improve our knowledge of 'space weather' — the flow of energy and particles that can affect satellites and power grids on Earth.\nSeeing something so small on a body so vast and distant is a triumph of technology. It requires instruments sensitive enough to spot fine detail across ninety-three million miles of space.\nThe discovery is a reminder that even the Sun, which we see every day, still holds secrets. By studying it ever more closely, scientists slowly unravel how our nearest star works — and, in doing so, learn more about the light and energy that make life on Earth possible.",
+        summaryJa: "太陽は滑らかに輝く球に見えるかもしれないが、その表面は荒々しく嵐のような場所だ。最近、強力な機器を使う科学者が、そこに新しいものを見つけた——熱く電気を帯びた気体の小さな渦、いくつかは幅わずか約20キロほどだ。差し渡し100万キロを超える太陽の尺度では、これらの渦は驚くほど小さい。この渦とは何か。太陽はプラズマ——普通の物質とは異なる振る舞いをするほど超高温の気体——でできている。このプラズマは常に動き、鍋の水のように沸き渦巻く。新たに見えた渦は、その休みない火の海の中の、小さく回転する渦だ。なぜそんな小さな特徴が重要か。科学者は、太陽表面の小さな動きが、エネルギーを外側の大気へ上向きに運ぶ助けになるかもしれないと考える——その外側の大気は、不思議なことに下の表面よりずっと高温なのだ。これらの渦を理解することは、その長年の謎を解く助けになり、「宇宙天気」——地球の衛星や電力網に影響しうるエネルギーと粒子の流れ——の知識も高めうる。これほど広大で遠い天体で、これほど小さなものを見るのは技術の勝利だ。9300万マイルの宇宙の彼方で細部を捉えられるほど高感度な機器を要する。この発見は、毎日見る太陽でさえ今も秘密を抱えていることを思い出させる。それをますます細かく研究することで、科学者は最も近い恒星がどう働くかを少しずつ解き明かす——そしてそうする中で、地球の生命を可能にする光とエネルギーについてより多くを学ぶのだ。",
+        quiz: [
+          { q: "科学者が太陽の表面で見つけたものは？", options: ["幅わずか約20キロの熱いプラズマの小さな渦", "巨大な氷の塊", "新しい惑星"], answer: 0 },
+          { q: "太陽は何でできているか？", options: ["超高温の気体プラズマ", "固い岩", "水"], answer: 0 },
+          { q: "この渦の理解が助けうる謎は？", options: ["外側の大気が表面より高温である理由", "月の色", "地球の重さ"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-14",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が見つけたことは？", options: ["6万年以上前に卵の殻に幾何学模様が彫られていた", "文字が最初に作られた場所", "新種の鳥"], answer: 0 },
           { q: "意図して模様を作ることが示すのは？", options: ["象徴的思考（印に意味を持たせる能力）", "食べ物の好み", "天気の予測能力"], answer: 0 },
           { q: "ダチョウの卵の殻が使われた理由は？", options: ["丈夫で水を運ぶ容器に使えたから", "食べられないから", "光るから"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-08",
-    passages: [
-      {
-        id: "d0808-1",
-        title: "A Tax Cut on Everyday Food",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Governments raise most of their money through taxes, and one common kind is a tax added to the things we buy. In Japan, the government has approved a plan to cut this consumption tax on food and non-alcoholic drinks from eight percent down to one percent, for two years. It is a big change aimed at helping households cope with rising prices.\nHow does a consumption tax work? A small percentage is added to the price of goods at the shop, and the store passes that money to the government. Because everyone buys food, a tax on it affects every household, rich or poor. Cutting the tax on food means families pay a little less each time they shop for groceries.\nWhy target food in particular? Food is something no one can avoid buying, so its price hits low-income families hardest. By lowering the tax on essentials while keeping it on other goods, the government tries to ease the burden where it is felt most, especially when prices are climbing.\nThere are trade-offs, of course. Taxes pay for schools, roads, hospitals, and pensions, so cutting one tax means finding money elsewhere or spending less. That is why the cut is temporary, lasting two years.\nFor learners of business English, this is a useful example of how governments use taxes as tools. A tax is not only a way to raise money; it is also a lever that leaders can pull to shape the economy and support people during difficult times.",
-        summaryJa: "政府は歳入の多くを税で得ており、よくある一種が、買う物に加わる税だ。日本政府は、食品と酒以外の飲料にかかるこの消費税を、2年間、8％から1％へ引き下げる案を承認した。物価上昇に家計が対処するのを助けることを狙った大きな変更だ。消費税はどう働くか。店で商品の価格に小さな割合が加わり、店がそのお金を政府に渡す。誰もが食品を買うため、それへの税は貧富を問わず全家庭に影響する。食品の税を下げれば、家族は買い物のたびに少しだけ安く払う。なぜ特に食品を対象にするのか。食品は誰も買わずにいられないので、その価格は低所得の家庭に最も重くのしかかる。生活必需品への税を下げ、他の商品には残すことで、政府は特に物価上昇時に、最も強く感じられる負担を和らげようとする。もちろん代償もある。税は学校・道路・病院・年金を賄うので、一つの税を下げれば別の財源を探すか支出を減らすことになる。だからこの引き下げは2年間の一時的なものだ。ビジネス英語の学習者には、政府が税を道具としてどう使うかの良い例だ。税は歳入を得る手段だけでなく、指導者が経済を形づくり困難な時に人々を支えるために引けるレバーでもある。",
-        quiz: [
-          { q: "日本政府が承認した案は？", options: ["食品などの消費税を8％から1％へ2年間引き下げる", "消費税を完全に廃止する", "食品をすべて無料にする"], answer: 0 },
-          { q: "なぜ特に食品を対象にするのか？", options: ["食品は誰も避けられず低所得家庭に最も重いから", "食品が安いから", "食品は課税できないから"], answer: 0 },
-          { q: "税を下げる代償は？", options: ["別の財源を探すか支出を減らす必要がある", "歳入が自動的に増える", "何も起きない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0808-2",
-        title: "Cleaner Power with Less Precious Metal",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Hydrogen fuel cells are a promising clean technology. They combine hydrogen and oxygen to make electricity, producing only water as waste — no smoke, no carbon dioxide. But they have a costly problem: many fuel cells rely on platinum, a rare and expensive metal, to make the reaction work. Now scientists have found a way to use far less of it.\nWhy is platinum such an obstacle? It is one of the rarest metals on Earth, so it is expensive and hard to obtain in large amounts. If every fuel cell needs a lot of platinum, the technology becomes too costly to use widely. Reducing the amount needed could help fuel cells compete with other ways of making power.\nThe new approach uses a specially designed carbon structure at a tiny scale. This clever material holds even small amounts of platinum in a way that keeps the reaction fast, efficient, and stable over time. In other words, it does more with less.\nWhy does this matter now? As the world seeks clean energy, fuel cells could power vehicles, buildings, and even the huge data centers that run artificial intelligence. Making them cheaper and more durable brings that future closer.\nChallenges remain, as always. Laboratory success must be proven at large scale, and hydrogen itself must be produced cleanly and cheaply. Still, the discovery is encouraging. By using a precious resource more wisely, scientists take another small but meaningful step toward practical, clean power for a hungry, energy-using world.",
-        summaryJa: "水素燃料電池は有望なクリーン技術だ。水素と酸素を結びつけて電気を作り、廃棄物は水だけ——煙も二酸化炭素も出さない。だが高価な問題がある。多くの燃料電池は、反応を働かせるために希少で高価な金属・白金（プラチナ）に頼る。いま科学者が、それをはるかに少なく使う方法を見つけた。なぜ白金が障害なのか。地球で最も希少な金属の一つで、高価で大量に得るのが難しい。全ての燃料電池が多くの白金を要すれば、技術は広く使うには高価すぎる。必要量を減らせれば、燃料電池が他の発電方法と競えるようになる。新手法は、微小スケールで特別に設計した炭素構造を使う。この巧妙な材料は、少量の白金でも反応を速く・効率的に・長期に安定して保つように支える。つまり、より少なくより多くを成す。なぜ今重要か。世界がクリーンエネルギーを求める中、燃料電池は車・建物・さらにはAIを動かす巨大なデータセンターに電力を供給しうる。より安く丈夫にすることが、その未来を近づける。課題は常に残る。実験室の成功は大規模で証明せねばならず、水素自体もクリーンかつ安く作らねばならない。それでも発見は励みになる。貴重な資源をより賢く使うことで、科学者は、エネルギーを渇望する世界のための実用的でクリーンな電力へ、また小さくも意味ある一歩を進める。",
-        quiz: [
-          { q: "水素燃料電池の廃棄物は？", options: ["水だけ", "煙", "二酸化炭素"], answer: 0 },
-          { q: "白金が障害となる理由は？", options: ["希少で高価、大量に得るのが難しいから", "柔らかすぎるから", "電気を通さないから"], answer: 0 },
-          { q: "新手法が使う工夫は？", options: ["微小スケールの特別な炭素構造で少量の白金を効率よく働かせる", "白金を増やす", "水を使わない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0808-3",
-        title: "Why Countries Spread Their Bets",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "There is an old piece of advice: do not put all your eggs in one basket. Countries are learning to apply this wisdom to the vital materials they import. Recently, Japan announced that it would seek to buy crude oil and rare earth metals from a wider range of sources, rather than relying too heavily on just a few. The goal is a safer, more stable supply.\nWhy spread out suppliers? If a country buys a crucial material from only one place, it becomes vulnerable. A political dispute, a natural disaster, or a sudden price rise could cut off the supply, harming factories and daily life. By buying from many countries, a nation reduces the risk that any single problem will leave it short.\nRare earths are a good example. These metals are essential for magnets, motors, electronics, and clean-energy technology, yet they come mostly from a small number of places. Depending on one supplier for such important materials is risky, so countries are searching for new sources and even trying to recycle what they already have.\nDiversifying is not simple or cheap. Building new trade relationships takes time, and new suppliers may cost more or need new infrastructure. But many governments now see this as worthwhile insurance.\nThe wider lesson applies to businesses and individuals too. Relying on a single source of anything important — a supplier, a customer, or a skill — carries hidden risk. Spreading your bets may cost a little more today, but it can protect you against a much larger loss tomorrow.",
-        summaryJa: "古い助言がある——卵を一つのかごに全部盛るな。各国は、この知恵を輸入する重要な材料に当てはめ始めている。最近、日本は、原油やレアアース（希土類金属）を、ごく少数に頼りすぎるのでなく、より広い供給元から買おうとすると表明した。狙いはより安全で安定した供給だ。なぜ供給元を分散するのか。ある国が重要な材料を一か所からしか買わなければ、脆くなる。政治的対立・自然災害・急な価格上昇が供給を断ち、工場や日常を害しうる。多くの国から買うことで、一つの問題で不足に陥るリスクを減らせる。レアアースは良い例だ。これらの金属は磁石・モーター・電子機器・クリーンエネルギー技術に不可欠だが、主に少数の場所から来る。そんな重要な材料を一つの供給元に頼るのは危ういので、各国は新たな供給源を探し、既にある物を再生しようとさえする。分散は単純でも安くもない。新たな貿易関係の構築には時間がかかり、新供給元は費用が高いか新しいインフラを要しうる。だが多くの政府は今、これを価値ある保険と見る。より広い教訓は企業や個人にも当てはまる。重要な何か——供給元・顧客・技能——を単一の源に頼ることは、隠れたリスクを伴う。賭けを分散することは今日は少し高くつくかもしれないが、明日のはるかに大きな損失から守りうる。",
-        quiz: [
-          { q: "日本が表明した方針は？", options: ["原油やレアアースをより広い供給元から買う", "輸入を全てやめる", "一か所だけから買う"], answer: 0 },
-          { q: "供給元を分散する理由は？", options: ["一つの問題で不足に陥るリスクを減らすため", "費用を増やすため", "材料を捨てるため"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["重要な何かを単一の源に頼るのは隠れたリスクがある", "分散は無意味である", "一つに頼るのが最善である"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0808-4",
-        title: "A Day of Lucky Eights",
-        level: "★★☆",
-        genre: "日本",
-        text: "On August 8, 2026, many people in Japan celebrated a date they considered especially lucky. Written out, the day lined up three eights: the eighth day of the eighth month, in the eighth year of the current imperial era, Reiwa. Couples chose it for their weddings, shops offered special sales, and events marked the rare arrangement of numbers.\nWhy is eight seen as lucky? In Japan, the shape of the character for eight widens toward the bottom. This spreading form is linked to the idea of growing, expanding good fortune — prosperity that opens out and increases over time. Because of this, eight has long been considered a favorable number.\nBeliefs about lucky and unlucky numbers appear in many cultures. In some places, certain numbers are avoided in buildings or phone numbers, while others are welcomed for weddings or business openings. These ideas may not be based on science, but they carry real meaning for people, shaping choices about important days.\nDates like this one show how culture adds color to the calendar. A day that is, on the surface, just another summer date becomes a reason to celebrate, to marry, or to start something new — simply because of how its numbers line up.\nFor learners of Japanese culture, such customs are a friendly window into how a society thinks. Behind the sales and the weddings is a gentle, hopeful idea: that with the right timing and a bit of good fortune, life can keep growing, expanding, and getting better.",
-        summaryJa: "2026年8月8日、日本の多くの人が、特に縁起が良いと考える日を祝った。書き出すと、その日は三つの八が並ぶ——現在の元号・令和8年の、8月8日。カップルは結婚式にこの日を選び、店は特別セールを行い、催しが珍しい数字の並びを祝った。なぜ八は縁起が良いとされるのか。日本では、八の字の形が下へ向かって広がる。この広がる形が、育ち広がる幸運——時とともに末広がりに増える繁栄——の考えに結びつく。このため八は長く好ましい数とされてきた。縁起の良い・悪い数への信念は多くの文化に現れる。ある場所では特定の数が建物や電話番号で避けられ、別の数は結婚式や開店で歓迎される。こうした考えは科学に基づかないかもしれないが、人々には本当の意味を持ち、大切な日の選択を形づくる。この日のような日付は、文化が暦に彩りを添える様子を示す。表面上はただの夏の一日が、数字の並び方だけで、祝い、結婚し、何かを始める理由になる。日本文化の学習者には、こうした習わしは社会の考え方をのぞく親しみやすい窓だ。セールや結婚式の背後には、穏やかで希望に満ちた考えがある——適切な時機と少しの幸運があれば、人生は育ち、広がり、良くなり続けられる、という。",
-        quiz: [
-          { q: "2026年8月8日が縁起が良いとされた理由は？", options: ["令和8年8月8日と三つの八が並ぶから", "国民の祝日だから", "満月だったから"], answer: 0 },
-          { q: "なぜ八が好ましい数とされるのか？", options: ["字の形が下へ広がり末広がりの繁栄に結びつくから", "数が大きいから", "発音が短いから"], answer: 0 },
-          { q: "本文が縁起の数について述べることは？", options: ["科学に基づかなくとも人々に本当の意味を持つ", "全て科学的に証明された事実である", "日本だけに存在する考えである"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0808-5",
-        title: "A Visitor from the Early Solar System",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "One day, a rock crashed through the roof of a house, startling the people inside. It turned out to be a meteorite — a piece of an asteroid that had traveled through space for billions of years before landing on Earth. When scientists examined it, they found something remarkable: traces of ancient salty water, organic compounds, and even amino acids, the building blocks of proteins.\nWhy is such a rock so valuable? Meteorites are like time capsules from the birth of the solar system. While Earth has changed enormously over billions of years, small asteroids have stayed almost the same. Studying a meteorite lets scientists look back to a time long before our planet formed its oceans and life.\nThe discovery of amino acids is especially exciting. Amino acids are essential to life as we know it. Finding them inside a space rock suggests that some of the ingredients for life may form in space and be delivered to planets by falling meteorites. This does not mean the rock carried life, only some of its chemical building blocks.\nScientists study such samples with great care, using powerful instruments to read their chemistry without contaminating them. Each meteorite adds a small clue to a very big question: how did life begin?\nThe fallen rock is a reminder that the universe is not far away and separate from us. Material from distant asteroids reaches Earth, carrying stories from the deep past — and perhaps hints about how, on at least one small planet, lifeless chemistry once became something alive.",
-        summaryJa: "ある日、一つの岩が家の屋根を突き破り、中の人々を驚かせた。それは隕石だった——地球に落ちる前、何十億年も宇宙を旅した小惑星のかけらだ。科学者が調べると、驚くべきものを見つけた。古い塩水の痕跡、有機化合物、そしてタンパク質の構成要素であるアミノ酸までも。なぜそんな岩が価値あるのか。隕石は太陽系誕生時のタイムカプセルのようなものだ。地球は何十億年で大きく変わったが、小さな小惑星はほとんど変わらないままだった。隕石を研究することで、科学者は地球が海や生命を形づくるはるか前の時代を振り返れる。アミノ酸の発見は特に胸躍る。アミノ酸は私たちの知る生命に不可欠だ。宇宙の岩の中にそれを見つけたことは、生命の材料の一部が宇宙で形成され、落ちてくる隕石によって惑星に運ばれうることを示唆する。これは岩が生命を運んだという意味ではなく、その化学的な構成要素の一部だけだ。科学者はこうした試料を、汚染せずに化学を読み取る強力な機器を使い、細心の注意で研究する。各隕石が、非常に大きな問い——生命はどう始まったのか——に小さな手がかりを加える。落ちてきた岩は、宇宙が私たちから遠く隔たってはいないことを思い出させる。遠い小惑星の物質が地球に届き、深い過去の物語を運ぶ——そしておそらく、少なくとも一つの小さな惑星で、生命なき化学がかつてどう生きたものになったかのヒントも。",
-        quiz: [
-          { q: "隕石の中から見つかったものは？", options: ["古い塩水の痕跡・有機化合物・アミノ酸", "金と銀", "生きた動物"], answer: 0 },
-          { q: "隕石が価値ある理由は？", options: ["太陽系誕生時のほぼ変わらないタイムカプセルだから", "高価な宝石だから", "最近作られたものだから"], answer: 0 },
-          { q: "アミノ酸の発見が示唆することは？", options: ["生命の材料の一部が宇宙で形成され惑星に運ばれうる", "岩が生命そのものを運んだ", "生命は不要である"], answer: 0 }
         ]
       }
     ]
