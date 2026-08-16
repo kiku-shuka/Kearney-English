@@ -67,7 +67,19 @@ KE_DATA.extraSentences = [
   { id: "w2632-s09", ja: "締切を一週間延ばしていただくことは可能でしょうか。", en: "Would it be possible to push the deadline back a week?", note: "push back = 後ろ倒しにする" },
   { id: "w2632-s10", ja: "その点は次回までの宿題にさせてください。", en: "Let me take that as an action item for next time.", note: "action item = 宿題・対応事項" },
   { id: "w2632-s11", ja: "数字の裏付けを添えて説明します。", en: "I'll explain it with the numbers to back it up.", note: "back up = 裏付ける" },
-  { id: "w2632-s12", ja: "認識が合っているか、最後に確認させてください。", en: "Let me check at the end that we're aligned.", note: "aligned = 認識が一致した" }
+  { id: "w2632-s12", ja: "認識が合っているか、最後に確認させてください。", en: "Let me check at the end that we're aligned.", note: "aligned = 認識が一致した" },
+  { id: "w2633-s01", ja: "この件、少し時間をいただいて検討させてください。", en: "Let me take some time to think this over.", note: "think over = じっくり検討する" },
+  { id: "w2633-s02", ja: "御社のご要望を正しく理解しているか確認させてください。", en: "Let me make sure I understand your request correctly.", note: "認識確認の丁寧な型" },
+  { id: "w2633-s03", ja: "予算内であれば前向きに検討します。", en: "If it's within budget, we'll seriously consider it.", note: "seriously consider = 前向きに検討する" },
+  { id: "w2633-s04", ja: "その点については専門のチームにつなぎます。", en: "I'll connect you with the team that handles that.", note: "connect you with = 〜につなぐ" },
+  { id: "w2633-s05", ja: "申し訳ありませんが、今回は見送らせてください。", en: "I'm afraid we'll have to pass this time.", note: "pass = 見送る・断る" },
+  { id: "w2633-s06", ja: "次のステップを整理して共有します。", en: "I'll lay out the next steps and share them.", note: "lay out = 整理して示す" },
+  { id: "w2633-s07", ja: "想定より時間がかかっていて申し訳ありません。", en: "I'm sorry this is taking longer than expected.", note: "遅延の丁寧なお詫び" },
+  { id: "w2633-s08", ja: "その数字にはどこまで含まれていますか。", en: "What exactly is included in that figure?", note: "figure = 数字・金額" },
+  { id: "w2633-s09", ja: "では、この方向で進めるということでよろしいですか。", en: "So, shall we go ahead in this direction?", note: "go ahead = 進める" },
+  { id: "w2633-s10", ja: "懸念があれば、今のうちに共有してください。", en: "If you have any concerns, please share them now.", note: "concern = 懸念" },
+  { id: "w2633-s11", ja: "優先度が高いので、今週中に対応します。", en: "This is a high priority, so I'll handle it this week.", note: "high priority = 優先度が高い" },
+  { id: "w2633-s12", ja: "本日の決定事項をメールでまとめてお送りします。", en: "I'll email a summary of what we decided today.", note: "決定事項のまとめ・議事メモの型" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -189,6 +201,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Good idea. How about a short check-in every Monday?", ja: "いい考えですね。毎週月曜の短い進捗確認はどうですか？" },
       { s: "B", en: "Perfect. Then we're all aligned. Let's get started.", ja: "完璧です。では認識は揃いましたね。始めましょう。" }
     ]
+  },
+  {
+    id: "w2633-sh1",
+    title: "顧客クレームへの対応",
+    level: "★★★",
+    description: "サービスの不具合について謝罪し、事実を確認して解決策と見通しを示す場面。謝罪・傾聴・提案の言い回しを体に入れる。",
+    lines: [
+      { s: "A", en: "I'm calling because the system has been down since this morning.", ja: "今朝からシステムが止まっているので電話しました。" },
+      { s: "B", en: "I'm very sorry for the trouble. Let me look into it right away.", ja: "ご迷惑をおかけし申し訳ありません。すぐに調べます。" },
+      { s: "A", en: "This is affecting our whole team's work.", ja: "これでチーム全体の業務に影響が出ています。" },
+      { s: "B", en: "I completely understand. May I confirm a few details?", ja: "よく分かります。いくつか詳細を確認してもよろしいですか？" },
+      { s: "A", en: "Sure, go ahead.", ja: "ええ、どうぞ。" },
+      { s: "B", en: "Thank you. It looks like the problem is on our side, and we're fixing it now.", ja: "ありがとうございます。問題は当方側のようで、今修正しています。" },
+      { s: "A", en: "How long will it take?", ja: "どのくらいかかりますか？" },
+      { s: "B", en: "We expect it to be back within an hour. I'll keep you updated.", ja: "一時間以内に復旧する見込みです。随時ご連絡します。" },
+      { s: "A", en: "Please do. We can't afford a long delay.", ja: "お願いします。長い遅れは困ります。" },
+      { s: "B", en: "Understood. Again, I apologize, and thank you for your patience.", ja: "承知しました。重ねてお詫びします。お待ちいただき感謝します。" }
+    ]
   }
 ];
 
@@ -253,6 +283,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2632-t03", ja: "AIは、人間ではないことを常に相手に明かすべきだと思いますか？", en: "Should an AI always be required to tell people it is not human?",
     sample: { point: "Yes, I strongly believe an AI should always make clear that it is not a human.", reason: "The main reason is that people deserve to know who, or what, they are really dealing with, especially when making decisions.", example: "For example, new rules in Europe now require AI systems to identify themselves, so users are not tricked into thinking a machine is a person.", point2: "So honesty about being an AI is a basic form of respect for the people who use it." }
+  },
+  {
+    id: "w2633-t01", ja: "AIが多くの仕事で人間より優れた成果を出すようになったら、私たちはどう対応すべきだと思いますか？", en: "As AI starts to outperform humans at many tasks, how should we respond?",
+    sample: { point: "I think we should focus on learning to work with AI rather than trying to compete against it.", reason: "The main reason is that AI is now better at many routine tasks, but people still bring judgment, creativity, and responsibility that machines lack.", example: "For example, in fields like medicine and law, AI can draft documents or spot patterns quickly, while humans make the final decisions and handle the human side.", point2: "So the smartest response is to build new skills and use AI as a tool, not to fear it as a rival." }
+  },
+  {
+    id: "w2633-t02", ja: "データセンターの建設に地域住民が反対することがあります。企業や政府はどう対応すべきだと思いますか？", en: "Local communities sometimes oppose new data centers. How should companies and governments respond?",
+    sample: { point: "I believe companies and governments should listen to local communities and share the benefits with them.", reason: "This is because data centers use a lot of land, electricity, and water, and nearby residents carry the costs while the profits often go elsewhere.", example: "For example, some projects have faced strong opposition until the companies agreed to fund local services, use cleaner energy, or create local jobs.", point2: "So involving communities early, and giving them a real stake, is the fairest way to build the infrastructure the digital economy needs." }
+  },
+  {
+    id: "w2633-t03", ja: "新しい技術について、私たちは「宣伝」より「評価」に力を入れるべきだと思いますか？", en: "Should we focus more on carefully evaluating new technology than on promoting it?",
+    sample: { point: "Yes, I think it is time to focus more on evaluating new technology than simply praising it.", reason: "The main reason is that excitement alone can hide real risks, while careful testing shows what a technology can and cannot safely do.", example: "For example, with AI, experts are now moving from broad promises toward measuring how well systems actually perform and where they fail.", point2: "So honest evaluation is not the enemy of progress — it is what makes progress trustworthy." }
   }
 ];
 
