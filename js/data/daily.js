@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-16",
+    passages: [
+      {
+        id: "d0816-1",
+        title: "How Heat Affects Business",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "This year is likely to be one of the hottest ever recorded, and rising temperatures are not only a problem for the environment — they are increasingly a problem for business. From farms to factories to shops, extreme heat touches almost every part of the economy, in ways many people do not notice.\nHow does heat affect business? On very hot days, outdoor workers must slow down or stop for safety, which delays construction and farming. Crops can wither in the fields, raising food prices. Machines and computers, especially in data centers, need more cooling, which uses more electricity and costs more money. Even shoppers may stay home when it is too hot to go out.\nHeat also drives demand in some areas. Sales of air conditioners, cold drinks, and fans rise, and electricity use soars as people try to stay cool. This can strain power grids and push energy prices higher for everyone.\nBecause of these effects, companies are learning to plan for heat. Some change working hours to avoid the hottest part of the day, redesign buildings to stay cool, or invest in more reliable energy. Insurers and investors increasingly ask how well a business can handle extreme weather.\nThe lesson is clear: climate is now a business issue, not just an environmental one. As hot years become more common, the companies that prepare — protecting their workers, their supplies, and their costs — will be better placed to succeed in a warming world.",
+        summaryJa: "今年は記録上最も暑い年の一つになりそうで、気温上昇は環境だけの問題ではない——ますますビジネスの問題でもある。農場から工場、店まで、猛暑は経済のほぼあらゆる部分に、多くの人が気づかない形で触れる。暑さはどうビジネスに影響するのか。非常に暑い日、屋外労働者は安全のため作業を緩めるか止めねばならず、建設や農業が遅れる。作物は畑で枯れ、食料価格を押し上げうる。機械やコンピューター、特にデータセンターはより多くの冷却を要し、より多くの電力を使い費用がかさむ。暑すぎて外出できないと、買い物客が家にとどまることさえある。暑さは一部で需要も生む。エアコン・冷たい飲み物・扇風機の売上が伸び、人々が涼を求めて電力使用が急増する。これは電力網に負担をかけ、皆にとってエネルギー価格を押し上げうる。こうした影響のため、企業は暑さに備えることを学んでいる。最も暑い時間帯を避けて勤務時間を変え、涼しく保つよう建物を設計し直し、より信頼できるエネルギーに投資する企業もある。保険会社や投資家は、企業が極端な気象にどれだけ対処できるかをますます問う。教訓は明快だ——気候は今や環境だけでなくビジネスの問題だ。暑い年が当たり前になる中、備える企業——労働者・供給・費用を守る企業——が、温暖化する世界でより成功しやすい位置に立つ。",
+        quiz: [
+          { q: "猛暑がビジネスに与える影響に含まれるものは？", options: ["屋外作業の遅れや作物の枯れ、冷却費の増加", "影響は全くない", "利益だけが増える"], answer: 0 },
+          { q: "暑さが需要を生む例は？", options: ["エアコンや冷たい飲み物の売上増と電力使用の急増", "本の売上だけ", "何も売れなくなる"], answer: 0 },
+          { q: "本文の教訓は？", options: ["気候は今や環境だけでなくビジネスの問題", "気候は経済に無関係", "備えは不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0816-2",
+        title: "How AI Helps Doctors See the Brain",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "The human brain is one of the most complex and mysterious objects we know. Studying it is extremely difficult, because we cannot easily look inside a living, working brain. Now, artificial intelligence is helping scientists understand it better — recently, AI was used to measure the brain's hidden 'cleaning system,' the flow of fluid that washes away waste.\nWhy does this matter? Like any busy machine, the brain produces waste as it works. To stay healthy, it must clear this waste away, and it does so using a slow flow of fluid through and around its tissues. Problems with this cleaning process may be linked to serious brain diseases, so understanding it could help doctors in the future.\nHow does AI help? Measuring such tiny, slow movements is very hard. AI is good at finding patterns in huge amounts of complex data, so it can help scientists track how fluid moves — quickly around the brain's outer spaces, but far more slowly deep inside. Spotting these details by hand would be almost impossible.\nThis is part of a larger trend: using AI as a tool to explore questions in medicine and biology that were once out of reach. The computer does not replace the scientist, but it extends what the scientist can see and measure.\nThe research is still early, and much remains unknown. But it shows how AI, carefully used, can become a powerful microscope for the mind — helping us understand the organ that makes us who we are, one hidden flow at a time.",
+        summaryJa: "人間の脳は、私たちが知る最も複雑で神秘的な対象の一つだ。生きて働く脳の中を容易には覗けないため、その研究は極めて難しい。今、AIが科学者のより良い理解を助けている——最近、AIは脳の隠れた「掃除システム」、老廃物を洗い流す体液の流れを測るのに使われた。なぜ重要か。忙しい機械と同じく、脳は働きながら老廃物を生む。健康を保つには、これを取り除かねばならず、組織の中や周りをゆっくり流れる体液を使ってそうする。この掃除の過程の不調は深刻な脳の病に結びつくかもしれず、その理解は将来、医師を助けうる。AIはどう助けるのか。そんな微小で遅い動きを測るのは非常に難しい。AIは膨大で複雑なデータの中の模様を見つけるのが得意なので、体液がどう動くか——脳の外側の空間では速く、深部ではずっと遅く——を追う助けになる。こうした細部を手作業で見つけるのはほぼ不可能だ。これはより大きな潮流の一部だ——かつて手の届かなかった医学や生物学の問いを探る道具としてAIを使うこと。コンピューターは科学者に取って代わるのでなく、科学者が見て測れる範囲を広げる。研究はまだ初期で、多くが未解明のままだ。だがそれは、慎重に使えばAIが心の強力な顕微鏡になりうることを示す——私たちを私たちたらしめる器官を、隠れた流れ一つずつ理解する助けになるのだ。",
+        quiz: [
+          { q: "AIが測るのを助けたものは？", options: ["脳の老廃物を洗い流す体液の流れ（掃除システム）", "脳の重さだけ", "脳の色"], answer: 0 },
+          { q: "AIがこの研究で得意なことは？", options: ["膨大で複雑なデータの中の模様を見つける", "手術をすること", "薬を作ること"], answer: 0 },
+          { q: "本文がAIについて述べることは？", options: ["科学者に取って代わらず見て測れる範囲を広げる", "科学者を不要にする", "研究を妨げる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0816-3",
+        title: "The Oceans Are Running a Fever",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When we think about a warming world, we usually picture hot air and dry land. But the oceans are heating up too, and scientists are increasingly worried about 'marine heatwaves' — long periods when a part of the sea becomes unusually warm. These events are a growing concern for the whole planet, not just for the creatures that live in the water.\nWhat is a marine heatwave? Just as the air can have a heatwave, so can the sea. For days, weeks, or even months, ocean temperatures in a region can rise far above normal. This may not sound dramatic, but even a few degrees can have powerful effects on ocean life.\nWhy does it matter to people? The oceans feed billions of people and support countless jobs through fishing. When the sea grows too warm, fish may move away or die, coral reefs can be damaged, and important ecosystems break down. This threatens food supplies and the livelihoods of coastal communities around the world.\nMarine heatwaves can also affect weather and even human health, changing rainfall and storms far inland. Because the ocean connects every continent, a problem in one sea can ripple across the globe.\nScientists are studying these events closely, using satellites and sensors to track ocean temperatures and warn communities early. The warming sea is a reminder that our planet's systems are deeply connected. What happens in the distant ocean does not stay there — it reaches our tables, our coasts, and, in time, us all.",
+        summaryJa: "温暖化する世界を考えるとき、私たちはたいてい熱い空気と乾いた大地を思い描く。だが海も温まっており、科学者は「海洋熱波」——海のある部分が異常に暖かくなる長い期間——をますます憂慮している。こうした出来事は、水に住む生き物だけでなく、地球全体にとって高まる懸念だ。海洋熱波とは何か。空気に熱波があるように、海にもありうる。数日・数週間、時に数か月、ある地域の海水温が平常をはるかに超えて上がる。劇的に聞こえないかもしれないが、わずか数度でも海の生命に強い影響を及ぼしうる。なぜ人々に重要か。海は何十億もの人を養い、漁業を通じて無数の仕事を支える。海が暖まりすぎると、魚は去るか死に、サンゴ礁は損なわれ、重要な生態系が崩れうる。これは世界中の沿岸地域の食料供給と暮らしを脅かす。海洋熱波は天気や人の健康にも影響し、はるか内陸の降雨や嵐を変えうる。海はあらゆる大陸をつなぐので、一つの海の問題が世界へ波及しうる。科学者は衛星やセンサーで海水温を追い、地域に早く警告し、こうした出来事を詳しく研究している。暖まる海は、地球の仕組みが深くつながっていることを思い出させる。遠い海で起きることはそこにとどまらない——私たちの食卓、沿岸、そしていずれ私たち皆に届くのだ。",
+        quiz: [
+          { q: "「海洋熱波」とは何か？", options: ["海のある部分が長期間、異常に暖かくなること", "海が凍ること", "波が高くなること"], answer: 0 },
+          { q: "海の温暖化が人々に重要な理由は？", options: ["漁業や食料供給、沿岸の暮らしを脅かすから", "海は無関係だから", "魚が必ず増えるから"], answer: 0 },
+          { q: "本文が伝えることは？", options: ["遠い海の問題はそこにとどまらず私たち皆に届く", "海は孤立している", "影響は海の中だけ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0816-4",
+        title: "A Robot Monk in a Kyoto Temple",
+        level: "★★☆",
+        genre: "日本",
+        text: "In a temple in Kyoto, visitors can now speak with an unusual guide: a robot powered by artificial intelligence, designed to answer questions about life, faith, and the human heart. The idea of a 'robot monk' may sound surprising, but it reflects a growing question of our time — what role should technology play in the deepest parts of human life?\nWhy build such a robot? Temples have long been places where people bring their worries and questions. But there are fewer monks than before, and many people feel too shy to speak openly to a person. A patient machine, always available and never tired, might help some visitors feel comfortable asking about difficult subjects like loss, meaning, or how to live.\nThe robot does not truly feel or believe. It has been trained on many texts and can respond thoughtfully, but its words come from patterns, not from a lived human life. This raises deep questions: can a machine offer real comfort, or only the appearance of it?\nMany people find the idea fascinating, while others feel that wisdom and warmth cannot come from a machine, however clever. Both reactions are understandable.\nWhat makes this story special is the meeting of old and new — ancient tradition and modern technology, side by side. Whether or not a robot can truly guide the human heart, its presence in a quiet temple invites us to think carefully about what we want from technology, and what only other people can give.",
+        summaryJa: "京都のある寺で、訪問者は今、珍しい案内役と話せる——人生・信仰・人の心についての問いに答えるよう作られた、AIで動くロボットだ。「ロボット僧」という発想は驚くように聞こえるかもしれないが、現代の高まる問い——技術は人生の最も深い部分でどんな役割を果たすべきか——を映している。なぜそんなロボットを作るのか。寺は長く、人々が悩みや問いを持ち込む場所だった。だが以前より僧は少なく、多くの人は人に率直に話すのを気恥ずかしく感じる。常に応じ、決して疲れない忍耐強い機械は、喪失・意味・生き方といった難しい話題を尋ねるのに、一部の訪問者が安心する助けになるかもしれない。ロボットは本当に感じたり信じたりはしない。多くの文章を学び思慮深く応じられるが、その言葉は生きた人生でなく模様から来る。これは深い問いを生む——機械は本当の慰めを与えられるのか、それとも慰めの見かけだけか。この発想を魅力的と思う人も多いが、知恵や温かさは、どれほど賢くても機械からは来ないと感じる人もいる。どちらの反応も理解できる。この話を特別にするのは、古と新の出会い——古い伝統と現代の技術が並び立つことだ。ロボットが本当に人の心を導けるかどうかにかかわらず、静かな寺でのその存在は、私たちが技術に何を求め、他者だけが与えられるものは何かを、丁寧に考えるよう誘う。",
+        quiz: [
+          { q: "京都の寺に登場したものは？", options: ["人生や信仰の問いに答えるAIロボット", "新しい鐘", "巨大な仏像"], answer: 0 },
+          { q: "ロボット僧が作られた理由の一つは？", options: ["僧が少なく、人に話しにくい人が安心して尋ねられるかもしれないから", "観光を禁止するため", "寺を閉じるため"], answer: 0 },
+          { q: "本文が投げかける深い問いは？", options: ["機械は本当の慰めを与えられるのか", "ロボットは何色か", "寺はどこにあるか"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0816-5",
+        title: "Seeing Home from Mars",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Far away on the surface of Mars, a robotic explorer looked up at the night sky and captured a remarkable sight: the Earth, our home, appearing as a tiny point of light — and then slipping behind one of Mars's small moons. For a moment, our entire world was just a distant dot, seen from another planet.\nWhy is such an image so powerful? From Mars, the Earth is not a great blue globe but a faint speck, easily hidden behind a passing moon. Everything we know — every person, city, ocean, and mountain — fits inside that single point of light. Seeing our planet this way can change how we think about it.\nThe picture also shows how far our machines have traveled. A rover built on Earth now drives across Martian soil, studies its rocks, and even watches the sky, sending images back across tens of millions of kilometers of empty space. That such a thing is possible is a triumph of science and patience.\nScientists value these views for practical reasons too. Watching a moon pass in front of the Earth, or the Sun, helps them measure orbits and understand the Martian sky.\nBut the deepest value may be how it makes us feel. Looking at our own world as a tiny dot, alone in the dark, reminds us how precious and fragile it is. From millions of kilometers away, a small machine has sent us a quiet message: this pale point of light is home, and it is the only one we have.",
+        summaryJa: "はるか遠く火星の表面で、ロボットの探査機が夜空を見上げ、驚くべき光景を捉えた——私たちの故郷、地球が、小さな光の点として現れ、そして火星の小さな月の一つの背後へ滑り込むのを。一瞬、私たちの世界全体が、別の惑星から見たただの遠い点だった。なぜそんな画像がそれほど力強いのか。火星から、地球は大きな青い球でなく、通り過ぎる月に容易に隠れるかすかな点だ。私たちが知るすべて——あらゆる人・都市・海・山——が、その一つの光の点の中に収まる。こうして自分の惑星を見ることは、それについての考え方を変えうる。この写真は、私たちの機械がどれほど遠くまで旅したかも示す。地球で作られた探査車が今、火星の土を走り、その岩を研究し、空さえ眺め、何千万キロもの空虚な宇宙を越えて画像を送り返す。そんなことが可能なのは、科学と忍耐の勝利だ。科学者は実際的な理由でもこうした光景を重んじる。月が地球や太陽の前を通るのを見ることは、軌道の測定や火星の空の理解を助ける。だが最も深い価値は、それが私たちにどう感じさせるかかもしれない。自分の世界を、暗闇に独りある小さな点として見ることは、それがどれほど貴重で壊れやすいかを思い出させる。何百万キロも彼方から、小さな機械が静かな伝言を送ってきた——この淡い光の点が故郷であり、私たちが持つ唯一のものだ、と。",
+        quiz: [
+          { q: "火星の探査機が捉えた光景は？", options: ["地球が小さな光の点として現れ月の背後に隠れる", "火星に川が流れる", "太陽が二つある"], answer: 0 },
+          { q: "火星から見た地球はどう見えるか？", options: ["月に隠れるほどのかすかな点", "大きな青い球", "すぐ近くの星"], answer: 0 },
+          { q: "本文が伝える最も深い価値は？", options: ["地球がどれほど貴重で壊れやすいかを思い出させる", "火星の方が良い", "地球は大きいということ"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-15",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "この錠剤はどう働くか？", options: ["食欲や満腹感を制御するホルモンの効果を高める", "眠りを深くする", "筋肉を増やす"], answer: 0 },
           { q: "錠剤が期待される理由は？", options: ["注射より飲みやすく多くの人が恩恵を受けうる", "味が良いから", "無料だから"], answer: 0 },
           { q: "本文が促す慎重さは？", options: ["副作用がありうるし健康的な食事と運動もなお必要", "薬だけで十分", "医師の判断は不要"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-09",
-    passages: [
-      {
-        id: "d0809-1",
-        title: "Why Markets React to Elections",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "When a country holds an election, the results can move more than just its government — they can move its financial markets too. Recently, stock markets in Asia rose after an election in Japan, as investors expected the new political situation to lead to more government spending. But why should a vote change the price of shares?\nThe key is expectations. Stock prices reflect what investors think will happen in the future, not just what is happening now. An election can change those expectations. If investors believe a new government will spend more, cut taxes, or support certain industries, they may expect companies to earn more — and buy their shares, pushing prices up.\nDifferent policies affect different businesses. A promise to spend on construction may lift building companies, while plans for clean energy may boost solar or battery firms. Investors try to guess who will benefit and act quickly, often before any policy is actually put in place.\nMarkets can also fall after elections, if the result brings uncertainty or policies that worry investors. What markets dislike most is not any single outcome, but confusion about what will happen next.\nIt is important to remember that these early moves are guesses, not guarantees. Promises made in a campaign do not always become reality, and the economy depends on far more than one election.\nStill, the link is real. An election is not only a political event; it is also a moment when millions of investors quietly rewrite their expectations about the future — and money moves as a result.",
-        summaryJa: "国が選挙を行うと、その結果は政府だけでなく金融市場も動かしうる。最近、日本の選挙の後、投資家が新しい政治状況はより多くの政府支出につながると期待し、アジアの株式市場が上昇した。だがなぜ投票が株価を変えるのか。鍵は「期待」だ。株価は、今起きていることだけでなく、投資家が将来起きると考えることを映す。選挙はその期待を変えうる。新政府がより多く支出し、減税し、特定の産業を支えると投資家が信じれば、企業がより稼ぐと期待し、株を買って価格を押し上げうる。政策ごとに影響する事業は異なる。建設への支出の約束は建設会社を押し上げ、クリーンエネルギーの計画は太陽光や電池の企業を押し上げうる。投資家は誰が恩恵を受けるか推測し、政策が実際に実施される前に素早く動くことが多い。選挙後に市場が下がることもある——結果が不確実性や投資家を不安にさせる政策をもたらせば。市場が最も嫌うのは、特定の結果でなく、次に何が起きるかの混乱だ。こうした早い動きは推測であって保証ではないと覚えておくことが重要だ。選挙戦の約束は常に現実になるとは限らず、経済は一つの選挙よりはるかに多くに左右される。それでも結びつきは本物だ。選挙は政治的な出来事だけでなく、何百万もの投資家が将来への期待を静かに書き換える瞬間でもあり——その結果、お金が動く。",
-        quiz: [
-          { q: "選挙が株価を動かす鍵は？", options: ["投資家の将来への「期待」が変わること", "天気が変わること", "株の数が減ること"], answer: 0 },
-          { q: "政策ごとに影響が異なる例は？", options: ["建設支出は建設会社、クリーンエネ計画は太陽光や電池を押し上げる", "全企業が同じように動く", "影響は全くない"], answer: 0 },
-          { q: "市場が最も嫌うものは？", options: ["次に何が起きるかの混乱（不確実性）", "支出の増加", "減税"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0809-2",
-        title: "Tiny Cleaners Underground",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Some of the most powerful tools for cleaning up pollution may be too small to see. Deep underground, scientists have found, certain bacteria can trap toxic uranium, locking it in place so it cannot spread through soil and water. This natural ability could one day help clean up dangerous pollution left by mining and industry.\nHow can bacteria do this? These tiny living things carry out chemical reactions as part of their normal lives. In some cases, those reactions change harmful metals like uranium into forms that do not dissolve in water. Instead of flowing away and spreading, the uranium becomes solid and stays put, safely trapped underground.\nWhy is this useful? Toxic metals from old mines or factories can seep into groundwater, threatening drinking water and harming health. Cleaning such pollution with machines is expensive and difficult, especially deep below the surface. Using bacteria that are already there — a method called bioremediation — could be cheaper and gentler on the environment.\nThere are challenges. Scientists must understand exactly how the bacteria work, make sure the trapped metal stays locked away, and check that helping these microbes does not cause other problems. Nature is complex, and every action has side effects.\nStill, the idea is inspiring. It shows that solutions to human-made problems can come from unexpected places — even from invisible life beneath our feet. By working with nature rather than against it, scientists hope to turn tiny bacteria into quiet, tireless helpers in the effort to heal polluted land.",
-        summaryJa: "汚染を浄化する最も強力な道具のいくつかは、目に見えないほど小さいかもしれない。地下深くで、ある種の細菌が有毒なウランを捕らえ、その場に固定して土壌や水中に広がらないようにできることを科学者が見つけた。この自然の能力は、いつか採掘や産業が残した危険な汚染の浄化を助けうる。細菌はどうやってこれを行うのか。この小さな生き物は、通常の生活の一部として化学反応を行う。場合によっては、その反応がウランのような有害金属を水に溶けない形へ変える。流れ去って広がる代わりに、ウランは固体になりその場にとどまり、地下に安全に閉じ込められる。なぜ有用か。古い鉱山や工場からの有毒金属は地下水に染み込み、飲料水を脅かし健康を害しうる。そうした汚染を機械で浄化するのは高価で難しく、特に地表の深くではなおさらだ。既にそこにいる細菌を使う方法——バイオレメディエーション（生物学的浄化）——は、より安価で環境に優しくなりうる。課題もある。科学者は細菌の働きを正確に理解し、捕らえた金属が閉じ込められたままか確かめ、この微生物を助けることが別の問題を起こさないか確認せねばならない。自然は複雑で、あらゆる行動に副作用がある。それでもこの発想は心を打つ。人間が作った問題への解決策が、思わぬ場所——足下の見えない生命からさえ——来うることを示す。自然に逆らうのでなく共に働くことで、科学者は小さな細菌を、汚染された土地を癒す静かでたゆまぬ助け手に変えたいと願う。",
-        quiz: [
-          { q: "地下の細菌ができることは？", options: ["有毒なウランを溶けない形にして固定する", "金を作ること", "水を増やすこと"], answer: 0 },
-          { q: "細菌を使う浄化（バイオレメディエーション）の利点は？", options: ["機械より安価で環境に優しくなりうる", "必ず一瞬で終わる", "副作用が全くない"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["働きの理解や別の問題を起こさないかの確認が必要", "細菌が大きすぎること", "ウランが安全なこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0809-3",
-        title: "When the World Plays Together",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Few events bring the world together like a major international sports tournament. When teams from many countries gather to compete, billions of people watch, cheer, and share the same moments of excitement. Beyond the games themselves, such events have a big impact on business, cities, and the relationships between nations.\nWhy do these tournaments matter so much? For the host countries, they bring huge numbers of visitors, along with money for hotels, restaurants, and transport. Cities build new stadiums, train stations, and parks, some of which serve local people for years afterward. Companies pay large sums to sponsor teams and advertise to a global audience.\nThere are cultural benefits too. When people from different countries meet as fans, players, and visitors, they share food, language, and customs. A tournament can soften borders for a few weeks, reminding people how much they have in common through a simple love of the game.\nOf course, hosting is not without problems. Building stadiums is expensive, and some are little used after the event. Large crowds require careful planning for safety and transport. Not every promise of lasting benefit comes true.\nStill, the appeal endures. A global tournament is one of the rare moments when the whole world pays attention to the same thing at the same time — not a conflict or a crisis, but a game. In a divided world, that shared joy, however brief, is itself something worth celebrating, connecting strangers across continents through the simple drama of sport.",
-        summaryJa: "大きな国際スポーツ大会ほど世界を一つにする出来事は少ない。多くの国のチームが集まって競うと、何十億もの人が見て、応援し、同じ興奮の瞬間を分かち合う。試合そのものを超え、こうした大会はビジネス・都市・国家間の関係に大きな影響を与える。なぜこれらの大会がそれほど重要か。開催国には、膨大な数の来訪者と、ホテル・飲食・交通へのお金をもたらす。都市は新しいスタジアム・駅・公園を建て、その一部は後々何年も地元の人々に役立つ。企業はチームの協賛や世界的な観客への広告に多額を払う。文化的な利点もある。異なる国の人々がファン・選手・来訪者として出会うと、食・言語・習慣を分かち合う。大会は数週間、国境を和らげ、単純な競技への愛を通じて人々がいかに多くの共通点を持つかを思い出させうる。もちろん開催に問題がないわけではない。スタジアム建設は高価で、一部は大会後ほとんど使われない。大群衆は安全と交通の入念な計画を要する。持続的利益の約束が全て叶うわけではない。それでも魅力は続く。世界的な大会は、世界全体が同時に同じもの——対立や危機でなく、一つの試合——に注目する稀な瞬間の一つだ。分断された世界で、その分かち合う喜びは、たとえ短くとも、それ自体祝う価値がある。単純なスポーツのドラマを通じ、大陸を越えて見知らぬ者同士をつなぐのだ。",
-        quiz: [
-          { q: "国際スポーツ大会が開催国にもたらすものは？", options: ["多くの来訪者とホテル・交通などへのお金", "戦争", "孤立"], answer: 0 },
-          { q: "大会の文化的な利点は？", options: ["異なる国の人々が食・言語・習慣を分かち合う", "国境が永久に消える", "言語が一つになる"], answer: 0 },
-          { q: "本文が挙げる開催の問題は？", options: ["スタジアム建設が高価で後で使われないこともある", "観客が全く来ないこと", "試合が行われないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0809-4",
-        title: "The Cooling Custom of Uchimizu",
-        level: "★★☆",
-        genre: "日本",
-        text: "On a hot summer day in Japan, you may see people gently sprinkling water on the street in front of their homes or shops. This simple, old custom is called uchimizu, and it is a gentle way to cool the air and settle the dust. In an age of rising summer temperatures, this centuries-old habit is drawing new interest.\nHow does uchimizu work? When water is spread on a hot surface and then evaporates, it takes heat from the air around it. This is the same reason we feel cool when sweat dries on our skin. A little water on a warm street can lower the temperature nearby by a small but noticeable amount, especially in the shade.\nUchimizu is about more than temperature. Traditionally, sprinkling water was also a way to welcome guests, showing that a space had been prepared and cared for. It carries a feeling of politeness and calm, turning a practical act into a small daily ritual.\nToday, as cities grow hotter, some communities hold uchimizu events, where many people sprinkle water at the same time to cool a whole street. Using leftover or rain water makes the custom friendly to the environment as well.\nOf course, uchimizu alone cannot solve the problem of extreme heat. But it is a gentle reminder that not every solution needs to be high-tech. Sometimes an old, simple habit — a little water, spread with care — can bring a moment of coolness and a touch of tradition to a hot summer day.",
-        summaryJa: "日本の暑い夏の日、家や店の前の道に人々がそっと水をまく光景を見るかもしれない。この単純で古い習わしは「打ち水」と呼ばれ、空気を冷やし埃を鎮める穏やかな方法だ。夏の気温が上がる時代に、この何世紀も続く習慣が新たな関心を集めている。打ち水はどう働くのか。熱い表面に水がまかれて蒸発すると、周りの空気から熱を奪う。汗が肌で乾くと涼しく感じるのと同じ理由だ。暖かい道への少しの水は、特に日陰で、近くの温度をわずかだが感じられるほど下げうる。打ち水は温度だけの話ではない。伝統的に、水をまくことは客を迎える方法でもあり、空間が整えられ心を配られたことを示した。丁寧さと落ち着きの感覚を伴い、実用的な行いを小さな日々の儀式に変える。今日、都市が暑くなる中、多くの人が同時に水をまいて通り全体を冷やす打ち水イベントを開く地域もある。残り水や雨水を使えば、習わしは環境にも優しくなる。もちろん打ち水だけで猛暑の問題は解けない。だが、あらゆる解決策が高度な技術を要するわけではないという穏やかな気づきだ。時に、古く単純な習慣——心を込めてまかれた少しの水——が、暑い夏の日に一瞬の涼しさと伝統の趣をもたらしうる。",
-        quiz: [
-          { q: "「打ち水」とは何をすることか？", options: ["道に水をまいて空気を冷やし埃を鎮める", "道を掃くこと", "花を植えること"], answer: 0 },
-          { q: "打ち水が涼しさを生む仕組みは？", options: ["水が蒸発する際に周りの空気から熱を奪う", "水が光るから", "水が重いから"], answer: 0 },
-          { q: "本文が伝える気づきは？", options: ["あらゆる解決策が高度な技術を要するわけではない", "打ち水で猛暑は完全に解決する", "伝統は無意味だ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0809-5",
-        title: "Ancient Art on an Eggshell",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Long before writing was invented, humans were already creating art. Scientists studying pieces of ostrich eggshell from southern Africa have found that people were engraving them with careful geometric patterns more than sixty thousand years ago. A closer look shows these designs were even more organized and deliberate than experts once believed.\nWhy is this important? Making patterns on purpose is a sign of symbolic thinking — the ability to use marks to carry meaning. This is one of the qualities that makes humans special. Finding such careful designs so long ago suggests that our ancestors had rich, creative minds far earlier than we sometimes imagine.\nWhy ostrich eggshells? In that time and place, ostrich eggs were valuable. Their strong shells could be used as containers to carry water, much like a bottle. Decorating them may have marked ownership, shown group identity, or simply expressed a love of beauty. The patterns may even have been a kind of message, understood by people who shared the same culture.\nStudying these objects is delicate work. The shells are fragile and ancient, so scientists handle them with great care, using close observation and modern tools to understand the patterns without damaging them.\nThe engraved eggshells are a moving reminder of how deeply human creativity runs. Tens of thousands of years ago, someone sat down and carefully carved a design, for reasons we can only partly guess. Across an enormous gulf of time, that simple act of making art still speaks to us — proof that the urge to create is very old indeed.",
-        summaryJa: "文字が発明されるはるか前、人類は既に芸術を生み出していた。南アフリカのダチョウの卵の殻の破片を研究する科学者が、人々が6万年以上前に、丁寧な幾何学模様をそこに彫っていたことを見つけた。よく見ると、これらの意匠は専門家がかつて信じたよりさらに整い、意図的だった。なぜ重要か。意図して模様を作ることは、象徴的思考——印に意味を持たせる能力——の証だ。これは人類を特別にする性質の一つだ。これほど昔にそんな丁寧な意匠が見つかることは、私たちの祖先が、時に想像するよりずっと早くから豊かで創造的な心を持っていたことを示唆する。なぜダチョウの卵の殻か。その時代と場所で、ダチョウの卵は貴重だった。その丈夫な殻は、瓶のように水を運ぶ容器に使えた。装飾は所有を示したり、集団の帰属（アイデンティティ）を表したり、単に美への愛を表したのかもしれない。模様は、同じ文化を共有する人々に理解される一種のメッセージだったことさえありうる。こうした品の研究は繊細な仕事だ。殻は脆く古いので、科学者は細心の注意で扱い、丁寧な観察と現代の道具を使い、傷つけずに模様を理解する。彫られた卵の殻は、人間の創造性がいかに深く流れているかの心打つ気づきだ。何万年も前、誰かが座って丁寧に意匠を刻んだ——その理由を私たちは一部しか推測できない。膨大な時の隔たりを越え、その単純な芸術を作る営みは今も私たちに語りかける——創造したいという衝動が実に古いものである証だ。",
-        quiz: [
-          { q: "科学者が見つけたことは？", options: ["6万年以上前に卵の殻に幾何学模様が彫られていた", "文字が最初に作られた場所", "新種の鳥"], answer: 0 },
-          { q: "意図して模様を作ることが示すのは？", options: ["象徴的思考（印に意味を持たせる能力）", "食べ物の好み", "天気の予測能力"], answer: 0 },
-          { q: "ダチョウの卵の殻が使われた理由は？", options: ["丈夫で水を運ぶ容器に使えたから", "食べられないから", "光るから"], answer: 0 }
         ]
       }
     ]
