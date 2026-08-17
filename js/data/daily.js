@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-17",
+    passages: [
+      {
+        id: "d0817-1",
+        title: "Building a Car for One Market",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Most large companies try to sell the same products all over the world. But sometimes the smartest move is to build something for just one country. Recently, a major carmaker announced a new electric 'kei car' — a very small vehicle — designed specifically for Japan, a market with its own unique rules and tastes.\nWhat is a kei car? In Japan, 'kei' cars are a special class of tiny, light vehicles. They follow strict limits on size and engine power, and in return they enjoy lower taxes and cheaper insurance. They are popular because they are easy to park on narrow streets, cheap to run, and perfect for short daily trips. This class barely exists outside Japan.\nWhy design a car just for one market? Because winning customers often means fitting local needs exactly. A car built for wide American highways may be wrong for crowded Japanese cities. By creating a vehicle that matches Japan's rules and lifestyle, a company shows it understands its customers — and earns their trust.\nThis strategy is not easy. Designing a special product for one market costs money and takes time, and it only pays off if enough people buy it. The company is betting that careful, local design will win over drivers who value small, practical, affordable cars.\nThe lesson reaches beyond cars. In global business, one size does not always fit all. Sometimes the way to win a market is not to sell the world's product there, but to build something made just for the people who live in it.",
+        summaryJa: "大企業の多くは、世界中で同じ製品を売ろうとする。だが時に最も賢い一手は、たった一つの国のために何かを作ることだ。最近、ある大手自動車メーカーが、独自の規則と好みを持つ市場・日本のために特別に設計した新しい電気「軽自動車」——非常に小さな車——を発表した。軽自動車とは何か。日本で「軽」は、小さく軽い車の特別な区分だ。大きさとエンジン出力に厳しい制限があり、その代わり税金が安く保険も安い。狭い道に停めやすく、維持費が安く、短い日々の移動に最適なため人気だ。この区分は日本の外ではほとんど存在しない。なぜ一つの市場のためだけに車を設計するのか。顧客を勝ち取ることは、しばしば地域のニーズにぴったり合うことを意味するからだ。広いアメリカの高速道路向けの車は、混雑した日本の都市には合わないかもしれない。日本の規則と生活様式に合う車を作ることで、企業は顧客を理解していると示し、信頼を得る。この戦略は容易ではない。一つの市場のための特別な製品の設計はお金と時間がかかり、十分な人が買って初めて報われる。企業は、丁寧で地域に合った設計が、小さく実用的で手頃な車を重んじる運転者を惹きつけると賭けている。教訓は車を超える。世界のビジネスで、一つの型が常に皆に合うわけではない。市場を勝ち取る道は、世界の製品をそこで売ることでなく、そこに住む人々のためだけに作った何かを生み出すことである場合もあるのだ。",
+        quiz: [
+          { q: "「軽自動車」とはどんな車か？", options: ["大きさや出力に制限がある小さく軽い車", "大型トラック", "スポーツカー"], answer: 0 },
+          { q: "一つの市場のために車を設計する理由は？", options: ["地域の規則や生活様式に合わせ顧客の信頼を得るため", "世界中で同じ物を売るため", "設計を省くため"], answer: 0 },
+          { q: "本文の教訓は？", options: ["一つの型が常に皆に合うわけではない", "世界共通の製品が常に最良", "地域を無視すべき"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0817-2",
+        title: "Solar Cells That Do More with Light",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Solar panels turn sunlight into electricity, and they have become a key part of the world's clean energy. But ordinary solar panels capture only a portion of the energy in sunlight. Now, a new kind of solar cell is reaching the market — a 'hybrid' design that can turn more of the Sun's light into power, and factories are ready to make it in large numbers.\nHow do these new cells work better? Sunlight contains many different colors, or types, of light. A traditional solar cell is good at capturing some of them but misses others. A hybrid cell combines two materials, each good at catching a different part of sunlight. Together, they can convert more of the incoming light into electricity than either could alone.\nWhy does this matter? More efficient solar cells produce more power from the same amount of sunlight and the same space. This means smaller, cheaper systems can do the same job, making solar energy more practical for homes, businesses, and even vehicles.\nThere are still challenges. New cells must prove they can last for many years in sun, rain, and heat, and they must be cheap enough to compete. Reaching mass production is a major step, but real-world use will be the true test.\nStill, the progress is encouraging. As solar cells grow more efficient and affordable, clean electricity becomes easier to produce. Each small gain in efficiency, multiplied across millions of panels, brings a future powered by the Sun a little bit closer.",
+        summaryJa: "太陽光パネルは日光を電気に変え、世界のクリーンエネルギーの要になった。だが普通のパネルは日光のエネルギーの一部しか捉えない。今、新種の太陽電池が市場に届きつつある——太陽の光をより多く電力に変えられる「ハイブリッド」設計で、工場は大量生産の準備が整っている。なぜこの新しい電池はより優れるのか。日光は多くの異なる色、つまり種類の光を含む。従来の太陽電池はその一部を捉えるのは得意だが他を逃す。ハイブリッド電池は二つの材料を組み合わせ、それぞれが日光の異なる部分を捉えるのが得意だ。両者が相まって、単独より多くの入射光を電気に変えられる。なぜ重要か。より効率的な太陽電池は、同じ量の日光と同じ面積からより多くの電力を生む。つまり、より小さく安いシステムが同じ仕事をでき、太陽エネルギーが家庭・企業、さらには乗り物にもより実用的になる。まだ課題もある。新しい電池は、日・雨・熱の中で何年も持つと証明せねばならず、競えるほど安くもなければならない。大量生産に至るのは大きな一歩だが、実地での使用が真の試験になる。それでも進歩は励みになる。太陽電池がより効率的で手頃になるにつれ、クリーンな電気は作りやすくなる。効率のわずかな向上一つ一つが、何百万枚ものパネルにわたって積み重なり、太陽で動く未来を少しだけ近づける。",
+        quiz: [
+          { q: "ハイブリッド太陽電池が優れる理由は？", options: ["二つの材料で日光の異なる部分を捉えより多く電気に変える", "日光を必要としない", "夜だけ働く"], answer: 0 },
+          { q: "より効率的な太陽電池の利点は？", options: ["同じ日光と面積からより多くの電力を生む", "電力が減る", "場所を多く取る"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["長年の耐久性と競える安さの証明", "日光が無いこと", "電気が不要なこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0817-3",
+        title: "The Hidden Work of Weather Forecasting",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Every day, billions of people check the weather forecast before they leave home. It seems simple, but behind each forecast lies one of the largest examples of international cooperation in the world. To predict tomorrow's weather, countries must share information across every border.\nWhy must weather be a global effort? The atmosphere does not stop at borders. A storm forming over one ocean may reach another continent days later. To forecast accurately, scientists need data from all over the planet — temperatures, winds, and pressure measured on land, at sea, and high in the sky. No single country can gather all of this alone.\nSo nations work together. Around the world, weather stations, ships, balloons, and satellites constantly collect measurements and share them freely with other countries. Powerful computers then combine this flood of data to model how the atmosphere will move. The forecast on your phone is the result of this quiet, worldwide teamwork.\nThis cooperation continues even between countries that disagree on other matters. Because everyone benefits from better forecasts — for farming, travel, and safety during storms — sharing weather data has become a rare area of near-universal agreement.\nAs the climate changes and extreme weather grows more common, this shared system becomes more important than ever. Accurate warnings can save lives when floods or storms approach.\nThe next time you check the forecast, it is worth remembering: that simple prediction is powered by thousands of people and machines across the globe, working together so that all of us can plan our days.",
+        summaryJa: "毎日、何十億もの人が家を出る前に天気予報を確認する。単純に見えるが、各予報の背後には世界最大級の国際協力の例がある。明日の天気を予測するため、国々はあらゆる国境を越えて情報を分かち合わねばならない。なぜ天気は世界的な取り組みでなければならないのか。大気は国境で止まらない。ある海で生まれた嵐が、数日後に別の大陸へ届くかもしれない。正確に予報するには、科学者は地球中のデータ——陸・海・上空で測った気温・風・気圧——を必要とする。どの一国も、これを単独で集められない。だから各国は協力する。世界中で、気象観測所・船・気球・衛星が絶えず測定を集め、他国と自由に共有する。強力なコンピューターがこのデータの洪水を組み合わせ、大気がどう動くかをモデル化する。あなたの携帯の予報は、この静かで世界的な連携の成果だ。この協力は、他の問題で対立する国々の間でさえ続く。より良い予報は誰にとっても——農業・旅行・嵐の際の安全に——利益になるため、気象データの共有はほぼ普遍的な合意という稀な領域になった。気候が変わり極端な気象が増える中、この共有の仕組みはかつてなく重要になる。洪水や嵐が迫るとき、正確な警報は命を救いうる。次に予報を確認するとき、思い出す価値がある——その単純な予測は、私たち皆が一日を計画できるよう共に働く、世界中の何千もの人と機械に支えられているのだ。",
+        quiz: [
+          { q: "天気予報が国際協力を要する理由は？", options: ["大気は国境で止まらず地球中のデータが必要だから", "天気は一国だけのものだから", "データが不要だから"], answer: 0 },
+          { q: "気象データはどう扱われるか？", options: ["各国が測定を集め自由に共有する", "秘密にされる", "一国だけが持つ"], answer: 0 },
+          { q: "この協力が特別な点は？", options: ["他で対立する国々の間でも続く", "戦争を生む", "一国だけが得をする"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0817-4",
+        title: "A Region's Big AI Bet",
+        level: "★★☆",
+        genre: "日本",
+        text: "When people think of centers of advanced technology, they usually picture big cities. But a rural area in northern Japan is hoping to change that. The region around Akita is planning what could become one of Japan's largest data centers — huge buildings full of computers — in the hope of attracting artificial intelligence companies and skilled workers.\nWhy would a quiet region want a giant data center? Like many rural areas in Japan, it faces a shrinking, aging population as young people move to big cities for work. A large data center could bring construction jobs, attract technology companies, and give young people a reason to stay or return. Local leaders see it as a chance to build a new kind of future.\nData centers are attractive to build in some rural areas for practical reasons too. They need lots of space, plenty of electricity, and a cool climate to help keep the machines from overheating. A northern region with land and cooler weather can be a good fit.\nThere are challenges. Data centers use enormous amounts of energy and water, so they must be planned carefully. And building one is only a first step; attracting companies and training workers takes years of steady effort.\nStill, the plan shows a hopeful idea: that the technology driving the future does not have to stay in crowded cities. With careful planning, even a quiet countryside region can become a hub for the digital age — and, in doing so, breathe new life into a community that needs it.",
+        summaryJa: "先端技術の中心地と聞くと、人はたいてい大都市を思い描く。だが北日本のある地方が、それを変えようとしている。秋田周辺の地域は、日本最大級になりうるデータセンター——コンピューターで満ちた巨大な建物——を計画し、AI企業と熟練労働者を惹きつけることを期待している。なぜ静かな地方が巨大データセンターを欲しがるのか。日本の多くの地方と同じく、若者が仕事を求めて大都市へ移り、人口の減少と高齢化に直面している。大きなデータセンターは建設の仕事をもたらし、技術企業を惹きつけ、若者が留まる、あるいは戻る理由を与えうる。地元の指導者は、それを新しい未来を築く機会と見る。データセンターは実際的な理由でも、一部の地方に建てるのに魅力的だ。広い場所、豊富な電力、機械の過熱を防ぐ涼しい気候を必要とする。土地と涼しい気候のある北の地域は、うまく合いうる。課題もある。データセンターは膨大な電力と水を使うので、慎重な計画が要る。建てるのは第一歩にすぎず、企業を惹きつけ労働者を育てるには何年もの着実な努力がかかる。それでもこの計画は希望ある発想を示す——未来を動かす技術は、混雑した都市にとどまる必要はない。丁寧な計画があれば、静かな田舎の地域でもデジタル時代の拠点になりうる——そしてそうすることで、それを必要とする地域に新しい命を吹き込むのだ。",
+        quiz: [
+          { q: "秋田周辺の地域が計画しているものは？", options: ["日本最大級のデータセンター", "新しい空港", "巨大な城"], answer: 0 },
+          { q: "地方がそれを望む理由は？", options: ["仕事や技術企業を呼び若者が留まる理由を作るため", "人口を減らすため", "若者を追い出すため"], answer: 0 },
+          { q: "データセンターが北の地方に合う実際的な理由は？", options: ["広い土地・豊富な電力・機械を冷やす涼しい気候", "海が近いこと", "山が高いこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0817-5",
+        title: "Nature's Own Plastic",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "We often think of plastic as a modern, human invention — and a source of pollution because it does not break down easily. But scientists have found something surprising: nature invented its own kind of biodegradable plastic long before humans existed, and tiny living things may have been feeding on it for hundreds of millions of years.\nWhat does this mean? Some bacteria naturally produce materials very similar to plastic, storing energy inside their cells in a form much like the plastics we make in factories. Unlike our plastic, however, this natural version can be broken down and used as food by other tiny organisms. In nature, nothing is truly wasted; one creature's leftovers become another's meal.\nWhy is this discovery useful? Ordinary plastic can last for hundreds of years, piling up in oceans and landfills. If scientists can learn how nature makes and breaks down its own plastic, they might design new materials that are just as useful but can safely disappear when we are done with them.\nThis is a growing field. Researchers are studying these natural plastics and the organisms that eat them, hoping to copy nature's clever recycling. It is a reminder that living things solved many problems long before we did.\nThe lesson is a hopeful one. By looking closely at the natural world — even at humble bacteria — scientists can find ideas to solve modern challenges. Nature has been running experiments for billions of years, and sometimes the answers to our newest problems have been quietly waiting inside the oldest forms of life.",
+        summaryJa: "私たちはしばしばプラスチックを現代の人間の発明——そして容易に分解しないため汚染の源——と考える。だが科学者は驚くべきことを見つけた。自然は人間が存在するはるか前に、独自の生分解性プラスチックを発明しており、小さな生き物が何億年もそれを食べてきたかもしれないのだ。これはどういう意味か。一部の細菌は、私たちが工場で作るプラスチックによく似た材料を自然に作り、細胞内にエネルギーをそんな形で蓄える。だが私たちのプラスチックと違い、この自然版は、他の小さな生物によって分解され食べ物として使われうる。自然では、真に無駄になるものはない——ある生き物の残り物が別の生き物の食事になる。なぜこの発見が有用か。普通のプラスチックは何百年も残り、海や埋め立て地に積み上がりうる。自然がどう自らのプラスチックを作り分解するかを学べれば、科学者は、同じくらい有用でありながら、使い終わったら安全に消える新素材を設計できるかもしれない。これは成長する分野だ。研究者はこうした自然のプラスチックとそれを食べる生物を研究し、自然の巧妙なリサイクルを真似ようとしている。生き物が、私たちよりずっと前に多くの問題を解いていたことを思い出させる。教訓は希望に満ちている。自然界を——質素な細菌さえ——よく見ることで、科学者は現代の課題を解く発想を見つけられる。自然は何十億年も実験を続けてきた。そして時に、最も新しい問題への答えは、最も古い生命の形の中で静かに待っていたのだ。",
+        quiz: [
+          { q: "科学者が見つけた驚きは？", options: ["自然が人間より前に生分解性プラスチックを発明していた", "プラスチックは最近生まれた", "細菌は無害でない"], answer: 0 },
+          { q: "自然版プラスチックが人間の物と違う点は？", options: ["他の小さな生物に分解され食べられる", "決して分解しない", "金属でできている"], answer: 0 },
+          { q: "この発見が有用な理由は？", options: ["使い終わると安全に消える新素材の設計に役立つ", "プラスチックを増やせる", "海を汚せる"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-16",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が探しているものは？", options: ["より少ない水で育つ、または乾燥に耐える作物の品種", "水を消す方法", "雨を止める方法"], answer: 0 },
           { q: "干ばつ研究が重要な理由は？", options: ["食料は植物に、植物は水に依存し、干ばつで食料が乏しくなるから", "水が無限にあるから", "植物は水が不要だから"], answer: 0 },
           { q: "本文が伝えることは？", options: ["最も重要な科学のいくつかは派手ではない", "科学は常に派手だ", "農業に科学は不要"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-10",
-    passages: [
-      {
-        id: "d0810-1",
-        title: "Setting a Floor Under Wages",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "How little can a company legally pay its workers? In many countries, the answer is set by a rule called the minimum wage — the lowest hourly pay allowed by law. In Japan, a new, higher wage floor is due to take effect, affecting more than fifty million workers. Changes like this spark an important economic debate.\nWhy have a minimum wage at all? The main goal is to protect workers. Without a legal floor, some employers might pay very low wages, leaving people unable to afford basic needs even while working full time. A minimum wage aims to ensure that work provides at least a modest standard of living.\nRaising the minimum wage has clear benefits. Low-paid workers earn more, can spend more, and may feel their work is valued. Because they often spend most of what they earn, this extra money can flow quickly back into local shops and businesses.\nBut there are trade-offs, which is why the topic is debated. If wages rise too fast, some businesses, especially small ones, may struggle to pay. They might raise prices, reduce hours, or hire fewer people. Supporters argue that fair pay is worth it; critics worry about these side effects.\nMost experts agree that gradual, predictable increases work best, giving businesses time to adjust. The debate is really about balance: how to lift the lowest earners without harming the very jobs they depend on. It is a clear example of how a single number can shape millions of lives.",
-        summaryJa: "企業は労働者にどこまで低く支払っても合法なのか。多くの国で、その答えは「最低賃金」という規則——法律が許す最も低い時給——で定められる。日本では、新しくより高い賃金の下限が施行される予定で、5000万人を超える労働者に影響する。こうした変更は重要な経済論争を呼ぶ。そもそもなぜ最低賃金があるのか。主な目的は労働者の保護だ。法的な下限がなければ、一部の雇い主は非常に低い賃金を払い、フルタイムで働いても基本的な必需品を賄えない人を生みうる。最低賃金は、働くことが少なくともささやかな生活水準をもたらすようにすることを狙う。最低賃金の引き上げには明白な利点がある。低賃金の労働者はより多く稼ぎ、より多く使え、自分の仕事が評価されていると感じうる。彼らは稼ぎの大半を使うことが多いので、この追加のお金は素早く地元の店や事業に還流しうる。だが代償もあり、だからこそ論じられる。賃金が速く上がりすぎると、一部の企業、特に小企業は支払いに苦しみうる。価格を上げ、労働時間を減らし、雇用を減らすかもしれない。支持者は公正な賃金にはその価値があると論じ、批判者はこうした副作用を懸念する。多くの専門家は、段階的で予測可能な引き上げが最も良く、企業に適応の時間を与えると同意する。論争は本当は均衡についてだ——最も低い稼ぎ手を、彼らが頼る仕事そのものを害さずにどう引き上げるか。一つの数字が何百万もの人生を形づくる明快な例だ。",
-        quiz: [
-          { q: "最低賃金の主な目的は？", options: ["労働者を保護し一定の生活水準を確保すること", "企業の利益を最大化すること", "物価を上げること"], answer: 0 },
-          { q: "最低賃金引き上げの利点は？", options: ["低賃金の人が稼ぎ地元の店に還流する", "誰も得をしない", "輸出が止まる"], answer: 0 },
-          { q: "多くの専門家が最良とする方法は？", options: ["段階的で予測可能な引き上げ", "一度に急激な引き上げ", "引き上げをしないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0810-2",
-        title: "The Quest for Fusion Energy",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "For decades, scientists have chased one of the boldest goals in energy: to create power the way the sun does. This process, called nuclear fusion, joins tiny particles together to release enormous amounts of energy. If it can be made to work reliably on Earth, fusion could provide vast, clean power — and researchers in Japan and around the world are racing to get there.\nHow is fusion different from today's nuclear power? Current reactors use fission, which splits heavy atoms apart and leaves behind long-lasting radioactive waste. Fusion instead joins light atoms together, produces far less dangerous waste, and cannot melt down in the same way. Its main fuel can be drawn from water, making it almost limitless.\nWhy is it so hard? To fuse atoms, you must heat fuel to temperatures hotter than the center of the sun and hold it steady long enough to release energy. Building machines that can do this — and get more energy out than they put in — has challenged scientists for generations.\nProgress is now speeding up. New materials, powerful magnets, and better computers are helping researchers and private companies inch closer. Some hope to build working power plants within a few decades.\nFusion is not ready yet, and promises have been broken before. But the prize is enormous: a clean, safe, almost endless source of energy. Each experiment brings that dream a little nearer, as scientists try, patiently, to capture the power of the stars and bring it down to Earth.",
-        summaryJa: "何十年もの間、科学者はエネルギーで最も大胆な目標の一つを追ってきた——太陽と同じやり方で電力を作ることだ。「核融合」と呼ばれるこの過程は、小さな粒子を結び合わせて膨大なエネルギーを放出する。地球で確実に機能させられれば、核融合は莫大でクリーンな電力を供給しうる——日本や世界中の研究者がそこへ到達しようと競っている。核融合は今日の原子力とどう違うのか。現在の原子炉は「核分裂」を使い、重い原子を割って長く残る放射性廃棄物を残す。核融合は代わりに軽い原子を結合させ、はるかに危険の少ない廃棄物を出し、同じようには炉心溶融しない。主な燃料は水から得られ、ほぼ無限にできる。なぜそんなに難しいのか。原子を融合させるには、燃料を太陽の中心より高温に熱し、エネルギーを放出するのに十分な時間、安定に保たねばならない。これを行い、投入より多くのエネルギーを取り出せる機械を作ることが、何世代も科学者を悩ませてきた。今、進歩が加速している。新素材・強力な磁石・優れたコンピューターが、研究者や民間企業が少しずつ近づくのを助ける。数十年内に稼働する発電所を建てたいと望む者もいる。核融合はまだ準備が整っておらず、約束は以前にも破られた。だが報酬は莫大だ——クリーンで安全な、ほぼ無限のエネルギー源。各実験がその夢を少しずつ近づける。科学者は忍耐強く、星の力を捕らえて地上へもたらそうとしている。",
-        quiz: [
-          { q: "核融合は何をする過程か？", options: ["小さな粒子を結び合わせて膨大なエネルギーを放出する", "原子を割ること", "水を凍らせること"], answer: 0 },
-          { q: "核融合が核分裂（今の原子力）と違う点は？", options: ["軽い原子を結合し危険の少ない廃棄物を出す", "より多くの廃棄物を出す", "燃料が石炭である"], answer: 0 },
-          { q: "核融合が難しい理由は？", options: ["太陽の中心より高温に熱し安定に保つ必要があるから", "燃料が無いから", "冷やすのが簡単すぎるから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0810-3",
-        title: "Turning Climate Promises into Action",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Countries around the world have made many promises to fight climate change. The harder task is turning those promises into real results. Recently, a global partnership of governments, cities, businesses, and investors launched a new plan focused on exactly that: moving from words to concrete action on clean air, energy, and the environment.\nWhy is this shift so important? For years, nations have set goals to cut pollution and switch to cleaner energy. But a goal on paper does not clean the air by itself. It must be followed by real projects — building wind and solar power, protecting forests, and helping communities adapt to a changing climate. Coordinating this work across many countries is a huge challenge.\nThere is encouraging news to build on. Investment in clean technology has grown enormously in recent years, and, for the first time, the world now generates more electricity from renewable sources than from coal. This shows that big change is possible when money, technology, and political will come together.\nSerious problems remain. The world faces energy shortages, economic tensions, and conflicts that make cooperation harder. Progress is uneven, and some promises risk being forgotten.\nStill, the direction matters. By focusing on turning commitments into results, countries hope to make climate action something people can actually see and feel — cleaner air, more reliable energy, and safer communities. The lesson is simple but powerful: promises open the door, but only action can carry us through it.",
-        summaryJa: "世界中の国々が気候変動と闘う多くの約束をしてきた。より難しい課題は、その約束を現実の成果に変えることだ。最近、政府・都市・企業・投資家の世界的な連携が、まさにそれに焦点を当てた新計画を立ち上げた——言葉から、清浄な空気・エネルギー・環境に関する具体的な行動へ移ることだ。なぜこの転換が重要か。長年、各国は汚染を減らしよりクリーンなエネルギーへ切り替える目標を掲げてきた。だが紙の上の目標はそれ自体で空気を清めない。現実の事業が続かねばならない——風力や太陽光の建設、森林の保護、変わる気候への地域の適応の支援だ。この作業を多くの国で調整するのは大きな挑戦だ。積み上げるべき明るい知らせもある。近年、クリーン技術への投資は大きく伸び、初めて、世界は今や石炭より再生可能エネルギーから多くの電力を生んでいる。お金・技術・政治的意志が揃えば大きな変化が可能であることを示す。深刻な問題は残る。世界はエネルギー不足・経済的緊張・協力を難しくする対立に直面する。進歩は不均一で、一部の約束は忘れられる恐れがある。それでも方向は重要だ。約束を成果に変えることに注力することで、各国は気候対策を人々が実際に見て感じられるもの——清浄な空気・より信頼できるエネルギー・より安全な地域——にしたい。教訓は単純だが力強い——約束は扉を開くが、私たちをその先へ運べるのは行動だけだ。",
-        quiz: [
-          { q: "新計画が焦点を当てるのは？", options: ["約束を具体的な行動・成果に変えること", "新しい約束を増やすこと", "何もしないこと"], answer: 0 },
-          { q: "本文が挙げる明るい知らせは？", options: ["世界が石炭より再生可能エネルギーから多く発電するようになった", "石炭が増えたこと", "投資が消えたこと"], answer: 0 },
-          { q: "本文の教訓は？", options: ["約束は扉を開くが先へ運べるのは行動だけ", "約束だけで十分", "行動は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0810-4",
-        title: "Reviving the Countryside with Craft",
-        level: "★★☆",
-        genre: "日本",
-        text: "Many rural areas in Japan face a difficult future. As young people move to big cities, small towns lose population, and local shops and traditions struggle to survive. To fight back, some communities are trying a creative strategy: attracting wealthy visitors from around the world with rare, high-quality crafts — including custom-made swords that can cost tens of thousands of dollars.\nWhy focus on luxury crafts? Rural Japan is home to skilled artisans who have practiced their crafts for generations, making swords, pottery, textiles, and other goods by hand. These items cannot be mass-produced, so they are rare and highly valued. A single wealthy traveler who buys one can bring in more money than many ordinary tourists.\nThe idea is not only about selling objects. Visitors come to meet the artisans, watch them work, and learn the stories behind their crafts. This kind of deep, personal experience is exactly what many rich travelers are looking for — something authentic that they cannot find anywhere else.\nThere are challenges. Very few people can afford such expensive items, so the market is small. And communities must protect their traditions from becoming mere shows for tourists.\nStill, the strategy offers hope. By turning their heritage into a valuable experience, struggling towns can earn money, support their artisans, and keep ancient skills alive. It is a reminder that the answer to a modern problem may lie in something very old — a craft, patiently perfected, that the wider world is willing to travel far to see.",
-        summaryJa: "日本の多くの地方は難しい未来に直面している。若者が大都市へ移るにつれ、小さな町は人口を失い、地元の店や伝統は生き残りに苦しむ。反撃するため、一部の地域は創意ある戦略を試している——世界中の裕福な訪問者を、希少で高品質な工芸品で惹きつけるのだ。数万ドルもする注文製の刀を含めて。なぜ高級工芸品に注目するのか。地方の日本には、何世代も技を磨いてきた熟練の職人がいて、刀・陶器・織物などを手作りする。こうした品は大量生産できないので希少で高く評価される。一つ買う裕福な旅行者一人が、多くの普通の観光客より多くのお金をもたらしうる。この発想は品物を売ることだけではない。訪問者は職人に会い、作業を見て、工芸の背後の物語を学びに来る。この種の深く個人的な体験こそ、多くの富裕な旅行者が求めるもの——他のどこにも見つからない本物だ。課題もある。そんな高価な品を買える人はごくわずかなので市場は小さい。そして地域は、伝統が観光客向けの単なる見世物になるのを防がねばならない。それでも戦略は希望を与える。遺産を価値ある体験に変えることで、苦境の町はお金を稼ぎ、職人を支え、古い技を生かし続けられる。現代の問題への答えが、とても古いもの——忍耐強く磨かれた工芸、広い世界がはるばる見に来る価値のあるもの——にあるかもしれないことを思い出させる。",
-        quiz: [
-          { q: "一部の地方が試している戦略は？", options: ["希少で高品質な工芸品で裕福な訪問者を惹きつける", "工場を増やすこと", "伝統をやめること"], answer: 0 },
-          { q: "高級工芸品に注目する理由は？", options: ["手作りで希少なため裕福な旅行者一人が多くのお金をもたらす", "安く大量に作れるから", "誰でも買えるから"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["買える人が少なく市場が小さい／伝統が見世物になる恐れ", "職人が全くいないこと", "刀が作れないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0810-5",
-        title: "A New Pill for Weight Loss",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "For people struggling with obesity, losing weight can be extremely difficult, and it affects their health in serious ways. Recently, scientists reported promising results from an experimental pill that helped people lose a significant amount of weight — as much as around twelve percent of their body weight over several months. If proven safe, such medicines could change how a common health problem is treated.\nHow does it work? The pill belongs to a family of drugs that copy a natural hormone in the body. This hormone helps control appetite and the feeling of being full. By boosting its effect, the medicine helps people eat less without feeling constantly hungry, so they gradually lose weight.\nWhy is a pill exciting? Similar medicines already exist, but many must be given by injection. A pill that people can simply swallow would be easier and more comfortable to use, which might help more people benefit from the treatment.\nCaution is essential, of course. Every medicine can have side effects, and losing weight safely still depends on healthy eating and activity. A drug is a tool, not a magic cure, and doctors must decide who should use it. Long-term studies are needed to be sure it is both safe and effective.\nStill, the research offers hope. Obesity raises the risk of many serious illnesses, so better treatments could improve millions of lives. Combined with healthy habits, medicines like this may give people a powerful new way to take control of their health — one careful step at a time.",
-        summaryJa: "肥満に苦しむ人にとって、体重を減らすのは極めて難しく、健康にも深刻な影響を与える。最近、科学者が、実験段階の錠剤の有望な結果を報告した——数か月で体重の約12％もの大幅な減量を助けたのだ。安全性が証明されれば、こうした薬は、ありふれた健康問題の治療の仕方を変えうる。どう働くのか。この錠剤は、体内の自然なホルモンを模倣する薬の仲間だ。このホルモンは食欲と満腹感の制御を助ける。その効果を高めることで、薬は人々が常に空腹を感じずに食べる量を減らす助けをし、徐々に体重が落ちる。なぜ錠剤が期待されるのか。似た薬は既にあるが、多くは注射で投与せねばならない。ただ飲み込むだけの錠剤は使いやすく快適で、より多くの人が治療の恩恵を受ける助けになるかもしれない。もちろん慎重さが不可欠だ。あらゆる薬に副作用がありうるし、安全に減量するにはなお健康的な食事と運動が要る。薬は道具であって魔法の治療ではなく、誰が使うべきかは医師が判断せねばならない。安全かつ有効と確かめるには長期の研究が必要だ。それでも研究は希望を与える。肥満は多くの深刻な病のリスクを高めるので、より良い治療は何百万もの人生を改善しうる。健康的な習慣と組み合わせれば、こうした薬は人々に健康を取り戻す強力な新しい方法を与えうる——慎重な一歩ずつ。",
-        quiz: [
-          { q: "この錠剤はどう働くか？", options: ["食欲や満腹感を制御するホルモンの効果を高める", "眠りを深くする", "筋肉を増やす"], answer: 0 },
-          { q: "錠剤が期待される理由は？", options: ["注射より飲みやすく多くの人が恩恵を受けうる", "味が良いから", "無料だから"], answer: 0 },
-          { q: "本文が促す慎重さは？", options: ["副作用がありうるし健康的な食事と運動もなお必要", "薬だけで十分", "医師の判断は不要"], answer: 0 }
         ]
       }
     ]
