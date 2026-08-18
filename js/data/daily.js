@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-18",
+    passages: [
+      {
+        id: "d0818-1",
+        title: "When Interest Rates Rise",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Interest rates are one of the most powerful forces in the economy, yet many people find them confusing. Recently, an important interest rate in Japan rose to its highest level in about thirty years. To understand why this matters, it helps to know what interest rates actually do.\nAn interest rate is the cost of borrowing money. When rates are low, loans are cheap, so people and companies borrow more to buy homes, build factories, and grow their businesses. When rates rise, borrowing becomes more expensive, and this slows spending across the whole economy.\nWhy would rates rise? One common reason is inflation — when prices are climbing, higher interest rates can help cool the economy and keep prices under control. Rates can also rise when investors worry about the future and demand more reward for lending their money.\nRising rates affect almost everyone. A family with a home loan may pay more each month. A company may delay building a new factory. Governments, too, must pay more to borrow, which can strain their budgets. On the other hand, savers may finally earn a little more on the money they keep in the bank.\nBalancing all this is delicate work. If rates rise too fast, the economy can slow too much; if they stay too low, prices may climb out of control.\nFor learners of business English, interest rates are worth understanding. They are a hidden dial that shapes home prices, company plans, and national budgets — a single number with the power to touch nearly every part of economic life.",
+        summaryJa: "金利は経済で最も強力な力の一つだが、多くの人が分かりにくいと感じる。最近、日本のある重要な金利が、約30年で最高の水準に上がった。なぜこれが重要かを理解するには、金利が実際に何をするかを知ると助けになる。金利とは、お金を借りる費用だ。金利が低いと、ローンが安いので、人や企業は家を買い、工場を建て、事業を育てるために多く借りる。金利が上がると、借金はより高くつき、経済全体の支出が鈍る。なぜ金利は上がるのか。よくある理由の一つはインフレ——物価が上がっているとき、高い金利は経済を冷やし物価を抑える助けになりうる。投資家が将来を不安に思い、お金を貸す見返りをより多く求めるときも上がりうる。金利上昇はほぼ全員に影響する。住宅ローンのある家庭は毎月より多く払うかもしれない。企業は新工場の建設を遅らせるかもしれない。政府も借りるのにより多く払わねばならず、予算を圧迫しうる。一方で、貯蓄する人は、銀行に置くお金でようやく少し多く得られるかもしれない。これらすべての釣り合いを取るのは繊細な仕事だ。金利が速く上がりすぎれば経済は鈍りすぎ、低すぎれば物価が制御を失って上がりうる。ビジネス英語の学習者には、金利は理解する価値がある。住宅価格・企業の計画・国家予算を形づくる隠れたダイヤルであり——経済生活のほぼあらゆる部分に触れる力を持つ、一つの数字なのだ。",
+        quiz: [
+          { q: "金利とは何か？", options: ["お金を借りる費用", "貯金の総額", "会社の数"], answer: 0 },
+          { q: "金利が上がる理由の一つは？", options: ["インフレを冷やし物価を抑えるため", "お金を配るため", "借金を増やすため"], answer: 0 },
+          { q: "金利上昇の影響に含まれるものは？", options: ["住宅ローンの返済が増え、貯蓄の利息は少し増えうる", "誰にも影響しない", "物価だけが下がる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0818-2",
+        title: "The Rise of Humanoid Robots",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "For decades, robots that look and move like people have appeared mainly in films and dreams. Now they are becoming real products. Recently, a major robot maker prepared to sell shares to the public, a sign that humanoid robots — machines built in the shape of a human body — are turning into a serious industry.\nWhy build robots shaped like people? Much of the world is designed for the human body: doors, stairs, tools, and workspaces all fit our shape. A robot with two arms, two legs, and hands can, in theory, use these same spaces and objects without needing everything to be redesigned. That makes a human-shaped robot flexible and useful in many settings.\nWhat could they do? Supporters imagine humanoid robots working in factories and warehouses, helping in shops, or even assisting people at home with everyday tasks. Combined with modern artificial intelligence, such robots could learn to handle a wide range of jobs.\nThere are real challenges. Building a machine that walks smoothly, balances, and handles delicate objects is extremely difficult. These robots are still expensive, and they must be proven safe around people. Many promises may take years to come true.\nStill, the direction is striking. Companies and investors are betting large sums that human-shaped robots will become an important part of the future. Whether or not they live up to the hype, their arrival marks a new chapter — one in which machines may increasingly share not just our work, but the very spaces we live and move in.",
+        summaryJa: "何十年もの間、人のように見え動くロボットは、主に映画や夢の中に現れてきた。今、それが現実の製品になりつつある。最近、ある大手ロボットメーカーが株式を公開する準備を進めた——人間の体の形に作られた機械、ヒューマノイドロボットが、本格的な産業になりつつある兆しだ。なぜ人の形のロボットを作るのか。世界の多くは人間の体に合わせて設計されている——扉・階段・道具・作業空間はすべて私たちの形に合う。二本の腕、二本の脚、手を持つロボットは、理論上、すべてを設計し直さずに同じ空間や物を使える。それがヒト型ロボットを、多くの場面で柔軟で有用にする。何ができるのか。支持者は、工場や倉庫で働き、店で手伝い、あるいは家庭で日々の作業を助けるヒューマノイドロボットを思い描く。現代のAIと組み合わせれば、こうしたロボットは幅広い仕事を扱えるよう学べるかもしれない。現実の課題もある。滑らかに歩き、バランスを取り、繊細な物を扱う機械を作るのは極めて難しい。これらのロボットはまだ高価で、人の周りで安全だと証明せねばならない。多くの約束は実現に何年もかかるかもしれない。それでも方向は鮮烈だ。企業と投資家は、ヒト型ロボットが未来の重要な一部になると多額を賭けている。誇大な宣伝に応えるかどうかにかかわらず、その登場は新しい章を告げる——機械が私たちの仕事だけでなく、暮らし動く空間そのものをも、ますます共有しうる章を。",
+        quiz: [
+          { q: "なぜ人の形のロボットを作るのか？", options: ["世界が人間の体に合わせて設計され同じ空間や物を使えるから", "人より小さいから", "電気が要らないから"], answer: 0 },
+          { q: "ヒューマノイドロボットの想定される用途は？", options: ["工場・倉庫・店・家庭での作業の手伝い", "空を飛ぶこと", "星を作ること"], answer: 0 },
+          { q: "本文が挙げる課題は？", options: ["滑らかに歩き繊細な物を扱うのが難しく高価で安全性の証明も要る", "簡単で安いこと", "用途が無いこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0818-3",
+        title: "The Amazon at a Crossroads",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "The Amazon rainforest, spread across several countries in South America, is often called the 'lungs of the planet.' It is home to an astonishing variety of plants and animals, and it plays a huge role in the health of the whole Earth. Recently, scientists warned that the Amazon may be closer than they thought to a dangerous 'tipping point.'\nWhat is a tipping point? It is a moment when a system changes so much that it cannot easily return to how it was before. Scientists fear that if too much of the Amazon is cut down or damaged by drought and fire, the forest could begin to dry out and slowly turn into something more like grassland — a change that would be very hard to reverse.\nWhy does this matter to the whole world? The Amazon stores enormous amounts of carbon and helps control rainfall far beyond South America. It also holds countless species found nowhere else. Losing large parts of it would affect the climate, weather, and living things across the planet.\nThe good news is that a tipping point is a warning, not a certainty. Protecting the forest, slowing the clearing of trees, and helping it recover can keep it healthy. Many countries, scientists, and local communities are working to do exactly that.\nThe Amazon's story is a reminder that our planet's great natural systems are connected and fragile. What happens to a distant forest reaches all of us — and protecting it is a task the whole world shares.",
+        summaryJa: "南米の複数の国にまたがって広がるアマゾンの熱帯雨林は、しばしば「地球の肺」と呼ばれる。驚くほど多様な植物と動物の住処であり、地球全体の健康に大きな役割を果たす。最近、科学者は、アマゾンが思っていたより危険な「転換点（ティッピングポイント）」に近いかもしれないと警告した。転換点とは何か。系が大きく変わりすぎて、以前の状態に容易には戻れなくなる瞬間だ。アマゾンの多くが伐採されたり干ばつと火事で損なわれたりすると、森が乾き始め、ゆっくり草原のようなものに変わりうると科学者は恐れる——元に戻すのが非常に難しい変化だ。なぜこれが世界全体に重要か。アマゾンは膨大な炭素を蓄え、南米をはるかに超えて降雨の制御を助ける。他のどこにもいない無数の種も抱える。その大部分を失えば、地球中の気候・天気・生き物に影響する。良い知らせは、転換点は警告であって確定ではないことだ。森を守り、伐採を緩め、回復を助ければ、健康に保てる。多くの国・科学者・地元の地域が、まさにそれをしようと取り組んでいる。アマゾンの物語は、地球の大きな自然の仕組みがつながり、壊れやすいことを思い出させる。遠い森に起きることは私たち皆に届く——そしてそれを守ることは、世界全体が分かち合う務めなのだ。",
+        quiz: [
+          { q: "「転換点」とは何か？", options: ["系が大きく変わり以前に容易に戻れなくなる瞬間", "森が広がる時", "雨が止む日"], answer: 0 },
+          { q: "アマゾンが世界に重要な理由は？", options: ["膨大な炭素を蓄え遠くの降雨も制御し多くの種を抱えるから", "南米だけに関係するから", "無関係だから"], answer: 0 },
+          { q: "本文が伝える良い知らせは？", options: ["転換点は警告であって確定ではなく守れば健康に保てる", "もう手遅れである", "森は不要である"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0818-4",
+        title: "More Than Getting Clean: The Japanese Bath",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, a bath is simply a way to wash the body. In Japan, bathing is something more — a daily ritual of rest, warmth, and quiet pleasure. Understanding the Japanese bath is a small window into how a culture values calm and care in everyday life.\nHow is it different? In a Japanese home, people wash and rinse their bodies before getting into the bath. The bathtub, called ofuro, is not for cleaning but for soaking in hot water to relax. Because the body is already clean, the same warm water can be shared by the whole family, one after another.\nJapan is also famous for its onsen, natural hot springs found across the country. People travel to soak in these mineral-rich waters, often surrounded by beautiful mountains or forests. A visit to an onsen is a popular way to rest and escape the stress of daily life.\nBathing this way has real benefits. Warm water relaxes tired muscles, eases stress, and helps people sleep better. Just as important, it creates a quiet moment in the day — a time to slow down, breathe, and let go of worries.\nThere are simple customs to follow, such as washing first and keeping the shared water clean, which reflect a spirit of respect for others.\nThe Japanese bath, then, is not only about being clean. It is about comfort, health, and a gentle daily pause — a reminder that even a simple act, done with care, can become a small ceremony of rest.",
+        summaryJa: "多くの国で、入浴は単に体を洗う方法だ。日本では、入浴はそれ以上のもの——休息・温もり・静かな喜びの日々の儀式だ。日本の風呂を理解することは、ある文化が日常でどう静けさと気配りを大切にするかをのぞく小さな窓だ。何が違うのか。日本の家では、風呂に入る前に体を洗い流す。「お風呂」と呼ばれる浴槽は、洗うためでなく、温かい湯に浸かってくつろぐためのものだ。体は既に清潔なので、同じ温かい湯を家族全員が順に共有できる。日本は、全国にある天然の温泉でも有名だ。人々はこの鉱物豊かな湯に浸かりに旅し、しばしば美しい山や森に囲まれる。温泉に行くことは、休み日々の生活のストレスから逃れる人気の方法だ。こうした入浴には本当の利点がある。温かい湯は疲れた筋肉をほぐし、ストレスを和らげ、よりよく眠る助けになる。同じく大切なのは、一日に静かな時間を生むこと——速度を緩め、息をつき、心配を手放す時間だ。先に洗う、共有する湯を清潔に保つといった、他者への敬意の精神を映す簡単な作法がある。だから日本の風呂は、清潔になることだけではない。快適さ・健康、そして穏やかな日々の一息についてだ——丁寧に行えば、単純な行いさえ、小さな休息の儀式になりうることを思い出させる。",
+        quiz: [
+          { q: "日本の「お風呂」の使い方は？", options: ["先に体を洗い、湯には浸かってくつろぐ", "湯の中で体を洗う", "水を飲むため"], answer: 0 },
+          { q: "「温泉」とは何か？", options: ["全国にある天然の鉱物豊かな湯", "冷たい川", "人工の池だけ"], answer: 0 },
+          { q: "日本の入浴の利点は？", options: ["筋肉をほぐしストレスを和らげ睡眠を助け静かな時間を生む", "体を汚す", "眠れなくする"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0818-5",
+        title: "The Tiny Life Inside Cheese",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Cheese is one of the world's oldest and most beloved foods, but few people think about how it gets its flavor. The secret lies in something invisible: tiny living things called microbes. Recently, scientists studying several traditional cheeses discovered that the microbes giving each cheese its special taste may also be good for our health.\nHow do microbes make cheese? Cheese begins as milk, but microbes — helpful bacteria and molds — transform it. As they grow, they break down parts of the milk and create new substances, producing the rich flavors, textures, and smells we enjoy. Different microbes make different cheeses; the sharp taste of one and the creamy softness of another come from these tiny workers.\nWhat did the scientists find? Studying traditional, handmade cheeses, they discovered that some of the microbes responsible for flavor may also help our gut — the part of the body where food is digested. A healthy gut, full of helpful microbes, is increasingly linked to overall health.\nThis fits a larger idea in science: that the tiny living things in and around us matter more than we once thought. The same microbes that make our food delicious may also quietly support our bodies.\nThere is still much to learn, and no single food is a cure. But the research is a delicious reminder that nature and tradition often work together in surprising ways. A simple piece of cheese, made the old-fashioned way, turns out to be a tiny world of life — one that may nourish us in more ways than one.",
+        summaryJa: "チーズは世界で最も古く愛される食べ物の一つだが、どうやって風味を得るのかを考える人は少ない。秘密は目に見えないもの——微生物と呼ばれる小さな生き物にある。最近、いくつかの伝統的なチーズを研究する科学者が、各チーズに特別な味を与える微生物が、私たちの健康にも良いかもしれないと発見した。微生物はどうチーズを作るのか。チーズは牛乳として始まるが、微生物——有益な細菌やカビ——がそれを変える。育つにつれ牛乳の一部を分解し、新しい物質を作り、私たちが楽しむ豊かな風味・食感・香りを生む。異なる微生物が異なるチーズを作る——あるチーズの鋭い味も、別のチーズのクリーミーな柔らかさも、この小さな働き手から来る。科学者は何を見つけたか。伝統的な手作りのチーズを研究し、風味を担う微生物の一部が、腸——食べ物が消化される体の部分——も助けうると発見した。有益な微生物に満ちた健康な腸は、全身の健康にますます結びつけられている。これは科学のより大きな考えに合う——私たちの内や周りの小さな生き物が、かつて思ったより重要だということだ。食べ物をおいしくする同じ微生物が、静かに私たちの体を支えもするかもしれない。学ぶべきことはまだ多く、単一の食べ物が治療になるわけではない。だがこの研究は、自然と伝統がしばしば驚く形で協働することの、おいしい気づきだ。昔ながらの作り方の単純なチーズ一片が、実は生命の小さな世界であり——私たちを一つならぬ形で養うかもしれないのだ。",
+        quiz: [
+          { q: "チーズの風味を生むものは？", options: ["微生物（有益な細菌やカビ）", "砂糖", "金属"], answer: 0 },
+          { q: "科学者が発見したことは？", options: ["風味を担う微生物が腸の健康も助けうる", "チーズは有害だ", "微生物は無関係だ"], answer: 0 },
+          { q: "本文が示すより大きな考えは？", options: ["私たちの内や周りの小さな生き物は思ったより重要", "微生物は無意味", "食べ物は健康と無関係"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-17",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が探る大胆な発想は？", options: ["金属に富む小惑星を建材の供給源として使う", "小惑星を地球に落とす", "小惑星を燃やす"], answer: 0 },
           { q: "小惑星の金属を使う利点は？", options: ["重い金属を地球から打ち上げずに済む", "味が良いから", "光るから"], answer: 0 },
           { q: "本文が挙げる課題は？", options: ["宇宙採掘は高価で危険、技術も若く所有の問いも残る", "小惑星が存在しないこと", "金属が無価値なこと"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-11",
-    passages: [
-      {
-        id: "d0811-1",
-        title: "What a Market Forecast Really Means",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Every so often, a big bank makes headlines by predicting where the stock market will go. Recently, one major bank raised its forecast for a well-known U.S. stock index, pointing to strong company profits and rising demand for artificial intelligence. But what does such a forecast really mean, and how much should we trust it?\nA market forecast, sometimes called a price target, is an educated guess. Analysts study company earnings, the wider economy, and current trends, then estimate where prices might be months from now. It is not a promise, and no one truly knows the future — it is a careful opinion, based on today's information.\nWhy do these forecasts matter? They shape how investors feel. An optimistic forecast from a respected bank can boost confidence, encouraging people to buy and pushing prices higher, at least for a while. A gloomy forecast can do the opposite. In this way, predictions can influence the very market they describe.\nStill, forecasts are often wrong. The economy can be surprised by sudden events — a crisis, a new technology, or a change in policy. Analysts frequently update their targets as conditions change, which shows how uncertain such predictions really are.\nThe lesson for a careful reader is to treat forecasts as useful opinions, not facts. They summarize what informed experts expect, which is valuable. But the future remains unknown, and wise investors weigh many views, stay cautious, and remember that even the most confident prediction is still, in the end, only a guess.",
-        summaryJa: "時折、大銀行が株式市場の行方を予測して見出しをにぎわす。最近、ある大手銀行が、有名な米国の株価指数の予測を引き上げ、好調な企業利益とAIへの高まる需要を理由に挙げた。だがこうした予測は本当は何を意味し、どこまで信じるべきか。市場予測（プライスターゲットとも呼ばれる）は、根拠ある推測だ。アナリストは企業の利益・広い経済・今の傾向を調べ、数か月後に価格がどこにあるかを見積もる。約束ではなく、誰も本当に未来を知らない——今日の情報に基づく慎重な意見だ。なぜこうした予測が重要か。投資家の感じ方を形づくる。尊敬される銀行の楽観的な予測は自信を高め、人々に買いを促し、少なくともしばらく価格を押し上げうる。暗い予測は逆を行う。こうして予測は、それが描く市場そのものに影響しうる。それでも予測はしばしば外れる。経済は突然の出来事——危機・新技術・政策変更——に驚かされうる。アナリストは状況の変化とともに頻繁に目標を更新し、そうした予測がいかに不確実かを示す。慎重な読者への教訓は、予測を事実でなく有用な意見として扱うことだ。情報通の専門家が何を期待するかを要約しており、それは価値がある。だが未来は不明のままで、賢い投資家は多くの見方を比べ、慎重を保ち、最も自信ある予測でさえ結局はただの推測だと忘れない。",
-        quiz: [
-          { q: "市場予測（プライスターゲット）とは何か？", options: ["今日の情報に基づく根拠ある推測", "確実な約束", "過去の記録だけ"], answer: 0 },
-          { q: "予測が市場に影響しうる理由は？", options: ["投資家の自信や感じ方を左右するから", "価格を法律で決めるから", "株の数を変えるから"], answer: 0 },
-          { q: "本文が勧める予測への向き合い方は？", options: ["事実でなく有用な意見として扱う", "必ず従う", "完全に無視する"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0811-2",
-        title: "The Fierce Race in Smartphones",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Every year, phone makers around the world release new models, each promising to be faster, smarter, or better value than the last. Recently, one company launched a new series of phones with the latest 5G technology and upgraded features. Behind these launches lies one of the most competitive businesses on Earth: the global smartphone market.\nWhy is competition so fierce? Billions of people use smartphones, so even a small share of the market means huge sales. To win customers, companies compete on price, camera quality, battery life, screen, and speed. A single popular feature can help one brand pull ahead of the others.\nMuch of the latest competition centers on 5G, the newest kind of mobile network. 5G can move data much faster than older networks, making video, games, and downloads smoother. As more countries build 5G networks, phone makers race to offer devices that use them well, even in cheaper models.\nThis competition brings real benefits to buyers. Strong rivalry pushes companies to improve their products and keep prices reasonable. Features that were once found only in expensive phones now appear in affordable ones, so more people can enjoy powerful technology.\nThere are downsides too. New models appear so quickly that older phones can feel out of date, encouraging waste. Some 'upgrades' offer only small improvements.\nStill, the smartphone race shows competition at its most intense. In a market of billions, companies must keep innovating just to stay in the game — and, along the way, they place remarkable technology into everyday hands.",
-        summaryJa: "毎年、世界中の携帯電話メーカーが新モデルを出し、それぞれ前より速く・賢く・割安だと約束する。最近、ある企業が最新の5G技術と改良機能を備えた新シリーズを発売した。こうした発売の背後には、地球で最も競争の激しい商売の一つ——世界のスマートフォン市場がある。なぜ競争がそれほど激しいか。何十億もの人がスマホを使うので、市場のわずかな割合でも巨大な売上を意味する。顧客を勝ち取るため、企業は価格・カメラ画質・電池持ち・画面・速度で競う。一つの人気機能が、あるブランドを他社より前に出す助けになりうる。最近の競争の多くは、最新の携帯ネットワークである5Gに集まる。5Gは旧来のネットワークよりずっと速くデータを運び、動画・ゲーム・ダウンロードを滑らかにする。より多くの国が5G網を築く中、メーカーは、安価なモデルでもそれをうまく使える端末を出そうと競う。この競争は買い手に本当の利益をもたらす。激しい競争は企業に製品改良と手頃な価格の維持を促す。かつて高価な携帯だけにあった機能が今や手頃な機種にも現れ、より多くの人が強力な技術を楽しめる。難点もある。新モデルが速く現れるため古い携帯が時代遅れに感じられ、無駄を促す。わずかな改善だけの「改良」もある。それでもスマホ競争は、最も激しい競争の姿を示す。何十億の市場で、企業は生き残るためだけでも革新を続けねばならない——そしてその過程で、目覚ましい技術を日々の手の中に置いていく。",
-        quiz: [
-          { q: "スマホ市場の競争が激しい理由は？", options: ["何十億人も使い、わずかな市場割合でも巨大な売上になるから", "使う人が少ないから", "作るのが簡単だから"], answer: 0 },
-          { q: "5Gの利点は？", options: ["旧来より速くデータを運び動画やゲームが滑らかになる", "電池が要らなくなる", "画面が消える"], answer: 0 },
-          { q: "激しい競争が買い手にもたらす利益は？", options: ["製品改良と手頃な価格の維持", "価格の高騰", "選択肢の減少"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0811-3",
-        title: "Gifts Between Nations",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "When countries want to show friendship, they sometimes exchange unusual gifts. Recently, one nation revived an old tradition by giving several pairs of peacocks — its beautiful national bird — to an international organization, as a symbol of friendship and shared culture. Such gifts may seem small beside serious world affairs, but they carry real meaning.\nWhy do nations give gifts? Diplomacy is not only about treaties and trade. It is also about building trust and goodwill between peoples. A thoughtful gift can express respect, celebrate a shared history, or simply create a warm feeling that makes future cooperation easier. Animals, plants, and works of art are common choices, each carrying a message about the country that gives them.\nGifts of animals have a long history. Over the centuries, nations have exchanged everything from horses to rare birds. Some gifts, like pandas sent to zoos around the world, have become famous symbols of friendship, drawing crowds and creating lasting bonds between countries.\nOf course, such gifts also raise practical questions. Animals need proper care, suitable homes, and attention to their health. A living gift is a responsibility, not just a symbol, and must be looked after well.\nStill, the tradition endures because it speaks to something human. Behind the formal language of diplomacy are people who, like friends anywhere, use gifts to say what words alone cannot. A pair of beautiful birds, offered in friendship, is a quiet reminder that nations, in the end, are made of people who wish to get along.",
-        summaryJa: "国々は友好を示したいとき、時に珍しい贈り物を交わす。最近、ある国が古い伝統を復活させ、美しい国鳥であるクジャクを数つがい、友好と共有する文化の象徴として国際機関に贈った。こうした贈り物は深刻な世界情勢の傍らでは小さく見えるかもしれないが、本当の意味を持つ。なぜ国は贈り物をするのか。外交は条約や貿易だけではない。国民同士の信頼と善意を築くことでもある。心のこもった贈り物は敬意を表し、共有する歴史を祝い、あるいは単に、将来の協力を容易にする温かな感情を生みうる。動物・植物・芸術品がよく選ばれ、それぞれ贈る国についてのメッセージを担う。動物の贈り物には長い歴史がある。何世紀もの間、国々は馬から珍しい鳥まで交換してきた。世界中の動物園に送られたパンダのように、友好の有名な象徴となり、人だかりを呼び国同士の永続的な絆を生んだ贈り物もある。もちろん、こうした贈り物は実際的な問いも生む。動物には適切な世話・住処・健康への配慮が要る。生きた贈り物は象徴であるだけでなく責任であり、よく世話されねばならない。それでも伝統が続くのは、それが人間的な何かに語りかけるからだ。外交の形式的な言葉の背後には、どこの友人とも同じように、言葉だけでは言えないことを贈り物で伝える人々がいる。友好のうちに贈られる美しい一つがいの鳥は、国が結局、仲良くやりたいと願う人々でできていることの静かな気づきだ。",
-        quiz: [
-          { q: "ある国が国際機関に贈ったものは？", options: ["国鳥のクジャク数つがい", "大量の金貨", "武器"], answer: 0 },
-          { q: "国が贈り物をする理由は？", options: ["国民同士の信頼と善意を築くため", "相手を困らせるため", "貿易を止めるため"], answer: 0 },
-          { q: "生きた動物の贈り物が生む問いは？", options: ["適切な世話・住処・健康への配慮という責任", "象徴にならないこと", "歴史がないこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0811-4",
-        title: "Japan's Own Eyes in the Sky",
-        level: "★★★",
-        genre: "日本",
-        text: "Almost everyone with a smartphone relies on satellites to find their way. Maps, ride services, and delivery apps all need to know exactly where you are. To make this positioning more accurate over its territory, Japan has built its own set of satellites, sometimes called the Quasi-Zenith Satellite System, designed to work closely with the well-known global positioning services.\nHow does satellite positioning work? Satellites high above the Earth send out signals. Your phone receives signals from several of them and, by measuring tiny differences in time, calculates your location. The more satellites your phone can 'see,' and the better their position, the more accurate the result.\nWhy does Japan need its own satellites? In cities full of tall buildings, and in mountainous areas, signals from distant satellites can be blocked or bounced around, causing errors. Japan's satellites are placed so that at least one is almost always high overhead, giving a clearer signal and greatly improving accuracy — sometimes down to a few centimeters.\nSuch precision has many uses. It can guide self-driving cars, help farmers steer machines through fields, support drones, and make navigation more reliable in crowded streets. As technology depends more and more on knowing exact positions, this accuracy becomes increasingly valuable.\nThe system is a quiet example of important infrastructure — technology most people never notice but use every day. High above Japan, these satellites circle patiently, helping phones, cars, and machines below answer a simple but essential question: exactly where am I right now?",
-        summaryJa: "スマートフォンを持つほぼ誰もが、道を見つけるのに衛星に頼っている。地図・配車・配達アプリはすべて、あなたが正確にどこにいるかを知る必要がある。自国の領域上でこの位置測定をより正確にするため、日本は独自の衛星群——準天頂衛星システム（みちびき）とも呼ばれる——を築き、有名な全地球測位サービスと密に連携するよう設計した。衛星測位はどう働くのか。地球のはるか上の衛星が信号を送る。あなたの携帯はそのいくつかから信号を受け、時間のごく小さな差を測って位置を計算する。携帯が「見える」衛星が多く、その位置が良いほど、結果は正確になる。なぜ日本に独自の衛星が要るのか。高い建物だらけの都市や山がちな地域では、遠い衛星からの信号が遮られたり反射したりして誤差を生みうる。日本の衛星は、少なくとも一つがほぼ常に真上高くにあるよう配置され、より明瞭な信号を与えて精度を大きく高める——時に数センチ単位まで。こうした精度には多くの用途がある。自動運転車を導き、農家が畑で機械を操るのを助け、ドローンを支え、混雑した街路でも案内をより確実にする。技術が正確な位置を知ることにますます依存する中、この精度は一層価値を持つ。このシステムは重要なインフラの静かな一例だ——多くの人が気づかないが毎日使う技術。日本のはるか上で、これらの衛星は忍耐強く周回し、下の携帯・車・機械が単純だが不可欠な問い——今この瞬間、私は正確にどこにいるのか——に答える手助けをしている。",
-        quiz: [
-          { q: "衛星測位で位置を計算する方法は？", options: ["複数の衛星の信号の時間差を測る", "衛星の色を見る", "電話番号を使う"], answer: 0 },
-          { q: "日本が独自の衛星を必要とする理由は？", options: ["高い建物や山で信号が遮られ誤差が出るのを防ぐため", "衛星が安いから", "宇宙が空いているから"], answer: 0 },
-          { q: "高い精度の用途に含まれるものは？", options: ["自動運転車や農業機械の誘導", "天気を変えること", "電池を作ること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0811-5",
-        title: "Helping Crops Survive Drought",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Water is essential for growing food, but in many parts of the world it is becoming scarce. As droughts grow more common, farmers face a hard question: how can crops survive with less water? Scientists are working to answer it, and their research is quietly becoming one of the most important efforts for our future. One researcher was recently honored for pioneering work in this field.\nWhy does drought research matter so much? Most of the food we eat depends on plants, and plants depend on water. When rains fail, crops can wither, harvests shrink, and food becomes scarce and expensive. With a growing population and a changing climate, finding ways to grow food with less water is vital.\nHow do scientists help? They study how different plants cope with dry conditions, searching for varieties that need less water or can survive longer without it. They also develop better ways to use water wisely, such as watering only where and when plants truly need it. Some work to improve the soil so it holds moisture longer.\nThis research combines many fields — biology, chemistry, weather science, and engineering. Progress is often slow, tested season after season in real fields, but small improvements can help millions of farmers.\nThe work is a reminder that some of the most important science is not flashy. Quietly, in laboratories and fields, researchers are helping to make sure that as the climate changes, the world can still be fed — turning knowledge into something as basic, and as precious, as food on the table.",
-        summaryJa: "水は食料を育てるのに不可欠だが、世界の多くの地域で乏しくなりつつある。干ばつがより一般的になる中、農家は難しい問いに直面する——より少ない水で作物はどう生き延びられるのか。科学者はそれに答えようと取り組んでおり、その研究は静かに、私たちの未来にとって最も重要な努力の一つになりつつある。ある研究者が最近、この分野の先駆的な業績で表彰された。なぜ干ばつ研究がそれほど重要か。私たちが食べる食料の多くは植物に、植物は水に依存する。雨が降らなければ作物は枯れ、収穫は縮み、食料は乏しく高価になる。人口が増え気候が変わる中、より少ない水で食料を育てる方法を見つけることは極めて重要だ。科学者はどう助けるのか。異なる植物が乾いた条件にどう対処するかを研究し、より少ない水で済む、あるいは水なしでより長く生きられる品種を探す。植物が本当に必要とする場所と時にだけ水をやるなど、水を賢く使うより良い方法も開発する。土壌を改良して水分をより長く保たせる研究をする者もいる。この研究は多くの分野——生物学・化学・気象科学・工学——を組み合わせる。進歩はしばしば遅く、実際の畑で季節ごとに試されるが、小さな改善が何百万もの農家を助けうる。この仕事は、最も重要な科学のいくつかが派手ではないことを思い出させる。研究室や畑で静かに、研究者は、気候が変わっても世界が食べていけるようにする手助けをしている——知識を、食卓の食べ物と同じくらい基本的で貴重なものに変えて。",
-        quiz: [
-          { q: "科学者が探しているものは？", options: ["より少ない水で育つ、または乾燥に耐える作物の品種", "水を消す方法", "雨を止める方法"], answer: 0 },
-          { q: "干ばつ研究が重要な理由は？", options: ["食料は植物に、植物は水に依存し、干ばつで食料が乏しくなるから", "水が無限にあるから", "植物は水が不要だから"], answer: 0 },
-          { q: "本文が伝えることは？", options: ["最も重要な科学のいくつかは派手ではない", "科学は常に派手だ", "農業に科学は不要"], answer: 0 }
         ]
       }
     ]
