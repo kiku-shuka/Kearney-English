@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-19",
+    passages: [
+      {
+        id: "d0819-1",
+        title: "The Trouble with Cheaper Tickets",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "To attract more customers, many companies offer products at different prices, letting people pay less for a simpler version. Airlines often do this with tiered fares — cheaper tickets with fewer benefits. Recently, one airline faced criticism after introducing a new system of fare levels, with some passengers on the cheapest tickets complaining about seating and, in some cases, being unable to board.\nWhy do companies use tiered pricing? The idea is to serve different customers. Some travelers want the lowest possible price and do not mind giving up extras like choosing their seat. Others will pay more for comfort and flexibility. By offering several levels, a company hopes to sell to both groups and fill more seats.\nBut tiered pricing has risks. If the rules are confusing, or if the cheapest option feels unfair, customers can become angry. When people who paid for a ticket cannot board, trust is damaged — and in business, trust is hard to rebuild. Bad news travels quickly, especially online.\nThe key is clarity. Customers usually accept paying less for less, as long as they clearly understand what they are giving up. Problems arise when the limits are hidden or feel like a trick.\nThe lesson reaches across many industries. Offering choices at different prices can be smart, but only if it is honest and easy to understand. A pricing system that saves money but leaves customers confused or let down can cost a company something far more valuable than a discount: the loyalty of the people it serves.",
+        summaryJa: "より多くの客を惹きつけるため、多くの企業は異なる価格で製品を提供し、簡素な版を安く買えるようにする。航空会社はしばしば段階的運賃でこれを行う——特典の少ない安いチケットだ。最近、ある航空会社が新しい運賃段階の仕組みを導入した後、批判に直面した。最も安いチケットの一部の乗客が座席について不満を述べ、場合によっては搭乗できなかったのだ。なぜ企業は段階的価格を使うのか。狙いは異なる客に応えることだ。ある旅行者は可能な限り安い価格を望み、座席選択のような追加をあきらめても構わない。別の人は快適さと柔軟さのためより多く払う。複数の段階を提供することで、企業は両方に売り、より多くの座席を埋めたい。だが段階的価格には危険もある。規則が分かりにくかったり、最も安い選択が不公平に感じられたりすると、客は怒りうる。チケットを買った人が搭乗できないと、信頼が損なわれる——ビジネスで信頼は再建が難しい。悪い知らせは、特にオンラインで速く広まる。鍵は明快さだ。客は普通、何をあきらめるかをはっきり理解している限り、安いものに安く払うことを受け入れる。問題は、制限が隠されていたり、だましのように感じられたりするときに生じる。教訓は多くの業界に及ぶ。異なる価格で選択肢を提供するのは賢くありうるが、正直で分かりやすい場合に限る。お金を節約しても客を混乱させたり失望させたりする価格の仕組みは、割引よりはるかに価値あるもの——奉仕する人々の忠誠——を企業に失わせうる。",
+        quiz: [
+          { q: "企業が段階的価格を使う狙いは？", options: ["異なる客に応えより多く売ること", "客を減らすこと", "価格を隠すこと"], answer: 0 },
+          { q: "段階的価格の危険は？", options: ["規則が不明瞭・不公平だと信頼が損なわれる", "必ず利益が出る", "客が増えすぎる"], answer: 0 },
+          { q: "本文が挙げる鍵は？", options: ["何をあきらめるかが分かる明快さ", "価格を隠すこと", "特典を無くすこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0819-2",
+        title: "Tiny Robots That Swim",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "When we think of robots, we usually picture large machines with arms and wheels. But some of the most exciting robots being built today are almost too small to see. Scientists have created microscopic robots, driven by light, that can swim through liquid, catch tiny bacteria, and carry them to a chosen spot.\nHow do these tiny robots move? Being so small, they cannot use ordinary motors. Instead, they are powered by light. When light shines on them in a certain way, it pushes or steers them through the fluid. By controlling the light, scientists can guide the little robots where they want them to go, almost like moving a toy with a beam.\nWhy build robots so small? At this scale, they could do jobs no ordinary machine can. Catching and moving individual bacteria could help doctors study diseases, clean contaminated water, or one day deliver medicine to an exact spot inside the body. Working at the size of cells opens doors that larger tools cannot.\nThe technology is still young. These robots work in laboratories under careful conditions, and using them safely inside the human body or in the real world will take much more research.\nStill, the idea is remarkable. It shows how far robotics has come — from giant factory arms to swimmers smaller than a grain of dust. As scientists learn to build and control machines at this tiny scale, they open a new frontier where the very small may solve some very big problems.",
+        summaryJa: "ロボットと聞くと、私たちはたいてい腕や車輪のある大きな機械を思い描く。だが今日作られる最も刺激的なロボットの一部は、ほとんど見えないほど小さい。科学者は、光で駆動し、液体の中を泳ぎ、小さな細菌を捕らえ、選んだ場所へ運べる微小なロボットを作った。この小さなロボットはどう動くのか。あまりに小さいので、普通のモーターは使えない。代わりに光で動かされる。ある方法で光が当たると、流体の中でロボットを押したり導いたりする。光を制御することで、科学者は小さなロボットを行かせたい場所へ導ける——まるで光線でおもちゃを動かすように。なぜそんなに小さなロボットを作るのか。この尺度では、普通の機械にできない仕事ができる。個々の細菌を捕らえ動かすことは、医師の病気研究、汚染された水の浄化、いつか体内の正確な場所への薬の送達を助けうる。細胞の大きさで働くことは、より大きな道具には開けない扉を開く。技術はまだ若い。これらのロボットは実験室の慎重な条件下で働き、人体内や現実世界で安全に使うにははるかに多くの研究が要る。それでも発想は驚くべきものだ。ロボット工学がどれほど進んだか——巨大な工場の腕から、塵の一粒より小さな泳ぎ手へ——を示す。科学者がこの微小な尺度で機械を作り制御するのを学ぶにつれ、とても小さなものがとても大きな問題を解きうる新しい辺境を開くのだ。",
+        quiz: [
+          { q: "この微小なロボットはどう動くか？", options: ["光で押されたり導かれたりする", "ガソリンで走る", "風で飛ぶ"], answer: 0 },
+          { q: "小さなロボットができる仕事は？", options: ["個々の細菌を捕らえ運ぶ（病気研究や水の浄化など）", "大きな荷物を運ぶ", "家を建てる"], answer: 0 },
+          { q: "この技術の現状は？", options: ["まだ若く実験室の慎重な条件下で働く", "既に体内で広く使われている", "もう不要になった"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0819-3",
+        title: "The New Race to the Moon",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "More than fifty years after humans first walked on the Moon, the world is going back — and this time, many nations and companies are taking part. Recently, one country announced a mission using a 'hopping' probe designed to search for hidden water near the Moon's surface. It is part of a broader wave of lunar exploration by several countries at once.\nWhy return to the Moon now? One big reason is water. Scientists believe there may be ice hidden in cold, shadowed craters near the Moon's poles. Water is precious in space: it can be used for drinking, split into oxygen to breathe, or even turned into rocket fuel. Finding usable water could make a lasting human presence on the Moon far more practical.\nThe Moon is also seen as a stepping stone. By learning to live and work there, explorers can test the tools and skills needed for even longer journeys, perhaps one day to Mars.\nThis new era is different from the first. Instead of a race between just two superpowers, today many countries and private companies are involved, sometimes competing and sometimes cooperating. This brings more ideas and resources, but also new questions about who may use the Moon, and how.\nWhatever happens, the goal is bold: not just to visit the Moon, but to stay. If humans can learn to use what the Moon offers, our nearest neighbor in space may become a base for exploring the solar system — and a shared challenge for all of humanity.",
+        summaryJa: "人類が初めて月を歩いてから50年以上、世界は再び月へ向かっている——そして今度は、多くの国と企業が参加している。最近、ある国が、月の表面近くに隠れた水を探すよう設計された「跳ねる」探査機を使うミッションを発表した。同時に複数の国が行う、より広い月探査の波の一部だ。なぜ今、月へ戻るのか。大きな理由の一つは水だ。科学者は、月の極近くの冷たく影になったクレーターに氷が隠れているかもしれないと考える。水は宇宙で貴重だ——飲み水に使え、酸素に分けて呼吸でき、ロケット燃料にさえ変えられる。使える水を見つければ、月での持続的な人類の存在がはるかに実用的になりうる。月は足がかりとも見なされる。そこで暮らし働くことを学べば、探検者は、いつか火星へなど、さらに長い旅に必要な道具と技能を試せる。この新しい時代は最初とは異なる。二つの超大国だけの競争でなく、今日は多くの国と民間企業が関わり、時に競い時に協力する。これはより多くの発想と資源をもたらすが、誰がどう月を使ってよいかという新しい問いも生む。何が起きるにせよ、目標は大胆だ——月を訪れるだけでなく、留まること。月が提供するものを人類が使えるようになれば、宇宙の最も近い隣人が太陽系探査の基地——そして全人類が分かち合う挑戦——になるかもしれない。",
+        quiz: [
+          { q: "今、月へ戻る大きな理由の一つは？", options: ["飲み水・酸素・燃料に使える水（氷）を探すため", "月を明るくするため", "月を持ち帰るため"], answer: 0 },
+          { q: "月が「足がかり」と見なされる理由は？", options: ["さらに長い旅（火星など）の道具と技能を試せるから", "月が地球より大きいから", "水が無いから"], answer: 0 },
+          { q: "この新しい時代が最初と異なる点は？", options: ["多くの国と民間企業が関わり競い協力する", "一国だけが行う", "誰も参加しない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0819-4",
+        title: "The Little Fans of a Hot Summer",
+        level: "★★☆",
+        genre: "日本",
+        text: "Walk down a Japanese street on a hot summer day, and you will see them everywhere: small handheld fans, humming quietly as people try to stay cool. Once a rare gadget, these little electric fans have become a summer essential, carried by students, workers, and travelers alike. But as they have grown popular, they have also brought some new problems.\nWhy are handheld fans so popular? Japanese summers are hot and very humid, and a small fan offers instant, personal relief almost anywhere — on a crowded train, waiting in line, or walking outside. They are cheap, light, and rechargeable, making them easy to carry all day.\nRecently, though, there have been warnings about safety. Some people, especially those with long hair, have had their hair caught in the spinning blades, causing painful injuries. There have also been reports of the batteries inside overheating or even catching fire if the fans are damaged or poorly made.\nThese problems do not mean the fans are dangerous for everyone, but they are a reminder to use them with care — tying back long hair, buying from trusted makers, and not leaving them to charge unattended.\nThe story of the handheld fan is a small example of a common pattern: a helpful new gadget spreads quickly, and only later do people learn to use it safely. As with many tools, a little caution lets us enjoy the benefits — a cool breeze on a hot day — while avoiding the risks that come with something new.",
+        summaryJa: "暑い夏の日に日本の街を歩くと、あちこちで目にする——小さな携帯扇風機が、涼をとろうとする人々の手で静かにうなっている。かつては珍しい機器だったこの小さな電動扇風機は、今や夏の必需品になり、学生も働く人も旅行者も持ち歩く。だが人気になるにつれ、いくつか新しい問題ももたらした。なぜ携帯扇風機はそれほど人気か。日本の夏は暑く非常に湿気が多く、小さな扇風機はほぼどこでも——混んだ電車、行列、屋外を歩くとき——即座に個人的な涼を与える。安く、軽く、充電式なので、一日中持ち歩きやすい。だが最近、安全について警告が出ている。一部の人、特に髪の長い人が、回る羽根に髪を巻き込まれ、痛い怪我をした。扇風機が壊れたり粗悪だったりすると、中の電池が過熱し、発火することさえあるという報告もある。こうした問題は、扇風機が誰にとっても危険という意味ではないが、注意して使うようにという気づきだ——長い髪を束ね、信頼できるメーカーから買い、充電中に放置しない。携帯扇風機の話は、よくある型の小さな例だ——役立つ新しい機器が速く広まり、後になって人々が安全に使うことを学ぶ。多くの道具と同じく、少しの注意が、利点——暑い日の涼しい風——を楽しみつつ、新しいものに伴う危険を避けさせてくれる。",
+        quiz: [
+          { q: "携帯扇風機が日本で人気の理由は？", options: ["暑く湿気の多い夏にどこでも即座に涼を与えるから", "冬に暖かいから", "無料だから"], answer: 0 },
+          { q: "本文が挙げる安全上の問題は？", options: ["髪の巻き込みや電池の過熱・発火", "水漏れ", "音が出ないこと"], answer: 0 },
+          { q: "本文が伝える教訓は？", options: ["少しの注意で利点を楽しみ危険を避けられる", "扇風機は危険で使えない", "注意は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0819-5",
+        title: "A Surprising Clue in the Search for Alien Life",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Is there life anywhere else in the universe? It is one of humanity's oldest questions, and scientists are searching for answers among the stars. To find life on distant planets, they look for special gases in the planets' air — signs that living things might be present. Recently, researchers suggested that one surprising gas could be an important clue: nitrous oxide, sometimes known as 'laughing gas.'\nWhy look for gases? Scientists cannot travel to faraway planets, but they can study the light that passes through a planet's atmosphere. Different gases leave different marks in that light. Certain gases are produced mainly by living things, so finding them could hint that life exists — even from many light-years away.\nWhy nitrous oxide? On Earth, this gas is produced by many living organisms as part of natural processes. If a distant planet's air contained a lot of it, and there was no obvious non-living source, that might suggest living things are at work there. Adding nitrous oxide to the list of 'biosignatures' gives scientists another tool in their search.\nOf course, this is not proof of alien life. A gas can sometimes be made without living things, so scientists must be careful and look for several clues together, not just one.\nStill, the idea is exciting. Each new biosignature improves our chances of recognizing life if we ever find it. As telescopes grow more powerful, humanity comes a little closer to answering a question we have asked for thousands of years: are we alone?",
+        summaryJa: "宇宙のどこか他に生命はいるのか。人類の最も古い問いの一つで、科学者は星々の間に答えを探している。遠い惑星の生命を見つけるため、彼らは惑星の大気の特別な気体——生き物がいるかもしれない兆し——を探す。最近、研究者は、意外な気体が重要な手がかりになりうると示した。亜酸化窒素、時に「笑気ガス」として知られる気体だ。なぜ気体を探すのか。科学者は遠い惑星へ旅できないが、惑星の大気を通る光を研究できる。異なる気体はその光に異なる印を残す。特定の気体は主に生き物によって作られるので、それを見つければ——何光年も離れていても——生命の存在を示唆しうる。なぜ亜酸化窒素か。地球では、この気体は多くの生物が自然の過程の一部として作る。遠い惑星の大気にそれが大量にあり、明白な非生命の源がなければ、そこで生き物が働いていることを示唆するかもしれない。亜酸化窒素を「バイオシグネチャー（生命の兆候）」の一覧に加えることは、探索の道具をもう一つ科学者に与える。もちろん、これは宇宙生命の証明ではない。気体は時に生き物なしでも作られうるので、科学者は慎重に、一つでなく複数の手がかりを合わせて見ねばならない。それでも発想は胸躍る。新しいバイオシグネチャー一つ一つが、もし生命を見つけたときにそれと認識できる可能性を高める。望遠鏡がより強力になるにつれ、人類は何千年も問うてきた問い——私たちは孤独なのか——への答えに少し近づく。",
+        quiz: [
+          { q: "遠い惑星の生命を探すため科学者が調べるものは？", options: ["惑星の大気を通る光に残る気体の印", "惑星の重さ", "惑星の名前"], answer: 0 },
+          { q: "亜酸化窒素が手がかりになりうる理由は？", options: ["地球では多くの生物が作る気体だから", "無害だから", "光るから"], answer: 0 },
+          { q: "本文が促す慎重さは？", options: ["気体は生き物なしでも作られうるので複数の手がかりを合わせる", "一つの気体で断定してよい", "証明は不要"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-18",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "「スプライト」とは何か？", options: ["雷雨のはるか上に現れる一瞬の光", "UFO", "街の照明"], answer: 0 },
           { q: "スプライトが普通の稲妻と違う点は？", options: ["ずっと高くで起き、上へ跳ね赤く輝くことが多い", "地面に落ちること", "音が非常に大きいこと"], answer: 0 },
           { q: "スプライトの研究が教えてくれるものは？", options: ["謎に満ちた上層大気について", "海の深さ", "地下の金属"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-12",
-    passages: [
-      {
-        id: "d0812-1",
-        title: "From the Lab to the Market",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Some of today's most exciting companies did not begin in a boardroom, but in a university laboratory. When researchers make a discovery — a new material, a clever robot, or a better way to make medicine — they sometimes start a company to turn that idea into a real product. These new firms, often called university 'spinouts,' are becoming an important source of innovation, including in Japan.\nWhy do discoveries need companies? A great idea in a research paper does not automatically help anyone. To reach the world, it must be developed, tested, manufactured, and sold — work that requires money, staff, and business skills. By founding a company, researchers can raise money from investors and build a team to bring their invention to life.\nThis path is not easy. Scientists are experts in their field, but running a business requires very different skills — managing people, finding customers, and handling money. Many spinouts fail, and even successful ones take years to grow. Support from universities, investors, and experienced managers can make a big difference.\nWhen these companies succeed, everyone can benefit. They create jobs, bring useful new products to market, and help a country stay competitive in advanced fields such as robotics, biotechnology, and clean energy.\nThe rise of university spinouts shows how closely knowledge and business are linked. A discovery is only the beginning. Turning it into something people can actually use is a long journey — and the companies that make that journey help carry the fruits of research from the quiet lab into everyday life.",
-        summaryJa: "今日の最も刺激的な企業のいくつかは、役員会議室でなく大学の研究室で生まれた。研究者が発見をしたとき——新素材、巧妙なロボット、より良い薬の作り方——その着想を現実の製品に変えるため会社を興すことがある。しばしば大学「スピンアウト」と呼ばれるこうした新会社は、日本を含め、革新の重要な源になりつつある。なぜ発見に会社が要るのか。論文の中の素晴らしい着想は、自動的に誰かを助けはしない。世界に届くには、開発・試験・製造・販売されねばならず、それにはお金・人材・経営技能が要る。会社を設立すれば、研究者は投資家から資金を集め、発明を形にするチームを築ける。この道は容易ではない。科学者は専門分野の達人だが、事業運営には全く異なる技能——人の管理、顧客の獲得、お金の扱い——が要る。多くのスピンアウトは失敗し、成功するものも成長に何年もかかる。大学・投資家・経験ある経営者の支援が大きな違いを生みうる。こうした企業が成功すれば、皆が恩恵を受けうる。雇用を生み、有用な新製品を市場にもたらし、ロボット工学・バイオテクノロジー・クリーンエネルギーなど先端分野で国が競争力を保つ助けになる。大学スピンアウトの台頭は、知識と事業がいかに密接に結びつくかを示す。発見は始まりにすぎない。それを人々が実際に使えるものに変えるのは長い旅であり、その旅を成し遂げる企業が、研究の果実を静かな研究室から日々の暮らしへ運ぶ助けをする。",
-        quiz: [
-          { q: "大学「スピンアウト」とは？", options: ["研究の発見を製品に変えるため研究者が興す会社", "大学の授業の一種", "政府機関"], answer: 0 },
-          { q: "発見に会社が必要な理由は？", options: ["開発・試験・製造・販売にお金や人材、経営技能が要るから", "研究が自動で製品になるから", "会社は不要だから"], answer: 0 },
-          { q: "この道が容易でない理由は？", options: ["事業運営は研究とは異なる技能を要し多くが失敗する", "科学者は何でもできるから", "すぐ成功するから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0812-2",
-        title: "A Patch That Helps You Sleep",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Good sleep is one of the most important things for our health, yet many people struggle to get enough of it. Scientists are now testing a small wearable patch designed to help people reach deep, restful sleep more quickly. In an early study, the device helped users reach an important stage of sleep sooner and stay in it longer.\nWhy does the stage of sleep matter? During the night, we pass through different stages. One of them, often called REM sleep, is especially important for the brain — it helps with memory, learning, and emotional balance. People who do not get enough of this stage may feel tired and unfocused, even after a full night in bed.\nHow might a patch help? Worn on the body, the device gently sends signals that encourage the brain to move into deeper sleep more easily. Instead of using drugs, it works with the body's natural rhythms, which may make it gentler and safer for regular use.\nIt is important to be careful. The study was small, and much more testing is needed before such a device could be widely used. Sleep is complex, and what helps in a laboratory may work differently for different people.\nStill, the research points to an appealing idea: using gentle technology to improve something as basic as sleep. If devices like this prove safe and effective, they could help millions of people rest better — and wake up ready to face the day, refreshed by the simple, powerful medicine of a good night's sleep.",
-        summaryJa: "良い睡眠は健康にとって最も重要なものの一つだが、多くの人が十分に取れずに苦しむ。科学者は今、人々がより早く深く安らかな睡眠に達する助けとなる、小さな装着型パッチを試している。初期の研究で、この装置は利用者が重要な睡眠段階により早く達し、より長くとどまる助けをした。なぜ睡眠の段階が重要か。夜の間、私たちは異なる段階を通る。その一つ、しばしばレム睡眠と呼ばれる段階は脳に特に重要だ——記憶・学習・感情の安定を助ける。この段階が足りない人は、一晩寝ても疲れて集中できないと感じうる。パッチはどう助けうるのか。体に装着され、装置は脳がより容易に深い睡眠へ移るよう促す穏やかな信号を送る。薬を使う代わりに、体の自然なリズムと協働するので、日常的な使用にもより穏やかで安全かもしれない。慎重さが大切だ。研究は小規模で、こうした装置が広く使われる前にはるかに多くの試験が要る。睡眠は複雑で、実験室で効くものが人によって異なる働きをしうる。それでも研究は魅力的な発想を示す——穏やかな技術で、睡眠のような基本的なものを改善すること。こうした装置が安全で有効と証明されれば、何百万もの人がより良く休む助けになりうる——そして良い睡眠という単純で強力な薬に癒され、一日に立ち向かう準備をして目覚める。",
-        quiz: [
-          { q: "この装置が助けるのは？", options: ["深く安らかな睡眠に早く達すること", "目を覚まし続けること", "運動すること"], answer: 0 },
-          { q: "レム睡眠が重要な理由は？", options: ["記憶・学習・感情の安定を助けるから", "体温を上げるから", "空腹を防ぐから"], answer: 0 },
-          { q: "本文が促す慎重さは？", options: ["研究は小規模でさらなる試験が必要", "装置は完璧である", "睡眠は単純である"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0812-3",
-        title: "Science the Whole World Shares",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Some of humanity's greatest scientific tools are too big and too expensive for any single country to build alone. Giant telescopes, particle laboratories, and space missions often cost billions of dollars and require the skills of thousands of experts. To make them possible, countries around the world join together, sharing the cost, the work, and the discoveries.\nWhy cooperate on science? Beyond saving money, working together brings the best minds from many nations to one problem. A telescope built by several countries can be more powerful than any one nation could afford. And when new knowledge is found — about distant planets, tiny particles, or the origins of the universe — it belongs to all of humanity, not just one country.\nModern tools are making these projects even more powerful. Advanced computers and artificial intelligence now help scientists sort through the enormous amounts of data these instruments produce, spotting patterns that humans might miss and speeding up discovery.\nSuch cooperation is not always simple. Countries must agree on goals, share control, and keep working together even when their relations are tense elsewhere. Yet science has often been a bridge, connecting people across borders through shared curiosity.\nThe results belong to everyone. Images from a great telescope, or knowledge about how the universe began, are shared freely with students, scientists, and dreamers everywhere. In a divided world, these shared scientific adventures are a quiet reminder of what people can achieve when they look outward together, united by the simple wish to understand.",
-        summaryJa: "人類の最も偉大な科学の道具のいくつかは、どの一国にとっても単独で建てるには大きすぎ高価すぎる。巨大望遠鏡、素粒子研究所、宇宙ミッションはしばしば数十億ドルを要し、何千もの専門家の技能を必要とする。それらを可能にするため、世界中の国々が手を組み、費用・作業・発見を分かち合う。なぜ科学で協力するのか。お金の節約を超え、共に働くことは多くの国の最良の頭脳を一つの問題に集める。数か国で建てた望遠鏡は、どの一国が賄えるものより強力になりうる。そして新しい知——遠い惑星、小さな粒子、宇宙の起源についての——が見つかれば、それは一国でなく全人類のものだ。現代の道具はこうした事業をさらに強力にしている。先端のコンピューターとAIが、これらの機器が生む膨大なデータを整理し、人が見逃す模様を見つけ、発見を速める助けをする。こうした協力は常に単純ではない。国々は目標に合意し、統制を分かち合い、他所で関係が緊張していても共に働き続けねばならない。だが科学はしばしば橋となり、共有する好奇心を通じて国境を越えて人々をつないできた。成果は皆のものだ。偉大な望遠鏡の画像や、宇宙がどう始まったかの知識は、どこの学生・科学者・夢見る人にも自由に共有される。分断された世界で、こうした共有される科学の冒険は、人々が共に外を見つめ、理解したいという単純な願いに結ばれたとき何を成し遂げられるかの、静かな気づきだ。",
-        quiz: [
-          { q: "巨大な科学の道具で国々が協力する理由は？", options: ["費用が高く単独では建てられず知恵も集められるから", "科学は簡単だから", "一国で十分だから"], answer: 0 },
-          { q: "AIやコンピューターが科学で果たす役割は？", options: ["膨大なデータを整理し模様を見つけ発見を速める", "望遠鏡を建てること", "国境を引くこと"], answer: 0 },
-          { q: "発見された知は誰のものか？", options: ["全人類のもの", "一国だけのもの", "誰のものでもない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0812-4",
-        title: "The Fireworks of Summer",
-        level: "★★☆",
-        genre: "日本",
-        text: "In summer, the night skies over Japan light up with color. From July through August, towns and cities hold hanabi, or fireworks festivals, drawing huge crowds who gather along rivers and in parks to watch. For many people in Japan, a summer without fireworks would hardly feel like summer at all.\nWhy are fireworks so loved here? Part of the answer is history. Japan has a long tradition of firework-making, and its craftspeople are famous for creating beautiful, perfectly round bursts of light in many colors and shapes. A big festival can send up thousands of fireworks, sometimes set to music, in a show that lasts an hour or more.\nBut hanabi is about more than the fireworks themselves. It is a social event, a chance to gather with family and friends. Many people wear a light summer kimono called a yukata, buy food from festival stalls, and enjoy the warm evening together. The brief, brilliant flashes in the sky become a shared memory of the season.\nThere is also a gentle feeling behind the tradition. In Japanese culture, the beauty of fireworks is tied to the idea that lovely things do not last — each burst shines for only a moment before fading. This makes the experience feel precious.\nSo a fireworks festival is more than a show. It is a celebration of summer, of community, and of fleeting beauty — a reminder to pause, look up, and enjoy a bright moment together before it gently disappears into the night.",
-        summaryJa: "夏、日本の夜空は色で輝く。7月から8月にかけて、町や都市は花火大会を開き、川沿いや公園に集う大群衆を惹きつける。日本の多くの人にとって、花火のない夏はほとんど夏らしく感じられない。なぜここで花火はそれほど愛されるのか。答えの一部は歴史だ。日本には長い花火作りの伝統があり、その職人は、多くの色と形で美しく完璧に丸い光の炸裂を生むことで有名だ。大きな大会は時に音楽に合わせ、数千発の花火を打ち上げ、一時間以上続く見世物になる。だが花火大会は花火そのもの以上のものだ。社交の場であり、家族や友人と集う機会だ。多くの人が浴衣という薄手の夏の着物を着て、屋台で食べ物を買い、暖かな夕べを共に楽しむ。空の短く鮮やかな閃光は、季節の共有された思い出になる。この伝統の背後には穏やかな感情もある。日本文化では、花火の美しさは、美しいものは続かないという考えに結びつく——各炸裂は消える前のほんの一瞬だけ輝く。これが体験を貴重に感じさせる。だから花火大会は見世物以上のものだ。夏の、地域の、そしてはかない美しさの祝いだ——立ち止まり、見上げ、夜へと静かに消える前の明るい一瞬を共に楽しむようにという気づきなのだ。",
-        quiz: [
-          { q: "花火大会が開かれる時期は？", options: ["夏（7〜8月）", "冬", "春の初め"], answer: 0 },
-          { q: "花火大会が花火以上のものである理由は？", options: ["家族や友人と集う社交の場だから", "静かに一人で見るものだから", "昼に行うから"], answer: 0 },
-          { q: "花火の美しさが結びつく日本文化の考えは？", options: ["美しいものは続かない（はかなさ）", "花火は永遠に残る", "音が最も重要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0812-5",
-        title: "Asteroids: Hardware Stores in Space",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "If humans ever build a lasting home on Mars, they will need building materials — metal, in particular. Carrying everything from Earth would be enormously expensive. So scientists are exploring a bold idea: using metal-rich asteroids, floating rocks in space, as a kind of hardware store for future explorers.\nWhy asteroids? Some asteroids are packed with useful metals such as iron and nickel. Instead of launching heavy metal from Earth, explorers might one day mine these space rocks and use the material to build tools, structures, or spacecraft parts closer to where they are needed. A new analysis suggests that certain carefully chosen asteroids could be reached with the kind of spacecraft we already have.\nHow would it work? First, scientists must find the right asteroids — those with valuable materials and paths that make them easy to reach. Then, machines would have to travel there, collect the metal, and process it in space, far from any factory. Each of these steps is difficult and has never been done on a large scale.\nThere are big challenges. Space mining is expensive and risky, the technology is still young, and questions remain about who would own such resources. It may be many years before any of this becomes real.\nStill, the idea captures the imagination. It suggests a future where explorers do not carry everything with them, but use what space itself provides. Like early travelers living off the land, future settlers might one day build new worlds using the raw materials floating quietly among the stars.",
-        summaryJa: "もし人類がいつか火星に永続的な住まいを築くなら、建材——特に金属——が必要になる。全てを地球から運ぶのは莫大な費用がかかる。そこで科学者は大胆な発想を探っている——金属に富む小惑星、宇宙に浮かぶ岩を、未来の探検者のための一種のホームセンターとして使うのだ。なぜ小惑星か。一部の小惑星は鉄やニッケルなど有用な金属で満ちている。重い金属を地球から打ち上げる代わりに、探検者はいつかこの宇宙の岩を採掘し、その材料を必要とされる場所の近くで道具・構造物・探査機の部品を作るのに使えるかもしれない。新しい分析は、慎重に選ばれた特定の小惑星が、既にある種類の探査機で到達できうると示す。どう機能するのか。まず、科学者は適切な小惑星——価値ある材料を持ち、到達しやすい軌道の——を見つけねばならない。次に、機械がそこへ行き、金属を集め、どの工場からも遠い宇宙で加工せねばならない。これらの各段階は難しく、大規模に行われたことは一度もない。大きな課題がある。宇宙採掘は高価で危険で、技術はまだ若く、そうした資源を誰が所有するかの問いも残る。これのいずれかが現実になるまで何年もかかるかもしれない。それでもこの発想は想像力を捕らえる。探検者が全てを持ち運ぶのでなく、宇宙そのものが提供するものを使う未来を示す。土地の恵みで暮らした初期の旅人のように、未来の入植者はいつか、星々の間に静かに浮かぶ原材料で新しい世界を築くかもしれない。",
-        quiz: [
-          { q: "科学者が探る大胆な発想は？", options: ["金属に富む小惑星を建材の供給源として使う", "小惑星を地球に落とす", "小惑星を燃やす"], answer: 0 },
-          { q: "小惑星の金属を使う利点は？", options: ["重い金属を地球から打ち上げずに済む", "味が良いから", "光るから"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["宇宙採掘は高価で危険、技術も若く所有の問いも残る", "小惑星が存在しないこと", "金属が無価値なこと"], answer: 0 }
         ]
       }
     ]
