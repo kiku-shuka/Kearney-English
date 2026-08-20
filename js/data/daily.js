@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-20",
+    passages: [
+      {
+        id: "d0820-1",
+        title: "Selling Noodles to the World",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "A dish that is loved in one country is not always easy to sell in another. This is the challenge facing a successful Japanese noodle company as it tries to bring thick udon noodles to customers in the United States. In Japan, udon is a simple, everyday comfort food. But abroad, many people have never tasted it — and turning an unfamiliar food into a popular one is hard work.\nWhy expand overseas at all? For a company that has already done well at home, foreign markets offer a chance to grow much bigger. The United States has a huge population and a strong interest in food from around the world. If udon catches on, the rewards could be enormous.\nBut there are real difficulties. Customers who have never eaten udon may not know what it is or how to enjoy it. The company must teach people about the food, adapt to local tastes, and compete with countless other restaurants. Growing quickly also means hiring staff, opening shops, and keeping quality high in a new country.\nMany foreign foods have succeeded this way. Dishes that once seemed strange in a new country later became everyday favorites, from pizza to sushi. Each began as something unfamiliar and slowly won people over.\nThe story shows a classic business truth: a great product is only the beginning. To succeed in a new market, a company must understand its customers, explain what it offers, and be patient. Winning hearts — and appetites — in a foreign land takes more than good noodles; it takes careful, steady effort.",
+        summaryJa: "ある国で愛される料理が、別の国で売りやすいとは限らない。これは、太いうどんをアメリカの客に届けようとする、成功した日本の麺会社が直面する課題だ。日本でうどんは、素朴で日常的な癒しの食べ物だ。だが海外では、多くの人が食べたことがない——なじみのない食べ物を人気のものに変えるのは大変な仕事だ。そもそもなぜ海外進出するのか。既に国内で成功した会社にとって、海外市場ははるかに大きく成長する機会を与える。アメリカは巨大な人口と、世界中の食への強い関心を持つ。うどんが受ければ、見返りは莫大になりうる。だが本当の難しさもある。うどんを食べたことのない客は、それが何か、どう楽しむかを知らないかもしれない。会社は人々にその食べ物を教え、地元の味に合わせ、無数の他の飲食店と競わねばならない。速く成長することは、人を雇い、店を開き、新しい国で品質を高く保つことも意味する。多くの外国の食べ物がこうして成功してきた。かつて新しい国で奇妙に見えた料理が、後に日常のお気に入りになった——ピザから寿司まで。それぞれがなじみのないものとして始まり、ゆっくり人々を魅了した。この話は古典的なビジネスの真理を示す——素晴らしい製品は始まりにすぎない。新しい市場で成功するには、会社は客を理解し、何を提供するか説明し、忍耐せねばならない。異国で心——と食欲——を勝ち取るには、良い麺以上のものが要る。丁寧で着実な努力が要るのだ。",
+        quiz: [
+          { q: "この会社が直面する課題は？", options: ["なじみのないうどんを人気の食べ物に変えること", "麺を作れないこと", "国内で売れないこと"], answer: 0 },
+          { q: "海外進出の理由は？", options: ["はるかに大きく成長する機会があるから", "国内客を減らすため", "麺をやめるため"], answer: 0 },
+          { q: "本文が示すビジネスの真理は？", options: ["素晴らしい製品は始まりにすぎず客の理解と忍耐が要る", "良い製品だけで必ず成功する", "説明は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0820-2",
+        title: "A New Kind of Computer Memory",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "In most computers, storing information and processing it are two separate jobs, done in different places. Data is kept in memory, then moved to another part of the chip to be worked on, and moved back again. This constant shuffling takes time and uses a lot of energy. Now, scientists have built a new kind of memory device that could change this — one that can store and process information in the same place.\nWhy does this matter? Moving data back and forth is one of the biggest sources of wasted energy in computing. As we run more powerful programs, especially artificial intelligence, this waste grows. A device that keeps memory and processing together could be much faster and use far less power.\nThe new device is unusual because it combines two very different things: synthetic DNA — a human-made version of the molecule that carries life's instructions — and a semiconductor, the material at the heart of computer chips. Together, they form a tiny, extremely low-power memory that also helps do the calculating.\nThis is still early research, done in laboratories. Turning such a device into products people can use will take years, and many challenges remain.\nStill, the idea points toward an exciting future. As computers demand more and more energy, new designs that save power become increasingly important. By blending biology and electronics in surprising ways, scientists are searching for smarter, greener ways to compute — and, perhaps, quietly rewriting the rules of how machines think.",
+        summaryJa: "ほとんどのコンピューターでは、情報を蓄えることと処理することは、別々の場所で行われる二つの仕事だ。データはメモリに保たれ、作業のためチップの別の部分へ移され、また戻される。この絶え間ない移動は時間がかかり、多くのエネルギーを使う。今、科学者はこれを変えうる新種のメモリ装置を作った——同じ場所で情報を蓄え、処理できるものだ。なぜ重要か。データを行き来させることは、計算で無駄になるエネルギーの最大級の源の一つだ。より強力なプログラム、特にAIを動かすにつれ、この無駄は増える。メモリと処理を一緒に保つ装置は、はるかに速く、はるかに少ない電力で済みうる。この新しい装置が珍しいのは、非常に異なる二つを組み合わせるからだ——合成DNA（生命の指示を運ぶ分子の人工版）と、コンピューターチップの中核をなす材料である半導体。両者が相まって、計算も助ける、微小で極めて低消費電力のメモリを形づくる。これはまだ実験室で行われる初期の研究だ。こうした装置を人々が使える製品に変えるには何年もかかり、多くの課題が残る。それでもこの発想は胸躍る未来を指し示す。コンピューターがますます多くのエネルギーを要する中、電力を節約する新しい設計はますます重要になる。生物学と電子工学を意外な形で混ぜることで、科学者はより賢く環境に優しい計算の方法を探している——そしておそらく、機械の考え方の規則を静かに書き換えているのだ。",
+        quiz: [
+          { q: "普通のコンピューターでエネルギーを無駄にする大きな原因は？", options: ["データを蓄える場所と処理する場所の間で行き来させること", "画面が明るいこと", "電源が古いこと"], answer: 0 },
+          { q: "新しい装置が組み合わせるものは？", options: ["合成DNAと半導体", "水と油", "紙と鉛筆"], answer: 0 },
+          { q: "この装置の利点は？", options: ["メモリと処理を一緒に保ち速く低消費電力になりうる", "電気を全く使わない", "計算ができない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0820-3",
+        title: "Who Cleans Up in Space?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Space is often imagined as empty, but around the Earth it is becoming crowded with human-made objects. Recently, a used part of a rocket crashed into the Moon, leaving behind a small new crater. The event was harmless, but it raised an important question that the whole world will have to answer: who is responsible for the things we leave in space?\nWhy is this a problem? Every rocket launch and satellite adds to the amount of material in space. Old rockets, dead satellites, and broken pieces can stay in orbit for years, and some eventually fall — onto the Earth, or even the Moon. As more countries and companies reach into space, the amount of this 'space junk' keeps growing.\nSpace is a shared place. No single country owns it, and objects launched by one nation can affect everyone. If a piece of debris hits a working satellite, it could disrupt communications, weather forecasts, or navigation used around the world. Cleaning up, and preventing new messes, is a task no one can handle alone.\nCountries are beginning to talk about rules — agreements on how to track objects, avoid collisions, and safely remove old equipment. But making and enforcing such rules across many nations is difficult.\nThe crater on the Moon is a small reminder of a growing challenge. As humanity's presence in space expands, we must learn to manage it wisely and together. Space may be vast, but keeping it safe and usable is a responsibility we all share.",
+        summaryJa: "宇宙はしばしば空っぽと想像されるが、地球の周りは人工物で混み合いつつある。最近、使用済みのロケットの一部が月に衝突し、小さな新しいクレーターを残した。この出来事は無害だったが、世界全体が答えねばならない重要な問いを投げかけた——宇宙に残す物に、誰が責任を負うのか。なぜ問題なのか。ロケットの打ち上げと衛星の一つ一つが、宇宙の物質の量を増やす。古いロケット、故障した衛星、壊れた破片は何年も軌道にとどまり、一部はやがて落ちる——地球へ、あるいは月にさえ。より多くの国と企業が宇宙に手を伸ばすにつれ、この「宇宙ごみ」の量は増え続ける。宇宙は共有の場所だ。どの一国も所有せず、一国が打ち上げた物が皆に影響しうる。破片が稼働中の衛星に当たれば、世界中で使われる通信・天気予報・航法を乱しうる。片づけることと、新たな散らかりを防ぐことは、誰も単独では扱えない務めだ。各国は規則——物体の追跡、衝突の回避、古い機器の安全な除去についての合意——を話し合い始めている。だが多くの国にまたがってそうした規則を作り執行するのは難しい。月のクレーターは、増大する課題の小さな気づきだ。宇宙での人類の存在が広がるにつれ、私たちはそれを賢く、共に管理することを学ばねばならない。宇宙は広大かもしれないが、安全で使える状態に保つことは、私たち皆が分かち合う責任なのだ。",
+        quiz: [
+          { q: "この出来事が投げかけた重要な問いは？", options: ["宇宙に残す物に誰が責任を負うのか", "月は何色か", "ロケットは何機あるか"], answer: 0 },
+          { q: "「宇宙ごみ」が増える理由は？", options: ["打ち上げや衛星が増え古い機器が軌道に残るから", "宇宙が縮むから", "誰も宇宙に行かないから"], answer: 0 },
+          { q: "宇宙の片づけが一国で扱えない理由は？", options: ["宇宙は共有の場所で一国の物が皆に影響するから", "宇宙は一国のものだから", "破片は無害だから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0820-4",
+        title: "Japan's Changing Tourists",
+        level: "★★☆",
+        genre: "日本",
+        text: "For years, Japan has welcomed a growing number of visitors from around the world. Tourism has become an important part of the economy, bringing money to hotels, restaurants, shops, and small towns. But recently, the number of tourists from one country dropped sharply, while the total number of foreign visitors stayed almost the same. This shows how the mix of tourists can change quickly.\nWhy do tourist numbers shift? Many things affect where people choose to travel. Government advice, the cost of flights, the strength of a currency, and events at home can all make visitors from one country rise or fall. When one group travels less, visitors from other countries may fill the gap.\nWhy does this matter for Japan? Tourism supports many jobs, so businesses want a steady flow of visitors. Depending too heavily on tourists from a single country is risky: if that group suddenly stops coming, businesses can suffer. A wide mix of visitors from many places is safer and more stable.\nThis is why Japan works to attract travelers from all over the world, offering things that appeal to many different cultures — beautiful nature, history, food, and modern cities.\nThe changing pattern of tourists is a reminder of a familiar lesson: it is wise not to depend on just one source. Whether for a country's tourism or a company's customers, variety brings strength. By welcoming visitors from many nations, Japan protects an important industry — and shares its culture with a wider world.",
+        summaryJa: "長年、日本は世界中から増える訪問者を迎えてきた。観光は経済の重要な一部になり、ホテル・飲食店・店・小さな町にお金をもたらす。だが最近、ある国からの観光客が急減した一方、外国人訪問者の総数はほぼ変わらなかった。これは観光客の構成がいかに速く変わりうるかを示す。なぜ観光客の数は変動するのか。人がどこへ旅するかを選ぶには多くの要因が影響する。政府の助言、航空券の値段、通貨の強さ、母国の出来事——すべてがある国からの訪問者を増やしも減らしもしうる。ある集団が旅を減らすと、他国からの訪問者がその穴を埋めることもある。なぜこれが日本に重要か。観光は多くの仕事を支えるので、事業者は安定した訪問者の流れを望む。単一の国の観光客に頼りすぎるのは危うい——その集団が突然来なくなれば、事業者は苦しみうる。多くの場所からの幅広い訪問者の構成は、より安全で安定している。だから日本は世界中から旅行者を惹きつけようと努め、多くの異なる文化に訴えるもの——美しい自然、歴史、食、現代的な都市——を提供する。変わる観光客の型は、なじみの教訓を思い出させる——ただ一つの源に頼らないのが賢明だ。国の観光であれ企業の顧客であれ、多様性は強さをもたらす。多くの国から訪問者を迎えることで、日本は重要な産業を守り——その文化をより広い世界と分かち合うのだ。",
+        quiz: [
+          { q: "観光客の数が変動する要因に含まれるものは？", options: ["政府の助言・航空券の値段・通貨の強さ", "天気だけ", "何も影響しない"], answer: 0 },
+          { q: "単一の国の観光客に頼りすぎる危険は？", options: ["その集団が来なくなると事業者が苦しむ", "観光客が増えすぎる", "何も起きない"], answer: 0 },
+          { q: "本文の教訓は？", options: ["ただ一つの源に頼らず多様性が強さをもたらす", "一国に頼るのが最善", "観光は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0820-5",
+        title: "The Tiny Particles That Make Clouds",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Clouds seem simple — soft, white shapes drifting across the sky. But making a cloud is a surprisingly delicate process, and it depends on something almost too small to imagine: tiny particles floating in the air. Recently, scientists discovered a new natural process in the Arctic that can greatly increase the number of these particles, which help clouds to form.\nHow do clouds form? A cloud is made of countless tiny drops of water. But water vapor in the air cannot easily turn into drops on its own. It needs a surface to gather on — a tiny particle of dust, salt, or another substance. Each of these specks becomes the seed of a water droplet. Without enough of these particles, clouds cannot form well.\nWhy does the new discovery matter? Clouds have a huge effect on the planet. They bring rain, and they also shade the Earth, reflecting sunlight and helping to control temperature. Understanding what makes clouds form — especially in sensitive regions like the Arctic — helps scientists predict weather and understand how the climate may change.\nThis kind of research is difficult. The particles are extremely small, and the processes happen in remote, harsh places. Scientists use special instruments to detect them and careful study to understand what they do.\nThe discovery is a reminder that the largest features of our world can depend on the smallest things. A drifting cloud, a falling rain, even the temperature of the planet, may all trace back to invisible specks — quietly shaping the sky above us.",
+        summaryJa: "雲は単純に見える——空を漂う柔らかく白い形。だが雲を作るのは驚くほど繊細な過程で、ほとんど想像できないほど小さいもの——空気中に浮かぶ微小な粒子——に依存する。最近、科学者は北極で、雲の形成を助けるこうした粒子の数を大きく増やしうる新しい自然の過程を発見した。雲はどう形成されるのか。雲は無数の微小な水の滴でできている。だが空気中の水蒸気は、単独では容易に滴にならない。集まる表面——塵・塩・別の物質の微小な粒子——が必要だ。こうした微粒の一つ一つが水滴の種になる。こうした粒子が十分にないと、雲はうまく形成できない。なぜ新しい発見が重要か。雲は地球に大きな影響を与える。雨をもたらし、地球に日陰を作り、日光を反射して気温の制御を助けもする。何が雲を形成させるか——特に北極のような敏感な地域で——を理解することは、科学者が天気を予測し、気候がどう変わりうるかを理解する助けになる。この種の研究は難しい。粒子は極めて小さく、過程は遠く過酷な場所で起きる。科学者は特別な機器でそれを検出し、丁寧な研究でその働きを理解する。この発見は、私たちの世界の最も大きな特徴が、最も小さなものに依存しうることを思い出させる。漂う雲、降る雨、地球の気温さえ、すべてが目に見えない微粒にさかのぼりうる——私たちの頭上の空を静かに形づくりながら。",
+        quiz: [
+          { q: "雲が形成されるのに必要なものは？", options: ["水蒸気が集まる微小な粒子（塵や塩など）", "大きな岩", "強い光"], answer: 0 },
+          { q: "雲が地球に与える影響は？", options: ["雨をもたらし日光を反射して気温の制御を助ける", "何の影響もない", "地球を重くする"], answer: 0 },
+          { q: "本文が伝えることは？", options: ["最も大きな特徴が最も小さなものに依存しうる", "雲は無関係", "粒子は無意味"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-19",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が古代の動物の色を知る手がかりは？", options: ["色を生む微細な構造の痕跡が化石に残ること", "当時の絵画", "文字の記録"], answer: 0 },
           { q: "羽や殻の色が生まれる要因は？", options: ["色素だけでなく材料の顕微鏡的な形", "温度だけ", "音"], answer: 0 },
           { q: "色が科学に重要な理由は？", options: ["動物がどう生きたか（求愛・警告・擬態）を教えうる", "色は無意味だから", "化石を壊すから"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-13",
-    passages: [
-      {
-        id: "d0813-1",
-        title: "Why Online Giants Open Real Shops",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "It might seem strange for a company famous for the internet to open a physical store, yet that is exactly what is happening. Recently, a major technology company opened its first flagship store in Japan, in a fashionable district of Tokyo. Why would a business built online want a real shop made of glass and concrete?\nOne reason is experience. Online, customers can read about a product, but they cannot touch it. In a physical store, people can hold a device, try its features, and ask questions face to face. This hands-on experience can build trust and excitement that a website alone cannot create.\nAnother reason is the brand. A beautiful flagship store in a famous shopping area is like a giant advertisement. Even people who do not buy anything see the store, remember the brand, and may feel it is important and reliable. The building itself sends a message.\nStores also offer support. Customers can bring in broken devices, get advice, or learn how to use new features. Good service in person can turn a buyer into a loyal, long-term customer.\nOf course, physical stores are expensive to build and run, so companies open them carefully, usually in busy, high-profile locations.\nThe trend shows that online and offline business are not enemies but partners. Even in a digital age, people still value real places, real objects, and real human help. A well-designed store lets an online company meet its customers in person — and turn clicks into a lasting relationship.",
-        summaryJa: "インターネットで有名な企業が実店舗を開くのは奇妙に見えるかもしれないが、まさにそれが起きている。最近、ある大手技術企業が、東京のおしゃれな地区に日本初の旗艦店を開いた。オンラインで築かれた事業が、なぜガラスとコンクリートの実店舗を欲しがるのか。理由の一つは体験だ。オンラインでは製品について読めるが、触れられない。実店舗では、人は端末を手に取り、機能を試し、対面で質問できる。この実際に触れる体験は、ウェブサイトだけでは生めない信頼と高揚を築きうる。もう一つの理由はブランドだ。有名な商店街の美しい旗艦店は、巨大な広告のようなものだ。何も買わない人でも店を見て、ブランドを覚え、重要で信頼できると感じるかもしれない。建物自体がメッセージを送る。店はサポートも提供する。客は壊れた端末を持ち込み、助言を得て、新機能の使い方を学べる。対面の良いサービスは、買い手を忠実で長期の顧客に変えうる。もちろん実店舗は建設も運営も高価なので、企業は普通、賑やかで注目される場所に慎重に開く。この流れは、オンラインとオフラインの事業が敵でなく相棒であることを示す。デジタル時代でも、人はなお本物の場所・本物の品・本物の人の助けを大切にする。よく設計された店は、オンライン企業が顧客と対面で会い、クリックを永続的な関係に変えることを可能にする。",
-        quiz: [
-          { q: "オンライン企業が実店舗を開く理由の一つは？", options: ["客が製品を手に取り試せる体験を提供できる", "店の方が安いから", "ウェブが使えないから"], answer: 0 },
-          { q: "旗艦店がブランドに与える効果は？", options: ["巨大な広告となりブランドを覚えさせる", "客を追い返す", "製品を隠す"], answer: 0 },
-          { q: "本文の結論は？", options: ["オンラインとオフラインは敵でなく相棒", "実店舗は不要である", "オンラインはもう終わった"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0813-2",
-        title: "Mining the Ocean Floor",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Far below the surface of the sea, in cold and total darkness, lie valuable metals that the modern world badly needs. Recently, plans were announced for one of the deepest undersea mines ever attempted, aiming to collect rare earth elements from the ocean floor. These metals are essential for many technologies, and reaching them is a huge engineering challenge.\nWhy mine the deep sea? Rare earth elements are used in magnets, motors, batteries, wind turbines, and electronics. They are found on land in only a few places, so countries are searching for new sources. The deep ocean floor holds large amounts — enough, some say, to meet industrial demand for a very long time.\nBut mining thousands of meters underwater is extremely difficult. The pressure is crushing, there is no light, and machines must operate far from any human hand. Engineers must design robots and systems that can dig, collect, and lift material to the surface, all while working reliably in one of the harshest places on Earth.\nThere are serious concerns too. The deep sea is home to strange and little-understood life, and mining could damage these fragile ecosystems. Scientists warn that we must understand the risks before disturbing a world we know so little about.\nThe project shows both human ingenuity and difficult choices. We have the technology to reach places once thought impossible, but with that power comes responsibility. As we search the deep ocean for the metals of the future, we must also decide how to protect the mysterious world we find there.",
-        summaryJa: "海面のはるか下、冷たく完全な暗闇の中に、現代世界が切実に必要とする貴重な金属が眠っている。最近、これまでで最も深い海底鉱山の一つの計画が発表され、海底からレアアース（希土類元素）を集めることを目指す。これらの金属は多くの技術に不可欠で、それに到達するのは巨大な工学的挑戦だ。なぜ深海を採掘するのか。レアアースは磁石・モーター・電池・風力タービン・電子機器に使われる。陸上ではわずかな場所にしかないため、各国は新たな供給源を探している。深海の海底は大量に蓄え、一部は非常に長い間、産業需要を満たすのに十分だと言う。だが水中数千メートルでの採掘は極めて難しい。圧力は押し潰すほどで、光はなく、機械は人の手から遠く離れて動かねばならない。技術者は、地球で最も過酷な場所の一つで確実に働きつつ、掘り・集め・材料を海面へ持ち上げるロボットとシステムを設計せねばならない。深刻な懸念もある。深海は奇妙でほとんど理解されていない生命の住処で、採掘はこの脆い生態系を損ないうる。科学者は、ほとんど知らない世界をかき乱す前に、リスクを理解せねばならないと警告する。この事業は人間の創意と難しい選択の双方を示す。かつて不可能と思われた場所に到達する技術を持つが、その力には責任が伴う。未来の金属を求めて深海を探るとき、私たちはそこで見つける神秘の世界をどう守るかも決めねばならない。",
-        quiz: [
-          { q: "なぜ深海を採掘しようとするのか？", options: ["技術に不可欠なレアアースが大量にあるから", "水が欲しいから", "魚を採るため"], answer: 0 },
-          { q: "深海採掘が難しい理由は？", options: ["高い圧力・暗闇で機械が人の手から遠く働くから", "浅すぎるから", "暖かすぎるから"], answer: 0 },
-          { q: "本文が挙げる懸念は？", options: ["脆い深海の生態系を損ないうる", "金属が無価値なこと", "海が浅くなること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0813-3",
-        title: "The Rise of a Global Language",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Around the world, when people from different countries meet, they often need a shared language to understand each other. More and more, that language is English. A business meeting between a German and a Japanese company, a science conference, or a group of tourists from many nations — all may use English as a common tool, even when it is no one's first language.\nWhy did English spread so widely? History and trade played a large part, and today English is the main language of international business, science, aviation, and the internet. Because so many people already study it, learning English opens doors to jobs, education, and communication across borders.\nA shared global language brings real benefits. It lets a doctor in one country read research from another, helps businesses trade, and allows travelers to find their way. In a connected world, being able to communicate widely is a valuable skill.\nBut there are concerns too. As English grows, some worry that smaller languages may be used less, and that a piece of each culture could be lost with them. Many people believe it is important to learn English while also protecting one's own language and traditions.\nInterestingly, global English no longer belongs only to countries where it began. It is shaped by millions of speakers worldwide, each adding their own accent and style.\nFor learners, this is encouraging. English is not about sounding perfect, but about connecting with others. Every new phrase learned is another bridge to the wider world — and to the many people waiting to be understood.",
-        summaryJa: "世界中で、異なる国の人々が出会うとき、互いを理解するために共有する言語がしばしば必要になる。ますますその言語は英語だ。ドイツと日本の企業の商談、科学会議、多くの国から来た観光客の一団——すべてが、誰の母語でなくても、英語を共通の道具として使いうる。なぜ英語はそれほど広まったのか。歴史と貿易が大きな役割を果たし、今日、英語は国際ビジネス・科学・航空・インターネットの主要言語だ。既に多くの人が学んでいるため、英語を学ぶことは、国境を越えた仕事・教育・意思疎通への扉を開く。共有の世界言語は本当の利益をもたらす。ある国の医師が別の国の研究を読めるようにし、企業の取引を助け、旅行者が道を見つけられるようにする。つながった世界で、広く意思疎通できることは価値ある技能だ。だが懸念もある。英語が広がるにつれ、より小さな言語が使われなくなり、それとともに各文化の一部が失われうると心配する人もいる。多くの人は、自分の言語や伝統を守りつつ英語を学ぶことが重要だと信じる。興味深いことに、世界の英語はもはや、それが始まった国だけのものではない。世界中の何百万もの話者に形づくられ、各自が独自の訛りとスタイルを加える。学習者には、これは励みだ。英語は完璧に聞こえることでなく、他者とつながることだ。学んだ新しい表現の一つ一つが、より広い世界——そして理解されるのを待つ多くの人々——への、もう一つの橋なのだ。",
-        quiz: [
-          { q: "異なる国の人々が共通の道具として使うことが増えている言語は？", options: ["英語", "どの言語でもない", "数字だけ"], answer: 0 },
-          { q: "共有の世界言語の利益は？", options: ["他国の研究を読めたり取引や旅行を助けたりする", "文化を消すこと", "移動を止めること"], answer: 0 },
-          { q: "本文が学習者に伝えることは？", options: ["英語は完璧さでなく他者とつながること", "完璧に話せねば無意味", "英語は学ぶ必要がない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0813-4",
-        title: "Japan's Cooling Summer Foods",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japanese summers are hot and humid, and over the centuries people have developed clever, delicious ways to cool down through food. When the weather is at its hottest, certain dishes appear on tables and at festivals across the country, each designed to bring a feeling of coolness and refreshment.\nOne favorite is kakigori, or shaved ice. Fine, fluffy ice is piled into a mountain and topped with sweet, colorful syrups — strawberry, green tea, lemon, and many more. Sold at festivals and shops, it is a bright, icy treat that both children and adults love on a hot afternoon.\nAnother summer classic is somen, very thin noodles served cold. They are often eaten with a light dipping sauce and simple toppings. In a playful tradition called nagashi-somen, the noodles slide down a channel of running water, and diners catch them with chopsticks as they pass — a cool and fun way to eat.\nThese foods are about more than taste. Cold dishes help the body feel cooler, and their light flavors are easy to enjoy even when the heat takes away one's appetite. Eating them is also part of the rhythm of the season, a small ritual that marks the arrival of summer.\nFood, in this way, becomes a gentle answer to the weather. Instead of only fighting the heat with machines, people also welcome it with special dishes. A bowl of shaved ice or cold noodles turns a hot day into something to enjoy — proof that even summer's discomforts can be met with a little pleasure and tradition.",
-        summaryJa: "日本の夏は暑く湿気が多く、何世紀もかけて人々は食べ物で涼をとる巧みでおいしい方法を編み出してきた。天気が最も暑いとき、涼しさと爽やかさをもたらすよう作られた特定の料理が、全国の食卓や祭りに現れる。人気の一つはかき氷だ。細かくふわふわの氷が山盛りにされ、甘く色とりどりのシロップ——いちご・抹茶・レモンなど——がかけられる。祭りや店で売られ、暑い午後に子供も大人も愛する明るく冷たい一品だ。もう一つの夏の定番はそうめん、冷たく供される非常に細い麺だ。しばしば軽いつゆと簡素な薬味で食べる。流しそうめんという遊び心ある慣わしでは、麺が流れる水の樋を滑り下り、食べる人が通り過ぎるのを箸で捕まえる——涼しく楽しい食べ方だ。これらの食べ物は味以上のものだ。冷たい料理は体を涼しく感じさせ、その軽い味は、暑さで食欲が失せるときでも楽しみやすい。食べることは季節のリズムの一部でもあり、夏の到来を告げる小さな儀式だ。こうして食べ物は天気への穏やかな答えになる。機械だけで暑さと闘う代わりに、人々は特別な料理でそれを迎えもする。かき氷や冷たい麺の一杯が、暑い日を楽しめるものに変える——夏の不快さでさえ、少しの喜びと伝統で迎えられる証だ。",
-        quiz: [
-          { q: "かき氷とはどんな食べ物か？", options: ["細かい氷に甘いシロップをかけた冷たい一品", "温かいスープ", "焼いた肉"], answer: 0 },
-          { q: "流しそうめんとは？", options: ["流れる水を滑る麺を箸で捕まえて食べる慣わし", "麺を焼く方法", "麺を売る店"], answer: 0 },
-          { q: "夏の冷たい料理が味以上に持つ意味は？", options: ["体を涼しく感じさせ季節のリズムを告げる", "体を温めること", "食欲を無くすこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0813-5",
-        title: "Mysterious Lights Above the Storm",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "One night, people in Japan reported seeing a strange red light stretching upward across the sky. It was not a UFO or a trick of the eyes, but a rare and beautiful natural event called a 'sprite' — a brief flash of light that appears high above thunderstorms, far above the clouds we usually see.\nWhat exactly is a sprite? Everyone knows lightning, which flashes between clouds or down to the ground. Sprites are different. They occur much higher up, in the thin air near the edge of space, and they often glow red rather than white. They are triggered by powerful lightning in the storm below, but they leap upward instead of down.\nWhy are sprites so hard to see? They last only a tiny fraction of a second and appear very high in the sky, usually far from the observer. For a long time, pilots reported strange flashes, but scientists could not easily study them. Only with modern high-speed cameras have we begun to capture and understand these events.\nStudying sprites teaches us about the upper atmosphere, a region that is difficult to reach and still full of mysteries. Understanding how energy moves through it helps scientists learn more about our planet's weather and the edge of space.\nThe sighting is a reminder that wonders can appear in the everyday sky. Above an ordinary thunderstorm, for a single instant, nature paints a red flash most people never see. To notice it is to be reminded how much beauty and mystery still hang quietly above our heads.",
-        summaryJa: "ある夜、日本の人々が、空を上へと伸びる奇妙な赤い光を見たと報告した。UFOでも目の錯覚でもなく、「スプライト」と呼ばれる稀で美しい自然現象だった——雷雨のはるか上、普段見る雲よりずっと高くに現れる、一瞬の光の閃きだ。スプライトとは正確には何か。誰もが、雲の間や地面へ光る稲妻を知っている。スプライトは違う。ずっと高く、宇宙の縁に近い薄い空気の中で起き、白でなく赤く輝くことが多い。下の嵐の強力な雷に引き起こされるが、下でなく上へ跳ね上がる。なぜスプライトはそれほど見えにくいのか。ほんの一瞬しか続かず、空の非常に高いところに、普通は観測者から遠く現れる。長い間、操縦士が奇妙な閃光を報告したが、科学者は容易には研究できなかった。現代の高速度カメラがあって初めて、私たちはこうした現象を捉え理解し始めた。スプライトの研究は、到達が難しく今も謎に満ちた領域である上層大気について教えてくれる。そこをエネルギーがどう動くかを理解することは、地球の天気や宇宙の縁についてより多くを学ぶ助けになる。この目撃は、日々の空にも驚異が現れうることを思い出させる。ありふれた雷雨の上で、ただ一瞬、自然はほとんどの人が見ない赤い閃光を描く。それに気づくことは、私たちの頭上に、どれほど多くの美と神秘が今も静かに漂っているかを思い出すことだ。",
-        quiz: [
-          { q: "「スプライト」とは何か？", options: ["雷雨のはるか上に現れる一瞬の光", "UFO", "街の照明"], answer: 0 },
-          { q: "スプライトが普通の稲妻と違う点は？", options: ["ずっと高くで起き、上へ跳ね赤く輝くことが多い", "地面に落ちること", "音が非常に大きいこと"], answer: 0 },
-          { q: "スプライトの研究が教えてくれるものは？", options: ["謎に満ちた上層大気について", "海の深さ", "地下の金属"], answer: 0 }
         ]
       }
     ]
