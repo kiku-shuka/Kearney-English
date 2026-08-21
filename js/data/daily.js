@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-21",
+    passages: [
+      {
+        id: "d0821-1",
+        title: "How Companies Prepare for Hard Times",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "When business is going well, it can be tempting for a company to spend all its money on growth — new products, new offices, new staff. But wise companies also do something less exciting: they save. Keeping a store of cash, ready for difficult times, is one of the most important habits in business.\nWhy hold on to cash? The economy moves in cycles. Good years are often followed by harder ones, when sales fall, costs rise, or unexpected problems appear. A company with savings can survive a bad period, pay its workers, and keep operating until conditions improve. A company with no cushion may be forced to cut jobs or even close.\nCash also gives a company freedom. When a good opportunity appears — a chance to buy a rival, enter a new market, or invest in a promising idea — a firm with money can act quickly, while others must wait. Sometimes the best chances come exactly when money is tight for everyone else.\nOf course, there is a balance to strike. Holding too much cash can be wasteful, since that money is not being used to grow. Leaders must decide how much to keep safe and how much to invest.\nThe lesson applies far beyond big companies. Families and individuals benefit from the same wisdom: save something for emergencies, so a sudden problem does not become a disaster. In business as in life, preparing for hard times during good times is one of the surest ways to stay strong when trouble comes.",
+        summaryJa: "商売が順調なとき、企業は資金をすべて成長——新製品・新オフィス・新しい人材——に使いたくなりうる。だが賢い企業は、もっと地味なこともする。貯めるのだ。困難な時に備えて現金の蓄えを持つことは、ビジネスで最も重要な習慣の一つだ。なぜ現金を持つのか。経済は周期で動く。良い年の後にはしばしばより厳しい年が来る——売上が落ち、費用が上がり、予期せぬ問題が現れる。貯えのある企業は、悪い時期を生き延び、従業員に払い、状況が改善するまで事業を続けられる。緩衝のない企業は、雇用を削るか、閉鎖さえ迫られうる。現金は自由も与える。良い機会——競合を買う、新市場に入る、有望な案に投資する好機——が現れたとき、お金のある企業は素早く動けるが、他は待たねばならない。最良の好機は、まさに他の皆にとって資金が乏しいときに来ることもある。もちろん釣り合いを取る必要がある。現金を持ちすぎるのは無駄になりうる——そのお金は成長に使われていないからだ。指導者はどれだけ安全に保ち、どれだけ投資するかを決めねばならない。教訓は大企業をはるかに超えて当てはまる。家族や個人も同じ知恵から恩恵を受ける——非常時のために何か貯えておけば、突然の問題が災難にならない。ビジネスでも人生でも、良い時に困難な時へ備えることは、苦難が来たとき強くいられる最も確実な方法の一つだ。",
+        quiz: [
+          { q: "企業が現金を蓄える主な理由は？", options: ["厳しい時期を生き延び事業を続けるため", "すぐ使い切るため", "成長を止めるため"], answer: 0 },
+          { q: "現金が企業に与える自由とは？", options: ["好機に素早く動けること", "何もできないこと", "雇用を削ること"], answer: 0 },
+          { q: "本文が挙げる釣り合いは？", options: ["現金を持ちすぎると成長に使えず無駄になる", "現金は無限に持つべき", "投資は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0821-2",
+        title: "AI That Designs New Proteins",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Proteins are the tiny machines of life. They build our bodies, carry oxygen, fight disease, and do countless other jobs. For billions of years, nature has slowly created proteins through evolution. Now, artificial intelligence is doing something remarkable: designing brand-new proteins that have never existed in nature.\nHow is this possible? Proteins are made from small building blocks arranged in a particular order, which folds into a specific shape. That shape decides what the protein does. Predicting how a chain will fold — and designing one to do a chosen job — is incredibly complex. AI, trained on vast amounts of biological data, can now suggest new protein designs far faster than humans could alone.\nWhy does this matter? Custom-made proteins could become powerful tools. Scientists imagine new medicines that fight diseases in precise ways, materials that break down pollution, or sensors that detect illness early. Instead of only using proteins nature happens to provide, we may soon design them to order.\nThere are important cautions. Creating powerful new molecules carries responsibility; scientists must make sure such tools are safe and used wisely. And a design on a computer must still be built and tested carefully in the real world.\nStill, the progress is stunning. For the first time, humans are not just reading nature's instructions but writing new ones of their own. By learning the language of proteins, and using AI to speak it, scientists are opening a door to medicines and materials that nature never made — a new chapter in our long partnership with the living world.",
+        summaryJa: "タンパク質は生命の微小な機械だ。私たちの体を作り、酸素を運び、病気と闘い、無数の仕事をこなす。何十億年もの間、自然は進化を通じてゆっくりタンパク質を作ってきた。今、AIが驚くべきことをしている——自然に存在したことのない、まったく新しいタンパク質を設計するのだ。どうして可能なのか。タンパク質は、特定の順序で並んだ小さな構成要素からでき、それが特定の形に折りたたまれる。その形がタンパク質の働きを決める。鎖がどう折りたたまれるかを予測し、選んだ仕事をするものを設計するのは、途方もなく複雑だ。膨大な生物データで訓練されたAIは今、人間が単独でできるよりはるかに速く新しいタンパク質の設計を提案できる。なぜ重要か。注文製のタンパク質は強力な道具になりうる。科学者は、病気を精密に叩く新薬、汚染を分解する材料、病を早期に検出するセンサーを思い描く。自然がたまたま提供するタンパク質を使うだけでなく、まもなく注文通りに設計できるかもしれない。重要な注意もある。強力な新分子を作ることには責任が伴う。科学者はそうした道具が安全で賢く使われるようにせねばならない。そしてコンピューター上の設計も、現実世界で慎重に作り試験されねばならない。それでも進歩は目を見張る。初めて、人類は自然の指示を読むだけでなく、自らの新しい指示を書いている。タンパク質の言語を学び、AIを使ってそれを話すことで、科学者は自然が決して作らなかった薬や材料への扉を開いている——生きた世界との長い協働の新しい章だ。",
+        quiz: [
+          { q: "AIがしている「驚くべきこと」とは？", options: ["自然に存在しない新しいタンパク質を設計する", "タンパク質を食べる", "進化を止める"], answer: 0 },
+          { q: "タンパク質の働きを決めるものは？", options: ["折りたたまれた特定の形", "色", "重さ"], answer: 0 },
+          { q: "本文が挙げる注意は？", options: ["強力な新分子には責任が伴い安全に使う必要がある", "設計は不要", "タンパク質は無害"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0821-3",
+        title: "The Right to Learn",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Around the world, going to school is something many children take for granted. But for millions of others, an education is still out of reach. Making sure that every child can learn to read, write, and think is one of the great shared goals of our time — and one that many countries and organizations are working together to achieve.\nWhy does education matter so much? Learning gives people the tools to build better lives. A child who can read and count has more chances to find good work, stay healthy, and take part in society. When more people are educated, whole countries grow stronger, with more skilled workers and new ideas. Education is one of the surest paths out of poverty.\nWhy is it still out of reach for some? In many places, poverty, distance, conflict, or a lack of teachers keeps children out of school. Girls, in particular, sometimes face extra barriers. Reaching every child, even in remote or troubled areas, is a huge challenge.\nMuch progress has been made. More children attend school today than ever before, and new tools — from mobile phones to online lessons — are helping learning reach places it never could before. But work remains, and steady effort is needed to make sure no child is left behind.\nThe goal is simple but powerful: that every person, wherever they are born, has the chance to learn. Education does not only change individual lives; it builds a wiser, fairer, and more capable world — a benefit that, in the end, everyone shares.",
+        summaryJa: "世界中で、学校へ行くことは多くの子どもが当たり前と思うものだ。だが他の何百万もの子どもにとって、教育はいまだ手の届かないものだ。あらゆる子どもが読み・書き・考えることを学べるようにすることは、現代の大きな共有目標の一つ——そして多くの国や組織が協力して達成しようとしているものだ。なぜ教育がそれほど重要か。学ぶことは、より良い人生を築く道具を人々に与える。読み書きと計算ができる子は、良い仕事を見つけ、健康を保ち、社会に参加する機会がより多い。より多くの人が教育を受ければ、国全体が強くなる——熟練労働者と新しい発想が増えて。教育は貧困から抜け出す最も確実な道の一つだ。なぜ一部にはまだ届かないのか。多くの場所で、貧困・距離・紛争・教師の不足が子どもを学校から遠ざける。特に女子は、時に余分な障壁に直面する。遠隔地や困難な地域でさえあらゆる子に届くことは、大きな挑戦だ。多くの進歩があった。今日、かつてないほど多くの子が学校に通い、新しい道具——携帯電話からオンライン授業まで——が、かつて届かなかった場所へ学びを届けている。だが仕事は残り、どの子も取り残さないためには着実な努力が要る。目標は単純だが力強い——どこで生まれた人も、学ぶ機会を持つこと。教育は個人の人生を変えるだけでなく、より賢く、公正で、有能な世界を築く——結局、皆が分かち合う利益なのだ。",
+        quiz: [
+          { q: "教育が重要な理由は？", options: ["より良い人生の道具を与え貧困から抜け出す道になる", "何の役にも立たない", "移動を止める"], answer: 0 },
+          { q: "教育が一部に届かない理由は？", options: ["貧困・距離・紛争・教師の不足", "子どもが多すぎる", "学校が嫌いだから"], answer: 0 },
+          { q: "本文の目標は？", options: ["どこで生まれた人も学ぶ機会を持つこと", "一部の人だけ学ぶこと", "教育をやめること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0821-4",
+        title: "The Art of Wrapping with Cloth",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, there is a simple square of cloth that can become a bag, a gift wrapping, or a way to carry almost anything. It is called furoshiki, and for centuries people have used it to wrap and carry objects of all shapes and sizes. Today, as the world looks for ways to waste less, this old idea is gaining new attention.\nHow does it work? A furoshiki is just a piece of cloth, often beautifully patterned. By folding and tying it in different ways, a person can wrap a book, a bottle, a box, or a round melon, and carry it easily by the knot. When the cloth is not in use, it folds flat and takes up almost no space. The same cloth can be used again and again.\nWhy is furoshiki interesting today? Much of modern life produces waste, especially from packaging and single-use bags. A furoshiki, by contrast, is reusable, long-lasting, and often lovely to look at. Wrapping a gift in cloth can feel more personal and thoughtful than using paper that will be thrown away.\nThere is also skill and beauty in it. Learning the different folds is a small art, and a well-wrapped furoshiki is a pleasure to give and receive.\nThe furoshiki shows how a simple, traditional idea can fit perfectly into modern life. In a world trying to use less and waste less, a humble square of cloth — flexible, reusable, and beautiful — offers a gentle, elegant answer to a very modern problem.",
+        summaryJa: "日本には、バッグにも、贈り物の包みにも、ほとんど何でも運ぶ手段にもなる、一枚の四角い布がある。「風呂敷」と呼ばれ、何世紀もの間、人々はあらゆる形と大きさの物を包み運ぶのに使ってきた。今日、世界が無駄を減らす方法を探す中、この古い発想が新たな注目を集めている。どう使うのか。風呂敷はただの布で、しばしば美しい柄がある。異なる方法で折って結ぶことで、本・瓶・箱・丸いメロンを包み、結び目で楽に運べる。使わないときは平らに畳め、ほとんど場所を取らない。同じ布を何度も使える。なぜ今、風呂敷が興味深いのか。現代生活の多くは、特に包装や使い捨ての袋から廃棄物を生む。対照的に風呂敷は再利用でき、長持ちし、見た目も美しいことが多い。布で贈り物を包むことは、捨てられる紙を使うより、個人的で心のこもった感じがしうる。そこには技と美もある。異なる結び方を学ぶのは小さな芸術で、うまく包まれた風呂敷は贈るのも受け取るのも楽しい。風呂敷は、単純で伝統的な発想が現代生活にぴったり合いうることを示す。より少なく使い、より少なく捨てようとする世界で、質素な四角い布——柔軟で、再利用でき、美しい——が、とても現代的な問題への穏やかで優雅な答えを差し出す。",
+        quiz: [
+          { q: "「風呂敷」とは何か？", options: ["物を包み運べる一枚の四角い布", "硬い箱", "紙の袋"], answer: 0 },
+          { q: "今、風呂敷が注目される理由は？", options: ["再利用でき長持ちし無駄を減らせるから", "一度しか使えないから", "高価だから"], answer: 0 },
+          { q: "本文が示すことは？", options: ["単純で伝統的な発想が現代の問題に合いうる", "伝統は無意味", "包装は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0821-5",
+        title: "The Grand Canyon's Deeper Story",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "The Grand Canyon is one of the most famous natural wonders on Earth. Most people know that a river slowly carved it over millions of years. But scientists have discovered that part of its story may be far older and stranger than we thought — reaching back nearly a billion years, long before the river existed.\nWhat did they find? Deep inside the canyon, some of the ancient rock may have been exposed not by the river, but by a huge cliff system that formed when a supercontinent broke apart. Long ago, the Earth's land was joined into giant supercontinents that slowly split and drifted. As one of these ancient landmasses tore apart, it may have lifted and exposed rock that we now see at the canyon's heart.\nWhy does this matter? It reminds us that the Earth has a very long and active history. The ground beneath our feet, which seems so solid and permanent, has been rising, sinking, breaking, and moving for billions of years. Reading the layers of rock in a place like the Grand Canyon is like turning the pages of an enormous book about our planet's past.\nStudying such deep history is difficult and slow, requiring careful measurement and clever detective work with clues locked in stone.\nThe discovery deepens our wonder at a famous place. The Grand Canyon is not only beautiful; it is a record of unimaginable spans of time. Standing at its edge, we look not just across a great distance, but back through nearly a billion years of the Earth's living, changing story.",
+        summaryJa: "グランドキャニオンは地球で最も有名な自然の驚異の一つだ。ほとんどの人は、川が何百万年もかけてゆっくり削ったと知っている。だが科学者は、その物語の一部が、私たちが思っていたよりはるかに古く奇妙かもしれないと発見した——川が存在するはるか前、10億年近く前にさかのぼるのだ。何を見つけたのか。峡谷の奥深くで、古代の岩の一部は川によってでなく、超大陸が分裂したときに形成された巨大な崖の系によって露出したのかもしれない。大昔、地球の陸地は巨大な超大陸に結ばれ、ゆっくり分かれ漂った。こうした古代の陸塊の一つが引き裂かれるとき、今私たちが峡谷の中心に見る岩を持ち上げ露出させたのかもしれない。なぜ重要か。地球が非常に長く活発な歴史を持つことを思い出させる。足下の地面は、あれほど固く永続的に見えるが、何十億年も隆起し、沈み、割れ、動いてきた。グランドキャニオンのような場所の岩の層を読むことは、私たちの惑星の過去についての巨大な本のページをめくるようなものだ。そんな深い歴史の研究は難しく遅く、丁寧な測定と、石に閉じ込められた手がかりでの巧妙な探偵仕事を要する。この発見は、有名な場所への驚きを深める。グランドキャニオンは美しいだけでなく、想像を絶する時の広がりの記録だ。その縁に立つとき、私たちは大きな距離を見渡すだけでなく、地球の生きて変わり続ける物語の10億年近くを振り返っているのだ。",
+        quiz: [
+          { q: "科学者が発見したことは？", options: ["峡谷の一部は川より前、超大陸の分裂で露出したかもしれない", "川は存在しなかった", "峡谷は人が作った"], answer: 0 },
+          { q: "岩の層を読むことは何にたとえられるか？", options: ["惑星の過去についての巨大な本のページをめくること", "絵を描くこと", "音楽を聴くこと"], answer: 0 },
+          { q: "この発見が思い出させることは？", options: ["地球は非常に長く活発な歴史を持つ", "地面は決して動かない", "歴史は短い"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-20",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が太陽の表面で見つけたものは？", options: ["幅わずか約20キロの熱いプラズマの小さな渦", "巨大な氷の塊", "新しい惑星"], answer: 0 },
           { q: "太陽は何でできているか？", options: ["超高温の気体プラズマ", "固い岩", "水"], answer: 0 },
           { q: "この渦の理解が助けうる謎は？", options: ["外側の大気が表面より高温である理由", "月の色", "地球の重さ"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-14",
-    passages: [
-      {
-        id: "d0814-1",
-        title: "Price Wars in Artificial Intelligence",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "When several companies sell a similar service, they often compete on price — and the market for artificial intelligence is no exception. Recently, some AI companies have been cutting the prices they charge to use their systems, while others have raised theirs. Behind these moves lies a fierce battle to win customers in one of the fastest-growing industries in the world.\nWhy cut prices? Lowering the cost of using an AI service can attract more customers, especially businesses that use these tools in large amounts. If a company can offer similar quality for less money, users may switch to it. Winning many customers now can help a company grow and stay ahead, even if profits are thin at first.\nBut cutting prices is risky. Building and running AI systems is enormously expensive, requiring powerful computers and huge amounts of electricity. If prices fall too far, companies may struggle to cover their costs. Some firms instead raise prices, betting that customers will pay more for better speed or quality.\nSpeed itself has become a weapon. A service that answers faster can be more useful, so companies compete not only on price but on how quickly their systems respond.\nFor customers, this competition is mostly good news: more choice, better tools, and often lower prices. For the companies, it is a high-stakes game. In a young and booming market, each must decide whether to chase customers with low prices or profit with higher ones — a classic business question, now playing out at the cutting edge of technology.",
-        summaryJa: "複数の企業が似たサービスを売るとき、しばしば価格で競う——AIの市場も例外ではない。最近、一部のAI企業は自社システムの利用料金を引き下げ、別の企業は引き上げている。こうした動きの背後には、世界で最も急成長する産業の一つで顧客を勝ち取る激しい戦いがある。なぜ値下げするのか。AIサービスの利用コストを下げれば、特にこうした道具を大量に使う企業など、より多くの顧客を惹きつけられる。似た品質をより安く提供できれば、利用者は乗り換えるかもしれない。今多くの顧客を勝ち取ることは、たとえ当初の利益が薄くても、企業の成長と先行維持を助けうる。だが値下げは危険だ。AIシステムの構築と運用は莫大に高価で、強力なコンピューターと大量の電力を要する。価格が下がりすぎれば、企業はコストを賄うのに苦しみうる。一部の企業は代わりに、顧客がより良い速度や品質にはより多く払うと賭けて値上げする。速度そのものも武器になった。より速く答えるサービスはより有用でありうるので、企業は価格だけでなく、システムがどれだけ速く応答するかでも競う。顧客にとって、この競争はおおむね朗報だ——選択肢が増え、道具が良くなり、しばしば価格も下がる。企業にとっては高い賭けだ。若く活況の市場で、各社は低価格で顧客を追うか、高価格で利益を得るかを決めねばならない——古典的な経営の問いが、今や技術の最前線で繰り広げられている。",
-        quiz: [
-          { q: "AI企業が値下げする狙いは？", options: ["より多くの顧客を惹きつけ成長し先行すること", "コストを増やすこと", "顧客を減らすこと"], answer: 0 },
-          { q: "値下げが危険な理由は？", options: ["AIの運用は高価で価格が下がりすぎるとコストを賄えない", "電気が無料だから", "顧客が嫌がるから"], answer: 0 },
-          { q: "価格以外に企業が競う要素は？", options: ["システムの応答の速さ", "建物の色", "社名の長さ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0814-2",
-        title: "Robotaxis Come to the City",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Imagine calling a taxi with your phone, and when it arrives, there is no driver at the wheel. This is becoming real. Companies are preparing to put thousands of self-driving taxis, or 'robotaxis,' onto the roads of European cities, working together with popular ride-hailing apps to reach passengers.\nHow does it work? A robotaxi uses cameras, sensors, and computers to see the road, follow traffic rules, and drive itself. To find customers, some robotaxi companies are teaming up with ride-hailing services people already use. When you request a ride, the app might send a self-driving car instead of a human driver.\nWhy team up with an app? Building the self-driving technology is one challenge; finding passengers is another. A popular app already has millions of users, a payment system, and a way to match riders with cars. By joining forces, a robotaxi maker gets instant access to customers, while the app can offer a new kind of service.\nThere are still hurdles. Self-driving cars must prove they are safe in busy, unpredictable streets. Rules differ from country to country, and some passengers may feel nervous without a driver. Trust takes time to build.\nStill, the change could be significant. Robotaxis might one day make travel cheaper and reduce the need to own a car. For now, each city that welcomes them becomes a real-world test — a place where a technology once seen only in science fiction quietly pulls up to the curb, ready to take passengers into an autonomous future.",
-        summaryJa: "スマホでタクシーを呼び、着いたら運転席に誰もいない——そんな場面を想像してほしい。これが現実になりつつある。企業は、何千台もの自動運転タクシー「ロボタクシー」を欧州の都市の道路に投入する準備を進め、人気の配車アプリと協力して乗客に届こうとしている。どう機能するのか。ロボタクシーはカメラ・センサー・コンピューターを使って道路を見て、交通規則に従い、自ら運転する。顧客を見つけるため、一部のロボタクシー企業は、人々が既に使う配車サービスと組んでいる。乗車を頼むと、アプリが人間の運転手の代わりに自動運転車を送るかもしれない。なぜアプリと組むのか。自動運転技術を作るのは一つの挑戦、乗客を見つけるのは別の挑戦だ。人気アプリには既に何百万もの利用者、決済の仕組み、乗客と車を結ぶ方法がある。力を合わせれば、ロボタクシーの作り手は顧客に即座にアクセスでき、アプリは新種のサービスを提供できる。まだ障害もある。自動運転車は、混雑し予測しにくい街路で安全だと証明せねばならない。規則は国ごとに異なり、運転手がいないと不安を感じる乗客もいる。信頼は築くのに時間がかかる。それでも変化は大きくなりうる。ロボタクシーはいつか移動を安くし、車を所有する必要を減らすかもしれない。今のところ、それを迎える各都市が現実の試験場になる——かつてSFでしか見られなかった技術が、静かに縁石に寄せて、乗客を自律の未来へ乗せる準備をする場所だ。",
-        quiz: [
-          { q: "ロボタクシーが自ら運転する仕組みは？", options: ["カメラ・センサー・コンピューターで道路を見て規則に従う", "運転手が遠隔で運転する", "レールの上を走る"], answer: 0 },
-          { q: "ロボタクシー企業が配車アプリと組む理由は？", options: ["既存の利用者・決済・マッチングにすぐアクセスできる", "技術が不要になるから", "車を隠すため"], answer: 0 },
-          { q: "本文が挙げる障害は？", options: ["安全の証明・国ごとの規則の違い・乗客の不安", "車が速すぎること", "道路が無いこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0814-3",
-        title: "The Long Journey of Everyday Things",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Look closely at an ordinary object — a phone, a shirt, or a chocolate bar — and you may be holding the work of many countries. In today's connected world, the things we use every day are often made through long, complex journeys that cross borders many times before reaching a shop near us.\nHow does this happen? A single product may be designed in one country, using materials dug from the ground in another. Its parts might be made in several places, then shipped somewhere else to be put together. Finally, it travels to stores around the world. This web of steps is called a global supply chain.\nWhy make things this way? Different countries have different strengths — some have raw materials, some have skilled workers, some have advanced factories. By using the best of each, companies can make goods more cheaply and efficiently than any single country could alone. The result is products that are better and often less expensive.\nBut such long chains can be fragile. A storm, a closed port, a shortage, or a political dispute in one country can delay products all over the world. Recent years have shown how quickly a problem in one place can ripple across the globe.\nUnderstanding supply chains helps make sense of the news. When prices rise or shelves go empty, the cause is often far away. Behind almost everything we own is a hidden, worldwide network of people and places, quietly working together to bring the world's goods to our hands.",
-        summaryJa: "ありふれた物——携帯・シャツ・板チョコ——をよく見ると、多くの国の仕事を手にしているかもしれない。今日のつながった世界で、私たちが毎日使う物は、近くの店に届く前に何度も国境を越える、長く複雑な旅を経て作られることが多い。どうしてそうなるのか。一つの製品が、ある国で設計され、別の国の地中から掘り出した材料を使うことがある。その部品はいくつかの場所で作られ、別のどこかへ運ばれて組み立てられる。最後に、世界中の店へ旅する。この工程の網は「グローバル・サプライチェーン（世界的な供給網）」と呼ばれる。なぜこう作るのか。国ごとに強みが違う——材料を持つ国、熟練労働者のいる国、先端工場のある国。それぞれの最良を使うことで、企業はどの一国が単独でできるより安く効率的に物を作れる。結果として、より良く、しばしばより安い製品ができる。だがこうした長い連鎖はもろくなりうる。ある国の嵐・閉ざされた港・不足・政治的対立が、世界中の製品を遅らせうる。近年は、一か所の問題がいかに速く世界へ波及するかを示してきた。供給網を理解すると、ニュースが腑に落ちる。価格が上がったり棚が空になったりするとき、原因はしばしば遠くにある。私たちが持つほぼ全ての物の背後には、世界の品を私たちの手に運ぶため静かに協働する、人と場所の隠れた世界的な網があるのだ。",
-        quiz: [
-          { q: "「グローバル・サプライチェーン」とは？", options: ["国境を越えて物を作り届ける工程の網", "一国だけの工場", "店の名前"], answer: 0 },
-          { q: "各国の強みを使って作る利点は？", options: ["より安く効率的に、より良い製品を作れる", "製品が必ず高くなる", "一国で全て作れる"], answer: 0 },
-          { q: "長い供給網がもろい理由は？", options: ["一か所の問題が世界中の製品を遅らせうる", "物が丈夫すぎるから", "国が一つだから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0814-4",
-        title: "Why Japan Lives So Long",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan is famous for something remarkable: its people live, on average, among the longest lives in the world. Many Japanese reach their eighties, nineties, and beyond, and the country has a large number of people over one hundred years old. Why do people in Japan tend to live so long?\nOne important reason is diet. Traditional Japanese meals include a lot of fish, vegetables, rice, and soy foods, with smaller portions than in many countries. This kind of eating is generally low in unhealthy fats and rich in nutrients, which is good for the heart and body over a lifetime.\nHealthcare also plays a big part. Japan has a system that makes it easy for people to see a doctor, so illnesses can be found and treated early. Regular check-ups help people stay healthy as they age.\nDaily habits matter too. Many people walk or cycle as part of their routine, staying active without needing a gym. Strong social ties — staying connected with family, friends, and community — are also linked to longer, healthier lives.\nOf course, long life brings challenges. As more people grow old and fewer babies are born, Japan must find ways to care for its aging population and support them well.\nStill, Japan's long lives hold useful lessons for everyone. Good food, regular movement, medical care, and close relationships all seem to help. Living long is not the result of a single secret, but of many small, healthy habits, repeated patiently over many years.",
-        summaryJa: "日本はある驚くべきことで有名だ——その人々は平均して、世界で最も長い部類の人生を生きる。多くの日本人が80代・90代、さらにその先に達し、100歳を超える人も多い。なぜ日本の人々はそれほど長生きしがちなのか。重要な理由の一つは食事だ。伝統的な和食は魚・野菜・米・大豆食品を多く含み、多くの国より一人前が小さい。この食べ方は概して不健康な脂肪が少なく栄養に富み、生涯を通じて心臓と体に良い。医療も大きな役割を果たす。日本には医者にかかりやすい仕組みがあり、病気を早く見つけて治療できる。定期健診は、年を重ねても健康を保つ助けになる。日々の習慣も重要だ。多くの人が日課の一部として歩いたり自転車に乗ったりし、ジムを要さず活動的でいる。強い社会的つながり——家族・友人・地域とつながり続けること——も、より長く健康な人生に結びつく。もちろん長寿は課題も生む。より多くの人が老い、生まれる赤ちゃんが減る中、日本は高齢の人々を世話し、よく支える方法を見つけねばならない。それでも日本の長い人生は、誰にとっても有益な教訓を持つ。良い食事、規則的な運動、医療、親密な関係——すべてが助けになるようだ。長生きは一つの秘密の結果でなく、多くの小さな健康的な習慣を、長年忍耐強く繰り返した結果なのだ。",
-        quiz: [
-          { q: "日本人が長生きしがちな理由の一つは？", options: ["魚・野菜・米・大豆中心で量が控えめな食事", "甘い物ばかりの食事", "運動を全くしないこと"], answer: 0 },
-          { q: "医療が長寿に果たす役割は？", options: ["医者にかかりやすく病気を早く見つけ治療できる", "病院が無いこと", "健診をしないこと"], answer: 0 },
-          { q: "本文の結論は？", options: ["長生きは多くの小さな健康習慣の積み重ねの結果", "一つの秘密の薬のおかげ", "運だけで決まる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0814-5",
-        title: "The True Colors of Ancient Creatures",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "When we picture dinosaurs or other ancient animals, we usually imagine dull greens and browns. But how do we really know what color they were? Recently, scientists studying a fossil more than one hundred million years old found evidence that one flying reptile may have shimmered with bright, iridescent greens and pinks — colors that shine and shift like those on a soap bubble or a beetle's shell.\nHow can anyone know the color of an animal that died so long ago? The answer lies in tiny structures. Colors in feathers, skin, and shells often come not only from pigments but from the microscopic shape of the material itself. Certain shapes bend light in ways that create shimmering, changing colors. Amazingly, traces of these tiny structures can sometimes survive in fossils.\nBy examining these structures under powerful microscopes and comparing them to living animals, scientists can make careful guesses about an ancient creature's colors. It is like reading a faint message left behind in stone.\nWhy does color matter to science? Color can tell us how an animal lived — whether it used bright shades to attract mates, to warn enemies, or to blend in. Learning about color helps bring extinct animals to life and reveals how they behaved.\nThe discovery reminds us that the ancient world may have been far more colorful than the grey fossils suggest. With patient study and clever tools, scientists are slowly repainting the past — showing that creatures long gone may once have glittered brilliantly in the light of a very different world.",
-        summaryJa: "恐竜や他の古代の動物を思い描くとき、私たちはたいてい地味な緑や茶色を想像する。だが本当は、彼らが何色だったのかをどう知るのか。最近、1億年以上前の化石を研究する科学者が、ある飛ぶ爬虫類が、明るく虹色に輝く緑やピンク——シャボン玉や甲虫の殻のように光り、移ろう色——できらめいていたかもしれない証拠を見つけた。そんなに昔に死んだ動物の色を、どうして知りうるのか。答えは微細な構造にある。羽・皮膚・殻の色は、しばしば色素だけでなく、材料そのものの顕微鏡的な形から生まれる。特定の形は、きらめき移ろう色を生むように光を曲げる。驚くことに、こうした微細な構造の痕跡が、化石に残ることがある。強力な顕微鏡でこれらの構造を調べ、生きた動物と比べることで、科学者は古代の生き物の色について慎重な推測ができる。石に残されたかすかな伝言を読むようなものだ。なぜ色が科学に重要か。色は、動物がどう生きたか——明るい色合いで配偶者を惹きつけたか、敵を警告したか、周囲に紛れたか——を教えうる。色を知ることは、絶滅した動物を生き生きとよみがえらせ、その振る舞いを明かす助けになる。この発見は、古代の世界が灰色の化石が示すよりはるかに色彩豊かだったかもしれないことを思い出させる。忍耐強い研究と巧妙な道具で、科学者は少しずつ過去を描き直している——遠く消えた生き物が、かつてまったく異なる世界の光の中できらびやかに輝いていたかもしれないことを示して。",
-        quiz: [
-          { q: "科学者が古代の動物の色を知る手がかりは？", options: ["色を生む微細な構造の痕跡が化石に残ること", "当時の絵画", "文字の記録"], answer: 0 },
-          { q: "羽や殻の色が生まれる要因は？", options: ["色素だけでなく材料の顕微鏡的な形", "温度だけ", "音"], answer: 0 },
-          { q: "色が科学に重要な理由は？", options: ["動物がどう生きたか（求愛・警告・擬態）を教えうる", "色は無意味だから", "化石を壊すから"], answer: 0 }
         ]
       }
     ]
