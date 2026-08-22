@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-22",
+    passages: [
+      {
+        id: "d0822-1",
+        title: "The Value of a Good Reputation",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "When you choose which shop to visit or which product to buy, you are often guided by something you cannot see or touch: reputation. A company's reputation — what people believe about its honesty, quality, and reliability — is one of its most valuable assets, even though it never appears directly on a balance sheet.\nWhy is reputation so important? Customers cannot test everything before they buy. When they trust a company, they feel safe choosing it, recommending it to friends, and returning again. A strong reputation can let a business charge fair prices, attract good workers, and survive hard times, because people give it the benefit of the doubt.\nReputation is built slowly, through many small actions: keeping promises, treating customers fairly, making good products, and being honest when something goes wrong. It takes years of steady, careful behavior to earn deep trust.\nYet it can be lost quickly. A single serious mistake — a dangerous product, a broken promise, or an attempt to hide the truth — can damage a reputation built over decades. In the age of the internet, bad news spreads faster than ever, and customers have long memories.\nThat is why wise companies protect their reputation carefully. They know that trust, once lost, is very hard to rebuild.\nThe lesson reaches beyond business. For people and companies alike, a good name is earned through honesty and effort, and guarded with care. In a world full of choices, being known as trustworthy may be the most valuable advantage of all.",
+        summaryJa: "どの店に行くか、どの製品を買うかを選ぶとき、私たちはしばしば、見ることも触ることもできないもの——評判——に導かれる。企業の評判——その誠実さ・品質・信頼性について人々が信じること——は、貸借対照表に直接は現れないが、最も価値ある資産の一つだ。なぜ評判はそれほど重要か。客は買う前にすべてを試せない。企業を信頼すれば、それを選び、友人に勧め、また戻ってくることに安心を感じる。強い評判は、事業が公正な価格をつけ、良い人材を惹きつけ、困難な時を生き延びることを可能にする——人々が「善意に解釈」してくれるからだ。評判はゆっくり築かれる。多くの小さな行動を通じて——約束を守り、客を公正に扱い、良い製品を作り、何か問題が起きたとき正直であること。深い信頼を得るには、着実で丁寧な振る舞いを何年も要する。だが素早く失われうる。一つの重大なミス——危険な製品、破られた約束、真実を隠す試み——が、数十年かけて築いた評判を損ないうる。インターネットの時代に、悪い知らせはかつてなく速く広まり、客の記憶は長い。だから賢い企業は評判を慎重に守る。信頼は一度失うと、再建が非常に難しいと知っているのだ。教訓はビジネスを超える。人も企業も同じく、良い名は誠実さと努力で得られ、丁寧に守られる。選択肢に満ちた世界で、信頼できると知られることは、何より価値ある強みかもしれない。",
+        quiz: [
+          { q: "企業の「評判」とは？", options: ["誠実さ・品質・信頼性について人々が信じること", "建物の大きさ", "従業員の数"], answer: 0 },
+          { q: "強い評判が企業にもたらすものは？", options: ["公正な価格・良い人材・困難を生き延びる力", "客の減少", "即座の倒産"], answer: 0 },
+          { q: "評判について本文が述べることは？", options: ["築くのは遅く失うのは速い", "一瞬で築ける", "失っても簡単に戻る"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0822-2",
+        title: "A Small Satellite with a Big Question",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "When we imagine a satellite, we often picture a huge, expensive machine the size of a bus. But some of the most exciting space science today is being done by tiny satellites, no bigger than a small suitcase. Recently, scientists prepared one such little satellite to help answer a giant question: what happened in the universe's earliest 'dark ages,' before the first stars began to shine?\nHow can something so small do so much? Modern electronics have become powerful and light, so a small satellite can carry sensitive instruments that once needed a much larger craft. Small satellites are also far cheaper to build and launch, which means more scientists — and more countries — can afford to send them into space.\nThe question this satellite hopes to explore is one of the deepest in science. For a long time after the Big Bang, the universe was dark, filled with gas but no stars. Studying faint signals from that period could tell us how the first stars and galaxies formed, and how our universe grew into the one we see today.\nSmall satellites cannot do everything. They have limited power and room for instruments, and they usually focus on one specific task. But by doing that one thing well, and cheaply, they open space science to far more people.\nThe rise of these tiny explorers shows a powerful trend: as technology shrinks, big science no longer requires giant machines. Sometimes a satellite the size of a suitcase can help answer questions as old as the universe itself.",
+        summaryJa: "衛星を想像するとき、私たちはしばしばバスほどの大きさの巨大で高価な機械を思い描く。だが今日、最も刺激的な宇宙科学の一部は、小さなスーツケースほどの小型衛星によって行われている。最近、科学者はそんな小さな衛星の一つを、巨大な問い——最初の星が輝き始める前、宇宙の最も初期の「暗黒時代」に何が起きたのか——に答える助けとするため準備した。そんなに小さいものが、どうしてそれほど多くをできるのか。現代の電子機器は強力で軽くなったので、小型衛星は、かつてはるかに大きな機体を要した高感度の機器を積める。小型衛星は製造も打ち上げもはるかに安く、より多くの科学者——そしてより多くの国——が宇宙へ送る余裕を持てる。この衛星が探ろうとする問いは、科学で最も深いものの一つだ。ビッグバンの後の長い間、宇宙は暗く、ガスに満ちていたが星はなかった。その時代のかすかな信号を研究すれば、最初の星や銀河がどう形成され、私たちの宇宙が今日見るものへどう育ったかを教えてくれるかもしれない。小型衛星は何でもできるわけではない。電力と機器の場所は限られ、たいてい一つの特定の仕事に集中する。だがその一つをうまく、安く行うことで、宇宙科学をはるかに多くの人に開く。こうした小さな探検者の台頭は強力な潮流を示す——技術が小さくなるにつれ、大きな科学はもはや巨大な機械を要さない。時に、スーツケースほどの衛星が、宇宙そのものと同じくらい古い問いに答える助けになりうるのだ。",
+        quiz: [
+          { q: "小型衛星が多くをできる理由は？", options: ["現代の電子機器が強力で軽くなったから", "宇宙が小さいから", "星が明るいから"], answer: 0 },
+          { q: "この衛星が探る問いは？", options: ["最初の星が輝く前の宇宙の「暗黒時代」に何が起きたか", "月の色", "地球の重さ"], answer: 0 },
+          { q: "小型衛星の利点は？", options: ["製造・打ち上げが安くより多くの人が宇宙へ送れる", "何でもできること", "電力が無限なこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0822-3",
+        title: "Feeding the World Without Wasting It",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Around the world, huge amounts of food are thrown away every day. Experts estimate that roughly a third of all the food produced on Earth is never eaten. At the same time, many people do not have enough to eat. This strange gap — waste on one side, hunger on the other — is one of the great challenges facing our world.\nWhy is so much food wasted? Food is lost at every step. On farms, crops may rot before they can be sold. During transport and storage, food can spoil, especially without good refrigeration. In shops and homes, people often buy more than they need and throw away what they do not use. Even small habits, multiplied across billions of people, add up to an enormous waste.\nWhy does it matter? Wasted food means wasted water, land, energy, and work — all the resources used to grow and move it. Rotting food also produces gases that warm the planet. Reducing waste could feed more people while using fewer of the Earth's resources.\nThe good news is that this is a problem we can act on. Better storage and transport can save food in poorer countries. Shops can sell 'imperfect' fruit and vegetables instead of throwing them out. At home, planning meals and saving leftovers makes a real difference.\nFeeding the world is not only about growing more food; it is also about wasting less of what we already have. Small changes, made by many people, can help share the planet's plenty more fairly and wisely.",
+        summaryJa: "世界中で、毎日膨大な量の食べ物が捨てられている。専門家は、地球で生産される全食料の約3分の1が決して食べられないと見積もる。同時に、多くの人が十分に食べられていない。この奇妙な隔たり——一方に無駄、他方に飢え——は、私たちの世界が直面する大きな課題の一つだ。なぜそれほど多くの食べ物が無駄になるのか。食べ物はあらゆる段階で失われる。農場では、作物が売られる前に腐りうる。輸送と保管の間、特に良い冷蔵がなければ食べ物は傷みうる。店や家庭で、人々はしばしば必要以上に買い、使わない分を捨てる。小さな習慣さえ、何十億もの人にわたって掛け合わされ、莫大な無駄になる。なぜ重要か。無駄になった食べ物は、無駄になった水・土地・エネルギー・労働——それを育て運ぶのに使われたすべての資源——を意味する。腐る食べ物は地球を温めるガスも出す。無駄を減らせば、より少ない地球の資源でより多くの人を養える。良い知らせは、これが私たちが行動できる問題だということだ。より良い保管と輸送は、貧しい国で食べ物を救える。店は「不完全な」果物や野菜を捨てる代わりに売れる。家庭では、食事を計画し残り物を活かすことが本当の違いを生む。世界を養うことは、より多くの食料を育てることだけではない。既にあるものをより少なく無駄にすることでもある。多くの人が行う小さな変化が、地球の豊かさをより公正に賢く分かち合う助けになりうる。",
+        quiz: [
+          { q: "本文によると、生産された食料のどれくらいが食べられないか？", options: ["約3分の1", "ほぼ全部", "ごくわずか"], answer: 0 },
+          { q: "食料が無駄になる理由に含まれるものは？", options: ["農場での腐敗、輸送・保管での傷み、買いすぎ", "食料が少なすぎること", "誰も食べないこと"], answer: 0 },
+          { q: "本文が示す良い知らせは？", options: ["保管・輸送の改善や家庭の工夫で行動できる問題である", "もう手遅れである", "無駄は減らせない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0822-4",
+        title: "The Sound of Summer: Japan's Cicadas",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, summer has a sound. From the trees in parks and gardens comes a loud, buzzing chorus that fills the hot air from morning to evening. This is the song of the cicada, an insect so closely tied to the season that, for many Japanese people, summer would not feel complete without it.\nWhat are cicadas? They are large insects that spend most of their lives underground as young larvae, feeding quietly on tree roots. After several years — sometimes many — they climb up into the trees, shed their old skin, and become winged adults. Then, for just a few short weeks, the males sing loudly to attract mates before their lives end.\nThis brief, intense life gives the cicada a special meaning in Japanese culture. Its sudden, powerful song, followed by a quick end, has long been seen as a symbol of how short and precious life can be. Poets have written about the cicada for centuries.\nThe sound itself is part of daily life. Different kinds of cicadas make different songs, and people who grew up in Japan can often tell them apart. The cries also mark the passing of summer: as the season fades, the chorus changes and slowly grows quiet.\nTo a visitor, the noise might seem overwhelming at first. But for many, the cry of the cicada is the very voice of a Japanese summer — a reminder, sung from the trees, to notice the season while it lasts, before it too fades into autumn.",
+        summaryJa: "日本の夏には音がある。公園や庭の木々から、朝から晩まで暑い空気を満たす、大きく響く合唱が聞こえてくる。これはセミの歌だ。この昆虫は季節と深く結びついていて、多くの日本人にとって、それなしでは夏が完成した気がしない。セミとは何か。大きな昆虫で、人生の大半を幼虫として地中で過ごし、木の根から静かに養分を得る。数年——時に何年も——の後、木に登り、古い皮を脱ぎ、翅のある成虫になる。そしてほんの数週間だけ、オスは命が尽きる前に配偶者を引き寄せようと大きく鳴く。この短く激しい生が、日本文化でセミに特別な意味を与える。その突然で力強い歌と、それに続く素早い終わりは、長く、人生がいかに短く貴重でありうるかの象徴と見なされてきた。詩人は何世紀もセミについて詠んできた。音そのものが日常生活の一部だ。種類の異なるセミは異なる歌を奏で、日本で育った人はしばしば聞き分けられる。その鳴き声は夏の移ろいも告げる——季節が薄れるにつれ、合唱は変わり、ゆっくり静かになる。訪問者には、最初その音は圧倒的に思えるかもしれない。だが多くの人にとって、セミの声はまさに日本の夏の声だ——木々から歌われる、季節が続くうちに気づくようにという気づきであり、それもまた秋へと薄れていく前の。",
+        quiz: [
+          { q: "セミは幼虫として人生の大半をどこで過ごすか？", options: ["地中", "木の頂上", "水の中"], answer: 0 },
+          { q: "セミが日本文化で持つ意味は？", options: ["人生がいかに短く貴重かの象徴", "富の象徴", "戦いの象徴"], answer: 0 },
+          { q: "セミの鳴き声が告げるものは？", options: ["夏の移ろい", "冬の始まり", "雨の量"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0822-5",
+        title: "The Vegetable That Might Fight Disease",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Broccoli is a common vegetable, found on dinner plates around the world. Most people know it is healthy, but scientists are now studying a more surprising possibility: that a natural compound in broccoli might help treat a rare and serious disease that has no cure.\nHow can a vegetable help fight illness? Plants are full of complex natural chemicals, made as they grow. Some of these compounds have powerful effects on the human body. Broccoli, in particular, contains substances that scientists have studied for years for their possible health benefits. Recently, researchers found that one such compound may help with a specific rare disease, working in a way that ordinary medicines do not.\nWhy does this matter? Many rare diseases have no treatment at all, because they affect so few people that little research is done. Finding help in a common, cheap, and safe vegetable would be wonderful news — a possible treatment that is easy to obtain and gentle on the body.\nCaution is essential, as always in science. A promising result in the laboratory is far from a finished medicine. Eating broccoli is healthy, but it is not the same as a carefully measured, tested treatment. Years of research are needed before doctors could use such a compound safely.\nStill, the discovery is a reminder that answers to hard problems can hide in familiar places. The foods we eat every day are full of chemistry we do not fully understand — and sometimes, buried in something as ordinary as broccoli, there may be the seed of a cure.",
+        summaryJa: "ブロッコリーは、世界中の食卓に並ぶありふれた野菜だ。ほとんどの人はそれが健康的だと知っているが、科学者は今、より意外な可能性を研究している——ブロッコリーの天然成分が、治療法のない稀で深刻な病気の治療を助けるかもしれない、というものだ。野菜がどうして病気と闘う助けになりうるのか。植物は、育つ過程で作られる複雑な天然化学物質に満ちている。こうした成分の一部は、人体に強力な効果を持つ。特にブロッコリーは、科学者がその健康効果の可能性を長年研究してきた物質を含む。最近、研究者は、そんな成分の一つが、普通の薬とは異なる働き方で、ある特定の稀な病気に役立つかもしれないと見つけた。なぜ重要か。多くの稀な病気には治療法が全くない——影響を受ける人があまりに少なく、研究がほとんど行われないからだ。ありふれて安く安全な野菜に助けを見つけることは、素晴らしい知らせだ——得やすく体に優しい治療の可能性。いつも通り、科学に慎重さは不可欠だ。実験室での有望な結果は、完成した薬にはほど遠い。ブロッコリーを食べるのは健康的だが、慎重に量られ試験された治療と同じではない。医師がそんな成分を安全に使えるまでには何年もの研究が要る。それでもこの発見は、難しい問題への答えが身近な場所に隠れうることを思い出させる。毎日食べる食べ物は、私たちが完全には理解していない化学に満ちている——そして時に、ブロッコリーほどありふれたものの中に、治療の種があるかもしれないのだ。",
+        quiz: [
+          { q: "科学者が研究している意外な可能性は？", options: ["ブロッコリーの成分が稀な病気の治療を助けるかも", "ブロッコリーが有害かも", "野菜は化学物質を含まない"], answer: 0 },
+          { q: "多くの稀な病気に治療法がない理由は？", options: ["影響を受ける人が少なく研究がほとんど行われないから", "治療が簡単すぎるから", "病気が無害だから"], answer: 0 },
+          { q: "本文が促す慎重さは？", options: ["実験室の結果は完成した薬にはほど遠く年月の研究が要る", "ブロッコリーで必ず治る", "医師は不要"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-21",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "火星の探査機が捉えた光景は？", options: ["地球が小さな光の点として現れ月の背後に隠れる", "火星に川が流れる", "太陽が二つある"], answer: 0 },
           { q: "火星から見た地球はどう見えるか？", options: ["月に隠れるほどのかすかな点", "大きな青い球", "すぐ近くの星"], answer: 0 },
           { q: "本文が伝える最も深い価値は？", options: ["地球がどれほど貴重で壊れやすいかを思い出させる", "火星の方が良い", "地球は大きいということ"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-15",
-    passages: [
-      {
-        id: "d0815-1",
-        title: "How New Technology Grows an Economy",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Why do countries invest so much money in science and technology? Around the world, governments are pouring resources into fields like artificial intelligence, biotechnology, and space research. Recently, one large nation announced a major push to accelerate its work in these areas, hoping that new technology will drive economic growth. The reason is simple: today, knowledge itself has become a powerful engine of wealth.\nHow does technology grow an economy? New inventions create new industries, and new industries create jobs. A country that develops advanced skills can build products the world wants to buy, from medicines to machines to software. This brings money into the country and helps it compete globally.\nInvestment in science also has effects that spread widely. A single breakthrough — a better battery, a new crop, a faster computer chip — can help many other businesses. Universities train skilled workers, and research centers attract talented people and companies from around the world.\nOf course, such investment is a gamble. Research is expensive and uncertain; many projects fail, and success can take years or even decades. Governments must choose carefully where to put their money, and be patient while results slowly appear.\nStill, history shows the payoff can be enormous. The industries that power today's economy — computers, the internet, modern medicine — all grew from earlier investment in science. By funding research now, countries are planting seeds for future growth, betting that the knowledge they build today will become the jobs, products, and prosperity of tomorrow.",
-        summaryJa: "なぜ国々は科学技術にそれほど多くのお金を投じるのか。世界中で、政府はAI・バイオテクノロジー・宇宙研究といった分野に資源を注いでいる。最近、ある大国が、新技術が経済成長を牽引すると期待して、これらの分野の取り組みを加速する大きな方針を発表した。理由は単純だ——今日、知識そのものが強力な富の原動力になった。技術はどう経済を成長させるのか。新しい発明が新しい産業を生み、新しい産業が雇用を生む。先端技能を育てる国は、薬から機械、ソフトウェアまで、世界が買いたがる製品を作れる。これが国にお金をもたらし、世界で競う助けになる。科学への投資は広く波及する効果も持つ。一つの突破——より良い電池、新しい作物、より速いチップ——が、他の多くの事業を助けうる。大学は熟練労働者を育て、研究拠点は世界中から才能ある人材や企業を惹きつける。もちろん、こうした投資は賭けだ。研究は高価で不確実で、多くの計画は失敗し、成功には何年、時に何十年もかかりうる。政府はどこにお金を置くか慎重に選び、成果がゆっくり現れる間、忍耐せねばならない。それでも歴史は、見返りが莫大でありうることを示す。今日の経済を動かす産業——コンピューター、インターネット、現代医療——はすべて、以前の科学への投資から育った。今研究に資金を投じることで、国々は未来の成長の種をまき、今日築く知識が明日の雇用・製品・繁栄になると賭けているのだ。",
-        quiz: [
-          { q: "技術が経済を成長させる仕組みは？", options: ["新しい発明が新産業と雇用を生む", "お金を捨てること", "輸入を止めること"], answer: 0 },
-          { q: "科学投資が広く波及する例は？", options: ["一つの突破が他の多くの事業を助ける", "一社だけが得をする", "効果は全くない"], answer: 0 },
-          { q: "こうした投資が「賭け」である理由は？", options: ["研究は高価で不確実、成功に長い時間がかかる", "必ずすぐ成功するから", "費用がかからないから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0815-2",
-        title: "Making Things Closer to Home",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "For a long time, the trend in technology was to make things bigger and more centralized — giant factories, huge power plants, and large farms far from cities. Now a new idea is growing in the opposite direction: producing food, energy, and materials closer to where people actually live and use them. Experts see this shift toward 'distributed' technology as one of the most important trends of our time.\nWhat does this look like? Instead of relying only on distant power stations, homes and neighborhoods can generate their own electricity with solar panels and store it in batteries. Instead of shipping vegetables thousands of kilometers, cities can grow fresh food in indoor farms. New tools even allow small factories to produce parts on demand, close to their customers.\nWhy is this useful? Making things nearby can reduce the long journeys that add cost and pollution. It can also make communities more resilient: if a storm or shortage disrupts distant supplies, a town that produces some of its own energy or food is better protected.\nThere are challenges. Small-scale production is not always cheaper than the huge factories it competes with, and new systems take time and money to build. Not everything can, or should, be made locally.\nStill, the direction is promising. As technology becomes smaller, smarter, and more personal, it can bring production out of distant giants and into everyday communities — giving people more control over the food, energy, and goods that shape their daily lives.",
-        summaryJa: "長い間、技術の潮流は物をより大きく、より中央集権的にすることだった——巨大工場、巨大発電所、都市から遠い大農場。今、逆方向へ新しい発想が育っている——食料・エネルギー・材料を、人々が実際に暮らし使う場所の近くで生産することだ。専門家は、この「分散型」技術への移行を、現代で最も重要な潮流の一つと見る。それはどんな姿か。遠い発電所だけに頼る代わりに、家や地域が太陽光パネルで自ら電気を作り、電池に蓄える。野菜を数千キロ運ぶ代わりに、都市が屋内農場で新鮮な食料を育てる。新しい道具は、小さな工場が顧客の近くで必要に応じて部品を作ることさえ可能にする。なぜ有用か。近くで作れば、費用と汚染を増やす長い旅を減らせる。地域をより強靭にもする——嵐や不足が遠い供給を乱しても、エネルギーや食料の一部を自ら作る町はよりよく守られる。課題もある。小規模生産は、競う巨大工場より必ずしも安くなく、新しい仕組みの構築には時間とお金がかかる。すべてが地元で作れる、あるいは作るべきというわけではない。それでも方向は有望だ。技術がより小さく、賢く、個人的になるにつれ、生産を遠い巨人から日々の地域へと持ち込みうる——人々に、暮らしを形づくる食料・エネルギー・品への、より多くの制御を与えて。",
-        quiz: [
-          { q: "「分散型」技術への移行とは？", options: ["食料・エネルギー・材料を使う場所の近くで生産すること", "全てを一つの巨大工場で作ること", "生産をやめること"], answer: 0 },
-          { q: "近くで作る利点は？", options: ["長い輸送の費用と汚染を減らし地域を強靭にする", "費用を必ず増やす", "汚染を増やす"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["小規模生産は必ずしも安くなく構築に時間と費用がかかる", "地元で全て作れる", "巨大工場が消えた"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0815-3",
-        title: "When the Whole World Looks Up",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Every so often, a natural event captures the attention of people across many countries at the same time. A total solar eclipse is one such moment. When the Moon passes exactly between the Earth and the Sun, it can briefly block the Sun's light, turning day into an eerie twilight. Recently, one such eclipse crossed parts of Europe, drawing crowds of watchers and teams of scientists.\nWhat happens during an eclipse? For a few minutes, the Moon covers the Sun completely along a narrow path on the Earth. The sky darkens, the air grows cooler, and the Sun's faint outer atmosphere becomes visible as a glowing ring. It is a rare and beautiful sight that many people travel far to see.\nEclipses are more than a spectacle. They give scientists a special chance to study the Sun. Instruments on the ground and in space observe the Sun's atmosphere and the 'space weather' it creates, which can affect satellites and power systems on Earth. A single eclipse can teach us a great deal.\nThere is also something human about these events. People from different countries gather in the same fields and cities, sharing the same few minutes of wonder. For a moment, borders and differences seem to fade as everyone looks up at the same sky.\nAn eclipse, then, is both a scientific event and a shared human one. It reminds us that we all live under the same Sun — and that some of the most powerful experiences are the ones the whole world can witness together.",
-        summaryJa: "時折、自然の出来事が、多くの国の人々の注目を同時に集める。皆既日食はそんな瞬間の一つだ。月が地球と太陽のちょうど間を通ると、太陽の光を一時的に遮り、昼を不気味な薄明かりに変えうる。最近、そんな日食が欧州の一部を横切り、見物の群衆と科学者チームを惹きつけた。日食の間、何が起きるのか。数分間、月が地球上の細い帯に沿って太陽を完全に覆う。空は暗くなり、空気は涼しくなり、太陽の淡い外側の大気が輝く環として見えるようになる。多くの人が遠くまで見に行く、稀で美しい光景だ。日食は見世物以上のものだ。科学者に太陽を研究する特別な機会を与える。地上と宇宙の機器が太陽の大気と、それが生む「宇宙天気」——地球の衛星や電力系統に影響しうる——を観測する。一度の日食が多くを教えうる。こうした出来事には人間的な何かもある。異なる国の人々が同じ野や都市に集い、同じ数分間の驚きを分かち合う。一瞬、誰もが同じ空を見上げる中で、国境や違いが薄れて見える。だから日食は、科学の出来事であり、共有される人間的な出来事でもある。私たちが皆、同じ太陽の下に生きていること——そして最も強烈な体験のいくつかは、世界全体が共に目撃できるものであることを思い出させる。",
-        quiz: [
-          { q: "皆既日食はどうして起きるか？", options: ["月が地球と太陽の間を通り太陽の光を遮る", "太陽が消えるから", "地球が止まるから"], answer: 0 },
-          { q: "日食が科学者にとって価値ある理由は？", options: ["太陽の大気や「宇宙天気」を研究する機会になる", "何も学べない", "地球を暗くするため"], answer: 0 },
-          { q: "本文が日食に見出す人間的な意味は？", options: ["異なる国の人々が同じ空を見上げ驚きを分かち合う", "国境を強めること", "争いを生むこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0815-4",
-        title: "The Quiet Art of the Japanese Garden",
-        level: "★★☆",
-        genre: "日本",
-        text: "In the middle of a busy Japanese city, you can sometimes step through a gate and suddenly find calm. Japanese gardens are famous around the world for their beauty and their deep sense of peace. Unlike gardens designed simply to show many bright flowers, a Japanese garden is carefully arranged to feel natural, balanced, and quiet.\nWhat makes these gardens special? Every element is chosen with care — rocks, water, moss, trees, and gravel are placed to create harmony. A pond may reflect the sky, a stone path may lead the eye slowly through the scene, and raked gravel may suggest flowing water, even where there is none. Nothing is random, yet the whole garden feels as if nature made it.\nMany Japanese gardens are also tied to ideas about the seasons and the passing of time. Cherry blossoms in spring, green leaves in summer, red maples in autumn, and bare branches in winter each bring their own beauty. The garden changes through the year, reminding visitors that nothing stays the same.\nThese gardens are meant to be experienced slowly. Visitors are invited to walk quietly, sit, and simply look, letting their thoughts settle. In a fast and noisy world, this kind of calm has become more valuable than ever.\nA Japanese garden, then, is more than a pretty place. It is a work of art that teaches patience and attention, a small, carefully made world where people can pause, breathe, and feel, for a while, a deep and simple peace.",
-        summaryJa: "忙しい日本の都市の真ん中で、門をくぐると突然、静けさに出会うことがある。日本庭園は、その美しさと深い安らぎの感覚で世界中に有名だ。ただ多くの鮮やかな花を見せるために設計された庭と違い、日本庭園は自然で・調和し・静かに感じられるよう入念に整えられている。これらの庭を特別にするものは何か。あらゆる要素が丁寧に選ばれる——石・水・苔・木・砂利が調和を生むように配される。池は空を映し、石の小道は視線をゆっくり景色へ導き、掻き均した砂利は、水が無くても流れる水を思わせる。何も無作為ではないのに、庭全体が自然が作ったかのように感じられる。多くの日本庭園は、季節や時の移ろいの考えにも結びつく。春の桜、夏の緑の葉、秋の紅葉、冬の裸の枝が、それぞれの美をもたらす。庭は一年を通じて変わり、何も同じままではないことを訪れる人に思い出させる。これらの庭は、ゆっくり体験されるためのものだ。訪問者は静かに歩き、座り、ただ眺め、思いを落ち着かせるよう誘われる。速く騒がしい世界で、この種の静けさはかつてなく価値あるものになった。だから日本庭園は、美しい場所以上のものだ。忍耐と注意を教える芸術作品であり、人々が立ち止まり、息をつき、しばし深く単純な安らぎを感じられる、小さく丁寧に作られた世界なのだ。",
-        quiz: [
-          { q: "日本庭園が普通の花壇と違う点は？", options: ["自然で調和し静かに感じるよう入念に整えられる", "できるだけ多くの花を見せる", "無作為に作られる"], answer: 0 },
-          { q: "掻き均した砂利が表すものは？", options: ["水が無くても流れる水を思わせる", "本物の川", "道路"], answer: 0 },
-          { q: "日本庭園の楽しみ方は？", options: ["静かに歩き座り眺めて思いを落ち着かせる", "急いで通り過ぎる", "大声で話す"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0815-5",
-        title: "Tiny Whirlpools on the Sun",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "The Sun may look like a smooth, glowing ball, but its surface is a wild and stormy place. Recently, scientists using powerful instruments discovered something new there: tiny whirlpools of hot, electrically charged gas, some only about twenty kilometers wide. On the scale of the Sun, which is more than a million kilometers across, these swirls are astonishingly small.\nWhat are these whirlpools? The Sun is made of plasma, a superheated gas so hot that it behaves differently from ordinary matter. This plasma is always moving, boiling and swirling like water in a pot. The newly seen whirlpools are small, spinning eddies within that restless sea of fire.\nWhy do such tiny features matter? Scientists believe that small movements on the Sun's surface may help carry energy upward into its outer atmosphere, which is strangely much hotter than the surface below. Understanding these swirls could help solve that long-standing mystery, and also improve our knowledge of 'space weather' — the flow of energy and particles that can affect satellites and power grids on Earth.\nSeeing something so small on a body so vast and distant is a triumph of technology. It requires instruments sensitive enough to spot fine detail across ninety-three million miles of space.\nThe discovery is a reminder that even the Sun, which we see every day, still holds secrets. By studying it ever more closely, scientists slowly unravel how our nearest star works — and, in doing so, learn more about the light and energy that make life on Earth possible.",
-        summaryJa: "太陽は滑らかに輝く球に見えるかもしれないが、その表面は荒々しく嵐のような場所だ。最近、強力な機器を使う科学者が、そこに新しいものを見つけた——熱く電気を帯びた気体の小さな渦、いくつかは幅わずか約20キロほどだ。差し渡し100万キロを超える太陽の尺度では、これらの渦は驚くほど小さい。この渦とは何か。太陽はプラズマ——普通の物質とは異なる振る舞いをするほど超高温の気体——でできている。このプラズマは常に動き、鍋の水のように沸き渦巻く。新たに見えた渦は、その休みない火の海の中の、小さく回転する渦だ。なぜそんな小さな特徴が重要か。科学者は、太陽表面の小さな動きが、エネルギーを外側の大気へ上向きに運ぶ助けになるかもしれないと考える——その外側の大気は、不思議なことに下の表面よりずっと高温なのだ。これらの渦を理解することは、その長年の謎を解く助けになり、「宇宙天気」——地球の衛星や電力網に影響しうるエネルギーと粒子の流れ——の知識も高めうる。これほど広大で遠い天体で、これほど小さなものを見るのは技術の勝利だ。9300万マイルの宇宙の彼方で細部を捉えられるほど高感度な機器を要する。この発見は、毎日見る太陽でさえ今も秘密を抱えていることを思い出させる。それをますます細かく研究することで、科学者は最も近い恒星がどう働くかを少しずつ解き明かす——そしてそうする中で、地球の生命を可能にする光とエネルギーについてより多くを学ぶのだ。",
-        quiz: [
-          { q: "科学者が太陽の表面で見つけたものは？", options: ["幅わずか約20キロの熱いプラズマの小さな渦", "巨大な氷の塊", "新しい惑星"], answer: 0 },
-          { q: "太陽は何でできているか？", options: ["超高温の気体プラズマ", "固い岩", "水"], answer: 0 },
-          { q: "この渦の理解が助けうる謎は？", options: ["外側の大気が表面より高温である理由", "月の色", "地球の重さ"], answer: 0 }
         ]
       }
     ]
