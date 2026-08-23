@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-23",
+    passages: [
+      {
+        id: "d0823-1",
+        title: "Why Feedback Matters at Work",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "In any workplace, one simple thing can make a huge difference to how well people do their jobs: feedback. Feedback is information about how well something is going — praise for what works, and honest advice about what could be better. Companies that use feedback well tend to improve faster, while those that avoid it often repeat the same mistakes.\nWhy is feedback so powerful? People cannot always see their own errors, and they may not know which parts of their work are most valued. Clear, kind feedback helps them understand what to keep doing and what to change. It also shows that others are paying attention and care about the result.\nGood feedback has a few key features. It is specific, pointing to real examples rather than vague complaints. It is timely, given soon after the work, while it still matters. And it is balanced, mixing encouragement with suggestions, so people feel motivated rather than discouraged.\nFeedback should flow in every direction. Managers give it to workers, but wise leaders also ask for feedback about themselves, and teammates share it with one another. A company where people can speak honestly, without fear, tends to be healthier and more creative.\nThere are challenges. Giving criticism kindly is a skill, and receiving it without taking offense is another. Both take practice and trust.\nStill, the lesson is clear. Businesses grow by learning, and feedback is how learning happens day to day. A company that listens — really listens — to what is working and what is not gives itself the best chance to improve.",
+        summaryJa: "どんな職場でも、人々の仕事の出来を大きく左右する単純なものがある——フィードバックだ。フィードバックとは、物事がどれだけうまくいっているかについての情報——うまくいっている点への称賛と、より良くできる点への正直な助言だ。フィードバックをうまく使う企業は速く改善する傾向があり、避ける企業はしばしば同じ過ちを繰り返す。なぜフィードバックはそれほど強力か。人は自分の誤りを常に見られるわけではなく、自分の仕事のどの部分が最も評価されているかを知らないこともある。明確で優しいフィードバックは、何を続け何を変えるべきかを理解する助けになる。他者が注意を払い、結果を気にかけていることも示す。良いフィードバックにはいくつかの鍵がある。具体的で、漠然とした不満でなく実例を指す。適時で、仕事の直後、まだ意味のあるうちに与えられる。そしてバランスが取れ、励ましと提案を混ぜるので、人はやる気をなくすより高まる。フィードバックはあらゆる方向に流れるべきだ。上司が部下に与えるが、賢い指導者は自分についてのフィードバックも求め、同僚同士も分かち合う。恐れずに正直に話せる企業は、より健全で創造的になりやすい。課題もある。批判を優しく伝えるのは技能で、気を悪くせず受け取るのも別の技能だ。どちらも練習と信頼を要する。それでも教訓は明快だ。ビジネスは学ぶことで成長し、フィードバックは日々学びが起きる方法だ。何がうまくいき何がいかないかに——本当に——耳を傾ける企業は、改善の最良の機会を自らに与えるのだ。",
+        quiz: [
+          { q: "フィードバックとは？", options: ["うまくいく点への称賛と改善点への正直な助言", "罰だけ", "給与の額"], answer: 0 },
+          { q: "良いフィードバックの特徴は？", options: ["具体的・適時・バランスが取れている", "漠然・遅い・批判だけ", "秘密である"], answer: 0 },
+          { q: "本文の教訓は？", options: ["ビジネスは学びで成長しフィードバックが日々の学びを生む", "フィードバックは無用", "批判は常に避けるべき"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0823-2",
+        title: "AI That Listens to Meetings",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Meetings are a big part of work life, but they can be hard to manage. People forget what was decided, important points get lost, and it is difficult to see patterns across many meetings over time. Now, some companies are using artificial intelligence to help. Recently, one Japanese online platform began using AI to review its management meetings and analyze activity across the whole company.\nHow does meeting AI work? First, it can turn spoken words into written text, creating a record of what was said. Then it can summarize long discussions into short notes, list the decisions and tasks, and even spot themes that come up again and again. Instead of one person taking notes, the AI captures everything and organizes it.\nWhy is this useful? A clear record helps everyone remember what was agreed and who is responsible for each task. By analyzing many meetings, a company can also notice bigger patterns — which topics take the most time, or which problems keep returning.\nThere are important cautions. Recording meetings raises questions about privacy, so people should know when AI is listening. The AI can also make mistakes, so its summaries need checking. And a machine cannot replace human judgment about what truly matters.\nUsed carefully, though, this technology can save time and help teams work better. It is part of a wider trend: using AI not to replace people, but to handle the slow, repetitive parts of work — freeing humans to focus on discussion, decisions, and ideas that machines cannot provide.",
+        summaryJa: "会議は仕事生活の大きな部分だが、扱いが難しいことがある。人は決まったことを忘れ、重要な点が失われ、多くの会議にまたがる傾向を時系列で見るのは難しい。今、一部の企業がAIを使って助けを得ている。最近、ある日本のオンラインプラットフォームが、経営会議を見直し、会社全体の活動を分析するのにAIを使い始めた。会議AIはどう働くのか。まず、話し言葉を文字に変え、何が話されたかの記録を作れる。次に、長い議論を短いメモに要約し、決定事項と作業を並べ、繰り返し出てくるテーマさえ見つけられる。一人がメモを取る代わりに、AIがすべてを捉え整理する。なぜ有用か。明確な記録は、何が合意され誰が各作業に責任を持つかを皆が覚える助けになる。多くの会議を分析することで、企業はより大きな傾向——どの話題が最も時間を取るか、どの問題が繰り返し戻るか——にも気づける。重要な注意もある。会議の録音はプライバシーの問いを生むので、いつAIが聞いているかを人は知るべきだ。AIも誤りうるので、その要約は確認が要る。そして機械は、本当に重要なことについての人間の判断に取って代われない。だが慎重に使えば、この技術は時間を節約しチームがよりよく働く助けになる。より広い潮流の一部だ——AIを人に取って代えるためでなく、仕事の遅く反復的な部分を担わせるために使い、人間が議論・決定・機械には出せない発想に集中できるようにする。",
+        quiz: [
+          { q: "会議AIができることは？", options: ["話し言葉を文字にし要約や決定事項の整理をする", "会議を禁止する", "人を解雇する"], answer: 0 },
+          { q: "多くの会議を分析する利点は？", options: ["どの話題が時間を取るかなど大きな傾向に気づける", "何も分からない", "会議が増えるだけ"], answer: 0 },
+          { q: "本文が挙げる注意は？", options: ["録音のプライバシーやAIの誤りへの確認が必要", "AIは完璧である", "確認は不要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0823-3",
+        title: "The World Moves to the City",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "For most of human history, the majority of people lived in the countryside, close to farms and fields. That has changed dramatically. Today, more than half of all people on Earth live in cities, and that share keeps rising. This great movement of people into cities — called urbanization — is reshaping how the whole world lives.\nWhy are people moving to cities? Cities offer jobs, schools, hospitals, and chances that rural areas often cannot match. Young people, in particular, move to cities hoping for better work and a wider life. As economies grow, more and more of their activity happens in and around large cities.\nCity life brings real benefits. Living close together can be efficient: services, transport, and businesses can reach many people at once. Cities are also centers of ideas, art, and innovation, where people from different backgrounds meet and create new things.\nBut rapid growth brings challenges. Housing can become expensive and crowded. Traffic, pollution, and pressure on water and energy can rise. If cities grow faster than the services people need, some residents may be left behind.\nThat is why planning matters so much. Well-designed cities provide good transport, green spaces, clean water, and homes people can afford. Poorly planned ones can trap people in difficult conditions.\nThe move to cities is one of the defining trends of our age. How countries manage it — building cities that are livable, fair, and sustainable — will shape the daily lives of billions of people, and the health of the planet, for generations to come.",
+        summaryJa: "人類の歴史の大半で、大多数の人は田舎に、農場や畑の近くに住んでいた。それが劇的に変わった。今日、地球の全人口の半数以上が都市に住み、その割合は上がり続けている。この都市への人々の大移動——都市化——は、世界全体の暮らし方を作り替えている。なぜ人々は都市へ移るのか。都市は、田舎ではしばしば及ばない仕事・学校・病院・機会を与える。特に若者は、より良い仕事と広い人生を求めて都市へ移る。経済が成長するにつれ、その活動のますます多くが大都市とその周辺で起きる。都市生活には本当の利点がある。近くに住むことは効率的でありうる——サービス・交通・事業が一度に多くの人に届く。都市はまた、異なる背景の人々が出会い新しいものを生む、発想・芸術・革新の中心でもある。だが急成長は課題をもたらす。住居は高価で過密になりうる。交通・汚染、水やエネルギーへの圧力が高まりうる。都市が人々の必要とするサービスより速く育てば、一部の住民は取り残されうる。だから計画が非常に重要だ。よく設計された都市は、良い交通・緑地・清潔な水・手頃な住居を提供する。計画の悪い都市は、人々を困難な状況に閉じ込めうる。都市への移動は現代を特徴づける潮流の一つだ。各国がそれをどう管理するか——住みやすく、公正で、持続可能な都市を築くか——が、何十億もの人々の日々の暮らしと、地球の健康を、何世代にもわたって形づくる。",
+        quiz: [
+          { q: "「都市化」とは？", options: ["人々が都市に移り住む大きな流れ", "田舎に戻ること", "都市を壊すこと"], answer: 0 },
+          { q: "人々が都市へ移る理由は？", options: ["仕事・学校・病院・機会があるから", "田舎が好きだから", "都市が静かだから"], answer: 0 },
+          { q: "急成長する都市の課題は？", options: ["住居の高騰・過密・交通や汚染の増加", "何も問題がない", "人が減ること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0823-4",
+        title: "When a Pond Turns Green",
+        level: "★★☆",
+        genre: "日本",
+        text: "Visitors to a famous park in Tokyo were surprised to find its pond had changed color, turning a bright, cloudy green — almost the shade of matcha tea. The water was not painted or polluted with dye. The strange color came from something natural and alive: a sudden bloom of tiny organisms called phytoplankton.\nWhat is phytoplankton? These are microscopic living things that float in water and, like plants, use sunlight to grow. They are a normal and important part of ponds, lakes, and oceans, forming the base of the food chain for many creatures. Usually there are too few to notice. But under the right conditions, their numbers can explode.\nWhy do these blooms happen? Warm weather, plenty of sunlight, and extra nutrients in the water — sometimes from fallen leaves, bird droppings, or runoff — can cause phytoplankton to multiply very quickly. When billions gather near the surface, they can turn the whole pond a vivid green.\nAre blooms harmful? Often they are harmless and fade on their own as conditions change. But very large blooms can use up oxygen in the water or block sunlight, which may harm fish and other life. Scientists watch them carefully.\nThe green pond is a small, visible reminder of the hidden life in water all around us. Usually invisible, phytoplankton quietly support entire ecosystems and even help produce the oxygen we breathe. A pond turning the color of matcha is nature showing us, for a moment, just how alive still water can be.",
+        summaryJa: "東京の有名な公園の訪問者は、その池が色を変え、明るく濁った緑——ほとんど抹茶の色合い——になっているのに驚いた。水は塗られたのでも染料で汚されたのでもない。その奇妙な色は、自然で生きたもの——植物プランクトンと呼ばれる小さな生き物の突然の大発生——から来た。植物プランクトンとは何か。水中に浮かび、植物のように日光を使って育つ微小な生き物だ。池・湖・海の正常で重要な一部であり、多くの生き物の食物連鎖の土台をなす。普通は少なすぎて気づかない。だが適した条件下で、その数は爆発しうる。なぜこうした大発生が起きるのか。暖かい天気、豊富な日光、水中の余分な栄養——時に落ち葉・鳥のふん・流入水から——が、植物プランクトンを非常に速く増やしうる。数十億が水面近くに集まると、池全体を鮮やかな緑に変えうる。大発生は有害か。多くの場合は無害で、条件が変わると自然に消える。だが非常に大きな発生は、水中の酸素を使い果たしたり日光を遮ったりして、魚や他の生命を害しうる。科学者は注意深く見守る。緑の池は、私たちの周りの水中の隠れた生命の、小さく目に見える気づきだ。普段は見えない植物プランクトンが、静かに生態系全体を支え、私たちが呼吸する酸素の生成さえ助ける。抹茶の色になる池は、静かな水がどれほど生きているかを、一瞬、自然が私たちに見せているのだ。",
+        quiz: [
+          { q: "池が緑になった原因は？", options: ["植物プランクトンの突然の大発生", "絵の具", "泥だけ"], answer: 0 },
+          { q: "大発生が起きる条件は？", options: ["暖かさ・豊富な日光・余分な栄養", "寒さと暗さ", "水が少ないこと"], answer: 0 },
+          { q: "植物プランクトンが果たす役割は？", options: ["食物連鎖を支え酸素の生成も助ける", "水を汚すだけ", "何もしない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0823-5",
+        title: "The Stars That Skim Black Holes",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "A black hole is one of the most powerful and frightening objects in the universe. Its gravity is so strong that not even light can escape once it gets too close. So it is astonishing that scientists have found stars that repeatedly fly past giant black holes — and survive, again and again.\nHow is this possible? At the center of many galaxies sits a supermassive black hole, millions of times heavier than our Sun. Some stars travel on long paths that bring them very close to such a black hole, then swing away again, like a comet looping around the Sun. Each time a star skims past, the black hole's gravity pulls fiercely on it, tearing away some of its outer material. This releases a bright burst of light that astronomers can detect.\nWhy does the star survive? If a star came too close, it would be torn apart completely. But these stars follow paths that bring them near enough to lose a little material, yet not so near that they are destroyed. So they return, over and over, each pass producing a new flash of light.\nWhy study this? Watching these repeating bursts helps scientists learn about black holes, which are otherwise invisible. The light reveals a black hole's size, its gravity, and how matter behaves in such extreme conditions.\nThese daring stars remind us how dramatic the universe can be. Far away, in the hearts of galaxies, stars dance again and again at the edge of destruction — and, in their bright, repeated flashes, help us understand the darkest objects in space.",
+        summaryJa: "ブラックホールは宇宙で最も強力で恐ろしい天体の一つだ。その重力はあまりに強く、近づきすぎると光さえ逃げられない。だから科学者が、巨大なブラックホールのそばを繰り返し飛び過ぎ、何度も生き延びる星を見つけたのは驚きだ。どうして可能なのか。多くの銀河の中心には、太陽の数百万倍も重い超大質量ブラックホールがある。一部の星は、そんなブラックホールに非常に近づき、また離れていく長い軌道を進む——太陽を回る彗星のように。星がそばをかすめるたび、ブラックホールの重力が激しく引き、外側の物質の一部を剥ぎ取る。これが、天文学者が検出できる明るい光の閃きを放つ。なぜ星は生き延びるのか。近づきすぎれば完全に引き裂かれる。だがこれらの星は、少し物質を失うほど近いが、破壊されるほどではない軌道を進む。だから何度も戻り、各通過が新しい光の閃きを生む。なぜ研究するのか。この繰り返す閃きを見ることは、さもなければ見えないブラックホールについて学ぶ助けになる。光はブラックホールの大きさ・重力、そしてそんな極限条件で物質がどう振る舞うかを明かす。これらの大胆な星は、宇宙がいかに劇的でありうるかを思い出させる。遠く、銀河の中心で、星は破壊の縁で何度も踊り——その明るく繰り返す閃きの中で、宇宙で最も暗い天体を理解する助けをくれる。",
+        quiz: [
+          { q: "科学者が見つけた驚きの星とは？", options: ["巨大ブラックホールのそばを繰り返し飛び生き延びる星", "光でできた星", "全く動かない星"], answer: 0 },
+          { q: "星がそばをかすめると何が起きるか？", options: ["重力が外側の物質を剥ぎ取り明るい閃きを放つ", "星が即座に消える", "何も起きない"], answer: 0 },
+          { q: "この現象を研究する理由は？", options: ["見えないブラックホールの大きさや重力を学べるから", "星を壊すため", "光を消すため"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-22",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が見つけた驚きは？", options: ["自然が人間より前に生分解性プラスチックを発明していた", "プラスチックは最近生まれた", "細菌は無害でない"], answer: 0 },
           { q: "自然版プラスチックが人間の物と違う点は？", options: ["他の小さな生物に分解され食べられる", "決して分解しない", "金属でできている"], answer: 0 },
           { q: "この発見が有用な理由は？", options: ["使い終わると安全に消える新素材の設計に役立つ", "プラスチックを増やせる", "海を汚せる"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-16",
-    passages: [
-      {
-        id: "d0816-1",
-        title: "How Heat Affects Business",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "This year is likely to be one of the hottest ever recorded, and rising temperatures are not only a problem for the environment — they are increasingly a problem for business. From farms to factories to shops, extreme heat touches almost every part of the economy, in ways many people do not notice.\nHow does heat affect business? On very hot days, outdoor workers must slow down or stop for safety, which delays construction and farming. Crops can wither in the fields, raising food prices. Machines and computers, especially in data centers, need more cooling, which uses more electricity and costs more money. Even shoppers may stay home when it is too hot to go out.\nHeat also drives demand in some areas. Sales of air conditioners, cold drinks, and fans rise, and electricity use soars as people try to stay cool. This can strain power grids and push energy prices higher for everyone.\nBecause of these effects, companies are learning to plan for heat. Some change working hours to avoid the hottest part of the day, redesign buildings to stay cool, or invest in more reliable energy. Insurers and investors increasingly ask how well a business can handle extreme weather.\nThe lesson is clear: climate is now a business issue, not just an environmental one. As hot years become more common, the companies that prepare — protecting their workers, their supplies, and their costs — will be better placed to succeed in a warming world.",
-        summaryJa: "今年は記録上最も暑い年の一つになりそうで、気温上昇は環境だけの問題ではない——ますますビジネスの問題でもある。農場から工場、店まで、猛暑は経済のほぼあらゆる部分に、多くの人が気づかない形で触れる。暑さはどうビジネスに影響するのか。非常に暑い日、屋外労働者は安全のため作業を緩めるか止めねばならず、建設や農業が遅れる。作物は畑で枯れ、食料価格を押し上げうる。機械やコンピューター、特にデータセンターはより多くの冷却を要し、より多くの電力を使い費用がかさむ。暑すぎて外出できないと、買い物客が家にとどまることさえある。暑さは一部で需要も生む。エアコン・冷たい飲み物・扇風機の売上が伸び、人々が涼を求めて電力使用が急増する。これは電力網に負担をかけ、皆にとってエネルギー価格を押し上げうる。こうした影響のため、企業は暑さに備えることを学んでいる。最も暑い時間帯を避けて勤務時間を変え、涼しく保つよう建物を設計し直し、より信頼できるエネルギーに投資する企業もある。保険会社や投資家は、企業が極端な気象にどれだけ対処できるかをますます問う。教訓は明快だ——気候は今や環境だけでなくビジネスの問題だ。暑い年が当たり前になる中、備える企業——労働者・供給・費用を守る企業——が、温暖化する世界でより成功しやすい位置に立つ。",
-        quiz: [
-          { q: "猛暑がビジネスに与える影響に含まれるものは？", options: ["屋外作業の遅れや作物の枯れ、冷却費の増加", "影響は全くない", "利益だけが増える"], answer: 0 },
-          { q: "暑さが需要を生む例は？", options: ["エアコンや冷たい飲み物の売上増と電力使用の急増", "本の売上だけ", "何も売れなくなる"], answer: 0 },
-          { q: "本文の教訓は？", options: ["気候は今や環境だけでなくビジネスの問題", "気候は経済に無関係", "備えは不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0816-2",
-        title: "How AI Helps Doctors See the Brain",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "The human brain is one of the most complex and mysterious objects we know. Studying it is extremely difficult, because we cannot easily look inside a living, working brain. Now, artificial intelligence is helping scientists understand it better — recently, AI was used to measure the brain's hidden 'cleaning system,' the flow of fluid that washes away waste.\nWhy does this matter? Like any busy machine, the brain produces waste as it works. To stay healthy, it must clear this waste away, and it does so using a slow flow of fluid through and around its tissues. Problems with this cleaning process may be linked to serious brain diseases, so understanding it could help doctors in the future.\nHow does AI help? Measuring such tiny, slow movements is very hard. AI is good at finding patterns in huge amounts of complex data, so it can help scientists track how fluid moves — quickly around the brain's outer spaces, but far more slowly deep inside. Spotting these details by hand would be almost impossible.\nThis is part of a larger trend: using AI as a tool to explore questions in medicine and biology that were once out of reach. The computer does not replace the scientist, but it extends what the scientist can see and measure.\nThe research is still early, and much remains unknown. But it shows how AI, carefully used, can become a powerful microscope for the mind — helping us understand the organ that makes us who we are, one hidden flow at a time.",
-        summaryJa: "人間の脳は、私たちが知る最も複雑で神秘的な対象の一つだ。生きて働く脳の中を容易には覗けないため、その研究は極めて難しい。今、AIが科学者のより良い理解を助けている——最近、AIは脳の隠れた「掃除システム」、老廃物を洗い流す体液の流れを測るのに使われた。なぜ重要か。忙しい機械と同じく、脳は働きながら老廃物を生む。健康を保つには、これを取り除かねばならず、組織の中や周りをゆっくり流れる体液を使ってそうする。この掃除の過程の不調は深刻な脳の病に結びつくかもしれず、その理解は将来、医師を助けうる。AIはどう助けるのか。そんな微小で遅い動きを測るのは非常に難しい。AIは膨大で複雑なデータの中の模様を見つけるのが得意なので、体液がどう動くか——脳の外側の空間では速く、深部ではずっと遅く——を追う助けになる。こうした細部を手作業で見つけるのはほぼ不可能だ。これはより大きな潮流の一部だ——かつて手の届かなかった医学や生物学の問いを探る道具としてAIを使うこと。コンピューターは科学者に取って代わるのでなく、科学者が見て測れる範囲を広げる。研究はまだ初期で、多くが未解明のままだ。だがそれは、慎重に使えばAIが心の強力な顕微鏡になりうることを示す——私たちを私たちたらしめる器官を、隠れた流れ一つずつ理解する助けになるのだ。",
-        quiz: [
-          { q: "AIが測るのを助けたものは？", options: ["脳の老廃物を洗い流す体液の流れ（掃除システム）", "脳の重さだけ", "脳の色"], answer: 0 },
-          { q: "AIがこの研究で得意なことは？", options: ["膨大で複雑なデータの中の模様を見つける", "手術をすること", "薬を作ること"], answer: 0 },
-          { q: "本文がAIについて述べることは？", options: ["科学者に取って代わらず見て測れる範囲を広げる", "科学者を不要にする", "研究を妨げる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0816-3",
-        title: "The Oceans Are Running a Fever",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When we think about a warming world, we usually picture hot air and dry land. But the oceans are heating up too, and scientists are increasingly worried about 'marine heatwaves' — long periods when a part of the sea becomes unusually warm. These events are a growing concern for the whole planet, not just for the creatures that live in the water.\nWhat is a marine heatwave? Just as the air can have a heatwave, so can the sea. For days, weeks, or even months, ocean temperatures in a region can rise far above normal. This may not sound dramatic, but even a few degrees can have powerful effects on ocean life.\nWhy does it matter to people? The oceans feed billions of people and support countless jobs through fishing. When the sea grows too warm, fish may move away or die, coral reefs can be damaged, and important ecosystems break down. This threatens food supplies and the livelihoods of coastal communities around the world.\nMarine heatwaves can also affect weather and even human health, changing rainfall and storms far inland. Because the ocean connects every continent, a problem in one sea can ripple across the globe.\nScientists are studying these events closely, using satellites and sensors to track ocean temperatures and warn communities early. The warming sea is a reminder that our planet's systems are deeply connected. What happens in the distant ocean does not stay there — it reaches our tables, our coasts, and, in time, us all.",
-        summaryJa: "温暖化する世界を考えるとき、私たちはたいてい熱い空気と乾いた大地を思い描く。だが海も温まっており、科学者は「海洋熱波」——海のある部分が異常に暖かくなる長い期間——をますます憂慮している。こうした出来事は、水に住む生き物だけでなく、地球全体にとって高まる懸念だ。海洋熱波とは何か。空気に熱波があるように、海にもありうる。数日・数週間、時に数か月、ある地域の海水温が平常をはるかに超えて上がる。劇的に聞こえないかもしれないが、わずか数度でも海の生命に強い影響を及ぼしうる。なぜ人々に重要か。海は何十億もの人を養い、漁業を通じて無数の仕事を支える。海が暖まりすぎると、魚は去るか死に、サンゴ礁は損なわれ、重要な生態系が崩れうる。これは世界中の沿岸地域の食料供給と暮らしを脅かす。海洋熱波は天気や人の健康にも影響し、はるか内陸の降雨や嵐を変えうる。海はあらゆる大陸をつなぐので、一つの海の問題が世界へ波及しうる。科学者は衛星やセンサーで海水温を追い、地域に早く警告し、こうした出来事を詳しく研究している。暖まる海は、地球の仕組みが深くつながっていることを思い出させる。遠い海で起きることはそこにとどまらない——私たちの食卓、沿岸、そしていずれ私たち皆に届くのだ。",
-        quiz: [
-          { q: "「海洋熱波」とは何か？", options: ["海のある部分が長期間、異常に暖かくなること", "海が凍ること", "波が高くなること"], answer: 0 },
-          { q: "海の温暖化が人々に重要な理由は？", options: ["漁業や食料供給、沿岸の暮らしを脅かすから", "海は無関係だから", "魚が必ず増えるから"], answer: 0 },
-          { q: "本文が伝えることは？", options: ["遠い海の問題はそこにとどまらず私たち皆に届く", "海は孤立している", "影響は海の中だけ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0816-4",
-        title: "A Robot Monk in a Kyoto Temple",
-        level: "★★☆",
-        genre: "日本",
-        text: "In a temple in Kyoto, visitors can now speak with an unusual guide: a robot powered by artificial intelligence, designed to answer questions about life, faith, and the human heart. The idea of a 'robot monk' may sound surprising, but it reflects a growing question of our time — what role should technology play in the deepest parts of human life?\nWhy build such a robot? Temples have long been places where people bring their worries and questions. But there are fewer monks than before, and many people feel too shy to speak openly to a person. A patient machine, always available and never tired, might help some visitors feel comfortable asking about difficult subjects like loss, meaning, or how to live.\nThe robot does not truly feel or believe. It has been trained on many texts and can respond thoughtfully, but its words come from patterns, not from a lived human life. This raises deep questions: can a machine offer real comfort, or only the appearance of it?\nMany people find the idea fascinating, while others feel that wisdom and warmth cannot come from a machine, however clever. Both reactions are understandable.\nWhat makes this story special is the meeting of old and new — ancient tradition and modern technology, side by side. Whether or not a robot can truly guide the human heart, its presence in a quiet temple invites us to think carefully about what we want from technology, and what only other people can give.",
-        summaryJa: "京都のある寺で、訪問者は今、珍しい案内役と話せる——人生・信仰・人の心についての問いに答えるよう作られた、AIで動くロボットだ。「ロボット僧」という発想は驚くように聞こえるかもしれないが、現代の高まる問い——技術は人生の最も深い部分でどんな役割を果たすべきか——を映している。なぜそんなロボットを作るのか。寺は長く、人々が悩みや問いを持ち込む場所だった。だが以前より僧は少なく、多くの人は人に率直に話すのを気恥ずかしく感じる。常に応じ、決して疲れない忍耐強い機械は、喪失・意味・生き方といった難しい話題を尋ねるのに、一部の訪問者が安心する助けになるかもしれない。ロボットは本当に感じたり信じたりはしない。多くの文章を学び思慮深く応じられるが、その言葉は生きた人生でなく模様から来る。これは深い問いを生む——機械は本当の慰めを与えられるのか、それとも慰めの見かけだけか。この発想を魅力的と思う人も多いが、知恵や温かさは、どれほど賢くても機械からは来ないと感じる人もいる。どちらの反応も理解できる。この話を特別にするのは、古と新の出会い——古い伝統と現代の技術が並び立つことだ。ロボットが本当に人の心を導けるかどうかにかかわらず、静かな寺でのその存在は、私たちが技術に何を求め、他者だけが与えられるものは何かを、丁寧に考えるよう誘う。",
-        quiz: [
-          { q: "京都の寺に登場したものは？", options: ["人生や信仰の問いに答えるAIロボット", "新しい鐘", "巨大な仏像"], answer: 0 },
-          { q: "ロボット僧が作られた理由の一つは？", options: ["僧が少なく、人に話しにくい人が安心して尋ねられるかもしれないから", "観光を禁止するため", "寺を閉じるため"], answer: 0 },
-          { q: "本文が投げかける深い問いは？", options: ["機械は本当の慰めを与えられるのか", "ロボットは何色か", "寺はどこにあるか"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0816-5",
-        title: "Seeing Home from Mars",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Far away on the surface of Mars, a robotic explorer looked up at the night sky and captured a remarkable sight: the Earth, our home, appearing as a tiny point of light — and then slipping behind one of Mars's small moons. For a moment, our entire world was just a distant dot, seen from another planet.\nWhy is such an image so powerful? From Mars, the Earth is not a great blue globe but a faint speck, easily hidden behind a passing moon. Everything we know — every person, city, ocean, and mountain — fits inside that single point of light. Seeing our planet this way can change how we think about it.\nThe picture also shows how far our machines have traveled. A rover built on Earth now drives across Martian soil, studies its rocks, and even watches the sky, sending images back across tens of millions of kilometers of empty space. That such a thing is possible is a triumph of science and patience.\nScientists value these views for practical reasons too. Watching a moon pass in front of the Earth, or the Sun, helps them measure orbits and understand the Martian sky.\nBut the deepest value may be how it makes us feel. Looking at our own world as a tiny dot, alone in the dark, reminds us how precious and fragile it is. From millions of kilometers away, a small machine has sent us a quiet message: this pale point of light is home, and it is the only one we have.",
-        summaryJa: "はるか遠く火星の表面で、ロボットの探査機が夜空を見上げ、驚くべき光景を捉えた——私たちの故郷、地球が、小さな光の点として現れ、そして火星の小さな月の一つの背後へ滑り込むのを。一瞬、私たちの世界全体が、別の惑星から見たただの遠い点だった。なぜそんな画像がそれほど力強いのか。火星から、地球は大きな青い球でなく、通り過ぎる月に容易に隠れるかすかな点だ。私たちが知るすべて——あらゆる人・都市・海・山——が、その一つの光の点の中に収まる。こうして自分の惑星を見ることは、それについての考え方を変えうる。この写真は、私たちの機械がどれほど遠くまで旅したかも示す。地球で作られた探査車が今、火星の土を走り、その岩を研究し、空さえ眺め、何千万キロもの空虚な宇宙を越えて画像を送り返す。そんなことが可能なのは、科学と忍耐の勝利だ。科学者は実際的な理由でもこうした光景を重んじる。月が地球や太陽の前を通るのを見ることは、軌道の測定や火星の空の理解を助ける。だが最も深い価値は、それが私たちにどう感じさせるかかもしれない。自分の世界を、暗闇に独りある小さな点として見ることは、それがどれほど貴重で壊れやすいかを思い出させる。何百万キロも彼方から、小さな機械が静かな伝言を送ってきた——この淡い光の点が故郷であり、私たちが持つ唯一のものだ、と。",
-        quiz: [
-          { q: "火星の探査機が捉えた光景は？", options: ["地球が小さな光の点として現れ月の背後に隠れる", "火星に川が流れる", "太陽が二つある"], answer: 0 },
-          { q: "火星から見た地球はどう見えるか？", options: ["月に隠れるほどのかすかな点", "大きな青い球", "すぐ近くの星"], answer: 0 },
-          { q: "本文が伝える最も深い価値は？", options: ["地球がどれほど貴重で壊れやすいかを思い出させる", "火星の方が良い", "地球は大きいということ"], answer: 0 }
         ]
       }
     ]
