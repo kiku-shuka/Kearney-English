@@ -79,7 +79,19 @@ KE_DATA.extraSentences = [
   { id: "w2633-s09", ja: "では、この方向で進めるということでよろしいですか。", en: "So, shall we go ahead in this direction?", note: "go ahead = 進める" },
   { id: "w2633-s10", ja: "懸念があれば、今のうちに共有してください。", en: "If you have any concerns, please share them now.", note: "concern = 懸念" },
   { id: "w2633-s11", ja: "優先度が高いので、今週中に対応します。", en: "This is a high priority, so I'll handle it this week.", note: "high priority = 優先度が高い" },
-  { id: "w2633-s12", ja: "本日の決定事項をメールでまとめてお送りします。", en: "I'll email a summary of what we decided today.", note: "決定事項のまとめ・議事メモの型" }
+  { id: "w2633-s12", ja: "本日の決定事項をメールでまとめてお送りします。", en: "I'll email a summary of what we decided today.", note: "決定事項のまとめ・議事メモの型" },
+  { id: "w2634-s01", ja: "まず現状を共有し、それから課題に入ります。", en: "Let me share where we are, then move on to the issues.", note: "where we are = 現状" },
+  { id: "w2634-s02", ja: "その提案には賛成ですが、一点だけ懸念があります。", en: "I'm on board with the proposal, but I have one concern.", note: "on board = 賛成・参加している" },
+  { id: "w2634-s03", ja: "数字が正しいか、もう一度確認させてください。", en: "Let me double-check whether the numbers are right.", note: "double-check = 再確認する" },
+  { id: "w2634-s04", ja: "予算の都合上、今回は範囲を絞りましょう。", en: "Given the budget, let's narrow the scope this time.", note: "narrow the scope = 範囲を絞る" },
+  { id: "w2634-s05", ja: "ご期待に添えず申し訳ありません。", en: "I'm sorry we couldn't meet your expectations.", note: "丁寧なお詫びの型" },
+  { id: "w2634-s06", ja: "この件、私が責任を持って進めます。", en: "I'll take responsibility and move this forward.", note: "take responsibility = 責任を持つ" },
+  { id: "w2634-s07", ja: "要点だけ先にお伝えします。", en: "Let me give you the key points first.", note: "key points = 要点" },
+  { id: "w2634-s08", ja: "それは想定していませんでした。確認します。", en: "I hadn't anticipated that. Let me check.", note: "anticipate = 予想する" },
+  { id: "w2634-s09", ja: "次回までに叩き台を用意します。", en: "I'll prepare a rough draft by next time.", note: "rough draft = 叩き台・下書き" },
+  { id: "w2634-s10", ja: "お互いの期待をすり合わせておきましょう。", en: "Let's align our expectations with each other.", note: "align expectations = 期待をすり合わせる" },
+  { id: "w2634-s11", ja: "その条件でしたら、前向きに検討できます。", en: "Under those terms, we can consider it positively.", note: "under those terms = その条件では" },
+  { id: "w2634-s12", ja: "最後に、次のアクションを確認しましょう。", en: "Finally, let's confirm the next actions.", note: "next actions = 次の行動・宿題" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -107,7 +119,15 @@ KE_DATA.extraPhrases = [
   { id: "w2632-p05", en: "Can we put a pin in that for now?", ja: "それは一旦保留にできますか。", tip: "put a pin in = 一旦置いておく" },
   { id: "w2632-p06", en: "I'll loop you in when it's ready.", ja: "準備ができたら共有します。", tip: "loop you in = 情報共有の輪に入れる" },
   { id: "w2632-p07", en: "Where do we go from here?", ja: "ここからどう進めましょうか。", tip: "次の一手を促す" },
-  { id: "w2632-p08", en: "Let's call it a day.", ja: "今日はここまでにしましょう。", tip: "会議・作業を切り上げる定番" }
+  { id: "w2632-p08", en: "Let's call it a day.", ja: "今日はここまでにしましょう。", tip: "会議・作業を切り上げる定番" },
+  { id: "w2634-p01", en: "Let's not lose sight of the goal.", ja: "目的を見失わないようにしましょう。", tip: "lose sight of = 見失う" },
+  { id: "w2634-p02", en: "Can you give me a rough estimate?", ja: "おおよその見積もりをもらえますか。", tip: "rough estimate = 概算" },
+  { id: "w2634-p03", en: "I see where you're coming from.", ja: "おっしゃる趣旨は分かります。", tip: "相手の立場に理解を示す一言" },
+  { id: "w2634-p04", en: "Let's play it by ear.", ja: "様子を見ながら進めましょう。", tip: "play it by ear = 臨機応変に対応する" },
+  { id: "w2634-p05", en: "That's on my radar.", ja: "それは把握しています。", tip: "on my radar = 認識済み・気にかけている" },
+  { id: "w2634-p06", en: "Let's touch base after lunch.", ja: "昼食後に状況を確認し合いましょう。", tip: "touch base = 近況を確認する" },
+  { id: "w2634-p07", en: "I'll run it by my manager.", ja: "上司に確認してみます。", tip: "run it by = 〜に相談・確認する" },
+  { id: "w2634-p08", en: "Let's park this and move on.", ja: "これは一旦置いて先に進みましょう。", tip: "park = 一旦保留にする" }
 ];
 
 /* シャドーイングの追加スクリプト（shadowing.js と同スキーマ） */
@@ -219,6 +239,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Please do. We can't afford a long delay.", ja: "お願いします。長い遅れは困ります。" },
       { s: "B", en: "Understood. Again, I apologize, and thank you for your patience.", ja: "承知しました。重ねてお詫びします。お待ちいただき感謝します。" }
     ]
+  },
+  {
+    id: "w2634-sh1",
+    title: "締切延長の相談",
+    level: "★★☆",
+    description: "現実的な理由を説明して締切の延長を願い出て、挽回策も示す場面。相談・交渉・前向きな提案の型を体に入れる。",
+    lines: [
+      { s: "A", en: "Do you have a minute? I'd like to talk about the report deadline.", ja: "少しお時間ありますか。報告書の締切について相談したいのですが。" },
+      { s: "B", en: "Sure. Is something wrong?", ja: "もちろん。何か問題でも？" },
+      { s: "A", en: "The data came in later than expected, so I'm behind schedule.", ja: "データの到着が予定より遅れて、進行が遅れています。" },
+      { s: "B", en: "I see. How much more time do you need?", ja: "なるほど。あとどれくらい必要ですか？" },
+      { s: "A", en: "Two extra days would let me finish it properly.", ja: "あと2日あれば、きちんと仕上げられます。" },
+      { s: "B", en: "That's a bit tight on our side. What's your plan?", ja: "こちらとしては少し厳しいですね。どう進める予定ですか？" },
+      { s: "A", en: "I'll send you a draft tomorrow, then the final version in two days.", ja: "明日に下書きをお送りし、2日後に最終版を出します。" },
+      { s: "B", en: "That works. A draft first is helpful.", ja: "それなら大丈夫です。先に下書きがあると助かります。" },
+      { s: "A", en: "Thank you. I'm sorry for the delay.", ja: "ありがとうございます。遅れて申し訳ありません。" },
+      { s: "B", en: "It's fine. Thanks for telling me early.", ja: "大丈夫ですよ。早めに知らせてくれて助かります。" }
+    ]
   }
 ];
 
@@ -295,6 +333,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2633-t03", ja: "新しい技術について、私たちは「宣伝」より「評価」に力を入れるべきだと思いますか？", en: "Should we focus more on carefully evaluating new technology than on promoting it?",
     sample: { point: "Yes, I think it is time to focus more on evaluating new technology than simply praising it.", reason: "The main reason is that excitement alone can hide real risks, while careful testing shows what a technology can and cannot safely do.", example: "For example, with AI, experts are now moving from broad promises toward measuring how well systems actually perform and where they fail.", point2: "So honest evaluation is not the enemy of progress — it is what makes progress trustworthy." }
+  },
+  {
+    id: "w2634-t01", ja: "AIによって一部の仕事が自動化される中、社会はどう備えるべきだと思いますか？", en: "As AI automates some jobs, how should society prepare?",
+    sample: { point: "I believe society should prepare for AI mainly by helping people learn new skills.", reason: "The main reason is that while AI may replace some tasks, it also creates new kinds of work, and people need support to move into them.", example: "For example, past technologies like computers removed some jobs but created many others, and workers who received training adapted best.", point2: "So investing in education and retraining is the wisest way to prepare for an AI-driven economy." }
+  },
+  {
+    id: "w2634-t02", ja: "二酸化炭素を回収する技術（カーボンキャプチャー）に頼るのは良い考えだと思いますか？", en: "Is it a good idea to rely on carbon-capture technology?",
+    sample: { point: "I think carbon capture can help, but it should not replace cutting emissions.", reason: "This is because the safest path is to release less carbon in the first place, and capture technology is still expensive and unproven at large scale.", example: "For example, experts say limiting warming will likely require both reducing emissions and removing some carbon, not choosing only one.", point2: "So carbon capture is best seen as a useful tool alongside cleaner energy, not an excuse to keep polluting." }
+  },
+  {
+    id: "w2634-t03", ja: "SNS（ソーシャルメディア）は社会にとって良い影響と悪い影響のどちらが大きいと思いますか？", en: "Does social media do more good or more harm to society?",
+    sample: { point: "In my view, social media does both, but its effect depends on how we use it and how it is managed.", reason: "This is because it connects people and spreads useful information, yet it can also spread false news and deepen division.", example: "For example, the same platform can help friends stay in touch and also allow rumors to travel around the world in minutes.", point2: "So rather than calling it simply good or bad, we should focus on using it wisely and demanding better rules against misinformation." }
   }
 ];
 
