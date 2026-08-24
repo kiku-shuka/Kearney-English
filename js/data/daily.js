@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-24",
+    passages: [
+      {
+        id: "d0824-1",
+        title: "When Costs Fall, Do Prices?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When the price of an ingredient goes down, do the products made from it become cheaper too? This is a common question in business, and a recent example helps answer it. In Japan, a major convenience store chain announced that it would lower the price of its popular rice balls, or onigiri, as the cost of rice began to fall. The savings on the ingredient were being passed on to customers.\nWhy don't prices always fall right away? When the cost of a material rises, companies often raise their prices quickly to protect their profits. But when costs fall, prices may drop more slowly. A company might wait to be sure the lower cost will last, or it might keep the extra money as profit for a while. Competition, however, usually pushes prices down: if one shop lowers its prices, others may follow to keep their customers.\nWhy does this matter to shoppers? Food is something people buy every day, so even a small change in price adds up over time. When the cost of a key ingredient like rice falls, lower prices at the shop can ease the pressure on family budgets.\nThe example shows how connected the economy is. The price a farmer receives, the cost at a factory, and the price you pay at the counter are all links in one chain. When one link changes, the others often move too — sometimes quickly, sometimes slowly, but rarely on their own. Understanding this chain helps make sense of the prices we see every day.",
+        summaryJa: "ある材料の値段が下がると、それで作られる製品も安くなるのか。これはビジネスでよくある問いで、最近の例が答えの助けになる。日本で、ある大手コンビニチェーンが、米の値段が下がり始めたのを受けて、人気のおにぎりの価格を下げると発表した。材料での節約が客に還元されていたのだ。なぜ価格は常にすぐ下がらないのか。材料の費用が上がると、企業はしばしば利益を守るため素早く値上げする。だが費用が下がるとき、価格の低下はより遅いことがある。企業は、安い費用が続くと確かめるまで待つかもしれないし、しばらく余分なお金を利益として保つかもしれない。だが競争は普通、価格を押し下げる——ある店が値下げすれば、他も客を保つため追随しうる。なぜ買い物客に重要か。食べ物は毎日買うものなので、小さな価格の変化でも時とともに積み重なる。米のような主要な材料の費用が下がれば、店での安い価格が家計の圧力を和らげうる。この例は、経済がいかにつながっているかを示す。農家が受け取る価格、工場での費用、レジであなたが払う価格——すべてが一つの鎖の輪だ。一つの輪が変わると、他もしばしば動く——時に速く、時に遅く、だがめったに単独ではない。この鎖を理解することは、毎日目にする価格を腑に落とす助けになる。",
+        quiz: [
+          { q: "コンビニがおにぎりを値下げした理由は？", options: ["米の値段が下がり材料費の節約を還元したから", "客を減らすため", "米が高くなったから"], answer: 0 },
+          { q: "費用が下がっても価格がすぐ下がらないことがある理由は？", options: ["安さが続くか確かめる、利益として保つなどのため", "法律で禁止だから", "客がいないから"], answer: 0 },
+          { q: "本文が示すことは？", options: ["農家・工場・店の価格は一つの鎖でつながっている", "価格は互いに無関係", "食べ物は買わない方がよい"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0824-2",
+        title: "A Chip That Makes a Rainbow of Light",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Every time you use your phone to call, stream, or browse, you rely on signals traveling through the air. As more people use more data, networks must carry ever more information. To prepare for the next generation of mobile networks, sometimes called 6G, scientists have built a tiny chip that produces a stable 'rainbow' of light — and this rainbow could help carry far more data than before.\nWhat does a 'rainbow' of light mean? Ordinary light of a single color is like one lane on a road. The new chip creates many precise colors of light at once, evenly spaced like the colors of a rainbow. Each of these can carry its own stream of information. Instead of one lane, you suddenly have many, all working together — greatly increasing how much data can flow.\nWhy build this on a tiny chip? Making many colors of light usually requires large, expensive equipment. Putting it all on a small chip makes the technology cheaper, more reliable, and easier to include in real devices. That is a key step toward using it widely.\nWhy does this matter? Future networks will need to handle huge amounts of data for things like self-driving cars, smart factories, and virtual worlds. Faster, higher-capacity connections will make these possible.\nThe work is still developing, and 6G is years away. But the rainbow chip is a good example of how progress often comes from clever new ways of using light. By splitting light into many precise colors, scientists are opening more lanes on the roads that carry our digital world.",
+        summaryJa: "電話・動画・ブラウジングに携帯を使うたび、あなたは空を伝う信号に頼っている。より多くの人がより多くのデータを使うにつれ、ネットワークはますます多くの情報を運ばねばならない。「6G」と呼ばれることもある次世代の携帯ネットワークに備え、科学者は安定した光の「虹」を生む小さなチップを作った——この虹が、以前よりはるかに多くのデータを運ぶ助けになりうる。光の「虹」とは何を意味するのか。単一の色の普通の光は、道路の一車線のようなものだ。新しいチップは、虹の色のように等間隔に並んだ、多くの精密な色の光を一度に作る。そのそれぞれが独自の情報の流れを運べる。一車線でなく、突然多くの車線ができ、すべてが協働する——流れるデータ量を大きく増やす。なぜこれを小さなチップに作るのか。多くの色の光を作るには普通、大きく高価な機器が要る。すべてを小さなチップに載せることで、技術は安く、信頼でき、実際の機器に組み込みやすくなる。それが広く使うための鍵の一歩だ。なぜ重要か。未来のネットワークは、自動運転車・スマート工場・仮想世界などのために膨大なデータを扱う必要がある。より速く大容量の接続がそれを可能にする。研究はまだ発展途上で、6Gは何年も先だ。だが虹のチップは、進歩がしばしば光を使う巧妙な新しい方法から来ることの好例だ。光を多くの精密な色に分けることで、科学者は、私たちのデジタル世界を運ぶ道路により多くの車線を開いている。",
+        quiz: [
+          { q: "この新しいチップが作るものは？", options: ["等間隔に並んだ多くの色の光（虹）", "一色の光だけ", "音"], answer: 0 },
+          { q: "多くの色の光がデータ量を増やす理由は？", options: ["各色が独自の情報の流れを運べるから（車線が増える）", "光が明るいから", "チップが大きいから"], answer: 0 },
+          { q: "すべてを小さなチップに載せる利点は？", options: ["安く信頼でき機器に組み込みやすい", "高価になる", "壊れやすくなる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0824-3",
+        title: "The Languages We Are Losing",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "There are around seven thousand languages spoken in the world today. But experts warn that many of them are disappearing. Some are spoken by only a few elderly people, and when those speakers pass away, their language may vanish with them. Every few weeks, somewhere in the world, a language falls silent forever.\nWhy do languages disappear? Often, small communities are drawn toward larger, more widely spoken languages, which offer better chances for work, school, and travel. Parents may raise their children in a major language instead of their own, hoping to give them an easier future. Over a few generations, the older language can be lost.\nWhy does it matter? A language is far more than a set of words. It carries a people's history, stories, humor, and unique way of seeing the world. Some languages hold detailed knowledge about local plants, animals, and nature, built up over centuries. When a language dies, much of that knowledge and culture can be lost with it.\nAround the world, people are working to protect endangered languages. Communities record their elders, create dictionaries, teach classes for children, and use apps and the internet to share their language more widely.\nThe goal is not to stop people from learning major languages, which are useful. It is to keep the smaller ones alive alongside them, so their treasures are not lost. Each language is a way of thinking, a window into a culture — and protecting them helps keep our human family as rich and varied as it has always been.",
+        summaryJa: "今日、世界にはおよそ7000の言語が話されている。だが専門家は、その多くが消えつつあると警告する。ごく少数の高齢者だけが話す言語もあり、その話者が亡くなると、言語も共に消えうる。数週間ごとに、世界のどこかで、一つの言語が永遠に沈黙する。なぜ言語は消えるのか。しばしば、小さな共同体が、仕事・学校・旅行のより良い機会を与える、より大きく広く話される言語に引き寄せられる。親は、より楽な未来を子に与えたいと願い、自分の言語でなく主要言語で子を育てるかもしれない。数世代のうちに、古い言語は失われうる。なぜ重要か。言語は単なる言葉の集合をはるかに超える。ある民族の歴史・物語・ユーモア・独自の世界の見方を運ぶ。地域の植物・動物・自然についての、何世紀もかけて築かれた詳細な知識を持つ言語もある。言語が死ぬと、その知識や文化の多くが共に失われうる。世界中で、人々は危機に瀕した言語を守ろうとしている。共同体は高齢者を録音し、辞書を作り、子どものための授業を開き、アプリやインターネットを使って言語をより広く分かち合う。目標は、有用な主要言語を人々が学ぶのを止めることではない。それらと並んで小さな言語も生かし続け、その宝が失われないようにすることだ。各言語は一つの考え方、文化への窓であり——それらを守ることは、私たちの人類という家族を、常にそうであったように豊かで多様に保つ助けになる。",
+        quiz: [
+          { q: "多くの言語が消えつつある理由は？", options: ["小さな共同体がより大きな言語に引き寄せられるから", "言語が多すぎるから", "誰も話さないから"], answer: 0 },
+          { q: "言語が単なる言葉以上である理由は？", options: ["歴史・物語・世界の見方や自然の知識を運ぶから", "辞書であるからだけ", "無意味だから"], answer: 0 },
+          { q: "言語を守る目標は？", options: ["主要言語と並んで小さな言語も生かし続けること", "主要言語を禁止すること", "全言語を一つにすること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0824-4",
+        title: "Rice: The Heart of the Japanese Table",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, one food sits at the center of the table more than any other: rice. For thousands of years, rice has been a staple of Japanese meals, eaten at breakfast, lunch, and dinner. It is so important that the Japanese word for cooked rice, gohan, can also simply mean 'a meal.'\nWhy is rice so central? Japan's climate, with its warm, wet summers, is well suited to growing rice, and farmers have cultivated it for many centuries. Rice grows in flooded fields called paddies, which shape the countryside in beautiful, terraced patterns. Growing rice once required whole villages to work together, and this shared effort became part of the culture.\nRice appears in countless forms. Plain white rice accompanies almost any dish. It is pressed into rice balls called onigiri, a popular quick meal, rolled into sushi, or turned into rice cakes and even sweets. Rice is also used to make sake, a traditional drink.\nRice carries meaning beyond food. It appears in festivals, ceremonies, and sayings, and has long been a symbol of life and hard work. Even today, when many new foods are available, rice remains deeply loved.\nOf course, eating habits are slowly changing, and people now enjoy bread, noodles, and dishes from around the world. Yet rice keeps its special place. To understand Japanese food and culture, one must understand rice — a simple grain that has fed, shaped, and united the country for countless generations.",
+        summaryJa: "日本で、他のどの食べ物より食卓の中心に座る一つの食べ物がある——米だ。何千年もの間、米は日本の食事の主食で、朝・昼・晩に食べられてきた。あまりに重要なので、炊いた米を指す日本語「ご飯」は、単に「食事」も意味しうる。なぜ米はそれほど中心的なのか。暖かく湿った夏を持つ日本の気候は米作りに適し、農家は何世紀も栽培してきた。米は「田んぼ」と呼ばれる水を張った田で育ち、美しい棚田の模様で田舎を形づくる。米作りはかつて村全体の協働を要し、この分かち合う努力が文化の一部になった。米は無数の形で現れる。白いご飯はほぼどんな料理にも添えられる。おにぎりという握り飯に、寿司に、餅や菓子にさえなる。米は伝統的な飲み物・酒を作るのにも使われる。米は食べ物を超えた意味も持つ。祭り・儀式・ことわざに現れ、長く生命と勤勉の象徴だった。今日、多くの新しい食べ物があっても、米は深く愛され続ける。もちろん食習慣はゆっくり変わり、人々はパン・麺・世界中の料理も楽しむ。それでも米は特別な地位を保つ。日本の食と文化を理解するには、米を理解せねばならない——数え切れない世代にわたって国を養い、形づくり、結んできた、単純な穀物を。",
+        quiz: [
+          { q: "日本語「ご飯」が意味しうるものは？", options: ["炊いた米、そして単に「食事」", "肉だけ", "飲み物だけ"], answer: 0 },
+          { q: "米が日本で中心的な理由は？", options: ["暖かく湿った気候が米作りに適し長く栽培されてきたから", "とても寒いから", "育てるのが不可能だから"], answer: 0 },
+          { q: "米が食べ物を超えて持つ意味は？", options: ["生命と勤勉の象徴で祭りや儀式に現れる", "何の意味もない", "外国だけのもの"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0824-5",
+        title: "How Nature Heals a Field",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "What happens to a farm field when people stop using it? You might expect it to become bare and lifeless. But scientists watching one abandoned field saw something wonderful: within little more than ten years, it transformed into a rich wildflower meadow, full of life. Plant diversity doubled, and thousands of orchids appeared, all on their own.\nHow did this happen? When people stop plowing, planting, and spraying chemicals, nature slowly takes over. Seeds arrive on the wind, carried by birds, or wake up after resting in the soil for years. Different plants move in one after another, and as they do, insects, birds, and other creatures follow. Step by step, an empty field becomes a living community.\nWhy is this exciting? It shows that nature can recover, sometimes faster than we expect, if given the chance. Wildflower meadows are valuable: they support bees and other insects that pollinate crops, and they add beauty and variety to the land. The return of orchids, which are often delicate and rare, is an especially good sign of a healthy, natural place.\nThis idea is part of a growing movement sometimes called 'rewilding' — letting parts of the land return to nature. It does not mean abandoning all farms, but setting aside some space for wild life to flourish.\nThe healed field is a hopeful reminder. While people worry about damage to the natural world, this story shows the other side: given time and space, nature has a remarkable power to repair itself — and to fill an empty field with flowers.",
+        summaryJa: "人が使うのをやめた農地はどうなるのか。裸で生命のない場所になると思うかもしれない。だが、ある放棄された農地を見守る科学者は、素晴らしいものを見た——わずか10年余りで、それは生命に満ちた豊かな野花の草地に変わったのだ。植物の多様性は倍増し、何千ものランが、すべて自然に現れた。どうしてこうなったのか。人が耕し、植え、化学物質をまくのをやめると、自然がゆっくり引き継ぐ。種は風に乗り、鳥に運ばれ、あるいは何年も土の中で休んだ後に目覚めて到来する。異なる植物が次々と移り住み、そうするにつれ、昆虫・鳥・他の生き物が続く。一歩ずつ、空の農地が生きた共同体になる。なぜ胸躍るのか。機会が与えられれば、自然は時に予想より速く回復できることを示すからだ。野花の草地は貴重だ——作物を受粉させるミツバチや他の昆虫を支え、土地に美と多様性を加える。しばしば繊細で稀なランの帰還は、健康で自然な場所の特に良い兆しだ。この発想は、「再野生化（リワイルディング）」と呼ばれることもある高まる運動の一部だ——土地の一部を自然に返すこと。すべての農場を捨てる意味ではなく、野生の生命が栄えるための空間をいくらか取っておくことだ。癒された農地は希望ある気づきだ。人々が自然界への損傷を心配する一方、この物語は別の側面を示す——時間と空間が与えられれば、自然は自らを修復する驚くべき力を持つ——そして空の農地を花で満たす力を。",
+        quiz: [
+          { q: "放棄された農地に起きたことは？", options: ["10年余りで豊かな野花の草地に変わった", "裸で生命のないままだった", "家が建った"], answer: 0 },
+          { q: "自然が引き継ぐ仕組みは？", options: ["種が風や鳥で到来し植物・昆虫・鳥が次々移り住む", "何も起きない", "人が植える"], answer: 0 },
+          { q: "この物語が示す希望は？", options: ["時間と空間があれば自然は自らを修復できる", "自然は回復しない", "農地は無価値だ"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-23",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "チーズの風味を生むものは？", options: ["微生物（有益な細菌やカビ）", "砂糖", "金属"], answer: 0 },
           { q: "科学者が発見したことは？", options: ["風味を担う微生物が腸の健康も助けうる", "チーズは有害だ", "微生物は無関係だ"], answer: 0 },
           { q: "本文が示すより大きな考えは？", options: ["私たちの内や周りの小さな生き物は思ったより重要", "微生物は無意味", "食べ物は健康と無関係"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-17",
-    passages: [
-      {
-        id: "d0817-1",
-        title: "Building a Car for One Market",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Most large companies try to sell the same products all over the world. But sometimes the smartest move is to build something for just one country. Recently, a major carmaker announced a new electric 'kei car' — a very small vehicle — designed specifically for Japan, a market with its own unique rules and tastes.\nWhat is a kei car? In Japan, 'kei' cars are a special class of tiny, light vehicles. They follow strict limits on size and engine power, and in return they enjoy lower taxes and cheaper insurance. They are popular because they are easy to park on narrow streets, cheap to run, and perfect for short daily trips. This class barely exists outside Japan.\nWhy design a car just for one market? Because winning customers often means fitting local needs exactly. A car built for wide American highways may be wrong for crowded Japanese cities. By creating a vehicle that matches Japan's rules and lifestyle, a company shows it understands its customers — and earns their trust.\nThis strategy is not easy. Designing a special product for one market costs money and takes time, and it only pays off if enough people buy it. The company is betting that careful, local design will win over drivers who value small, practical, affordable cars.\nThe lesson reaches beyond cars. In global business, one size does not always fit all. Sometimes the way to win a market is not to sell the world's product there, but to build something made just for the people who live in it.",
-        summaryJa: "大企業の多くは、世界中で同じ製品を売ろうとする。だが時に最も賢い一手は、たった一つの国のために何かを作ることだ。最近、ある大手自動車メーカーが、独自の規則と好みを持つ市場・日本のために特別に設計した新しい電気「軽自動車」——非常に小さな車——を発表した。軽自動車とは何か。日本で「軽」は、小さく軽い車の特別な区分だ。大きさとエンジン出力に厳しい制限があり、その代わり税金が安く保険も安い。狭い道に停めやすく、維持費が安く、短い日々の移動に最適なため人気だ。この区分は日本の外ではほとんど存在しない。なぜ一つの市場のためだけに車を設計するのか。顧客を勝ち取ることは、しばしば地域のニーズにぴったり合うことを意味するからだ。広いアメリカの高速道路向けの車は、混雑した日本の都市には合わないかもしれない。日本の規則と生活様式に合う車を作ることで、企業は顧客を理解していると示し、信頼を得る。この戦略は容易ではない。一つの市場のための特別な製品の設計はお金と時間がかかり、十分な人が買って初めて報われる。企業は、丁寧で地域に合った設計が、小さく実用的で手頃な車を重んじる運転者を惹きつけると賭けている。教訓は車を超える。世界のビジネスで、一つの型が常に皆に合うわけではない。市場を勝ち取る道は、世界の製品をそこで売ることでなく、そこに住む人々のためだけに作った何かを生み出すことである場合もあるのだ。",
-        quiz: [
-          { q: "「軽自動車」とはどんな車か？", options: ["大きさや出力に制限がある小さく軽い車", "大型トラック", "スポーツカー"], answer: 0 },
-          { q: "一つの市場のために車を設計する理由は？", options: ["地域の規則や生活様式に合わせ顧客の信頼を得るため", "世界中で同じ物を売るため", "設計を省くため"], answer: 0 },
-          { q: "本文の教訓は？", options: ["一つの型が常に皆に合うわけではない", "世界共通の製品が常に最良", "地域を無視すべき"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0817-2",
-        title: "Solar Cells That Do More with Light",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Solar panels turn sunlight into electricity, and they have become a key part of the world's clean energy. But ordinary solar panels capture only a portion of the energy in sunlight. Now, a new kind of solar cell is reaching the market — a 'hybrid' design that can turn more of the Sun's light into power, and factories are ready to make it in large numbers.\nHow do these new cells work better? Sunlight contains many different colors, or types, of light. A traditional solar cell is good at capturing some of them but misses others. A hybrid cell combines two materials, each good at catching a different part of sunlight. Together, they can convert more of the incoming light into electricity than either could alone.\nWhy does this matter? More efficient solar cells produce more power from the same amount of sunlight and the same space. This means smaller, cheaper systems can do the same job, making solar energy more practical for homes, businesses, and even vehicles.\nThere are still challenges. New cells must prove they can last for many years in sun, rain, and heat, and they must be cheap enough to compete. Reaching mass production is a major step, but real-world use will be the true test.\nStill, the progress is encouraging. As solar cells grow more efficient and affordable, clean electricity becomes easier to produce. Each small gain in efficiency, multiplied across millions of panels, brings a future powered by the Sun a little bit closer.",
-        summaryJa: "太陽光パネルは日光を電気に変え、世界のクリーンエネルギーの要になった。だが普通のパネルは日光のエネルギーの一部しか捉えない。今、新種の太陽電池が市場に届きつつある——太陽の光をより多く電力に変えられる「ハイブリッド」設計で、工場は大量生産の準備が整っている。なぜこの新しい電池はより優れるのか。日光は多くの異なる色、つまり種類の光を含む。従来の太陽電池はその一部を捉えるのは得意だが他を逃す。ハイブリッド電池は二つの材料を組み合わせ、それぞれが日光の異なる部分を捉えるのが得意だ。両者が相まって、単独より多くの入射光を電気に変えられる。なぜ重要か。より効率的な太陽電池は、同じ量の日光と同じ面積からより多くの電力を生む。つまり、より小さく安いシステムが同じ仕事をでき、太陽エネルギーが家庭・企業、さらには乗り物にもより実用的になる。まだ課題もある。新しい電池は、日・雨・熱の中で何年も持つと証明せねばならず、競えるほど安くもなければならない。大量生産に至るのは大きな一歩だが、実地での使用が真の試験になる。それでも進歩は励みになる。太陽電池がより効率的で手頃になるにつれ、クリーンな電気は作りやすくなる。効率のわずかな向上一つ一つが、何百万枚ものパネルにわたって積み重なり、太陽で動く未来を少しだけ近づける。",
-        quiz: [
-          { q: "ハイブリッド太陽電池が優れる理由は？", options: ["二つの材料で日光の異なる部分を捉えより多く電気に変える", "日光を必要としない", "夜だけ働く"], answer: 0 },
-          { q: "より効率的な太陽電池の利点は？", options: ["同じ日光と面積からより多くの電力を生む", "電力が減る", "場所を多く取る"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["長年の耐久性と競える安さの証明", "日光が無いこと", "電気が不要なこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0817-3",
-        title: "The Hidden Work of Weather Forecasting",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Every day, billions of people check the weather forecast before they leave home. It seems simple, but behind each forecast lies one of the largest examples of international cooperation in the world. To predict tomorrow's weather, countries must share information across every border.\nWhy must weather be a global effort? The atmosphere does not stop at borders. A storm forming over one ocean may reach another continent days later. To forecast accurately, scientists need data from all over the planet — temperatures, winds, and pressure measured on land, at sea, and high in the sky. No single country can gather all of this alone.\nSo nations work together. Around the world, weather stations, ships, balloons, and satellites constantly collect measurements and share them freely with other countries. Powerful computers then combine this flood of data to model how the atmosphere will move. The forecast on your phone is the result of this quiet, worldwide teamwork.\nThis cooperation continues even between countries that disagree on other matters. Because everyone benefits from better forecasts — for farming, travel, and safety during storms — sharing weather data has become a rare area of near-universal agreement.\nAs the climate changes and extreme weather grows more common, this shared system becomes more important than ever. Accurate warnings can save lives when floods or storms approach.\nThe next time you check the forecast, it is worth remembering: that simple prediction is powered by thousands of people and machines across the globe, working together so that all of us can plan our days.",
-        summaryJa: "毎日、何十億もの人が家を出る前に天気予報を確認する。単純に見えるが、各予報の背後には世界最大級の国際協力の例がある。明日の天気を予測するため、国々はあらゆる国境を越えて情報を分かち合わねばならない。なぜ天気は世界的な取り組みでなければならないのか。大気は国境で止まらない。ある海で生まれた嵐が、数日後に別の大陸へ届くかもしれない。正確に予報するには、科学者は地球中のデータ——陸・海・上空で測った気温・風・気圧——を必要とする。どの一国も、これを単独で集められない。だから各国は協力する。世界中で、気象観測所・船・気球・衛星が絶えず測定を集め、他国と自由に共有する。強力なコンピューターがこのデータの洪水を組み合わせ、大気がどう動くかをモデル化する。あなたの携帯の予報は、この静かで世界的な連携の成果だ。この協力は、他の問題で対立する国々の間でさえ続く。より良い予報は誰にとっても——農業・旅行・嵐の際の安全に——利益になるため、気象データの共有はほぼ普遍的な合意という稀な領域になった。気候が変わり極端な気象が増える中、この共有の仕組みはかつてなく重要になる。洪水や嵐が迫るとき、正確な警報は命を救いうる。次に予報を確認するとき、思い出す価値がある——その単純な予測は、私たち皆が一日を計画できるよう共に働く、世界中の何千もの人と機械に支えられているのだ。",
-        quiz: [
-          { q: "天気予報が国際協力を要する理由は？", options: ["大気は国境で止まらず地球中のデータが必要だから", "天気は一国だけのものだから", "データが不要だから"], answer: 0 },
-          { q: "気象データはどう扱われるか？", options: ["各国が測定を集め自由に共有する", "秘密にされる", "一国だけが持つ"], answer: 0 },
-          { q: "この協力が特別な点は？", options: ["他で対立する国々の間でも続く", "戦争を生む", "一国だけが得をする"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0817-4",
-        title: "A Region's Big AI Bet",
-        level: "★★☆",
-        genre: "日本",
-        text: "When people think of centers of advanced technology, they usually picture big cities. But a rural area in northern Japan is hoping to change that. The region around Akita is planning what could become one of Japan's largest data centers — huge buildings full of computers — in the hope of attracting artificial intelligence companies and skilled workers.\nWhy would a quiet region want a giant data center? Like many rural areas in Japan, it faces a shrinking, aging population as young people move to big cities for work. A large data center could bring construction jobs, attract technology companies, and give young people a reason to stay or return. Local leaders see it as a chance to build a new kind of future.\nData centers are attractive to build in some rural areas for practical reasons too. They need lots of space, plenty of electricity, and a cool climate to help keep the machines from overheating. A northern region with land and cooler weather can be a good fit.\nThere are challenges. Data centers use enormous amounts of energy and water, so they must be planned carefully. And building one is only a first step; attracting companies and training workers takes years of steady effort.\nStill, the plan shows a hopeful idea: that the technology driving the future does not have to stay in crowded cities. With careful planning, even a quiet countryside region can become a hub for the digital age — and, in doing so, breathe new life into a community that needs it.",
-        summaryJa: "先端技術の中心地と聞くと、人はたいてい大都市を思い描く。だが北日本のある地方が、それを変えようとしている。秋田周辺の地域は、日本最大級になりうるデータセンター——コンピューターで満ちた巨大な建物——を計画し、AI企業と熟練労働者を惹きつけることを期待している。なぜ静かな地方が巨大データセンターを欲しがるのか。日本の多くの地方と同じく、若者が仕事を求めて大都市へ移り、人口の減少と高齢化に直面している。大きなデータセンターは建設の仕事をもたらし、技術企業を惹きつけ、若者が留まる、あるいは戻る理由を与えうる。地元の指導者は、それを新しい未来を築く機会と見る。データセンターは実際的な理由でも、一部の地方に建てるのに魅力的だ。広い場所、豊富な電力、機械の過熱を防ぐ涼しい気候を必要とする。土地と涼しい気候のある北の地域は、うまく合いうる。課題もある。データセンターは膨大な電力と水を使うので、慎重な計画が要る。建てるのは第一歩にすぎず、企業を惹きつけ労働者を育てるには何年もの着実な努力がかかる。それでもこの計画は希望ある発想を示す——未来を動かす技術は、混雑した都市にとどまる必要はない。丁寧な計画があれば、静かな田舎の地域でもデジタル時代の拠点になりうる——そしてそうすることで、それを必要とする地域に新しい命を吹き込むのだ。",
-        quiz: [
-          { q: "秋田周辺の地域が計画しているものは？", options: ["日本最大級のデータセンター", "新しい空港", "巨大な城"], answer: 0 },
-          { q: "地方がそれを望む理由は？", options: ["仕事や技術企業を呼び若者が留まる理由を作るため", "人口を減らすため", "若者を追い出すため"], answer: 0 },
-          { q: "データセンターが北の地方に合う実際的な理由は？", options: ["広い土地・豊富な電力・機械を冷やす涼しい気候", "海が近いこと", "山が高いこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0817-5",
-        title: "Nature's Own Plastic",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "We often think of plastic as a modern, human invention — and a source of pollution because it does not break down easily. But scientists have found something surprising: nature invented its own kind of biodegradable plastic long before humans existed, and tiny living things may have been feeding on it for hundreds of millions of years.\nWhat does this mean? Some bacteria naturally produce materials very similar to plastic, storing energy inside their cells in a form much like the plastics we make in factories. Unlike our plastic, however, this natural version can be broken down and used as food by other tiny organisms. In nature, nothing is truly wasted; one creature's leftovers become another's meal.\nWhy is this discovery useful? Ordinary plastic can last for hundreds of years, piling up in oceans and landfills. If scientists can learn how nature makes and breaks down its own plastic, they might design new materials that are just as useful but can safely disappear when we are done with them.\nThis is a growing field. Researchers are studying these natural plastics and the organisms that eat them, hoping to copy nature's clever recycling. It is a reminder that living things solved many problems long before we did.\nThe lesson is a hopeful one. By looking closely at the natural world — even at humble bacteria — scientists can find ideas to solve modern challenges. Nature has been running experiments for billions of years, and sometimes the answers to our newest problems have been quietly waiting inside the oldest forms of life.",
-        summaryJa: "私たちはしばしばプラスチックを現代の人間の発明——そして容易に分解しないため汚染の源——と考える。だが科学者は驚くべきことを見つけた。自然は人間が存在するはるか前に、独自の生分解性プラスチックを発明しており、小さな生き物が何億年もそれを食べてきたかもしれないのだ。これはどういう意味か。一部の細菌は、私たちが工場で作るプラスチックによく似た材料を自然に作り、細胞内にエネルギーをそんな形で蓄える。だが私たちのプラスチックと違い、この自然版は、他の小さな生物によって分解され食べ物として使われうる。自然では、真に無駄になるものはない——ある生き物の残り物が別の生き物の食事になる。なぜこの発見が有用か。普通のプラスチックは何百年も残り、海や埋め立て地に積み上がりうる。自然がどう自らのプラスチックを作り分解するかを学べれば、科学者は、同じくらい有用でありながら、使い終わったら安全に消える新素材を設計できるかもしれない。これは成長する分野だ。研究者はこうした自然のプラスチックとそれを食べる生物を研究し、自然の巧妙なリサイクルを真似ようとしている。生き物が、私たちよりずっと前に多くの問題を解いていたことを思い出させる。教訓は希望に満ちている。自然界を——質素な細菌さえ——よく見ることで、科学者は現代の課題を解く発想を見つけられる。自然は何十億年も実験を続けてきた。そして時に、最も新しい問題への答えは、最も古い生命の形の中で静かに待っていたのだ。",
-        quiz: [
-          { q: "科学者が見つけた驚きは？", options: ["自然が人間より前に生分解性プラスチックを発明していた", "プラスチックは最近生まれた", "細菌は無害でない"], answer: 0 },
-          { q: "自然版プラスチックが人間の物と違う点は？", options: ["他の小さな生物に分解され食べられる", "決して分解しない", "金属でできている"], answer: 0 },
-          { q: "この発見が有用な理由は？", options: ["使い終わると安全に消える新素材の設計に役立つ", "プラスチックを増やせる", "海を汚せる"], answer: 0 }
         ]
       }
     ]
