@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-25",
+    passages: [
+      {
+        id: "d0825-1",
+        title: "Why Small Businesses Matter",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "When we think of business, we often picture huge, famous companies. But in every country, most businesses are actually small — a local bakery, a family repair shop, a tiny software startup. Though each one is small, together they form the backbone of the economy, and they matter far more than their size suggests.\nWhy are small businesses so important? First, they create a large share of all jobs. Around the world, small and medium-sized companies employ enormous numbers of people, often more than big corporations do. When someone loses a job at a large firm, a small business nearby may be the one that hires them.\nSmall businesses also keep communities alive. A local shop knows its customers, supports its neighborhood, and keeps money circulating close to home. Many towns depend on their small businesses for character as much as for services.\nThey are engines of new ideas, too. Big companies can be slow to change, while small firms often try bold, fresh ideas. Many great inventions and famous companies began as tiny startups run by just a few people.\nOf course, small businesses face real challenges. They have less money, fewer staff, and thinner cushions against hard times. A single bad year can close a small shop that a large company would survive.\nThat is why many governments try to help them, through loans, advice, and fair rules. Supporting small businesses is not charity; it is an investment in jobs, communities, and new ideas — the quiet foundation on which much of the economy is built.",
+        summaryJa: "ビジネスと聞くと、私たちはしばしば巨大で有名な企業を思い描く。だがどの国でも、ほとんどの事業は実は小さい——地元のパン屋、家族経営の修理店、小さなソフトウェアの新興企業。一つ一つは小さくても、合わされば経済の背骨をなし、その大きさが示す以上に重要だ。なぜ小さな事業はそれほど重要か。第一に、全雇用の大きな割合を生む。世界中で、中小企業は膨大な数の人を雇い、しばしば大企業より多い。誰かが大企業で職を失っても、近くの小さな事業が雇ってくれるかもしれない。小さな事業は地域も生かす。地元の店は客を知り、近隣を支え、お金を家の近くで回し続ける。多くの町は、サービスと同じくらい、その個性のためにも小さな事業に頼る。新しい発想の原動力でもある。大企業は変化が遅くなりうるが、小さな企業はしばしば大胆で新鮮な発想を試す。多くの偉大な発明や有名企業は、ほんの数人が営む小さな新興企業として始まった。もちろん、小さな事業は本当の課題に直面する。お金は少なく、人手は乏しく、困難な時への緩衝は薄い。一度の悪い年が、大企業なら生き延びる小さな店を閉じうる。だから多くの政府は、融資・助言・公正な規則で助けようとする。小さな事業を支えることは施しでなく、雇用・地域・新しい発想への投資だ——経済の多くが築かれる、静かな土台なのだ。",
+        quiz: [
+          { q: "小さな事業が重要な理由の一つは？", options: ["全雇用の大きな割合を生むから", "有名でないから", "お金が多いから"], answer: 0 },
+          { q: "小さな事業が地域に果たす役割は？", options: ["客を知り近隣を支えお金を近くで回す", "町を無視する", "お金を遠くへ送る"], answer: 0 },
+          { q: "小さな事業が直面する課題は？", options: ["お金・人手・緩衝が乏しく一度の悪い年で閉じうる", "課題は全くない", "大企業より安全である"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0825-2",
+        title: "Turning Plant Waste into Useful Chemicals",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Every year, farms and forests produce huge amounts of plant waste — stalks, husks, sawdust, and other leftovers. Much of it is simply burned or thrown away. But inside these plants is a tough material called lignin, which holds useful chemicals locked away. Recently, scientists created a new tool that can unlock them: a catalyst that breaks down stubborn lignin into valuable chemicals, using gentle conditions.\nWhat is a catalyst? A catalyst is a substance that speeds up a chemical reaction without being used up itself. It is like a helper that makes a difficult reaction happen more easily. The new catalyst helps break lignin apart, something that has long been hard to do.\nWhy is this important? Lignin is one of the most common natural materials on Earth, yet it is difficult to use. If scientists can turn it into useful chemicals cheaply and cleanly, plant waste could become a valuable resource instead of rubbish. These chemicals could replace some made from oil, helping reduce our reliance on fossil fuels.\nThe fact that the new process works under 'mild conditions' matters a lot. Reactions that need very high heat or pressure use lots of energy and cost more. A gentler process is cheaper and better for the environment.\nThere is still work to do before this is used in factories. But the discovery points to a hopeful idea: that waste is often just a resource we have not yet learned to use. By unlocking the chemistry hidden in plants, scientists are finding new value in what we once threw away.",
+        summaryJa: "毎年、農場や森は膨大な量の植物の廃棄物——茎・殻・おがくず・その他の残り——を生む。その多くは単に燃やされるか捨てられる。だがこれらの植物の中には、リグニンと呼ばれる丈夫な物質があり、有用な化学物質を閉じ込めている。最近、科学者はそれを解き放てる新しい道具を作った——穏やかな条件で、手強いリグニンを価値ある化学物質に分解する触媒だ。触媒とは何か。触媒は、自らは消費されずに化学反応を速める物質だ。難しい反応をより容易に起こす助け手のようなものだ。新しい触媒は、長く難しかったリグニンの分解を助ける。なぜ重要か。リグニンは地球で最もありふれた天然素材の一つだが、使うのが難しい。科学者がそれを安くクリーンに有用な化学物質へ変えられれば、植物の廃棄物はごみでなく貴重な資源になりうる。これらの化学物質は石油から作られるものの一部を置き換え、化石燃料への依存を減らす助けになりうる。新プロセスが「穏やかな条件」で働くことは大いに重要だ。非常な高温や高圧を要する反応は多くのエネルギーを使い費用も高い。より穏やかな工程は安く、環境にも良い。工場で使われる前にまだやるべきことはある。だがこの発見は希望ある発想を指す——廃棄物はしばしば、まだ使い方を学んでいない資源にすぎない。植物に隠れた化学を解き放つことで、科学者はかつて捨てていたものに新しい価値を見つけている。",
+        quiz: [
+          { q: "「触媒」とは？", options: ["自らは消費されずに化学反応を速める物質", "燃料の一種", "廃棄物の一種"], answer: 0 },
+          { q: "リグニンから化学物質を作る利点は？", options: ["植物の廃棄物が資源になり石油依存を減らせる", "廃棄物が増える", "石油が増える"], answer: 0 },
+          { q: "「穏やかな条件」が重要な理由は？", options: ["高温・高圧より安く環境に良いから", "高価になるから", "危険だから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0825-3",
+        title: "Keeping Other Worlds Clean",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "As humans explore space, we carry something with us that we cannot fully control: tiny living things. Bacteria and other microbes live on our skin, our tools, and our spacecraft. Recently, scientists warned that microbes brought by astronauts might survive in cold, shadowed spots near the Moon's South Pole. This raises an important question for all of humanity: how do we explore other worlds without contaminating them?\nWhy does this matter? Scientists want to study places like the Moon and Mars as they naturally are, to learn how they formed and whether they ever held life. If we accidentally leave Earth's microbes there, it could confuse future studies. Imagine searching for signs of alien life, only to find bacteria that we brought ourselves.\nThis concern is called 'planetary protection.' Space agencies around the world follow careful rules to clean spacecraft before launch and to limit where they land. The goal is to keep other worlds as pristine as possible, so their secrets are not spoiled.\nIt is a shared responsibility. Space belongs to no single country, and a mistake by one mission could affect the science of all. As more nations and companies travel into space, agreeing on and following these rules becomes even more important.\nThe issue is a reminder that exploration comes with duties as well as dreams. Reaching new worlds is a great achievement, but so is protecting them. As humanity spreads outward, we must learn to be not only bold explorers, but careful and respectful guests in the wider universe.",
+        summaryJa: "人類が宇宙を探査するとき、私たちは完全には制御できないものを共に運ぶ——小さな生き物だ。細菌など微生物は、私たちの肌・道具・宇宙船に住む。最近、科学者は、宇宙飛行士が運んだ微生物が、月の南極近くの冷たく影になった場所で生き延びるかもしれないと警告した。これは全人類に重要な問いを投げかける——他の世界をどう汚染せずに探査するのか。なぜ重要か。科学者は、月や火星のような場所を自然のままに研究し、どう形成されたか、かつて生命を宿したかを知りたい。もし誤って地球の微生物をそこに残せば、将来の研究を混乱させうる。宇宙生命の兆しを探して、自分たちが持ち込んだ細菌を見つけるだけ、という事態を想像してほしい。この懸念は「惑星保護」と呼ばれる。世界中の宇宙機関は、打ち上げ前に宇宙船を清め、着陸場所を制限する慎重な規則に従う。目標は、他の世界を可能な限り手つかずに保ち、その秘密を損なわないことだ。それは共有の責任だ。宇宙はどの一国のものでもなく、一つのミッションの過ちが皆の科学に影響しうる。より多くの国と企業が宇宙へ旅する中、こうした規則に合意し従うことは一層重要になる。この問題は、探査が夢だけでなく務めも伴うことを思い出させる。新しい世界に到達するのは偉大な成果だが、それを守ることも同じだ。人類が外へ広がるにつれ、私たちは大胆な探検者であるだけでなく、より広い宇宙で慎重で敬意ある客であることを学ばねばならない。",
+        quiz: [
+          { q: "科学者が警告したことは？", options: ["宇宙飛行士の微生物が月で生き延びるかもしれない", "月に水がないこと", "ロケットが遅いこと"], answer: 0 },
+          { q: "「惑星保護」の目標は？", options: ["他の世界を手つかずに保ち秘密を損なわないこと", "宇宙を汚すこと", "探査をやめること"], answer: 0 },
+          { q: "本文が伝えることは？", options: ["探査は夢だけでなく務めも伴う", "探査に責任はない", "宇宙は一国のものだ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0825-4",
+        title: "Japan's Vending Machine Culture",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, you are never far from a vending machine. On busy city streets, in quiet villages, and even on mountain paths, these machines stand ready day and night. Japan has one of the highest numbers of vending machines per person in the world, and they have become a small but fascinating part of daily life.\nWhat do they sell? Most offer drinks — cold water, tea, coffee, and juice in summer, and hot drinks in cans during winter. But that is only the beginning. Some machines sell ice cream, hot meals, soup, umbrellas, flowers, or even fresh eggs. Whatever the need, there may be a machine for it.\nWhy are they so common in Japan? Several reasons help explain it. Japan is very safe, so machines can stand outside without being damaged or robbed. Land in cities is expensive, and a vending machine needs almost no space or staff. And people value convenience and quick, reliable service, which the machines provide perfectly.\nThe machines also reflect a love of small, thoughtful details. Many are kept spotlessly clean, work without fail, and offer just the right drink at just the right temperature.\nFor visitors, Japan's vending machines are often a delightful surprise — a symbol of a country that is orderly, safe, and full of quiet conveniences. Behind something as ordinary as buying a drink lies a whole culture: one that values cleanliness, trust, and the simple pleasure of getting exactly what you want, whenever you want it.",
+        summaryJa: "日本では、自動販売機からそう遠く離れることはない。賑やかな街路、静かな村、山道にさえ、これらの機械は昼も夜も待ち構えている。日本は一人当たりの自販機の数が世界有数で、それらは日常生活の小さくも魅力的な一部になった。何を売るのか。多くは飲み物——夏は冷たい水・茶・コーヒー・ジュース、冬は缶入りの温かい飲み物。だがそれは始まりにすぎない。アイスクリーム・温かい食事・スープ・傘・花、さらには新鮮な卵を売る機械もある。どんな必要でも、それ用の機械があるかもしれない。なぜ日本でそれほど一般的か。いくつかの理由が説明を助ける。日本はとても安全なので、機械は壊されたり盗まれたりせず外に立てる。都市の土地は高価で、自販機はほとんど場所も人手も要らない。人々は利便性と、素早く信頼できるサービスを重んじ、機械はそれを完璧に提供する。機械は、小さく行き届いた細部への愛も映す。多くは非常に清潔に保たれ、確実に働き、ちょうど良い飲み物をちょうど良い温度で出す。訪問者には、日本の自販機はしばしば嬉しい驚きだ——秩序正しく、安全で、静かな便利さに満ちた国の象徴。飲み物を買うというありふれたことの背後に、文化全体がある——清潔さ・信頼、そして欲しいものをいつでも正確に手に入れる単純な喜びを重んじる文化が。",
+        quiz: [
+          { q: "日本の自販機が売るものに含まれるものは？", options: ["飲み物・アイス・温かい食事・傘・花など", "車だけ", "家だけ"], answer: 0 },
+          { q: "日本で自販機が一般的な理由は？", options: ["安全で、場所や人手が要らず、利便性が重んじられるから", "土地が無料だから", "人が少ないから"], answer: 0 },
+          { q: "自販機が映す価値は？", options: ["清潔さ・信頼・小さな細部への配慮", "無秩序", "不便さ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0825-5",
+        title: "The Hidden Rules of Evolution",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Evolution — the slow change of living things over millions of years — can seem completely random, driven by chance mutations and luck. But a huge new study of thousands of animal genomes suggests that part of evolution may follow hidden rules. Scientists found that chromosomes, the structures that carry an animal's genes, do not change in just any way. Instead, they seem to follow a limited number of set paths, almost like 'evolutionary highways.'\nWhat does this mean? Inside every cell, genes are packed into chromosomes. Over long ages, these chromosomes can break, join, and rearrange. Scientists once thought this happened almost randomly. But the new study shows that, across many different animals, the same kinds of changes appear again and again, while others almost never do. Some routes are taken often; others seem closed off.\nWhy does this matter? If evolution follows certain paths more than others, it becomes a little more predictable. Understanding these patterns could help scientists trace how different animals are related, and even understand diseases, since some human illnesses are linked to changes in chromosomes.\nThe idea also changes how we think about life's history. Evolution may not be a purely random walk in every direction, but a journey shaped by rules we are only beginning to understand — a mix of chance and hidden order.\nThe study is a reminder that nature often hides deep patterns beneath apparent randomness. By reading the genomes of thousands of species, scientists are uncovering the quiet rules that have guided life's long and remarkable journey.",
+        summaryJa: "進化——何百万年もかけた生き物のゆっくりした変化——は、偶然の突然変異と運に導かれ、完全に無作為に見えうる。だが数千の動物ゲノムの巨大な新研究は、進化の一部が隠れた規則に従うかもしれないと示す。科学者は、動物の遺伝子を運ぶ構造である染色体が、どんな形にでも変わるのではないと見つけた。むしろ、限られた数の決まった道——ほとんど「進化のハイウェイ」のような——に従うようだ。これはどういう意味か。あらゆる細胞の中で、遺伝子は染色体に詰め込まれている。長い年月の間、これらの染色体は割れ、つながり、並べ替わりうる。科学者はかつて、これがほぼ無作為に起きると考えた。だが新研究は、多くの異なる動物にわたって、同じ種類の変化が何度も現れ、他はほとんど現れないことを示す。よく通る道もあれば、閉ざされて見える道もある。なぜ重要か。進化が他より特定の道を通るなら、少し予測しやすくなる。こうした模様の理解は、異なる動物がどう関係するかを辿る助けになり、さらに病気の理解にも役立ちうる——人の病の一部は染色体の変化に結びつくからだ。この発想は、生命の歴史の考え方も変える。進化はあらゆる方向への純粋に無作為な歩みでなく、私たちがようやく理解し始めた規則に形づくられた旅——偶然と隠れた秩序の混合——かもしれない。この研究は、自然がしばしば見かけの無作為さの下に深い模様を隠すことを思い出させる。数千種のゲノムを読むことで、科学者は、生命の長く見事な旅を導いてきた静かな規則を明らかにしている。",
+        quiz: [
+          { q: "新研究が示した染色体についての発見は？", options: ["どんな形にも変わるのでなく限られた道に従うようだ", "全く変化しない", "色を変える"], answer: 0 },
+          { q: "この模様の理解が役立ちうることは？", options: ["動物の関係を辿ることや病気の理解", "進化を止めること", "無作為さを増やすこと"], answer: 0 },
+          { q: "本文が伝えることは？", options: ["自然は見かけの無作為さの下に深い模様を隠す", "進化に規則はない", "染色体は無意味だ"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-24",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "遠い惑星の生命を探すため科学者が調べるものは？", options: ["惑星の大気を通る光に残る気体の印", "惑星の重さ", "惑星の名前"], answer: 0 },
           { q: "亜酸化窒素が手がかりになりうる理由は？", options: ["地球では多くの生物が作る気体だから", "無害だから", "光るから"], answer: 0 },
           { q: "本文が促す慎重さは？", options: ["気体は生き物なしでも作られうるので複数の手がかりを合わせる", "一つの気体で断定してよい", "証明は不要"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-18",
-    passages: [
-      {
-        id: "d0818-1",
-        title: "When Interest Rates Rise",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Interest rates are one of the most powerful forces in the economy, yet many people find them confusing. Recently, an important interest rate in Japan rose to its highest level in about thirty years. To understand why this matters, it helps to know what interest rates actually do.\nAn interest rate is the cost of borrowing money. When rates are low, loans are cheap, so people and companies borrow more to buy homes, build factories, and grow their businesses. When rates rise, borrowing becomes more expensive, and this slows spending across the whole economy.\nWhy would rates rise? One common reason is inflation — when prices are climbing, higher interest rates can help cool the economy and keep prices under control. Rates can also rise when investors worry about the future and demand more reward for lending their money.\nRising rates affect almost everyone. A family with a home loan may pay more each month. A company may delay building a new factory. Governments, too, must pay more to borrow, which can strain their budgets. On the other hand, savers may finally earn a little more on the money they keep in the bank.\nBalancing all this is delicate work. If rates rise too fast, the economy can slow too much; if they stay too low, prices may climb out of control.\nFor learners of business English, interest rates are worth understanding. They are a hidden dial that shapes home prices, company plans, and national budgets — a single number with the power to touch nearly every part of economic life.",
-        summaryJa: "金利は経済で最も強力な力の一つだが、多くの人が分かりにくいと感じる。最近、日本のある重要な金利が、約30年で最高の水準に上がった。なぜこれが重要かを理解するには、金利が実際に何をするかを知ると助けになる。金利とは、お金を借りる費用だ。金利が低いと、ローンが安いので、人や企業は家を買い、工場を建て、事業を育てるために多く借りる。金利が上がると、借金はより高くつき、経済全体の支出が鈍る。なぜ金利は上がるのか。よくある理由の一つはインフレ——物価が上がっているとき、高い金利は経済を冷やし物価を抑える助けになりうる。投資家が将来を不安に思い、お金を貸す見返りをより多く求めるときも上がりうる。金利上昇はほぼ全員に影響する。住宅ローンのある家庭は毎月より多く払うかもしれない。企業は新工場の建設を遅らせるかもしれない。政府も借りるのにより多く払わねばならず、予算を圧迫しうる。一方で、貯蓄する人は、銀行に置くお金でようやく少し多く得られるかもしれない。これらすべての釣り合いを取るのは繊細な仕事だ。金利が速く上がりすぎれば経済は鈍りすぎ、低すぎれば物価が制御を失って上がりうる。ビジネス英語の学習者には、金利は理解する価値がある。住宅価格・企業の計画・国家予算を形づくる隠れたダイヤルであり——経済生活のほぼあらゆる部分に触れる力を持つ、一つの数字なのだ。",
-        quiz: [
-          { q: "金利とは何か？", options: ["お金を借りる費用", "貯金の総額", "会社の数"], answer: 0 },
-          { q: "金利が上がる理由の一つは？", options: ["インフレを冷やし物価を抑えるため", "お金を配るため", "借金を増やすため"], answer: 0 },
-          { q: "金利上昇の影響に含まれるものは？", options: ["住宅ローンの返済が増え、貯蓄の利息は少し増えうる", "誰にも影響しない", "物価だけが下がる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0818-2",
-        title: "The Rise of Humanoid Robots",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "For decades, robots that look and move like people have appeared mainly in films and dreams. Now they are becoming real products. Recently, a major robot maker prepared to sell shares to the public, a sign that humanoid robots — machines built in the shape of a human body — are turning into a serious industry.\nWhy build robots shaped like people? Much of the world is designed for the human body: doors, stairs, tools, and workspaces all fit our shape. A robot with two arms, two legs, and hands can, in theory, use these same spaces and objects without needing everything to be redesigned. That makes a human-shaped robot flexible and useful in many settings.\nWhat could they do? Supporters imagine humanoid robots working in factories and warehouses, helping in shops, or even assisting people at home with everyday tasks. Combined with modern artificial intelligence, such robots could learn to handle a wide range of jobs.\nThere are real challenges. Building a machine that walks smoothly, balances, and handles delicate objects is extremely difficult. These robots are still expensive, and they must be proven safe around people. Many promises may take years to come true.\nStill, the direction is striking. Companies and investors are betting large sums that human-shaped robots will become an important part of the future. Whether or not they live up to the hype, their arrival marks a new chapter — one in which machines may increasingly share not just our work, but the very spaces we live and move in.",
-        summaryJa: "何十年もの間、人のように見え動くロボットは、主に映画や夢の中に現れてきた。今、それが現実の製品になりつつある。最近、ある大手ロボットメーカーが株式を公開する準備を進めた——人間の体の形に作られた機械、ヒューマノイドロボットが、本格的な産業になりつつある兆しだ。なぜ人の形のロボットを作るのか。世界の多くは人間の体に合わせて設計されている——扉・階段・道具・作業空間はすべて私たちの形に合う。二本の腕、二本の脚、手を持つロボットは、理論上、すべてを設計し直さずに同じ空間や物を使える。それがヒト型ロボットを、多くの場面で柔軟で有用にする。何ができるのか。支持者は、工場や倉庫で働き、店で手伝い、あるいは家庭で日々の作業を助けるヒューマノイドロボットを思い描く。現代のAIと組み合わせれば、こうしたロボットは幅広い仕事を扱えるよう学べるかもしれない。現実の課題もある。滑らかに歩き、バランスを取り、繊細な物を扱う機械を作るのは極めて難しい。これらのロボットはまだ高価で、人の周りで安全だと証明せねばならない。多くの約束は実現に何年もかかるかもしれない。それでも方向は鮮烈だ。企業と投資家は、ヒト型ロボットが未来の重要な一部になると多額を賭けている。誇大な宣伝に応えるかどうかにかかわらず、その登場は新しい章を告げる——機械が私たちの仕事だけでなく、暮らし動く空間そのものをも、ますます共有しうる章を。",
-        quiz: [
-          { q: "なぜ人の形のロボットを作るのか？", options: ["世界が人間の体に合わせて設計され同じ空間や物を使えるから", "人より小さいから", "電気が要らないから"], answer: 0 },
-          { q: "ヒューマノイドロボットの想定される用途は？", options: ["工場・倉庫・店・家庭での作業の手伝い", "空を飛ぶこと", "星を作ること"], answer: 0 },
-          { q: "本文が挙げる課題は？", options: ["滑らかに歩き繊細な物を扱うのが難しく高価で安全性の証明も要る", "簡単で安いこと", "用途が無いこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0818-3",
-        title: "The Amazon at a Crossroads",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "The Amazon rainforest, spread across several countries in South America, is often called the 'lungs of the planet.' It is home to an astonishing variety of plants and animals, and it plays a huge role in the health of the whole Earth. Recently, scientists warned that the Amazon may be closer than they thought to a dangerous 'tipping point.'\nWhat is a tipping point? It is a moment when a system changes so much that it cannot easily return to how it was before. Scientists fear that if too much of the Amazon is cut down or damaged by drought and fire, the forest could begin to dry out and slowly turn into something more like grassland — a change that would be very hard to reverse.\nWhy does this matter to the whole world? The Amazon stores enormous amounts of carbon and helps control rainfall far beyond South America. It also holds countless species found nowhere else. Losing large parts of it would affect the climate, weather, and living things across the planet.\nThe good news is that a tipping point is a warning, not a certainty. Protecting the forest, slowing the clearing of trees, and helping it recover can keep it healthy. Many countries, scientists, and local communities are working to do exactly that.\nThe Amazon's story is a reminder that our planet's great natural systems are connected and fragile. What happens to a distant forest reaches all of us — and protecting it is a task the whole world shares.",
-        summaryJa: "南米の複数の国にまたがって広がるアマゾンの熱帯雨林は、しばしば「地球の肺」と呼ばれる。驚くほど多様な植物と動物の住処であり、地球全体の健康に大きな役割を果たす。最近、科学者は、アマゾンが思っていたより危険な「転換点（ティッピングポイント）」に近いかもしれないと警告した。転換点とは何か。系が大きく変わりすぎて、以前の状態に容易には戻れなくなる瞬間だ。アマゾンの多くが伐採されたり干ばつと火事で損なわれたりすると、森が乾き始め、ゆっくり草原のようなものに変わりうると科学者は恐れる——元に戻すのが非常に難しい変化だ。なぜこれが世界全体に重要か。アマゾンは膨大な炭素を蓄え、南米をはるかに超えて降雨の制御を助ける。他のどこにもいない無数の種も抱える。その大部分を失えば、地球中の気候・天気・生き物に影響する。良い知らせは、転換点は警告であって確定ではないことだ。森を守り、伐採を緩め、回復を助ければ、健康に保てる。多くの国・科学者・地元の地域が、まさにそれをしようと取り組んでいる。アマゾンの物語は、地球の大きな自然の仕組みがつながり、壊れやすいことを思い出させる。遠い森に起きることは私たち皆に届く——そしてそれを守ることは、世界全体が分かち合う務めなのだ。",
-        quiz: [
-          { q: "「転換点」とは何か？", options: ["系が大きく変わり以前に容易に戻れなくなる瞬間", "森が広がる時", "雨が止む日"], answer: 0 },
-          { q: "アマゾンが世界に重要な理由は？", options: ["膨大な炭素を蓄え遠くの降雨も制御し多くの種を抱えるから", "南米だけに関係するから", "無関係だから"], answer: 0 },
-          { q: "本文が伝える良い知らせは？", options: ["転換点は警告であって確定ではなく守れば健康に保てる", "もう手遅れである", "森は不要である"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0818-4",
-        title: "More Than Getting Clean: The Japanese Bath",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, a bath is simply a way to wash the body. In Japan, bathing is something more — a daily ritual of rest, warmth, and quiet pleasure. Understanding the Japanese bath is a small window into how a culture values calm and care in everyday life.\nHow is it different? In a Japanese home, people wash and rinse their bodies before getting into the bath. The bathtub, called ofuro, is not for cleaning but for soaking in hot water to relax. Because the body is already clean, the same warm water can be shared by the whole family, one after another.\nJapan is also famous for its onsen, natural hot springs found across the country. People travel to soak in these mineral-rich waters, often surrounded by beautiful mountains or forests. A visit to an onsen is a popular way to rest and escape the stress of daily life.\nBathing this way has real benefits. Warm water relaxes tired muscles, eases stress, and helps people sleep better. Just as important, it creates a quiet moment in the day — a time to slow down, breathe, and let go of worries.\nThere are simple customs to follow, such as washing first and keeping the shared water clean, which reflect a spirit of respect for others.\nThe Japanese bath, then, is not only about being clean. It is about comfort, health, and a gentle daily pause — a reminder that even a simple act, done with care, can become a small ceremony of rest.",
-        summaryJa: "多くの国で、入浴は単に体を洗う方法だ。日本では、入浴はそれ以上のもの——休息・温もり・静かな喜びの日々の儀式だ。日本の風呂を理解することは、ある文化が日常でどう静けさと気配りを大切にするかをのぞく小さな窓だ。何が違うのか。日本の家では、風呂に入る前に体を洗い流す。「お風呂」と呼ばれる浴槽は、洗うためでなく、温かい湯に浸かってくつろぐためのものだ。体は既に清潔なので、同じ温かい湯を家族全員が順に共有できる。日本は、全国にある天然の温泉でも有名だ。人々はこの鉱物豊かな湯に浸かりに旅し、しばしば美しい山や森に囲まれる。温泉に行くことは、休み日々の生活のストレスから逃れる人気の方法だ。こうした入浴には本当の利点がある。温かい湯は疲れた筋肉をほぐし、ストレスを和らげ、よりよく眠る助けになる。同じく大切なのは、一日に静かな時間を生むこと——速度を緩め、息をつき、心配を手放す時間だ。先に洗う、共有する湯を清潔に保つといった、他者への敬意の精神を映す簡単な作法がある。だから日本の風呂は、清潔になることだけではない。快適さ・健康、そして穏やかな日々の一息についてだ——丁寧に行えば、単純な行いさえ、小さな休息の儀式になりうることを思い出させる。",
-        quiz: [
-          { q: "日本の「お風呂」の使い方は？", options: ["先に体を洗い、湯には浸かってくつろぐ", "湯の中で体を洗う", "水を飲むため"], answer: 0 },
-          { q: "「温泉」とは何か？", options: ["全国にある天然の鉱物豊かな湯", "冷たい川", "人工の池だけ"], answer: 0 },
-          { q: "日本の入浴の利点は？", options: ["筋肉をほぐしストレスを和らげ睡眠を助け静かな時間を生む", "体を汚す", "眠れなくする"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0818-5",
-        title: "The Tiny Life Inside Cheese",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Cheese is one of the world's oldest and most beloved foods, but few people think about how it gets its flavor. The secret lies in something invisible: tiny living things called microbes. Recently, scientists studying several traditional cheeses discovered that the microbes giving each cheese its special taste may also be good for our health.\nHow do microbes make cheese? Cheese begins as milk, but microbes — helpful bacteria and molds — transform it. As they grow, they break down parts of the milk and create new substances, producing the rich flavors, textures, and smells we enjoy. Different microbes make different cheeses; the sharp taste of one and the creamy softness of another come from these tiny workers.\nWhat did the scientists find? Studying traditional, handmade cheeses, they discovered that some of the microbes responsible for flavor may also help our gut — the part of the body where food is digested. A healthy gut, full of helpful microbes, is increasingly linked to overall health.\nThis fits a larger idea in science: that the tiny living things in and around us matter more than we once thought. The same microbes that make our food delicious may also quietly support our bodies.\nThere is still much to learn, and no single food is a cure. But the research is a delicious reminder that nature and tradition often work together in surprising ways. A simple piece of cheese, made the old-fashioned way, turns out to be a tiny world of life — one that may nourish us in more ways than one.",
-        summaryJa: "チーズは世界で最も古く愛される食べ物の一つだが、どうやって風味を得るのかを考える人は少ない。秘密は目に見えないもの——微生物と呼ばれる小さな生き物にある。最近、いくつかの伝統的なチーズを研究する科学者が、各チーズに特別な味を与える微生物が、私たちの健康にも良いかもしれないと発見した。微生物はどうチーズを作るのか。チーズは牛乳として始まるが、微生物——有益な細菌やカビ——がそれを変える。育つにつれ牛乳の一部を分解し、新しい物質を作り、私たちが楽しむ豊かな風味・食感・香りを生む。異なる微生物が異なるチーズを作る——あるチーズの鋭い味も、別のチーズのクリーミーな柔らかさも、この小さな働き手から来る。科学者は何を見つけたか。伝統的な手作りのチーズを研究し、風味を担う微生物の一部が、腸——食べ物が消化される体の部分——も助けうると発見した。有益な微生物に満ちた健康な腸は、全身の健康にますます結びつけられている。これは科学のより大きな考えに合う——私たちの内や周りの小さな生き物が、かつて思ったより重要だということだ。食べ物をおいしくする同じ微生物が、静かに私たちの体を支えもするかもしれない。学ぶべきことはまだ多く、単一の食べ物が治療になるわけではない。だがこの研究は、自然と伝統がしばしば驚く形で協働することの、おいしい気づきだ。昔ながらの作り方の単純なチーズ一片が、実は生命の小さな世界であり——私たちを一つならぬ形で養うかもしれないのだ。",
-        quiz: [
-          { q: "チーズの風味を生むものは？", options: ["微生物（有益な細菌やカビ）", "砂糖", "金属"], answer: 0 },
-          { q: "科学者が発見したことは？", options: ["風味を担う微生物が腸の健康も助けうる", "チーズは有害だ", "微生物は無関係だ"], answer: 0 },
-          { q: "本文が示すより大きな考えは？", options: ["私たちの内や周りの小さな生き物は思ったより重要", "微生物は無意味", "食べ物は健康と無関係"], answer: 0 }
         ]
       }
     ]
