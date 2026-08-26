@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-26",
+    passages: [
+      {
+        id: "d0826-1",
+        title: "The Idea Behind Insurance",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Life is full of risks. A house might catch fire, a car might crash, or a person might fall ill. Any of these can cost a huge amount of money — often more than one family or business could ever pay alone. Insurance is a clever idea that helps people share these risks, and it is one of the most important tools in modern business.\nHow does insurance work? Many people each pay a small, regular amount of money, called a premium, into a shared pool managed by an insurance company. Most of them will not have a disaster in any given year. But when one person does — a fire, an accident, a serious illness — the company uses money from the pool to help cover the cost. In this way, the misfortune of a few is shared by many.\nWhy is this useful? On its own, a single family might be ruined by one large, unexpected expense. By paying a small amount regularly, they trade a big, uncertain risk for a small, predictable cost. This peace of mind lets people and businesses plan for the future and take sensible chances.\nInsurance companies must be careful. They study how often bad events happen so they can set fair prices, collecting enough to pay claims while staying in business.\nThe basic idea, though, is simple and powerful: together, we can carry burdens that would crush any one of us alone. Insurance turns the unpredictable dangers of life into something communities can face — by sharing the risk among many.",
+        summaryJa: "人生はリスクに満ちている。家が火事になり、車が衝突し、人が病気になるかもしれない。どれも莫大なお金がかかりうる——しばしば一つの家族や事業が単独で払える以上に。保険は、人々がこうしたリスクを分かち合う助けとなる巧妙な発想で、現代ビジネスで最も重要な道具の一つだ。保険はどう働くのか。多くの人がそれぞれ、「保険料」と呼ばれる小さく定期的なお金を、保険会社が管理する共有の資金の池に払う。そのほとんどは、ある年に災難に遭わない。だが誰かが遭うとき——火事・事故・重い病気——会社は池のお金を使って費用の負担を助ける。こうして、少数の不運が多数に分かち合われる。なぜ有用か。単独では、一つの家族が一度の大きく予期せぬ出費で破滅しうる。小さな額を定期的に払うことで、大きく不確かなリスクを、小さく予測できる費用と交換する。この安心が、人や事業に将来を計画させ、理にかなった挑戦をさせる。保険会社は慎重でなければならない。悪い出来事がどれだけ頻繁に起きるか研究し、公正な価格を設定する——請求に払うだけ集めつつ事業を続けられるように。だが基本の発想は単純で力強い——共に、私たちは一人では押し潰されそうな重荷を担える。保険は、人生の予測できない危険を、地域が向き合えるものに変える——リスクを多数で分かち合うことで。",
+        quiz: [
+          { q: "保険はどう働くか？", options: ["多くの人が保険料を共有の池に払い、災難に遭った人を助ける", "一人が全額を払う", "何もしない"], answer: 0 },
+          { q: "保険が有用な理由は？", options: ["大きく不確かなリスクを小さく予測できる費用と交換できる", "費用が増えるだけ", "災難が増える"], answer: 0 },
+          { q: "保険の基本の発想は？", options: ["リスクを多数で分かち合う", "一人で重荷を負う", "危険を無視する"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0826-2",
+        title: "Robots in the Operating Room",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "When you imagine surgery, you probably picture a doctor holding the tools. But increasingly, another kind of helper is present in the operating room: a robot. Recent research found that some operations, such as knee replacements, can be more precise when a surgeon works together with a robotic system.\nHow do surgical robots work? They do not operate on their own. Instead, a human surgeon guides them, and the robot helps carry out the plan with great accuracy. Before surgery, doctors can create a detailed map of the patient's body. During the operation, the robot helps the surgeon follow that plan exactly, cutting or placing parts with steadiness a human hand alone may not match.\nWhy does precision matter? In many operations, tiny differences can affect how well a patient recovers. A joint that is placed at just the right angle may feel more natural and last longer. Greater accuracy can mean less pain, faster healing, and better results.\nStill, robots are tools, not replacements for doctors. The surgeon's skill, judgment, and experience remain essential. The robot handles precise movements, while the human makes the decisions and responds to anything unexpected.\nThere are challenges too. Robotic systems are expensive, require training, and are not needed for every operation. Doctors must decide when they truly help.\nThe trend shows how technology and human skill can work together. By combining a surgeon's knowledge with a robot's steadiness, medicine is becoming more precise — helping patients heal better, one careful, well-guided movement at a time.",
+        summaryJa: "手術を想像するとき、あなたはたぶん道具を持つ医師を思い描く。だがますます、手術室には別の助け手がいる——ロボットだ。最近の研究は、膝の置換など一部の手術が、外科医がロボットシステムと協働するとより精密になりうると見つけた。手術ロボットはどう働くのか。自ら手術するのではない。人間の外科医が導き、ロボットが計画を高い正確さで実行する助けをする。手術前、医師は患者の体の詳細な地図を作れる。手術中、ロボットは外科医がその計画に正確に従う助けをし、人の手だけでは及ばないかもしれない安定さで切ったり部品を置いたりする。なぜ精密さが重要か。多くの手術で、わずかな違いが患者の回復を左右しうる。ちょうど良い角度に置かれた関節は、より自然に感じられ長持ちしうる。より高い正確さは、痛みの軽減・速い治癒・より良い結果を意味しうる。それでもロボットは道具であり、医師の代わりではない。外科医の技能・判断・経験は不可欠なままだ。ロボットが精密な動きを担い、人間が決定を下し、予期せぬことに対応する。課題もある。ロボットシステムは高価で、訓練を要し、あらゆる手術に必要ではない。医師は、それが本当に役立つときを判断せねばならない。この流れは、技術と人の技能がどう協働できるかを示す。外科医の知識とロボットの安定さを組み合わせることで、医療はより精密になっている——患者がよりよく治る助けをして、丁寧でよく導かれた一動作ずつ。",
+        quiz: [
+          { q: "手術ロボットはどう働くか？", options: ["人間の外科医が導き、ロボットが計画を正確に実行する", "自ら手術する", "医師の代わりに決定する"], answer: 0 },
+          { q: "手術での精密さが重要な理由は？", options: ["わずかな違いが回復を左右しうるから", "精密さは無関係", "速さだけが重要"], answer: 0 },
+          { q: "本文がロボットについて述べることは？", options: ["道具であり医師の技能・判断は不可欠なまま", "医師を不要にする", "あらゆる手術に必要"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0826-3",
+        title: "When a Giant Piece of Ice Breaks Free",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Near the top of the world, a huge sheet of ice recently broke away from a glacier in Greenland. The piece was enormous — about the size of a large city. Scientists had watched cracks slowly spreading across the ice for years before it finally split off and began to drift out to sea. Events like this are a striking sign of change in Earth's frozen regions.\nWhy do these giant blocks break off? Glaciers are rivers of ice that flow very slowly from the land toward the sea. Where they meet the ocean, huge floating sheets can form. As the air and water grow warmer, these sheets weaken, and cracks appear. Eventually, a large piece breaks free — a process called 'calving.' Some calving is natural, but warming makes it happen more often.\nWhy does it matter far away? The ice near the poles helps keep the whole planet cool by reflecting sunlight back into space. When ice on land melts and flows into the ocean, it also raises sea levels, which can threaten coastal cities around the world. What happens in the distant Arctic can reach shores thousands of kilometers away.\nScientists watch these regions closely, using satellites and sensors to track the ice. Their measurements help the world understand how fast things are changing.\nA single breaking sheet of ice is a small event in a vast landscape. But it is also a message from a changing planet — a reminder that the frozen ends of the Earth are connected to us all.",
+        summaryJa: "世界の頂近くで、最近、巨大な氷の板がグリーンランドの氷河から割れて離れた。その塊は途方もなく大きく——大都市ほどの大きさだった。科学者は、それがついに割れて海へ漂い出す前、何年もかけて氷にゆっくり広がる亀裂を見守っていた。こうした出来事は、地球の凍った地域の変化の際立った兆しだ。なぜこうした巨大な塊が割れるのか。氷河は、陸から海へ非常にゆっくり流れる氷の川だ。海と出会う所で、巨大な浮かぶ板ができうる。空気と水が暖まるにつれ、これらの板は弱まり、亀裂が現れる。やがて大きな塊が割れて離れる——「カービング（分離・崩落）」と呼ばれる過程だ。カービングの一部は自然だが、温暖化はそれをより頻繁にする。なぜ遠くで重要か。極近くの氷は、日光を宇宙へ反射し返して地球全体を涼しく保つ助けをする。陸の氷が溶けて海へ流れ込むと、海面も上昇し、世界中の沿岸都市を脅かしうる。遠い北極で起きることが、何千キロも離れた岸に届きうる。科学者は衛星やセンサーで氷を追い、これらの地域を注意深く見守る。その測定は、物事がどれほど速く変わっているかを世界が理解する助けになる。割れる一枚の氷の板は、広大な風景の中の小さな出来事だ。だがそれは、変わりゆく惑星からの伝言でもある——地球の凍った果てが私たち皆とつながっていることの気づきだ。",
+        quiz: [
+          { q: "「カービング」とは？", options: ["氷河から大きな氷の塊が割れて離れる過程", "氷を彫ること", "海を凍らせること"], answer: 0 },
+          { q: "極の氷が地球に果たす役割は？", options: ["日光を反射して地球を涼しく保つ助けをする", "地球を温める", "何もしない"], answer: 0 },
+          { q: "陸の氷が海に流れ込むと何が起きるか？", options: ["海面が上昇し沿岸都市を脅かしうる", "海が浅くなる", "何も起きない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0826-4",
+        title: "Bowing: A Language Without Words",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, people greet, thank, and apologize in a way that needs no words: they bow. A bow, called ojigi, is a small forward bend of the body, and it is one of the most important gestures in Japanese daily life. Though it looks simple, a bow can carry many different meanings.\nWhy do people bow? A bow is a sign of respect. People bow when they meet someone, say goodbye, give thanks, or say sorry. It shows that you are paying attention to the other person and treating them politely. In many situations where people in other countries might shake hands, Japanese people bow instead.\nInterestingly, not all bows are the same. A small nod of the head is casual and friendly, used among people who know each other. A deeper bow shows greater respect, given to a teacher, a customer, or an important guest. A very deep, long bow can express a serious apology or deep gratitude. The angle and length of the bow send a clear message.\nChildren learn to bow from a young age, and it becomes a natural habit. Even on the telephone, when the other person cannot see them, many Japanese people bow without thinking.\nFor visitors, learning to bow is a friendly way to show respect, though a simple, gentle bow is usually enough. Behind the gesture is a value at the heart of Japanese culture: showing care and consideration for others. A bow is a quiet way of saying, without any words, 'I respect you.'",
+        summaryJa: "日本では、人々は言葉を要さない方法で挨拶し、感謝し、謝る——お辞儀だ。「お辞儀」と呼ばれる、体を前に少し曲げる動作は、日本の日常生活で最も重要な仕草の一つだ。単純に見えるが、お辞儀は多くの異なる意味を担いうる。なぜ人はお辞儀するのか。お辞儀は敬意の印だ。人は、誰かに会うとき、別れるとき、感謝するとき、謝るときにお辞儀する。相手に注意を払い、丁寧に接していることを示す。他国の人が握手するかもしれない多くの場面で、日本人は代わりにお辞儀する。興味深いことに、すべてのお辞儀が同じではない。小さな会釈は、気軽で親しげで、知り合い同士で使われる。より深いお辞儀は、教師・客・大切な来賓へ向けられ、より大きな敬意を示す。とても深く長いお辞儀は、真剣な謝罪や深い感謝を表しうる。お辞儀の角度と長さが明確なメッセージを送る。子どもは幼い頃からお辞儀を学び、それは自然な習慣になる。電話でさえ、相手に見えなくても、多くの日本人は考えずにお辞儀する。訪問者には、お辞儀を学ぶことは敬意を示す親しみやすい方法だ——とはいえ、単純で穏やかなお辞儀で普通は十分だ。この仕草の背後には、日本文化の中心にある価値がある——他者への気遣いと配慮を示すこと。お辞儀は、言葉なしに「あなたを尊敬します」と言う、静かな方法なのだ。",
+        quiz: [
+          { q: "「お辞儀」とは何をすることか？", options: ["体を前に少し曲げて敬意を示す", "手をたたく", "飛び上がる"], answer: 0 },
+          { q: "お辞儀の意味を変えるものは？", options: ["お辞儀の角度と長さ", "服の色", "時間帯"], answer: 0 },
+          { q: "お辞儀の背後にある価値は？", options: ["他者への気遣いと配慮", "競争心", "無関心"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0826-5",
+        title: "A Hidden Species in the Museum",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Sometimes, an exciting scientific discovery is made not in a distant jungle, but in a quiet museum drawer. Recently, scientists used DNA from a nearly two-hundred-year-old museum specimen to confirm that a type of pangolin — a scaly, ant-eating animal — is actually a distinct species, one that had been hiding in plain sight for generations.\nHow can an old specimen reveal a new species? Museums around the world hold millions of preserved animals, some collected long ago. For a long time, scientists could only study them by looking at their shape and size. But modern tools can now read DNA — the genetic code inside cells — even from very old samples. By comparing this code with living animals, scientists can tell whether two similar-looking creatures are truly the same species or different ones.\nWhy does this matter? Knowing exactly how many species exist, and which is which, is important for protecting them. Pangolins are among the most threatened animals in the world, hunted heavily for their scales and meat. If one group is actually a separate, rarer species, it may need special protection to survive.\nThe discovery also shows the hidden value of museums. Specimens collected almost two centuries ago, by people who could never have imagined DNA, are still teaching us new things today.\nIt is a reminder that discovery is not only about exploring new places, but also about looking again, with new tools, at what we already have. Sometimes the next great finding is waiting quietly on a shelf, ready to reveal its secrets.",
+        summaryJa: "時に、胸躍る科学の発見は、遠いジャングルでなく、静かな博物館の引き出しでなされる。最近、科学者は、約200年前の博物館標本のDNAを使い、あるセンザンコウ——鱗を持ちアリを食べる動物——が実は別個の種であることを確認した。何世代も、目の前に隠れていた種だ。古い標本がどうして新しい種を明かせるのか。世界中の博物館は、何百万もの保存された動物を持ち、その一部ははるか昔に集められた。長い間、科学者はその形と大きさを見て研究するしかなかった。だが現代の道具は今、非常に古い試料からさえDNA——細胞の中の遺伝暗号——を読める。この暗号を生きた動物と比べることで、似て見える二つの生き物が本当に同じ種か別かを見分けられる。なぜ重要か。正確に何種が存在し、どれがどれかを知ることは、それらを守るために重要だ。センザンコウは世界で最も脅かされた動物の一つで、鱗と肉のため激しく狩られる。もしある集団が実は別の、より稀な種なら、生き延びるために特別な保護が要るかもしれない。この発見は、博物館の隠れた価値も示す。DNAを想像すらできなかった人々が約200年前に集めた標本が、今日なお私たちに新しいことを教えている。それは、発見が新しい場所を探ることだけでなく、既にあるものを新しい道具で見直すことでもあると思い出させる。時に、次の偉大な発見は、棚の上で静かに、その秘密を明かす準備をして待っているのだ。",
+        quiz: [
+          { q: "古い博物館標本が新種を明かせる理由は？", options: ["現代の道具が古い試料からDNAを読めるから", "標本が動くから", "色が変わるから"], answer: 0 },
+          { q: "何種が存在するかを知ることが重要な理由は？", options: ["それらを守るために重要だから", "無意味だから", "狩るために必要だから"], answer: 0 },
+          { q: "本文が伝えることは？", options: ["発見は既にあるものを新しい道具で見直すことでもある", "新しい場所だけが重要", "博物館は無価値"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-25",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "雲が形成されるのに必要なものは？", options: ["水蒸気が集まる微小な粒子（塵や塩など）", "大きな岩", "強い光"], answer: 0 },
           { q: "雲が地球に与える影響は？", options: ["雨をもたらし日光を反射して気温の制御を助ける", "何の影響もない", "地球を重くする"], answer: 0 },
           { q: "本文が伝えることは？", options: ["最も大きな特徴が最も小さなものに依存しうる", "雲は無関係", "粒子は無意味"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-19",
-    passages: [
-      {
-        id: "d0819-1",
-        title: "The Trouble with Cheaper Tickets",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "To attract more customers, many companies offer products at different prices, letting people pay less for a simpler version. Airlines often do this with tiered fares — cheaper tickets with fewer benefits. Recently, one airline faced criticism after introducing a new system of fare levels, with some passengers on the cheapest tickets complaining about seating and, in some cases, being unable to board.\nWhy do companies use tiered pricing? The idea is to serve different customers. Some travelers want the lowest possible price and do not mind giving up extras like choosing their seat. Others will pay more for comfort and flexibility. By offering several levels, a company hopes to sell to both groups and fill more seats.\nBut tiered pricing has risks. If the rules are confusing, or if the cheapest option feels unfair, customers can become angry. When people who paid for a ticket cannot board, trust is damaged — and in business, trust is hard to rebuild. Bad news travels quickly, especially online.\nThe key is clarity. Customers usually accept paying less for less, as long as they clearly understand what they are giving up. Problems arise when the limits are hidden or feel like a trick.\nThe lesson reaches across many industries. Offering choices at different prices can be smart, but only if it is honest and easy to understand. A pricing system that saves money but leaves customers confused or let down can cost a company something far more valuable than a discount: the loyalty of the people it serves.",
-        summaryJa: "より多くの客を惹きつけるため、多くの企業は異なる価格で製品を提供し、簡素な版を安く買えるようにする。航空会社はしばしば段階的運賃でこれを行う——特典の少ない安いチケットだ。最近、ある航空会社が新しい運賃段階の仕組みを導入した後、批判に直面した。最も安いチケットの一部の乗客が座席について不満を述べ、場合によっては搭乗できなかったのだ。なぜ企業は段階的価格を使うのか。狙いは異なる客に応えることだ。ある旅行者は可能な限り安い価格を望み、座席選択のような追加をあきらめても構わない。別の人は快適さと柔軟さのためより多く払う。複数の段階を提供することで、企業は両方に売り、より多くの座席を埋めたい。だが段階的価格には危険もある。規則が分かりにくかったり、最も安い選択が不公平に感じられたりすると、客は怒りうる。チケットを買った人が搭乗できないと、信頼が損なわれる——ビジネスで信頼は再建が難しい。悪い知らせは、特にオンラインで速く広まる。鍵は明快さだ。客は普通、何をあきらめるかをはっきり理解している限り、安いものに安く払うことを受け入れる。問題は、制限が隠されていたり、だましのように感じられたりするときに生じる。教訓は多くの業界に及ぶ。異なる価格で選択肢を提供するのは賢くありうるが、正直で分かりやすい場合に限る。お金を節約しても客を混乱させたり失望させたりする価格の仕組みは、割引よりはるかに価値あるもの——奉仕する人々の忠誠——を企業に失わせうる。",
-        quiz: [
-          { q: "企業が段階的価格を使う狙いは？", options: ["異なる客に応えより多く売ること", "客を減らすこと", "価格を隠すこと"], answer: 0 },
-          { q: "段階的価格の危険は？", options: ["規則が不明瞭・不公平だと信頼が損なわれる", "必ず利益が出る", "客が増えすぎる"], answer: 0 },
-          { q: "本文が挙げる鍵は？", options: ["何をあきらめるかが分かる明快さ", "価格を隠すこと", "特典を無くすこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0819-2",
-        title: "Tiny Robots That Swim",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "When we think of robots, we usually picture large machines with arms and wheels. But some of the most exciting robots being built today are almost too small to see. Scientists have created microscopic robots, driven by light, that can swim through liquid, catch tiny bacteria, and carry them to a chosen spot.\nHow do these tiny robots move? Being so small, they cannot use ordinary motors. Instead, they are powered by light. When light shines on them in a certain way, it pushes or steers them through the fluid. By controlling the light, scientists can guide the little robots where they want them to go, almost like moving a toy with a beam.\nWhy build robots so small? At this scale, they could do jobs no ordinary machine can. Catching and moving individual bacteria could help doctors study diseases, clean contaminated water, or one day deliver medicine to an exact spot inside the body. Working at the size of cells opens doors that larger tools cannot.\nThe technology is still young. These robots work in laboratories under careful conditions, and using them safely inside the human body or in the real world will take much more research.\nStill, the idea is remarkable. It shows how far robotics has come — from giant factory arms to swimmers smaller than a grain of dust. As scientists learn to build and control machines at this tiny scale, they open a new frontier where the very small may solve some very big problems.",
-        summaryJa: "ロボットと聞くと、私たちはたいてい腕や車輪のある大きな機械を思い描く。だが今日作られる最も刺激的なロボットの一部は、ほとんど見えないほど小さい。科学者は、光で駆動し、液体の中を泳ぎ、小さな細菌を捕らえ、選んだ場所へ運べる微小なロボットを作った。この小さなロボットはどう動くのか。あまりに小さいので、普通のモーターは使えない。代わりに光で動かされる。ある方法で光が当たると、流体の中でロボットを押したり導いたりする。光を制御することで、科学者は小さなロボットを行かせたい場所へ導ける——まるで光線でおもちゃを動かすように。なぜそんなに小さなロボットを作るのか。この尺度では、普通の機械にできない仕事ができる。個々の細菌を捕らえ動かすことは、医師の病気研究、汚染された水の浄化、いつか体内の正確な場所への薬の送達を助けうる。細胞の大きさで働くことは、より大きな道具には開けない扉を開く。技術はまだ若い。これらのロボットは実験室の慎重な条件下で働き、人体内や現実世界で安全に使うにははるかに多くの研究が要る。それでも発想は驚くべきものだ。ロボット工学がどれほど進んだか——巨大な工場の腕から、塵の一粒より小さな泳ぎ手へ——を示す。科学者がこの微小な尺度で機械を作り制御するのを学ぶにつれ、とても小さなものがとても大きな問題を解きうる新しい辺境を開くのだ。",
-        quiz: [
-          { q: "この微小なロボットはどう動くか？", options: ["光で押されたり導かれたりする", "ガソリンで走る", "風で飛ぶ"], answer: 0 },
-          { q: "小さなロボットができる仕事は？", options: ["個々の細菌を捕らえ運ぶ（病気研究や水の浄化など）", "大きな荷物を運ぶ", "家を建てる"], answer: 0 },
-          { q: "この技術の現状は？", options: ["まだ若く実験室の慎重な条件下で働く", "既に体内で広く使われている", "もう不要になった"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0819-3",
-        title: "The New Race to the Moon",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "More than fifty years after humans first walked on the Moon, the world is going back — and this time, many nations and companies are taking part. Recently, one country announced a mission using a 'hopping' probe designed to search for hidden water near the Moon's surface. It is part of a broader wave of lunar exploration by several countries at once.\nWhy return to the Moon now? One big reason is water. Scientists believe there may be ice hidden in cold, shadowed craters near the Moon's poles. Water is precious in space: it can be used for drinking, split into oxygen to breathe, or even turned into rocket fuel. Finding usable water could make a lasting human presence on the Moon far more practical.\nThe Moon is also seen as a stepping stone. By learning to live and work there, explorers can test the tools and skills needed for even longer journeys, perhaps one day to Mars.\nThis new era is different from the first. Instead of a race between just two superpowers, today many countries and private companies are involved, sometimes competing and sometimes cooperating. This brings more ideas and resources, but also new questions about who may use the Moon, and how.\nWhatever happens, the goal is bold: not just to visit the Moon, but to stay. If humans can learn to use what the Moon offers, our nearest neighbor in space may become a base for exploring the solar system — and a shared challenge for all of humanity.",
-        summaryJa: "人類が初めて月を歩いてから50年以上、世界は再び月へ向かっている——そして今度は、多くの国と企業が参加している。最近、ある国が、月の表面近くに隠れた水を探すよう設計された「跳ねる」探査機を使うミッションを発表した。同時に複数の国が行う、より広い月探査の波の一部だ。なぜ今、月へ戻るのか。大きな理由の一つは水だ。科学者は、月の極近くの冷たく影になったクレーターに氷が隠れているかもしれないと考える。水は宇宙で貴重だ——飲み水に使え、酸素に分けて呼吸でき、ロケット燃料にさえ変えられる。使える水を見つければ、月での持続的な人類の存在がはるかに実用的になりうる。月は足がかりとも見なされる。そこで暮らし働くことを学べば、探検者は、いつか火星へなど、さらに長い旅に必要な道具と技能を試せる。この新しい時代は最初とは異なる。二つの超大国だけの競争でなく、今日は多くの国と民間企業が関わり、時に競い時に協力する。これはより多くの発想と資源をもたらすが、誰がどう月を使ってよいかという新しい問いも生む。何が起きるにせよ、目標は大胆だ——月を訪れるだけでなく、留まること。月が提供するものを人類が使えるようになれば、宇宙の最も近い隣人が太陽系探査の基地——そして全人類が分かち合う挑戦——になるかもしれない。",
-        quiz: [
-          { q: "今、月へ戻る大きな理由の一つは？", options: ["飲み水・酸素・燃料に使える水（氷）を探すため", "月を明るくするため", "月を持ち帰るため"], answer: 0 },
-          { q: "月が「足がかり」と見なされる理由は？", options: ["さらに長い旅（火星など）の道具と技能を試せるから", "月が地球より大きいから", "水が無いから"], answer: 0 },
-          { q: "この新しい時代が最初と異なる点は？", options: ["多くの国と民間企業が関わり競い協力する", "一国だけが行う", "誰も参加しない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0819-4",
-        title: "The Little Fans of a Hot Summer",
-        level: "★★☆",
-        genre: "日本",
-        text: "Walk down a Japanese street on a hot summer day, and you will see them everywhere: small handheld fans, humming quietly as people try to stay cool. Once a rare gadget, these little electric fans have become a summer essential, carried by students, workers, and travelers alike. But as they have grown popular, they have also brought some new problems.\nWhy are handheld fans so popular? Japanese summers are hot and very humid, and a small fan offers instant, personal relief almost anywhere — on a crowded train, waiting in line, or walking outside. They are cheap, light, and rechargeable, making them easy to carry all day.\nRecently, though, there have been warnings about safety. Some people, especially those with long hair, have had their hair caught in the spinning blades, causing painful injuries. There have also been reports of the batteries inside overheating or even catching fire if the fans are damaged or poorly made.\nThese problems do not mean the fans are dangerous for everyone, but they are a reminder to use them with care — tying back long hair, buying from trusted makers, and not leaving them to charge unattended.\nThe story of the handheld fan is a small example of a common pattern: a helpful new gadget spreads quickly, and only later do people learn to use it safely. As with many tools, a little caution lets us enjoy the benefits — a cool breeze on a hot day — while avoiding the risks that come with something new.",
-        summaryJa: "暑い夏の日に日本の街を歩くと、あちこちで目にする——小さな携帯扇風機が、涼をとろうとする人々の手で静かにうなっている。かつては珍しい機器だったこの小さな電動扇風機は、今や夏の必需品になり、学生も働く人も旅行者も持ち歩く。だが人気になるにつれ、いくつか新しい問題ももたらした。なぜ携帯扇風機はそれほど人気か。日本の夏は暑く非常に湿気が多く、小さな扇風機はほぼどこでも——混んだ電車、行列、屋外を歩くとき——即座に個人的な涼を与える。安く、軽く、充電式なので、一日中持ち歩きやすい。だが最近、安全について警告が出ている。一部の人、特に髪の長い人が、回る羽根に髪を巻き込まれ、痛い怪我をした。扇風機が壊れたり粗悪だったりすると、中の電池が過熱し、発火することさえあるという報告もある。こうした問題は、扇風機が誰にとっても危険という意味ではないが、注意して使うようにという気づきだ——長い髪を束ね、信頼できるメーカーから買い、充電中に放置しない。携帯扇風機の話は、よくある型の小さな例だ——役立つ新しい機器が速く広まり、後になって人々が安全に使うことを学ぶ。多くの道具と同じく、少しの注意が、利点——暑い日の涼しい風——を楽しみつつ、新しいものに伴う危険を避けさせてくれる。",
-        quiz: [
-          { q: "携帯扇風機が日本で人気の理由は？", options: ["暑く湿気の多い夏にどこでも即座に涼を与えるから", "冬に暖かいから", "無料だから"], answer: 0 },
-          { q: "本文が挙げる安全上の問題は？", options: ["髪の巻き込みや電池の過熱・発火", "水漏れ", "音が出ないこと"], answer: 0 },
-          { q: "本文が伝える教訓は？", options: ["少しの注意で利点を楽しみ危険を避けられる", "扇風機は危険で使えない", "注意は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0819-5",
-        title: "A Surprising Clue in the Search for Alien Life",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Is there life anywhere else in the universe? It is one of humanity's oldest questions, and scientists are searching for answers among the stars. To find life on distant planets, they look for special gases in the planets' air — signs that living things might be present. Recently, researchers suggested that one surprising gas could be an important clue: nitrous oxide, sometimes known as 'laughing gas.'\nWhy look for gases? Scientists cannot travel to faraway planets, but they can study the light that passes through a planet's atmosphere. Different gases leave different marks in that light. Certain gases are produced mainly by living things, so finding them could hint that life exists — even from many light-years away.\nWhy nitrous oxide? On Earth, this gas is produced by many living organisms as part of natural processes. If a distant planet's air contained a lot of it, and there was no obvious non-living source, that might suggest living things are at work there. Adding nitrous oxide to the list of 'biosignatures' gives scientists another tool in their search.\nOf course, this is not proof of alien life. A gas can sometimes be made without living things, so scientists must be careful and look for several clues together, not just one.\nStill, the idea is exciting. Each new biosignature improves our chances of recognizing life if we ever find it. As telescopes grow more powerful, humanity comes a little closer to answering a question we have asked for thousands of years: are we alone?",
-        summaryJa: "宇宙のどこか他に生命はいるのか。人類の最も古い問いの一つで、科学者は星々の間に答えを探している。遠い惑星の生命を見つけるため、彼らは惑星の大気の特別な気体——生き物がいるかもしれない兆し——を探す。最近、研究者は、意外な気体が重要な手がかりになりうると示した。亜酸化窒素、時に「笑気ガス」として知られる気体だ。なぜ気体を探すのか。科学者は遠い惑星へ旅できないが、惑星の大気を通る光を研究できる。異なる気体はその光に異なる印を残す。特定の気体は主に生き物によって作られるので、それを見つければ——何光年も離れていても——生命の存在を示唆しうる。なぜ亜酸化窒素か。地球では、この気体は多くの生物が自然の過程の一部として作る。遠い惑星の大気にそれが大量にあり、明白な非生命の源がなければ、そこで生き物が働いていることを示唆するかもしれない。亜酸化窒素を「バイオシグネチャー（生命の兆候）」の一覧に加えることは、探索の道具をもう一つ科学者に与える。もちろん、これは宇宙生命の証明ではない。気体は時に生き物なしでも作られうるので、科学者は慎重に、一つでなく複数の手がかりを合わせて見ねばならない。それでも発想は胸躍る。新しいバイオシグネチャー一つ一つが、もし生命を見つけたときにそれと認識できる可能性を高める。望遠鏡がより強力になるにつれ、人類は何千年も問うてきた問い——私たちは孤独なのか——への答えに少し近づく。",
-        quiz: [
-          { q: "遠い惑星の生命を探すため科学者が調べるものは？", options: ["惑星の大気を通る光に残る気体の印", "惑星の重さ", "惑星の名前"], answer: 0 },
-          { q: "亜酸化窒素が手がかりになりうる理由は？", options: ["地球では多くの生物が作る気体だから", "無害だから", "光るから"], answer: 0 },
-          { q: "本文が促す慎重さは？", options: ["気体は生き物なしでも作られうるので複数の手がかりを合わせる", "一つの気体で断定してよい", "証明は不要"], answer: 0 }
         ]
       }
     ]
