@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-27",
+    passages: [
+      {
+        id: "d0827-1",
+        title: "Why Big Companies Buy Small Ones",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "In the business world, large companies often buy smaller ones. Recently, a major computer-chip company agreed to buy a smaller firm known for its work in artificial intelligence, in a deal worth billions of dollars. When one company buys another, it is called an acquisition, and it is one of the most important moves a business can make.\nWhy would a big, successful company buy a smaller one? Often, the smaller company has something valuable the buyer wants. It might own useful technology, a popular product, or a skilled team of workers. Building these from scratch could take years, but buying them gives the larger company instant access.\nAcquisitions can also help a company enter a new market or remove a rival. If a fast-growing small company might one day become a strong competitor, a larger firm may prefer to buy it and join forces instead.\nBut acquisitions are risky. They are expensive, and the two companies must learn to work together. Sometimes their people, systems, or cultures do not fit well, and the hoped-for benefits never appear. Many acquisitions succeed, but some fail badly.\nFor the smaller company and its founders, being bought can be a huge reward for years of hard work. For the larger one, it is a bet on the future.\nThe lesson is that businesses grow not only by working harder, but by combining. Behind a single big deal are ideas, people, and technology changing hands — reshaping industries, and deciding which companies will lead in the years to come.",
+        summaryJa: "ビジネスの世界で、大企業はしばしば小さな企業を買う。最近、ある大手コンピューターチップ企業が、AIの取り組みで知られる小さな会社を、数十億ドルの取引で買収することに合意した。ある企業が別の企業を買うことは「買収（アクイジション）」と呼ばれ、事業が取りうる最も重要な動きの一つだ。なぜ大きく成功した企業が小さな企業を買うのか。しばしば、小さな企業は買い手が欲しい価値あるものを持つ。有用な技術、人気製品、熟練した従業員チームを持つかもしれない。これらを一から築くには何年もかかりうるが、買えば大企業は即座にアクセスできる。買収は、新市場への参入や競合の排除も助けうる。急成長する小企業がいつか強い競争相手になりうるなら、大企業はそれを買って力を合わせる方を好むかもしれない。だが買収は危険だ。高価で、二つの企業は共に働くことを学ばねばならない。時に、人・システム・文化がうまく合わず、望んだ利益は決して現れない。多くの買収は成功するが、ひどく失敗するものもある。小さな企業とその創業者には、買われることが何年もの努力への大きな報酬になりうる。大きな企業には、未来への賭けだ。教訓は、事業がより懸命に働くことだけでなく、結びつくことでも成長するということだ。一つの大きな取引の背後には、持ち主を変える発想・人・技術があり——産業を作り替え、来る年月にどの企業が主導するかを決めている。",
+        quiz: [
+          { q: "「買収」とは？", options: ["ある企業が別の企業を買うこと", "製品を売ること", "会社を閉じること"], answer: 0 },
+          { q: "大企業が小さな企業を買う理由は？", options: ["有用な技術・製品・人材に即座にアクセスできるから", "客を減らすため", "技術を捨てるため"], answer: 0 },
+          { q: "買収が危険な理由は？", options: ["高価で人・システム・文化が合わず利益が出ないこともある", "必ず成功するから", "費用がかからないから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0827-2",
+        title: "Tiny Particles That Fight Cancer",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Removing a brain tumor is one of the most difficult operations in medicine. Surgeons must take out the cancer while protecting the healthy brain around it — and the hardest part is that tiny bits of tumor can be almost impossible to see. Now, scientists have created something that could help: 'smart' nanoparticles, incredibly tiny objects that can both light up hidden cancer cells and help destroy the ones left behind.\nWhat are nanoparticles? They are particles far smaller than a single cell — so small that thousands could fit across the width of a hair. Because of their size, they can travel through the body and gather in specific places, such as a tumor.\nHow do these particles help? First, they can be designed to glow, making cancer cells shine during surgery. This lets the surgeon see tumor that would otherwise be invisible, and remove more of it safely. Then, after the operation, the same particles can help destroy microscopic cancer cells that were left behind, lowering the chance the cancer returns.\nThis is still early research, done in laboratories and animal tests. Using such particles safely in people will require years of careful study, and not every promising idea succeeds.\nStill, the work points to an exciting future for medicine: tiny tools, working at the scale of cells, doing jobs too delicate for ordinary instruments. By combining chemistry, biology, and clever engineering, scientists are finding new ways to fight one of the hardest diseases — one nearly invisible particle at a time.",
+        summaryJa: "脳腫瘍の摘出は医療で最も難しい手術の一つだ。外科医は、周りの健康な脳を守りつつがんを取り出さねばならない——そして最も難しいのは、微小な腫瘍のかけらがほとんど見えないことだ。今、科学者はそれを助けうるものを作った——「スマート」ナノ粒子、隠れたがん細胞を光らせ、残ったものの破壊も助けられる、極めて小さな物体だ。ナノ粒子とは何か。一つの細胞よりはるかに小さい粒子だ——髪の幅に何千も収まるほど小さい。その大きさゆえ、体内を移動し、腫瘍など特定の場所に集まれる。これらの粒子はどう助けるのか。まず、光るよう設計でき、手術中にがん細胞を輝かせる。これにより外科医は、さもなければ見えない腫瘍を見て、より多くを安全に取り除ける。次に、手術後、同じ粒子が、残された微視的ながん細胞の破壊を助け、がんが戻る可能性を下げる。これはまだ実験室と動物試験で行われる初期の研究だ。こうした粒子を人で安全に使うには何年もの丁寧な研究が要り、あらゆる有望な発想が成功するわけではない。それでもこの取り組みは、医療の胸躍る未来を指す——細胞の尺度で働き、普通の器具には繊細すぎる仕事をする微小な道具。化学・生物学・巧妙な工学を組み合わせ、科学者は最も難しい病の一つと闘う新しい方法を見つけている——ほぼ見えない一粒ずつ。",
+        quiz: [
+          { q: "スマートナノ粒子ができることは？", options: ["隠れたがん細胞を光らせ残ったものの破壊も助ける", "脳全体を取り除く", "痛みを増やす"], answer: 0 },
+          { q: "ナノ粒子はどれくらい小さいか？", options: ["一つの細胞よりはるかに小さい", "建物ほど大きい", "肉眼でよく見える"], answer: 0 },
+          { q: "この研究の現状は？", options: ["実験室と動物試験の初期段階", "既に広く使われている", "失敗して中止された"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0827-3",
+        title: "Protecting Children Online",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Children today grow up with the internet. They learn, play, and talk with friends online, often from a very young age. But the digital world can also be dangerous for them, and recently governments around the world have been taking action to make it safer. In one country, a major technology company agreed to a large settlement over concerns that its social media harmed young users.\nWhy are people worried? Social media and other online services are designed to keep users looking at their screens for as long as possible. For children, whose minds are still developing, this can lead to too much screen time, less sleep, and pressure to compare themselves with others. Young people may also meet strangers online or see content that is not suitable for them.\nWhat are governments and companies doing? Some are creating rules that require companies to protect young users — for example, by limiting certain features for children, adding parental controls, or checking users' ages. Companies are being asked to design their services with children's safety in mind, not only with profit.\nThis is a difficult balance. The internet offers children wonderful chances to learn and connect, and no one wants to shut those out. The goal is to keep the benefits while reducing the harms.\nProtecting children online has become a shared challenge around the world. As young people spend more of their lives on screens, families, companies, and governments are all learning, together, how to help them grow up safe in a digital age.",
+        summaryJa: "今日の子どもはインターネットとともに育つ。しばしば非常に幼い頃から、オンラインで学び、遊び、友人と話す。だがデジタルの世界は彼らにとって危険にもなりうる。最近、世界中の政府がそれをより安全にするための行動を取っている。ある国では、大手技術企業が、そのソーシャルメディアが若い利用者を害したという懸念をめぐり、大きな和解に合意した。なぜ人々は心配するのか。ソーシャルメディアなどのオンラインサービスは、利用者をできるだけ長く画面に見入らせるよう設計されている。心がまだ発達途上の子どもには、これが過度の画面時間、睡眠不足、他者と自分を比べる圧力につながりうる。若者はオンラインで見知らぬ人に会ったり、適さない内容を見たりもしうる。政府と企業は何をしているのか。若い利用者を守るよう企業に求める規則を作る動きもある——例えば、子ども向けに特定の機能を制限し、保護者による管理を加え、利用者の年齢を確認するなど。企業は、利益だけでなく子どもの安全を念頭にサービスを設計するよう求められている。これは難しい均衡だ。インターネットは子どもに学び、つながる素晴らしい機会を与え、誰もそれを締め出したくない。目標は、利益を保ちつつ害を減らすことだ。子どものオンライン保護は、世界中で共有の課題になった。若者が生活のより多くを画面上で過ごす中、家族・企業・政府はみな共に、デジタル時代に彼らが安全に育つ手助けの仕方を学んでいる。",
+        quiz: [
+          { q: "オンラインで子どもについて心配される理由は？", options: ["過度の画面時間・睡眠不足・比較の圧力などにつながりうる", "学べないから", "無料だから"], answer: 0 },
+          { q: "政府や企業がしていることは？", options: ["機能の制限・保護者管理・年齢確認など安全のための規則", "子どもの利用を全面禁止", "何もしない"], answer: 0 },
+          { q: "この課題の難しい均衡とは？", options: ["利益を保ちつつ害を減らすこと", "利益を全て捨てること", "害を増やすこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0827-4",
+        title: "Helping a Region Recover Through Travel",
+        level: "★★☆",
+        genre: "日本",
+        text: "After a natural disaster, a region faces a long road to recovery. Homes and roads must be repaired, but there is another, quieter problem: visitors often stop coming. When tourists stay away, hotels, restaurants, and shops lose the income they depend on. Recently, Japan considered a plan to help one area recover by encouraging people to travel there again.\nThe idea is simple. After an earthquake struck part of southern Japan, the government looked at helping cover much of the cost of trips to the area. By making travel cheaper, they hoped to bring back visitors, and with them, money to support local businesses.\nWhy use tourism to help recovery? Rebuilding needs money, and a healthy flow of visitors brings money directly to the people who need it — the shop owner, the innkeeper, the taxi driver. Travel also lifts spirits, showing a struggling community that the wider country has not forgotten them.\nThere is another benefit. After a disaster, people far away may wrongly believe an entire region is unsafe or closed, even when most of it is fine. Encouraging visitors helps correct this and shows that the area is open and welcoming.\nOf course, safety comes first, and such plans must be carefully timed. But the idea reflects an important truth: helping a place recover is not only about repairing buildings. It is also about bringing life, activity, and people back. Sometimes, one of the kindest things a traveler can do is simply to visit a place that needs them.",
+        summaryJa: "自然災害の後、地域は回復への長い道に直面する。家や道路は修理せねばならないが、もう一つの静かな問題がある——訪問者がしばしば来なくなるのだ。観光客が遠ざかると、ホテル・飲食店・店は頼りにする収入を失う。最近、日本は、人々が再びそこへ旅するのを促すことで、ある地域の回復を助ける案を検討した。発想は単純だ。南日本の一部を地震が襲った後、政府はその地域への旅の費用の多くを補助することを検討した。旅を安くすることで訪問者を呼び戻し、彼らとともに地元事業を支えるお金をもたらそうとした。なぜ観光で回復を助けるのか。再建にはお金が要り、健全な訪問者の流れは、それを必要とする人々——店主・宿の主人・タクシー運転手——に直接お金をもたらす。旅は気持ちも高め、苦境の地域に、広い国が彼らを忘れていないと示す。もう一つの利点もある。災害の後、遠くの人々は、大部分が無事でも地域全体が危険だ・閉鎖されたと誤って信じるかもしれない。訪問を促すことはこれを正し、その地域が開いていて歓迎していると示す助けになる。もちろん安全が最優先で、こうした案は慎重な時機が要る。だがこの発想は重要な真実を映す——ある場所の回復を助けることは、建物を修理することだけではない。生命・活動・人を呼び戻すことでもある。時に、旅行者ができる最も親切なことの一つは、単に、彼らを必要とする場所を訪れることなのだ。",
+        quiz: [
+          { q: "災害後の「静かな問題」とは？", options: ["訪問者が来なくなり地元事業が収入を失うこと", "道路が広がること", "人口が増えること"], answer: 0 },
+          { q: "観光で回復を助ける理由は？", options: ["訪問者が必要とする人々に直接お金をもたらすから", "観光は無関係だから", "建物だけが重要だから"], answer: 0 },
+          { q: "本文が映す真実は？", options: ["回復は建物の修理だけでなく人を呼び戻すことでもある", "回復は不可能", "旅は無意味"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0827-5",
+        title: "A Star's Hidden Partner",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "High in the winter sky shines a famous red star called Betelgeuse, one of the brightest and largest stars we can see. For about a hundred years, astronomers suspected that this giant star was not alone — that a smaller companion star might be circling it, hidden in its glare. Recently, scientists finally captured their clearest image yet of this hidden partner, ending a search that lasted a century.\nWhy was it so hard to see? Betelgeuse is enormous and extremely bright, so a much smaller, fainter star close beside it is easily lost in its light — like trying to spot a candle right next to a searchlight. Only with very powerful modern telescopes and clever techniques could astronomers finally separate the two.\nWhy does this discovery matter? Many stars in the universe come in pairs, circling each other. A companion can change how a star behaves — how it brightens, dims, and ages. Betelgeuse is known for slowly changing its brightness, and understanding its partner may help explain these changes.\nStudying such faraway objects is painstaking work. The stars are hundreds of light-years away, so astronomers must gather faint light and analyze it with great care over many years.\nThe find is a reminder of how much patience science requires, and how new tools can finally answer old questions. For a hundred years, a hidden star waited just out of view. Now, at last, we have seen it — a small victory in humanity's long effort to understand the distant, glittering lights that fill our night sky.",
+        summaryJa: "冬の空高くに、ベテルギウスと呼ばれる有名な赤い星が輝く。私たちが見られる最も明るく大きな星の一つだ。約100年の間、天文学者はこの巨星が独りではない——より小さな伴星がその輝きに隠れて回っているかもしれない——と疑ってきた。最近、科学者はついにこの隠れた相手の、これまでで最も鮮明な画像を捉え、一世紀続いた探索を終えた。なぜそんなに見えにくかったのか。ベテルギウスは巨大で極めて明るいので、すぐそばのずっと小さく暗い星は、その光に容易にかき消される——サーチライトのすぐ隣のろうそくを見つけようとするように。非常に強力な現代の望遠鏡と巧妙な技法があって初めて、天文学者はついに二つを分けられた。なぜこの発見が重要か。宇宙の多くの星は対で、互いを回る。伴星は星のふるまい——どう明るくなり、暗くなり、年を取るか——を変えうる。ベテルギウスはゆっくり明るさを変えることで知られ、その相手の理解がこうした変化の説明を助けるかもしれない。こんな遠い天体の研究は骨の折れる仕事だ。星は数百光年離れているので、天文学者はかすかな光を集め、何年もかけて細心の注意で分析せねばならない。この発見は、科学がどれほどの忍耐を要するか、そして新しい道具が古い問いについに答えられることを思い出させる。100年の間、隠れた星は見えないところで待っていた。今、ついに、私たちはそれを見た——夜空を満たす遠くきらめく光を理解しようとする人類の長い努力の、小さな勝利だ。",
+        quiz: [
+          { q: "ベテルギウスの伴星が見えにくかった理由は？", options: ["ベテルギウスが明るすぎてそばの暗い星がかき消されるから", "伴星が存在しないから", "昼だけ見えるから"], answer: 0 },
+          { q: "伴星の研究が重要な理由は？", options: ["星のふるまい（明るさの変化など）の説明を助けうるから", "星を壊すため", "光を消すため"], answer: 0 },
+          { q: "この発見が思い出させることは？", options: ["科学は忍耐を要し新しい道具が古い問いに答えうる", "科学は簡単だ", "望遠鏡は不要だ"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-26",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が発見したことは？", options: ["峡谷の一部は川より前、超大陸の分裂で露出したかもしれない", "川は存在しなかった", "峡谷は人が作った"], answer: 0 },
           { q: "岩の層を読むことは何にたとえられるか？", options: ["惑星の過去についての巨大な本のページをめくること", "絵を描くこと", "音楽を聴くこと"], answer: 0 },
           { q: "この発見が思い出させることは？", options: ["地球は非常に長く活発な歴史を持つ", "地面は決して動かない", "歴史は短い"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-20",
-    passages: [
-      {
-        id: "d0820-1",
-        title: "Selling Noodles to the World",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "A dish that is loved in one country is not always easy to sell in another. This is the challenge facing a successful Japanese noodle company as it tries to bring thick udon noodles to customers in the United States. In Japan, udon is a simple, everyday comfort food. But abroad, many people have never tasted it — and turning an unfamiliar food into a popular one is hard work.\nWhy expand overseas at all? For a company that has already done well at home, foreign markets offer a chance to grow much bigger. The United States has a huge population and a strong interest in food from around the world. If udon catches on, the rewards could be enormous.\nBut there are real difficulties. Customers who have never eaten udon may not know what it is or how to enjoy it. The company must teach people about the food, adapt to local tastes, and compete with countless other restaurants. Growing quickly also means hiring staff, opening shops, and keeping quality high in a new country.\nMany foreign foods have succeeded this way. Dishes that once seemed strange in a new country later became everyday favorites, from pizza to sushi. Each began as something unfamiliar and slowly won people over.\nThe story shows a classic business truth: a great product is only the beginning. To succeed in a new market, a company must understand its customers, explain what it offers, and be patient. Winning hearts — and appetites — in a foreign land takes more than good noodles; it takes careful, steady effort.",
-        summaryJa: "ある国で愛される料理が、別の国で売りやすいとは限らない。これは、太いうどんをアメリカの客に届けようとする、成功した日本の麺会社が直面する課題だ。日本でうどんは、素朴で日常的な癒しの食べ物だ。だが海外では、多くの人が食べたことがない——なじみのない食べ物を人気のものに変えるのは大変な仕事だ。そもそもなぜ海外進出するのか。既に国内で成功した会社にとって、海外市場ははるかに大きく成長する機会を与える。アメリカは巨大な人口と、世界中の食への強い関心を持つ。うどんが受ければ、見返りは莫大になりうる。だが本当の難しさもある。うどんを食べたことのない客は、それが何か、どう楽しむかを知らないかもしれない。会社は人々にその食べ物を教え、地元の味に合わせ、無数の他の飲食店と競わねばならない。速く成長することは、人を雇い、店を開き、新しい国で品質を高く保つことも意味する。多くの外国の食べ物がこうして成功してきた。かつて新しい国で奇妙に見えた料理が、後に日常のお気に入りになった——ピザから寿司まで。それぞれがなじみのないものとして始まり、ゆっくり人々を魅了した。この話は古典的なビジネスの真理を示す——素晴らしい製品は始まりにすぎない。新しい市場で成功するには、会社は客を理解し、何を提供するか説明し、忍耐せねばならない。異国で心——と食欲——を勝ち取るには、良い麺以上のものが要る。丁寧で着実な努力が要るのだ。",
-        quiz: [
-          { q: "この会社が直面する課題は？", options: ["なじみのないうどんを人気の食べ物に変えること", "麺を作れないこと", "国内で売れないこと"], answer: 0 },
-          { q: "海外進出の理由は？", options: ["はるかに大きく成長する機会があるから", "国内客を減らすため", "麺をやめるため"], answer: 0 },
-          { q: "本文が示すビジネスの真理は？", options: ["素晴らしい製品は始まりにすぎず客の理解と忍耐が要る", "良い製品だけで必ず成功する", "説明は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0820-2",
-        title: "A New Kind of Computer Memory",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "In most computers, storing information and processing it are two separate jobs, done in different places. Data is kept in memory, then moved to another part of the chip to be worked on, and moved back again. This constant shuffling takes time and uses a lot of energy. Now, scientists have built a new kind of memory device that could change this — one that can store and process information in the same place.\nWhy does this matter? Moving data back and forth is one of the biggest sources of wasted energy in computing. As we run more powerful programs, especially artificial intelligence, this waste grows. A device that keeps memory and processing together could be much faster and use far less power.\nThe new device is unusual because it combines two very different things: synthetic DNA — a human-made version of the molecule that carries life's instructions — and a semiconductor, the material at the heart of computer chips. Together, they form a tiny, extremely low-power memory that also helps do the calculating.\nThis is still early research, done in laboratories. Turning such a device into products people can use will take years, and many challenges remain.\nStill, the idea points toward an exciting future. As computers demand more and more energy, new designs that save power become increasingly important. By blending biology and electronics in surprising ways, scientists are searching for smarter, greener ways to compute — and, perhaps, quietly rewriting the rules of how machines think.",
-        summaryJa: "ほとんどのコンピューターでは、情報を蓄えることと処理することは、別々の場所で行われる二つの仕事だ。データはメモリに保たれ、作業のためチップの別の部分へ移され、また戻される。この絶え間ない移動は時間がかかり、多くのエネルギーを使う。今、科学者はこれを変えうる新種のメモリ装置を作った——同じ場所で情報を蓄え、処理できるものだ。なぜ重要か。データを行き来させることは、計算で無駄になるエネルギーの最大級の源の一つだ。より強力なプログラム、特にAIを動かすにつれ、この無駄は増える。メモリと処理を一緒に保つ装置は、はるかに速く、はるかに少ない電力で済みうる。この新しい装置が珍しいのは、非常に異なる二つを組み合わせるからだ——合成DNA（生命の指示を運ぶ分子の人工版）と、コンピューターチップの中核をなす材料である半導体。両者が相まって、計算も助ける、微小で極めて低消費電力のメモリを形づくる。これはまだ実験室で行われる初期の研究だ。こうした装置を人々が使える製品に変えるには何年もかかり、多くの課題が残る。それでもこの発想は胸躍る未来を指し示す。コンピューターがますます多くのエネルギーを要する中、電力を節約する新しい設計はますます重要になる。生物学と電子工学を意外な形で混ぜることで、科学者はより賢く環境に優しい計算の方法を探している——そしておそらく、機械の考え方の規則を静かに書き換えているのだ。",
-        quiz: [
-          { q: "普通のコンピューターでエネルギーを無駄にする大きな原因は？", options: ["データを蓄える場所と処理する場所の間で行き来させること", "画面が明るいこと", "電源が古いこと"], answer: 0 },
-          { q: "新しい装置が組み合わせるものは？", options: ["合成DNAと半導体", "水と油", "紙と鉛筆"], answer: 0 },
-          { q: "この装置の利点は？", options: ["メモリと処理を一緒に保ち速く低消費電力になりうる", "電気を全く使わない", "計算ができない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0820-3",
-        title: "Who Cleans Up in Space?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Space is often imagined as empty, but around the Earth it is becoming crowded with human-made objects. Recently, a used part of a rocket crashed into the Moon, leaving behind a small new crater. The event was harmless, but it raised an important question that the whole world will have to answer: who is responsible for the things we leave in space?\nWhy is this a problem? Every rocket launch and satellite adds to the amount of material in space. Old rockets, dead satellites, and broken pieces can stay in orbit for years, and some eventually fall — onto the Earth, or even the Moon. As more countries and companies reach into space, the amount of this 'space junk' keeps growing.\nSpace is a shared place. No single country owns it, and objects launched by one nation can affect everyone. If a piece of debris hits a working satellite, it could disrupt communications, weather forecasts, or navigation used around the world. Cleaning up, and preventing new messes, is a task no one can handle alone.\nCountries are beginning to talk about rules — agreements on how to track objects, avoid collisions, and safely remove old equipment. But making and enforcing such rules across many nations is difficult.\nThe crater on the Moon is a small reminder of a growing challenge. As humanity's presence in space expands, we must learn to manage it wisely and together. Space may be vast, but keeping it safe and usable is a responsibility we all share.",
-        summaryJa: "宇宙はしばしば空っぽと想像されるが、地球の周りは人工物で混み合いつつある。最近、使用済みのロケットの一部が月に衝突し、小さな新しいクレーターを残した。この出来事は無害だったが、世界全体が答えねばならない重要な問いを投げかけた——宇宙に残す物に、誰が責任を負うのか。なぜ問題なのか。ロケットの打ち上げと衛星の一つ一つが、宇宙の物質の量を増やす。古いロケット、故障した衛星、壊れた破片は何年も軌道にとどまり、一部はやがて落ちる——地球へ、あるいは月にさえ。より多くの国と企業が宇宙に手を伸ばすにつれ、この「宇宙ごみ」の量は増え続ける。宇宙は共有の場所だ。どの一国も所有せず、一国が打ち上げた物が皆に影響しうる。破片が稼働中の衛星に当たれば、世界中で使われる通信・天気予報・航法を乱しうる。片づけることと、新たな散らかりを防ぐことは、誰も単独では扱えない務めだ。各国は規則——物体の追跡、衝突の回避、古い機器の安全な除去についての合意——を話し合い始めている。だが多くの国にまたがってそうした規則を作り執行するのは難しい。月のクレーターは、増大する課題の小さな気づきだ。宇宙での人類の存在が広がるにつれ、私たちはそれを賢く、共に管理することを学ばねばならない。宇宙は広大かもしれないが、安全で使える状態に保つことは、私たち皆が分かち合う責任なのだ。",
-        quiz: [
-          { q: "この出来事が投げかけた重要な問いは？", options: ["宇宙に残す物に誰が責任を負うのか", "月は何色か", "ロケットは何機あるか"], answer: 0 },
-          { q: "「宇宙ごみ」が増える理由は？", options: ["打ち上げや衛星が増え古い機器が軌道に残るから", "宇宙が縮むから", "誰も宇宙に行かないから"], answer: 0 },
-          { q: "宇宙の片づけが一国で扱えない理由は？", options: ["宇宙は共有の場所で一国の物が皆に影響するから", "宇宙は一国のものだから", "破片は無害だから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0820-4",
-        title: "Japan's Changing Tourists",
-        level: "★★☆",
-        genre: "日本",
-        text: "For years, Japan has welcomed a growing number of visitors from around the world. Tourism has become an important part of the economy, bringing money to hotels, restaurants, shops, and small towns. But recently, the number of tourists from one country dropped sharply, while the total number of foreign visitors stayed almost the same. This shows how the mix of tourists can change quickly.\nWhy do tourist numbers shift? Many things affect where people choose to travel. Government advice, the cost of flights, the strength of a currency, and events at home can all make visitors from one country rise or fall. When one group travels less, visitors from other countries may fill the gap.\nWhy does this matter for Japan? Tourism supports many jobs, so businesses want a steady flow of visitors. Depending too heavily on tourists from a single country is risky: if that group suddenly stops coming, businesses can suffer. A wide mix of visitors from many places is safer and more stable.\nThis is why Japan works to attract travelers from all over the world, offering things that appeal to many different cultures — beautiful nature, history, food, and modern cities.\nThe changing pattern of tourists is a reminder of a familiar lesson: it is wise not to depend on just one source. Whether for a country's tourism or a company's customers, variety brings strength. By welcoming visitors from many nations, Japan protects an important industry — and shares its culture with a wider world.",
-        summaryJa: "長年、日本は世界中から増える訪問者を迎えてきた。観光は経済の重要な一部になり、ホテル・飲食店・店・小さな町にお金をもたらす。だが最近、ある国からの観光客が急減した一方、外国人訪問者の総数はほぼ変わらなかった。これは観光客の構成がいかに速く変わりうるかを示す。なぜ観光客の数は変動するのか。人がどこへ旅するかを選ぶには多くの要因が影響する。政府の助言、航空券の値段、通貨の強さ、母国の出来事——すべてがある国からの訪問者を増やしも減らしもしうる。ある集団が旅を減らすと、他国からの訪問者がその穴を埋めることもある。なぜこれが日本に重要か。観光は多くの仕事を支えるので、事業者は安定した訪問者の流れを望む。単一の国の観光客に頼りすぎるのは危うい——その集団が突然来なくなれば、事業者は苦しみうる。多くの場所からの幅広い訪問者の構成は、より安全で安定している。だから日本は世界中から旅行者を惹きつけようと努め、多くの異なる文化に訴えるもの——美しい自然、歴史、食、現代的な都市——を提供する。変わる観光客の型は、なじみの教訓を思い出させる——ただ一つの源に頼らないのが賢明だ。国の観光であれ企業の顧客であれ、多様性は強さをもたらす。多くの国から訪問者を迎えることで、日本は重要な産業を守り——その文化をより広い世界と分かち合うのだ。",
-        quiz: [
-          { q: "観光客の数が変動する要因に含まれるものは？", options: ["政府の助言・航空券の値段・通貨の強さ", "天気だけ", "何も影響しない"], answer: 0 },
-          { q: "単一の国の観光客に頼りすぎる危険は？", options: ["その集団が来なくなると事業者が苦しむ", "観光客が増えすぎる", "何も起きない"], answer: 0 },
-          { q: "本文の教訓は？", options: ["ただ一つの源に頼らず多様性が強さをもたらす", "一国に頼るのが最善", "観光は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0820-5",
-        title: "The Tiny Particles That Make Clouds",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Clouds seem simple — soft, white shapes drifting across the sky. But making a cloud is a surprisingly delicate process, and it depends on something almost too small to imagine: tiny particles floating in the air. Recently, scientists discovered a new natural process in the Arctic that can greatly increase the number of these particles, which help clouds to form.\nHow do clouds form? A cloud is made of countless tiny drops of water. But water vapor in the air cannot easily turn into drops on its own. It needs a surface to gather on — a tiny particle of dust, salt, or another substance. Each of these specks becomes the seed of a water droplet. Without enough of these particles, clouds cannot form well.\nWhy does the new discovery matter? Clouds have a huge effect on the planet. They bring rain, and they also shade the Earth, reflecting sunlight and helping to control temperature. Understanding what makes clouds form — especially in sensitive regions like the Arctic — helps scientists predict weather and understand how the climate may change.\nThis kind of research is difficult. The particles are extremely small, and the processes happen in remote, harsh places. Scientists use special instruments to detect them and careful study to understand what they do.\nThe discovery is a reminder that the largest features of our world can depend on the smallest things. A drifting cloud, a falling rain, even the temperature of the planet, may all trace back to invisible specks — quietly shaping the sky above us.",
-        summaryJa: "雲は単純に見える——空を漂う柔らかく白い形。だが雲を作るのは驚くほど繊細な過程で、ほとんど想像できないほど小さいもの——空気中に浮かぶ微小な粒子——に依存する。最近、科学者は北極で、雲の形成を助けるこうした粒子の数を大きく増やしうる新しい自然の過程を発見した。雲はどう形成されるのか。雲は無数の微小な水の滴でできている。だが空気中の水蒸気は、単独では容易に滴にならない。集まる表面——塵・塩・別の物質の微小な粒子——が必要だ。こうした微粒の一つ一つが水滴の種になる。こうした粒子が十分にないと、雲はうまく形成できない。なぜ新しい発見が重要か。雲は地球に大きな影響を与える。雨をもたらし、地球に日陰を作り、日光を反射して気温の制御を助けもする。何が雲を形成させるか——特に北極のような敏感な地域で——を理解することは、科学者が天気を予測し、気候がどう変わりうるかを理解する助けになる。この種の研究は難しい。粒子は極めて小さく、過程は遠く過酷な場所で起きる。科学者は特別な機器でそれを検出し、丁寧な研究でその働きを理解する。この発見は、私たちの世界の最も大きな特徴が、最も小さなものに依存しうることを思い出させる。漂う雲、降る雨、地球の気温さえ、すべてが目に見えない微粒にさかのぼりうる——私たちの頭上の空を静かに形づくりながら。",
-        quiz: [
-          { q: "雲が形成されるのに必要なものは？", options: ["水蒸気が集まる微小な粒子（塵や塩など）", "大きな岩", "強い光"], answer: 0 },
-          { q: "雲が地球に与える影響は？", options: ["雨をもたらし日光を反射して気温の制御を助ける", "何の影響もない", "地球を重くする"], answer: 0 },
-          { q: "本文が伝えることは？", options: ["最も大きな特徴が最も小さなものに依存しうる", "雲は無関係", "粒子は無意味"], answer: 0 }
         ]
       }
     ]
