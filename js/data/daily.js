@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-28",
+    passages: [
+      {
+        id: "d0828-1",
+        title: "Why Prices Change: Supply and Demand",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Why does one thing cost more than another, and why do prices change over time? Behind almost every price lies one of the most important ideas in economics: supply and demand. Understanding this simple idea helps explain the cost of everything, from a cup of coffee to a house.\n'Demand' means how much people want something and are willing to pay for it. 'Supply' means how much of it is available to buy. When many people want a product but there is only a little of it, the price tends to rise. When there is plenty of something but few people want it, the price tends to fall.\nThink of fresh strawberries. In summer, when farms produce many of them, they are cheap. In winter, when few are grown, the same strawberries cost much more. The fruit has not changed — only the balance of supply and demand.\nThis idea is everywhere. A popular new phone may be expensive because everyone wants it and only so many are made. If a factory closes and a material becomes scarce, prices for products using it may rise. When demand and supply shift, prices move to find a new balance.\nFor businesses, reading these signals is essential. A price that is too high may scare away customers; too low, and the company may sell out and lose money it could have earned.\nSupply and demand is a quiet force shaping markets everywhere. Once you notice it, prices are no longer a mystery — they are a story about what people want and what the world can provide.",
+        summaryJa: "なぜある物は別の物より高く、なぜ価格は時とともに変わるのか。ほぼあらゆる価格の背後に、経済学で最も重要な考えの一つがある——需要と供給だ。この単純な考えの理解は、コーヒー一杯から家まで、あらゆるものの費用を説明する助けになる。「需要」とは、人々がどれだけそれを欲しがり、いくら払う気があるかだ。「供給」とは、買える量がどれだけあるかだ。多くの人が欲しがるのにわずかしかなければ、価格は上がりがちだ。たくさんあるのに欲しがる人が少なければ、価格は下がりがちだ。新鮮ないちごを考えてほしい。夏、農場が多く作るとき、安い。冬、ほとんど育たないとき、同じいちごはずっと高い。果物は変わっていない——供給と需要の均衡だけが変わったのだ。この考えはどこにでもある。人気の新しい携帯は、皆が欲しがり作られる数が限られるので高いかもしれない。工場が閉じて材料が乏しくなれば、それを使う製品の価格は上がりうる。需要と供給が動くと、価格は新しい均衡を見つけようと動く。事業にとって、こうした信号を読むことは不可欠だ。高すぎる価格は客を遠ざけ、安すぎれば会社は売り切れて、得られたはずのお金を失うかもしれない。需要と供給は、あらゆる所で市場を形づくる静かな力だ。ひとたび気づけば、価格はもはや謎ではない——人々が何を欲し、世界が何を供給できるかについての物語なのだ。",
+        quiz: [
+          { q: "「需要」とは？", options: ["人々がどれだけ欲しがり払う気があるか", "買える量のこと", "製品の重さ"], answer: 0 },
+          { q: "多くの人が欲しがるのにわずかしかないと価格はどうなる？", options: ["上がりがち", "下がりがち", "全く変わらない"], answer: 0 },
+          { q: "いちごが冬に高い理由は？", options: ["育つ数が少なく供給と需要の均衡が変わるから", "果物が別物になるから", "味が良くなるから"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0828-2",
+        title: "A New Hope for Restoring Sight",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Losing one's sight is one of the hardest things a person can face. For some kinds of blindness, the eye's light-sensing cells stop working, and the world goes dark. Now, scientists have reported an exciting new approach: special 'light-activated' drugs that helped blind mice sense light again — and did so without surgery, implants, or gene therapy.\nHow can a drug help someone see? In a healthy eye, tiny cells react to light and send signals to the brain. When these cells are damaged, other nearby cells still exist but cannot respond to light. The new drugs attach to these remaining cells and make them sensitive to light, so that when light enters the eye, they can send signals to the brain — restoring a basic form of vision.\nWhy is this approach special? Some earlier methods to treat blindness require complex surgery, implanted devices, or changing a patient's genes. A drug that can simply be given, without any of these, could be far simpler, safer, and easier to use. In tests, treated mice were able to respond to light and even follow visual signals.\nIt is important to be careful. This is early research done in animals, and much more study is needed before it could help people. Human eyes are complex, and safety must be proven.\nStill, the work offers real hope. For millions of people living with vision loss, every new idea is precious. By using light itself as a key, scientists are exploring gentle new ways to help the eye do what it was made to do: see.",
+        summaryJa: "視力を失うことは、人が直面しうる最も辛いことの一つだ。ある種の失明では、目の光を感じる細胞が働かなくなり、世界が暗くなる。今、科学者は胸躍る新しい手法を報告した——特別な「光で活性化する」薬が、盲目のマウスが再び光を感じる助けをした。しかも手術・インプラント・遺伝子治療なしで。薬がどうして見る助けになりうるのか。健康な目では、微小な細胞が光に反応し脳へ信号を送る。これらの細胞が損なわれても、近くの他の細胞はまだ存在するが光に応じられない。新しい薬はこの残った細胞に付き、光に敏感にする。だから光が目に入ると、それらが脳へ信号を送れる——基本的な形の視覚を回復する。なぜこの手法が特別か。失明を治す従来の方法の一部は、複雑な手術・埋め込み装置・患者の遺伝子の変更を要する。これらなしにただ与えられる薬は、はるかに単純で、安全で、使いやすくなりうる。試験で、治療されたマウスは光に反応し、視覚的な信号に従うことさえできた。慎重さが大切だ。これは動物で行われた初期の研究で、人を助けられるまでにはるかに多くの研究が要る。人の目は複雑で、安全性が証明されねばならない。それでもこの取り組みは本当の希望を与える。視力を失って生きる何百万もの人にとって、新しい発想の一つ一つが貴重だ。光そのものを鍵として使い、科学者は、目が本来の働き——見ること——をする助けとなる穏やかな新しい方法を探っている。",
+        quiz: [
+          { q: "この新しい薬はどう働くか？", options: ["残った目の細胞を光に敏感にして脳へ信号を送らせる", "目を新しく作る", "脳を取り替える"], answer: 0 },
+          { q: "この手法が特別な理由は？", options: ["手術・インプラント・遺伝子治療なしで使えうる", "とても高価だから", "とても痛いから"], answer: 0 },
+          { q: "本文が促す慎重さは？", options: ["動物での初期研究で人にはさらなる研究が要る", "もう完成している", "人の目は単純だ"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0828-3",
+        title: "Sharing the Planet with Wildlife",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When we think of how humans affect nature, we often picture big things: cities, highways, and factories. But a recent study tracking thousands of animals found something surprising. The simple presence of people — walking, hiking, or just being around — can change where wild animals go, sometimes as powerfully as roads and buildings do.\nHow can our presence alone matter so much? Many animals are cautious around humans. Even without harming them, our comings and goings can make animals avoid certain areas, move at different times of day, or take longer paths to find food and water. Over time, this reshapes how wildlife uses the land.\nWhy does this matter? Animals need space to feed, rest, and raise their young. If our presence pushes them into smaller or poorer areas, it can affect their health and numbers. Understanding this helps people share the land more wisely with the creatures around us.\nThe study also shows how connected we are to nature. Even in wild places, humans are part of the picture, and our choices ripple out to affect other living things.\nThe good news is that this knowledge can guide better decisions. By setting aside quiet areas, limiting activity at certain times, or planning trails with care, people can enjoy nature while giving animals the room they need.\nThe wider lesson is one of coexistence. We share the Earth with countless other species. Learning how even our quiet presence affects them helps us become better neighbors — leaving space for wildlife to thrive alongside us on our crowded, living planet.",
+        summaryJa: "人間が自然にどう影響するかを考えるとき、私たちはしばしば大きなもの——都市・高速道路・工場——を思い描く。だが数千の動物を追跡した最近の研究は、驚くべきことを見つけた。人がいるという単純な存在——歩く・ハイキングする・ただ近くにいる——が、野生動物の行き先を、時に道路や建物と同じくらい強く変えうるのだ。私たちの存在だけがどうしてそれほど重要になりうるのか。多くの動物は人の周りで用心深い。害を与えなくても、私たちの出入りは、動物に特定の地域を避けさせ、一日の異なる時間に動かせ、食料や水を探すのにより長い道を取らせうる。時とともに、これが野生生物の土地の使い方を作り替える。なぜ重要か。動物は食べ、休み、子を育てる空間を必要とする。私たちの存在が彼らをより狭く貧しい地域へ押しやれば、健康や数に影響しうる。これを理解することは、周りの生き物と土地をより賢く分かち合う助けになる。研究はまた、私たちが自然にいかにつながっているかも示す。野生の場所でさえ、人間は絵の一部で、私たちの選択は波及して他の生き物に影響する。良い知らせは、この知識がより良い決定を導けることだ。静かな地域を取っておき、特定の時間に活動を制限し、道を丁寧に計画することで、人は自然を楽しみつつ動物に必要な余地を与えられる。より広い教訓は共存だ。私たちは無数の他の種と地球を分かち合う。静かな存在さえ彼らにどう影響するかを学ぶことは、より良い隣人になる助けになる——混み合った生きた惑星で、野生生物が私たちと並んで栄える余地を残して。",
+        quiz: [
+          { q: "研究が見つけた驚きは？", options: ["人がいる単純な存在が動物の行き先を強く変えうる", "動物は人を無視する", "人は自然に無関係"], answer: 0 },
+          { q: "人の存在が動物に与えうる影響は？", options: ["地域を避けさせ動く時間や道を変えさせる", "動物を必ず増やす", "何も変えない"], answer: 0 },
+          { q: "本文の広い教訓は？", options: ["共存——野生生物に栄える余地を残すこと", "自然を避けること", "動物を無視すること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0828-4",
+        title: "Moon Viewing in Japan",
+        level: "★★☆",
+        genre: "日本",
+        text: "People all over the world look up at the Moon, but in Japan, admiring it has become a gentle, cherished custom. Every autumn, many Japanese people take part in tsukimi, or 'moon viewing.' They gather to enjoy the sight of the full Moon, which is said to look especially bright and beautiful in the clear autumn sky.\nWhat happens during tsukimi? People find a good spot — a window, a garden, or a park — where they can see the Moon clearly. Some decorate with a kind of tall grass called susuki, whose feathery tips sway in the wind. Others prepare round white rice cakes called tsukimi dango, whose shape echoes the round Moon. Then they simply watch, talk quietly, and enjoy the calm of the evening.\nWhy view the Moon this way? Tsukimi is about more than looking at the sky. It is a moment to pause, appreciate the beauty of nature, and feel the changing of the seasons. Autumn is a time of harvest, and the custom is also a way of giving thanks for the year's crops.\nThe tradition reflects a value found deep in Japanese culture: finding beauty in quiet, simple, natural things. A full Moon is free, available to everyone, and gone again in a night — which makes the moment feel precious.\nTo take part in tsukimi is to slow down and look up. In a busy world, this small custom offers a peaceful reminder: that some of life's greatest pleasures ask nothing of us but to stop, look, and quietly enjoy the view.",
+        summaryJa: "世界中の人が月を見上げるが、日本では、それを愛でることが穏やかで大切にされる習わしになった。毎秋、多くの日本人が「月見」に参加する。澄んだ秋の空で特に明るく美しく見えると言われる満月を眺めて楽しむのだ。月見の間、何をするのか。人々は月がよく見える良い場所——窓・庭・公園——を見つける。ススキという背の高い草で飾る人もいる。その羽毛のような穂先が風に揺れる。丸い白い餅「月見団子」を用意する人もいる。その形は丸い月を映す。そして、ただ眺め、静かに話し、夕べの落ち着きを楽しむ。なぜこうして月を見るのか。月見は空を見る以上のものだ。立ち止まり、自然の美を味わい、季節の移ろいを感じる時間だ。秋は収穫の時で、この習わしは一年の作物への感謝の仕方でもある。この伝統は、日本文化の深くにある価値を映す——静かで単純な自然のものに美を見いだすこと。満月は無料で、誰にでも見え、一晩でまた去る——それが、その瞬間を貴重に感じさせる。月見に参加することは、速度を緩めて見上げることだ。忙しい世界で、この小さな習わしは平和な気づきを差し出す——人生の最大級の喜びのいくつかは、私たちに、立ち止まり、眺め、静かに景色を楽しむこと以外何も求めない、と。",
+        quiz: [
+          { q: "「月見」とは何をすることか？", options: ["秋に満月を眺めて楽しむこと", "月へ行くこと", "月の大きさを測ること"], answer: 0 },
+          { q: "月見で用意されるものに含まれるものは？", options: ["ススキや月見団子", "雪だるま", "花火"], answer: 0 },
+          { q: "月見が映す日本文化の価値は？", options: ["静かで単純な自然のものに美を見いだす", "競争を好むこと", "自然を避けること"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0828-5",
+        title: "The Stone Piles of Chimpanzees",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Deep in the forests of West Africa, scientists have watched some chimpanzees do something strange and fascinating: they pick up rocks and throw them, again and again, at particular trees. Over the years, the thrown stones pile up at the base of these trees, forming heaps that can remain in use for more than a decade.\nWhy do the chimpanzees do this? Scientists are not fully sure. The behavior does not seem to be about finding food. Some researchers think the loud banging sound the rocks make when they hit the tree may be a way of communicating over long distances in the thick forest. Others wonder if it could be something closer to a habit, or even a kind of tradition passed between animals.\nWhy is this exciting? Behavior like this hints that chimpanzees, our close animal relatives, may have their own forms of culture — actions learned from one another and repeated over generations, not driven only by hunger or instinct. The long-lasting stone piles suggest these are not random acts, but meaningful ones.\nStudying wild animals like this takes patience. Researchers must watch quietly for years, recording what the chimps do without disturbing them.\nThe stone-throwing chimpanzees remind us that the line between humans and other animals may be thinner than we think. Behaviors we once believed were uniquely human — culture, tradition, symbolic acts — may have quiet echoes in the forest. By watching our relatives closely, we learn not only about them, but about the deep roots of our own behavior.",
+        summaryJa: "西アフリカの森の奥で、科学者は一部のチンパンジーが奇妙で魅力的なことをするのを見た——石を拾い、特定の木に何度も何度も投げつけるのだ。年月をかけて、投げられた石はこれらの木の根元に積み上がり、10年以上も使われ続ける山を作る。なぜチンパンジーはこれをするのか。科学者は完全には確かでない。この行動は食料を見つけることとは無関係のようだ。石が木に当たるときの大きな打撃音が、鬱蒼とした森で長距離を通じて意思疎通する方法かもしれないと考える研究者もいる。習慣に近い何か、あるいは動物間で受け継がれる一種の伝統ではないかと考える者もいる。なぜ胸躍るのか。こうした行動は、私たちの近い動物の親戚であるチンパンジーが、独自の文化の形——空腹や本能だけに駆られるのでなく、互いから学び世代を越えて繰り返される行動——を持つかもしれないと示唆する。長く残る石の山は、これが無作為な行為でなく意味あるものだと示唆する。こうした野生動物の研究には忍耐が要る。研究者は、チンパンジーを乱さず、その行動を記録しながら、何年も静かに見守らねばならない。石を投げるチンパンジーは、人間と他の動物の境界が私たちが思うより薄いかもしれないことを思い出させる。かつて人間だけのものと信じた行動——文化・伝統・象徴的行為——は、森の中に静かな響きを持つかもしれない。親戚を注意深く見ることで、私たちは彼らについてだけでなく、自分自身の行動の深い根についても学ぶのだ。",
+        quiz: [
+          { q: "チンパンジーがしているのは？", options: ["特定の木に石を繰り返し投げて石の山を作る", "木を植える", "石を食べる"], answer: 0 },
+          { q: "この行動の理由として研究者が考えるものは？", options: ["打撃音による長距離の意思疎通や伝統かもしれない", "食料探しだと確定している", "水を得るためだと確定している"], answer: 0 },
+          { q: "この行動が示唆することは？", options: ["チンパンジーが独自の文化の形を持つかもしれない", "動物に文化はない", "人間だけが学べる"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-27",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が研究している意外な可能性は？", options: ["ブロッコリーの成分が稀な病気の治療を助けるかも", "ブロッコリーが有害かも", "野菜は化学物質を含まない"], answer: 0 },
           { q: "多くの稀な病気に治療法がない理由は？", options: ["影響を受ける人が少なく研究がほとんど行われないから", "治療が簡単すぎるから", "病気が無害だから"], answer: 0 },
           { q: "本文が促す慎重さは？", options: ["実験室の結果は完成した薬にはほど遠く年月の研究が要る", "ブロッコリーで必ず治る", "医師は不要"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-21",
-    passages: [
-      {
-        id: "d0821-1",
-        title: "How Companies Prepare for Hard Times",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "When business is going well, it can be tempting for a company to spend all its money on growth — new products, new offices, new staff. But wise companies also do something less exciting: they save. Keeping a store of cash, ready for difficult times, is one of the most important habits in business.\nWhy hold on to cash? The economy moves in cycles. Good years are often followed by harder ones, when sales fall, costs rise, or unexpected problems appear. A company with savings can survive a bad period, pay its workers, and keep operating until conditions improve. A company with no cushion may be forced to cut jobs or even close.\nCash also gives a company freedom. When a good opportunity appears — a chance to buy a rival, enter a new market, or invest in a promising idea — a firm with money can act quickly, while others must wait. Sometimes the best chances come exactly when money is tight for everyone else.\nOf course, there is a balance to strike. Holding too much cash can be wasteful, since that money is not being used to grow. Leaders must decide how much to keep safe and how much to invest.\nThe lesson applies far beyond big companies. Families and individuals benefit from the same wisdom: save something for emergencies, so a sudden problem does not become a disaster. In business as in life, preparing for hard times during good times is one of the surest ways to stay strong when trouble comes.",
-        summaryJa: "商売が順調なとき、企業は資金をすべて成長——新製品・新オフィス・新しい人材——に使いたくなりうる。だが賢い企業は、もっと地味なこともする。貯めるのだ。困難な時に備えて現金の蓄えを持つことは、ビジネスで最も重要な習慣の一つだ。なぜ現金を持つのか。経済は周期で動く。良い年の後にはしばしばより厳しい年が来る——売上が落ち、費用が上がり、予期せぬ問題が現れる。貯えのある企業は、悪い時期を生き延び、従業員に払い、状況が改善するまで事業を続けられる。緩衝のない企業は、雇用を削るか、閉鎖さえ迫られうる。現金は自由も与える。良い機会——競合を買う、新市場に入る、有望な案に投資する好機——が現れたとき、お金のある企業は素早く動けるが、他は待たねばならない。最良の好機は、まさに他の皆にとって資金が乏しいときに来ることもある。もちろん釣り合いを取る必要がある。現金を持ちすぎるのは無駄になりうる——そのお金は成長に使われていないからだ。指導者はどれだけ安全に保ち、どれだけ投資するかを決めねばならない。教訓は大企業をはるかに超えて当てはまる。家族や個人も同じ知恵から恩恵を受ける——非常時のために何か貯えておけば、突然の問題が災難にならない。ビジネスでも人生でも、良い時に困難な時へ備えることは、苦難が来たとき強くいられる最も確実な方法の一つだ。",
-        quiz: [
-          { q: "企業が現金を蓄える主な理由は？", options: ["厳しい時期を生き延び事業を続けるため", "すぐ使い切るため", "成長を止めるため"], answer: 0 },
-          { q: "現金が企業に与える自由とは？", options: ["好機に素早く動けること", "何もできないこと", "雇用を削ること"], answer: 0 },
-          { q: "本文が挙げる釣り合いは？", options: ["現金を持ちすぎると成長に使えず無駄になる", "現金は無限に持つべき", "投資は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0821-2",
-        title: "AI That Designs New Proteins",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Proteins are the tiny machines of life. They build our bodies, carry oxygen, fight disease, and do countless other jobs. For billions of years, nature has slowly created proteins through evolution. Now, artificial intelligence is doing something remarkable: designing brand-new proteins that have never existed in nature.\nHow is this possible? Proteins are made from small building blocks arranged in a particular order, which folds into a specific shape. That shape decides what the protein does. Predicting how a chain will fold — and designing one to do a chosen job — is incredibly complex. AI, trained on vast amounts of biological data, can now suggest new protein designs far faster than humans could alone.\nWhy does this matter? Custom-made proteins could become powerful tools. Scientists imagine new medicines that fight diseases in precise ways, materials that break down pollution, or sensors that detect illness early. Instead of only using proteins nature happens to provide, we may soon design them to order.\nThere are important cautions. Creating powerful new molecules carries responsibility; scientists must make sure such tools are safe and used wisely. And a design on a computer must still be built and tested carefully in the real world.\nStill, the progress is stunning. For the first time, humans are not just reading nature's instructions but writing new ones of their own. By learning the language of proteins, and using AI to speak it, scientists are opening a door to medicines and materials that nature never made — a new chapter in our long partnership with the living world.",
-        summaryJa: "タンパク質は生命の微小な機械だ。私たちの体を作り、酸素を運び、病気と闘い、無数の仕事をこなす。何十億年もの間、自然は進化を通じてゆっくりタンパク質を作ってきた。今、AIが驚くべきことをしている——自然に存在したことのない、まったく新しいタンパク質を設計するのだ。どうして可能なのか。タンパク質は、特定の順序で並んだ小さな構成要素からでき、それが特定の形に折りたたまれる。その形がタンパク質の働きを決める。鎖がどう折りたたまれるかを予測し、選んだ仕事をするものを設計するのは、途方もなく複雑だ。膨大な生物データで訓練されたAIは今、人間が単独でできるよりはるかに速く新しいタンパク質の設計を提案できる。なぜ重要か。注文製のタンパク質は強力な道具になりうる。科学者は、病気を精密に叩く新薬、汚染を分解する材料、病を早期に検出するセンサーを思い描く。自然がたまたま提供するタンパク質を使うだけでなく、まもなく注文通りに設計できるかもしれない。重要な注意もある。強力な新分子を作ることには責任が伴う。科学者はそうした道具が安全で賢く使われるようにせねばならない。そしてコンピューター上の設計も、現実世界で慎重に作り試験されねばならない。それでも進歩は目を見張る。初めて、人類は自然の指示を読むだけでなく、自らの新しい指示を書いている。タンパク質の言語を学び、AIを使ってそれを話すことで、科学者は自然が決して作らなかった薬や材料への扉を開いている——生きた世界との長い協働の新しい章だ。",
-        quiz: [
-          { q: "AIがしている「驚くべきこと」とは？", options: ["自然に存在しない新しいタンパク質を設計する", "タンパク質を食べる", "進化を止める"], answer: 0 },
-          { q: "タンパク質の働きを決めるものは？", options: ["折りたたまれた特定の形", "色", "重さ"], answer: 0 },
-          { q: "本文が挙げる注意は？", options: ["強力な新分子には責任が伴い安全に使う必要がある", "設計は不要", "タンパク質は無害"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0821-3",
-        title: "The Right to Learn",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Around the world, going to school is something many children take for granted. But for millions of others, an education is still out of reach. Making sure that every child can learn to read, write, and think is one of the great shared goals of our time — and one that many countries and organizations are working together to achieve.\nWhy does education matter so much? Learning gives people the tools to build better lives. A child who can read and count has more chances to find good work, stay healthy, and take part in society. When more people are educated, whole countries grow stronger, with more skilled workers and new ideas. Education is one of the surest paths out of poverty.\nWhy is it still out of reach for some? In many places, poverty, distance, conflict, or a lack of teachers keeps children out of school. Girls, in particular, sometimes face extra barriers. Reaching every child, even in remote or troubled areas, is a huge challenge.\nMuch progress has been made. More children attend school today than ever before, and new tools — from mobile phones to online lessons — are helping learning reach places it never could before. But work remains, and steady effort is needed to make sure no child is left behind.\nThe goal is simple but powerful: that every person, wherever they are born, has the chance to learn. Education does not only change individual lives; it builds a wiser, fairer, and more capable world — a benefit that, in the end, everyone shares.",
-        summaryJa: "世界中で、学校へ行くことは多くの子どもが当たり前と思うものだ。だが他の何百万もの子どもにとって、教育はいまだ手の届かないものだ。あらゆる子どもが読み・書き・考えることを学べるようにすることは、現代の大きな共有目標の一つ——そして多くの国や組織が協力して達成しようとしているものだ。なぜ教育がそれほど重要か。学ぶことは、より良い人生を築く道具を人々に与える。読み書きと計算ができる子は、良い仕事を見つけ、健康を保ち、社会に参加する機会がより多い。より多くの人が教育を受ければ、国全体が強くなる——熟練労働者と新しい発想が増えて。教育は貧困から抜け出す最も確実な道の一つだ。なぜ一部にはまだ届かないのか。多くの場所で、貧困・距離・紛争・教師の不足が子どもを学校から遠ざける。特に女子は、時に余分な障壁に直面する。遠隔地や困難な地域でさえあらゆる子に届くことは、大きな挑戦だ。多くの進歩があった。今日、かつてないほど多くの子が学校に通い、新しい道具——携帯電話からオンライン授業まで——が、かつて届かなかった場所へ学びを届けている。だが仕事は残り、どの子も取り残さないためには着実な努力が要る。目標は単純だが力強い——どこで生まれた人も、学ぶ機会を持つこと。教育は個人の人生を変えるだけでなく、より賢く、公正で、有能な世界を築く——結局、皆が分かち合う利益なのだ。",
-        quiz: [
-          { q: "教育が重要な理由は？", options: ["より良い人生の道具を与え貧困から抜け出す道になる", "何の役にも立たない", "移動を止める"], answer: 0 },
-          { q: "教育が一部に届かない理由は？", options: ["貧困・距離・紛争・教師の不足", "子どもが多すぎる", "学校が嫌いだから"], answer: 0 },
-          { q: "本文の目標は？", options: ["どこで生まれた人も学ぶ機会を持つこと", "一部の人だけ学ぶこと", "教育をやめること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0821-4",
-        title: "The Art of Wrapping with Cloth",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, there is a simple square of cloth that can become a bag, a gift wrapping, or a way to carry almost anything. It is called furoshiki, and for centuries people have used it to wrap and carry objects of all shapes and sizes. Today, as the world looks for ways to waste less, this old idea is gaining new attention.\nHow does it work? A furoshiki is just a piece of cloth, often beautifully patterned. By folding and tying it in different ways, a person can wrap a book, a bottle, a box, or a round melon, and carry it easily by the knot. When the cloth is not in use, it folds flat and takes up almost no space. The same cloth can be used again and again.\nWhy is furoshiki interesting today? Much of modern life produces waste, especially from packaging and single-use bags. A furoshiki, by contrast, is reusable, long-lasting, and often lovely to look at. Wrapping a gift in cloth can feel more personal and thoughtful than using paper that will be thrown away.\nThere is also skill and beauty in it. Learning the different folds is a small art, and a well-wrapped furoshiki is a pleasure to give and receive.\nThe furoshiki shows how a simple, traditional idea can fit perfectly into modern life. In a world trying to use less and waste less, a humble square of cloth — flexible, reusable, and beautiful — offers a gentle, elegant answer to a very modern problem.",
-        summaryJa: "日本には、バッグにも、贈り物の包みにも、ほとんど何でも運ぶ手段にもなる、一枚の四角い布がある。「風呂敷」と呼ばれ、何世紀もの間、人々はあらゆる形と大きさの物を包み運ぶのに使ってきた。今日、世界が無駄を減らす方法を探す中、この古い発想が新たな注目を集めている。どう使うのか。風呂敷はただの布で、しばしば美しい柄がある。異なる方法で折って結ぶことで、本・瓶・箱・丸いメロンを包み、結び目で楽に運べる。使わないときは平らに畳め、ほとんど場所を取らない。同じ布を何度も使える。なぜ今、風呂敷が興味深いのか。現代生活の多くは、特に包装や使い捨ての袋から廃棄物を生む。対照的に風呂敷は再利用でき、長持ちし、見た目も美しいことが多い。布で贈り物を包むことは、捨てられる紙を使うより、個人的で心のこもった感じがしうる。そこには技と美もある。異なる結び方を学ぶのは小さな芸術で、うまく包まれた風呂敷は贈るのも受け取るのも楽しい。風呂敷は、単純で伝統的な発想が現代生活にぴったり合いうることを示す。より少なく使い、より少なく捨てようとする世界で、質素な四角い布——柔軟で、再利用でき、美しい——が、とても現代的な問題への穏やかで優雅な答えを差し出す。",
-        quiz: [
-          { q: "「風呂敷」とは何か？", options: ["物を包み運べる一枚の四角い布", "硬い箱", "紙の袋"], answer: 0 },
-          { q: "今、風呂敷が注目される理由は？", options: ["再利用でき長持ちし無駄を減らせるから", "一度しか使えないから", "高価だから"], answer: 0 },
-          { q: "本文が示すことは？", options: ["単純で伝統的な発想が現代の問題に合いうる", "伝統は無意味", "包装は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0821-5",
-        title: "The Grand Canyon's Deeper Story",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "The Grand Canyon is one of the most famous natural wonders on Earth. Most people know that a river slowly carved it over millions of years. But scientists have discovered that part of its story may be far older and stranger than we thought — reaching back nearly a billion years, long before the river existed.\nWhat did they find? Deep inside the canyon, some of the ancient rock may have been exposed not by the river, but by a huge cliff system that formed when a supercontinent broke apart. Long ago, the Earth's land was joined into giant supercontinents that slowly split and drifted. As one of these ancient landmasses tore apart, it may have lifted and exposed rock that we now see at the canyon's heart.\nWhy does this matter? It reminds us that the Earth has a very long and active history. The ground beneath our feet, which seems so solid and permanent, has been rising, sinking, breaking, and moving for billions of years. Reading the layers of rock in a place like the Grand Canyon is like turning the pages of an enormous book about our planet's past.\nStudying such deep history is difficult and slow, requiring careful measurement and clever detective work with clues locked in stone.\nThe discovery deepens our wonder at a famous place. The Grand Canyon is not only beautiful; it is a record of unimaginable spans of time. Standing at its edge, we look not just across a great distance, but back through nearly a billion years of the Earth's living, changing story.",
-        summaryJa: "グランドキャニオンは地球で最も有名な自然の驚異の一つだ。ほとんどの人は、川が何百万年もかけてゆっくり削ったと知っている。だが科学者は、その物語の一部が、私たちが思っていたよりはるかに古く奇妙かもしれないと発見した——川が存在するはるか前、10億年近く前にさかのぼるのだ。何を見つけたのか。峡谷の奥深くで、古代の岩の一部は川によってでなく、超大陸が分裂したときに形成された巨大な崖の系によって露出したのかもしれない。大昔、地球の陸地は巨大な超大陸に結ばれ、ゆっくり分かれ漂った。こうした古代の陸塊の一つが引き裂かれるとき、今私たちが峡谷の中心に見る岩を持ち上げ露出させたのかもしれない。なぜ重要か。地球が非常に長く活発な歴史を持つことを思い出させる。足下の地面は、あれほど固く永続的に見えるが、何十億年も隆起し、沈み、割れ、動いてきた。グランドキャニオンのような場所の岩の層を読むことは、私たちの惑星の過去についての巨大な本のページをめくるようなものだ。そんな深い歴史の研究は難しく遅く、丁寧な測定と、石に閉じ込められた手がかりでの巧妙な探偵仕事を要する。この発見は、有名な場所への驚きを深める。グランドキャニオンは美しいだけでなく、想像を絶する時の広がりの記録だ。その縁に立つとき、私たちは大きな距離を見渡すだけでなく、地球の生きて変わり続ける物語の10億年近くを振り返っているのだ。",
-        quiz: [
-          { q: "科学者が発見したことは？", options: ["峡谷の一部は川より前、超大陸の分裂で露出したかもしれない", "川は存在しなかった", "峡谷は人が作った"], answer: 0 },
-          { q: "岩の層を読むことは何にたとえられるか？", options: ["惑星の過去についての巨大な本のページをめくること", "絵を描くこと", "音楽を聴くこと"], answer: 0 },
-          { q: "この発見が思い出させることは？", options: ["地球は非常に長く活発な歴史を持つ", "地面は決して動かない", "歴史は短い"], answer: 0 }
         ]
       }
     ]
