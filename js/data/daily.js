@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-29",
+    passages: [
+      {
+        id: "d0829-1",
+        title: "Why Companies Sell Off Parts of Themselves",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "We often hear about companies growing by buying other businesses. But sometimes a company does the opposite: it sells off one of its own parts. Recently, one company agreed to sell its bank-technology business in Japan to another firm. This kind of move, called a divestiture, is an important business decision, even though it may seem strange at first.\nWhy would a company sell part of itself? Often, it wants to focus. A large company may run many different businesses, but not all of them fit well together or perform strongly. By selling a part that is not central to its plans, the company can concentrate its money, people, and attention on what it does best.\nSelling a division can also raise money. The cash from a sale can be used to pay off debts, invest in more promising areas, or return value to the company's owners.\nFor the business being sold, a new owner can be a good thing. The buyer may care more about that particular business and give it the attention and investment it needs to grow.\nOf course, these decisions are difficult. Leaders must judge which parts to keep and which to let go, and employees may worry about changes. A wrong choice can be costly.\nThe lesson is that growing a business is not only about getting bigger. Sometimes a company becomes stronger by becoming simpler — focusing on its core, and letting other parts thrive in new hands. Knowing what to keep, and what to release, is one of the hardest and most important skills in business.",
+        summaryJa: "私たちはしばしば、企業が他の事業を買って成長する話を聞く。だが時に企業は逆をする——自らの一部を売却するのだ。最近、ある企業が日本の銀行向け技術事業を別の会社に売ることに合意した。この種の動きは「事業売却（ダイベスティチャー）」と呼ばれ、最初は奇妙に見えても重要な経営判断だ。なぜ企業は自らの一部を売るのか。しばしば、集中したいからだ。大企業は多くの異なる事業を営むが、すべてがうまく噛み合い、力強く成果を出すとは限らない。計画の中心でない部分を売ることで、企業はお金・人・注意を、最も得意なことに集中できる。部門の売却はお金も生む。売却の現金は、借金の返済、より有望な分野への投資、あるいは所有者への価値還元に使える。売られる事業にとって、新しい所有者は良いことになりうる。買い手はその特定の事業をより気にかけ、成長に必要な注意と投資を与えるかもしれない。もちろん、こうした判断は難しい。指導者はどの部分を保ち、どれを手放すかを見極めねばならず、従業員は変化を心配しうる。誤った選択は高くつきうる。教訓は、事業を育てることが大きくなることだけではないということだ。時に企業は、単純になることでより強くなる——中核に集中し、他の部分を新しい手のもとで栄えさせて。何を保ち何を手放すかを知ることは、ビジネスで最も難しく重要な技能の一つだ。",
+        quiz: [
+          { q: "「事業売却（ダイベスティチャー）」とは？", options: ["企業が自らの一部を売ること", "他社を買うこと", "会社を閉じること"], answer: 0 },
+          { q: "企業が一部を売る理由は？", options: ["最も得意なことに集中し、お金も生めるから", "客を減らすため", "成長を止めるため"], answer: 0 },
+          { q: "本文の教訓は？", options: ["時に単純になることでより強くなる", "常に大きくなるべき", "部門は絶対に売るべきでない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0829-2",
+        title: "Getting a Space Telescope Ready to Fly",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Building a space telescope is one thing; getting it safely into space is another. Recently, a new NASA telescope was carefully sealed inside the top of a rocket, nearly ready for its journey into orbit. Before a telescope can explore the universe, it must survive one of the most dangerous moments of all: the launch.\nWhy is launch so risky? A rocket shakes violently and roars with enormous power as it climbs. A delicate telescope, full of mirrors and sensitive instruments, must be protected from these forces. Engineers place it inside a protective cover, called a fairing, at the top of the rocket. The fairing shields the telescope from the wind and heat of the climb, then falls away once the rocket is high enough.\nGetting ready to launch takes years of careful work. Every part is tested again and again. Engineers check that the telescope can handle the shaking, the cold of space, and the heat of the Sun. A single mistake could ruin a machine that cost billions and took a decade to build.\nWhy go to all this trouble? Once in space, above the blur of Earth's atmosphere, a telescope can see the universe with amazing clarity. This new one will survey huge areas of the sky, helping astronomers study distant galaxies and hidden parts of the cosmos.\nThe careful preparation reminds us that great discoveries depend on patient engineering. Long before a telescope sends back its first stunning image, thousands of people work quietly to make sure it survives the short, violent ride to the stars.",
+        summaryJa: "宇宙望遠鏡を作ることと、それを安全に宇宙へ送ることは別だ。最近、NASAの新しい望遠鏡が、軌道への旅にほぼ準備が整い、ロケットの先端に慎重に封じられた。望遠鏡が宇宙を探れるようになる前に、最も危険な瞬間の一つ——打ち上げ——を生き延びねばならない。なぜ打ち上げはそれほど危険か。ロケットは登るとき激しく揺れ、莫大な力で轟く。鏡と敏感な機器で満ちた繊細な望遠鏡は、これらの力から守られねばならない。技術者はそれを、ロケットの先端の「フェアリング」と呼ばれる保護カバーの中に置く。フェアリングは登る際の風と熱から望遠鏡を守り、ロケットが十分高くなると外れて落ちる。打ち上げの準備には何年もの丁寧な作業がかかる。あらゆる部品が何度も試験される。技術者は、望遠鏡が揺れ・宇宙の寒さ・太陽の熱に耐えられるか確認する。一つの誤りが、数十億かけ10年かけて作った機械を台無しにしうる。なぜそこまでするのか。ひとたび宇宙、地球の大気のぼやけの上に出れば、望遠鏡は驚くほどの鮮明さで宇宙を見られる。この新しいものは空の広い領域を調査し、天文学者が遠い銀河や宇宙の隠れた部分を研究するのを助ける。この入念な準備は、偉大な発見が忍耐強い工学に支えられていることを思い出させる。望遠鏡が最初の見事な画像を送り返すはるか前に、何千もの人が、それが星々への短く激しい旅を生き延びるよう、静かに働くのだ。",
+        quiz: [
+          { q: "打ち上げが危険な理由は？", options: ["ロケットが激しく揺れ莫大な力で登るから", "宇宙が暗いから", "望遠鏡が軽いから"], answer: 0 },
+          { q: "「フェアリング」の役割は？", options: ["登る際の風と熱から望遠鏡を守り、後で外れる", "写真を撮る", "燃料を運ぶ"], answer: 0 },
+          { q: "宇宙に出た望遠鏡の利点は？", options: ["大気のぼやけの上で驚くほど鮮明に宇宙を見られる", "重くなる", "暗くなる"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0829-3",
+        title: "Clean Water for Everyone",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Turning on a tap and getting safe, clean water may seem ordinary. But for millions of people around the world, clean water is not so easy to find. Making sure that everyone has access to safe drinking water is one of the most important challenges facing our planet.\nWhy is clean water so vital? Our bodies need water to survive, but dirty water can carry diseases that make people very sick, especially children. When water is scarce or unsafe, people may spend hours each day walking to collect it, time that could be used for school or work. Clean water is closely tied to health, education, and the chance for a better life.\nWhy do some places lack it? In many regions, there are no pipes to carry water to homes, or the local water is polluted. Droughts, growing populations, and damaged environments can make the problem worse. Building and maintaining water systems is expensive and takes years.\nWhat is being done? Around the world, governments, charities, and communities work to bring clean water to more people. They dig wells, build simple filters, repair pipes, and teach people how to keep water safe. New technologies can even pull clean water from dirty sources or from the air.\nProgress has been real, and far more people have clean water today than in the past. Yet much work remains. The goal is simple but powerful: that everyone, everywhere, can drink safely without fear. Few things do more to improve human life than the quiet gift of clean, safe water.",
+        summaryJa: "蛇口をひねって安全で清潔な水を得ることは、当たり前に思えるかもしれない。だが世界中の何百万もの人にとって、清潔な水はそう簡単には見つからない。誰もが安全な飲み水を手にできるようにすることは、私たちの惑星が直面する最も重要な課題の一つだ。なぜ清潔な水はそれほど不可欠か。私たちの体は生きるために水を必要とするが、汚れた水は、特に子どもをひどく病気にする病を運びうる。水が乏しいか安全でないと、人々はそれを汲みに毎日何時間も歩くかもしれない——学校や仕事に使えたはずの時間だ。清潔な水は、健康・教育・より良い暮らしの機会と密接に結びつく。なぜ一部の場所に水がないのか。多くの地域で、水を家へ運ぶ管がないか、地元の水が汚染されている。干ばつ・人口増加・損なわれた環境が問題を悪化させうる。水道の建設と維持は高価で何年もかかる。何が行われているのか。世界中で、政府・慈善団体・地域が、より多くの人に清潔な水を届けようと取り組む。井戸を掘り、簡素なろ過器を作り、管を直し、水を安全に保つ方法を教える。新しい技術は、汚れた源や空気からさえ清潔な水を引き出せる。進歩は本物で、今日は過去よりずっと多くの人が清潔な水を持つ。だが多くの仕事が残る。目標は単純だが力強い——どこの誰もが、恐れずに安全に飲めること。清潔で安全な水という静かな贈り物ほど、人の暮らしを改善するものは少ない。",
+        quiz: [
+          { q: "清潔な水が不可欠な理由は？", options: ["汚れた水は病を運び、水汲みが時間を奪うから", "水は不要だから", "水は無限だから"], answer: 0 },
+          { q: "一部の場所に清潔な水がない理由は？", options: ["管がない・水が汚染・干ばつや人口増など", "水が多すぎる", "誰も飲まない"], answer: 0 },
+          { q: "この課題の目標は？", options: ["どこの誰もが恐れずに安全に飲めること", "一部の人だけ飲むこと", "水を減らすこと"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0829-4",
+        title: "Japan's Trains: Famous for Being on Time",
+        level: "★★☆",
+        genre: "日本",
+        text: "Around the world, Japan's trains are famous for one thing above all: they are almost always on time. In many countries, a train that is a few minutes late is normal. In Japan, being even one minute late is considered a real problem, and it is rare. This remarkable punctuality is a small window into Japanese culture.\nHow do the trains stay so punctual? A huge amount of careful planning lies behind it. Schedules are designed down to the second, and staff work hard to keep everything running smoothly. Drivers, station workers, and control centers all cooperate closely. When something does go wrong, teams act quickly to fix it and get trains back on time.\nWhy does punctuality matter so much in Japan? Being on time is seen as a form of respect — respect for other people's time and for the promise made by the schedule. Millions of people depend on trains every day to get to work and school, so reliability is essential. A culture that values order and consideration for others naturally values trains that keep their word.\nThere is a cost to this precision. Staff face great pressure, and the system must be carefully managed. But for passengers, the reward is a service they can truly trust.\nJapan's punctual trains are more than a convenience. They are a daily example of a deeper value: doing a job carefully, reliably, and with respect for others. In the quiet arrival of a train exactly on time, you can see something important about how a whole society chooses to work.",
+        summaryJa: "世界中で、日本の電車は何よりも一つのことで有名だ——ほぼ常に時間通りなのだ。多くの国で、数分遅れる電車は普通だ。日本では、一分の遅れさえ本当の問題と見なされ、それは稀だ。この驚くべき時間の正確さは、日本文化をのぞく小さな窓だ。電車はどうしてそれほど時間通りなのか。その背後には膨大な入念な計画がある。時刻表は秒単位まで設計され、職員はすべてを滑らかに動かそうと懸命に働く。運転士・駅員・指令センターがみな緊密に協力する。何か問題が起きても、チームが素早く対応して直し、電車を定刻に戻す。なぜ日本で時間の正確さがそれほど重要か。時間を守ることは敬意の一形態と見なされる——他者の時間への、そして時刻表が交わした約束への敬意だ。何百万もの人が毎日、仕事や学校へ行くのに電車に頼るので、信頼性は不可欠だ。秩序と他者への配慮を重んじる文化は、自然と、約束を守る電車を重んじる。この正確さには代償もある。職員は大きな重圧に直面し、システムは注意深く管理されねばならない。だが乗客にとって、その報酬は本当に信頼できるサービスだ。日本の時間通りの電車は、便利さ以上のものだ。より深い価値の日々の例だ——仕事を丁寧に、確実に、他者への敬意を持って行うこと。ちょうど定刻の電車の静かな到着に、社会全体がどう働くことを選ぶかについての、大切な何かが見える。",
+        quiz: [
+          { q: "日本の電車が有名な理由は？", options: ["ほぼ常に時間通りなこと", "とても速いことだけ", "とても安いことだけ"], answer: 0 },
+          { q: "日本で時間の正確さが重要な理由は？", options: ["時間を守ることが他者への敬意と見なされるから", "電車が少ないから", "時刻表がないから"], answer: 0 },
+          { q: "本文が示すより深い価値は？", options: ["仕事を丁寧に確実に他者への敬意を持って行う", "速さだけが大切", "遅れは問題ない"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0829-5",
+        title: "A Cosmic Mystery: The Little Red Dots",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "When scientists point a powerful telescope at the sky, they usually expect to find things they already understand. But sometimes they find a puzzle. Recently, astronomers spotted strange objects in images of the distant, early universe: tiny, faint 'red dots' that do not match anything they had seen before. Explaining what they are has become one of the most interesting mysteries in astronomy.\nWhy are they so puzzling? These little red dots appear to come from a very long time ago, when the universe was young. They are unusually red and small, and they do not fit neatly into the known types of galaxies or stars. Scientists are not yet sure what could produce such objects.\nOne exciting idea is that they may be powered by a strange kind of object: a young, fast-growing black hole wrapped in thick gas. Such a 'black hole star' would glow in an unusual way, which might explain the red color. But this is just one possibility, and researchers are still testing many ideas.\nWhy does this matter? Studying these dots could teach us how the first galaxies and black holes formed, in the earliest chapters of the universe's history. Solving the puzzle might change what we know about how the cosmos grew up.\nMysteries like this show science at its best. When something does not fit, scientists do not ignore it — they investigate, propose ideas, and test them carefully. The little red dots are a reminder that the universe still holds surprises, waiting to be understood by those patient enough to look.",
+        summaryJa: "科学者が強力な望遠鏡を空へ向けるとき、たいてい既に理解しているものが見つかると期待する。だが時に、謎に出くわす。最近、天文学者は、遠い初期の宇宙の画像の中に奇妙な天体を見つけた——これまで見たどれとも一致しない、小さく淡い「赤い点」だ。それが何かを説明することは、天文学で最も興味深い謎の一つになった。なぜそれほど不可解か。これらの小さな赤い点は、宇宙が若かった、非常に昔から来ているようだ。異常に赤く小さく、既知の銀河や星の種類にきれいには当てはまらない。科学者は、何がそんな天体を生みうるのか、まだ確かでない。胸躍る一つの発想は、それらが奇妙な種類の天体——厚いガスに包まれた、若く急成長するブラックホール——に動かされているかもしれない、というものだ。そんな「ブラックホール星」は変わった光り方をし、それが赤い色を説明するかもしれない。だがこれは一つの可能性にすぎず、研究者はまだ多くの考えを試している。なぜ重要か。これらの点を研究することは、宇宙の歴史の最も初期の章で、最初の銀河やブラックホールがどう形成されたかを教えうる。謎を解けば、宇宙がどう育ったかについて私たちの知ることが変わるかもしれない。こうした謎は、科学の最良の姿を示す。何かが当てはまらないとき、科学者はそれを無視しない——調べ、考えを提案し、慎重に試す。小さな赤い点は、宇宙が今も驚きを秘め、見るだけの忍耐を持つ者に理解されるのを待っていることを思い出させる。",
+        quiz: [
+          { q: "天文学者が見つけた謎の天体は？", options: ["既知のどれとも一致しない小さく淡い「赤い点」", "普通の星", "地球の写真"], answer: 0 },
+          { q: "「赤い点」を説明する胸躍る一つの発想は？", options: ["厚いガスに包まれた若いブラックホールかもしれない", "ただの光の誤り", "望遠鏡の故障"], answer: 0 },
+          { q: "こうした謎が示す科学の姿は？", options: ["当てはまらないものを調べ考えを提案し試す", "謎を無視する", "推測だけで断定する"], answer: 0 }
+        ]
+      }
+    ]
+  },
+    {
     date: "2026-08-28",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "科学者が見つけた驚きの星とは？", options: ["巨大ブラックホールのそばを繰り返し飛び生き延びる星", "光でできた星", "全く動かない星"], answer: 0 },
           { q: "星がそばをかすめると何が起きるか？", options: ["重力が外側の物質を剥ぎ取り明るい閃きを放つ", "星が即座に消える", "何も起きない"], answer: 0 },
           { q: "この現象を研究する理由は？", options: ["見えないブラックホールの大きさや重力を学べるから", "星を壊すため", "光を消すため"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-22",
-    passages: [
-      {
-        id: "d0822-1",
-        title: "The Value of a Good Reputation",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "When you choose which shop to visit or which product to buy, you are often guided by something you cannot see or touch: reputation. A company's reputation — what people believe about its honesty, quality, and reliability — is one of its most valuable assets, even though it never appears directly on a balance sheet.\nWhy is reputation so important? Customers cannot test everything before they buy. When they trust a company, they feel safe choosing it, recommending it to friends, and returning again. A strong reputation can let a business charge fair prices, attract good workers, and survive hard times, because people give it the benefit of the doubt.\nReputation is built slowly, through many small actions: keeping promises, treating customers fairly, making good products, and being honest when something goes wrong. It takes years of steady, careful behavior to earn deep trust.\nYet it can be lost quickly. A single serious mistake — a dangerous product, a broken promise, or an attempt to hide the truth — can damage a reputation built over decades. In the age of the internet, bad news spreads faster than ever, and customers have long memories.\nThat is why wise companies protect their reputation carefully. They know that trust, once lost, is very hard to rebuild.\nThe lesson reaches beyond business. For people and companies alike, a good name is earned through honesty and effort, and guarded with care. In a world full of choices, being known as trustworthy may be the most valuable advantage of all.",
-        summaryJa: "どの店に行くか、どの製品を買うかを選ぶとき、私たちはしばしば、見ることも触ることもできないもの——評判——に導かれる。企業の評判——その誠実さ・品質・信頼性について人々が信じること——は、貸借対照表に直接は現れないが、最も価値ある資産の一つだ。なぜ評判はそれほど重要か。客は買う前にすべてを試せない。企業を信頼すれば、それを選び、友人に勧め、また戻ってくることに安心を感じる。強い評判は、事業が公正な価格をつけ、良い人材を惹きつけ、困難な時を生き延びることを可能にする——人々が「善意に解釈」してくれるからだ。評判はゆっくり築かれる。多くの小さな行動を通じて——約束を守り、客を公正に扱い、良い製品を作り、何か問題が起きたとき正直であること。深い信頼を得るには、着実で丁寧な振る舞いを何年も要する。だが素早く失われうる。一つの重大なミス——危険な製品、破られた約束、真実を隠す試み——が、数十年かけて築いた評判を損ないうる。インターネットの時代に、悪い知らせはかつてなく速く広まり、客の記憶は長い。だから賢い企業は評判を慎重に守る。信頼は一度失うと、再建が非常に難しいと知っているのだ。教訓はビジネスを超える。人も企業も同じく、良い名は誠実さと努力で得られ、丁寧に守られる。選択肢に満ちた世界で、信頼できると知られることは、何より価値ある強みかもしれない。",
-        quiz: [
-          { q: "企業の「評判」とは？", options: ["誠実さ・品質・信頼性について人々が信じること", "建物の大きさ", "従業員の数"], answer: 0 },
-          { q: "強い評判が企業にもたらすものは？", options: ["公正な価格・良い人材・困難を生き延びる力", "客の減少", "即座の倒産"], answer: 0 },
-          { q: "評判について本文が述べることは？", options: ["築くのは遅く失うのは速い", "一瞬で築ける", "失っても簡単に戻る"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0822-2",
-        title: "A Small Satellite with a Big Question",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "When we imagine a satellite, we often picture a huge, expensive machine the size of a bus. But some of the most exciting space science today is being done by tiny satellites, no bigger than a small suitcase. Recently, scientists prepared one such little satellite to help answer a giant question: what happened in the universe's earliest 'dark ages,' before the first stars began to shine?\nHow can something so small do so much? Modern electronics have become powerful and light, so a small satellite can carry sensitive instruments that once needed a much larger craft. Small satellites are also far cheaper to build and launch, which means more scientists — and more countries — can afford to send them into space.\nThe question this satellite hopes to explore is one of the deepest in science. For a long time after the Big Bang, the universe was dark, filled with gas but no stars. Studying faint signals from that period could tell us how the first stars and galaxies formed, and how our universe grew into the one we see today.\nSmall satellites cannot do everything. They have limited power and room for instruments, and they usually focus on one specific task. But by doing that one thing well, and cheaply, they open space science to far more people.\nThe rise of these tiny explorers shows a powerful trend: as technology shrinks, big science no longer requires giant machines. Sometimes a satellite the size of a suitcase can help answer questions as old as the universe itself.",
-        summaryJa: "衛星を想像するとき、私たちはしばしばバスほどの大きさの巨大で高価な機械を思い描く。だが今日、最も刺激的な宇宙科学の一部は、小さなスーツケースほどの小型衛星によって行われている。最近、科学者はそんな小さな衛星の一つを、巨大な問い——最初の星が輝き始める前、宇宙の最も初期の「暗黒時代」に何が起きたのか——に答える助けとするため準備した。そんなに小さいものが、どうしてそれほど多くをできるのか。現代の電子機器は強力で軽くなったので、小型衛星は、かつてはるかに大きな機体を要した高感度の機器を積める。小型衛星は製造も打ち上げもはるかに安く、より多くの科学者——そしてより多くの国——が宇宙へ送る余裕を持てる。この衛星が探ろうとする問いは、科学で最も深いものの一つだ。ビッグバンの後の長い間、宇宙は暗く、ガスに満ちていたが星はなかった。その時代のかすかな信号を研究すれば、最初の星や銀河がどう形成され、私たちの宇宙が今日見るものへどう育ったかを教えてくれるかもしれない。小型衛星は何でもできるわけではない。電力と機器の場所は限られ、たいてい一つの特定の仕事に集中する。だがその一つをうまく、安く行うことで、宇宙科学をはるかに多くの人に開く。こうした小さな探検者の台頭は強力な潮流を示す——技術が小さくなるにつれ、大きな科学はもはや巨大な機械を要さない。時に、スーツケースほどの衛星が、宇宙そのものと同じくらい古い問いに答える助けになりうるのだ。",
-        quiz: [
-          { q: "小型衛星が多くをできる理由は？", options: ["現代の電子機器が強力で軽くなったから", "宇宙が小さいから", "星が明るいから"], answer: 0 },
-          { q: "この衛星が探る問いは？", options: ["最初の星が輝く前の宇宙の「暗黒時代」に何が起きたか", "月の色", "地球の重さ"], answer: 0 },
-          { q: "小型衛星の利点は？", options: ["製造・打ち上げが安くより多くの人が宇宙へ送れる", "何でもできること", "電力が無限なこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0822-3",
-        title: "Feeding the World Without Wasting It",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Around the world, huge amounts of food are thrown away every day. Experts estimate that roughly a third of all the food produced on Earth is never eaten. At the same time, many people do not have enough to eat. This strange gap — waste on one side, hunger on the other — is one of the great challenges facing our world.\nWhy is so much food wasted? Food is lost at every step. On farms, crops may rot before they can be sold. During transport and storage, food can spoil, especially without good refrigeration. In shops and homes, people often buy more than they need and throw away what they do not use. Even small habits, multiplied across billions of people, add up to an enormous waste.\nWhy does it matter? Wasted food means wasted water, land, energy, and work — all the resources used to grow and move it. Rotting food also produces gases that warm the planet. Reducing waste could feed more people while using fewer of the Earth's resources.\nThe good news is that this is a problem we can act on. Better storage and transport can save food in poorer countries. Shops can sell 'imperfect' fruit and vegetables instead of throwing them out. At home, planning meals and saving leftovers makes a real difference.\nFeeding the world is not only about growing more food; it is also about wasting less of what we already have. Small changes, made by many people, can help share the planet's plenty more fairly and wisely.",
-        summaryJa: "世界中で、毎日膨大な量の食べ物が捨てられている。専門家は、地球で生産される全食料の約3分の1が決して食べられないと見積もる。同時に、多くの人が十分に食べられていない。この奇妙な隔たり——一方に無駄、他方に飢え——は、私たちの世界が直面する大きな課題の一つだ。なぜそれほど多くの食べ物が無駄になるのか。食べ物はあらゆる段階で失われる。農場では、作物が売られる前に腐りうる。輸送と保管の間、特に良い冷蔵がなければ食べ物は傷みうる。店や家庭で、人々はしばしば必要以上に買い、使わない分を捨てる。小さな習慣さえ、何十億もの人にわたって掛け合わされ、莫大な無駄になる。なぜ重要か。無駄になった食べ物は、無駄になった水・土地・エネルギー・労働——それを育て運ぶのに使われたすべての資源——を意味する。腐る食べ物は地球を温めるガスも出す。無駄を減らせば、より少ない地球の資源でより多くの人を養える。良い知らせは、これが私たちが行動できる問題だということだ。より良い保管と輸送は、貧しい国で食べ物を救える。店は「不完全な」果物や野菜を捨てる代わりに売れる。家庭では、食事を計画し残り物を活かすことが本当の違いを生む。世界を養うことは、より多くの食料を育てることだけではない。既にあるものをより少なく無駄にすることでもある。多くの人が行う小さな変化が、地球の豊かさをより公正に賢く分かち合う助けになりうる。",
-        quiz: [
-          { q: "本文によると、生産された食料のどれくらいが食べられないか？", options: ["約3分の1", "ほぼ全部", "ごくわずか"], answer: 0 },
-          { q: "食料が無駄になる理由に含まれるものは？", options: ["農場での腐敗、輸送・保管での傷み、買いすぎ", "食料が少なすぎること", "誰も食べないこと"], answer: 0 },
-          { q: "本文が示す良い知らせは？", options: ["保管・輸送の改善や家庭の工夫で行動できる問題である", "もう手遅れである", "無駄は減らせない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0822-4",
-        title: "The Sound of Summer: Japan's Cicadas",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, summer has a sound. From the trees in parks and gardens comes a loud, buzzing chorus that fills the hot air from morning to evening. This is the song of the cicada, an insect so closely tied to the season that, for many Japanese people, summer would not feel complete without it.\nWhat are cicadas? They are large insects that spend most of their lives underground as young larvae, feeding quietly on tree roots. After several years — sometimes many — they climb up into the trees, shed their old skin, and become winged adults. Then, for just a few short weeks, the males sing loudly to attract mates before their lives end.\nThis brief, intense life gives the cicada a special meaning in Japanese culture. Its sudden, powerful song, followed by a quick end, has long been seen as a symbol of how short and precious life can be. Poets have written about the cicada for centuries.\nThe sound itself is part of daily life. Different kinds of cicadas make different songs, and people who grew up in Japan can often tell them apart. The cries also mark the passing of summer: as the season fades, the chorus changes and slowly grows quiet.\nTo a visitor, the noise might seem overwhelming at first. But for many, the cry of the cicada is the very voice of a Japanese summer — a reminder, sung from the trees, to notice the season while it lasts, before it too fades into autumn.",
-        summaryJa: "日本の夏には音がある。公園や庭の木々から、朝から晩まで暑い空気を満たす、大きく響く合唱が聞こえてくる。これはセミの歌だ。この昆虫は季節と深く結びついていて、多くの日本人にとって、それなしでは夏が完成した気がしない。セミとは何か。大きな昆虫で、人生の大半を幼虫として地中で過ごし、木の根から静かに養分を得る。数年——時に何年も——の後、木に登り、古い皮を脱ぎ、翅のある成虫になる。そしてほんの数週間だけ、オスは命が尽きる前に配偶者を引き寄せようと大きく鳴く。この短く激しい生が、日本文化でセミに特別な意味を与える。その突然で力強い歌と、それに続く素早い終わりは、長く、人生がいかに短く貴重でありうるかの象徴と見なされてきた。詩人は何世紀もセミについて詠んできた。音そのものが日常生活の一部だ。種類の異なるセミは異なる歌を奏で、日本で育った人はしばしば聞き分けられる。その鳴き声は夏の移ろいも告げる——季節が薄れるにつれ、合唱は変わり、ゆっくり静かになる。訪問者には、最初その音は圧倒的に思えるかもしれない。だが多くの人にとって、セミの声はまさに日本の夏の声だ——木々から歌われる、季節が続くうちに気づくようにという気づきであり、それもまた秋へと薄れていく前の。",
-        quiz: [
-          { q: "セミは幼虫として人生の大半をどこで過ごすか？", options: ["地中", "木の頂上", "水の中"], answer: 0 },
-          { q: "セミが日本文化で持つ意味は？", options: ["人生がいかに短く貴重かの象徴", "富の象徴", "戦いの象徴"], answer: 0 },
-          { q: "セミの鳴き声が告げるものは？", options: ["夏の移ろい", "冬の始まり", "雨の量"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0822-5",
-        title: "The Vegetable That Might Fight Disease",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Broccoli is a common vegetable, found on dinner plates around the world. Most people know it is healthy, but scientists are now studying a more surprising possibility: that a natural compound in broccoli might help treat a rare and serious disease that has no cure.\nHow can a vegetable help fight illness? Plants are full of complex natural chemicals, made as they grow. Some of these compounds have powerful effects on the human body. Broccoli, in particular, contains substances that scientists have studied for years for their possible health benefits. Recently, researchers found that one such compound may help with a specific rare disease, working in a way that ordinary medicines do not.\nWhy does this matter? Many rare diseases have no treatment at all, because they affect so few people that little research is done. Finding help in a common, cheap, and safe vegetable would be wonderful news — a possible treatment that is easy to obtain and gentle on the body.\nCaution is essential, as always in science. A promising result in the laboratory is far from a finished medicine. Eating broccoli is healthy, but it is not the same as a carefully measured, tested treatment. Years of research are needed before doctors could use such a compound safely.\nStill, the discovery is a reminder that answers to hard problems can hide in familiar places. The foods we eat every day are full of chemistry we do not fully understand — and sometimes, buried in something as ordinary as broccoli, there may be the seed of a cure.",
-        summaryJa: "ブロッコリーは、世界中の食卓に並ぶありふれた野菜だ。ほとんどの人はそれが健康的だと知っているが、科学者は今、より意外な可能性を研究している——ブロッコリーの天然成分が、治療法のない稀で深刻な病気の治療を助けるかもしれない、というものだ。野菜がどうして病気と闘う助けになりうるのか。植物は、育つ過程で作られる複雑な天然化学物質に満ちている。こうした成分の一部は、人体に強力な効果を持つ。特にブロッコリーは、科学者がその健康効果の可能性を長年研究してきた物質を含む。最近、研究者は、そんな成分の一つが、普通の薬とは異なる働き方で、ある特定の稀な病気に役立つかもしれないと見つけた。なぜ重要か。多くの稀な病気には治療法が全くない——影響を受ける人があまりに少なく、研究がほとんど行われないからだ。ありふれて安く安全な野菜に助けを見つけることは、素晴らしい知らせだ——得やすく体に優しい治療の可能性。いつも通り、科学に慎重さは不可欠だ。実験室での有望な結果は、完成した薬にはほど遠い。ブロッコリーを食べるのは健康的だが、慎重に量られ試験された治療と同じではない。医師がそんな成分を安全に使えるまでには何年もの研究が要る。それでもこの発見は、難しい問題への答えが身近な場所に隠れうることを思い出させる。毎日食べる食べ物は、私たちが完全には理解していない化学に満ちている——そして時に、ブロッコリーほどありふれたものの中に、治療の種があるかもしれないのだ。",
-        quiz: [
-          { q: "科学者が研究している意外な可能性は？", options: ["ブロッコリーの成分が稀な病気の治療を助けるかも", "ブロッコリーが有害かも", "野菜は化学物質を含まない"], answer: 0 },
-          { q: "多くの稀な病気に治療法がない理由は？", options: ["影響を受ける人が少なく研究がほとんど行われないから", "治療が簡単すぎるから", "病気が無害だから"], answer: 0 },
-          { q: "本文が促す慎重さは？", options: ["実験室の結果は完成した薬にはほど遠く年月の研究が要る", "ブロッコリーで必ず治る", "医師は不要"], answer: 0 }
         ]
       }
     ]
