@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-30",
+    passages: [
+      {
+        id: "d0830-1",
+        title: "When Everything Becomes a Subscription",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Not long ago, people bought things once and owned them forever. You bought a music album, a car, or a piece of software, and it was yours. Today, more and more companies want you to pay a small fee every month instead. This is called the \"subscription model,\" and it now covers music, movies, games, software, and even cars and clothes.\n\nFor companies, subscriptions are attractive. Instead of selling a product once, they earn money again and again. This steady income makes it easier to plan for the future. It also helps companies build a long relationship with each customer.\n\nFor customers, the benefits are real too. You can enjoy a huge library of music or films for less than the price of a single album. You always get the newest version, and you can stop whenever you want.\n\nHowever, there is a hidden problem. Because each service seems cheap, people sign up for many of them. Soon the small fees add up, and a household may pay for services it rarely uses. Some companies also raise their prices slowly, hoping customers will not notice.\n\nThe smart approach is simple. Once or twice a year, look at your list of subscriptions. Keep the ones you truly use, and cancel the rest. In the age of \"subscribe to everything,\" the most valuable skill may be knowing when to say no.",
+        summaryJa: "かつては一度買えば自分のものだったが、今は毎月少額を払う「サブスク」が音楽・映画・ソフト・車にまで広がっている。企業は安定収入を得られ、利用者も安く多くを楽しめる。ただし安く見えるため契約が増えすぎ、使わないサービスに払い続けがち。年に一度見直し、本当に使うものだけ残すのが賢い。",
+        quiz: [
+          { q: "Why do companies like the subscription model?", options: ["They earn money again and again with steady income", "They can sell products only once", "They never have to talk to customers"], answer: 0 },
+          { q: "What is the 'hidden problem' for customers?", options: ["Services are too hard to use", "Small fees add up when people sign up for many services", "Old versions cannot be updated"], answer: 1 },
+          { q: "What does the passage suggest customers do?", options: ["Subscribe to as many services as possible", "Never use subscriptions at all", "Review their subscriptions and keep only what they use"], answer: 2 }
+        ]
+      },
+      {
+        id: "d0830-2",
+        title: "Getting Ready for Quantum-Safe Security",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Most of the secrets we send over the internet are protected by codes. When you buy something online or send a message, your data is locked with a kind of digital lock. Today's locks are so strong that even the fastest normal computers would need thousands of years to break them.\n\nBut a new kind of machine may change this. Quantum computers work in a completely different way from the computers we use now. They are still young and expensive, but experts believe that one day a powerful quantum computer could break many of today's digital locks in a short time.\n\nThis worries security experts. If such a machine appears, old secrets that were saved years ago could suddenly be opened. For this reason, some companies and governments are not waiting. They are already testing new \"quantum-safe\" codes that even a quantum computer should not be able to break.\n\nChanging the world's digital locks is a huge job. Banks, hospitals, and online stores all use the older system, and updating everything will take years. That is why the work is starting now, long before powerful quantum computers actually exist.\n\nIt may seem strange to prepare for a machine that is not ready yet. But in security, being early is much safer than being late. Companies that begin the change today will be ready when the quantum age finally arrives.",
+        summaryJa: "ネット上の情報は強力な暗号で守られており、今の高速コンピューターでも解読には何千年もかかる。しかし全く仕組みの違う量子コンピューターなら、いつかその暗号を短時間で破れる恐れがある。そこで一部の企業や政府は、量子でも破れない「量子安全」の暗号を今から試している。銀行や病院など全システムの更新には何年もかかるため、機械が完成する前に準備を始めているのだ。",
+        quiz: [
+          { q: "How strong are today's digital locks against normal computers?", options: ["They can be broken in one hour", "They would take normal computers thousands of years to break", "They have already been broken"], answer: 1 },
+          { q: "Why are some companies testing 'quantum-safe' codes now?", options: ["Because quantum computers are already common", "Because updating all systems takes years, so they must start early", "Because normal computers stopped working"], answer: 1 },
+          { q: "What is the main message about security in the passage?", options: ["Being early is safer than being late", "Quantum computers are useless", "Old codes are safe forever"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0830-3",
+        title: "Why Countries Celebrate Friendship Anniversaries",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Every year, countries around the world mark special anniversaries of their friendships. In 2026, for example, several nations celebrate many decades of official ties with one another. These are not just dates on a calendar. They are chances to look back, say thank you, and plan for the future together.\n\nWhy do countries bother with such events? One reason is trust. When two nations have worked together for fifty or seventy years, they have built a habit of talking, trading, and solving problems side by side. Celebrating that history reminds both sides how much they have gained from cooperation.\n\nAnniversaries are also useful for ordinary people. Governments often use them to hold cultural events, student exchanges, and art shows. A young person in one country may taste the food, hear the music, or learn the language of a faraway partner for the first time. These small experiences can shape a lifetime of friendly feelings.\n\nOf course, no relationship between countries is perfect. There are always disagreements about trade, borders, or history. But an anniversary offers a calm moment to focus on what unites rather than what divides.\n\nIn a world that often feels tense, these celebrations send a quiet but powerful message. They show that patience and respect between nations can last for generations, and that friendship, once built, is worth protecting.",
+        summaryJa: "世界各国は毎年、他国との外交関係の節目を祝っている。2026年も多くの国が数十年の友好を記念する。単なる日付ではなく、これまでを振り返り感謝し、未来を共に描く機会だ。長年の協力は信頼を育て、記念行事では文化交流や学生交流も行われ、若者が相手国の文化に触れる。国同士に対立はつきものだが、記念日は共通点に目を向ける穏やかな時間となり、国家間の友好は世代を超えて守る価値があると伝えている。",
+        quiz: [
+          { q: "What is one reason countries celebrate friendship anniversaries?", options: ["To remind both sides of the benefits of cooperation and trust", "To start new arguments about borders", "To stop trading with each other"], answer: 0 },
+          { q: "How do anniversaries help ordinary people?", options: ["They cancel all cultural events", "They offer cultural events and student exchanges", "They force people to move abroad"], answer: 1 },
+          { q: "What message do these celebrations send, according to the passage?", options: ["Friendship between nations cannot last", "Respect between nations can last for generations", "Countries should never disagree"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0830-4",
+        title: "Tokyo's Museums Get a Fresh Start",
+        level: "★★☆",
+        genre: "日本",
+        text: "The year 2026 is an exciting one for museum lovers in Japan. In Tokyo and other cities, several museums are reopening after long renovations, and brand-new cultural spaces are welcoming visitors for the first time. For a country that treasures both its history and its modern art, this is a special moment.\n\nWhy renovate a museum at all? Over time, old buildings need repairs, and the way people enjoy art keeps changing. Visitors today expect wider spaces, better lighting, and clear signs in several languages. Many museums are also adding rest areas, cafés, and rooms designed for children and families. The goal is to make art feel welcoming, not distant.\n\nNew museums bring their own kind of energy. They often focus on modern themes, such as digital art, design, or the work of living artists. Some use screens, sound, and light to create rooms that visitors can walk through and almost step inside. For younger people, these experiences can turn a quiet afternoon into an adventure.\n\nThese changes matter for tourism too. Many travelers now plan whole trips around art and culture. A city with fresh, exciting museums gives visitors one more reason to stay longer and explore.\n\nIn the end, a museum is more than a building full of old objects. It is a place where past and present meet. Japan's renewed museums invite everyone, young and old, to look, wonder, and enjoy.",
+        summaryJa: "2026年は日本の美術館ファンにとって特別な年で、東京などで改装を終えた美術館が再開し、新しい文化施設も開館する。古い建物は修繕が必要で、来館者は広い空間や多言語表示、休憩所やカフェを求めている。新設館はデジタルアートなど現代的なテーマを扱い、光や音で体験型の展示を行う。美術や文化を目的に旅行する人も多く、観光にもつながる。美術館は過去と現在が出会う場所だと結んでいる。",
+        quiz: [
+          { q: "Why do museums need renovation, according to the passage?", options: ["Because old buildings need repairs and visitors' needs change", "Because art is no longer popular", "Because they want fewer visitors"], answer: 0 },
+          { q: "What do many new museums focus on?", options: ["Only very old objects", "Modern themes like digital art and design", "Selling food only"], answer: 1 },
+          { q: "How are the renewed museums connected to tourism?", options: ["They make travelers leave the city faster", "They give visitors a reason to stay longer and explore", "They stop tourists from visiting"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0830-5",
+        title: "New Frogs Hidden in Old Museum Drawers",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "When we think of discovering new animals, we usually imagine scientists deep in a jungle. But sometimes, new species are found much closer to home — inside the quiet drawers of a museum. Recently, researchers announced seven new kinds of small, colorful frogs from the island of Madagascar, and old museum specimens played a key role.\n\nThese frogs are tiny and hard to tell apart. To the human eye, many of them look almost the same. So how did scientists know they were different species? The answer is DNA. By studying the genetic code of both freshly collected frogs and specimens that had sat in museums for a hundred years, researchers could see clear differences that eyes alone would miss.\n\nThis shows how valuable old collections can be. A frog collected long ago, carefully labeled and stored, can still teach us something new today. In a way, scientists from the past sent a gift into the future without knowing it.\n\nDiscovering new species is not only exciting; it is also important. When we know that an animal exists and where it lives, we can work to protect it. Many frogs around the world are in danger, and a species no one has named is easy to lose forever.\n\nSo the next time you visit a museum, remember: behind the display cases, in rows of quiet drawers, future discoveries may already be waiting.",
+        summaryJa: "新種の発見というとジャングルを思い浮かべるが、博物館の引き出しの中で見つかることもある。研究者はマダガスカルの小さくカラフルなカエル7種を新種として発表し、100年前の標本が重要な役割を果たした。見た目はそっくりでも、新しい個体と古い標本のDNAを比べると違いが分かった。昔ていねいに保存された標本が今も新事実を教えてくれる。新種を知り生息地が分かれば保護もでき、名前のない種は失われやすい。博物館には未来の発見が眠っている。",
+        quiz: [
+          { q: "Where were clues to the new frog species found, besides in the wild?", options: ["In old museum specimens and drawers", "In a jungle only", "In the ocean"], answer: 0 },
+          { q: "How did scientists tell the frogs apart when they looked almost the same?", options: ["By their color only", "By studying their DNA", "By their size only"], answer: 1 },
+          { q: "Why does the passage say discovering new species is important?", options: ["Because it makes museums richer", "Because knowing an animal exists helps us protect it", "Because frogs are dangerous"], answer: 1 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-08-29",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "放棄された農地に起きたことは？", options: ["10年余りで豊かな野花の草地に変わった", "裸で生命のないままだった", "家が建った"], answer: 0 },
           { q: "自然が引き継ぐ仕組みは？", options: ["種が風や鳥で到来し植物・昆虫・鳥が次々移り住む", "何も起きない", "人が植える"], answer: 0 },
           { q: "この物語が示す希望は？", options: ["時間と空間があれば自然は自らを修復できる", "自然は回復しない", "農地は無価値だ"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-23",
-    passages: [
-      {
-        id: "d0823-1",
-        title: "Why Feedback Matters at Work",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "In any workplace, one simple thing can make a huge difference to how well people do their jobs: feedback. Feedback is information about how well something is going — praise for what works, and honest advice about what could be better. Companies that use feedback well tend to improve faster, while those that avoid it often repeat the same mistakes.\nWhy is feedback so powerful? People cannot always see their own errors, and they may not know which parts of their work are most valued. Clear, kind feedback helps them understand what to keep doing and what to change. It also shows that others are paying attention and care about the result.\nGood feedback has a few key features. It is specific, pointing to real examples rather than vague complaints. It is timely, given soon after the work, while it still matters. And it is balanced, mixing encouragement with suggestions, so people feel motivated rather than discouraged.\nFeedback should flow in every direction. Managers give it to workers, but wise leaders also ask for feedback about themselves, and teammates share it with one another. A company where people can speak honestly, without fear, tends to be healthier and more creative.\nThere are challenges. Giving criticism kindly is a skill, and receiving it without taking offense is another. Both take practice and trust.\nStill, the lesson is clear. Businesses grow by learning, and feedback is how learning happens day to day. A company that listens — really listens — to what is working and what is not gives itself the best chance to improve.",
-        summaryJa: "どんな職場でも、人々の仕事の出来を大きく左右する単純なものがある——フィードバックだ。フィードバックとは、物事がどれだけうまくいっているかについての情報——うまくいっている点への称賛と、より良くできる点への正直な助言だ。フィードバックをうまく使う企業は速く改善する傾向があり、避ける企業はしばしば同じ過ちを繰り返す。なぜフィードバックはそれほど強力か。人は自分の誤りを常に見られるわけではなく、自分の仕事のどの部分が最も評価されているかを知らないこともある。明確で優しいフィードバックは、何を続け何を変えるべきかを理解する助けになる。他者が注意を払い、結果を気にかけていることも示す。良いフィードバックにはいくつかの鍵がある。具体的で、漠然とした不満でなく実例を指す。適時で、仕事の直後、まだ意味のあるうちに与えられる。そしてバランスが取れ、励ましと提案を混ぜるので、人はやる気をなくすより高まる。フィードバックはあらゆる方向に流れるべきだ。上司が部下に与えるが、賢い指導者は自分についてのフィードバックも求め、同僚同士も分かち合う。恐れずに正直に話せる企業は、より健全で創造的になりやすい。課題もある。批判を優しく伝えるのは技能で、気を悪くせず受け取るのも別の技能だ。どちらも練習と信頼を要する。それでも教訓は明快だ。ビジネスは学ぶことで成長し、フィードバックは日々学びが起きる方法だ。何がうまくいき何がいかないかに——本当に——耳を傾ける企業は、改善の最良の機会を自らに与えるのだ。",
-        quiz: [
-          { q: "フィードバックとは？", options: ["うまくいく点への称賛と改善点への正直な助言", "罰だけ", "給与の額"], answer: 0 },
-          { q: "良いフィードバックの特徴は？", options: ["具体的・適時・バランスが取れている", "漠然・遅い・批判だけ", "秘密である"], answer: 0 },
-          { q: "本文の教訓は？", options: ["ビジネスは学びで成長しフィードバックが日々の学びを生む", "フィードバックは無用", "批判は常に避けるべき"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0823-2",
-        title: "AI That Listens to Meetings",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Meetings are a big part of work life, but they can be hard to manage. People forget what was decided, important points get lost, and it is difficult to see patterns across many meetings over time. Now, some companies are using artificial intelligence to help. Recently, one Japanese online platform began using AI to review its management meetings and analyze activity across the whole company.\nHow does meeting AI work? First, it can turn spoken words into written text, creating a record of what was said. Then it can summarize long discussions into short notes, list the decisions and tasks, and even spot themes that come up again and again. Instead of one person taking notes, the AI captures everything and organizes it.\nWhy is this useful? A clear record helps everyone remember what was agreed and who is responsible for each task. By analyzing many meetings, a company can also notice bigger patterns — which topics take the most time, or which problems keep returning.\nThere are important cautions. Recording meetings raises questions about privacy, so people should know when AI is listening. The AI can also make mistakes, so its summaries need checking. And a machine cannot replace human judgment about what truly matters.\nUsed carefully, though, this technology can save time and help teams work better. It is part of a wider trend: using AI not to replace people, but to handle the slow, repetitive parts of work — freeing humans to focus on discussion, decisions, and ideas that machines cannot provide.",
-        summaryJa: "会議は仕事生活の大きな部分だが、扱いが難しいことがある。人は決まったことを忘れ、重要な点が失われ、多くの会議にまたがる傾向を時系列で見るのは難しい。今、一部の企業がAIを使って助けを得ている。最近、ある日本のオンラインプラットフォームが、経営会議を見直し、会社全体の活動を分析するのにAIを使い始めた。会議AIはどう働くのか。まず、話し言葉を文字に変え、何が話されたかの記録を作れる。次に、長い議論を短いメモに要約し、決定事項と作業を並べ、繰り返し出てくるテーマさえ見つけられる。一人がメモを取る代わりに、AIがすべてを捉え整理する。なぜ有用か。明確な記録は、何が合意され誰が各作業に責任を持つかを皆が覚える助けになる。多くの会議を分析することで、企業はより大きな傾向——どの話題が最も時間を取るか、どの問題が繰り返し戻るか——にも気づける。重要な注意もある。会議の録音はプライバシーの問いを生むので、いつAIが聞いているかを人は知るべきだ。AIも誤りうるので、その要約は確認が要る。そして機械は、本当に重要なことについての人間の判断に取って代われない。だが慎重に使えば、この技術は時間を節約しチームがよりよく働く助けになる。より広い潮流の一部だ——AIを人に取って代えるためでなく、仕事の遅く反復的な部分を担わせるために使い、人間が議論・決定・機械には出せない発想に集中できるようにする。",
-        quiz: [
-          { q: "会議AIができることは？", options: ["話し言葉を文字にし要約や決定事項の整理をする", "会議を禁止する", "人を解雇する"], answer: 0 },
-          { q: "多くの会議を分析する利点は？", options: ["どの話題が時間を取るかなど大きな傾向に気づける", "何も分からない", "会議が増えるだけ"], answer: 0 },
-          { q: "本文が挙げる注意は？", options: ["録音のプライバシーやAIの誤りへの確認が必要", "AIは完璧である", "確認は不要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0823-3",
-        title: "The World Moves to the City",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "For most of human history, the majority of people lived in the countryside, close to farms and fields. That has changed dramatically. Today, more than half of all people on Earth live in cities, and that share keeps rising. This great movement of people into cities — called urbanization — is reshaping how the whole world lives.\nWhy are people moving to cities? Cities offer jobs, schools, hospitals, and chances that rural areas often cannot match. Young people, in particular, move to cities hoping for better work and a wider life. As economies grow, more and more of their activity happens in and around large cities.\nCity life brings real benefits. Living close together can be efficient: services, transport, and businesses can reach many people at once. Cities are also centers of ideas, art, and innovation, where people from different backgrounds meet and create new things.\nBut rapid growth brings challenges. Housing can become expensive and crowded. Traffic, pollution, and pressure on water and energy can rise. If cities grow faster than the services people need, some residents may be left behind.\nThat is why planning matters so much. Well-designed cities provide good transport, green spaces, clean water, and homes people can afford. Poorly planned ones can trap people in difficult conditions.\nThe move to cities is one of the defining trends of our age. How countries manage it — building cities that are livable, fair, and sustainable — will shape the daily lives of billions of people, and the health of the planet, for generations to come.",
-        summaryJa: "人類の歴史の大半で、大多数の人は田舎に、農場や畑の近くに住んでいた。それが劇的に変わった。今日、地球の全人口の半数以上が都市に住み、その割合は上がり続けている。この都市への人々の大移動——都市化——は、世界全体の暮らし方を作り替えている。なぜ人々は都市へ移るのか。都市は、田舎ではしばしば及ばない仕事・学校・病院・機会を与える。特に若者は、より良い仕事と広い人生を求めて都市へ移る。経済が成長するにつれ、その活動のますます多くが大都市とその周辺で起きる。都市生活には本当の利点がある。近くに住むことは効率的でありうる——サービス・交通・事業が一度に多くの人に届く。都市はまた、異なる背景の人々が出会い新しいものを生む、発想・芸術・革新の中心でもある。だが急成長は課題をもたらす。住居は高価で過密になりうる。交通・汚染、水やエネルギーへの圧力が高まりうる。都市が人々の必要とするサービスより速く育てば、一部の住民は取り残されうる。だから計画が非常に重要だ。よく設計された都市は、良い交通・緑地・清潔な水・手頃な住居を提供する。計画の悪い都市は、人々を困難な状況に閉じ込めうる。都市への移動は現代を特徴づける潮流の一つだ。各国がそれをどう管理するか——住みやすく、公正で、持続可能な都市を築くか——が、何十億もの人々の日々の暮らしと、地球の健康を、何世代にもわたって形づくる。",
-        quiz: [
-          { q: "「都市化」とは？", options: ["人々が都市に移り住む大きな流れ", "田舎に戻ること", "都市を壊すこと"], answer: 0 },
-          { q: "人々が都市へ移る理由は？", options: ["仕事・学校・病院・機会があるから", "田舎が好きだから", "都市が静かだから"], answer: 0 },
-          { q: "急成長する都市の課題は？", options: ["住居の高騰・過密・交通や汚染の増加", "何も問題がない", "人が減ること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0823-4",
-        title: "When a Pond Turns Green",
-        level: "★★☆",
-        genre: "日本",
-        text: "Visitors to a famous park in Tokyo were surprised to find its pond had changed color, turning a bright, cloudy green — almost the shade of matcha tea. The water was not painted or polluted with dye. The strange color came from something natural and alive: a sudden bloom of tiny organisms called phytoplankton.\nWhat is phytoplankton? These are microscopic living things that float in water and, like plants, use sunlight to grow. They are a normal and important part of ponds, lakes, and oceans, forming the base of the food chain for many creatures. Usually there are too few to notice. But under the right conditions, their numbers can explode.\nWhy do these blooms happen? Warm weather, plenty of sunlight, and extra nutrients in the water — sometimes from fallen leaves, bird droppings, or runoff — can cause phytoplankton to multiply very quickly. When billions gather near the surface, they can turn the whole pond a vivid green.\nAre blooms harmful? Often they are harmless and fade on their own as conditions change. But very large blooms can use up oxygen in the water or block sunlight, which may harm fish and other life. Scientists watch them carefully.\nThe green pond is a small, visible reminder of the hidden life in water all around us. Usually invisible, phytoplankton quietly support entire ecosystems and even help produce the oxygen we breathe. A pond turning the color of matcha is nature showing us, for a moment, just how alive still water can be.",
-        summaryJa: "東京の有名な公園の訪問者は、その池が色を変え、明るく濁った緑——ほとんど抹茶の色合い——になっているのに驚いた。水は塗られたのでも染料で汚されたのでもない。その奇妙な色は、自然で生きたもの——植物プランクトンと呼ばれる小さな生き物の突然の大発生——から来た。植物プランクトンとは何か。水中に浮かび、植物のように日光を使って育つ微小な生き物だ。池・湖・海の正常で重要な一部であり、多くの生き物の食物連鎖の土台をなす。普通は少なすぎて気づかない。だが適した条件下で、その数は爆発しうる。なぜこうした大発生が起きるのか。暖かい天気、豊富な日光、水中の余分な栄養——時に落ち葉・鳥のふん・流入水から——が、植物プランクトンを非常に速く増やしうる。数十億が水面近くに集まると、池全体を鮮やかな緑に変えうる。大発生は有害か。多くの場合は無害で、条件が変わると自然に消える。だが非常に大きな発生は、水中の酸素を使い果たしたり日光を遮ったりして、魚や他の生命を害しうる。科学者は注意深く見守る。緑の池は、私たちの周りの水中の隠れた生命の、小さく目に見える気づきだ。普段は見えない植物プランクトンが、静かに生態系全体を支え、私たちが呼吸する酸素の生成さえ助ける。抹茶の色になる池は、静かな水がどれほど生きているかを、一瞬、自然が私たちに見せているのだ。",
-        quiz: [
-          { q: "池が緑になった原因は？", options: ["植物プランクトンの突然の大発生", "絵の具", "泥だけ"], answer: 0 },
-          { q: "大発生が起きる条件は？", options: ["暖かさ・豊富な日光・余分な栄養", "寒さと暗さ", "水が少ないこと"], answer: 0 },
-          { q: "植物プランクトンが果たす役割は？", options: ["食物連鎖を支え酸素の生成も助ける", "水を汚すだけ", "何もしない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0823-5",
-        title: "The Stars That Skim Black Holes",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "A black hole is one of the most powerful and frightening objects in the universe. Its gravity is so strong that not even light can escape once it gets too close. So it is astonishing that scientists have found stars that repeatedly fly past giant black holes — and survive, again and again.\nHow is this possible? At the center of many galaxies sits a supermassive black hole, millions of times heavier than our Sun. Some stars travel on long paths that bring them very close to such a black hole, then swing away again, like a comet looping around the Sun. Each time a star skims past, the black hole's gravity pulls fiercely on it, tearing away some of its outer material. This releases a bright burst of light that astronomers can detect.\nWhy does the star survive? If a star came too close, it would be torn apart completely. But these stars follow paths that bring them near enough to lose a little material, yet not so near that they are destroyed. So they return, over and over, each pass producing a new flash of light.\nWhy study this? Watching these repeating bursts helps scientists learn about black holes, which are otherwise invisible. The light reveals a black hole's size, its gravity, and how matter behaves in such extreme conditions.\nThese daring stars remind us how dramatic the universe can be. Far away, in the hearts of galaxies, stars dance again and again at the edge of destruction — and, in their bright, repeated flashes, help us understand the darkest objects in space.",
-        summaryJa: "ブラックホールは宇宙で最も強力で恐ろしい天体の一つだ。その重力はあまりに強く、近づきすぎると光さえ逃げられない。だから科学者が、巨大なブラックホールのそばを繰り返し飛び過ぎ、何度も生き延びる星を見つけたのは驚きだ。どうして可能なのか。多くの銀河の中心には、太陽の数百万倍も重い超大質量ブラックホールがある。一部の星は、そんなブラックホールに非常に近づき、また離れていく長い軌道を進む——太陽を回る彗星のように。星がそばをかすめるたび、ブラックホールの重力が激しく引き、外側の物質の一部を剥ぎ取る。これが、天文学者が検出できる明るい光の閃きを放つ。なぜ星は生き延びるのか。近づきすぎれば完全に引き裂かれる。だがこれらの星は、少し物質を失うほど近いが、破壊されるほどではない軌道を進む。だから何度も戻り、各通過が新しい光の閃きを生む。なぜ研究するのか。この繰り返す閃きを見ることは、さもなければ見えないブラックホールについて学ぶ助けになる。光はブラックホールの大きさ・重力、そしてそんな極限条件で物質がどう振る舞うかを明かす。これらの大胆な星は、宇宙がいかに劇的でありうるかを思い出させる。遠く、銀河の中心で、星は破壊の縁で何度も踊り——その明るく繰り返す閃きの中で、宇宙で最も暗い天体を理解する助けをくれる。",
-        quiz: [
-          { q: "科学者が見つけた驚きの星とは？", options: ["巨大ブラックホールのそばを繰り返し飛び生き延びる星", "光でできた星", "全く動かない星"], answer: 0 },
-          { q: "星がそばをかすめると何が起きるか？", options: ["重力が外側の物質を剥ぎ取り明るい閃きを放つ", "星が即座に消える", "何も起きない"], answer: 0 },
-          { q: "この現象を研究する理由は？", options: ["見えないブラックホールの大きさや重力を学べるから", "星を壊すため", "光を消すため"], answer: 0 }
         ]
       }
     ]
