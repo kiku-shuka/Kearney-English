@@ -91,7 +91,19 @@ KE_DATA.extraSentences = [
   { id: "w2634-s09", ja: "次回までに叩き台を用意します。", en: "I'll prepare a rough draft by next time.", note: "rough draft = 叩き台・下書き" },
   { id: "w2634-s10", ja: "お互いの期待をすり合わせておきましょう。", en: "Let's align our expectations with each other.", note: "align expectations = 期待をすり合わせる" },
   { id: "w2634-s11", ja: "その条件でしたら、前向きに検討できます。", en: "Under those terms, we can consider it positively.", note: "under those terms = その条件では" },
-  { id: "w2634-s12", ja: "最後に、次のアクションを確認しましょう。", en: "Finally, let's confirm the next actions.", note: "next actions = 次の行動・宿題" }
+  { id: "w2634-s12", ja: "最後に、次のアクションを確認しましょう。", en: "Finally, let's confirm the next actions.", note: "next actions = 次の行動・宿題" },
+  { id: "w2635-s01", ja: "ご連絡が遅くなり申し訳ありません。", en: "I'm sorry for the late reply.", note: "late reply = 返信の遅れ。定番の一言" },
+  { id: "w2635-s02", ja: "この点について、簡単に補足させてください。", en: "Let me add a quick note on this point.", note: "add a note = 補足する" },
+  { id: "w2635-s03", ja: "予算が限られているので、優先順位をつけましょう。", en: "Since the budget is limited, let's set priorities.", note: "set priorities = 優先順位をつける" },
+  { id: "w2635-s04", ja: "その解釈で合っているか確認させてください。", en: "Let me make sure I'm reading this correctly.", note: "read = 解釈する。柔らかい確認の型" },
+  { id: "w2635-s05", ja: "結論から申し上げると、計画通りに進んでいます。", en: "To get straight to the point, we're on track.", note: "on track = 順調・予定通り" },
+  { id: "w2635-s06", ja: "詳細は追ってメールでお送りします。", en: "I'll send the details in a follow-up email.", note: "follow-up = 追っての・後続の" },
+  { id: "w2635-s07", ja: "その件は担当者に確認して折り返します。", en: "Let me check with the person in charge and get back to you.", note: "person in charge = 担当者" },
+  { id: "w2635-s08", ja: "今のところ大きな問題はありません。", en: "So far, there are no major issues.", note: "so far = 今のところ" },
+  { id: "w2635-s09", ja: "認識を合わせるために、一度整理させてください。", en: "Let me recap so we're all on the same page.", note: "recap = 要点をまとめ直す" },
+  { id: "w2635-s10", ja: "その提案には一長一短がありますね。", en: "That proposal has its pros and cons.", note: "pros and cons = 良い点と悪い点" },
+  { id: "w2635-s11", ja: "無理のない範囲で対応します。", en: "I'll handle it as much as is reasonable.", note: "reasonable = 無理のない・妥当な" },
+  { id: "w2635-s12", ja: "最後に、次回までの宿題を確認しましょう。", en: "Finally, let's confirm the action items before next time.", note: "action items = 宿題・やるべきこと" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -257,6 +269,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Thank you. I'm sorry for the delay.", ja: "ありがとうございます。遅れて申し訳ありません。" },
       { s: "B", en: "It's fine. Thanks for telling me early.", ja: "大丈夫ですよ。早めに知らせてくれて助かります。" }
     ]
+  },
+  {
+    id: "w2635-sh1",
+    title: "プロジェクトのキックオフ（役割分担）",
+    level: "★★☆",
+    description: "新しいプロジェクトの初回会議で、目的を共有し役割とスケジュールを決める場面。依頼・合意・段取りの型を身につける。",
+    lines: [
+      { s: "A", en: "Let's kick off our new project. Thanks everyone for joining.", ja: "新しいプロジェクトを始めましょう。皆さん、参加ありがとう。" },
+      { s: "B", en: "Happy to be here. What's our main goal?", ja: "参加できてうれしいです。主な目標は何ですか？" },
+      { s: "A", en: "Our goal is to launch the new app by the end of the year.", ja: "目標は年末までに新しいアプリを公開することです。" },
+      { s: "B", en: "That's ambitious. How should we divide the work?", ja: "意欲的ですね。どう分担しましょうか？" },
+      { s: "A", en: "I'll handle the planning, and I'd like you to lead the design.", ja: "私は企画を担当します。あなたにはデザインを主導してほしいです。" },
+      { s: "B", en: "Sounds good. When do you need the first draft?", ja: "いいですね。最初の案はいつまでに必要ですか？" },
+      { s: "A", en: "Could you share a rough design by next Friday?", ja: "来週の金曜までにラフ案を共有してもらえますか？" },
+      { s: "B", en: "Sure. I'll also list the tools we'll need.", ja: "了解です。必要なツールも一覧にしておきます。" },
+      { s: "A", en: "Great. Let's meet every Monday to check progress.", ja: "助かります。進捗確認は毎週月曜にしましょう。" },
+      { s: "B", en: "Works for me. I'm looking forward to it.", ja: "私は大丈夫です。楽しみにしています。" }
+    ]
   }
 ];
 
@@ -345,6 +375,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2634-t03", ja: "SNS（ソーシャルメディア）は社会にとって良い影響と悪い影響のどちらが大きいと思いますか？", en: "Does social media do more good or more harm to society?",
     sample: { point: "In my view, social media does both, but its effect depends on how we use it and how it is managed.", reason: "This is because it connects people and spreads useful information, yet it can also spread false news and deepen division.", example: "For example, the same platform can help friends stay in touch and also allow rumors to travel around the world in minutes.", point2: "So rather than calling it simply good or bad, we should focus on using it wisely and demanding better rules against misinformation." }
+  },
+  {
+    id: "w2635-t01", ja: "政府はAI企業に対して、より強い安全ルールを設けるべきだと思いますか？", en: "Should governments set stronger safety rules for AI companies?",
+    sample: { point: "Yes, I think governments should set clearer safety rules for AI companies.", reason: "The main reason is that AI is now powerful enough to affect jobs, privacy, and even public safety, so companies should not decide the limits on their own.", example: "For example, some leading experts have recently warned that the industry is moving faster than the safety checks it promised to follow.", point2: "So sensible rules would protect the public without stopping useful innovation." }
+  },
+  {
+    id: "w2635-t02", ja: "動画や音楽などのサブスク（定額サービス）は高くなりすぎていると思いますか？", en: "Are digital subscription services becoming too expensive?",
+    sample: { point: "In my view, many subscription services are indeed becoming too expensive.", reason: "This is because prices keep rising while people now pay for several services at once, and the total adds up quickly.", example: "For example, some streaming platforms raised their monthly fees again recently, so a household paying for several of them can spend more than on their phone bill.", point2: "So I think users should review their subscriptions regularly and keep only the ones they truly use." }
+  },
+  {
+    id: "w2635-t03", ja: "企業は今から量子コンピューターへの備えを始めるべきだと思いますか？", en: "Should companies start preparing for quantum computing now?",
+    sample: { point: "Yes, I believe companies should start preparing for quantum computing now, even though it is still early.", reason: "The main reason is that this technology could eventually break today's encryption and change how we protect data.", example: "For example, investors are already putting large sums into quantum startups, and some firms are testing 'quantum-safe' security ahead of time.", point2: "So learning and preparing early is wiser than being caught off guard later." }
   }
 ];
 
