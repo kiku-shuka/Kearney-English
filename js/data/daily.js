@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-08-31",
+    passages: [
+      {
+        id: "d0831-1",
+        title: "Why Rival Companies Sometimes Work Together",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "In business, we usually think of companies as rivals. Two carmakers, for example, fight hard to sell more cars than each other. So it can be surprising when such rivals suddenly decide to work together on one project. Yet this happens more and more often, especially in the car industry.\n\nWhy would competitors cooperate? The main reason is cost. Developing new technology, such as the software that runs a modern car, is extremely expensive. If two companies share the work, each pays less and finishes faster. They can also share knowledge and avoid making the same mistakes twice.\n\nThis kind of teamwork does not mean the companies stop competing. They may build a shared part or system together, but they still sell their own cars under their own names, with their own designs and prices. Customers may never notice that a rival helped build part of the product.\n\nOf course, working with a competitor is not easy. Each side worries about sharing too many secrets. They must agree clearly on who owns what and how profits are divided. Trust takes time to build.\n\nStill, in a world where technology changes quickly, going it alone can be risky and slow. By joining forces on the hardest problems, even rivals can move faster than they could apart. Sometimes, the smartest way to compete is to cooperate.",
+        summaryJa: "企業は普通ライバル同士だが、時に協力して一つのプロジェクトに取り組む。特に自動車業界で増えている。理由は主にコストだ。現代の車を動かすソフトなど新技術の開発は非常に高く、分担すれば各社の負担は減り、開発も速くなる。協力しても競争をやめるわけではなく、共通部品を作りつつ、自社ブランドで売る。ただし秘密の共有や利益配分で慎重な合意が必要だ。技術が速く変わる時代、最も賢い競争の仕方は協力することもある。",
+        quiz: [
+          { q: "What is the main reason rival companies sometimes cooperate?", options: ["To share the high cost of developing new technology", "To stop selling their own products", "Because they no longer want to compete"], answer: 0 },
+          { q: "Does cooperating mean the companies stop competing?", options: ["Yes, they merge into one company", "No, they still sell their own cars under their own names", "Yes, they share all profits equally"], answer: 1 },
+          { q: "What is one difficulty of working with a competitor?", options: ["It always makes cars cheaper", "Each side worries about sharing too many secrets", "Customers must be told every detail"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0831-2",
+        title: "The Car That Updates Like a Phone",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Think about how your smartphone improves over time. Every few weeks, it downloads an update, and suddenly it has new features or fixes. For a long time, cars did not work this way. Once you bought a car, its software stayed the same until you sold it. Now, that is changing fast.\n\nModern cars are becoming \"software-defined.\" This means that much of what the car does — how the screen looks, how the engine saves fuel, even how safety systems react — is controlled by software, not just fixed parts. And like a phone, this software can be updated over the internet while the car sits in your garage.\n\nThe benefits are clear. A carmaker can fix a small problem without asking every owner to visit a repair shop. It can also add new features months or years after the car is sold. Your car might actually get better as it gets older.\n\nBut there are challenges too. Software can have bugs, and a car is far more dangerous than a phone if something goes wrong. Carmakers must test every update carefully and protect cars from hackers who might try to break in.\n\nStill, the direction is set. In the future, buying a car may feel a little like buying a computer on wheels — one that keeps learning new tricks long after you drive it home.",
+        summaryJa: "スマホは数週間ごとに更新され新機能が増えるが、車は長い間そうではなく、買ったら売るまでソフトは同じだった。今は「ソフトウェア定義車」へと変わり、画面や燃費、安全機能の多くをソフトが制御し、ネット経由で更新できる。修理店に行かずに不具合を直せ、販売後に新機能も追加できる。一方でバグは車では危険で、入念な検証やハッカー対策が必要だ。将来、車は「車輪の付いたコンピューター」のように学び続ける。",
+        quiz: [
+          { q: "What does a 'software-defined' car mean?", options: ["The car has no software at all", "Much of what the car does is controlled by software that can be updated", "The car cannot connect to the internet"], answer: 1 },
+          { q: "What is one benefit of over-the-internet car updates?", options: ["The car must visit a shop for every fix", "A carmaker can fix problems or add features without a shop visit", "The car becomes slower over time"], answer: 1 },
+          { q: "What is one challenge mentioned in the passage?", options: ["Software bugs can be dangerous in a car, so updates need careful testing", "Cars can never be updated", "Phones are more dangerous than cars"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0831-3",
+        title: "Why the World Watches Interest Rates",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Every few weeks, news reports announce that a country's central bank has changed its \"interest rate.\" To many people, this sounds like a dull topic for bankers only. In fact, interest rates touch the daily life of almost everyone, everywhere.\n\nAn interest rate is the cost of borrowing money. When a central bank raises the rate, loans become more expensive. People and companies borrow less, spend less, and prices tend to rise more slowly. When the bank lowers the rate, borrowing becomes cheaper, and spending usually grows. In this way, central banks try to keep prices stable and the economy healthy.\n\nWhy does the whole world watch these decisions? Because money moves across borders. When one large economy raises its rates, investors may move their money there to earn more. This can change the value of other countries' money, making imported goods cheaper or more expensive far away.\n\nFor an ordinary family, the effects are real. Interest rates can change the cost of a home loan, the price of food from abroad, and even the chance of finding a job. A decision made in one capital city can reach shops and homes on the other side of the planet.\n\nYou do not need to be an expert to benefit from understanding this. Knowing why rates matter helps you follow the news with clearer eyes and plan your own money with more confidence.",
+        summaryJa: "数週間ごとに中央銀行が「金利」を変えたと報じられる。退屈に聞こえるが、金利はほぼ全員の生活に関わる。金利とはお金を借りる費用で、上げれば借入は高くなり支出が減って物価上昇が緩み、下げれば借入が安く支出が増える。こうして物価と経済の安定を図る。お金は国境を越えるため、大国の利上げは各国の通貨価値や輸入品価格に影響する。住宅ローンや食品価格、就職にも及ぶ。仕組みを知れば、ニュースをよく理解し、自分のお金も計画しやすくなる。",
+        quiz: [
+          { q: "What is an interest rate, according to the passage?", options: ["The cost of borrowing money", "The price of a single product", "The number of banks in a country"], answer: 0 },
+          { q: "What usually happens when a central bank raises the interest rate?", options: ["Borrowing becomes cheaper and spending grows", "Loans become more expensive and spending slows", "Nothing changes at all"], answer: 1 },
+          { q: "Why does the whole world watch these decisions?", options: ["Because money moves across borders and affects other countries", "Because only bankers are interested", "Because interest rates never change"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0831-4",
+        title: "The Art of the Japanese Lunch Box",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, lunch is something you buy and eat quickly. In Japan, lunch can be a small work of art. The \"bento\" is a packed meal, usually carried in a neat box, and it holds a special place in daily life.\n\nA traditional bento is more than just food in a container. It is carefully arranged so that each part looks beautiful and fits together. There might be rice, a piece of grilled fish, colorful vegetables, and a small sweet, all placed with care. Cooks think about balance — of color, taste, and nutrition — in a single box.\n\nBento appear everywhere in Japan. Parents make them for children to take to school. Workers buy them at stations and shops. Travelers on trains enjoy a special kind called \"ekiben,\" made with local foods from each region. Opening a bento can feel like opening a small gift.\n\nMaking a good bento is also a way to show care. A parent who wakes early to shape rice into a cute animal is saying, without words, \"I was thinking of you.\" Some families treat this as a quiet daily kindness.\n\nToday, bento have fans around the world. People share photos online and try to make their own. Yet at its heart, the bento remains a simple Japanese idea: that even an everyday meal deserves beauty, balance, and a little love.",
+        summaryJa: "多くの国で昼食はさっと買って食べるものだが、日本の「弁当」は小さな芸術になりうる。伝統的な弁当は、ご飯や焼き魚、彩り野菜、甘味などを美しく詰め、色・味・栄養のバランスを考える。親は子の学校用に作り、働く人は駅や店で買い、旅行者は各地の食材を使った「駅弁」を楽しむ。早起きしてご飯を動物の形にする親は、言葉なく「あなたを思っている」と伝えている。今や世界にファンがおり、日常の食事にも美と愛を込める日本の発想が息づく。",
+        quiz: [
+          { q: "What makes a traditional bento more than just food in a container?", options: ["It is carefully arranged for beauty, balance, and nutrition", "It is always very large", "It contains only rice"], answer: 0 },
+          { q: "What is 'ekiben'?", options: ["A bento eaten only at school", "A bento made with local foods, enjoyed by train travelers", "A box with no food inside"], answer: 1 },
+          { q: "How can making a bento show care?", options: ["By buying the most expensive food", "By spending no time on it", "By preparing it thoughtfully, as a quiet daily kindness"], answer: 2 }
+        ]
+      },
+      {
+        id: "d0831-5",
+        title: "Giving Hard-to-Recycle Plastic a Second Life",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Not all plastics are easy to recycle. One of the most difficult is called PVC. It is used in pipes, floors, and many everyday products, but it is hard to break down and reuse. As a result, huge amounts of it end up buried or burned. Recently, scientists have been searching for smarter ways to give this stubborn plastic a second life.\n\nIn one promising study, researchers found a way to turn PVC into a useful ingredient for high-quality lubricants — the slippery liquids that keep engines and machines running smoothly. Instead of treating the plastic as waste, they saw it as a source of valuable chemicals.\n\nWhy does this matter? First, it reduces waste. Every ton of plastic turned into something useful is a ton that does not pollute the land or air. Second, it can save resources. Many lubricants are made from oil, so making them from old plastic could reduce the need to pump new oil from the ground.\n\nOf course, a laboratory success is only the first step. To help the planet, such a method must work cheaply and safely at a very large scale. That will take more research and time.\n\nStill, the idea points to a hopeful future. Instead of asking only \"How do we throw this away?\", scientists are learning to ask, \"What else could this become?\" In that question lies the heart of true recycling.",
+        summaryJa: "すべてのプラスチックが簡単に再生できるわけではなく、特に難しいのがPVC(塩化ビニル)だ。配管や床など身近な製品に使われるが分解・再利用が難しく、多くが埋め立てや焼却される。最近、研究者はPVCを高品質な潤滑油の原料に変える方法を見つけた。廃棄物ではなく有用な化学物質の源とみなす発想だ。ごみを減らし、石油からつくる潤滑油の代わりになれば資源も節約できる。実用化には安く大規模に行う研究が必要だが、「どう捨てるか」でなく「何に変えられるか」を問う点に真の再生の核心がある。",
+        quiz: [
+          { q: "Why is PVC a problem for recycling?", options: ["It is hard to break down and reuse", "It is never used in daily products", "It disappears on its own quickly"], answer: 0 },
+          { q: "What did researchers turn PVC into, in the study?", options: ["A new kind of food", "A useful ingredient for lubricants", "A type of glass"], answer: 1 },
+          { q: "What question does the passage say scientists are learning to ask?", options: ["How do we throw this away?", "What else could this become?", "Why do we need plastic at all?"], answer: 1 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-08-30",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "新研究が示した染色体についての発見は？", options: ["どんな形にも変わるのでなく限られた道に従うようだ", "全く変化しない", "色を変える"], answer: 0 },
           { q: "この模様の理解が役立ちうることは？", options: ["動物の関係を辿ることや病気の理解", "進化を止めること", "無作為さを増やすこと"], answer: 0 },
           { q: "本文が伝えることは？", options: ["自然は見かけの無作為さの下に深い模様を隠す", "進化に規則はない", "染色体は無意味だ"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-24",
-    passages: [
-      {
-        id: "d0824-1",
-        title: "When Costs Fall, Do Prices?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When the price of an ingredient goes down, do the products made from it become cheaper too? This is a common question in business, and a recent example helps answer it. In Japan, a major convenience store chain announced that it would lower the price of its popular rice balls, or onigiri, as the cost of rice began to fall. The savings on the ingredient were being passed on to customers.\nWhy don't prices always fall right away? When the cost of a material rises, companies often raise their prices quickly to protect their profits. But when costs fall, prices may drop more slowly. A company might wait to be sure the lower cost will last, or it might keep the extra money as profit for a while. Competition, however, usually pushes prices down: if one shop lowers its prices, others may follow to keep their customers.\nWhy does this matter to shoppers? Food is something people buy every day, so even a small change in price adds up over time. When the cost of a key ingredient like rice falls, lower prices at the shop can ease the pressure on family budgets.\nThe example shows how connected the economy is. The price a farmer receives, the cost at a factory, and the price you pay at the counter are all links in one chain. When one link changes, the others often move too — sometimes quickly, sometimes slowly, but rarely on their own. Understanding this chain helps make sense of the prices we see every day.",
-        summaryJa: "ある材料の値段が下がると、それで作られる製品も安くなるのか。これはビジネスでよくある問いで、最近の例が答えの助けになる。日本で、ある大手コンビニチェーンが、米の値段が下がり始めたのを受けて、人気のおにぎりの価格を下げると発表した。材料での節約が客に還元されていたのだ。なぜ価格は常にすぐ下がらないのか。材料の費用が上がると、企業はしばしば利益を守るため素早く値上げする。だが費用が下がるとき、価格の低下はより遅いことがある。企業は、安い費用が続くと確かめるまで待つかもしれないし、しばらく余分なお金を利益として保つかもしれない。だが競争は普通、価格を押し下げる——ある店が値下げすれば、他も客を保つため追随しうる。なぜ買い物客に重要か。食べ物は毎日買うものなので、小さな価格の変化でも時とともに積み重なる。米のような主要な材料の費用が下がれば、店での安い価格が家計の圧力を和らげうる。この例は、経済がいかにつながっているかを示す。農家が受け取る価格、工場での費用、レジであなたが払う価格——すべてが一つの鎖の輪だ。一つの輪が変わると、他もしばしば動く——時に速く、時に遅く、だがめったに単独ではない。この鎖を理解することは、毎日目にする価格を腑に落とす助けになる。",
-        quiz: [
-          { q: "コンビニがおにぎりを値下げした理由は？", options: ["米の値段が下がり材料費の節約を還元したから", "客を減らすため", "米が高くなったから"], answer: 0 },
-          { q: "費用が下がっても価格がすぐ下がらないことがある理由は？", options: ["安さが続くか確かめる、利益として保つなどのため", "法律で禁止だから", "客がいないから"], answer: 0 },
-          { q: "本文が示すことは？", options: ["農家・工場・店の価格は一つの鎖でつながっている", "価格は互いに無関係", "食べ物は買わない方がよい"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0824-2",
-        title: "A Chip That Makes a Rainbow of Light",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Every time you use your phone to call, stream, or browse, you rely on signals traveling through the air. As more people use more data, networks must carry ever more information. To prepare for the next generation of mobile networks, sometimes called 6G, scientists have built a tiny chip that produces a stable 'rainbow' of light — and this rainbow could help carry far more data than before.\nWhat does a 'rainbow' of light mean? Ordinary light of a single color is like one lane on a road. The new chip creates many precise colors of light at once, evenly spaced like the colors of a rainbow. Each of these can carry its own stream of information. Instead of one lane, you suddenly have many, all working together — greatly increasing how much data can flow.\nWhy build this on a tiny chip? Making many colors of light usually requires large, expensive equipment. Putting it all on a small chip makes the technology cheaper, more reliable, and easier to include in real devices. That is a key step toward using it widely.\nWhy does this matter? Future networks will need to handle huge amounts of data for things like self-driving cars, smart factories, and virtual worlds. Faster, higher-capacity connections will make these possible.\nThe work is still developing, and 6G is years away. But the rainbow chip is a good example of how progress often comes from clever new ways of using light. By splitting light into many precise colors, scientists are opening more lanes on the roads that carry our digital world.",
-        summaryJa: "電話・動画・ブラウジングに携帯を使うたび、あなたは空を伝う信号に頼っている。より多くの人がより多くのデータを使うにつれ、ネットワークはますます多くの情報を運ばねばならない。「6G」と呼ばれることもある次世代の携帯ネットワークに備え、科学者は安定した光の「虹」を生む小さなチップを作った——この虹が、以前よりはるかに多くのデータを運ぶ助けになりうる。光の「虹」とは何を意味するのか。単一の色の普通の光は、道路の一車線のようなものだ。新しいチップは、虹の色のように等間隔に並んだ、多くの精密な色の光を一度に作る。そのそれぞれが独自の情報の流れを運べる。一車線でなく、突然多くの車線ができ、すべてが協働する——流れるデータ量を大きく増やす。なぜこれを小さなチップに作るのか。多くの色の光を作るには普通、大きく高価な機器が要る。すべてを小さなチップに載せることで、技術は安く、信頼でき、実際の機器に組み込みやすくなる。それが広く使うための鍵の一歩だ。なぜ重要か。未来のネットワークは、自動運転車・スマート工場・仮想世界などのために膨大なデータを扱う必要がある。より速く大容量の接続がそれを可能にする。研究はまだ発展途上で、6Gは何年も先だ。だが虹のチップは、進歩がしばしば光を使う巧妙な新しい方法から来ることの好例だ。光を多くの精密な色に分けることで、科学者は、私たちのデジタル世界を運ぶ道路により多くの車線を開いている。",
-        quiz: [
-          { q: "この新しいチップが作るものは？", options: ["等間隔に並んだ多くの色の光（虹）", "一色の光だけ", "音"], answer: 0 },
-          { q: "多くの色の光がデータ量を増やす理由は？", options: ["各色が独自の情報の流れを運べるから（車線が増える）", "光が明るいから", "チップが大きいから"], answer: 0 },
-          { q: "すべてを小さなチップに載せる利点は？", options: ["安く信頼でき機器に組み込みやすい", "高価になる", "壊れやすくなる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0824-3",
-        title: "The Languages We Are Losing",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "There are around seven thousand languages spoken in the world today. But experts warn that many of them are disappearing. Some are spoken by only a few elderly people, and when those speakers pass away, their language may vanish with them. Every few weeks, somewhere in the world, a language falls silent forever.\nWhy do languages disappear? Often, small communities are drawn toward larger, more widely spoken languages, which offer better chances for work, school, and travel. Parents may raise their children in a major language instead of their own, hoping to give them an easier future. Over a few generations, the older language can be lost.\nWhy does it matter? A language is far more than a set of words. It carries a people's history, stories, humor, and unique way of seeing the world. Some languages hold detailed knowledge about local plants, animals, and nature, built up over centuries. When a language dies, much of that knowledge and culture can be lost with it.\nAround the world, people are working to protect endangered languages. Communities record their elders, create dictionaries, teach classes for children, and use apps and the internet to share their language more widely.\nThe goal is not to stop people from learning major languages, which are useful. It is to keep the smaller ones alive alongside them, so their treasures are not lost. Each language is a way of thinking, a window into a culture — and protecting them helps keep our human family as rich and varied as it has always been.",
-        summaryJa: "今日、世界にはおよそ7000の言語が話されている。だが専門家は、その多くが消えつつあると警告する。ごく少数の高齢者だけが話す言語もあり、その話者が亡くなると、言語も共に消えうる。数週間ごとに、世界のどこかで、一つの言語が永遠に沈黙する。なぜ言語は消えるのか。しばしば、小さな共同体が、仕事・学校・旅行のより良い機会を与える、より大きく広く話される言語に引き寄せられる。親は、より楽な未来を子に与えたいと願い、自分の言語でなく主要言語で子を育てるかもしれない。数世代のうちに、古い言語は失われうる。なぜ重要か。言語は単なる言葉の集合をはるかに超える。ある民族の歴史・物語・ユーモア・独自の世界の見方を運ぶ。地域の植物・動物・自然についての、何世紀もかけて築かれた詳細な知識を持つ言語もある。言語が死ぬと、その知識や文化の多くが共に失われうる。世界中で、人々は危機に瀕した言語を守ろうとしている。共同体は高齢者を録音し、辞書を作り、子どものための授業を開き、アプリやインターネットを使って言語をより広く分かち合う。目標は、有用な主要言語を人々が学ぶのを止めることではない。それらと並んで小さな言語も生かし続け、その宝が失われないようにすることだ。各言語は一つの考え方、文化への窓であり——それらを守ることは、私たちの人類という家族を、常にそうであったように豊かで多様に保つ助けになる。",
-        quiz: [
-          { q: "多くの言語が消えつつある理由は？", options: ["小さな共同体がより大きな言語に引き寄せられるから", "言語が多すぎるから", "誰も話さないから"], answer: 0 },
-          { q: "言語が単なる言葉以上である理由は？", options: ["歴史・物語・世界の見方や自然の知識を運ぶから", "辞書であるからだけ", "無意味だから"], answer: 0 },
-          { q: "言語を守る目標は？", options: ["主要言語と並んで小さな言語も生かし続けること", "主要言語を禁止すること", "全言語を一つにすること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0824-4",
-        title: "Rice: The Heart of the Japanese Table",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, one food sits at the center of the table more than any other: rice. For thousands of years, rice has been a staple of Japanese meals, eaten at breakfast, lunch, and dinner. It is so important that the Japanese word for cooked rice, gohan, can also simply mean 'a meal.'\nWhy is rice so central? Japan's climate, with its warm, wet summers, is well suited to growing rice, and farmers have cultivated it for many centuries. Rice grows in flooded fields called paddies, which shape the countryside in beautiful, terraced patterns. Growing rice once required whole villages to work together, and this shared effort became part of the culture.\nRice appears in countless forms. Plain white rice accompanies almost any dish. It is pressed into rice balls called onigiri, a popular quick meal, rolled into sushi, or turned into rice cakes and even sweets. Rice is also used to make sake, a traditional drink.\nRice carries meaning beyond food. It appears in festivals, ceremonies, and sayings, and has long been a symbol of life and hard work. Even today, when many new foods are available, rice remains deeply loved.\nOf course, eating habits are slowly changing, and people now enjoy bread, noodles, and dishes from around the world. Yet rice keeps its special place. To understand Japanese food and culture, one must understand rice — a simple grain that has fed, shaped, and united the country for countless generations.",
-        summaryJa: "日本で、他のどの食べ物より食卓の中心に座る一つの食べ物がある——米だ。何千年もの間、米は日本の食事の主食で、朝・昼・晩に食べられてきた。あまりに重要なので、炊いた米を指す日本語「ご飯」は、単に「食事」も意味しうる。なぜ米はそれほど中心的なのか。暖かく湿った夏を持つ日本の気候は米作りに適し、農家は何世紀も栽培してきた。米は「田んぼ」と呼ばれる水を張った田で育ち、美しい棚田の模様で田舎を形づくる。米作りはかつて村全体の協働を要し、この分かち合う努力が文化の一部になった。米は無数の形で現れる。白いご飯はほぼどんな料理にも添えられる。おにぎりという握り飯に、寿司に、餅や菓子にさえなる。米は伝統的な飲み物・酒を作るのにも使われる。米は食べ物を超えた意味も持つ。祭り・儀式・ことわざに現れ、長く生命と勤勉の象徴だった。今日、多くの新しい食べ物があっても、米は深く愛され続ける。もちろん食習慣はゆっくり変わり、人々はパン・麺・世界中の料理も楽しむ。それでも米は特別な地位を保つ。日本の食と文化を理解するには、米を理解せねばならない——数え切れない世代にわたって国を養い、形づくり、結んできた、単純な穀物を。",
-        quiz: [
-          { q: "日本語「ご飯」が意味しうるものは？", options: ["炊いた米、そして単に「食事」", "肉だけ", "飲み物だけ"], answer: 0 },
-          { q: "米が日本で中心的な理由は？", options: ["暖かく湿った気候が米作りに適し長く栽培されてきたから", "とても寒いから", "育てるのが不可能だから"], answer: 0 },
-          { q: "米が食べ物を超えて持つ意味は？", options: ["生命と勤勉の象徴で祭りや儀式に現れる", "何の意味もない", "外国だけのもの"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0824-5",
-        title: "How Nature Heals a Field",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "What happens to a farm field when people stop using it? You might expect it to become bare and lifeless. But scientists watching one abandoned field saw something wonderful: within little more than ten years, it transformed into a rich wildflower meadow, full of life. Plant diversity doubled, and thousands of orchids appeared, all on their own.\nHow did this happen? When people stop plowing, planting, and spraying chemicals, nature slowly takes over. Seeds arrive on the wind, carried by birds, or wake up after resting in the soil for years. Different plants move in one after another, and as they do, insects, birds, and other creatures follow. Step by step, an empty field becomes a living community.\nWhy is this exciting? It shows that nature can recover, sometimes faster than we expect, if given the chance. Wildflower meadows are valuable: they support bees and other insects that pollinate crops, and they add beauty and variety to the land. The return of orchids, which are often delicate and rare, is an especially good sign of a healthy, natural place.\nThis idea is part of a growing movement sometimes called 'rewilding' — letting parts of the land return to nature. It does not mean abandoning all farms, but setting aside some space for wild life to flourish.\nThe healed field is a hopeful reminder. While people worry about damage to the natural world, this story shows the other side: given time and space, nature has a remarkable power to repair itself — and to fill an empty field with flowers.",
-        summaryJa: "人が使うのをやめた農地はどうなるのか。裸で生命のない場所になると思うかもしれない。だが、ある放棄された農地を見守る科学者は、素晴らしいものを見た——わずか10年余りで、それは生命に満ちた豊かな野花の草地に変わったのだ。植物の多様性は倍増し、何千ものランが、すべて自然に現れた。どうしてこうなったのか。人が耕し、植え、化学物質をまくのをやめると、自然がゆっくり引き継ぐ。種は風に乗り、鳥に運ばれ、あるいは何年も土の中で休んだ後に目覚めて到来する。異なる植物が次々と移り住み、そうするにつれ、昆虫・鳥・他の生き物が続く。一歩ずつ、空の農地が生きた共同体になる。なぜ胸躍るのか。機会が与えられれば、自然は時に予想より速く回復できることを示すからだ。野花の草地は貴重だ——作物を受粉させるミツバチや他の昆虫を支え、土地に美と多様性を加える。しばしば繊細で稀なランの帰還は、健康で自然な場所の特に良い兆しだ。この発想は、「再野生化（リワイルディング）」と呼ばれることもある高まる運動の一部だ——土地の一部を自然に返すこと。すべての農場を捨てる意味ではなく、野生の生命が栄えるための空間をいくらか取っておくことだ。癒された農地は希望ある気づきだ。人々が自然界への損傷を心配する一方、この物語は別の側面を示す——時間と空間が与えられれば、自然は自らを修復する驚くべき力を持つ——そして空の農地を花で満たす力を。",
-        quiz: [
-          { q: "放棄された農地に起きたことは？", options: ["10年余りで豊かな野花の草地に変わった", "裸で生命のないままだった", "家が建った"], answer: 0 },
-          { q: "自然が引き継ぐ仕組みは？", options: ["種が風や鳥で到来し植物・昆虫・鳥が次々移り住む", "何も起きない", "人が植える"], answer: 0 },
-          { q: "この物語が示す希望は？", options: ["時間と空間があれば自然は自らを修復できる", "自然は回復しない", "農地は無価値だ"], answer: 0 }
         ]
       }
     ]
