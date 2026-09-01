@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-01",
+    passages: [
+      {
+        id: "d0901-1",
+        title: "When an Airport Becomes a Destination",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "For most of history, an airport was simply a place you passed through. You arrived, waited, and flew away as quickly as possible. Today, some airports are trying to become places where people actually want to spend time — even if they are not flying anywhere at all.\n\nHow is this possible? Modern airports are adding shops, restaurants, art, and entertainment that rival those of a city center. Some have gardens, museums, or areas built around popular characters and local culture. A traveler with a few free hours can shop, eat well, and relax, instead of just staring at a departure board.\n\nThere is a clear business reason behind this change. Airlines pay airports to use them, but that income is not always enough. By attracting shoppers and diners — including local families who come just to enjoy the space — an airport can earn much more money. A busy, popular airport is also good for the whole region, bringing jobs and visitors.\n\nThis idea does bring challenges. Building and running these spaces is expensive, and airports must not forget their main job: moving people safely and on time. Comfort should never come before safety.\n\nStill, the trend is growing around the world. In the future, catching a flight may feel less like a chore and more like a small trip in itself, beginning long before the plane leaves the ground.",
+        summaryJa: "かつて空港は通り過ぎるだけの場所だったが、今では飛行機に乗らない人でも過ごしたくなる場所を目指す空港が現れている。店やレストラン、美術、地域文化やキャラクターを生かした空間を設け、待ち時間を楽しめる。背景には明確なビジネス上の理由がある。航空会社からの収入だけでは足りず、買い物客や食事客(近隣の家族連れも)を呼べば収益は大きく増え、地域の雇用にもつながる。ただし建設・運営は高く、安全という本来の役割を忘れてはならない。将来、空の旅は出発前から始まる小さな旅になるかもしれない。",
+        quiz: [
+          { q: "What are some airports trying to become today?", options: ["Places where people want to spend time, even if not flying", "Places with no shops or restaurants", "Places only pilots can enter"], answer: 0 },
+          { q: "What is the business reason for adding shops and restaurants?", options: ["To earn more money beyond airline income", "To make flights slower", "To reduce the number of visitors"], answer: 0 },
+          { q: "What must airports never forget, according to the passage?", options: ["To sell as much food as possible", "Their main job of moving people safely and on time", "To remove all gardens and art"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0901-2",
+        title: "Robots That Learn by Watching",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "For a long time, teaching a robot to do a task was slow and difficult. Engineers had to write detailed instructions for every single movement. If you wanted a robot to fold a towel, you had to describe each fold, each turn, each grip in careful code. Change the towel, and the robot might fail.\n\nNow, a different idea is spreading: robots that learn by watching. Instead of being told exactly what to do, these robots observe a human doing a task, or study many examples, and slowly figure out the pattern themselves. This way of learning is closer to how a child learns — by imitation and practice.\n\nThe advantages are exciting. A robot that learns by watching can handle tasks that are hard to describe in words, like handling soft objects or working in a messy room. It can also learn new jobs more quickly, without an engineer rewriting everything from the start.\n\nBut there are limits. To learn well, robots often need to watch many examples, which takes time and data. And a robot that copies a human can also copy mistakes. Making these systems safe and reliable is still hard work.\n\nEven so, this approach may change how robots enter our lives. Instead of programming a machine for every task, we may one day simply show it what we want — and let it learn, much as we teach each other.",
+        summaryJa: "従来、ロボットに作業を教えるのは遅く難しかった。技術者が一つ一つの動きを細かくコードで書く必要があり、対象が変わると失敗した。今広がるのは「見て学ぶ」ロボットだ。人の作業を観察したり多数の例を学んだりして、自らパターンをつかむ。子どもが模倣と練習で学ぶのに近い。言葉で説明しにくい柔らかい物の扱いなども可能になり、新しい作業も速く覚える。ただし多くの例が必要で、人のミスまで真似ることもあり、安全で確実にするのは難しい。将来は「見せるだけ」で教えられるかもしれない。",
+        quiz: [
+          { q: "How were robots traditionally taught to do a task?", options: ["By watching a child play", "Engineers wrote detailed instructions for every movement", "They were never taught anything"], answer: 1 },
+          { q: "How do the newer robots learn?", options: ["By observing humans or studying many examples", "By ignoring all examples", "By writing their own laws"], answer: 0 },
+          { q: "What is one limit of learning by watching?", options: ["Robots cannot move at all", "A robot may copy human mistakes and needs many examples", "Robots can only fold towels"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0901-3",
+        title: "How the World Shares Its Weather",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "When you check the weather on your phone, you probably think of it as local news. But behind that simple forecast lies one of the largest examples of cooperation between countries in the world. Weather, after all, does not stop at borders.\n\nA storm forming over one ocean may reach a distant country days later. To predict it, scientists need information from far away — measurements of temperature, wind, and pressure taken all over the planet. No single nation can watch the whole sky alone. So countries share their weather data freely, almost every hour, through a global system built over many decades.\n\nThis sharing is remarkable. Nations that disagree on many things still exchange weather information, because everyone benefits. Better forecasts help farmers plant crops, help ships avoid danger, and give families time to prepare before a big storm arrives. Lives are saved when a warning comes early.\n\nThe system is not perfect. Some regions have fewer weather stations, which makes their data thinner. Keeping satellites and equipment running is expensive, and poorer countries may struggle. Yet the spirit of cooperation remains strong.\n\nIn a world that often focuses on its divisions, weather sharing is a quiet success story. It shows that when a problem touches everyone, people can find ways to work together — and that even rival nations can agree on at least one thing: the value of knowing what tomorrow's sky will bring.",
+        summaryJa: "スマホの天気予報は地域の話に見えるが、その裏には世界最大級の国際協力がある。天気は国境で止まらないからだ。ある海で生まれた嵐は数日後に遠い国へ届く。予測には世界中の気温・風・気圧のデータが要り、一国では空全体を監視できない。そこで各国は数十年かけた仕組みでほぼ毎時、天気データを自由に共有する。対立する国同士でも皆に利益があるため交換する。予報の向上は農業や航海を助け、早い警報は命を救う。観測所の少ない地域や費用の課題はあるが、協力の精神は強く、皆に関わる問題では協力できることを示している。",
+        quiz: [
+          { q: "Why can't a single nation predict the weather alone?", options: ["Because weather does not stop at borders and needs data from all over the planet", "Because weather is not important", "Because phones do everything"], answer: 0 },
+          { q: "Why do even rival nations share weather data?", options: ["Because everyone benefits from better forecasts", "Because a law forces them to fight", "Because weather is a secret"], answer: 0 },
+          { q: "What is one problem with the system?", options: ["Everyone has perfect data", "Some regions have fewer weather stations, making their data thinner", "No country shares anything"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0901-4",
+        title: "A Day to Practice Being Ready",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, the first day of September has a special meaning. It is known as Disaster Prevention Day. On this day, schools, companies, and towns across the country practice what to do in case of an earthquake or other emergency. The goal is simple: to be ready before trouble comes.\n\nWhy does Japan take this so seriously? The country sits in an area where earthquakes and strong storms are part of life. People cannot stop these events, but they can prepare. Being calm and knowing what to do can make a huge difference in the first frightening minutes.\n\nOn Disaster Prevention Day, many people take part in drills. Students practice hiding under desks and walking safely to open ground. Families check their emergency bags, which hold water, food, a flashlight, and other basics. Some cities test their warning speakers and share maps that show safe places to gather.\n\nThe most valuable lesson is not fear, but habit. When actions are practiced many times, the body remembers them even in a moment of panic. A child who has done the drill knows where to go without thinking.\n\nPreparation is a quiet form of kindness — to yourself, your family, and your neighbors. Disaster Prevention Day reminds everyone that while we cannot control nature, we can control how ready we are. In that readiness lies real safety and peace of mind.",
+        summaryJa: "日本では9月1日が「防災の日」として特別な意味を持つ。学校や企業、町が地震などの緊急時にどう動くかを練習する日で、目的は困難が来る前に備えることだ。日本は地震や大きな嵐が多い地域にあり、出来事は止められなくても備えはできる。人々は避難訓練に参加し、机の下に隠れたり安全に避難したりし、家庭は水や食料、懐中電灯などの非常袋を確認する。大切なのは恐れでなく習慣で、何度も練習すれば体が覚え、いざという時に考えず動ける。備えは自分や家族、隣人への静かな思いやりであり、自然は制御できなくても備えの度合いは制御できると教えている。",
+        quiz: [
+          { q: "What is September 1 known as in Japan?", options: ["Disaster Prevention Day", "A day with no schools", "National Sleep Day"], answer: 0 },
+          { q: "What do people do on this day?", options: ["Take part in drills and check emergency bags", "Nothing at all", "Only watch television"], answer: 0 },
+          { q: "What does the passage say is the most valuable lesson?", options: ["Fear of nature", "Habit, so the body remembers what to do", "Buying expensive tools"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0901-5",
+        title: "Rocks That Can Make Clean Fuel",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "When we think about where energy comes from, we usually picture oil wells, coal mines, or solar panels. But scientists are now studying a surprising new source hidden deep in the ground: rocks that can naturally produce hydrogen gas.\n\nHydrogen is an exciting fuel because, when used, it can release energy while producing mostly water instead of harmful smoke. The problem is that making hydrogen today often uses a lot of energy or fossil fuels. So a natural, cleaner source would be very valuable.\n\nResearchers have found that certain iron-rich rocks, when they meet underground water, can slowly release hydrogen all on their own. In some places, this gas may be collecting underground much like oil does. Scientists are even exploring whether they could gently boost this natural process to produce larger amounts.\n\nIf this works, the benefits could be big. Natural hydrogen might offer a cleaner fuel without the heavy energy cost of making it in factories. It could help power vehicles, factories, and homes with less pollution.\n\nStill, it is early days. Nobody yet knows how much of this hydrogen exists, how easy it is to collect, or how much it will cost. Careful study is needed before anyone builds a business around it.\n\nEven so, the idea is a reminder that our planet still holds surprises. Sometimes the fuel of the future may be quietly forming beneath our feet.",
+        summaryJa: "エネルギーの源というと石油や石炭、太陽光を思い浮かべるが、科学者は地中に隠れた意外な新資源、天然の水素を生む岩石に注目している。水素は使うと主に水しか出さず有害な煙が少ない魅力的な燃料だが、今の製造は多くのエネルギーや化石燃料を要する。研究では、鉄分の多い岩石が地下水と出会うとゆっくり水素を放出し、石油のように地下にたまる場所もあるという。この自然の作用を後押しできないかも探られている。実現すれば工場での高いエネルギー費なしに、より清潔な燃料になりうる。ただし量や採取のしやすさ、費用は未知で、慎重な研究が必要だ。未来の燃料は足元で静かに生まれているのかもしれない。",
+        quiz: [
+          { q: "Why is hydrogen an exciting fuel?", options: ["When used, it can release energy while producing mostly water", "It produces large amounts of smoke", "It cannot be used for energy"], answer: 0 },
+          { q: "How do certain rocks produce hydrogen naturally?", options: ["By being heated in factories", "When iron-rich rocks meet underground water, they slowly release it", "By burning coal"], answer: 1 },
+          { q: "Why does the passage say it is 'early days'?", options: ["Because the fuel is already used everywhere", "Because nobody yet knows how much exists or how much it will cost", "Because rocks cannot hold gas"], answer: 1 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-08-31",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "古い博物館標本が新種を明かせる理由は？", options: ["現代の道具が古い試料からDNAを読めるから", "標本が動くから", "色が変わるから"], answer: 0 },
           { q: "何種が存在するかを知ることが重要な理由は？", options: ["それらを守るために重要だから", "無意味だから", "狩るために必要だから"], answer: 0 },
           { q: "本文が伝えることは？", options: ["発見は既にあるものを新しい道具で見直すことでもある", "新しい場所だけが重要", "博物館は無価値"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-25",
-    passages: [
-      {
-        id: "d0825-1",
-        title: "Why Small Businesses Matter",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "When we think of business, we often picture huge, famous companies. But in every country, most businesses are actually small — a local bakery, a family repair shop, a tiny software startup. Though each one is small, together they form the backbone of the economy, and they matter far more than their size suggests.\nWhy are small businesses so important? First, they create a large share of all jobs. Around the world, small and medium-sized companies employ enormous numbers of people, often more than big corporations do. When someone loses a job at a large firm, a small business nearby may be the one that hires them.\nSmall businesses also keep communities alive. A local shop knows its customers, supports its neighborhood, and keeps money circulating close to home. Many towns depend on their small businesses for character as much as for services.\nThey are engines of new ideas, too. Big companies can be slow to change, while small firms often try bold, fresh ideas. Many great inventions and famous companies began as tiny startups run by just a few people.\nOf course, small businesses face real challenges. They have less money, fewer staff, and thinner cushions against hard times. A single bad year can close a small shop that a large company would survive.\nThat is why many governments try to help them, through loans, advice, and fair rules. Supporting small businesses is not charity; it is an investment in jobs, communities, and new ideas — the quiet foundation on which much of the economy is built.",
-        summaryJa: "ビジネスと聞くと、私たちはしばしば巨大で有名な企業を思い描く。だがどの国でも、ほとんどの事業は実は小さい——地元のパン屋、家族経営の修理店、小さなソフトウェアの新興企業。一つ一つは小さくても、合わされば経済の背骨をなし、その大きさが示す以上に重要だ。なぜ小さな事業はそれほど重要か。第一に、全雇用の大きな割合を生む。世界中で、中小企業は膨大な数の人を雇い、しばしば大企業より多い。誰かが大企業で職を失っても、近くの小さな事業が雇ってくれるかもしれない。小さな事業は地域も生かす。地元の店は客を知り、近隣を支え、お金を家の近くで回し続ける。多くの町は、サービスと同じくらい、その個性のためにも小さな事業に頼る。新しい発想の原動力でもある。大企業は変化が遅くなりうるが、小さな企業はしばしば大胆で新鮮な発想を試す。多くの偉大な発明や有名企業は、ほんの数人が営む小さな新興企業として始まった。もちろん、小さな事業は本当の課題に直面する。お金は少なく、人手は乏しく、困難な時への緩衝は薄い。一度の悪い年が、大企業なら生き延びる小さな店を閉じうる。だから多くの政府は、融資・助言・公正な規則で助けようとする。小さな事業を支えることは施しでなく、雇用・地域・新しい発想への投資だ——経済の多くが築かれる、静かな土台なのだ。",
-        quiz: [
-          { q: "小さな事業が重要な理由の一つは？", options: ["全雇用の大きな割合を生むから", "有名でないから", "お金が多いから"], answer: 0 },
-          { q: "小さな事業が地域に果たす役割は？", options: ["客を知り近隣を支えお金を近くで回す", "町を無視する", "お金を遠くへ送る"], answer: 0 },
-          { q: "小さな事業が直面する課題は？", options: ["お金・人手・緩衝が乏しく一度の悪い年で閉じうる", "課題は全くない", "大企業より安全である"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0825-2",
-        title: "Turning Plant Waste into Useful Chemicals",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Every year, farms and forests produce huge amounts of plant waste — stalks, husks, sawdust, and other leftovers. Much of it is simply burned or thrown away. But inside these plants is a tough material called lignin, which holds useful chemicals locked away. Recently, scientists created a new tool that can unlock them: a catalyst that breaks down stubborn lignin into valuable chemicals, using gentle conditions.\nWhat is a catalyst? A catalyst is a substance that speeds up a chemical reaction without being used up itself. It is like a helper that makes a difficult reaction happen more easily. The new catalyst helps break lignin apart, something that has long been hard to do.\nWhy is this important? Lignin is one of the most common natural materials on Earth, yet it is difficult to use. If scientists can turn it into useful chemicals cheaply and cleanly, plant waste could become a valuable resource instead of rubbish. These chemicals could replace some made from oil, helping reduce our reliance on fossil fuels.\nThe fact that the new process works under 'mild conditions' matters a lot. Reactions that need very high heat or pressure use lots of energy and cost more. A gentler process is cheaper and better for the environment.\nThere is still work to do before this is used in factories. But the discovery points to a hopeful idea: that waste is often just a resource we have not yet learned to use. By unlocking the chemistry hidden in plants, scientists are finding new value in what we once threw away.",
-        summaryJa: "毎年、農場や森は膨大な量の植物の廃棄物——茎・殻・おがくず・その他の残り——を生む。その多くは単に燃やされるか捨てられる。だがこれらの植物の中には、リグニンと呼ばれる丈夫な物質があり、有用な化学物質を閉じ込めている。最近、科学者はそれを解き放てる新しい道具を作った——穏やかな条件で、手強いリグニンを価値ある化学物質に分解する触媒だ。触媒とは何か。触媒は、自らは消費されずに化学反応を速める物質だ。難しい反応をより容易に起こす助け手のようなものだ。新しい触媒は、長く難しかったリグニンの分解を助ける。なぜ重要か。リグニンは地球で最もありふれた天然素材の一つだが、使うのが難しい。科学者がそれを安くクリーンに有用な化学物質へ変えられれば、植物の廃棄物はごみでなく貴重な資源になりうる。これらの化学物質は石油から作られるものの一部を置き換え、化石燃料への依存を減らす助けになりうる。新プロセスが「穏やかな条件」で働くことは大いに重要だ。非常な高温や高圧を要する反応は多くのエネルギーを使い費用も高い。より穏やかな工程は安く、環境にも良い。工場で使われる前にまだやるべきことはある。だがこの発見は希望ある発想を指す——廃棄物はしばしば、まだ使い方を学んでいない資源にすぎない。植物に隠れた化学を解き放つことで、科学者はかつて捨てていたものに新しい価値を見つけている。",
-        quiz: [
-          { q: "「触媒」とは？", options: ["自らは消費されずに化学反応を速める物質", "燃料の一種", "廃棄物の一種"], answer: 0 },
-          { q: "リグニンから化学物質を作る利点は？", options: ["植物の廃棄物が資源になり石油依存を減らせる", "廃棄物が増える", "石油が増える"], answer: 0 },
-          { q: "「穏やかな条件」が重要な理由は？", options: ["高温・高圧より安く環境に良いから", "高価になるから", "危険だから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0825-3",
-        title: "Keeping Other Worlds Clean",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "As humans explore space, we carry something with us that we cannot fully control: tiny living things. Bacteria and other microbes live on our skin, our tools, and our spacecraft. Recently, scientists warned that microbes brought by astronauts might survive in cold, shadowed spots near the Moon's South Pole. This raises an important question for all of humanity: how do we explore other worlds without contaminating them?\nWhy does this matter? Scientists want to study places like the Moon and Mars as they naturally are, to learn how they formed and whether they ever held life. If we accidentally leave Earth's microbes there, it could confuse future studies. Imagine searching for signs of alien life, only to find bacteria that we brought ourselves.\nThis concern is called 'planetary protection.' Space agencies around the world follow careful rules to clean spacecraft before launch and to limit where they land. The goal is to keep other worlds as pristine as possible, so their secrets are not spoiled.\nIt is a shared responsibility. Space belongs to no single country, and a mistake by one mission could affect the science of all. As more nations and companies travel into space, agreeing on and following these rules becomes even more important.\nThe issue is a reminder that exploration comes with duties as well as dreams. Reaching new worlds is a great achievement, but so is protecting them. As humanity spreads outward, we must learn to be not only bold explorers, but careful and respectful guests in the wider universe.",
-        summaryJa: "人類が宇宙を探査するとき、私たちは完全には制御できないものを共に運ぶ——小さな生き物だ。細菌など微生物は、私たちの肌・道具・宇宙船に住む。最近、科学者は、宇宙飛行士が運んだ微生物が、月の南極近くの冷たく影になった場所で生き延びるかもしれないと警告した。これは全人類に重要な問いを投げかける——他の世界をどう汚染せずに探査するのか。なぜ重要か。科学者は、月や火星のような場所を自然のままに研究し、どう形成されたか、かつて生命を宿したかを知りたい。もし誤って地球の微生物をそこに残せば、将来の研究を混乱させうる。宇宙生命の兆しを探して、自分たちが持ち込んだ細菌を見つけるだけ、という事態を想像してほしい。この懸念は「惑星保護」と呼ばれる。世界中の宇宙機関は、打ち上げ前に宇宙船を清め、着陸場所を制限する慎重な規則に従う。目標は、他の世界を可能な限り手つかずに保ち、その秘密を損なわないことだ。それは共有の責任だ。宇宙はどの一国のものでもなく、一つのミッションの過ちが皆の科学に影響しうる。より多くの国と企業が宇宙へ旅する中、こうした規則に合意し従うことは一層重要になる。この問題は、探査が夢だけでなく務めも伴うことを思い出させる。新しい世界に到達するのは偉大な成果だが、それを守ることも同じだ。人類が外へ広がるにつれ、私たちは大胆な探検者であるだけでなく、より広い宇宙で慎重で敬意ある客であることを学ばねばならない。",
-        quiz: [
-          { q: "科学者が警告したことは？", options: ["宇宙飛行士の微生物が月で生き延びるかもしれない", "月に水がないこと", "ロケットが遅いこと"], answer: 0 },
-          { q: "「惑星保護」の目標は？", options: ["他の世界を手つかずに保ち秘密を損なわないこと", "宇宙を汚すこと", "探査をやめること"], answer: 0 },
-          { q: "本文が伝えることは？", options: ["探査は夢だけでなく務めも伴う", "探査に責任はない", "宇宙は一国のものだ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0825-4",
-        title: "Japan's Vending Machine Culture",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, you are never far from a vending machine. On busy city streets, in quiet villages, and even on mountain paths, these machines stand ready day and night. Japan has one of the highest numbers of vending machines per person in the world, and they have become a small but fascinating part of daily life.\nWhat do they sell? Most offer drinks — cold water, tea, coffee, and juice in summer, and hot drinks in cans during winter. But that is only the beginning. Some machines sell ice cream, hot meals, soup, umbrellas, flowers, or even fresh eggs. Whatever the need, there may be a machine for it.\nWhy are they so common in Japan? Several reasons help explain it. Japan is very safe, so machines can stand outside without being damaged or robbed. Land in cities is expensive, and a vending machine needs almost no space or staff. And people value convenience and quick, reliable service, which the machines provide perfectly.\nThe machines also reflect a love of small, thoughtful details. Many are kept spotlessly clean, work without fail, and offer just the right drink at just the right temperature.\nFor visitors, Japan's vending machines are often a delightful surprise — a symbol of a country that is orderly, safe, and full of quiet conveniences. Behind something as ordinary as buying a drink lies a whole culture: one that values cleanliness, trust, and the simple pleasure of getting exactly what you want, whenever you want it.",
-        summaryJa: "日本では、自動販売機からそう遠く離れることはない。賑やかな街路、静かな村、山道にさえ、これらの機械は昼も夜も待ち構えている。日本は一人当たりの自販機の数が世界有数で、それらは日常生活の小さくも魅力的な一部になった。何を売るのか。多くは飲み物——夏は冷たい水・茶・コーヒー・ジュース、冬は缶入りの温かい飲み物。だがそれは始まりにすぎない。アイスクリーム・温かい食事・スープ・傘・花、さらには新鮮な卵を売る機械もある。どんな必要でも、それ用の機械があるかもしれない。なぜ日本でそれほど一般的か。いくつかの理由が説明を助ける。日本はとても安全なので、機械は壊されたり盗まれたりせず外に立てる。都市の土地は高価で、自販機はほとんど場所も人手も要らない。人々は利便性と、素早く信頼できるサービスを重んじ、機械はそれを完璧に提供する。機械は、小さく行き届いた細部への愛も映す。多くは非常に清潔に保たれ、確実に働き、ちょうど良い飲み物をちょうど良い温度で出す。訪問者には、日本の自販機はしばしば嬉しい驚きだ——秩序正しく、安全で、静かな便利さに満ちた国の象徴。飲み物を買うというありふれたことの背後に、文化全体がある——清潔さ・信頼、そして欲しいものをいつでも正確に手に入れる単純な喜びを重んじる文化が。",
-        quiz: [
-          { q: "日本の自販機が売るものに含まれるものは？", options: ["飲み物・アイス・温かい食事・傘・花など", "車だけ", "家だけ"], answer: 0 },
-          { q: "日本で自販機が一般的な理由は？", options: ["安全で、場所や人手が要らず、利便性が重んじられるから", "土地が無料だから", "人が少ないから"], answer: 0 },
-          { q: "自販機が映す価値は？", options: ["清潔さ・信頼・小さな細部への配慮", "無秩序", "不便さ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0825-5",
-        title: "The Hidden Rules of Evolution",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Evolution — the slow change of living things over millions of years — can seem completely random, driven by chance mutations and luck. But a huge new study of thousands of animal genomes suggests that part of evolution may follow hidden rules. Scientists found that chromosomes, the structures that carry an animal's genes, do not change in just any way. Instead, they seem to follow a limited number of set paths, almost like 'evolutionary highways.'\nWhat does this mean? Inside every cell, genes are packed into chromosomes. Over long ages, these chromosomes can break, join, and rearrange. Scientists once thought this happened almost randomly. But the new study shows that, across many different animals, the same kinds of changes appear again and again, while others almost never do. Some routes are taken often; others seem closed off.\nWhy does this matter? If evolution follows certain paths more than others, it becomes a little more predictable. Understanding these patterns could help scientists trace how different animals are related, and even understand diseases, since some human illnesses are linked to changes in chromosomes.\nThe idea also changes how we think about life's history. Evolution may not be a purely random walk in every direction, but a journey shaped by rules we are only beginning to understand — a mix of chance and hidden order.\nThe study is a reminder that nature often hides deep patterns beneath apparent randomness. By reading the genomes of thousands of species, scientists are uncovering the quiet rules that have guided life's long and remarkable journey.",
-        summaryJa: "進化——何百万年もかけた生き物のゆっくりした変化——は、偶然の突然変異と運に導かれ、完全に無作為に見えうる。だが数千の動物ゲノムの巨大な新研究は、進化の一部が隠れた規則に従うかもしれないと示す。科学者は、動物の遺伝子を運ぶ構造である染色体が、どんな形にでも変わるのではないと見つけた。むしろ、限られた数の決まった道——ほとんど「進化のハイウェイ」のような——に従うようだ。これはどういう意味か。あらゆる細胞の中で、遺伝子は染色体に詰め込まれている。長い年月の間、これらの染色体は割れ、つながり、並べ替わりうる。科学者はかつて、これがほぼ無作為に起きると考えた。だが新研究は、多くの異なる動物にわたって、同じ種類の変化が何度も現れ、他はほとんど現れないことを示す。よく通る道もあれば、閉ざされて見える道もある。なぜ重要か。進化が他より特定の道を通るなら、少し予測しやすくなる。こうした模様の理解は、異なる動物がどう関係するかを辿る助けになり、さらに病気の理解にも役立ちうる——人の病の一部は染色体の変化に結びつくからだ。この発想は、生命の歴史の考え方も変える。進化はあらゆる方向への純粋に無作為な歩みでなく、私たちがようやく理解し始めた規則に形づくられた旅——偶然と隠れた秩序の混合——かもしれない。この研究は、自然がしばしば見かけの無作為さの下に深い模様を隠すことを思い出させる。数千種のゲノムを読むことで、科学者は、生命の長く見事な旅を導いてきた静かな規則を明らかにしている。",
-        quiz: [
-          { q: "新研究が示した染色体についての発見は？", options: ["どんな形にも変わるのでなく限られた道に従うようだ", "全く変化しない", "色を変える"], answer: 0 },
-          { q: "この模様の理解が役立ちうることは？", options: ["動物の関係を辿ることや病気の理解", "進化を止めること", "無作為さを増やすこと"], answer: 0 },
-          { q: "本文が伝えることは？", options: ["自然は見かけの無作為さの下に深い模様を隠す", "進化に規則はない", "染色体は無意味だ"], answer: 0 }
         ]
       }
     ]
