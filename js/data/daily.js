@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-02",
+    passages: [
+      {
+        id: "d0902-1",
+        title: "How AI Is Changing the Home Search",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Buying or selling a home is one of the biggest decisions in a person's life. It can also be slow, confusing, and full of paperwork. Now, artificial intelligence is starting to change how this process works, for both ordinary buyers and the agents who help them.\n\nFor a buyer, AI tools can act like a tireless assistant. They can scan thousands of listings in seconds and highlight homes that match your budget, your favorite neighborhoods, and even the style you like. Some tools can estimate a fair price for a house or point out questions you should ask before you buy.\n\nAgents benefit too. Instead of spending hours on routine tasks, they can let software handle paperwork, schedules, and simple questions. This frees them to focus on what people still do best: giving advice, understanding a family's real needs, and guiding them through a stressful choice.\n\nOf course, there are risks. An AI estimate is only a guess, based on past data, and it can be wrong. A house is also an emotional choice, not just a set of numbers. Buyers should treat AI as a helpful tool, not as the final word.\n\nUsed wisely, though, these tools can make a hard process a little easier. The dream of finding the right home may still take work — but with smart help, the search itself is becoming faster and less stressful.",
+        summaryJa: "住宅の売買は人生で最も大きな決断の一つだが、遅く複雑で書類も多い。今、AIがこの過程を買い手にも仲介業者にも変え始めている。買い手には、数秒で何千もの物件を調べ、予算や好きな地域、好みの様式に合う家を示す不眠不休の助手のように働く。適正価格の推定や、買う前の質問の指摘もできる。業者も定型作業をソフトに任せ、助言や家族の本当のニーズの理解に集中できる。ただしAIの推定は過去データに基づく推測で誤りうるし、家は感情の選択でもある。賢く使えば難しい過程が少し楽になる。",
+        quiz: [
+          { q: "How can AI tools help a home buyer?", options: ["By scanning many listings quickly and highlighting good matches", "By building the house itself", "By hiding all the prices"], answer: 0 },
+          { q: "How do agents benefit from AI?", options: ["They can focus on advice while software handles routine tasks", "They no longer need to talk to anyone", "They must do more paperwork"], answer: 0 },
+          { q: "What warning does the passage give about AI estimates?", options: ["They are always perfectly correct", "They are only guesses based on past data and can be wrong", "They replace the need to think"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0902-2",
+        title: "Robotaxis Reach More Cities",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Imagine calling a taxi with your phone, and when it arrives, there is no driver at all. The car opens its doors, you climb in, and it drives you across the city by itself. This is not science fiction. In a growing number of cities, driverless taxis — often called \"robotaxis\" — are already carrying passengers on real streets.\n\nFor years, these cars were tested only in small, careful areas. Now, companies are expanding into more cities and larger zones. Each new place brings new challenges: different roads, weather, traffic rules, and local habits. Teaching a car to handle all of this safely is a huge task.\n\nSupporters see many possible benefits. A robotaxi never gets tired or distracted, and computers can react very quickly. In time, such cars might reduce accidents and give rides to people who cannot drive, such as the elderly or those with certain disabilities.\n\nBut there are real worries too. People ask what happens when the software makes a mistake, or how these cars behave in rare, surprising situations. There are also questions about jobs for human drivers and rules for who is responsible in a crash.\n\nThe technology is moving forward, city by city, test by test. Whether robotaxis become a normal part of life may depend not only on clever engineering, but also on whether people learn to trust a car with no one behind the wheel.",
+        summaryJa: "スマホでタクシーを呼ぶと、来た車に運転手がいない——ドアが開き乗り込むと、車が自ら街を走る。SFではなく、増えつつある都市で無人タクシー(ロボタクシー)がすでに客を運んでいる。長年は狭い区域での試験だったが、今は多くの都市や広い範囲へ拡大中だ。道路や天候、交通ルールが違い、安全に対応させるのは大きな課題だ。支持者は、疲れず気が散らず素早く反応でき、事故を減らし運転できない高齢者らを乗せられると期待する。一方、ソフトの誤りや珍しい状況、運転手の仕事、事故責任への懸念もある。普及は技術だけでなく人々の信頼にかかる。",
+        quiz: [
+          { q: "What is a 'robotaxi'?", options: ["A driverless taxi that carries passengers by itself", "A taxi with two drivers", "A toy car for children"], answer: 0 },
+          { q: "What is one possible benefit supporters mention?", options: ["Robotaxis get tired quickly", "They might reduce accidents and help people who cannot drive", "They always break traffic rules"], answer: 1 },
+          { q: "What may decide whether robotaxis become normal, besides engineering?", options: ["Whether people learn to trust a car with no driver", "The color of the cars", "The price of phones"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0902-3",
+        title: "The Return of the Night Train",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Not long ago, many people thought night trains were a thing of the past. Why sleep on a train, they asked, when a plane could cross the same distance in an hour or two? Yet in several parts of the world, overnight trains are quietly making a comeback.\n\nOne reason is the environment. Trains usually produce far less pollution than planes for the same trip. As more travelers think about their effect on the planet, a night train starts to look like a smart, greener choice. You go to sleep in one city and wake up in another, without the rush of an airport.\n\nComfort and simplicity also play a part. There are no long security lines, and stations are often right in the city center. Travelers can enjoy dinner, read, or watch the dark landscape slide by before falling asleep. For some, the journey becomes part of the holiday, not just a way to get there.\n\nBringing back night trains is not easy. It requires new carriages, cross-border cooperation, and careful planning of routes between countries. Tickets are not always cheap, and building the service takes years.\n\nStill, the trend shows how old ideas can return in new forms. In a fast world that often values speed above all, the slow, steady night train offers something rare: a calm, comfortable way to travel that is kinder to the earth.",
+        summaryJa: "少し前まで夜行列車は過去のものと思われていた。飛行機なら同じ距離を1〜2時間で越えられるのに、なぜ列車で眠るのかと。だが世界の各地で夜行列車が静かに復活している。理由の一つは環境で、同じ移動で列車は飛行機よりずっと汚染が少ない。地球への影響を考える旅行者にとって賢い選択に見え、一つの街で眠り別の街で目覚められる。保安検査の列がなく駅は都心にあり、快適さも魅力だ。旅そのものが休暇の一部になる。復活には新型車両や国境を越えた協力、路線計画が必要で費用もかかる。速さ重視の世界で、穏やかで地球に優しい移動を提供する。",
+        quiz: [
+          { q: "What is one environmental reason night trains are returning?", options: ["Trains usually produce far less pollution than planes for the same trip", "Trains use no energy at all", "Planes cannot fly at night"], answer: 0 },
+          { q: "What comfort does the passage mention about night trains?", options: ["Very long security lines", "No long security lines, and stations in the city center", "Stations far outside every city"], answer: 1 },
+          { q: "Why is bringing back night trains not easy?", options: ["It needs new carriages, cross-border cooperation, and route planning", "Nobody wants to travel anymore", "Trains cannot cross borders at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0902-4",
+        title: "Japan's Many 'Autumns'",
+        level: "★★☆",
+        genre: "日本",
+        text: "As summer heat fades in Japan, people begin to speak of autumn in a special way. In Japanese, there is a lovely habit of naming the season after a favorite activity. You may hear about the \"autumn of reading,\" the \"autumn of appetite,\" the \"autumn of sport,\" or the \"autumn of art.\" Each phrase captures a different joy of the cooler months.\n\nWhy so many autumns? The idea is simple and warm. After a hot, tiring summer, the weather turns mild and comfortable. The long, clear evenings make it easy to focus on a good book. Farmers harvest rice, fruit, and vegetables, so food is fresh and delicious — perfect for the \"autumn of appetite.\" The pleasant air is ideal for walking, running, or playing outside.\n\nThese expressions are more than pretty words. They gently encourage people to slow down and enjoy life's pleasures. A parent might tell a child that autumn is a fine time to read more books. A friend might invite you to try a new sport now that the heat is gone.\n\nThere is wisdom hidden in this custom. Instead of seeing the end of summer as a loss, Japanese culture treats autumn as a rich season of chances. Whatever you love — food, books, art, or exercise — autumn offers a friendly reason to enjoy it a little more.",
+        summaryJa: "夏の暑さが和らぐと、日本の人々は秋を特別な言い方で語り始める。好きな活動にちなんで季節を呼ぶ素敵な習慣があり、「読書の秋」「食欲の秋」「スポーツの秋」「芸術の秋」などと言う。それぞれが涼しい季節の異なる喜びを表す。なぜ多くの秋があるのか。暑い夏の後に気候が穏やかになり、長く澄んだ夜は読書に向き、米や果物、野菜が実り食も新鮮でおいしい。快適な空気は運動にも最適だ。これらは人々に、立ち止まって暮らしの楽しみを味わうようやさしく促す。夏の終わりを喪失でなく、好きなことを少し多く楽しむ豊かな季節と捉える知恵がある。",
+        quiz: [
+          { q: "What special habit does the passage describe in Japanese?", options: ["Naming the autumn season after a favorite activity", "Skipping autumn entirely", "Sleeping through the season"], answer: 0 },
+          { q: "Why is autumn good for the 'autumn of appetite'?", options: ["Because food becomes very expensive", "Because farmers harvest fresh rice, fruit, and vegetables", "Because people stop eating"], answer: 1 },
+          { q: "What wisdom is hidden in this custom?", options: ["Autumn is a sad loss of summer", "Autumn is a rich season of chances to enjoy what you love", "Autumn should be ignored"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0902-5",
+        title: "How Sea Turtles Find Their Way",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Few journeys in nature are as amazing as that of the sea turtle. A baby turtle hatches on a beach, crawls into the ocean, and swims away into the wide blue sea. Years later, as an adult, it may return to the very same beach to lay its own eggs — after traveling thousands of kilometers across open water. How does it find the way?\n\nScientists have studied this mystery for a long time. One key answer seems to be the Earth itself. Our planet acts like a giant magnet, and its magnetic field is slightly different in each place. Researchers believe sea turtles can sense this field, using it like an invisible map and compass to know where they are and which way to go.\n\nThis ability is astonishing because the turtle learns the location of its home beach as a tiny hatchling, then remembers it for decades. Somehow, that early \"magnetic memory\" guides it back across a featureless ocean many years later.\n\nUnderstanding turtle navigation is not only fascinating; it is also useful. If we know the routes turtles follow, we can protect those paths from dangers such as pollution and heavy fishing. Many sea turtles are endangered, so this knowledge can help save them.\n\nThe next time you see the ocean, remember that somewhere beneath the waves, a turtle may be reading a map written in magnetism, quietly finding its way home.",
+        summaryJa: "自然の旅で、ウミガメほど驚くべきものは少ない。赤ちゃんガメは浜で孵り海へ泳ぎ出し、何年も後に大人になって、数千キロを越え同じ浜に戻って産卵することがある。どうやって道を見つけるのか。科学者は長年この謎を研究してきた。鍵の一つは地球そのものらしい。地球は巨大な磁石のようで、磁場は場所ごとにわずかに異なる。ウミガメはこれを感じ取り、見えない地図と方位磁針のように使うと考えられている。小さな孵化直後に故郷の浜の位置を覚え、数十年記憶する点が驚異的だ。この理解は経路の保護にも役立ち、絶滅危惧のウミガメを救う助けになる。",
+        quiz: [
+          { q: "What surprising thing may an adult sea turtle do?", options: ["Return to the same beach where it hatched to lay eggs", "Stay on one beach its whole life", "Never enter the ocean"], answer: 0 },
+          { q: "How do scientists believe turtles find their way?", options: ["By sensing the Earth's magnetic field like a map and compass", "By following other boats", "By using their phones"], answer: 0 },
+          { q: "Why is understanding turtle navigation useful?", options: ["It helps protect their routes and save endangered turtles", "It makes the ocean smaller", "It has no real use"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-01",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "ベテルギウスの伴星が見えにくかった理由は？", options: ["ベテルギウスが明るすぎてそばの暗い星がかき消されるから", "伴星が存在しないから", "昼だけ見えるから"], answer: 0 },
           { q: "伴星の研究が重要な理由は？", options: ["星のふるまい（明るさの変化など）の説明を助けうるから", "星を壊すため", "光を消すため"], answer: 0 },
           { q: "この発見が思い出させることは？", options: ["科学は忍耐を要し新しい道具が古い問いに答えうる", "科学は簡単だ", "望遠鏡は不要だ"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-26",
-    passages: [
-      {
-        id: "d0826-1",
-        title: "The Idea Behind Insurance",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Life is full of risks. A house might catch fire, a car might crash, or a person might fall ill. Any of these can cost a huge amount of money — often more than one family or business could ever pay alone. Insurance is a clever idea that helps people share these risks, and it is one of the most important tools in modern business.\nHow does insurance work? Many people each pay a small, regular amount of money, called a premium, into a shared pool managed by an insurance company. Most of them will not have a disaster in any given year. But when one person does — a fire, an accident, a serious illness — the company uses money from the pool to help cover the cost. In this way, the misfortune of a few is shared by many.\nWhy is this useful? On its own, a single family might be ruined by one large, unexpected expense. By paying a small amount regularly, they trade a big, uncertain risk for a small, predictable cost. This peace of mind lets people and businesses plan for the future and take sensible chances.\nInsurance companies must be careful. They study how often bad events happen so they can set fair prices, collecting enough to pay claims while staying in business.\nThe basic idea, though, is simple and powerful: together, we can carry burdens that would crush any one of us alone. Insurance turns the unpredictable dangers of life into something communities can face — by sharing the risk among many.",
-        summaryJa: "人生はリスクに満ちている。家が火事になり、車が衝突し、人が病気になるかもしれない。どれも莫大なお金がかかりうる——しばしば一つの家族や事業が単独で払える以上に。保険は、人々がこうしたリスクを分かち合う助けとなる巧妙な発想で、現代ビジネスで最も重要な道具の一つだ。保険はどう働くのか。多くの人がそれぞれ、「保険料」と呼ばれる小さく定期的なお金を、保険会社が管理する共有の資金の池に払う。そのほとんどは、ある年に災難に遭わない。だが誰かが遭うとき——火事・事故・重い病気——会社は池のお金を使って費用の負担を助ける。こうして、少数の不運が多数に分かち合われる。なぜ有用か。単独では、一つの家族が一度の大きく予期せぬ出費で破滅しうる。小さな額を定期的に払うことで、大きく不確かなリスクを、小さく予測できる費用と交換する。この安心が、人や事業に将来を計画させ、理にかなった挑戦をさせる。保険会社は慎重でなければならない。悪い出来事がどれだけ頻繁に起きるか研究し、公正な価格を設定する——請求に払うだけ集めつつ事業を続けられるように。だが基本の発想は単純で力強い——共に、私たちは一人では押し潰されそうな重荷を担える。保険は、人生の予測できない危険を、地域が向き合えるものに変える——リスクを多数で分かち合うことで。",
-        quiz: [
-          { q: "保険はどう働くか？", options: ["多くの人が保険料を共有の池に払い、災難に遭った人を助ける", "一人が全額を払う", "何もしない"], answer: 0 },
-          { q: "保険が有用な理由は？", options: ["大きく不確かなリスクを小さく予測できる費用と交換できる", "費用が増えるだけ", "災難が増える"], answer: 0 },
-          { q: "保険の基本の発想は？", options: ["リスクを多数で分かち合う", "一人で重荷を負う", "危険を無視する"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0826-2",
-        title: "Robots in the Operating Room",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "When you imagine surgery, you probably picture a doctor holding the tools. But increasingly, another kind of helper is present in the operating room: a robot. Recent research found that some operations, such as knee replacements, can be more precise when a surgeon works together with a robotic system.\nHow do surgical robots work? They do not operate on their own. Instead, a human surgeon guides them, and the robot helps carry out the plan with great accuracy. Before surgery, doctors can create a detailed map of the patient's body. During the operation, the robot helps the surgeon follow that plan exactly, cutting or placing parts with steadiness a human hand alone may not match.\nWhy does precision matter? In many operations, tiny differences can affect how well a patient recovers. A joint that is placed at just the right angle may feel more natural and last longer. Greater accuracy can mean less pain, faster healing, and better results.\nStill, robots are tools, not replacements for doctors. The surgeon's skill, judgment, and experience remain essential. The robot handles precise movements, while the human makes the decisions and responds to anything unexpected.\nThere are challenges too. Robotic systems are expensive, require training, and are not needed for every operation. Doctors must decide when they truly help.\nThe trend shows how technology and human skill can work together. By combining a surgeon's knowledge with a robot's steadiness, medicine is becoming more precise — helping patients heal better, one careful, well-guided movement at a time.",
-        summaryJa: "手術を想像するとき、あなたはたぶん道具を持つ医師を思い描く。だがますます、手術室には別の助け手がいる——ロボットだ。最近の研究は、膝の置換など一部の手術が、外科医がロボットシステムと協働するとより精密になりうると見つけた。手術ロボットはどう働くのか。自ら手術するのではない。人間の外科医が導き、ロボットが計画を高い正確さで実行する助けをする。手術前、医師は患者の体の詳細な地図を作れる。手術中、ロボットは外科医がその計画に正確に従う助けをし、人の手だけでは及ばないかもしれない安定さで切ったり部品を置いたりする。なぜ精密さが重要か。多くの手術で、わずかな違いが患者の回復を左右しうる。ちょうど良い角度に置かれた関節は、より自然に感じられ長持ちしうる。より高い正確さは、痛みの軽減・速い治癒・より良い結果を意味しうる。それでもロボットは道具であり、医師の代わりではない。外科医の技能・判断・経験は不可欠なままだ。ロボットが精密な動きを担い、人間が決定を下し、予期せぬことに対応する。課題もある。ロボットシステムは高価で、訓練を要し、あらゆる手術に必要ではない。医師は、それが本当に役立つときを判断せねばならない。この流れは、技術と人の技能がどう協働できるかを示す。外科医の知識とロボットの安定さを組み合わせることで、医療はより精密になっている——患者がよりよく治る助けをして、丁寧でよく導かれた一動作ずつ。",
-        quiz: [
-          { q: "手術ロボットはどう働くか？", options: ["人間の外科医が導き、ロボットが計画を正確に実行する", "自ら手術する", "医師の代わりに決定する"], answer: 0 },
-          { q: "手術での精密さが重要な理由は？", options: ["わずかな違いが回復を左右しうるから", "精密さは無関係", "速さだけが重要"], answer: 0 },
-          { q: "本文がロボットについて述べることは？", options: ["道具であり医師の技能・判断は不可欠なまま", "医師を不要にする", "あらゆる手術に必要"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0826-3",
-        title: "When a Giant Piece of Ice Breaks Free",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Near the top of the world, a huge sheet of ice recently broke away from a glacier in Greenland. The piece was enormous — about the size of a large city. Scientists had watched cracks slowly spreading across the ice for years before it finally split off and began to drift out to sea. Events like this are a striking sign of change in Earth's frozen regions.\nWhy do these giant blocks break off? Glaciers are rivers of ice that flow very slowly from the land toward the sea. Where they meet the ocean, huge floating sheets can form. As the air and water grow warmer, these sheets weaken, and cracks appear. Eventually, a large piece breaks free — a process called 'calving.' Some calving is natural, but warming makes it happen more often.\nWhy does it matter far away? The ice near the poles helps keep the whole planet cool by reflecting sunlight back into space. When ice on land melts and flows into the ocean, it also raises sea levels, which can threaten coastal cities around the world. What happens in the distant Arctic can reach shores thousands of kilometers away.\nScientists watch these regions closely, using satellites and sensors to track the ice. Their measurements help the world understand how fast things are changing.\nA single breaking sheet of ice is a small event in a vast landscape. But it is also a message from a changing planet — a reminder that the frozen ends of the Earth are connected to us all.",
-        summaryJa: "世界の頂近くで、最近、巨大な氷の板がグリーンランドの氷河から割れて離れた。その塊は途方もなく大きく——大都市ほどの大きさだった。科学者は、それがついに割れて海へ漂い出す前、何年もかけて氷にゆっくり広がる亀裂を見守っていた。こうした出来事は、地球の凍った地域の変化の際立った兆しだ。なぜこうした巨大な塊が割れるのか。氷河は、陸から海へ非常にゆっくり流れる氷の川だ。海と出会う所で、巨大な浮かぶ板ができうる。空気と水が暖まるにつれ、これらの板は弱まり、亀裂が現れる。やがて大きな塊が割れて離れる——「カービング（分離・崩落）」と呼ばれる過程だ。カービングの一部は自然だが、温暖化はそれをより頻繁にする。なぜ遠くで重要か。極近くの氷は、日光を宇宙へ反射し返して地球全体を涼しく保つ助けをする。陸の氷が溶けて海へ流れ込むと、海面も上昇し、世界中の沿岸都市を脅かしうる。遠い北極で起きることが、何千キロも離れた岸に届きうる。科学者は衛星やセンサーで氷を追い、これらの地域を注意深く見守る。その測定は、物事がどれほど速く変わっているかを世界が理解する助けになる。割れる一枚の氷の板は、広大な風景の中の小さな出来事だ。だがそれは、変わりゆく惑星からの伝言でもある——地球の凍った果てが私たち皆とつながっていることの気づきだ。",
-        quiz: [
-          { q: "「カービング」とは？", options: ["氷河から大きな氷の塊が割れて離れる過程", "氷を彫ること", "海を凍らせること"], answer: 0 },
-          { q: "極の氷が地球に果たす役割は？", options: ["日光を反射して地球を涼しく保つ助けをする", "地球を温める", "何もしない"], answer: 0 },
-          { q: "陸の氷が海に流れ込むと何が起きるか？", options: ["海面が上昇し沿岸都市を脅かしうる", "海が浅くなる", "何も起きない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0826-4",
-        title: "Bowing: A Language Without Words",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, people greet, thank, and apologize in a way that needs no words: they bow. A bow, called ojigi, is a small forward bend of the body, and it is one of the most important gestures in Japanese daily life. Though it looks simple, a bow can carry many different meanings.\nWhy do people bow? A bow is a sign of respect. People bow when they meet someone, say goodbye, give thanks, or say sorry. It shows that you are paying attention to the other person and treating them politely. In many situations where people in other countries might shake hands, Japanese people bow instead.\nInterestingly, not all bows are the same. A small nod of the head is casual and friendly, used among people who know each other. A deeper bow shows greater respect, given to a teacher, a customer, or an important guest. A very deep, long bow can express a serious apology or deep gratitude. The angle and length of the bow send a clear message.\nChildren learn to bow from a young age, and it becomes a natural habit. Even on the telephone, when the other person cannot see them, many Japanese people bow without thinking.\nFor visitors, learning to bow is a friendly way to show respect, though a simple, gentle bow is usually enough. Behind the gesture is a value at the heart of Japanese culture: showing care and consideration for others. A bow is a quiet way of saying, without any words, 'I respect you.'",
-        summaryJa: "日本では、人々は言葉を要さない方法で挨拶し、感謝し、謝る——お辞儀だ。「お辞儀」と呼ばれる、体を前に少し曲げる動作は、日本の日常生活で最も重要な仕草の一つだ。単純に見えるが、お辞儀は多くの異なる意味を担いうる。なぜ人はお辞儀するのか。お辞儀は敬意の印だ。人は、誰かに会うとき、別れるとき、感謝するとき、謝るときにお辞儀する。相手に注意を払い、丁寧に接していることを示す。他国の人が握手するかもしれない多くの場面で、日本人は代わりにお辞儀する。興味深いことに、すべてのお辞儀が同じではない。小さな会釈は、気軽で親しげで、知り合い同士で使われる。より深いお辞儀は、教師・客・大切な来賓へ向けられ、より大きな敬意を示す。とても深く長いお辞儀は、真剣な謝罪や深い感謝を表しうる。お辞儀の角度と長さが明確なメッセージを送る。子どもは幼い頃からお辞儀を学び、それは自然な習慣になる。電話でさえ、相手に見えなくても、多くの日本人は考えずにお辞儀する。訪問者には、お辞儀を学ぶことは敬意を示す親しみやすい方法だ——とはいえ、単純で穏やかなお辞儀で普通は十分だ。この仕草の背後には、日本文化の中心にある価値がある——他者への気遣いと配慮を示すこと。お辞儀は、言葉なしに「あなたを尊敬します」と言う、静かな方法なのだ。",
-        quiz: [
-          { q: "「お辞儀」とは何をすることか？", options: ["体を前に少し曲げて敬意を示す", "手をたたく", "飛び上がる"], answer: 0 },
-          { q: "お辞儀の意味を変えるものは？", options: ["お辞儀の角度と長さ", "服の色", "時間帯"], answer: 0 },
-          { q: "お辞儀の背後にある価値は？", options: ["他者への気遣いと配慮", "競争心", "無関心"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0826-5",
-        title: "A Hidden Species in the Museum",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Sometimes, an exciting scientific discovery is made not in a distant jungle, but in a quiet museum drawer. Recently, scientists used DNA from a nearly two-hundred-year-old museum specimen to confirm that a type of pangolin — a scaly, ant-eating animal — is actually a distinct species, one that had been hiding in plain sight for generations.\nHow can an old specimen reveal a new species? Museums around the world hold millions of preserved animals, some collected long ago. For a long time, scientists could only study them by looking at their shape and size. But modern tools can now read DNA — the genetic code inside cells — even from very old samples. By comparing this code with living animals, scientists can tell whether two similar-looking creatures are truly the same species or different ones.\nWhy does this matter? Knowing exactly how many species exist, and which is which, is important for protecting them. Pangolins are among the most threatened animals in the world, hunted heavily for their scales and meat. If one group is actually a separate, rarer species, it may need special protection to survive.\nThe discovery also shows the hidden value of museums. Specimens collected almost two centuries ago, by people who could never have imagined DNA, are still teaching us new things today.\nIt is a reminder that discovery is not only about exploring new places, but also about looking again, with new tools, at what we already have. Sometimes the next great finding is waiting quietly on a shelf, ready to reveal its secrets.",
-        summaryJa: "時に、胸躍る科学の発見は、遠いジャングルでなく、静かな博物館の引き出しでなされる。最近、科学者は、約200年前の博物館標本のDNAを使い、あるセンザンコウ——鱗を持ちアリを食べる動物——が実は別個の種であることを確認した。何世代も、目の前に隠れていた種だ。古い標本がどうして新しい種を明かせるのか。世界中の博物館は、何百万もの保存された動物を持ち、その一部ははるか昔に集められた。長い間、科学者はその形と大きさを見て研究するしかなかった。だが現代の道具は今、非常に古い試料からさえDNA——細胞の中の遺伝暗号——を読める。この暗号を生きた動物と比べることで、似て見える二つの生き物が本当に同じ種か別かを見分けられる。なぜ重要か。正確に何種が存在し、どれがどれかを知ることは、それらを守るために重要だ。センザンコウは世界で最も脅かされた動物の一つで、鱗と肉のため激しく狩られる。もしある集団が実は別の、より稀な種なら、生き延びるために特別な保護が要るかもしれない。この発見は、博物館の隠れた価値も示す。DNAを想像すらできなかった人々が約200年前に集めた標本が、今日なお私たちに新しいことを教えている。それは、発見が新しい場所を探ることだけでなく、既にあるものを新しい道具で見直すことでもあると思い出させる。時に、次の偉大な発見は、棚の上で静かに、その秘密を明かす準備をして待っているのだ。",
-        quiz: [
-          { q: "古い博物館標本が新種を明かせる理由は？", options: ["現代の道具が古い試料からDNAを読めるから", "標本が動くから", "色が変わるから"], answer: 0 },
-          { q: "何種が存在するかを知ることが重要な理由は？", options: ["それらを守るために重要だから", "無意味だから", "狩るために必要だから"], answer: 0 },
-          { q: "本文が伝えることは？", options: ["発見は既にあるものを新しい道具で見直すことでもある", "新しい場所だけが重要", "博物館は無価値"], answer: 0 }
         ]
       }
     ]
