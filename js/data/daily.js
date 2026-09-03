@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-03",
+    passages: [
+      {
+        id: "d0903-1",
+        title: "Why Data Has Become a Business Treasure",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "In the past, when we thought of a company's most valuable things, we pictured buildings, machines, or money in the bank. Today, one of the most precious assets a business can own is something you cannot touch at all: data. Information about customers, products, and habits has quietly become a kind of treasure.\n\nWhy is data so valuable? Because it helps companies make better decisions. A store that knows what people buy, and when, can order the right amount of goods and avoid waste. A service that understands how customers use it can fix problems and design features people truly want. Good data turns guessing into knowing.\n\nData can also create entirely new products. Maps, recommendations, and many free apps are built on information gathered from millions of users. In a sense, the users help build the very service they enjoy.\n\nBut treating data as treasure brings serious duties. People's information is personal, and it can be misused or stolen. Companies must protect it carefully and be honest about how they use it. Many countries now have strict rules to guard people's privacy.\n\nThe lesson for any business is clear. Data is powerful, but it must be handled with care and respect. A company that uses information wisely — and protects the people behind it — holds a treasure that can last for years.",
+        summaryJa: "かつて企業の最も価値ある物といえば建物や機械、預金だった。今、最も貴重な資産の一つは手で触れられない「データ」だ。顧客や製品、習慣の情報が静かに宝となった。なぜ価値があるのか。より良い判断を助けるからだ。何がいつ売れるか分かる店は適量を仕入れ無駄を防ぎ、使われ方が分かるサービスは問題を直し本当に望まれる機能を作れる。データは新しい製品も生む。地図や推薦、多くの無料アプリは利用者の情報から作られる。だが個人情報は悪用や盗難の恐れがあり、慎重な保護と正直な利用、各国の厳しい規則が求められる。賢く使い人を守る企業は長く続く宝を持つ。",
+        quiz: [
+          { q: "What has become one of the most valuable assets for a business?", options: ["Data — information about customers and products", "Only buildings and machines", "Empty office space"], answer: 0 },
+          { q: "How does good data help companies?", options: ["It turns guessing into knowing, so they make better decisions", "It makes decisions harder", "It hides useful information"], answer: 0 },
+          { q: "What duty comes with treating data as treasure?", options: ["Sharing all data publicly", "Protecting people's information and being honest about its use", "Ignoring privacy rules"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0903-2",
+        title: "How Machines Learned to Translate",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Not long ago, translating between languages by computer produced funny, broken sentences. A machine might turn a simple phrase into something no human would ever say. Today, translation tools are far better, and for millions of people they have become a daily helper. How did machines improve so quickly?\n\nThe old approach tried to follow grammar rules and dictionaries, word by word. But human language is full of exceptions, jokes, and hidden meanings. Strict rules could not capture all of that, so the results often sounded strange.\n\nThe big change came when computers began to learn from examples instead. Engineers fed them enormous amounts of text that had already been translated by people. By studying millions of these pairs, the machine slowly learned patterns: which words tend to go together, and how ideas are expressed in each language. Rather than following fixed rules, it learned to guess the most natural translation.\n\nThe results are impressive, but not perfect. Machines can still miss the tone of a poem, a cultural joke, or a subtle feeling. They may sound fluent yet get an important detail wrong. For anything serious, a human check is still wise.\n\nEven so, this technology has opened doors. A traveler can read a foreign menu, and people who speak different languages can share ideas more easily than ever. For language learners, such tools are a helpful support — though never a full replacement for real understanding.",
+        summaryJa: "少し前まで、コンピューターの翻訳はおかしな壊れた文を作り、人間なら言わない表現になることもあった。今の翻訳ツールははるかに優れ、多くの人の日々の助けだ。なぜ急に良くなったのか。古い方式は文法規則と辞書で一語ずつ訳したが、言語は例外や冗談、隠れた意味に満ち、規則では捉えきれず不自然になった。転機は、機械が例から学ぶようになったことだ。人が訳した大量の文を与えると、機械は語の組み合わせや各言語での表現の型を学び、最も自然な訳を推測する。結果は見事だが完璧ではなく、詩の調子や文化的な冗談、微妙な感情を外すこともある。重要な場面では人の確認が賢明だ。学習者には助けだが、真の理解の代わりにはならない。",
+        quiz: [
+          { q: "What was the problem with the old, rule-based translation?", options: ["Language has many exceptions that strict rules could not capture", "It was too fast", "It never used dictionaries"], answer: 0 },
+          { q: "What big change made translation much better?", options: ["Computers began to learn from millions of human-translated examples", "Computers stopped using any text", "People wrote longer dictionaries"], answer: 0 },
+          { q: "What does the passage suggest about machine translation for serious work?", options: ["It is always perfect", "A human check is still wise", "It should never be used at all"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0903-3",
+        title: "Why Cities Are Planting More Trees",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Around the world, cities are on a mission to plant more trees. From large capitals to small towns, leaders are setting goals to add thousands, or even millions, of new trees along streets, in parks, and on rooftops. This green wave is more than decoration; it is a practical answer to modern city problems.\n\nOne major reason is heat. Concrete and asphalt soak up the sun and make cities much hotter than the countryside. Trees provide shade and release water into the air, cooling the streets naturally. On a hot day, a leafy avenue can feel far more comfortable than a bare one.\n\nTrees help in other ways too. They clean the air by taking in some pollution, and they can soak up rainwater, reducing floods after heavy storms. Birds and insects find homes in them, bringing a touch of nature back into busy areas. Studies even suggest that green spaces help people feel calmer and happier.\n\nOf course, planting a tree is only the beginning. Young trees need water, care, and space for their roots. A tree that is planted and then forgotten may not survive. Cities must plan for the long term, not just for a single planting day.\n\nStill, the effort is worthwhile. A city rich in trees is cooler, cleaner, and more pleasant. By planting today, communities are giving a gift of shade and fresh air to the people of tomorrow.",
+        summaryJa: "世界の都市が、もっと木を植えようと取り組んでいる。大都市から小さな町まで、通りや公園、屋上に何千、時に何百万本もの木を加える目標を掲げる。この緑の波は飾りではなく、現代の都市問題への実際的な答えだ。大きな理由は暑さで、コンクリートやアスファルトは太陽熱をため、都市は郊外よりずっと暑くなる。木は日陰を作り水分を放って街を自然に冷やす。木は空気を浄化し、雨水を吸って豪雨後の洪水を減らし、鳥や虫のすみかにもなる。緑は人を穏やかにするという研究もある。ただし植えて終わりではなく、若木には水や手入れ、根の空間が要る。長期の計画が大切だ。木の豊かな都市は涼しく清潔で快適で、未来への贈り物になる。",
+        quiz: [
+          { q: "What is one major reason cities plant more trees?", options: ["Trees provide shade and cool the streets naturally", "Trees make cities hotter", "Trees block all the roads"], answer: 0 },
+          { q: "Besides cooling, how else do trees help cities?", options: ["They clean the air and soak up rainwater to reduce floods", "They increase pollution", "They stop all rain"], answer: 0 },
+          { q: "Why is planting a tree only the beginning?", options: ["Young trees need water, care, and space to survive", "Trees never need anything", "Trees grow fully in one day"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0903-4",
+        title: "The Japanese Art of Wrapping",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, how you give something can matter as much as the gift itself. One beautiful example of this is \"furoshiki,\" a simple square cloth used to wrap and carry objects. With a few clever folds and knots, a plain piece of fabric becomes a bag, a gift wrapper, or a way to carry a lunch box.\n\nFuroshiki has a long history. For centuries, people used these cloths to carry clothes to the public bath, to wrap presents, and to move goods. Because a furoshiki has no fixed shape, it can hold a bottle, a book, or a round watermelon. When not in use, it folds flat and takes almost no space.\n\nToday, furoshiki is enjoying new attention, and part of the reason is the environment. Unlike paper or plastic wrapping, a cloth can be used again and again for years. In a world worried about waste, an old idea suddenly feels very modern. Wrapping a gift in furoshiki sends a quiet message of care and respect for the planet.\n\nLearning a few basic folds is easy and fun. With practice, an ordinary cloth can be tied into surprising shapes. Many people find joy in this small skill.\n\nFuroshiki reminds us that beauty and usefulness can live together. A single cloth, folded with care, carries not only objects but also a gentle spirit of thoughtfulness.",
+        summaryJa: "日本では、何をあげるかと同じくらい、どう渡すかが大切にされる。その美しい例が「風呂敷」、物を包んで運ぶ一枚の四角い布だ。いくつかの折り方と結び方で、ただの布が鞄や贈り物の包み、弁当を運ぶ道具になる。風呂敷には長い歴史があり、銭湯へ衣類を運び、贈り物を包み、荷を運ぶのに使われた。決まった形がないので瓶や本、丸いスイカも包め、使わない時は平らにたためて場所を取らない。今、環境の面からも再注目されている。紙やプラスチックと違い、布は何年も繰り返し使える。無駄を憂う世界で古い知恵が現代的に感じられ、地球への思いやりを伝える。基本の折り方は簡単で楽しく、美と実用が共に生きることを教えてくれる。",
+        quiz: [
+          { q: "What is 'furoshiki'?", options: ["A simple square cloth used to wrap and carry objects", "A type of Japanese food", "A large wooden box"], answer: 0 },
+          { q: "Why is furoshiki getting new attention today?", options: ["Because a cloth can be reused for years, which is good for the environment", "Because it can only be used once", "Because it is made of plastic"], answer: 0 },
+          { q: "What message does wrapping a gift in furoshiki send?", options: ["Care and respect for the planet", "That gifts are unimportant", "That waste is good"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0903-5",
+        title: "What Happens While You Sleep",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Every night, you close your eyes and lose hours of the day to sleep. It may feel like doing nothing, but inside your body and brain, a great deal of important work is going on. Far from being wasted time, sleep is one of the most active and useful things you do.\n\nWhile you rest, your brain sorts through the day's experiences. It decides which memories to keep and which to let go, almost like tidying a messy desk. This is one reason a good night's sleep helps you learn. Students who sleep well after studying often remember more than those who stay up late.\n\nYour body repairs itself too. During deep sleep, it heals small injuries, builds muscle, and strengthens the systems that fight illness. This is why rest is so important when you are sick. Sleep also helps control feelings; a tired mind finds it harder to stay calm and patient.\n\nModern life often treats sleep as something to cut short. People stay up for work, screens, or fun, and then feel slow the next day. Over time, poor sleep can harm both health and mood.\n\nThe good news is that better sleep is within reach. A regular bedtime, a dark and quiet room, and less screen time before bed can all help. Treating sleep as a friend, not a waste, may be one of the simplest ways to feel better every day.",
+        summaryJa: "毎晩、目を閉じて数時間を眠りに使う。何もしていないようで、体と脳の中では多くの大切な働きが進む。眠りは無駄な時間どころか、最も活発で有益な営みの一つだ。休む間、脳はその日の経験を整理し、残す記憶と手放す記憶を、散らかった机を片づけるように決める。よく眠ると学びが助けられるのはこのためで、勉強後によく眠る学生は夜更かしより多く覚えていることが多い。体も自らを修復し、深い眠りの間に傷を癒やし筋肉を作り、病気と闘う仕組みを強める。眠りは感情の制御も助ける。現代は睡眠を削りがちだが、質の悪い睡眠は健康や気分を損なう。規則正しい就寝、暗く静かな部屋、就寝前の画面を減らすことが役立つ。眠りを味方とみなすことが、日々を良くする最も簡単な方法かもしれない。",
+        quiz: [
+          { q: "What does your brain do with the day's experiences while you sleep?", options: ["It sorts them, keeping some memories and letting others go", "It forgets everything equally", "It stops working completely"], answer: 0 },
+          { q: "Why is sleep important when you are sick?", options: ["During deep sleep the body heals and strengthens systems that fight illness", "Because sleep makes illness worse", "Because the body does nothing during sleep"], answer: 0 },
+          { q: "What does the passage suggest for better sleep?", options: ["A regular bedtime, a dark quiet room, and less screen time before bed", "More screens right before bed", "Staying up as late as possible"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-02",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "チンパンジーがしているのは？", options: ["特定の木に石を繰り返し投げて石の山を作る", "木を植える", "石を食べる"], answer: 0 },
           { q: "この行動の理由として研究者が考えるものは？", options: ["打撃音による長距離の意思疎通や伝統かもしれない", "食料探しだと確定している", "水を得るためだと確定している"], answer: 0 },
           { q: "この行動が示唆することは？", options: ["チンパンジーが独自の文化の形を持つかもしれない", "動物に文化はない", "人間だけが学べる"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-27",
-    passages: [
-      {
-        id: "d0827-1",
-        title: "Why Big Companies Buy Small Ones",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "In the business world, large companies often buy smaller ones. Recently, a major computer-chip company agreed to buy a smaller firm known for its work in artificial intelligence, in a deal worth billions of dollars. When one company buys another, it is called an acquisition, and it is one of the most important moves a business can make.\nWhy would a big, successful company buy a smaller one? Often, the smaller company has something valuable the buyer wants. It might own useful technology, a popular product, or a skilled team of workers. Building these from scratch could take years, but buying them gives the larger company instant access.\nAcquisitions can also help a company enter a new market or remove a rival. If a fast-growing small company might one day become a strong competitor, a larger firm may prefer to buy it and join forces instead.\nBut acquisitions are risky. They are expensive, and the two companies must learn to work together. Sometimes their people, systems, or cultures do not fit well, and the hoped-for benefits never appear. Many acquisitions succeed, but some fail badly.\nFor the smaller company and its founders, being bought can be a huge reward for years of hard work. For the larger one, it is a bet on the future.\nThe lesson is that businesses grow not only by working harder, but by combining. Behind a single big deal are ideas, people, and technology changing hands — reshaping industries, and deciding which companies will lead in the years to come.",
-        summaryJa: "ビジネスの世界で、大企業はしばしば小さな企業を買う。最近、ある大手コンピューターチップ企業が、AIの取り組みで知られる小さな会社を、数十億ドルの取引で買収することに合意した。ある企業が別の企業を買うことは「買収（アクイジション）」と呼ばれ、事業が取りうる最も重要な動きの一つだ。なぜ大きく成功した企業が小さな企業を買うのか。しばしば、小さな企業は買い手が欲しい価値あるものを持つ。有用な技術、人気製品、熟練した従業員チームを持つかもしれない。これらを一から築くには何年もかかりうるが、買えば大企業は即座にアクセスできる。買収は、新市場への参入や競合の排除も助けうる。急成長する小企業がいつか強い競争相手になりうるなら、大企業はそれを買って力を合わせる方を好むかもしれない。だが買収は危険だ。高価で、二つの企業は共に働くことを学ばねばならない。時に、人・システム・文化がうまく合わず、望んだ利益は決して現れない。多くの買収は成功するが、ひどく失敗するものもある。小さな企業とその創業者には、買われることが何年もの努力への大きな報酬になりうる。大きな企業には、未来への賭けだ。教訓は、事業がより懸命に働くことだけでなく、結びつくことでも成長するということだ。一つの大きな取引の背後には、持ち主を変える発想・人・技術があり——産業を作り替え、来る年月にどの企業が主導するかを決めている。",
-        quiz: [
-          { q: "「買収」とは？", options: ["ある企業が別の企業を買うこと", "製品を売ること", "会社を閉じること"], answer: 0 },
-          { q: "大企業が小さな企業を買う理由は？", options: ["有用な技術・製品・人材に即座にアクセスできるから", "客を減らすため", "技術を捨てるため"], answer: 0 },
-          { q: "買収が危険な理由は？", options: ["高価で人・システム・文化が合わず利益が出ないこともある", "必ず成功するから", "費用がかからないから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0827-2",
-        title: "Tiny Particles That Fight Cancer",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Removing a brain tumor is one of the most difficult operations in medicine. Surgeons must take out the cancer while protecting the healthy brain around it — and the hardest part is that tiny bits of tumor can be almost impossible to see. Now, scientists have created something that could help: 'smart' nanoparticles, incredibly tiny objects that can both light up hidden cancer cells and help destroy the ones left behind.\nWhat are nanoparticles? They are particles far smaller than a single cell — so small that thousands could fit across the width of a hair. Because of their size, they can travel through the body and gather in specific places, such as a tumor.\nHow do these particles help? First, they can be designed to glow, making cancer cells shine during surgery. This lets the surgeon see tumor that would otherwise be invisible, and remove more of it safely. Then, after the operation, the same particles can help destroy microscopic cancer cells that were left behind, lowering the chance the cancer returns.\nThis is still early research, done in laboratories and animal tests. Using such particles safely in people will require years of careful study, and not every promising idea succeeds.\nStill, the work points to an exciting future for medicine: tiny tools, working at the scale of cells, doing jobs too delicate for ordinary instruments. By combining chemistry, biology, and clever engineering, scientists are finding new ways to fight one of the hardest diseases — one nearly invisible particle at a time.",
-        summaryJa: "脳腫瘍の摘出は医療で最も難しい手術の一つだ。外科医は、周りの健康な脳を守りつつがんを取り出さねばならない——そして最も難しいのは、微小な腫瘍のかけらがほとんど見えないことだ。今、科学者はそれを助けうるものを作った——「スマート」ナノ粒子、隠れたがん細胞を光らせ、残ったものの破壊も助けられる、極めて小さな物体だ。ナノ粒子とは何か。一つの細胞よりはるかに小さい粒子だ——髪の幅に何千も収まるほど小さい。その大きさゆえ、体内を移動し、腫瘍など特定の場所に集まれる。これらの粒子はどう助けるのか。まず、光るよう設計でき、手術中にがん細胞を輝かせる。これにより外科医は、さもなければ見えない腫瘍を見て、より多くを安全に取り除ける。次に、手術後、同じ粒子が、残された微視的ながん細胞の破壊を助け、がんが戻る可能性を下げる。これはまだ実験室と動物試験で行われる初期の研究だ。こうした粒子を人で安全に使うには何年もの丁寧な研究が要り、あらゆる有望な発想が成功するわけではない。それでもこの取り組みは、医療の胸躍る未来を指す——細胞の尺度で働き、普通の器具には繊細すぎる仕事をする微小な道具。化学・生物学・巧妙な工学を組み合わせ、科学者は最も難しい病の一つと闘う新しい方法を見つけている——ほぼ見えない一粒ずつ。",
-        quiz: [
-          { q: "スマートナノ粒子ができることは？", options: ["隠れたがん細胞を光らせ残ったものの破壊も助ける", "脳全体を取り除く", "痛みを増やす"], answer: 0 },
-          { q: "ナノ粒子はどれくらい小さいか？", options: ["一つの細胞よりはるかに小さい", "建物ほど大きい", "肉眼でよく見える"], answer: 0 },
-          { q: "この研究の現状は？", options: ["実験室と動物試験の初期段階", "既に広く使われている", "失敗して中止された"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0827-3",
-        title: "Protecting Children Online",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Children today grow up with the internet. They learn, play, and talk with friends online, often from a very young age. But the digital world can also be dangerous for them, and recently governments around the world have been taking action to make it safer. In one country, a major technology company agreed to a large settlement over concerns that its social media harmed young users.\nWhy are people worried? Social media and other online services are designed to keep users looking at their screens for as long as possible. For children, whose minds are still developing, this can lead to too much screen time, less sleep, and pressure to compare themselves with others. Young people may also meet strangers online or see content that is not suitable for them.\nWhat are governments and companies doing? Some are creating rules that require companies to protect young users — for example, by limiting certain features for children, adding parental controls, or checking users' ages. Companies are being asked to design their services with children's safety in mind, not only with profit.\nThis is a difficult balance. The internet offers children wonderful chances to learn and connect, and no one wants to shut those out. The goal is to keep the benefits while reducing the harms.\nProtecting children online has become a shared challenge around the world. As young people spend more of their lives on screens, families, companies, and governments are all learning, together, how to help them grow up safe in a digital age.",
-        summaryJa: "今日の子どもはインターネットとともに育つ。しばしば非常に幼い頃から、オンラインで学び、遊び、友人と話す。だがデジタルの世界は彼らにとって危険にもなりうる。最近、世界中の政府がそれをより安全にするための行動を取っている。ある国では、大手技術企業が、そのソーシャルメディアが若い利用者を害したという懸念をめぐり、大きな和解に合意した。なぜ人々は心配するのか。ソーシャルメディアなどのオンラインサービスは、利用者をできるだけ長く画面に見入らせるよう設計されている。心がまだ発達途上の子どもには、これが過度の画面時間、睡眠不足、他者と自分を比べる圧力につながりうる。若者はオンラインで見知らぬ人に会ったり、適さない内容を見たりもしうる。政府と企業は何をしているのか。若い利用者を守るよう企業に求める規則を作る動きもある——例えば、子ども向けに特定の機能を制限し、保護者による管理を加え、利用者の年齢を確認するなど。企業は、利益だけでなく子どもの安全を念頭にサービスを設計するよう求められている。これは難しい均衡だ。インターネットは子どもに学び、つながる素晴らしい機会を与え、誰もそれを締め出したくない。目標は、利益を保ちつつ害を減らすことだ。子どものオンライン保護は、世界中で共有の課題になった。若者が生活のより多くを画面上で過ごす中、家族・企業・政府はみな共に、デジタル時代に彼らが安全に育つ手助けの仕方を学んでいる。",
-        quiz: [
-          { q: "オンラインで子どもについて心配される理由は？", options: ["過度の画面時間・睡眠不足・比較の圧力などにつながりうる", "学べないから", "無料だから"], answer: 0 },
-          { q: "政府や企業がしていることは？", options: ["機能の制限・保護者管理・年齢確認など安全のための規則", "子どもの利用を全面禁止", "何もしない"], answer: 0 },
-          { q: "この課題の難しい均衡とは？", options: ["利益を保ちつつ害を減らすこと", "利益を全て捨てること", "害を増やすこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0827-4",
-        title: "Helping a Region Recover Through Travel",
-        level: "★★☆",
-        genre: "日本",
-        text: "After a natural disaster, a region faces a long road to recovery. Homes and roads must be repaired, but there is another, quieter problem: visitors often stop coming. When tourists stay away, hotels, restaurants, and shops lose the income they depend on. Recently, Japan considered a plan to help one area recover by encouraging people to travel there again.\nThe idea is simple. After an earthquake struck part of southern Japan, the government looked at helping cover much of the cost of trips to the area. By making travel cheaper, they hoped to bring back visitors, and with them, money to support local businesses.\nWhy use tourism to help recovery? Rebuilding needs money, and a healthy flow of visitors brings money directly to the people who need it — the shop owner, the innkeeper, the taxi driver. Travel also lifts spirits, showing a struggling community that the wider country has not forgotten them.\nThere is another benefit. After a disaster, people far away may wrongly believe an entire region is unsafe or closed, even when most of it is fine. Encouraging visitors helps correct this and shows that the area is open and welcoming.\nOf course, safety comes first, and such plans must be carefully timed. But the idea reflects an important truth: helping a place recover is not only about repairing buildings. It is also about bringing life, activity, and people back. Sometimes, one of the kindest things a traveler can do is simply to visit a place that needs them.",
-        summaryJa: "自然災害の後、地域は回復への長い道に直面する。家や道路は修理せねばならないが、もう一つの静かな問題がある——訪問者がしばしば来なくなるのだ。観光客が遠ざかると、ホテル・飲食店・店は頼りにする収入を失う。最近、日本は、人々が再びそこへ旅するのを促すことで、ある地域の回復を助ける案を検討した。発想は単純だ。南日本の一部を地震が襲った後、政府はその地域への旅の費用の多くを補助することを検討した。旅を安くすることで訪問者を呼び戻し、彼らとともに地元事業を支えるお金をもたらそうとした。なぜ観光で回復を助けるのか。再建にはお金が要り、健全な訪問者の流れは、それを必要とする人々——店主・宿の主人・タクシー運転手——に直接お金をもたらす。旅は気持ちも高め、苦境の地域に、広い国が彼らを忘れていないと示す。もう一つの利点もある。災害の後、遠くの人々は、大部分が無事でも地域全体が危険だ・閉鎖されたと誤って信じるかもしれない。訪問を促すことはこれを正し、その地域が開いていて歓迎していると示す助けになる。もちろん安全が最優先で、こうした案は慎重な時機が要る。だがこの発想は重要な真実を映す——ある場所の回復を助けることは、建物を修理することだけではない。生命・活動・人を呼び戻すことでもある。時に、旅行者ができる最も親切なことの一つは、単に、彼らを必要とする場所を訪れることなのだ。",
-        quiz: [
-          { q: "災害後の「静かな問題」とは？", options: ["訪問者が来なくなり地元事業が収入を失うこと", "道路が広がること", "人口が増えること"], answer: 0 },
-          { q: "観光で回復を助ける理由は？", options: ["訪問者が必要とする人々に直接お金をもたらすから", "観光は無関係だから", "建物だけが重要だから"], answer: 0 },
-          { q: "本文が映す真実は？", options: ["回復は建物の修理だけでなく人を呼び戻すことでもある", "回復は不可能", "旅は無意味"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0827-5",
-        title: "A Star's Hidden Partner",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "High in the winter sky shines a famous red star called Betelgeuse, one of the brightest and largest stars we can see. For about a hundred years, astronomers suspected that this giant star was not alone — that a smaller companion star might be circling it, hidden in its glare. Recently, scientists finally captured their clearest image yet of this hidden partner, ending a search that lasted a century.\nWhy was it so hard to see? Betelgeuse is enormous and extremely bright, so a much smaller, fainter star close beside it is easily lost in its light — like trying to spot a candle right next to a searchlight. Only with very powerful modern telescopes and clever techniques could astronomers finally separate the two.\nWhy does this discovery matter? Many stars in the universe come in pairs, circling each other. A companion can change how a star behaves — how it brightens, dims, and ages. Betelgeuse is known for slowly changing its brightness, and understanding its partner may help explain these changes.\nStudying such faraway objects is painstaking work. The stars are hundreds of light-years away, so astronomers must gather faint light and analyze it with great care over many years.\nThe find is a reminder of how much patience science requires, and how new tools can finally answer old questions. For a hundred years, a hidden star waited just out of view. Now, at last, we have seen it — a small victory in humanity's long effort to understand the distant, glittering lights that fill our night sky.",
-        summaryJa: "冬の空高くに、ベテルギウスと呼ばれる有名な赤い星が輝く。私たちが見られる最も明るく大きな星の一つだ。約100年の間、天文学者はこの巨星が独りではない——より小さな伴星がその輝きに隠れて回っているかもしれない——と疑ってきた。最近、科学者はついにこの隠れた相手の、これまでで最も鮮明な画像を捉え、一世紀続いた探索を終えた。なぜそんなに見えにくかったのか。ベテルギウスは巨大で極めて明るいので、すぐそばのずっと小さく暗い星は、その光に容易にかき消される——サーチライトのすぐ隣のろうそくを見つけようとするように。非常に強力な現代の望遠鏡と巧妙な技法があって初めて、天文学者はついに二つを分けられた。なぜこの発見が重要か。宇宙の多くの星は対で、互いを回る。伴星は星のふるまい——どう明るくなり、暗くなり、年を取るか——を変えうる。ベテルギウスはゆっくり明るさを変えることで知られ、その相手の理解がこうした変化の説明を助けるかもしれない。こんな遠い天体の研究は骨の折れる仕事だ。星は数百光年離れているので、天文学者はかすかな光を集め、何年もかけて細心の注意で分析せねばならない。この発見は、科学がどれほどの忍耐を要するか、そして新しい道具が古い問いについに答えられることを思い出させる。100年の間、隠れた星は見えないところで待っていた。今、ついに、私たちはそれを見た——夜空を満たす遠くきらめく光を理解しようとする人類の長い努力の、小さな勝利だ。",
-        quiz: [
-          { q: "ベテルギウスの伴星が見えにくかった理由は？", options: ["ベテルギウスが明るすぎてそばの暗い星がかき消されるから", "伴星が存在しないから", "昼だけ見えるから"], answer: 0 },
-          { q: "伴星の研究が重要な理由は？", options: ["星のふるまい（明るさの変化など）の説明を助けうるから", "星を壊すため", "光を消すため"], answer: 0 },
-          { q: "この発見が思い出させることは？", options: ["科学は忍耐を要し新しい道具が古い問いに答えうる", "科学は簡単だ", "望遠鏡は不要だ"], answer: 0 }
         ]
       }
     ]
