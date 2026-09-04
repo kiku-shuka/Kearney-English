@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-04",
+    passages: [
+      {
+        id: "d0904-1",
+        title: "Who Wrote This — a Human or an AI?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "As artificial intelligence gets better at writing, a new question is appearing everywhere: was this text written by a person or by a machine? From school essays to news articles and online reviews, it is becoming harder to tell. In answer, a whole new business has grown up: tools that try to detect AI writing.\n\nThese detection tools look for patterns. AI-written text can be very smooth and correct, but it sometimes lacks the small surprises and mistakes of human writing. By studying millions of examples, the tools try to guess whether a machine was involved. Some companies now offer this service to schools, publishers, and websites.\n\nWhy does it matter? Many people want to know the truth. A teacher wants to see a student's own thinking. A reader may want to know if a review was written by a real customer. Some websites are starting to label which articles used AI, so readers can decide for themselves.\n\nBut detection is not easy or perfect. The tools sometimes make mistakes, wrongly accusing a human of using AI, or missing text that a machine really wrote. As AI improves, the guessing game grows harder.\n\nIn the end, the goal is not to ban these tools, but to keep trust. Whether words come from a person or a program, honesty about their source helps everyone. Knowing who — or what — is speaking has become a valuable thing.",
+        summaryJa: "AIの文章作成が上達するにつれ、「これは人が書いたのか機械か」という新しい問いが至る所で生まれている。学校の作文からニュース記事、口コミまで見分けが難しくなり、その答えとしてAIの文章を検出するツールという新事業が育った。ツールはパターンを探す。AIの文章は滑らかで正確だが、人間らしい小さな意外性や誤りを欠くことがある。学校や出版社、サイトに提供され、AI使用を明示するサイトも出てきた。理由は多くの人が真実を知りたいからだ。ただし検出は完璧でなく、人を誤って疑ったり見逃したりする。目的は禁止でなく信頼の維持で、出所への正直さが皆を助ける。",
+        quiz: [
+          { q: "What new business has grown because AI can write well?", options: ["Tools that try to detect whether text was written by AI", "Companies that stop all writing", "Shops that sell paper only"], answer: 0 },
+          { q: "How do detection tools try to guess if AI was involved?", options: ["By looking for patterns, since AI text may lack human surprises and mistakes", "By reading the writer's mind", "By counting the pages"], answer: 0 },
+          { q: "What does the passage say is the real goal?", options: ["To ban all writing tools", "To keep trust through honesty about a text's source", "To make writing secret"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0904-2",
+        title: "The Hidden Hunger of Data Centers",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Every time you send a message, watch a video, or ask an AI a question, a building far away does part of the work. These buildings are called data centers, and they are full of powerful computers that never sleep. As our digital lives grow — especially with the rise of AI — the world needs more and more of them. But there is a hidden cost: these centers are extremely hungry for energy.\n\nComputers running day and night use huge amounts of electricity. They also produce heat, so even more power is needed to keep them cool. Some large data centers use as much electricity as a small town. As companies build more of them for AI, experts worry about where all that power will come from.\n\nWater is another concern. Many centers use water to help cool their machines, which can be a problem in dry areas. Communities near new data centers sometimes ask hard questions about energy bills and local resources.\n\nThere is good news, too. Engineers are working to make data centers cleaner and smarter. Some are built near sources of clean energy, such as wind or solar power. Others use cool outside air or reuse their waste heat to warm nearby buildings.\n\nThe challenge is clear: we want the benefits of powerful computing, but we must find ways to feed these hungry machines without harming the planet.",
+        summaryJa: "メッセージの送信や動画視聴、AIへの質問のたびに、遠くの建物が処理の一部を担う。データセンターと呼ばれ、眠らない強力なコンピューターで満ちている。デジタル生活の拡大、とくにAIの台頭で世界はますます多くを必要とするが、隠れた代償がある。膨大なエネルギーを消費するのだ。昼夜動く計算機は大量の電力を使い、発熱するため冷却にもさらに電力が要る。小さな町ほどの電力を使う施設もあり、電源の確保が懸念される。冷却に水を使う施設も多く乾燥地では問題になる。一方で、風力や太陽光の近くに建てたり外気で冷やしたり排熱を再利用したりと、より清潔で賢くする取り組みも進む。恩恵を得つつ地球を害さず機械を養う方法が課題だ。",
+        quiz: [
+          { q: "What are data centers?", options: ["Buildings full of powerful computers that do our digital work", "Empty warehouses", "Places with no electricity"], answer: 0 },
+          { q: "Why do data centers need so much energy?", options: ["Computers run day and night and also need power to stay cool", "They do nothing at all", "They only work once a year"], answer: 0 },
+          { q: "What is one way engineers try to make data centers cleaner?", options: ["Building them near clean energy or reusing their waste heat", "Adding more heat on purpose", "Turning off all cooling"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0904-3",
+        title: "Making the World's Ships Cleaner",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Most of the goods we use every day — clothes, phones, food, and furniture — travel across the ocean by ship at some point. Giant cargo ships carry the majority of the world's trade. They are a quiet, powerful engine of the global economy. But these ships also burn large amounts of dirty fuel, and cleaning them up has become an important worldwide goal.\n\nFor a long time, big ships ran on a thick, cheap oil that produces a lot of pollution. Because the ocean is shared by all countries, no single nation can fix the problem alone. So governments and companies around the world are working together to make shipping cleaner.\n\nThere are several promising ideas. Some new ships use cleaner fuels, such as gas or fuels made from plants. Others are testing electric power for short trips, or even modern sails that use the wind to save fuel. Simply slowing ships down a little can also cut pollution by a surprising amount.\n\nChange is not easy. Cleaner fuels can cost more, and building new ships takes years. Ports around the world must also add new equipment to support them.\n\nStill, the direction is set. Because shipping touches almost everything we own, making it cleaner is one of the most useful steps the world can take. A cleaner fleet means a healthier ocean and sky for everyone who shares the planet.",
+        summaryJa: "私たちが日々使う衣類や電話、食料、家具の多くは、どこかで船に乗って海を渡ってくる。巨大な貨物船が世界の貿易の大半を運び、世界経済の静かで強力な原動力だ。だがこれらの船は大量の汚れた燃料を燃やすため、その浄化が世界的な重要目標になっている。長年、大型船は汚染の多い安い重油で動いてきた。海はすべての国が共有するため一国では解決できず、各国政府と企業が協力している。有望な案は複数ある。ガスや植物由来の清潔な燃料、短距離の電動化、風を使う現代の帆、少し減速するだけでも汚染は大きく減る。費用や建造年数、港の設備など課題はあるが、船は所有物のほぼ全てに関わるため、その浄化は世界にとって有益な一歩だ。",
+        quiz: [
+          { q: "Why does shipping matter so much to the global economy?", options: ["Giant ships carry the majority of the world's trade", "Ships carry nothing useful", "Only a few small boats exist"], answer: 0 },
+          { q: "Why can't a single nation fix ship pollution alone?", options: ["Because the ocean is shared by all countries", "Because ships never move", "Because pollution does not exist"], answer: 0 },
+          { q: "What is one idea to make ships cleaner?", options: ["Using cleaner fuels, modern sails, or slowing down a little", "Burning more dirty oil", "Making ships much heavier"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0904-4",
+        title: "Japan's Autumn Festivals",
+        level: "★★☆",
+        genre: "日本",
+        text: "When the summer heat finally fades, towns and villages across Japan come alive with autumn festivals. These local events, often held at shrines, are a chance for communities to give thanks for the harvest and to enjoy time together. For many people, an autumn festival is one of the happiest memories of the year.\n\nEach festival has its own character, but many share common sights and sounds. People pull or carry a portable shrine, called a \"mikoshi,\" through the streets, shouting together to keep the rhythm. There is the beat of drums, the smell of grilled food from many small stalls, and children in bright, traditional clothes. The whole town seems to move as one.\n\nAutumn is a natural time for such thanks. Farmers have gathered the rice and other crops, so there is a feeling of relief and gladness. Long ago, people prayed for a good harvest in spring and gave thanks in autumn, and this rhythm still shapes many festivals today.\n\nMore than the food or the noise, the real heart of a festival is connection. Neighbors who are usually busy meet and laugh together. Older people teach children the songs and steps. In a busy modern world, these events keep a community close.\n\nAn autumn festival is a warm reminder that some of life's best things — good food, music, and friendship — are meant to be shared.",
+        summaryJa: "夏の暑さがようやく和らぐと、日本各地の町や村は秋祭りでにぎわう。多くは神社で行われる地域の行事で、収穫に感謝し、共に過ごす機会だ。多くの人にとって秋祭りは一年で最も幸せな思い出の一つだ。祭りごとに個性はあるが、共通の光景も多い。人々は「神輿」を担いで通りを練り歩き、掛け声でリズムをそろえる。太鼓の音、屋台の焼き物の匂い、鮮やかな伝統衣装の子どもたち。町全体が一つになって動くようだ。秋は感謝に自然な季節で、米などを収穫し安堵と喜びがある。春に豊作を祈り秋に感謝する昔からの流れが今も祭りを形づくる。祭りの核心は食や音以上に「つながり」だ。普段忙しい隣人が笑い合い、年長者が子に歌や所作を教える。祭りは、良い食事や音楽、友情は分かち合うものだと温かく思い出させる。",
+        quiz: [
+          { q: "What is one common sight at a Japanese autumn festival?", options: ["People carrying a portable shrine called a 'mikoshi'", "Empty, silent streets", "People staying indoors alone"], answer: 0 },
+          { q: "Why is autumn a natural time to give thanks?", options: ["Farmers have gathered the rice and other crops", "Because nothing grows in autumn", "Because summer is just starting"], answer: 0 },
+          { q: "What does the passage call the real heart of a festival?", options: ["The noise only", "Connection among people in the community", "Spending money"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0904-5",
+        title: "Mapping the Brain of a Tiny Fly",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "The brain is one of the greatest mysteries in all of science. It is a maze of tiny cells, called neurons, that send signals to one another. To truly understand how a brain works, scientists dream of drawing a complete map of every connection. Recently, they reached an amazing milestone — not with a human brain, but with the brain of a tiny fruit fly.\n\nWhy a fly? A human brain has billions of neurons, far too many to map today. A fruit fly's brain is much smaller, yet it can still see, fly, find food, and remember. By studying this simpler brain, scientists can learn basic rules that may also apply to larger brains, including our own.\n\nThe new map shows an incredible number of connections — well over a hundred million points where neurons meet. Creating it took years of careful work, powerful microscopes, and clever computer programs. The result is like a wiring diagram for a living creature's mind.\n\nWhat can we do with such a map? Scientists hope it will help them understand how brains turn signals into behavior — how a tiny creature decides to turn left or right, for example. In the long run, this knowledge may help us understand memory, learning, and even brain diseases.\n\nMapping a fly's brain may sound small, but it is a giant step. Sometimes, to understand something huge, you must start with something tiny.",
+        summaryJa: "脳は科学最大の謎の一つだ。ニューロンという小さな細胞が互いに信号を送り合う迷路である。脳の仕組みを真に理解するため、科学者はすべての接続の完全な地図を描くことを夢見てきた。最近、その節目に到達した——人の脳ではなく、小さなショウジョウバエの脳で。なぜハエか。人の脳は数十億のニューロンを持ち今は地図化できないが、ハエの脳ははるかに小さくても見て飛び、餌を探し記憶する。この単純な脳から、より大きな脳にも当てはまる基本則を学べる。新しい地図は一億をはるかに超えるニューロンの接点を示す。作成には長年の作業、強力な顕微鏡、巧妙なプログラムを要した。生き物の心の配線図のようだ。信号がどう行動になるかの理解に役立ち、やがて記憶や学習、脳の病気の理解にもつながりうる。巨大なものを理解するには、小さなものから始めねばならない。",
+        quiz: [
+          { q: "Why did scientists map a fruit fly's brain instead of a human brain?", options: ["A human brain has far too many neurons to map today", "Flies have no brain", "Human brains are too small"], answer: 0 },
+          { q: "What does the new map show?", options: ["Well over a hundred million points where neurons meet", "Only three connections", "A map of the sky"], answer: 0 },
+          { q: "What do scientists hope to learn from such a map?", options: ["How brains turn signals into behavior, and eventually memory and disease", "How to make flies bigger", "Nothing useful at all"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-03",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "天文学者が見つけた謎の天体は？", options: ["既知のどれとも一致しない小さく淡い「赤い点」", "普通の星", "地球の写真"], answer: 0 },
           { q: "「赤い点」を説明する胸躍る一つの発想は？", options: ["厚いガスに包まれた若いブラックホールかもしれない", "ただの光の誤り", "望遠鏡の故障"], answer: 0 },
           { q: "こうした謎が示す科学の姿は？", options: ["当てはまらないものを調べ考えを提案し試す", "謎を無視する", "推測だけで断定する"], answer: 0 }
-        ]
-      }
-    ]
-  },
-    {
-    date: "2026-08-28",
-    passages: [
-      {
-        id: "d0828-1",
-        title: "Why Prices Change: Supply and Demand",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Why does one thing cost more than another, and why do prices change over time? Behind almost every price lies one of the most important ideas in economics: supply and demand. Understanding this simple idea helps explain the cost of everything, from a cup of coffee to a house.\n'Demand' means how much people want something and are willing to pay for it. 'Supply' means how much of it is available to buy. When many people want a product but there is only a little of it, the price tends to rise. When there is plenty of something but few people want it, the price tends to fall.\nThink of fresh strawberries. In summer, when farms produce many of them, they are cheap. In winter, when few are grown, the same strawberries cost much more. The fruit has not changed — only the balance of supply and demand.\nThis idea is everywhere. A popular new phone may be expensive because everyone wants it and only so many are made. If a factory closes and a material becomes scarce, prices for products using it may rise. When demand and supply shift, prices move to find a new balance.\nFor businesses, reading these signals is essential. A price that is too high may scare away customers; too low, and the company may sell out and lose money it could have earned.\nSupply and demand is a quiet force shaping markets everywhere. Once you notice it, prices are no longer a mystery — they are a story about what people want and what the world can provide.",
-        summaryJa: "なぜある物は別の物より高く、なぜ価格は時とともに変わるのか。ほぼあらゆる価格の背後に、経済学で最も重要な考えの一つがある——需要と供給だ。この単純な考えの理解は、コーヒー一杯から家まで、あらゆるものの費用を説明する助けになる。「需要」とは、人々がどれだけそれを欲しがり、いくら払う気があるかだ。「供給」とは、買える量がどれだけあるかだ。多くの人が欲しがるのにわずかしかなければ、価格は上がりがちだ。たくさんあるのに欲しがる人が少なければ、価格は下がりがちだ。新鮮ないちごを考えてほしい。夏、農場が多く作るとき、安い。冬、ほとんど育たないとき、同じいちごはずっと高い。果物は変わっていない——供給と需要の均衡だけが変わったのだ。この考えはどこにでもある。人気の新しい携帯は、皆が欲しがり作られる数が限られるので高いかもしれない。工場が閉じて材料が乏しくなれば、それを使う製品の価格は上がりうる。需要と供給が動くと、価格は新しい均衡を見つけようと動く。事業にとって、こうした信号を読むことは不可欠だ。高すぎる価格は客を遠ざけ、安すぎれば会社は売り切れて、得られたはずのお金を失うかもしれない。需要と供給は、あらゆる所で市場を形づくる静かな力だ。ひとたび気づけば、価格はもはや謎ではない——人々が何を欲し、世界が何を供給できるかについての物語なのだ。",
-        quiz: [
-          { q: "「需要」とは？", options: ["人々がどれだけ欲しがり払う気があるか", "買える量のこと", "製品の重さ"], answer: 0 },
-          { q: "多くの人が欲しがるのにわずかしかないと価格はどうなる？", options: ["上がりがち", "下がりがち", "全く変わらない"], answer: 0 },
-          { q: "いちごが冬に高い理由は？", options: ["育つ数が少なく供給と需要の均衡が変わるから", "果物が別物になるから", "味が良くなるから"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0828-2",
-        title: "A New Hope for Restoring Sight",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Losing one's sight is one of the hardest things a person can face. For some kinds of blindness, the eye's light-sensing cells stop working, and the world goes dark. Now, scientists have reported an exciting new approach: special 'light-activated' drugs that helped blind mice sense light again — and did so without surgery, implants, or gene therapy.\nHow can a drug help someone see? In a healthy eye, tiny cells react to light and send signals to the brain. When these cells are damaged, other nearby cells still exist but cannot respond to light. The new drugs attach to these remaining cells and make them sensitive to light, so that when light enters the eye, they can send signals to the brain — restoring a basic form of vision.\nWhy is this approach special? Some earlier methods to treat blindness require complex surgery, implanted devices, or changing a patient's genes. A drug that can simply be given, without any of these, could be far simpler, safer, and easier to use. In tests, treated mice were able to respond to light and even follow visual signals.\nIt is important to be careful. This is early research done in animals, and much more study is needed before it could help people. Human eyes are complex, and safety must be proven.\nStill, the work offers real hope. For millions of people living with vision loss, every new idea is precious. By using light itself as a key, scientists are exploring gentle new ways to help the eye do what it was made to do: see.",
-        summaryJa: "視力を失うことは、人が直面しうる最も辛いことの一つだ。ある種の失明では、目の光を感じる細胞が働かなくなり、世界が暗くなる。今、科学者は胸躍る新しい手法を報告した——特別な「光で活性化する」薬が、盲目のマウスが再び光を感じる助けをした。しかも手術・インプラント・遺伝子治療なしで。薬がどうして見る助けになりうるのか。健康な目では、微小な細胞が光に反応し脳へ信号を送る。これらの細胞が損なわれても、近くの他の細胞はまだ存在するが光に応じられない。新しい薬はこの残った細胞に付き、光に敏感にする。だから光が目に入ると、それらが脳へ信号を送れる——基本的な形の視覚を回復する。なぜこの手法が特別か。失明を治す従来の方法の一部は、複雑な手術・埋め込み装置・患者の遺伝子の変更を要する。これらなしにただ与えられる薬は、はるかに単純で、安全で、使いやすくなりうる。試験で、治療されたマウスは光に反応し、視覚的な信号に従うことさえできた。慎重さが大切だ。これは動物で行われた初期の研究で、人を助けられるまでにはるかに多くの研究が要る。人の目は複雑で、安全性が証明されねばならない。それでもこの取り組みは本当の希望を与える。視力を失って生きる何百万もの人にとって、新しい発想の一つ一つが貴重だ。光そのものを鍵として使い、科学者は、目が本来の働き——見ること——をする助けとなる穏やかな新しい方法を探っている。",
-        quiz: [
-          { q: "この新しい薬はどう働くか？", options: ["残った目の細胞を光に敏感にして脳へ信号を送らせる", "目を新しく作る", "脳を取り替える"], answer: 0 },
-          { q: "この手法が特別な理由は？", options: ["手術・インプラント・遺伝子治療なしで使えうる", "とても高価だから", "とても痛いから"], answer: 0 },
-          { q: "本文が促す慎重さは？", options: ["動物での初期研究で人にはさらなる研究が要る", "もう完成している", "人の目は単純だ"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0828-3",
-        title: "Sharing the Planet with Wildlife",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When we think of how humans affect nature, we often picture big things: cities, highways, and factories. But a recent study tracking thousands of animals found something surprising. The simple presence of people — walking, hiking, or just being around — can change where wild animals go, sometimes as powerfully as roads and buildings do.\nHow can our presence alone matter so much? Many animals are cautious around humans. Even without harming them, our comings and goings can make animals avoid certain areas, move at different times of day, or take longer paths to find food and water. Over time, this reshapes how wildlife uses the land.\nWhy does this matter? Animals need space to feed, rest, and raise their young. If our presence pushes them into smaller or poorer areas, it can affect their health and numbers. Understanding this helps people share the land more wisely with the creatures around us.\nThe study also shows how connected we are to nature. Even in wild places, humans are part of the picture, and our choices ripple out to affect other living things.\nThe good news is that this knowledge can guide better decisions. By setting aside quiet areas, limiting activity at certain times, or planning trails with care, people can enjoy nature while giving animals the room they need.\nThe wider lesson is one of coexistence. We share the Earth with countless other species. Learning how even our quiet presence affects them helps us become better neighbors — leaving space for wildlife to thrive alongside us on our crowded, living planet.",
-        summaryJa: "人間が自然にどう影響するかを考えるとき、私たちはしばしば大きなもの——都市・高速道路・工場——を思い描く。だが数千の動物を追跡した最近の研究は、驚くべきことを見つけた。人がいるという単純な存在——歩く・ハイキングする・ただ近くにいる——が、野生動物の行き先を、時に道路や建物と同じくらい強く変えうるのだ。私たちの存在だけがどうしてそれほど重要になりうるのか。多くの動物は人の周りで用心深い。害を与えなくても、私たちの出入りは、動物に特定の地域を避けさせ、一日の異なる時間に動かせ、食料や水を探すのにより長い道を取らせうる。時とともに、これが野生生物の土地の使い方を作り替える。なぜ重要か。動物は食べ、休み、子を育てる空間を必要とする。私たちの存在が彼らをより狭く貧しい地域へ押しやれば、健康や数に影響しうる。これを理解することは、周りの生き物と土地をより賢く分かち合う助けになる。研究はまた、私たちが自然にいかにつながっているかも示す。野生の場所でさえ、人間は絵の一部で、私たちの選択は波及して他の生き物に影響する。良い知らせは、この知識がより良い決定を導けることだ。静かな地域を取っておき、特定の時間に活動を制限し、道を丁寧に計画することで、人は自然を楽しみつつ動物に必要な余地を与えられる。より広い教訓は共存だ。私たちは無数の他の種と地球を分かち合う。静かな存在さえ彼らにどう影響するかを学ぶことは、より良い隣人になる助けになる——混み合った生きた惑星で、野生生物が私たちと並んで栄える余地を残して。",
-        quiz: [
-          { q: "研究が見つけた驚きは？", options: ["人がいる単純な存在が動物の行き先を強く変えうる", "動物は人を無視する", "人は自然に無関係"], answer: 0 },
-          { q: "人の存在が動物に与えうる影響は？", options: ["地域を避けさせ動く時間や道を変えさせる", "動物を必ず増やす", "何も変えない"], answer: 0 },
-          { q: "本文の広い教訓は？", options: ["共存——野生生物に栄える余地を残すこと", "自然を避けること", "動物を無視すること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0828-4",
-        title: "Moon Viewing in Japan",
-        level: "★★☆",
-        genre: "日本",
-        text: "People all over the world look up at the Moon, but in Japan, admiring it has become a gentle, cherished custom. Every autumn, many Japanese people take part in tsukimi, or 'moon viewing.' They gather to enjoy the sight of the full Moon, which is said to look especially bright and beautiful in the clear autumn sky.\nWhat happens during tsukimi? People find a good spot — a window, a garden, or a park — where they can see the Moon clearly. Some decorate with a kind of tall grass called susuki, whose feathery tips sway in the wind. Others prepare round white rice cakes called tsukimi dango, whose shape echoes the round Moon. Then they simply watch, talk quietly, and enjoy the calm of the evening.\nWhy view the Moon this way? Tsukimi is about more than looking at the sky. It is a moment to pause, appreciate the beauty of nature, and feel the changing of the seasons. Autumn is a time of harvest, and the custom is also a way of giving thanks for the year's crops.\nThe tradition reflects a value found deep in Japanese culture: finding beauty in quiet, simple, natural things. A full Moon is free, available to everyone, and gone again in a night — which makes the moment feel precious.\nTo take part in tsukimi is to slow down and look up. In a busy world, this small custom offers a peaceful reminder: that some of life's greatest pleasures ask nothing of us but to stop, look, and quietly enjoy the view.",
-        summaryJa: "世界中の人が月を見上げるが、日本では、それを愛でることが穏やかで大切にされる習わしになった。毎秋、多くの日本人が「月見」に参加する。澄んだ秋の空で特に明るく美しく見えると言われる満月を眺めて楽しむのだ。月見の間、何をするのか。人々は月がよく見える良い場所——窓・庭・公園——を見つける。ススキという背の高い草で飾る人もいる。その羽毛のような穂先が風に揺れる。丸い白い餅「月見団子」を用意する人もいる。その形は丸い月を映す。そして、ただ眺め、静かに話し、夕べの落ち着きを楽しむ。なぜこうして月を見るのか。月見は空を見る以上のものだ。立ち止まり、自然の美を味わい、季節の移ろいを感じる時間だ。秋は収穫の時で、この習わしは一年の作物への感謝の仕方でもある。この伝統は、日本文化の深くにある価値を映す——静かで単純な自然のものに美を見いだすこと。満月は無料で、誰にでも見え、一晩でまた去る——それが、その瞬間を貴重に感じさせる。月見に参加することは、速度を緩めて見上げることだ。忙しい世界で、この小さな習わしは平和な気づきを差し出す——人生の最大級の喜びのいくつかは、私たちに、立ち止まり、眺め、静かに景色を楽しむこと以外何も求めない、と。",
-        quiz: [
-          { q: "「月見」とは何をすることか？", options: ["秋に満月を眺めて楽しむこと", "月へ行くこと", "月の大きさを測ること"], answer: 0 },
-          { q: "月見で用意されるものに含まれるものは？", options: ["ススキや月見団子", "雪だるま", "花火"], answer: 0 },
-          { q: "月見が映す日本文化の価値は？", options: ["静かで単純な自然のものに美を見いだす", "競争を好むこと", "自然を避けること"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0828-5",
-        title: "The Stone Piles of Chimpanzees",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Deep in the forests of West Africa, scientists have watched some chimpanzees do something strange and fascinating: they pick up rocks and throw them, again and again, at particular trees. Over the years, the thrown stones pile up at the base of these trees, forming heaps that can remain in use for more than a decade.\nWhy do the chimpanzees do this? Scientists are not fully sure. The behavior does not seem to be about finding food. Some researchers think the loud banging sound the rocks make when they hit the tree may be a way of communicating over long distances in the thick forest. Others wonder if it could be something closer to a habit, or even a kind of tradition passed between animals.\nWhy is this exciting? Behavior like this hints that chimpanzees, our close animal relatives, may have their own forms of culture — actions learned from one another and repeated over generations, not driven only by hunger or instinct. The long-lasting stone piles suggest these are not random acts, but meaningful ones.\nStudying wild animals like this takes patience. Researchers must watch quietly for years, recording what the chimps do without disturbing them.\nThe stone-throwing chimpanzees remind us that the line between humans and other animals may be thinner than we think. Behaviors we once believed were uniquely human — culture, tradition, symbolic acts — may have quiet echoes in the forest. By watching our relatives closely, we learn not only about them, but about the deep roots of our own behavior.",
-        summaryJa: "西アフリカの森の奥で、科学者は一部のチンパンジーが奇妙で魅力的なことをするのを見た——石を拾い、特定の木に何度も何度も投げつけるのだ。年月をかけて、投げられた石はこれらの木の根元に積み上がり、10年以上も使われ続ける山を作る。なぜチンパンジーはこれをするのか。科学者は完全には確かでない。この行動は食料を見つけることとは無関係のようだ。石が木に当たるときの大きな打撃音が、鬱蒼とした森で長距離を通じて意思疎通する方法かもしれないと考える研究者もいる。習慣に近い何か、あるいは動物間で受け継がれる一種の伝統ではないかと考える者もいる。なぜ胸躍るのか。こうした行動は、私たちの近い動物の親戚であるチンパンジーが、独自の文化の形——空腹や本能だけに駆られるのでなく、互いから学び世代を越えて繰り返される行動——を持つかもしれないと示唆する。長く残る石の山は、これが無作為な行為でなく意味あるものだと示唆する。こうした野生動物の研究には忍耐が要る。研究者は、チンパンジーを乱さず、その行動を記録しながら、何年も静かに見守らねばならない。石を投げるチンパンジーは、人間と他の動物の境界が私たちが思うより薄いかもしれないことを思い出させる。かつて人間だけのものと信じた行動——文化・伝統・象徴的行為——は、森の中に静かな響きを持つかもしれない。親戚を注意深く見ることで、私たちは彼らについてだけでなく、自分自身の行動の深い根についても学ぶのだ。",
-        quiz: [
-          { q: "チンパンジーがしているのは？", options: ["特定の木に石を繰り返し投げて石の山を作る", "木を植える", "石を食べる"], answer: 0 },
-          { q: "この行動の理由として研究者が考えるものは？", options: ["打撃音による長距離の意思疎通や伝統かもしれない", "食料探しだと確定している", "水を得るためだと確定している"], answer: 0 },
-          { q: "この行動が示唆することは？", options: ["チンパンジーが独自の文化の形を持つかもしれない", "動物に文化はない", "人間だけが学べる"], answer: 0 }
         ]
       }
     ]
