@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-05",
+    passages: [
+      {
+        id: "d0905-1",
+        title: "Why Big Companies Buy Small Ones",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "In the business news, you often read that a huge company has bought a much smaller one, sometimes for a surprising amount of money. It can seem strange. Why would a giant firm pay so much for a tiny team? The reasons are usually smart and simple.\n\nOne common reason is speed. Building a new product or skill from zero can take years. If a small company has already created something valuable — a clever technology, a loyal group of customers, or a talented team — buying it can be faster than starting alone. The big company gains a head start.\n\nTalent is another reason. Sometimes a large firm is really buying the people. A small group of brilliant engineers or designers can be worth a great deal, and joining a bigger company gives them more money and tools to work with.\n\nBuying a rival can also remove competition or fill a gap. If a small company is growing fast in an area the giant wants to enter, buying it solves two problems at once.\n\nOf course, these deals carry risks. The price may be too high, or the two companies may not fit well together. Many purchases fail to work as planned, and the new team may lose its spark inside a large organization.\n\nStill, when done wisely, buying a small company can bring fresh ideas and energy — a shortcut to the future that money alone cannot always build.",
+        summaryJa: "ビジネスニュースでは、巨大企業がずっと小さな会社を、時に驚くほどの金額で買収したとよく報じられる。奇妙に見えるが、理由はたいてい合理的だ。一つは速さ。新しい製品や技術を一から作るには何年もかかるが、小さな会社が既に価値ある技術や忠実な顧客、優秀なチームを持っていれば、買う方が速く先行できる。人材も理由で、実は「人」を買っていることもある。少数の優れた技術者やデザイナーは大きな価値を持つ。競合の買収は競争を減らし、空白を埋める。ただし価格が高すぎたり相性が悪かったりする危険もあり、失敗も多く、買われたチームが大組織で輝きを失うこともある。賢く行えば新しい発想と活力をもたらす、未来への近道になる。",
+        quiz: [
+          { q: "What is one common reason a big company buys a small one?", options: ["Speed — gaining a valuable product or skill faster than building it alone", "To close the small company forever", "Because it has too much empty space"], answer: 0 },
+          { q: "How can buying a small company be about talent?", options: ["The big firm is really buying its skilled people", "The big firm wants no employees", "Talent has no value in business"], answer: 0 },
+          { q: "What risk does the passage mention about these deals?", options: ["The price may be too high or the companies may not fit well", "They always succeed perfectly", "They are completely free"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0905-2",
+        title: "How Your Map App Knows the Traffic",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Have you ever wondered how the map app on your phone knows that a road is busy? It can warn you about a traffic jam ahead, suggest a faster route, and even guess what time you will arrive. This feels almost like magic, but it is really the result of clever technology working quietly in the background.\n\nThe secret is that many phones share their location and speed with the map service. When thousands of phones on the same road are moving slowly, the app understands that traffic is heavy there. When they move quickly, the road is clear. No single person's trip matters much; it is the pattern from many users together that paints the picture.\n\nThe app also uses history. It has learned, over time, that certain roads are always crowded at certain hours. By mixing this past knowledge with live data from phones, it can make smart guesses about the road ahead.\n\nOf course, this raises questions about privacy. To protect users, good map services mix the data together and remove personal details, so the system sees \"traffic,\" not \"this exact person.\" Users can also usually turn location sharing off.\n\nThe result is a tool that saves time and reduces stress for millions of drivers every day. It is a fine example of how small pieces of shared information, gathered wisely, can become something genuinely helpful for everyone.",
+        summaryJa: "スマホの地図アプリが道路の混雑をどう知るのか、不思議に思ったことはないだろうか。前方の渋滞を知らせ、速い経路を提案し、到着時刻まで推測する。魔法のようだが、実は裏で静かに働く技術のおかげだ。秘密は、多くのスマホが位置と速度を地図サービスに共有していることだ。同じ道の何千ものスマホがゆっくり動けば渋滞、速く動けば空いていると分かる。一人の移動は重要でなく、多数の利用者の全体の傾向が絵を描く。過去の履歴も使い、特定の時間に混む道を学ぶ。生のデータと合わせ賢く推測する。個人情報の懸念には、データをまとめ個人情報を除いて「渋滞」だけを見るようにし、共有をオフにもできる。共有された小さな情報が賢く集まり、皆に役立つ好例だ。",
+        quiz: [
+          { q: "How does a map app usually know a road is busy?", options: ["Many phones on the road share their location and speed, showing slow movement", "It calls each driver", "It guesses randomly"], answer: 0 },
+          { q: "Besides live data, what else does the app use?", options: ["History of which roads are crowded at certain hours", "The color of the cars", "The weather on the moon"], answer: 0 },
+          { q: "How do good map services protect privacy?", options: ["They mix data together and remove personal details", "They publish every user's name", "They never protect anything"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0905-3",
+        title: "The World's Growing Cities",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "For most of human history, the majority of people lived in the countryside, close to farms and fields. Today, that has changed. More than half of all people now live in cities, and that share keeps rising. Around the world, cities are growing quickly as people move to them in search of work, education, and a better life.\n\nThere are good reasons for this shift. Cities often offer more jobs, better schools and hospitals, and a wider range of choices. When people live close together, ideas and businesses can grow faster. Many of the world's new industries begin in busy urban areas.\n\nBut rapid growth brings serious challenges. When too many people arrive too quickly, there may not be enough housing, clean water, or transport for everyone. Traffic, pollution, and high living costs can make life hard. Some newcomers end up in poor, crowded neighborhoods with few services.\n\nCities and governments are trying many solutions. They build public transport to reduce traffic, plan green spaces to improve health, and design taller buildings to fit more homes in less space. Good planning can turn a crowded city into a comfortable one.\n\nThe trend toward city life is unlikely to stop. The great question of our time is not whether people will live in cities, but how to make those cities healthy, fair, and pleasant places for the billions who will call them home.",
+        summaryJa: "人類の歴史の大半で、多くの人は農地に近い田舎に暮らしていた。今は変わり、半数以上が都市に住み、その割合は上がり続ける。世界中で、仕事や教育、より良い暮らしを求めて人が移り、都市は急速に成長している。理由はある。都市は仕事や学校、病院が多く選択肢も広い。人が近くに住むと発想や事業が速く育ち、新産業の多くは都市で生まれる。だが急成長は深刻な課題も招く。人が一気に増えると住宅や清潔な水、交通が足りず、渋滞や汚染、高い生活費が生活を苦しくし、サービスの乏しい過密地区に住む人も出る。都市と政府は、公共交通や緑地、高層住宅など多くの解決策を試みる。良い計画は過密な都市を快適にできる。問いは都市に住むかどうかでなく、いかに健康で公正で快適な都市にするかだ。",
+        quiz: [
+          { q: "How has where people live changed today?", options: ["More than half of all people now live in cities", "Everyone still lives on farms", "Cities have all disappeared"], answer: 0 },
+          { q: "Why do people move to cities?", options: ["For work, education, and a better life", "To find fewer choices", "To avoid all jobs"], answer: 0 },
+          { q: "What is one challenge of rapid city growth?", options: ["Not enough housing, clean water, or transport for everyone", "Too much empty space", "No people at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0905-4",
+        title: "Why Japanese Students Clean Their Schools",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, cleaning a school is the job of paid staff. In Japan, something different happens. Almost every day, students themselves pick up brooms and cloths and clean their own classrooms, hallways, and even the toilets. To visitors, this can be surprising. Why do children do the cleaning?\n\nThe custom is about much more than keeping the school tidy. It is seen as an important part of education. By cleaning the space they use, students learn responsibility and respect. They understand that a mess does not disappear by itself, and that someone must always care for a shared place.\n\nThe activity also builds teamwork. Students clean in small groups, sharing the work and helping one another. A child who cleans a room is less likely to make it dirty later. In this way, a simple daily task quietly teaches good habits that last a lifetime.\n\nThis idea reaches beyond the school gates. Japanese sports fans are famous for cleaning up the stadium after a match, and workers often tidy their own workspaces with care. Many people trace this attitude back to those childhood cleaning times.\n\nThe lesson is gentle but powerful. Taking care of your surroundings is a way of showing respect — for others, for your community, and for yourself. A broom in a student's hands is, in a sense, a quiet teacher.",
+        summaryJa: "多くの国では学校の掃除は雇われた職員の仕事だが、日本では違う。ほぼ毎日、生徒自身がほうきや雑巾を手に、自分の教室や廊下、トイレまで掃除する。訪問者には驚きだ。なぜ子どもが掃除するのか。この習慣は校舎をきれいに保つ以上の意味を持ち、教育の大切な一部とされる。自分が使う場所を掃除することで責任と敬意を学ぶ。汚れは自然には消えず、共有の場は誰かが世話をせねばならないと理解する。少人数で協力して掃除し、仲間を助ける。自分で掃除した部屋は汚しにくい。こうして日々の作業が一生続く良い習慣を静かに教える。この考えは校門の外にも及ぶ。日本のスポーツファンは試合後にスタジアムを掃除することで有名で、職場を丁寧に整える人も多い。身の回りの世話は、他者や地域、自分への敬意の表し方だ。",
+        quiz: [
+          { q: "What do Japanese students do almost every day at school?", options: ["They clean their own classrooms, hallways, and toilets", "They paint the school", "They cook all the meals"], answer: 0 },
+          { q: "What is the custom really about, beyond tidiness?", options: ["Learning responsibility, respect, and teamwork", "Making the school dirty", "Avoiding all work"], answer: 0 },
+          { q: "How does this attitude reach beyond school?", options: ["Fans clean stadiums and workers tidy their own workspaces", "People never clean anywhere else", "It disappears after childhood"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0905-5",
+        title: "Growing Tiny Organs in the Lab",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "To understand a disease, scientists often need to study human tissue. But it is difficult and risky to experiment on a living person, and simple cells in a dish do not behave like a real body part. Now, researchers have a remarkable new tool: tiny, living models of human organs, grown carefully in the laboratory.\n\nThese small structures are sometimes called \"organoids.\" Starting from special cells, scientists guide them to grow into miniature versions of a stomach, a lung, or a piece of the brain. These models are far simpler than real organs, but they can copy some of their key behavior. That makes them very useful for research.\n\nWith lab-grown tissue, scientists can watch how a disease develops and test how a new medicine might work — all without harming a patient. For example, researchers can study how cancer cells try to spread, or how an organ reacts to a virus, in a safe and controlled way.\n\nThe technology is still young and has limits. An organoid is not a full organ; it cannot think, breathe, or replace a human part. And growing these models well takes great skill and care.\n\nEven so, the promise is huge. By studying life in miniature, scientists can learn faster, test more safely, and search for cures with fresh eyes. Sometimes the biggest advances in medicine come from the smallest living things.",
+        summaryJa: "病気を理解するには人の組織を調べる必要が多いが、生きた人で実験するのは難しく危険で、皿の中の単純な細胞は本物の臓器のようには振る舞わない。今、研究者は驚くべき新しい道具を得た。実験室で丁寧に育てた、人の臓器の小さな生きた模型だ。これらは「オルガノイド」と呼ばれる。特別な細胞から、胃や肺、脳の一部の小型版へと育てる。本物よりずっと単純だが主要な働きの一部を再現でき、研究に役立つ。この組織で、患者を傷つけずに病気の進行を観察し新薬の効き方を試せる。がん細胞の広がり方やウイルスへの反応も安全に調べられる。技術はまだ若く限界もあり、オルガノイドは臓器の代わりにはならず、育てるには高い技術が要る。それでも可能性は大きく、小さな生命から医学の大きな前進が生まれることもある。",
+        quiz: [
+          { q: "What are 'organoids'?", options: ["Tiny, living models of human organs grown in the lab", "Large robots", "A kind of medicine you drink"], answer: 0 },
+          { q: "Why are lab-grown tissues useful?", options: ["Scientists can study disease and test medicines without harming a patient", "They can fully replace a human", "They make patients sick"], answer: 0 },
+          { q: "What limit does the passage mention?", options: ["An organoid is not a full organ and cannot replace a human part", "They are bigger than real organs", "They can think and breathe"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-04",
     passages: [
       {
@@ -425,75 +495,5 @@ KE_DATA.dailyReading = { days: [
         ]
       }
     ]
-    },
-    {
-    date: "2026-08-29",
-    passages: [
-      {
-        id: "d0829-1",
-        title: "Why Companies Sell Off Parts of Themselves",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "We often hear about companies growing by buying other businesses. But sometimes a company does the opposite: it sells off one of its own parts. Recently, one company agreed to sell its bank-technology business in Japan to another firm. This kind of move, called a divestiture, is an important business decision, even though it may seem strange at first.\nWhy would a company sell part of itself? Often, it wants to focus. A large company may run many different businesses, but not all of them fit well together or perform strongly. By selling a part that is not central to its plans, the company can concentrate its money, people, and attention on what it does best.\nSelling a division can also raise money. The cash from a sale can be used to pay off debts, invest in more promising areas, or return value to the company's owners.\nFor the business being sold, a new owner can be a good thing. The buyer may care more about that particular business and give it the attention and investment it needs to grow.\nOf course, these decisions are difficult. Leaders must judge which parts to keep and which to let go, and employees may worry about changes. A wrong choice can be costly.\nThe lesson is that growing a business is not only about getting bigger. Sometimes a company becomes stronger by becoming simpler — focusing on its core, and letting other parts thrive in new hands. Knowing what to keep, and what to release, is one of the hardest and most important skills in business.",
-        summaryJa: "私たちはしばしば、企業が他の事業を買って成長する話を聞く。だが時に企業は逆をする——自らの一部を売却するのだ。最近、ある企業が日本の銀行向け技術事業を別の会社に売ることに合意した。この種の動きは「事業売却（ダイベスティチャー）」と呼ばれ、最初は奇妙に見えても重要な経営判断だ。なぜ企業は自らの一部を売るのか。しばしば、集中したいからだ。大企業は多くの異なる事業を営むが、すべてがうまく噛み合い、力強く成果を出すとは限らない。計画の中心でない部分を売ることで、企業はお金・人・注意を、最も得意なことに集中できる。部門の売却はお金も生む。売却の現金は、借金の返済、より有望な分野への投資、あるいは所有者への価値還元に使える。売られる事業にとって、新しい所有者は良いことになりうる。買い手はその特定の事業をより気にかけ、成長に必要な注意と投資を与えるかもしれない。もちろん、こうした判断は難しい。指導者はどの部分を保ち、どれを手放すかを見極めねばならず、従業員は変化を心配しうる。誤った選択は高くつきうる。教訓は、事業を育てることが大きくなることだけではないということだ。時に企業は、単純になることでより強くなる——中核に集中し、他の部分を新しい手のもとで栄えさせて。何を保ち何を手放すかを知ることは、ビジネスで最も難しく重要な技能の一つだ。",
-        quiz: [
-          { q: "「事業売却（ダイベスティチャー）」とは？", options: ["企業が自らの一部を売ること", "他社を買うこと", "会社を閉じること"], answer: 0 },
-          { q: "企業が一部を売る理由は？", options: ["最も得意なことに集中し、お金も生めるから", "客を減らすため", "成長を止めるため"], answer: 0 },
-          { q: "本文の教訓は？", options: ["時に単純になることでより強くなる", "常に大きくなるべき", "部門は絶対に売るべきでない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0829-2",
-        title: "Getting a Space Telescope Ready to Fly",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Building a space telescope is one thing; getting it safely into space is another. Recently, a new NASA telescope was carefully sealed inside the top of a rocket, nearly ready for its journey into orbit. Before a telescope can explore the universe, it must survive one of the most dangerous moments of all: the launch.\nWhy is launch so risky? A rocket shakes violently and roars with enormous power as it climbs. A delicate telescope, full of mirrors and sensitive instruments, must be protected from these forces. Engineers place it inside a protective cover, called a fairing, at the top of the rocket. The fairing shields the telescope from the wind and heat of the climb, then falls away once the rocket is high enough.\nGetting ready to launch takes years of careful work. Every part is tested again and again. Engineers check that the telescope can handle the shaking, the cold of space, and the heat of the Sun. A single mistake could ruin a machine that cost billions and took a decade to build.\nWhy go to all this trouble? Once in space, above the blur of Earth's atmosphere, a telescope can see the universe with amazing clarity. This new one will survey huge areas of the sky, helping astronomers study distant galaxies and hidden parts of the cosmos.\nThe careful preparation reminds us that great discoveries depend on patient engineering. Long before a telescope sends back its first stunning image, thousands of people work quietly to make sure it survives the short, violent ride to the stars.",
-        summaryJa: "宇宙望遠鏡を作ることと、それを安全に宇宙へ送ることは別だ。最近、NASAの新しい望遠鏡が、軌道への旅にほぼ準備が整い、ロケットの先端に慎重に封じられた。望遠鏡が宇宙を探れるようになる前に、最も危険な瞬間の一つ——打ち上げ——を生き延びねばならない。なぜ打ち上げはそれほど危険か。ロケットは登るとき激しく揺れ、莫大な力で轟く。鏡と敏感な機器で満ちた繊細な望遠鏡は、これらの力から守られねばならない。技術者はそれを、ロケットの先端の「フェアリング」と呼ばれる保護カバーの中に置く。フェアリングは登る際の風と熱から望遠鏡を守り、ロケットが十分高くなると外れて落ちる。打ち上げの準備には何年もの丁寧な作業がかかる。あらゆる部品が何度も試験される。技術者は、望遠鏡が揺れ・宇宙の寒さ・太陽の熱に耐えられるか確認する。一つの誤りが、数十億かけ10年かけて作った機械を台無しにしうる。なぜそこまでするのか。ひとたび宇宙、地球の大気のぼやけの上に出れば、望遠鏡は驚くほどの鮮明さで宇宙を見られる。この新しいものは空の広い領域を調査し、天文学者が遠い銀河や宇宙の隠れた部分を研究するのを助ける。この入念な準備は、偉大な発見が忍耐強い工学に支えられていることを思い出させる。望遠鏡が最初の見事な画像を送り返すはるか前に、何千もの人が、それが星々への短く激しい旅を生き延びるよう、静かに働くのだ。",
-        quiz: [
-          { q: "打ち上げが危険な理由は？", options: ["ロケットが激しく揺れ莫大な力で登るから", "宇宙が暗いから", "望遠鏡が軽いから"], answer: 0 },
-          { q: "「フェアリング」の役割は？", options: ["登る際の風と熱から望遠鏡を守り、後で外れる", "写真を撮る", "燃料を運ぶ"], answer: 0 },
-          { q: "宇宙に出た望遠鏡の利点は？", options: ["大気のぼやけの上で驚くほど鮮明に宇宙を見られる", "重くなる", "暗くなる"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0829-3",
-        title: "Clean Water for Everyone",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Turning on a tap and getting safe, clean water may seem ordinary. But for millions of people around the world, clean water is not so easy to find. Making sure that everyone has access to safe drinking water is one of the most important challenges facing our planet.\nWhy is clean water so vital? Our bodies need water to survive, but dirty water can carry diseases that make people very sick, especially children. When water is scarce or unsafe, people may spend hours each day walking to collect it, time that could be used for school or work. Clean water is closely tied to health, education, and the chance for a better life.\nWhy do some places lack it? In many regions, there are no pipes to carry water to homes, or the local water is polluted. Droughts, growing populations, and damaged environments can make the problem worse. Building and maintaining water systems is expensive and takes years.\nWhat is being done? Around the world, governments, charities, and communities work to bring clean water to more people. They dig wells, build simple filters, repair pipes, and teach people how to keep water safe. New technologies can even pull clean water from dirty sources or from the air.\nProgress has been real, and far more people have clean water today than in the past. Yet much work remains. The goal is simple but powerful: that everyone, everywhere, can drink safely without fear. Few things do more to improve human life than the quiet gift of clean, safe water.",
-        summaryJa: "蛇口をひねって安全で清潔な水を得ることは、当たり前に思えるかもしれない。だが世界中の何百万もの人にとって、清潔な水はそう簡単には見つからない。誰もが安全な飲み水を手にできるようにすることは、私たちの惑星が直面する最も重要な課題の一つだ。なぜ清潔な水はそれほど不可欠か。私たちの体は生きるために水を必要とするが、汚れた水は、特に子どもをひどく病気にする病を運びうる。水が乏しいか安全でないと、人々はそれを汲みに毎日何時間も歩くかもしれない——学校や仕事に使えたはずの時間だ。清潔な水は、健康・教育・より良い暮らしの機会と密接に結びつく。なぜ一部の場所に水がないのか。多くの地域で、水を家へ運ぶ管がないか、地元の水が汚染されている。干ばつ・人口増加・損なわれた環境が問題を悪化させうる。水道の建設と維持は高価で何年もかかる。何が行われているのか。世界中で、政府・慈善団体・地域が、より多くの人に清潔な水を届けようと取り組む。井戸を掘り、簡素なろ過器を作り、管を直し、水を安全に保つ方法を教える。新しい技術は、汚れた源や空気からさえ清潔な水を引き出せる。進歩は本物で、今日は過去よりずっと多くの人が清潔な水を持つ。だが多くの仕事が残る。目標は単純だが力強い——どこの誰もが、恐れずに安全に飲めること。清潔で安全な水という静かな贈り物ほど、人の暮らしを改善するものは少ない。",
-        quiz: [
-          { q: "清潔な水が不可欠な理由は？", options: ["汚れた水は病を運び、水汲みが時間を奪うから", "水は不要だから", "水は無限だから"], answer: 0 },
-          { q: "一部の場所に清潔な水がない理由は？", options: ["管がない・水が汚染・干ばつや人口増など", "水が多すぎる", "誰も飲まない"], answer: 0 },
-          { q: "この課題の目標は？", options: ["どこの誰もが恐れずに安全に飲めること", "一部の人だけ飲むこと", "水を減らすこと"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0829-4",
-        title: "Japan's Trains: Famous for Being on Time",
-        level: "★★☆",
-        genre: "日本",
-        text: "Around the world, Japan's trains are famous for one thing above all: they are almost always on time. In many countries, a train that is a few minutes late is normal. In Japan, being even one minute late is considered a real problem, and it is rare. This remarkable punctuality is a small window into Japanese culture.\nHow do the trains stay so punctual? A huge amount of careful planning lies behind it. Schedules are designed down to the second, and staff work hard to keep everything running smoothly. Drivers, station workers, and control centers all cooperate closely. When something does go wrong, teams act quickly to fix it and get trains back on time.\nWhy does punctuality matter so much in Japan? Being on time is seen as a form of respect — respect for other people's time and for the promise made by the schedule. Millions of people depend on trains every day to get to work and school, so reliability is essential. A culture that values order and consideration for others naturally values trains that keep their word.\nThere is a cost to this precision. Staff face great pressure, and the system must be carefully managed. But for passengers, the reward is a service they can truly trust.\nJapan's punctual trains are more than a convenience. They are a daily example of a deeper value: doing a job carefully, reliably, and with respect for others. In the quiet arrival of a train exactly on time, you can see something important about how a whole society chooses to work.",
-        summaryJa: "世界中で、日本の電車は何よりも一つのことで有名だ——ほぼ常に時間通りなのだ。多くの国で、数分遅れる電車は普通だ。日本では、一分の遅れさえ本当の問題と見なされ、それは稀だ。この驚くべき時間の正確さは、日本文化をのぞく小さな窓だ。電車はどうしてそれほど時間通りなのか。その背後には膨大な入念な計画がある。時刻表は秒単位まで設計され、職員はすべてを滑らかに動かそうと懸命に働く。運転士・駅員・指令センターがみな緊密に協力する。何か問題が起きても、チームが素早く対応して直し、電車を定刻に戻す。なぜ日本で時間の正確さがそれほど重要か。時間を守ることは敬意の一形態と見なされる——他者の時間への、そして時刻表が交わした約束への敬意だ。何百万もの人が毎日、仕事や学校へ行くのに電車に頼るので、信頼性は不可欠だ。秩序と他者への配慮を重んじる文化は、自然と、約束を守る電車を重んじる。この正確さには代償もある。職員は大きな重圧に直面し、システムは注意深く管理されねばならない。だが乗客にとって、その報酬は本当に信頼できるサービスだ。日本の時間通りの電車は、便利さ以上のものだ。より深い価値の日々の例だ——仕事を丁寧に、確実に、他者への敬意を持って行うこと。ちょうど定刻の電車の静かな到着に、社会全体がどう働くことを選ぶかについての、大切な何かが見える。",
-        quiz: [
-          { q: "日本の電車が有名な理由は？", options: ["ほぼ常に時間通りなこと", "とても速いことだけ", "とても安いことだけ"], answer: 0 },
-          { q: "日本で時間の正確さが重要な理由は？", options: ["時間を守ることが他者への敬意と見なされるから", "電車が少ないから", "時刻表がないから"], answer: 0 },
-          { q: "本文が示すより深い価値は？", options: ["仕事を丁寧に確実に他者への敬意を持って行う", "速さだけが大切", "遅れは問題ない"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0829-5",
-        title: "A Cosmic Mystery: The Little Red Dots",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "When scientists point a powerful telescope at the sky, they usually expect to find things they already understand. But sometimes they find a puzzle. Recently, astronomers spotted strange objects in images of the distant, early universe: tiny, faint 'red dots' that do not match anything they had seen before. Explaining what they are has become one of the most interesting mysteries in astronomy.\nWhy are they so puzzling? These little red dots appear to come from a very long time ago, when the universe was young. They are unusually red and small, and they do not fit neatly into the known types of galaxies or stars. Scientists are not yet sure what could produce such objects.\nOne exciting idea is that they may be powered by a strange kind of object: a young, fast-growing black hole wrapped in thick gas. Such a 'black hole star' would glow in an unusual way, which might explain the red color. But this is just one possibility, and researchers are still testing many ideas.\nWhy does this matter? Studying these dots could teach us how the first galaxies and black holes formed, in the earliest chapters of the universe's history. Solving the puzzle might change what we know about how the cosmos grew up.\nMysteries like this show science at its best. When something does not fit, scientists do not ignore it — they investigate, propose ideas, and test them carefully. The little red dots are a reminder that the universe still holds surprises, waiting to be understood by those patient enough to look.",
-        summaryJa: "科学者が強力な望遠鏡を空へ向けるとき、たいてい既に理解しているものが見つかると期待する。だが時に、謎に出くわす。最近、天文学者は、遠い初期の宇宙の画像の中に奇妙な天体を見つけた——これまで見たどれとも一致しない、小さく淡い「赤い点」だ。それが何かを説明することは、天文学で最も興味深い謎の一つになった。なぜそれほど不可解か。これらの小さな赤い点は、宇宙が若かった、非常に昔から来ているようだ。異常に赤く小さく、既知の銀河や星の種類にきれいには当てはまらない。科学者は、何がそんな天体を生みうるのか、まだ確かでない。胸躍る一つの発想は、それらが奇妙な種類の天体——厚いガスに包まれた、若く急成長するブラックホール——に動かされているかもしれない、というものだ。そんな「ブラックホール星」は変わった光り方をし、それが赤い色を説明するかもしれない。だがこれは一つの可能性にすぎず、研究者はまだ多くの考えを試している。なぜ重要か。これらの点を研究することは、宇宙の歴史の最も初期の章で、最初の銀河やブラックホールがどう形成されたかを教えうる。謎を解けば、宇宙がどう育ったかについて私たちの知ることが変わるかもしれない。こうした謎は、科学の最良の姿を示す。何かが当てはまらないとき、科学者はそれを無視しない——調べ、考えを提案し、慎重に試す。小さな赤い点は、宇宙が今も驚きを秘め、見るだけの忍耐を持つ者に理解されるのを待っていることを思い出させる。",
-        quiz: [
-          { q: "天文学者が見つけた謎の天体は？", options: ["既知のどれとも一致しない小さく淡い「赤い点」", "普通の星", "地球の写真"], answer: 0 },
-          { q: "「赤い点」を説明する胸躍る一つの発想は？", options: ["厚いガスに包まれた若いブラックホールかもしれない", "ただの光の誤り", "望遠鏡の故障"], answer: 0 },
-          { q: "こうした謎が示す科学の姿は？", options: ["当てはまらないものを調べ考えを提案し試す", "謎を無視する", "推測だけで断定する"], answer: 0 }
-        ]
-      }
-    ]
-  }
+    }
   ] };
