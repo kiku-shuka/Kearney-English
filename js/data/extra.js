@@ -103,7 +103,19 @@ KE_DATA.extraSentences = [
   { id: "w2635-s09", ja: "認識を合わせるために、一度整理させてください。", en: "Let me recap so we're all on the same page.", note: "recap = 要点をまとめ直す" },
   { id: "w2635-s10", ja: "その提案には一長一短がありますね。", en: "That proposal has its pros and cons.", note: "pros and cons = 良い点と悪い点" },
   { id: "w2635-s11", ja: "無理のない範囲で対応します。", en: "I'll handle it as much as is reasonable.", note: "reasonable = 無理のない・妥当な" },
-  { id: "w2635-s12", ja: "最後に、次回までの宿題を確認しましょう。", en: "Finally, let's confirm the action items before next time.", note: "action items = 宿題・やるべきこと" }
+  { id: "w2635-s12", ja: "最後に、次回までの宿題を確認しましょう。", en: "Finally, let's confirm the action items before next time.", note: "action items = 宿題・やるべきこと" },
+  { id: "w2636-s01", ja: "本題に入る前に、簡単に自己紹介させてください。", en: "Before we get started, let me briefly introduce myself.", note: "before we get started = 本題の前に" },
+  { id: "w2636-s02", ja: "その数字の根拠を教えていただけますか。", en: "Could you tell me the basis for that number?", note: "basis = 根拠" },
+  { id: "w2636-s03", ja: "申し訳ありませんが、少し遅れそうです。", en: "I'm afraid I'll be a little late.", note: "I'm afraid ... = 残念ながら（丁寧な前置き）" },
+  { id: "w2636-s04", ja: "この提案は長期的に見れば理にかなっています。", en: "This proposal makes sense in the long run.", note: "in the long run = 長期的には" },
+  { id: "w2636-s05", ja: "まず優先すべきことを整理しましょう。", en: "Let's first sort out our priorities.", note: "sort out = 整理する" },
+  { id: "w2636-s06", ja: "ご質問があれば、いつでもお知らせください。", en: "If you have any questions, please let me know anytime.", note: "丁寧な締めの定番" },
+  { id: "w2636-s07", ja: "その件については、後ほど詳しく説明します。", en: "I'll go into more detail on that later.", note: "go into detail = 詳しく述べる" },
+  { id: "w2636-s08", ja: "これは想定内の結果です。", en: "This result is within our expectations.", note: "within expectations = 想定内" },
+  { id: "w2636-s09", ja: "予算を超えないよう気をつけましょう。", en: "Let's be careful not to go over budget.", note: "go over budget = 予算を超える" },
+  { id: "w2636-s10", ja: "一歩下がって全体像を見てみましょう。", en: "Let's step back and look at the big picture.", note: "step back = 一歩引いて考える" },
+  { id: "w2636-s11", ja: "その点について、少し考える時間をいただけますか。", en: "Could I have some time to think about that?", note: "丁寧に保留を求める型" },
+  { id: "w2636-s12", ja: "では、今日はこのあたりで終わりましょう。", en: "Well then, let's wrap up for today.", note: "wrap up = 締めくくる" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -139,7 +151,15 @@ KE_DATA.extraPhrases = [
   { id: "w2634-p05", en: "That's on my radar.", ja: "それは把握しています。", tip: "on my radar = 認識済み・気にかけている" },
   { id: "w2634-p06", en: "Let's touch base after lunch.", ja: "昼食後に状況を確認し合いましょう。", tip: "touch base = 近況を確認する" },
   { id: "w2634-p07", en: "I'll run it by my manager.", ja: "上司に確認してみます。", tip: "run it by = 〜に相談・確認する" },
-  { id: "w2634-p08", en: "Let's park this and move on.", ja: "これは一旦置いて先に進みましょう。", tip: "park = 一旦保留にする" }
+  { id: "w2634-p08", en: "Let's park this and move on.", ja: "これは一旦置いて先に進みましょう。", tip: "park = 一旦保留にする" },
+  { id: "w2636-p01", en: "Let me play devil's advocate for a moment.", ja: "少しあえて反対の立場から言わせてください。", tip: "議論を深めるための前置き" },
+  { id: "w2636-p02", en: "Let's not reinvent the wheel.", ja: "一から作り直すのはやめましょう。", tip: "reinvent the wheel = 車輪の再発明（無駄なやり直し）" },
+  { id: "w2636-p03", en: "Can we take this offline?", ja: "この件は後で個別に話しませんか。", tip: "take offline = 会議の場でなく後で個別に話す" },
+  { id: "w2636-p04", en: "I'll circle back on that.", ja: "その件はまた改めて連絡します。", tip: "circle back = 後で戻って対応する" },
+  { id: "w2636-p05", en: "Let's align on the next steps.", ja: "次のステップについて認識を合わせましょう。", tip: "align on = 〜で合意・認識を揃える" },
+  { id: "w2636-p06", en: "That's a fair point.", ja: "それはもっともな指摘ですね。", tip: "相手の意見を尊重して受け止める型" },
+  { id: "w2636-p07", en: "Let's keep this on the back burner for now.", ja: "これはひとまず優先度を下げておきましょう。", tip: "on the back burner = 後回しにする" },
+  { id: "w2636-p08", en: "Correct me if I'm wrong, but ...", ja: "間違っていたら訂正してほしいのですが…", tip: "認識確認をやわらかく切り出す型" }
 ];
 
 /* シャドーイングの追加スクリプト（shadowing.js と同スキーマ） */
@@ -287,6 +307,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Great. Let's meet every Monday to check progress.", ja: "助かります。進捗確認は毎週月曜にしましょう。" },
       { s: "B", en: "Works for me. I'm looking forward to it.", ja: "私は大丈夫です。楽しみにしています。" }
     ]
+  },
+  {
+    id: "w2636-sh1",
+    title: "顧客からのクレーム対応",
+    level: "★★★",
+    description: "商品の不具合について顧客の苦情を受け止め、謝罪し、原因を確認して解決策を示し、信頼を取り戻す場面。共感・謝罪・提案の型を身につける。",
+    lines: [
+      { s: "A", en: "I'm calling because the product I received last week isn't working properly.", ja: "先週届いた商品がきちんと動かないので電話しました。" },
+      { s: "B", en: "I'm very sorry to hear that. Thank you for letting us know.", ja: "それは申し訳ありません。お知らせいただきありがとうございます。" },
+      { s: "A", en: "It stops suddenly after a few minutes. It's really frustrating.", ja: "数分で突然止まるんです。本当に困っています。" },
+      { s: "B", en: "I completely understand. Let me check what might be causing this.", ja: "お気持ちよく分かります。原因を確認させてください。" },
+      { s: "A", en: "I hope so. I need it for work every day.", ja: "そう願います。毎日仕事で使うので。" },
+      { s: "B", en: "May I ask when you first noticed the problem?", ja: "問題に最初に気づいたのはいつでしょうか？" },
+      { s: "A", en: "The very first day I used it.", ja: "使い始めた初日からです。" },
+      { s: "B", en: "Thank you. It sounds like a defective unit, so we'll send a replacement today.", ja: "ありがとうございます。初期不良のようですので、本日交換品をお送りします。" },
+      { s: "A", en: "That would be great. How long will it take?", ja: "助かります。どれくらいかかりますか？" },
+      { s: "B", en: "You'll have it within two days, and we'll cover the shipping. Again, I'm sorry for the trouble.", ja: "2日以内にお届けし、送料は当社が負担します。ご迷惑をおかけし重ねてお詫びします。" }
+    ]
   }
 ];
 
@@ -387,8 +425,41 @@ KE_DATA.extraPrep = [
   {
     id: "w2635-t03", ja: "企業は今から量子コンピューターへの備えを始めるべきだと思いますか？", en: "Should companies start preparing for quantum computing now?",
     sample: { point: "Yes, I believe companies should start preparing for quantum computing now, even though it is still early.", reason: "The main reason is that this technology could eventually break today's encryption and change how we protect data.", example: "For example, investors are already putting large sums into quantum startups, and some firms are testing 'quantum-safe' security ahead of time.", point2: "So learning and preparing early is wiser than being caught off guard later." }
+  },
+  {
+    id: "w2636-t01", ja: "国は自国の半導体（チップ）工場を持つべきだと思いますか？", en: "Should countries build their own semiconductor (chip) factories?",
+    sample: { point: "Yes, I think it is wise for countries to build at least some of their own chip factories.", reason: "The main reason is that almost every modern device needs chips, so depending entirely on other countries is risky if supply is ever cut off.", example: "For example, when chip supplies became tight a few years ago, factories making cars and electronics around the world had to slow down or even stop.", point2: "So having some domestic production is a sensible form of insurance, even if it is expensive." }
+  },
+  {
+    id: "w2636-t02", ja: "リモートワークは企業にとっても働く人にとっても良いと思いますか？", en: "Is remote work good for both companies and workers?",
+    sample: { point: "In my view, remote work can be good for both sides if it is managed well.", reason: "This is because workers save commuting time and gain flexibility, while companies can hire talent from anywhere and reduce office costs.", example: "For example, many companies now use a hybrid style, with some days at home and some in the office, to keep both focus and teamwork.", point2: "So rather than all or nothing, a balanced approach usually brings the most benefits." }
+  },
+  {
+    id: "w2636-t03", ja: "キャリアのためには、大企業と新興企業（スタートアップ）のどちらに入る方が良いと思いますか？", en: "For your career, is it better to join a big company or a startup?",
+    sample: { point: "I think the better choice depends on what you want at that stage of your career.", reason: "This is because a big company offers stability, training, and a strong brand, while a startup offers speed, variety, and a chance to take on big responsibility early.", example: "For example, a new graduate might learn solid basics at a large firm, while someone who wants to grow fast and try many roles might do better at a startup.", point2: "So instead of asking which is better in general, it is wiser to ask which one fits your own goals right now." }
   }
 ];
 
 /* ロールプレイの追加シナリオ（scenarios.js と同スキーマ） */
-KE_DATA.extraScenarios = [];
+KE_DATA.extraScenarios = [
+  {
+    id: "w2636-rp1",
+    title: "クライアントとのスコープ変更の交渉",
+    level: "★★★",
+    userRole: "プロジェクトリーダー（あなた）",
+    partnerRole: "クライアントの責任者（Michael）",
+    description: "当初の想定より作業範囲が広がったため、追加のスコープと期間・体制の見直しをクライアントに提案し、合意を目指す場面。",
+    turns: [
+      { speaker: "partner", en: "Thanks for setting up this meeting. You mentioned there's something about the project scope?", ja: "会議を設定してくれてありがとう。プロジェクトの範囲について何かあるとのことでしたね？" },
+      { speaker: "user", task: "会議の目的を伝える（スコープの見直しを相談したい）", model: "Yes. Thank you for your time. I'd like to discuss a change in the project scope with you.", ja: "はい。お時間ありがとうございます。プロジェクトの範囲の変更についてご相談したいのです。", hints: ["I'd like to discuss ...", "a change in the project scope"] },
+      { speaker: "partner", en: "Okay. What kind of change are we talking about?", ja: "わかりました。どのような変更でしょうか？" },
+      { speaker: "user", task: "状況を説明する（データが想定より複雑で作業が増えた）", model: "As we started the analysis, we found the data is more complex than expected, so it requires more work than planned.", ja: "分析を始めたところ、データが想定より複雑で、計画より多くの作業が必要だと分かりました。", hints: ["more complex than expected", "requires more work than planned"] },
+      { speaker: "partner", en: "I see. So what do you suggest?", ja: "なるほど。それで、どうすればよいと？" },
+      { speaker: "user", task: "提案する（2週間の延長とアナリスト1名の追加）", model: "I'd suggest extending the timeline by two weeks and adding one more analyst to the team.", ja: "スケジュールを2週間延長し、チームにアナリストを1名追加することを提案します。", hints: ["extend the timeline by ...", "add one more analyst"] },
+      { speaker: "partner", en: "That will affect the budget, won't it?", ja: "それは予算に影響しますよね？" },
+      { speaker: "user", task: "コストへの影響を正直に伝えつつ価値を示す", model: "Yes, it will increase the cost by about ten percent, but it will make the final results much more reliable.", ja: "はい、費用は約10％増えますが、最終成果の信頼性が大きく高まります。", hints: ["increase the cost by ...", "much more reliable"] },
+      { speaker: "partner", en: "Let me think about it. Can you send me a short written proposal?", ja: "少し考えさせてください。簡単な提案書を送ってもらえますか？" },
+      { speaker: "user", task: "承諾し、期限を約束して締める", model: "Of course. I'll send you a one-page proposal by tomorrow afternoon. Thank you for considering it.", ja: "もちろんです。明日の午後までに1枚の提案書をお送りします。ご検討ありがとうございます。", hints: ["I'll send you ... by ...", "Thank you for considering it"] }
+    ]
+  }
+];
