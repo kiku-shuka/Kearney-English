@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-06",
+    passages: [
+      {
+        id: "d0906-1",
+        title: "Why the World Picks a 'Color of the Year'",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Every year, certain companies announce a \"color of the year.\" It might be a warm red, a calm blue, or even a soft white. This may sound like a small thing, but the choice can influence fashion, product design, and shopping around the world. Behind it lies a surprising amount of business thinking.\n\nWhy does a single color matter so much? Colors carry feelings. A bright shade can feel cheerful and bold, while a gentle tone can feel calm and clean. When experts choose a color of the year, they are trying to capture the mood of the moment — what people are feeling and wanting right now.\n\nFor businesses, this trend is useful. Clothing makers, furniture designers, and even phone companies watch these choices closely. If they use the popular color, their products may feel fresh and modern, and easier to sell. Stores can build displays and advertisements around the same shade.\n\nOf course, no one is forced to follow the trend. Many people simply buy the colors they personally like. The color of the year is a suggestion, not a rule, and next year it will change again.\n\nStill, it shows how deeply design shapes business. A single well-chosen color can send a message without words, connect a product to a feeling, and quietly guide what millions of people decide to buy.",
+        summaryJa: "毎年、ある企業が「今年の色」を発表する。暖かい赤や落ち着いた青、柔らかい白のこともある。小さなことに聞こえるが、この選択は世界のファッションや製品デザイン、買い物に影響しうる。背景には意外なほどのビジネス的な考えがある。なぜ一つの色がそれほど重要なのか。色は感情を運ぶ。明るい色は陽気で大胆に、優しい色は穏やかで清潔に感じられる。専門家は「今年の色」で今の気分——人々が感じ求めているもの——を捉えようとする。企業には有用で、衣類や家具、電話の会社も注目する。流行色を使えば製品は新鮮で現代的に感じられ売りやすい。ただし従う義務はなく、あくまで提案で来年また変わる。色一つが言葉なくメッセージを伝え、購買を静かに導く。デザインがいかに深くビジネスを形づくるかを示している。",
+        quiz: [
+          { q: "Why can a single 'color of the year' matter so much?", options: ["Colors carry feelings and can capture the mood of the moment", "Colors have no effect on people", "Only painters care about color"], answer: 0 },
+          { q: "How do businesses use the color of the year?", options: ["They design products and displays around the popular shade", "They ignore it completely", "They stop selling all products"], answer: 0 },
+          { q: "What does the passage say the color of the year really is?", options: ["A strict rule everyone must follow", "A suggestion, not a rule, that changes each year", "A law made by governments"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0906-2",
+        title: "Using AI to Tame a Star",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Deep inside the sun, a powerful process called fusion joins tiny particles together and releases enormous energy. For decades, scientists have dreamed of copying this process on Earth to create clean, almost limitless power. But there is a huge challenge: to do fusion, you must control a gas hotter than the sun, and it is extremely difficult to keep steady.\n\nThis super-hot gas, called plasma, moves in wild and sudden ways. If it becomes unstable, it can damage the machine that holds it. Human operators simply cannot react fast enough to stop these sudden changes. This is where artificial intelligence is beginning to help.\n\nRecently, researchers tested an AI system that watches the plasma and predicts trouble before it happens. In one experiment, the AI sensed a dangerous instability a fraction of a second before it appeared — and adjusted the machine to prevent it. For a computer, that tiny moment is enough time to act.\n\nThis is exciting because controlling plasma is one of the biggest barriers to fusion power. If AI can keep the plasma calm and steady, experiments can run longer and more safely.\n\nFusion energy is still not ready for everyday use, and many problems remain. But by teaming up human scientists with fast, watchful AI, researchers are taking real steps toward a future power source as clean and mighty as a star.",
+        summaryJa: "太陽の奥深くでは「核融合」という強力な過程が小さな粒子を結びつけ、莫大なエネルギーを放つ。科学者は数十年、これを地上で再現し、清潔でほぼ無限の電力を作ることを夢見てきた。だが難題がある。核融合には太陽より熱い気体を制御せねばならず、安定させるのが極めて難しい。この超高温の気体「プラズマ」は激しく突然に動き、不安定になると装置を傷つける。人の操作では反応が間に合わない。そこでAIが助け始めている。最近、研究者はプラズマを監視し問題を事前に予測するAIを試した。ある実験では危険な不安定を一瞬前に察知し、装置を調整して防いだ。プラズマ制御は核融合の最大の壁の一つで、AIが安定させれば実験を長く安全に行える。実用はまだ先だが、人とAIの協働で恒星のように清潔で強力な電源へ着実に進んでいる。",
+        quiz: [
+          { q: "What is the big challenge in creating fusion power on Earth?", options: ["Controlling a gas hotter than the sun and keeping it steady", "Finding enough sunlight", "Making the machine colder than ice"], answer: 0 },
+          { q: "How is AI beginning to help with fusion?", options: ["It watches the plasma and predicts trouble before it happens", "It makes the plasma hotter on purpose", "It replaces all the scientists"], answer: 0 },
+          { q: "What does the passage say about fusion energy's readiness?", options: ["It is ready for everyday use now", "It is still not ready, and many problems remain", "It will never be possible"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0906-3",
+        title: "Europe Builds Its Own Rockets",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Sending a satellite into space is no longer just the work of a few large nations. Around the world, more countries and companies want the ability to launch rockets on their own. Recently, a European company sent a rocket into orbit from a launch site in northern Europe — a sign of the region's growing wish to reach space independently.\n\nWhy does this matter? Modern life depends on satellites. They power our maps, weather forecasts, television, and much of the internet. A country or region that cannot launch its own satellites must rely on others, and that can be costly or uncertain. Building your own rockets means more control over your own future.\n\nThere is also a business side. The market for launching small satellites is growing fast. Many companies now want cheap, frequent rides to space for their devices. A region with its own rockets can win this business and create skilled jobs at home.\n\nThe work is hard and expensive. Rockets are complex, and failures are common in the early years. Building launch sites, training engineers, and testing designs all take time and money.\n\nStill, the effort reflects a wider truth about our age. Space is becoming part of the everyday economy, not just a place for a few explorers. As more players learn to reach orbit, access to space is slowly becoming something the whole world can share.",
+        summaryJa: "衛星を宇宙へ送ることは、もはや一部の大国だけの仕事ではない。世界中で、より多くの国や企業が自力でロケットを打ち上げる能力を求めている。最近、欧州の企業が北欧の発射場からロケットを軌道に送り、この地域の自立して宇宙に届きたいという思いの高まりを示した。なぜ重要か。現代生活は衛星に依存する。地図や天気予報、テレビ、インターネットの多くを支える。自前で打ち上げられない国や地域は他者に頼らねばならず、費用や不確実さが伴う。自前のロケットは自らの未来をより制御できることを意味する。ビジネス面もあり、小型衛星打ち上げ市場は急成長中で、安く頻繁な便を求める企業が多い。自前のロケットを持つ地域はこの商機をつかみ、熟練の雇用も生む。難しく高価で初期は失敗も多いが、宇宙が日常経済の一部になりつつある時代を映す。宇宙への到達は、少しずつ世界全体が分かち合えるものになっている。",
+        quiz: [
+          { q: "Why does the ability to launch rockets matter to a region?", options: ["Modern life depends on satellites, so launching your own means more control", "Rockets are only for fun", "Satellites are useless today"], answer: 0 },
+          { q: "What is the business reason mentioned in the passage?", options: ["The market for launching small satellites is growing fast", "Nobody wants to launch satellites", "Space travel is now free"], answer: 0 },
+          { q: "What does the passage say about building rockets?", options: ["It is easy and cheap", "It is hard and expensive, and early failures are common", "It takes no time at all"], answer: 1 }
+        ]
+      },
+      {
+        id: "d0906-4",
+        title: "The Meaning of 'Itadakimasu'",
+        level: "★☆☆",
+        genre: "日本",
+        text: "In Japan, people say a special word before they eat: \"itadakimasu.\" Young children learn it at home and at school, and adults say it too, often with their hands pressed together. It looks like a simple greeting, but it carries a deep and beautiful meaning.\n\nThe word is a way of giving thanks. It is not only thanks to the person who cooked the meal. It is also thanks to the farmers who grew the food, the people who brought it to the table, and even the plants and animals that became the meal. In a single word, a person shows respect for the whole journey that the food has made.\n\nAfter eating, there is another word: \"gochisousama.\" This means thank you for the meal, once again showing gratitude when the food is finished. Together, these two phrases wrap every meal in a feeling of appreciation.\n\nFor visitors to Japan, learning these words is an easy and lovely way to join in. Saying \"itadakimasu\" before a meal is polite, and it often makes people smile.\n\nMore than good manners, this custom teaches a gentle lesson. Food does not appear by magic; many hands and lives make it possible. By pausing for one short word, people remember to be thankful. It is a small habit with a warm and lasting spirit.",
+        summaryJa: "日本では食事の前に「いただきます」という特別な言葉を言う。子どもは家庭や学校で学び、大人も手を合わせて言うことが多い。単なる挨拶に見えるが、深く美しい意味を持つ。この言葉は感謝の表し方だ。料理した人へだけでなく、食材を育てた農家、食卓へ運んだ人々、そして食事となった動植物への感謝でもある。一言で、食べ物がたどった道のり全体への敬意を示す。食後には「ごちそうさま」という言葉があり、食べ終えた後に再び感謝を表す。この二つの言葉が毎回の食事を感謝の気持ちで包む。訪日者にとっても覚えるのは簡単で素敵な参加の仕方だ。良い作法以上に、食べ物は魔法のように現れるのではなく多くの手と命が支えているという優しい教えがある。短い一言で立ち止まり、人は感謝を思い出す。温かく長く続く精神を持つ小さな習慣だ。",
+        quiz: [
+          { q: "When do people in Japan say 'itadakimasu'?", options: ["Before they eat a meal", "Only on New Year's Day", "When they go to sleep"], answer: 0 },
+          { q: "What does 'itadakimasu' express thanks for?", options: ["Only the money spent", "The whole journey of the food, including farmers, cooks, and living things", "Nothing in particular"], answer: 1 },
+          { q: "What is 'gochisousama'?", options: ["A word said after eating, to give thanks for the meal", "A kind of food", "A word said before sleeping"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0906-5",
+        title: "Why Do We Get Goosebumps?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Have you ever felt small bumps rise on your skin when you are cold, or when you hear a beautiful piece of music? These little bumps are called goosebumps. They appear in a moment and then fade away. But why does the human body do this at all?\n\nGoosebumps come from tiny muscles at the base of each hair. When these muscles tighten, they pull the hairs upright and push the skin into small bumps. This happens automatically; you cannot decide to make goosebumps appear.\n\nThe reason goes far back into our history. Long ago, our distant ancestors had much more body hair. When they were cold, raising their hair trapped a layer of warm air, like a natural coat. When they faced danger, standing hair made them look bigger and more frightening to enemies. Many animals still use this trick today — think of a frightened cat with its fur standing on end.\n\nFor modern humans, goosebumps are mostly a leftover from that past. We no longer have thick fur, so they do little to keep us warm. Yet they still appear, triggered by cold, fear, or even strong emotion.\n\nGoosebumps are a small, harmless reminder that our bodies carry an ancient story. Every time your skin tingles at a great song, you are feeling a signal millions of years old.",
+        summaryJa: "寒いときや美しい音楽を聞いたとき、肌に小さな粒が立つのを感じたことはないだろうか。これを鳥肌という。一瞬で現れ、やがて消える。なぜ体はこんなことをするのか。鳥肌は各毛の根元にある小さな筋肉から生じる。この筋肉が縮むと毛を立て、肌を小さな粒にする。自動的に起き、自分では作れない。理由は歴史の遠い昔にさかのぼる。祖先はもっと体毛が多く、寒いとき毛を立てて暖かい空気の層を作り、天然のコートのようにした。危険に直面すると、逆立つ毛は体を大きく恐ろしく見せた。多くの動物は今もこの技を使う——毛を逆立てた怯えた猫を思い浮かべてほしい。現代人には過去の名残で、厚い毛がないので保温の役はほとんどないが、寒さや恐れ、強い感情で今も現れる。鳥肌は体が古い物語を宿す小さな無害な合図だ。",
+        quiz: [
+          { q: "What causes goosebumps to appear?", options: ["Tiny muscles at the base of each hair tighten and pull the hairs upright", "Water on the skin", "A special food"], answer: 0 },
+          { q: "Why did goosebumps help our distant ancestors?", options: ["Raised hair trapped warm air and made them look bigger to enemies", "They made people run faster", "They cooled the body down"], answer: 0 },
+          { q: "What are goosebumps for modern humans?", options: ["A vital way to stay warm", "Mostly a leftover from our past, since we no longer have thick fur", "A recent invention"], answer: 1 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-05",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why is PVC a problem for recycling?", options: ["It is hard to break down and reuse", "It is never used in daily products", "It disappears on its own quickly"], answer: 0 },
           { q: "What did researchers turn PVC into, in the study?", options: ["A new kind of food", "A useful ingredient for lubricants", "A type of glass"], answer: 1 },
           { q: "What question does the passage say scientists are learning to ask?", options: ["How do we throw this away?", "What else could this become?", "Why do we need plastic at all?"], answer: 1 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-08-30",
-    passages: [
-      {
-        id: "d0830-1",
-        title: "When Everything Becomes a Subscription",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Not long ago, people bought things once and owned them forever. You bought a music album, a car, or a piece of software, and it was yours. Today, more and more companies want you to pay a small fee every month instead. This is called the \"subscription model,\" and it now covers music, movies, games, software, and even cars and clothes.\n\nFor companies, subscriptions are attractive. Instead of selling a product once, they earn money again and again. This steady income makes it easier to plan for the future. It also helps companies build a long relationship with each customer.\n\nFor customers, the benefits are real too. You can enjoy a huge library of music or films for less than the price of a single album. You always get the newest version, and you can stop whenever you want.\n\nHowever, there is a hidden problem. Because each service seems cheap, people sign up for many of them. Soon the small fees add up, and a household may pay for services it rarely uses. Some companies also raise their prices slowly, hoping customers will not notice.\n\nThe smart approach is simple. Once or twice a year, look at your list of subscriptions. Keep the ones you truly use, and cancel the rest. In the age of \"subscribe to everything,\" the most valuable skill may be knowing when to say no.",
-        summaryJa: "かつては一度買えば自分のものだったが、今は毎月少額を払う「サブスク」が音楽・映画・ソフト・車にまで広がっている。企業は安定収入を得られ、利用者も安く多くを楽しめる。ただし安く見えるため契約が増えすぎ、使わないサービスに払い続けがち。年に一度見直し、本当に使うものだけ残すのが賢い。",
-        quiz: [
-          { q: "Why do companies like the subscription model?", options: ["They earn money again and again with steady income", "They can sell products only once", "They never have to talk to customers"], answer: 0 },
-          { q: "What is the 'hidden problem' for customers?", options: ["Services are too hard to use", "Small fees add up when people sign up for many services", "Old versions cannot be updated"], answer: 1 },
-          { q: "What does the passage suggest customers do?", options: ["Subscribe to as many services as possible", "Never use subscriptions at all", "Review their subscriptions and keep only what they use"], answer: 2 }
-        ]
-      },
-      {
-        id: "d0830-2",
-        title: "Getting Ready for Quantum-Safe Security",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Most of the secrets we send over the internet are protected by codes. When you buy something online or send a message, your data is locked with a kind of digital lock. Today's locks are so strong that even the fastest normal computers would need thousands of years to break them.\n\nBut a new kind of machine may change this. Quantum computers work in a completely different way from the computers we use now. They are still young and expensive, but experts believe that one day a powerful quantum computer could break many of today's digital locks in a short time.\n\nThis worries security experts. If such a machine appears, old secrets that were saved years ago could suddenly be opened. For this reason, some companies and governments are not waiting. They are already testing new \"quantum-safe\" codes that even a quantum computer should not be able to break.\n\nChanging the world's digital locks is a huge job. Banks, hospitals, and online stores all use the older system, and updating everything will take years. That is why the work is starting now, long before powerful quantum computers actually exist.\n\nIt may seem strange to prepare for a machine that is not ready yet. But in security, being early is much safer than being late. Companies that begin the change today will be ready when the quantum age finally arrives.",
-        summaryJa: "ネット上の情報は強力な暗号で守られており、今の高速コンピューターでも解読には何千年もかかる。しかし全く仕組みの違う量子コンピューターなら、いつかその暗号を短時間で破れる恐れがある。そこで一部の企業や政府は、量子でも破れない「量子安全」の暗号を今から試している。銀行や病院など全システムの更新には何年もかかるため、機械が完成する前に準備を始めているのだ。",
-        quiz: [
-          { q: "How strong are today's digital locks against normal computers?", options: ["They can be broken in one hour", "They would take normal computers thousands of years to break", "They have already been broken"], answer: 1 },
-          { q: "Why are some companies testing 'quantum-safe' codes now?", options: ["Because quantum computers are already common", "Because updating all systems takes years, so they must start early", "Because normal computers stopped working"], answer: 1 },
-          { q: "What is the main message about security in the passage?", options: ["Being early is safer than being late", "Quantum computers are useless", "Old codes are safe forever"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0830-3",
-        title: "Why Countries Celebrate Friendship Anniversaries",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Every year, countries around the world mark special anniversaries of their friendships. In 2026, for example, several nations celebrate many decades of official ties with one another. These are not just dates on a calendar. They are chances to look back, say thank you, and plan for the future together.\n\nWhy do countries bother with such events? One reason is trust. When two nations have worked together for fifty or seventy years, they have built a habit of talking, trading, and solving problems side by side. Celebrating that history reminds both sides how much they have gained from cooperation.\n\nAnniversaries are also useful for ordinary people. Governments often use them to hold cultural events, student exchanges, and art shows. A young person in one country may taste the food, hear the music, or learn the language of a faraway partner for the first time. These small experiences can shape a lifetime of friendly feelings.\n\nOf course, no relationship between countries is perfect. There are always disagreements about trade, borders, or history. But an anniversary offers a calm moment to focus on what unites rather than what divides.\n\nIn a world that often feels tense, these celebrations send a quiet but powerful message. They show that patience and respect between nations can last for generations, and that friendship, once built, is worth protecting.",
-        summaryJa: "世界各国は毎年、他国との外交関係の節目を祝っている。2026年も多くの国が数十年の友好を記念する。単なる日付ではなく、これまでを振り返り感謝し、未来を共に描く機会だ。長年の協力は信頼を育て、記念行事では文化交流や学生交流も行われ、若者が相手国の文化に触れる。国同士に対立はつきものだが、記念日は共通点に目を向ける穏やかな時間となり、国家間の友好は世代を超えて守る価値があると伝えている。",
-        quiz: [
-          { q: "What is one reason countries celebrate friendship anniversaries?", options: ["To remind both sides of the benefits of cooperation and trust", "To start new arguments about borders", "To stop trading with each other"], answer: 0 },
-          { q: "How do anniversaries help ordinary people?", options: ["They cancel all cultural events", "They offer cultural events and student exchanges", "They force people to move abroad"], answer: 1 },
-          { q: "What message do these celebrations send, according to the passage?", options: ["Friendship between nations cannot last", "Respect between nations can last for generations", "Countries should never disagree"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0830-4",
-        title: "Tokyo's Museums Get a Fresh Start",
-        level: "★★☆",
-        genre: "日本",
-        text: "The year 2026 is an exciting one for museum lovers in Japan. In Tokyo and other cities, several museums are reopening after long renovations, and brand-new cultural spaces are welcoming visitors for the first time. For a country that treasures both its history and its modern art, this is a special moment.\n\nWhy renovate a museum at all? Over time, old buildings need repairs, and the way people enjoy art keeps changing. Visitors today expect wider spaces, better lighting, and clear signs in several languages. Many museums are also adding rest areas, cafés, and rooms designed for children and families. The goal is to make art feel welcoming, not distant.\n\nNew museums bring their own kind of energy. They often focus on modern themes, such as digital art, design, or the work of living artists. Some use screens, sound, and light to create rooms that visitors can walk through and almost step inside. For younger people, these experiences can turn a quiet afternoon into an adventure.\n\nThese changes matter for tourism too. Many travelers now plan whole trips around art and culture. A city with fresh, exciting museums gives visitors one more reason to stay longer and explore.\n\nIn the end, a museum is more than a building full of old objects. It is a place where past and present meet. Japan's renewed museums invite everyone, young and old, to look, wonder, and enjoy.",
-        summaryJa: "2026年は日本の美術館ファンにとって特別な年で、東京などで改装を終えた美術館が再開し、新しい文化施設も開館する。古い建物は修繕が必要で、来館者は広い空間や多言語表示、休憩所やカフェを求めている。新設館はデジタルアートなど現代的なテーマを扱い、光や音で体験型の展示を行う。美術や文化を目的に旅行する人も多く、観光にもつながる。美術館は過去と現在が出会う場所だと結んでいる。",
-        quiz: [
-          { q: "Why do museums need renovation, according to the passage?", options: ["Because old buildings need repairs and visitors' needs change", "Because art is no longer popular", "Because they want fewer visitors"], answer: 0 },
-          { q: "What do many new museums focus on?", options: ["Only very old objects", "Modern themes like digital art and design", "Selling food only"], answer: 1 },
-          { q: "How are the renewed museums connected to tourism?", options: ["They make travelers leave the city faster", "They give visitors a reason to stay longer and explore", "They stop tourists from visiting"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0830-5",
-        title: "New Frogs Hidden in Old Museum Drawers",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "When we think of discovering new animals, we usually imagine scientists deep in a jungle. But sometimes, new species are found much closer to home — inside the quiet drawers of a museum. Recently, researchers announced seven new kinds of small, colorful frogs from the island of Madagascar, and old museum specimens played a key role.\n\nThese frogs are tiny and hard to tell apart. To the human eye, many of them look almost the same. So how did scientists know they were different species? The answer is DNA. By studying the genetic code of both freshly collected frogs and specimens that had sat in museums for a hundred years, researchers could see clear differences that eyes alone would miss.\n\nThis shows how valuable old collections can be. A frog collected long ago, carefully labeled and stored, can still teach us something new today. In a way, scientists from the past sent a gift into the future without knowing it.\n\nDiscovering new species is not only exciting; it is also important. When we know that an animal exists and where it lives, we can work to protect it. Many frogs around the world are in danger, and a species no one has named is easy to lose forever.\n\nSo the next time you visit a museum, remember: behind the display cases, in rows of quiet drawers, future discoveries may already be waiting.",
-        summaryJa: "新種の発見というとジャングルを思い浮かべるが、博物館の引き出しの中で見つかることもある。研究者はマダガスカルの小さくカラフルなカエル7種を新種として発表し、100年前の標本が重要な役割を果たした。見た目はそっくりでも、新しい個体と古い標本のDNAを比べると違いが分かった。昔ていねいに保存された標本が今も新事実を教えてくれる。新種を知り生息地が分かれば保護もでき、名前のない種は失われやすい。博物館には未来の発見が眠っている。",
-        quiz: [
-          { q: "Where were clues to the new frog species found, besides in the wild?", options: ["In old museum specimens and drawers", "In a jungle only", "In the ocean"], answer: 0 },
-          { q: "How did scientists tell the frogs apart when they looked almost the same?", options: ["By their color only", "By studying their DNA", "By their size only"], answer: 1 },
-          { q: "Why does the passage say discovering new species is important?", options: ["Because it makes museums richer", "Because knowing an animal exists helps us protect it", "Because frogs are dangerous"], answer: 1 }
         ]
       }
     ]
