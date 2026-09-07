@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-07",
+    passages: [
+      {
+        id: "d0907-1",
+        title: "What Makes a Good Business Meeting?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Meetings are a normal part of working life, yet many people quietly dread them. Too often, a meeting runs long, wanders off topic, and ends without any clear result. But a good meeting can be one of the most useful tools a team has. What separates a helpful meeting from a waste of time?\n\nThe first key is a clear purpose. Before a meeting begins, everyone should know why they are there and what needs to be decided. A short agenda, shared in advance, helps people prepare and keeps the discussion on track. If no one can explain the goal, perhaps the meeting is not needed at all.\n\nThe second key is respect for time. A good meeting starts and ends when it is supposed to. The leader gently steers the group back if the talk drifts, and makes sure quieter members also get a chance to speak. Good ideas can come from anyone.\n\nFinally, a strong meeting ends with clear next steps. Before people leave, they should know who will do what, and by when. Without this, even a lively discussion can lead to nothing.\n\nMeetings will always be part of business, but they do not have to be painful. With a clear purpose, careful timing, and firm follow-up, a meeting can turn a group of busy people into a team that truly moves forward together.",
+        summaryJa: "会議は仕事につきものだが、多くの人が密かに嫌っている。長引き、脱線し、結論なく終わることが多いからだ。だが良い会議はチームにとって最も有用な道具の一つになりうる。有益な会議と時間の無駄を分けるものは何か。第一は明確な目的。始める前に、なぜ集まり何を決めるべきかを全員が知るべきだ。事前に共有する短い議題は準備を助け議論を軌道に保つ。目的を説明できないなら会議は不要かもしれない。第二は時間の尊重。良い会議は予定通り始まり終わる。進行役は脱線を戻し、静かな人にも発言の機会を与える。良い案は誰からでも出る。最後に、良い会議は明確な次の一歩で終わる。誰がいつまでに何をするかを決める。これがないと活発な議論も実を結ばない。目的・時間管理・確実なフォローで、会議は前に進むチームを作る。",
+        quiz: [
+          { q: "What is the first key to a good meeting?", options: ["A clear purpose that everyone knows in advance", "Making it as long as possible", "Having no agenda"], answer: 0 },
+          { q: "How does a good leader respect time in a meeting?", options: ["By starting and ending on time and steering the talk back on topic", "By letting only one person speak", "By ignoring the schedule"], answer: 0 },
+          { q: "How should a strong meeting end?", options: ["With clear next steps: who will do what, and by when", "With no decisions at all", "By starting a new topic"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0907-2",
+        title: "Computer Memory That Sips Energy",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Every phone, laptop, and data center relies on memory — the part of a computer that stores information. Each time memory saves or changes a piece of data, it uses a tiny bit of energy. On its own, that amount is very small. But with billions of devices working every second, all those tiny bits add up to a huge demand for power.\n\nThat is why scientists are excited about a new kind of memory that uses far less energy than today's technology. The idea involves storing information using magnetism, then switching it in a cleverer, gentler way. Instead of forcing a change with a strong push of electricity, the new method nudges the memory using much less power.\n\nWhy does this matter so much? Lower energy use brings several benefits at once. Devices could run longer on a single battery charge. Large data centers, which already use enormous amounts of electricity, could cut their power bills and their effect on the planet. And devices might produce less heat, making them easier to keep cool.\n\nThe technology is still in the laboratory, and turning a promising experiment into a product takes years of careful work. Not every bright idea reaches the market.\n\nEven so, this line of research points toward an important goal: computers that do more while using less. In a world full of hungry machines, memory that only sips energy could make a real difference.",
+        summaryJa: "スマホもノートPCもデータセンターも「メモリ」——情報を蓄える部分——に頼る。メモリがデータを保存・変更するたびに、ごくわずかな電力を使う。単体では極小だが、何十億もの機器が毎秒動くと、その小さな量が膨大な電力需要になる。だから科学者は、今の技術よりはるかに少ない電力で動く新しいメモリに期待している。着想は磁気で情報を蓄え、より賢く穏やかに切り替えるものだ。強い電流で無理に変えるのでなく、はるかに少ない電力でそっと促す。なぜ重要か。低消費電力は複数の利点をもたらす。機器は一度の充電で長く動き、大量の電力を使うデータセンターは電気代と環境負荷を減らせる。発熱も減り冷却も楽になる。技術はまだ実験段階で製品化には長い作業が要り、全ての名案が市場に届くわけではない。それでも「少ない電力で多くをこなす」という重要な目標を指し示す。",
+        quiz: [
+          { q: "Why does memory's energy use add up to a huge demand?", options: ["Billions of devices each use tiny amounts of energy every second", "Memory uses no energy at all", "Only one computer exists"], answer: 0 },
+          { q: "How does the new kind of memory save energy?", options: ["It switches magnetism in a gentler way, using much less power", "It uses a much stronger push of electricity", "It stops storing data"], answer: 0 },
+          { q: "What is one benefit of lower energy use?", options: ["Devices could run longer on a battery and produce less heat", "Batteries would drain faster", "Devices would get much hotter"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0907-3",
+        title: "Learning Without Borders",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Not long ago, a good education often depended on where you were born. If you lived far from a great school or university, many subjects were simply out of reach. Today, that is changing. Thanks to the internet, learning is crossing borders as never before, and millions of people are studying subjects they could never have reached in the past.\n\nOnline courses now let a student in a small town follow lessons taught by teachers on the other side of the world. Some are free; others cost far less than a traditional class. A person can learn a new language, a computer skill, or even university-level science, all from a simple phone or laptop.\n\nThe benefits are powerful. Online learning can reach people who work during the day, live in remote areas, or cannot afford to move to a big city. It gives second chances to those who missed school earlier in life. For many, it is a door to better jobs and a broader view of the world.\n\nThere are challenges, of course. A weak internet connection, the high cost of devices, or the need for strong self-discipline can hold learners back. Online study also cannot fully replace the warmth of a real classroom.\n\nStill, the direction is clear and hopeful. As knowledge travels more freely across the globe, the chance to learn is slowly becoming a right that belongs to everyone, not just a lucky few.",
+        summaryJa: "少し前まで、良い教育はどこで生まれたかに左右されがちだった。優れた学校や大学から遠く住めば、多くの科目は手の届かないものだった。今は変わりつつある。インターネットのおかげで学びはかつてなく国境を越え、何百万もの人が昔なら届かなかった科目を学んでいる。オンライン講座により、小さな町の学生が地球の反対側の教師の授業を受けられる。無料のものも、従来よりずっと安いものもある。新しい言語やコンピュータ技術、大学レベルの科学まで、スマホやノートPCで学べる。利点は大きい。日中働く人や遠隔地の人、大都市に移れない人にも届き、かつて学べなかった人に再挑戦の機会を与え、より良い仕事や広い視野への扉になる。弱い通信環境や機器の高さ、強い自己規律の必要という課題もあり、実際の教室の温かさは完全には代われない。それでも知識が自由に世界を巡る中、学ぶ機会は一部の幸運な人だけでなく万人の権利になりつつある。",
+        quiz: [
+          { q: "In the past, what did a good education often depend on?", options: ["Where you were born", "The color of your clothes", "The day of the week"], answer: 0 },
+          { q: "How does online learning help people?", options: ["It reaches those who work, live in remote areas, or cannot move to a city", "It only helps rich city students", "It stops people from learning"], answer: 0 },
+          { q: "What is one challenge of online study mentioned?", options: ["A weak internet connection or the need for strong self-discipline", "It is always free and easy for everyone", "It fully replaces real classrooms"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0907-4",
+        title: "The Japanese Custom of Omiyage",
+        level: "★★☆",
+        genre: "日本",
+        text: "When people in Japan take a trip, they often come home with more than photos and memories. They bring back \"omiyage\" — small gifts, usually local food or sweets, to share with family, friends, and coworkers. This custom is a warm and important part of daily life in Japan.\n\nOmiyage is different from a simple souvenir you buy for yourself. It is chosen with others in mind. A traveler visiting a famous region will look for a snack that the area is known for, often beautifully wrapped and packed in small pieces, perfect for sharing in an office or at home. Handing them out is a way of saying, \"I thought of you while I was away.\"\n\nAt many workplaces, bringing omiyage after a holiday is almost expected, but it is done with a happy spirit rather than as a heavy duty. Sharing a taste of a faraway place is a small, kind gesture that keeps relationships smooth and friendly.\n\nBecause of this custom, train stations and airports in Japan are full of shops selling local specialties in gift boxes. Choosing the right omiyage can be part of the fun of a trip.\n\nAt its heart, omiyage is about connection. It turns a personal journey into something shared, reminding others that they were not forgotten. In a single boxed sweet lies a simple message of thoughtfulness.",
+        summaryJa: "日本では旅に出ると、写真や思い出以上のものを持ち帰ることが多い。「お土産」——たいてい地元の食べ物やお菓子——を、家族や友人、同僚と分かち合うために持ち帰るのだ。この習慣は日本の暮らしの温かく大切な一部だ。お土産は自分用に買う単なる記念品とは違い、他者を思って選ぶ。有名な地域を訪れた人は、その土地で知られたお菓子を探す。美しく包まれ小分けされ、職場や家庭で分けやすい。渡すことは「離れている間もあなたを思っていた」と伝える方法だ。多くの職場では休暇後にお土産を持参するのがほぼ習わしだが、重い義務でなく楽しい気持ちで行われる。遠い土地の味を分かち合う小さな親切が、関係を円滑で友好的に保つ。だから駅や空港は土産物店であふれる。選ぶこと自体も旅の楽しみだ。お土産の核心はつながりで、個人の旅を分かち合うものに変え、忘れていないと伝える。",
+        quiz: [
+          { q: "What is 'omiyage'?", options: ["Small gifts, often local food, brought home to share with others", "A type of camera", "A train ticket"], answer: 0 },
+          { q: "How is omiyage different from a souvenir you buy for yourself?", options: ["It is chosen with others in mind, to share", "It is only for the traveler", "It is never food"], answer: 0 },
+          { q: "At its heart, what is omiyage about?", options: ["Connection — turning a personal journey into something shared", "Spending as much money as possible", "Keeping everything for oneself"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0907-5",
+        title: "Why Leaves Change Color in Autumn",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Each autumn, in many parts of the world, green leaves turn to brilliant shades of yellow, orange, and red before they fall. This yearly show is one of nature's most beautiful sights. But behind the colors lies some clever science.\n\nDuring spring and summer, leaves are green because of a substance called chlorophyll. This substance helps the tree make food from sunlight, and it fills the leaves with a strong green color. In fact, other colors are hidden in the leaf all along, but the green is so strong that we cannot see them.\n\nAs autumn arrives, the days grow shorter and the air turns cooler. The tree senses that winter is coming and begins to prepare. It slowly stops making chlorophyll, and the green fades away. Now the hidden yellows and oranges can finally be seen. In some trees, new red colors are also made in these final weeks.\n\nWhy does the tree do this? By dropping its leaves, a tree saves energy and water during the hard, cold winter, when sunlight is weak. The colorful change is really a sign of the tree getting ready to rest.\n\nSo the next time you enjoy the reds and golds of autumn, remember that you are watching a tree prepare for winter. The beauty we love is also a wise and ancient plan for survival.",
+        summaryJa: "毎秋、世界の多くの地域で緑の葉が黄・橙・赤の鮮やかな色に変わり、やがて落ちる。この毎年の光景は自然で最も美しいものの一つだが、色の裏には巧みな科学がある。春夏、葉が緑なのは「クロロフィル」という物質のためだ。これは木が日光から食物を作るのを助け、葉を濃い緑で満たす。実は他の色も初めから葉に隠れているが、緑が強すぎて見えない。秋が来ると日が短く空気が冷え、木は冬の到来を察して準備を始める。ゆっくりクロロフィルを作るのをやめ、緑が薄れると、隠れていた黄や橙がついに見える。木によっては最後の数週で新たに赤も作られる。なぜか。葉を落とすことで、日光の弱い厳しい冬に木はエネルギーと水を節約する。色づきは木が休む準備の合図だ。秋の紅葉を楽しむとき、木が冬に備える姿を見ているのだと思い出してほしい。愛でる美しさは、古くから続く賢い生存の計画でもある。",
+        quiz: [
+          { q: "Why are leaves green in spring and summer?", options: ["Because of a substance called chlorophyll that helps make food from sunlight", "Because they are painted green", "Because of the cold weather"], answer: 0 },
+          { q: "Why do the yellow and orange colors appear in autumn?", options: ["The tree stops making chlorophyll, so the green fades and hidden colors show", "Someone adds them", "The leaves get wet"], answer: 0 },
+          { q: "Why does a tree drop its leaves?", options: ["To save energy and water during the hard, cold winter", "To make the ground colorful", "Because leaves are useless in summer"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-06",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why is hydrogen an exciting fuel?", options: ["When used, it can release energy while producing mostly water", "It produces large amounts of smoke", "It cannot be used for energy"], answer: 0 },
           { q: "How do certain rocks produce hydrogen naturally?", options: ["By being heated in factories", "When iron-rich rocks meet underground water, they slowly release it", "By burning coal"], answer: 1 },
           { q: "Why does the passage say it is 'early days'?", options: ["Because the fuel is already used everywhere", "Because nobody yet knows how much exists or how much it will cost", "Because rocks cannot hold gas"], answer: 1 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-08-31",
-    passages: [
-      {
-        id: "d0831-1",
-        title: "Why Rival Companies Sometimes Work Together",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "In business, we usually think of companies as rivals. Two carmakers, for example, fight hard to sell more cars than each other. So it can be surprising when such rivals suddenly decide to work together on one project. Yet this happens more and more often, especially in the car industry.\n\nWhy would competitors cooperate? The main reason is cost. Developing new technology, such as the software that runs a modern car, is extremely expensive. If two companies share the work, each pays less and finishes faster. They can also share knowledge and avoid making the same mistakes twice.\n\nThis kind of teamwork does not mean the companies stop competing. They may build a shared part or system together, but they still sell their own cars under their own names, with their own designs and prices. Customers may never notice that a rival helped build part of the product.\n\nOf course, working with a competitor is not easy. Each side worries about sharing too many secrets. They must agree clearly on who owns what and how profits are divided. Trust takes time to build.\n\nStill, in a world where technology changes quickly, going it alone can be risky and slow. By joining forces on the hardest problems, even rivals can move faster than they could apart. Sometimes, the smartest way to compete is to cooperate.",
-        summaryJa: "企業は普通ライバル同士だが、時に協力して一つのプロジェクトに取り組む。特に自動車業界で増えている。理由は主にコストだ。現代の車を動かすソフトなど新技術の開発は非常に高く、分担すれば各社の負担は減り、開発も速くなる。協力しても競争をやめるわけではなく、共通部品を作りつつ、自社ブランドで売る。ただし秘密の共有や利益配分で慎重な合意が必要だ。技術が速く変わる時代、最も賢い競争の仕方は協力することもある。",
-        quiz: [
-          { q: "What is the main reason rival companies sometimes cooperate?", options: ["To share the high cost of developing new technology", "To stop selling their own products", "Because they no longer want to compete"], answer: 0 },
-          { q: "Does cooperating mean the companies stop competing?", options: ["Yes, they merge into one company", "No, they still sell their own cars under their own names", "Yes, they share all profits equally"], answer: 1 },
-          { q: "What is one difficulty of working with a competitor?", options: ["It always makes cars cheaper", "Each side worries about sharing too many secrets", "Customers must be told every detail"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0831-2",
-        title: "The Car That Updates Like a Phone",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Think about how your smartphone improves over time. Every few weeks, it downloads an update, and suddenly it has new features or fixes. For a long time, cars did not work this way. Once you bought a car, its software stayed the same until you sold it. Now, that is changing fast.\n\nModern cars are becoming \"software-defined.\" This means that much of what the car does — how the screen looks, how the engine saves fuel, even how safety systems react — is controlled by software, not just fixed parts. And like a phone, this software can be updated over the internet while the car sits in your garage.\n\nThe benefits are clear. A carmaker can fix a small problem without asking every owner to visit a repair shop. It can also add new features months or years after the car is sold. Your car might actually get better as it gets older.\n\nBut there are challenges too. Software can have bugs, and a car is far more dangerous than a phone if something goes wrong. Carmakers must test every update carefully and protect cars from hackers who might try to break in.\n\nStill, the direction is set. In the future, buying a car may feel a little like buying a computer on wheels — one that keeps learning new tricks long after you drive it home.",
-        summaryJa: "スマホは数週間ごとに更新され新機能が増えるが、車は長い間そうではなく、買ったら売るまでソフトは同じだった。今は「ソフトウェア定義車」へと変わり、画面や燃費、安全機能の多くをソフトが制御し、ネット経由で更新できる。修理店に行かずに不具合を直せ、販売後に新機能も追加できる。一方でバグは車では危険で、入念な検証やハッカー対策が必要だ。将来、車は「車輪の付いたコンピューター」のように学び続ける。",
-        quiz: [
-          { q: "What does a 'software-defined' car mean?", options: ["The car has no software at all", "Much of what the car does is controlled by software that can be updated", "The car cannot connect to the internet"], answer: 1 },
-          { q: "What is one benefit of over-the-internet car updates?", options: ["The car must visit a shop for every fix", "A carmaker can fix problems or add features without a shop visit", "The car becomes slower over time"], answer: 1 },
-          { q: "What is one challenge mentioned in the passage?", options: ["Software bugs can be dangerous in a car, so updates need careful testing", "Cars can never be updated", "Phones are more dangerous than cars"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0831-3",
-        title: "Why the World Watches Interest Rates",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Every few weeks, news reports announce that a country's central bank has changed its \"interest rate.\" To many people, this sounds like a dull topic for bankers only. In fact, interest rates touch the daily life of almost everyone, everywhere.\n\nAn interest rate is the cost of borrowing money. When a central bank raises the rate, loans become more expensive. People and companies borrow less, spend less, and prices tend to rise more slowly. When the bank lowers the rate, borrowing becomes cheaper, and spending usually grows. In this way, central banks try to keep prices stable and the economy healthy.\n\nWhy does the whole world watch these decisions? Because money moves across borders. When one large economy raises its rates, investors may move their money there to earn more. This can change the value of other countries' money, making imported goods cheaper or more expensive far away.\n\nFor an ordinary family, the effects are real. Interest rates can change the cost of a home loan, the price of food from abroad, and even the chance of finding a job. A decision made in one capital city can reach shops and homes on the other side of the planet.\n\nYou do not need to be an expert to benefit from understanding this. Knowing why rates matter helps you follow the news with clearer eyes and plan your own money with more confidence.",
-        summaryJa: "数週間ごとに中央銀行が「金利」を変えたと報じられる。退屈に聞こえるが、金利はほぼ全員の生活に関わる。金利とはお金を借りる費用で、上げれば借入は高くなり支出が減って物価上昇が緩み、下げれば借入が安く支出が増える。こうして物価と経済の安定を図る。お金は国境を越えるため、大国の利上げは各国の通貨価値や輸入品価格に影響する。住宅ローンや食品価格、就職にも及ぶ。仕組みを知れば、ニュースをよく理解し、自分のお金も計画しやすくなる。",
-        quiz: [
-          { q: "What is an interest rate, according to the passage?", options: ["The cost of borrowing money", "The price of a single product", "The number of banks in a country"], answer: 0 },
-          { q: "What usually happens when a central bank raises the interest rate?", options: ["Borrowing becomes cheaper and spending grows", "Loans become more expensive and spending slows", "Nothing changes at all"], answer: 1 },
-          { q: "Why does the whole world watch these decisions?", options: ["Because money moves across borders and affects other countries", "Because only bankers are interested", "Because interest rates never change"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0831-4",
-        title: "The Art of the Japanese Lunch Box",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, lunch is something you buy and eat quickly. In Japan, lunch can be a small work of art. The \"bento\" is a packed meal, usually carried in a neat box, and it holds a special place in daily life.\n\nA traditional bento is more than just food in a container. It is carefully arranged so that each part looks beautiful and fits together. There might be rice, a piece of grilled fish, colorful vegetables, and a small sweet, all placed with care. Cooks think about balance — of color, taste, and nutrition — in a single box.\n\nBento appear everywhere in Japan. Parents make them for children to take to school. Workers buy them at stations and shops. Travelers on trains enjoy a special kind called \"ekiben,\" made with local foods from each region. Opening a bento can feel like opening a small gift.\n\nMaking a good bento is also a way to show care. A parent who wakes early to shape rice into a cute animal is saying, without words, \"I was thinking of you.\" Some families treat this as a quiet daily kindness.\n\nToday, bento have fans around the world. People share photos online and try to make their own. Yet at its heart, the bento remains a simple Japanese idea: that even an everyday meal deserves beauty, balance, and a little love.",
-        summaryJa: "多くの国で昼食はさっと買って食べるものだが、日本の「弁当」は小さな芸術になりうる。伝統的な弁当は、ご飯や焼き魚、彩り野菜、甘味などを美しく詰め、色・味・栄養のバランスを考える。親は子の学校用に作り、働く人は駅や店で買い、旅行者は各地の食材を使った「駅弁」を楽しむ。早起きしてご飯を動物の形にする親は、言葉なく「あなたを思っている」と伝えている。今や世界にファンがおり、日常の食事にも美と愛を込める日本の発想が息づく。",
-        quiz: [
-          { q: "What makes a traditional bento more than just food in a container?", options: ["It is carefully arranged for beauty, balance, and nutrition", "It is always very large", "It contains only rice"], answer: 0 },
-          { q: "What is 'ekiben'?", options: ["A bento eaten only at school", "A bento made with local foods, enjoyed by train travelers", "A box with no food inside"], answer: 1 },
-          { q: "How can making a bento show care?", options: ["By buying the most expensive food", "By spending no time on it", "By preparing it thoughtfully, as a quiet daily kindness"], answer: 2 }
-        ]
-      },
-      {
-        id: "d0831-5",
-        title: "Giving Hard-to-Recycle Plastic a Second Life",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Not all plastics are easy to recycle. One of the most difficult is called PVC. It is used in pipes, floors, and many everyday products, but it is hard to break down and reuse. As a result, huge amounts of it end up buried or burned. Recently, scientists have been searching for smarter ways to give this stubborn plastic a second life.\n\nIn one promising study, researchers found a way to turn PVC into a useful ingredient for high-quality lubricants — the slippery liquids that keep engines and machines running smoothly. Instead of treating the plastic as waste, they saw it as a source of valuable chemicals.\n\nWhy does this matter? First, it reduces waste. Every ton of plastic turned into something useful is a ton that does not pollute the land or air. Second, it can save resources. Many lubricants are made from oil, so making them from old plastic could reduce the need to pump new oil from the ground.\n\nOf course, a laboratory success is only the first step. To help the planet, such a method must work cheaply and safely at a very large scale. That will take more research and time.\n\nStill, the idea points to a hopeful future. Instead of asking only \"How do we throw this away?\", scientists are learning to ask, \"What else could this become?\" In that question lies the heart of true recycling.",
-        summaryJa: "すべてのプラスチックが簡単に再生できるわけではなく、特に難しいのがPVC(塩化ビニル)だ。配管や床など身近な製品に使われるが分解・再利用が難しく、多くが埋め立てや焼却される。最近、研究者はPVCを高品質な潤滑油の原料に変える方法を見つけた。廃棄物ではなく有用な化学物質の源とみなす発想だ。ごみを減らし、石油からつくる潤滑油の代わりになれば資源も節約できる。実用化には安く大規模に行う研究が必要だが、「どう捨てるか」でなく「何に変えられるか」を問う点に真の再生の核心がある。",
-        quiz: [
-          { q: "Why is PVC a problem for recycling?", options: ["It is hard to break down and reuse", "It is never used in daily products", "It disappears on its own quickly"], answer: 0 },
-          { q: "What did researchers turn PVC into, in the study?", options: ["A new kind of food", "A useful ingredient for lubricants", "A type of glass"], answer: 1 },
-          { q: "What question does the passage say scientists are learning to ask?", options: ["How do we throw this away?", "What else could this become?", "Why do we need plastic at all?"], answer: 1 }
         ]
       }
     ]
