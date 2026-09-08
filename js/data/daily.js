@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-08",
+    passages: [
+      {
+        id: "d0908-1",
+        title: "What Is Venture Capital?",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "You may have heard that a young company just raised a huge amount of money from investors, sometimes hundreds of millions of dollars, even though it has not yet made a profit. This kind of investment often comes from something called venture capital. Understanding it helps explain how many of today's biggest companies began.\n\nA new company with a bold idea usually needs money to grow. It may need to hire engineers, build a product, and reach customers, all before earning much income. Banks are often unwilling to lend to such young, risky businesses. This is where venture capital, or \"VC,\" steps in.\n\nVenture capital firms gather money from large investors and use it to buy a share of promising young companies. In return, they give not only money but also advice, contacts, and experience. They know that most of these young companies will fail. But they hope that a few will grow enormously, and that those rare successes will more than cover all the losses.\n\nFor the founders, VC money can turn a small idea into a global business quickly. But it comes at a price. By selling part of their company, founders give up some control, and they face strong pressure to grow fast.\n\nVenture capital is a bet on the future. It is risky and demanding, yet it has helped create many of the technologies and services we now use every day.",
+        summaryJa: "利益もまだ出していない若い会社が、投資家から数億ドルもの巨額を調達したと聞くことがある。こうした投資はしばしば「ベンチャーキャピタル」から来る。これを理解すると、今日の大企業の多くがどう始まったか分かる。大胆な着想を持つ新会社は成長に資金が要る。技術者を雇い製品を作り顧客に届けるまで、収入は少ない。銀行はこうした若くリスクの高い事業に貸したがらない。そこでVCが登場する。VCは大口投資家から資金を集め、有望な若い会社の株を買う。見返りに資金だけでなく助言や人脈、経験も与える。多くは失敗すると知りつつ、少数が巨大に育ち損失を補うと期待する。創業者には小さな着想を素早く世界的事業に変えうるが、代償もある。会社の一部を売り支配権を手放し、急成長の圧力に直面する。VCは未来への賭けで、リスクは高いが、今使う多くの技術やサービスを生んできた。",
+        quiz: [
+          { q: "Why do banks often avoid lending to young companies?", options: ["Because such young businesses are risky", "Because banks have no money", "Because young companies never need money"], answer: 0 },
+          { q: "What do venture capital firms give besides money?", options: ["Advice, contacts, and experience", "Only empty promises", "Nothing at all"], answer: 0 },
+          { q: "What price do founders pay for VC money?", options: ["They give up some control and face pressure to grow fast", "They pay nothing", "They must close their company"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0908-2",
+        title: "How the World Makes a Computer Chip",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Inside almost every modern device — your phone, your car, your washing machine — sits a tiny computer chip. These chips are among the most complex objects humans have ever built, yet they are smaller than a fingernail. Making them is a marvel of science and patience.\n\nA chip is built on a thin slice of a material called silicon. Onto this surface, engineers print billions of tiny switches, far too small to see. To do this, they use a special kind of light and patterns finer than anything drawn by hand. Layer by layer, the design is carefully printed, like a photograph made at an unimaginably small scale.\n\nThe precision required is astonishing. The smallest parts of a modern chip are only a few atoms wide. Even a speck of dust can ruin a chip, so the factories, called \"fabs,\" are kept cleaner than a hospital. Workers wear special suits, and the air is filtered again and again.\n\nBecause this process is so difficult, only a handful of companies in the world can make the most advanced chips. Building a single factory can cost billions of dollars and take years.\n\nThe next time you tap your phone, remember the hidden wonder inside. That small chip is the result of decades of human cleverness, and a manufacturing process so exact that it works at the level of single atoms.",
+        summaryJa: "現代のほぼ全ての機器——電話、車、洗濯機——の中に、小さなコンピューターチップがある。人類が作った最も複雑な物の一つでありながら、爪より小さい。作ることは科学と忍耐の驚異だ。チップはシリコンという素材の薄い板の上に作られる。その表面に、目に見えないほど小さな何十億ものスイッチを印刷する。特別な光と、手で描けるどんなものより細かい模様を使う。層を重ね、想像を絶する小ささの写真のように設計を丁寧に刷る。必要な精度は驚異的で、最小部分はわずか数原子分の幅だ。ほこり一粒でも台無しになるため、工場「ファブ」は病院より清潔に保たれ、作業者は特殊な服を着て空気は何度もろ過される。あまりに難しいため最先端チップを作れる企業は世界に一握りで、工場一つの建設に数十億ドルと数年かかる。次に電話に触れるとき、この隠れた驚異を思い出してほしい。",
+        quiz: [
+          { q: "What material is a chip built on?", options: ["A thin slice of silicon", "A piece of wood", "A sheet of paper"], answer: 0 },
+          { q: "Why are chip factories kept cleaner than a hospital?", options: ["Even a speck of dust can ruin a chip", "Because workers eat there", "Because dust makes chips faster"], answer: 0 },
+          { q: "Why can only a few companies make the most advanced chips?", options: ["The process is extremely difficult and factories cost billions", "Because chips are easy to make", "Because no one wants to make them"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0908-3",
+        title: "Counting a Whole Country",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Every so often, a country tries to do something remarkable: count every single person who lives in it. This great effort is called a census. From huge nations to small islands, governments carry out a census to learn how many people they have, where they live, and how their lives are changing.\n\nWhy go to so much trouble? The answer is that good decisions need good information. A government that knows how many children live in an area can plan the right number of schools. Knowing where older people live helps plan hospitals and care. A census also shows how a population is growing or shrinking, which shapes plans for housing, roads, and jobs for years to come.\n\nCarrying out a census is a massive task. Workers may travel to remote villages, and forms are sent to millions of homes. Today, many countries also let people answer online, which is faster and cheaper. Still, reaching everyone — including those without a fixed home — is very hard.\n\nThere are challenges beyond size. People must trust that their private answers will be protected and used only to help, not to harm. Without that trust, some may refuse to take part.\n\nA census is one of the quiet foundations of a well-run country. By taking the time to count and understand its people, a nation can plan more wisely and serve everyone more fairly.",
+        summaryJa: "時折、国は驚くべきことを試みる。住むすべての人を一人残らず数えるのだ。この大きな取り組みを「国勢調査(センサス)」という。大国から小さな島国まで、政府は何人いて、どこに住み、暮らしがどう変わっているかを知るために行う。なぜそこまでするのか。良い判断には良い情報が要るからだ。ある地域の子どもの数を知る政府は、適切な数の学校を計画できる。高齢者の居場所を知れば病院や介護を計画できる。人口の増減も示し、住宅や道路、雇用の計画を左右する。実施は膨大な作業で、遠い村へ赴き、何百万もの家に用紙を送る。今は多くの国がオンライン回答も認め、速く安い。それでも定住地のない人まで届くのは難しい。規模以外の課題もあり、私的な回答が守られ害でなく助けにのみ使われると人々が信頼せねばならない。国勢調査はよく運営される国の静かな土台だ。",
+        quiz: [
+          { q: "What is a census?", options: ["A great effort to count every person living in a country", "A national holiday", "A type of tax"], answer: 0 },
+          { q: "Why does a government carry out a census?", options: ["Good decisions, like planning schools and hospitals, need good information", "To make people angry", "For no reason at all"], answer: 0 },
+          { q: "What must people trust for a census to work well?", options: ["That their private answers will be protected and used only to help", "That the answers will be sold", "That no one will read them ever"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0908-4",
+        title: "The Quiet World of the Tea Ceremony",
+        level: "★★☆",
+        genre: "日本",
+        text: "In a small, simple room, a host slowly prepares a bowl of green tea for a guest. Every movement is calm and careful. This is the Japanese tea ceremony, a tradition that is about far more than simply drinking tea.\n\nThe tea ceremony has been practiced in Japan for centuries. At first glance, it may seem like a very slow way to make a drink. But each step — folding a cloth, warming the bowl, whisking the tea — is done with deep attention. The goal is not speed, but a feeling of peace, respect, and full presence in the moment.\n\nThe setting is chosen with great care. The room is often plain and quiet, perhaps with a single flower or a hanging scroll. Guests are encouraged to leave their busy thoughts at the door and simply be there, sharing a calm experience with others. Host and guest treat each other with gentle politeness.\n\nAt its heart lie a few simple values: respect for others, purity, harmony, and a quiet appreciation of the present moment. These ideas reach far beyond the tea room and into everyday Japanese life.\n\nIn our fast, noisy world, the tea ceremony offers a rare gift: a chance to slow down completely. For a short time, making and sharing one bowl of tea becomes the most important thing in the world.",
+        summaryJa: "小さく簡素な部屋で、亭主が客のために抹茶をゆっくり点てる。どの動きも静かで丁寧だ。これが日本の茶道で、単にお茶を飲む以上のものだ。茶道は何世紀も日本で行われてきた。一見、飲み物を作るのにとても遅い方法に見える。だが布をたたみ、茶碗を温め、茶を点てる各段階が深い注意とともに行われる。目的は速さでなく、平安と敬意、そして今この瞬間に完全に在る感覚だ。しつらえも入念に選ばれる。部屋はしばしば簡素で静かで、一輪の花や掛け軸があるくらいだ。客は忙しい思いを戸口に置き、ただそこに在り、穏やかな体験を共有するよう促される。亭主と客は互いに優しい礼儀で接する。核心には敬意、清らかさ、調和、今この瞬間への静かな感謝という簡素な価値がある。これらは茶室を越え日常の日本の暮らしに及ぶ。速く騒がしい世界で、茶道は完全に立ち止まる稀な贈り物を与えてくれる。",
+        quiz: [
+          { q: "What is the Japanese tea ceremony really about?", options: ["Far more than drinking tea — peace, respect, and presence in the moment", "Making tea as fast as possible", "Selling expensive tea"], answer: 0 },
+          { q: "What is the setting for a tea ceremony usually like?", options: ["A plain and quiet room, perhaps with a single flower or scroll", "A loud, crowded hall", "A busy street"], answer: 0 },
+          { q: "What gift does the tea ceremony offer in our fast world?", options: ["A chance to slow down completely", "A way to work faster", "A reason to hurry"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0908-5",
+        title: "Snake Blood That Fights Venom",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "A snake bite from a dangerous species can be deadly, and treating one is difficult. For over a hundred years, doctors have used medicines called antivenoms, but they are not perfect. They can be slow to make, hard to store, and they do not always work well against every kind of snake. Now, scientists have made a surprising discovery in an unexpected place: the blood of snakes themselves.\n\nSome snakes, such as rattlesnakes, carry special proteins in their blood. These proteins can block the harmful effects of venom. This makes sense when you think about it — a snake needs some protection against its own dangerous poison and that of others.\n\nRecently, researchers found that by combining several of these natural proteins, they could create a powerful mixture that neutralizes venom from many different snakes. In tests, this blend was far stronger than some current treatments, and it worked against several dangerous species at once.\n\nWhy does this matter? Snake bites harm and kill many people around the world every year, especially in poorer, rural areas. A treatment that is stronger, works against many snakes, and is easier to produce could save countless lives.\n\nThe research is still in an early stage, and more testing is needed before it can help patients. But it is a beautiful example of nature offering an answer. Sometimes the cure to a danger is hidden inside the danger itself.",
+        summaryJa: "危険な種のヘビにかまれると命に関わることがあり、治療は難しい。100年以上、医師は「抗毒素(血清)」という薬を使ってきたが完璧ではない。作るのが遅く、保存が難しく、あらゆるヘビによく効くとは限らない。今、科学者は意外な場所で驚きの発見をした。ヘビ自身の血だ。ガラガラヘビなどのヘビは、血中に特別なタンパク質を持つ。これは毒の有害な作用を防げる。考えれば理にかなう。ヘビは自らや他のヘビの危険な毒からある程度身を守る必要があるのだ。最近、研究者はこれらの天然タンパク質をいくつか組み合わせると、多くの異なるヘビの毒を中和する強力な混合物を作れると発見した。試験では現行治療より格段に強く、複数の危険な種に同時に効いた。なぜ重要か。ヘビ咬傷は毎年世界で多くの人を害し、特に貧しい農村部で深刻だ。より強く多くのヘビに効き作りやすい治療は無数の命を救いうる。研究は初期段階だが、危険の中に治療が隠れているという自然の美しい例だ。",
+        quiz: [
+          { q: "What problem do current antivenoms have?", options: ["They can be slow to make, hard to store, and not always effective", "They are always perfect", "They cure every illness"], answer: 0 },
+          { q: "What surprising thing did scientists find in some snakes' blood?", options: ["Special proteins that can block the harmful effects of venom", "Tiny computers", "A new kind of food"], answer: 0 },
+          { q: "Why could this discovery matter so much?", options: ["Snake bites harm many people, so a stronger, easier treatment could save lives", "Because snakes are cute", "Because it makes venom stronger"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-07",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What surprising thing may an adult sea turtle do?", options: ["Return to the same beach where it hatched to lay eggs", "Stay on one beach its whole life", "Never enter the ocean"], answer: 0 },
           { q: "How do scientists believe turtles find their way?", options: ["By sensing the Earth's magnetic field like a map and compass", "By following other boats", "By using their phones"], answer: 0 },
           { q: "Why is understanding turtle navigation useful?", options: ["It helps protect their routes and save endangered turtles", "It makes the ocean smaller", "It has no real use"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-01",
-    passages: [
-      {
-        id: "d0901-1",
-        title: "When an Airport Becomes a Destination",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "For most of history, an airport was simply a place you passed through. You arrived, waited, and flew away as quickly as possible. Today, some airports are trying to become places where people actually want to spend time — even if they are not flying anywhere at all.\n\nHow is this possible? Modern airports are adding shops, restaurants, art, and entertainment that rival those of a city center. Some have gardens, museums, or areas built around popular characters and local culture. A traveler with a few free hours can shop, eat well, and relax, instead of just staring at a departure board.\n\nThere is a clear business reason behind this change. Airlines pay airports to use them, but that income is not always enough. By attracting shoppers and diners — including local families who come just to enjoy the space — an airport can earn much more money. A busy, popular airport is also good for the whole region, bringing jobs and visitors.\n\nThis idea does bring challenges. Building and running these spaces is expensive, and airports must not forget their main job: moving people safely and on time. Comfort should never come before safety.\n\nStill, the trend is growing around the world. In the future, catching a flight may feel less like a chore and more like a small trip in itself, beginning long before the plane leaves the ground.",
-        summaryJa: "かつて空港は通り過ぎるだけの場所だったが、今では飛行機に乗らない人でも過ごしたくなる場所を目指す空港が現れている。店やレストラン、美術、地域文化やキャラクターを生かした空間を設け、待ち時間を楽しめる。背景には明確なビジネス上の理由がある。航空会社からの収入だけでは足りず、買い物客や食事客(近隣の家族連れも)を呼べば収益は大きく増え、地域の雇用にもつながる。ただし建設・運営は高く、安全という本来の役割を忘れてはならない。将来、空の旅は出発前から始まる小さな旅になるかもしれない。",
-        quiz: [
-          { q: "What are some airports trying to become today?", options: ["Places where people want to spend time, even if not flying", "Places with no shops or restaurants", "Places only pilots can enter"], answer: 0 },
-          { q: "What is the business reason for adding shops and restaurants?", options: ["To earn more money beyond airline income", "To make flights slower", "To reduce the number of visitors"], answer: 0 },
-          { q: "What must airports never forget, according to the passage?", options: ["To sell as much food as possible", "Their main job of moving people safely and on time", "To remove all gardens and art"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0901-2",
-        title: "Robots That Learn by Watching",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "For a long time, teaching a robot to do a task was slow and difficult. Engineers had to write detailed instructions for every single movement. If you wanted a robot to fold a towel, you had to describe each fold, each turn, each grip in careful code. Change the towel, and the robot might fail.\n\nNow, a different idea is spreading: robots that learn by watching. Instead of being told exactly what to do, these robots observe a human doing a task, or study many examples, and slowly figure out the pattern themselves. This way of learning is closer to how a child learns — by imitation and practice.\n\nThe advantages are exciting. A robot that learns by watching can handle tasks that are hard to describe in words, like handling soft objects or working in a messy room. It can also learn new jobs more quickly, without an engineer rewriting everything from the start.\n\nBut there are limits. To learn well, robots often need to watch many examples, which takes time and data. And a robot that copies a human can also copy mistakes. Making these systems safe and reliable is still hard work.\n\nEven so, this approach may change how robots enter our lives. Instead of programming a machine for every task, we may one day simply show it what we want — and let it learn, much as we teach each other.",
-        summaryJa: "従来、ロボットに作業を教えるのは遅く難しかった。技術者が一つ一つの動きを細かくコードで書く必要があり、対象が変わると失敗した。今広がるのは「見て学ぶ」ロボットだ。人の作業を観察したり多数の例を学んだりして、自らパターンをつかむ。子どもが模倣と練習で学ぶのに近い。言葉で説明しにくい柔らかい物の扱いなども可能になり、新しい作業も速く覚える。ただし多くの例が必要で、人のミスまで真似ることもあり、安全で確実にするのは難しい。将来は「見せるだけ」で教えられるかもしれない。",
-        quiz: [
-          { q: "How were robots traditionally taught to do a task?", options: ["By watching a child play", "Engineers wrote detailed instructions for every movement", "They were never taught anything"], answer: 1 },
-          { q: "How do the newer robots learn?", options: ["By observing humans or studying many examples", "By ignoring all examples", "By writing their own laws"], answer: 0 },
-          { q: "What is one limit of learning by watching?", options: ["Robots cannot move at all", "A robot may copy human mistakes and needs many examples", "Robots can only fold towels"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0901-3",
-        title: "How the World Shares Its Weather",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "When you check the weather on your phone, you probably think of it as local news. But behind that simple forecast lies one of the largest examples of cooperation between countries in the world. Weather, after all, does not stop at borders.\n\nA storm forming over one ocean may reach a distant country days later. To predict it, scientists need information from far away — measurements of temperature, wind, and pressure taken all over the planet. No single nation can watch the whole sky alone. So countries share their weather data freely, almost every hour, through a global system built over many decades.\n\nThis sharing is remarkable. Nations that disagree on many things still exchange weather information, because everyone benefits. Better forecasts help farmers plant crops, help ships avoid danger, and give families time to prepare before a big storm arrives. Lives are saved when a warning comes early.\n\nThe system is not perfect. Some regions have fewer weather stations, which makes their data thinner. Keeping satellites and equipment running is expensive, and poorer countries may struggle. Yet the spirit of cooperation remains strong.\n\nIn a world that often focuses on its divisions, weather sharing is a quiet success story. It shows that when a problem touches everyone, people can find ways to work together — and that even rival nations can agree on at least one thing: the value of knowing what tomorrow's sky will bring.",
-        summaryJa: "スマホの天気予報は地域の話に見えるが、その裏には世界最大級の国際協力がある。天気は国境で止まらないからだ。ある海で生まれた嵐は数日後に遠い国へ届く。予測には世界中の気温・風・気圧のデータが要り、一国では空全体を監視できない。そこで各国は数十年かけた仕組みでほぼ毎時、天気データを自由に共有する。対立する国同士でも皆に利益があるため交換する。予報の向上は農業や航海を助け、早い警報は命を救う。観測所の少ない地域や費用の課題はあるが、協力の精神は強く、皆に関わる問題では協力できることを示している。",
-        quiz: [
-          { q: "Why can't a single nation predict the weather alone?", options: ["Because weather does not stop at borders and needs data from all over the planet", "Because weather is not important", "Because phones do everything"], answer: 0 },
-          { q: "Why do even rival nations share weather data?", options: ["Because everyone benefits from better forecasts", "Because a law forces them to fight", "Because weather is a secret"], answer: 0 },
-          { q: "What is one problem with the system?", options: ["Everyone has perfect data", "Some regions have fewer weather stations, making their data thinner", "No country shares anything"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0901-4",
-        title: "A Day to Practice Being Ready",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, the first day of September has a special meaning. It is known as Disaster Prevention Day. On this day, schools, companies, and towns across the country practice what to do in case of an earthquake or other emergency. The goal is simple: to be ready before trouble comes.\n\nWhy does Japan take this so seriously? The country sits in an area where earthquakes and strong storms are part of life. People cannot stop these events, but they can prepare. Being calm and knowing what to do can make a huge difference in the first frightening minutes.\n\nOn Disaster Prevention Day, many people take part in drills. Students practice hiding under desks and walking safely to open ground. Families check their emergency bags, which hold water, food, a flashlight, and other basics. Some cities test their warning speakers and share maps that show safe places to gather.\n\nThe most valuable lesson is not fear, but habit. When actions are practiced many times, the body remembers them even in a moment of panic. A child who has done the drill knows where to go without thinking.\n\nPreparation is a quiet form of kindness — to yourself, your family, and your neighbors. Disaster Prevention Day reminds everyone that while we cannot control nature, we can control how ready we are. In that readiness lies real safety and peace of mind.",
-        summaryJa: "日本では9月1日が「防災の日」として特別な意味を持つ。学校や企業、町が地震などの緊急時にどう動くかを練習する日で、目的は困難が来る前に備えることだ。日本は地震や大きな嵐が多い地域にあり、出来事は止められなくても備えはできる。人々は避難訓練に参加し、机の下に隠れたり安全に避難したりし、家庭は水や食料、懐中電灯などの非常袋を確認する。大切なのは恐れでなく習慣で、何度も練習すれば体が覚え、いざという時に考えず動ける。備えは自分や家族、隣人への静かな思いやりであり、自然は制御できなくても備えの度合いは制御できると教えている。",
-        quiz: [
-          { q: "What is September 1 known as in Japan?", options: ["Disaster Prevention Day", "A day with no schools", "National Sleep Day"], answer: 0 },
-          { q: "What do people do on this day?", options: ["Take part in drills and check emergency bags", "Nothing at all", "Only watch television"], answer: 0 },
-          { q: "What does the passage say is the most valuable lesson?", options: ["Fear of nature", "Habit, so the body remembers what to do", "Buying expensive tools"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0901-5",
-        title: "Rocks That Can Make Clean Fuel",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "When we think about where energy comes from, we usually picture oil wells, coal mines, or solar panels. But scientists are now studying a surprising new source hidden deep in the ground: rocks that can naturally produce hydrogen gas.\n\nHydrogen is an exciting fuel because, when used, it can release energy while producing mostly water instead of harmful smoke. The problem is that making hydrogen today often uses a lot of energy or fossil fuels. So a natural, cleaner source would be very valuable.\n\nResearchers have found that certain iron-rich rocks, when they meet underground water, can slowly release hydrogen all on their own. In some places, this gas may be collecting underground much like oil does. Scientists are even exploring whether they could gently boost this natural process to produce larger amounts.\n\nIf this works, the benefits could be big. Natural hydrogen might offer a cleaner fuel without the heavy energy cost of making it in factories. It could help power vehicles, factories, and homes with less pollution.\n\nStill, it is early days. Nobody yet knows how much of this hydrogen exists, how easy it is to collect, or how much it will cost. Careful study is needed before anyone builds a business around it.\n\nEven so, the idea is a reminder that our planet still holds surprises. Sometimes the fuel of the future may be quietly forming beneath our feet.",
-        summaryJa: "エネルギーの源というと石油や石炭、太陽光を思い浮かべるが、科学者は地中に隠れた意外な新資源、天然の水素を生む岩石に注目している。水素は使うと主に水しか出さず有害な煙が少ない魅力的な燃料だが、今の製造は多くのエネルギーや化石燃料を要する。研究では、鉄分の多い岩石が地下水と出会うとゆっくり水素を放出し、石油のように地下にたまる場所もあるという。この自然の作用を後押しできないかも探られている。実現すれば工場での高いエネルギー費なしに、より清潔な燃料になりうる。ただし量や採取のしやすさ、費用は未知で、慎重な研究が必要だ。未来の燃料は足元で静かに生まれているのかもしれない。",
-        quiz: [
-          { q: "Why is hydrogen an exciting fuel?", options: ["When used, it can release energy while producing mostly water", "It produces large amounts of smoke", "It cannot be used for energy"], answer: 0 },
-          { q: "How do certain rocks produce hydrogen naturally?", options: ["By being heated in factories", "When iron-rich rocks meet underground water, they slowly release it", "By burning coal"], answer: 1 },
-          { q: "Why does the passage say it is 'early days'?", options: ["Because the fuel is already used everywhere", "Because nobody yet knows how much exists or how much it will cost", "Because rocks cannot hold gas"], answer: 1 }
         ]
       }
     ]
