@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-09",
+    passages: [
+      {
+        id: "d0909-1",
+        title: "Build It or Buy It?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Imagine a company needs a new piece of software — perhaps a tool to manage its customers or track its sales. It faces a classic business choice: should it build the software itself, or buy a ready-made product from another company? This simple question, known as \"build or buy,\" comes up again and again in the business world.\n\nBuilding your own software has clear attractions. The tool can be shaped to fit your exact needs, and you are not dependent on another company. Over many years, building in-house can also save money on fees. But it is far from easy. Software takes skilled workers, time, and constant care. A project can run late, cost more than expected, or fail completely.\n\nBuying a ready-made product is often faster and simpler. Someone else has already done the hard work, fixed the bugs, and keeps the tool updated. You can start using it almost at once. The downside is that you must fit your business to the product, pay ongoing fees, and trust another company to keep it running.\n\nThere is no single right answer. A common rule is to build what makes your company special and buy the rest. Why spend years building an email system when good ones already exist?\n\nIn the end, \"build or buy\" is really a question about focus. Wise companies save their energy for the work only they can do best.",
+        summaryJa: "ある会社が新しいソフト——顧客管理や売上追跡の道具——を必要とするとしよう。古典的な選択に直面する。自社で作るか、他社の既製品を買うか。「作るか買うか(build or buy)」と呼ばれるこの問いはビジネスで何度も現れる。自社開発には明確な魅力がある。自社のニーズに合わせられ、他社に依存しない。長年で見れば手数料の節約にもなる。だが容易ではない。ソフトには熟練者と時間、絶え間ない手入れが要り、遅延や超過、失敗もある。既製品を買う方が速く簡単なことが多い。誰かが難しい作業を済ませ、不具合を直し、更新も続ける。すぐ使い始められる。欠点は、自社を製品に合わせ、継続的な料金を払い、他社の運営を信頼せねばならないこと。唯一の正解はない。「自社を特別にするものは作り、残りは買う」がよくある原則だ。核心は集中の問題で、賢い会社は自社が最も得意な仕事に力を残す。",
+        quiz: [
+          { q: "What is the 'build or buy' choice about?", options: ["Whether to build software yourself or buy a ready-made product", "Whether to open or close a shop", "Which color to paint an office"], answer: 0 },
+          { q: "What is one downside of building your own software?", options: ["It takes skilled workers and time, and a project can run late or fail", "It is always free", "It is finished in one day"], answer: 0 },
+          { q: "What common rule does the passage give?", options: ["Build what makes your company special and buy the rest", "Always build everything", "Never use any software"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0909-2",
+        title: "Nuclear Power Gets a Second Look",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "For years, nuclear power was out of fashion in many countries. After some famous accidents, people worried about safety and about the waste that stays dangerous for a long time. Some nations even decided to close their nuclear plants. But recently, nuclear energy is getting a fresh look, and interest is growing once again.\n\nWhy the change? The main reason is the need for clean, steady electricity. Unlike coal or gas, a nuclear plant produces almost no gases that warm the planet. And unlike wind or solar power, it can run day and night, in any weather. As the world uses more and more electricity — for cars, factories, and huge computer centers — a reliable, low-pollution source looks very valuable.\n\nNew technology is part of the story too. Engineers are designing smaller, simpler reactors that may be safer and cheaper to build. Some companies hope these can be made in factories and shipped to where they are needed.\n\nOf course, the old worries have not disappeared. Safety, cost, and the question of what to do with nuclear waste are still serious. Building a plant takes many years and huge sums of money, and public trust must be earned.\n\nNuclear power is not a magic answer. But as the world searches for clean energy that never sleeps, many experts believe it deserves a careful second look.",
+        summaryJa: "長年、原子力は多くの国で人気を失っていた。有名な事故の後、安全や、長く危険が残る廃棄物への不安があった。原発を閉じると決めた国さえある。だが最近、原子力が再び見直され、関心が高まっている。なぜか。主な理由は、清潔で安定した電気の必要性だ。石炭やガスと違い、原発は地球を温める気体をほとんど出さない。風力や太陽光と違い、昼夜どんな天気でも動ける。世界が車や工場、巨大な計算施設でますます電気を使う中、信頼でき低汚染の電源は非常に価値がある。新技術も物語の一部だ。より安全で安く作れそうな小型で単純な原子炉が設計されている。工場で作り必要な場所へ運ぶ構想もある。もちろん旧来の不安も消えていない。安全、費用、廃棄物の扱いは依然深刻で、建設には長い年月と巨額が要り、市民の信頼も得ねばならない。原子力は魔法の答えではないが、眠らない清潔なエネルギーを探す世界で、丁寧に見直す価値があると多くの専門家は考える。",
+        quiz: [
+          { q: "Why is nuclear power getting a fresh look?", options: ["It provides clean, steady electricity that runs day and night", "It produces a lot of warming gases", "It only works when it is sunny"], answer: 0 },
+          { q: "What new technology is part of the story?", options: ["Smaller, simpler reactors that may be safer and cheaper to build", "Reactors that need no engineers", "Plants that run without any fuel"], answer: 0 },
+          { q: "What old worries still remain?", options: ["Safety, cost, and what to do with nuclear waste", "Nothing at all", "Only the color of the buildings"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0909-3",
+        title: "Protecting the World's Oceans",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "The ocean covers most of our planet and is full of life, from tiny fish to giant whales. It gives us food, produces much of the oxygen we breathe, and helps control the world's climate. Yet for a long time, people treated the sea as if it were endless, taking too many fish and leaving behind pollution. Now, countries around the world are working to protect it.\n\nOne key idea is the \"marine protected area.\" This is a part of the sea where fishing and other harmful activities are limited or banned. Inside these safe zones, fish can grow and multiply in peace. Over time, the sea life often becomes richer, and the benefits spread to nearby waters where people still fish.\n\nNations are also joining together in agreements to protect the open ocean far from any coast. Because no single country owns these waters, only cooperation can keep them healthy. This is difficult, slow work, but the goal is shared: a living, healthy sea for the future.\n\nThere are challenges. Rules are hard to enforce across a vast ocean, and some communities depend on fishing for their living. Solutions must protect both nature and people.\n\nStill, the effort is hopeful. By caring for the ocean today — through protected areas, cleaner habits, and global teamwork — we help make sure the sea remains a source of life for generations to come.",
+        summaryJa: "海は地球の大部分を覆い、小さな魚から巨大なクジラまで生命に満ちている。食物を与え、呼吸する酸素の多くを生み、世界の気候の制御を助ける。だが長い間、人は海を無限であるかのように扱い、魚を取りすぎ汚染を残してきた。今、世界の国々が海を守ろうとしている。鍵となる考えの一つが「海洋保護区」だ。漁など有害な活動を制限・禁止する海の一部で、その安全な区域で魚は安心して育ち増える。やがて海の生命は豊かになり、恩恵は人が漁を続ける近隣の海にも広がる。各国は沿岸から遠い外洋を守る協定でも手を組む。どの国も所有しない海は協力でしか健康を保てない。難しく遅い作業だが、未来へ生きた健康な海という目標は共有されている。広大な海で規則を守らせるのは難しく、漁で生計を立てる人もいる。自然と人の両方を守らねばならない。それでも、保護区や清潔な習慣、世界の協力で海を守ることは希望だ。",
+        quiz: [
+          { q: "What does the ocean give us, according to the passage?", options: ["Food, much of the oxygen we breathe, and help controlling the climate", "Nothing useful", "Only salt"], answer: 0 },
+          { q: "What is a 'marine protected area'?", options: ["A part of the sea where harmful activities are limited so life can recover", "A place where all fishing is required", "A city built on the sea"], answer: 0 },
+          { q: "Why is cooperation needed to protect the open ocean?", options: ["Because no single country owns those waters", "Because the ocean is very small", "Because no one uses the ocean"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0909-4",
+        title: "How the Seasons Shape Life in Japan",
+        level: "★★☆",
+        genre: "日本",
+        text: "Many countries have seasons, but in Japan the four seasons hold a special place in daily life and culture. Spring, summer, autumn, and winter are not just changes in the weather. They shape what people eat, how they decorate their homes, and even the words they use in letters and greetings.\n\nEach season brings its own joys. Spring is famous for cherry blossoms, when families gather under the trees to enjoy the brief, beautiful flowers. Summer brings festivals, fireworks, and cool foods. Autumn offers colorful leaves and a rich harvest, while winter brings hot dishes, snow in many regions, and the quiet beauty of a resting land.\n\nFood is closely tied to the seasons. Cooks take pride in using ingredients that are at their best right now — the first fish of the season, or a fruit that appears for only a few weeks. Eating \"in season\" is seen as both tastier and wiser.\n\nThis awareness runs deep. A traditional letter might begin with a comment about the weather or the season, a small, polite way of sharing the moment. Poems and art often celebrate a single season, capturing its special feeling.\n\nBy paying attention to the seasons, people in Japan stay closely connected to nature, even in busy modern cities. Each turning of the year is a gentle reminder that time, like the seasons, is always quietly moving forward.",
+        summaryJa: "多くの国に季節はあるが、日本では四季が暮らしと文化で特別な位置を占める。春夏秋冬は単なる天気の変化ではない。食べるもの、家の飾り方、手紙や挨拶の言葉さえ形づくる。各季節に固有の喜びがある。春は桜で有名で、家族が木の下に集い短く美しい花を楽しむ。夏は祭りや花火、涼しい食べ物。秋は色づく葉と豊かな実り、冬は温かい料理や多くの地域の雪、休む大地の静かな美しさをもたらす。食は季節と深く結びつく。料理人は今が旬の食材——初物の魚や数週間だけ現れる果物——を使うことに誇りを持つ。「旬」を食べることは、よりおいしく賢いとされる。この意識は深い。伝統的な手紙は天気や季節への一言で始まり、瞬間を分かち合う小さな礼儀だ。詩や芸術は一つの季節を讃え、その特別な感じを捉える。季節に心を配ることで、忙しい現代の都市でも人々は自然と密接につながる。年の巡りは、時が季節のように静かに前へ進むと優しく思い出させる。",
+        quiz: [
+          { q: "In Japan, what do the four seasons shape besides the weather?", options: ["What people eat, how they decorate homes, and the words in greetings", "Only the price of houses", "Nothing at all"], answer: 0 },
+          { q: "What does eating 'in season' mean?", options: ["Using ingredients that are at their best right now", "Eating only frozen food", "Never eating fruit"], answer: 0 },
+          { q: "How might a traditional Japanese letter begin?", options: ["With a comment about the weather or the season", "With a demand for money", "With no words at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0909-5",
+        title: "The World's Hardest Math Puzzles",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Most people think of mathematics as a subject with clear answers: two plus two is always four. But at its frontier, mathematics is full of deep mysteries — puzzles so hard that the greatest minds have failed to solve them for decades, or even centuries. Some of these problems are so important that a prize of a million dollars awaits anyone who can crack one.\n\nWhy are such puzzles worth so much? Because a single answer can open a door to whole new areas of knowledge. Mathematics is the hidden language behind physics, computer science, and engineering. A problem that looks like a pure game on paper may, once solved, help us build safer codes, faster computers, or a better understanding of the universe.\n\nSolving these puzzles takes years of patient thought. Mathematicians fill notebooks with attempts, share ideas across the world, and build on the work of those before them. In recent times, even powerful computers have begun to help, checking ideas and searching for patterns humans might miss.\n\nWhen a famous problem is finally solved, it is major news in the world of science. But it can also raise new questions, such as who truly deserves the credit, and what the answer really means.\n\nThese great puzzles remind us that mathematics is not finished. It is a living adventure, full of unknown territory still waiting to be explored.",
+        summaryJa: "多くの人は数学を明快な答えのある科目と思う。2足す2は必ず4だと。だがその最前線では、数学は深い謎に満ちている。最高の頭脳でさえ何十年、時に何世紀も解けなかった難問だ。あまりに重要で、解いた人に100万ドルの賞金が待つ問題もある。なぜそれほどの価値があるのか。一つの答えが全く新しい知の領域への扉を開きうるからだ。数学は物理、計算機科学、工学の背後にある隠れた言語だ。紙の上の純粋な遊びに見える問題も、解ければより安全な暗号や速いコンピューター、宇宙のより良い理解を助けうる。解くには長年の忍耐強い思考が要る。数学者はノートを試行で埋め、世界で発想を共有し、先人の仕事の上に築く。近年は強力なコンピューターも助け始め、発想を確かめ人が見逃す模様を探す。有名な問題がついに解かれると科学界の大ニュースだが、誰の功績か、答えが何を意味するかという新たな問いも生む。これらの難問は、数学が未完で、未知の領域に満ちた生きた冒険だと教えてくれる。",
+        quiz: [
+          { q: "Why are some math puzzles worth so much?", options: ["A single answer can open the door to whole new areas of knowledge", "Because math has no uses", "Because they are easy to solve"], answer: 0 },
+          { q: "How have powerful computers begun to help mathematicians?", options: ["By checking ideas and searching for patterns humans might miss", "By solving nothing at all", "By replacing mathematics entirely"], answer: 0 },
+          { q: "What do these great puzzles remind us?", options: ["Mathematics is not finished — it is a living adventure", "Mathematics has all its answers already", "Mathematics is useless"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-08",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What does your brain do with the day's experiences while you sleep?", options: ["It sorts them, keeping some memories and letting others go", "It forgets everything equally", "It stops working completely"], answer: 0 },
           { q: "Why is sleep important when you are sick?", options: ["During deep sleep the body heals and strengthens systems that fight illness", "Because sleep makes illness worse", "Because the body does nothing during sleep"], answer: 0 },
           { q: "What does the passage suggest for better sleep?", options: ["A regular bedtime, a dark quiet room, and less screen time before bed", "More screens right before bed", "Staying up as late as possible"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-02",
-    passages: [
-      {
-        id: "d0902-1",
-        title: "How AI Is Changing the Home Search",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Buying or selling a home is one of the biggest decisions in a person's life. It can also be slow, confusing, and full of paperwork. Now, artificial intelligence is starting to change how this process works, for both ordinary buyers and the agents who help them.\n\nFor a buyer, AI tools can act like a tireless assistant. They can scan thousands of listings in seconds and highlight homes that match your budget, your favorite neighborhoods, and even the style you like. Some tools can estimate a fair price for a house or point out questions you should ask before you buy.\n\nAgents benefit too. Instead of spending hours on routine tasks, they can let software handle paperwork, schedules, and simple questions. This frees them to focus on what people still do best: giving advice, understanding a family's real needs, and guiding them through a stressful choice.\n\nOf course, there are risks. An AI estimate is only a guess, based on past data, and it can be wrong. A house is also an emotional choice, not just a set of numbers. Buyers should treat AI as a helpful tool, not as the final word.\n\nUsed wisely, though, these tools can make a hard process a little easier. The dream of finding the right home may still take work — but with smart help, the search itself is becoming faster and less stressful.",
-        summaryJa: "住宅の売買は人生で最も大きな決断の一つだが、遅く複雑で書類も多い。今、AIがこの過程を買い手にも仲介業者にも変え始めている。買い手には、数秒で何千もの物件を調べ、予算や好きな地域、好みの様式に合う家を示す不眠不休の助手のように働く。適正価格の推定や、買う前の質問の指摘もできる。業者も定型作業をソフトに任せ、助言や家族の本当のニーズの理解に集中できる。ただしAIの推定は過去データに基づく推測で誤りうるし、家は感情の選択でもある。賢く使えば難しい過程が少し楽になる。",
-        quiz: [
-          { q: "How can AI tools help a home buyer?", options: ["By scanning many listings quickly and highlighting good matches", "By building the house itself", "By hiding all the prices"], answer: 0 },
-          { q: "How do agents benefit from AI?", options: ["They can focus on advice while software handles routine tasks", "They no longer need to talk to anyone", "They must do more paperwork"], answer: 0 },
-          { q: "What warning does the passage give about AI estimates?", options: ["They are always perfectly correct", "They are only guesses based on past data and can be wrong", "They replace the need to think"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0902-2",
-        title: "Robotaxis Reach More Cities",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Imagine calling a taxi with your phone, and when it arrives, there is no driver at all. The car opens its doors, you climb in, and it drives you across the city by itself. This is not science fiction. In a growing number of cities, driverless taxis — often called \"robotaxis\" — are already carrying passengers on real streets.\n\nFor years, these cars were tested only in small, careful areas. Now, companies are expanding into more cities and larger zones. Each new place brings new challenges: different roads, weather, traffic rules, and local habits. Teaching a car to handle all of this safely is a huge task.\n\nSupporters see many possible benefits. A robotaxi never gets tired or distracted, and computers can react very quickly. In time, such cars might reduce accidents and give rides to people who cannot drive, such as the elderly or those with certain disabilities.\n\nBut there are real worries too. People ask what happens when the software makes a mistake, or how these cars behave in rare, surprising situations. There are also questions about jobs for human drivers and rules for who is responsible in a crash.\n\nThe technology is moving forward, city by city, test by test. Whether robotaxis become a normal part of life may depend not only on clever engineering, but also on whether people learn to trust a car with no one behind the wheel.",
-        summaryJa: "スマホでタクシーを呼ぶと、来た車に運転手がいない——ドアが開き乗り込むと、車が自ら街を走る。SFではなく、増えつつある都市で無人タクシー(ロボタクシー)がすでに客を運んでいる。長年は狭い区域での試験だったが、今は多くの都市や広い範囲へ拡大中だ。道路や天候、交通ルールが違い、安全に対応させるのは大きな課題だ。支持者は、疲れず気が散らず素早く反応でき、事故を減らし運転できない高齢者らを乗せられると期待する。一方、ソフトの誤りや珍しい状況、運転手の仕事、事故責任への懸念もある。普及は技術だけでなく人々の信頼にかかる。",
-        quiz: [
-          { q: "What is a 'robotaxi'?", options: ["A driverless taxi that carries passengers by itself", "A taxi with two drivers", "A toy car for children"], answer: 0 },
-          { q: "What is one possible benefit supporters mention?", options: ["Robotaxis get tired quickly", "They might reduce accidents and help people who cannot drive", "They always break traffic rules"], answer: 1 },
-          { q: "What may decide whether robotaxis become normal, besides engineering?", options: ["Whether people learn to trust a car with no driver", "The color of the cars", "The price of phones"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0902-3",
-        title: "The Return of the Night Train",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Not long ago, many people thought night trains were a thing of the past. Why sleep on a train, they asked, when a plane could cross the same distance in an hour or two? Yet in several parts of the world, overnight trains are quietly making a comeback.\n\nOne reason is the environment. Trains usually produce far less pollution than planes for the same trip. As more travelers think about their effect on the planet, a night train starts to look like a smart, greener choice. You go to sleep in one city and wake up in another, without the rush of an airport.\n\nComfort and simplicity also play a part. There are no long security lines, and stations are often right in the city center. Travelers can enjoy dinner, read, or watch the dark landscape slide by before falling asleep. For some, the journey becomes part of the holiday, not just a way to get there.\n\nBringing back night trains is not easy. It requires new carriages, cross-border cooperation, and careful planning of routes between countries. Tickets are not always cheap, and building the service takes years.\n\nStill, the trend shows how old ideas can return in new forms. In a fast world that often values speed above all, the slow, steady night train offers something rare: a calm, comfortable way to travel that is kinder to the earth.",
-        summaryJa: "少し前まで夜行列車は過去のものと思われていた。飛行機なら同じ距離を1〜2時間で越えられるのに、なぜ列車で眠るのかと。だが世界の各地で夜行列車が静かに復活している。理由の一つは環境で、同じ移動で列車は飛行機よりずっと汚染が少ない。地球への影響を考える旅行者にとって賢い選択に見え、一つの街で眠り別の街で目覚められる。保安検査の列がなく駅は都心にあり、快適さも魅力だ。旅そのものが休暇の一部になる。復活には新型車両や国境を越えた協力、路線計画が必要で費用もかかる。速さ重視の世界で、穏やかで地球に優しい移動を提供する。",
-        quiz: [
-          { q: "What is one environmental reason night trains are returning?", options: ["Trains usually produce far less pollution than planes for the same trip", "Trains use no energy at all", "Planes cannot fly at night"], answer: 0 },
-          { q: "What comfort does the passage mention about night trains?", options: ["Very long security lines", "No long security lines, and stations in the city center", "Stations far outside every city"], answer: 1 },
-          { q: "Why is bringing back night trains not easy?", options: ["It needs new carriages, cross-border cooperation, and route planning", "Nobody wants to travel anymore", "Trains cannot cross borders at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0902-4",
-        title: "Japan's Many 'Autumns'",
-        level: "★★☆",
-        genre: "日本",
-        text: "As summer heat fades in Japan, people begin to speak of autumn in a special way. In Japanese, there is a lovely habit of naming the season after a favorite activity. You may hear about the \"autumn of reading,\" the \"autumn of appetite,\" the \"autumn of sport,\" or the \"autumn of art.\" Each phrase captures a different joy of the cooler months.\n\nWhy so many autumns? The idea is simple and warm. After a hot, tiring summer, the weather turns mild and comfortable. The long, clear evenings make it easy to focus on a good book. Farmers harvest rice, fruit, and vegetables, so food is fresh and delicious — perfect for the \"autumn of appetite.\" The pleasant air is ideal for walking, running, or playing outside.\n\nThese expressions are more than pretty words. They gently encourage people to slow down and enjoy life's pleasures. A parent might tell a child that autumn is a fine time to read more books. A friend might invite you to try a new sport now that the heat is gone.\n\nThere is wisdom hidden in this custom. Instead of seeing the end of summer as a loss, Japanese culture treats autumn as a rich season of chances. Whatever you love — food, books, art, or exercise — autumn offers a friendly reason to enjoy it a little more.",
-        summaryJa: "夏の暑さが和らぐと、日本の人々は秋を特別な言い方で語り始める。好きな活動にちなんで季節を呼ぶ素敵な習慣があり、「読書の秋」「食欲の秋」「スポーツの秋」「芸術の秋」などと言う。それぞれが涼しい季節の異なる喜びを表す。なぜ多くの秋があるのか。暑い夏の後に気候が穏やかになり、長く澄んだ夜は読書に向き、米や果物、野菜が実り食も新鮮でおいしい。快適な空気は運動にも最適だ。これらは人々に、立ち止まって暮らしの楽しみを味わうようやさしく促す。夏の終わりを喪失でなく、好きなことを少し多く楽しむ豊かな季節と捉える知恵がある。",
-        quiz: [
-          { q: "What special habit does the passage describe in Japanese?", options: ["Naming the autumn season after a favorite activity", "Skipping autumn entirely", "Sleeping through the season"], answer: 0 },
-          { q: "Why is autumn good for the 'autumn of appetite'?", options: ["Because food becomes very expensive", "Because farmers harvest fresh rice, fruit, and vegetables", "Because people stop eating"], answer: 1 },
-          { q: "What wisdom is hidden in this custom?", options: ["Autumn is a sad loss of summer", "Autumn is a rich season of chances to enjoy what you love", "Autumn should be ignored"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0902-5",
-        title: "How Sea Turtles Find Their Way",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Few journeys in nature are as amazing as that of the sea turtle. A baby turtle hatches on a beach, crawls into the ocean, and swims away into the wide blue sea. Years later, as an adult, it may return to the very same beach to lay its own eggs — after traveling thousands of kilometers across open water. How does it find the way?\n\nScientists have studied this mystery for a long time. One key answer seems to be the Earth itself. Our planet acts like a giant magnet, and its magnetic field is slightly different in each place. Researchers believe sea turtles can sense this field, using it like an invisible map and compass to know where they are and which way to go.\n\nThis ability is astonishing because the turtle learns the location of its home beach as a tiny hatchling, then remembers it for decades. Somehow, that early \"magnetic memory\" guides it back across a featureless ocean many years later.\n\nUnderstanding turtle navigation is not only fascinating; it is also useful. If we know the routes turtles follow, we can protect those paths from dangers such as pollution and heavy fishing. Many sea turtles are endangered, so this knowledge can help save them.\n\nThe next time you see the ocean, remember that somewhere beneath the waves, a turtle may be reading a map written in magnetism, quietly finding its way home.",
-        summaryJa: "自然の旅で、ウミガメほど驚くべきものは少ない。赤ちゃんガメは浜で孵り海へ泳ぎ出し、何年も後に大人になって、数千キロを越え同じ浜に戻って産卵することがある。どうやって道を見つけるのか。科学者は長年この謎を研究してきた。鍵の一つは地球そのものらしい。地球は巨大な磁石のようで、磁場は場所ごとにわずかに異なる。ウミガメはこれを感じ取り、見えない地図と方位磁針のように使うと考えられている。小さな孵化直後に故郷の浜の位置を覚え、数十年記憶する点が驚異的だ。この理解は経路の保護にも役立ち、絶滅危惧のウミガメを救う助けになる。",
-        quiz: [
-          { q: "What surprising thing may an adult sea turtle do?", options: ["Return to the same beach where it hatched to lay eggs", "Stay on one beach its whole life", "Never enter the ocean"], answer: 0 },
-          { q: "How do scientists believe turtles find their way?", options: ["By sensing the Earth's magnetic field like a map and compass", "By following other boats", "By using their phones"], answer: 0 },
-          { q: "Why is understanding turtle navigation useful?", options: ["It helps protect their routes and save endangered turtles", "It makes the ocean smaller", "It has no real use"], answer: 0 }
         ]
       }
     ]
