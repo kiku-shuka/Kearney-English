@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-10",
+    passages: [
+      {
+        id: "d0910-1",
+        title: "Why Companies Hold Big Product Launches",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Once a year, some famous companies hold a huge event to show the world a new product, such as a phone or a computer. Crowds watch online, news reporters fill the room, and for a few hours the company is the center of attention. Why do businesses put so much effort into these launches?\n\nThe most obvious reason is excitement. A big, carefully planned event builds a sense of wonder around a new product. When people feel excited, they are more likely to want the product and to talk about it with friends. This free word of mouth can be worth more than any advertisement.\n\nTiming matters too. By launching once a year, a company gives customers a reason to look forward to something new, and a good moment to upgrade from an older model. It also lets the company tell one clear story instead of many small ones.\n\nA launch is also a message to rivals and investors. It shows that the company is still creative, confident, and moving forward. A strong event can lift the company's image and even its share price.\n\nOf course, big launches carry risk. If the product disappoints, the whole world sees it. Expectations become very high, and a small mistake can turn into big news.\n\nStill, when done well, a product launch turns a simple release into a shared moment — and a powerful engine for business.",
+        summaryJa: "年に一度、有名企業が新しい製品——電話やコンピューターなど——を世界に見せる大きなイベントを開く。多くの人がオンラインで見守り、記者が会場を埋め、数時間その企業が注目の的になる。なぜここまで力を入れるのか。最も明白な理由は「わくわく感」だ。入念に計画された大イベントは新製品への驚きを生む。人はわくわくすると製品を欲しがり友人に話しやすくなる。この無料の口コミはどんな広告より価値がある。時期も重要だ。年一回にすることで、客に新しさへの期待と旧型からの買い替えの好機を与える。多くの小さな話でなく一つの明確な物語を語れる。発表は競合や投資家へのメッセージでもあり、企業がなお創造的で自信を持ち前進していると示す。強いイベントは企業の印象や株価さえ高める。もちろん危険もあり、製品が期待外れなら世界中に見られ、小さな失敗も大ニュースになる。だがうまくやれば、単なる発売を共有の瞬間、ビジネスの強力な原動力に変える。",
+        quiz: [
+          { q: "What is the most obvious reason for a big product launch?", options: ["To build excitement and encourage word of mouth", "To hide the product from everyone", "To lose customers"], answer: 0 },
+          { q: "Why does launching once a year help a company?", options: ["It gives customers something to look forward to and a moment to upgrade", "It confuses all customers", "It stops the company from selling"], answer: 0 },
+          { q: "What risk does a big launch carry?", options: ["If the product disappoints, the whole world sees it", "There is no risk at all", "The product becomes free"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0910-2",
+        title: "The Future of Passwords",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Almost everyone knows the small frustration of passwords. We are told to make them long and strange, to use a different one for every website, and never to forget them. Yet passwords remain one of the weakest points in our digital lives. That is why the technology of logging in is quietly changing.\n\nThe problem with passwords is human. To be safe, a password should be long and hard to guess, but such passwords are also hard to remember. So people reuse simple ones, or write them down. Worse, criminals can trick people into typing their password on a fake website, or steal huge lists of them from companies.\n\nTo fix this, engineers have created a safer method often called a \"passkey.\" Instead of a secret word you must remember, your device itself proves who you are, often using your fingerprint or face. There is no password to steal, forget, or type into a fake site. Signing in becomes both easier and safer.\n\nThe change will take time. Millions of websites still use old-fashioned passwords, and people need to learn the new way. During the switch, both systems will exist side by side.\n\nStill, the direction is clear. In the future, we may look back on typing secret words as a strange, risky habit of the early internet. Logging in should be simple, and at last, it is starting to become so.",
+        summaryJa: "誰もがパスワードの小さな煩わしさを知っている。長く奇妙にせよ、サイトごとに変えよ、決して忘れるなと言われる。それでもパスワードはデジタル生活の最も弱い点の一つだ。だからログインの技術が静かに変わりつつある。パスワードの問題は人間側にある。安全には長く推測しにくい方がよいが、そうしたものは覚えにくい。だから人は単純なものを使い回したり書き留めたりする。さらに悪いことに、犯罪者は偽サイトで入力させたり、企業から大量のリストを盗んだりできる。これを直すため、技術者は「パスキー」と呼ばれるより安全な方法を作った。覚える秘密の言葉でなく、端末自体が指紋や顔で本人だと証明する。盗まれ、忘れられ、偽サイトに入力される「パスワード」がない。ログインはより簡単で安全になる。移行には時間がかかる。何百万ものサイトが旧来のパスワードを使い、人々は新方式を学ぶ必要があり、当面は両方式が併存する。だが方向は明確だ。将来、秘密の言葉を打つことは初期インターネットの奇妙で危険な習慣だと振り返るかもしれない。",
+        quiz: [
+          { q: "Why are passwords one of the weakest points in our digital lives?", options: ["Safe passwords are hard to remember, so people reuse or write them down", "They are always perfectly safe", "Nobody uses passwords"], answer: 0 },
+          { q: "How does a 'passkey' work?", options: ["Your device proves who you are, often using your fingerprint or face", "You must remember a longer secret word", "It shares your password with everyone"], answer: 0 },
+          { q: "Why will the change take time?", options: ["Millions of websites still use old passwords and people must learn the new way", "Because passkeys do not exist", "Because everyone already switched"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0910-3",
+        title: "Sending Money Home",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Around the world, millions of people leave their home countries to work abroad. They may cook in restaurants, care for the sick, build houses, or pick fruit. Many of them send part of their pay back to their families far away. These payments, called \"remittances,\" are one of the quiet but powerful forces in the global economy.\n\nFor a single family, the money can change everything. It may pay for a child's school, a parent's medicine, or a small home. For whole countries, the total is enormous. In some nations, the money sent home by workers abroad is larger than the money the country earns from any single industry.\n\nSending money across borders used to be slow and expensive. A worker might lose a large share of their pay just in fees. Today, thanks to phones and the internet, transfers are becoming faster and cheaper. This means more of the money reaches the families who need it.\n\nThere are still problems to solve. Fees remain too high in some places, and not everyone has easy access to banks. Helping money move safely and cheaply is an ongoing goal.\n\nRemittances are more than numbers. Behind each transfer is a person working far from home, and a family waiting for help. Together, these small acts of love add up to one of the most important flows of money on Earth.",
+        summaryJa: "世界中で、何百万もの人が働くために母国を離れ海外へ行く。レストランで料理し、病人を世話し、家を建て、果物を摘む。多くが給料の一部を遠くの家族に送る。「送金(レミッタンス)」と呼ばれるこの支払いは、世界経済の静かで強力な力の一つだ。一つの家族には、その金がすべてを変えうる。子の学費、親の薬、小さな家の費用になる。国全体では総額は莫大で、海外の労働者が送る金がどの単一産業の稼ぎより大きい国もある。国境を越えた送金はかつて遅く高価で、労働者は手数料だけで給料の大きな割合を失いかねなかった。今はスマホとインターネットのおかげで送金は速く安くなりつつあり、必要とする家族により多く届く。手数料がなお高い場所や、銀行を使いにくい人もいるなど課題は残る。安全に安く送れるようにするのは続く目標だ。送金は数字以上のもので、各送金の裏に故郷を離れて働く人と助けを待つ家族がいる。この小さな愛の行為が地球で最も重要な資金の流れの一つになる。",
+        quiz: [
+          { q: "What are 'remittances'?", options: ["Money that workers abroad send back to their families", "A kind of tax", "A type of passport"], answer: 0 },
+          { q: "Why do remittances matter to whole countries?", options: ["The total can be larger than what the country earns from any single industry", "They are too small to notice", "They harm every economy"], answer: 0 },
+          { q: "How are transfers becoming faster and cheaper?", options: ["Thanks to phones and the internet", "By using slower mail", "By raising all the fees"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0910-4",
+        title: "Japan's Amazing Convenience Stores",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, a convenience store is a small shop for snacks and drinks when nothing else is open. In Japan, the convenience store, or \"konbini,\" is something far greater. Open all day and all night, it has become a small, brilliant center of daily life.\n\nAt a Japanese konbini, you can do much more than buy food. You can pay your electricity bill, send a package, buy concert tickets, get cash from a machine, and even print documents. The fresh food is a special surprise to many visitors: rice balls, hot meals, and sweets that are genuinely tasty and changed often.\n\nWhat impresses people most is the quality and order. The shelves are neat, the staff are polite, and the stores are clean at any hour. New products appear constantly, matched to the season. A konbini in summer and the same shop in winter can feel quite different.\n\nFor many people in Japan, the konbini is woven into everyday routines. A worker grabs breakfast on the way to the office; a student studies with a warm drink; a traveler finds a reliable meal at midnight in a strange town.\n\nThe konbini shows a very Japanese idea: that even an ordinary shop can be made excellent through care and attention. It is a small building that quietly makes daily life smoother, kinder, and just a little more comfortable.",
+        summaryJa: "多くの国で、コンビニは他店が閉まった時に軽食や飲み物を買う小さな店だ。日本の「コンビニ」はそれよりはるかに大きな存在だ。昼も夜も開き、日常の小さくも見事な中心になっている。日本のコンビニでは食べ物を買う以上のことができる。電気代を払い、荷物を送り、コンサートの券を買い、機械で現金を引き出し、書類を印刷さえできる。新鮮な食べ物は多くの訪問者に嬉しい驚きだ。おにぎり、温かい食事、本当においしく頻繁に変わるお菓子。最も感心されるのは質と秩序だ。棚は整い、店員は礼儀正しく、店はどの時間も清潔だ。新商品が季節に合わせ次々現れ、夏と冬で同じ店がかなり違って感じられる。多くの人にとってコンビニは日々の習慣に織り込まれている。出勤途中に朝食を買い、学生は温かい飲み物で勉強し、旅行者は見知らぬ町の真夜中に頼れる食事を見つける。コンビニは、普通の店も心配りで卓越させられるという実に日本的な発想を示す。",
+        quiz: [
+          { q: "What can you do at a Japanese konbini besides buy food?", options: ["Pay bills, send packages, buy tickets, get cash, and print documents", "Only sleep", "Nothing else at all"], answer: 0 },
+          { q: "What impresses people most about the konbini?", options: ["The quality, order, cleanliness, and constantly changing products", "The dirt and mess", "The empty shelves"], answer: 0 },
+          { q: "What Japanese idea does the konbini show?", options: ["Even an ordinary shop can be made excellent through care and attention", "Shops should be careless", "Convenience does not matter"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0910-5",
+        title: "Why Do We Dream?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Every night, when we fall into a deep sleep, our minds create strange little worlds. We fly, meet old friends, or run from things that make no sense. These are dreams. Everyone has them, yet scientists are still working to fully understand why.\n\nDreams happen mostly during a stage of sleep when the brain is very active, almost as busy as when we are awake. During this time, the eyes move quickly behind closed lids, and the most vivid dreams appear. Interestingly, the body stays still, as if to stop us from acting out our dreams.\n\nScientists have several ideas about why we dream. One popular idea is that dreaming helps the brain sort and store memories, keeping what is useful and letting go of the rest. Another idea is that dreams let us practice dealing with fears or problems in a safe, imaginary space. Some researchers think dreams may simply be the brain making sense of random signals during the night.\n\nMost likely, dreams do more than one of these things at once. What is clear is that sleep and dreaming are important for a healthy mind. People who do not sleep well often feel worse in mood and memory.\n\nSo the next time you wake from a strange dream, do not worry too much about what it \"means.\" Your busy brain was simply doing some of its important night-time work.",
+        summaryJa: "毎晩、深い眠りに落ちると、心は奇妙な小さな世界を作る。空を飛び、旧友に会い、意味を成さないものから逃げる。これが夢だ。誰もが見るが、科学者はなぜかを完全には解明できていない。夢は主に、脳が非常に活発——ほぼ起きている時と同じくらい——になる睡眠段階で起きる。この間、閉じたまぶたの下で目が素早く動き、最も鮮明な夢が現れる。興味深いことに体は静止し、夢を実際に演じないようにしているかのようだ。なぜ夢を見るかについて科学者は複数の説を持つ。人気の説は、夢が脳の記憶の整理と保存を助け、有用なものを残し残りを手放すというものだ。別の説では、夢は恐れや問題への対処を安全な想像の場で練習させる。夜の無作為な信号を脳が意味づけているだけと考える研究者もいる。おそらく夢は一度にこれらの複数を行っている。確かなのは、睡眠と夢が健康な心に重要だということだ。よく眠れない人はしばしば気分や記憶が悪くなる。次に奇妙な夢から覚めても、意味を気にしすぎないでほしい。忙しい脳が夜の大切な仕事をしていただけだ。",
+        quiz: [
+          { q: "When do the most vivid dreams appear?", options: ["During a stage of sleep when the brain is very active and the eyes move quickly", "Only when we are fully awake", "Never during sleep"], answer: 0 },
+          { q: "What is one popular idea about why we dream?", options: ["Dreaming helps the brain sort and store memories", "Dreaming makes us forget everything", "Dreaming has no purpose and harms us"], answer: 0 },
+          { q: "What is clear about sleep and dreaming?", options: ["They are important for a healthy mind", "They are useless", "They only matter for children"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-09",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why did scientists map a fruit fly's brain instead of a human brain?", options: ["A human brain has far too many neurons to map today", "Flies have no brain", "Human brains are too small"], answer: 0 },
           { q: "What does the new map show?", options: ["Well over a hundred million points where neurons meet", "Only three connections", "A map of the sky"], answer: 0 },
           { q: "What do scientists hope to learn from such a map?", options: ["How brains turn signals into behavior, and eventually memory and disease", "How to make flies bigger", "Nothing useful at all"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-03",
-    passages: [
-      {
-        id: "d0903-1",
-        title: "Why Data Has Become a Business Treasure",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "In the past, when we thought of a company's most valuable things, we pictured buildings, machines, or money in the bank. Today, one of the most precious assets a business can own is something you cannot touch at all: data. Information about customers, products, and habits has quietly become a kind of treasure.\n\nWhy is data so valuable? Because it helps companies make better decisions. A store that knows what people buy, and when, can order the right amount of goods and avoid waste. A service that understands how customers use it can fix problems and design features people truly want. Good data turns guessing into knowing.\n\nData can also create entirely new products. Maps, recommendations, and many free apps are built on information gathered from millions of users. In a sense, the users help build the very service they enjoy.\n\nBut treating data as treasure brings serious duties. People's information is personal, and it can be misused or stolen. Companies must protect it carefully and be honest about how they use it. Many countries now have strict rules to guard people's privacy.\n\nThe lesson for any business is clear. Data is powerful, but it must be handled with care and respect. A company that uses information wisely — and protects the people behind it — holds a treasure that can last for years.",
-        summaryJa: "かつて企業の最も価値ある物といえば建物や機械、預金だった。今、最も貴重な資産の一つは手で触れられない「データ」だ。顧客や製品、習慣の情報が静かに宝となった。なぜ価値があるのか。より良い判断を助けるからだ。何がいつ売れるか分かる店は適量を仕入れ無駄を防ぎ、使われ方が分かるサービスは問題を直し本当に望まれる機能を作れる。データは新しい製品も生む。地図や推薦、多くの無料アプリは利用者の情報から作られる。だが個人情報は悪用や盗難の恐れがあり、慎重な保護と正直な利用、各国の厳しい規則が求められる。賢く使い人を守る企業は長く続く宝を持つ。",
-        quiz: [
-          { q: "What has become one of the most valuable assets for a business?", options: ["Data — information about customers and products", "Only buildings and machines", "Empty office space"], answer: 0 },
-          { q: "How does good data help companies?", options: ["It turns guessing into knowing, so they make better decisions", "It makes decisions harder", "It hides useful information"], answer: 0 },
-          { q: "What duty comes with treating data as treasure?", options: ["Sharing all data publicly", "Protecting people's information and being honest about its use", "Ignoring privacy rules"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0903-2",
-        title: "How Machines Learned to Translate",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Not long ago, translating between languages by computer produced funny, broken sentences. A machine might turn a simple phrase into something no human would ever say. Today, translation tools are far better, and for millions of people they have become a daily helper. How did machines improve so quickly?\n\nThe old approach tried to follow grammar rules and dictionaries, word by word. But human language is full of exceptions, jokes, and hidden meanings. Strict rules could not capture all of that, so the results often sounded strange.\n\nThe big change came when computers began to learn from examples instead. Engineers fed them enormous amounts of text that had already been translated by people. By studying millions of these pairs, the machine slowly learned patterns: which words tend to go together, and how ideas are expressed in each language. Rather than following fixed rules, it learned to guess the most natural translation.\n\nThe results are impressive, but not perfect. Machines can still miss the tone of a poem, a cultural joke, or a subtle feeling. They may sound fluent yet get an important detail wrong. For anything serious, a human check is still wise.\n\nEven so, this technology has opened doors. A traveler can read a foreign menu, and people who speak different languages can share ideas more easily than ever. For language learners, such tools are a helpful support — though never a full replacement for real understanding.",
-        summaryJa: "少し前まで、コンピューターの翻訳はおかしな壊れた文を作り、人間なら言わない表現になることもあった。今の翻訳ツールははるかに優れ、多くの人の日々の助けだ。なぜ急に良くなったのか。古い方式は文法規則と辞書で一語ずつ訳したが、言語は例外や冗談、隠れた意味に満ち、規則では捉えきれず不自然になった。転機は、機械が例から学ぶようになったことだ。人が訳した大量の文を与えると、機械は語の組み合わせや各言語での表現の型を学び、最も自然な訳を推測する。結果は見事だが完璧ではなく、詩の調子や文化的な冗談、微妙な感情を外すこともある。重要な場面では人の確認が賢明だ。学習者には助けだが、真の理解の代わりにはならない。",
-        quiz: [
-          { q: "What was the problem with the old, rule-based translation?", options: ["Language has many exceptions that strict rules could not capture", "It was too fast", "It never used dictionaries"], answer: 0 },
-          { q: "What big change made translation much better?", options: ["Computers began to learn from millions of human-translated examples", "Computers stopped using any text", "People wrote longer dictionaries"], answer: 0 },
-          { q: "What does the passage suggest about machine translation for serious work?", options: ["It is always perfect", "A human check is still wise", "It should never be used at all"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0903-3",
-        title: "Why Cities Are Planting More Trees",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Around the world, cities are on a mission to plant more trees. From large capitals to small towns, leaders are setting goals to add thousands, or even millions, of new trees along streets, in parks, and on rooftops. This green wave is more than decoration; it is a practical answer to modern city problems.\n\nOne major reason is heat. Concrete and asphalt soak up the sun and make cities much hotter than the countryside. Trees provide shade and release water into the air, cooling the streets naturally. On a hot day, a leafy avenue can feel far more comfortable than a bare one.\n\nTrees help in other ways too. They clean the air by taking in some pollution, and they can soak up rainwater, reducing floods after heavy storms. Birds and insects find homes in them, bringing a touch of nature back into busy areas. Studies even suggest that green spaces help people feel calmer and happier.\n\nOf course, planting a tree is only the beginning. Young trees need water, care, and space for their roots. A tree that is planted and then forgotten may not survive. Cities must plan for the long term, not just for a single planting day.\n\nStill, the effort is worthwhile. A city rich in trees is cooler, cleaner, and more pleasant. By planting today, communities are giving a gift of shade and fresh air to the people of tomorrow.",
-        summaryJa: "世界の都市が、もっと木を植えようと取り組んでいる。大都市から小さな町まで、通りや公園、屋上に何千、時に何百万本もの木を加える目標を掲げる。この緑の波は飾りではなく、現代の都市問題への実際的な答えだ。大きな理由は暑さで、コンクリートやアスファルトは太陽熱をため、都市は郊外よりずっと暑くなる。木は日陰を作り水分を放って街を自然に冷やす。木は空気を浄化し、雨水を吸って豪雨後の洪水を減らし、鳥や虫のすみかにもなる。緑は人を穏やかにするという研究もある。ただし植えて終わりではなく、若木には水や手入れ、根の空間が要る。長期の計画が大切だ。木の豊かな都市は涼しく清潔で快適で、未来への贈り物になる。",
-        quiz: [
-          { q: "What is one major reason cities plant more trees?", options: ["Trees provide shade and cool the streets naturally", "Trees make cities hotter", "Trees block all the roads"], answer: 0 },
-          { q: "Besides cooling, how else do trees help cities?", options: ["They clean the air and soak up rainwater to reduce floods", "They increase pollution", "They stop all rain"], answer: 0 },
-          { q: "Why is planting a tree only the beginning?", options: ["Young trees need water, care, and space to survive", "Trees never need anything", "Trees grow fully in one day"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0903-4",
-        title: "The Japanese Art of Wrapping",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, how you give something can matter as much as the gift itself. One beautiful example of this is \"furoshiki,\" a simple square cloth used to wrap and carry objects. With a few clever folds and knots, a plain piece of fabric becomes a bag, a gift wrapper, or a way to carry a lunch box.\n\nFuroshiki has a long history. For centuries, people used these cloths to carry clothes to the public bath, to wrap presents, and to move goods. Because a furoshiki has no fixed shape, it can hold a bottle, a book, or a round watermelon. When not in use, it folds flat and takes almost no space.\n\nToday, furoshiki is enjoying new attention, and part of the reason is the environment. Unlike paper or plastic wrapping, a cloth can be used again and again for years. In a world worried about waste, an old idea suddenly feels very modern. Wrapping a gift in furoshiki sends a quiet message of care and respect for the planet.\n\nLearning a few basic folds is easy and fun. With practice, an ordinary cloth can be tied into surprising shapes. Many people find joy in this small skill.\n\nFuroshiki reminds us that beauty and usefulness can live together. A single cloth, folded with care, carries not only objects but also a gentle spirit of thoughtfulness.",
-        summaryJa: "日本では、何をあげるかと同じくらい、どう渡すかが大切にされる。その美しい例が「風呂敷」、物を包んで運ぶ一枚の四角い布だ。いくつかの折り方と結び方で、ただの布が鞄や贈り物の包み、弁当を運ぶ道具になる。風呂敷には長い歴史があり、銭湯へ衣類を運び、贈り物を包み、荷を運ぶのに使われた。決まった形がないので瓶や本、丸いスイカも包め、使わない時は平らにたためて場所を取らない。今、環境の面からも再注目されている。紙やプラスチックと違い、布は何年も繰り返し使える。無駄を憂う世界で古い知恵が現代的に感じられ、地球への思いやりを伝える。基本の折り方は簡単で楽しく、美と実用が共に生きることを教えてくれる。",
-        quiz: [
-          { q: "What is 'furoshiki'?", options: ["A simple square cloth used to wrap and carry objects", "A type of Japanese food", "A large wooden box"], answer: 0 },
-          { q: "Why is furoshiki getting new attention today?", options: ["Because a cloth can be reused for years, which is good for the environment", "Because it can only be used once", "Because it is made of plastic"], answer: 0 },
-          { q: "What message does wrapping a gift in furoshiki send?", options: ["Care and respect for the planet", "That gifts are unimportant", "That waste is good"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0903-5",
-        title: "What Happens While You Sleep",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Every night, you close your eyes and lose hours of the day to sleep. It may feel like doing nothing, but inside your body and brain, a great deal of important work is going on. Far from being wasted time, sleep is one of the most active and useful things you do.\n\nWhile you rest, your brain sorts through the day's experiences. It decides which memories to keep and which to let go, almost like tidying a messy desk. This is one reason a good night's sleep helps you learn. Students who sleep well after studying often remember more than those who stay up late.\n\nYour body repairs itself too. During deep sleep, it heals small injuries, builds muscle, and strengthens the systems that fight illness. This is why rest is so important when you are sick. Sleep also helps control feelings; a tired mind finds it harder to stay calm and patient.\n\nModern life often treats sleep as something to cut short. People stay up for work, screens, or fun, and then feel slow the next day. Over time, poor sleep can harm both health and mood.\n\nThe good news is that better sleep is within reach. A regular bedtime, a dark and quiet room, and less screen time before bed can all help. Treating sleep as a friend, not a waste, may be one of the simplest ways to feel better every day.",
-        summaryJa: "毎晩、目を閉じて数時間を眠りに使う。何もしていないようで、体と脳の中では多くの大切な働きが進む。眠りは無駄な時間どころか、最も活発で有益な営みの一つだ。休む間、脳はその日の経験を整理し、残す記憶と手放す記憶を、散らかった机を片づけるように決める。よく眠ると学びが助けられるのはこのためで、勉強後によく眠る学生は夜更かしより多く覚えていることが多い。体も自らを修復し、深い眠りの間に傷を癒やし筋肉を作り、病気と闘う仕組みを強める。眠りは感情の制御も助ける。現代は睡眠を削りがちだが、質の悪い睡眠は健康や気分を損なう。規則正しい就寝、暗く静かな部屋、就寝前の画面を減らすことが役立つ。眠りを味方とみなすことが、日々を良くする最も簡単な方法かもしれない。",
-        quiz: [
-          { q: "What does your brain do with the day's experiences while you sleep?", options: ["It sorts them, keeping some memories and letting others go", "It forgets everything equally", "It stops working completely"], answer: 0 },
-          { q: "Why is sleep important when you are sick?", options: ["During deep sleep the body heals and strengthens systems that fight illness", "Because sleep makes illness worse", "Because the body does nothing during sleep"], answer: 0 },
-          { q: "What does the passage suggest for better sleep?", options: ["A regular bedtime, a dark quiet room, and less screen time before bed", "More screens right before bed", "Staying up as late as possible"], answer: 0 }
         ]
       }
     ]
