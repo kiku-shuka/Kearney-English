@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-11",
+    passages: [
+      {
+        id: "d0911-1",
+        title: "What Is a Brand?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When you see a famous logo — a simple shape or a single word — you may instantly feel something: trust, excitement, or comfort. That feeling is the heart of a \"brand.\" A brand is much more than a name or a picture. It is the whole idea that lives in people's minds when they think of a company.\n\nWhy do brands matter so much? Because people cannot test everything before they buy it. A strong brand acts like a promise. When customers see a trusted name, they expect a certain level of quality, and they feel safe choosing it. This trust, built over many years, is one of the most valuable things a company can own.\n\nA brand is built from many small pieces: the quality of the product, the way staff treat customers, the design of the logo, and even the feeling of the advertisements. All of these work together to shape one clear impression.\n\nA good brand also helps a company charge a fair price and stand out from cheaper rivals. People are often willing to pay a little more for a name they trust.\n\nBut a brand is fragile. It takes years to build and can be damaged quickly by one broken promise or poor experience. That is why wise companies protect their brand carefully. In the end, a brand is simply trust, made visible in a name.",
+        summaryJa: "有名なロゴ——単純な図形や一語——を見ると、人は瞬時に何かを感じる。信頼や高揚、安心だ。その感覚が「ブランド」の核心だ。ブランドは名前や絵以上のもので、企業を思うとき人の心に生きる全体の像だ。なぜそれほど重要か。人は買う前にすべてを試せないからだ。強いブランドは約束のように働く。信頼される名前を見ると、客は一定の品質を期待し、安心して選べる。長年かけて築かれたこの信頼は、企業が持ちうる最も価値ある物の一つだ。ブランドは多くの小さな要素——製品の質、店員の対応、ロゴのデザイン、広告の感じ——から築かれ、それらが一つの明確な印象を形づくる。良いブランドは適正価格を可能にし、安い競合との差別化も助ける。人は信頼する名前に少し多く払うことをいとわない。だがブランドは壊れやすく、築くのに何年もかかり、一度の破られた約束で急速に傷つく。だから賢い企業はブランドを慎重に守る。ブランドとは、名前に見える形になった信頼だ。",
+        quiz: [
+          { q: "What is a brand, according to the passage?", options: ["The whole idea and feeling in people's minds when they think of a company", "Only a picture", "A type of product only"], answer: 0 },
+          { q: "Why does a strong brand matter?", options: ["It acts like a promise of quality, so customers feel safe choosing it", "It hides the product", "It makes customers distrust the company"], answer: 0 },
+          { q: "Why is a brand described as fragile?", options: ["It takes years to build but can be damaged quickly by one broken promise", "It can never be harmed", "It is built in a single day"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0911-2",
+        title: "How Wireless Charging Works",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Many people now charge their phones simply by setting them on a pad, with no cable at all. It can feel like magic: energy seems to jump from the pad into the phone through empty air. But behind this everyday convenience is a clever piece of science that is more than a hundred years old.\n\nThe secret is a link between electricity and magnetism. When electricity flows through a coil of wire, it creates an invisible magnetic field around it. If a second coil is placed close by, that changing magnetic field can push electricity through the second coil. In this way, energy passes from one coil to the other without any wire touching.\n\nInside a charging pad is one coil, and inside your phone is another. When the two are close, energy flows across the tiny gap and charges the battery. This is why the phone must sit in just the right spot: the coils need to line up.\n\nWireless charging is wonderfully convenient, but it has limits. It usually works only over a very short distance, and some energy is lost as heat, so it can be a little slower than a cable.\n\nEngineers are still improving the technology, hoping one day to charge devices from farther away. For now, though, that small pad on your desk quietly performs a trick that once amazed the greatest scientists.",
+        summaryJa: "今、多くの人はケーブルなしで、台に置くだけで電話を充電する。魔法のようだ。エネルギーが何もない空間を通って台から電話へ飛び移るように見える。だがこの日常の便利さの裏には、100年以上前からある巧みな科学がある。秘密は電気と磁気のつながりだ。電線のコイルに電気が流れると、周りに見えない磁場ができる。近くに第二のコイルを置くと、その変化する磁場が第二のコイルに電気を押し流す。こうして電線が触れずにエネルギーが一方のコイルから他方へ渡る。充電台の中に一つのコイル、電話の中にもう一つがある。二つが近いと、わずかな隙間を越えてエネルギーが流れ電池を充電する。だから電話は正しい位置に置く必要がある。コイルが揃わねばならないのだ。無線充電はとても便利だが限界もある。ごく短い距離でしか働かず、一部は熱として失われるためケーブルより少し遅いこともある。技術者はなお改良を続け、いつかもっと遠くから充電したいと望む。今はあの小さな台が、かつて偉大な科学者を驚かせた技を静かに行っている。",
+        quiz: [
+          { q: "What is the secret behind wireless charging?", options: ["A link between electricity and magnetism using coils of wire", "A hidden battery in the air", "Tiny invisible cables"], answer: 0 },
+          { q: "Why must the phone sit in just the right spot on the pad?", options: ["The two coils need to line up for energy to flow", "So it looks nice", "So the phone stays cold"], answer: 0 },
+          { q: "What is one limit of wireless charging?", options: ["It works only over a very short distance and some energy is lost as heat", "It works from any distance perfectly", "It never loses any energy"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0911-3",
+        title: "Living in Many Time Zones",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "When it is morning in one country, it is the middle of the night in another. Our planet is divided into time zones, so that noon happens roughly when the sun is highest in each place. This simple idea shapes daily life across the whole world in ways we often forget.\n\nTime zones exist because the Earth turns. As it spins, the sun rises on different parts of the world at different moments. To keep clocks in step with the sun, the world is split into zones, each usually one hour apart from its neighbor. Cross enough of them, and you may arrive before you \"left,\" at least on the clock.\n\nIn our connected age, time zones matter more than ever. A team may have members in three countries, all trying to meet at a time that is polite for everyone. A trader watches markets that open while their own city sleeps. Families spread across the globe must find a shared hour to talk.\n\nTime zones can cause trouble, too. Travelers feel tired and confused after long flights, a feeling called jet lag, as their bodies slowly catch up to local time.\n\nStill, this global system is a quiet marvel of cooperation. By agreeing on how to measure time, billions of people can plan, meet, and work together across a spinning planet — each in their own daylight, yet connected to all the rest.",
+        summaryJa: "ある国で朝のとき、別の国では真夜中だ。地球は時間帯(タイムゾーン)に分けられ、各地で太陽が最も高い頃におよそ正午が来るようになっている。この単純な考えが、忘れがちだが世界中の日常を形づくる。時間帯があるのは地球が回るからだ。自転するにつれ、太陽は世界の異なる場所で異なる瞬間に昇る。時計を太陽に合わせるため、世界は隣とふつう1時間差の帯に分けられる。十分に越えれば、時計の上では「出発前」に着くこともある。つながった時代に、時間帯はかつてなく重要だ。3か国のメンバーが皆に失礼でない時刻に会おうとし、自分の街が眠る間に開く市場を見る人がいて、世界に散った家族は話せる共通の時刻を探す。時間帯は厄介も生む。長距離飛行の後、体が現地時間に追いつくまで疲れ混乱する「時差ぼけ」だ。それでもこの世界的な仕組みは協力の静かな驚異だ。時間の測り方に合意することで、何十億もの人が回る惑星で計画し、会い、共に働ける。",
+        quiz: [
+          { q: "Why do time zones exist?", options: ["Because the Earth turns, so the sun rises at different moments in different places", "Because clocks are broken", "Because the sun never moves"], answer: 0 },
+          { q: "Why do time zones matter more in our connected age?", options: ["Teams, traders, and families across countries must find shared times", "Because no one travels", "Because time has stopped mattering"], answer: 0 },
+          { q: "What is 'jet lag'?", options: ["Feeling tired and confused after long flights as the body catches up to local time", "A type of airplane", "A fast train"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0911-4",
+        title: "Kintsugi: Finding Beauty in Broken Things",
+        level: "★★☆",
+        genre: "日本",
+        text: "When a favorite bowl or cup breaks, most people throw it away or hide the crack. In Japan, there is a very different tradition. It is called \"kintsugi,\" which means \"golden joining.\" Instead of hiding the damage, a skilled worker mends the broken pieces with a special glue mixed with gold. The repaired lines shine brightly, and the crack becomes a beautiful part of the object.\n\nThis craft is more than a clever way to fix pottery. It carries a gentle philosophy about life. A kintsugi bowl does not pretend to be perfect or new. Its history — the moment it broke and was carefully healed — is shown with pride, not shame. The object becomes more precious because of what it has been through, not in spite of it.\n\nMany people find comfort in this idea. It suggests that scars, mistakes, and hard times are part of who we are, and that they can even add to our beauty. A person who has struggled and recovered, like a mended bowl, may be stronger and more interesting than before.\n\nKintsugi takes patience. The gold lines are added slowly and with great care, and the finished piece is truly unique.\n\nIn a world that often throws away what is broken, kintsugi offers a kinder message: that damage is not the end. With care, something broken can become whole again — and even more beautiful.",
+        summaryJa: "お気に入りの茶碗やカップが割れると、多くの人は捨てるかひびを隠す。日本にはまったく違う伝統がある。「金継ぎ」——金でつなぐという意味だ。傷を隠すのでなく、熟練者が割れた破片を金を混ぜた特別な接着剤で直す。継いだ線は明るく輝き、ひびが器の美しい一部になる。この技は陶器を直す巧みな方法以上のものだ。人生についての優しい哲学を宿す。金継ぎの器は完璧や新品のふりをしない。割れて丁寧に癒された歴史を、恥でなく誇りとして示す。器は経てきたことのおかげで、それにもかかわらずではなく、より貴重になる。多くの人はこの考えに慰めを見出す。傷や失敗、苦難は自分の一部であり、美しささえ加えうると示すからだ。もがき立ち直った人は、継がれた器のように以前より強く興味深いかもしれない。金継ぎには忍耐が要る。金の線はゆっくり丁寧に加えられ、仕上がりは唯一無二だ。壊れた物を捨てがちな世界で、金継ぎは優しい伝言を与える。傷は終わりではない。手をかければ、壊れた物は再び完全になり、さらに美しくなれる。",
+        quiz: [
+          { q: "What is 'kintsugi'?", options: ["Mending broken pottery with a special glue mixed with gold", "Throwing away broken bowls", "Painting new bowls"], answer: 0 },
+          { q: "What philosophy does kintsugi carry?", options: ["An object's history and scars can make it more precious, not less", "That objects must always look new", "That mistakes should be hidden forever"], answer: 0 },
+          { q: "What kinder message does kintsugi offer?", options: ["Damage is not the end; something broken can become whole and even more beautiful", "Broken things are worthless", "Nothing can ever be repaired"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0911-5",
+        title: "Why the World Depends on Bees",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "When we think of important animals, we may picture large creatures like elephants or whales. But some of the most important animals on Earth are tiny: bees. These small insects play a huge role in growing the food we eat, and their health matters to everyone.\n\nBees help plants through something called pollination. As a bee moves from flower to flower to collect food, it carries a fine powder called pollen on its body. This pollen lets plants make seeds and fruit. Without it, many plants could not reproduce. A large share of the fruits, vegetables, and nuts we enjoy depends on bees and other pollinators doing this quiet work.\n\nIn recent years, scientists have grown worried. In some places, bee numbers have fallen. The causes are complex, and may include loss of wild flowers, disease, and certain chemicals used on farms. Fewer bees could mean less food and higher prices.\n\nThe good news is that people can help. Farmers can leave wild areas for bees to feed. Cities can plant flowers in parks and gardens. Even a small balcony with a few flowering plants can offer bees a meal.\n\nProtecting bees is really about protecting ourselves. These tiny workers remind us that in nature, everything is connected. Something as small as a bee can hold up a large part of the world's dinner table.",
+        summaryJa: "大切な動物というと、ゾウやクジラのような大きな生き物を思い浮かべるかもしれない。だが地球で最も重要な動物のいくつかは小さい。ミツバチだ。この小さな昆虫は、私たちが食べる食物を育てる上で大きな役割を果たし、その健康は皆に関わる。ミツバチは「受粉」を通じて植物を助ける。餌を集めに花から花へ移る間、体に花粉という細かい粉を運ぶ。この花粉が植物に種や実を作らせる。それなしでは多くの植物は繁殖できない。私たちが楽しむ果物、野菜、ナッツの大きな割合が、ミツバチなどの花粉媒介者のこの静かな働きに頼っている。近年、科学者は心配を強めている。場所によってはミツバチの数が減った。原因は複雑で、野の花の減少、病気、農場で使われる一部の化学物質などが含まれうる。ミツバチが減れば食料が減り価格が上がるかもしれない。良い知らせは、人が助けられることだ。農家はミツバチが餌を得る野を残せる。都市は公園や庭に花を植えられる。数鉢の花のある小さなベランダさえ餌場になる。ミツバチを守ることは自分を守ることだ。自然では全てがつながっていると、この小さな働き手は教えてくれる。",
+        quiz: [
+          { q: "How do bees help plants?", options: ["Through pollination — carrying pollen so plants can make seeds and fruit", "By eating all the plants", "By blocking the sunlight"], answer: 0 },
+          { q: "Why have scientists grown worried?", options: ["In some places, bee numbers have fallen", "Because there are too many bees", "Because bees stopped eating"], answer: 0 },
+          { q: "How can ordinary people help bees?", options: ["By planting flowers in gardens, parks, or even a small balcony", "By removing all flowers", "By doing nothing"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-10",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What are 'organoids'?", options: ["Tiny, living models of human organs grown in the lab", "Large robots", "A kind of medicine you drink"], answer: 0 },
           { q: "Why are lab-grown tissues useful?", options: ["Scientists can study disease and test medicines without harming a patient", "They can fully replace a human", "They make patients sick"], answer: 0 },
           { q: "What limit does the passage mention?", options: ["An organoid is not a full organ and cannot replace a human part", "They are bigger than real organs", "They can think and breathe"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-04",
-    passages: [
-      {
-        id: "d0904-1",
-        title: "Who Wrote This — a Human or an AI?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "As artificial intelligence gets better at writing, a new question is appearing everywhere: was this text written by a person or by a machine? From school essays to news articles and online reviews, it is becoming harder to tell. In answer, a whole new business has grown up: tools that try to detect AI writing.\n\nThese detection tools look for patterns. AI-written text can be very smooth and correct, but it sometimes lacks the small surprises and mistakes of human writing. By studying millions of examples, the tools try to guess whether a machine was involved. Some companies now offer this service to schools, publishers, and websites.\n\nWhy does it matter? Many people want to know the truth. A teacher wants to see a student's own thinking. A reader may want to know if a review was written by a real customer. Some websites are starting to label which articles used AI, so readers can decide for themselves.\n\nBut detection is not easy or perfect. The tools sometimes make mistakes, wrongly accusing a human of using AI, or missing text that a machine really wrote. As AI improves, the guessing game grows harder.\n\nIn the end, the goal is not to ban these tools, but to keep trust. Whether words come from a person or a program, honesty about their source helps everyone. Knowing who — or what — is speaking has become a valuable thing.",
-        summaryJa: "AIの文章作成が上達するにつれ、「これは人が書いたのか機械か」という新しい問いが至る所で生まれている。学校の作文からニュース記事、口コミまで見分けが難しくなり、その答えとしてAIの文章を検出するツールという新事業が育った。ツールはパターンを探す。AIの文章は滑らかで正確だが、人間らしい小さな意外性や誤りを欠くことがある。学校や出版社、サイトに提供され、AI使用を明示するサイトも出てきた。理由は多くの人が真実を知りたいからだ。ただし検出は完璧でなく、人を誤って疑ったり見逃したりする。目的は禁止でなく信頼の維持で、出所への正直さが皆を助ける。",
-        quiz: [
-          { q: "What new business has grown because AI can write well?", options: ["Tools that try to detect whether text was written by AI", "Companies that stop all writing", "Shops that sell paper only"], answer: 0 },
-          { q: "How do detection tools try to guess if AI was involved?", options: ["By looking for patterns, since AI text may lack human surprises and mistakes", "By reading the writer's mind", "By counting the pages"], answer: 0 },
-          { q: "What does the passage say is the real goal?", options: ["To ban all writing tools", "To keep trust through honesty about a text's source", "To make writing secret"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0904-2",
-        title: "The Hidden Hunger of Data Centers",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Every time you send a message, watch a video, or ask an AI a question, a building far away does part of the work. These buildings are called data centers, and they are full of powerful computers that never sleep. As our digital lives grow — especially with the rise of AI — the world needs more and more of them. But there is a hidden cost: these centers are extremely hungry for energy.\n\nComputers running day and night use huge amounts of electricity. They also produce heat, so even more power is needed to keep them cool. Some large data centers use as much electricity as a small town. As companies build more of them for AI, experts worry about where all that power will come from.\n\nWater is another concern. Many centers use water to help cool their machines, which can be a problem in dry areas. Communities near new data centers sometimes ask hard questions about energy bills and local resources.\n\nThere is good news, too. Engineers are working to make data centers cleaner and smarter. Some are built near sources of clean energy, such as wind or solar power. Others use cool outside air or reuse their waste heat to warm nearby buildings.\n\nThe challenge is clear: we want the benefits of powerful computing, but we must find ways to feed these hungry machines without harming the planet.",
-        summaryJa: "メッセージの送信や動画視聴、AIへの質問のたびに、遠くの建物が処理の一部を担う。データセンターと呼ばれ、眠らない強力なコンピューターで満ちている。デジタル生活の拡大、とくにAIの台頭で世界はますます多くを必要とするが、隠れた代償がある。膨大なエネルギーを消費するのだ。昼夜動く計算機は大量の電力を使い、発熱するため冷却にもさらに電力が要る。小さな町ほどの電力を使う施設もあり、電源の確保が懸念される。冷却に水を使う施設も多く乾燥地では問題になる。一方で、風力や太陽光の近くに建てたり外気で冷やしたり排熱を再利用したりと、より清潔で賢くする取り組みも進む。恩恵を得つつ地球を害さず機械を養う方法が課題だ。",
-        quiz: [
-          { q: "What are data centers?", options: ["Buildings full of powerful computers that do our digital work", "Empty warehouses", "Places with no electricity"], answer: 0 },
-          { q: "Why do data centers need so much energy?", options: ["Computers run day and night and also need power to stay cool", "They do nothing at all", "They only work once a year"], answer: 0 },
-          { q: "What is one way engineers try to make data centers cleaner?", options: ["Building them near clean energy or reusing their waste heat", "Adding more heat on purpose", "Turning off all cooling"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0904-3",
-        title: "Making the World's Ships Cleaner",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Most of the goods we use every day — clothes, phones, food, and furniture — travel across the ocean by ship at some point. Giant cargo ships carry the majority of the world's trade. They are a quiet, powerful engine of the global economy. But these ships also burn large amounts of dirty fuel, and cleaning them up has become an important worldwide goal.\n\nFor a long time, big ships ran on a thick, cheap oil that produces a lot of pollution. Because the ocean is shared by all countries, no single nation can fix the problem alone. So governments and companies around the world are working together to make shipping cleaner.\n\nThere are several promising ideas. Some new ships use cleaner fuels, such as gas or fuels made from plants. Others are testing electric power for short trips, or even modern sails that use the wind to save fuel. Simply slowing ships down a little can also cut pollution by a surprising amount.\n\nChange is not easy. Cleaner fuels can cost more, and building new ships takes years. Ports around the world must also add new equipment to support them.\n\nStill, the direction is set. Because shipping touches almost everything we own, making it cleaner is one of the most useful steps the world can take. A cleaner fleet means a healthier ocean and sky for everyone who shares the planet.",
-        summaryJa: "私たちが日々使う衣類や電話、食料、家具の多くは、どこかで船に乗って海を渡ってくる。巨大な貨物船が世界の貿易の大半を運び、世界経済の静かで強力な原動力だ。だがこれらの船は大量の汚れた燃料を燃やすため、その浄化が世界的な重要目標になっている。長年、大型船は汚染の多い安い重油で動いてきた。海はすべての国が共有するため一国では解決できず、各国政府と企業が協力している。有望な案は複数ある。ガスや植物由来の清潔な燃料、短距離の電動化、風を使う現代の帆、少し減速するだけでも汚染は大きく減る。費用や建造年数、港の設備など課題はあるが、船は所有物のほぼ全てに関わるため、その浄化は世界にとって有益な一歩だ。",
-        quiz: [
-          { q: "Why does shipping matter so much to the global economy?", options: ["Giant ships carry the majority of the world's trade", "Ships carry nothing useful", "Only a few small boats exist"], answer: 0 },
-          { q: "Why can't a single nation fix ship pollution alone?", options: ["Because the ocean is shared by all countries", "Because ships never move", "Because pollution does not exist"], answer: 0 },
-          { q: "What is one idea to make ships cleaner?", options: ["Using cleaner fuels, modern sails, or slowing down a little", "Burning more dirty oil", "Making ships much heavier"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0904-4",
-        title: "Japan's Autumn Festivals",
-        level: "★★☆",
-        genre: "日本",
-        text: "When the summer heat finally fades, towns and villages across Japan come alive with autumn festivals. These local events, often held at shrines, are a chance for communities to give thanks for the harvest and to enjoy time together. For many people, an autumn festival is one of the happiest memories of the year.\n\nEach festival has its own character, but many share common sights and sounds. People pull or carry a portable shrine, called a \"mikoshi,\" through the streets, shouting together to keep the rhythm. There is the beat of drums, the smell of grilled food from many small stalls, and children in bright, traditional clothes. The whole town seems to move as one.\n\nAutumn is a natural time for such thanks. Farmers have gathered the rice and other crops, so there is a feeling of relief and gladness. Long ago, people prayed for a good harvest in spring and gave thanks in autumn, and this rhythm still shapes many festivals today.\n\nMore than the food or the noise, the real heart of a festival is connection. Neighbors who are usually busy meet and laugh together. Older people teach children the songs and steps. In a busy modern world, these events keep a community close.\n\nAn autumn festival is a warm reminder that some of life's best things — good food, music, and friendship — are meant to be shared.",
-        summaryJa: "夏の暑さがようやく和らぐと、日本各地の町や村は秋祭りでにぎわう。多くは神社で行われる地域の行事で、収穫に感謝し、共に過ごす機会だ。多くの人にとって秋祭りは一年で最も幸せな思い出の一つだ。祭りごとに個性はあるが、共通の光景も多い。人々は「神輿」を担いで通りを練り歩き、掛け声でリズムをそろえる。太鼓の音、屋台の焼き物の匂い、鮮やかな伝統衣装の子どもたち。町全体が一つになって動くようだ。秋は感謝に自然な季節で、米などを収穫し安堵と喜びがある。春に豊作を祈り秋に感謝する昔からの流れが今も祭りを形づくる。祭りの核心は食や音以上に「つながり」だ。普段忙しい隣人が笑い合い、年長者が子に歌や所作を教える。祭りは、良い食事や音楽、友情は分かち合うものだと温かく思い出させる。",
-        quiz: [
-          { q: "What is one common sight at a Japanese autumn festival?", options: ["People carrying a portable shrine called a 'mikoshi'", "Empty, silent streets", "People staying indoors alone"], answer: 0 },
-          { q: "Why is autumn a natural time to give thanks?", options: ["Farmers have gathered the rice and other crops", "Because nothing grows in autumn", "Because summer is just starting"], answer: 0 },
-          { q: "What does the passage call the real heart of a festival?", options: ["The noise only", "Connection among people in the community", "Spending money"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0904-5",
-        title: "Mapping the Brain of a Tiny Fly",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "The brain is one of the greatest mysteries in all of science. It is a maze of tiny cells, called neurons, that send signals to one another. To truly understand how a brain works, scientists dream of drawing a complete map of every connection. Recently, they reached an amazing milestone — not with a human brain, but with the brain of a tiny fruit fly.\n\nWhy a fly? A human brain has billions of neurons, far too many to map today. A fruit fly's brain is much smaller, yet it can still see, fly, find food, and remember. By studying this simpler brain, scientists can learn basic rules that may also apply to larger brains, including our own.\n\nThe new map shows an incredible number of connections — well over a hundred million points where neurons meet. Creating it took years of careful work, powerful microscopes, and clever computer programs. The result is like a wiring diagram for a living creature's mind.\n\nWhat can we do with such a map? Scientists hope it will help them understand how brains turn signals into behavior — how a tiny creature decides to turn left or right, for example. In the long run, this knowledge may help us understand memory, learning, and even brain diseases.\n\nMapping a fly's brain may sound small, but it is a giant step. Sometimes, to understand something huge, you must start with something tiny.",
-        summaryJa: "脳は科学最大の謎の一つだ。ニューロンという小さな細胞が互いに信号を送り合う迷路である。脳の仕組みを真に理解するため、科学者はすべての接続の完全な地図を描くことを夢見てきた。最近、その節目に到達した——人の脳ではなく、小さなショウジョウバエの脳で。なぜハエか。人の脳は数十億のニューロンを持ち今は地図化できないが、ハエの脳ははるかに小さくても見て飛び、餌を探し記憶する。この単純な脳から、より大きな脳にも当てはまる基本則を学べる。新しい地図は一億をはるかに超えるニューロンの接点を示す。作成には長年の作業、強力な顕微鏡、巧妙なプログラムを要した。生き物の心の配線図のようだ。信号がどう行動になるかの理解に役立ち、やがて記憶や学習、脳の病気の理解にもつながりうる。巨大なものを理解するには、小さなものから始めねばならない。",
-        quiz: [
-          { q: "Why did scientists map a fruit fly's brain instead of a human brain?", options: ["A human brain has far too many neurons to map today", "Flies have no brain", "Human brains are too small"], answer: 0 },
-          { q: "What does the new map show?", options: ["Well over a hundred million points where neurons meet", "Only three connections", "A map of the sky"], answer: 0 },
-          { q: "What do scientists hope to learn from such a map?", options: ["How brains turn signals into behavior, and eventually memory and disease", "How to make flies bigger", "Nothing useful at all"], answer: 0 }
         ]
       }
     ]
