@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-12",
+    passages: [
+      {
+        id: "d0912-1",
+        title: "Why Companies Listen to Their Customers",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Every day, customers tell companies what they think. They leave reviews online, answer short surveys, call to complain, or simply stop buying. Wise companies treat all of this as treasure. Listening carefully to customers is one of the most powerful and affordable ways to improve a business.\n\nWhy is customer feedback so valuable? Because the people who use a product often notice things the makers cannot see. A small design flaw, a confusing instruction, or a missing feature may be obvious to a daily user but invisible inside the company. Feedback turns these hidden problems into clear, fixable ones.\n\nComplaints, in particular, are worth their weight in gold. A customer who complains is giving the company a second chance instead of quietly leaving forever. If the problem is fixed well, that unhappy customer can become a loyal fan who tells others about the good service.\n\nOf course, listening is only the first step. A company must also decide which feedback to act on. Not every request can or should be met, and sometimes many small comments together point to one bigger truth. The skill lies in finding the real message behind the noise.\n\nIn the end, a business exists to serve people. By truly listening — and then acting — a company shows respect for its customers. That respect builds trust, and trust, over time, builds success.",
+        summaryJa: "毎日、客は企業に考えを伝えている。オンラインでレビューを残し、短いアンケートに答え、電話で苦情を言い、あるいは単に買うのをやめる。賢い企業はこれらすべてを宝として扱う。客に注意深く耳を傾けることは、事業を改善する最も強力で安価な方法の一つだ。なぜ客の声はそれほど価値があるのか。製品を使う人は、作り手に見えないことに気づくからだ。小さな設計上の欠陥、分かりにくい説明、欠けた機能は、毎日使う人には明白でも社内では見えない。フィードバックはこうした隠れた問題を、直せる明確なものに変える。特に苦情は金と同じ価値がある。苦情を言う客は、黙って去る代わりに企業に二度目の機会を与えている。うまく直せば、不満だった客が忠実なファンになり良いサービスを人に伝える。もちろん聞くのは第一歩にすぎない。どの声に応えるかを決めねばならない。すべての要望に応えられるわけでも応えるべきでもなく、多くの小さな声が一つの大きな真実を指すこともある。雑音の裏の本当の伝言を見つける技が要る。事業は人に仕えるために存在する。真に聞き行動する企業は客への敬意を示し、それが信頼を、やがて成功を築く。",
+        quiz: [
+          { q: "Why is customer feedback so valuable?", options: ["Users often notice problems the makers cannot see", "Customers know nothing useful", "It costs a lot of money"], answer: 0 },
+          { q: "Why are complaints described as valuable?", options: ["A complaining customer gives the company a second chance instead of leaving", "Complaints should always be ignored", "They mean the customer is happy"], answer: 0 },
+          { q: "What skill is needed after listening?", options: ["Deciding which feedback to act on and finding the real message", "Acting on nothing at all", "Meeting every single request"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0912-2",
+        title: "How Noise-Cancelling Headphones Work",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "On a noisy plane or a busy train, some headphones can make the roar of engines almost disappear, even before any music plays. These are called noise-cancelling headphones, and the science behind them is both simple and clever.\n\nTo understand it, think about what sound really is: a wave that travels through the air, made of tiny pushes and pulls. When these waves reach your ear, you hear them as noise. The trick of noise-cancelling is to create a second wave that is the exact opposite of the unwanted one.\n\nInside the headphones, a small microphone listens to the noise around you. A tiny computer instantly works out the opposite wave and plays it through the speakers. When the original noise wave and this opposite wave meet, they cancel each other out, much like a hill and a hole of the same size filling to make flat ground. The result is a wonderful feeling of quiet.\n\nThis method works best on steady, low sounds, like the hum of an engine. Sudden, sharp noises, such as a voice or a bang, are harder to cancel because they change too quickly for the system to match.\n\nNoise-cancelling headphones show how understanding a simple idea — that waves can cancel — can be turned into something genuinely useful. With a microphone, a speaker, and clever timing, engineers have learned to fight noise with silence of their own making.",
+        summaryJa: "騒がしい飛行機や混んだ電車で、音楽を流す前でさえエンジンの轟音をほぼ消せるヘッドホンがある。ノイズキャンセリングヘッドホンと呼ばれ、その科学は単純かつ巧みだ。理解するには、音が本当は何かを考えるとよい。空気を伝わる波で、小さな押しと引きからなる。この波が耳に届くと騒音として聞こえる。ノイズキャンセリングの技は、不要な波とちょうど正反対の第二の波を作ることだ。ヘッドホンの中で小さなマイクが周りの騒音を聞く。小さなコンピューターが瞬時に反対の波を計算しスピーカーで流す。元の騒音の波とこの反対の波が出会うと互いに打ち消し合う。同じ大きさの丘と穴が埋まって平らになるように。結果、素晴らしい静けさの感覚が生まれる。この方法はエンジンのうなりのような一定の低い音に最も効く。声や破裂音のような突然鋭い音は、速く変わりすぎて合わせにくく打ち消しにくい。単純な考え——波は打ち消し合える——の理解が本当に役立つものになる好例だ。マイクとスピーカーと巧みなタイミングで、技術者は自ら作る静けさで騒音と戦うすべを学んだ。",
+        quiz: [
+          { q: "What is the main trick of noise-cancelling headphones?", options: ["Creating a second wave that is the exact opposite of the unwanted noise", "Playing music very loudly", "Blocking the ears with thick foam only"], answer: 0 },
+          { q: "What listens to the noise around you inside the headphones?", options: ["A small microphone", "A tiny mirror", "A bright light"], answer: 0 },
+          { q: "What kind of sound is hardest to cancel?", options: ["Sudden, sharp noises that change too quickly", "The steady hum of an engine", "A quiet, constant tone"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0912-3",
+        title: "The World's Many Languages",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "How many languages do you think are spoken in the world? The answer surprises many people: there are around seven thousand. From languages spoken by hundreds of millions to ones known by only a few elderly people, human speech is astonishingly rich and varied.\n\nEach language is far more than a way to order food or ask directions. It carries a whole way of seeing the world. Inside a language live songs, jokes, stories, and words for ideas that may not exist anywhere else. When people speak their mother tongue, they connect to their history and their community in a deep way.\n\nSadly, many of the world's languages are in danger. As people move to cities and use a few major languages for work and school, smaller languages are spoken less and less. Experts fear that many could disappear within this century. When a language dies, a unique window on human experience closes forever.\n\nAround the world, people are working to keep languages alive. Communities record their elders, teachers create classes, and technology helps by putting dictionaries and lessons online. Even simple pride in one's own language can make a difference.\n\nLearning about the world's languages teaches us something important: there is no single \"correct\" way to think or speak. Our differences are a treasure. Protecting them helps keep the human story wide, colorful, and whole.",
+        summaryJa: "世界ではいくつの言語が話されていると思うだろうか。答えは多くの人を驚かせる。約7000だ。数億人が話すものから、数人の高齢者しか知らないものまで、人間の言葉は驚くほど豊かで多様だ。各言語は食べ物を注文したり道を尋ねたりする手段以上のものだ。世界の見方全体を運ぶ。言語の中には歌や冗談、物語、他のどこにも存在しないかもしれない概念の語が生きている。母語を話すとき、人は歴史や地域社会と深くつながる。悲しいことに、世界の多くの言語が危機にある。人が都市へ移り、仕事や学校でいくつかの主要言語を使うにつれ、小さな言語は次第に話されなくなる。専門家は今世紀中に多くが消えかねないと恐れる。言語が死ぬと、人間の経験への独自の窓が永遠に閉じる。世界中で人々は言語を生かそうと努めている。地域は年長者を記録し、教師は授業を作り、技術は辞書や教材をオンラインにして助ける。自分の言語への誇りさえ違いを生む。世界の言語を学ぶと大切なことが分かる。考え方や話し方に唯一の「正解」はない。違いは宝であり、それを守ることが人間の物語を広く彩り豊かに保つ。",
+        quiz: [
+          { q: "About how many languages are spoken in the world?", options: ["Around seven thousand", "Only about ten", "Exactly one hundred"], answer: 0 },
+          { q: "Why is each language more than a way to communicate?", options: ["It carries a whole way of seeing the world, with songs, stories, and unique ideas", "It is only useful for ordering food", "It has no connection to history"], answer: 0 },
+          { q: "How are people working to keep languages alive?", options: ["Recording elders, creating classes, and putting lessons online", "By banning all small languages", "By ignoring the problem"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0912-4",
+        title: "Radio Taiso: Exercising Together",
+        level: "★★☆",
+        genre: "日本",
+        text: "Early in the morning across Japan, a familiar piece of music plays from radios and speakers, and people begin to move together. They stretch their arms, bend, and jump in time with the tune. This is \"radio taiso,\" a short set of simple exercises that has been part of Japanese life for many years.\n\nRadio taiso began long ago as a way to keep the whole nation healthy. The idea was clever: broadcast the same easy routine everywhere, so that anyone, anywhere, could join in at once. The movements are gentle and need no special equipment, so people of all ages can do them.\n\nToday, radio taiso appears in many places. Children do it during summer holidays, sometimes collecting a stamp each morning for taking part. Workers stretch together before a shift at a factory or office. Older people gather in parks to move and chat with neighbors.\n\nPart of the charm is that it is done together. Even strangers, exercising side by side to the same music, share a small sense of community. The exercise itself is light, but the habit is powerful: a few minutes of movement can wake up the body and lift the mood.\n\nRadio taiso shows a gentle Japanese belief — that small, shared, daily habits can quietly keep both a person and a community healthy and connected.",
+        summaryJa: "日本各地で朝早く、なじみのある音楽がラジオやスピーカーから流れ、人々が一緒に動き始める。曲に合わせて腕を伸ばし、体を曲げ、跳ぶ。これが「ラジオ体操」、長年日本の暮らしの一部である短い簡単な運動だ。ラジオ体操は昔、国民全体を健康に保つ方法として始まった。同じ易しい体操をどこでも放送し、誰でもどこでも同時に参加できるという巧みな発想だった。動きは穏やかで特別な道具も要らず、あらゆる年代の人ができる。今、ラジオ体操は多くの場所で見られる。子どもは夏休みに行い、参加すると毎朝スタンプをもらうこともある。働く人は工場や事務所で仕事前に一緒に伸びをする。高齢者は公園に集い、体を動かし隣人とおしゃべりする。魅力の一部は一緒に行うことだ。見知らぬ者同士でも同じ音楽で並んで運動すると、小さな地域の一体感を分かち合う。運動自体は軽いが習慣は強力で、数分の運動が体を目覚めさせ気分を上げる。小さく共有された日々の習慣が、人と地域を静かに健康でつながった状態に保つという、優しい日本的な考えを示している。",
+        quiz: [
+          { q: "What is 'radio taiso'?", options: ["A short set of simple exercises done together to music", "A type of radio program with only news", "A cooking show"], answer: 0 },
+          { q: "Why was the same routine broadcast everywhere?", options: ["So anyone, anywhere could join in at once with no special equipment", "So only athletes could do it", "To make it very difficult"], answer: 0 },
+          { q: "What is part of the charm of radio taiso?", options: ["It is done together, giving even strangers a sense of community", "It must be done completely alone", "It requires expensive machines"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0912-5",
+        title: "Why the Sky Is Blue",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Look up on a clear day, and the sky is a beautiful blue. At sunset, the same sky may glow with red and orange. Why does the sky change color like this? The answer lies in sunlight and the air around our planet.\n\nSunlight looks white, but it is really a mix of all the colors of the rainbow. When this light travels through the air, it bumps into countless tiny gas particles. These particles scatter the light, sending it bouncing in all directions. Here is the key: blue light is scattered much more strongly than red light, because of the way its shorter waves interact with the air.\n\nDuring the day, this scattered blue light comes at us from every part of the sky, so the whole sky looks blue. We are seeing blue light that has been bounced around above us.\n\nAt sunset, the sun is low, and its light must pass through much more air to reach our eyes. Along this long path, most of the blue light is scattered away before it arrives. What remains is the warm red and orange light, painting the evening sky.\n\nSo the colors of the sky are not really \"in\" the sky at all. They are sunlight, sorted by the air itself. Something as ordinary as a blue afternoon is, in truth, a quiet daily show of physics.",
+        summaryJa: "晴れた日に見上げると、空は美しい青だ。夕暮れには、同じ空が赤や橙に輝くこともある。なぜ空はこう色を変えるのか。答えは太陽光と、地球を包む空気にある。太陽光は白く見えるが、実は虹のすべての色の混合だ。この光が空気を通るとき、無数の小さな気体の粒子にぶつかる。粒子は光を散乱させ、あらゆる方向へ跳ね返す。鍵はここだ。青い光は赤い光よりずっと強く散乱される。波長が短く空気と作用する仕方のためだ。昼間、この散乱した青い光が空のあらゆる部分から届くので、空全体が青く見える。頭上で跳ね回った青い光を見ているのだ。夕暮れには太陽が低く、光は目に届くまでずっと多くの空気を通らねばならない。この長い道のりで、青い光の多くは届く前に散らされる。残るのは暖かい赤や橙の光で、夕空を彩る。だから空の色は本当は空の中に「ある」のではない。空気そのものによって振り分けられた太陽光だ。青い午後というありふれたものも、実は物理の静かな日々の見世物なのだ。",
+        quiz: [
+          { q: "What is sunlight really made of?", options: ["A mix of all the colors of the rainbow", "Only blue light", "Only red light"], answer: 0 },
+          { q: "Why does the daytime sky look blue?", options: ["Blue light is scattered more strongly and comes from all over the sky", "The sky is painted blue", "Because there is no sunlight"], answer: 0 },
+          { q: "Why does the sky turn red at sunset?", options: ["Light passes through more air, so most blue is scattered away, leaving red and orange", "The sun changes color", "Because the air disappears"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-11",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What causes goosebumps to appear?", options: ["Tiny muscles at the base of each hair tighten and pull the hairs upright", "Water on the skin", "A special food"], answer: 0 },
           { q: "Why did goosebumps help our distant ancestors?", options: ["Raised hair trapped warm air and made them look bigger to enemies", "They made people run faster", "They cooled the body down"], answer: 0 },
           { q: "What are goosebumps for modern humans?", options: ["A vital way to stay warm", "Mostly a leftover from our past, since we no longer have thick fur", "A recent invention"], answer: 1 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-05",
-    passages: [
-      {
-        id: "d0905-1",
-        title: "Why Big Companies Buy Small Ones",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "In the business news, you often read that a huge company has bought a much smaller one, sometimes for a surprising amount of money. It can seem strange. Why would a giant firm pay so much for a tiny team? The reasons are usually smart and simple.\n\nOne common reason is speed. Building a new product or skill from zero can take years. If a small company has already created something valuable — a clever technology, a loyal group of customers, or a talented team — buying it can be faster than starting alone. The big company gains a head start.\n\nTalent is another reason. Sometimes a large firm is really buying the people. A small group of brilliant engineers or designers can be worth a great deal, and joining a bigger company gives them more money and tools to work with.\n\nBuying a rival can also remove competition or fill a gap. If a small company is growing fast in an area the giant wants to enter, buying it solves two problems at once.\n\nOf course, these deals carry risks. The price may be too high, or the two companies may not fit well together. Many purchases fail to work as planned, and the new team may lose its spark inside a large organization.\n\nStill, when done wisely, buying a small company can bring fresh ideas and energy — a shortcut to the future that money alone cannot always build.",
-        summaryJa: "ビジネスニュースでは、巨大企業がずっと小さな会社を、時に驚くほどの金額で買収したとよく報じられる。奇妙に見えるが、理由はたいてい合理的だ。一つは速さ。新しい製品や技術を一から作るには何年もかかるが、小さな会社が既に価値ある技術や忠実な顧客、優秀なチームを持っていれば、買う方が速く先行できる。人材も理由で、実は「人」を買っていることもある。少数の優れた技術者やデザイナーは大きな価値を持つ。競合の買収は競争を減らし、空白を埋める。ただし価格が高すぎたり相性が悪かったりする危険もあり、失敗も多く、買われたチームが大組織で輝きを失うこともある。賢く行えば新しい発想と活力をもたらす、未来への近道になる。",
-        quiz: [
-          { q: "What is one common reason a big company buys a small one?", options: ["Speed — gaining a valuable product or skill faster than building it alone", "To close the small company forever", "Because it has too much empty space"], answer: 0 },
-          { q: "How can buying a small company be about talent?", options: ["The big firm is really buying its skilled people", "The big firm wants no employees", "Talent has no value in business"], answer: 0 },
-          { q: "What risk does the passage mention about these deals?", options: ["The price may be too high or the companies may not fit well", "They always succeed perfectly", "They are completely free"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0905-2",
-        title: "How Your Map App Knows the Traffic",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Have you ever wondered how the map app on your phone knows that a road is busy? It can warn you about a traffic jam ahead, suggest a faster route, and even guess what time you will arrive. This feels almost like magic, but it is really the result of clever technology working quietly in the background.\n\nThe secret is that many phones share their location and speed with the map service. When thousands of phones on the same road are moving slowly, the app understands that traffic is heavy there. When they move quickly, the road is clear. No single person's trip matters much; it is the pattern from many users together that paints the picture.\n\nThe app also uses history. It has learned, over time, that certain roads are always crowded at certain hours. By mixing this past knowledge with live data from phones, it can make smart guesses about the road ahead.\n\nOf course, this raises questions about privacy. To protect users, good map services mix the data together and remove personal details, so the system sees \"traffic,\" not \"this exact person.\" Users can also usually turn location sharing off.\n\nThe result is a tool that saves time and reduces stress for millions of drivers every day. It is a fine example of how small pieces of shared information, gathered wisely, can become something genuinely helpful for everyone.",
-        summaryJa: "スマホの地図アプリが道路の混雑をどう知るのか、不思議に思ったことはないだろうか。前方の渋滞を知らせ、速い経路を提案し、到着時刻まで推測する。魔法のようだが、実は裏で静かに働く技術のおかげだ。秘密は、多くのスマホが位置と速度を地図サービスに共有していることだ。同じ道の何千ものスマホがゆっくり動けば渋滞、速く動けば空いていると分かる。一人の移動は重要でなく、多数の利用者の全体の傾向が絵を描く。過去の履歴も使い、特定の時間に混む道を学ぶ。生のデータと合わせ賢く推測する。個人情報の懸念には、データをまとめ個人情報を除いて「渋滞」だけを見るようにし、共有をオフにもできる。共有された小さな情報が賢く集まり、皆に役立つ好例だ。",
-        quiz: [
-          { q: "How does a map app usually know a road is busy?", options: ["Many phones on the road share their location and speed, showing slow movement", "It calls each driver", "It guesses randomly"], answer: 0 },
-          { q: "Besides live data, what else does the app use?", options: ["History of which roads are crowded at certain hours", "The color of the cars", "The weather on the moon"], answer: 0 },
-          { q: "How do good map services protect privacy?", options: ["They mix data together and remove personal details", "They publish every user's name", "They never protect anything"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0905-3",
-        title: "The World's Growing Cities",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "For most of human history, the majority of people lived in the countryside, close to farms and fields. Today, that has changed. More than half of all people now live in cities, and that share keeps rising. Around the world, cities are growing quickly as people move to them in search of work, education, and a better life.\n\nThere are good reasons for this shift. Cities often offer more jobs, better schools and hospitals, and a wider range of choices. When people live close together, ideas and businesses can grow faster. Many of the world's new industries begin in busy urban areas.\n\nBut rapid growth brings serious challenges. When too many people arrive too quickly, there may not be enough housing, clean water, or transport for everyone. Traffic, pollution, and high living costs can make life hard. Some newcomers end up in poor, crowded neighborhoods with few services.\n\nCities and governments are trying many solutions. They build public transport to reduce traffic, plan green spaces to improve health, and design taller buildings to fit more homes in less space. Good planning can turn a crowded city into a comfortable one.\n\nThe trend toward city life is unlikely to stop. The great question of our time is not whether people will live in cities, but how to make those cities healthy, fair, and pleasant places for the billions who will call them home.",
-        summaryJa: "人類の歴史の大半で、多くの人は農地に近い田舎に暮らしていた。今は変わり、半数以上が都市に住み、その割合は上がり続ける。世界中で、仕事や教育、より良い暮らしを求めて人が移り、都市は急速に成長している。理由はある。都市は仕事や学校、病院が多く選択肢も広い。人が近くに住むと発想や事業が速く育ち、新産業の多くは都市で生まれる。だが急成長は深刻な課題も招く。人が一気に増えると住宅や清潔な水、交通が足りず、渋滞や汚染、高い生活費が生活を苦しくし、サービスの乏しい過密地区に住む人も出る。都市と政府は、公共交通や緑地、高層住宅など多くの解決策を試みる。良い計画は過密な都市を快適にできる。問いは都市に住むかどうかでなく、いかに健康で公正で快適な都市にするかだ。",
-        quiz: [
-          { q: "How has where people live changed today?", options: ["More than half of all people now live in cities", "Everyone still lives on farms", "Cities have all disappeared"], answer: 0 },
-          { q: "Why do people move to cities?", options: ["For work, education, and a better life", "To find fewer choices", "To avoid all jobs"], answer: 0 },
-          { q: "What is one challenge of rapid city growth?", options: ["Not enough housing, clean water, or transport for everyone", "Too much empty space", "No people at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0905-4",
-        title: "Why Japanese Students Clean Their Schools",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, cleaning a school is the job of paid staff. In Japan, something different happens. Almost every day, students themselves pick up brooms and cloths and clean their own classrooms, hallways, and even the toilets. To visitors, this can be surprising. Why do children do the cleaning?\n\nThe custom is about much more than keeping the school tidy. It is seen as an important part of education. By cleaning the space they use, students learn responsibility and respect. They understand that a mess does not disappear by itself, and that someone must always care for a shared place.\n\nThe activity also builds teamwork. Students clean in small groups, sharing the work and helping one another. A child who cleans a room is less likely to make it dirty later. In this way, a simple daily task quietly teaches good habits that last a lifetime.\n\nThis idea reaches beyond the school gates. Japanese sports fans are famous for cleaning up the stadium after a match, and workers often tidy their own workspaces with care. Many people trace this attitude back to those childhood cleaning times.\n\nThe lesson is gentle but powerful. Taking care of your surroundings is a way of showing respect — for others, for your community, and for yourself. A broom in a student's hands is, in a sense, a quiet teacher.",
-        summaryJa: "多くの国では学校の掃除は雇われた職員の仕事だが、日本では違う。ほぼ毎日、生徒自身がほうきや雑巾を手に、自分の教室や廊下、トイレまで掃除する。訪問者には驚きだ。なぜ子どもが掃除するのか。この習慣は校舎をきれいに保つ以上の意味を持ち、教育の大切な一部とされる。自分が使う場所を掃除することで責任と敬意を学ぶ。汚れは自然には消えず、共有の場は誰かが世話をせねばならないと理解する。少人数で協力して掃除し、仲間を助ける。自分で掃除した部屋は汚しにくい。こうして日々の作業が一生続く良い習慣を静かに教える。この考えは校門の外にも及ぶ。日本のスポーツファンは試合後にスタジアムを掃除することで有名で、職場を丁寧に整える人も多い。身の回りの世話は、他者や地域、自分への敬意の表し方だ。",
-        quiz: [
-          { q: "What do Japanese students do almost every day at school?", options: ["They clean their own classrooms, hallways, and toilets", "They paint the school", "They cook all the meals"], answer: 0 },
-          { q: "What is the custom really about, beyond tidiness?", options: ["Learning responsibility, respect, and teamwork", "Making the school dirty", "Avoiding all work"], answer: 0 },
-          { q: "How does this attitude reach beyond school?", options: ["Fans clean stadiums and workers tidy their own workspaces", "People never clean anywhere else", "It disappears after childhood"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0905-5",
-        title: "Growing Tiny Organs in the Lab",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "To understand a disease, scientists often need to study human tissue. But it is difficult and risky to experiment on a living person, and simple cells in a dish do not behave like a real body part. Now, researchers have a remarkable new tool: tiny, living models of human organs, grown carefully in the laboratory.\n\nThese small structures are sometimes called \"organoids.\" Starting from special cells, scientists guide them to grow into miniature versions of a stomach, a lung, or a piece of the brain. These models are far simpler than real organs, but they can copy some of their key behavior. That makes them very useful for research.\n\nWith lab-grown tissue, scientists can watch how a disease develops and test how a new medicine might work — all without harming a patient. For example, researchers can study how cancer cells try to spread, or how an organ reacts to a virus, in a safe and controlled way.\n\nThe technology is still young and has limits. An organoid is not a full organ; it cannot think, breathe, or replace a human part. And growing these models well takes great skill and care.\n\nEven so, the promise is huge. By studying life in miniature, scientists can learn faster, test more safely, and search for cures with fresh eyes. Sometimes the biggest advances in medicine come from the smallest living things.",
-        summaryJa: "病気を理解するには人の組織を調べる必要が多いが、生きた人で実験するのは難しく危険で、皿の中の単純な細胞は本物の臓器のようには振る舞わない。今、研究者は驚くべき新しい道具を得た。実験室で丁寧に育てた、人の臓器の小さな生きた模型だ。これらは「オルガノイド」と呼ばれる。特別な細胞から、胃や肺、脳の一部の小型版へと育てる。本物よりずっと単純だが主要な働きの一部を再現でき、研究に役立つ。この組織で、患者を傷つけずに病気の進行を観察し新薬の効き方を試せる。がん細胞の広がり方やウイルスへの反応も安全に調べられる。技術はまだ若く限界もあり、オルガノイドは臓器の代わりにはならず、育てるには高い技術が要る。それでも可能性は大きく、小さな生命から医学の大きな前進が生まれることもある。",
-        quiz: [
-          { q: "What are 'organoids'?", options: ["Tiny, living models of human organs grown in the lab", "Large robots", "A kind of medicine you drink"], answer: 0 },
-          { q: "Why are lab-grown tissues useful?", options: ["Scientists can study disease and test medicines without harming a patient", "They can fully replace a human", "They make patients sick"], answer: 0 },
-          { q: "What limit does the passage mention?", options: ["An organoid is not a full organ and cannot replace a human part", "They are bigger than real organs", "They can think and breathe"], answer: 0 }
         ]
       }
     ]
