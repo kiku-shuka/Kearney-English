@@ -115,7 +115,19 @@ KE_DATA.extraSentences = [
   { id: "w2636-s09", ja: "予算を超えないよう気をつけましょう。", en: "Let's be careful not to go over budget.", note: "go over budget = 予算を超える" },
   { id: "w2636-s10", ja: "一歩下がって全体像を見てみましょう。", en: "Let's step back and look at the big picture.", note: "step back = 一歩引いて考える" },
   { id: "w2636-s11", ja: "その点について、少し考える時間をいただけますか。", en: "Could I have some time to think about that?", note: "丁寧に保留を求める型" },
-  { id: "w2636-s12", ja: "では、今日はこのあたりで終わりましょう。", en: "Well then, let's wrap up for today.", note: "wrap up = 締めくくる" }
+  { id: "w2636-s12", ja: "では、今日はこのあたりで終わりましょう。", en: "Well then, let's wrap up for today.", note: "wrap up = 締めくくる" },
+  { id: "w2637-s01", ja: "念のため、認識をすり合わせておきたいです。", en: "Just to be sure, I'd like to get on the same page.", note: "get on the same page = 認識を合わせる" },
+  { id: "w2637-s02", ja: "その数字は前年比で15%増えています。", en: "That figure is up 15 percent from last year.", note: "up X% from last year = 前年比X%増" },
+  { id: "w2637-s03", ja: "申し訳ありませんが、その締切は厳しいです。", en: "I'm afraid that deadline is too tight.", note: "too tight = きつすぎる" },
+  { id: "w2637-s04", ja: "この点について、皆さんの意見を伺いたいです。", en: "I'd like to hear everyone's thoughts on this.", note: "hear one's thoughts = 意見を聞く" },
+  { id: "w2637-s05", ja: "まず現状を正確に把握しましょう。", en: "Let's first get an accurate picture of the current situation.", note: "get a picture of = 把握する" },
+  { id: "w2637-s06", ja: "その提案の狙いをもう少し詳しく教えてください。", en: "Could you explain the aim of that proposal in more detail?", note: "aim = 狙い・目的" },
+  { id: "w2637-s07", ja: "私の理解が正しければ、次はテスト段階ですね。", en: "If I understand correctly, the next step is testing.", note: "if I understand correctly = 私の理解では" },
+  { id: "w2637-s08", ja: "その件は私の担当ではありませんが、確認します。", en: "That's not my area, but I'll look into it.", note: "not my area = 担当外／look into = 調べる" },
+  { id: "w2637-s09", ja: "コストと効果のバランスを考える必要があります。", en: "We need to balance cost and benefit.", note: "balance A and B = AとBのバランスを取る" },
+  { id: "w2637-s10", ja: "結論としては、この案で進めたいと思います。", en: "In conclusion, I'd like to move forward with this plan.", note: "move forward with = 〜で進める" },
+  { id: "w2637-s11", ja: "何か懸念があれば、遠慮なくおっしゃってください。", en: "If you have any concerns, please don't hesitate to say so.", note: "don't hesitate to = 遠慮なく〜する" },
+  { id: "w2637-s12", ja: "本日は活発なご議論をありがとうございました。", en: "Thank you all for the lively discussion today.", note: "lively = 活発な" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -325,6 +337,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "That would be great. How long will it take?", ja: "助かります。どれくらいかかりますか？" },
       { s: "B", en: "You'll have it within two days, and we'll cover the shipping. Again, I'm sorry for the trouble.", ja: "2日以内にお届けし、送料は当社が負担します。ご迷惑をおかけし重ねてお詫びします。" }
     ]
+  },
+  {
+    id: "w2637-sh1",
+    title: "英語での就職面接（応募者として）",
+    level: "★★☆",
+    description: "海外企業の面接で、自己紹介・強み・具体例・志望動機・逆質問に落ち着いて答える場面。自己PRと質問の型を身につける。",
+    lines: [
+      { s: "A", en: "Thank you for coming in today. Could you start by telling me about yourself?", ja: "本日はお越しいただきありがとうございます。まず自己紹介をお願いできますか？" },
+      { s: "B", en: "Of course. I have five years of experience in marketing, mainly in the food industry.", ja: "もちろんです。マーケティングで5年の経験があり、主に食品業界です。" },
+      { s: "A", en: "Great. What would you say is your greatest strength?", ja: "いいですね。あなたの最大の強みは何だと思いますか？" },
+      { s: "B", en: "I'm good at working with different teams and finding common ground.", ja: "異なるチームと協働し、共通点を見つけるのが得意です。" },
+      { s: "A", en: "Can you give me an example?", ja: "例を挙げてもらえますか？" },
+      { s: "B", en: "In my last project, I helped sales and design agree on a new package design.", ja: "前のプロジェクトで、営業とデザインが新しいパッケージデザインで合意するのを手伝いました。" },
+      { s: "A", en: "Why are you interested in our company?", ja: "なぜ当社に興味を持ったのですか？" },
+      { s: "B", en: "I admire your focus on healthy products, and I'd like to grow with a company like yours.", ja: "御社の健康的な製品への注力を尊敬しており、御社のような企業と共に成長したいです。" },
+      { s: "A", en: "Do you have any questions for us?", ja: "何か質問はありますか？" },
+      { s: "B", en: "Yes. Could you tell me what a typical first year looks like in this role?", ja: "はい。この職種で最初の1年は典型的にどのようなものか教えていただけますか？" }
+    ]
   }
 ];
 
@@ -437,6 +467,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2636-t03", ja: "キャリアのためには、大企業と新興企業（スタートアップ）のどちらに入る方が良いと思いますか？", en: "For your career, is it better to join a big company or a startup?",
     sample: { point: "I think the better choice depends on what you want at that stage of your career.", reason: "This is because a big company offers stability, training, and a strong brand, while a startup offers speed, variety, and a chance to take on big responsibility early.", example: "For example, a new graduate might learn solid basics at a large firm, while someone who wants to grow fast and try many roles might do better at a startup.", point2: "So instead of asking which is better in general, it is wiser to ask which one fits your own goals right now." }
+  },
+  {
+    id: "w2637-t01", ja: "社会は現金を使わないキャッシュレス化へ進むべきだと思いますか？", en: "Should societies move toward a cashless economy?",
+    sample: { point: "I think moving toward a cashless economy is largely positive, but cash should not disappear completely.", reason: "The main reason is that digital payments are fast, convenient, and easy to track, yet some people — such as the elderly — still rely on cash.", example: "For example, in some countries almost everyone now pays by phone, but shops that refuse cash can shut out those who are not comfortable with the technology.", point2: "So the wise path is to expand digital payments while still protecting the right to use cash." }
+  },
+  {
+    id: "w2637-t02", ja: "キャリアでは、専門家(スペシャリスト)と何でも屋(ゼネラリスト)のどちらを目指すべきだと思いますか？", en: "In your career, is it better to become a specialist or a generalist?",
+    sample: { point: "I believe the best choice depends on the person and the field, and a mix of both is often ideal.", reason: "This is because a specialist has deep, valuable skills in one area, while a generalist can connect ideas and adapt to change more easily.", example: "For example, a company needs experts to solve difficult technical problems, but it also needs people who can see the whole picture and lead across teams.", point2: "So rather than choosing only one path, it can be wise to build deep skill in one area while staying curious about many." }
+  },
+  {
+    id: "w2637-t03", ja: "企業は週休3日制（週4日勤務）を取り入れるべきだと思いますか？", en: "Should companies adopt a four-day work week?",
+    sample: { point: "I think companies should at least seriously try a four-day work week where it is possible.", reason: "The main reason is that well-rested workers are often more focused and productive, and extra free time improves health and happiness.", example: "For example, some companies that tested a four-day week reported similar output with happier staff, though it does not fit every kind of job.", point2: "So a careful trial, measuring both results and well-being, would show whether it truly works for a given company." }
   }
 ];
 
