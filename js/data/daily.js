@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-13",
+    passages: [
+      {
+        id: "d0913-1",
+        title: "The Power of a Good Team",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When a company succeeds, we often praise a single leader or a brilliant idea. But behind almost every success stands something less visible: a good team. In business, few important things are done alone. Learning to build and work in a strong team is one of the most valuable skills a person can have.\n\nWhy are teams so powerful? Because no single person is good at everything. One member may be full of creative ideas, another may be careful with details, and a third may be excellent at talking to customers. When these different strengths come together, the team can do far more than any of its members could alone.\n\nBut simply putting talented people in a room is not enough. A good team needs trust. Members must feel safe to share ideas, admit mistakes, and ask for help. When people fear blame, they hide problems, and small issues grow into big ones.\n\nClear goals matter too. When everyone understands what the team is trying to achieve and who is doing what, effort is not wasted. Good communication keeps the group moving in the same direction.\n\nThe best teams also respect one another. They listen, share credit, and support members who are struggling. In the end, a great team is more than a group of skilled people. It is a group that has learned to trust, communicate, and win together.",
+        summaryJa: "企業が成功すると、私たちはしばしば一人の指導者や見事な着想をたたえる。だがほぼすべての成功の陰に、見えにくいものがある。良いチームだ。ビジネスで重要なことは一人で成し遂げられるものは少ない。強いチームを築き、その中で働くことを学ぶのは、最も価値ある技能の一つだ。なぜチームは強力か。一人で何でも得意な人はいないからだ。ある人は創造的な着想に富み、別の人は細部に注意深く、また別の人は客と話すのが得意だ。これら異なる強みが合わさると、チームは各自が単独でできる以上のことをできる。だが才能ある人を部屋に集めるだけでは足りない。良いチームには信頼が要る。安心して考えを共有し、間違いを認め、助けを求められねばならない。非難を恐れると人は問題を隠し、小さな問題が大きくなる。明確な目標も重要だ。何を目指し誰が何をするか皆が分かれば、努力は無駄にならない。良い意思疎通が同じ方向へ進ませる。最良のチームは互いを尊重し、耳を傾け、功績を分かち合い、苦しむ仲間を支える。偉大なチームとは、信頼し、意思疎通し、共に勝つことを学んだ集団だ。",
+        quiz: [
+          { q: "Why are teams so powerful, according to the passage?", options: ["No single person is good at everything, so different strengths combine", "One person can do everything alone", "Teams slow down all work"], answer: 0 },
+          { q: "Why does a good team need trust?", options: ["So members feel safe to share ideas, admit mistakes, and ask for help", "So members can blame each other", "So problems stay hidden"], answer: 0 },
+          { q: "What is the best kind of team, in the end?", options: ["A group that has learned to trust, communicate, and win together", "A group of strangers who never talk", "A single talented person"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0913-2",
+        title: "Robots That Help Build Houses",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Many parts of the world do not have enough homes. Building houses is slow and hard work, and there are not always enough skilled workers to do it. To help solve this problem, engineers are now bringing robots onto the building site.\n\nThese construction robots come in several forms. Some are large machines that can print the walls of a house layer by layer, squeezing out a special concrete like toothpaste from a tube. Others are robotic arms that lay bricks, or machines that carry heavy loads so that human workers do not have to. A few can even work through the night, when human crews have gone home.\n\nThe hoped-for benefits are clear. Robots may build faster and at lower cost, which could mean more affordable homes. They can also take on dangerous or exhausting tasks, making building sites safer for people. In places short of workers, robots could help close the gap.\n\nOf course, there are limits. Building a house is complex, full of surprises and small decisions that humans handle easily but machines find hard. Robots are expensive to buy, and they still need skilled people to run and repair them.\n\nMost likely, the future is not robots instead of workers, but robots working beside them. By handling the heavy, repetitive parts, machines may free human builders to do the skilled, creative work that homes will always need.",
+        summaryJa: "世界の多くの地域で住宅が足りない。家を建てるのは遅く大変な作業で、担う熟練工が常に十分いるわけではない。この問題を解決するため、技術者は今、建設現場にロボットを持ち込んでいる。建設ロボットにはいくつかの形がある。特別なコンクリートをチューブの歯磨き粉のように押し出し、家の壁を層ごとに印刷する大型機械もある。レンガを積むロボットアームや、重い荷を運び人が運ばずに済むようにする機械もある。人が帰宅した夜間に働けるものさえある。期待される利点は明確だ。ロボットはより速く低コストで建てられ、より手頃な住宅につながりうる。危険で疲れる作業も引き受け、現場を安全にする。人手不足の地域では差を埋められる。もちろん限界もある。家づくりは複雑で、人が容易に扱う驚きや小さな判断に満ち、機械には難しい。ロボットは高価で、動かし修理する熟練者も要る。おそらく未来は、人の代わりでなく人と並んで働くロボットだ。重く反復的な部分を担い、家に常に必要な熟練の創造的仕事を人に任せられるようにする。",
+        quiz: [
+          { q: "Why are engineers bringing robots onto building sites?", options: ["Building is slow and there are not always enough skilled workers", "Because houses are no longer needed", "Because robots are cheap and simple"], answer: 0 },
+          { q: "What is one form a construction robot can take?", options: ["A machine that prints walls layer by layer with special concrete", "A machine that only makes coffee", "A robot that paints pictures"], answer: 0 },
+          { q: "What does the passage say the future most likely looks like?", options: ["Robots working beside human builders, not instead of them", "No human builders at all", "No robots ever used"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0913-3",
+        title: "Cities Without Cars",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "For most of the last hundred years, cities were built around the car. Wide roads, large parking lots, and busy junctions shaped how people lived. But in recent years, a new idea is spreading across the world: what if parts of a city had far fewer cars, or none at all?\n\nAround the globe, cities are trying this in different ways. Some close their old central streets to traffic, letting people walk and cycle freely. Others build wide paths for bicycles, add more buses and trains, or charge a fee to drive into the busiest areas. The goal is not to punish drivers, but to give streets back to people.\n\nThe possible benefits are large. With fewer cars, the air becomes cleaner and the streets quieter. Children can play more safely, and shops often do better when more people stroll past on foot. Walking and cycling also improve people's health.\n\nThere are challenges, of course. Not everyone can walk or cycle, and some people truly need a car for work or family. Good plans must include the elderly, the disabled, and those who live far away. Change must be fair.\n\nStill, the trend is growing. As more cities test these ideas, many are discovering that a place built for people, rather than only for cars, can be cleaner, healthier, and simply more pleasant to live in.",
+        summaryJa: "過去100年の大半、都市は車を中心に造られた。広い道路、大きな駐車場、混雑する交差点が暮らし方を形づくった。だが近年、新しい考えが世界に広がっている。都市の一部で車をずっと減らす、あるいはなくしたらどうか、というものだ。世界中で都市がさまざまに試している。古い中心街を交通止めにして人が自由に歩き自転車に乗れるようにしたり、広い自転車道を造り、バスや電車を増やし、最も混む区域への乗り入れに料金を課したりする。狙いは運転手を罰することでなく、通りを人々に返すことだ。利点は大きい。車が減れば空気は清潔になり通りは静かになる。子どもはより安全に遊べ、歩く人が増えると店も繁盛しやすい。歩行や自転車は健康も改善する。もちろん課題もある。皆が歩いたり自転車に乗れるわけではなく、仕事や家族のため本当に車が要る人もいる。良い計画は高齢者や障害のある人、遠方に住む人を含めねばならない。変化は公正であるべきだ。それでも流れは広がる。人のために造られた場所は、車だけのためより清潔で健康的で住みやすいと多くの都市が気づきつつある。",
+        quiz: [
+          { q: "What new idea is spreading across cities?", options: ["Having parts of a city with far fewer cars, or none at all", "Building only wider roads for cars", "Removing all buses and trains"], answer: 0 },
+          { q: "What is one possible benefit of fewer cars?", options: ["Cleaner air, quieter streets, and safer play for children", "More pollution", "Less space for people"], answer: 0 },
+          { q: "What must good car-free plans include?", options: ["The elderly, the disabled, and those who live far away", "Only young, healthy people", "Nobody at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0913-4",
+        title: "Japan's Respect for the Aged Day",
+        level: "★★☆",
+        genre: "日本",
+        text: "In September, Japan celebrates a special national holiday called \"Respect for the Aged Day.\" On this day, the country pauses to honor its older people, to thank them for their years of hard work, and to wish them long and healthy lives. It is a warm example of a value that runs deep in Japanese culture.\n\nRespect for elders is not shown only once a year. In daily life, older people are often treated with special politeness. Families may gather to celebrate the holiday, sharing a meal and spending time together. Children might make cards or gifts for their grandparents, and communities sometimes hold events for their senior members.\n\nJapan has one of the oldest populations in the world, with many people living long past their eightieth or ninetieth year. This makes the holiday especially meaningful. Older people are seen not as a burden, but as a source of wisdom, memory, and experience that younger generations can learn from.\n\nThe day also carries a gentle reminder. In busy modern life, it is easy to forget the people who came before us. This holiday encourages everyone to slow down, visit an older relative, and simply say thank you.\n\nAt its heart, Respect for the Aged Day teaches a simple truth: a society that cares for its elders is caring for all of us, because one day, every person grows old.",
+        summaryJa: "9月、日本は「敬老の日」という特別な祝日を祝う。この日、国は立ち止まって高齢者を敬い、長年の労苦に感謝し、長寿と健康を願う。日本文化に深く根づく価値観の温かい一例だ。高齢者への敬意は年に一度だけ示されるものではない。日常でも高齢者はしばしば特別な礼儀で接される。家族は集まって祝日を祝い、食事を共にし共に時を過ごす。子どもは祖父母にカードや贈り物を作り、地域が高齢者向けの催しを開くこともある。日本は世界有数の高齢化社会で、80代90代を過ぎて生きる人が多い。だからこの祝日は特に意味深い。高齢者は重荷ではなく、若い世代が学べる知恵や記憶、経験の源とみなされる。この日は優しい戒めも持つ。忙しい現代の暮らしでは、先を生きた人を忘れがちだ。この祝日は皆に立ち止まり、年長の親族を訪ね、ただ感謝を伝えるよう促す。核心には単純な真実がある。高齢者を大切にする社会は私たち全員を大切にしている。いつか誰もが年を取るのだから。",
+        quiz: [
+          { q: "What does 'Respect for the Aged Day' honor?", options: ["Older people, thanking them and wishing them long, healthy lives", "New babies only", "Famous athletes"], answer: 0 },
+          { q: "How are older people seen, according to the passage?", options: ["As a source of wisdom, memory, and experience", "As a burden to ignore", "As unimportant"], answer: 0 },
+          { q: "What simple truth does the day teach?", options: ["A society that cares for its elders cares for all of us, since everyone grows old", "Only the young matter", "Holidays are a waste of time"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0913-5",
+        title: "Turning Waste Into Food",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "What if some of the things we throw away could become the food of the future? It sounds strange, but scientists are working on exactly this idea. In laboratories, researchers are finding clever ways to turn waste — such as old plastic or leftover parts of crops — into ingredients we can eat.\n\nOne promising method uses tiny living helpers called yeast, the same kind used to make bread rise. Scientists can feed these yeasts on waste materials and guide them to produce useful substances, including protein. That protein can then be used to make food, such as a simple, protein-rich snack.\n\nWhy would anyone want to do this? The reasons are powerful. The world's population is growing, and producing enough food is a huge challenge. At the same time, waste is a growing problem. A process that reduces waste and creates food at once could help with two problems together.\n\nOf course, there is a long way to go. Any food made this way must be proven completely safe and healthy before people eat it. It must also taste good, or few will choose it. Winning people's trust takes time.\n\nStill, the idea is a hopeful glimpse of the future. It reminds us that \"waste\" may be the wrong word for many things we discard. With science and care, tomorrow's dinner might grow from today's garbage.",
+        summaryJa: "私たちが捨てるものの一部が未来の食べ物になるとしたら？奇妙に聞こえるが、科学者はまさにこの考えに取り組んでいる。実験室で、研究者は廃棄物——古いプラスチックや作物の残りなど——を食べられる材料に変える巧みな方法を見つけつつある。有望な方法の一つは、パンを膨らませるのと同じ酵母という小さな生きた助っ人を使う。廃棄物を酵母に与え、タンパク質を含む有用な物質を作らせる。そのタンパク質でタンパク質豊富な簡単なおやつなどの食品を作れる。なぜそんなことをするのか。理由は強力だ。世界の人口は増え、十分な食料を作るのは大きな難題だ。同時に廃棄物も増える問題だ。廃棄を減らし同時に食料を生む過程は、二つの問題を一度に助けうる。もちろん道のりは長い。この方法で作る食品は、食べる前に完全に安全で健康的だと証明されねばならない。おいしくなければ選ぶ人も少ない。人の信頼を得るには時間がかかる。それでもこの考えは希望に満ちた未来の一片だ。「廃棄物」は、捨てる多くの物にとって誤った言葉かもしれないと気づかせる。科学と心配りで、明日の夕食は今日のごみから育つかもしれない。",
+        quiz: [
+          { q: "What are scientists trying to turn into food ingredients?", options: ["Waste such as old plastic or leftover parts of crops", "Only fresh vegetables", "Gold and silver"], answer: 0 },
+          { q: "What tiny living helpers are used in one promising method?", options: ["Yeast, the same kind used to make bread rise", "Large fish", "Robots"], answer: 0 },
+          { q: "Why is this idea attractive?", options: ["It could reduce waste and create food at the same time", "It makes more garbage", "It uses up all the world's food"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-12",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why are leaves green in spring and summer?", options: ["Because of a substance called chlorophyll that helps make food from sunlight", "Because they are painted green", "Because of the cold weather"], answer: 0 },
           { q: "Why do the yellow and orange colors appear in autumn?", options: ["The tree stops making chlorophyll, so the green fades and hidden colors show", "Someone adds them", "The leaves get wet"], answer: 0 },
           { q: "Why does a tree drop its leaves?", options: ["To save energy and water during the hard, cold winter", "To make the ground colorful", "Because leaves are useless in summer"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-06",
-    passages: [
-      {
-        id: "d0906-1",
-        title: "Why the World Picks a 'Color of the Year'",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Every year, certain companies announce a \"color of the year.\" It might be a warm red, a calm blue, or even a soft white. This may sound like a small thing, but the choice can influence fashion, product design, and shopping around the world. Behind it lies a surprising amount of business thinking.\n\nWhy does a single color matter so much? Colors carry feelings. A bright shade can feel cheerful and bold, while a gentle tone can feel calm and clean. When experts choose a color of the year, they are trying to capture the mood of the moment — what people are feeling and wanting right now.\n\nFor businesses, this trend is useful. Clothing makers, furniture designers, and even phone companies watch these choices closely. If they use the popular color, their products may feel fresh and modern, and easier to sell. Stores can build displays and advertisements around the same shade.\n\nOf course, no one is forced to follow the trend. Many people simply buy the colors they personally like. The color of the year is a suggestion, not a rule, and next year it will change again.\n\nStill, it shows how deeply design shapes business. A single well-chosen color can send a message without words, connect a product to a feeling, and quietly guide what millions of people decide to buy.",
-        summaryJa: "毎年、ある企業が「今年の色」を発表する。暖かい赤や落ち着いた青、柔らかい白のこともある。小さなことに聞こえるが、この選択は世界のファッションや製品デザイン、買い物に影響しうる。背景には意外なほどのビジネス的な考えがある。なぜ一つの色がそれほど重要なのか。色は感情を運ぶ。明るい色は陽気で大胆に、優しい色は穏やかで清潔に感じられる。専門家は「今年の色」で今の気分——人々が感じ求めているもの——を捉えようとする。企業には有用で、衣類や家具、電話の会社も注目する。流行色を使えば製品は新鮮で現代的に感じられ売りやすい。ただし従う義務はなく、あくまで提案で来年また変わる。色一つが言葉なくメッセージを伝え、購買を静かに導く。デザインがいかに深くビジネスを形づくるかを示している。",
-        quiz: [
-          { q: "Why can a single 'color of the year' matter so much?", options: ["Colors carry feelings and can capture the mood of the moment", "Colors have no effect on people", "Only painters care about color"], answer: 0 },
-          { q: "How do businesses use the color of the year?", options: ["They design products and displays around the popular shade", "They ignore it completely", "They stop selling all products"], answer: 0 },
-          { q: "What does the passage say the color of the year really is?", options: ["A strict rule everyone must follow", "A suggestion, not a rule, that changes each year", "A law made by governments"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0906-2",
-        title: "Using AI to Tame a Star",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Deep inside the sun, a powerful process called fusion joins tiny particles together and releases enormous energy. For decades, scientists have dreamed of copying this process on Earth to create clean, almost limitless power. But there is a huge challenge: to do fusion, you must control a gas hotter than the sun, and it is extremely difficult to keep steady.\n\nThis super-hot gas, called plasma, moves in wild and sudden ways. If it becomes unstable, it can damage the machine that holds it. Human operators simply cannot react fast enough to stop these sudden changes. This is where artificial intelligence is beginning to help.\n\nRecently, researchers tested an AI system that watches the plasma and predicts trouble before it happens. In one experiment, the AI sensed a dangerous instability a fraction of a second before it appeared — and adjusted the machine to prevent it. For a computer, that tiny moment is enough time to act.\n\nThis is exciting because controlling plasma is one of the biggest barriers to fusion power. If AI can keep the plasma calm and steady, experiments can run longer and more safely.\n\nFusion energy is still not ready for everyday use, and many problems remain. But by teaming up human scientists with fast, watchful AI, researchers are taking real steps toward a future power source as clean and mighty as a star.",
-        summaryJa: "太陽の奥深くでは「核融合」という強力な過程が小さな粒子を結びつけ、莫大なエネルギーを放つ。科学者は数十年、これを地上で再現し、清潔でほぼ無限の電力を作ることを夢見てきた。だが難題がある。核融合には太陽より熱い気体を制御せねばならず、安定させるのが極めて難しい。この超高温の気体「プラズマ」は激しく突然に動き、不安定になると装置を傷つける。人の操作では反応が間に合わない。そこでAIが助け始めている。最近、研究者はプラズマを監視し問題を事前に予測するAIを試した。ある実験では危険な不安定を一瞬前に察知し、装置を調整して防いだ。プラズマ制御は核融合の最大の壁の一つで、AIが安定させれば実験を長く安全に行える。実用はまだ先だが、人とAIの協働で恒星のように清潔で強力な電源へ着実に進んでいる。",
-        quiz: [
-          { q: "What is the big challenge in creating fusion power on Earth?", options: ["Controlling a gas hotter than the sun and keeping it steady", "Finding enough sunlight", "Making the machine colder than ice"], answer: 0 },
-          { q: "How is AI beginning to help with fusion?", options: ["It watches the plasma and predicts trouble before it happens", "It makes the plasma hotter on purpose", "It replaces all the scientists"], answer: 0 },
-          { q: "What does the passage say about fusion energy's readiness?", options: ["It is ready for everyday use now", "It is still not ready, and many problems remain", "It will never be possible"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0906-3",
-        title: "Europe Builds Its Own Rockets",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Sending a satellite into space is no longer just the work of a few large nations. Around the world, more countries and companies want the ability to launch rockets on their own. Recently, a European company sent a rocket into orbit from a launch site in northern Europe — a sign of the region's growing wish to reach space independently.\n\nWhy does this matter? Modern life depends on satellites. They power our maps, weather forecasts, television, and much of the internet. A country or region that cannot launch its own satellites must rely on others, and that can be costly or uncertain. Building your own rockets means more control over your own future.\n\nThere is also a business side. The market for launching small satellites is growing fast. Many companies now want cheap, frequent rides to space for their devices. A region with its own rockets can win this business and create skilled jobs at home.\n\nThe work is hard and expensive. Rockets are complex, and failures are common in the early years. Building launch sites, training engineers, and testing designs all take time and money.\n\nStill, the effort reflects a wider truth about our age. Space is becoming part of the everyday economy, not just a place for a few explorers. As more players learn to reach orbit, access to space is slowly becoming something the whole world can share.",
-        summaryJa: "衛星を宇宙へ送ることは、もはや一部の大国だけの仕事ではない。世界中で、より多くの国や企業が自力でロケットを打ち上げる能力を求めている。最近、欧州の企業が北欧の発射場からロケットを軌道に送り、この地域の自立して宇宙に届きたいという思いの高まりを示した。なぜ重要か。現代生活は衛星に依存する。地図や天気予報、テレビ、インターネットの多くを支える。自前で打ち上げられない国や地域は他者に頼らねばならず、費用や不確実さが伴う。自前のロケットは自らの未来をより制御できることを意味する。ビジネス面もあり、小型衛星打ち上げ市場は急成長中で、安く頻繁な便を求める企業が多い。自前のロケットを持つ地域はこの商機をつかみ、熟練の雇用も生む。難しく高価で初期は失敗も多いが、宇宙が日常経済の一部になりつつある時代を映す。宇宙への到達は、少しずつ世界全体が分かち合えるものになっている。",
-        quiz: [
-          { q: "Why does the ability to launch rockets matter to a region?", options: ["Modern life depends on satellites, so launching your own means more control", "Rockets are only for fun", "Satellites are useless today"], answer: 0 },
-          { q: "What is the business reason mentioned in the passage?", options: ["The market for launching small satellites is growing fast", "Nobody wants to launch satellites", "Space travel is now free"], answer: 0 },
-          { q: "What does the passage say about building rockets?", options: ["It is easy and cheap", "It is hard and expensive, and early failures are common", "It takes no time at all"], answer: 1 }
-        ]
-      },
-      {
-        id: "d0906-4",
-        title: "The Meaning of 'Itadakimasu'",
-        level: "★☆☆",
-        genre: "日本",
-        text: "In Japan, people say a special word before they eat: \"itadakimasu.\" Young children learn it at home and at school, and adults say it too, often with their hands pressed together. It looks like a simple greeting, but it carries a deep and beautiful meaning.\n\nThe word is a way of giving thanks. It is not only thanks to the person who cooked the meal. It is also thanks to the farmers who grew the food, the people who brought it to the table, and even the plants and animals that became the meal. In a single word, a person shows respect for the whole journey that the food has made.\n\nAfter eating, there is another word: \"gochisousama.\" This means thank you for the meal, once again showing gratitude when the food is finished. Together, these two phrases wrap every meal in a feeling of appreciation.\n\nFor visitors to Japan, learning these words is an easy and lovely way to join in. Saying \"itadakimasu\" before a meal is polite, and it often makes people smile.\n\nMore than good manners, this custom teaches a gentle lesson. Food does not appear by magic; many hands and lives make it possible. By pausing for one short word, people remember to be thankful. It is a small habit with a warm and lasting spirit.",
-        summaryJa: "日本では食事の前に「いただきます」という特別な言葉を言う。子どもは家庭や学校で学び、大人も手を合わせて言うことが多い。単なる挨拶に見えるが、深く美しい意味を持つ。この言葉は感謝の表し方だ。料理した人へだけでなく、食材を育てた農家、食卓へ運んだ人々、そして食事となった動植物への感謝でもある。一言で、食べ物がたどった道のり全体への敬意を示す。食後には「ごちそうさま」という言葉があり、食べ終えた後に再び感謝を表す。この二つの言葉が毎回の食事を感謝の気持ちで包む。訪日者にとっても覚えるのは簡単で素敵な参加の仕方だ。良い作法以上に、食べ物は魔法のように現れるのではなく多くの手と命が支えているという優しい教えがある。短い一言で立ち止まり、人は感謝を思い出す。温かく長く続く精神を持つ小さな習慣だ。",
-        quiz: [
-          { q: "When do people in Japan say 'itadakimasu'?", options: ["Before they eat a meal", "Only on New Year's Day", "When they go to sleep"], answer: 0 },
-          { q: "What does 'itadakimasu' express thanks for?", options: ["Only the money spent", "The whole journey of the food, including farmers, cooks, and living things", "Nothing in particular"], answer: 1 },
-          { q: "What is 'gochisousama'?", options: ["A word said after eating, to give thanks for the meal", "A kind of food", "A word said before sleeping"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0906-5",
-        title: "Why Do We Get Goosebumps?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Have you ever felt small bumps rise on your skin when you are cold, or when you hear a beautiful piece of music? These little bumps are called goosebumps. They appear in a moment and then fade away. But why does the human body do this at all?\n\nGoosebumps come from tiny muscles at the base of each hair. When these muscles tighten, they pull the hairs upright and push the skin into small bumps. This happens automatically; you cannot decide to make goosebumps appear.\n\nThe reason goes far back into our history. Long ago, our distant ancestors had much more body hair. When they were cold, raising their hair trapped a layer of warm air, like a natural coat. When they faced danger, standing hair made them look bigger and more frightening to enemies. Many animals still use this trick today — think of a frightened cat with its fur standing on end.\n\nFor modern humans, goosebumps are mostly a leftover from that past. We no longer have thick fur, so they do little to keep us warm. Yet they still appear, triggered by cold, fear, or even strong emotion.\n\nGoosebumps are a small, harmless reminder that our bodies carry an ancient story. Every time your skin tingles at a great song, you are feeling a signal millions of years old.",
-        summaryJa: "寒いときや美しい音楽を聞いたとき、肌に小さな粒が立つのを感じたことはないだろうか。これを鳥肌という。一瞬で現れ、やがて消える。なぜ体はこんなことをするのか。鳥肌は各毛の根元にある小さな筋肉から生じる。この筋肉が縮むと毛を立て、肌を小さな粒にする。自動的に起き、自分では作れない。理由は歴史の遠い昔にさかのぼる。祖先はもっと体毛が多く、寒いとき毛を立てて暖かい空気の層を作り、天然のコートのようにした。危険に直面すると、逆立つ毛は体を大きく恐ろしく見せた。多くの動物は今もこの技を使う——毛を逆立てた怯えた猫を思い浮かべてほしい。現代人には過去の名残で、厚い毛がないので保温の役はほとんどないが、寒さや恐れ、強い感情で今も現れる。鳥肌は体が古い物語を宿す小さな無害な合図だ。",
-        quiz: [
-          { q: "What causes goosebumps to appear?", options: ["Tiny muscles at the base of each hair tighten and pull the hairs upright", "Water on the skin", "A special food"], answer: 0 },
-          { q: "Why did goosebumps help our distant ancestors?", options: ["Raised hair trapped warm air and made them look bigger to enemies", "They made people run faster", "They cooled the body down"], answer: 0 },
-          { q: "What are goosebumps for modern humans?", options: ["A vital way to stay warm", "Mostly a leftover from our past, since we no longer have thick fur", "A recent invention"], answer: 1 }
         ]
       }
     ]
