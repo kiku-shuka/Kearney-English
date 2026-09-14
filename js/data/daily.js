@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-14",
+    passages: [
+      {
+        id: "d0914-1",
+        title: "Why Reliability Wins in Business",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "In business, people often chase big, exciting ideas: a clever product, a brilliant advertisement, or a bold new plan. These matter, of course. But one of the most powerful advantages a company or a worker can have is far quieter. It is reliability — simply doing what you promised, when you promised it.\n\nWhy is reliability so valuable? Because it builds trust, and trust is the foundation of every business relationship. A supplier who always delivers on time, a worker who always finishes their tasks, or a shop that is always open when it says it will be — these earn something priceless: the confidence of others.\n\nUnreliable behavior, on the other hand, is expensive. A late delivery can stop a whole factory. A broken promise can cost a customer forever. Even one missed deadline can make people wonder whether they can depend on you again.\n\nBeing reliable is not glamorous. It means keeping careful track of your promises, being honest about what you can do, and following through even when it is difficult. It often means saying \"no\" to things you cannot deliver, rather than saying \"yes\" and failing.\n\nOver time, reliability quietly builds a strong reputation. People choose to work with those they can count on. In a world full of exciting promises, the person who simply keeps their word may win the greatest prize of all: lasting trust.",
+        summaryJa: "ビジネスでは、人はしばしば大きくわくわくする着想を追う。巧みな製品、見事な広告、大胆な新計画だ。もちろん大切だ。だが企業や働く人が持てる最も強力な強みの一つは、はるかに静かだ。信頼性——約束したことを、約束した時に、ただ行うことだ。なぜ信頼性はそれほど価値があるのか。信頼を築き、信頼はあらゆるビジネス関係の土台だからだ。常に時間通り納品する供給者、常に仕事を仕上げる働き手、言った通りに常に開いている店——これらは値の付けられないもの、他者の信用を得る。逆に、不確実な振る舞いは高くつく。納品の遅れは工場全体を止めうる。破られた約束は客を永遠に失わせうる。一度の締切遅れでも、また頼れるか疑わせる。信頼性は華やかではない。約束を丁寧に管理し、できることに正直で、困難でもやり遂げることだ。できないことに「はい」と言って失敗するより「いいえ」と言うことも多い。時とともに信頼性は静かに強い評判を築く。人は頼れる相手と働くことを選ぶ。わくわくする約束にあふれた世界で、ただ約束を守る人が最大の褒美——長く続く信頼——を得るかもしれない。",
+        quiz: [
+          { q: "What quiet advantage does the passage focus on?", options: ["Reliability — doing what you promised, when you promised it", "Making the loudest advertisement", "Having the biggest office"], answer: 0 },
+          { q: "Why is reliability so valuable?", options: ["It builds trust, the foundation of every business relationship", "It makes work more exciting", "It has no real effect"], answer: 0 },
+          { q: "What does being reliable often mean?", options: ["Saying 'no' to things you cannot deliver, rather than 'yes' and failing", "Promising everything to everyone", "Ignoring your promises"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0914-2",
+        title: "How Your Device Understands Your Voice",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "You speak to your phone, and it answers. You ask a small speaker to play a song, and music fills the room. This everyday magic depends on a technology called speech recognition — the ability of a machine to turn the sounds of your voice into words it can act upon.\n\nThe process happens in a few quick steps. First, a microphone captures your voice as a pattern of sound waves. The device then breaks this sound into tiny pieces and looks for the basic units of speech within it. Using models trained on huge amounts of recorded speech, it guesses which words you most likely said.\n\nThis is harder than it sounds. People speak at different speeds, with different accents, and often in noisy places. The same word can sound quite different from one person to another. Modern systems handle this by learning from millions of examples, slowly becoming better at understanding the messy, varied way humans really talk.\n\nOnce the words are recognized, the device must also understand what you want. If you say, \"What's the weather?\", it must know to check the forecast, not to search for a song. This second step, understanding meaning, is a whole challenge of its own.\n\nSpeech recognition is now good enough to be genuinely useful, though far from perfect. It still stumbles on unusual names or heavy noise. Yet with each year, machines grow a little better at the very human act of listening.",
+        summaryJa: "電話に話しかけると答え、小さなスピーカーに曲を頼むと音楽が部屋を満たす。この日常の魔法は「音声認識」という技術に頼る。機械が声の音を、行動できる言葉に変える能力だ。処理はいくつかの素早い段階で起きる。まずマイクが声を音波の模様として捉える。次に装置はその音を小さな断片に分け、その中に話し言葉の基本単位を探す。大量の録音音声で訓練された模型を使い、最も言ったであろう言葉を推測する。これは聞こえるより難しい。人は速さも訛りも異なり、しばしば騒がしい場所で話す。同じ語も人によってかなり違って聞こえる。現代の系は何百万もの例から学び、人が実際に話す雑多で多様な仕方を次第によく理解する。語を認識したら、装置は何を望むかも理解せねばならない。「天気は？」と言えば、曲を探すのでなく予報を確認すると分からねばならない。この意味理解という第二段階は、それ自体が大きな課題だ。音声認識は今や本当に役立つほど良いが、完璧には程遠い。珍しい名前や強い騒音でつまずく。それでも年々、機械は「聞く」という実に人間的な行為が少しずつ上達している。",
+        quiz: [
+          { q: "What is speech recognition?", options: ["A machine's ability to turn the sounds of your voice into words", "A way to make phones louder", "A type of music"], answer: 0 },
+          { q: "Why is understanding speech hard for machines?", options: ["People speak at different speeds, with different accents, and in noisy places", "Because everyone speaks exactly the same", "Because machines cannot hear at all"], answer: 0 },
+          { q: "After recognizing the words, what must the device also do?", options: ["Understand what you want, such as checking the weather", "Immediately turn off", "Forget the words"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0914-3",
+        title: "The Box That Changed the World",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Look at any large port, and you will see thousands of steel boxes, all the same size, stacked like giant bricks. These are shipping containers. They may look boring, but this simple invention quietly changed the whole world's economy.\n\nBefore the container, loading a ship was slow, costly, and messy. Goods came in barrels, sacks, and boxes of every shape. Workers had to load each item by hand, which took days and often led to damage or theft. Shipping was so expensive that many products were simply not worth sending far away.\n\nThen, decades ago, someone had a simple idea: put everything into standard steel boxes that can be sealed, stacked, and moved by machine. A crane can lift a full container from a ship straight onto a truck or train in minutes. Suddenly, moving goods across the world became fast, safe, and cheap.\n\nThe effects were enormous. Because shipping became so cheap, factories could be built far from their customers, and products could be made wherever it was most efficient. The clothes, phones, and food in your home have likely traveled the world inside these plain metal boxes.\n\nThe shipping container is a perfect example of how a simple, unglamorous idea can reshape everything. It reminds us that some of the most powerful inventions are not the flashiest ones, but the quiet tools that make everything else possible.",
+        summaryJa: "大きな港を見ると、同じ大きさの何千もの鉄の箱が巨大なレンガのように積まれている。これが海上輸送コンテナだ。退屈に見えるが、この単純な発明は世界経済全体を静かに変えた。コンテナ以前、船への積み込みは遅く、費用がかさみ、雑然としていた。荷は樽や袋、あらゆる形の箱で来た。作業員は一つ一つ手で積まねばならず、何日もかかり、破損や盗難も多かった。輸送は高価で、多くの製品は遠くへ送る価値がなかった。数十年前、誰かが単純な考えを持った。すべてを、密封し積み重ね機械で動かせる標準の鉄の箱に入れる、というものだ。クレーンは満載のコンテナを船から直接トラックや列車へ数分で載せられる。突然、世界中へ荷を運ぶことが速く安全で安くなった。影響は甚大だった。輸送が安くなったため、工場は客から遠くに建てられ、製品は最も効率的な場所で作れるようになった。家の衣類や電話、食べ物は、たいていこの地味な金属の箱の中で世界を旅してきた。コンテナは、単純で地味な着想がすべてを作り変えうる好例だ。最も強力な発明は派手なものでなく、他のすべてを可能にする静かな道具かもしれない。",
+        quiz: [
+          { q: "What was loading a ship like before the container?", options: ["Slow, costly, and messy, with goods loaded by hand", "Fast and cheap", "Done entirely by robots"], answer: 0 },
+          { q: "What was the simple idea behind the container?", options: ["Put everything into standard steel boxes that machines can stack and move", "Use larger sacks", "Stop shipping goods"], answer: 0 },
+          { q: "What large effect did cheap shipping have?", options: ["Factories could be built far from customers, and goods made where most efficient", "All trade stopped", "Products became impossible to move"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0914-4",
+        title: "Origami: The Art of Paper Folding",
+        level: "★★☆",
+        genre: "日本",
+        text: "Take a simple square of paper. With no scissors and no glue, only careful folds, you can turn it into a crane, a flower, a box, or a jumping frog. This is origami, the Japanese art of paper folding, loved by children and adults alike, in Japan and around the world.\n\nOrigami has a long history in Japan, where paper was once precious and folded shapes were used in ceremonies and gifts. Over time, it grew into both a playful hobby and a serious art. The most famous shape is the paper crane, a symbol of peace and good wishes. There is even a tradition of folding a thousand cranes to wish for health or a dream come true.\n\nPart of the beauty of origami is its simplicity. The rules are strict — usually one square, no cutting — yet within those limits, people have created astonishing designs, from tiny animals to complex geometric patterns. Some modern folders produce works of amazing detail.\n\nOrigami is more than art. It teaches patience and careful attention, as one wrong fold can spoil the whole piece. Surprisingly, its ideas even help science and engineering. Folding methods inspired by origami are used to pack large objects, such as solar panels, into small spaces for space travel.\n\nFrom a child's paper crane to a satellite in orbit, origami shows how a single sheet, folded with care, can hold endless possibility.",
+        summaryJa: "一枚の四角い紙を取る。はさみも糊も使わず、丁寧に折るだけで、鶴や花、箱、跳ねるカエルに変えられる。これが折り紙、日本の紙を折る芸術で、日本でも世界でも子どもにも大人にも愛される。折り紙は日本で長い歴史を持ち、かつて紙は貴重で、折った形は儀式や贈り物に使われた。やがて遊びの趣味にも真剣な芸術にもなった。最も有名な形は折り鶴で、平和と幸いの象徴だ。健康や願いの成就を祈って千羽鶴を折る伝統さえある。折り紙の美しさの一部はその単純さだ。規則は厳しく——ふつう一枚の四角、切らない——が、その制約の中で人は小さな動物から複雑な幾何模様まで驚くべき作品を生んできた。現代の折り手は見事な精緻さの作品を作る。折り紙は芸術以上のものだ。一つの折り間違いが全体を台無しにするので、忍耐と細やかな注意を教える。驚くことに、その発想は科学や工学も助ける。折り紙に着想を得た折り方は、太陽電池パネルなど大きな物を小さな空間に畳んで宇宙へ運ぶのに使われる。子どもの折り鶴から軌道上の衛星まで、丁寧に折られた一枚の紙が無限の可能性を秘めることを折り紙は示す。",
+        quiz: [
+          { q: "What is origami?", options: ["The Japanese art of folding paper, without scissors or glue", "A kind of painting", "A type of dance"], answer: 0 },
+          { q: "What does the paper crane symbolize?", options: ["Peace and good wishes", "Money and power", "Anger"], answer: 0 },
+          { q: "How do origami ideas help science and engineering?", options: ["Folding methods help pack large objects, like solar panels, into small spaces", "They make paper heavier", "They have no real use"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0914-5",
+        title: "Why Do Cats Purr?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "If you have ever held a happy cat, you have probably felt it: a soft, steady rumble deep in its body, called a purr. Most people think a cat purrs only when it is content, curled up warm and safe. But the truth is more surprising, and scientists are still uncovering it.\n\nA purr is made in the cat's throat. Signals from the brain make the muscles of the voice box open and close very quickly, many times each second. As the cat breathes in and out, air passes through, creating that familiar gentle sound. Amazingly, a cat can purr almost without pause, both breathing in and breathing out.\n\nCats do purr when they are happy — while being petted or resting with those they trust. But they also purr at other times. A frightened cat at the vet may purr, and an injured cat may purr while in pain. This has led scientists to a fascinating idea: purring may be a way for a cat to calm itself, or even to help its body heal.\n\nSome researchers believe the gentle vibrations of a purr, at certain low frequencies, might help keep a cat's bones and muscles healthy. If true, a purr would be both a feeling and a kind of self-medicine.\n\nSo a cat's purr is more than a sign of joy. It may be one of nature's quiet, clever tools for comfort and healing.",
+        summaryJa: "幸せな猫を抱いたことがあれば、たぶん感じたことがあるだろう。体の奥の柔らかく一定の響き、「ゴロゴロ」だ。多くの人は、猫は満足して暖かく安全に丸まっている時だけ喉を鳴らすと思う。だが真実はもっと意外で、科学者は今も解明中だ。ゴロゴロは猫の喉で作られる。脳からの信号が声帯の筋肉を毎秒何度も素早く開閉させる。猫が息を吸い吐きする間、空気が通り、あのなじみの穏やかな音が生まれる。驚くことに、猫は吸う時も吐く時もほぼ休みなく喉を鳴らせる。猫は幸せな時——なでられたり信頼する相手と休む時——に喉を鳴らす。だが他の時にも鳴らす。動物病院で怯えた猫が鳴らすこともあり、けがをした猫が痛みの中で鳴らすこともある。ここから科学者は魅力的な考えに至った。ゴロゴロは猫が自分を落ち着かせる方法、あるいは体の治癒を助ける方法かもしれない。ある研究者は、特定の低い周波数のゴロゴロの穏やかな振動が、猫の骨や筋肉の健康維持を助けるかもしれないと考える。本当なら、ゴロゴロは感情であり一種の自己治療でもある。だから猫のゴロゴロは喜びの証以上のものだ。慰めと癒やしのための自然の静かで巧みな道具の一つかもしれない。",
+        quiz: [
+          { q: "How is a purr made?", options: ["Muscles of the voice box open and close very quickly as the cat breathes", "By the cat's tail", "By the cat's stomach only"], answer: 0 },
+          { q: "When do cats purr, according to the passage?", options: ["When happy, but also when frightened or in pain", "Only when they are asleep", "Never when content"], answer: 0 },
+          { q: "What fascinating idea do some scientists have about purring?", options: ["The vibrations might help calm the cat or keep its bones and muscles healthy", "Purring makes cats sick", "Purring is only for show"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-13",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What problem do current antivenoms have?", options: ["They can be slow to make, hard to store, and not always effective", "They are always perfect", "They cure every illness"], answer: 0 },
           { q: "What surprising thing did scientists find in some snakes' blood?", options: ["Special proteins that can block the harmful effects of venom", "Tiny computers", "A new kind of food"], answer: 0 },
           { q: "Why could this discovery matter so much?", options: ["Snake bites harm many people, so a stronger, easier treatment could save lives", "Because snakes are cute", "Because it makes venom stronger"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-07",
-    passages: [
-      {
-        id: "d0907-1",
-        title: "What Makes a Good Business Meeting?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Meetings are a normal part of working life, yet many people quietly dread them. Too often, a meeting runs long, wanders off topic, and ends without any clear result. But a good meeting can be one of the most useful tools a team has. What separates a helpful meeting from a waste of time?\n\nThe first key is a clear purpose. Before a meeting begins, everyone should know why they are there and what needs to be decided. A short agenda, shared in advance, helps people prepare and keeps the discussion on track. If no one can explain the goal, perhaps the meeting is not needed at all.\n\nThe second key is respect for time. A good meeting starts and ends when it is supposed to. The leader gently steers the group back if the talk drifts, and makes sure quieter members also get a chance to speak. Good ideas can come from anyone.\n\nFinally, a strong meeting ends with clear next steps. Before people leave, they should know who will do what, and by when. Without this, even a lively discussion can lead to nothing.\n\nMeetings will always be part of business, but they do not have to be painful. With a clear purpose, careful timing, and firm follow-up, a meeting can turn a group of busy people into a team that truly moves forward together.",
-        summaryJa: "会議は仕事につきものだが、多くの人が密かに嫌っている。長引き、脱線し、結論なく終わることが多いからだ。だが良い会議はチームにとって最も有用な道具の一つになりうる。有益な会議と時間の無駄を分けるものは何か。第一は明確な目的。始める前に、なぜ集まり何を決めるべきかを全員が知るべきだ。事前に共有する短い議題は準備を助け議論を軌道に保つ。目的を説明できないなら会議は不要かもしれない。第二は時間の尊重。良い会議は予定通り始まり終わる。進行役は脱線を戻し、静かな人にも発言の機会を与える。良い案は誰からでも出る。最後に、良い会議は明確な次の一歩で終わる。誰がいつまでに何をするかを決める。これがないと活発な議論も実を結ばない。目的・時間管理・確実なフォローで、会議は前に進むチームを作る。",
-        quiz: [
-          { q: "What is the first key to a good meeting?", options: ["A clear purpose that everyone knows in advance", "Making it as long as possible", "Having no agenda"], answer: 0 },
-          { q: "How does a good leader respect time in a meeting?", options: ["By starting and ending on time and steering the talk back on topic", "By letting only one person speak", "By ignoring the schedule"], answer: 0 },
-          { q: "How should a strong meeting end?", options: ["With clear next steps: who will do what, and by when", "With no decisions at all", "By starting a new topic"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0907-2",
-        title: "Computer Memory That Sips Energy",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Every phone, laptop, and data center relies on memory — the part of a computer that stores information. Each time memory saves or changes a piece of data, it uses a tiny bit of energy. On its own, that amount is very small. But with billions of devices working every second, all those tiny bits add up to a huge demand for power.\n\nThat is why scientists are excited about a new kind of memory that uses far less energy than today's technology. The idea involves storing information using magnetism, then switching it in a cleverer, gentler way. Instead of forcing a change with a strong push of electricity, the new method nudges the memory using much less power.\n\nWhy does this matter so much? Lower energy use brings several benefits at once. Devices could run longer on a single battery charge. Large data centers, which already use enormous amounts of electricity, could cut their power bills and their effect on the planet. And devices might produce less heat, making them easier to keep cool.\n\nThe technology is still in the laboratory, and turning a promising experiment into a product takes years of careful work. Not every bright idea reaches the market.\n\nEven so, this line of research points toward an important goal: computers that do more while using less. In a world full of hungry machines, memory that only sips energy could make a real difference.",
-        summaryJa: "スマホもノートPCもデータセンターも「メモリ」——情報を蓄える部分——に頼る。メモリがデータを保存・変更するたびに、ごくわずかな電力を使う。単体では極小だが、何十億もの機器が毎秒動くと、その小さな量が膨大な電力需要になる。だから科学者は、今の技術よりはるかに少ない電力で動く新しいメモリに期待している。着想は磁気で情報を蓄え、より賢く穏やかに切り替えるものだ。強い電流で無理に変えるのでなく、はるかに少ない電力でそっと促す。なぜ重要か。低消費電力は複数の利点をもたらす。機器は一度の充電で長く動き、大量の電力を使うデータセンターは電気代と環境負荷を減らせる。発熱も減り冷却も楽になる。技術はまだ実験段階で製品化には長い作業が要り、全ての名案が市場に届くわけではない。それでも「少ない電力で多くをこなす」という重要な目標を指し示す。",
-        quiz: [
-          { q: "Why does memory's energy use add up to a huge demand?", options: ["Billions of devices each use tiny amounts of energy every second", "Memory uses no energy at all", "Only one computer exists"], answer: 0 },
-          { q: "How does the new kind of memory save energy?", options: ["It switches magnetism in a gentler way, using much less power", "It uses a much stronger push of electricity", "It stops storing data"], answer: 0 },
-          { q: "What is one benefit of lower energy use?", options: ["Devices could run longer on a battery and produce less heat", "Batteries would drain faster", "Devices would get much hotter"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0907-3",
-        title: "Learning Without Borders",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Not long ago, a good education often depended on where you were born. If you lived far from a great school or university, many subjects were simply out of reach. Today, that is changing. Thanks to the internet, learning is crossing borders as never before, and millions of people are studying subjects they could never have reached in the past.\n\nOnline courses now let a student in a small town follow lessons taught by teachers on the other side of the world. Some are free; others cost far less than a traditional class. A person can learn a new language, a computer skill, or even university-level science, all from a simple phone or laptop.\n\nThe benefits are powerful. Online learning can reach people who work during the day, live in remote areas, or cannot afford to move to a big city. It gives second chances to those who missed school earlier in life. For many, it is a door to better jobs and a broader view of the world.\n\nThere are challenges, of course. A weak internet connection, the high cost of devices, or the need for strong self-discipline can hold learners back. Online study also cannot fully replace the warmth of a real classroom.\n\nStill, the direction is clear and hopeful. As knowledge travels more freely across the globe, the chance to learn is slowly becoming a right that belongs to everyone, not just a lucky few.",
-        summaryJa: "少し前まで、良い教育はどこで生まれたかに左右されがちだった。優れた学校や大学から遠く住めば、多くの科目は手の届かないものだった。今は変わりつつある。インターネットのおかげで学びはかつてなく国境を越え、何百万もの人が昔なら届かなかった科目を学んでいる。オンライン講座により、小さな町の学生が地球の反対側の教師の授業を受けられる。無料のものも、従来よりずっと安いものもある。新しい言語やコンピュータ技術、大学レベルの科学まで、スマホやノートPCで学べる。利点は大きい。日中働く人や遠隔地の人、大都市に移れない人にも届き、かつて学べなかった人に再挑戦の機会を与え、より良い仕事や広い視野への扉になる。弱い通信環境や機器の高さ、強い自己規律の必要という課題もあり、実際の教室の温かさは完全には代われない。それでも知識が自由に世界を巡る中、学ぶ機会は一部の幸運な人だけでなく万人の権利になりつつある。",
-        quiz: [
-          { q: "In the past, what did a good education often depend on?", options: ["Where you were born", "The color of your clothes", "The day of the week"], answer: 0 },
-          { q: "How does online learning help people?", options: ["It reaches those who work, live in remote areas, or cannot move to a city", "It only helps rich city students", "It stops people from learning"], answer: 0 },
-          { q: "What is one challenge of online study mentioned?", options: ["A weak internet connection or the need for strong self-discipline", "It is always free and easy for everyone", "It fully replaces real classrooms"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0907-4",
-        title: "The Japanese Custom of Omiyage",
-        level: "★★☆",
-        genre: "日本",
-        text: "When people in Japan take a trip, they often come home with more than photos and memories. They bring back \"omiyage\" — small gifts, usually local food or sweets, to share with family, friends, and coworkers. This custom is a warm and important part of daily life in Japan.\n\nOmiyage is different from a simple souvenir you buy for yourself. It is chosen with others in mind. A traveler visiting a famous region will look for a snack that the area is known for, often beautifully wrapped and packed in small pieces, perfect for sharing in an office or at home. Handing them out is a way of saying, \"I thought of you while I was away.\"\n\nAt many workplaces, bringing omiyage after a holiday is almost expected, but it is done with a happy spirit rather than as a heavy duty. Sharing a taste of a faraway place is a small, kind gesture that keeps relationships smooth and friendly.\n\nBecause of this custom, train stations and airports in Japan are full of shops selling local specialties in gift boxes. Choosing the right omiyage can be part of the fun of a trip.\n\nAt its heart, omiyage is about connection. It turns a personal journey into something shared, reminding others that they were not forgotten. In a single boxed sweet lies a simple message of thoughtfulness.",
-        summaryJa: "日本では旅に出ると、写真や思い出以上のものを持ち帰ることが多い。「お土産」——たいてい地元の食べ物やお菓子——を、家族や友人、同僚と分かち合うために持ち帰るのだ。この習慣は日本の暮らしの温かく大切な一部だ。お土産は自分用に買う単なる記念品とは違い、他者を思って選ぶ。有名な地域を訪れた人は、その土地で知られたお菓子を探す。美しく包まれ小分けされ、職場や家庭で分けやすい。渡すことは「離れている間もあなたを思っていた」と伝える方法だ。多くの職場では休暇後にお土産を持参するのがほぼ習わしだが、重い義務でなく楽しい気持ちで行われる。遠い土地の味を分かち合う小さな親切が、関係を円滑で友好的に保つ。だから駅や空港は土産物店であふれる。選ぶこと自体も旅の楽しみだ。お土産の核心はつながりで、個人の旅を分かち合うものに変え、忘れていないと伝える。",
-        quiz: [
-          { q: "What is 'omiyage'?", options: ["Small gifts, often local food, brought home to share with others", "A type of camera", "A train ticket"], answer: 0 },
-          { q: "How is omiyage different from a souvenir you buy for yourself?", options: ["It is chosen with others in mind, to share", "It is only for the traveler", "It is never food"], answer: 0 },
-          { q: "At its heart, what is omiyage about?", options: ["Connection — turning a personal journey into something shared", "Spending as much money as possible", "Keeping everything for oneself"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0907-5",
-        title: "Why Leaves Change Color in Autumn",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Each autumn, in many parts of the world, green leaves turn to brilliant shades of yellow, orange, and red before they fall. This yearly show is one of nature's most beautiful sights. But behind the colors lies some clever science.\n\nDuring spring and summer, leaves are green because of a substance called chlorophyll. This substance helps the tree make food from sunlight, and it fills the leaves with a strong green color. In fact, other colors are hidden in the leaf all along, but the green is so strong that we cannot see them.\n\nAs autumn arrives, the days grow shorter and the air turns cooler. The tree senses that winter is coming and begins to prepare. It slowly stops making chlorophyll, and the green fades away. Now the hidden yellows and oranges can finally be seen. In some trees, new red colors are also made in these final weeks.\n\nWhy does the tree do this? By dropping its leaves, a tree saves energy and water during the hard, cold winter, when sunlight is weak. The colorful change is really a sign of the tree getting ready to rest.\n\nSo the next time you enjoy the reds and golds of autumn, remember that you are watching a tree prepare for winter. The beauty we love is also a wise and ancient plan for survival.",
-        summaryJa: "毎秋、世界の多くの地域で緑の葉が黄・橙・赤の鮮やかな色に変わり、やがて落ちる。この毎年の光景は自然で最も美しいものの一つだが、色の裏には巧みな科学がある。春夏、葉が緑なのは「クロロフィル」という物質のためだ。これは木が日光から食物を作るのを助け、葉を濃い緑で満たす。実は他の色も初めから葉に隠れているが、緑が強すぎて見えない。秋が来ると日が短く空気が冷え、木は冬の到来を察して準備を始める。ゆっくりクロロフィルを作るのをやめ、緑が薄れると、隠れていた黄や橙がついに見える。木によっては最後の数週で新たに赤も作られる。なぜか。葉を落とすことで、日光の弱い厳しい冬に木はエネルギーと水を節約する。色づきは木が休む準備の合図だ。秋の紅葉を楽しむとき、木が冬に備える姿を見ているのだと思い出してほしい。愛でる美しさは、古くから続く賢い生存の計画でもある。",
-        quiz: [
-          { q: "Why are leaves green in spring and summer?", options: ["Because of a substance called chlorophyll that helps make food from sunlight", "Because they are painted green", "Because of the cold weather"], answer: 0 },
-          { q: "Why do the yellow and orange colors appear in autumn?", options: ["The tree stops making chlorophyll, so the green fades and hidden colors show", "Someone adds them", "The leaves get wet"], answer: 0 },
-          { q: "Why does a tree drop its leaves?", options: ["To save energy and water during the hard, cold winter", "To make the ground colorful", "Because leaves are useless in summer"], answer: 0 }
         ]
       }
     ]
