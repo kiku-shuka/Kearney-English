@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-15",
+    passages: [
+      {
+        id: "d0915-1",
+        title: "Why Companies Study Their Competitors",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "No business exists alone. For almost every product or service, there are rival companies trying to win the same customers. Because of this, smart companies spend real time and effort studying their competitors. This practice can be one of the most useful habits in business.\n\nWhy look at your rivals so closely? First, to learn. A competitor may have found a clever way to lower costs, please customers, or reach new markets. By watching carefully, a company can learn from others' successes without paying the price of every mistake itself.\n\nStudying rivals also helps a company understand its own strengths and weaknesses. When you compare your product to another, you see clearly where you are ahead and where you are falling behind. This honest view is hard to get by looking only at yourself.\n\nThere is a warning, however. Watching competitors too closely can become a trap. A company that only copies others will always be one step behind, and may forget what makes it special. The best companies learn from rivals but still follow their own vision.\n\nGood competitor study is fair and honest. It means reading public information, trying products openly, and listening to customers — not stealing secrets. In the end, competitors are not only a threat. They are also teachers, pushing every company to keep improving, which in the end is good for customers too.",
+        summaryJa: "一つで存在する事業はない。ほぼすべての製品やサービスに、同じ客を得ようとする競合企業がいる。だから賢い企業は競合を研究するのに実際の時間と労力を費やす。これはビジネスで最も有用な習慣の一つになりうる。なぜ競合をそれほど注意深く見るのか。第一に学ぶためだ。競合はコスト削減や顧客満足、新市場開拓の巧みな方法を見つけたかもしれない。注意深く見れば、あらゆる失敗の代償を自ら払わずに他者の成功から学べる。競合研究は自社の強みと弱みの理解も助ける。自社製品を他と比べると、どこで先行しどこで遅れているかが明確に見える。この正直な視点は自分だけを見ていては得にくい。ただし警告もある。競合を見すぎると罠になりうる。他者を真似るだけの企業は常に一歩遅れ、自社の特別さを忘れかねない。最良の企業は競合から学びつつ自らの理念に従う。良い競合研究は公正で正直だ。公開情報を読み、製品を公然と試し、客の声を聞くことで、秘密を盗むことではない。競合は脅威だけでなく、各企業を改善へ押しやる教師でもあり、結局は客のためにもなる。",
+        quiz: [
+          { q: "Why do smart companies study their competitors?", options: ["To learn from others' successes without paying for every mistake themselves", "To copy them exactly forever", "To ignore their own customers"], answer: 0 },
+          { q: "How does studying rivals help a company see itself?", options: ["It reveals its own strengths and weaknesses more clearly", "It hides all its weaknesses", "It has no effect on self-knowledge"], answer: 0 },
+          { q: "What warning does the passage give?", options: ["A company that only copies others will always be one step behind", "You should steal your rivals' secrets", "You should never look at competitors"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0915-2",
+        title: "AI in the Classroom",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Artificial intelligence is quietly entering schools around the world. Some students now use AI tools to explain difficult ideas, check their writing, or practice a new language. Teachers, too, are testing AI to help plan lessons and mark simple work. This new arrival brings both exciting hopes and serious questions.\n\nThe hopes are real. A good AI tool can act like a patient private tutor, always ready to explain a topic in a new way until it makes sense. It can give each student attention that is hard to provide in a class of thirty. For a learner who is shy or falling behind, this gentle, private help can be a gift.\n\nBut there are worries too. If students let AI do their thinking for them, they may not truly learn. The goal of school is to build strong minds, not just to produce finished answers. Teachers must guide students to use these tools as helpers, not as shortcuts that skip the effort of learning.\n\nThere is also the question of data. To help a student, an AI system may collect information about them. Schools and companies must protect this data carefully, especially since the students are often children.\n\nUsed wisely, AI could make learning richer and fairer, reaching students who need extra help. Used carelessly, it could weaken the very skills school is meant to build. The tool is powerful; how we use it will decide whether it truly helps.",
+        summaryJa: "人工知能(AI)が世界中の学校に静かに入りつつある。難しい考えの説明や作文の確認、新しい言語の練習にAIを使う生徒もいる。教師も授業計画や簡単な採点にAIを試している。この新参者は、わくわくする希望と深刻な問いの両方をもたらす。希望は本物だ。良いAIは、分かるまで新しい仕方で説明する辛抱強い家庭教師のように働ける。30人の教室では難しい個別の注意を各生徒に与えられる。内気だったり遅れたりする学習者には、この優しく私的な助けは贈り物になりうる。だが懸念もある。生徒がAIに考えを任せると、真に学べないかもしれない。学校の目的は完成した答えを作ることでなく強い頭脳を育てることだ。教師は、学びの労を飛ばす近道でなく助けとして使うよう導かねばならない。データの問題もある。生徒を助けるためAIは情報を集めうる。特に生徒はしばしば子どもなので、学校と企業はこのデータを慎重に守らねばならない。賢く使えばAIは学びを豊かで公正にし、助けの要る生徒に届きうる。不注意に使えば、学校が育てるべき技能を弱めうる。道具は強力で、使い方が本当に役立つかを決める。",
+        quiz: [
+          { q: "How can a good AI tool help a student?", options: ["Like a patient tutor, explaining a topic in new ways and giving individual attention", "By doing all the homework so students never think", "By replacing the school entirely"], answer: 0 },
+          { q: "What is the main worry about students using AI?", options: ["If AI does their thinking, they may not truly learn", "That it is too boring", "That it makes school too easy to enjoy"], answer: 0 },
+          { q: "Why must student data be protected especially carefully?", options: ["Because the students are often children", "Because data is worthless", "Because schools never use computers"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0915-3",
+        title: "A World Growing Older",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Something remarkable is happening to the human family: on average, we are getting older. In many countries, people are living longer than ever before, while families are choosing to have fewer children. As a result, the share of older people in the world is steadily rising. This quiet change will shape life for everyone in the coming decades.\n\nThe reasons behind it are mostly good news. Better food, cleaner water, and improved medicine mean that people survive illnesses that once ended lives early. Living into one's eighties or nineties, once rare, is becoming common in many places.\n\nBut an older world brings real challenges. With fewer young workers and more retired people, countries must think carefully about how to care for everyone. Who will do the work, pay for pensions, and look after those who need help? These are not easy questions.\n\nThere are also opportunities. Older people carry knowledge and experience, and many wish to keep working, learning, and helping others long past the old retirement age. Societies that welcome this can gain a great deal.\n\nDifferent countries are trying many answers: encouraging people to work longer if they wish, supporting families who want children, and building better care for the elderly. There is no single solution.\n\nWhat is certain is that an aging world is not a problem to fear, but a new reality to plan for — wisely, and with respect for every generation.",
+        summaryJa: "人類という家族に驚くべきことが起きている。平均して、私たちは年を取りつつある。多くの国で人はかつてなく長生きし、家族はより少ない子どもを選ぶ。結果、世界の高齢者の割合は着実に上がっている。この静かな変化は、これからの数十年、皆の暮らしを形づくる。背景の理由はおおむね良い知らせだ。より良い食、清潔な水、進歩した医療により、かつて早く命を奪った病を人は生き延びる。80代90代まで生きることは、かつて稀だったが多くの地域で普通になりつつある。だが高齢化した世界は現実の課題も招く。若い働き手が減り退職者が増える中、国は皆をどう支えるか慎重に考えねばならない。誰が働き、年金を賄い、助けの要る人を世話するのか。容易な問いではない。機会もある。高齢者は知識と経験を持ち、多くは旧来の定年をはるかに過ぎても働き学び人を助け続けたいと願う。これを歓迎する社会は多くを得られる。各国は多くの答えを試みる。望む人がより長く働けるよう促し、子を望む家族を支え、高齢者へのより良いケアを築く。唯一の解はない。確かなのは、高齢化する世界は恐れるべき問題でなく、賢く各世代を尊重して備えるべき新しい現実だということだ。",
+        quiz: [
+          { q: "Why is the world's population growing older?", options: ["People live longer thanks to better food, water, and medicine, and families have fewer children", "Because children are no longer born anywhere", "Because medicine has gotten worse"], answer: 0 },
+          { q: "What is one challenge of an older world?", options: ["With fewer young workers and more retired people, caring for everyone is harder", "There is too much work for too many young people", "Nothing changes at all"], answer: 0 },
+          { q: "How does the passage suggest we view an aging world?", options: ["Not as a problem to fear, but a new reality to plan for with respect for every generation", "As a disaster with no solutions", "As something to ignore"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0915-4",
+        title: "Why Japanese People Take Off Their Shoes",
+        level: "★★☆",
+        genre: "日本",
+        text: "If you visit a home in Japan, the first thing you will likely do is take off your shoes. Just inside the door is a small lowered space where shoes are left, and from there you step up into the house in socks or slippers. To many visitors this is surprising, but to people in Japan it is completely natural.\n\nThe custom has practical roots. Streets carry dust and dirt, and leaving shoes at the door keeps the home clean. This matters even more in traditional Japanese houses, where people may sit and even sleep on soft floor mats called tatami. No one wants outdoor dirt where they rest and eat.\n\nBut the habit is about more than cleanliness. Removing your shoes marks a gentle border between the outside world and the private, peaceful space of the home. Stepping out of your shoes is a small way of leaving the busy street behind and entering a calmer place.\n\nThe custom appears in many other spots too. People often remove their shoes in some traditional restaurants, temples, and even certain schools and clinics. Special slippers may be provided, sometimes even a separate pair just for the bathroom.\n\nFor a visitor, following this custom is an easy and welcome sign of respect. Slipping off your shoes at the door is more than a rule of cleaning. It is a quiet daily act that separates rest from the rush of the world outside.",
+        summaryJa: "日本の家を訪ねると、まずすることはたいてい靴を脱ぐことだ。ドアのすぐ内側に靴を置く一段低い小さな空間があり、そこから靴下やスリッパで家に上がる。多くの訪問者には驚きだが、日本の人には全く自然だ。この習慣には実用的な由来がある。通りはほこりや泥を運び、玄関で靴を脱げば家を清潔に保てる。柔らかい床マット「畳」に座り、時に眠る伝統的な日本家屋ではなおさら大切だ。休み食べる場所に外の汚れを持ち込みたい人はいない。だがこの習慣は清潔さ以上のものだ。靴を脱ぐことは、外の世界と家の私的で穏やかな空間との優しい境を示す。靴を脱ぐのは、忙しい通りを後にして、より静かな場所に入る小さな方法だ。この習慣は他の多くの場所にもある。一部の伝統的な料理店や寺、特定の学校や診療所でも靴を脱ぐ。専用のスリッパが用意され、時にトイレ専用の一足まである。訪問者にとって、この習慣に従うのは容易で歓迎される敬意の印だ。玄関で靴を脱ぐことは掃除の規則以上のもので、休息を外の世界の慌ただしさから隔てる、静かな日々の行為だ。",
+        quiz: [
+          { q: "What practical reason is there for removing shoes at the door?", options: ["It keeps the home clean, since streets carry dust and dirt", "It makes shoes last longer", "It is required by law"], answer: 0 },
+          { q: "Beyond cleanliness, what does removing shoes mark?", options: ["A gentle border between the outside world and the private, peaceful home", "The end of the day", "That guests must leave"], answer: 0 },
+          { q: "Where else does this custom appear?", options: ["Some traditional restaurants, temples, and certain schools and clinics", "Only in airports", "Nowhere but private homes"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0915-5",
+        title: "Why the Sea Rises and Falls",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "If you spend a day at the seaside, you may notice something strange. In the morning, the water reaches far up the beach; by afternoon, it has pulled back, leaving wet sand and rock. Then it slowly returns. These daily rises and falls of the sea are called tides, and their cause reaches all the way to the moon.\n\nThe moon, though far away, pulls on the Earth with a force called gravity. This pull is strongest on the side of the Earth facing the moon. There, the ocean water bulges slightly toward the moon, making the sea rise. On the opposite side of the Earth, another bulge forms as well. As the Earth turns each day, different coasts pass through these bulges, and so the tides rise and fall.\n\nThe sun also pulls on the oceans, though less strongly than the closer moon. When the sun and moon line up, their pulls combine, and the tides become especially large. When they sit at right angles, the tides are smaller.\n\nTides matter for many people. Sailors and fishers plan their trips around them, and some coastal creatures live their whole lives to the rhythm of the water. In some places, the rising and falling water is even used to make electricity.\n\nSo the gentle movement of the sea is not random. It is the Earth, the moon, and the sun, quietly dancing together across the sky.",
+        summaryJa: "海辺で一日過ごすと、不思議なことに気づくかもしれない。朝、水は浜の奥まで届き、午後には引いて濡れた砂や岩を残す。そしてゆっくり戻る。この海の日々の満ち引きを「潮汐(タイド)」といい、その原因ははるか月にまで及ぶ。月は遠いが、重力という力で地球を引く。この引きは月に面した側で最も強い。そこでは海水がわずかに月へふくらみ、海が満ちる。地球の反対側にももう一つのふくらみができる。地球が毎日回るにつれ、異なる海岸がこれらのふくらみを通り、潮が満ち引きする。太陽も海を引くが、近い月より弱い。太陽と月が一直線に並ぶと引きが合わさり、潮は特に大きくなる。直角に位置すると潮は小さい。潮汐は多くの人に関わる。船乗りや漁師は旅を潮に合わせて計画し、一部の沿岸生物は水の律動に合わせて一生を送る。場所によっては満ち引きする水で発電さえする。だから海の穏やかな動きは無作為ではない。地球と月と太陽が、空を越えて静かに共に踊っているのだ。",
+        quiz: [
+          { q: "What are the daily rises and falls of the sea called?", options: ["Tides", "Waves only", "Rivers"], answer: 0 },
+          { q: "What mainly causes the tides?", options: ["The moon's gravity pulling on the Earth's oceans", "The wind alone", "Boats moving the water"], answer: 0 },
+          { q: "When do the tides become especially large?", options: ["When the sun and moon line up so their pulls combine", "When the moon disappears", "When there is no sun"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-14",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why are some math puzzles worth so much?", options: ["A single answer can open the door to whole new areas of knowledge", "Because math has no uses", "Because they are easy to solve"], answer: 0 },
           { q: "How have powerful computers begun to help mathematicians?", options: ["By checking ideas and searching for patterns humans might miss", "By solving nothing at all", "By replacing mathematics entirely"], answer: 0 },
           { q: "What do these great puzzles remind us?", options: ["Mathematics is not finished — it is a living adventure", "Mathematics has all its answers already", "Mathematics is useless"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-08",
-    passages: [
-      {
-        id: "d0908-1",
-        title: "What Is Venture Capital?",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "You may have heard that a young company just raised a huge amount of money from investors, sometimes hundreds of millions of dollars, even though it has not yet made a profit. This kind of investment often comes from something called venture capital. Understanding it helps explain how many of today's biggest companies began.\n\nA new company with a bold idea usually needs money to grow. It may need to hire engineers, build a product, and reach customers, all before earning much income. Banks are often unwilling to lend to such young, risky businesses. This is where venture capital, or \"VC,\" steps in.\n\nVenture capital firms gather money from large investors and use it to buy a share of promising young companies. In return, they give not only money but also advice, contacts, and experience. They know that most of these young companies will fail. But they hope that a few will grow enormously, and that those rare successes will more than cover all the losses.\n\nFor the founders, VC money can turn a small idea into a global business quickly. But it comes at a price. By selling part of their company, founders give up some control, and they face strong pressure to grow fast.\n\nVenture capital is a bet on the future. It is risky and demanding, yet it has helped create many of the technologies and services we now use every day.",
-        summaryJa: "利益もまだ出していない若い会社が、投資家から数億ドルもの巨額を調達したと聞くことがある。こうした投資はしばしば「ベンチャーキャピタル」から来る。これを理解すると、今日の大企業の多くがどう始まったか分かる。大胆な着想を持つ新会社は成長に資金が要る。技術者を雇い製品を作り顧客に届けるまで、収入は少ない。銀行はこうした若くリスクの高い事業に貸したがらない。そこでVCが登場する。VCは大口投資家から資金を集め、有望な若い会社の株を買う。見返りに資金だけでなく助言や人脈、経験も与える。多くは失敗すると知りつつ、少数が巨大に育ち損失を補うと期待する。創業者には小さな着想を素早く世界的事業に変えうるが、代償もある。会社の一部を売り支配権を手放し、急成長の圧力に直面する。VCは未来への賭けで、リスクは高いが、今使う多くの技術やサービスを生んできた。",
-        quiz: [
-          { q: "Why do banks often avoid lending to young companies?", options: ["Because such young businesses are risky", "Because banks have no money", "Because young companies never need money"], answer: 0 },
-          { q: "What do venture capital firms give besides money?", options: ["Advice, contacts, and experience", "Only empty promises", "Nothing at all"], answer: 0 },
-          { q: "What price do founders pay for VC money?", options: ["They give up some control and face pressure to grow fast", "They pay nothing", "They must close their company"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0908-2",
-        title: "How the World Makes a Computer Chip",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Inside almost every modern device — your phone, your car, your washing machine — sits a tiny computer chip. These chips are among the most complex objects humans have ever built, yet they are smaller than a fingernail. Making them is a marvel of science and patience.\n\nA chip is built on a thin slice of a material called silicon. Onto this surface, engineers print billions of tiny switches, far too small to see. To do this, they use a special kind of light and patterns finer than anything drawn by hand. Layer by layer, the design is carefully printed, like a photograph made at an unimaginably small scale.\n\nThe precision required is astonishing. The smallest parts of a modern chip are only a few atoms wide. Even a speck of dust can ruin a chip, so the factories, called \"fabs,\" are kept cleaner than a hospital. Workers wear special suits, and the air is filtered again and again.\n\nBecause this process is so difficult, only a handful of companies in the world can make the most advanced chips. Building a single factory can cost billions of dollars and take years.\n\nThe next time you tap your phone, remember the hidden wonder inside. That small chip is the result of decades of human cleverness, and a manufacturing process so exact that it works at the level of single atoms.",
-        summaryJa: "現代のほぼ全ての機器——電話、車、洗濯機——の中に、小さなコンピューターチップがある。人類が作った最も複雑な物の一つでありながら、爪より小さい。作ることは科学と忍耐の驚異だ。チップはシリコンという素材の薄い板の上に作られる。その表面に、目に見えないほど小さな何十億ものスイッチを印刷する。特別な光と、手で描けるどんなものより細かい模様を使う。層を重ね、想像を絶する小ささの写真のように設計を丁寧に刷る。必要な精度は驚異的で、最小部分はわずか数原子分の幅だ。ほこり一粒でも台無しになるため、工場「ファブ」は病院より清潔に保たれ、作業者は特殊な服を着て空気は何度もろ過される。あまりに難しいため最先端チップを作れる企業は世界に一握りで、工場一つの建設に数十億ドルと数年かかる。次に電話に触れるとき、この隠れた驚異を思い出してほしい。",
-        quiz: [
-          { q: "What material is a chip built on?", options: ["A thin slice of silicon", "A piece of wood", "A sheet of paper"], answer: 0 },
-          { q: "Why are chip factories kept cleaner than a hospital?", options: ["Even a speck of dust can ruin a chip", "Because workers eat there", "Because dust makes chips faster"], answer: 0 },
-          { q: "Why can only a few companies make the most advanced chips?", options: ["The process is extremely difficult and factories cost billions", "Because chips are easy to make", "Because no one wants to make them"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0908-3",
-        title: "Counting a Whole Country",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Every so often, a country tries to do something remarkable: count every single person who lives in it. This great effort is called a census. From huge nations to small islands, governments carry out a census to learn how many people they have, where they live, and how their lives are changing.\n\nWhy go to so much trouble? The answer is that good decisions need good information. A government that knows how many children live in an area can plan the right number of schools. Knowing where older people live helps plan hospitals and care. A census also shows how a population is growing or shrinking, which shapes plans for housing, roads, and jobs for years to come.\n\nCarrying out a census is a massive task. Workers may travel to remote villages, and forms are sent to millions of homes. Today, many countries also let people answer online, which is faster and cheaper. Still, reaching everyone — including those without a fixed home — is very hard.\n\nThere are challenges beyond size. People must trust that their private answers will be protected and used only to help, not to harm. Without that trust, some may refuse to take part.\n\nA census is one of the quiet foundations of a well-run country. By taking the time to count and understand its people, a nation can plan more wisely and serve everyone more fairly.",
-        summaryJa: "時折、国は驚くべきことを試みる。住むすべての人を一人残らず数えるのだ。この大きな取り組みを「国勢調査(センサス)」という。大国から小さな島国まで、政府は何人いて、どこに住み、暮らしがどう変わっているかを知るために行う。なぜそこまでするのか。良い判断には良い情報が要るからだ。ある地域の子どもの数を知る政府は、適切な数の学校を計画できる。高齢者の居場所を知れば病院や介護を計画できる。人口の増減も示し、住宅や道路、雇用の計画を左右する。実施は膨大な作業で、遠い村へ赴き、何百万もの家に用紙を送る。今は多くの国がオンライン回答も認め、速く安い。それでも定住地のない人まで届くのは難しい。規模以外の課題もあり、私的な回答が守られ害でなく助けにのみ使われると人々が信頼せねばならない。国勢調査はよく運営される国の静かな土台だ。",
-        quiz: [
-          { q: "What is a census?", options: ["A great effort to count every person living in a country", "A national holiday", "A type of tax"], answer: 0 },
-          { q: "Why does a government carry out a census?", options: ["Good decisions, like planning schools and hospitals, need good information", "To make people angry", "For no reason at all"], answer: 0 },
-          { q: "What must people trust for a census to work well?", options: ["That their private answers will be protected and used only to help", "That the answers will be sold", "That no one will read them ever"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0908-4",
-        title: "The Quiet World of the Tea Ceremony",
-        level: "★★☆",
-        genre: "日本",
-        text: "In a small, simple room, a host slowly prepares a bowl of green tea for a guest. Every movement is calm and careful. This is the Japanese tea ceremony, a tradition that is about far more than simply drinking tea.\n\nThe tea ceremony has been practiced in Japan for centuries. At first glance, it may seem like a very slow way to make a drink. But each step — folding a cloth, warming the bowl, whisking the tea — is done with deep attention. The goal is not speed, but a feeling of peace, respect, and full presence in the moment.\n\nThe setting is chosen with great care. The room is often plain and quiet, perhaps with a single flower or a hanging scroll. Guests are encouraged to leave their busy thoughts at the door and simply be there, sharing a calm experience with others. Host and guest treat each other with gentle politeness.\n\nAt its heart lie a few simple values: respect for others, purity, harmony, and a quiet appreciation of the present moment. These ideas reach far beyond the tea room and into everyday Japanese life.\n\nIn our fast, noisy world, the tea ceremony offers a rare gift: a chance to slow down completely. For a short time, making and sharing one bowl of tea becomes the most important thing in the world.",
-        summaryJa: "小さく簡素な部屋で、亭主が客のために抹茶をゆっくり点てる。どの動きも静かで丁寧だ。これが日本の茶道で、単にお茶を飲む以上のものだ。茶道は何世紀も日本で行われてきた。一見、飲み物を作るのにとても遅い方法に見える。だが布をたたみ、茶碗を温め、茶を点てる各段階が深い注意とともに行われる。目的は速さでなく、平安と敬意、そして今この瞬間に完全に在る感覚だ。しつらえも入念に選ばれる。部屋はしばしば簡素で静かで、一輪の花や掛け軸があるくらいだ。客は忙しい思いを戸口に置き、ただそこに在り、穏やかな体験を共有するよう促される。亭主と客は互いに優しい礼儀で接する。核心には敬意、清らかさ、調和、今この瞬間への静かな感謝という簡素な価値がある。これらは茶室を越え日常の日本の暮らしに及ぶ。速く騒がしい世界で、茶道は完全に立ち止まる稀な贈り物を与えてくれる。",
-        quiz: [
-          { q: "What is the Japanese tea ceremony really about?", options: ["Far more than drinking tea — peace, respect, and presence in the moment", "Making tea as fast as possible", "Selling expensive tea"], answer: 0 },
-          { q: "What is the setting for a tea ceremony usually like?", options: ["A plain and quiet room, perhaps with a single flower or scroll", "A loud, crowded hall", "A busy street"], answer: 0 },
-          { q: "What gift does the tea ceremony offer in our fast world?", options: ["A chance to slow down completely", "A way to work faster", "A reason to hurry"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0908-5",
-        title: "Snake Blood That Fights Venom",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "A snake bite from a dangerous species can be deadly, and treating one is difficult. For over a hundred years, doctors have used medicines called antivenoms, but they are not perfect. They can be slow to make, hard to store, and they do not always work well against every kind of snake. Now, scientists have made a surprising discovery in an unexpected place: the blood of snakes themselves.\n\nSome snakes, such as rattlesnakes, carry special proteins in their blood. These proteins can block the harmful effects of venom. This makes sense when you think about it — a snake needs some protection against its own dangerous poison and that of others.\n\nRecently, researchers found that by combining several of these natural proteins, they could create a powerful mixture that neutralizes venom from many different snakes. In tests, this blend was far stronger than some current treatments, and it worked against several dangerous species at once.\n\nWhy does this matter? Snake bites harm and kill many people around the world every year, especially in poorer, rural areas. A treatment that is stronger, works against many snakes, and is easier to produce could save countless lives.\n\nThe research is still in an early stage, and more testing is needed before it can help patients. But it is a beautiful example of nature offering an answer. Sometimes the cure to a danger is hidden inside the danger itself.",
-        summaryJa: "危険な種のヘビにかまれると命に関わることがあり、治療は難しい。100年以上、医師は「抗毒素(血清)」という薬を使ってきたが完璧ではない。作るのが遅く、保存が難しく、あらゆるヘビによく効くとは限らない。今、科学者は意外な場所で驚きの発見をした。ヘビ自身の血だ。ガラガラヘビなどのヘビは、血中に特別なタンパク質を持つ。これは毒の有害な作用を防げる。考えれば理にかなう。ヘビは自らや他のヘビの危険な毒からある程度身を守る必要があるのだ。最近、研究者はこれらの天然タンパク質をいくつか組み合わせると、多くの異なるヘビの毒を中和する強力な混合物を作れると発見した。試験では現行治療より格段に強く、複数の危険な種に同時に効いた。なぜ重要か。ヘビ咬傷は毎年世界で多くの人を害し、特に貧しい農村部で深刻だ。より強く多くのヘビに効き作りやすい治療は無数の命を救いうる。研究は初期段階だが、危険の中に治療が隠れているという自然の美しい例だ。",
-        quiz: [
-          { q: "What problem do current antivenoms have?", options: ["They can be slow to make, hard to store, and not always effective", "They are always perfect", "They cure every illness"], answer: 0 },
-          { q: "What surprising thing did scientists find in some snakes' blood?", options: ["Special proteins that can block the harmful effects of venom", "Tiny computers", "A new kind of food"], answer: 0 },
-          { q: "Why could this discovery matter so much?", options: ["Snake bites harm many people, so a stronger, easier treatment could save lives", "Because snakes are cute", "Because it makes venom stronger"], answer: 0 }
         ]
       }
     ]
