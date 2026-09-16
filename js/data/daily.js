@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-16",
+    passages: [
+      {
+        id: "d0916-1",
+        title: "How Companies Set Their Prices",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Have you ever wondered how a shop decides that a coffee costs three dollars, not two or five? Setting a price may look simple, but it is one of the most important and difficult decisions a business makes. Price too high, and customers walk away. Price too low, and the company loses money. Getting it right is a real skill.\n\nCompanies usually think about three main things. The first is cost. A business must charge more than it spends to make and sell a product, or it cannot survive. The second is the customer. How much are people willing to pay? A price must feel fair for the value they receive. The third is competition. If a rival sells something similar for less, a high price may be hard to defend.\n\nPrices are also full of psychology. A price of $9.99 feels much smaller than $10, even though the difference is tiny. A very cheap product may make people wonder if the quality is poor, while a higher price can suggest luxury.\n\nSometimes companies change prices to match demand. A plane ticket may cost more during a holiday, and a coat may be cheaper at the end of winter. This is called adjusting to what people want and when.\n\nIn the end, a good price is a careful balance. It must cover costs, respect the customer, beat no one unfairly, and still leave the company healthy enough to keep serving people tomorrow.",
+        summaryJa: "店がコーヒーを2ドルでも5ドルでもなく3ドルとどう決めるか、考えたことはあるだろうか。値付けは単純に見えて、企業が下す最も重要で難しい決断の一つだ。高すぎれば客は去り、低すぎれば損をする。正しく決めるのは本物の技能だ。企業はふつう三つを考える。第一はコスト。作って売る費用より高く売らねば存続できない。第二は客。人はいくら払う気があるか。受け取る価値に見合い公正だと感じられねばならない。第三は競争。競合が似た物を安く売れば、高値は守りにくい。値段には心理も詰まっている。9.99ドルは差はわずかでも10ドルよりずっと安く感じる。極端に安いと品質を疑われ、高いと高級さを示しうる。需要に合わせ値を変えることもある。飛行機の切符は休暇中に高く、コートは冬の終わりに安い。人が何をいつ望むかへの調整だ。良い値段は慎重なバランスだ。費用を賄い、客を尊重し、不当に誰かをたたかず、明日も人に仕える健全さを企業に残す。",
+        quiz: [
+          { q: "What are the three main things companies think about when setting a price?", options: ["Cost, the customer, and competition", "Color, size, and weight", "The weather, the day, and the season"], answer: 0 },
+          { q: "How does psychology affect prices?", options: ["A price of $9.99 feels much smaller than $10, though the difference is tiny", "Prices have no effect on feelings", "People always ignore the price"], answer: 0 },
+          { q: "Why might a plane ticket cost more during a holiday?", options: ["Companies adjust prices to match demand", "Because planes fly slower then", "Because tickets are free otherwise"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0916-2",
+        title: "How Weather Forecasts Are Made",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Each morning, millions of people check the weather before deciding what to wear or whether to carry an umbrella. We trust these forecasts, yet few of us stop to ask how anyone can predict tomorrow's sky. The answer is a remarkable mix of measurement, mathematics, and powerful computers.\n\nIt begins with data. All over the world, thousands of stations, balloons, ships, and satellites constantly measure the temperature, wind, pressure, and moisture of the air. This ocean of information gives scientists a picture of the atmosphere right now.\n\nNext comes the science. The air follows the laws of physics, so scientists write these laws as equations. Using them, a computer can calculate how the current weather is likely to change over the coming hours and days. Because the atmosphere is huge and complex, this requires some of the most powerful computers on Earth, running trillions of calculations.\n\nEven so, forecasts are not perfect. The atmosphere is so sensitive that a tiny change can grow into a big difference days later. This is why a forecast for tomorrow is usually reliable, but one for next week is only a good guess.\n\nTo handle this, forecasters often run their models many times with slightly different starting points, then see how the results agree. When they mostly agree, confidence is high.\n\nSo a weather forecast is not magic. It is science, data, and computing power, working together to give us a helpful glimpse of the future.",
+        summaryJa: "毎朝、何百万もの人が服装や傘を決める前に天気を確認する。私たちは予報を信頼するが、なぜ明日の空を予測できるのか問う人は少ない。答えは、観測と数学と強力なコンピューターの見事な組み合わせだ。まずデータから始まる。世界中で何千もの観測所や気球、船、衛星が絶えず空気の気温、風、気圧、湿度を測る。この情報の海が、今この瞬間の大気の姿を科学者に与える。次に科学だ。空気は物理法則に従うので、科学者はこれを方程式で書く。それを使い、コンピューターは今の天気がこれからの数時間・数日でどう変わりそうかを計算する。大気は巨大で複雑なため、地球有数の強力なコンピューターが何兆もの計算を行う必要がある。それでも予報は完璧ではない。大気は非常に敏感で、わずかな変化が数日後に大きな差になる。だから明日の予報はふつう信頼できても、来週のは良い推測にすぎない。これに対処するため、予報士は開始条件を少し変えて模型を何度も走らせ、結果の一致を見る。ほぼ一致すれば確信は高い。天気予報は魔法ではない。科学とデータと計算力が協力し、未来の有用な一片を見せてくれる。",
+        quiz: [
+          { q: "How does making a forecast begin?", options: ["With data measured by stations, balloons, ships, and satellites", "With a lucky guess", "By asking people how they feel"], answer: 0 },
+          { q: "Why does forecasting need very powerful computers?", options: ["The atmosphere is huge and complex, needing trillions of calculations", "Because computers are cheap", "Because no math is involved"], answer: 0 },
+          { q: "Why is a forecast for next week only a good guess?", options: ["The atmosphere is so sensitive that tiny changes grow into big differences", "Because scientists do not care about next week", "Because the future never changes"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0916-3",
+        title: "Keeping Children Safe Online",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Children today grow up with the internet. They watch videos, play games, chat with friends, and increasingly talk to smart programs. The online world offers wonderful chances to learn and connect. But it also brings dangers, and around the world, governments and parents are asking how to keep young people safe.\n\nThe worries are serious. Some apps are designed to keep users watching for hours, which can harm sleep and study. Children may see content that is not right for their age, or meet strangers who wish them harm. There are also concerns about how much personal data companies collect from young users.\n\nIn response, some governments are taking action. A number are considering age limits for social apps, or rules that force companies to make their services safer for children by default. Others focus on teaching digital skills, so that young people learn to think carefully about what they see and share.\n\nBut the questions are hard. Rules that are too strict may cut children off from useful tools and friendships. Rules that are too weak may fail to protect them. And children are often clever at finding ways around limits.\n\nMost experts agree that no single answer is enough. Safe technology, wise laws, good teaching, and caring adults must all work together. The goal is not to shut children out of the digital world, but to help them explore it safely, and grow into thoughtful, confident users.",
+        summaryJa: "今日の子どもはインターネットとともに育つ。動画を見て、ゲームをし、友人と話し、ますます賢いプログラムとも話す。オンラインの世界は学びとつながりの素晴らしい機会を与える。だが危険も伴い、世界中で政府や親が、若者をどう守るか問うている。懸念は深刻だ。何時間も見続けさせるよう作られたアプリは睡眠や勉強を害しうる。子どもは年齢に不適切な内容を見たり、害をなそうとする見知らぬ人に出会ったりしうる。企業が若い利用者からどれだけ個人データを集めるかへの懸念もある。これに応え、行動する政府もある。SNSの年齢制限や、既定で子どもに安全にするよう企業に義務づける規則を検討する国もある。デジタル技能の教育に力を入れ、見るもの共有するものを慎重に考えられるようにする国もある。だが難問だ。厳しすぎる規則は有用な道具や友情から子どもを切り離しかねず、緩すぎれば守れない。子どもは制限の回避に長けていることも多い。多くの専門家は、唯一の答えでは足りないと認める。安全な技術、賢い法、良い教育、心ある大人がすべて協力せねばならない。目標は子どもを締め出すことでなく、安全に探求し、思慮深く自信ある利用者に育つのを助けることだ。",
+        quiz: [
+          { q: "What is one worry about children online?", options: ["Some apps keep users watching for hours, harming sleep and study", "The internet is always completely safe", "Children learn nothing online"], answer: 0 },
+          { q: "What action are some governments considering?", options: ["Age limits for social apps and rules to make services safer by default", "Banning all schools", "Giving children no help at all"], answer: 0 },
+          { q: "What do most experts agree on?", options: ["No single answer is enough; technology, laws, teaching, and adults must work together", "Only strict rules matter", "Nothing can be done"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0916-4",
+        title: "Japan's Manga and Anime",
+        level: "★★☆",
+        genre: "日本",
+        text: "Around the world, millions of people read Japanese comics, called \"manga,\" and watch Japanese animation, called \"anime.\" What began as entertainment in Japan has grown into a cultural force loved on every continent. These colorful stories are now one of the ways the world comes to know Japan.\n\nManga are printed comics, often in black and white, telling stories of every kind. There are manga about sports, cooking, history, science, adventure, and quiet daily life. Because there is a manga for almost every interest and age, reading them is a normal part of life for many people in Japan, young and old.\n\nAnime brings these and other stories to life on screen, with movement, color, music, and voice. Some anime are made for children, but many explore deep and serious themes, from friendship and loss to courage and dreams. The best are treated as true works of art.\n\nPart of the appeal is the storytelling. Japanese manga and anime often take their time, letting characters grow and feelings deepen. Readers and viewers around the world say they feel a strong connection to these characters.\n\nThe success of manga and anime has become big business, and it draws many fans to visit Japan, learn Japanese, and explore its culture. From a simple drawing on a page, a whole world has opened — proof that a good story, well told, can travel anywhere.",
+        summaryJa: "世界中で、何百万もの人が日本の漫画「マンガ」を読み、日本のアニメーション「アニメ」を見る。日本の娯楽として始まったものが、あらゆる大陸で愛される文化の力に育った。この色鮮やかな物語は、今や世界が日本を知る道の一つだ。マンガは印刷された漫画で、しばしば白黒で、あらゆる種類の物語を語る。スポーツ、料理、歴史、科学、冒険、静かな日常のマンガがある。ほぼどんな興味や年齢にもマンガがあるので、読むことは日本の老若の多くにとって暮らしの当たり前の一部だ。アニメはこれらや他の物語を、動きと色、音楽、声で画面に生き生きと描く。子ども向けもあるが、友情や喪失、勇気、夢など深く真剣な主題を探るものも多い。最良のものは真の芸術作品として扱われる。魅力の一部は物語り方だ。日本のマンガやアニメはしばしば時間をかけ、登場人物を育て感情を深める。世界中の読者や視聴者は、これらの人物に強いつながりを感じるという。マンガとアニメの成功は大きな事業になり、多くのファンを日本訪問や日本語学習、文化探求へ引き寄せる。一枚の絵から世界が開いた。よく語られた良い物語はどこへでも旅できる証だ。",
+        quiz: [
+          { q: "What are 'manga' and 'anime'?", options: ["Japanese comics and Japanese animation", "Types of Japanese food", "Kinds of cars"], answer: 0 },
+          { q: "What is said about the themes of anime?", options: ["Many explore deep and serious themes, and the best are treated as art", "They are always only for small children", "They never tell any story"], answer: 0 },
+          { q: "What effect has their success had?", options: ["It draws many fans to visit Japan, learn Japanese, and explore its culture", "It made people dislike Japan", "It stopped people from reading"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0916-5",
+        title: "The Mystery of Fingerprints",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Look closely at the tips of your fingers, and you will see tiny lines forming loops, arches, and swirls. These are your fingerprints. One of the most fascinating facts about them is that no two people have exactly the same pattern — not even identical twins. Your fingerprints are truly your own.\n\nFingerprints form before birth, while a baby is still growing. The pattern depends partly on genes and partly on tiny, random events in the womb. Because these small events are never quite the same, every finger ends up with a unique design. Once formed, the pattern stays the same for your whole life.\n\nBut why do we have them at all? Scientists are not completely sure, but there are good ideas. The ridges may help our fingers grip objects, much like the tread on a tire. They may also make our sense of touch more sensitive, helping us feel fine textures.\n\nBecause each fingerprint is unique and unchanging, it has become a powerful way to tell people apart. For over a hundred years, fingerprints have helped identify people, and today many phones unlock with a simple touch of a finger.\n\nSo a fingerprint is more than a mark you leave on a glass. It is a tiny, personal signature, formed before you were born, carried on your hand for life — a small, quiet reminder that every single person is one of a kind.",
+        summaryJa: "指先をよく見ると、輪や弓、渦を描く小さな線が見える。これが指紋だ。最も魅力的な事実の一つは、同じ模様を持つ人は二人といないことだ——一卵性の双子でさえも。指紋は本当にあなただけのものだ。指紋は生まれる前、赤ちゃんが育つ間に形づくられる。模様は一部は遺伝子に、一部は子宮内の小さく無作為な出来事による。これらの小さな出来事は決して同じでないので、どの指も独自の意匠になる。一度できると模様は一生同じままだ。だがなぜ指紋があるのか。科学者は完全には確かでないが、良い説がある。この隆起はタイヤの溝のように物を握るのを助けるかもしれない。触覚をより敏感にし、細かな手触りを感じる助けにもなりうる。指紋は独自で変わらないため、人を見分ける強力な方法になった。100年以上、指紋は人の識別を助け、今では多くの電話が指の一触れで解錠する。だから指紋はグラスに残す跡以上のものだ。生まれる前に形づくられ、生涯手に携える小さな個人の署名であり、一人一人が唯一無二だという静かな小さな証だ。",
+        quiz: [
+          { q: "What is remarkable about fingerprints?", options: ["No two people have exactly the same pattern, not even identical twins", "Everyone has the same fingerprint", "They change every year"], answer: 0 },
+          { q: "Why might we have fingerprint ridges?", options: ["They may help grip objects and make touch more sensitive", "They make hands heavier", "They have no possible use"], answer: 0 },
+          { q: "Why have fingerprints become a way to tell people apart?", options: ["Each one is unique and stays the same for life", "Because they all look alike", "Because they disappear quickly"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-15",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "When do the most vivid dreams appear?", options: ["During a stage of sleep when the brain is very active and the eyes move quickly", "Only when we are fully awake", "Never during sleep"], answer: 0 },
           { q: "What is one popular idea about why we dream?", options: ["Dreaming helps the brain sort and store memories", "Dreaming makes us forget everything", "Dreaming has no purpose and harms us"], answer: 0 },
           { q: "What is clear about sleep and dreaming?", options: ["They are important for a healthy mind", "They are useless", "They only matter for children"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-09",
-    passages: [
-      {
-        id: "d0909-1",
-        title: "Build It or Buy It?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Imagine a company needs a new piece of software — perhaps a tool to manage its customers or track its sales. It faces a classic business choice: should it build the software itself, or buy a ready-made product from another company? This simple question, known as \"build or buy,\" comes up again and again in the business world.\n\nBuilding your own software has clear attractions. The tool can be shaped to fit your exact needs, and you are not dependent on another company. Over many years, building in-house can also save money on fees. But it is far from easy. Software takes skilled workers, time, and constant care. A project can run late, cost more than expected, or fail completely.\n\nBuying a ready-made product is often faster and simpler. Someone else has already done the hard work, fixed the bugs, and keeps the tool updated. You can start using it almost at once. The downside is that you must fit your business to the product, pay ongoing fees, and trust another company to keep it running.\n\nThere is no single right answer. A common rule is to build what makes your company special and buy the rest. Why spend years building an email system when good ones already exist?\n\nIn the end, \"build or buy\" is really a question about focus. Wise companies save their energy for the work only they can do best.",
-        summaryJa: "ある会社が新しいソフト——顧客管理や売上追跡の道具——を必要とするとしよう。古典的な選択に直面する。自社で作るか、他社の既製品を買うか。「作るか買うか(build or buy)」と呼ばれるこの問いはビジネスで何度も現れる。自社開発には明確な魅力がある。自社のニーズに合わせられ、他社に依存しない。長年で見れば手数料の節約にもなる。だが容易ではない。ソフトには熟練者と時間、絶え間ない手入れが要り、遅延や超過、失敗もある。既製品を買う方が速く簡単なことが多い。誰かが難しい作業を済ませ、不具合を直し、更新も続ける。すぐ使い始められる。欠点は、自社を製品に合わせ、継続的な料金を払い、他社の運営を信頼せねばならないこと。唯一の正解はない。「自社を特別にするものは作り、残りは買う」がよくある原則だ。核心は集中の問題で、賢い会社は自社が最も得意な仕事に力を残す。",
-        quiz: [
-          { q: "What is the 'build or buy' choice about?", options: ["Whether to build software yourself or buy a ready-made product", "Whether to open or close a shop", "Which color to paint an office"], answer: 0 },
-          { q: "What is one downside of building your own software?", options: ["It takes skilled workers and time, and a project can run late or fail", "It is always free", "It is finished in one day"], answer: 0 },
-          { q: "What common rule does the passage give?", options: ["Build what makes your company special and buy the rest", "Always build everything", "Never use any software"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0909-2",
-        title: "Nuclear Power Gets a Second Look",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "For years, nuclear power was out of fashion in many countries. After some famous accidents, people worried about safety and about the waste that stays dangerous for a long time. Some nations even decided to close their nuclear plants. But recently, nuclear energy is getting a fresh look, and interest is growing once again.\n\nWhy the change? The main reason is the need for clean, steady electricity. Unlike coal or gas, a nuclear plant produces almost no gases that warm the planet. And unlike wind or solar power, it can run day and night, in any weather. As the world uses more and more electricity — for cars, factories, and huge computer centers — a reliable, low-pollution source looks very valuable.\n\nNew technology is part of the story too. Engineers are designing smaller, simpler reactors that may be safer and cheaper to build. Some companies hope these can be made in factories and shipped to where they are needed.\n\nOf course, the old worries have not disappeared. Safety, cost, and the question of what to do with nuclear waste are still serious. Building a plant takes many years and huge sums of money, and public trust must be earned.\n\nNuclear power is not a magic answer. But as the world searches for clean energy that never sleeps, many experts believe it deserves a careful second look.",
-        summaryJa: "長年、原子力は多くの国で人気を失っていた。有名な事故の後、安全や、長く危険が残る廃棄物への不安があった。原発を閉じると決めた国さえある。だが最近、原子力が再び見直され、関心が高まっている。なぜか。主な理由は、清潔で安定した電気の必要性だ。石炭やガスと違い、原発は地球を温める気体をほとんど出さない。風力や太陽光と違い、昼夜どんな天気でも動ける。世界が車や工場、巨大な計算施設でますます電気を使う中、信頼でき低汚染の電源は非常に価値がある。新技術も物語の一部だ。より安全で安く作れそうな小型で単純な原子炉が設計されている。工場で作り必要な場所へ運ぶ構想もある。もちろん旧来の不安も消えていない。安全、費用、廃棄物の扱いは依然深刻で、建設には長い年月と巨額が要り、市民の信頼も得ねばならない。原子力は魔法の答えではないが、眠らない清潔なエネルギーを探す世界で、丁寧に見直す価値があると多くの専門家は考える。",
-        quiz: [
-          { q: "Why is nuclear power getting a fresh look?", options: ["It provides clean, steady electricity that runs day and night", "It produces a lot of warming gases", "It only works when it is sunny"], answer: 0 },
-          { q: "What new technology is part of the story?", options: ["Smaller, simpler reactors that may be safer and cheaper to build", "Reactors that need no engineers", "Plants that run without any fuel"], answer: 0 },
-          { q: "What old worries still remain?", options: ["Safety, cost, and what to do with nuclear waste", "Nothing at all", "Only the color of the buildings"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0909-3",
-        title: "Protecting the World's Oceans",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "The ocean covers most of our planet and is full of life, from tiny fish to giant whales. It gives us food, produces much of the oxygen we breathe, and helps control the world's climate. Yet for a long time, people treated the sea as if it were endless, taking too many fish and leaving behind pollution. Now, countries around the world are working to protect it.\n\nOne key idea is the \"marine protected area.\" This is a part of the sea where fishing and other harmful activities are limited or banned. Inside these safe zones, fish can grow and multiply in peace. Over time, the sea life often becomes richer, and the benefits spread to nearby waters where people still fish.\n\nNations are also joining together in agreements to protect the open ocean far from any coast. Because no single country owns these waters, only cooperation can keep them healthy. This is difficult, slow work, but the goal is shared: a living, healthy sea for the future.\n\nThere are challenges. Rules are hard to enforce across a vast ocean, and some communities depend on fishing for their living. Solutions must protect both nature and people.\n\nStill, the effort is hopeful. By caring for the ocean today — through protected areas, cleaner habits, and global teamwork — we help make sure the sea remains a source of life for generations to come.",
-        summaryJa: "海は地球の大部分を覆い、小さな魚から巨大なクジラまで生命に満ちている。食物を与え、呼吸する酸素の多くを生み、世界の気候の制御を助ける。だが長い間、人は海を無限であるかのように扱い、魚を取りすぎ汚染を残してきた。今、世界の国々が海を守ろうとしている。鍵となる考えの一つが「海洋保護区」だ。漁など有害な活動を制限・禁止する海の一部で、その安全な区域で魚は安心して育ち増える。やがて海の生命は豊かになり、恩恵は人が漁を続ける近隣の海にも広がる。各国は沿岸から遠い外洋を守る協定でも手を組む。どの国も所有しない海は協力でしか健康を保てない。難しく遅い作業だが、未来へ生きた健康な海という目標は共有されている。広大な海で規則を守らせるのは難しく、漁で生計を立てる人もいる。自然と人の両方を守らねばならない。それでも、保護区や清潔な習慣、世界の協力で海を守ることは希望だ。",
-        quiz: [
-          { q: "What does the ocean give us, according to the passage?", options: ["Food, much of the oxygen we breathe, and help controlling the climate", "Nothing useful", "Only salt"], answer: 0 },
-          { q: "What is a 'marine protected area'?", options: ["A part of the sea where harmful activities are limited so life can recover", "A place where all fishing is required", "A city built on the sea"], answer: 0 },
-          { q: "Why is cooperation needed to protect the open ocean?", options: ["Because no single country owns those waters", "Because the ocean is very small", "Because no one uses the ocean"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0909-4",
-        title: "How the Seasons Shape Life in Japan",
-        level: "★★☆",
-        genre: "日本",
-        text: "Many countries have seasons, but in Japan the four seasons hold a special place in daily life and culture. Spring, summer, autumn, and winter are not just changes in the weather. They shape what people eat, how they decorate their homes, and even the words they use in letters and greetings.\n\nEach season brings its own joys. Spring is famous for cherry blossoms, when families gather under the trees to enjoy the brief, beautiful flowers. Summer brings festivals, fireworks, and cool foods. Autumn offers colorful leaves and a rich harvest, while winter brings hot dishes, snow in many regions, and the quiet beauty of a resting land.\n\nFood is closely tied to the seasons. Cooks take pride in using ingredients that are at their best right now — the first fish of the season, or a fruit that appears for only a few weeks. Eating \"in season\" is seen as both tastier and wiser.\n\nThis awareness runs deep. A traditional letter might begin with a comment about the weather or the season, a small, polite way of sharing the moment. Poems and art often celebrate a single season, capturing its special feeling.\n\nBy paying attention to the seasons, people in Japan stay closely connected to nature, even in busy modern cities. Each turning of the year is a gentle reminder that time, like the seasons, is always quietly moving forward.",
-        summaryJa: "多くの国に季節はあるが、日本では四季が暮らしと文化で特別な位置を占める。春夏秋冬は単なる天気の変化ではない。食べるもの、家の飾り方、手紙や挨拶の言葉さえ形づくる。各季節に固有の喜びがある。春は桜で有名で、家族が木の下に集い短く美しい花を楽しむ。夏は祭りや花火、涼しい食べ物。秋は色づく葉と豊かな実り、冬は温かい料理や多くの地域の雪、休む大地の静かな美しさをもたらす。食は季節と深く結びつく。料理人は今が旬の食材——初物の魚や数週間だけ現れる果物——を使うことに誇りを持つ。「旬」を食べることは、よりおいしく賢いとされる。この意識は深い。伝統的な手紙は天気や季節への一言で始まり、瞬間を分かち合う小さな礼儀だ。詩や芸術は一つの季節を讃え、その特別な感じを捉える。季節に心を配ることで、忙しい現代の都市でも人々は自然と密接につながる。年の巡りは、時が季節のように静かに前へ進むと優しく思い出させる。",
-        quiz: [
-          { q: "In Japan, what do the four seasons shape besides the weather?", options: ["What people eat, how they decorate homes, and the words in greetings", "Only the price of houses", "Nothing at all"], answer: 0 },
-          { q: "What does eating 'in season' mean?", options: ["Using ingredients that are at their best right now", "Eating only frozen food", "Never eating fruit"], answer: 0 },
-          { q: "How might a traditional Japanese letter begin?", options: ["With a comment about the weather or the season", "With a demand for money", "With no words at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0909-5",
-        title: "The World's Hardest Math Puzzles",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Most people think of mathematics as a subject with clear answers: two plus two is always four. But at its frontier, mathematics is full of deep mysteries — puzzles so hard that the greatest minds have failed to solve them for decades, or even centuries. Some of these problems are so important that a prize of a million dollars awaits anyone who can crack one.\n\nWhy are such puzzles worth so much? Because a single answer can open a door to whole new areas of knowledge. Mathematics is the hidden language behind physics, computer science, and engineering. A problem that looks like a pure game on paper may, once solved, help us build safer codes, faster computers, or a better understanding of the universe.\n\nSolving these puzzles takes years of patient thought. Mathematicians fill notebooks with attempts, share ideas across the world, and build on the work of those before them. In recent times, even powerful computers have begun to help, checking ideas and searching for patterns humans might miss.\n\nWhen a famous problem is finally solved, it is major news in the world of science. But it can also raise new questions, such as who truly deserves the credit, and what the answer really means.\n\nThese great puzzles remind us that mathematics is not finished. It is a living adventure, full of unknown territory still waiting to be explored.",
-        summaryJa: "多くの人は数学を明快な答えのある科目と思う。2足す2は必ず4だと。だがその最前線では、数学は深い謎に満ちている。最高の頭脳でさえ何十年、時に何世紀も解けなかった難問だ。あまりに重要で、解いた人に100万ドルの賞金が待つ問題もある。なぜそれほどの価値があるのか。一つの答えが全く新しい知の領域への扉を開きうるからだ。数学は物理、計算機科学、工学の背後にある隠れた言語だ。紙の上の純粋な遊びに見える問題も、解ければより安全な暗号や速いコンピューター、宇宙のより良い理解を助けうる。解くには長年の忍耐強い思考が要る。数学者はノートを試行で埋め、世界で発想を共有し、先人の仕事の上に築く。近年は強力なコンピューターも助け始め、発想を確かめ人が見逃す模様を探す。有名な問題がついに解かれると科学界の大ニュースだが、誰の功績か、答えが何を意味するかという新たな問いも生む。これらの難問は、数学が未完で、未知の領域に満ちた生きた冒険だと教えてくれる。",
-        quiz: [
-          { q: "Why are some math puzzles worth so much?", options: ["A single answer can open the door to whole new areas of knowledge", "Because math has no uses", "Because they are easy to solve"], answer: 0 },
-          { q: "How have powerful computers begun to help mathematicians?", options: ["By checking ideas and searching for patterns humans might miss", "By solving nothing at all", "By replacing mathematics entirely"], answer: 0 },
-          { q: "What do these great puzzles remind us?", options: ["Mathematics is not finished — it is a living adventure", "Mathematics has all its answers already", "Mathematics is useless"], answer: 0 }
         ]
       }
     ]
