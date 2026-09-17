@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-17",
+    passages: [
+      {
+        id: "d0917-1",
+        title: "The Gig Economy",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Not long ago, most people worked one steady job for a single employer, often for many years. Today, a growing number of people work in a different way. They pick up short tasks, or \"gigs,\" one at a time — driving a passenger across town, delivering a meal, or designing a logo for a client far away. This new way of working is called the gig economy.\n\nMuch of it is powered by smartphone apps that connect workers with people who need a service, right now. A person can open an app, accept a job, complete it, and get paid, then move on to the next one. For many, this offers real freedom: they choose when to work and how much.\n\nBut the gig economy has two sides. The freedom is genuine, and it can be a lifeline for those who need flexible hours, such as students or parents. Yet gig workers often lack the safety of a regular job. They may have no paid holidays, no sick pay, and uncertain income from week to week.\n\nThis has sparked an important debate. Should gig workers be treated more like regular employees, with more protection? Or would that remove the flexibility that makes gig work attractive? Different countries are answering in different ways.\n\nThe gig economy is likely here to stay. The challenge for society is to keep its flexibility while making sure the people behind each gig are treated fairly.",
+        summaryJa: "少し前まで、多くの人は一つの雇い主のもとで一つの安定した仕事を、しばしば何年も続けた。今、違う働き方をする人が増えている。短い仕事、「ギグ」を一つずつ引き受けるのだ——客を街の向こうへ運ぶ、食事を届ける、遠くの依頼主のロゴを作る、など。この新しい働き方をギグエコノミーという。その多くは、サービスを今すぐ必要とする人と働き手を結ぶスマホアプリで動く。アプリを開き、仕事を受け、こなして支払いを受け、次へ移る。多くの人にはこれが本当の自由を与える。いつ、どれだけ働くかを選べる。だがギグエコノミーには二つの面がある。自由は本物で、学生や親など柔軟な時間が要る人には命綱になりうる。だがギグワーカーはしばしば正規の仕事の安全を欠く。有給休暇も病気手当もなく、収入が週ごとに不安定なこともある。これは重要な議論を生んだ。ギグワーカーはもっと正社員のように保護されるべきか。それとも魅力である柔軟性を奪うことになるか。各国は異なる答えを出している。ギグエコノミーはおそらく定着する。社会の課題は、柔軟性を保ちつつ、各ギグの背後の人が公正に扱われるようにすることだ。",
+        quiz: [
+          { q: "What is the 'gig economy'?", options: ["Working by picking up short tasks one at a time, often via apps", "Working one steady job for life", "Not working at all"], answer: 0 },
+          { q: "What is one benefit of gig work?", options: ["Freedom to choose when to work and how much", "Guaranteed paid holidays for all", "A fixed salary every month"], answer: 0 },
+          { q: "What debate has the gig economy sparked?", options: ["Whether gig workers should get more protection, like regular employees", "Whether apps should be banned", "Whether people should work at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0917-2",
+        title: "How Lasers Help Machines See",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "How does a self-driving car know exactly where the road, the curb, and a walking person are? One important answer is a technology called LiDAR. The name comes from combining \"light\" and \"radar,\" and it lets a machine build a detailed, three-dimensional map of the world around it, using laser light.\n\nThe idea is simple but powerful. A LiDAR device sends out many tiny, harmless pulses of laser light, thousands or millions of times each second. When a pulse hits an object, it bounces back. By measuring exactly how long the light took to return, the device can calculate the distance to that point with great precision.\n\nDo this for millions of points, and you get a \"point cloud\" — a cloud of dots that together form a sharp 3D picture of everything nearby: cars, trees, walls, and people. Unlike a normal camera, LiDAR works well in the dark and gives exact distances, not just a flat image.\n\nLiDAR is used in many places today. It helps self-driving cars and robots move safely, guides drones, and even sits inside some phones to improve photos and games. Scientists also use it from aircraft to map forests, cities, and ancient ruins hidden under trees.\n\nBy turning pulses of light into precise measurements, LiDAR gives machines a kind of sight. It is a quiet example of how a clever use of physics can help our tools understand the shape of the world.",
+        summaryJa: "自動運転車は、道路や縁石、歩く人の位置をどう正確に知るのか。重要な答えの一つが「ライダー(LiDAR)」という技術だ。名前は「光(light)」と「レーダー(radar)」を合わせたもので、レーザー光を使い、周囲の世界の詳細な立体地図を機械に作らせる。考えは単純だが強力だ。ライダー装置は無害な小さなレーザー光のパルスを、毎秒何千、何百万回も放つ。パルスが物に当たると跳ね返る。光が戻るのにかかった時間を正確に測ることで、その点までの距離を高い精度で計算できる。これを何百万もの点で行うと「点群」——近くのすべて、車や木、壁、人を鮮明な3Dで形づくる点の雲——が得られる。普通のカメラと違い、ライダーは暗闇でもよく働き、平らな画像でなく正確な距離を与える。ライダーは今、多くの場所で使われる。自動運転車やロボットの安全な移動を助け、ドローンを導き、写真やゲームを良くするため一部の電話にも入っている。科学者は航空機から森や都市、木の下に隠れた古代遺跡の地図作りにも使う。光のパルスを正確な測定に変え、ライダーは機械に一種の視覚を与える。物理の巧みな利用が道具に世界の形を理解させる静かな一例だ。",
+        quiz: [
+          { q: "What does LiDAR use to map the world?", options: ["Pulses of laser light that bounce off objects", "Loud sounds only", "Paint and brushes"], answer: 0 },
+          { q: "How does LiDAR measure distance?", options: ["By measuring how long the light takes to return", "By guessing", "By weighing the object"], answer: 0 },
+          { q: "What is one advantage of LiDAR over a normal camera?", options: ["It works well in the dark and gives exact distances", "It only works in bright light", "It cannot measure anything"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0917-3",
+        title: "Why Countries Trade",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Look around your home, and you will find things from all over the world: a phone designed in one country and built in another, coffee grown far away, clothes sewn on a different continent. This is possible because countries trade with one another, buying and selling goods across borders. But why do nations trade at all?\n\nThe main reason is that no country has everything, or does everything best. Some lands are rich in oil, others in good farmland, and others in skilled workers or advanced factories. By selling what they make well and buying what others make well, countries can all end up with more than if each tried to make everything alone.\n\nTrade also lowers prices and widens choice. Because factories can sell to the whole world, they can make goods in large numbers, which brings costs down. Shoppers enjoy fruits out of season, and technology from distant places.\n\nBut trade is not always simple. When cheap goods arrive from abroad, local businesses may struggle, and some workers can lose their jobs. Governments must think about how to help those affected. There are also arguments about fairness and about depending too much on other countries.\n\nDespite these challenges, trade has helped lift billions of people out of poverty and connected the world as never before. When it is fair and well managed, trade allows different nations to share their strengths — and everyone can benefit.",
+        summaryJa: "家を見回すと、世界中の物が見つかる。ある国で設計され別の国で作られた電話、遠くで育ったコーヒー、別の大陸で縫われた服。これは国同士が貿易し、国境を越えて物を売り買いするから可能だ。だがなぜ国は貿易するのか。主な理由は、すべてを持つ国も、すべてを最もうまくやる国もないからだ。石油に富む土地、良い農地に富む土地、熟練工や先進的な工場に富む土地がある。うまく作れる物を売り、他がうまく作る物を買うことで、各国が単独ですべてを作ろうとするより多くを得られる。貿易は価格も下げ選択も広げる。工場は世界中に売れるので大量に作れ、費用が下がる。買い物客は季節外れの果物や遠い土地の技術を楽しめる。だが貿易は常に単純ではない。安い物が海外から届くと地元企業が苦しみ、職を失う労働者も出うる。政府は影響を受けた人をどう助けるか考えねばならない。公正さや、他国に頼りすぎることへの議論もある。こうした課題はあれ、貿易は何十億もの人を貧困から救い、かつてなく世界をつないできた。公正でよく管理されれば、貿易は各国の強みを分かち合わせ、皆が恩恵を得られる。",
+        quiz: [
+          { q: "What is the main reason countries trade?", options: ["No country has everything or does everything best", "Because every country makes the same things", "Because trade is required by nature"], answer: 0 },
+          { q: "How does trade lower prices?", options: ["Factories can sell to the whole world and make goods in large numbers", "By making fewer goods", "By closing all factories"], answer: 0 },
+          { q: "What is one challenge of trade?", options: ["Cheap goods from abroad can make local businesses struggle", "It always helps everyone equally", "It has no downsides at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0917-4",
+        title: "Shodo: The Art of Japanese Calligraphy",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, writing can be a form of art. This art is called \"shodo,\" which means \"the way of writing.\" Using a brush, black ink, and a sheet of white paper, a person paints beautiful characters, turning simple words into something to admire on a wall.\n\nShodo may look effortless, but it takes great skill and years of practice. The artist must hold the brush just so, control the flow of ink, and move with a steady, confident hand. A single character is often written in one smooth motion, and it cannot be fixed afterward. If the hand shakes or hesitates, it shows. In this way, the finished work captures the artist's state of mind at that very moment.\n\nBecause of this, shodo is about far more than neat handwriting. It teaches focus, patience, and calm. Many people practice it not to become famous artists, but to quiet their minds and enjoy the simple beauty of the brush on paper.\n\nChildren in Japan learn the basics of calligraphy at school, and many keep it as a lifelong hobby. At New Year, people often write hopeful words for the year ahead, a cherished tradition.\n\nShodo shows a beautiful idea: that even something as everyday as writing can become a path to art, discipline, and peace of mind. In each brushstroke lies not only a word, but a small piece of the person who made it.",
+        summaryJa: "日本では、書くことが芸術になりうる。この芸術を「書道」——書くことの道——という。筆と墨、白い紙を使い、美しい文字を描き、単純な言葉を壁で愛でるものに変える。書道は楽々に見えるかもしれないが、大きな技と長年の練習を要する。書き手は筆をちょうどよく持ち、墨の流れを操り、安定した自信ある手で動かねばならない。一つの文字はしばしば一続きの動きで書かれ、後から直せない。手が震えたりためらったりすれば表れる。こうして完成した作品は、まさにその瞬間の書き手の心の状態を捉える。だから書道はきれいな手書き以上のものだ。集中、忍耐、平静を教える。多くの人は有名な芸術家になるためでなく、心を静め、紙の上の筆の素朴な美を楽しむために書く。日本の子どもは学校で書道の基礎を学び、多くが生涯の趣味として続ける。正月には、来る年への希望の言葉を書くことが多く、大切にされる伝統だ。書道は美しい考えを示す。書くという日常のことさえ、芸術と鍛錬と心の平安への道になりうる。一筆一筆に、言葉だけでなく、それを作った人の小さな一片が宿る。",
+        quiz: [
+          { q: "What is 'shodo'?", options: ["The Japanese art of calligraphy, painting characters with a brush and ink", "A type of dance", "A kind of food"], answer: 0 },
+          { q: "Why can a shodo character not be fixed afterward?", options: ["It is written in one smooth motion, showing the artist's state of mind", "Because the ink is invisible", "Because it is typed by a machine"], answer: 0 },
+          { q: "What does practicing shodo teach, beyond neat writing?", options: ["Focus, patience, and calm", "How to write faster only", "Nothing useful"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0917-5",
+        title: "A Surprise on Distant Pluto",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Far out at the edge of our solar system lies Pluto, a small, cold world so distant that from its surface the sun would look like just a bright star. For a long time, we knew almost nothing about it. But as spacecraft and telescopes have studied Pluto, they keep finding surprises. One recent discovery is especially strange: signs that a liquid may have flowed across its frozen surface.\n\nOn Earth, of course, it is water that flows in rivers and lakes. But Pluto is far too cold for liquid water; there, water is frozen as hard as rock. Instead, scientists think the flowing liquid may have been something else entirely: liquid nitrogen, a gas on Earth that becomes a liquid only in extreme cold.\n\nResearchers noticed dark features on a vast, icy plain on Pluto. These marks look as if liquid nitrogen rose up through cracks from deep below the surface and spread out, before freezing again. If this is correct, it means Pluto is not a dead, unchanging ball of ice, but a world where things still slowly move and change.\n\nThis matters because it teaches us how varied and active worlds can be, even far from the sun's warmth. Every discovery like this widens our sense of what is possible in the universe.\n\nPluto reminds us that even the coldest, most distant places can hold secrets, waiting quietly for curious minds to find them.",
+        summaryJa: "太陽系の端の遠くに冥王星がある。小さく冷たい世界で、あまりに遠いため、その表面から太陽は明るい星の一つのように見えるだろう。長い間、私たちはほとんど何も知らなかった。だが探査機や望遠鏡が冥王星を調べるにつれ、次々と驚きが見つかる。最近の発見の一つは特に奇妙だ。凍った表面を液体が流れたかもしれない痕跡だ。もちろん地球では、川や湖を流れるのは水だ。だが冥王星は液体の水には冷たすぎ、そこでは水は岩のように固く凍る。代わりに科学者は、流れた液体は全く別のもの——地球では気体だが極寒でのみ液体になる液体窒素——かもしれないと考える。研究者は冥王星の広大な氷の平原の暗い特徴に気づいた。この跡は、液体窒素が表面深くの割れ目から上がって広がり、再び凍ったかのように見える。もし正しければ、冥王星は死んで変わらない氷の球でなく、今も物事がゆっくり動き変わる世界だということだ。これは、太陽の温もりから遠くても、世界がいかに多様で活発でありうるかを教える点で重要だ。こうした発見は、宇宙で何が可能かの感覚を広げる。冥王星は、最も冷たく遠い場所さえ秘密を宿し、好奇心ある心の発見を静かに待っていると思い出させる。",
+        quiz: [
+          { q: "What surprising sign did scientists find on Pluto?", options: ["Signs that a liquid may have flowed across its frozen surface", "A large city", "Green forests"], answer: 0 },
+          { q: "Why couldn't the flowing liquid be water?", options: ["Pluto is far too cold, so water is frozen as hard as rock", "Because there is no water in space", "Because water flows only uphill"], answer: 0 },
+          { q: "What does this discovery suggest about Pluto?", options: ["It is not a dead ball of ice, but a world that still slowly changes", "It is exactly like Earth", "It is made of metal"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-16",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "How do bees help plants?", options: ["Through pollination — carrying pollen so plants can make seeds and fruit", "By eating all the plants", "By blocking the sunlight"], answer: 0 },
           { q: "Why have scientists grown worried?", options: ["In some places, bee numbers have fallen", "Because there are too many bees", "Because bees stopped eating"], answer: 0 },
           { q: "How can ordinary people help bees?", options: ["By planting flowers in gardens, parks, or even a small balcony", "By removing all flowers", "By doing nothing"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-10",
-    passages: [
-      {
-        id: "d0910-1",
-        title: "Why Companies Hold Big Product Launches",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Once a year, some famous companies hold a huge event to show the world a new product, such as a phone or a computer. Crowds watch online, news reporters fill the room, and for a few hours the company is the center of attention. Why do businesses put so much effort into these launches?\n\nThe most obvious reason is excitement. A big, carefully planned event builds a sense of wonder around a new product. When people feel excited, they are more likely to want the product and to talk about it with friends. This free word of mouth can be worth more than any advertisement.\n\nTiming matters too. By launching once a year, a company gives customers a reason to look forward to something new, and a good moment to upgrade from an older model. It also lets the company tell one clear story instead of many small ones.\n\nA launch is also a message to rivals and investors. It shows that the company is still creative, confident, and moving forward. A strong event can lift the company's image and even its share price.\n\nOf course, big launches carry risk. If the product disappoints, the whole world sees it. Expectations become very high, and a small mistake can turn into big news.\n\nStill, when done well, a product launch turns a simple release into a shared moment — and a powerful engine for business.",
-        summaryJa: "年に一度、有名企業が新しい製品——電話やコンピューターなど——を世界に見せる大きなイベントを開く。多くの人がオンラインで見守り、記者が会場を埋め、数時間その企業が注目の的になる。なぜここまで力を入れるのか。最も明白な理由は「わくわく感」だ。入念に計画された大イベントは新製品への驚きを生む。人はわくわくすると製品を欲しがり友人に話しやすくなる。この無料の口コミはどんな広告より価値がある。時期も重要だ。年一回にすることで、客に新しさへの期待と旧型からの買い替えの好機を与える。多くの小さな話でなく一つの明確な物語を語れる。発表は競合や投資家へのメッセージでもあり、企業がなお創造的で自信を持ち前進していると示す。強いイベントは企業の印象や株価さえ高める。もちろん危険もあり、製品が期待外れなら世界中に見られ、小さな失敗も大ニュースになる。だがうまくやれば、単なる発売を共有の瞬間、ビジネスの強力な原動力に変える。",
-        quiz: [
-          { q: "What is the most obvious reason for a big product launch?", options: ["To build excitement and encourage word of mouth", "To hide the product from everyone", "To lose customers"], answer: 0 },
-          { q: "Why does launching once a year help a company?", options: ["It gives customers something to look forward to and a moment to upgrade", "It confuses all customers", "It stops the company from selling"], answer: 0 },
-          { q: "What risk does a big launch carry?", options: ["If the product disappoints, the whole world sees it", "There is no risk at all", "The product becomes free"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0910-2",
-        title: "The Future of Passwords",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Almost everyone knows the small frustration of passwords. We are told to make them long and strange, to use a different one for every website, and never to forget them. Yet passwords remain one of the weakest points in our digital lives. That is why the technology of logging in is quietly changing.\n\nThe problem with passwords is human. To be safe, a password should be long and hard to guess, but such passwords are also hard to remember. So people reuse simple ones, or write them down. Worse, criminals can trick people into typing their password on a fake website, or steal huge lists of them from companies.\n\nTo fix this, engineers have created a safer method often called a \"passkey.\" Instead of a secret word you must remember, your device itself proves who you are, often using your fingerprint or face. There is no password to steal, forget, or type into a fake site. Signing in becomes both easier and safer.\n\nThe change will take time. Millions of websites still use old-fashioned passwords, and people need to learn the new way. During the switch, both systems will exist side by side.\n\nStill, the direction is clear. In the future, we may look back on typing secret words as a strange, risky habit of the early internet. Logging in should be simple, and at last, it is starting to become so.",
-        summaryJa: "誰もがパスワードの小さな煩わしさを知っている。長く奇妙にせよ、サイトごとに変えよ、決して忘れるなと言われる。それでもパスワードはデジタル生活の最も弱い点の一つだ。だからログインの技術が静かに変わりつつある。パスワードの問題は人間側にある。安全には長く推測しにくい方がよいが、そうしたものは覚えにくい。だから人は単純なものを使い回したり書き留めたりする。さらに悪いことに、犯罪者は偽サイトで入力させたり、企業から大量のリストを盗んだりできる。これを直すため、技術者は「パスキー」と呼ばれるより安全な方法を作った。覚える秘密の言葉でなく、端末自体が指紋や顔で本人だと証明する。盗まれ、忘れられ、偽サイトに入力される「パスワード」がない。ログインはより簡単で安全になる。移行には時間がかかる。何百万ものサイトが旧来のパスワードを使い、人々は新方式を学ぶ必要があり、当面は両方式が併存する。だが方向は明確だ。将来、秘密の言葉を打つことは初期インターネットの奇妙で危険な習慣だと振り返るかもしれない。",
-        quiz: [
-          { q: "Why are passwords one of the weakest points in our digital lives?", options: ["Safe passwords are hard to remember, so people reuse or write them down", "They are always perfectly safe", "Nobody uses passwords"], answer: 0 },
-          { q: "How does a 'passkey' work?", options: ["Your device proves who you are, often using your fingerprint or face", "You must remember a longer secret word", "It shares your password with everyone"], answer: 0 },
-          { q: "Why will the change take time?", options: ["Millions of websites still use old passwords and people must learn the new way", "Because passkeys do not exist", "Because everyone already switched"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0910-3",
-        title: "Sending Money Home",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Around the world, millions of people leave their home countries to work abroad. They may cook in restaurants, care for the sick, build houses, or pick fruit. Many of them send part of their pay back to their families far away. These payments, called \"remittances,\" are one of the quiet but powerful forces in the global economy.\n\nFor a single family, the money can change everything. It may pay for a child's school, a parent's medicine, or a small home. For whole countries, the total is enormous. In some nations, the money sent home by workers abroad is larger than the money the country earns from any single industry.\n\nSending money across borders used to be slow and expensive. A worker might lose a large share of their pay just in fees. Today, thanks to phones and the internet, transfers are becoming faster and cheaper. This means more of the money reaches the families who need it.\n\nThere are still problems to solve. Fees remain too high in some places, and not everyone has easy access to banks. Helping money move safely and cheaply is an ongoing goal.\n\nRemittances are more than numbers. Behind each transfer is a person working far from home, and a family waiting for help. Together, these small acts of love add up to one of the most important flows of money on Earth.",
-        summaryJa: "世界中で、何百万もの人が働くために母国を離れ海外へ行く。レストランで料理し、病人を世話し、家を建て、果物を摘む。多くが給料の一部を遠くの家族に送る。「送金(レミッタンス)」と呼ばれるこの支払いは、世界経済の静かで強力な力の一つだ。一つの家族には、その金がすべてを変えうる。子の学費、親の薬、小さな家の費用になる。国全体では総額は莫大で、海外の労働者が送る金がどの単一産業の稼ぎより大きい国もある。国境を越えた送金はかつて遅く高価で、労働者は手数料だけで給料の大きな割合を失いかねなかった。今はスマホとインターネットのおかげで送金は速く安くなりつつあり、必要とする家族により多く届く。手数料がなお高い場所や、銀行を使いにくい人もいるなど課題は残る。安全に安く送れるようにするのは続く目標だ。送金は数字以上のもので、各送金の裏に故郷を離れて働く人と助けを待つ家族がいる。この小さな愛の行為が地球で最も重要な資金の流れの一つになる。",
-        quiz: [
-          { q: "What are 'remittances'?", options: ["Money that workers abroad send back to their families", "A kind of tax", "A type of passport"], answer: 0 },
-          { q: "Why do remittances matter to whole countries?", options: ["The total can be larger than what the country earns from any single industry", "They are too small to notice", "They harm every economy"], answer: 0 },
-          { q: "How are transfers becoming faster and cheaper?", options: ["Thanks to phones and the internet", "By using slower mail", "By raising all the fees"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0910-4",
-        title: "Japan's Amazing Convenience Stores",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, a convenience store is a small shop for snacks and drinks when nothing else is open. In Japan, the convenience store, or \"konbini,\" is something far greater. Open all day and all night, it has become a small, brilliant center of daily life.\n\nAt a Japanese konbini, you can do much more than buy food. You can pay your electricity bill, send a package, buy concert tickets, get cash from a machine, and even print documents. The fresh food is a special surprise to many visitors: rice balls, hot meals, and sweets that are genuinely tasty and changed often.\n\nWhat impresses people most is the quality and order. The shelves are neat, the staff are polite, and the stores are clean at any hour. New products appear constantly, matched to the season. A konbini in summer and the same shop in winter can feel quite different.\n\nFor many people in Japan, the konbini is woven into everyday routines. A worker grabs breakfast on the way to the office; a student studies with a warm drink; a traveler finds a reliable meal at midnight in a strange town.\n\nThe konbini shows a very Japanese idea: that even an ordinary shop can be made excellent through care and attention. It is a small building that quietly makes daily life smoother, kinder, and just a little more comfortable.",
-        summaryJa: "多くの国で、コンビニは他店が閉まった時に軽食や飲み物を買う小さな店だ。日本の「コンビニ」はそれよりはるかに大きな存在だ。昼も夜も開き、日常の小さくも見事な中心になっている。日本のコンビニでは食べ物を買う以上のことができる。電気代を払い、荷物を送り、コンサートの券を買い、機械で現金を引き出し、書類を印刷さえできる。新鮮な食べ物は多くの訪問者に嬉しい驚きだ。おにぎり、温かい食事、本当においしく頻繁に変わるお菓子。最も感心されるのは質と秩序だ。棚は整い、店員は礼儀正しく、店はどの時間も清潔だ。新商品が季節に合わせ次々現れ、夏と冬で同じ店がかなり違って感じられる。多くの人にとってコンビニは日々の習慣に織り込まれている。出勤途中に朝食を買い、学生は温かい飲み物で勉強し、旅行者は見知らぬ町の真夜中に頼れる食事を見つける。コンビニは、普通の店も心配りで卓越させられるという実に日本的な発想を示す。",
-        quiz: [
-          { q: "What can you do at a Japanese konbini besides buy food?", options: ["Pay bills, send packages, buy tickets, get cash, and print documents", "Only sleep", "Nothing else at all"], answer: 0 },
-          { q: "What impresses people most about the konbini?", options: ["The quality, order, cleanliness, and constantly changing products", "The dirt and mess", "The empty shelves"], answer: 0 },
-          { q: "What Japanese idea does the konbini show?", options: ["Even an ordinary shop can be made excellent through care and attention", "Shops should be careless", "Convenience does not matter"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0910-5",
-        title: "Why Do We Dream?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Every night, when we fall into a deep sleep, our minds create strange little worlds. We fly, meet old friends, or run from things that make no sense. These are dreams. Everyone has them, yet scientists are still working to fully understand why.\n\nDreams happen mostly during a stage of sleep when the brain is very active, almost as busy as when we are awake. During this time, the eyes move quickly behind closed lids, and the most vivid dreams appear. Interestingly, the body stays still, as if to stop us from acting out our dreams.\n\nScientists have several ideas about why we dream. One popular idea is that dreaming helps the brain sort and store memories, keeping what is useful and letting go of the rest. Another idea is that dreams let us practice dealing with fears or problems in a safe, imaginary space. Some researchers think dreams may simply be the brain making sense of random signals during the night.\n\nMost likely, dreams do more than one of these things at once. What is clear is that sleep and dreaming are important for a healthy mind. People who do not sleep well often feel worse in mood and memory.\n\nSo the next time you wake from a strange dream, do not worry too much about what it \"means.\" Your busy brain was simply doing some of its important night-time work.",
-        summaryJa: "毎晩、深い眠りに落ちると、心は奇妙な小さな世界を作る。空を飛び、旧友に会い、意味を成さないものから逃げる。これが夢だ。誰もが見るが、科学者はなぜかを完全には解明できていない。夢は主に、脳が非常に活発——ほぼ起きている時と同じくらい——になる睡眠段階で起きる。この間、閉じたまぶたの下で目が素早く動き、最も鮮明な夢が現れる。興味深いことに体は静止し、夢を実際に演じないようにしているかのようだ。なぜ夢を見るかについて科学者は複数の説を持つ。人気の説は、夢が脳の記憶の整理と保存を助け、有用なものを残し残りを手放すというものだ。別の説では、夢は恐れや問題への対処を安全な想像の場で練習させる。夜の無作為な信号を脳が意味づけているだけと考える研究者もいる。おそらく夢は一度にこれらの複数を行っている。確かなのは、睡眠と夢が健康な心に重要だということだ。よく眠れない人はしばしば気分や記憶が悪くなる。次に奇妙な夢から覚めても、意味を気にしすぎないでほしい。忙しい脳が夜の大切な仕事をしていただけだ。",
-        quiz: [
-          { q: "When do the most vivid dreams appear?", options: ["During a stage of sleep when the brain is very active and the eyes move quickly", "Only when we are fully awake", "Never during sleep"], answer: 0 },
-          { q: "What is one popular idea about why we dream?", options: ["Dreaming helps the brain sort and store memories", "Dreaming makes us forget everything", "Dreaming has no purpose and harms us"], answer: 0 },
-          { q: "What is clear about sleep and dreaming?", options: ["They are important for a healthy mind", "They are useless", "They only matter for children"], answer: 0 }
         ]
       }
     ]
