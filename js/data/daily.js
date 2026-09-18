@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-18",
+    passages: [
+      {
+        id: "d0918-1",
+        title: "The Rise of Tap-to-Pay",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Not long ago, paying for something meant handing over cash or swiping a card and signing your name. Today, in many places, you simply tap your card or phone against a small machine, and in a second the payment is done. This is called tap-to-pay, or contactless payment, and it is quickly changing how the world shops.\n\nThe idea is built on a simple, short-range wireless technology. When you hold your card or phone close to the reader, the two devices talk to each other over a distance of just a few centimeters. Your payment information is passed safely, and the sale is complete almost instantly. Because the card never leaves your hand, and no long number is typed, it is both fast and secure.\n\nFor shops, tap-to-pay means shorter lines and quicker service. For customers, it means less fumbling for coins and cards. During the recent years when people wished to touch fewer surfaces, contactless payment grew even more popular, and many have never gone back.\n\nThere are things to watch. People may spend more easily when paying feels almost invisible, so it helps to keep track of your money. And some shoppers, especially those without smartphones or bank cards, still rely on cash and must not be left behind.\n\nStill, the trend is clear. With a simple tap, buying has become faster and smoother — a small change that quietly touches millions of everyday moments.",
+        summaryJa: "少し前まで、支払いは現金を渡すか、カードを通して署名することだった。今、多くの場所で、カードや電話を小さな機械に軽くかざすだけで、一瞬で支払いが済む。これをタップ決済(非接触決済)といい、世界の買い物のあり方を急速に変えている。仕組みは単純な近距離無線技術に基づく。カードや電話を読み取り機に近づけると、二つの機器がわずか数センチの距離で通信する。支払い情報が安全に渡され、売買はほぼ瞬時に完了する。カードは手を離れず、長い番号も打たないので、速く安全だ。店には行列の短縮と迅速なサービスを意味し、客には小銭やカードを探す手間の減少を意味する。人が触れる面を減らしたかった近年、非接触決済はさらに広まり、多くが元に戻っていない。注意すべき点もある。支払いがほぼ見えなく感じると使いすぎやすいので、お金の管理が役立つ。スマホや銀行カードを持たない買い物客はなお現金に頼り、取り残されてはならない。それでも流れは明確だ。一度のタップで買い物は速く滑らかになった。何百万もの日常の瞬間に静かに触れる小さな変化だ。",
+        quiz: [
+          { q: "What is tap-to-pay?", options: ["Paying by tapping your card or phone against a reader", "Paying only with cash", "Writing a long check"], answer: 0 },
+          { q: "How does tap-to-pay work?", options: ["A short-range wireless technology lets the card and reader talk over a few centimeters", "By shouting the price", "By mailing the money"], answer: 0 },
+          { q: "What should customers watch out for?", options: ["They may spend more easily when paying feels almost invisible", "That it is always slow", "That it never works"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0918-2",
+        title: "The Secret Life of Barcodes and QR Codes",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Look at almost any product you buy, and you will find a small pattern of black lines or squares printed on it. These are barcodes and QR codes, and though we barely notice them, they are one of the quiet engines of modern life.\n\nA barcode is the older design: a row of black stripes of different widths. To a machine, these stripes are a code. When a scanner shines light across them, the pattern of dark and light lines stands for a number. That number tells a shop's computer exactly which product it is, so it can find the price and count how many are left in stock. What once took a clerk minutes now takes a second.\n\nA QR code goes further. It is a square filled with small black-and-white blocks, and it can hold much more information than a simple barcode — not just a number, but a web address, a message, or a ticket. Because a phone camera can read it, QR codes now appear on posters, menus, and payment screens everywhere.\n\nBoth work on the same clever idea: turning information into a pattern that a machine can read instantly and without mistakes. The patterns even include a way to check themselves, so a slightly damaged code can still be understood.\n\nThese humble squares and stripes make shopping, shipping, and sharing faster all over the world. They are proof that a simple pattern, well designed, can carry a surprising amount of meaning.",
+        summaryJa: "買うほぼどんな製品にも、黒い線や四角の小さな模様が印刷されている。これがバーコードとQRコードで、ほとんど気づかないが、現代生活の静かな原動力の一つだ。バーコードは古い方の意匠で、幅の異なる黒い縞の列だ。機械にとってこの縞は符号だ。スキャナーが光を当てると、黒と白の線の模様が数字を表す。その数字が店のコンピューターにどの製品か正確に伝え、価格を見つけ在庫数を数えられる。かつて店員に数分かかったことが今は一秒だ。QRコードはさらに進む。小さな白黒の塊で満ちた四角で、単純なバーコードよりずっと多くの情報——数字だけでなくウェブアドレスやメッセージ、チケット——を持てる。電話のカメラで読めるので、今やポスターやメニュー、決済画面などあらゆる所に現れる。どちらも同じ巧みな考えに基づく。情報を、機械が瞬時に誤りなく読める模様に変えるのだ。模様には自己確認の仕組みも含まれ、少し傷んだ符号でも理解できる。この地味な四角と縞が、世界中で買い物や輸送、共有を速くする。よく設計された単純な模様が驚くほど多くの意味を運べる証だ。",
+        quiz: [
+          { q: "What does a barcode's pattern of stripes stand for?", options: ["A number that tells a computer which product it is", "A drawing of the product", "The name of the shop owner"], answer: 0 },
+          { q: "How is a QR code different from a barcode?", options: ["It can hold much more information, like a web address or a ticket", "It holds no information at all", "It can only be read by hand"], answer: 0 },
+          { q: "What clever idea do both share?", options: ["Turning information into a pattern a machine can read instantly and correctly", "Hiding information forever", "Making shopping slower"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0918-3",
+        title: "Working Together in Space",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Space is vast, cold, and dangerous, and reaching it is one of the hardest things humans have ever done. Perhaps that is why, high above our arguments on Earth, space has become a place where many nations choose to work together rather than alone.\n\nThe clearest example has been the large station that circles the Earth, where astronauts from many different countries live and work side by side. They share the same small home, run experiments together, and depend on one another for safety. Countries that disagree on many things on the ground have cooperated for years to keep this station flying.\n\nWhy cooperate in space? First, it is enormously expensive. By sharing the cost, no single nation has to pay for everything. Second, it is safer and smarter. Different countries bring different skills and ideas, and together they can do more than any one could alone. Third, the big questions of space — how the universe began, or whether life exists elsewhere — belong to all of humanity, not to one flag.\n\nCooperation is not always easy. Nations must build trust, agree on rules, and share credit fairly. As more countries and companies reach space, new agreements will be needed to keep it peaceful and open.\n\nStill, space offers a hopeful lesson. When a challenge is large enough, even rival nations can find reasons to join hands. Looking up together, we are reminded of how much we share on the small planet below.",
+        summaryJa: "宇宙は広大で冷たく危険で、そこへ到達することは人類が成した最も難しいことの一つだ。だからこそ、地上の争いのはるか上で、宇宙は多くの国が単独でなく協力を選ぶ場になったのかもしれない。最も明確な例は、地球を回る大きな宇宙ステーションで、多くの異なる国の宇宙飛行士が並んで暮らし働いてきた。同じ小さな家を分け合い、共に実験を行い、安全のため互いに頼る。地上で多くのことで対立する国々が、このステーションを飛ばし続けるため何年も協力してきた。なぜ宇宙で協力するのか。第一に、非常に高価だ。費用を分ければ、一国がすべてを払わずに済む。第二に、より安全で賢い。異なる国が異なる技能と発想をもたらし、共になら一国以上のことができる。第三に、宇宙の大きな問い——宇宙はどう始まったか、他に生命はいるか——は一つの旗でなく全人類のものだ。協力は常に容易ではない。国は信頼を築き、規則に合意し、功績を公正に分け合わねばならない。より多くの国や企業が宇宙に届くにつれ、平和で開かれた宇宙を保つ新しい合意が要る。それでも宇宙は希望の教訓を与える。課題が十分に大きければ、対立する国さえ手を組む理由を見つけられる。共に見上げるとき、下の小さな惑星でいかに多くを分かち合うかを思い出す。",
+        quiz: [
+          { q: "What is the clearest example of cooperation in space?", options: ["A large station where astronauts from many countries live and work together", "A single country's secret base", "An empty rocket"], answer: 0 },
+          { q: "Why do countries cooperate in space?", options: ["It shares the huge cost and combines different skills and ideas", "Because space is cheap", "Because only one country can reach it"], answer: 0 },
+          { q: "What hopeful lesson does space offer?", options: ["When a challenge is large enough, even rival nations can join hands", "That nations can never work together", "That space is unimportant"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0918-4",
+        title: "Mottainai: The Spirit of No Waste",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, there is a single word that a child might hear when leaving food on a plate, or an adult might say when throwing away something still useful. The word is \"mottainai.\" It expresses a feeling of regret that something valuable is being wasted, and it reflects a deep respect for the things we use.\n\nMottainai is more than \"don't waste.\" Behind it lies the idea that every object — a grain of rice, a sheet of paper, a pair of shoes — took effort, resources, and time to make. To throw such a thing away carelessly is to disrespect all the work and nature that went into it. To feel mottainai is to notice that value and treat it with care.\n\nThis idea shapes daily life in quiet ways. People may repair a torn item instead of buying a new one, use both sides of a piece of paper, or finish every bit of a meal. Old clothes may be turned into cleaning rags; leftover food may become tomorrow's lunch.\n\nIn today's world, full of cheap goods and mountains of rubbish, the spirit of mottainai feels more important than ever. It is a gentle, personal form of caring for the planet, one small choice at a time.\n\nMottainai teaches a simple truth: the things around us are gifts of effort and nature. When we use them fully and waste less, we show respect — for the world, and for one another.",
+        summaryJa: "日本には、子どもが皿に食べ物を残すとき、あるいは大人がまだ使える物を捨てるときに聞くかもしれない一つの言葉がある。「もったいない」だ。価値ある物が無駄にされていることへの惜しむ気持ちを表し、使う物への深い敬意を映す。もったいないは「無駄にするな」以上のものだ。その背後には、あらゆる物——一粒の米、一枚の紙、一足の靴——が、作るのに労力や資源、時間を要したという考えがある。そうした物を軽々しく捨てるのは、そこに注がれたすべての労働と自然への無礼だ。もったいないと感じることは、その価値に気づき、丁寧に扱うことだ。この考えは静かに日常を形づくる。新品を買う代わりに破れた物を直し、紙の両面を使い、食事を一片残さず食べる。古い服は掃除の雑巾になり、残り物は明日の弁当になる。安い物とごみの山にあふれた今日の世界で、もったいないの精神はかつてなく大切に感じられる。一度に一つの小さな選択で地球を大切にする、優しく個人的な形だ。もったいないは単純な真実を教える。周りの物は労力と自然の贈り物だ。十分に使い無駄を減らすとき、私たちは世界と互いへの敬意を示す。",
+        quiz: [
+          { q: "What does 'mottainai' express?", options: ["Regret that something valuable is being wasted", "Joy at throwing things away", "A wish for more waste"], answer: 0 },
+          { q: "What idea lies behind mottainai?", options: ["Every object took effort, resources, and time to make, and deserves respect", "Objects appear from nothing", "Only new things have value"], answer: 0 },
+          { q: "How does mottainai shape daily life?", options: ["People repair items, use both sides of paper, and finish their meals", "People buy new things constantly", "People waste as much as possible"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0918-5",
+        title: "Why Is the Ocean Salty?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Anyone who has swum in the sea knows that its water tastes salty, quite unlike the fresh water of a river or lake. But have you ever wondered where all that salt comes from, and why the ocean is salty while rivers are not?\n\nThe surprising answer is that much of the ocean's salt comes from the land. When rain falls on rocks and soil, it slowly dissolves tiny amounts of minerals, including salt. Rivers carry this water, with its dissolved minerals, down to the sea. The amount in any single river is far too small to taste. But rivers have been flowing into the oceans for billions of years, carrying salt the whole time.\n\nHere is the key: when seawater evaporates into the sky to form clouds and rain, the salt is left behind. The water leaves, but the salt stays in the ocean. Over an immense span of time, this salt has built up, making the sea as salty as it is today.\n\nSome salt also comes from underwater volcanoes and vents on the ocean floor, adding minerals directly to the water.\n\nSo the saltiness of the sea is really a record of time itself — billions of years of rivers, rain, and rock, all captured in a single mouthful of seawater. The next time you taste the ocean, remember: you are tasting the slow, patient work of our whole planet.",
+        summaryJa: "海で泳いだことがある人なら、その水が塩辛く、川や湖の真水とはかなり違うことを知っている。だが、その塩がどこから来るのか、なぜ海は塩辛く川はそうでないのか、考えたことはあるだろうか。意外な答えは、海の塩の多くが陸から来るということだ。雨が岩や土に降ると、塩を含むごく少量の鉱物をゆっくり溶かす。川はこの水を、溶けた鉱物とともに海へ運ぶ。一つの川の量は味わうにはあまりに少ない。だが川は何十億年も海に流れ込み、その間ずっと塩を運んできた。鍵はここだ。海水が空へ蒸発して雲や雨になるとき、塩は残される。水は去るが塩は海に留まる。途方もない時間をかけ、この塩が積み重なり、海を今日ほど塩辛くした。海底の火山や噴出口から直接水に鉱物を加える塩もある。だから海の塩辛さは時間そのものの記録だ。何十億年もの川、雨、岩が、一口の海水に捉えられている。次に海の味を感じるとき、思い出してほしい。あなたは惑星全体のゆっくりとした忍耐強い営みを味わっているのだ。",
+        quiz: [
+          { q: "Where does much of the ocean's salt come from?", options: ["From the land — rain dissolves minerals from rock and rivers carry them to the sea", "From the sky only", "From fish"], answer: 0 },
+          { q: "Why does salt stay in the ocean?", options: ["When seawater evaporates, the water leaves but the salt is left behind", "Because salt floats up into clouds", "Because rivers remove it"], answer: 0 },
+          { q: "What else adds salt to the sea?", options: ["Underwater volcanoes and vents on the ocean floor", "Boats sailing by", "Birds flying overhead"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-17",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is sunlight really made of?", options: ["A mix of all the colors of the rainbow", "Only blue light", "Only red light"], answer: 0 },
           { q: "Why does the daytime sky look blue?", options: ["Blue light is scattered more strongly and comes from all over the sky", "The sky is painted blue", "Because there is no sunlight"], answer: 0 },
           { q: "Why does the sky turn red at sunset?", options: ["Light passes through more air, so most blue is scattered away, leaving red and orange", "The sun changes color", "Because the air disappears"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-11",
-    passages: [
-      {
-        id: "d0911-1",
-        title: "What Is a Brand?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When you see a famous logo — a simple shape or a single word — you may instantly feel something: trust, excitement, or comfort. That feeling is the heart of a \"brand.\" A brand is much more than a name or a picture. It is the whole idea that lives in people's minds when they think of a company.\n\nWhy do brands matter so much? Because people cannot test everything before they buy it. A strong brand acts like a promise. When customers see a trusted name, they expect a certain level of quality, and they feel safe choosing it. This trust, built over many years, is one of the most valuable things a company can own.\n\nA brand is built from many small pieces: the quality of the product, the way staff treat customers, the design of the logo, and even the feeling of the advertisements. All of these work together to shape one clear impression.\n\nA good brand also helps a company charge a fair price and stand out from cheaper rivals. People are often willing to pay a little more for a name they trust.\n\nBut a brand is fragile. It takes years to build and can be damaged quickly by one broken promise or poor experience. That is why wise companies protect their brand carefully. In the end, a brand is simply trust, made visible in a name.",
-        summaryJa: "有名なロゴ——単純な図形や一語——を見ると、人は瞬時に何かを感じる。信頼や高揚、安心だ。その感覚が「ブランド」の核心だ。ブランドは名前や絵以上のもので、企業を思うとき人の心に生きる全体の像だ。なぜそれほど重要か。人は買う前にすべてを試せないからだ。強いブランドは約束のように働く。信頼される名前を見ると、客は一定の品質を期待し、安心して選べる。長年かけて築かれたこの信頼は、企業が持ちうる最も価値ある物の一つだ。ブランドは多くの小さな要素——製品の質、店員の対応、ロゴのデザイン、広告の感じ——から築かれ、それらが一つの明確な印象を形づくる。良いブランドは適正価格を可能にし、安い競合との差別化も助ける。人は信頼する名前に少し多く払うことをいとわない。だがブランドは壊れやすく、築くのに何年もかかり、一度の破られた約束で急速に傷つく。だから賢い企業はブランドを慎重に守る。ブランドとは、名前に見える形になった信頼だ。",
-        quiz: [
-          { q: "What is a brand, according to the passage?", options: ["The whole idea and feeling in people's minds when they think of a company", "Only a picture", "A type of product only"], answer: 0 },
-          { q: "Why does a strong brand matter?", options: ["It acts like a promise of quality, so customers feel safe choosing it", "It hides the product", "It makes customers distrust the company"], answer: 0 },
-          { q: "Why is a brand described as fragile?", options: ["It takes years to build but can be damaged quickly by one broken promise", "It can never be harmed", "It is built in a single day"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0911-2",
-        title: "How Wireless Charging Works",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Many people now charge their phones simply by setting them on a pad, with no cable at all. It can feel like magic: energy seems to jump from the pad into the phone through empty air. But behind this everyday convenience is a clever piece of science that is more than a hundred years old.\n\nThe secret is a link between electricity and magnetism. When electricity flows through a coil of wire, it creates an invisible magnetic field around it. If a second coil is placed close by, that changing magnetic field can push electricity through the second coil. In this way, energy passes from one coil to the other without any wire touching.\n\nInside a charging pad is one coil, and inside your phone is another. When the two are close, energy flows across the tiny gap and charges the battery. This is why the phone must sit in just the right spot: the coils need to line up.\n\nWireless charging is wonderfully convenient, but it has limits. It usually works only over a very short distance, and some energy is lost as heat, so it can be a little slower than a cable.\n\nEngineers are still improving the technology, hoping one day to charge devices from farther away. For now, though, that small pad on your desk quietly performs a trick that once amazed the greatest scientists.",
-        summaryJa: "今、多くの人はケーブルなしで、台に置くだけで電話を充電する。魔法のようだ。エネルギーが何もない空間を通って台から電話へ飛び移るように見える。だがこの日常の便利さの裏には、100年以上前からある巧みな科学がある。秘密は電気と磁気のつながりだ。電線のコイルに電気が流れると、周りに見えない磁場ができる。近くに第二のコイルを置くと、その変化する磁場が第二のコイルに電気を押し流す。こうして電線が触れずにエネルギーが一方のコイルから他方へ渡る。充電台の中に一つのコイル、電話の中にもう一つがある。二つが近いと、わずかな隙間を越えてエネルギーが流れ電池を充電する。だから電話は正しい位置に置く必要がある。コイルが揃わねばならないのだ。無線充電はとても便利だが限界もある。ごく短い距離でしか働かず、一部は熱として失われるためケーブルより少し遅いこともある。技術者はなお改良を続け、いつかもっと遠くから充電したいと望む。今はあの小さな台が、かつて偉大な科学者を驚かせた技を静かに行っている。",
-        quiz: [
-          { q: "What is the secret behind wireless charging?", options: ["A link between electricity and magnetism using coils of wire", "A hidden battery in the air", "Tiny invisible cables"], answer: 0 },
-          { q: "Why must the phone sit in just the right spot on the pad?", options: ["The two coils need to line up for energy to flow", "So it looks nice", "So the phone stays cold"], answer: 0 },
-          { q: "What is one limit of wireless charging?", options: ["It works only over a very short distance and some energy is lost as heat", "It works from any distance perfectly", "It never loses any energy"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0911-3",
-        title: "Living in Many Time Zones",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "When it is morning in one country, it is the middle of the night in another. Our planet is divided into time zones, so that noon happens roughly when the sun is highest in each place. This simple idea shapes daily life across the whole world in ways we often forget.\n\nTime zones exist because the Earth turns. As it spins, the sun rises on different parts of the world at different moments. To keep clocks in step with the sun, the world is split into zones, each usually one hour apart from its neighbor. Cross enough of them, and you may arrive before you \"left,\" at least on the clock.\n\nIn our connected age, time zones matter more than ever. A team may have members in three countries, all trying to meet at a time that is polite for everyone. A trader watches markets that open while their own city sleeps. Families spread across the globe must find a shared hour to talk.\n\nTime zones can cause trouble, too. Travelers feel tired and confused after long flights, a feeling called jet lag, as their bodies slowly catch up to local time.\n\nStill, this global system is a quiet marvel of cooperation. By agreeing on how to measure time, billions of people can plan, meet, and work together across a spinning planet — each in their own daylight, yet connected to all the rest.",
-        summaryJa: "ある国で朝のとき、別の国では真夜中だ。地球は時間帯(タイムゾーン)に分けられ、各地で太陽が最も高い頃におよそ正午が来るようになっている。この単純な考えが、忘れがちだが世界中の日常を形づくる。時間帯があるのは地球が回るからだ。自転するにつれ、太陽は世界の異なる場所で異なる瞬間に昇る。時計を太陽に合わせるため、世界は隣とふつう1時間差の帯に分けられる。十分に越えれば、時計の上では「出発前」に着くこともある。つながった時代に、時間帯はかつてなく重要だ。3か国のメンバーが皆に失礼でない時刻に会おうとし、自分の街が眠る間に開く市場を見る人がいて、世界に散った家族は話せる共通の時刻を探す。時間帯は厄介も生む。長距離飛行の後、体が現地時間に追いつくまで疲れ混乱する「時差ぼけ」だ。それでもこの世界的な仕組みは協力の静かな驚異だ。時間の測り方に合意することで、何十億もの人が回る惑星で計画し、会い、共に働ける。",
-        quiz: [
-          { q: "Why do time zones exist?", options: ["Because the Earth turns, so the sun rises at different moments in different places", "Because clocks are broken", "Because the sun never moves"], answer: 0 },
-          { q: "Why do time zones matter more in our connected age?", options: ["Teams, traders, and families across countries must find shared times", "Because no one travels", "Because time has stopped mattering"], answer: 0 },
-          { q: "What is 'jet lag'?", options: ["Feeling tired and confused after long flights as the body catches up to local time", "A type of airplane", "A fast train"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0911-4",
-        title: "Kintsugi: Finding Beauty in Broken Things",
-        level: "★★☆",
-        genre: "日本",
-        text: "When a favorite bowl or cup breaks, most people throw it away or hide the crack. In Japan, there is a very different tradition. It is called \"kintsugi,\" which means \"golden joining.\" Instead of hiding the damage, a skilled worker mends the broken pieces with a special glue mixed with gold. The repaired lines shine brightly, and the crack becomes a beautiful part of the object.\n\nThis craft is more than a clever way to fix pottery. It carries a gentle philosophy about life. A kintsugi bowl does not pretend to be perfect or new. Its history — the moment it broke and was carefully healed — is shown with pride, not shame. The object becomes more precious because of what it has been through, not in spite of it.\n\nMany people find comfort in this idea. It suggests that scars, mistakes, and hard times are part of who we are, and that they can even add to our beauty. A person who has struggled and recovered, like a mended bowl, may be stronger and more interesting than before.\n\nKintsugi takes patience. The gold lines are added slowly and with great care, and the finished piece is truly unique.\n\nIn a world that often throws away what is broken, kintsugi offers a kinder message: that damage is not the end. With care, something broken can become whole again — and even more beautiful.",
-        summaryJa: "お気に入りの茶碗やカップが割れると、多くの人は捨てるかひびを隠す。日本にはまったく違う伝統がある。「金継ぎ」——金でつなぐという意味だ。傷を隠すのでなく、熟練者が割れた破片を金を混ぜた特別な接着剤で直す。継いだ線は明るく輝き、ひびが器の美しい一部になる。この技は陶器を直す巧みな方法以上のものだ。人生についての優しい哲学を宿す。金継ぎの器は完璧や新品のふりをしない。割れて丁寧に癒された歴史を、恥でなく誇りとして示す。器は経てきたことのおかげで、それにもかかわらずではなく、より貴重になる。多くの人はこの考えに慰めを見出す。傷や失敗、苦難は自分の一部であり、美しささえ加えうると示すからだ。もがき立ち直った人は、継がれた器のように以前より強く興味深いかもしれない。金継ぎには忍耐が要る。金の線はゆっくり丁寧に加えられ、仕上がりは唯一無二だ。壊れた物を捨てがちな世界で、金継ぎは優しい伝言を与える。傷は終わりではない。手をかければ、壊れた物は再び完全になり、さらに美しくなれる。",
-        quiz: [
-          { q: "What is 'kintsugi'?", options: ["Mending broken pottery with a special glue mixed with gold", "Throwing away broken bowls", "Painting new bowls"], answer: 0 },
-          { q: "What philosophy does kintsugi carry?", options: ["An object's history and scars can make it more precious, not less", "That objects must always look new", "That mistakes should be hidden forever"], answer: 0 },
-          { q: "What kinder message does kintsugi offer?", options: ["Damage is not the end; something broken can become whole and even more beautiful", "Broken things are worthless", "Nothing can ever be repaired"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0911-5",
-        title: "Why the World Depends on Bees",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "When we think of important animals, we may picture large creatures like elephants or whales. But some of the most important animals on Earth are tiny: bees. These small insects play a huge role in growing the food we eat, and their health matters to everyone.\n\nBees help plants through something called pollination. As a bee moves from flower to flower to collect food, it carries a fine powder called pollen on its body. This pollen lets plants make seeds and fruit. Without it, many plants could not reproduce. A large share of the fruits, vegetables, and nuts we enjoy depends on bees and other pollinators doing this quiet work.\n\nIn recent years, scientists have grown worried. In some places, bee numbers have fallen. The causes are complex, and may include loss of wild flowers, disease, and certain chemicals used on farms. Fewer bees could mean less food and higher prices.\n\nThe good news is that people can help. Farmers can leave wild areas for bees to feed. Cities can plant flowers in parks and gardens. Even a small balcony with a few flowering plants can offer bees a meal.\n\nProtecting bees is really about protecting ourselves. These tiny workers remind us that in nature, everything is connected. Something as small as a bee can hold up a large part of the world's dinner table.",
-        summaryJa: "大切な動物というと、ゾウやクジラのような大きな生き物を思い浮かべるかもしれない。だが地球で最も重要な動物のいくつかは小さい。ミツバチだ。この小さな昆虫は、私たちが食べる食物を育てる上で大きな役割を果たし、その健康は皆に関わる。ミツバチは「受粉」を通じて植物を助ける。餌を集めに花から花へ移る間、体に花粉という細かい粉を運ぶ。この花粉が植物に種や実を作らせる。それなしでは多くの植物は繁殖できない。私たちが楽しむ果物、野菜、ナッツの大きな割合が、ミツバチなどの花粉媒介者のこの静かな働きに頼っている。近年、科学者は心配を強めている。場所によってはミツバチの数が減った。原因は複雑で、野の花の減少、病気、農場で使われる一部の化学物質などが含まれうる。ミツバチが減れば食料が減り価格が上がるかもしれない。良い知らせは、人が助けられることだ。農家はミツバチが餌を得る野を残せる。都市は公園や庭に花を植えられる。数鉢の花のある小さなベランダさえ餌場になる。ミツバチを守ることは自分を守ることだ。自然では全てがつながっていると、この小さな働き手は教えてくれる。",
-        quiz: [
-          { q: "How do bees help plants?", options: ["Through pollination — carrying pollen so plants can make seeds and fruit", "By eating all the plants", "By blocking the sunlight"], answer: 0 },
-          { q: "Why have scientists grown worried?", options: ["In some places, bee numbers have fallen", "Because there are too many bees", "Because bees stopped eating"], answer: 0 },
-          { q: "How can ordinary people help bees?", options: ["By planting flowers in gardens, parks, or even a small balcony", "By removing all flowers", "By doing nothing"], answer: 0 }
         ]
       }
     ]
