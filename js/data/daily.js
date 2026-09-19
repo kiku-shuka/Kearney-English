@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-19",
+    passages: [
+      {
+        id: "d0919-1",
+        title: "Why Companies Advertise",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Everywhere we look, there are advertisements — on screens, on posters, on the sides of buses, and between the videos we watch. Companies spend enormous amounts of money on them. But why? What does a business really hope to gain by advertising?\n\nThe first goal is simply to be known. A wonderful product is useless if no one has heard of it. Advertising tells people, \"We exist, and here is what we offer.\" For a new company, this is often the first and most important step.\n\nThe second goal is to persuade. A good advertisement does not just share facts; it shows why a product might improve your life. It may promise comfort, fun, safety, or a feeling of belonging. Adverts often work on emotions as much as on reason.\n\nA third goal is to remind. Even famous companies keep advertising, because people forget, and rivals are always competing for attention. A familiar name, seen again and again, feels trustworthy and comes to mind first when it is time to buy.\n\nBut advertising has a responsibility. An honest advert informs and gently persuades; a dishonest one tricks people into buying things they do not need or that do not work as promised. Many countries have rules against false claims.\n\nIn the end, advertising is the conversation between a company and the world. Done well and honestly, it helps people discover things that truly make their lives a little better.",
+        summaryJa: "どこを見ても広告がある。画面に、ポスターに、バスの側面に、見る動画の合間に。企業はそれに莫大なお金を使う。だがなぜか。広告で企業は本当は何を得ようとするのか。第一の目的は、ただ知られることだ。素晴らしい製品も誰も聞いたことがなければ役に立たない。広告は「私たちは存在し、これを提供します」と人に伝える。新しい企業にはしばしば最初で最も重要な一歩だ。第二の目的は説得だ。良い広告は事実を伝えるだけでなく、なぜその製品が生活を良くしうるかを示す。快適さや楽しさ、安全、帰属の感覚を約束することもある。広告は理性と同じくらい感情に働きかける。第三の目的は思い出させることだ。有名企業も広告を続ける。人は忘れ、競合は常に注意を奪い合うからだ。何度も見る親しんだ名前は信頼でき、買う時に最初に思い浮かぶ。だが広告には責任がある。正直な広告は知らせ穏やかに説得するが、不正直なものは、要らない物や約束通り働かない物を買うよう人を欺く。多くの国に虚偽表示への規則がある。広告は企業と世界の対話だ。うまく正直に行えば、人が本当に暮らしを少し良くする物を見つける助けになる。",
+        quiz: [
+          { q: "What is the first goal of advertising?", options: ["Simply to be known — to tell people a product exists", "To hide the product", "To lose customers"], answer: 0 },
+          { q: "How does a good advertisement persuade?", options: ["By showing why a product might improve your life, often through emotion", "By sharing only boring numbers", "By insulting the customer"], answer: 0 },
+          { q: "What responsibility does advertising have?", options: ["To be honest, not to trick people into buying useless things", "To always lie", "To confuse everyone"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0919-2",
+        title: "How the Internet Sends Your Data",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "When you send a message or open a web page, your words and pictures travel across the world in a fraction of a second. But how does information move so quickly between computers that may be thousands of kilometers apart? The answer is a clever system built on a simple idea: break everything into small pieces.\n\nWhen you send something over the internet, it is not sent as one big block. Instead, it is chopped into many tiny parts called \"packets.\" Each packet is like a small envelope, carrying a piece of the message and the address of where it needs to go. These packets are sent out separately, and they may even travel by different routes.\n\nAlong the way, machines called routers act like traffic officers. Each router reads a packet's address and passes it toward its destination, choosing a good path from many possible ones. If one road is busy or broken, packets can go another way.\n\nWhen all the packets arrive, the receiving computer puts them back together in the right order, and the message appears whole again. All of this happens so fast that it feels instant.\n\nThis design makes the internet strong. Because there is no single path, damage in one place does not stop everything; the packets simply flow around it. From a video call to a tiny text, the same quiet trick carries our digital lives: split, send, and reassemble, millions of times a second.",
+        summaryJa: "メッセージを送ったりウェブページを開いたりすると、言葉や画像が一瞬で世界を渡る。だが、何千キロも離れたコンピューター間で、情報はどうしてそんなに速く動くのか。答えは単純な考えに基づく巧みな仕組みだ。すべてを小さな断片に分けることだ。インターネットで何かを送るとき、それは一つの大きな塊としては送られない。代わりに「パケット」という多くの小さな部分に刻まれる。各パケットは小さな封筒のようで、メッセージの一片と送り先の住所を運ぶ。パケットは別々に送られ、異なる経路を通ることさえある。途中、ルーターという機械が交通整理役を務める。各ルーターはパケットの住所を読み、多くの可能な道から良い経路を選んで目的地へ渡す。ある道が混雑したり壊れたりすれば、パケットは別の道を行ける。すべてのパケットが着くと、受け取るコンピューターが正しい順に並べ直し、メッセージが再び完全に現れる。これらがあまりに速く起きるので瞬時に感じる。この設計はインターネットを強くする。単一の道がないので、一箇所の損傷が全体を止めず、パケットはただ回り込む。ビデオ通話から小さな文字まで、同じ静かな技が私たちのデジタル生活を運ぶ。分割し、送り、組み立て直す——毎秒何百万回も。",
+        quiz: [
+          { q: "What happens to information sent over the internet?", options: ["It is broken into small pieces called packets", "It is sent as one big block", "It is never divided"], answer: 0 },
+          { q: "What do routers do?", options: ["Read each packet's address and pass it toward its destination", "Delete all packets", "Slow the internet down on purpose"], answer: 0 },
+          { q: "Why does this design make the internet strong?", options: ["With no single path, damage in one place does not stop everything", "Because there is only one route", "Because packets never move"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0919-3",
+        title: "Protecting the World's Forests",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Forests cover about a third of the world's land, and they do far more than provide wood and shade. They are home to a huge share of the planet's animals and plants. They clean our air, hold water in the soil, and help keep the world's climate steady. Protecting them has become one of the great tasks of our time.\n\nWhy are forests so important? As trees grow, they take in a gas that would otherwise warm the planet, and they release the oxygen we breathe. A large forest acts like a giant sponge and a giant lung at once. Millions of people also depend on forests directly for food, medicine, and their way of life.\n\nYet forests around the world are under pressure. Trees are cut down for farmland, wood, and cities, sometimes faster than they can grow back. When a forest is lost, its animals lose their homes and its stored gases are released.\n\nThe good news is that people are fighting back. Countries are protecting large areas of forest, planting millions of new trees, and finding ways to use wood without destroying whole forests. Ordinary people help too, by choosing products that do not harm forests.\n\nSaving forests is not only about trees. It is about clean air, steady weather, and the countless living things — including us — that depend on them. A healthy forest is a gift we must protect and pass on.",
+        summaryJa: "森は世界の陸地の約3分の1を覆い、木材や日陰を与える以上のことをする。地球の動植物の大きな割合のすみかだ。空気を浄化し、土に水を蓄え、世界の気候を安定に保つ助けをする。森を守ることは現代の大きな務めの一つになった。なぜ森はそれほど重要か。木は育つ間、放っておけば地球を温める気体を取り込み、私たちが呼吸する酸素を放つ。大きな森は巨大なスポンジであり同時に巨大な肺のように働く。何百万もの人が食料や薬、暮らしのため森に直接頼ってもいる。だが世界の森は圧力にさらされる。木は農地や木材、都市のため、時に再生より速く切られる。森が失われると、動物はすみかを失い、蓄えた気体が放たれる。良い知らせは、人が反撃していることだ。各国は広い森林を保護し、何百万もの新しい木を植え、森全体を壊さずに木を使う方法を見つけている。普通の人も、森を害さない製品を選んで助ける。森を救うことは木だけの話ではない。清潔な空気、安定した天気、そして森に頼る無数の生き物——私たち自身を含む——の話だ。健康な森は守り受け継ぐべき贈り物だ。",
+        quiz: [
+          { q: "Why are forests so important, according to the passage?", options: ["They clean the air, store water, hold gases, and are home to many species", "They only provide shade", "They serve no purpose"], answer: 0 },
+          { q: "What puts forests under pressure?", options: ["Trees are cut for farmland, wood, and cities, sometimes faster than they regrow", "Too much rain", "Too many new trees"], answer: 0 },
+          { q: "How are people fighting back to save forests?", options: ["Protecting areas, planting trees, and using wood without destroying whole forests", "By cutting down more trees", "By ignoring the problem"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0919-4",
+        title: "Ikebana: The Art of Arranging Flowers",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, arranging flowers means gathering a bright, full bunch and placing them in a vase. In Japan, there is a very different tradition called \"ikebana,\" which means \"giving life to flowers.\" It is a careful art in which every stem, leaf, and space is chosen with great thought.\n\nUnlike a crowded bouquet, an ikebana arrangement is often simple, using only a few flowers and branches. What matters is not just the blossoms, but the shape of the whole design — the lines of the stems, the angle of a leaf, and even the empty space around them. That empty space is not seen as missing; it is an important part of the beauty.\n\nIkebana follows ideas that go back centuries. Many arrangements suggest a balance between heaven, earth, and the person who made them. The artist tries to show the natural beauty and season of the plants, rather than forcing them into a shape.\n\nMaking ikebana is also a quiet, thoughtful activity. As the artist works slowly and carefully, the mind grows calm. Like the tea ceremony, it is as much about the peaceful state of the maker as about the finished work.\n\nToday, people around the world study ikebana. It teaches a gentle lesson: that beauty can come from simplicity, and that what we leave out can matter as much as what we include.",
+        summaryJa: "多くの国で花を生けるとは、明るく豊かな束を集めて花瓶に挿すことだ。日本には「生け花」という全く違う伝統がある。花に命を与えるという意味で、あらゆる茎、葉、空間を深く考えて選ぶ丁寧な芸術だ。詰め込んだ花束と違い、生け花はしばしば簡素で、わずかな花と枝しか使わない。大切なのは花だけでなく、全体の形——茎の線、葉の角度、周りの空いた空間さえも。その空間は欠けたものと見なされず、美の重要な一部だ。生け花は何世紀もさかのぼる考えに従う。多くの作品は、天と地と作った人の間のバランスを示唆する。作り手は植物を形に押し込めるのでなく、その自然な美と季節を表そうとする。生け花を作ることは静かで思慮深い活動でもある。作り手がゆっくり丁寧に働くうちに心は穏やかになる。茶道のように、完成した作品と同じくらい作り手の平穏な状態に関わる。今、世界中の人が生け花を学ぶ。優しい教えを説く。美は簡素さから生まれ、省くものが含めるものと同じくらい大切でありうる、と。",
+        quiz: [
+          { q: "How is ikebana different from a typical bouquet?", options: ["It is often simple, using few flowers, and values the whole shape and empty space", "It always uses hundreds of flowers", "It uses no plants at all"], answer: 0 },
+          { q: "How is the empty space in ikebana seen?", options: ["As an important part of the beauty, not as something missing", "As a mistake", "As useless"], answer: 0 },
+          { q: "What gentle lesson does ikebana teach?", options: ["Beauty can come from simplicity, and what we leave out can matter too", "More is always better", "Flowers have no beauty"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0919-5",
+        title: "How Fireflies Make Their Light",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "On a warm summer evening, you may see tiny lights blinking softly in the dark. These are fireflies, small insects that can make their own light. For centuries, people have been enchanted by this gentle glow. But how does a living creature produce light, seemingly out of nothing?\n\nThe secret is a chemical reaction inside the firefly's body. In a special part near its tail, the insect combines certain substances with oxygen. When these mix, they release energy — not as heat, but as light. Because almost no heat is produced, scientists call it \"cold light.\" This makes it very different from a normal light bulb, which wastes most of its energy as heat.\n\nFireflies do not glow just for beauty. The blinking is a language. Each kind of firefly has its own pattern of flashes, and they use these signals mostly to find a mate in the dark. A male may flash a certain rhythm, and a female may answer, helping the two find each other across a field.\n\nScientists are fascinated by this cold light. Because it is so efficient, understanding it may help us design better, cooler lighting. The same chemicals are also used in medicine and research as a way to make certain things glow, so they can be seen and studied.\n\nSo a firefly's glow is more than magic on a summer night. It is chemistry, communication, and a quiet lesson in making light without waste.",
+        summaryJa: "暖かい夏の夕べ、暗闇で小さな光が柔らかく点滅するのが見えるかもしれない。これがホタル、自ら光を作れる小さな昆虫だ。何世紀も人はこの優しい輝きに魅了されてきた。だが生き物はどうして、無から光を生むように見えるのか。秘密は体内の化学反応だ。尾の近くの特別な部分で、昆虫はある物質を酸素と結びつける。これらが混ざると、熱でなく光としてエネルギーを放つ。ほとんど熱が出ないので、科学者は「冷たい光」と呼ぶ。エネルギーの多くを熱として無駄にする普通の電球と大きく異なる。ホタルは美のためだけに光るのではない。点滅は言語だ。ホタルの種ごとに固有の光り方があり、主に暗闇で相手を見つけるためにこの信号を使う。雄がある律動で光り、雌が応え、原っぱ越しに互いを見つける助けになる。科学者はこの冷たい光に魅了されている。とても効率的なので、理解すればより良く涼しい照明の設計に役立つかもしれない。同じ化学物質は、あるものを光らせて見て研究する方法として医療や研究にも使われる。だからホタルの輝きは夏の夜の魔法以上のものだ。化学であり、意思疎通であり、無駄なく光を作る静かな教えだ。",
+        quiz: [
+          { q: "How does a firefly make light?", options: ["A chemical reaction inside its body combines substances with oxygen", "By reflecting the moon", "By using a tiny battery"], answer: 0 },
+          { q: "Why is a firefly's light called 'cold light'?", options: ["Almost no heat is produced, unlike a normal light bulb", "Because it only glows in winter", "Because it feels icy"], answer: 0 },
+          { q: "Why do fireflies blink in patterns?", options: ["The flashes are a language, used mostly to find a mate", "To scare away the sun", "For no reason at all"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-18",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What are scientists trying to turn into food ingredients?", options: ["Waste such as old plastic or leftover parts of crops", "Only fresh vegetables", "Gold and silver"], answer: 0 },
           { q: "What tiny living helpers are used in one promising method?", options: ["Yeast, the same kind used to make bread rise", "Large fish", "Robots"], answer: 0 },
           { q: "Why is this idea attractive?", options: ["It could reduce waste and create food at the same time", "It makes more garbage", "It uses up all the world's food"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-12",
-    passages: [
-      {
-        id: "d0912-1",
-        title: "Why Companies Listen to Their Customers",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Every day, customers tell companies what they think. They leave reviews online, answer short surveys, call to complain, or simply stop buying. Wise companies treat all of this as treasure. Listening carefully to customers is one of the most powerful and affordable ways to improve a business.\n\nWhy is customer feedback so valuable? Because the people who use a product often notice things the makers cannot see. A small design flaw, a confusing instruction, or a missing feature may be obvious to a daily user but invisible inside the company. Feedback turns these hidden problems into clear, fixable ones.\n\nComplaints, in particular, are worth their weight in gold. A customer who complains is giving the company a second chance instead of quietly leaving forever. If the problem is fixed well, that unhappy customer can become a loyal fan who tells others about the good service.\n\nOf course, listening is only the first step. A company must also decide which feedback to act on. Not every request can or should be met, and sometimes many small comments together point to one bigger truth. The skill lies in finding the real message behind the noise.\n\nIn the end, a business exists to serve people. By truly listening — and then acting — a company shows respect for its customers. That respect builds trust, and trust, over time, builds success.",
-        summaryJa: "毎日、客は企業に考えを伝えている。オンラインでレビューを残し、短いアンケートに答え、電話で苦情を言い、あるいは単に買うのをやめる。賢い企業はこれらすべてを宝として扱う。客に注意深く耳を傾けることは、事業を改善する最も強力で安価な方法の一つだ。なぜ客の声はそれほど価値があるのか。製品を使う人は、作り手に見えないことに気づくからだ。小さな設計上の欠陥、分かりにくい説明、欠けた機能は、毎日使う人には明白でも社内では見えない。フィードバックはこうした隠れた問題を、直せる明確なものに変える。特に苦情は金と同じ価値がある。苦情を言う客は、黙って去る代わりに企業に二度目の機会を与えている。うまく直せば、不満だった客が忠実なファンになり良いサービスを人に伝える。もちろん聞くのは第一歩にすぎない。どの声に応えるかを決めねばならない。すべての要望に応えられるわけでも応えるべきでもなく、多くの小さな声が一つの大きな真実を指すこともある。雑音の裏の本当の伝言を見つける技が要る。事業は人に仕えるために存在する。真に聞き行動する企業は客への敬意を示し、それが信頼を、やがて成功を築く。",
-        quiz: [
-          { q: "Why is customer feedback so valuable?", options: ["Users often notice problems the makers cannot see", "Customers know nothing useful", "It costs a lot of money"], answer: 0 },
-          { q: "Why are complaints described as valuable?", options: ["A complaining customer gives the company a second chance instead of leaving", "Complaints should always be ignored", "They mean the customer is happy"], answer: 0 },
-          { q: "What skill is needed after listening?", options: ["Deciding which feedback to act on and finding the real message", "Acting on nothing at all", "Meeting every single request"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0912-2",
-        title: "How Noise-Cancelling Headphones Work",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "On a noisy plane or a busy train, some headphones can make the roar of engines almost disappear, even before any music plays. These are called noise-cancelling headphones, and the science behind them is both simple and clever.\n\nTo understand it, think about what sound really is: a wave that travels through the air, made of tiny pushes and pulls. When these waves reach your ear, you hear them as noise. The trick of noise-cancelling is to create a second wave that is the exact opposite of the unwanted one.\n\nInside the headphones, a small microphone listens to the noise around you. A tiny computer instantly works out the opposite wave and plays it through the speakers. When the original noise wave and this opposite wave meet, they cancel each other out, much like a hill and a hole of the same size filling to make flat ground. The result is a wonderful feeling of quiet.\n\nThis method works best on steady, low sounds, like the hum of an engine. Sudden, sharp noises, such as a voice or a bang, are harder to cancel because they change too quickly for the system to match.\n\nNoise-cancelling headphones show how understanding a simple idea — that waves can cancel — can be turned into something genuinely useful. With a microphone, a speaker, and clever timing, engineers have learned to fight noise with silence of their own making.",
-        summaryJa: "騒がしい飛行機や混んだ電車で、音楽を流す前でさえエンジンの轟音をほぼ消せるヘッドホンがある。ノイズキャンセリングヘッドホンと呼ばれ、その科学は単純かつ巧みだ。理解するには、音が本当は何かを考えるとよい。空気を伝わる波で、小さな押しと引きからなる。この波が耳に届くと騒音として聞こえる。ノイズキャンセリングの技は、不要な波とちょうど正反対の第二の波を作ることだ。ヘッドホンの中で小さなマイクが周りの騒音を聞く。小さなコンピューターが瞬時に反対の波を計算しスピーカーで流す。元の騒音の波とこの反対の波が出会うと互いに打ち消し合う。同じ大きさの丘と穴が埋まって平らになるように。結果、素晴らしい静けさの感覚が生まれる。この方法はエンジンのうなりのような一定の低い音に最も効く。声や破裂音のような突然鋭い音は、速く変わりすぎて合わせにくく打ち消しにくい。単純な考え——波は打ち消し合える——の理解が本当に役立つものになる好例だ。マイクとスピーカーと巧みなタイミングで、技術者は自ら作る静けさで騒音と戦うすべを学んだ。",
-        quiz: [
-          { q: "What is the main trick of noise-cancelling headphones?", options: ["Creating a second wave that is the exact opposite of the unwanted noise", "Playing music very loudly", "Blocking the ears with thick foam only"], answer: 0 },
-          { q: "What listens to the noise around you inside the headphones?", options: ["A small microphone", "A tiny mirror", "A bright light"], answer: 0 },
-          { q: "What kind of sound is hardest to cancel?", options: ["Sudden, sharp noises that change too quickly", "The steady hum of an engine", "A quiet, constant tone"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0912-3",
-        title: "The World's Many Languages",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "How many languages do you think are spoken in the world? The answer surprises many people: there are around seven thousand. From languages spoken by hundreds of millions to ones known by only a few elderly people, human speech is astonishingly rich and varied.\n\nEach language is far more than a way to order food or ask directions. It carries a whole way of seeing the world. Inside a language live songs, jokes, stories, and words for ideas that may not exist anywhere else. When people speak their mother tongue, they connect to their history and their community in a deep way.\n\nSadly, many of the world's languages are in danger. As people move to cities and use a few major languages for work and school, smaller languages are spoken less and less. Experts fear that many could disappear within this century. When a language dies, a unique window on human experience closes forever.\n\nAround the world, people are working to keep languages alive. Communities record their elders, teachers create classes, and technology helps by putting dictionaries and lessons online. Even simple pride in one's own language can make a difference.\n\nLearning about the world's languages teaches us something important: there is no single \"correct\" way to think or speak. Our differences are a treasure. Protecting them helps keep the human story wide, colorful, and whole.",
-        summaryJa: "世界ではいくつの言語が話されていると思うだろうか。答えは多くの人を驚かせる。約7000だ。数億人が話すものから、数人の高齢者しか知らないものまで、人間の言葉は驚くほど豊かで多様だ。各言語は食べ物を注文したり道を尋ねたりする手段以上のものだ。世界の見方全体を運ぶ。言語の中には歌や冗談、物語、他のどこにも存在しないかもしれない概念の語が生きている。母語を話すとき、人は歴史や地域社会と深くつながる。悲しいことに、世界の多くの言語が危機にある。人が都市へ移り、仕事や学校でいくつかの主要言語を使うにつれ、小さな言語は次第に話されなくなる。専門家は今世紀中に多くが消えかねないと恐れる。言語が死ぬと、人間の経験への独自の窓が永遠に閉じる。世界中で人々は言語を生かそうと努めている。地域は年長者を記録し、教師は授業を作り、技術は辞書や教材をオンラインにして助ける。自分の言語への誇りさえ違いを生む。世界の言語を学ぶと大切なことが分かる。考え方や話し方に唯一の「正解」はない。違いは宝であり、それを守ることが人間の物語を広く彩り豊かに保つ。",
-        quiz: [
-          { q: "About how many languages are spoken in the world?", options: ["Around seven thousand", "Only about ten", "Exactly one hundred"], answer: 0 },
-          { q: "Why is each language more than a way to communicate?", options: ["It carries a whole way of seeing the world, with songs, stories, and unique ideas", "It is only useful for ordering food", "It has no connection to history"], answer: 0 },
-          { q: "How are people working to keep languages alive?", options: ["Recording elders, creating classes, and putting lessons online", "By banning all small languages", "By ignoring the problem"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0912-4",
-        title: "Radio Taiso: Exercising Together",
-        level: "★★☆",
-        genre: "日本",
-        text: "Early in the morning across Japan, a familiar piece of music plays from radios and speakers, and people begin to move together. They stretch their arms, bend, and jump in time with the tune. This is \"radio taiso,\" a short set of simple exercises that has been part of Japanese life for many years.\n\nRadio taiso began long ago as a way to keep the whole nation healthy. The idea was clever: broadcast the same easy routine everywhere, so that anyone, anywhere, could join in at once. The movements are gentle and need no special equipment, so people of all ages can do them.\n\nToday, radio taiso appears in many places. Children do it during summer holidays, sometimes collecting a stamp each morning for taking part. Workers stretch together before a shift at a factory or office. Older people gather in parks to move and chat with neighbors.\n\nPart of the charm is that it is done together. Even strangers, exercising side by side to the same music, share a small sense of community. The exercise itself is light, but the habit is powerful: a few minutes of movement can wake up the body and lift the mood.\n\nRadio taiso shows a gentle Japanese belief — that small, shared, daily habits can quietly keep both a person and a community healthy and connected.",
-        summaryJa: "日本各地で朝早く、なじみのある音楽がラジオやスピーカーから流れ、人々が一緒に動き始める。曲に合わせて腕を伸ばし、体を曲げ、跳ぶ。これが「ラジオ体操」、長年日本の暮らしの一部である短い簡単な運動だ。ラジオ体操は昔、国民全体を健康に保つ方法として始まった。同じ易しい体操をどこでも放送し、誰でもどこでも同時に参加できるという巧みな発想だった。動きは穏やかで特別な道具も要らず、あらゆる年代の人ができる。今、ラジオ体操は多くの場所で見られる。子どもは夏休みに行い、参加すると毎朝スタンプをもらうこともある。働く人は工場や事務所で仕事前に一緒に伸びをする。高齢者は公園に集い、体を動かし隣人とおしゃべりする。魅力の一部は一緒に行うことだ。見知らぬ者同士でも同じ音楽で並んで運動すると、小さな地域の一体感を分かち合う。運動自体は軽いが習慣は強力で、数分の運動が体を目覚めさせ気分を上げる。小さく共有された日々の習慣が、人と地域を静かに健康でつながった状態に保つという、優しい日本的な考えを示している。",
-        quiz: [
-          { q: "What is 'radio taiso'?", options: ["A short set of simple exercises done together to music", "A type of radio program with only news", "A cooking show"], answer: 0 },
-          { q: "Why was the same routine broadcast everywhere?", options: ["So anyone, anywhere could join in at once with no special equipment", "So only athletes could do it", "To make it very difficult"], answer: 0 },
-          { q: "What is part of the charm of radio taiso?", options: ["It is done together, giving even strangers a sense of community", "It must be done completely alone", "It requires expensive machines"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0912-5",
-        title: "Why the Sky Is Blue",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Look up on a clear day, and the sky is a beautiful blue. At sunset, the same sky may glow with red and orange. Why does the sky change color like this? The answer lies in sunlight and the air around our planet.\n\nSunlight looks white, but it is really a mix of all the colors of the rainbow. When this light travels through the air, it bumps into countless tiny gas particles. These particles scatter the light, sending it bouncing in all directions. Here is the key: blue light is scattered much more strongly than red light, because of the way its shorter waves interact with the air.\n\nDuring the day, this scattered blue light comes at us from every part of the sky, so the whole sky looks blue. We are seeing blue light that has been bounced around above us.\n\nAt sunset, the sun is low, and its light must pass through much more air to reach our eyes. Along this long path, most of the blue light is scattered away before it arrives. What remains is the warm red and orange light, painting the evening sky.\n\nSo the colors of the sky are not really \"in\" the sky at all. They are sunlight, sorted by the air itself. Something as ordinary as a blue afternoon is, in truth, a quiet daily show of physics.",
-        summaryJa: "晴れた日に見上げると、空は美しい青だ。夕暮れには、同じ空が赤や橙に輝くこともある。なぜ空はこう色を変えるのか。答えは太陽光と、地球を包む空気にある。太陽光は白く見えるが、実は虹のすべての色の混合だ。この光が空気を通るとき、無数の小さな気体の粒子にぶつかる。粒子は光を散乱させ、あらゆる方向へ跳ね返す。鍵はここだ。青い光は赤い光よりずっと強く散乱される。波長が短く空気と作用する仕方のためだ。昼間、この散乱した青い光が空のあらゆる部分から届くので、空全体が青く見える。頭上で跳ね回った青い光を見ているのだ。夕暮れには太陽が低く、光は目に届くまでずっと多くの空気を通らねばならない。この長い道のりで、青い光の多くは届く前に散らされる。残るのは暖かい赤や橙の光で、夕空を彩る。だから空の色は本当は空の中に「ある」のではない。空気そのものによって振り分けられた太陽光だ。青い午後というありふれたものも、実は物理の静かな日々の見世物なのだ。",
-        quiz: [
-          { q: "What is sunlight really made of?", options: ["A mix of all the colors of the rainbow", "Only blue light", "Only red light"], answer: 0 },
-          { q: "Why does the daytime sky look blue?", options: ["Blue light is scattered more strongly and comes from all over the sky", "The sky is painted blue", "Because there is no sunlight"], answer: 0 },
-          { q: "Why does the sky turn red at sunset?", options: ["Light passes through more air, so most blue is scattered away, leaving red and orange", "The sun changes color", "Because the air disappears"], answer: 0 }
         ]
       }
     ]
