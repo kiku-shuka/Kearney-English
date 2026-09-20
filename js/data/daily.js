@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-20",
+    passages: [
+      {
+        id: "d0920-1",
+        title: "What Makes a Good Leader?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Every team, company, and country depends on leaders. But what actually makes someone a good leader? It is a question people have asked for thousands of years, and while there is no single answer, some qualities appear again and again.\n\nThe first is a clear vision. A good leader knows where the group is trying to go and can explain it simply, so that everyone understands the goal. Without a clear direction, even a talented team can wander and lose energy.\n\nThe second is trust. People follow leaders they believe in. A good leader keeps promises, tells the truth even when it is hard, and treats others fairly. Trust is slow to build and easy to break, so wise leaders guard it carefully.\n\nThe third quality is the ability to listen. Poor leaders think they must have every answer. Good leaders know that the best ideas can come from anyone, so they ask questions and truly listen before deciding.\n\nFinally, good leaders care about their people. They give credit for success, take responsibility for failure, and help others grow. People work hardest for someone who clearly wants them to succeed.\n\nInterestingly, being loud or forceful is not on this list. Some of the finest leaders are quiet and humble. In the end, leadership is less about power and more about service — helping a group become better than it could ever be alone.",
+        summaryJa: "あらゆるチーム、企業、国は指導者に頼る。だが実際、何が良い指導者を作るのか。人が何千年も問うてきた問いで、唯一の答えはないが、繰り返し現れる資質がある。第一は明確なビジョンだ。良い指導者は集団がどこへ向かうかを知り、皆が目標を理解できるよう簡潔に説明できる。明確な方向がなければ、才能あるチームもさまよい活力を失う。第二は信頼だ。人は信じられる指導者に従う。良い指導者は約束を守り、困難でも真実を語り、公平に接する。信頼は築くのが遅く壊れやすいので、賢い指導者は慎重に守る。第三の資質は聞く力だ。劣った指導者は全ての答えを持たねばと思う。良い指導者は最良の考えは誰からでも来ると知り、決める前に問い、真に聞く。最後に、良い指導者は人を大切にする。成功の功績を与え、失敗の責任を取り、他者の成長を助ける。人は自分の成功を明らかに願う相手に最も懸命に働く。興味深いことに、声高で強引なことはこの一覧にない。最も優れた指導者の中には静かで謙虚な人もいる。指導とは力よりも奉仕であり、集団が単独では決してなれない姿になるのを助けることだ。",
+        quiz: [
+          { q: "What is the first quality of a good leader mentioned?", options: ["A clear vision that everyone can understand", "A very loud voice", "Never listening to others"], answer: 0 },
+          { q: "Why is trust important for a leader?", options: ["People follow leaders they believe in; it is slow to build and easy to break", "It is not important at all", "It lets leaders break promises"], answer: 0 },
+          { q: "According to the passage, leadership is mostly about what?", options: ["Service — helping a group become better than it could alone", "Having power over others", "Being the loudest person"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0920-2",
+        title: "How a Touchscreen Knows Your Touch",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "We touch glass screens hundreds of times a day, tapping, swiping, and typing without a second thought. Yet how does a flat sheet of glass know exactly where your finger is? The answer lies in a clever use of electricity, hidden just beneath the surface.\n\nMost modern screens use a method called \"capacitive touch.\" Under the glass is a fine, invisible grid of transparent wires that carries a tiny electric charge across the whole screen. The human body also conducts a little electricity. So when your finger touches the glass, it draws away a very small amount of that charge at exactly that point.\n\nThe device constantly watches the grid for these tiny changes. When it senses a change at a certain spot, it knows your finger is there. By checking the whole screen many times each second, it can follow your finger as it moves, allowing smooth swipes and quick typing.\n\nThis is also why such screens often do not work with ordinary gloves: the glove blocks the electric connection between your finger and the glass. Special gloves with conductive threads solve this problem.\n\nCapacitive screens can even sense more than one finger at once, which is how you pinch to zoom or use two hands to play a game.\n\nSo each time you tap your phone, you are completing a tiny electric circuit with your own body — a quiet, invisible conversation between your finger and the machine.",
+        summaryJa: "私たちは一日に何百回もガラスの画面に触れ、考えもせずタップし、スワイプし、入力する。だが平らなガラスの板は、指がどこにあるかをどうして正確に知るのか。答えは、表面のすぐ下に隠れた電気の巧みな利用にある。現代の多くの画面は「静電容量式タッチ」という方法を使う。ガラスの下には、画面全体にごく小さな電荷を運ぶ、目に見えない細い透明な配線の格子がある。人体も少し電気を通す。だから指がガラスに触れると、まさにその点で電荷のごく一部を引き取る。装置は常にこの小さな変化を格子で監視する。ある点で変化を感じると、そこに指があると分かる。画面全体を毎秒何度も調べることで、動く指を追え、滑らかなスワイプや速い入力ができる。だからこうした画面は普通の手袋では働かないことが多い。手袋が指とガラスの電気的つながりを遮るのだ。導電性の糸を使った特別な手袋がこれを解決する。静電容量式画面は一度に複数の指も感知でき、だからつまんで拡大したり両手でゲームをしたりできる。電話をタップするたび、あなたは自分の体で小さな電気回路を完成させている——指と機械の静かで見えない対話だ。",
+        quiz: [
+          { q: "What method do most modern touchscreens use?", options: ["Capacitive touch, using a tiny electric charge under the glass", "Tiny springs", "Small cameras behind the glass"], answer: 0 },
+          { q: "What happens when your finger touches the glass?", options: ["It draws away a small amount of electric charge at that point", "It heats up the glass", "Nothing happens"], answer: 0 },
+          { q: "Why do ordinary gloves often not work on these screens?", options: ["The glove blocks the electric connection between finger and glass", "The glove is too warm", "The screen is turned off"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0920-3",
+        title: "The Global Shift to Clean Energy",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "For most of the last two centuries, the world ran mainly on burning coal, oil, and gas. These fuels powered factories, cars, and homes, but they also release gases that warm the planet and dirty the air. Today, a great change is underway: countries all over the world are turning to cleaner sources of energy, above all the sun and the wind.\n\nThe reason for the shift is partly the environment, and partly money. Not long ago, energy from solar panels and wind turbines was expensive. But over the past years, the cost has fallen dramatically. In many places, building new solar or wind power is now cheaper than building anything else. Clean energy is no longer only a choice for the planet; it is often the smart economic choice too.\n\nThe change is not simple. The sun does not always shine, and the wind does not always blow, so countries need ways to store energy and to move it where it is needed. Old power systems must be rebuilt, which takes time and money.\n\nDifferent nations are moving at different speeds, and some depend heavily on older fuels. Yet the direction is increasingly clear. Each year, more of the world's electricity comes from clean sources.\n\nThis shift is one of the biggest projects in human history — a worldwide effort to power our lives without harming the planet we all share. Its success will shape the world for generations.",
+        summaryJa: "過去2世紀の大半、世界は主に石炭、石油、ガスを燃やして動いてきた。これらの燃料は工場や車、家を動かしたが、地球を温める気体を放ち空気を汚しもする。今、大きな変化が進む。世界中の国が、とりわけ太陽と風という、より清潔なエネルギー源に転じている。転換の理由は一部は環境、一部はお金だ。少し前まで、太陽光パネルや風力タービンのエネルギーは高価だった。だがここ数年で費用は劇的に下がった。多くの場所で、新しい太陽光や風力を作る方が他の何を作るより安い。清潔なエネルギーはもはや地球のためだけの選択でなく、しばしば経済的にも賢い選択だ。変化は単純ではない。太陽は常に照らず風は常に吹かないので、国はエネルギーを蓄え、必要な場所へ運ぶ手段が要る。古い電力系統は作り直さねばならず、時間とお金がかかる。国ごとに進む速さは異なり、古い燃料に大きく頼る国もある。だが方向はますます明確だ。毎年、世界の電気のより多くが清潔な源から来る。この転換は人類史上最大級の事業だ——皆で分かち合う地球を害さずに暮らしを支える世界的な努力だ。その成否が世代を超えて世界を形づくる。",
+        quiz: [
+          { q: "What cleaner sources of energy is the world turning to?", options: ["Above all the sun and the wind", "Only more coal", "Only oil"], answer: 0 },
+          { q: "Why is clean energy spreading, besides the environment?", options: ["Its cost has fallen dramatically, making it often the cheaper choice", "Because it is more expensive than ever", "Because governments force everyone"], answer: 0 },
+          { q: "Why is the change not simple?", options: ["The sun and wind are not always available, so energy must be stored and moved", "Because clean energy does not work", "Because no one wants it"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0920-4",
+        title: "Koyo: Enjoying the Autumn Leaves",
+        level: "★★☆",
+        genre: "日本",
+        text: "In spring, people in Japan gather to admire the pink cherry blossoms. But there is another season just as beloved: autumn, when the leaves of the mountains turn to brilliant red, orange, and gold. Enjoying this display has its own name, \"koyo,\" and it is a cherished part of the year.\n\nAs the air grows cool, families and friends travel to parks, temples, and mountains famous for their autumn colors. They walk slowly along paths beneath the glowing trees, take photographs, and simply enjoy the beauty together. The most famous of the trees is the Japanese maple, whose small, star-shaped leaves turn a deep, brilliant red.\n\nLike the cherry blossoms of spring, the autumn leaves are loved partly because they do not last. In a week or two, the leaves will fall, and the color will be gone. This shortness makes the beauty feel precious, reminding people to enjoy the moment while it lasts.\n\nKoyo is more than looking at leaves. It is a gentle reason to go outside, breathe the crisp autumn air, and spend time with the people you care about. Food, too, plays a part, as autumn brings warm dishes and seasonal treats.\n\nFrom the golden gardens of old cities to wild mountain valleys, koyo colors the whole country each autumn. It is a yearly gift of nature — bright, beautiful, and gone too soon, and loved all the more for it.",
+        summaryJa: "春、日本の人々は桜の花を愛でに集まる。だが同じくらい愛される季節がもう一つある。秋、山の葉が鮮やかな赤や橙、金に変わる時だ。この光景を楽しむことには「紅葉(こうよう)」という名があり、一年の大切な一部だ。空気が涼しくなると、家族や友人は紅葉で有名な公園や寺、山へ出かける。輝く木々の下の道をゆっくり歩き、写真を撮り、ただ共に美しさを楽しむ。最も有名な木は日本のカエデ(もみじ)で、小さな星形の葉が深く鮮やかな赤に変わる。春の桜のように、秋の葉が愛されるのは一部には長続きしないからだ。一、二週間で葉は落ち、色は消える。この短さが美を貴く感じさせ、続くうちに今を楽しむよう人に思い出させる。紅葉は葉を見る以上のものだ。外に出て、澄んだ秋の空気を吸い、大切な人と過ごす優しい口実だ。食も一役買い、秋は温かい料理や旬の味覚をもたらす。古都の金色の庭から野生の山あいまで、紅葉は毎秋、国全体を彩る。自然の毎年の贈り物だ——明るく美しく、あまりに早く去り、それゆえいっそう愛される。",
+        quiz: [
+          { q: "What is 'koyo'?", options: ["Enjoying the autumn leaves as they turn red, orange, and gold", "A spring flower festival", "A type of food only"], answer: 0 },
+          { q: "Why are the autumn leaves loved partly, like cherry blossoms?", options: ["Because they do not last, which makes the beauty feel precious", "Because they last all year", "Because they are never colorful"], answer: 0 },
+          { q: "What is koyo more than just looking at leaves?", options: ["A reason to go outside and spend time with people you care about", "A way to stay indoors alone", "A kind of exam"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0920-5",
+        title: "Was the T. rex Warm-Blooded?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "When you imagine a dinosaur, you might picture a giant, cold-blooded reptile, like a huge lizard basking in the sun. For a long time, that is what many scientists believed too. But new discoveries are changing the picture, and one of the most surprising involves the famous Tyrannosaurus rex.\n\nAnimals today fall roughly into two groups. Cold-blooded animals, like lizards and snakes, take their body heat from their surroundings. Warm-blooded animals, like birds and mammals, make their own heat inside their bodies and keep a steady temperature. Which kind was the T. rex?\n\nTo find out, scientists studied chemical clues locked inside fossilized dinosaur teeth. The way certain chemicals are arranged can reveal the temperature at which they formed. The results were remarkable: the T. rex seems to have kept a body temperature close to that of a human being — a sign of a warm-blooded animal.\n\nThis makes sense in a wider way. Birds are the living descendants of dinosaurs, and birds are warm-blooded. A warm-blooded T. rex would have been active and powerful, not a slow, sun-dependent giant.\n\nOf course, the story is still being written. Studying creatures that died out millions of years ago is very hard, and scientists continue to debate the details.\n\nStill, the idea reminds us how much remains to be discovered about the ancient past. Even a monster from long ago can hold a warm surprise inside its bones.",
+        summaryJa: "恐竜を想像するとき、日なたで体を温める巨大なトカゲのような、冷血の大きな爬虫類を思い浮かべるかもしれない。長い間、多くの科学者もそう信じていた。だが新しい発見が像を変えつつあり、最も驚くべきものの一つが有名なティラノサウルス(T.レックス)に関わる。今日の動物はおおむね二群に分かれる。トカゲやヘビのような冷血動物は体熱を周囲から取る。鳥や哺乳類のような温血動物は体内で自ら熱を作り、一定の体温を保つ。T.レックスはどちらだったか。それを知るため、科学者は化石化した恐竜の歯に閉じ込められた化学的手がかりを調べた。ある化学物質の並び方は、それが形成された温度を明らかにできる。結果は驚くべきものだった。T.レックスは人間に近い体温を保っていたらしい——温血動物の証だ。これはより広い意味でも理にかなう。鳥は恐竜の生きた子孫で、鳥は温血だ。温血のT.レックスは、遅く太陽に頼る巨人でなく、活発で力強かっただろう。もちろん物語はまだ書かれている途中だ。何百万年も前に絶滅した生き物の研究は非常に難しく、科学者は詳細を議論し続ける。それでも、古代の過去に発見すべきことがいかに多く残るかを思い出させる。大昔の怪物さえ、骨の中に温かい驚きを宿しうる。",
+        quiz: [
+          { q: "What is the difference between cold-blooded and warm-blooded animals?", options: ["Cold-blooded animals take heat from their surroundings; warm-blooded ones make their own", "There is no difference", "Only size differs"], answer: 0 },
+          { q: "How did scientists study the T. rex's body temperature?", options: ["By studying chemical clues locked inside fossilized teeth", "By asking a living T. rex", "By measuring a lizard"], answer: 0 },
+          { q: "Why does a warm-blooded T. rex make sense?", options: ["Birds are living descendants of dinosaurs, and birds are warm-blooded", "Because dinosaurs were plants", "Because it never moved"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-19",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "How is a purr made?", options: ["Muscles of the voice box open and close very quickly as the cat breathes", "By the cat's tail", "By the cat's stomach only"], answer: 0 },
           { q: "When do cats purr, according to the passage?", options: ["When happy, but also when frightened or in pain", "Only when they are asleep", "Never when content"], answer: 0 },
           { q: "What fascinating idea do some scientists have about purring?", options: ["The vibrations might help calm the cat or keep its bones and muscles healthy", "Purring makes cats sick", "Purring is only for show"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-13",
-    passages: [
-      {
-        id: "d0913-1",
-        title: "The Power of a Good Team",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When a company succeeds, we often praise a single leader or a brilliant idea. But behind almost every success stands something less visible: a good team. In business, few important things are done alone. Learning to build and work in a strong team is one of the most valuable skills a person can have.\n\nWhy are teams so powerful? Because no single person is good at everything. One member may be full of creative ideas, another may be careful with details, and a third may be excellent at talking to customers. When these different strengths come together, the team can do far more than any of its members could alone.\n\nBut simply putting talented people in a room is not enough. A good team needs trust. Members must feel safe to share ideas, admit mistakes, and ask for help. When people fear blame, they hide problems, and small issues grow into big ones.\n\nClear goals matter too. When everyone understands what the team is trying to achieve and who is doing what, effort is not wasted. Good communication keeps the group moving in the same direction.\n\nThe best teams also respect one another. They listen, share credit, and support members who are struggling. In the end, a great team is more than a group of skilled people. It is a group that has learned to trust, communicate, and win together.",
-        summaryJa: "企業が成功すると、私たちはしばしば一人の指導者や見事な着想をたたえる。だがほぼすべての成功の陰に、見えにくいものがある。良いチームだ。ビジネスで重要なことは一人で成し遂げられるものは少ない。強いチームを築き、その中で働くことを学ぶのは、最も価値ある技能の一つだ。なぜチームは強力か。一人で何でも得意な人はいないからだ。ある人は創造的な着想に富み、別の人は細部に注意深く、また別の人は客と話すのが得意だ。これら異なる強みが合わさると、チームは各自が単独でできる以上のことをできる。だが才能ある人を部屋に集めるだけでは足りない。良いチームには信頼が要る。安心して考えを共有し、間違いを認め、助けを求められねばならない。非難を恐れると人は問題を隠し、小さな問題が大きくなる。明確な目標も重要だ。何を目指し誰が何をするか皆が分かれば、努力は無駄にならない。良い意思疎通が同じ方向へ進ませる。最良のチームは互いを尊重し、耳を傾け、功績を分かち合い、苦しむ仲間を支える。偉大なチームとは、信頼し、意思疎通し、共に勝つことを学んだ集団だ。",
-        quiz: [
-          { q: "Why are teams so powerful, according to the passage?", options: ["No single person is good at everything, so different strengths combine", "One person can do everything alone", "Teams slow down all work"], answer: 0 },
-          { q: "Why does a good team need trust?", options: ["So members feel safe to share ideas, admit mistakes, and ask for help", "So members can blame each other", "So problems stay hidden"], answer: 0 },
-          { q: "What is the best kind of team, in the end?", options: ["A group that has learned to trust, communicate, and win together", "A group of strangers who never talk", "A single talented person"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0913-2",
-        title: "Robots That Help Build Houses",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Many parts of the world do not have enough homes. Building houses is slow and hard work, and there are not always enough skilled workers to do it. To help solve this problem, engineers are now bringing robots onto the building site.\n\nThese construction robots come in several forms. Some are large machines that can print the walls of a house layer by layer, squeezing out a special concrete like toothpaste from a tube. Others are robotic arms that lay bricks, or machines that carry heavy loads so that human workers do not have to. A few can even work through the night, when human crews have gone home.\n\nThe hoped-for benefits are clear. Robots may build faster and at lower cost, which could mean more affordable homes. They can also take on dangerous or exhausting tasks, making building sites safer for people. In places short of workers, robots could help close the gap.\n\nOf course, there are limits. Building a house is complex, full of surprises and small decisions that humans handle easily but machines find hard. Robots are expensive to buy, and they still need skilled people to run and repair them.\n\nMost likely, the future is not robots instead of workers, but robots working beside them. By handling the heavy, repetitive parts, machines may free human builders to do the skilled, creative work that homes will always need.",
-        summaryJa: "世界の多くの地域で住宅が足りない。家を建てるのは遅く大変な作業で、担う熟練工が常に十分いるわけではない。この問題を解決するため、技術者は今、建設現場にロボットを持ち込んでいる。建設ロボットにはいくつかの形がある。特別なコンクリートをチューブの歯磨き粉のように押し出し、家の壁を層ごとに印刷する大型機械もある。レンガを積むロボットアームや、重い荷を運び人が運ばずに済むようにする機械もある。人が帰宅した夜間に働けるものさえある。期待される利点は明確だ。ロボットはより速く低コストで建てられ、より手頃な住宅につながりうる。危険で疲れる作業も引き受け、現場を安全にする。人手不足の地域では差を埋められる。もちろん限界もある。家づくりは複雑で、人が容易に扱う驚きや小さな判断に満ち、機械には難しい。ロボットは高価で、動かし修理する熟練者も要る。おそらく未来は、人の代わりでなく人と並んで働くロボットだ。重く反復的な部分を担い、家に常に必要な熟練の創造的仕事を人に任せられるようにする。",
-        quiz: [
-          { q: "Why are engineers bringing robots onto building sites?", options: ["Building is slow and there are not always enough skilled workers", "Because houses are no longer needed", "Because robots are cheap and simple"], answer: 0 },
-          { q: "What is one form a construction robot can take?", options: ["A machine that prints walls layer by layer with special concrete", "A machine that only makes coffee", "A robot that paints pictures"], answer: 0 },
-          { q: "What does the passage say the future most likely looks like?", options: ["Robots working beside human builders, not instead of them", "No human builders at all", "No robots ever used"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0913-3",
-        title: "Cities Without Cars",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "For most of the last hundred years, cities were built around the car. Wide roads, large parking lots, and busy junctions shaped how people lived. But in recent years, a new idea is spreading across the world: what if parts of a city had far fewer cars, or none at all?\n\nAround the globe, cities are trying this in different ways. Some close their old central streets to traffic, letting people walk and cycle freely. Others build wide paths for bicycles, add more buses and trains, or charge a fee to drive into the busiest areas. The goal is not to punish drivers, but to give streets back to people.\n\nThe possible benefits are large. With fewer cars, the air becomes cleaner and the streets quieter. Children can play more safely, and shops often do better when more people stroll past on foot. Walking and cycling also improve people's health.\n\nThere are challenges, of course. Not everyone can walk or cycle, and some people truly need a car for work or family. Good plans must include the elderly, the disabled, and those who live far away. Change must be fair.\n\nStill, the trend is growing. As more cities test these ideas, many are discovering that a place built for people, rather than only for cars, can be cleaner, healthier, and simply more pleasant to live in.",
-        summaryJa: "過去100年の大半、都市は車を中心に造られた。広い道路、大きな駐車場、混雑する交差点が暮らし方を形づくった。だが近年、新しい考えが世界に広がっている。都市の一部で車をずっと減らす、あるいはなくしたらどうか、というものだ。世界中で都市がさまざまに試している。古い中心街を交通止めにして人が自由に歩き自転車に乗れるようにしたり、広い自転車道を造り、バスや電車を増やし、最も混む区域への乗り入れに料金を課したりする。狙いは運転手を罰することでなく、通りを人々に返すことだ。利点は大きい。車が減れば空気は清潔になり通りは静かになる。子どもはより安全に遊べ、歩く人が増えると店も繁盛しやすい。歩行や自転車は健康も改善する。もちろん課題もある。皆が歩いたり自転車に乗れるわけではなく、仕事や家族のため本当に車が要る人もいる。良い計画は高齢者や障害のある人、遠方に住む人を含めねばならない。変化は公正であるべきだ。それでも流れは広がる。人のために造られた場所は、車だけのためより清潔で健康的で住みやすいと多くの都市が気づきつつある。",
-        quiz: [
-          { q: "What new idea is spreading across cities?", options: ["Having parts of a city with far fewer cars, or none at all", "Building only wider roads for cars", "Removing all buses and trains"], answer: 0 },
-          { q: "What is one possible benefit of fewer cars?", options: ["Cleaner air, quieter streets, and safer play for children", "More pollution", "Less space for people"], answer: 0 },
-          { q: "What must good car-free plans include?", options: ["The elderly, the disabled, and those who live far away", "Only young, healthy people", "Nobody at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0913-4",
-        title: "Japan's Respect for the Aged Day",
-        level: "★★☆",
-        genre: "日本",
-        text: "In September, Japan celebrates a special national holiday called \"Respect for the Aged Day.\" On this day, the country pauses to honor its older people, to thank them for their years of hard work, and to wish them long and healthy lives. It is a warm example of a value that runs deep in Japanese culture.\n\nRespect for elders is not shown only once a year. In daily life, older people are often treated with special politeness. Families may gather to celebrate the holiday, sharing a meal and spending time together. Children might make cards or gifts for their grandparents, and communities sometimes hold events for their senior members.\n\nJapan has one of the oldest populations in the world, with many people living long past their eightieth or ninetieth year. This makes the holiday especially meaningful. Older people are seen not as a burden, but as a source of wisdom, memory, and experience that younger generations can learn from.\n\nThe day also carries a gentle reminder. In busy modern life, it is easy to forget the people who came before us. This holiday encourages everyone to slow down, visit an older relative, and simply say thank you.\n\nAt its heart, Respect for the Aged Day teaches a simple truth: a society that cares for its elders is caring for all of us, because one day, every person grows old.",
-        summaryJa: "9月、日本は「敬老の日」という特別な祝日を祝う。この日、国は立ち止まって高齢者を敬い、長年の労苦に感謝し、長寿と健康を願う。日本文化に深く根づく価値観の温かい一例だ。高齢者への敬意は年に一度だけ示されるものではない。日常でも高齢者はしばしば特別な礼儀で接される。家族は集まって祝日を祝い、食事を共にし共に時を過ごす。子どもは祖父母にカードや贈り物を作り、地域が高齢者向けの催しを開くこともある。日本は世界有数の高齢化社会で、80代90代を過ぎて生きる人が多い。だからこの祝日は特に意味深い。高齢者は重荷ではなく、若い世代が学べる知恵や記憶、経験の源とみなされる。この日は優しい戒めも持つ。忙しい現代の暮らしでは、先を生きた人を忘れがちだ。この祝日は皆に立ち止まり、年長の親族を訪ね、ただ感謝を伝えるよう促す。核心には単純な真実がある。高齢者を大切にする社会は私たち全員を大切にしている。いつか誰もが年を取るのだから。",
-        quiz: [
-          { q: "What does 'Respect for the Aged Day' honor?", options: ["Older people, thanking them and wishing them long, healthy lives", "New babies only", "Famous athletes"], answer: 0 },
-          { q: "How are older people seen, according to the passage?", options: ["As a source of wisdom, memory, and experience", "As a burden to ignore", "As unimportant"], answer: 0 },
-          { q: "What simple truth does the day teach?", options: ["A society that cares for its elders cares for all of us, since everyone grows old", "Only the young matter", "Holidays are a waste of time"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0913-5",
-        title: "Turning Waste Into Food",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "What if some of the things we throw away could become the food of the future? It sounds strange, but scientists are working on exactly this idea. In laboratories, researchers are finding clever ways to turn waste — such as old plastic or leftover parts of crops — into ingredients we can eat.\n\nOne promising method uses tiny living helpers called yeast, the same kind used to make bread rise. Scientists can feed these yeasts on waste materials and guide them to produce useful substances, including protein. That protein can then be used to make food, such as a simple, protein-rich snack.\n\nWhy would anyone want to do this? The reasons are powerful. The world's population is growing, and producing enough food is a huge challenge. At the same time, waste is a growing problem. A process that reduces waste and creates food at once could help with two problems together.\n\nOf course, there is a long way to go. Any food made this way must be proven completely safe and healthy before people eat it. It must also taste good, or few will choose it. Winning people's trust takes time.\n\nStill, the idea is a hopeful glimpse of the future. It reminds us that \"waste\" may be the wrong word for many things we discard. With science and care, tomorrow's dinner might grow from today's garbage.",
-        summaryJa: "私たちが捨てるものの一部が未来の食べ物になるとしたら？奇妙に聞こえるが、科学者はまさにこの考えに取り組んでいる。実験室で、研究者は廃棄物——古いプラスチックや作物の残りなど——を食べられる材料に変える巧みな方法を見つけつつある。有望な方法の一つは、パンを膨らませるのと同じ酵母という小さな生きた助っ人を使う。廃棄物を酵母に与え、タンパク質を含む有用な物質を作らせる。そのタンパク質でタンパク質豊富な簡単なおやつなどの食品を作れる。なぜそんなことをするのか。理由は強力だ。世界の人口は増え、十分な食料を作るのは大きな難題だ。同時に廃棄物も増える問題だ。廃棄を減らし同時に食料を生む過程は、二つの問題を一度に助けうる。もちろん道のりは長い。この方法で作る食品は、食べる前に完全に安全で健康的だと証明されねばならない。おいしくなければ選ぶ人も少ない。人の信頼を得るには時間がかかる。それでもこの考えは希望に満ちた未来の一片だ。「廃棄物」は、捨てる多くの物にとって誤った言葉かもしれないと気づかせる。科学と心配りで、明日の夕食は今日のごみから育つかもしれない。",
-        quiz: [
-          { q: "What are scientists trying to turn into food ingredients?", options: ["Waste such as old plastic or leftover parts of crops", "Only fresh vegetables", "Gold and silver"], answer: 0 },
-          { q: "What tiny living helpers are used in one promising method?", options: ["Yeast, the same kind used to make bread rise", "Large fish", "Robots"], answer: 0 },
-          { q: "Why is this idea attractive?", options: ["It could reduce waste and create food at the same time", "It makes more garbage", "It uses up all the world's food"], answer: 0 }
         ]
       }
     ]
