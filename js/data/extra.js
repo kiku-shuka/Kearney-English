@@ -127,7 +127,19 @@ KE_DATA.extraSentences = [
   { id: "w2637-s09", ja: "コストと効果のバランスを考える必要があります。", en: "We need to balance cost and benefit.", note: "balance A and B = AとBのバランスを取る" },
   { id: "w2637-s10", ja: "結論としては、この案で進めたいと思います。", en: "In conclusion, I'd like to move forward with this plan.", note: "move forward with = 〜で進める" },
   { id: "w2637-s11", ja: "何か懸念があれば、遠慮なくおっしゃってください。", en: "If you have any concerns, please don't hesitate to say so.", note: "don't hesitate to = 遠慮なく〜する" },
-  { id: "w2637-s12", ja: "本日は活発なご議論をありがとうございました。", en: "Thank you all for the lively discussion today.", note: "lively = 活発な" }
+  { id: "w2637-s12", ja: "本日は活発なご議論をありがとうございました。", en: "Thank you all for the lively discussion today.", note: "lively = 活発な" },
+  { id: "w2638-s01", ja: "ご多忙のところ恐れ入りますが、ご確認いただけますか。", en: "I'm sorry to trouble you, but could you check this?", note: "I'm sorry to trouble you = お忙しいところ恐れ入りますが" },
+  { id: "w2638-s02", ja: "今期の売上は目標を上回りました。", en: "This quarter's sales exceeded our target.", note: "exceed = 上回る" },
+  { id: "w2638-s03", ja: "その点については、社内で持ち帰って検討します。", en: "Let me take that back to the team and consider it.", note: "take back = 持ち帰る" },
+  { id: "w2638-s04", ja: "結論を急がず、選択肢を並べてみましょう。", en: "Let's not rush to a conclusion; let's lay out the options.", note: "lay out = 並べて示す" },
+  { id: "w2638-s05", ja: "この資料の要点を3つに絞りました。", en: "I've narrowed this document down to three key points.", note: "narrow down = 絞り込む" },
+  { id: "w2638-s06", ja: "認識に相違があれば、早めにお知らせください。", en: "If there's any misunderstanding, please let me know early.", note: "misunderstanding = 認識の相違" },
+  { id: "w2638-s07", ja: "その提案は費用対効果が高いと思います。", en: "I think that proposal offers good value for the cost.", note: "value for the cost = 費用対効果" },
+  { id: "w2638-s08", ja: "スケジュールに余裕を持たせておきましょう。", en: "Let's leave some room in the schedule.", note: "leave room = 余裕を残す" },
+  { id: "w2638-s09", ja: "ご期待に応えられるよう全力を尽くします。", en: "We'll do our best to meet your expectations.", note: "meet expectations = 期待に応える" },
+  { id: "w2638-s10", ja: "その数字は概算ですので、後で精査します。", en: "That number is a rough estimate; I'll check it in detail later.", note: "rough estimate = 概算" },
+  { id: "w2638-s11", ja: "一度、優先順位を見直す必要がありそうです。", en: "It seems we need to review our priorities.", note: "review = 見直す" },
+  { id: "w2638-s12", ja: "本日の決定事項をメールでまとめて共有します。", en: "I'll summarize today's decisions in an email and share them.", note: "summarize = 要約する" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -171,7 +183,15 @@ KE_DATA.extraPhrases = [
   { id: "w2636-p05", en: "Let's align on the next steps.", ja: "次のステップについて認識を合わせましょう。", tip: "align on = 〜で合意・認識を揃える" },
   { id: "w2636-p06", en: "That's a fair point.", ja: "それはもっともな指摘ですね。", tip: "相手の意見を尊重して受け止める型" },
   { id: "w2636-p07", en: "Let's keep this on the back burner for now.", ja: "これはひとまず優先度を下げておきましょう。", tip: "on the back burner = 後回しにする" },
-  { id: "w2636-p08", en: "Correct me if I'm wrong, but ...", ja: "間違っていたら訂正してほしいのですが…", tip: "認識確認をやわらかく切り出す型" }
+  { id: "w2636-p08", en: "Correct me if I'm wrong, but ...", ja: "間違っていたら訂正してほしいのですが…", tip: "認識確認をやわらかく切り出す型" },
+  { id: "w2638-p01", en: "Let's put a pin in that for now.", ja: "それは一旦置いておきましょう。", tip: "put a pin in = 保留にする" },
+  { id: "w2638-p02", en: "Just to play it back to you, ...", ja: "確認のため繰り返しますと…", tip: "play back = 復唱して確認する" },
+  { id: "w2638-p03", en: "Let's not lose sight of the goal.", ja: "目標を見失わないようにしましょう。", tip: "lose sight of = 見失う" },
+  { id: "w2638-p04", en: "That's outside my area of expertise.", ja: "それは私の専門外です。", tip: "area of expertise = 専門分野" },
+  { id: "w2638-p05", en: "I'll keep you posted.", ja: "随時ご報告します。", tip: "keep someone posted = 随時知らせる" },
+  { id: "w2638-p06", en: "Let's give it a shot.", ja: "とりあえずやってみましょう。", tip: "give it a shot = 試しにやってみる" },
+  { id: "w2638-p07", en: "Let's circle back to this after lunch.", ja: "この件は昼食後にまた戻りましょう。", tip: "circle back to = 〜に後で戻る" },
+  { id: "w2638-p08", en: "Let's agree to disagree on this one.", ja: "この件は見解の相違ということにしましょう。", tip: "対立を穏やかに収める型" }
 ];
 
 /* シャドーイングの追加スクリプト（shadowing.js と同スキーマ） */
@@ -355,6 +375,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Do you have any questions for us?", ja: "何か質問はありますか？" },
       { s: "B", en: "Yes. Could you tell me what a typical first year looks like in this role?", ja: "はい。この職種で最初の1年は典型的にどのようなものか教えていただけますか？" }
     ]
+  },
+  {
+    id: "w2638-sh1",
+    title: "休暇前の業務引き継ぎ",
+    level: "★★☆",
+    description: "休暇に入る前に、同僚へ進行中の仕事を引き継ぎ、要点や締切、ファイルの場所を共有する場面。依頼・説明・確認の型を身につける。",
+    lines: [
+      { s: "A", en: "Hi, do you have a moment? I'd like to hand over a few things before my vacation.", ja: "こんにちは、少しいいですか。休暇前にいくつか引き継ぎたいのですが。" },
+      { s: "B", en: "Sure. When are you off?", ja: "もちろん。いつからお休みですか？" },
+      { s: "A", en: "From this Friday for one week. The main thing is the Tanaka project.", ja: "今週金曜から1週間です。主なものは田中プロジェクトです。" },
+      { s: "B", en: "Okay. What do I need to do?", ja: "了解です。私は何をすればいいですか？" },
+      { s: "A", en: "Mostly just reply to the client's emails within a day.", ja: "主にクライアントのメールに1日以内に返信するだけです。" },
+      { s: "B", en: "Got it. Is there anything urgent coming up?", ja: "わかりました。何か急ぎの用件はありますか？" },
+      { s: "A", en: "The draft is due next Wednesday. I've almost finished it.", ja: "下書きが来週水曜締切です。ほぼ仕上がっています。" },
+      { s: "B", en: "Great. Where can I find the files?", ja: "いいですね。ファイルはどこにありますか？" },
+      { s: "A", en: "They're in the shared folder, under 'Tanaka'. I'll send you the link.", ja: "共有フォルダの「田中」の中です。リンクを送ります。" },
+      { s: "B", en: "Perfect. Enjoy your holiday. I've got this.", ja: "完璧です。休暇を楽しんで。あとは任せてください。" }
+    ]
   }
 ];
 
@@ -479,6 +517,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2637-t03", ja: "企業は週休3日制（週4日勤務）を取り入れるべきだと思いますか？", en: "Should companies adopt a four-day work week?",
     sample: { point: "I think companies should at least seriously try a four-day work week where it is possible.", reason: "The main reason is that well-rested workers are often more focused and productive, and extra free time improves health and happiness.", example: "For example, some companies that tested a four-day week reported similar output with happier staff, though it does not fit every kind of job.", point2: "So a careful trial, measuring both results and well-being, would show whether it truly works for a given company." }
+  },
+  {
+    id: "w2638-t01", ja: "都市や国が大きな国際スポーツ大会を開催することには価値があると思いますか？", en: "Is it worth it for a city or country to host a big international sports event?",
+    sample: { point: "I think hosting a big sports event can be worth it, but only with careful planning.", reason: "The main reason is that it can bring pride, tourism, and new facilities, yet it can also cost enormous amounts of public money.", example: "For example, some host cities gain lasting stadiums and global attention, while others are left with huge debts and buildings no one uses.", point2: "So a country should host such events only when it has a realistic plan to use the benefits long after the games end." }
+  },
+  {
+    id: "w2638-t02", ja: "国同士の自由貿易協定は良いことだと思いますか？", en: "Are free trade agreements between countries a good thing?",
+    sample: { point: "On balance, I believe free trade agreements are more helpful than harmful.", reason: "This is because they lower prices, widen choice, and let each country focus on what it does best, though some local industries may suffer.", example: "For example, shoppers can enjoy cheaper goods from a partner country, but local factories making the same goods may struggle to compete.", point2: "So free trade is valuable when governments also help the workers and industries that are hurt by the change." }
+  },
+  {
+    id: "w2638-t03", ja: "企業は自社の環境への影響を報告することを義務づけられるべきだと思いますか？", en: "Should companies be required to report their environmental impact?",
+    sample: { point: "Yes, I think large companies should be required to report their environmental impact.", reason: "The main reason is that what gets measured gets managed, and clear reports let customers and investors make informed choices.", example: "For example, when a company must reveal how much energy or water it uses, it often finds ways to cut waste and save money at the same time.", point2: "So sensible reporting rules can push companies to act more responsibly without harming their business." }
   }
 ];
 
