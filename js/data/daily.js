@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-21",
+    passages: [
+      {
+        id: "d0921-1",
+        title: "Why Cash Flow Matters",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Many people think a business is healthy as long as it makes a profit. But there is another number that can matter even more: cash flow. Cash flow is simply the movement of money into and out of a business — the actual cash a company has on hand to pay its bills right now. Surprisingly, a profitable company can still fail if its cash flow goes wrong.\n\nHow is this possible? Imagine a small company that sells a large order of goods. On paper, it has made a good profit. But the customer will not pay for sixty days. Meanwhile, the company must still pay its workers, its rent, and its suppliers this week. If it does not have enough cash to cover these costs while it waits, it can run out of money and be forced to close, even though the sale was profitable.\n\nThis is why wise business owners watch their cash flow as closely as their profit. They try to make sure money comes in about as fast as it goes out. They may ask customers to pay sooner, keep a reserve of cash for emergencies, or manage carefully how much stock they buy.\n\nProfit tells you whether a business is winning over the long run. Cash flow tells you whether it can survive today. Both matter, but a company that forgets about cash flow can find that being profitable on paper is not enough to keep the doors open.",
+        summaryJa: "多くの人は、利益が出ていれば事業は健全だと思う。だが、それ以上に重要でありうる別の数字がある。キャッシュフローだ。キャッシュフローとは事業に出入りするお金の動き——今すぐ請求を払うために手元にある実際の現金だ。意外にも、利益の出ている会社でも、キャッシュフローがおかしくなれば倒れうる。どうしてか。ある小さな会社が大口の注文を売るとしよう。帳簿上は良い利益だ。だが客は60日後まで払わない。その間も会社は今週、従業員や家賃、仕入れ先に払わねばならない。待つ間これらを賄う現金が足りなければ、売却は利益が出ていても資金が尽き、閉鎖を迫られうる。だから賢い経営者は利益と同じくらいキャッシュフローを注視する。お金が出ていくのとほぼ同じ速さで入るようにしようとする。客に早く払ってもらったり、緊急用に現金を蓄えたり、仕入れる在庫の量を慎重に管理したりする。利益は長期的に勝っているかを示す。キャッシュフローは今日生き延びられるかを示す。両方大切だが、キャッシュフローを忘れる会社は、帳簿上の利益だけでは店を開け続けられないと気づくことになる。",
+        quiz: [
+          { q: "What is cash flow?", options: ["The movement of money into and out of a business, the cash on hand right now", "The total number of products", "The number of workers"], answer: 0 },
+          { q: "How can a profitable company still fail?", options: ["If it lacks cash to pay bills while waiting for customers to pay", "It cannot fail if profitable", "Only if it has too much cash"], answer: 0 },
+          { q: "What do wise owners do about cash flow?", options: ["Watch it closely and try to make money come in about as fast as it goes out", "Ignore it completely", "Spend all their cash at once"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0921-2",
+        title: "What Is 'the Cloud'?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "People often say their photos are \"in the cloud,\" or that a company runs its software \"on the cloud.\" It sounds mysterious, as if our data floats somewhere in the sky. But the cloud is not in the sky at all. It is a simple, powerful idea about where computing happens.\n\nIn the past, if you wanted to store files or run a program, you needed a computer of your own that was strong enough to do the job. The cloud changes this. Instead of doing everything on your own device, you use powerful computers owned by a company, reached over the internet. Your photos, files, or programs actually live in large buildings full of computers, called data centers, often far away.\n\nWhy is this useful? For you, it means your files are safe even if your phone breaks, and you can reach them from any device. For companies, it means they can rent as much computing power as they need, when they need it, instead of buying and caring for their own machines. A small business can suddenly use the same powerful tools as a giant one.\n\nThere are things to consider. You must trust the company to keep your data safe and private, and you need an internet connection to reach it.\n\nSo the cloud is really just other people's computers, shared over the internet — a quiet idea that has changed how the whole world stores and uses information.",
+        summaryJa: "人はよく写真が「クラウドにある」とか、会社がソフトを「クラウドで動かす」と言う。まるでデータが空のどこかに浮かんでいるようで神秘的に聞こえる。だがクラウドは空にはない。計算がどこで起きるかについての単純で強力な考えだ。かつて、ファイルを保存したりプログラムを動かしたりするには、それをこなせるほど強い自分のコンピューターが要った。クラウドはこれを変える。すべてを自分の端末で行う代わりに、ある会社が所有する強力なコンピューターをインターネット越しに使う。写真やファイル、プログラムは実際には、しばしば遠くにある、コンピューターで満ちた大きな建物「データセンター」に置かれている。なぜ便利か。あなたには、電話が壊れてもファイルが安全で、どの端末からも届くことを意味する。企業には、自前の機械を買い世話する代わりに、必要な時に必要なだけ計算力を借りられることを意味する。小さな事業が突然、巨大企業と同じ強力な道具を使える。考慮すべき点もある。データを安全に非公開に保つよう会社を信頼せねばならず、届くにはインターネット接続が要る。だからクラウドは、インターネットで共有される他人のコンピューターにすぎない——世界の情報の蓄え方と使い方を変えた静かな考えだ。",
+        quiz: [
+          { q: "Where is 'the cloud' really?", options: ["In large buildings full of computers called data centers, reached over the internet", "Floating in the sky", "Inside your own phone only"], answer: 0 },
+          { q: "Why is the cloud useful for you?", options: ["Your files stay safe if your device breaks and you can reach them from anywhere", "It makes your phone heavier", "It deletes your files"], answer: 0 },
+          { q: "What must you consider when using the cloud?", options: ["You must trust the company with your data and need an internet connection", "Nothing at all", "That it works without any company"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0921-3",
+        title: "Feeding a Growing World",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "There are now more than eight billion people on Earth, and the number is still rising. Every one of them needs to eat. Producing enough food for everyone, while also caring for the planet, is one of the greatest challenges of our time.\n\nAt first, this may sound simple: just grow more food. But it is not easy. Good farmland and fresh water are limited. Growing more crops can mean cutting down forests or using more chemicals, which harms nature. And as the climate changes, some farms face new droughts, floods, and pests.\n\nThere is also a surprising problem: waste. A shockingly large share of the food the world grows is never eaten. It rots on the way to market, or is thrown away in homes and shops. Reducing this waste could feed many more people without growing a single extra field.\n\nScientists and farmers are working on many answers. Some develop crops that need less water or resist disease. Others find ways to grow food in cities, or to make farming gentler on the soil. Sharing knowledge between countries helps too.\n\nFeeding the world is not only about quantity. It is also about fairness. Today, enough food is grown for everyone, yet many still go hungry because they cannot reach or afford it.\n\nSolving this will take science, cooperation, and care. But few goals are more worthy than making sure every person on the planet has enough to eat.",
+        summaryJa: "今、地球には80億人以上がいて、その数はなお増えている。誰もが食べる必要がある。地球を大切にしつつ皆に十分な食料を作ることは、現代の最大の難題の一つだ。一見、単純に聞こえるかもしれない。もっと作ればいい、と。だが容易ではない。良い農地と真水は限られている。作物を増やすことは森を切ったり化学物質を多く使ったりを意味しうて、自然を害する。気候が変わるにつれ、新たな干ばつや洪水、害虫に直面する農場もある。意外な問題もある。廃棄だ。世界が育てる食料の驚くほど大きな割合が決して食べられない。市場へ運ぶ途中で腐り、家庭や店で捨てられる。この廃棄を減らせば、畑を一つも増やさずに多くの人を養える。科学者や農家は多くの答えに取り組む。水が少なくて済む、あるいは病気に強い作物を開発する人もいる。都市で食料を育てたり、土に優しい農法を見つけたりする人もいる。国同士の知識共有も助ける。世界を養うのは量だけの話ではない。公正さの話でもある。今日、皆に十分な食料が育てられているのに、届かず買えないために多くが飢えている。解決には科学、協力、心配りが要る。だが、地球の全ての人が十分食べられるようにすることほど価値ある目標は少ない。",
+        quiz: [
+          { q: "Why is growing more food not simple?", options: ["Farmland and water are limited, and growing more can harm nature", "Because food grows by itself easily", "Because no one is hungry"], answer: 0 },
+          { q: "What surprising problem could feed more people if solved?", options: ["Food waste — much food is grown but never eaten", "Too many farms", "Too much rain everywhere"], answer: 0 },
+          { q: "Why do many people still go hungry today?", options: ["Enough food is grown, but many cannot reach or afford it", "Because no food exists", "Because people refuse to eat"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0921-4",
+        title: "Sumo: Japan's Ancient Sport",
+        level: "★★☆",
+        genre: "日本",
+        text: "In a ring of clay, two very large men in simple belts face each other. They crouch, stare, and then rush together with a great clash. In just a few seconds, one pushes the other out of the ring or makes him touch the ground. This is sumo, Japan's oldest and most famous traditional sport.\n\nSumo has been part of Japanese culture for many centuries, and it began partly as a religious ceremony. Even today, the sport is full of tradition. Before a match, the wrestlers throw salt into the ring to purify it, and they perform slow, careful movements that are hundreds of years old. The referee wears clothing from an earlier age.\n\nThe rules are simple, which is part of the beauty. A wrestler loses if any part of his body except the soles of his feet touches the ground, or if he steps outside the ring. Because of this, a match can end in an instant, yet each one is full of power and skill.\n\nThe wrestlers, called \"rikishi,\" live a hard and disciplined life. They train for many hours, eat special meals to grow strong, and follow strict rules of behavior. Reaching the top rank is a great honor.\n\nSumo is more than a sport. It is a living link to Japan's past, mixing athletic power with deep tradition and respect. In a fast-changing world, it carries ancient customs proudly into the present day.",
+        summaryJa: "土の土俵で、簡素なまわしをつけた二人の非常に大きな男が向き合う。しゃがみ、にらみ合い、大きな衝突とともにぶつかる。わずか数秒で、一方が他方を土俵の外へ押し出すか、地面に触れさせる。これが相撲、日本最古で最も有名な伝統的スポーツだ。相撲は何世紀も日本文化の一部で、一部は宗教的な儀式として始まった。今日でもこのスポーツは伝統に満ちている。取組の前、力士は土俵を清めるため塩をまき、何百年も前からのゆっくり丁寧な所作を行う。行司は昔の時代の装束をまとう。規則が単純なのも美しさの一部だ。足の裏以外の体の一部が地面に触れるか、土俵の外に出れば負けだ。だから取組は一瞬で終わりうるが、一つ一つが力と技に満ちている。力士と呼ばれる者は、厳しく規律ある生活を送る。何時間も稽古し、強くなるため特別な食事をとり、厳しい行動規範に従う。最高位に達するのは大きな名誉だ。相撲はスポーツ以上のものだ。日本の過去への生きたつながりで、運動の力と深い伝統、敬意を混ぜ合わせる。速く変わる世界で、古い習わしを誇り高く現代へ運んでいる。",
+        quiz: [
+          { q: "How does a sumo wrestler win a match?", options: ["By pushing the other out of the ring or making him touch the ground", "By running the fastest lap", "By scoring goals"], answer: 0 },
+          { q: "What tradition do wrestlers perform before a match?", options: ["They throw salt into the ring to purify it", "They sing a song", "They eat a meal in the ring"], answer: 0 },
+          { q: "What is sumo described as, beyond a sport?", options: ["A living link to Japan's past, mixing power with tradition and respect", "A modern video game", "A type of dance only"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0921-5",
+        title: "Why We Have Seasons",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "In many parts of the world, the year moves through four seasons: warm summers, cold winters, and the gentle change of spring and autumn. Have you ever wondered what causes them? Many people guess that summer comes when the Earth is closer to the sun, but the real reason is more surprising.\n\nThe Earth travels around the sun once a year, but it does not sit perfectly upright. Instead, it is tilted a little to one side, like a spinning top leaning as it turns. This small tilt is the true cause of the seasons.\n\nBecause of the tilt, different parts of the Earth lean toward the sun at different times of the year. When your part of the world is tilted toward the sun, its rays hit more directly and the days are longer. That is summer. Six months later, your part is tilted away, the sun's rays are weaker and more slanted, and the days are shorter. That is winter.\n\nThis also explains a curious fact: when it is summer in the northern half of the Earth, it is winter in the southern half, and the other way around. The two halves lean in opposite directions.\n\nSo the seasons are not caused by distance from the sun, but by a small, steady tilt. Because of this gentle lean, our planet gives us the rich, changing rhythm of the year — a quiet piece of astronomy we feel every single day.",
+        summaryJa: "世界の多くの地域で、一年は四季をめぐる。暖かい夏、寒い冬、そして春と秋の穏やかな移ろいだ。何が季節を起こすのか、考えたことはあるだろうか。多くの人は、地球が太陽に近いとき夏が来ると思うが、本当の理由はもっと意外だ。地球は一年に一度太陽の周りを回るが、完全にまっすぐには立っていない。回りながら傾くコマのように、少し一方に傾いている。この小さな傾きが季節の真の原因だ。傾きのため、地球の異なる部分が一年の異なる時期に太陽の方へ傾く。あなたの地域が太陽の方へ傾くと、光がより真っすぐ当たり、日は長くなる。それが夏だ。半年後、あなたの地域は反対へ傾き、太陽の光は弱く斜めになり、日は短くなる。それが冬だ。これは不思議な事実も説明する。地球の北半分が夏のとき、南半分は冬で、その逆もそうだ。二つの半分は反対の方向に傾いている。だから季節は太陽からの距離でなく、小さく一定の傾きによって起きる。この穏やかな傾きのおかげで、私たちの惑星は豊かで移ろう一年の律動を与えてくれる。毎日感じている静かな天文学の一片だ。",
+        quiz: [
+          { q: "What really causes the seasons?", options: ["The Earth's small tilt as it travels around the sun", "The Earth moving closer to the sun in summer", "The sun growing hotter"], answer: 0 },
+          { q: "Why is it summer when your part of the Earth is tilted toward the sun?", options: ["The sun's rays hit more directly and the days are longer", "The sun disappears", "The Earth stops moving"], answer: 0 },
+          { q: "What curious fact does the tilt explain?", options: ["When it is summer in the north, it is winter in the south, and the other way around", "That seasons never change", "That both halves are always the same"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-20",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What are the daily rises and falls of the sea called?", options: ["Tides", "Waves only", "Rivers"], answer: 0 },
           { q: "What mainly causes the tides?", options: ["The moon's gravity pulling on the Earth's oceans", "The wind alone", "Boats moving the water"], answer: 0 },
           { q: "When do the tides become especially large?", options: ["When the sun and moon line up so their pulls combine", "When the moon disappears", "When there is no sun"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-14",
-    passages: [
-      {
-        id: "d0914-1",
-        title: "Why Reliability Wins in Business",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "In business, people often chase big, exciting ideas: a clever product, a brilliant advertisement, or a bold new plan. These matter, of course. But one of the most powerful advantages a company or a worker can have is far quieter. It is reliability — simply doing what you promised, when you promised it.\n\nWhy is reliability so valuable? Because it builds trust, and trust is the foundation of every business relationship. A supplier who always delivers on time, a worker who always finishes their tasks, or a shop that is always open when it says it will be — these earn something priceless: the confidence of others.\n\nUnreliable behavior, on the other hand, is expensive. A late delivery can stop a whole factory. A broken promise can cost a customer forever. Even one missed deadline can make people wonder whether they can depend on you again.\n\nBeing reliable is not glamorous. It means keeping careful track of your promises, being honest about what you can do, and following through even when it is difficult. It often means saying \"no\" to things you cannot deliver, rather than saying \"yes\" and failing.\n\nOver time, reliability quietly builds a strong reputation. People choose to work with those they can count on. In a world full of exciting promises, the person who simply keeps their word may win the greatest prize of all: lasting trust.",
-        summaryJa: "ビジネスでは、人はしばしば大きくわくわくする着想を追う。巧みな製品、見事な広告、大胆な新計画だ。もちろん大切だ。だが企業や働く人が持てる最も強力な強みの一つは、はるかに静かだ。信頼性——約束したことを、約束した時に、ただ行うことだ。なぜ信頼性はそれほど価値があるのか。信頼を築き、信頼はあらゆるビジネス関係の土台だからだ。常に時間通り納品する供給者、常に仕事を仕上げる働き手、言った通りに常に開いている店——これらは値の付けられないもの、他者の信用を得る。逆に、不確実な振る舞いは高くつく。納品の遅れは工場全体を止めうる。破られた約束は客を永遠に失わせうる。一度の締切遅れでも、また頼れるか疑わせる。信頼性は華やかではない。約束を丁寧に管理し、できることに正直で、困難でもやり遂げることだ。できないことに「はい」と言って失敗するより「いいえ」と言うことも多い。時とともに信頼性は静かに強い評判を築く。人は頼れる相手と働くことを選ぶ。わくわくする約束にあふれた世界で、ただ約束を守る人が最大の褒美——長く続く信頼——を得るかもしれない。",
-        quiz: [
-          { q: "What quiet advantage does the passage focus on?", options: ["Reliability — doing what you promised, when you promised it", "Making the loudest advertisement", "Having the biggest office"], answer: 0 },
-          { q: "Why is reliability so valuable?", options: ["It builds trust, the foundation of every business relationship", "It makes work more exciting", "It has no real effect"], answer: 0 },
-          { q: "What does being reliable often mean?", options: ["Saying 'no' to things you cannot deliver, rather than 'yes' and failing", "Promising everything to everyone", "Ignoring your promises"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0914-2",
-        title: "How Your Device Understands Your Voice",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "You speak to your phone, and it answers. You ask a small speaker to play a song, and music fills the room. This everyday magic depends on a technology called speech recognition — the ability of a machine to turn the sounds of your voice into words it can act upon.\n\nThe process happens in a few quick steps. First, a microphone captures your voice as a pattern of sound waves. The device then breaks this sound into tiny pieces and looks for the basic units of speech within it. Using models trained on huge amounts of recorded speech, it guesses which words you most likely said.\n\nThis is harder than it sounds. People speak at different speeds, with different accents, and often in noisy places. The same word can sound quite different from one person to another. Modern systems handle this by learning from millions of examples, slowly becoming better at understanding the messy, varied way humans really talk.\n\nOnce the words are recognized, the device must also understand what you want. If you say, \"What's the weather?\", it must know to check the forecast, not to search for a song. This second step, understanding meaning, is a whole challenge of its own.\n\nSpeech recognition is now good enough to be genuinely useful, though far from perfect. It still stumbles on unusual names or heavy noise. Yet with each year, machines grow a little better at the very human act of listening.",
-        summaryJa: "電話に話しかけると答え、小さなスピーカーに曲を頼むと音楽が部屋を満たす。この日常の魔法は「音声認識」という技術に頼る。機械が声の音を、行動できる言葉に変える能力だ。処理はいくつかの素早い段階で起きる。まずマイクが声を音波の模様として捉える。次に装置はその音を小さな断片に分け、その中に話し言葉の基本単位を探す。大量の録音音声で訓練された模型を使い、最も言ったであろう言葉を推測する。これは聞こえるより難しい。人は速さも訛りも異なり、しばしば騒がしい場所で話す。同じ語も人によってかなり違って聞こえる。現代の系は何百万もの例から学び、人が実際に話す雑多で多様な仕方を次第によく理解する。語を認識したら、装置は何を望むかも理解せねばならない。「天気は？」と言えば、曲を探すのでなく予報を確認すると分からねばならない。この意味理解という第二段階は、それ自体が大きな課題だ。音声認識は今や本当に役立つほど良いが、完璧には程遠い。珍しい名前や強い騒音でつまずく。それでも年々、機械は「聞く」という実に人間的な行為が少しずつ上達している。",
-        quiz: [
-          { q: "What is speech recognition?", options: ["A machine's ability to turn the sounds of your voice into words", "A way to make phones louder", "A type of music"], answer: 0 },
-          { q: "Why is understanding speech hard for machines?", options: ["People speak at different speeds, with different accents, and in noisy places", "Because everyone speaks exactly the same", "Because machines cannot hear at all"], answer: 0 },
-          { q: "After recognizing the words, what must the device also do?", options: ["Understand what you want, such as checking the weather", "Immediately turn off", "Forget the words"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0914-3",
-        title: "The Box That Changed the World",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Look at any large port, and you will see thousands of steel boxes, all the same size, stacked like giant bricks. These are shipping containers. They may look boring, but this simple invention quietly changed the whole world's economy.\n\nBefore the container, loading a ship was slow, costly, and messy. Goods came in barrels, sacks, and boxes of every shape. Workers had to load each item by hand, which took days and often led to damage or theft. Shipping was so expensive that many products were simply not worth sending far away.\n\nThen, decades ago, someone had a simple idea: put everything into standard steel boxes that can be sealed, stacked, and moved by machine. A crane can lift a full container from a ship straight onto a truck or train in minutes. Suddenly, moving goods across the world became fast, safe, and cheap.\n\nThe effects were enormous. Because shipping became so cheap, factories could be built far from their customers, and products could be made wherever it was most efficient. The clothes, phones, and food in your home have likely traveled the world inside these plain metal boxes.\n\nThe shipping container is a perfect example of how a simple, unglamorous idea can reshape everything. It reminds us that some of the most powerful inventions are not the flashiest ones, but the quiet tools that make everything else possible.",
-        summaryJa: "大きな港を見ると、同じ大きさの何千もの鉄の箱が巨大なレンガのように積まれている。これが海上輸送コンテナだ。退屈に見えるが、この単純な発明は世界経済全体を静かに変えた。コンテナ以前、船への積み込みは遅く、費用がかさみ、雑然としていた。荷は樽や袋、あらゆる形の箱で来た。作業員は一つ一つ手で積まねばならず、何日もかかり、破損や盗難も多かった。輸送は高価で、多くの製品は遠くへ送る価値がなかった。数十年前、誰かが単純な考えを持った。すべてを、密封し積み重ね機械で動かせる標準の鉄の箱に入れる、というものだ。クレーンは満載のコンテナを船から直接トラックや列車へ数分で載せられる。突然、世界中へ荷を運ぶことが速く安全で安くなった。影響は甚大だった。輸送が安くなったため、工場は客から遠くに建てられ、製品は最も効率的な場所で作れるようになった。家の衣類や電話、食べ物は、たいていこの地味な金属の箱の中で世界を旅してきた。コンテナは、単純で地味な着想がすべてを作り変えうる好例だ。最も強力な発明は派手なものでなく、他のすべてを可能にする静かな道具かもしれない。",
-        quiz: [
-          { q: "What was loading a ship like before the container?", options: ["Slow, costly, and messy, with goods loaded by hand", "Fast and cheap", "Done entirely by robots"], answer: 0 },
-          { q: "What was the simple idea behind the container?", options: ["Put everything into standard steel boxes that machines can stack and move", "Use larger sacks", "Stop shipping goods"], answer: 0 },
-          { q: "What large effect did cheap shipping have?", options: ["Factories could be built far from customers, and goods made where most efficient", "All trade stopped", "Products became impossible to move"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0914-4",
-        title: "Origami: The Art of Paper Folding",
-        level: "★★☆",
-        genre: "日本",
-        text: "Take a simple square of paper. With no scissors and no glue, only careful folds, you can turn it into a crane, a flower, a box, or a jumping frog. This is origami, the Japanese art of paper folding, loved by children and adults alike, in Japan and around the world.\n\nOrigami has a long history in Japan, where paper was once precious and folded shapes were used in ceremonies and gifts. Over time, it grew into both a playful hobby and a serious art. The most famous shape is the paper crane, a symbol of peace and good wishes. There is even a tradition of folding a thousand cranes to wish for health or a dream come true.\n\nPart of the beauty of origami is its simplicity. The rules are strict — usually one square, no cutting — yet within those limits, people have created astonishing designs, from tiny animals to complex geometric patterns. Some modern folders produce works of amazing detail.\n\nOrigami is more than art. It teaches patience and careful attention, as one wrong fold can spoil the whole piece. Surprisingly, its ideas even help science and engineering. Folding methods inspired by origami are used to pack large objects, such as solar panels, into small spaces for space travel.\n\nFrom a child's paper crane to a satellite in orbit, origami shows how a single sheet, folded with care, can hold endless possibility.",
-        summaryJa: "一枚の四角い紙を取る。はさみも糊も使わず、丁寧に折るだけで、鶴や花、箱、跳ねるカエルに変えられる。これが折り紙、日本の紙を折る芸術で、日本でも世界でも子どもにも大人にも愛される。折り紙は日本で長い歴史を持ち、かつて紙は貴重で、折った形は儀式や贈り物に使われた。やがて遊びの趣味にも真剣な芸術にもなった。最も有名な形は折り鶴で、平和と幸いの象徴だ。健康や願いの成就を祈って千羽鶴を折る伝統さえある。折り紙の美しさの一部はその単純さだ。規則は厳しく——ふつう一枚の四角、切らない——が、その制約の中で人は小さな動物から複雑な幾何模様まで驚くべき作品を生んできた。現代の折り手は見事な精緻さの作品を作る。折り紙は芸術以上のものだ。一つの折り間違いが全体を台無しにするので、忍耐と細やかな注意を教える。驚くことに、その発想は科学や工学も助ける。折り紙に着想を得た折り方は、太陽電池パネルなど大きな物を小さな空間に畳んで宇宙へ運ぶのに使われる。子どもの折り鶴から軌道上の衛星まで、丁寧に折られた一枚の紙が無限の可能性を秘めることを折り紙は示す。",
-        quiz: [
-          { q: "What is origami?", options: ["The Japanese art of folding paper, without scissors or glue", "A kind of painting", "A type of dance"], answer: 0 },
-          { q: "What does the paper crane symbolize?", options: ["Peace and good wishes", "Money and power", "Anger"], answer: 0 },
-          { q: "How do origami ideas help science and engineering?", options: ["Folding methods help pack large objects, like solar panels, into small spaces", "They make paper heavier", "They have no real use"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0914-5",
-        title: "Why Do Cats Purr?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "If you have ever held a happy cat, you have probably felt it: a soft, steady rumble deep in its body, called a purr. Most people think a cat purrs only when it is content, curled up warm and safe. But the truth is more surprising, and scientists are still uncovering it.\n\nA purr is made in the cat's throat. Signals from the brain make the muscles of the voice box open and close very quickly, many times each second. As the cat breathes in and out, air passes through, creating that familiar gentle sound. Amazingly, a cat can purr almost without pause, both breathing in and breathing out.\n\nCats do purr when they are happy — while being petted or resting with those they trust. But they also purr at other times. A frightened cat at the vet may purr, and an injured cat may purr while in pain. This has led scientists to a fascinating idea: purring may be a way for a cat to calm itself, or even to help its body heal.\n\nSome researchers believe the gentle vibrations of a purr, at certain low frequencies, might help keep a cat's bones and muscles healthy. If true, a purr would be both a feeling and a kind of self-medicine.\n\nSo a cat's purr is more than a sign of joy. It may be one of nature's quiet, clever tools for comfort and healing.",
-        summaryJa: "幸せな猫を抱いたことがあれば、たぶん感じたことがあるだろう。体の奥の柔らかく一定の響き、「ゴロゴロ」だ。多くの人は、猫は満足して暖かく安全に丸まっている時だけ喉を鳴らすと思う。だが真実はもっと意外で、科学者は今も解明中だ。ゴロゴロは猫の喉で作られる。脳からの信号が声帯の筋肉を毎秒何度も素早く開閉させる。猫が息を吸い吐きする間、空気が通り、あのなじみの穏やかな音が生まれる。驚くことに、猫は吸う時も吐く時もほぼ休みなく喉を鳴らせる。猫は幸せな時——なでられたり信頼する相手と休む時——に喉を鳴らす。だが他の時にも鳴らす。動物病院で怯えた猫が鳴らすこともあり、けがをした猫が痛みの中で鳴らすこともある。ここから科学者は魅力的な考えに至った。ゴロゴロは猫が自分を落ち着かせる方法、あるいは体の治癒を助ける方法かもしれない。ある研究者は、特定の低い周波数のゴロゴロの穏やかな振動が、猫の骨や筋肉の健康維持を助けるかもしれないと考える。本当なら、ゴロゴロは感情であり一種の自己治療でもある。だから猫のゴロゴロは喜びの証以上のものだ。慰めと癒やしのための自然の静かで巧みな道具の一つかもしれない。",
-        quiz: [
-          { q: "How is a purr made?", options: ["Muscles of the voice box open and close very quickly as the cat breathes", "By the cat's tail", "By the cat's stomach only"], answer: 0 },
-          { q: "When do cats purr, according to the passage?", options: ["When happy, but also when frightened or in pain", "Only when they are asleep", "Never when content"], answer: 0 },
-          { q: "What fascinating idea do some scientists have about purring?", options: ["The vibrations might help calm the cat or keep its bones and muscles healthy", "Purring makes cats sick", "Purring is only for show"], answer: 0 }
         ]
       }
     ]
