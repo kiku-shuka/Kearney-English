@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-22",
+    passages: [
+      {
+        id: "d0922-1",
+        title: "How Online Shopping Changed the World",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Twenty years ago, buying something usually meant going to a shop. Today, with a few taps on a phone, we can order almost anything and have it arrive at our door in days, or even hours. This is online shopping, or \"e-commerce,\" and it has quietly transformed how the world buys and sells.\n\nFor customers, the benefits are clear. You can shop at any hour, compare prices in seconds, and read what other buyers thought before deciding. A person in a small town can buy goods from around the world, without ever leaving home. Choice has grown enormous.\n\nFor businesses, online selling opened new doors. A tiny company can now reach customers across a whole country or beyond, without the cost of a physical shop. Some businesses exist only online, run from a single room.\n\nBut the change has a harder side too. As people shop online, many traditional shops on the high street have struggled, and some have closed. Delivering countless small packages also creates traffic and waste that must be managed.\n\nBehind the simple click lies a huge, hidden machine: warehouses, delivery trucks, and computer systems working together to move goods quickly and cheaply.\n\nOnline shopping is now a normal part of life. Like most big changes, it brings both convenience and challenges. The task ahead is to enjoy its benefits while caring for the workers, shops, and environment that all this buying depends on.",
+        summaryJa: "20年前、何かを買うとは普通、店に行くことだった。今は電話を数回タップすれば、ほぼ何でも注文でき、数日、時に数時間で玄関に届く。これがオンラインショッピング(電子商取引)で、世界の売買のあり方を静かに変えた。客には利点が明確だ。いつでも買い物でき、数秒で価格を比べ、決める前に他の買い手の感想を読める。小さな町の人が家を出ずに世界中の品を買える。選択肢は途方もなく増えた。企業にはオンライン販売が新しい扉を開いた。小さな会社も、実店舗の費用なしに国全体やその先の客に届ける。オンラインだけで、一部屋から運営される事業もある。だが変化にはより厳しい面もある。人がオンラインで買うにつれ、商店街の多くの伝統的な店が苦しみ、閉じた店もある。無数の小包の配達は、管理すべき渋滞や廃棄も生む。単純なクリックの裏に巨大な隠れた機械がある。倉庫、配送トラック、コンピューターの仕組みが協力し、速く安く品を動かす。オンラインショッピングは今や暮らしの当たり前の一部だ。多くの大きな変化と同じく、便利さと課題の両方をもたらす。これから大切なのは、利点を享受しつつ、この買い物が頼る労働者や店、環境を大切にすることだ。",
+        quiz: [
+          { q: "What is one benefit of online shopping for customers?", options: ["Shopping at any hour, comparing prices, and reading reviews before deciding", "Being forced to visit every shop", "Having fewer choices"], answer: 0 },
+          { q: "How did online selling help small businesses?", options: ["They can reach customers far away without the cost of a physical shop", "It made shops much more expensive", "It stopped them from selling"], answer: 0 },
+          { q: "What is one harder side of the change?", options: ["Many traditional shops have struggled or closed, and deliveries create waste", "Everything became free", "Nothing changed at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0922-2",
+        title: "How 3D Printers Make Things",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "An ordinary printer puts ink on paper to make words and pictures — flat, two-dimensional shapes. A 3D printer does something far more amazing: it builds solid, three-dimensional objects that you can hold in your hand. But how can a machine create a real object out of almost nothing?\n\nThe secret is building up in thin layers. First, a designer creates a model of the object on a computer. The 3D printer then slices this model into hundreds or thousands of very thin, flat layers, like the pages of a book. The printer makes the object one layer at a time, adding material and slowly stacking the layers until the whole shape is complete.\n\nThe material is often a special plastic, melted so it can be squeezed out in fine lines, then cooling and hardening in place. Other printers use powders, resins, or even metal. Layer by layer, a flat design rises into a solid thing.\n\nThe uses are remarkable. Doctors can print models of a patient's body to plan surgery. Engineers can quickly make and test a new part before building it for real. Some printers make toys, tools, or spare parts at home, and larger ones can even help build houses.\n\nThere are limits: printing can be slow, and the objects are not always strong. But the idea is powerful. With a 3D printer, a design on a screen can become a real object — turning imagination into something you can truly touch.",
+        summaryJa: "普通のプリンターは紙にインクを載せて文字や絵を作る——平らな二次元の形だ。3Dプリンターははるかに驚くべきことをする。手に持てる立体の物を作るのだ。だが機械はどうして、ほぼ無から本物の物を作れるのか。秘密は薄い層を積み上げることだ。まず設計者がコンピューターで物の模型を作る。3Dプリンターはこの模型を、本のページのように何百、何千もの非常に薄い平らな層に切り分ける。プリンターは一度に一層ずつ物を作り、材料を加え、形全体が完成するまで層をゆっくり重ねる。材料はしばしば特別なプラスチックで、細い線で押し出せるよう溶かし、その場で冷えて固まる。粉や樹脂、金属を使うプリンターもある。層を重ね、平らな設計が立体の物へと立ち上がる。用途は目覚ましい。医師は手術の計画のため患者の体の模型を印刷できる。技術者は本番の前に新しい部品を素早く作り試せる。家庭で玩具や工具、交換部品を作るプリンターもあり、大型のものは家づくりさえ助ける。限界もある。印刷は遅く、物は必ずしも丈夫でない。だが考えは強力だ。3Dプリンターで、画面上の設計が本物の物になる——想像を、本当に触れられるものに変える。",
+        quiz: [
+          { q: "How does a 3D printer build an object?", options: ["By building up thin layers, one at a time, until the shape is complete", "By carving a block of stone", "By drawing on paper only"], answer: 0 },
+          { q: "What material do many 3D printers use?", options: ["A special plastic, melted and squeezed out, then cooling and hardening", "Only water", "Only paper"], answer: 0 },
+          { q: "What is one remarkable use of 3D printing?", options: ["Doctors can print body models to plan surgery, and engineers test new parts", "It can only make flat pictures", "It has no real uses"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0922-3",
+        title: "The World's Plastic Problem",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Plastic is one of the most useful materials ever made. It is light, cheap, strong, and can be shaped into almost anything, from bottles to toys to car parts. But this very usefulness has created a serious problem: the world now produces far more plastic than it can safely deal with.\n\nThe trouble is that most plastic does not break down. A plastic bottle thrown away today may still be here in hundreds of years. Much of it ends up in rivers and oceans, where it harms fish, birds, and other animals that mistake it for food. Over time, plastic breaks into tiny pieces that spread everywhere — even into the water we drink and the air we breathe.\n\nBecause plastic travels across borders on wind and water, no single country can solve the problem alone. So nations, companies, and ordinary people around the world are working together in many ways. Some countries have banned the thinnest, most wasteful plastic bags. Companies are designing packaging that can be reused or recycled. Scientists are inventing new materials that break down safely.\n\nEach person can help too, by using less throwaway plastic and recycling what they can.\n\nThe goal is not to ban plastic entirely — it is far too useful for that. The goal is to be wiser: to use it where it truly helps, waste less of it, and make sure it does not end up harming the living world we all share.",
+        summaryJa: "プラスチックは、これまで作られた中で最も有用な素材の一つだ。軽く、安く、丈夫で、瓶から玩具、車の部品までほぼ何にでも成形できる。だがこの有用さ自体が深刻な問題を生んだ。世界は今、安全に処理できるよりはるかに多くのプラスチックを作っている。問題は、多くのプラスチックが分解しないことだ。今日捨てた瓶が何百年も残りうる。その多くは川や海に行き着き、食べ物と間違える魚や鳥、他の動物を害する。時とともにプラスチックは小さな粒に砕け、至る所——飲む水や吸う空気にまで広がる。プラスチックは風や水で国境を越えるので、一国では解決できない。だから世界中の国や企業、普通の人々が多くの方法で協力している。最も薄く無駄なレジ袋を禁じた国もある。企業は再利用や再生できる包装を設計している。科学者は安全に分解する新素材を発明している。各人も、使い捨てプラスチックを減らし、できるものを再生して助けられる。目標はプラスチックを完全に禁じることではない——それには有用すぎる。目標はより賢くなることだ。本当に役立つ所で使い、無駄を減らし、皆で分かち合う生き物の世界を害さないようにすることだ。",
+        quiz: [
+          { q: "Why is plastic a serious problem?", options: ["Most plastic does not break down and can last for hundreds of years", "It disappears in a day", "It is too weak to use"], answer: 0 },
+          { q: "Why can't one country solve the plastic problem alone?", options: ["Plastic travels across borders on wind and water", "Because only one country uses plastic", "Because plastic cannot move"], answer: 0 },
+          { q: "What is the goal, according to the passage?", options: ["Not to ban plastic entirely, but to use it wisely and waste less", "To make much more plastic", "To ignore the problem"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0922-4",
+        title: "Hanko: Japan's Personal Seals",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, you sign your name to approve an important document. In Japan, people often do something different: they press a small stamp, called a \"hanko,\" onto the paper, leaving a round mark in red ink. For a long time, this personal seal has carried the same weight as a signature.\n\nA hanko is usually a small cylinder, often made of wood, stone, or plastic, with a person's name carved into one end. When pressed onto an ink pad and then onto paper, it prints the name in a neat circle. Many people own more than one: a simple hanko for everyday use, and a more important, officially registered one for serious matters like buying a house or opening a bank account.\n\nThe custom is very old and is tied to ideas of trust and responsibility. Using your hanko means, \"I agree, and I take responsibility for this.\" Because a registered seal is so important, people keep it in a safe place and never lend it to others.\n\nIn recent years, Japan has begun to move away from the hanko for many everyday tasks, especially as more business is done online. Some argue the old custom slows things down; others feel it is a meaningful tradition worth keeping.\n\nWhatever its future, the hanko remains a small, beautiful symbol of a person's word — a tiny red circle standing for trust, agreement, and personal responsibility.",
+        summaryJa: "多くの国では、重要な書類を承認するのに名前を署名する。日本では、人はしばしば違うことをする。「判子(はんこ)」という小さな印を紙に押し、赤いインクで丸い印を残すのだ。長い間、この個人の印は署名と同じ重みを持ってきた。判子は普通、木や石、プラスチック製の小さな円柱で、一端に人の名が彫られている。朱肉につけて紙に押すと、名がきれいな円で印される。多くの人は複数持つ。日常用の簡単な判子と、家の購入や銀行口座の開設など重要な事柄用の、公的に登録されたより大切なものだ。この習慣は非常に古く、信頼と責任の考えに結びつく。判子を使うことは「私は同意し、これに責任を持つ」を意味する。登録印はとても重要なので、人は安全な場所に保管し、決して他人に貸さない。近年、日本は多くの日常の手続きで判子から離れ始めている。特にオンラインの取引が増えるにつれてだ。古い習慣は物事を遅くすると言う人もいれば、守る価値のある意味深い伝統だと感じる人もいる。未来がどうあれ、判子は人の言葉の小さく美しい象徴であり続ける。信頼、同意、個人の責任を表す小さな赤い円だ。",
+        quiz: [
+          { q: "What is a 'hanko'?", options: ["A small stamp with a person's name, used like a signature", "A type of pen", "A kind of paper"], answer: 0 },
+          { q: "Why do people keep a registered hanko in a safe place?", options: ["Because it is very important and stands for their agreement and responsibility", "Because it is worthless", "Because it is very large"], answer: 0 },
+          { q: "Why is Japan moving away from the hanko for some tasks?", options: ["More business is done online, and some feel the custom slows things down", "Because signatures are illegal", "Because no one uses documents"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0922-5",
+        title: "Concrete That Cleans the Air",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Concrete is all around us. It forms our roads, bridges, and buildings, and it is the most widely used building material on Earth. But making concrete has a hidden cost: the process releases a large amount of the gas that warms our planet. Now, scientists are working on a surprising idea — concrete that can actually help clean the air instead.\n\nThe problem starts with cement, the powder that holds concrete together. Making cement requires great heat and releases carbon dioxide, a gas that traps warmth in the atmosphere. Because the world uses so much concrete, this adds up to a huge share of the world's harmful emissions.\n\nResearchers have found ways to make new kinds of concrete that are both stronger and able to absorb carbon dioxide from the air as they harden and age. In effect, the concrete acts a little like a sponge, soaking up some of the very gas that its making produced. Some new mixtures also use waste materials, reducing the need for fresh cement.\n\nIf such concrete can be made cheaply and used widely, the benefits could be enormous. Imagine roads and buildings that quietly help clean the air for years, simply by existing.\n\nThe research is still developing, and it will take time to prove these materials are safe and strong enough for everyday use. But the idea points to a hopeful future — one where the very things we build might help heal the planet, not harm it.",
+        summaryJa: "コンクリートは私たちの周りに満ちている。道路や橋、建物を形づくり、地球で最も広く使われる建材だ。だがコンクリート作りには隠れた代償がある。その過程で地球を温める気体が大量に放たれる。今、科学者は意外な考えに取り組んでいる。むしろ空気を浄化する助けになりうるコンクリートだ。問題はセメント、コンクリートをまとめる粉から始まる。セメント作りは大きな熱を要し、大気に温もりを閉じ込める気体である二酸化炭素を放つ。世界はコンクリートを非常に多く使うので、これが世界の有害な排出の大きな割合に積み重なる。研究者は、より丈夫で、かつ固まり古くなるにつれ空気中の二酸化炭素を吸収できる新種のコンクリートの作り方を見つけた。実質、コンクリートがスポンジのように働き、その製造が生んだまさにその気体の一部を吸い取る。廃材を使い、新しいセメントの必要を減らす新しい配合もある。もしこうしたコンクリートを安く広く作れれば、恩恵は甚大でありうる。ただ存在するだけで何年も静かに空気を浄化する道路や建物を想像してほしい。研究はまだ発展途上で、日常使用に安全で丈夫だと証明するには時間がかかる。だがこの考えは希望に満ちた未来を指す。私たちが建てるもの自体が、地球を害さず癒す助けになるかもしれない未来だ。",
+        quiz: [
+          { q: "What hidden cost does making concrete have?", options: ["The process releases a large amount of gas that warms the planet", "It uses no energy at all", "It cleans the air by itself already"], answer: 0 },
+          { q: "What can the new kinds of concrete do?", options: ["Be stronger and absorb carbon dioxide from the air as they harden and age", "Melt in the rain", "Disappear over time"], answer: 0 },
+          { q: "Why is the research still developing?", options: ["It takes time to prove the materials are safe and strong enough for everyday use", "Because concrete is never used", "Because it is already finished"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-21",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is remarkable about fingerprints?", options: ["No two people have exactly the same pattern, not even identical twins", "Everyone has the same fingerprint", "They change every year"], answer: 0 },
           { q: "Why might we have fingerprint ridges?", options: ["They may help grip objects and make touch more sensitive", "They make hands heavier", "They have no possible use"], answer: 0 },
           { q: "Why have fingerprints become a way to tell people apart?", options: ["Each one is unique and stays the same for life", "Because they all look alike", "Because they disappear quickly"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-15",
-    passages: [
-      {
-        id: "d0915-1",
-        title: "Why Companies Study Their Competitors",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "No business exists alone. For almost every product or service, there are rival companies trying to win the same customers. Because of this, smart companies spend real time and effort studying their competitors. This practice can be one of the most useful habits in business.\n\nWhy look at your rivals so closely? First, to learn. A competitor may have found a clever way to lower costs, please customers, or reach new markets. By watching carefully, a company can learn from others' successes without paying the price of every mistake itself.\n\nStudying rivals also helps a company understand its own strengths and weaknesses. When you compare your product to another, you see clearly where you are ahead and where you are falling behind. This honest view is hard to get by looking only at yourself.\n\nThere is a warning, however. Watching competitors too closely can become a trap. A company that only copies others will always be one step behind, and may forget what makes it special. The best companies learn from rivals but still follow their own vision.\n\nGood competitor study is fair and honest. It means reading public information, trying products openly, and listening to customers — not stealing secrets. In the end, competitors are not only a threat. They are also teachers, pushing every company to keep improving, which in the end is good for customers too.",
-        summaryJa: "一つで存在する事業はない。ほぼすべての製品やサービスに、同じ客を得ようとする競合企業がいる。だから賢い企業は競合を研究するのに実際の時間と労力を費やす。これはビジネスで最も有用な習慣の一つになりうる。なぜ競合をそれほど注意深く見るのか。第一に学ぶためだ。競合はコスト削減や顧客満足、新市場開拓の巧みな方法を見つけたかもしれない。注意深く見れば、あらゆる失敗の代償を自ら払わずに他者の成功から学べる。競合研究は自社の強みと弱みの理解も助ける。自社製品を他と比べると、どこで先行しどこで遅れているかが明確に見える。この正直な視点は自分だけを見ていては得にくい。ただし警告もある。競合を見すぎると罠になりうる。他者を真似るだけの企業は常に一歩遅れ、自社の特別さを忘れかねない。最良の企業は競合から学びつつ自らの理念に従う。良い競合研究は公正で正直だ。公開情報を読み、製品を公然と試し、客の声を聞くことで、秘密を盗むことではない。競合は脅威だけでなく、各企業を改善へ押しやる教師でもあり、結局は客のためにもなる。",
-        quiz: [
-          { q: "Why do smart companies study their competitors?", options: ["To learn from others' successes without paying for every mistake themselves", "To copy them exactly forever", "To ignore their own customers"], answer: 0 },
-          { q: "How does studying rivals help a company see itself?", options: ["It reveals its own strengths and weaknesses more clearly", "It hides all its weaknesses", "It has no effect on self-knowledge"], answer: 0 },
-          { q: "What warning does the passage give?", options: ["A company that only copies others will always be one step behind", "You should steal your rivals' secrets", "You should never look at competitors"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0915-2",
-        title: "AI in the Classroom",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Artificial intelligence is quietly entering schools around the world. Some students now use AI tools to explain difficult ideas, check their writing, or practice a new language. Teachers, too, are testing AI to help plan lessons and mark simple work. This new arrival brings both exciting hopes and serious questions.\n\nThe hopes are real. A good AI tool can act like a patient private tutor, always ready to explain a topic in a new way until it makes sense. It can give each student attention that is hard to provide in a class of thirty. For a learner who is shy or falling behind, this gentle, private help can be a gift.\n\nBut there are worries too. If students let AI do their thinking for them, they may not truly learn. The goal of school is to build strong minds, not just to produce finished answers. Teachers must guide students to use these tools as helpers, not as shortcuts that skip the effort of learning.\n\nThere is also the question of data. To help a student, an AI system may collect information about them. Schools and companies must protect this data carefully, especially since the students are often children.\n\nUsed wisely, AI could make learning richer and fairer, reaching students who need extra help. Used carelessly, it could weaken the very skills school is meant to build. The tool is powerful; how we use it will decide whether it truly helps.",
-        summaryJa: "人工知能(AI)が世界中の学校に静かに入りつつある。難しい考えの説明や作文の確認、新しい言語の練習にAIを使う生徒もいる。教師も授業計画や簡単な採点にAIを試している。この新参者は、わくわくする希望と深刻な問いの両方をもたらす。希望は本物だ。良いAIは、分かるまで新しい仕方で説明する辛抱強い家庭教師のように働ける。30人の教室では難しい個別の注意を各生徒に与えられる。内気だったり遅れたりする学習者には、この優しく私的な助けは贈り物になりうる。だが懸念もある。生徒がAIに考えを任せると、真に学べないかもしれない。学校の目的は完成した答えを作ることでなく強い頭脳を育てることだ。教師は、学びの労を飛ばす近道でなく助けとして使うよう導かねばならない。データの問題もある。生徒を助けるためAIは情報を集めうる。特に生徒はしばしば子どもなので、学校と企業はこのデータを慎重に守らねばならない。賢く使えばAIは学びを豊かで公正にし、助けの要る生徒に届きうる。不注意に使えば、学校が育てるべき技能を弱めうる。道具は強力で、使い方が本当に役立つかを決める。",
-        quiz: [
-          { q: "How can a good AI tool help a student?", options: ["Like a patient tutor, explaining a topic in new ways and giving individual attention", "By doing all the homework so students never think", "By replacing the school entirely"], answer: 0 },
-          { q: "What is the main worry about students using AI?", options: ["If AI does their thinking, they may not truly learn", "That it is too boring", "That it makes school too easy to enjoy"], answer: 0 },
-          { q: "Why must student data be protected especially carefully?", options: ["Because the students are often children", "Because data is worthless", "Because schools never use computers"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0915-3",
-        title: "A World Growing Older",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Something remarkable is happening to the human family: on average, we are getting older. In many countries, people are living longer than ever before, while families are choosing to have fewer children. As a result, the share of older people in the world is steadily rising. This quiet change will shape life for everyone in the coming decades.\n\nThe reasons behind it are mostly good news. Better food, cleaner water, and improved medicine mean that people survive illnesses that once ended lives early. Living into one's eighties or nineties, once rare, is becoming common in many places.\n\nBut an older world brings real challenges. With fewer young workers and more retired people, countries must think carefully about how to care for everyone. Who will do the work, pay for pensions, and look after those who need help? These are not easy questions.\n\nThere are also opportunities. Older people carry knowledge and experience, and many wish to keep working, learning, and helping others long past the old retirement age. Societies that welcome this can gain a great deal.\n\nDifferent countries are trying many answers: encouraging people to work longer if they wish, supporting families who want children, and building better care for the elderly. There is no single solution.\n\nWhat is certain is that an aging world is not a problem to fear, but a new reality to plan for — wisely, and with respect for every generation.",
-        summaryJa: "人類という家族に驚くべきことが起きている。平均して、私たちは年を取りつつある。多くの国で人はかつてなく長生きし、家族はより少ない子どもを選ぶ。結果、世界の高齢者の割合は着実に上がっている。この静かな変化は、これからの数十年、皆の暮らしを形づくる。背景の理由はおおむね良い知らせだ。より良い食、清潔な水、進歩した医療により、かつて早く命を奪った病を人は生き延びる。80代90代まで生きることは、かつて稀だったが多くの地域で普通になりつつある。だが高齢化した世界は現実の課題も招く。若い働き手が減り退職者が増える中、国は皆をどう支えるか慎重に考えねばならない。誰が働き、年金を賄い、助けの要る人を世話するのか。容易な問いではない。機会もある。高齢者は知識と経験を持ち、多くは旧来の定年をはるかに過ぎても働き学び人を助け続けたいと願う。これを歓迎する社会は多くを得られる。各国は多くの答えを試みる。望む人がより長く働けるよう促し、子を望む家族を支え、高齢者へのより良いケアを築く。唯一の解はない。確かなのは、高齢化する世界は恐れるべき問題でなく、賢く各世代を尊重して備えるべき新しい現実だということだ。",
-        quiz: [
-          { q: "Why is the world's population growing older?", options: ["People live longer thanks to better food, water, and medicine, and families have fewer children", "Because children are no longer born anywhere", "Because medicine has gotten worse"], answer: 0 },
-          { q: "What is one challenge of an older world?", options: ["With fewer young workers and more retired people, caring for everyone is harder", "There is too much work for too many young people", "Nothing changes at all"], answer: 0 },
-          { q: "How does the passage suggest we view an aging world?", options: ["Not as a problem to fear, but a new reality to plan for with respect for every generation", "As a disaster with no solutions", "As something to ignore"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0915-4",
-        title: "Why Japanese People Take Off Their Shoes",
-        level: "★★☆",
-        genre: "日本",
-        text: "If you visit a home in Japan, the first thing you will likely do is take off your shoes. Just inside the door is a small lowered space where shoes are left, and from there you step up into the house in socks or slippers. To many visitors this is surprising, but to people in Japan it is completely natural.\n\nThe custom has practical roots. Streets carry dust and dirt, and leaving shoes at the door keeps the home clean. This matters even more in traditional Japanese houses, where people may sit and even sleep on soft floor mats called tatami. No one wants outdoor dirt where they rest and eat.\n\nBut the habit is about more than cleanliness. Removing your shoes marks a gentle border between the outside world and the private, peaceful space of the home. Stepping out of your shoes is a small way of leaving the busy street behind and entering a calmer place.\n\nThe custom appears in many other spots too. People often remove their shoes in some traditional restaurants, temples, and even certain schools and clinics. Special slippers may be provided, sometimes even a separate pair just for the bathroom.\n\nFor a visitor, following this custom is an easy and welcome sign of respect. Slipping off your shoes at the door is more than a rule of cleaning. It is a quiet daily act that separates rest from the rush of the world outside.",
-        summaryJa: "日本の家を訪ねると、まずすることはたいてい靴を脱ぐことだ。ドアのすぐ内側に靴を置く一段低い小さな空間があり、そこから靴下やスリッパで家に上がる。多くの訪問者には驚きだが、日本の人には全く自然だ。この習慣には実用的な由来がある。通りはほこりや泥を運び、玄関で靴を脱げば家を清潔に保てる。柔らかい床マット「畳」に座り、時に眠る伝統的な日本家屋ではなおさら大切だ。休み食べる場所に外の汚れを持ち込みたい人はいない。だがこの習慣は清潔さ以上のものだ。靴を脱ぐことは、外の世界と家の私的で穏やかな空間との優しい境を示す。靴を脱ぐのは、忙しい通りを後にして、より静かな場所に入る小さな方法だ。この習慣は他の多くの場所にもある。一部の伝統的な料理店や寺、特定の学校や診療所でも靴を脱ぐ。専用のスリッパが用意され、時にトイレ専用の一足まである。訪問者にとって、この習慣に従うのは容易で歓迎される敬意の印だ。玄関で靴を脱ぐことは掃除の規則以上のもので、休息を外の世界の慌ただしさから隔てる、静かな日々の行為だ。",
-        quiz: [
-          { q: "What practical reason is there for removing shoes at the door?", options: ["It keeps the home clean, since streets carry dust and dirt", "It makes shoes last longer", "It is required by law"], answer: 0 },
-          { q: "Beyond cleanliness, what does removing shoes mark?", options: ["A gentle border between the outside world and the private, peaceful home", "The end of the day", "That guests must leave"], answer: 0 },
-          { q: "Where else does this custom appear?", options: ["Some traditional restaurants, temples, and certain schools and clinics", "Only in airports", "Nowhere but private homes"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0915-5",
-        title: "Why the Sea Rises and Falls",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "If you spend a day at the seaside, you may notice something strange. In the morning, the water reaches far up the beach; by afternoon, it has pulled back, leaving wet sand and rock. Then it slowly returns. These daily rises and falls of the sea are called tides, and their cause reaches all the way to the moon.\n\nThe moon, though far away, pulls on the Earth with a force called gravity. This pull is strongest on the side of the Earth facing the moon. There, the ocean water bulges slightly toward the moon, making the sea rise. On the opposite side of the Earth, another bulge forms as well. As the Earth turns each day, different coasts pass through these bulges, and so the tides rise and fall.\n\nThe sun also pulls on the oceans, though less strongly than the closer moon. When the sun and moon line up, their pulls combine, and the tides become especially large. When they sit at right angles, the tides are smaller.\n\nTides matter for many people. Sailors and fishers plan their trips around them, and some coastal creatures live their whole lives to the rhythm of the water. In some places, the rising and falling water is even used to make electricity.\n\nSo the gentle movement of the sea is not random. It is the Earth, the moon, and the sun, quietly dancing together across the sky.",
-        summaryJa: "海辺で一日過ごすと、不思議なことに気づくかもしれない。朝、水は浜の奥まで届き、午後には引いて濡れた砂や岩を残す。そしてゆっくり戻る。この海の日々の満ち引きを「潮汐(タイド)」といい、その原因ははるか月にまで及ぶ。月は遠いが、重力という力で地球を引く。この引きは月に面した側で最も強い。そこでは海水がわずかに月へふくらみ、海が満ちる。地球の反対側にももう一つのふくらみができる。地球が毎日回るにつれ、異なる海岸がこれらのふくらみを通り、潮が満ち引きする。太陽も海を引くが、近い月より弱い。太陽と月が一直線に並ぶと引きが合わさり、潮は特に大きくなる。直角に位置すると潮は小さい。潮汐は多くの人に関わる。船乗りや漁師は旅を潮に合わせて計画し、一部の沿岸生物は水の律動に合わせて一生を送る。場所によっては満ち引きする水で発電さえする。だから海の穏やかな動きは無作為ではない。地球と月と太陽が、空を越えて静かに共に踊っているのだ。",
-        quiz: [
-          { q: "What are the daily rises and falls of the sea called?", options: ["Tides", "Waves only", "Rivers"], answer: 0 },
-          { q: "What mainly causes the tides?", options: ["The moon's gravity pulling on the Earth's oceans", "The wind alone", "Boats moving the water"], answer: 0 },
-          { q: "When do the tides become especially large?", options: ["When the sun and moon line up so their pulls combine", "When the moon disappears", "When there is no sun"], answer: 0 }
         ]
       }
     ]
