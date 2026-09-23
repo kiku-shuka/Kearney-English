@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-23",
+    passages: [
+      {
+        id: "d0923-1",
+        title: "The Business of Travel and Tourism",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Every year, hundreds of millions of people travel to other cities and countries for holidays. They stay in hotels, eat in restaurants, visit famous sites, and buy souvenirs. All of this spending adds up to one of the largest industries in the world: travel and tourism.\n\nFor many places, tourism is a powerful engine of business. When visitors arrive, they bring money that supports hotels, guides, drivers, shops, and countless local jobs. A beautiful beach, an old temple, or a lively festival can become the foundation of a whole local economy. For some countries, tourism is among the biggest sources of income.\n\nBut tourism has two sides. Too many visitors can crowd streets, raise prices for local people, and wear down the very sites they come to see. A quiet town can lose its charm if it becomes packed with tourists. This is sometimes called \"overtourism.\"\n\nBecause of this, many places are learning to manage tourism carefully. They may limit the number of visitors to a fragile site, encourage travel in quieter seasons, or spread visitors to less famous areas. The goal is to enjoy the benefits without harming the place or its people.\n\nGood tourism can be a wonderful exchange. Visitors gain new experiences and understanding, while local people gain income and pride in sharing their home. Managed with care, travel connects the world and helps both guests and hosts.",
+        summaryJa: "毎年、何億もの人が休暇で他の都市や国へ旅する。ホテルに泊まり、レストランで食べ、有名な場所を訪れ、土産を買う。こうした支出の総和が、世界最大級の産業、旅行・観光になる。多くの場所にとって観光は強力なビジネスの原動力だ。訪問者はホテルやガイド、運転手、店、無数の地元の仕事を支えるお金をもたらす。美しい浜、古い寺、にぎやかな祭りが、地域経済全体の土台になりうる。観光が最大級の収入源である国もある。だが観光には二つの面がある。訪問者が多すぎると通りが混み、地元の人には物価が上がり、見に来たまさにその場所がすり減る。静かな町も観光客で埋まれば魅力を失いうる。これは「オーバーツーリズム」と呼ばれることがある。だから多くの場所が観光を慎重に管理することを学んでいる。壊れやすい場所の訪問者数を制限したり、静かな季節の旅行を勧めたり、あまり有名でない地域へ客を分散したりする。目標は、場所や人を害さず利点を享受することだ。良い観光は素晴らしい交流になりうる。訪問者は新しい経験と理解を得、地元の人は収入と、我が家を分かち合う誇りを得る。心配りある管理で、旅は世界をつなぎ、客と迎える側の双方を助ける。",
+        quiz: [
+          { q: "Why is tourism a powerful engine of business for many places?", options: ["Visitors bring money that supports hotels, shops, and local jobs", "Visitors take money away", "Tourism creates no jobs"], answer: 0 },
+          { q: "What is 'overtourism'?", options: ["When too many visitors crowd a place, raise prices, and wear down sites", "When no one visits", "A type of hotel"], answer: 0 },
+          { q: "How are places learning to manage tourism?", options: ["Limiting visitors to fragile sites and spreading them to less famous areas", "By banning all visitors forever", "By ignoring the problem"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0923-2",
+        title: "How a Refrigerator Works",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "A refrigerator is one of the most useful machines in any home. It keeps our food cold and fresh for days or weeks. But have you ever wondered how a box plugged into the wall can make the air inside it colder than the room around it? The answer is a clever trick using a special liquid and the science of heat.\n\nThe key idea is that heat always moves from warmer things to cooler things. A refrigerator does not really \"make cold.\" Instead, it moves heat out of the inside and releases it outside. To do this, it uses a special substance called a refrigerant, which flows through pipes in a loop.\n\nInside the fridge, the refrigerant is allowed to expand, which makes it very cold. As it flows through pipes inside, it absorbs heat from the food and air, cooling them down. The refrigerant, now warmer, is then pumped outside the fridge, where it is squeezed tightly. This releases the heat into the room, which is why the back of a fridge feels warm.\n\nThe cooled refrigerant then flows back inside to pick up more heat, and the cycle repeats, over and over.\n\nSo a refrigerator is really a heat mover, not a cold maker. This same idea is used in air conditioners and even in some home heating systems. Understanding it reveals the quiet science humming inside a machine we open without a second thought every day.",
+        summaryJa: "冷蔵庫はどの家でも最も役立つ機械の一つだ。食べ物を何日も何週間も冷たく新鮮に保つ。だが、壁につないだ箱が、なぜ中の空気を周りの部屋より冷たくできるのか、考えたことはあるだろうか。答えは、特別な液体と熱の科学を使った巧みな仕掛けだ。鍵となる考えは、熱は常に温かいものから冷たいものへ移るということだ。冷蔵庫は本当は「冷たさを作る」のではない。中から熱を取り出し、外へ放つのだ。そのために「冷媒」という特別な物質を使い、輪になった管を流す。冷蔵庫の中で冷媒は膨張を許され、非常に冷たくなる。内部の管を流れる間、食べ物や空気から熱を吸い、それらを冷やす。今や温まった冷媒は冷蔵庫の外へ送られ、そこで強く圧縮される。これが熱を部屋へ放つので、冷蔵庫の裏は温かく感じる。冷えた冷媒は再び中へ戻ってさらに熱を拾い、この循環が何度も繰り返される。だから冷蔵庫は本当は熱を動かすもので、冷たさを作るものではない。同じ考えはエアコンや一部の暖房にも使われる。理解すれば、毎日考えもせず開ける機械の中でうなる静かな科学が見えてくる。",
+        quiz: [
+          { q: "What does a refrigerator really do?", options: ["It moves heat out of the inside and releases it outside", "It creates cold from nothing", "It freezes the whole room"], answer: 0 },
+          { q: "Why does the back of a fridge feel warm?", options: ["The refrigerant releases the heat it collected into the room there", "Because it is broken", "Because it makes fire"], answer: 0 },
+          { q: "What key idea makes a refrigerator work?", options: ["Heat always moves from warmer things to cooler things", "Cold falls downward", "Heat never moves"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0923-3",
+        title: "Saving the World's Coral Reefs",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Beneath the clear waters of warm seas lie some of the most beautiful and important places on Earth: coral reefs. Though they cover only a tiny part of the ocean, reefs are home to a huge share of all sea life. They are sometimes called the \"rainforests of the sea,\" and their health matters to the whole world.\n\nCoral may look like colorful rock, but it is actually made of tiny living animals. These creatures build hard structures over hundreds of years, forming reefs that shelter fish, protect coastlines from storms, and support the fishing and tourism that millions of people depend on.\n\nSadly, reefs around the world are in danger. When the sea grows too warm, coral can turn white and die, an event called \"bleaching.\" Pollution and careless fishing add to the harm. Losing reefs would hurt not only sea creatures but also the people whose food and income come from them.\n\nThe good news is that people everywhere are working to protect reefs. Scientists are growing new coral and planting it on damaged reefs. Countries are creating protected areas where sea life can recover. And efforts to keep the oceans cleaner and cooler help reefs most of all.\n\nCoral reefs remind us how connected the world is. A change in the water can echo all the way to our dinner tables. Protecting these underwater gardens is a task that belongs to everyone who shares the planet.",
+        summaryJa: "暖かい海の澄んだ水の下に、地球で最も美しく重要な場所の一つがある。サンゴ礁だ。海のごく一部しか覆わないのに、礁は全海洋生物の大きな割合のすみかだ。「海の熱帯雨林」と呼ばれることもあり、その健康は世界全体に関わる。サンゴは色鮮やかな岩のように見えるが、実は小さな生き物でできている。この生き物が何百年もかけて硬い構造を築き、魚をかくまい、海岸を嵐から守り、何百万もの人が頼る漁業や観光を支える礁を形づくる。悲しいことに、世界中の礁が危機にある。海が暖まりすぎるとサンゴは白くなり死ぬ。「白化」と呼ばれる現象だ。汚染や不注意な漁も害を加える。礁を失えば、海の生き物だけでなく、そこから食料や収入を得る人々も傷つく。良い知らせは、各地で人が礁を守ろうとしていることだ。科学者は新しいサンゴを育て、傷んだ礁に植える。国は海の生き物が回復できる保護区を作る。海をより清潔で涼しく保つ努力が、何より礁を助ける。サンゴ礁は世界がいかにつながっているかを思い出させる。水の変化が食卓にまで響きうる。この海中の庭を守ることは、地球を分かち合う皆の務めだ。",
+        quiz: [
+          { q: "What are coral reefs made of?", options: ["Tiny living animals that build hard structures over hundreds of years", "Colorful painted rock", "Plastic"], answer: 0 },
+          { q: "What is coral 'bleaching'?", options: ["When the sea grows too warm and coral turns white and dies", "When coral is painted white", "When coral grows faster"], answer: 0 },
+          { q: "How are people working to protect reefs?", options: ["Growing new coral, creating protected areas, and keeping oceans cleaner and cooler", "By fishing more carelessly", "By warming the seas"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0923-4",
+        title: "Japan's Autumn Equinox Day",
+        level: "★★☆",
+        genre: "日本",
+        text: "Around the 23rd of September, Japan celebrates a national holiday called the Autumn Equinox Day. The equinox is a special moment in the year when day and night are almost exactly equal in length. After this day, the nights slowly grow longer, and the country moves gently toward winter.\n\nThe holiday is tied closely to nature and to family. In Japan, the equinox falls in the middle of a period called \"higan,\" a traditional time for remembering those who have passed away. Many families visit the graves of their ancestors, clean them with care, and offer flowers and favorite foods. It is a quiet, respectful way of staying connected to loved ones who are gone.\n\nThe season also brings special treats. A soft sweet made of rice and sweet bean paste is often eaten at this time, its name changing with the season.\n\nThe meaning of the day is gentle and thoughtful. It is a moment to pause, to feel the turning of the year, and to remember where we come from. As the summer heat fades and the air turns cool and clear, people are reminded of the natural rhythm of life.\n\nThe Autumn Equinox Day shows a lovely part of Japanese culture: a deep respect for nature's cycles and for the family members who came before. It is a small holiday with a warm and lasting spirit of gratitude and remembrance.",
+        summaryJa: "9月23日ごろ、日本は「秋分の日」という祝日を祝う。秋分は、昼と夜の長さがほぼ正確に等しくなる一年の特別な瞬間だ。この日を過ぎると夜は少しずつ長くなり、国は穏やかに冬へ向かう。この祝日は自然と家族に深く結びつく。日本では秋分は「彼岸」という期間の中日にあたり、亡くなった人を偲ぶ伝統的な時だ。多くの家族が先祖の墓を訪れ、丁寧に掃除し、花や好物を供える。去った大切な人とつながり続ける、静かで敬意ある方法だ。この季節は特別な菓子ももたらす。米とあんこで作る柔らかい菓子がこの時期によく食べられ、その名は季節で変わる。この日の意味は穏やかで思慮深い。立ち止まり、一年の移ろいを感じ、自分がどこから来たかを思い出す時だ。夏の暑さが和らぎ空気が涼しく澄むと、人は命の自然な律動を思い出す。秋分の日は日本文化の素敵な一面を示す。自然の巡りと、先を生きた家族への深い敬意だ。感謝と追憶の温かく長く続く精神を持つ小さな祝日だ。",
+        quiz: [
+          { q: "What is special about the equinox?", options: ["Day and night are almost exactly equal in length", "The sun never sets", "It is the hottest day of the year"], answer: 0 },
+          { q: "What do many families do during this time (higan)?", options: ["Visit and clean the graves of their ancestors and offer flowers and food", "Go swimming in the sea", "Stay awake all night"], answer: 0 },
+          { q: "What does the Autumn Equinox Day show about Japanese culture?", options: ["A deep respect for nature's cycles and for family members who came before", "A dislike of nature", "That holidays are meaningless"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0923-5",
+        title: "How We See Color",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "The world is full of color: a blue sky, green grass, a red apple. We see these colors so easily that we rarely stop to think about them. But color is not really \"in\" objects the way we imagine. It is created by light and by our own eyes and brains working together.\n\nLight from the sun looks white, but it is actually a mix of all colors. When light hits an object, the object soaks up some colors and reflects others back. A red apple looks red because it reflects red light and absorbs the rest. The color we see is the light that bounces off, not something the apple contains.\n\nBut the story is only half finished until the light reaches our eyes. At the back of each eye are millions of tiny cells. Some of these, called cones, are sensitive to light. Humans usually have three kinds of cones, tuned to red, green, and blue light. By comparing the signals from these three types, the brain builds the huge range of colors we experience.\n\nThis is why some people see color differently. If a person's cones work in an unusual way, certain colors may look similar to them, a condition often called color blindness.\n\nSo color is a kind of teamwork between light, objects, our eyes, and our brains. The next time you enjoy a bright sunset, remember that its beauty is created partly out there — and partly inside your own head.",
+        summaryJa: "世界は色に満ちている。青い空、緑の草、赤いリンゴ。私たちはこれらの色をあまりに簡単に見るので、立ち止まって考えることは少ない。だが色は、想像するように物の中に「ある」のではない。光と、私たち自身の目と脳が協力して作り出すものだ。太陽の光は白く見えるが、実はすべての色の混合だ。光が物に当たると、物はある色を吸い、他を反射して返す。赤いリンゴが赤く見えるのは、赤い光を反射し残りを吸うからだ。見える色は跳ね返る光であって、リンゴが含むものではない。だが物語は、光が目に届くまで半分しか終わっていない。両目の奥に何百万もの小さな細胞がある。そのうち錐体と呼ばれるものは光に敏感だ。人は普通、赤・緑・青の光に合わせた三種類の錐体を持つ。この三種からの信号を比べ、脳は私たちが経験する膨大な色の幅を作る。だから色の見え方が人によって違うこともある。錐体が通常と異なる働きをすると、ある色が似て見えることがあり、しばしば色覚異常と呼ばれる。色は、光と物、目、脳の一種の共同作業だ。次に鮮やかな夕日を楽しむとき、その美しさは一部は外で、一部はあなた自身の頭の中で作られていると思い出してほしい。",
+        quiz: [
+          { q: "Why does a red apple look red?", options: ["It reflects red light and absorbs the rest", "It contains red paint inside", "Because all light is red"], answer: 0 },
+          { q: "What are cones?", options: ["Tiny cells at the back of the eye that are sensitive to light and color", "Small bones in the ear", "A kind of light bulb"], answer: 0 },
+          { q: "What is color, according to the passage?", options: ["Teamwork between light, objects, our eyes, and our brains", "Something fixed inside every object", "Only in the sun"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-22",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What surprising sign did scientists find on Pluto?", options: ["Signs that a liquid may have flowed across its frozen surface", "A large city", "Green forests"], answer: 0 },
           { q: "Why couldn't the flowing liquid be water?", options: ["Pluto is far too cold, so water is frozen as hard as rock", "Because there is no water in space", "Because water flows only uphill"], answer: 0 },
           { q: "What does this discovery suggest about Pluto?", options: ["It is not a dead ball of ice, but a world that still slowly changes", "It is exactly like Earth", "It is made of metal"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-16",
-    passages: [
-      {
-        id: "d0916-1",
-        title: "How Companies Set Their Prices",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Have you ever wondered how a shop decides that a coffee costs three dollars, not two or five? Setting a price may look simple, but it is one of the most important and difficult decisions a business makes. Price too high, and customers walk away. Price too low, and the company loses money. Getting it right is a real skill.\n\nCompanies usually think about three main things. The first is cost. A business must charge more than it spends to make and sell a product, or it cannot survive. The second is the customer. How much are people willing to pay? A price must feel fair for the value they receive. The third is competition. If a rival sells something similar for less, a high price may be hard to defend.\n\nPrices are also full of psychology. A price of $9.99 feels much smaller than $10, even though the difference is tiny. A very cheap product may make people wonder if the quality is poor, while a higher price can suggest luxury.\n\nSometimes companies change prices to match demand. A plane ticket may cost more during a holiday, and a coat may be cheaper at the end of winter. This is called adjusting to what people want and when.\n\nIn the end, a good price is a careful balance. It must cover costs, respect the customer, beat no one unfairly, and still leave the company healthy enough to keep serving people tomorrow.",
-        summaryJa: "店がコーヒーを2ドルでも5ドルでもなく3ドルとどう決めるか、考えたことはあるだろうか。値付けは単純に見えて、企業が下す最も重要で難しい決断の一つだ。高すぎれば客は去り、低すぎれば損をする。正しく決めるのは本物の技能だ。企業はふつう三つを考える。第一はコスト。作って売る費用より高く売らねば存続できない。第二は客。人はいくら払う気があるか。受け取る価値に見合い公正だと感じられねばならない。第三は競争。競合が似た物を安く売れば、高値は守りにくい。値段には心理も詰まっている。9.99ドルは差はわずかでも10ドルよりずっと安く感じる。極端に安いと品質を疑われ、高いと高級さを示しうる。需要に合わせ値を変えることもある。飛行機の切符は休暇中に高く、コートは冬の終わりに安い。人が何をいつ望むかへの調整だ。良い値段は慎重なバランスだ。費用を賄い、客を尊重し、不当に誰かをたたかず、明日も人に仕える健全さを企業に残す。",
-        quiz: [
-          { q: "What are the three main things companies think about when setting a price?", options: ["Cost, the customer, and competition", "Color, size, and weight", "The weather, the day, and the season"], answer: 0 },
-          { q: "How does psychology affect prices?", options: ["A price of $9.99 feels much smaller than $10, though the difference is tiny", "Prices have no effect on feelings", "People always ignore the price"], answer: 0 },
-          { q: "Why might a plane ticket cost more during a holiday?", options: ["Companies adjust prices to match demand", "Because planes fly slower then", "Because tickets are free otherwise"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0916-2",
-        title: "How Weather Forecasts Are Made",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Each morning, millions of people check the weather before deciding what to wear or whether to carry an umbrella. We trust these forecasts, yet few of us stop to ask how anyone can predict tomorrow's sky. The answer is a remarkable mix of measurement, mathematics, and powerful computers.\n\nIt begins with data. All over the world, thousands of stations, balloons, ships, and satellites constantly measure the temperature, wind, pressure, and moisture of the air. This ocean of information gives scientists a picture of the atmosphere right now.\n\nNext comes the science. The air follows the laws of physics, so scientists write these laws as equations. Using them, a computer can calculate how the current weather is likely to change over the coming hours and days. Because the atmosphere is huge and complex, this requires some of the most powerful computers on Earth, running trillions of calculations.\n\nEven so, forecasts are not perfect. The atmosphere is so sensitive that a tiny change can grow into a big difference days later. This is why a forecast for tomorrow is usually reliable, but one for next week is only a good guess.\n\nTo handle this, forecasters often run their models many times with slightly different starting points, then see how the results agree. When they mostly agree, confidence is high.\n\nSo a weather forecast is not magic. It is science, data, and computing power, working together to give us a helpful glimpse of the future.",
-        summaryJa: "毎朝、何百万もの人が服装や傘を決める前に天気を確認する。私たちは予報を信頼するが、なぜ明日の空を予測できるのか問う人は少ない。答えは、観測と数学と強力なコンピューターの見事な組み合わせだ。まずデータから始まる。世界中で何千もの観測所や気球、船、衛星が絶えず空気の気温、風、気圧、湿度を測る。この情報の海が、今この瞬間の大気の姿を科学者に与える。次に科学だ。空気は物理法則に従うので、科学者はこれを方程式で書く。それを使い、コンピューターは今の天気がこれからの数時間・数日でどう変わりそうかを計算する。大気は巨大で複雑なため、地球有数の強力なコンピューターが何兆もの計算を行う必要がある。それでも予報は完璧ではない。大気は非常に敏感で、わずかな変化が数日後に大きな差になる。だから明日の予報はふつう信頼できても、来週のは良い推測にすぎない。これに対処するため、予報士は開始条件を少し変えて模型を何度も走らせ、結果の一致を見る。ほぼ一致すれば確信は高い。天気予報は魔法ではない。科学とデータと計算力が協力し、未来の有用な一片を見せてくれる。",
-        quiz: [
-          { q: "How does making a forecast begin?", options: ["With data measured by stations, balloons, ships, and satellites", "With a lucky guess", "By asking people how they feel"], answer: 0 },
-          { q: "Why does forecasting need very powerful computers?", options: ["The atmosphere is huge and complex, needing trillions of calculations", "Because computers are cheap", "Because no math is involved"], answer: 0 },
-          { q: "Why is a forecast for next week only a good guess?", options: ["The atmosphere is so sensitive that tiny changes grow into big differences", "Because scientists do not care about next week", "Because the future never changes"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0916-3",
-        title: "Keeping Children Safe Online",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Children today grow up with the internet. They watch videos, play games, chat with friends, and increasingly talk to smart programs. The online world offers wonderful chances to learn and connect. But it also brings dangers, and around the world, governments and parents are asking how to keep young people safe.\n\nThe worries are serious. Some apps are designed to keep users watching for hours, which can harm sleep and study. Children may see content that is not right for their age, or meet strangers who wish them harm. There are also concerns about how much personal data companies collect from young users.\n\nIn response, some governments are taking action. A number are considering age limits for social apps, or rules that force companies to make their services safer for children by default. Others focus on teaching digital skills, so that young people learn to think carefully about what they see and share.\n\nBut the questions are hard. Rules that are too strict may cut children off from useful tools and friendships. Rules that are too weak may fail to protect them. And children are often clever at finding ways around limits.\n\nMost experts agree that no single answer is enough. Safe technology, wise laws, good teaching, and caring adults must all work together. The goal is not to shut children out of the digital world, but to help them explore it safely, and grow into thoughtful, confident users.",
-        summaryJa: "今日の子どもはインターネットとともに育つ。動画を見て、ゲームをし、友人と話し、ますます賢いプログラムとも話す。オンラインの世界は学びとつながりの素晴らしい機会を与える。だが危険も伴い、世界中で政府や親が、若者をどう守るか問うている。懸念は深刻だ。何時間も見続けさせるよう作られたアプリは睡眠や勉強を害しうる。子どもは年齢に不適切な内容を見たり、害をなそうとする見知らぬ人に出会ったりしうる。企業が若い利用者からどれだけ個人データを集めるかへの懸念もある。これに応え、行動する政府もある。SNSの年齢制限や、既定で子どもに安全にするよう企業に義務づける規則を検討する国もある。デジタル技能の教育に力を入れ、見るもの共有するものを慎重に考えられるようにする国もある。だが難問だ。厳しすぎる規則は有用な道具や友情から子どもを切り離しかねず、緩すぎれば守れない。子どもは制限の回避に長けていることも多い。多くの専門家は、唯一の答えでは足りないと認める。安全な技術、賢い法、良い教育、心ある大人がすべて協力せねばならない。目標は子どもを締め出すことでなく、安全に探求し、思慮深く自信ある利用者に育つのを助けることだ。",
-        quiz: [
-          { q: "What is one worry about children online?", options: ["Some apps keep users watching for hours, harming sleep and study", "The internet is always completely safe", "Children learn nothing online"], answer: 0 },
-          { q: "What action are some governments considering?", options: ["Age limits for social apps and rules to make services safer by default", "Banning all schools", "Giving children no help at all"], answer: 0 },
-          { q: "What do most experts agree on?", options: ["No single answer is enough; technology, laws, teaching, and adults must work together", "Only strict rules matter", "Nothing can be done"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0916-4",
-        title: "Japan's Manga and Anime",
-        level: "★★☆",
-        genre: "日本",
-        text: "Around the world, millions of people read Japanese comics, called \"manga,\" and watch Japanese animation, called \"anime.\" What began as entertainment in Japan has grown into a cultural force loved on every continent. These colorful stories are now one of the ways the world comes to know Japan.\n\nManga are printed comics, often in black and white, telling stories of every kind. There are manga about sports, cooking, history, science, adventure, and quiet daily life. Because there is a manga for almost every interest and age, reading them is a normal part of life for many people in Japan, young and old.\n\nAnime brings these and other stories to life on screen, with movement, color, music, and voice. Some anime are made for children, but many explore deep and serious themes, from friendship and loss to courage and dreams. The best are treated as true works of art.\n\nPart of the appeal is the storytelling. Japanese manga and anime often take their time, letting characters grow and feelings deepen. Readers and viewers around the world say they feel a strong connection to these characters.\n\nThe success of manga and anime has become big business, and it draws many fans to visit Japan, learn Japanese, and explore its culture. From a simple drawing on a page, a whole world has opened — proof that a good story, well told, can travel anywhere.",
-        summaryJa: "世界中で、何百万もの人が日本の漫画「マンガ」を読み、日本のアニメーション「アニメ」を見る。日本の娯楽として始まったものが、あらゆる大陸で愛される文化の力に育った。この色鮮やかな物語は、今や世界が日本を知る道の一つだ。マンガは印刷された漫画で、しばしば白黒で、あらゆる種類の物語を語る。スポーツ、料理、歴史、科学、冒険、静かな日常のマンガがある。ほぼどんな興味や年齢にもマンガがあるので、読むことは日本の老若の多くにとって暮らしの当たり前の一部だ。アニメはこれらや他の物語を、動きと色、音楽、声で画面に生き生きと描く。子ども向けもあるが、友情や喪失、勇気、夢など深く真剣な主題を探るものも多い。最良のものは真の芸術作品として扱われる。魅力の一部は物語り方だ。日本のマンガやアニメはしばしば時間をかけ、登場人物を育て感情を深める。世界中の読者や視聴者は、これらの人物に強いつながりを感じるという。マンガとアニメの成功は大きな事業になり、多くのファンを日本訪問や日本語学習、文化探求へ引き寄せる。一枚の絵から世界が開いた。よく語られた良い物語はどこへでも旅できる証だ。",
-        quiz: [
-          { q: "What are 'manga' and 'anime'?", options: ["Japanese comics and Japanese animation", "Types of Japanese food", "Kinds of cars"], answer: 0 },
-          { q: "What is said about the themes of anime?", options: ["Many explore deep and serious themes, and the best are treated as art", "They are always only for small children", "They never tell any story"], answer: 0 },
-          { q: "What effect has their success had?", options: ["It draws many fans to visit Japan, learn Japanese, and explore its culture", "It made people dislike Japan", "It stopped people from reading"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0916-5",
-        title: "The Mystery of Fingerprints",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Look closely at the tips of your fingers, and you will see tiny lines forming loops, arches, and swirls. These are your fingerprints. One of the most fascinating facts about them is that no two people have exactly the same pattern — not even identical twins. Your fingerprints are truly your own.\n\nFingerprints form before birth, while a baby is still growing. The pattern depends partly on genes and partly on tiny, random events in the womb. Because these small events are never quite the same, every finger ends up with a unique design. Once formed, the pattern stays the same for your whole life.\n\nBut why do we have them at all? Scientists are not completely sure, but there are good ideas. The ridges may help our fingers grip objects, much like the tread on a tire. They may also make our sense of touch more sensitive, helping us feel fine textures.\n\nBecause each fingerprint is unique and unchanging, it has become a powerful way to tell people apart. For over a hundred years, fingerprints have helped identify people, and today many phones unlock with a simple touch of a finger.\n\nSo a fingerprint is more than a mark you leave on a glass. It is a tiny, personal signature, formed before you were born, carried on your hand for life — a small, quiet reminder that every single person is one of a kind.",
-        summaryJa: "指先をよく見ると、輪や弓、渦を描く小さな線が見える。これが指紋だ。最も魅力的な事実の一つは、同じ模様を持つ人は二人といないことだ——一卵性の双子でさえも。指紋は本当にあなただけのものだ。指紋は生まれる前、赤ちゃんが育つ間に形づくられる。模様は一部は遺伝子に、一部は子宮内の小さく無作為な出来事による。これらの小さな出来事は決して同じでないので、どの指も独自の意匠になる。一度できると模様は一生同じままだ。だがなぜ指紋があるのか。科学者は完全には確かでないが、良い説がある。この隆起はタイヤの溝のように物を握るのを助けるかもしれない。触覚をより敏感にし、細かな手触りを感じる助けにもなりうる。指紋は独自で変わらないため、人を見分ける強力な方法になった。100年以上、指紋は人の識別を助け、今では多くの電話が指の一触れで解錠する。だから指紋はグラスに残す跡以上のものだ。生まれる前に形づくられ、生涯手に携える小さな個人の署名であり、一人一人が唯一無二だという静かな小さな証だ。",
-        quiz: [
-          { q: "What is remarkable about fingerprints?", options: ["No two people have exactly the same pattern, not even identical twins", "Everyone has the same fingerprint", "They change every year"], answer: 0 },
-          { q: "Why might we have fingerprint ridges?", options: ["They may help grip objects and make touch more sensitive", "They make hands heavier", "They have no possible use"], answer: 0 },
-          { q: "Why have fingerprints become a way to tell people apart?", options: ["Each one is unique and stays the same for life", "Because they all look alike", "Because they disappear quickly"], answer: 0 }
         ]
       }
     ]
