@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-24",
+    passages: [
+      {
+        id: "d0924-1",
+        title: "Why Small Businesses Matter",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When we think of business, we often picture huge, famous companies. But most businesses in the world are small: the corner bakery, the family restaurant, the local repair shop, the one-person design studio. Though each is tiny compared to a giant firm, together small businesses form the backbone of almost every economy.\n\nTheir importance is easy to overlook but very real. Small businesses create a large share of all jobs. They often hire people from the local area and keep money circulating within the community. When you buy from a nearby shop, more of your money tends to stay close to home.\n\nSmall businesses also bring variety and character. A street lined with unique local shops feels different from one filled only with identical chain stores. Many big, world-changing companies began as tiny startups in a garage or a spare room, so today's small business may be tomorrow's giant.\n\nRunning a small business is hard, however. Owners often work long hours and must handle everything themselves, from serving customers to keeping accounts. They can struggle to compete with the low prices of large companies.\n\nThat is why communities and governments sometimes support them, through fair rules, advice, or small loans. And customers help too, simply by choosing to shop locally.\n\nSmall businesses remind us that an economy is not only about the biggest players. It is also built from countless small dreams, each one making its own quiet contribution.",
+        summaryJa: "ビジネスと聞くと、巨大で有名な企業を思い浮かべがちだ。だが世界の事業の多くは小さい。街角のパン屋、家族経営の食堂、地元の修理店、一人のデザイン工房。巨大企業に比べれば小さくても、合わせれば小規模事業はほぼすべての経済の背骨をなす。その重要さは見落としやすいが極めて現実的だ。小規模事業は全雇用の大きな割合を生む。しばしば地元の人を雇い、地域内でお金を循環させる。近所の店で買うと、お金の多くが地元に留まりやすい。小規模事業は多様性と個性ももたらす。個性的な地元の店が並ぶ通りは、同じチェーン店だけの通りとは違って感じられる。世界を変えた大企業の多くも、ガレージや空き部屋の小さなスタートアップから始まった。今日の小さな事業が明日の巨人かもしれない。だが小規模事業の経営は大変だ。経営者は長時間働き、接客から経理まで自分ですべてをこなさねばならない。大企業の安さと競うのに苦労しうる。だから地域や政府は、公正な規則や助言、少額融資で支えることがある。客も、地元で買うと選ぶだけで助けになる。小規模事業は、経済が最大の担い手だけの話ではないと思い出させる。無数の小さな夢からも築かれ、それぞれが静かに貢献している。",
+        quiz: [
+          { q: "Why do small businesses matter to an economy?", options: ["Together they create a large share of jobs and keep money in the community", "They create no jobs", "They only harm the economy"], answer: 0 },
+          { q: "What do small businesses bring besides jobs?", options: ["Variety and character to a place", "Only higher prices", "Fewer choices"], answer: 0 },
+          { q: "Why is running a small business hard?", options: ["Owners work long hours, do everything, and struggle to match big firms' low prices", "It is always easy and free", "There is nothing to do"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0924-2",
+        title: "Technology You Can Wear",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "For most of history, our tools sat in our hands or on our desks. Today, a new kind of technology is moving onto our bodies. Watches that track our steps, glasses that show information, and rings that measure our sleep are all part of a growing field called wearable technology.\n\nThe idea is simple: instead of pulling a device out of your pocket, you wear it, so it is always with you and can quietly help throughout the day. A smartwatch can show a message, count your heartbeats, or remind you to stand up. Some glasses can give directions or translate signs as you look at them. These devices aim to give useful information without demanding your full attention.\n\nWearables are especially promising for health. Because they sit on the body all day, they can gently track things like heart rate, activity, and sleep. This can help people notice problems early and build healthier habits. Doctors are exploring how such data might help patients too.\n\nBut there are concerns. A device that is always on the body can collect very personal information, so protecting that data is essential. There is also the worry of being distracted, or too connected, all the time.\n\nWearable technology is still developing, and not every gadget will succeed. Yet the direction is clear: our tools are becoming smaller, closer, and more personal — quietly woven into the fabric of daily life.",
+        summaryJa: "歴史の大半、道具は手の中や机の上にあった。今、新しい種類の技術が私たちの体へ移りつつある。歩数を測る時計、情報を映す眼鏡、睡眠を測る指輪。すべて、ウェアラブル技術という成長分野の一部だ。考えは単純だ。ポケットから機器を取り出す代わりに身につけ、常に共にあって一日中静かに助ける。スマートウォッチはメッセージを表示し、心拍を数え、立ち上がるよう促す。眼鏡は見た標識の道案内や翻訳をするものもある。これらは全注意を求めず有用な情報を与えることを目指す。ウェアラブルは特に健康で有望だ。一日中体にあるので、心拍や活動、睡眠を優しく記録できる。問題に早く気づき、より健康な習慣を築く助けになる。医師もこのデータが患者を助けうるか探っている。だが懸念もある。常に体にある機器は極めて個人的な情報を集めうるので、その保護が不可欠だ。常に気が散る、あるいはつながりすぎる心配もある。ウェアラブル技術はまだ発展途上で、すべての機器が成功するわけではない。だが方向は明確だ。道具はより小さく、近く、個人的になり、日常の織物に静かに織り込まれていく。",
+        quiz: [
+          { q: "What is wearable technology?", options: ["Devices you wear on your body, like watches, glasses, and rings", "Only desktop computers", "Tools kept in a drawer"], answer: 0 },
+          { q: "Why are wearables especially promising for health?", options: ["They sit on the body all day and can track heart rate, activity, and sleep", "They cannot measure anything", "They only tell the time"], answer: 0 },
+          { q: "What is one concern about wearables?", options: ["They can collect very personal data, so protecting it is essential", "They are too large to wear", "They never turn on"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0924-3",
+        title: "Protecting Endangered Animals",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Across the world, many kinds of animals are in danger of disappearing forever. Tigers, elephants, certain whales, and countless lesser-known creatures have grown rare. When the last member of a species dies, that animal is gone for all time — a loss that can never be undone. Protecting endangered animals has become a shared goal for people everywhere.\n\nWhy are so many animals in trouble? The reasons are mostly human. As we clear forests, build cities, and change the land, wild animals lose the homes they need. Some are hunted illegally for their skin, horns, or other parts. Pollution and a changing climate add further pressure.\n\nThe loss matters for more than sentimental reasons. Every animal has a role in the web of nature. Bees carry pollen, wolves keep herds healthy, and forests full of life clean our air and water. Remove one creature, and others may suffer in ways that are hard to predict.\n\nAround the world, people are fighting to help. Countries set aside protected parks where animals can live safely. Laws ban the illegal trade in rare species. Scientists study animals to understand what they need, and some carefully raise endangered creatures to release them back into the wild.\n\nSaving these animals takes cooperation across borders, because nature does not stop at any country's line. By protecting endangered species, we protect the rich, living world we are all part of — and we keep it whole for those who come after us.",
+        summaryJa: "世界中で、多くの種類の動物が永遠に消える危機にある。トラ、ゾウ、ある種のクジラ、そして無数のあまり知られない生き物が稀になった。ある種の最後の一匹が死ぬと、その動物は永久に失われる——決して取り戻せない喪失だ。絶滅危惧動物を守ることは、各地の人々の共通の目標になった。なぜ多くの動物が危機にあるのか。理由の多くは人間だ。森を切り、都市を建て、土地を変えるにつれ、野生動物は必要なすみかを失う。皮や角などのために違法に狩られるものもいる。汚染や変わる気候がさらに圧力を加える。この喪失は感傷以上の理由で重要だ。どの動物も自然の網の中で役割を持つ。ハチは花粉を運び、オオカミは群れを健康に保ち、生命に満ちた森は空気と水を浄化する。一つの生き物を取り除けば、他が予測しにくい形で苦しみうる。世界中で人々は助けようと闘っている。動物が安全に暮らせる保護公園を設ける国もある。法は稀少種の違法取引を禁じる。科学者は動物が何を必要とするか研究し、絶滅危惧種を丁寧に育て野生に戻す人もいる。これらの動物を救うには国境を越えた協力が要る。自然はどの国の線でも止まらないからだ。絶滅危惧種を守ることで、私たち皆が属する豊かで生きた世界を守り、後に来る者のために全きまま保つのだ。",
+        quiz: [
+          { q: "Why are so many animals in danger?", options: ["Mostly human reasons: lost homes, illegal hunting, pollution, and a changing climate", "Because there are too few humans", "For no reason at all"], answer: 0 },
+          { q: "Why does losing an animal matter beyond sentiment?", options: ["Every animal has a role in nature, and removing one can harm others", "It never affects anything", "Only large animals matter"], answer: 0 },
+          { q: "Why does saving animals need cooperation across borders?", options: ["Nature does not stop at any country's line", "Because animals carry passports", "Because only one country has animals"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0924-4",
+        title: "Wagashi: Japan's Traditional Sweets",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japanese traditional sweets, called \"wagashi,\" are small works of art as much as they are food. Often served with green tea, they are made to delight the eyes as well as the tongue. A single wagashi may be shaped like a cherry blossom, a maple leaf, or a drop of dew, capturing the beauty of the season in a bite-sized treat.\n\nWagashi are usually made from simple, natural ingredients: rice, sweet bean paste, sugar, and fruit. Unlike many Western desserts, they are often not very sweet, and they use little or no butter or cream. This gentle taste pairs perfectly with the slightly bitter flavor of green tea.\n\nOne of the most special things about wagashi is their close link to the seasons. A skilled maker changes the shapes, colors, and names of the sweets throughout the year, so a wagashi eaten in spring looks and feels different from one eaten in autumn. Enjoying them is a way of tasting the passing year.\n\nMaking fine wagashi takes years of training. By hand, an artisan shapes soft dough into delicate flowers and leaves, working with patience and care. The finest pieces are almost too beautiful to eat.\n\nWagashi show a deep idea in Japanese culture: that even a simple sweet can hold beauty, season, and meaning. To eat one slowly, with a cup of tea, is to enjoy a small, quiet moment of art in everyday life.",
+        summaryJa: "「和菓子」と呼ばれる日本の伝統的なお菓子は、食べ物であると同時に小さな芸術作品だ。しばしば緑茶とともに供され、舌だけでなく目も楽しませるよう作られる。一つの和菓子が桜や紅葉、露の一滴の形をとり、季節の美しさを一口大の菓子に捉える。和菓子はふつう、米、あんこ、砂糖、果物という簡素で自然な材料から作られる。多くの西洋のデザートと違い、あまり甘くないことが多く、バターやクリームはほとんど使わない。この穏やかな味が、緑茶のやや苦い風味と完璧に合う。和菓子の最も特別な点の一つは、季節との密接なつながりだ。熟練の作り手は一年を通じて菓子の形、色、名を変えるので、春に食べる和菓子は秋のものと見た目も感じも違う。楽しむことは移ろう一年を味わうことだ。上質な和菓子作りには何年もの修練が要る。職人は手で柔らかい生地を繊細な花や葉に形づくり、忍耐と心配りで働く。最上のものは食べるには美しすぎるほどだ。和菓子は日本文化の深い考えを示す。簡素な菓子さえ、美と季節と意味を宿しうる。一つをお茶とともにゆっくり食べることは、日常の中の小さく静かな芸術の瞬間を楽しむことだ。",
+        quiz: [
+          { q: "What are wagashi?", options: ["Japanese traditional sweets, made to delight the eyes as well as the tongue", "A kind of hot soup", "A type of tea"], answer: 0 },
+          { q: "How do wagashi taste compared with many Western desserts?", options: ["Often not very sweet, using little or no butter or cream", "Much sweeter and full of cream", "Very salty"], answer: 0 },
+          { q: "What is special about wagashi and the seasons?", options: ["Their shapes, colors, and names change through the year", "They never change", "They can only be eaten in winter"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0924-5",
+        title: "Why Birds Migrate",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Each autumn, in many parts of the world, flocks of birds gather and fly away, sometimes traveling thousands of kilometers to warmer lands. In spring, they return. This great journey is called migration, and it is one of the most amazing feats in all of nature.\n\nWhy do birds take such a long and dangerous trip? The main reason is food and weather. As winter approaches, cold settles in and food becomes scarce. Insects vanish, and plants stop growing. Rather than starve or freeze, many birds fly to places where the weather is mild and food is plentiful. When spring returns and their northern homes bloom again, they come back to raise their young.\n\nHow birds find their way is a wonder in itself. Over such vast distances, with no maps or signs, they still reach the same regions year after year. Scientists believe birds use several clues: the position of the sun and stars, familiar landmarks like rivers and coasts, and even the Earth's magnetic field, which they seem able to sense.\n\nMigration is not easy. Birds must store energy for the journey, face storms and predators, and cross seas and mountains. Many do not survive. Those that do show incredible strength and instinct.\n\nBy protecting the places where birds rest and feed along the way, people can help these travelers complete their journeys. Migration reminds us that the natural world is deeply connected, across seasons and across the whole planet.",
+        summaryJa: "毎秋、世界の多くの地域で、鳥の群れが集まり飛び去る。時に何千キロも越え、より暖かい土地へ向かう。春には戻る。この大きな旅は渡りと呼ばれ、自然界で最も驚くべき偉業の一つだ。なぜ鳥はこれほど長く危険な旅をするのか。主な理由は食べ物と天気だ。冬が近づくと寒さが定着し食べ物が乏しくなる。昆虫は消え、植物は育たなくなる。飢えたり凍えたりする代わりに、多くの鳥は天気が穏やかで食べ物が豊富な場所へ飛ぶ。春が戻り北のすみかが再び花咲くと、雛を育てに戻ってくる。鳥がどう道を見つけるかも驚異だ。地図も標識もない広大な距離を、それでも年ごとに同じ地域へ着く。科学者は鳥がいくつかの手がかりを使うと考える。太陽や星の位置、川や海岸などなじみの目印、そして感じ取れるらしい地球の磁場だ。渡りは容易ではない。鳥は旅のためにエネルギーを蓄え、嵐や捕食者に直面し、海や山を越えねばならない。多くは生き延びない。生き延びる鳥は驚くべき力と本能を示す。途中で鳥が休み餌をとる場所を守ることで、人はこの旅人が旅を終える助けができる。渡りは、自然界が季節を越え地球全体で深くつながっていると思い出させる。",
+        quiz: [
+          { q: "Why do birds migrate?", options: ["Mainly for food and weather — they fly to milder places when winter brings cold and scarce food", "Because they dislike other birds", "For no reason"], answer: 0 },
+          { q: "How do birds find their way over vast distances?", options: ["Using the sun and stars, landmarks, and the Earth's magnetic field", "By reading road signs", "By following cars"], answer: 0 },
+          { q: "How can people help migrating birds?", options: ["By protecting the places where birds rest and feed along the way", "By removing all forests", "By feeding them nothing"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-23",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Where does much of the ocean's salt come from?", options: ["From the land — rain dissolves minerals from rock and rivers carry them to the sea", "From the sky only", "From fish"], answer: 0 },
           { q: "Why does salt stay in the ocean?", options: ["When seawater evaporates, the water leaves but the salt is left behind", "Because salt floats up into clouds", "Because rivers remove it"], answer: 0 },
           { q: "What else adds salt to the sea?", options: ["Underwater volcanoes and vents on the ocean floor", "Boats sailing by", "Birds flying overhead"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-17",
-    passages: [
-      {
-        id: "d0917-1",
-        title: "The Gig Economy",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Not long ago, most people worked one steady job for a single employer, often for many years. Today, a growing number of people work in a different way. They pick up short tasks, or \"gigs,\" one at a time — driving a passenger across town, delivering a meal, or designing a logo for a client far away. This new way of working is called the gig economy.\n\nMuch of it is powered by smartphone apps that connect workers with people who need a service, right now. A person can open an app, accept a job, complete it, and get paid, then move on to the next one. For many, this offers real freedom: they choose when to work and how much.\n\nBut the gig economy has two sides. The freedom is genuine, and it can be a lifeline for those who need flexible hours, such as students or parents. Yet gig workers often lack the safety of a regular job. They may have no paid holidays, no sick pay, and uncertain income from week to week.\n\nThis has sparked an important debate. Should gig workers be treated more like regular employees, with more protection? Or would that remove the flexibility that makes gig work attractive? Different countries are answering in different ways.\n\nThe gig economy is likely here to stay. The challenge for society is to keep its flexibility while making sure the people behind each gig are treated fairly.",
-        summaryJa: "少し前まで、多くの人は一つの雇い主のもとで一つの安定した仕事を、しばしば何年も続けた。今、違う働き方をする人が増えている。短い仕事、「ギグ」を一つずつ引き受けるのだ——客を街の向こうへ運ぶ、食事を届ける、遠くの依頼主のロゴを作る、など。この新しい働き方をギグエコノミーという。その多くは、サービスを今すぐ必要とする人と働き手を結ぶスマホアプリで動く。アプリを開き、仕事を受け、こなして支払いを受け、次へ移る。多くの人にはこれが本当の自由を与える。いつ、どれだけ働くかを選べる。だがギグエコノミーには二つの面がある。自由は本物で、学生や親など柔軟な時間が要る人には命綱になりうる。だがギグワーカーはしばしば正規の仕事の安全を欠く。有給休暇も病気手当もなく、収入が週ごとに不安定なこともある。これは重要な議論を生んだ。ギグワーカーはもっと正社員のように保護されるべきか。それとも魅力である柔軟性を奪うことになるか。各国は異なる答えを出している。ギグエコノミーはおそらく定着する。社会の課題は、柔軟性を保ちつつ、各ギグの背後の人が公正に扱われるようにすることだ。",
-        quiz: [
-          { q: "What is the 'gig economy'?", options: ["Working by picking up short tasks one at a time, often via apps", "Working one steady job for life", "Not working at all"], answer: 0 },
-          { q: "What is one benefit of gig work?", options: ["Freedom to choose when to work and how much", "Guaranteed paid holidays for all", "A fixed salary every month"], answer: 0 },
-          { q: "What debate has the gig economy sparked?", options: ["Whether gig workers should get more protection, like regular employees", "Whether apps should be banned", "Whether people should work at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0917-2",
-        title: "How Lasers Help Machines See",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "How does a self-driving car know exactly where the road, the curb, and a walking person are? One important answer is a technology called LiDAR. The name comes from combining \"light\" and \"radar,\" and it lets a machine build a detailed, three-dimensional map of the world around it, using laser light.\n\nThe idea is simple but powerful. A LiDAR device sends out many tiny, harmless pulses of laser light, thousands or millions of times each second. When a pulse hits an object, it bounces back. By measuring exactly how long the light took to return, the device can calculate the distance to that point with great precision.\n\nDo this for millions of points, and you get a \"point cloud\" — a cloud of dots that together form a sharp 3D picture of everything nearby: cars, trees, walls, and people. Unlike a normal camera, LiDAR works well in the dark and gives exact distances, not just a flat image.\n\nLiDAR is used in many places today. It helps self-driving cars and robots move safely, guides drones, and even sits inside some phones to improve photos and games. Scientists also use it from aircraft to map forests, cities, and ancient ruins hidden under trees.\n\nBy turning pulses of light into precise measurements, LiDAR gives machines a kind of sight. It is a quiet example of how a clever use of physics can help our tools understand the shape of the world.",
-        summaryJa: "自動運転車は、道路や縁石、歩く人の位置をどう正確に知るのか。重要な答えの一つが「ライダー(LiDAR)」という技術だ。名前は「光(light)」と「レーダー(radar)」を合わせたもので、レーザー光を使い、周囲の世界の詳細な立体地図を機械に作らせる。考えは単純だが強力だ。ライダー装置は無害な小さなレーザー光のパルスを、毎秒何千、何百万回も放つ。パルスが物に当たると跳ね返る。光が戻るのにかかった時間を正確に測ることで、その点までの距離を高い精度で計算できる。これを何百万もの点で行うと「点群」——近くのすべて、車や木、壁、人を鮮明な3Dで形づくる点の雲——が得られる。普通のカメラと違い、ライダーは暗闇でもよく働き、平らな画像でなく正確な距離を与える。ライダーは今、多くの場所で使われる。自動運転車やロボットの安全な移動を助け、ドローンを導き、写真やゲームを良くするため一部の電話にも入っている。科学者は航空機から森や都市、木の下に隠れた古代遺跡の地図作りにも使う。光のパルスを正確な測定に変え、ライダーは機械に一種の視覚を与える。物理の巧みな利用が道具に世界の形を理解させる静かな一例だ。",
-        quiz: [
-          { q: "What does LiDAR use to map the world?", options: ["Pulses of laser light that bounce off objects", "Loud sounds only", "Paint and brushes"], answer: 0 },
-          { q: "How does LiDAR measure distance?", options: ["By measuring how long the light takes to return", "By guessing", "By weighing the object"], answer: 0 },
-          { q: "What is one advantage of LiDAR over a normal camera?", options: ["It works well in the dark and gives exact distances", "It only works in bright light", "It cannot measure anything"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0917-3",
-        title: "Why Countries Trade",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Look around your home, and you will find things from all over the world: a phone designed in one country and built in another, coffee grown far away, clothes sewn on a different continent. This is possible because countries trade with one another, buying and selling goods across borders. But why do nations trade at all?\n\nThe main reason is that no country has everything, or does everything best. Some lands are rich in oil, others in good farmland, and others in skilled workers or advanced factories. By selling what they make well and buying what others make well, countries can all end up with more than if each tried to make everything alone.\n\nTrade also lowers prices and widens choice. Because factories can sell to the whole world, they can make goods in large numbers, which brings costs down. Shoppers enjoy fruits out of season, and technology from distant places.\n\nBut trade is not always simple. When cheap goods arrive from abroad, local businesses may struggle, and some workers can lose their jobs. Governments must think about how to help those affected. There are also arguments about fairness and about depending too much on other countries.\n\nDespite these challenges, trade has helped lift billions of people out of poverty and connected the world as never before. When it is fair and well managed, trade allows different nations to share their strengths — and everyone can benefit.",
-        summaryJa: "家を見回すと、世界中の物が見つかる。ある国で設計され別の国で作られた電話、遠くで育ったコーヒー、別の大陸で縫われた服。これは国同士が貿易し、国境を越えて物を売り買いするから可能だ。だがなぜ国は貿易するのか。主な理由は、すべてを持つ国も、すべてを最もうまくやる国もないからだ。石油に富む土地、良い農地に富む土地、熟練工や先進的な工場に富む土地がある。うまく作れる物を売り、他がうまく作る物を買うことで、各国が単独ですべてを作ろうとするより多くを得られる。貿易は価格も下げ選択も広げる。工場は世界中に売れるので大量に作れ、費用が下がる。買い物客は季節外れの果物や遠い土地の技術を楽しめる。だが貿易は常に単純ではない。安い物が海外から届くと地元企業が苦しみ、職を失う労働者も出うる。政府は影響を受けた人をどう助けるか考えねばならない。公正さや、他国に頼りすぎることへの議論もある。こうした課題はあれ、貿易は何十億もの人を貧困から救い、かつてなく世界をつないできた。公正でよく管理されれば、貿易は各国の強みを分かち合わせ、皆が恩恵を得られる。",
-        quiz: [
-          { q: "What is the main reason countries trade?", options: ["No country has everything or does everything best", "Because every country makes the same things", "Because trade is required by nature"], answer: 0 },
-          { q: "How does trade lower prices?", options: ["Factories can sell to the whole world and make goods in large numbers", "By making fewer goods", "By closing all factories"], answer: 0 },
-          { q: "What is one challenge of trade?", options: ["Cheap goods from abroad can make local businesses struggle", "It always helps everyone equally", "It has no downsides at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0917-4",
-        title: "Shodo: The Art of Japanese Calligraphy",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, writing can be a form of art. This art is called \"shodo,\" which means \"the way of writing.\" Using a brush, black ink, and a sheet of white paper, a person paints beautiful characters, turning simple words into something to admire on a wall.\n\nShodo may look effortless, but it takes great skill and years of practice. The artist must hold the brush just so, control the flow of ink, and move with a steady, confident hand. A single character is often written in one smooth motion, and it cannot be fixed afterward. If the hand shakes or hesitates, it shows. In this way, the finished work captures the artist's state of mind at that very moment.\n\nBecause of this, shodo is about far more than neat handwriting. It teaches focus, patience, and calm. Many people practice it not to become famous artists, but to quiet their minds and enjoy the simple beauty of the brush on paper.\n\nChildren in Japan learn the basics of calligraphy at school, and many keep it as a lifelong hobby. At New Year, people often write hopeful words for the year ahead, a cherished tradition.\n\nShodo shows a beautiful idea: that even something as everyday as writing can become a path to art, discipline, and peace of mind. In each brushstroke lies not only a word, but a small piece of the person who made it.",
-        summaryJa: "日本では、書くことが芸術になりうる。この芸術を「書道」——書くことの道——という。筆と墨、白い紙を使い、美しい文字を描き、単純な言葉を壁で愛でるものに変える。書道は楽々に見えるかもしれないが、大きな技と長年の練習を要する。書き手は筆をちょうどよく持ち、墨の流れを操り、安定した自信ある手で動かねばならない。一つの文字はしばしば一続きの動きで書かれ、後から直せない。手が震えたりためらったりすれば表れる。こうして完成した作品は、まさにその瞬間の書き手の心の状態を捉える。だから書道はきれいな手書き以上のものだ。集中、忍耐、平静を教える。多くの人は有名な芸術家になるためでなく、心を静め、紙の上の筆の素朴な美を楽しむために書く。日本の子どもは学校で書道の基礎を学び、多くが生涯の趣味として続ける。正月には、来る年への希望の言葉を書くことが多く、大切にされる伝統だ。書道は美しい考えを示す。書くという日常のことさえ、芸術と鍛錬と心の平安への道になりうる。一筆一筆に、言葉だけでなく、それを作った人の小さな一片が宿る。",
-        quiz: [
-          { q: "What is 'shodo'?", options: ["The Japanese art of calligraphy, painting characters with a brush and ink", "A type of dance", "A kind of food"], answer: 0 },
-          { q: "Why can a shodo character not be fixed afterward?", options: ["It is written in one smooth motion, showing the artist's state of mind", "Because the ink is invisible", "Because it is typed by a machine"], answer: 0 },
-          { q: "What does practicing shodo teach, beyond neat writing?", options: ["Focus, patience, and calm", "How to write faster only", "Nothing useful"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0917-5",
-        title: "A Surprise on Distant Pluto",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Far out at the edge of our solar system lies Pluto, a small, cold world so distant that from its surface the sun would look like just a bright star. For a long time, we knew almost nothing about it. But as spacecraft and telescopes have studied Pluto, they keep finding surprises. One recent discovery is especially strange: signs that a liquid may have flowed across its frozen surface.\n\nOn Earth, of course, it is water that flows in rivers and lakes. But Pluto is far too cold for liquid water; there, water is frozen as hard as rock. Instead, scientists think the flowing liquid may have been something else entirely: liquid nitrogen, a gas on Earth that becomes a liquid only in extreme cold.\n\nResearchers noticed dark features on a vast, icy plain on Pluto. These marks look as if liquid nitrogen rose up through cracks from deep below the surface and spread out, before freezing again. If this is correct, it means Pluto is not a dead, unchanging ball of ice, but a world where things still slowly move and change.\n\nThis matters because it teaches us how varied and active worlds can be, even far from the sun's warmth. Every discovery like this widens our sense of what is possible in the universe.\n\nPluto reminds us that even the coldest, most distant places can hold secrets, waiting quietly for curious minds to find them.",
-        summaryJa: "太陽系の端の遠くに冥王星がある。小さく冷たい世界で、あまりに遠いため、その表面から太陽は明るい星の一つのように見えるだろう。長い間、私たちはほとんど何も知らなかった。だが探査機や望遠鏡が冥王星を調べるにつれ、次々と驚きが見つかる。最近の発見の一つは特に奇妙だ。凍った表面を液体が流れたかもしれない痕跡だ。もちろん地球では、川や湖を流れるのは水だ。だが冥王星は液体の水には冷たすぎ、そこでは水は岩のように固く凍る。代わりに科学者は、流れた液体は全く別のもの——地球では気体だが極寒でのみ液体になる液体窒素——かもしれないと考える。研究者は冥王星の広大な氷の平原の暗い特徴に気づいた。この跡は、液体窒素が表面深くの割れ目から上がって広がり、再び凍ったかのように見える。もし正しければ、冥王星は死んで変わらない氷の球でなく、今も物事がゆっくり動き変わる世界だということだ。これは、太陽の温もりから遠くても、世界がいかに多様で活発でありうるかを教える点で重要だ。こうした発見は、宇宙で何が可能かの感覚を広げる。冥王星は、最も冷たく遠い場所さえ秘密を宿し、好奇心ある心の発見を静かに待っていると思い出させる。",
-        quiz: [
-          { q: "What surprising sign did scientists find on Pluto?", options: ["Signs that a liquid may have flowed across its frozen surface", "A large city", "Green forests"], answer: 0 },
-          { q: "Why couldn't the flowing liquid be water?", options: ["Pluto is far too cold, so water is frozen as hard as rock", "Because there is no water in space", "Because water flows only uphill"], answer: 0 },
-          { q: "What does this discovery suggest about Pluto?", options: ["It is not a dead ball of ice, but a world that still slowly changes", "It is exactly like Earth", "It is made of metal"], answer: 0 }
         ]
       }
     ]
