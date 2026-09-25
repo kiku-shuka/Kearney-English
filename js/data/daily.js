@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-25",
+    passages: [
+      {
+        id: "d0925-1",
+        title: "How Supply Chains Bring You Everything",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Pick up almost any object in your home — a phone, a shirt, a cup of coffee — and it has traveled a long, hidden journey to reach you. Behind every product is a supply chain: the whole network of steps that turns raw materials into a finished item and delivers it to your door.\n\nA supply chain can be surprisingly long. A single chocolate bar, for example, may start with cocoa grown on a farm in one country. The beans are dried, shipped, roasted in another country, mixed with sugar and milk, wrapped in packaging made somewhere else, and finally trucked to a shop near you. Dozens of companies and thousands of people may play a part, often without ever meeting.\n\nWhen a supply chain works well, we barely notice it. Shelves are full, prices are steady, and goods arrive on time. But the system is more delicate than it looks. A storm, a strike, or a shortage in one place can slow down the whole chain, leaving shelves empty far away. In recent years, people have seen how quickly such problems can spread.\n\nThis is why businesses work hard to manage their supply chains. They plan for delays, keep backup suppliers, and use computers to track goods across the world.\n\nThe next time something arrives quickly and cheaply, remember the quiet, complex web behind it. A supply chain is one of the great hidden machines of modern life.",
+        summaryJa: "家のほぼどんな物——電話、シャツ、一杯のコーヒー——を手に取っても、それはあなたに届くまで長い隠れた旅をしてきた。どの製品の背後にもサプライチェーンがある。原材料を完成品に変え、玄関まで届ける一連の段階の網だ。サプライチェーンは驚くほど長い。例えば一枚の板チョコは、ある国の農場で育つカカオから始まる。豆は乾かされ、運ばれ、別の国で焙煎され、砂糖や牛乳と混ぜられ、また別の場所で作られた包装に包まれ、最後にあなたの近くの店へトラックで運ばれる。何十もの会社と何千もの人が、しばしば一度も会わずに関わる。サプライチェーンがうまく働くと、私たちはほとんど気づかない。棚は満ち、価格は安定し、品は時間通り届く。だが仕組みは見た目より繊細だ。一箇所の嵐やストライキ、不足が連鎖全体を遅らせ、遠くの棚を空にしうる。近年、人々はこうした問題がいかに速く広がるかを見てきた。だから企業はサプライチェーンの管理に力を注ぐ。遅延に備え、予備の供給元を持ち、コンピューターで世界中の品を追う。次に何かが速く安く届いたら、その背後の静かで複雑な網を思い出してほしい。サプライチェーンは現代生活の偉大な隠れた機械の一つだ。",
+        quiz: [
+          { q: "What is a supply chain?", options: ["The whole network of steps that turns raw materials into a product and delivers it", "A single shop", "A type of money"], answer: 0 },
+          { q: "Why is a supply chain more delicate than it looks?", options: ["A storm, strike, or shortage in one place can slow the whole chain", "It never has any problems", "It is made of glass"], answer: 0 },
+          { q: "How do businesses manage their supply chains?", options: ["They plan for delays, keep backup suppliers, and track goods with computers", "They ignore all problems", "They stop making products"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0925-2",
+        title: "How Electric Cars Work",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "For more than a hundred years, most cars have run on gasoline, burning fuel in an engine to move. Now, a quieter kind of car is becoming common on our roads: the electric car. Instead of burning fuel, it runs on electricity stored in a large battery. But how does it actually work?\n\nAt the heart of an electric car is the battery, a big pack that stores electrical energy, much like a giant version of the battery in your phone. When you drive, this energy flows to an electric motor, which turns the wheels. Electric motors are simple, powerful, and very quiet, which is why an electric car glides along with almost no noise.\n\nTo refuel, you do not visit a gas station. Instead, you plug the car in and let the battery charge, often overnight at home. Charging can take longer than filling a tank, though fast chargers are improving.\n\nElectric cars have real advantages. They produce no exhaust from the car itself, which means cleaner air in cities. They are cheaper to run, since electricity often costs less than fuel, and they have fewer moving parts to break.\n\nThere are challenges too. Batteries are expensive, and drivers need enough places to charge, especially on long trips.\n\nStill, electric cars are spreading fast around the world. As batteries improve and charging becomes easier, this quiet, clean technology may soon become the normal way we drive.",
+        summaryJa: "100年以上、多くの車はガソリンで走り、エンジンで燃料を燃やして動いてきた。今、より静かな種類の車が道で当たり前になりつつある。電気自動車だ。燃料を燃やす代わりに、大きな電池に蓄えた電気で走る。だが実際どう働くのか。電気自動車の心臓は電池、電話の電池の巨大版のように電気エネルギーを蓄える大きなパックだ。運転すると、このエネルギーが電気モーターに流れ、車輪を回す。電気モーターは単純で力強く、とても静かだ。だから電気自動車はほとんど音もなく滑るように進む。給油にはガソリンスタンドへ行かない。代わりに車をつないで電池を充電する。しばしば家で一晩かけて。充電はタンクを満たすより時間がかかりうるが、急速充電器は改良が進む。電気自動車には本当の利点がある。車自体から排気を出さず、都市の空気が清潔になる。電気は燃料より安いことが多く走行費が安く、壊れる可動部品も少ない。課題もある。電池は高価で、特に長旅では十分な充電場所が要る。それでも電気自動車は世界中で急速に広がる。電池が改良され充電が容易になるにつれ、この静かで清潔な技術がやがて普通の運転の仕方になるかもしれない。",
+        quiz: [
+          { q: "What is at the heart of an electric car?", options: ["A large battery that stores electrical energy", "A tank of gasoline", "A wood-burning stove"], answer: 0 },
+          { q: "How do you refuel an electric car?", options: ["You plug it in and let the battery charge", "You visit a gas station", "You add water"], answer: 0 },
+          { q: "What is one advantage of electric cars?", options: ["They produce no exhaust from the car itself, meaning cleaner air", "They make more smoke", "They have more parts to break"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0925-3",
+        title: "Educating Every Child",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Imagine growing up without ever going to school — never learning to read, write, or do basic math. For millions of children around the world, this is still a reality. Making sure that every child, everywhere, can go to school has become one of the great goals shared by nations across the globe.\n\nWhy does it matter so much? Education changes lives. A child who learns to read can find better work, understand their rights, and make wiser choices about health and money. When girls in particular are educated, whole communities grow healthier and more prosperous. Education is one of the most powerful tools we have to reduce poverty.\n\nYet many children still miss out. Some live far from any school. Some are kept home to work or care for family. War, poverty, and lack of teachers all get in the way. For girls, old customs sometimes end their schooling early.\n\nAround the world, people are working to change this. Governments build schools and train teachers. Charities provide books, meals, and safe places to learn. Technology now brings lessons to remote villages through phones and radios.\n\nProgress has been real. Far more children go to school today than a generation ago. But the work is not finished, and recent challenges have slowed it in some places.\n\nEducating every child is not only fair; it is wise. A world where all children can learn is a world with more ideas, more hope, and more chances for everyone.",
+        summaryJa: "一度も学校に行かず育つことを想像してほしい——読み書きも基本の計算も習わずに。世界中の何百万もの子どもにとって、これはなお現実だ。どこの子も皆が学校に行けるようにすることは、世界の国々が共有する大きな目標の一つになった。なぜそれほど重要か。教育は人生を変える。読めるようになった子はより良い仕事を見つけ、自分の権利を理解し、健康やお金についてより賢い選択ができる。特に女子が教育を受けると、地域社会全体がより健康で豊かになる。教育は貧困を減らす最も強力な道具の一つだ。だが多くの子はなお機会を逃す。学校から遠く住む子もいる。働くためや家族の世話で家にとどめられる子もいる。戦争、貧困、教師不足がすべて妨げになる。女子には、古い慣習が早くに就学を終わらせることもある。世界中で人々はこれを変えようとしている。政府は学校を建て教師を養成する。慈善団体は本や食事、安全に学べる場所を提供する。技術は今、電話やラジオで遠い村に授業を届ける。進歩は本物だ。一世代前よりはるかに多くの子が学校に行く。だが仕事は終わっておらず、近年の困難が一部の場所で歩みを遅らせた。すべての子を教育することは公正なだけでなく賢明だ。すべての子が学べる世界は、より多くの発想と希望、そして皆への機会がある世界だ。",
+        quiz: [
+          { q: "Why does education matter so much?", options: ["It changes lives, helping people find work, understand rights, and reduce poverty", "It has no effect on people's lives", "It only helps rich people"], answer: 0 },
+          { q: "Why do many children still miss school?", options: ["Distance, poverty, work at home, war, and a lack of teachers", "Because school is too easy", "Because no schools exist anywhere"], answer: 0 },
+          { q: "How are people working to educate every child?", options: ["Building schools, training teachers, and bringing lessons through phones and radios", "By closing all schools", "By ignoring the problem"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0925-4",
+        title: "Ramen: Japan's Beloved Noodle Dish",
+        level: "★★☆",
+        genre: "日本",
+        text: "On a cold evening in Japan, few things are more comforting than a steaming bowl of ramen. This popular dish is made of wheat noodles served in a hot, flavorful soup, usually topped with things like sliced pork, green onions, seaweed, and a soft-boiled egg. Simple as it sounds, ramen has become one of Japan's most loved foods, enjoyed by people of every age.\n\nInterestingly, ramen came to Japan from China long ago, but over the years the Japanese made it entirely their own. Today, almost every region of Japan has its own style. The soup might be rich and creamy in one area, light and salty in another, or dark and savory somewhere else. Ramen lovers travel across the country just to taste local versions.\n\nMaking great ramen is taken very seriously. A good soup can take many hours, or even a whole day, to prepare, as cooks slowly draw deep flavor from bones, vegetables, and other ingredients. Some famous ramen shops have lines of customers waiting patiently outside.\n\nRamen is also part of everyday life. It is cheap, filling, and quick, making it a favorite meal for busy students and workers. There are tiny shops with just a few seats, and even instant ramen that anyone can make at home in minutes.\n\nFrom humble noodles has grown a rich food culture. A single bowl of ramen holds warmth, craft, and a strong sense of local pride.",
+        summaryJa: "日本の寒い夕べ、湯気の立つラーメンの丼ほど心温まるものは少ない。この人気の料理は、熱く風味豊かなスープに入った小麦の麺で、たいていチャーシューやねぎ、海苔、半熟卵などがのる。単純に聞こえるが、ラーメンは日本で最も愛される食べ物の一つになり、あらゆる年代の人に楽しまれる。興味深いことに、ラーメンは昔中国から日本に来たが、年月をかけて日本人はそれを完全に自分のものにした。今や日本のほぼどの地域にも独自の流儀がある。スープはある地域では濃厚でクリーミー、別では軽く塩気があり、また別では濃く旨みがある。ラーメン好きは地元版を味わうためだけに国中を旅する。優れたラーメン作りはとても真剣に受け止められる。良いスープは何時間、時に丸一日かかる。料理人が骨や野菜などからゆっくり深い風味を引き出すからだ。有名店には外で辛抱強く待つ客の列がある。ラーメンは日常の一部でもある。安く、満腹で、速いので、忙しい学生や働く人の好物だ。数席だけの小さな店もあれば、家で数分で作れるインスタントラーメンもある。素朴な麺から豊かな食文化が育った。一杯のラーメンに、温かさと職人技、そして強い地元の誇りが宿る。",
+        quiz: [
+          { q: "What is ramen?", options: ["Wheat noodles served in a hot, flavorful soup with toppings", "A cold sweet dessert", "A kind of tea"], answer: 0 },
+          { q: "How did ramen become uniquely Japanese?", options: ["It came from China long ago, but Japan made it its own with many regional styles", "It was never changed at all", "It has only one style everywhere"], answer: 0 },
+          { q: "Why is making great ramen taken seriously?", options: ["A good soup can take many hours or a whole day to prepare", "It takes only one second", "No effort is needed"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0925-5",
+        title: "How Plants Make Food from Light",
+        level: "★★★",
+        genre: "科学・カルチャー",
+        text: "Plants seem to live on almost nothing. Rooted in one spot, they never eat a meal as we do, yet they grow from tiny seeds into towering trees. Their secret is one of the most important processes on Earth: photosynthesis, the ability to make food from light.\n\nDeep inside their leaves, plants contain a green substance called chlorophyll. This is what makes leaves green, and it acts like a tiny solar panel. It captures energy from sunlight. Using that energy, the plant combines two simple ingredients — water drawn up from the soil, and a gas called carbon dioxide taken from the air — and turns them into sugar. This sugar is the plant's food, giving it the energy to grow.\n\nThere is a wonderful bonus in this process. As the plant makes its food, it releases oxygen into the air as a kind of waste. That oxygen is exactly what animals and people need to breathe. In a very real sense, plants and animals help keep each other alive.\n\nPhotosynthesis is happening quietly all around us, in every green leaf, blade of grass, and tiny plant in the sea. Together, the world's plants produce most of the oxygen we breathe and form the base of nearly every food chain.\n\nSo the next time you see a green leaf in the sun, remember what it is doing. It is quietly turning light into life — a piece of everyday magic that makes our whole world possible.",
+        summaryJa: "植物はほとんど何もなしに生きているように見える。一箇所に根を張り、私たちのように食事はしないのに、小さな種からそびえる木へと育つ。その秘密は地球で最も重要な過程の一つ、光合成——光から食物を作る能力だ。葉の奥深く、植物はクロロフィルという緑の物質を含む。これが葉を緑にし、小さな太陽電池のように働く。日光からエネルギーを捉えるのだ。そのエネルギーを使い、植物は二つの簡単な材料——土から吸い上げた水と、空気から取り込む二酸化炭素という気体——を合わせ、糖に変える。この糖が植物の食物で、育つエネルギーを与える。この過程には素晴らしいおまけがある。植物は食物を作る間、一種の廃物として酸素を空気中に放つ。その酸素こそ、動物や人が呼吸に必要とするものだ。実に本当の意味で、植物と動物は互いを生かし合っている。光合成は私たちの周りのあらゆる緑の葉、草の刃、海の小さな植物で静かに起きている。合わせて、世界の植物は私たちが呼吸する酸素の大半を作り、ほぼすべての食物連鎖の土台をなす。次に日なたの緑の葉を見たら、それが何をしているか思い出してほしい。静かに光を命に変えている——私たちの世界全体を可能にする、日常の魔法の一片だ。",
+        quiz: [
+          { q: "What is photosynthesis?", options: ["A plant's ability to make food from light", "A way plants eat meals like animals", "A kind of animal"], answer: 0 },
+          { q: "What does a plant combine to make sugar?", options: ["Water from the soil and carbon dioxide from the air, using energy from sunlight", "Only rocks", "Plastic and metal"], answer: 0 },
+          { q: "What helpful thing do plants release as they make food?", options: ["Oxygen, which animals and people need to breathe", "Poison gas", "Nothing at all"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-24",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "How does a firefly make light?", options: ["A chemical reaction inside its body combines substances with oxygen", "By reflecting the moon", "By using a tiny battery"], answer: 0 },
           { q: "Why is a firefly's light called 'cold light'?", options: ["Almost no heat is produced, unlike a normal light bulb", "Because it only glows in winter", "Because it feels icy"], answer: 0 },
           { q: "Why do fireflies blink in patterns?", options: ["The flashes are a language, used mostly to find a mate", "To scare away the sun", "For no reason at all"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-18",
-    passages: [
-      {
-        id: "d0918-1",
-        title: "The Rise of Tap-to-Pay",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Not long ago, paying for something meant handing over cash or swiping a card and signing your name. Today, in many places, you simply tap your card or phone against a small machine, and in a second the payment is done. This is called tap-to-pay, or contactless payment, and it is quickly changing how the world shops.\n\nThe idea is built on a simple, short-range wireless technology. When you hold your card or phone close to the reader, the two devices talk to each other over a distance of just a few centimeters. Your payment information is passed safely, and the sale is complete almost instantly. Because the card never leaves your hand, and no long number is typed, it is both fast and secure.\n\nFor shops, tap-to-pay means shorter lines and quicker service. For customers, it means less fumbling for coins and cards. During the recent years when people wished to touch fewer surfaces, contactless payment grew even more popular, and many have never gone back.\n\nThere are things to watch. People may spend more easily when paying feels almost invisible, so it helps to keep track of your money. And some shoppers, especially those without smartphones or bank cards, still rely on cash and must not be left behind.\n\nStill, the trend is clear. With a simple tap, buying has become faster and smoother — a small change that quietly touches millions of everyday moments.",
-        summaryJa: "少し前まで、支払いは現金を渡すか、カードを通して署名することだった。今、多くの場所で、カードや電話を小さな機械に軽くかざすだけで、一瞬で支払いが済む。これをタップ決済(非接触決済)といい、世界の買い物のあり方を急速に変えている。仕組みは単純な近距離無線技術に基づく。カードや電話を読み取り機に近づけると、二つの機器がわずか数センチの距離で通信する。支払い情報が安全に渡され、売買はほぼ瞬時に完了する。カードは手を離れず、長い番号も打たないので、速く安全だ。店には行列の短縮と迅速なサービスを意味し、客には小銭やカードを探す手間の減少を意味する。人が触れる面を減らしたかった近年、非接触決済はさらに広まり、多くが元に戻っていない。注意すべき点もある。支払いがほぼ見えなく感じると使いすぎやすいので、お金の管理が役立つ。スマホや銀行カードを持たない買い物客はなお現金に頼り、取り残されてはならない。それでも流れは明確だ。一度のタップで買い物は速く滑らかになった。何百万もの日常の瞬間に静かに触れる小さな変化だ。",
-        quiz: [
-          { q: "What is tap-to-pay?", options: ["Paying by tapping your card or phone against a reader", "Paying only with cash", "Writing a long check"], answer: 0 },
-          { q: "How does tap-to-pay work?", options: ["A short-range wireless technology lets the card and reader talk over a few centimeters", "By shouting the price", "By mailing the money"], answer: 0 },
-          { q: "What should customers watch out for?", options: ["They may spend more easily when paying feels almost invisible", "That it is always slow", "That it never works"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0918-2",
-        title: "The Secret Life of Barcodes and QR Codes",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Look at almost any product you buy, and you will find a small pattern of black lines or squares printed on it. These are barcodes and QR codes, and though we barely notice them, they are one of the quiet engines of modern life.\n\nA barcode is the older design: a row of black stripes of different widths. To a machine, these stripes are a code. When a scanner shines light across them, the pattern of dark and light lines stands for a number. That number tells a shop's computer exactly which product it is, so it can find the price and count how many are left in stock. What once took a clerk minutes now takes a second.\n\nA QR code goes further. It is a square filled with small black-and-white blocks, and it can hold much more information than a simple barcode — not just a number, but a web address, a message, or a ticket. Because a phone camera can read it, QR codes now appear on posters, menus, and payment screens everywhere.\n\nBoth work on the same clever idea: turning information into a pattern that a machine can read instantly and without mistakes. The patterns even include a way to check themselves, so a slightly damaged code can still be understood.\n\nThese humble squares and stripes make shopping, shipping, and sharing faster all over the world. They are proof that a simple pattern, well designed, can carry a surprising amount of meaning.",
-        summaryJa: "買うほぼどんな製品にも、黒い線や四角の小さな模様が印刷されている。これがバーコードとQRコードで、ほとんど気づかないが、現代生活の静かな原動力の一つだ。バーコードは古い方の意匠で、幅の異なる黒い縞の列だ。機械にとってこの縞は符号だ。スキャナーが光を当てると、黒と白の線の模様が数字を表す。その数字が店のコンピューターにどの製品か正確に伝え、価格を見つけ在庫数を数えられる。かつて店員に数分かかったことが今は一秒だ。QRコードはさらに進む。小さな白黒の塊で満ちた四角で、単純なバーコードよりずっと多くの情報——数字だけでなくウェブアドレスやメッセージ、チケット——を持てる。電話のカメラで読めるので、今やポスターやメニュー、決済画面などあらゆる所に現れる。どちらも同じ巧みな考えに基づく。情報を、機械が瞬時に誤りなく読める模様に変えるのだ。模様には自己確認の仕組みも含まれ、少し傷んだ符号でも理解できる。この地味な四角と縞が、世界中で買い物や輸送、共有を速くする。よく設計された単純な模様が驚くほど多くの意味を運べる証だ。",
-        quiz: [
-          { q: "What does a barcode's pattern of stripes stand for?", options: ["A number that tells a computer which product it is", "A drawing of the product", "The name of the shop owner"], answer: 0 },
-          { q: "How is a QR code different from a barcode?", options: ["It can hold much more information, like a web address or a ticket", "It holds no information at all", "It can only be read by hand"], answer: 0 },
-          { q: "What clever idea do both share?", options: ["Turning information into a pattern a machine can read instantly and correctly", "Hiding information forever", "Making shopping slower"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0918-3",
-        title: "Working Together in Space",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Space is vast, cold, and dangerous, and reaching it is one of the hardest things humans have ever done. Perhaps that is why, high above our arguments on Earth, space has become a place where many nations choose to work together rather than alone.\n\nThe clearest example has been the large station that circles the Earth, where astronauts from many different countries live and work side by side. They share the same small home, run experiments together, and depend on one another for safety. Countries that disagree on many things on the ground have cooperated for years to keep this station flying.\n\nWhy cooperate in space? First, it is enormously expensive. By sharing the cost, no single nation has to pay for everything. Second, it is safer and smarter. Different countries bring different skills and ideas, and together they can do more than any one could alone. Third, the big questions of space — how the universe began, or whether life exists elsewhere — belong to all of humanity, not to one flag.\n\nCooperation is not always easy. Nations must build trust, agree on rules, and share credit fairly. As more countries and companies reach space, new agreements will be needed to keep it peaceful and open.\n\nStill, space offers a hopeful lesson. When a challenge is large enough, even rival nations can find reasons to join hands. Looking up together, we are reminded of how much we share on the small planet below.",
-        summaryJa: "宇宙は広大で冷たく危険で、そこへ到達することは人類が成した最も難しいことの一つだ。だからこそ、地上の争いのはるか上で、宇宙は多くの国が単独でなく協力を選ぶ場になったのかもしれない。最も明確な例は、地球を回る大きな宇宙ステーションで、多くの異なる国の宇宙飛行士が並んで暮らし働いてきた。同じ小さな家を分け合い、共に実験を行い、安全のため互いに頼る。地上で多くのことで対立する国々が、このステーションを飛ばし続けるため何年も協力してきた。なぜ宇宙で協力するのか。第一に、非常に高価だ。費用を分ければ、一国がすべてを払わずに済む。第二に、より安全で賢い。異なる国が異なる技能と発想をもたらし、共になら一国以上のことができる。第三に、宇宙の大きな問い——宇宙はどう始まったか、他に生命はいるか——は一つの旗でなく全人類のものだ。協力は常に容易ではない。国は信頼を築き、規則に合意し、功績を公正に分け合わねばならない。より多くの国や企業が宇宙に届くにつれ、平和で開かれた宇宙を保つ新しい合意が要る。それでも宇宙は希望の教訓を与える。課題が十分に大きければ、対立する国さえ手を組む理由を見つけられる。共に見上げるとき、下の小さな惑星でいかに多くを分かち合うかを思い出す。",
-        quiz: [
-          { q: "What is the clearest example of cooperation in space?", options: ["A large station where astronauts from many countries live and work together", "A single country's secret base", "An empty rocket"], answer: 0 },
-          { q: "Why do countries cooperate in space?", options: ["It shares the huge cost and combines different skills and ideas", "Because space is cheap", "Because only one country can reach it"], answer: 0 },
-          { q: "What hopeful lesson does space offer?", options: ["When a challenge is large enough, even rival nations can join hands", "That nations can never work together", "That space is unimportant"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0918-4",
-        title: "Mottainai: The Spirit of No Waste",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, there is a single word that a child might hear when leaving food on a plate, or an adult might say when throwing away something still useful. The word is \"mottainai.\" It expresses a feeling of regret that something valuable is being wasted, and it reflects a deep respect for the things we use.\n\nMottainai is more than \"don't waste.\" Behind it lies the idea that every object — a grain of rice, a sheet of paper, a pair of shoes — took effort, resources, and time to make. To throw such a thing away carelessly is to disrespect all the work and nature that went into it. To feel mottainai is to notice that value and treat it with care.\n\nThis idea shapes daily life in quiet ways. People may repair a torn item instead of buying a new one, use both sides of a piece of paper, or finish every bit of a meal. Old clothes may be turned into cleaning rags; leftover food may become tomorrow's lunch.\n\nIn today's world, full of cheap goods and mountains of rubbish, the spirit of mottainai feels more important than ever. It is a gentle, personal form of caring for the planet, one small choice at a time.\n\nMottainai teaches a simple truth: the things around us are gifts of effort and nature. When we use them fully and waste less, we show respect — for the world, and for one another.",
-        summaryJa: "日本には、子どもが皿に食べ物を残すとき、あるいは大人がまだ使える物を捨てるときに聞くかもしれない一つの言葉がある。「もったいない」だ。価値ある物が無駄にされていることへの惜しむ気持ちを表し、使う物への深い敬意を映す。もったいないは「無駄にするな」以上のものだ。その背後には、あらゆる物——一粒の米、一枚の紙、一足の靴——が、作るのに労力や資源、時間を要したという考えがある。そうした物を軽々しく捨てるのは、そこに注がれたすべての労働と自然への無礼だ。もったいないと感じることは、その価値に気づき、丁寧に扱うことだ。この考えは静かに日常を形づくる。新品を買う代わりに破れた物を直し、紙の両面を使い、食事を一片残さず食べる。古い服は掃除の雑巾になり、残り物は明日の弁当になる。安い物とごみの山にあふれた今日の世界で、もったいないの精神はかつてなく大切に感じられる。一度に一つの小さな選択で地球を大切にする、優しく個人的な形だ。もったいないは単純な真実を教える。周りの物は労力と自然の贈り物だ。十分に使い無駄を減らすとき、私たちは世界と互いへの敬意を示す。",
-        quiz: [
-          { q: "What does 'mottainai' express?", options: ["Regret that something valuable is being wasted", "Joy at throwing things away", "A wish for more waste"], answer: 0 },
-          { q: "What idea lies behind mottainai?", options: ["Every object took effort, resources, and time to make, and deserves respect", "Objects appear from nothing", "Only new things have value"], answer: 0 },
-          { q: "How does mottainai shape daily life?", options: ["People repair items, use both sides of paper, and finish their meals", "People buy new things constantly", "People waste as much as possible"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0918-5",
-        title: "Why Is the Ocean Salty?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Anyone who has swum in the sea knows that its water tastes salty, quite unlike the fresh water of a river or lake. But have you ever wondered where all that salt comes from, and why the ocean is salty while rivers are not?\n\nThe surprising answer is that much of the ocean's salt comes from the land. When rain falls on rocks and soil, it slowly dissolves tiny amounts of minerals, including salt. Rivers carry this water, with its dissolved minerals, down to the sea. The amount in any single river is far too small to taste. But rivers have been flowing into the oceans for billions of years, carrying salt the whole time.\n\nHere is the key: when seawater evaporates into the sky to form clouds and rain, the salt is left behind. The water leaves, but the salt stays in the ocean. Over an immense span of time, this salt has built up, making the sea as salty as it is today.\n\nSome salt also comes from underwater volcanoes and vents on the ocean floor, adding minerals directly to the water.\n\nSo the saltiness of the sea is really a record of time itself — billions of years of rivers, rain, and rock, all captured in a single mouthful of seawater. The next time you taste the ocean, remember: you are tasting the slow, patient work of our whole planet.",
-        summaryJa: "海で泳いだことがある人なら、その水が塩辛く、川や湖の真水とはかなり違うことを知っている。だが、その塩がどこから来るのか、なぜ海は塩辛く川はそうでないのか、考えたことはあるだろうか。意外な答えは、海の塩の多くが陸から来るということだ。雨が岩や土に降ると、塩を含むごく少量の鉱物をゆっくり溶かす。川はこの水を、溶けた鉱物とともに海へ運ぶ。一つの川の量は味わうにはあまりに少ない。だが川は何十億年も海に流れ込み、その間ずっと塩を運んできた。鍵はここだ。海水が空へ蒸発して雲や雨になるとき、塩は残される。水は去るが塩は海に留まる。途方もない時間をかけ、この塩が積み重なり、海を今日ほど塩辛くした。海底の火山や噴出口から直接水に鉱物を加える塩もある。だから海の塩辛さは時間そのものの記録だ。何十億年もの川、雨、岩が、一口の海水に捉えられている。次に海の味を感じるとき、思い出してほしい。あなたは惑星全体のゆっくりとした忍耐強い営みを味わっているのだ。",
-        quiz: [
-          { q: "Where does much of the ocean's salt come from?", options: ["From the land — rain dissolves minerals from rock and rivers carry them to the sea", "From the sky only", "From fish"], answer: 0 },
-          { q: "Why does salt stay in the ocean?", options: ["When seawater evaporates, the water leaves but the salt is left behind", "Because salt floats up into clouds", "Because rivers remove it"], answer: 0 },
-          { q: "What else adds salt to the sea?", options: ["Underwater volcanoes and vents on the ocean floor", "Boats sailing by", "Birds flying overhead"], answer: 0 }
         ]
       }
     ]
