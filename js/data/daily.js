@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-26",
+    passages: [
+      {
+        id: "d0926-1",
+        title: "Why Happy Workers Matter",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "For a long time, many companies thought their only job was to keep customers happy. The people who worked for the company were expected simply to do as they were told. Today, more and more businesses understand something important: happy workers are good for business.\n\nWhy does the happiness of employees matter so much? First, people who enjoy their work tend to do it better. They are more careful, more creative, and more willing to help. A worker who feels valued will often go the extra mile, while an unhappy one may do only the bare minimum.\n\nSecond, keeping good workers saves money. When someone leaves, the company must find and train a replacement, which is slow and expensive. A workplace where people feel respected and supported keeps its talented people longer.\n\nHappy workers also treat customers better. A friendly, cheerful employee makes customers feel welcome, while a tired, unhappy one can drive them away. In this way, the mood inside a company quietly reaches the people it serves.\n\nMaking workers happy does not mean simply paying more, though fair pay matters. It also means respect, interesting work, a chance to grow, and a healthy balance between work and life.\n\nWise companies now see their employees not just as workers, but as people whose wellbeing shapes everything. When a business takes care of its people, those people, in turn, take care of the business.",
+        summaryJa: "長い間、多くの企業は自分たちの唯一の仕事は客を満足させることだと考えていた。会社で働く人は、言われた通りにするだけと期待された。今、ますます多くの企業が大切なことを理解している。幸せな働き手はビジネスに良い、と。なぜ従業員の幸せがそれほど重要か。第一に、仕事を楽しむ人はそれをよりうまくやる傾向がある。より注意深く、創造的で、進んで助ける。大切にされていると感じる働き手はしばしば一歩踏み込むが、不幸な人は最低限しかしないかもしれない。第二に、良い働き手を留めることはお金を節約する。誰かが辞めると、会社は後任を探し訓練せねばならず、遅く高くつく。人が尊重され支えられていると感じる職場は、有能な人をより長く留める。幸せな働き手は客もより良く扱う。親しみやすく明るい従業員は客に歓迎されていると感じさせ、疲れて不幸な人は客を遠ざけうる。こうして会社内の雰囲気が、仕える相手に静かに届く。働き手を幸せにするとは、単に多く払うことではない——公正な給与は大切だが。敬意、面白い仕事、成長の機会、仕事と生活の健全なバランスも意味する。賢い企業は今、従業員を単なる働き手でなく、その幸福がすべてを形づくる人として見る。企業が人を大切にすれば、その人が今度は企業を大切にする。",
+        quiz: [
+          { q: "Why do happy workers do their jobs better?", options: ["They are more careful, creative, and willing to help", "They do less work", "They ignore customers"], answer: 0 },
+          { q: "How does keeping good workers save money?", options: ["The company avoids the slow, expensive task of replacing and training people", "It costs more to keep people", "Workers pay the company"], answer: 0 },
+          { q: "What does making workers happy involve, besides pay?", options: ["Respect, interesting work, a chance to grow, and work-life balance", "Only shouting orders", "Nothing at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0926-2",
+        title: "How Search Engines Work",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Type a few words into a search engine, and in less than a second you receive millions of results, with the most useful ones usually near the top. It feels effortless, but behind that instant answer lies a huge and clever system. How does a search engine find what you want so quickly?\n\nThe work happens in three main steps. First comes crawling. The search engine sends out software, sometimes called \"spiders,\" that travel across the internet, following links from page to page and visiting billions of websites.\n\nSecond comes indexing. As the spiders visit pages, the search engine stores information about each one in a giant index — a bit like the index at the back of a book, but vastly larger. This index lets the engine find relevant pages later without searching the whole internet again.\n\nThird comes ranking. When you type a question, the engine looks in its index for matching pages, then decides which to show first. To do this, it weighs many clues: how well a page matches your words, how trusted and popular it is, and how easy it is to read.\n\nBecause the internet changes constantly, this process never stops. Spiders keep crawling, the index keeps growing, and the ranking keeps improving.\n\nSo a simple search is really the tip of an enormous machine, quietly organizing the world's information so that the answer you need is only a moment away.",
+        summaryJa: "検索エンジンに数語を打ち込むと、一秒足らずで何百万もの結果が返り、最も役立つものがたいてい上位に来る。楽々に感じるが、その即座の答えの裏には巨大で巧みな仕組みがある。検索エンジンはどうして、欲しいものをそんなに速く見つけるのか。作業は主に三段階で起きる。第一はクロール。検索エンジンは「スパイダー」と呼ばれることもあるソフトを送り出し、ページからページへリンクをたどってインターネットを巡り、何十億ものサイトを訪れる。第二はインデックス化。スパイダーがページを訪れると、検索エンジンは各ページの情報を巨大な索引に蓄える。本の巻末の索引に少し似ているが、はるかに大きい。この索引のおかげで、後でインターネット全体を再び探さずに関連ページを見つけられる。第三はランク付け。質問を打つと、エンジンは索引で一致するページを探し、どれを最初に見せるか決める。そのため多くの手がかりを比べる。ページが語にどれだけ合うか、どれだけ信頼され人気か、どれだけ読みやすいか。インターネットは絶えず変わるので、この過程は止まらない。スパイダーは巡り続け、索引は育ち続け、ランク付けは改善し続ける。単純な検索は、実は巨大な機械の氷山の一角だ。世界の情報を静かに整理し、必要な答えが一瞬先にあるようにしている。",
+        quiz: [
+          { q: "What is the first step, 'crawling'?", options: ["Software travels the internet, following links and visiting billions of pages", "Deleting all websites", "Printing every page on paper"], answer: 0 },
+          { q: "What is the 'index' like?", options: ["A giant version of the index at the back of a book", "A single photograph", "A type of computer game"], answer: 0 },
+          { q: "How does the engine decide which pages to show first (ranking)?", options: ["It weighs how well a page matches, how trusted and popular it is, and how readable", "It picks pages at random", "It shows the oldest pages only"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0926-3",
+        title: "Working Together Against Disease",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Diseases do not carry passports. A sickness that appears in one country can, within days, travel by airplane to the other side of the world. Because germs cross borders so easily, protecting people's health has become a task that no country can handle alone. Around the world, nations work together to fight disease.\n\nThis cooperation takes many forms. Countries share information quickly when a new illness appears, so that others can prepare. Scientists in different nations work together to study diseases and to develop medicines and vaccines. When a poorer country faces an outbreak, richer nations and global organizations often send doctors, supplies, and support.\n\nOne of the greatest victories of this teamwork was the defeat of smallpox, a deadly disease that once killed millions. Through a huge worldwide effort, doctors vaccinated people across the globe until the disease disappeared completely. It was a triumph that no single country could have achieved.\n\nThe work continues today. Health experts watch for new diseases, help vaccinate children everywhere, and plan for future outbreaks. Recent years have reminded the world how important — and how difficult — this cooperation can be.\n\nFighting disease together is not always smooth. Countries may disagree, and trust must be built. But the basic truth is clear: when it comes to health, we are all connected. A safer world for one is a safer world for all, and protecting the health of distant strangers helps protect our own.",
+        summaryJa: "病気はパスポートを持たない。ある国で現れた病は、数日で飛行機に乗り地球の反対側へ移りうる。菌はたやすく国境を越えるので、人々の健康を守ることは一国では担えない務めになった。世界中で、国々は協力して病気と闘う。この協力は多くの形をとる。新しい病が現れると各国は素早く情報を共有し、他が備えられるようにする。異なる国の科学者が協力して病気を研究し、薬やワクチンを開発する。貧しい国が流行に直面すると、豊かな国や世界的な組織がしばしば医師や物資、支援を送る。この協働の最大の勝利の一つが、かつて何百万人もの命を奪った恐ろしい病、天然痘の克服だった。巨大な世界的努力を通じ、医師は病が完全に消えるまで世界中の人に予防接種をした。どの一国も成し得なかった偉業だ。仕事は今も続く。保健の専門家は新しい病を警戒し、各地の子への予防接種を助け、将来の流行に備える。近年、世界はこの協力がいかに重要で、いかに難しいかを思い出した。共に病気と闘うのは常に順調ではない。国は対立しうるし、信頼は築かねばならない。だが基本の真実は明確だ。健康に関して私たちは皆つながっている。一人にとって安全な世界は皆にとって安全な世界で、遠い見知らぬ人の健康を守ることが自分を守る助けになる。",
+        quiz: [
+          { q: "Why can't one country handle disease alone?", options: ["Germs cross borders easily, traveling around the world in days", "Because diseases never spread", "Because only one country has doctors"], answer: 0 },
+          { q: "What was one great victory of global health teamwork?", options: ["The complete defeat of smallpox through worldwide vaccination", "Making disease spread faster", "Closing all hospitals"], answer: 0 },
+          { q: "What basic truth does the passage share?", options: ["When it comes to health, we are all connected", "Health only matters in one country", "Cooperation never helps"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0926-4",
+        title: "The Kimono: Japan's Traditional Dress",
+        level: "★★☆",
+        genre: "日本",
+        text: "Few images say \"Japan\" as clearly as a person wearing a kimono. This traditional garment, with its long sleeves and beautiful patterns, has been worn in Japan for well over a thousand years. Though most people wear modern clothes today, the kimono remains a treasured symbol of Japanese culture.\n\nA kimono is a long robe, wrapped around the body and held closed with a wide sash called an \"obi.\" What makes each kimono special is its design. The colors, patterns, and cloth are often chosen to match the season or the occasion. A kimono for a summer festival is light and cheerful, while one for a formal event may be rich and elegant.\n\nKimonos are usually saved for special moments. People wear them for weddings, graduations, New Year visits to shrines, and coming-of-age ceremonies. Putting one on is a careful art in itself, and dressing in a fine kimono can take help and practice.\n\nBecause good kimonos are valuable and long-lasting, they are often passed down within families, from mother to daughter. A single kimono may carry decades of memories.\n\nIn recent years, young people and visitors have enjoyed renting kimonos to walk through old streets and temples, keeping the tradition alive in a new way.\n\nThe kimono is more than clothing. It is wearable art and living history — a graceful expression of the Japanese love of beauty, season, and respect for special moments in life.",
+        summaryJa: "着物を着た人ほど「日本」をはっきり物語る姿は少ない。長い袖と美しい模様を持つこの伝統的な衣服は、日本で千年をはるかに超えて着られてきた。今日ほとんどの人は現代の服を着るが、着物は日本文化の大切な象徴であり続ける。着物は長い上衣で、体に巻きつけ「帯」という幅広の帯で留める。各着物を特別にするのはその意匠だ。色や模様、布はしばしば季節や場に合わせて選ばれる。夏祭りの着物は軽く陽気で、正式な催しのものは豊かで優雅なこともある。着物はたいてい特別な時のためにとっておかれる。結婚式、卒業式、正月の神社参り、成人式に着る。着付けはそれ自体が丁寧な技で、上質な着物を着るには助けと練習が要ることもある。良い着物は価値があり長持ちするので、母から娘へと家族の中で受け継がれることが多い。一枚の着物が何十年もの思い出を宿しうる。近年、若者や訪問者は着物を借りて古い通りや寺を歩くのを楽しみ、新しい形で伝統を生かしている。着物は衣服以上のものだ。身にまとう芸術であり生きた歴史——美と季節、人生の特別な瞬間への敬意という日本の心の優雅な表現だ。",
+        quiz: [
+          { q: "What is an 'obi'?", options: ["The wide sash that holds a kimono closed", "A type of shoe", "A kind of hat"], answer: 0 },
+          { q: "When do people usually wear kimonos?", options: ["For special moments like weddings, graduations, and New Year visits", "Every single day for work", "Only while sleeping"], answer: 0 },
+          { q: "Why are kimonos often passed down in families?", options: ["Good kimonos are valuable and long-lasting, carrying decades of memories", "Because they are worthless", "Because they are made of paper"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0926-5",
+        title: "Why Do We Yawn?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "You are sitting quietly when, suddenly, your mouth opens wide, you take a deep breath, and you yawn. Everyone yawns — babies, old people, even dogs and cats. We often yawn when we are tired or bored. But the strange truth is that scientists are still not completely sure why we do it.\n\nFor a long time, people believed we yawn because we need more oxygen. The idea was that a tired body breathes shallowly, so a big yawn pulls in fresh air. But careful studies have cast doubt on this simple explanation, so scientists have looked for other reasons.\n\nOne interesting idea is that yawning helps cool the brain. A big yawn pulls in air and increases blood flow, which may lower the temperature of the brain slightly, helping it work better. This might explain why we yawn when we are tired, as a tired brain can be a little warmer.\n\nPerhaps the most curious fact about yawning is that it is \"contagious.\" When you see or even read about someone yawning, you may feel the urge to yawn too. This seems to be linked to how we connect with others, and it is stronger between people who are close.\n\nSo a simple yawn is more mysterious than it looks. It may cool our brains, keep us alert, and even connect us to the people around us. The next time you yawn, remember: science has not fully solved this everyday puzzle.",
+        summaryJa: "静かに座っていると突然、口が大きく開き、深く息を吸い、あくびをする。誰もがあくびをする——赤ちゃんも高齢者も、犬や猫さえも。私たちは疲れたり退屈したりするとよくあくびをする。だが奇妙な真実は、科学者がなぜあくびをするのかまだ完全には確かでないことだ。長い間、酸素が足りないからあくびをすると信じられていた。疲れた体は浅く呼吸するので、大きなあくびが新鮮な空気を取り込むという考えだ。だが入念な研究がこの単純な説明に疑いを投げかけ、科学者は他の理由を探してきた。興味深い説の一つは、あくびが脳を冷やす助けになるというものだ。大きなあくびは空気を取り込み血流を増やし、脳の温度をわずかに下げてよりよく働かせるかもしれない。これは疲れたときにあくびをする理由を説明しうる。疲れた脳は少し温かくなりうるからだ。あくびの最も不思議な事実は、それが「伝染する」ことだろう。誰かのあくびを見たり、読んだりさえすると、自分もあくびをしたくなる。これは人とのつながり方に関係するらしく、親しい人同士でより強い。単純なあくびは見た目より謎めいている。脳を冷やし、覚醒を保ち、周りの人とつなげさえするかもしれない。次にあくびをするとき、思い出してほしい。科学はこの日常の謎をまだ完全には解いていない。",
+        quiz: [
+          { q: "What did people long believe was the reason we yawn?", options: ["That we need more oxygen, though studies have cast doubt on this", "That we are hungry", "That we want to talk"], answer: 0 },
+          { q: "What is one interesting modern idea about yawning?", options: ["It may help cool the brain, helping it work better", "It makes the brain hotter", "It has no effect at all"], answer: 0 },
+          { q: "What curious fact about yawning does the passage mention?", options: ["It is 'contagious' — seeing or reading about it can make you yawn", "It can only happen once a year", "Animals never yawn"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-25",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is the difference between cold-blooded and warm-blooded animals?", options: ["Cold-blooded animals take heat from their surroundings; warm-blooded ones make their own", "There is no difference", "Only size differs"], answer: 0 },
           { q: "How did scientists study the T. rex's body temperature?", options: ["By studying chemical clues locked inside fossilized teeth", "By asking a living T. rex", "By measuring a lizard"], answer: 0 },
           { q: "Why does a warm-blooded T. rex make sense?", options: ["Birds are living descendants of dinosaurs, and birds are warm-blooded", "Because dinosaurs were plants", "Because it never moved"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-19",
-    passages: [
-      {
-        id: "d0919-1",
-        title: "Why Companies Advertise",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Everywhere we look, there are advertisements — on screens, on posters, on the sides of buses, and between the videos we watch. Companies spend enormous amounts of money on them. But why? What does a business really hope to gain by advertising?\n\nThe first goal is simply to be known. A wonderful product is useless if no one has heard of it. Advertising tells people, \"We exist, and here is what we offer.\" For a new company, this is often the first and most important step.\n\nThe second goal is to persuade. A good advertisement does not just share facts; it shows why a product might improve your life. It may promise comfort, fun, safety, or a feeling of belonging. Adverts often work on emotions as much as on reason.\n\nA third goal is to remind. Even famous companies keep advertising, because people forget, and rivals are always competing for attention. A familiar name, seen again and again, feels trustworthy and comes to mind first when it is time to buy.\n\nBut advertising has a responsibility. An honest advert informs and gently persuades; a dishonest one tricks people into buying things they do not need or that do not work as promised. Many countries have rules against false claims.\n\nIn the end, advertising is the conversation between a company and the world. Done well and honestly, it helps people discover things that truly make their lives a little better.",
-        summaryJa: "どこを見ても広告がある。画面に、ポスターに、バスの側面に、見る動画の合間に。企業はそれに莫大なお金を使う。だがなぜか。広告で企業は本当は何を得ようとするのか。第一の目的は、ただ知られることだ。素晴らしい製品も誰も聞いたことがなければ役に立たない。広告は「私たちは存在し、これを提供します」と人に伝える。新しい企業にはしばしば最初で最も重要な一歩だ。第二の目的は説得だ。良い広告は事実を伝えるだけでなく、なぜその製品が生活を良くしうるかを示す。快適さや楽しさ、安全、帰属の感覚を約束することもある。広告は理性と同じくらい感情に働きかける。第三の目的は思い出させることだ。有名企業も広告を続ける。人は忘れ、競合は常に注意を奪い合うからだ。何度も見る親しんだ名前は信頼でき、買う時に最初に思い浮かぶ。だが広告には責任がある。正直な広告は知らせ穏やかに説得するが、不正直なものは、要らない物や約束通り働かない物を買うよう人を欺く。多くの国に虚偽表示への規則がある。広告は企業と世界の対話だ。うまく正直に行えば、人が本当に暮らしを少し良くする物を見つける助けになる。",
-        quiz: [
-          { q: "What is the first goal of advertising?", options: ["Simply to be known — to tell people a product exists", "To hide the product", "To lose customers"], answer: 0 },
-          { q: "How does a good advertisement persuade?", options: ["By showing why a product might improve your life, often through emotion", "By sharing only boring numbers", "By insulting the customer"], answer: 0 },
-          { q: "What responsibility does advertising have?", options: ["To be honest, not to trick people into buying useless things", "To always lie", "To confuse everyone"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0919-2",
-        title: "How the Internet Sends Your Data",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "When you send a message or open a web page, your words and pictures travel across the world in a fraction of a second. But how does information move so quickly between computers that may be thousands of kilometers apart? The answer is a clever system built on a simple idea: break everything into small pieces.\n\nWhen you send something over the internet, it is not sent as one big block. Instead, it is chopped into many tiny parts called \"packets.\" Each packet is like a small envelope, carrying a piece of the message and the address of where it needs to go. These packets are sent out separately, and they may even travel by different routes.\n\nAlong the way, machines called routers act like traffic officers. Each router reads a packet's address and passes it toward its destination, choosing a good path from many possible ones. If one road is busy or broken, packets can go another way.\n\nWhen all the packets arrive, the receiving computer puts them back together in the right order, and the message appears whole again. All of this happens so fast that it feels instant.\n\nThis design makes the internet strong. Because there is no single path, damage in one place does not stop everything; the packets simply flow around it. From a video call to a tiny text, the same quiet trick carries our digital lives: split, send, and reassemble, millions of times a second.",
-        summaryJa: "メッセージを送ったりウェブページを開いたりすると、言葉や画像が一瞬で世界を渡る。だが、何千キロも離れたコンピューター間で、情報はどうしてそんなに速く動くのか。答えは単純な考えに基づく巧みな仕組みだ。すべてを小さな断片に分けることだ。インターネットで何かを送るとき、それは一つの大きな塊としては送られない。代わりに「パケット」という多くの小さな部分に刻まれる。各パケットは小さな封筒のようで、メッセージの一片と送り先の住所を運ぶ。パケットは別々に送られ、異なる経路を通ることさえある。途中、ルーターという機械が交通整理役を務める。各ルーターはパケットの住所を読み、多くの可能な道から良い経路を選んで目的地へ渡す。ある道が混雑したり壊れたりすれば、パケットは別の道を行ける。すべてのパケットが着くと、受け取るコンピューターが正しい順に並べ直し、メッセージが再び完全に現れる。これらがあまりに速く起きるので瞬時に感じる。この設計はインターネットを強くする。単一の道がないので、一箇所の損傷が全体を止めず、パケットはただ回り込む。ビデオ通話から小さな文字まで、同じ静かな技が私たちのデジタル生活を運ぶ。分割し、送り、組み立て直す——毎秒何百万回も。",
-        quiz: [
-          { q: "What happens to information sent over the internet?", options: ["It is broken into small pieces called packets", "It is sent as one big block", "It is never divided"], answer: 0 },
-          { q: "What do routers do?", options: ["Read each packet's address and pass it toward its destination", "Delete all packets", "Slow the internet down on purpose"], answer: 0 },
-          { q: "Why does this design make the internet strong?", options: ["With no single path, damage in one place does not stop everything", "Because there is only one route", "Because packets never move"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0919-3",
-        title: "Protecting the World's Forests",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Forests cover about a third of the world's land, and they do far more than provide wood and shade. They are home to a huge share of the planet's animals and plants. They clean our air, hold water in the soil, and help keep the world's climate steady. Protecting them has become one of the great tasks of our time.\n\nWhy are forests so important? As trees grow, they take in a gas that would otherwise warm the planet, and they release the oxygen we breathe. A large forest acts like a giant sponge and a giant lung at once. Millions of people also depend on forests directly for food, medicine, and their way of life.\n\nYet forests around the world are under pressure. Trees are cut down for farmland, wood, and cities, sometimes faster than they can grow back. When a forest is lost, its animals lose their homes and its stored gases are released.\n\nThe good news is that people are fighting back. Countries are protecting large areas of forest, planting millions of new trees, and finding ways to use wood without destroying whole forests. Ordinary people help too, by choosing products that do not harm forests.\n\nSaving forests is not only about trees. It is about clean air, steady weather, and the countless living things — including us — that depend on them. A healthy forest is a gift we must protect and pass on.",
-        summaryJa: "森は世界の陸地の約3分の1を覆い、木材や日陰を与える以上のことをする。地球の動植物の大きな割合のすみかだ。空気を浄化し、土に水を蓄え、世界の気候を安定に保つ助けをする。森を守ることは現代の大きな務めの一つになった。なぜ森はそれほど重要か。木は育つ間、放っておけば地球を温める気体を取り込み、私たちが呼吸する酸素を放つ。大きな森は巨大なスポンジであり同時に巨大な肺のように働く。何百万もの人が食料や薬、暮らしのため森に直接頼ってもいる。だが世界の森は圧力にさらされる。木は農地や木材、都市のため、時に再生より速く切られる。森が失われると、動物はすみかを失い、蓄えた気体が放たれる。良い知らせは、人が反撃していることだ。各国は広い森林を保護し、何百万もの新しい木を植え、森全体を壊さずに木を使う方法を見つけている。普通の人も、森を害さない製品を選んで助ける。森を救うことは木だけの話ではない。清潔な空気、安定した天気、そして森に頼る無数の生き物——私たち自身を含む——の話だ。健康な森は守り受け継ぐべき贈り物だ。",
-        quiz: [
-          { q: "Why are forests so important, according to the passage?", options: ["They clean the air, store water, hold gases, and are home to many species", "They only provide shade", "They serve no purpose"], answer: 0 },
-          { q: "What puts forests under pressure?", options: ["Trees are cut for farmland, wood, and cities, sometimes faster than they regrow", "Too much rain", "Too many new trees"], answer: 0 },
-          { q: "How are people fighting back to save forests?", options: ["Protecting areas, planting trees, and using wood without destroying whole forests", "By cutting down more trees", "By ignoring the problem"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0919-4",
-        title: "Ikebana: The Art of Arranging Flowers",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, arranging flowers means gathering a bright, full bunch and placing them in a vase. In Japan, there is a very different tradition called \"ikebana,\" which means \"giving life to flowers.\" It is a careful art in which every stem, leaf, and space is chosen with great thought.\n\nUnlike a crowded bouquet, an ikebana arrangement is often simple, using only a few flowers and branches. What matters is not just the blossoms, but the shape of the whole design — the lines of the stems, the angle of a leaf, and even the empty space around them. That empty space is not seen as missing; it is an important part of the beauty.\n\nIkebana follows ideas that go back centuries. Many arrangements suggest a balance between heaven, earth, and the person who made them. The artist tries to show the natural beauty and season of the plants, rather than forcing them into a shape.\n\nMaking ikebana is also a quiet, thoughtful activity. As the artist works slowly and carefully, the mind grows calm. Like the tea ceremony, it is as much about the peaceful state of the maker as about the finished work.\n\nToday, people around the world study ikebana. It teaches a gentle lesson: that beauty can come from simplicity, and that what we leave out can matter as much as what we include.",
-        summaryJa: "多くの国で花を生けるとは、明るく豊かな束を集めて花瓶に挿すことだ。日本には「生け花」という全く違う伝統がある。花に命を与えるという意味で、あらゆる茎、葉、空間を深く考えて選ぶ丁寧な芸術だ。詰め込んだ花束と違い、生け花はしばしば簡素で、わずかな花と枝しか使わない。大切なのは花だけでなく、全体の形——茎の線、葉の角度、周りの空いた空間さえも。その空間は欠けたものと見なされず、美の重要な一部だ。生け花は何世紀もさかのぼる考えに従う。多くの作品は、天と地と作った人の間のバランスを示唆する。作り手は植物を形に押し込めるのでなく、その自然な美と季節を表そうとする。生け花を作ることは静かで思慮深い活動でもある。作り手がゆっくり丁寧に働くうちに心は穏やかになる。茶道のように、完成した作品と同じくらい作り手の平穏な状態に関わる。今、世界中の人が生け花を学ぶ。優しい教えを説く。美は簡素さから生まれ、省くものが含めるものと同じくらい大切でありうる、と。",
-        quiz: [
-          { q: "How is ikebana different from a typical bouquet?", options: ["It is often simple, using few flowers, and values the whole shape and empty space", "It always uses hundreds of flowers", "It uses no plants at all"], answer: 0 },
-          { q: "How is the empty space in ikebana seen?", options: ["As an important part of the beauty, not as something missing", "As a mistake", "As useless"], answer: 0 },
-          { q: "What gentle lesson does ikebana teach?", options: ["Beauty can come from simplicity, and what we leave out can matter too", "More is always better", "Flowers have no beauty"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0919-5",
-        title: "How Fireflies Make Their Light",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "On a warm summer evening, you may see tiny lights blinking softly in the dark. These are fireflies, small insects that can make their own light. For centuries, people have been enchanted by this gentle glow. But how does a living creature produce light, seemingly out of nothing?\n\nThe secret is a chemical reaction inside the firefly's body. In a special part near its tail, the insect combines certain substances with oxygen. When these mix, they release energy — not as heat, but as light. Because almost no heat is produced, scientists call it \"cold light.\" This makes it very different from a normal light bulb, which wastes most of its energy as heat.\n\nFireflies do not glow just for beauty. The blinking is a language. Each kind of firefly has its own pattern of flashes, and they use these signals mostly to find a mate in the dark. A male may flash a certain rhythm, and a female may answer, helping the two find each other across a field.\n\nScientists are fascinated by this cold light. Because it is so efficient, understanding it may help us design better, cooler lighting. The same chemicals are also used in medicine and research as a way to make certain things glow, so they can be seen and studied.\n\nSo a firefly's glow is more than magic on a summer night. It is chemistry, communication, and a quiet lesson in making light without waste.",
-        summaryJa: "暖かい夏の夕べ、暗闇で小さな光が柔らかく点滅するのが見えるかもしれない。これがホタル、自ら光を作れる小さな昆虫だ。何世紀も人はこの優しい輝きに魅了されてきた。だが生き物はどうして、無から光を生むように見えるのか。秘密は体内の化学反応だ。尾の近くの特別な部分で、昆虫はある物質を酸素と結びつける。これらが混ざると、熱でなく光としてエネルギーを放つ。ほとんど熱が出ないので、科学者は「冷たい光」と呼ぶ。エネルギーの多くを熱として無駄にする普通の電球と大きく異なる。ホタルは美のためだけに光るのではない。点滅は言語だ。ホタルの種ごとに固有の光り方があり、主に暗闇で相手を見つけるためにこの信号を使う。雄がある律動で光り、雌が応え、原っぱ越しに互いを見つける助けになる。科学者はこの冷たい光に魅了されている。とても効率的なので、理解すればより良く涼しい照明の設計に役立つかもしれない。同じ化学物質は、あるものを光らせて見て研究する方法として医療や研究にも使われる。だからホタルの輝きは夏の夜の魔法以上のものだ。化学であり、意思疎通であり、無駄なく光を作る静かな教えだ。",
-        quiz: [
-          { q: "How does a firefly make light?", options: ["A chemical reaction inside its body combines substances with oxygen", "By reflecting the moon", "By using a tiny battery"], answer: 0 },
-          { q: "Why is a firefly's light called 'cold light'?", options: ["Almost no heat is produced, unlike a normal light bulb", "Because it only glows in winter", "Because it feels icy"], answer: 0 },
-          { q: "Why do fireflies blink in patterns?", options: ["The flashes are a language, used mostly to find a mate", "To scare away the sun", "For no reason at all"], answer: 0 }
         ]
       }
     ]
