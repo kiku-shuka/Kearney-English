@@ -139,7 +139,19 @@ KE_DATA.extraSentences = [
   { id: "w2638-s09", ja: "ご期待に応えられるよう全力を尽くします。", en: "We'll do our best to meet your expectations.", note: "meet expectations = 期待に応える" },
   { id: "w2638-s10", ja: "その数字は概算ですので、後で精査します。", en: "That number is a rough estimate; I'll check it in detail later.", note: "rough estimate = 概算" },
   { id: "w2638-s11", ja: "一度、優先順位を見直す必要がありそうです。", en: "It seems we need to review our priorities.", note: "review = 見直す" },
-  { id: "w2638-s12", ja: "本日の決定事項をメールでまとめて共有します。", en: "I'll summarize today's decisions in an email and share them.", note: "summarize = 要約する" }
+  { id: "w2638-s12", ja: "本日の決定事項をメールでまとめて共有します。", en: "I'll summarize today's decisions in an email and share them.", note: "summarize = 要約する" },
+  { id: "w2639-s01", ja: "お手数をおかけしますが、ご返信お待ちしております。", en: "Sorry for the trouble, but I look forward to your reply.", note: "look forward to your reply = 返信をお待ちする" },
+  { id: "w2639-s02", ja: "そのプロジェクトは予定より一週間早く終わりました。", en: "The project finished a week ahead of schedule.", note: "ahead of schedule = 予定より早く" },
+  { id: "w2639-s03", ja: "恐れ入りますが、もう一度ご説明いただけますか。", en: "I'm sorry, but could you explain that once more?", note: "丁寧に再説明を求める型" },
+  { id: "w2639-s04", ja: "この問題の根本原因を突き止めましょう。", en: "Let's find the root cause of this problem.", note: "root cause = 根本原因" },
+  { id: "w2639-s05", ja: "まずは小さく始めて、様子を見ましょう。", en: "Let's start small and see how it goes.", note: "start small = 小さく始める" },
+  { id: "w2639-s06", ja: "その件は優先度が高いので、今日中に対応します。", en: "That's high priority, so I'll deal with it today.", note: "high priority = 優先度が高い" },
+  { id: "w2639-s07", ja: "双方にとって良い結果を目指しましょう。", en: "Let's aim for a result that is good for both sides.", note: "win-winを目指す発想" },
+  { id: "w2639-s08", ja: "予算内に収まるよう、計画を調整します。", en: "I'll adjust the plan to stay within budget.", note: "stay within budget = 予算内に収める" },
+  { id: "w2639-s09", ja: "その提案には、いくつか確認したい点があります。", en: "I have a few points I'd like to check about that proposal.", note: "points to check = 確認事項" },
+  { id: "w2639-s10", ja: "決定は来週まで保留にしましょう。", en: "Let's hold off on the decision until next week.", note: "hold off on = 保留にする" },
+  { id: "w2639-s11", ja: "フィードバックをありがとうございます。改善に活かします。", en: "Thank you for the feedback. I'll use it to improve.", note: "use it to improve = 改善に活かす" },
+  { id: "w2639-s12", ja: "引き続き、どうぞよろしくお願いいたします。", en: "I look forward to continuing to work with you.", note: "継続の関係を伝える挨拶" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -393,6 +405,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "They're in the shared folder, under 'Tanaka'. I'll send you the link.", ja: "共有フォルダの「田中」の中です。リンクを送ります。" },
       { s: "B", en: "Perfect. Enjoy your holiday. I've got this.", ja: "完璧です。休暇を楽しんで。あとは任せてください。" }
     ]
+  },
+  {
+    id: "w2639-sh1",
+    title: "上司への新しいアイデアの提案",
+    level: "★★☆",
+    description: "上司に業務改善の新しいアイデアを切り出し、利点とリスク、次の一歩を伝えて賛同を得る場面。提案・説明・合意の型を身につける。",
+    lines: [
+      { s: "A", en: "Do you have a few minutes? I have an idea I'd like to share.", ja: "少しお時間ありますか。共有したいアイデアがあります。" },
+      { s: "B", en: "Sure, go ahead.", ja: "もちろん、どうぞ。" },
+      { s: "A", en: "I think we could save time by sharing our reports in one online document.", ja: "報告を一つのオンライン文書で共有すれば、時間を節約できると思います。" },
+      { s: "B", en: "Interesting. How would that help exactly?", ja: "面白いね。具体的にどう役立つのかな？" },
+      { s: "A", en: "Right now we email many versions, and it gets confusing. One shared file would be clearer.", ja: "今は多くの版をメールでやり取りして混乱します。共有ファイル一つなら明確になります。" },
+      { s: "B", en: "That makes sense. Are there any risks?", ja: "なるほど。何かリスクは？" },
+      { s: "A", en: "We'd need to be careful with access, but the tools have good security settings.", ja: "アクセス管理に注意が要りますが、ツールには良いセキュリティ設定があります。" },
+      { s: "B", en: "Okay. What would be the first step?", ja: "わかった。最初の一歩は？" },
+      { s: "A", en: "I could set up a small test with our team next week.", ja: "来週、チームで小さなテストを始められます。" },
+      { s: "B", en: "Good. Let's try it and see the results.", ja: "いいね。試して結果を見よう。" }
+    ]
   }
 ];
 
@@ -529,6 +559,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2638-t03", ja: "企業は自社の環境への影響を報告することを義務づけられるべきだと思いますか？", en: "Should companies be required to report their environmental impact?",
     sample: { point: "Yes, I think large companies should be required to report their environmental impact.", reason: "The main reason is that what gets measured gets managed, and clear reports let customers and investors make informed choices.", example: "For example, when a company must reveal how much energy or water it uses, it often finds ways to cut waste and save money at the same time.", point2: "So sensible reporting rules can push companies to act more responsibly without harming their business." }
+  },
+  {
+    id: "w2639-t01", ja: "数分で商品が届く「クイックコマース（超速配達）」は社会にとって良いことだと思いますか？", en: "Is very fast delivery (getting goods in minutes) good for society?",
+    sample: { point: "I think very fast delivery is convenient, but its wider effects are mixed.", reason: "The main reason is that it saves people time and helps in emergencies, yet it can create traffic, waste, and pressure on delivery workers.", example: "For example, getting medicine delivered in minutes can be a real help, but a flood of scooters rushing tiny orders can crowd streets and tire workers.", point2: "So fast delivery is valuable when it is used sensibly and treats its workers fairly, not simply for every small want." }
+  },
+  {
+    id: "w2639-t02", ja: "忙しいキャリアの中で、良い「ワークライフバランス」を保つことは可能だと思いますか？", en: "Is it possible to keep a good work-life balance in a busy career?",
+    sample: { point: "Yes, I believe a good work-life balance is possible, though it takes effort and clear limits.", reason: "This is because working endlessly does not always mean working well, and rest often makes people more focused and creative.", example: "For example, someone who sets a firm time to stop work and protects their weekends can return each day with more energy than someone who never switches off.", point2: "So balance is not laziness; it is a smart way to stay healthy and productive over a long career." }
+  },
+  {
+    id: "w2639-t03", ja: "政府は人々にもっと貯蓄するよう促すべきだと思いますか？", en: "Should governments encourage people to save more money?",
+    sample: { point: "Yes, I think governments should gently encourage people to save more.", reason: "The main reason is that savings protect families from emergencies and give people more freedom and security in the future.", example: "For example, simple programs that automatically put a little of each paycheck into savings have helped many people build a safety net without pain.", point2: "So while people must be free to choose, wise encouragement to save can make a whole society more stable." }
   }
 ];
 
