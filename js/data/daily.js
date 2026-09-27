@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-27",
+    passages: [
+      {
+        id: "d0927-1",
+        title: "What Is a Patent?",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Imagine you spend years inventing something new — a clever machine, a useful medicine, or a smart design. Just as you begin to sell it, a much larger company copies your idea and sells it cheaper. All your hard work seems lost. To prevent this, societies created a tool called the patent.\n\nA patent is a legal right that protects a new invention. When an inventor is granted a patent, others are not allowed to make, use, or sell that exact invention for a number of years without permission. In effect, the inventor is given a limited period to benefit from their own idea.\n\nWhy do we have patents? The main reason is to encourage new ideas. Inventing is often slow and expensive. If anyone could copy an idea the moment it appeared, few people would take the risk of inventing at all. A patent rewards effort and gives inventors a fair chance to earn back their investment.\n\nBut patents also have a cost. While a patent lasts, the price of a product can stay high, since no one else may make it. That is why patents do not last forever. After they expire, anyone may use the idea, and prices usually fall.\n\nPatents can also cause disputes. Companies sometimes argue in court over who truly invented something first, and these cases can be worth billions.\n\nIn the end, a patent tries to balance two goals: rewarding inventors, and eventually sharing good ideas with everyone.",
+        summaryJa: "何かを何年もかけて発明したと想像してほしい——巧みな機械、役立つ薬、賢い設計。売り始めた途端、はるかに大きな会社が発想を真似て安く売る。苦労がすべて失われるように見える。これを防ぐため、社会は特許という道具を作った。特許は新しい発明を守る法的権利だ。発明者に特許が認められると、他者は許可なくその発明を数年間、作ったり使ったり売ったりできない。実質、発明者は自分の発想から利益を得る限られた期間を与えられる。なぜ特許があるのか。主な理由は新しい発想を促すためだ。発明はしばしば遅く高くつく。現れた瞬間に誰でも真似できれば、発明の危険を冒す人はほとんどいなくなる。特許は努力に報い、投資を取り戻す公正な機会を与える。だが特許には代償もある。続く間、他が作れないので製品の価格が高いままになりうる。だから特許は永遠には続かない。切れた後は誰でも発想を使え、価格はふつう下がる。特許は争いも生む。企業は誰が最初に発明したか法廷で争うことがあり、数十億の価値になる事例もある。特許は二つの目標のバランスを取ろうとする。発明者に報いること、そしていずれ良い発想を皆と分かち合うことだ。",
+        quiz: [
+          { q: "What is a patent?", options: ["A legal right that protects a new invention for a number of years", "A type of factory", "A kind of tax"], answer: 0 },
+          { q: "Why do societies have patents?", options: ["To encourage new ideas by rewarding inventors' effort and risk", "To stop all inventions", "To make everything free"], answer: 0 },
+          { q: "Why don't patents last forever?", options: ["So that after they expire, anyone may use the idea and prices usually fall", "Because inventors dislike money", "Because ideas are worthless"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0927-2",
+        title: "How GPS Finds Your Location",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "When your phone shows a little dot marking exactly where you are on a map, it is using a remarkable system called GPS. With it, a device can find its place on Earth to within a few meters, almost anywhere in the world. But how can a phone know where it is, using nothing but the open sky?\n\nThe answer lies far above us. Circling the Earth are many satellites, each constantly sending out radio signals. Each signal carries two pieces of information: where the satellite is, and the exact time the signal was sent, measured by a very precise clock.\n\nYour phone listens for these signals. Because the signals travel at the speed of light, the phone can measure how long each one took to arrive, and from that, how far away each satellite is. By combining the distances to several satellites at once, the phone can work out the one spot on Earth where it must be. Using more satellites gives a more accurate answer.\n\nThis is why GPS usually works less well indoors or between tall buildings, where the signals from the sky are blocked.\n\nGPS is now part of daily life. It guides cars, ships, and planes, helps farmers and rescuers, and even keeps the world's clocks in step. All of it depends on a simple, beautiful idea: measure the time signals take to arrive, and let mathematics reveal exactly where you stand.",
+        summaryJa: "電話が地図上にあなたの正確な位置を示す小さな点を表示するとき、それはGPSという見事な仕組みを使っている。これで機器は世界のほぼどこでも、数メートル以内の精度で地球上の位置を見つけられる。だが電話は、開けた空だけを使ってどうして自分の位置を知れるのか。答えははるか頭上にある。地球を回る多くの衛星が、それぞれ絶えず電波信号を送っている。各信号は二つの情報を運ぶ。衛星がどこにあるか、そしてとても精密な時計で測った、信号が送られた正確な時刻だ。電話はこの信号を聞く。信号は光の速さで進むので、電話は各信号が届くのにかかった時間を測り、そこから各衛星までの距離を割り出せる。複数の衛星までの距離を同時に組み合わせると、地球上で自分がいるはずの一点を求められる。より多くの衛星を使うほど正確になる。だからGPSは室内や高いビルの間では、空からの信号が遮られてうまく働かないことが多い。GPSは今や日常の一部だ。車や船、飛行機を導き、農家や救助隊を助け、世界の時計まで合わせる。すべては単純で美しい考えに依る。信号が届く時間を測り、数学に自分の正確な位置を明かさせるのだ。",
+        quiz: [
+          { q: "What does each GPS satellite signal carry?", options: ["Where the satellite is and the exact time the signal was sent", "A photograph of your face", "Your phone number"], answer: 0 },
+          { q: "How does your phone work out its distance to a satellite?", options: ["By measuring how long the signal took to arrive, since signals travel at light speed", "By weighing the satellite", "By guessing"], answer: 0 },
+          { q: "Why does GPS work less well indoors or between tall buildings?", options: ["The signals from the sky are blocked", "Because phones sleep indoors", "Because satellites stop working"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0927-3",
+        title: "Protecting the World's Treasures",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Around the globe stand places of extraordinary value: ancient temples, great natural parks, historic city centers, and beautiful landscapes shaped over thousands of years. Some are made by human hands; others are wonders of nature. Together, they form a kind of shared inheritance that belongs, in a sense, to all of humanity. Protecting them has become an important global effort.\n\nWhy treat these places as everyone's concern? Because they cannot be replaced. If an ancient building falls or a unique forest is destroyed, no amount of money can bring it back. These sites also teach us about our history, our cultures, and the natural world. They draw visitors, support local economies, and fill people with wonder.\n\nTo help protect them, nations work together. Special lists honor the most important sites and encourage countries to care for them. Experts share knowledge on how to repair old buildings or protect rare animals. When disaster strikes, the world may send help to save a threatened treasure.\n\nThe task is not easy. Time, weather, pollution, crowds of tourists, and conflict all put these places at risk. Caring for them takes money, skill, and constant attention.\n\nStill, the effort is worthwhile. These treasures connect us to those who came before and to the planet we share. By protecting them, we keep the world's story alive — a gift passed carefully from one generation to the next.",
+        summaryJa: "世界各地に、並外れた価値を持つ場所がある。古代の寺院、雄大な自然公園、歴史ある都市の中心、何千年もかけて形づくられた美しい景観。人の手によるものもあれば、自然の驚異もある。合わせて、ある意味で全人類に属する共有の遺産をなす。それらを守ることは重要な世界的努力になった。なぜこれらを皆の関心事とするのか。取り替えがきかないからだ。古い建物が崩れたり独自の森が壊されたりすれば、どれほどのお金でも取り戻せない。これらの場所は歴史や文化、自然界について教えてくれる。訪問者を引き寄せ、地域経済を支え、人を驚きで満たす。守るため、国々は協力する。特別な一覧が最も重要な場所をたたえ、各国に世話を促す。専門家は古い建物の修復や稀少な動物の保護の知識を共有する。災害が起きると、世界は脅かされた宝を救う助けを送ることもある。仕事は容易でない。時間、天候、汚染、観光客の群れ、紛争がすべてこれらの場所を危険にさらす。世話には金と技、絶え間ない注意が要る。それでも努力は価値がある。これらの宝は、先を生きた人々と、分かち合う惑星に私たちをつなぐ。守ることで世界の物語を生かし続ける——世代から世代へ丁寧に受け継がれる贈り物だ。",
+        quiz: [
+          { q: "Why are these places treated as everyone's concern?", options: ["They cannot be replaced and teach us about history, culture, and nature", "They are worthless", "They belong to no one and matter to no one"], answer: 0 },
+          { q: "How do nations help protect these sites?", options: ["Special lists honor them and experts share knowledge on how to care for them", "By ignoring them", "By destroying old buildings"], answer: 0 },
+          { q: "What puts these treasures at risk?", options: ["Time, weather, pollution, crowds, and conflict", "Nothing ever threatens them", "Only their popularity"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0927-4",
+        title: "Japan's Majestic Castles",
+        level: "★★☆",
+        genre: "日本",
+        text: "Rising above many Japanese cities and towns are some of the country's most striking sights: old castles, with their curved roofs, white walls, and tall central towers. These beautiful buildings are more than tourist attractions. They are windows into hundreds of years of Japanese history.\n\nMost Japanese castles were built centuries ago, in a time of war among powerful lords. A castle was first of all a fortress, designed to protect those inside. Clever defenses were built in: steep stone walls, deep moats filled with water, and winding paths meant to slow down and confuse attackers. Yet the castles were also grand and beautiful, showing the power and taste of the lord who ruled there.\n\nAt the heart of a castle stands the main tower, or \"tenshu,\" often several stories tall. From its top, defenders could watch the land for miles. Today, visitors climb these same towers to enjoy the view and imagine life long ago.\n\nSadly, many original castles were lost over the centuries to fire, war, or time. Some that stand today are careful reconstructions, while a small number are original and greatly treasured.\n\nWhether old or rebuilt, Japan's castles remain proud symbols of their cities. They tell stories of samurai, lords, and battles, and they show a rare blend of strength and elegance. To stand before one is to feel the long, dramatic history of Japan rising all around you.",
+        summaryJa: "日本の多くの都市や町の上にそびえるのは、国で最も印象的な光景の一つ、古い城だ。反った屋根、白い壁、高い中央の塔を持つ。この美しい建物は観光名所以上のものだ。何百年もの日本の歴史をのぞく窓である。多くの日本の城は何世紀も前、力ある領主同士の戦の時代に築かれた。城はまず何よりも要塞で、中の者を守るよう設計された。巧みな防御が組み込まれた。急な石垣、水を満たした深い堀、攻め手を遅らせ惑わせる曲がりくねった道。だが城は壮大で美しくもあり、そこを治めた領主の力と趣味を示した。城の中心には天守、しばしば数階建ての主塔が立つ。その頂から、守り手は何マイルも土地を見渡せた。今日、訪問者は同じ塔に登り眺めを楽しみ、遠い昔の暮らしを思い描く。悲しいことに、多くの元の城が何世紀もの間に火事や戦、時によって失われた。今日立つもののいくつかは丁寧な再建で、少数は現存し大いに大切にされる。古くても再建でも、日本の城はその都市の誇り高い象徴であり続ける。侍や領主、戦の物語を語り、力と優雅さの稀な調和を示す。城の前に立つことは、日本の長く劇的な歴史が周りに立ち上がるのを感じることだ。",
+        quiz: [
+          { q: "What was a Japanese castle first of all?", options: ["A fortress designed to protect those inside", "A shopping center", "A school"], answer: 0 },
+          { q: "What is the 'tenshu'?", options: ["The main tower at the heart of a castle", "A castle garden", "A type of moat"], answer: 0 },
+          { q: "Why are some castles standing today reconstructions?", options: ["Many original castles were lost to fire, war, or time", "Because originals were never built", "Because they were never important"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0927-5",
+        title: "The Biggest Machine on Earth",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Deep underground, near the border of two countries in Europe, lies one of the most extraordinary machines ever built. It is a giant ring, many kilometers around, buried in a tunnel beneath farms and towns. Its purpose is strange and wonderful: to smash tiny particles together at nearly the speed of light, in order to understand what everything is made of.\n\nEverything around us — you, this page, the stars — is built from unimaginably small building blocks. To study these tiny pieces, scientists cannot simply look at them; they are far too small to see. Instead, they speed up particles inside the great ring and crash them together. In the burst of energy from each crash, new, even smaller particles briefly appear, and powerful detectors record what happens.\n\nBy studying these crashes, scientists learn the deepest rules of nature: what matter is, how it holds together, and how the universe began. One famous discovery from such a machine helped explain why particles have mass at all.\n\nBuilding and running such a machine is a huge task. It takes thousands of scientists from many countries, working together for decades. From time to time, parts are shut down and rebuilt to make the machine even better.\n\nThis vast machine reminds us of something inspiring: that human curiosity has no limit. To answer the biggest questions about the universe, people built one of the biggest and most delicate machines in history.",
+        summaryJa: "ヨーロッパの二国の国境近くの地下深くに、これまで作られた中で最も並外れた機械の一つがある。周囲何キロもある巨大な輪で、農地や町の下のトンネルに埋まっている。その目的は奇妙で素晴らしい。小さな粒子をほぼ光の速さでぶつけ合い、すべてが何でできているかを理解するのだ。私たちの周りのすべて——あなた、このページ、星々——は想像を絶するほど小さな構成要素でできている。この小さな部分を研究するのに、科学者はただ見ることはできない。小さすぎて見えないのだ。代わりに、大きな輪の中で粒子を加速し、互いに衝突させる。各衝突のエネルギーの爆発の中で、新たな、さらに小さな粒子が一瞬現れ、強力な検出器が何が起きるか記録する。この衝突を調べることで、科学者は自然の最も深い法則を学ぶ。物質とは何か、どう結びつくか、宇宙はどう始まったか。こうした機械での有名な発見の一つは、そもそもなぜ粒子に質量があるかの説明を助けた。こうした機械の建設と運用は巨大な仕事だ。多くの国の何千もの科学者が数十年協力する。時折、部品を停止し作り直して機械をさらに良くする。この巨大な機械は、心を鼓舞することを思い出させる。人間の好奇心に限りはない。宇宙の最大の問いに答えるため、人は史上最大級で最も繊細な機械の一つを作った。",
+        quiz: [
+          { q: "What does this giant machine do?", options: ["It smashes tiny particles together at nearly the speed of light", "It grows crops underground", "It stores water"], answer: 0 },
+          { q: "Why can't scientists simply look at these tiny particles?", options: ["They are far too small to see", "They are too bright", "They move too slowly"], answer: 0 },
+          { q: "What does building such a machine require?", options: ["Thousands of scientists from many countries working together for decades", "One person in a weekend", "No effort at all"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-26",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What really causes the seasons?", options: ["The Earth's small tilt as it travels around the sun", "The Earth moving closer to the sun in summer", "The sun growing hotter"], answer: 0 },
           { q: "Why is it summer when your part of the Earth is tilted toward the sun?", options: ["The sun's rays hit more directly and the days are longer", "The sun disappears", "The Earth stops moving"], answer: 0 },
           { q: "What curious fact does the tilt explain?", options: ["When it is summer in the north, it is winter in the south, and the other way around", "That seasons never change", "That both halves are always the same"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-20",
-    passages: [
-      {
-        id: "d0920-1",
-        title: "What Makes a Good Leader?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Every team, company, and country depends on leaders. But what actually makes someone a good leader? It is a question people have asked for thousands of years, and while there is no single answer, some qualities appear again and again.\n\nThe first is a clear vision. A good leader knows where the group is trying to go and can explain it simply, so that everyone understands the goal. Without a clear direction, even a talented team can wander and lose energy.\n\nThe second is trust. People follow leaders they believe in. A good leader keeps promises, tells the truth even when it is hard, and treats others fairly. Trust is slow to build and easy to break, so wise leaders guard it carefully.\n\nThe third quality is the ability to listen. Poor leaders think they must have every answer. Good leaders know that the best ideas can come from anyone, so they ask questions and truly listen before deciding.\n\nFinally, good leaders care about their people. They give credit for success, take responsibility for failure, and help others grow. People work hardest for someone who clearly wants them to succeed.\n\nInterestingly, being loud or forceful is not on this list. Some of the finest leaders are quiet and humble. In the end, leadership is less about power and more about service — helping a group become better than it could ever be alone.",
-        summaryJa: "あらゆるチーム、企業、国は指導者に頼る。だが実際、何が良い指導者を作るのか。人が何千年も問うてきた問いで、唯一の答えはないが、繰り返し現れる資質がある。第一は明確なビジョンだ。良い指導者は集団がどこへ向かうかを知り、皆が目標を理解できるよう簡潔に説明できる。明確な方向がなければ、才能あるチームもさまよい活力を失う。第二は信頼だ。人は信じられる指導者に従う。良い指導者は約束を守り、困難でも真実を語り、公平に接する。信頼は築くのが遅く壊れやすいので、賢い指導者は慎重に守る。第三の資質は聞く力だ。劣った指導者は全ての答えを持たねばと思う。良い指導者は最良の考えは誰からでも来ると知り、決める前に問い、真に聞く。最後に、良い指導者は人を大切にする。成功の功績を与え、失敗の責任を取り、他者の成長を助ける。人は自分の成功を明らかに願う相手に最も懸命に働く。興味深いことに、声高で強引なことはこの一覧にない。最も優れた指導者の中には静かで謙虚な人もいる。指導とは力よりも奉仕であり、集団が単独では決してなれない姿になるのを助けることだ。",
-        quiz: [
-          { q: "What is the first quality of a good leader mentioned?", options: ["A clear vision that everyone can understand", "A very loud voice", "Never listening to others"], answer: 0 },
-          { q: "Why is trust important for a leader?", options: ["People follow leaders they believe in; it is slow to build and easy to break", "It is not important at all", "It lets leaders break promises"], answer: 0 },
-          { q: "According to the passage, leadership is mostly about what?", options: ["Service — helping a group become better than it could alone", "Having power over others", "Being the loudest person"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0920-2",
-        title: "How a Touchscreen Knows Your Touch",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "We touch glass screens hundreds of times a day, tapping, swiping, and typing without a second thought. Yet how does a flat sheet of glass know exactly where your finger is? The answer lies in a clever use of electricity, hidden just beneath the surface.\n\nMost modern screens use a method called \"capacitive touch.\" Under the glass is a fine, invisible grid of transparent wires that carries a tiny electric charge across the whole screen. The human body also conducts a little electricity. So when your finger touches the glass, it draws away a very small amount of that charge at exactly that point.\n\nThe device constantly watches the grid for these tiny changes. When it senses a change at a certain spot, it knows your finger is there. By checking the whole screen many times each second, it can follow your finger as it moves, allowing smooth swipes and quick typing.\n\nThis is also why such screens often do not work with ordinary gloves: the glove blocks the electric connection between your finger and the glass. Special gloves with conductive threads solve this problem.\n\nCapacitive screens can even sense more than one finger at once, which is how you pinch to zoom or use two hands to play a game.\n\nSo each time you tap your phone, you are completing a tiny electric circuit with your own body — a quiet, invisible conversation between your finger and the machine.",
-        summaryJa: "私たちは一日に何百回もガラスの画面に触れ、考えもせずタップし、スワイプし、入力する。だが平らなガラスの板は、指がどこにあるかをどうして正確に知るのか。答えは、表面のすぐ下に隠れた電気の巧みな利用にある。現代の多くの画面は「静電容量式タッチ」という方法を使う。ガラスの下には、画面全体にごく小さな電荷を運ぶ、目に見えない細い透明な配線の格子がある。人体も少し電気を通す。だから指がガラスに触れると、まさにその点で電荷のごく一部を引き取る。装置は常にこの小さな変化を格子で監視する。ある点で変化を感じると、そこに指があると分かる。画面全体を毎秒何度も調べることで、動く指を追え、滑らかなスワイプや速い入力ができる。だからこうした画面は普通の手袋では働かないことが多い。手袋が指とガラスの電気的つながりを遮るのだ。導電性の糸を使った特別な手袋がこれを解決する。静電容量式画面は一度に複数の指も感知でき、だからつまんで拡大したり両手でゲームをしたりできる。電話をタップするたび、あなたは自分の体で小さな電気回路を完成させている——指と機械の静かで見えない対話だ。",
-        quiz: [
-          { q: "What method do most modern touchscreens use?", options: ["Capacitive touch, using a tiny electric charge under the glass", "Tiny springs", "Small cameras behind the glass"], answer: 0 },
-          { q: "What happens when your finger touches the glass?", options: ["It draws away a small amount of electric charge at that point", "It heats up the glass", "Nothing happens"], answer: 0 },
-          { q: "Why do ordinary gloves often not work on these screens?", options: ["The glove blocks the electric connection between finger and glass", "The glove is too warm", "The screen is turned off"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0920-3",
-        title: "The Global Shift to Clean Energy",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "For most of the last two centuries, the world ran mainly on burning coal, oil, and gas. These fuels powered factories, cars, and homes, but they also release gases that warm the planet and dirty the air. Today, a great change is underway: countries all over the world are turning to cleaner sources of energy, above all the sun and the wind.\n\nThe reason for the shift is partly the environment, and partly money. Not long ago, energy from solar panels and wind turbines was expensive. But over the past years, the cost has fallen dramatically. In many places, building new solar or wind power is now cheaper than building anything else. Clean energy is no longer only a choice for the planet; it is often the smart economic choice too.\n\nThe change is not simple. The sun does not always shine, and the wind does not always blow, so countries need ways to store energy and to move it where it is needed. Old power systems must be rebuilt, which takes time and money.\n\nDifferent nations are moving at different speeds, and some depend heavily on older fuels. Yet the direction is increasingly clear. Each year, more of the world's electricity comes from clean sources.\n\nThis shift is one of the biggest projects in human history — a worldwide effort to power our lives without harming the planet we all share. Its success will shape the world for generations.",
-        summaryJa: "過去2世紀の大半、世界は主に石炭、石油、ガスを燃やして動いてきた。これらの燃料は工場や車、家を動かしたが、地球を温める気体を放ち空気を汚しもする。今、大きな変化が進む。世界中の国が、とりわけ太陽と風という、より清潔なエネルギー源に転じている。転換の理由は一部は環境、一部はお金だ。少し前まで、太陽光パネルや風力タービンのエネルギーは高価だった。だがここ数年で費用は劇的に下がった。多くの場所で、新しい太陽光や風力を作る方が他の何を作るより安い。清潔なエネルギーはもはや地球のためだけの選択でなく、しばしば経済的にも賢い選択だ。変化は単純ではない。太陽は常に照らず風は常に吹かないので、国はエネルギーを蓄え、必要な場所へ運ぶ手段が要る。古い電力系統は作り直さねばならず、時間とお金がかかる。国ごとに進む速さは異なり、古い燃料に大きく頼る国もある。だが方向はますます明確だ。毎年、世界の電気のより多くが清潔な源から来る。この転換は人類史上最大級の事業だ——皆で分かち合う地球を害さずに暮らしを支える世界的な努力だ。その成否が世代を超えて世界を形づくる。",
-        quiz: [
-          { q: "What cleaner sources of energy is the world turning to?", options: ["Above all the sun and the wind", "Only more coal", "Only oil"], answer: 0 },
-          { q: "Why is clean energy spreading, besides the environment?", options: ["Its cost has fallen dramatically, making it often the cheaper choice", "Because it is more expensive than ever", "Because governments force everyone"], answer: 0 },
-          { q: "Why is the change not simple?", options: ["The sun and wind are not always available, so energy must be stored and moved", "Because clean energy does not work", "Because no one wants it"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0920-4",
-        title: "Koyo: Enjoying the Autumn Leaves",
-        level: "★★☆",
-        genre: "日本",
-        text: "In spring, people in Japan gather to admire the pink cherry blossoms. But there is another season just as beloved: autumn, when the leaves of the mountains turn to brilliant red, orange, and gold. Enjoying this display has its own name, \"koyo,\" and it is a cherished part of the year.\n\nAs the air grows cool, families and friends travel to parks, temples, and mountains famous for their autumn colors. They walk slowly along paths beneath the glowing trees, take photographs, and simply enjoy the beauty together. The most famous of the trees is the Japanese maple, whose small, star-shaped leaves turn a deep, brilliant red.\n\nLike the cherry blossoms of spring, the autumn leaves are loved partly because they do not last. In a week or two, the leaves will fall, and the color will be gone. This shortness makes the beauty feel precious, reminding people to enjoy the moment while it lasts.\n\nKoyo is more than looking at leaves. It is a gentle reason to go outside, breathe the crisp autumn air, and spend time with the people you care about. Food, too, plays a part, as autumn brings warm dishes and seasonal treats.\n\nFrom the golden gardens of old cities to wild mountain valleys, koyo colors the whole country each autumn. It is a yearly gift of nature — bright, beautiful, and gone too soon, and loved all the more for it.",
-        summaryJa: "春、日本の人々は桜の花を愛でに集まる。だが同じくらい愛される季節がもう一つある。秋、山の葉が鮮やかな赤や橙、金に変わる時だ。この光景を楽しむことには「紅葉(こうよう)」という名があり、一年の大切な一部だ。空気が涼しくなると、家族や友人は紅葉で有名な公園や寺、山へ出かける。輝く木々の下の道をゆっくり歩き、写真を撮り、ただ共に美しさを楽しむ。最も有名な木は日本のカエデ(もみじ)で、小さな星形の葉が深く鮮やかな赤に変わる。春の桜のように、秋の葉が愛されるのは一部には長続きしないからだ。一、二週間で葉は落ち、色は消える。この短さが美を貴く感じさせ、続くうちに今を楽しむよう人に思い出させる。紅葉は葉を見る以上のものだ。外に出て、澄んだ秋の空気を吸い、大切な人と過ごす優しい口実だ。食も一役買い、秋は温かい料理や旬の味覚をもたらす。古都の金色の庭から野生の山あいまで、紅葉は毎秋、国全体を彩る。自然の毎年の贈り物だ——明るく美しく、あまりに早く去り、それゆえいっそう愛される。",
-        quiz: [
-          { q: "What is 'koyo'?", options: ["Enjoying the autumn leaves as they turn red, orange, and gold", "A spring flower festival", "A type of food only"], answer: 0 },
-          { q: "Why are the autumn leaves loved partly, like cherry blossoms?", options: ["Because they do not last, which makes the beauty feel precious", "Because they last all year", "Because they are never colorful"], answer: 0 },
-          { q: "What is koyo more than just looking at leaves?", options: ["A reason to go outside and spend time with people you care about", "A way to stay indoors alone", "A kind of exam"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0920-5",
-        title: "Was the T. rex Warm-Blooded?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "When you imagine a dinosaur, you might picture a giant, cold-blooded reptile, like a huge lizard basking in the sun. For a long time, that is what many scientists believed too. But new discoveries are changing the picture, and one of the most surprising involves the famous Tyrannosaurus rex.\n\nAnimals today fall roughly into two groups. Cold-blooded animals, like lizards and snakes, take their body heat from their surroundings. Warm-blooded animals, like birds and mammals, make their own heat inside their bodies and keep a steady temperature. Which kind was the T. rex?\n\nTo find out, scientists studied chemical clues locked inside fossilized dinosaur teeth. The way certain chemicals are arranged can reveal the temperature at which they formed. The results were remarkable: the T. rex seems to have kept a body temperature close to that of a human being — a sign of a warm-blooded animal.\n\nThis makes sense in a wider way. Birds are the living descendants of dinosaurs, and birds are warm-blooded. A warm-blooded T. rex would have been active and powerful, not a slow, sun-dependent giant.\n\nOf course, the story is still being written. Studying creatures that died out millions of years ago is very hard, and scientists continue to debate the details.\n\nStill, the idea reminds us how much remains to be discovered about the ancient past. Even a monster from long ago can hold a warm surprise inside its bones.",
-        summaryJa: "恐竜を想像するとき、日なたで体を温める巨大なトカゲのような、冷血の大きな爬虫類を思い浮かべるかもしれない。長い間、多くの科学者もそう信じていた。だが新しい発見が像を変えつつあり、最も驚くべきものの一つが有名なティラノサウルス(T.レックス)に関わる。今日の動物はおおむね二群に分かれる。トカゲやヘビのような冷血動物は体熱を周囲から取る。鳥や哺乳類のような温血動物は体内で自ら熱を作り、一定の体温を保つ。T.レックスはどちらだったか。それを知るため、科学者は化石化した恐竜の歯に閉じ込められた化学的手がかりを調べた。ある化学物質の並び方は、それが形成された温度を明らかにできる。結果は驚くべきものだった。T.レックスは人間に近い体温を保っていたらしい——温血動物の証だ。これはより広い意味でも理にかなう。鳥は恐竜の生きた子孫で、鳥は温血だ。温血のT.レックスは、遅く太陽に頼る巨人でなく、活発で力強かっただろう。もちろん物語はまだ書かれている途中だ。何百万年も前に絶滅した生き物の研究は非常に難しく、科学者は詳細を議論し続ける。それでも、古代の過去に発見すべきことがいかに多く残るかを思い出させる。大昔の怪物さえ、骨の中に温かい驚きを宿しうる。",
-        quiz: [
-          { q: "What is the difference between cold-blooded and warm-blooded animals?", options: ["Cold-blooded animals take heat from their surroundings; warm-blooded ones make their own", "There is no difference", "Only size differs"], answer: 0 },
-          { q: "How did scientists study the T. rex's body temperature?", options: ["By studying chemical clues locked inside fossilized teeth", "By asking a living T. rex", "By measuring a lizard"], answer: 0 },
-          { q: "Why does a warm-blooded T. rex make sense?", options: ["Birds are living descendants of dinosaurs, and birds are warm-blooded", "Because dinosaurs were plants", "Because it never moved"], answer: 0 }
         ]
       }
     ]
