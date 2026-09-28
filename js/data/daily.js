@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-28",
+    passages: [
+      {
+        id: "d0928-1",
+        title: "Why Companies Invest in Research",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Every product we use, from a phone to a medicine to a snack, once began as an idea that had to be developed and tested. This work is called research and development, often shortened to R&D. Many successful companies spend a large amount of money on it, even though it may not bring any profit for years. Why do they take this risk?\n\nThe main reason is the future. The products that make a company money today will not sell forever. Customers' needs change, and rivals catch up. A company that stops improving will slowly fall behind. By investing in research, a business creates the new products and better methods it will need to survive tomorrow.\n\nR&D can take many forms. Some companies run laboratories where scientists explore new ideas. Others test and improve their products, or study how customers behave. A little of this work leads to a big breakthrough; much of it quietly makes existing products a bit better.\n\nThe difficulty is that research is uncertain. Money is spent long before any reward appears, and many experiments fail. A company must be patient and willing to lose some bets in order to win a few big ones.\n\nYet history shows that the boldest inventions — new medicines, faster computers, cleaner energy — usually came from someone willing to invest in ideas that did not yet pay. In business, research is a bet on tomorrow, and it is often the wisest bet of all.",
+        summaryJa: "電話から薬、お菓子まで、私たちが使うあらゆる製品は、かつて開発され試験されねばならない一つの発想として始まった。この仕事を研究開発、しばしばR&Dと略す。多くの成功した企業は、何年も利益をもたらさないかもしれないのに、これに大金を使う。なぜこの危険を冒すのか。主な理由は未来だ。今日会社にお金をもたらす製品も永遠には売れない。客のニーズは変わり、競合が追いつく。改善をやめた会社はゆっくり遅れをとる。研究に投資することで、企業は明日生き延びるのに必要な新製品やより良い手法を生む。R&Dは多くの形をとる。科学者が新しい発想を探る研究所を持つ会社もある。製品を試し改良したり、客の行動を研究したりする会社もある。この仕事の一部は大きな飛躍につながり、多くは既存の製品を静かに少し良くする。難しいのは研究が不確実なことだ。報いが現れるずっと前にお金が使われ、多くの実験は失敗する。会社は忍耐強く、いくつかの大きな勝ちを得るため、いくつかの賭けに負ける覚悟が要る。だが歴史は、最も大胆な発明——新薬、速いコンピューター、清潔なエネルギー——がたいてい、まだ報われない発想に投資する人から生まれたと示す。ビジネスで研究は明日への賭けで、しばしば最も賢い賭けだ。",
+        quiz: [
+          { q: "What is 'R&D'?", options: ["Research and development — the work of creating and testing new ideas and products", "A type of shop", "A way to fire workers"], answer: 0 },
+          { q: "Why do companies invest in research despite the risk?", options: ["Today's products won't sell forever, so they need new ones to survive tomorrow", "Because research always makes instant money", "To avoid ever changing"], answer: 0 },
+          { q: "What makes research difficult?", options: ["It is uncertain: money is spent long before any reward, and many experiments fail", "It is always cheap and easy", "It never fails"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0928-2",
+        title: "How a Microwave Cooks Your Food",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "A microwave oven can heat a bowl of soup in a minute, without any flame and without getting very hot itself. To many people this seems almost magical. But the microwave works on a clever and simple piece of science, hidden inside its metal box.\n\nInside the oven is a device that produces invisible waves of energy, called microwaves. These are a kind of wave, similar in family to radio waves and light, but tuned to a special length. When you turn the oven on, these waves fill the cooking space and pass into the food.\n\nHere is the key. Microwaves are very good at shaking the tiny water particles found in almost all food. As the waves pass through, they make these water particles vibrate back and forth very quickly. This fast movement creates heat, and so the food warms up from the inside out, cooked by its own jiggling water.\n\nThis explains some things you may have noticed. Very dry foods heat slowly, because they have little water to shake. And the metal walls of the oven bounce the waves back inside, which is also why you should never put metal objects in a microwave.\n\nThe microwave oven is a wonderful example of turning science into everyday convenience. A hidden wave, a little water, and a few seconds — and a cold meal becomes a warm one, all thanks to a clever understanding of how energy moves.",
+        summaryJa: "電子レンジは、炎もなく、それ自体はあまり熱くならずに、一分でスープの器を温められる。多くの人にはほとんど魔法に見える。だが電子レンジは、金属の箱の中に隠れた巧みで単純な科学で働く。オーブンの中には、マイクロ波と呼ばれる目に見えないエネルギーの波を作る装置がある。これは電波や光と同じ仲間の波の一種だが、特別な長さに調整されている。オーブンをつけると、この波が調理空間を満たし食べ物の中に入る。ここが鍵だ。マイクロ波は、ほぼすべての食べ物にある小さな水の粒子を揺らすのがとても得意だ。波が通り抜けると、この水の粒子を素早く前後に振動させる。この速い動きが熱を生み、食べ物は内側から温まる。自らの揺れる水で調理されるのだ。これは気づいたことのいくつかを説明する。とても乾いた食べ物は、揺らす水が少ないので温まりが遅い。そしてオーブンの金属の壁は波を中へ跳ね返す。だから電子レンジに金属を入れてはいけない。電子レンジは科学を日常の便利さに変える見事な例だ。隠れた波、少しの水、数秒——そして冷たい食事が温かくなる。エネルギーがどう動くかの巧みな理解のおかげだ。",
+        quiz: [
+          { q: "What does a microwave oven make to cook food?", options: ["Invisible waves of energy called microwaves", "A hidden flame", "Hot water only"], answer: 0 },
+          { q: "How do microwaves heat the food?", options: ["They make the water particles in food vibrate quickly, which creates heat", "They paint the food", "They freeze the food first"], answer: 0 },
+          { q: "Why do very dry foods heat slowly in a microwave?", options: ["They have little water to shake", "They are too big", "They reflect all the waves"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0928-3",
+        title: "The Roads and Bridges That Connect Us",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Every day, we use roads, bridges, railways, ports, water pipes, and power lines without much thought. Together, these are called infrastructure — the basic structures that a society needs to function. Though we rarely notice it when it works, infrastructure quietly shapes the life of every country on Earth.\n\nGood infrastructure brings enormous benefits. A road lets farmers carry crops to market. A bridge connects a village to a hospital. Clean water pipes keep people healthy, and electric lines power schools and businesses. When these systems work well, life becomes easier, safer, and more prosperous. A country with strong infrastructure can grow and trade with the world.\n\nBuilding and maintaining infrastructure is a huge and costly task. Roads crack, bridges age, and pipes wear out. Governments must plan carefully and spend wisely, often over many years. Poorer countries may struggle to afford the systems they need, while richer ones must keep repairing what they already have.\n\nAround the world, nations sometimes work together on large projects, sharing money and knowledge. Building a railway or a power line can connect not just towns, but whole countries.\n\nInfrastructure is easy to take for granted, precisely because it usually works. But the next time you cross a bridge or turn on a tap, remember the vast, hidden network beneath modern life. Quietly, it holds our societies together and carries us into the future.",
+        summaryJa: "毎日、私たちはあまり考えずに道路や橋、鉄道、港、水道管、電線を使う。合わせてこれらをインフラ——社会が機能するために必要な基本的な構造——という。うまく働いているときはめったに気づかないが、インフラは地球のあらゆる国の暮らしを静かに形づくる。良いインフラは莫大な恩恵をもたらす。道路は農家が作物を市場へ運ぶのを可能にする。橋は村を病院につなぐ。清潔な水道管は人々を健康に保ち、電線は学校や事業に電力を供給する。これらがうまく働くと、暮らしはより楽に、安全に、豊かになる。強いインフラを持つ国は成長し世界と貿易できる。インフラの建設と維持は巨大で費用のかかる仕事だ。道路はひび割れ、橋は老い、管はすり減る。政府は慎重に計画し賢く支出せねばならず、しばしば何年もかけて。貧しい国は必要な仕組みを賄うのに苦労し、豊かな国はすでに持つものを直し続けねばならない。世界中で、国々は大きな事業で協力し、お金と知識を分かち合うことがある。鉄道や電線の建設は、町だけでなく国全体をつなぎうる。インフラは、たいていうまく働くからこそ当たり前に思われやすい。だが次に橋を渡り蛇口をひねるとき、現代生活の下の広大な隠れた網を思い出してほしい。静かに、それは社会を一つに保ち、私たちを未来へ運ぶ。",
+        quiz: [
+          { q: "What is 'infrastructure'?", options: ["The basic structures a society needs, like roads, bridges, water pipes, and power lines", "A type of food", "A kind of money"], answer: 0 },
+          { q: "What is one benefit of good infrastructure?", options: ["Roads let farmers reach markets, and bridges connect villages to hospitals", "It makes life harder", "It has no effect on trade"], answer: 0 },
+          { q: "Why is infrastructure easy to take for granted?", options: ["Precisely because it usually works quietly", "Because it never exists", "Because it is always broken"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0928-4",
+        title: "Sushi: A Japanese Art of Food",
+        level: "★★☆",
+        genre: "日本",
+        text: "When people around the world think of Japanese food, one dish often comes to mind first: sushi. Though many imagine it as simply raw fish, sushi is something more precise and more beautiful. At its heart, sushi is a dish built on specially prepared rice, seasoned with a little vinegar, and topped or filled with fresh ingredients.\n\nThere are many kinds of sushi. Some are small mounds of rice with a slice of fish on top; others are rolls wrapped in dark seaweed and cut into rounds. The toppings can be fish, but also egg, vegetables, or shellfish. Not all sushi contains raw fish at all.\n\nMaking good sushi is treated as a serious craft. A master sushi chef may train for many years, learning to cook the rice perfectly, choose the freshest fish, and shape each piece by hand with just the right pressure. The goal is a balance of flavor, texture, and beauty in a single bite.\n\nSushi is also enjoyed in many settings. It can be a special, expensive meal at a fine restaurant, or a quick, cheap treat from a shop where plates travel past on a moving belt.\n\nToday, sushi is loved all over the world, and each country adds its own twist. Yet at its core, it remains a symbol of Japanese cooking: simple, fresh ingredients, prepared with great care, and served with respect for both the food and the person eating it.",
+        summaryJa: "世界中の人が日本の食べ物を思うとき、まず一つの料理が浮かぶことが多い。寿司だ。多くの人は単なる生の魚と想像するが、寿司はもっと精緻で美しいものだ。核心において寿司は、少しの酢で味付けした特別に用意した米の上に、あるいは中に、新鮮な材料を組み合わせた料理だ。寿司には多くの種類がある。米の小さな山に魚の切り身をのせたものもあれば、黒い海苔で巻いて輪切りにしたものもある。具は魚のこともあれば、卵や野菜、貝のこともある。すべての寿司が生の魚を含むわけではない。良い寿司作りは真剣な職人技として扱われる。寿司職人は何年も修行し、米を完璧に炊き、最も新鮮な魚を選び、ちょうどよい力加減で一貫ずつ手で握ることを学ぶ。目標は、一口の中の味、食感、美しさの調和だ。寿司は多くの場面でも楽しまれる。上等な店での特別で高価な食事にも、皿がベルトで流れてくる店での手早く安いごちそうにもなる。今日、寿司は世界中で愛され、各国が独自の工夫を加える。だが核心では、日本料理の象徴であり続ける。簡素で新鮮な材料を大きな心配りで用意し、食べ物と食べる人の双方への敬意とともに供する。",
+        quiz: [
+          { q: "What is sushi built on, at its heart?", options: ["Specially prepared rice seasoned with a little vinegar", "Only raw fish", "Bread and butter"], answer: 0 },
+          { q: "Does all sushi contain raw fish?", options: ["No — toppings can also be egg, vegetables, or shellfish", "Yes, always", "No, it never has fish"], answer: 0 },
+          { q: "Why is making good sushi treated as a serious craft?", options: ["A chef trains for years to cook rice perfectly, choose fresh fish, and shape each piece", "Because it takes no skill", "Because it is made by machines only"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0928-5",
+        title: "The Amazing Human Heart",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Place your hand on your chest, and you will feel it: a steady beat, repeating again and again. That is your heart, one of the hardest-working parts of your body. About the size of your fist, it never takes a rest, beating around a hundred thousand times every single day.\n\nWhat does the heart actually do? Its job is to pump blood. Blood carries oxygen and food to every part of your body, from your brain to your toes, and carries away waste. The heart is the powerful muscle that keeps this life-giving liquid moving. With each beat, it squeezes and pushes blood out through a network of tubes called blood vessels, which reach every corner of the body.\n\nThe heart works in two main halves. One side sends blood to the lungs to pick up fresh oxygen. The other side pumps that oxygen-rich blood out to the rest of the body. In this way, the heart never stops sending fresh supplies where they are needed.\n\nBecause the heart is so important, taking care of it matters greatly. Exercise makes the heart stronger, just like any other muscle. Healthy food, good sleep, and avoiding harmful habits all help it last a long time.\n\nYour heart began beating before you were born and will continue for your whole life, quietly and faithfully. It is a small, tireless pump, and it is one of the true wonders of the living body.",
+        summaryJa: "胸に手を当てると感じるだろう。何度も繰り返す一定の鼓動。それがあなたの心臓、体で最も働き者の部分の一つだ。こぶしほどの大きさで、決して休まず、毎日およそ十万回打つ。心臓は実際何をするのか。その仕事は血液を送り出すことだ。血液は酸素と栄養を、脳からつま先まで体のあらゆる部分へ運び、老廃物を運び去る。心臓はこの命を与える液体を動かし続ける強力な筋肉だ。一打ごとに、血管という管の網を通して血液を絞り出し押し出し、体のすみずみに届く。心臓は主に二つの半分で働く。一方は肺へ血液を送り新鮮な酸素を取り込む。他方はその酸素豊富な血液を体の残りへ送り出す。こうして心臓は必要な所へ新しい供給を送り続ける。心臓はとても重要なので、その世話は大いに大切だ。運動は、他の筋肉と同じく心臓を強くする。健康的な食事、良い睡眠、有害な習慣を避けることがすべて長持ちを助ける。あなたの心臓は生まれる前から打ち始め、一生続く。静かに忠実に。小さく疲れ知らずのポンプであり、生きた体の真の驚異の一つだ。",
+        quiz: [
+          { q: "What is the heart's main job?", options: ["To pump blood, carrying oxygen and food around the body", "To digest food", "To store memories"], answer: 0 },
+          { q: "How do the two halves of the heart work?", options: ["One side sends blood to the lungs for oxygen; the other pumps it to the body", "Both do exactly nothing", "They work only once a year"], answer: 0 },
+          { q: "How can people take care of their heart?", options: ["Exercise, healthy food, good sleep, and avoiding harmful habits", "Never moving at all", "Skipping sleep"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-27",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What hidden cost does making concrete have?", options: ["The process releases a large amount of gas that warms the planet", "It uses no energy at all", "It cleans the air by itself already"], answer: 0 },
           { q: "What can the new kinds of concrete do?", options: ["Be stronger and absorb carbon dioxide from the air as they harden and age", "Melt in the rain", "Disappear over time"], answer: 0 },
           { q: "Why is the research still developing?", options: ["It takes time to prove the materials are safe and strong enough for everyday use", "Because concrete is never used", "Because it is already finished"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-21",
-    passages: [
-      {
-        id: "d0921-1",
-        title: "Why Cash Flow Matters",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Many people think a business is healthy as long as it makes a profit. But there is another number that can matter even more: cash flow. Cash flow is simply the movement of money into and out of a business — the actual cash a company has on hand to pay its bills right now. Surprisingly, a profitable company can still fail if its cash flow goes wrong.\n\nHow is this possible? Imagine a small company that sells a large order of goods. On paper, it has made a good profit. But the customer will not pay for sixty days. Meanwhile, the company must still pay its workers, its rent, and its suppliers this week. If it does not have enough cash to cover these costs while it waits, it can run out of money and be forced to close, even though the sale was profitable.\n\nThis is why wise business owners watch their cash flow as closely as their profit. They try to make sure money comes in about as fast as it goes out. They may ask customers to pay sooner, keep a reserve of cash for emergencies, or manage carefully how much stock they buy.\n\nProfit tells you whether a business is winning over the long run. Cash flow tells you whether it can survive today. Both matter, but a company that forgets about cash flow can find that being profitable on paper is not enough to keep the doors open.",
-        summaryJa: "多くの人は、利益が出ていれば事業は健全だと思う。だが、それ以上に重要でありうる別の数字がある。キャッシュフローだ。キャッシュフローとは事業に出入りするお金の動き——今すぐ請求を払うために手元にある実際の現金だ。意外にも、利益の出ている会社でも、キャッシュフローがおかしくなれば倒れうる。どうしてか。ある小さな会社が大口の注文を売るとしよう。帳簿上は良い利益だ。だが客は60日後まで払わない。その間も会社は今週、従業員や家賃、仕入れ先に払わねばならない。待つ間これらを賄う現金が足りなければ、売却は利益が出ていても資金が尽き、閉鎖を迫られうる。だから賢い経営者は利益と同じくらいキャッシュフローを注視する。お金が出ていくのとほぼ同じ速さで入るようにしようとする。客に早く払ってもらったり、緊急用に現金を蓄えたり、仕入れる在庫の量を慎重に管理したりする。利益は長期的に勝っているかを示す。キャッシュフローは今日生き延びられるかを示す。両方大切だが、キャッシュフローを忘れる会社は、帳簿上の利益だけでは店を開け続けられないと気づくことになる。",
-        quiz: [
-          { q: "What is cash flow?", options: ["The movement of money into and out of a business, the cash on hand right now", "The total number of products", "The number of workers"], answer: 0 },
-          { q: "How can a profitable company still fail?", options: ["If it lacks cash to pay bills while waiting for customers to pay", "It cannot fail if profitable", "Only if it has too much cash"], answer: 0 },
-          { q: "What do wise owners do about cash flow?", options: ["Watch it closely and try to make money come in about as fast as it goes out", "Ignore it completely", "Spend all their cash at once"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0921-2",
-        title: "What Is 'the Cloud'?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "People often say their photos are \"in the cloud,\" or that a company runs its software \"on the cloud.\" It sounds mysterious, as if our data floats somewhere in the sky. But the cloud is not in the sky at all. It is a simple, powerful idea about where computing happens.\n\nIn the past, if you wanted to store files or run a program, you needed a computer of your own that was strong enough to do the job. The cloud changes this. Instead of doing everything on your own device, you use powerful computers owned by a company, reached over the internet. Your photos, files, or programs actually live in large buildings full of computers, called data centers, often far away.\n\nWhy is this useful? For you, it means your files are safe even if your phone breaks, and you can reach them from any device. For companies, it means they can rent as much computing power as they need, when they need it, instead of buying and caring for their own machines. A small business can suddenly use the same powerful tools as a giant one.\n\nThere are things to consider. You must trust the company to keep your data safe and private, and you need an internet connection to reach it.\n\nSo the cloud is really just other people's computers, shared over the internet — a quiet idea that has changed how the whole world stores and uses information.",
-        summaryJa: "人はよく写真が「クラウドにある」とか、会社がソフトを「クラウドで動かす」と言う。まるでデータが空のどこかに浮かんでいるようで神秘的に聞こえる。だがクラウドは空にはない。計算がどこで起きるかについての単純で強力な考えだ。かつて、ファイルを保存したりプログラムを動かしたりするには、それをこなせるほど強い自分のコンピューターが要った。クラウドはこれを変える。すべてを自分の端末で行う代わりに、ある会社が所有する強力なコンピューターをインターネット越しに使う。写真やファイル、プログラムは実際には、しばしば遠くにある、コンピューターで満ちた大きな建物「データセンター」に置かれている。なぜ便利か。あなたには、電話が壊れてもファイルが安全で、どの端末からも届くことを意味する。企業には、自前の機械を買い世話する代わりに、必要な時に必要なだけ計算力を借りられることを意味する。小さな事業が突然、巨大企業と同じ強力な道具を使える。考慮すべき点もある。データを安全に非公開に保つよう会社を信頼せねばならず、届くにはインターネット接続が要る。だからクラウドは、インターネットで共有される他人のコンピューターにすぎない——世界の情報の蓄え方と使い方を変えた静かな考えだ。",
-        quiz: [
-          { q: "Where is 'the cloud' really?", options: ["In large buildings full of computers called data centers, reached over the internet", "Floating in the sky", "Inside your own phone only"], answer: 0 },
-          { q: "Why is the cloud useful for you?", options: ["Your files stay safe if your device breaks and you can reach them from anywhere", "It makes your phone heavier", "It deletes your files"], answer: 0 },
-          { q: "What must you consider when using the cloud?", options: ["You must trust the company with your data and need an internet connection", "Nothing at all", "That it works without any company"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0921-3",
-        title: "Feeding a Growing World",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "There are now more than eight billion people on Earth, and the number is still rising. Every one of them needs to eat. Producing enough food for everyone, while also caring for the planet, is one of the greatest challenges of our time.\n\nAt first, this may sound simple: just grow more food. But it is not easy. Good farmland and fresh water are limited. Growing more crops can mean cutting down forests or using more chemicals, which harms nature. And as the climate changes, some farms face new droughts, floods, and pests.\n\nThere is also a surprising problem: waste. A shockingly large share of the food the world grows is never eaten. It rots on the way to market, or is thrown away in homes and shops. Reducing this waste could feed many more people without growing a single extra field.\n\nScientists and farmers are working on many answers. Some develop crops that need less water or resist disease. Others find ways to grow food in cities, or to make farming gentler on the soil. Sharing knowledge between countries helps too.\n\nFeeding the world is not only about quantity. It is also about fairness. Today, enough food is grown for everyone, yet many still go hungry because they cannot reach or afford it.\n\nSolving this will take science, cooperation, and care. But few goals are more worthy than making sure every person on the planet has enough to eat.",
-        summaryJa: "今、地球には80億人以上がいて、その数はなお増えている。誰もが食べる必要がある。地球を大切にしつつ皆に十分な食料を作ることは、現代の最大の難題の一つだ。一見、単純に聞こえるかもしれない。もっと作ればいい、と。だが容易ではない。良い農地と真水は限られている。作物を増やすことは森を切ったり化学物質を多く使ったりを意味しうて、自然を害する。気候が変わるにつれ、新たな干ばつや洪水、害虫に直面する農場もある。意外な問題もある。廃棄だ。世界が育てる食料の驚くほど大きな割合が決して食べられない。市場へ運ぶ途中で腐り、家庭や店で捨てられる。この廃棄を減らせば、畑を一つも増やさずに多くの人を養える。科学者や農家は多くの答えに取り組む。水が少なくて済む、あるいは病気に強い作物を開発する人もいる。都市で食料を育てたり、土に優しい農法を見つけたりする人もいる。国同士の知識共有も助ける。世界を養うのは量だけの話ではない。公正さの話でもある。今日、皆に十分な食料が育てられているのに、届かず買えないために多くが飢えている。解決には科学、協力、心配りが要る。だが、地球の全ての人が十分食べられるようにすることほど価値ある目標は少ない。",
-        quiz: [
-          { q: "Why is growing more food not simple?", options: ["Farmland and water are limited, and growing more can harm nature", "Because food grows by itself easily", "Because no one is hungry"], answer: 0 },
-          { q: "What surprising problem could feed more people if solved?", options: ["Food waste — much food is grown but never eaten", "Too many farms", "Too much rain everywhere"], answer: 0 },
-          { q: "Why do many people still go hungry today?", options: ["Enough food is grown, but many cannot reach or afford it", "Because no food exists", "Because people refuse to eat"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0921-4",
-        title: "Sumo: Japan's Ancient Sport",
-        level: "★★☆",
-        genre: "日本",
-        text: "In a ring of clay, two very large men in simple belts face each other. They crouch, stare, and then rush together with a great clash. In just a few seconds, one pushes the other out of the ring or makes him touch the ground. This is sumo, Japan's oldest and most famous traditional sport.\n\nSumo has been part of Japanese culture for many centuries, and it began partly as a religious ceremony. Even today, the sport is full of tradition. Before a match, the wrestlers throw salt into the ring to purify it, and they perform slow, careful movements that are hundreds of years old. The referee wears clothing from an earlier age.\n\nThe rules are simple, which is part of the beauty. A wrestler loses if any part of his body except the soles of his feet touches the ground, or if he steps outside the ring. Because of this, a match can end in an instant, yet each one is full of power and skill.\n\nThe wrestlers, called \"rikishi,\" live a hard and disciplined life. They train for many hours, eat special meals to grow strong, and follow strict rules of behavior. Reaching the top rank is a great honor.\n\nSumo is more than a sport. It is a living link to Japan's past, mixing athletic power with deep tradition and respect. In a fast-changing world, it carries ancient customs proudly into the present day.",
-        summaryJa: "土の土俵で、簡素なまわしをつけた二人の非常に大きな男が向き合う。しゃがみ、にらみ合い、大きな衝突とともにぶつかる。わずか数秒で、一方が他方を土俵の外へ押し出すか、地面に触れさせる。これが相撲、日本最古で最も有名な伝統的スポーツだ。相撲は何世紀も日本文化の一部で、一部は宗教的な儀式として始まった。今日でもこのスポーツは伝統に満ちている。取組の前、力士は土俵を清めるため塩をまき、何百年も前からのゆっくり丁寧な所作を行う。行司は昔の時代の装束をまとう。規則が単純なのも美しさの一部だ。足の裏以外の体の一部が地面に触れるか、土俵の外に出れば負けだ。だから取組は一瞬で終わりうるが、一つ一つが力と技に満ちている。力士と呼ばれる者は、厳しく規律ある生活を送る。何時間も稽古し、強くなるため特別な食事をとり、厳しい行動規範に従う。最高位に達するのは大きな名誉だ。相撲はスポーツ以上のものだ。日本の過去への生きたつながりで、運動の力と深い伝統、敬意を混ぜ合わせる。速く変わる世界で、古い習わしを誇り高く現代へ運んでいる。",
-        quiz: [
-          { q: "How does a sumo wrestler win a match?", options: ["By pushing the other out of the ring or making him touch the ground", "By running the fastest lap", "By scoring goals"], answer: 0 },
-          { q: "What tradition do wrestlers perform before a match?", options: ["They throw salt into the ring to purify it", "They sing a song", "They eat a meal in the ring"], answer: 0 },
-          { q: "What is sumo described as, beyond a sport?", options: ["A living link to Japan's past, mixing power with tradition and respect", "A modern video game", "A type of dance only"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0921-5",
-        title: "Why We Have Seasons",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "In many parts of the world, the year moves through four seasons: warm summers, cold winters, and the gentle change of spring and autumn. Have you ever wondered what causes them? Many people guess that summer comes when the Earth is closer to the sun, but the real reason is more surprising.\n\nThe Earth travels around the sun once a year, but it does not sit perfectly upright. Instead, it is tilted a little to one side, like a spinning top leaning as it turns. This small tilt is the true cause of the seasons.\n\nBecause of the tilt, different parts of the Earth lean toward the sun at different times of the year. When your part of the world is tilted toward the sun, its rays hit more directly and the days are longer. That is summer. Six months later, your part is tilted away, the sun's rays are weaker and more slanted, and the days are shorter. That is winter.\n\nThis also explains a curious fact: when it is summer in the northern half of the Earth, it is winter in the southern half, and the other way around. The two halves lean in opposite directions.\n\nSo the seasons are not caused by distance from the sun, but by a small, steady tilt. Because of this gentle lean, our planet gives us the rich, changing rhythm of the year — a quiet piece of astronomy we feel every single day.",
-        summaryJa: "世界の多くの地域で、一年は四季をめぐる。暖かい夏、寒い冬、そして春と秋の穏やかな移ろいだ。何が季節を起こすのか、考えたことはあるだろうか。多くの人は、地球が太陽に近いとき夏が来ると思うが、本当の理由はもっと意外だ。地球は一年に一度太陽の周りを回るが、完全にまっすぐには立っていない。回りながら傾くコマのように、少し一方に傾いている。この小さな傾きが季節の真の原因だ。傾きのため、地球の異なる部分が一年の異なる時期に太陽の方へ傾く。あなたの地域が太陽の方へ傾くと、光がより真っすぐ当たり、日は長くなる。それが夏だ。半年後、あなたの地域は反対へ傾き、太陽の光は弱く斜めになり、日は短くなる。それが冬だ。これは不思議な事実も説明する。地球の北半分が夏のとき、南半分は冬で、その逆もそうだ。二つの半分は反対の方向に傾いている。だから季節は太陽からの距離でなく、小さく一定の傾きによって起きる。この穏やかな傾きのおかげで、私たちの惑星は豊かで移ろう一年の律動を与えてくれる。毎日感じている静かな天文学の一片だ。",
-        quiz: [
-          { q: "What really causes the seasons?", options: ["The Earth's small tilt as it travels around the sun", "The Earth moving closer to the sun in summer", "The sun growing hotter"], answer: 0 },
-          { q: "Why is it summer when your part of the Earth is tilted toward the sun?", options: ["The sun's rays hit more directly and the days are longer", "The sun disappears", "The Earth stops moving"], answer: 0 },
-          { q: "What curious fact does the tilt explain?", options: ["When it is summer in the north, it is winter in the south, and the other way around", "That seasons never change", "That both halves are always the same"], answer: 0 }
         ]
       }
     ]
