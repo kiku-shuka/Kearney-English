@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-29",
+    passages: [
+      {
+        id: "d0929-1",
+        title: "Why Making More Can Cost Less",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Here is a puzzle from the world of business: often, the more of something a company makes, the cheaper each item becomes to produce. Making a million cups can cost far less per cup than making a hundred. This idea is called \"economies of scale,\" and it shapes much of the modern economy.\n\nWhy does this happen? Some costs do not grow when you make more. A company must design a product, build a factory, and buy machines whether it makes ten items or ten thousand. When those large, fixed costs are spread across many products, the cost of each single item drops.\n\nBuying in bulk helps too. A company that buys huge amounts of materials can often get a lower price. Large machines and smooth systems can also work faster and waste less.\n\nEconomies of scale explain why big companies can sometimes sell things so cheaply, and why it can be hard for a small newcomer to compete on price alone.\n\nBut bigger is not always better. If a company grows too large, it can become slow and hard to manage. Communication breaks down, and decisions take longer. Beyond a certain point, size can start to add costs instead of cutting them.\n\nWise businesses look for the right size for what they do. Understanding economies of scale helps explain a great deal about how our world of goods and prices really works — and why the giant factory and the tiny workshop both still exist.",
+        summaryJa: "ビジネスの世界の謎がある。しばしば、会社が何かを多く作るほど、一つあたりの製造費は安くなる。カップを百万個作る方が、百個作るより一個あたりずっと安くつきうる。この考えを「規模の経済」といい、現代経済の多くを形づくる。なぜ起きるのか。多く作っても増えない費用がある。会社は製品を設計し、工場を建て、機械を買わねばならない。十個作ろうと一万個作ろうとだ。この大きな固定費が多くの製品に分散されると、一個あたりの費用は下がる。大量購入も役立つ。材料を大量に買う会社はしばしば安い価格を得られる。大きな機械や滑らかな仕組みも、より速く働き無駄が少ない。規模の経済は、なぜ大企業が時に物をとても安く売れるか、なぜ小さな新参者が価格だけで競うのが難しいかを説明する。だが大きいほど良いとは限らない。会社が大きくなりすぎると、遅く管理しにくくなりうる。意思疎通が崩れ、決定に時間がかかる。ある点を超えると、規模は費用を削るどころか加え始めうる。賢い企業は自分のすることに合う適切な規模を探す。規模の経済を理解すると、物と価格の世界が実際どう働くか、そしてなぜ巨大工場と小さな工房の両方がなお存在するかがよく分かる。",
+        quiz: [
+          { q: "What are 'economies of scale'?", options: ["Making more of something often lowers the cost of each item", "Making more always costs more per item", "A type of weighing machine"], answer: 0 },
+          { q: "Why does making more lower the cost per item?", options: ["Large fixed costs are spread across many products, and bulk buying is cheaper", "Because machines get more expensive", "Because materials cost more in bulk"], answer: 0 },
+          { q: "Why is bigger not always better?", options: ["A company that grows too large can become slow and hard to manage", "Large companies never have problems", "Size always cuts costs forever"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0929-2",
+        title: "How Airplanes Stay in the Sky",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "It can seem impossible that a machine weighing hundreds of tons can lift into the air and stay there. Yet every day, thousands of airplanes fly safely around the world. The secret is not magic, but a careful use of air, shape, and speed.\n\nThe key is the wing. If you look closely, an airplane wing has a special shape: rounded and curved on top, flatter underneath. As the plane rushes forward, air flows over and under the wing. Because of the wing's shape, the air moving over the top travels a little faster than the air below. This difference creates lower pressure above the wing and higher pressure below it. The higher pressure underneath pushes the wing — and the whole plane — upward. This upward push is called lift.\n\nTo create enough lift, the plane must move very fast. That is the job of the engines, which push the aircraft forward with great power. Speed plus the wing's clever shape equals flight.\n\nPilots control the plane using movable parts on the wings and tail. By adjusting these, they can climb, turn, and descend smoothly and safely.\n\nFlight is one of humanity's greatest achievements. For most of history, people could only dream of joining the birds. Now, thanks to a deep understanding of air and motion, we cross oceans in hours. The next time you see a plane overhead, remember the quiet science holding it up.",
+        summaryJa: "数百トンの機械が空に上がり、そこに留まれるとは不可能に見えるかもしれない。だが毎日、何千もの飛行機が世界中を安全に飛ぶ。秘密は魔法でなく、空気と形と速さの入念な利用だ。鍵は翼だ。よく見ると飛行機の翼は特別な形をしている。上は丸く湾曲し、下は平らだ。機体が前へ突き進むと、空気が翼の上と下を流れる。翼の形のため、上を通る空気は下より少し速く進む。この差が翼の上に低い気圧、下に高い気圧を生む。下の高い気圧が翼——そして機体全体——を上へ押す。この上向きの押しを揚力という。十分な揚力を生むには、機体はとても速く動かねばならない。それがエンジンの仕事で、大きな力で機を前へ押す。速さと翼の巧みな形が合わさって飛行になる。パイロットは翼や尾の動く部分で機を操る。これを調整して、滑らかに安全に上昇し、旋回し、降下できる。飛行は人類最大の達成の一つだ。歴史の大半、人は鳥に加わることを夢見るだけだった。今、空気と運動の深い理解のおかげで、私たちは数時間で海を渡る。次に頭上の飛行機を見たら、それを支える静かな科学を思い出してほしい。",
+        quiz: [
+          { q: "What is the key part that lets a plane fly?", options: ["The wing, with its special curved shape", "The seats", "The windows"], answer: 0 },
+          { q: "How does the wing create 'lift'?", options: ["Air moves faster over the top, making lower pressure above and higher below, pushing up", "By flapping like a bird", "By being very heavy"], answer: 0 },
+          { q: "Why must a plane move very fast?", options: ["To create enough lift, which is the job of the engines", "To use more fuel for fun", "So the wings can rest"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0929-3",
+        title: "Money Around the World",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Travel from one country to another, and you will quickly notice something: the money changes. One nation uses dollars, another uses yen, another uses euros. Almost every country has its own kind of money, called its currency. Why does the world not simply use one single money for everyone?\n\nThe answer is tied to how countries run their own economies. A nation's currency is a tool its government and central bank use to manage prices, jobs, and growth. By controlling their own money, countries can respond to their own needs, which would be much harder if everyone shared one currency.\n\nBecause there are many currencies, we need a way to trade one for another. This is done through \"exchange rates,\" which say how much of one currency you get for another. These rates change all the time, rising and falling based on trade, interest rates, and confidence in each economy.\n\nExchange rates matter to everyone, not just travelers. When a country's money becomes weaker, its exports can become cheaper for foreigners to buy, which may help its businesses. But imported goods become more expensive at home. A stronger currency does the opposite.\n\nSome groups of countries have chosen to share a single currency to make trade easier among them, though this brings both benefits and challenges.\n\nSo the world's many currencies are more than just different coins and notes. They are tools that let each country steer its own economy, all connected in a vast, ever-shifting global market.",
+        summaryJa: "ある国から別の国へ旅すると、すぐに気づくことがある。お金が変わるのだ。ある国はドル、別は円、また別はユーロを使う。ほぼどの国にも独自のお金、通貨がある。なぜ世界は皆で一つのお金を使わないのか。答えは各国が自国の経済をどう運営するかに結びつく。国の通貨は、政府と中央銀行が物価や雇用、成長を管理するために使う道具だ。自国のお金を制御することで、国は自らの必要に応えられる。皆が一つの通貨を共有すればずっと難しくなる。多くの通貨があるので、一つを別のものに換える方法が要る。これは「為替レート」で行われ、ある通貨で別の通貨をどれだけ得られるかを示す。このレートは絶えず変わり、貿易や金利、各経済への信頼によって上下する。為替レートは旅行者だけでなく皆に関わる。国のお金が弱くなると、輸出は外国人に安く買え、その事業を助けうる。だが輸入品は国内で高くなる。強い通貨は逆だ。貿易を互いに容易にするため単一通貨を共有することを選んだ国の集まりもあるが、利点と課題の両方をもたらす。世界の多くの通貨は、単なる異なる硬貨や紙幣以上のものだ。各国が自国の経済を操る道具であり、広大で絶えず動く世界市場ですべてつながっている。",
+        quiz: [
+          { q: "Why does almost every country have its own currency?", options: ["A currency is a tool to manage its own prices, jobs, and growth", "Because coins look nicer that way", "For no reason at all"], answer: 0 },
+          { q: "What are 'exchange rates'?", options: ["How much of one currency you get for another", "The number of banks in a country", "A type of tax"], answer: 0 },
+          { q: "What can happen when a country's money becomes weaker?", options: ["Its exports can become cheaper for foreigners, but imports cost more at home", "Nothing changes at all", "All prices become fixed forever"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0929-4",
+        title: "The Way of the Samurai",
+        level: "★★☆",
+        genre: "日本",
+        text: "For hundreds of years, Japan was shaped by a class of warriors known as the samurai. Skilled with the sword and loyal to their lords, they were the fighters of old Japan. But the samurai were more than soldiers. They followed a code of honor and behavior that still influences Japanese culture today.\n\nThis code is often called \"bushido,\" meaning \"the way of the warrior.\" It valued qualities such as courage, honesty, self-control, and above all, loyalty. A samurai was expected to be brave in battle but also calm, polite, and fair in daily life. Many samurai studied not only fighting, but also poetry, calligraphy, and the tea ceremony, believing that a true warrior should have a rich and disciplined mind.\n\nLoyalty was central. A samurai served a lord and was expected to be faithful, even in hard times. Honor mattered more than personal comfort or safety. To lose one's honor was considered worse than to lose one's life.\n\nThe age of the samurai ended long ago, as Japan changed and modernized. Yet their spirit did not vanish. The values of discipline, respect, loyalty, and doing one's duty with dignity can still be seen in Japanese schools, companies, and sports today.\n\nThe samurai remind us that real strength is not only about power. It is also about character — being honest, self-controlled, and faithful to what one believes is right, in good times and bad.",
+        summaryJa: "何百年もの間、日本は侍と呼ばれる武士の階級によって形づくられた。刀に長け主君に忠実な、古い日本の戦士だった。だが侍は兵士以上の存在だった。今日の日本文化になお影響する、名誉と行動の規範に従った。この規範はしばしば「武士道」——武士の道——と呼ばれる。勇気、正直、自制、そして何より忠誠といった資質を重んじた。侍は戦で勇敢であると同時に、日常では穏やかで礼儀正しく公正であることが期待された。多くの侍は戦いだけでなく詩や書道、茶道も学び、真の武士は豊かで規律ある心を持つべきだと信じた。忠誠が中心だった。侍は主君に仕え、困難な時でも忠実であることが期待された。名誉は個人の快適さや安全より重要だった。名誉を失うことは命を失うより悪いとされた。侍の時代は、日本が変わり近代化するとともにとうに終わった。だがその精神は消えなかった。規律、敬意、忠誠、威厳をもって務めを果たすという価値は、今日の日本の学校や企業、スポーツにもなお見られる。侍は、真の強さは力だけの話ではないと思い出させる。それは人格の話でもある——良い時も悪い時も、正直で自制し、正しいと信じるものに忠実であることだ。",
+        quiz: [
+          { q: "What is 'bushido'?", options: ["The samurai code of honor, meaning 'the way of the warrior'", "A type of sword", "A Japanese food"], answer: 0 },
+          { q: "What qualities did the samurai code value?", options: ["Courage, honesty, self-control, and loyalty", "Laziness and dishonesty", "Only fighting skill"], answer: 0 },
+          { q: "What do the samurai remind us about real strength?", options: ["It is also about character — being honest, self-controlled, and faithful to what is right", "It is only about power", "It does not matter at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0929-5",
+        title: "Why the Moon Changes Shape",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Look up at the night sky over several weeks, and you will see the moon change. Some nights it is a full, bright circle. Other nights it is a thin curve, or gone altogether. These changing shapes are called the phases of the moon. But the moon is not really changing shape at all — so what is happening?\n\nThe secret is light and position. The moon does not make its own light. Like a mirror, it shines only because the sun's light falls on it. The sun always lights up one half of the moon, the half facing it. But as the moon travels around the Earth, we on the ground see that lit half from different angles.\n\nWhen the moon is on the far side of the Earth from the sun, we see its whole lit face, and it looks like a full circle. When the moon is between the Earth and the sun, its dark side faces us, and we can barely see it at all. In between, we see only part of the lit half, which gives us the curved shapes.\n\nThis cycle repeats about once a month, which is where the very idea of a \"month\" comes from.\n\nSo the changing moon is a kind of shadow play in space, performed by the sun, the Earth, and the moon together. Nothing about the moon itself changes. We are simply watching sunlight from a moving point of view.",
+        summaryJa: "数週間、夜空を見上げると、月が変わるのが見える。ある夜は満ちた明るい円。別の夜は細い曲線、あるいは全く見えない。この変わる形を月の満ち欠け(相)という。だが月は本当は形を変えていない——では何が起きているのか。秘密は光と位置だ。月は自ら光を作らない。鏡のように、太陽の光が当たるから輝くだけだ。太陽は常に月の半分、太陽に面した半分を照らす。だが月が地球の周りを巡るにつれ、地上の私たちはその照らされた半分を異なる角度から見る。月が太陽から見て地球の反対側にあるとき、私たちはその照らされた面全体を見て、満ちた円に見える。月が地球と太陽の間にあるとき、その暗い側が私たちに面し、ほとんど見えない。その間、私たちは照らされた半分の一部だけを見て、曲がった形になる。この周期はおよそひと月に一度繰り返し、そこから「月(month)」という考えそのものが来ている。だから変わる月は、太陽と地球と月が共に演じる宇宙の影絵のようなものだ。月そのものは何も変わらない。私たちはただ、動く視点から太陽の光を見ているのだ。",
+        quiz: [
+          { q: "Does the moon really change shape?", options: ["No — we see its lit half from different angles as it orbits the Earth", "Yes, it grows and shrinks", "Yes, it melts"], answer: 0 },
+          { q: "Why does the moon shine?", options: ["Like a mirror, the sun's light falls on it; it makes no light of its own", "It burns like a fire", "It has a light bulb inside"], answer: 0 },
+          { q: "Where does the idea of a 'month' come from?", options: ["The cycle of the moon's phases, which repeats about once a month", "The number of days in a week", "The seasons only"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-28",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why does a red apple look red?", options: ["It reflects red light and absorbs the rest", "It contains red paint inside", "Because all light is red"], answer: 0 },
           { q: "What are cones?", options: ["Tiny cells at the back of the eye that are sensitive to light and color", "Small bones in the ear", "A kind of light bulb"], answer: 0 },
           { q: "What is color, according to the passage?", options: ["Teamwork between light, objects, our eyes, and our brains", "Something fixed inside every object", "Only in the sun"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-22",
-    passages: [
-      {
-        id: "d0922-1",
-        title: "How Online Shopping Changed the World",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Twenty years ago, buying something usually meant going to a shop. Today, with a few taps on a phone, we can order almost anything and have it arrive at our door in days, or even hours. This is online shopping, or \"e-commerce,\" and it has quietly transformed how the world buys and sells.\n\nFor customers, the benefits are clear. You can shop at any hour, compare prices in seconds, and read what other buyers thought before deciding. A person in a small town can buy goods from around the world, without ever leaving home. Choice has grown enormous.\n\nFor businesses, online selling opened new doors. A tiny company can now reach customers across a whole country or beyond, without the cost of a physical shop. Some businesses exist only online, run from a single room.\n\nBut the change has a harder side too. As people shop online, many traditional shops on the high street have struggled, and some have closed. Delivering countless small packages also creates traffic and waste that must be managed.\n\nBehind the simple click lies a huge, hidden machine: warehouses, delivery trucks, and computer systems working together to move goods quickly and cheaply.\n\nOnline shopping is now a normal part of life. Like most big changes, it brings both convenience and challenges. The task ahead is to enjoy its benefits while caring for the workers, shops, and environment that all this buying depends on.",
-        summaryJa: "20年前、何かを買うとは普通、店に行くことだった。今は電話を数回タップすれば、ほぼ何でも注文でき、数日、時に数時間で玄関に届く。これがオンラインショッピング(電子商取引)で、世界の売買のあり方を静かに変えた。客には利点が明確だ。いつでも買い物でき、数秒で価格を比べ、決める前に他の買い手の感想を読める。小さな町の人が家を出ずに世界中の品を買える。選択肢は途方もなく増えた。企業にはオンライン販売が新しい扉を開いた。小さな会社も、実店舗の費用なしに国全体やその先の客に届ける。オンラインだけで、一部屋から運営される事業もある。だが変化にはより厳しい面もある。人がオンラインで買うにつれ、商店街の多くの伝統的な店が苦しみ、閉じた店もある。無数の小包の配達は、管理すべき渋滞や廃棄も生む。単純なクリックの裏に巨大な隠れた機械がある。倉庫、配送トラック、コンピューターの仕組みが協力し、速く安く品を動かす。オンラインショッピングは今や暮らしの当たり前の一部だ。多くの大きな変化と同じく、便利さと課題の両方をもたらす。これから大切なのは、利点を享受しつつ、この買い物が頼る労働者や店、環境を大切にすることだ。",
-        quiz: [
-          { q: "What is one benefit of online shopping for customers?", options: ["Shopping at any hour, comparing prices, and reading reviews before deciding", "Being forced to visit every shop", "Having fewer choices"], answer: 0 },
-          { q: "How did online selling help small businesses?", options: ["They can reach customers far away without the cost of a physical shop", "It made shops much more expensive", "It stopped them from selling"], answer: 0 },
-          { q: "What is one harder side of the change?", options: ["Many traditional shops have struggled or closed, and deliveries create waste", "Everything became free", "Nothing changed at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0922-2",
-        title: "How 3D Printers Make Things",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "An ordinary printer puts ink on paper to make words and pictures — flat, two-dimensional shapes. A 3D printer does something far more amazing: it builds solid, three-dimensional objects that you can hold in your hand. But how can a machine create a real object out of almost nothing?\n\nThe secret is building up in thin layers. First, a designer creates a model of the object on a computer. The 3D printer then slices this model into hundreds or thousands of very thin, flat layers, like the pages of a book. The printer makes the object one layer at a time, adding material and slowly stacking the layers until the whole shape is complete.\n\nThe material is often a special plastic, melted so it can be squeezed out in fine lines, then cooling and hardening in place. Other printers use powders, resins, or even metal. Layer by layer, a flat design rises into a solid thing.\n\nThe uses are remarkable. Doctors can print models of a patient's body to plan surgery. Engineers can quickly make and test a new part before building it for real. Some printers make toys, tools, or spare parts at home, and larger ones can even help build houses.\n\nThere are limits: printing can be slow, and the objects are not always strong. But the idea is powerful. With a 3D printer, a design on a screen can become a real object — turning imagination into something you can truly touch.",
-        summaryJa: "普通のプリンターは紙にインクを載せて文字や絵を作る——平らな二次元の形だ。3Dプリンターははるかに驚くべきことをする。手に持てる立体の物を作るのだ。だが機械はどうして、ほぼ無から本物の物を作れるのか。秘密は薄い層を積み上げることだ。まず設計者がコンピューターで物の模型を作る。3Dプリンターはこの模型を、本のページのように何百、何千もの非常に薄い平らな層に切り分ける。プリンターは一度に一層ずつ物を作り、材料を加え、形全体が完成するまで層をゆっくり重ねる。材料はしばしば特別なプラスチックで、細い線で押し出せるよう溶かし、その場で冷えて固まる。粉や樹脂、金属を使うプリンターもある。層を重ね、平らな設計が立体の物へと立ち上がる。用途は目覚ましい。医師は手術の計画のため患者の体の模型を印刷できる。技術者は本番の前に新しい部品を素早く作り試せる。家庭で玩具や工具、交換部品を作るプリンターもあり、大型のものは家づくりさえ助ける。限界もある。印刷は遅く、物は必ずしも丈夫でない。だが考えは強力だ。3Dプリンターで、画面上の設計が本物の物になる——想像を、本当に触れられるものに変える。",
-        quiz: [
-          { q: "How does a 3D printer build an object?", options: ["By building up thin layers, one at a time, until the shape is complete", "By carving a block of stone", "By drawing on paper only"], answer: 0 },
-          { q: "What material do many 3D printers use?", options: ["A special plastic, melted and squeezed out, then cooling and hardening", "Only water", "Only paper"], answer: 0 },
-          { q: "What is one remarkable use of 3D printing?", options: ["Doctors can print body models to plan surgery, and engineers test new parts", "It can only make flat pictures", "It has no real uses"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0922-3",
-        title: "The World's Plastic Problem",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Plastic is one of the most useful materials ever made. It is light, cheap, strong, and can be shaped into almost anything, from bottles to toys to car parts. But this very usefulness has created a serious problem: the world now produces far more plastic than it can safely deal with.\n\nThe trouble is that most plastic does not break down. A plastic bottle thrown away today may still be here in hundreds of years. Much of it ends up in rivers and oceans, where it harms fish, birds, and other animals that mistake it for food. Over time, plastic breaks into tiny pieces that spread everywhere — even into the water we drink and the air we breathe.\n\nBecause plastic travels across borders on wind and water, no single country can solve the problem alone. So nations, companies, and ordinary people around the world are working together in many ways. Some countries have banned the thinnest, most wasteful plastic bags. Companies are designing packaging that can be reused or recycled. Scientists are inventing new materials that break down safely.\n\nEach person can help too, by using less throwaway plastic and recycling what they can.\n\nThe goal is not to ban plastic entirely — it is far too useful for that. The goal is to be wiser: to use it where it truly helps, waste less of it, and make sure it does not end up harming the living world we all share.",
-        summaryJa: "プラスチックは、これまで作られた中で最も有用な素材の一つだ。軽く、安く、丈夫で、瓶から玩具、車の部品までほぼ何にでも成形できる。だがこの有用さ自体が深刻な問題を生んだ。世界は今、安全に処理できるよりはるかに多くのプラスチックを作っている。問題は、多くのプラスチックが分解しないことだ。今日捨てた瓶が何百年も残りうる。その多くは川や海に行き着き、食べ物と間違える魚や鳥、他の動物を害する。時とともにプラスチックは小さな粒に砕け、至る所——飲む水や吸う空気にまで広がる。プラスチックは風や水で国境を越えるので、一国では解決できない。だから世界中の国や企業、普通の人々が多くの方法で協力している。最も薄く無駄なレジ袋を禁じた国もある。企業は再利用や再生できる包装を設計している。科学者は安全に分解する新素材を発明している。各人も、使い捨てプラスチックを減らし、できるものを再生して助けられる。目標はプラスチックを完全に禁じることではない——それには有用すぎる。目標はより賢くなることだ。本当に役立つ所で使い、無駄を減らし、皆で分かち合う生き物の世界を害さないようにすることだ。",
-        quiz: [
-          { q: "Why is plastic a serious problem?", options: ["Most plastic does not break down and can last for hundreds of years", "It disappears in a day", "It is too weak to use"], answer: 0 },
-          { q: "Why can't one country solve the plastic problem alone?", options: ["Plastic travels across borders on wind and water", "Because only one country uses plastic", "Because plastic cannot move"], answer: 0 },
-          { q: "What is the goal, according to the passage?", options: ["Not to ban plastic entirely, but to use it wisely and waste less", "To make much more plastic", "To ignore the problem"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0922-4",
-        title: "Hanko: Japan's Personal Seals",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, you sign your name to approve an important document. In Japan, people often do something different: they press a small stamp, called a \"hanko,\" onto the paper, leaving a round mark in red ink. For a long time, this personal seal has carried the same weight as a signature.\n\nA hanko is usually a small cylinder, often made of wood, stone, or plastic, with a person's name carved into one end. When pressed onto an ink pad and then onto paper, it prints the name in a neat circle. Many people own more than one: a simple hanko for everyday use, and a more important, officially registered one for serious matters like buying a house or opening a bank account.\n\nThe custom is very old and is tied to ideas of trust and responsibility. Using your hanko means, \"I agree, and I take responsibility for this.\" Because a registered seal is so important, people keep it in a safe place and never lend it to others.\n\nIn recent years, Japan has begun to move away from the hanko for many everyday tasks, especially as more business is done online. Some argue the old custom slows things down; others feel it is a meaningful tradition worth keeping.\n\nWhatever its future, the hanko remains a small, beautiful symbol of a person's word — a tiny red circle standing for trust, agreement, and personal responsibility.",
-        summaryJa: "多くの国では、重要な書類を承認するのに名前を署名する。日本では、人はしばしば違うことをする。「判子(はんこ)」という小さな印を紙に押し、赤いインクで丸い印を残すのだ。長い間、この個人の印は署名と同じ重みを持ってきた。判子は普通、木や石、プラスチック製の小さな円柱で、一端に人の名が彫られている。朱肉につけて紙に押すと、名がきれいな円で印される。多くの人は複数持つ。日常用の簡単な判子と、家の購入や銀行口座の開設など重要な事柄用の、公的に登録されたより大切なものだ。この習慣は非常に古く、信頼と責任の考えに結びつく。判子を使うことは「私は同意し、これに責任を持つ」を意味する。登録印はとても重要なので、人は安全な場所に保管し、決して他人に貸さない。近年、日本は多くの日常の手続きで判子から離れ始めている。特にオンラインの取引が増えるにつれてだ。古い習慣は物事を遅くすると言う人もいれば、守る価値のある意味深い伝統だと感じる人もいる。未来がどうあれ、判子は人の言葉の小さく美しい象徴であり続ける。信頼、同意、個人の責任を表す小さな赤い円だ。",
-        quiz: [
-          { q: "What is a 'hanko'?", options: ["A small stamp with a person's name, used like a signature", "A type of pen", "A kind of paper"], answer: 0 },
-          { q: "Why do people keep a registered hanko in a safe place?", options: ["Because it is very important and stands for their agreement and responsibility", "Because it is worthless", "Because it is very large"], answer: 0 },
-          { q: "Why is Japan moving away from the hanko for some tasks?", options: ["More business is done online, and some feel the custom slows things down", "Because signatures are illegal", "Because no one uses documents"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0922-5",
-        title: "Concrete That Cleans the Air",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Concrete is all around us. It forms our roads, bridges, and buildings, and it is the most widely used building material on Earth. But making concrete has a hidden cost: the process releases a large amount of the gas that warms our planet. Now, scientists are working on a surprising idea — concrete that can actually help clean the air instead.\n\nThe problem starts with cement, the powder that holds concrete together. Making cement requires great heat and releases carbon dioxide, a gas that traps warmth in the atmosphere. Because the world uses so much concrete, this adds up to a huge share of the world's harmful emissions.\n\nResearchers have found ways to make new kinds of concrete that are both stronger and able to absorb carbon dioxide from the air as they harden and age. In effect, the concrete acts a little like a sponge, soaking up some of the very gas that its making produced. Some new mixtures also use waste materials, reducing the need for fresh cement.\n\nIf such concrete can be made cheaply and used widely, the benefits could be enormous. Imagine roads and buildings that quietly help clean the air for years, simply by existing.\n\nThe research is still developing, and it will take time to prove these materials are safe and strong enough for everyday use. But the idea points to a hopeful future — one where the very things we build might help heal the planet, not harm it.",
-        summaryJa: "コンクリートは私たちの周りに満ちている。道路や橋、建物を形づくり、地球で最も広く使われる建材だ。だがコンクリート作りには隠れた代償がある。その過程で地球を温める気体が大量に放たれる。今、科学者は意外な考えに取り組んでいる。むしろ空気を浄化する助けになりうるコンクリートだ。問題はセメント、コンクリートをまとめる粉から始まる。セメント作りは大きな熱を要し、大気に温もりを閉じ込める気体である二酸化炭素を放つ。世界はコンクリートを非常に多く使うので、これが世界の有害な排出の大きな割合に積み重なる。研究者は、より丈夫で、かつ固まり古くなるにつれ空気中の二酸化炭素を吸収できる新種のコンクリートの作り方を見つけた。実質、コンクリートがスポンジのように働き、その製造が生んだまさにその気体の一部を吸い取る。廃材を使い、新しいセメントの必要を減らす新しい配合もある。もしこうしたコンクリートを安く広く作れれば、恩恵は甚大でありうる。ただ存在するだけで何年も静かに空気を浄化する道路や建物を想像してほしい。研究はまだ発展途上で、日常使用に安全で丈夫だと証明するには時間がかかる。だがこの考えは希望に満ちた未来を指す。私たちが建てるもの自体が、地球を害さず癒す助けになるかもしれない未来だ。",
-        quiz: [
-          { q: "What hidden cost does making concrete have?", options: ["The process releases a large amount of gas that warms the planet", "It uses no energy at all", "It cleans the air by itself already"], answer: 0 },
-          { q: "What can the new kinds of concrete do?", options: ["Be stronger and absorb carbon dioxide from the air as they harden and age", "Melt in the rain", "Disappear over time"], answer: 0 },
-          { q: "Why is the research still developing?", options: ["It takes time to prove the materials are safe and strong enough for everyday use", "Because concrete is never used", "Because it is already finished"], answer: 0 }
         ]
       }
     ]
