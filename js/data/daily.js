@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-09-30",
+    passages: [
+      {
+        id: "d0930-1",
+        title: "Why a Business Needs a Plan",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Starting a business can feel exciting and full of possibility. Someone has a great idea and wants to begin right away. But experienced people know that one quiet step can make the difference between success and failure: writing a business plan.\n\nA business plan is a written document that describes what a business will do and how. It explains the product or service, who the customers are, how the company will make money, and what it will cost to get started. In short, it turns a dream into a clear plan of action.\n\nWhy is this so useful? First, writing a plan forces you to think carefully. On paper, weak ideas and hidden costs become visible before you spend real money. A plan can reveal problems early, while they are still easy to fix.\n\nSecond, a plan helps you explain your idea to others. Banks, investors, and partners usually want to see a solid plan before they give money or support. A clear plan shows that you are serious and have thought things through.\n\nThird, a plan acts like a map. As the business grows, the owner can look back at the plan to check whether things are going as expected, and adjust when needed.\n\nOf course, no plan is perfect, and real life brings surprises. A good plan is not a set of chains, but a guide that can change as you learn. Still, starting without one is like setting off on a long journey with no map at all.",
+        summaryJa: "事業を始めるのはわくわくして可能性に満ちて感じられる。素晴らしい着想を持ち、すぐ始めたい。だが経験ある人は、成功と失敗を分けうる一つの静かな段階を知っている。事業計画を書くことだ。事業計画は、事業が何をどうするかを述べた書面だ。製品やサービス、顧客は誰か、会社がどう稼ぐか、始めるのにいくらかかるかを説明する。要するに、夢を明確な行動計画に変える。なぜ有用か。第一に、計画を書くと慎重に考えざるをえない。紙の上では、弱い着想や隠れた費用が、実際にお金を使う前に見える。計画は問題を早く、まだ直しやすいうちに明らかにできる。第二に、計画は着想を他者に説明する助けになる。銀行や投資家、提携先はふつう、お金や支援を与える前にしっかりした計画を見たがる。明確な計画は、あなたが本気でよく考えたと示す。第三に、計画は地図のように働く。事業が育つにつれ、所有者は計画を振り返り、予定通りか確認し、必要なら調整できる。もちろん完璧な計画はなく、現実は驚きをもたらす。良い計画は鎖でなく、学びとともに変えられる案内だ。だが計画なしに始めるのは、地図なしで長い旅に出るようなものだ。",
+        quiz: [
+          { q: "What is a business plan?", options: ["A written document describing what a business will do and how", "A type of bank", "A finished product"], answer: 0 },
+          { q: "How does writing a plan help before you spend money?", options: ["It makes weak ideas and hidden costs visible early, while they are easy to fix", "It guarantees instant success", "It hides all problems"], answer: 0 },
+          { q: "How is a good plan described?", options: ["Not a set of chains, but a guide that can change as you learn", "A rule that can never change", "A useless piece of paper"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0930-2",
+        title: "Robots Exploring Mars",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Millions of kilometers from Earth, on the cold, red surface of Mars, small robots are slowly rolling across the ground. These machines, called rovers, are sent by scientists to explore a world where no human has ever set foot. Through them, we are getting our first close look at another planet.\n\nWhy send robots instead of people? Mars is a harsh and distant place. The journey takes many months, the air is unbreathable, and the cold is deadly. Sending humans would be enormously expensive and dangerous. A robot, however, can travel there, work for years, and never need food, air, or a way home.\n\nA Mars rover is like a scientist on wheels. It carries cameras to take photographs, tools to study rocks and soil, and instruments to test the air. It looks for clues about the planet's past — especially signs that water, and perhaps even tiny life, once existed there.\n\nControlling a rover is a slow and careful task. Because Mars is so far away, a radio command from Earth takes many minutes to arrive. Scientists cannot drive the rover second by second; instead, they send careful instructions and wait to see the results.\n\nThese brave little robots have already lasted far longer than expected, sending home stunning pictures and important discoveries. They are the eyes and hands of humanity on a distant world — proof that even when we cannot go somewhere ourselves, our curiosity can still reach across the stars.",
+        summaryJa: "地球から何百万キロも離れた火星の冷たく赤い地表を、小さなロボットがゆっくり転がって進んでいる。ローバーと呼ばれるこの機械は、人がまだ足を踏み入れたことのない世界を探るために科学者が送ったものだ。ローバーを通じ、私たちは初めて別の惑星を間近に見ている。なぜ人でなくロボットを送るのか。火星は過酷で遠い場所だ。旅は何か月もかかり、空気は吸えず、寒さは致命的だ。人を送るのは莫大に高価で危険だ。だがロボットはそこへ行き、何年も働き、食料も空気も帰る手段も要らない。火星ローバーは車輪の付いた科学者のようだ。写真を撮るカメラ、岩や土を調べる道具、空気を試す装置を積む。惑星の過去の手がかり——特にかつて水が、もしかすると小さな生命さえ存在した証を探す。ローバーの操縦は遅く慎重な作業だ。火星はとても遠いので、地球からの無線指令は届くのに何分もかかる。科学者は一秒ごとに運転できず、慎重な指示を送り結果を待つ。この勇敢な小さなロボットは、予想よりはるかに長く持ち、見事な写真と重要な発見を送ってきた。遠い世界での人類の目と手であり、自分で行けなくても好奇心は星々を越えて届く証だ。",
+        quiz: [
+          { q: "Why do scientists send robots to Mars instead of people?", options: ["Mars is harsh, distant, and dangerous, and robots need no food, air, or way home", "Because robots enjoy travel", "Because people are not curious"], answer: 0 },
+          { q: "What is a Mars rover like?", options: ["A scientist on wheels, with cameras and tools to study rocks, soil, and air", "A simple toy", "A rocket only"], answer: 0 },
+          { q: "Why is controlling a rover slow?", options: ["A radio command from Earth takes many minutes to reach faraway Mars", "Because the rover is asleep", "Because Earth is closer than the moon"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0930-3",
+        title: "The Rivers That Cross Borders",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Rivers do not care about the lines humans draw on maps. A great river may begin high in the mountains of one country, flow through a second, and reach the sea in a third. Many of the world's most important rivers are shared by several nations. This simple fact of nature has made rivers one of the great tests of cooperation between countries.\n\nA shared river is a shared blessing. Its water grows crops, provides drinking water, powers electricity, and carries boats and goods. For the people who live along it, the river is life itself. But because the water is shared, what one country does affects its neighbors. If an upstream nation takes too much water or builds a large dam, the countries downstream may receive too little.\n\nThis can cause tension. Yet more often, it has pushed nations to work together. Countries that share a river frequently sign agreements about how to divide the water fairly, how to keep it clean, and how to warn each other of floods. In many places, old rivals have found that they must cooperate over water, whether they like each other or not.\n\nCaring for shared rivers grows more important every year, as populations rise and the climate changes.\n\nA river crossing borders is a powerful reminder that nature connects us. The water flowing past one village today may reach a distant land tomorrow. To manage it well, neighbors must talk, share, and think of one another — as the river itself joins them together.",
+        summaryJa: "川は人が地図に引く線を気にしない。大きな川はある国の高い山で始まり、二つ目の国を流れ、三つ目で海に達しうる。世界の最も重要な川の多くは複数の国に共有される。この自然の単純な事実が、川を国家間協力の大きな試金石の一つにした。共有する川は共有の恵みだ。その水は作物を育て、飲み水を供給し、電気を生み、船と荷を運ぶ。川沿いに住む人々にとって、川は命そのものだ。だが水が共有されるため、一国のすることが隣国に影響する。上流の国が水を取りすぎたり大きなダムを造ったりすると、下流の国は水が少なすぎるかもしれない。これは緊張を生みうる。だがより多くの場合、国々を協力へ押しやってきた。川を共有する国は、水を公正に分ける方法、清潔に保つ方法、互いに洪水を知らせる方法について協定を結ぶことが多い。多くの場所で、古いライバルが、好むと好まざるとにかかわらず水で協力せねばならないと気づいた。共有する川の世話は、人口が増え気候が変わるにつれ、年々重要になる。国境を越える川は、自然が私たちをつなぐ力強い証だ。今日ある村を流れる水が明日遠い地に届きうる。うまく管理するには、隣人は話し、分かち合い、互いを思わねばならない。川そのものが彼らを結びつけるように。",
+        quiz: [
+          { q: "Why are many important rivers a test of cooperation?", options: ["They are shared by several nations, so one country's actions affect its neighbors", "Because rivers follow map lines exactly", "Because no one uses rivers"], answer: 0 },
+          { q: "What can happen if an upstream nation takes too much water?", options: ["Countries downstream may receive too little", "Nothing changes for anyone", "The river flows backward"], answer: 0 },
+          { q: "How have shared rivers often pushed nations?", options: ["To work together, signing agreements to divide water fairly and keep it clean", "To stop all farming", "To ignore each other completely"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0930-4",
+        title: "Kabuki: Japan's Dramatic Theater",
+        level: "★★☆",
+        genre: "日本",
+        text: "Imagine a stage bursting with color: actors in magnificent costumes, faces painted in bold red and white, striking dramatic poses as music and shouts fill the air. This is kabuki, one of Japan's most famous traditional forms of theater, loved for its beauty, drama, and energy for over four hundred years.\n\nKabuki plays tell stories of love, honor, heroes, and history. Everything about them is larger than life. The costumes are grand, the makeup is striking, and the actors move in a powerful, exaggerated style. At key moments, an actor may freeze in a dramatic pose, crossing his eyes, while the audience cheers. The stage itself is full of clever tricks, including revolving floors and secret passages.\n\nOne surprising fact is that in traditional kabuki, all the roles, including the women, are played by men. Certain actors train for many years to play female parts with great grace, and these performers are highly respected.\n\nKabuki is also a family art. Famous acting families pass their skills and stage names down through the generations, so a great actor today may be the son and grandson of great actors before him.\n\nThough it is centuries old, kabuki is still performed and enjoyed in Japan today, by both older fans and curious newcomers. It is a living link to the past — a loud, colorful, thrilling window into the stories and spirit of old Japan, kept proudly alive on the modern stage.",
+        summaryJa: "色にあふれる舞台を想像してほしい。壮麗な衣装の役者、赤と白で大胆に塗られた顔、音楽と掛け声が満ちる中での劇的な見得。これが歌舞伎、日本で最も有名な伝統演劇の一つで、その美しさ、劇性、活力ゆえに400年以上愛されてきた。歌舞伎の演目は、愛や名誉、英雄、歴史の物語を語る。すべてが実物以上に大きい。衣装は壮大、化粧は鮮烈、役者は力強く誇張された様式で動く。要所で役者は目を寄せて劇的な見得で静止し、観客は喝采する。舞台自体も、回る床や秘密の通路など巧みな仕掛けに満ちる。意外な事実は、伝統的な歌舞伎ではすべての役、女性役も含めて男が演じることだ。特定の役者は何年も修行して優雅に女性役を演じ、この演者は大いに尊敬される。歌舞伎は一族の芸でもある。有名な役者一族が技と芸名を世代を超えて受け継ぐので、今日の名優は名優の息子であり孫かもしれない。何世紀も古いが、歌舞伎は今日も日本で上演され、年配のファンにも好奇心旺盛な新参者にも楽しまれる。過去への生きたつながり——古い日本の物語と精神への、騒がしく色鮮やかでわくわくする窓であり、現代の舞台で誇り高く生かされている。",
+        quiz: [
+          { q: "What kind of theater is kabuki?", options: ["A traditional Japanese theater known for color, drama, and energy", "A silent, plain form of theater", "A type of sport"], answer: 0 },
+          { q: "What is a surprising fact about traditional kabuki?", options: ["All the roles, including women, are played by men", "There are no actors", "It has no costumes"], answer: 0 },
+          { q: "How is kabuki a 'family art'?", options: ["Famous acting families pass their skills and stage names down through generations", "Only strangers may perform it", "It changes owners every day"], answer: 0 }
+        ]
+      },
+      {
+        id: "d0930-5",
+        title: "Bats: Masters of the Night",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "As the sun sets and most animals settle down to sleep, another world comes alive. Out of caves, trees, and quiet corners fly the bats, some of the most remarkable creatures on Earth. Bats are the only mammals that can truly fly, and they rule the night sky in ways that still amaze scientists.\n\nThe most famous of a bat's skills is how it finds its way in the dark. Many bats use a trick called echolocation. As they fly, they send out high squeaks, far too high for humans to hear. These sounds bounce off objects and return as echoes. By listening to the echoes, a bat can build a picture of the world around it, sensing walls, insects, and prey in complete darkness.\n\nBats are also very useful to us. Many kinds eat huge numbers of insects each night, including pests that harm crops. Others drink nectar and, like bees, carry pollen from flower to flower, helping plants grow. Some fruit bats spread seeds across the forest.\n\nSadly, bats are often feared or misunderstood. In truth, the vast majority are shy, gentle, and harmless to people, quietly doing important work while we sleep.\n\nRecent studies even suggest that bats may hold secrets about long life and fighting disease, and scientists are eager to learn from them.\n\nSo the next time you see a bat flit across the evening sky, do not be afraid. You are watching a true master of the night at work.",
+        summaryJa: "日が沈み、多くの動物が眠りにつくと、別の世界が息づき始める。洞窟や木、静かな片隅からコウモリが飛び立つ。地球で最も注目すべき生き物の一つだ。コウモリは真に飛べる唯一の哺乳類で、科学者を今も驚かせる仕方で夜空を支配する。コウモリの技で最も有名なのは、暗闇で道を見つける方法だ。多くのコウモリは反響定位(エコーロケーション)という技を使う。飛びながら、人には高すぎて聞こえない高い鳴き声を出す。この音が物に跳ね返り、こだまとして戻る。こだまを聞くことで、コウモリは周りの世界の像を作り、完全な暗闇で壁や昆虫、獲物を感じ取る。コウモリは私たちにとても役立ちもする。多くの種は毎晩膨大な数の昆虫、作物を害する害虫を食べる。花の蜜を飲み、ハチのように花から花へ花粉を運び植物の成長を助けるものもいる。果実を食べるコウモリは森中に種を広げる。悲しいことに、コウモリはしばしば恐れられ誤解される。実は大多数は臆病で優しく、人に無害で、私たちが眠る間に静かに大切な仕事をしている。最近の研究は、コウモリが長寿や病気との闘いの秘密を握るかもしれないと示唆し、科学者は学びたがっている。次に夕空をコウモリがよぎるのを見ても、恐れないでほしい。真の夜の達人が働くのを見ているのだ。",
+        quiz: [
+          { q: "What is special about bats among mammals?", options: ["They are the only mammals that can truly fly", "They cannot move at all", "They only live in water"], answer: 0 },
+          { q: "How does echolocation work?", options: ["A bat sends out high squeaks and listens to the echoes to sense the world", "A bat uses a flashlight", "A bat reads a map"], answer: 0 },
+          { q: "Why are bats useful to us?", options: ["They eat pest insects, spread pollen and seeds, and help plants grow", "They harm all crops", "They do nothing helpful"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-29",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why do birds migrate?", options: ["Mainly for food and weather — they fly to milder places when winter brings cold and scarce food", "Because they dislike other birds", "For no reason"], answer: 0 },
           { q: "How do birds find their way over vast distances?", options: ["Using the sun and stars, landmarks, and the Earth's magnetic field", "By reading road signs", "By following cars"], answer: 0 },
           { q: "How can people help migrating birds?", options: ["By protecting the places where birds rest and feed along the way", "By removing all forests", "By feeding them nothing"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-23",
-    passages: [
-      {
-        id: "d0923-1",
-        title: "The Business of Travel and Tourism",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Every year, hundreds of millions of people travel to other cities and countries for holidays. They stay in hotels, eat in restaurants, visit famous sites, and buy souvenirs. All of this spending adds up to one of the largest industries in the world: travel and tourism.\n\nFor many places, tourism is a powerful engine of business. When visitors arrive, they bring money that supports hotels, guides, drivers, shops, and countless local jobs. A beautiful beach, an old temple, or a lively festival can become the foundation of a whole local economy. For some countries, tourism is among the biggest sources of income.\n\nBut tourism has two sides. Too many visitors can crowd streets, raise prices for local people, and wear down the very sites they come to see. A quiet town can lose its charm if it becomes packed with tourists. This is sometimes called \"overtourism.\"\n\nBecause of this, many places are learning to manage tourism carefully. They may limit the number of visitors to a fragile site, encourage travel in quieter seasons, or spread visitors to less famous areas. The goal is to enjoy the benefits without harming the place or its people.\n\nGood tourism can be a wonderful exchange. Visitors gain new experiences and understanding, while local people gain income and pride in sharing their home. Managed with care, travel connects the world and helps both guests and hosts.",
-        summaryJa: "毎年、何億もの人が休暇で他の都市や国へ旅する。ホテルに泊まり、レストランで食べ、有名な場所を訪れ、土産を買う。こうした支出の総和が、世界最大級の産業、旅行・観光になる。多くの場所にとって観光は強力なビジネスの原動力だ。訪問者はホテルやガイド、運転手、店、無数の地元の仕事を支えるお金をもたらす。美しい浜、古い寺、にぎやかな祭りが、地域経済全体の土台になりうる。観光が最大級の収入源である国もある。だが観光には二つの面がある。訪問者が多すぎると通りが混み、地元の人には物価が上がり、見に来たまさにその場所がすり減る。静かな町も観光客で埋まれば魅力を失いうる。これは「オーバーツーリズム」と呼ばれることがある。だから多くの場所が観光を慎重に管理することを学んでいる。壊れやすい場所の訪問者数を制限したり、静かな季節の旅行を勧めたり、あまり有名でない地域へ客を分散したりする。目標は、場所や人を害さず利点を享受することだ。良い観光は素晴らしい交流になりうる。訪問者は新しい経験と理解を得、地元の人は収入と、我が家を分かち合う誇りを得る。心配りある管理で、旅は世界をつなぎ、客と迎える側の双方を助ける。",
-        quiz: [
-          { q: "Why is tourism a powerful engine of business for many places?", options: ["Visitors bring money that supports hotels, shops, and local jobs", "Visitors take money away", "Tourism creates no jobs"], answer: 0 },
-          { q: "What is 'overtourism'?", options: ["When too many visitors crowd a place, raise prices, and wear down sites", "When no one visits", "A type of hotel"], answer: 0 },
-          { q: "How are places learning to manage tourism?", options: ["Limiting visitors to fragile sites and spreading them to less famous areas", "By banning all visitors forever", "By ignoring the problem"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0923-2",
-        title: "How a Refrigerator Works",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "A refrigerator is one of the most useful machines in any home. It keeps our food cold and fresh for days or weeks. But have you ever wondered how a box plugged into the wall can make the air inside it colder than the room around it? The answer is a clever trick using a special liquid and the science of heat.\n\nThe key idea is that heat always moves from warmer things to cooler things. A refrigerator does not really \"make cold.\" Instead, it moves heat out of the inside and releases it outside. To do this, it uses a special substance called a refrigerant, which flows through pipes in a loop.\n\nInside the fridge, the refrigerant is allowed to expand, which makes it very cold. As it flows through pipes inside, it absorbs heat from the food and air, cooling them down. The refrigerant, now warmer, is then pumped outside the fridge, where it is squeezed tightly. This releases the heat into the room, which is why the back of a fridge feels warm.\n\nThe cooled refrigerant then flows back inside to pick up more heat, and the cycle repeats, over and over.\n\nSo a refrigerator is really a heat mover, not a cold maker. This same idea is used in air conditioners and even in some home heating systems. Understanding it reveals the quiet science humming inside a machine we open without a second thought every day.",
-        summaryJa: "冷蔵庫はどの家でも最も役立つ機械の一つだ。食べ物を何日も何週間も冷たく新鮮に保つ。だが、壁につないだ箱が、なぜ中の空気を周りの部屋より冷たくできるのか、考えたことはあるだろうか。答えは、特別な液体と熱の科学を使った巧みな仕掛けだ。鍵となる考えは、熱は常に温かいものから冷たいものへ移るということだ。冷蔵庫は本当は「冷たさを作る」のではない。中から熱を取り出し、外へ放つのだ。そのために「冷媒」という特別な物質を使い、輪になった管を流す。冷蔵庫の中で冷媒は膨張を許され、非常に冷たくなる。内部の管を流れる間、食べ物や空気から熱を吸い、それらを冷やす。今や温まった冷媒は冷蔵庫の外へ送られ、そこで強く圧縮される。これが熱を部屋へ放つので、冷蔵庫の裏は温かく感じる。冷えた冷媒は再び中へ戻ってさらに熱を拾い、この循環が何度も繰り返される。だから冷蔵庫は本当は熱を動かすもので、冷たさを作るものではない。同じ考えはエアコンや一部の暖房にも使われる。理解すれば、毎日考えもせず開ける機械の中でうなる静かな科学が見えてくる。",
-        quiz: [
-          { q: "What does a refrigerator really do?", options: ["It moves heat out of the inside and releases it outside", "It creates cold from nothing", "It freezes the whole room"], answer: 0 },
-          { q: "Why does the back of a fridge feel warm?", options: ["The refrigerant releases the heat it collected into the room there", "Because it is broken", "Because it makes fire"], answer: 0 },
-          { q: "What key idea makes a refrigerator work?", options: ["Heat always moves from warmer things to cooler things", "Cold falls downward", "Heat never moves"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0923-3",
-        title: "Saving the World's Coral Reefs",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Beneath the clear waters of warm seas lie some of the most beautiful and important places on Earth: coral reefs. Though they cover only a tiny part of the ocean, reefs are home to a huge share of all sea life. They are sometimes called the \"rainforests of the sea,\" and their health matters to the whole world.\n\nCoral may look like colorful rock, but it is actually made of tiny living animals. These creatures build hard structures over hundreds of years, forming reefs that shelter fish, protect coastlines from storms, and support the fishing and tourism that millions of people depend on.\n\nSadly, reefs around the world are in danger. When the sea grows too warm, coral can turn white and die, an event called \"bleaching.\" Pollution and careless fishing add to the harm. Losing reefs would hurt not only sea creatures but also the people whose food and income come from them.\n\nThe good news is that people everywhere are working to protect reefs. Scientists are growing new coral and planting it on damaged reefs. Countries are creating protected areas where sea life can recover. And efforts to keep the oceans cleaner and cooler help reefs most of all.\n\nCoral reefs remind us how connected the world is. A change in the water can echo all the way to our dinner tables. Protecting these underwater gardens is a task that belongs to everyone who shares the planet.",
-        summaryJa: "暖かい海の澄んだ水の下に、地球で最も美しく重要な場所の一つがある。サンゴ礁だ。海のごく一部しか覆わないのに、礁は全海洋生物の大きな割合のすみかだ。「海の熱帯雨林」と呼ばれることもあり、その健康は世界全体に関わる。サンゴは色鮮やかな岩のように見えるが、実は小さな生き物でできている。この生き物が何百年もかけて硬い構造を築き、魚をかくまい、海岸を嵐から守り、何百万もの人が頼る漁業や観光を支える礁を形づくる。悲しいことに、世界中の礁が危機にある。海が暖まりすぎるとサンゴは白くなり死ぬ。「白化」と呼ばれる現象だ。汚染や不注意な漁も害を加える。礁を失えば、海の生き物だけでなく、そこから食料や収入を得る人々も傷つく。良い知らせは、各地で人が礁を守ろうとしていることだ。科学者は新しいサンゴを育て、傷んだ礁に植える。国は海の生き物が回復できる保護区を作る。海をより清潔で涼しく保つ努力が、何より礁を助ける。サンゴ礁は世界がいかにつながっているかを思い出させる。水の変化が食卓にまで響きうる。この海中の庭を守ることは、地球を分かち合う皆の務めだ。",
-        quiz: [
-          { q: "What are coral reefs made of?", options: ["Tiny living animals that build hard structures over hundreds of years", "Colorful painted rock", "Plastic"], answer: 0 },
-          { q: "What is coral 'bleaching'?", options: ["When the sea grows too warm and coral turns white and dies", "When coral is painted white", "When coral grows faster"], answer: 0 },
-          { q: "How are people working to protect reefs?", options: ["Growing new coral, creating protected areas, and keeping oceans cleaner and cooler", "By fishing more carelessly", "By warming the seas"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0923-4",
-        title: "Japan's Autumn Equinox Day",
-        level: "★★☆",
-        genre: "日本",
-        text: "Around the 23rd of September, Japan celebrates a national holiday called the Autumn Equinox Day. The equinox is a special moment in the year when day and night are almost exactly equal in length. After this day, the nights slowly grow longer, and the country moves gently toward winter.\n\nThe holiday is tied closely to nature and to family. In Japan, the equinox falls in the middle of a period called \"higan,\" a traditional time for remembering those who have passed away. Many families visit the graves of their ancestors, clean them with care, and offer flowers and favorite foods. It is a quiet, respectful way of staying connected to loved ones who are gone.\n\nThe season also brings special treats. A soft sweet made of rice and sweet bean paste is often eaten at this time, its name changing with the season.\n\nThe meaning of the day is gentle and thoughtful. It is a moment to pause, to feel the turning of the year, and to remember where we come from. As the summer heat fades and the air turns cool and clear, people are reminded of the natural rhythm of life.\n\nThe Autumn Equinox Day shows a lovely part of Japanese culture: a deep respect for nature's cycles and for the family members who came before. It is a small holiday with a warm and lasting spirit of gratitude and remembrance.",
-        summaryJa: "9月23日ごろ、日本は「秋分の日」という祝日を祝う。秋分は、昼と夜の長さがほぼ正確に等しくなる一年の特別な瞬間だ。この日を過ぎると夜は少しずつ長くなり、国は穏やかに冬へ向かう。この祝日は自然と家族に深く結びつく。日本では秋分は「彼岸」という期間の中日にあたり、亡くなった人を偲ぶ伝統的な時だ。多くの家族が先祖の墓を訪れ、丁寧に掃除し、花や好物を供える。去った大切な人とつながり続ける、静かで敬意ある方法だ。この季節は特別な菓子ももたらす。米とあんこで作る柔らかい菓子がこの時期によく食べられ、その名は季節で変わる。この日の意味は穏やかで思慮深い。立ち止まり、一年の移ろいを感じ、自分がどこから来たかを思い出す時だ。夏の暑さが和らぎ空気が涼しく澄むと、人は命の自然な律動を思い出す。秋分の日は日本文化の素敵な一面を示す。自然の巡りと、先を生きた家族への深い敬意だ。感謝と追憶の温かく長く続く精神を持つ小さな祝日だ。",
-        quiz: [
-          { q: "What is special about the equinox?", options: ["Day and night are almost exactly equal in length", "The sun never sets", "It is the hottest day of the year"], answer: 0 },
-          { q: "What do many families do during this time (higan)?", options: ["Visit and clean the graves of their ancestors and offer flowers and food", "Go swimming in the sea", "Stay awake all night"], answer: 0 },
-          { q: "What does the Autumn Equinox Day show about Japanese culture?", options: ["A deep respect for nature's cycles and for family members who came before", "A dislike of nature", "That holidays are meaningless"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0923-5",
-        title: "How We See Color",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "The world is full of color: a blue sky, green grass, a red apple. We see these colors so easily that we rarely stop to think about them. But color is not really \"in\" objects the way we imagine. It is created by light and by our own eyes and brains working together.\n\nLight from the sun looks white, but it is actually a mix of all colors. When light hits an object, the object soaks up some colors and reflects others back. A red apple looks red because it reflects red light and absorbs the rest. The color we see is the light that bounces off, not something the apple contains.\n\nBut the story is only half finished until the light reaches our eyes. At the back of each eye are millions of tiny cells. Some of these, called cones, are sensitive to light. Humans usually have three kinds of cones, tuned to red, green, and blue light. By comparing the signals from these three types, the brain builds the huge range of colors we experience.\n\nThis is why some people see color differently. If a person's cones work in an unusual way, certain colors may look similar to them, a condition often called color blindness.\n\nSo color is a kind of teamwork between light, objects, our eyes, and our brains. The next time you enjoy a bright sunset, remember that its beauty is created partly out there — and partly inside your own head.",
-        summaryJa: "世界は色に満ちている。青い空、緑の草、赤いリンゴ。私たちはこれらの色をあまりに簡単に見るので、立ち止まって考えることは少ない。だが色は、想像するように物の中に「ある」のではない。光と、私たち自身の目と脳が協力して作り出すものだ。太陽の光は白く見えるが、実はすべての色の混合だ。光が物に当たると、物はある色を吸い、他を反射して返す。赤いリンゴが赤く見えるのは、赤い光を反射し残りを吸うからだ。見える色は跳ね返る光であって、リンゴが含むものではない。だが物語は、光が目に届くまで半分しか終わっていない。両目の奥に何百万もの小さな細胞がある。そのうち錐体と呼ばれるものは光に敏感だ。人は普通、赤・緑・青の光に合わせた三種類の錐体を持つ。この三種からの信号を比べ、脳は私たちが経験する膨大な色の幅を作る。だから色の見え方が人によって違うこともある。錐体が通常と異なる働きをすると、ある色が似て見えることがあり、しばしば色覚異常と呼ばれる。色は、光と物、目、脳の一種の共同作業だ。次に鮮やかな夕日を楽しむとき、その美しさは一部は外で、一部はあなた自身の頭の中で作られていると思い出してほしい。",
-        quiz: [
-          { q: "Why does a red apple look red?", options: ["It reflects red light and absorbs the rest", "It contains red paint inside", "Because all light is red"], answer: 0 },
-          { q: "What are cones?", options: ["Tiny cells at the back of the eye that are sensitive to light and color", "Small bones in the ear", "A kind of light bulb"], answer: 0 },
-          { q: "What is color, according to the passage?", options: ["Teamwork between light, objects, our eyes, and our brains", "Something fixed inside every object", "Only in the sun"], answer: 0 }
         ]
       }
     ]
