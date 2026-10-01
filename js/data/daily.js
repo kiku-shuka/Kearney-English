@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-01",
+    passages: [
+      {
+        id: "d1001-1",
+        title: "How Companies Keep Customers Coming Back",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Winning a new customer is exciting for any business. But experienced companies know a quieter truth: keeping an old customer is often far more valuable than finding a new one. A loyal customer who returns again and again, and who tells friends, can be worth more than many one-time buyers.\n\nWhy is this so? Finding new customers is expensive. A company must spend money on advertising and offers to attract strangers. A happy existing customer, however, already knows and trusts the company. They come back on their own, cost little to keep, and often spend more over time.\n\nSo how do companies build this loyalty? The foundation is always a good product and honest service. No trick can keep customers who feel cheated or disappointed. Beyond that, businesses use many methods. Some offer reward programs, giving points or discounts to people who return. Others remember their customers' names and preferences, making each visit feel personal. Quick, kind help when something goes wrong can turn an angry customer into a devoted one.\n\nThere is a danger, though. Loyalty must be earned, not assumed. A company that takes its regular customers for granted, or treats new customers better than old ones, can lose the very trust it worked to build.\n\nIn the end, customer loyalty is a relationship, much like a friendship. It grows slowly, through many small moments of care and respect, and like any relationship, it must be nurtured to last.",
+        summaryJa: "新しい客を得るのはどの事業にもわくわくする。だが経験ある企業は静かな真実を知っている。古い客を保つことは、新しい客を見つけるよりずっと価値があることが多い。何度も戻り、友人に伝える忠実な客は、多くの一度きりの買い手より価値がありうる。なぜか。新しい客を見つけるのは高くつく。見知らぬ人を引きつけるため広告や特典にお金を使わねばならない。だが満足した既存の客は、すでに会社を知り信頼している。自ら戻り、保つ費用は少なく、時とともに多く使うことが多い。ではどう忠誠を築くのか。土台は常に良い製品と誠実なサービスだ。だまされたり失望したと感じる客は、どんな策でも保てない。その上で企業は多くの方法を使う。戻る人に点数や割引を与える報酬制度もある。客の名や好みを覚え、各訪問を個人的に感じさせる店もある。問題が起きた時の素早く親切な対応は、怒った客を熱心な客に変えうる。だが危険もある。忠誠は得るもので、当然と思ってはならない。常連を軽んじたり、新規客を既存客より優遇する会社は、築いた信頼そのものを失いうる。客の忠誠は友情のような関係だ。多くの小さな心配りと敬意の瞬間を通じてゆっくり育ち、どんな関係とも同じく、続くには育まねばならない。",
+        quiz: [
+          { q: "Why is keeping an old customer often more valuable than finding a new one?", options: ["Loyal customers return on their own, cost little to keep, and often spend more", "Old customers never buy anything", "New customers are always free to find"], answer: 0 },
+          { q: "What is the foundation of customer loyalty?", options: ["A good product and honest service", "Tricks and false promises", "Ignoring customers"], answer: 0 },
+          { q: "What danger does the passage warn about?", options: ["Taking regular customers for granted can lose the trust you built", "Being too kind to customers", "Making products too good"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1001-2",
+        title: "Data Centers in Space?",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "The buildings that power our digital world, called data centers, are hungry machines. They use enormous amounts of electricity to run their computers and even more to keep them cool. As our use of computing grows, so does this hunger. Now, some companies are exploring a bold and surprising idea: what if we put data centers in space?\n\nAt first this sounds like science fiction, but there are real reasons behind it. In orbit high above the Earth, sunlight is strong and almost never blocked by clouds or night. A data center there could be powered by huge solar panels, drawing clean energy directly from the sun, around the clock. Space is also extremely cold, which might help with the hard problem of cooling the computers.\n\nOf course, the challenges are enormous. Launching heavy equipment into space is very expensive. Repairing a broken machine in orbit is far harder than sending a worker to a building on Earth. And the computers must survive harsh radiation and the dangers of space.\n\nFor now, companies are testing small steps, such as putting a few powerful chips on a satellite to see how they perform. A full data center in space is still a distant dream.\n\nYet the idea shows how far people will reach to meet the growing need for computing power, while trying to protect the planet. The answer to an earthly problem may, one day, be found far above our heads.",
+        summaryJa: "デジタル世界を支える建物、データセンターは飢えた機械だ。コンピューターを動かすのに膨大な電力を使い、冷やすのにさらに多く使う。計算の利用が増えるほど、この飢えも増す。今、一部の企業は大胆で意外な考えを探っている。データセンターを宇宙に置いたらどうか、と。最初はSFに聞こえるが、裏には本当の理由がある。地球のはるか上の軌道では、日光は強く、雲や夜にほとんど遮られない。そこのデータセンターは巨大な太陽光パネルで動き、太陽から直接、昼夜を問わず清潔なエネルギーを得られる。宇宙は極めて冷たくもあり、コンピューター冷却という難問を助けるかもしれない。もちろん課題は甚大だ。重い機器を宇宙へ打ち上げるのは非常に高価だ。軌道で壊れた機械を直すのは、地上の建物に作業員を送るよりはるかに難しい。コンピューターは厳しい放射線や宇宙の危険に耐えねばならない。今のところ企業は小さな一歩を試している。いくつかの強力なチップを衛星に載せ、どう働くか見るなどだ。宇宙の本格的なデータセンターはまだ遠い夢だ。だがこの考えは、地球を守ろうとしつつ、増える計算力の需要に応えるため人がどれほど遠くへ手を伸ばすかを示す。地上の問題の答えは、いつか頭上はるかに見つかるかもしれない。",
+        quiz: [
+          { q: "Why are data centers called 'hungry machines'?", options: ["They use enormous electricity to run and cool their computers", "They eat food", "They never use power"], answer: 0 },
+          { q: "What is one reason to put a data center in space?", options: ["Strong, almost constant sunlight could power it with clean solar energy", "There is no sunlight in space", "Space is very warm"], answer: 0 },
+          { q: "What is one big challenge of the idea?", options: ["Launching heavy equipment is expensive and repairs in orbit are very hard", "It is cheap and easy", "There are no challenges"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1001-3",
+        title: "Why Reliable News Matters",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Every day, we are flooded with information. News reaches us from televisions, websites, and the phones in our pockets, at all hours. With so much available, one question grows more important than ever: how do we know what is true?\n\nReliable news — information that is carefully checked and honestly reported — is one of the quiet foundations of a healthy society. When people have accurate facts, they can make good decisions, whether about their health, their money, or their leaders. Good journalists work hard to gather facts, check them with several sources, and correct mistakes. This careful work helps keep the public informed and the powerful honest.\n\nBut today, false or misleading information spreads easily and quickly. A dramatic but untrue story can travel around the world before the truth catches up. Some false news is spread by accident; some is created on purpose to trick or divide people. Modern tools can even make fake images and videos look real.\n\nSo how can a person find reliable news? A few simple habits help. Check where a story comes from, and whether trusted sources report the same thing. Be careful of news designed to make you very angry or afraid, as strong emotions can cloud judgment. And remember that a real story can be corrected, while a lie often cannot.\n\nIn a world full of noise, the ability to find and value honest information is a vital skill — one that helps protect both individuals and the societies they share.",
+        summaryJa: "毎日、私たちは情報であふれている。ニュースはテレビやウェブサイト、ポケットの電話から、いつでも届く。これほど多くが手に入る中、一つの問いがかつてなく重要になる。何が真実かをどう知るのか。信頼できるニュース——入念に確認され正直に報じられた情報——は、健全な社会の静かな土台の一つだ。正確な事実があれば、人は健康やお金、指導者について良い判断ができる。良い記者は懸命に事実を集め、複数の情報源で確認し、誤りを正す。この丁寧な仕事が、市民を知らせ、権力者を正直に保つのを助ける。だが今日、誤ったり誤解を招く情報はたやすく速く広がる。劇的だが真実でない話が、真実が追いつく前に世界を巡りうる。偶然広がる偽ニュースもあれば、人をだましたり分断するため意図的に作られるものもある。現代の道具は偽の画像や動画を本物らしく見せることさえできる。では信頼できるニュースをどう見つけるか。いくつかの簡単な習慣が役立つ。話の出所を確かめ、信頼できる情報源が同じことを報じているか見る。強く怒らせたり怖がらせるよう作られたニュースに注意する。強い感情は判断を曇らせうる。本当の話は訂正できるが、嘘はしばしばできない。雑音に満ちた世界で、正直な情報を見つけ重んじる力は不可欠な技能だ。個人と、共有する社会の両方を守る助けになる。",
+        quiz: [
+          { q: "Why is reliable news a foundation of a healthy society?", options: ["Accurate facts let people make good decisions and keep the powerful honest", "It has no effect on society", "It only entertains"], answer: 0 },
+          { q: "Why does false information spread so easily today?", options: ["A dramatic but untrue story can travel fast, and tools can fake images and videos", "Because everyone checks everything", "Because lies move slowly"], answer: 0 },
+          { q: "What is one habit that helps you find reliable news?", options: ["Check the source and whether trusted sources report the same thing", "Believe whatever makes you angriest", "Never check anything"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1001-4",
+        title: "Daruma: Japan's Dolls of Determination",
+        level: "★★☆",
+        genre: "日本",
+        text: "In homes and shops across Japan, you may notice a curious round doll, usually bright red, with a serious face and two large white circles where the eyes should be. This is a daruma, a traditional doll that stands for good luck, patience, and the power of not giving up.\n\nThe daruma has a clever design. It is round and weighted at the bottom, so that if you push it over, it rights itself and stands up again. This has given it a famous saying: \"fall down seven times, stand up eight.\" The doll is a gentle reminder that no matter how often we fail, we can always rise and try again.\n\nThe most interesting custom involves the doll's blank eyes. When a person sets an important goal — passing an exam, starting a business, or any heartfelt wish — they paint in one eye. The one-eyed daruma then sits where it can be seen, as a daily reminder of the goal. When the goal is finally reached, the person joyfully paints in the second eye, completing the doll.\n\nDaruma are often bought at the New Year and at temples, and old ones are sometimes returned to be respectfully burned, making way for new hopes.\n\nMore than a toy, the daruma carries a warm and powerful message. Set your goal, work with patience, and never give up. Keep rising, and one day you will fill in that second eye.",
+        summaryJa: "日本の家や店のあちこちで、不思議な丸い人形に気づくかもしれない。たいてい鮮やかな赤で、真剣な顔をし、目のあるべき所に二つの大きな白い円がある。これがだるま、幸運、忍耐、諦めない力を表す伝統的な人形だ。だるまは巧みな作りだ。丸く底が重いので、倒しても起き上がって再び立つ。ここから有名な言葉が生まれた。「七転び八起き」。この人形は、何度失敗しても、いつでも立ち上がり再び挑めると優しく思い出させる。最も興味深い習慣は人形の空白の目に関わる。人が重要な目標——試験の合格、起業、心からの願い——を定めると、片方の目を描き入れる。片目のだるまは見える所に置かれ、目標を毎日思い出させる。目標がついに達成されると、喜んでもう一方の目を描き入れ、人形を完成させる。だるまは正月や寺でよく買われ、古いものは敬意をもって焼かれ、新しい希望に道を譲ることもある。だるまは玩具以上に、温かく力強いメッセージを運ぶ。目標を定め、忍耐強く取り組み、決して諦めるな。立ち上がり続ければ、いつかあの二つ目の目を描き入れられる。",
+        quiz: [
+          { q: "What does a daruma doll stand for?", options: ["Good luck, patience, and the power of not giving up", "Laziness", "Bad luck"], answer: 0 },
+          { q: "What famous saying is linked to the daruma's design?", options: ["'Fall down seven times, stand up eight'", "'Sleep all day'", "'Never try anything'"], answer: 0 },
+          { q: "What is the custom with the daruma's eyes?", options: ["Paint one eye when setting a goal, and the second when the goal is reached", "Paint both eyes and throw it away", "Never paint the eyes"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1001-5",
+        title: "Why We Have Two Eyes",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Have you ever wondered why we have two eyes instead of one? After all, each eye seems to see the same scene. But having two eyes gives us a remarkable ability that a single eye could not: the power to see the world in three dimensions, and to judge distance.\n\nThe secret is that your two eyes do not see exactly the same thing. Because they sit a few centimeters apart, each eye views the world from a slightly different angle. You can prove this easily: hold up one finger, and look at it with only your left eye, then only your right. The finger seems to jump from side to side.\n\nYour brain takes these two slightly different pictures and combines them into one. From the small differences between them, it cleverly works out how far away things are. This is why, with both eyes open, you can quickly judge whether a ball is near or far, or reach out and catch it.\n\nThis ability is called depth perception, and it is very useful. It helps us pour water into a cup, walk down stairs, drive a car, and avoid bumping into things. Animals that hunt, like eagles and cats, usually have both eyes facing forward for exactly this reason.\n\nSo two eyes are not just a spare in case one fails. Together, they turn two flat images into a rich, three-dimensional world — a quiet piece of teamwork happening inside your head every moment you look around.",
+        summaryJa: "なぜ私たちは目が一つでなく二つあるのか、考えたことはあるだろうか。結局、どちらの目も同じ光景を見ているように思える。だが二つの目は、一つの目にはできない驚くべき能力を与える。世界を三次元で見て、距離を判断する力だ。秘密は、二つの目が全く同じものを見ていないことだ。数センチ離れているので、各目はわずかに違う角度から世界を見る。簡単に確かめられる。指を一本立て、左目だけで、次に右目だけで見る。指が左右に跳ぶように見える。脳はこの少し違う二つの絵を一つに合わせる。その小さな違いから、物がどれだけ遠いかを巧みに割り出す。だから両目を開けると、ボールが近いか遠いかを素早く判断でき、手を伸ばして捕れる。この能力を奥行き知覚といい、とても役立つ。コップに水を注ぎ、階段を下り、車を運転し、物にぶつからないようにするのを助ける。ワシや猫など狩りをする動物は、まさにこの理由で両目が前を向いていることが多い。だから二つの目は、一つが故障した時の予備ではない。二つ合わさって、二枚の平らな画像を豊かな三次元の世界に変える。見回すたびに頭の中で起きる、静かな共同作業だ。",
+        quiz: [
+          { q: "What remarkable ability do two eyes give us?", options: ["Seeing in three dimensions and judging distance", "Seeing in the dark", "Reading minds"], answer: 0 },
+          { q: "Why do the two eyes not see exactly the same thing?", options: ["They sit a few centimeters apart, viewing the world from slightly different angles", "One eye is always closed", "They look in opposite directions"], answer: 0 },
+          { q: "What is 'depth perception' useful for?", options: ["Pouring water, walking down stairs, driving, and catching a ball", "Nothing at all", "Only for sleeping"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-09-30",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is photosynthesis?", options: ["A plant's ability to make food from light", "A way plants eat meals like animals", "A kind of animal"], answer: 0 },
           { q: "What does a plant combine to make sugar?", options: ["Water from the soil and carbon dioxide from the air, using energy from sunlight", "Only rocks", "Plastic and metal"], answer: 0 },
           { q: "What helpful thing do plants release as they make food?", options: ["Oxygen, which animals and people need to breathe", "Poison gas", "Nothing at all"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-24",
-    passages: [
-      {
-        id: "d0924-1",
-        title: "Why Small Businesses Matter",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When we think of business, we often picture huge, famous companies. But most businesses in the world are small: the corner bakery, the family restaurant, the local repair shop, the one-person design studio. Though each is tiny compared to a giant firm, together small businesses form the backbone of almost every economy.\n\nTheir importance is easy to overlook but very real. Small businesses create a large share of all jobs. They often hire people from the local area and keep money circulating within the community. When you buy from a nearby shop, more of your money tends to stay close to home.\n\nSmall businesses also bring variety and character. A street lined with unique local shops feels different from one filled only with identical chain stores. Many big, world-changing companies began as tiny startups in a garage or a spare room, so today's small business may be tomorrow's giant.\n\nRunning a small business is hard, however. Owners often work long hours and must handle everything themselves, from serving customers to keeping accounts. They can struggle to compete with the low prices of large companies.\n\nThat is why communities and governments sometimes support them, through fair rules, advice, or small loans. And customers help too, simply by choosing to shop locally.\n\nSmall businesses remind us that an economy is not only about the biggest players. It is also built from countless small dreams, each one making its own quiet contribution.",
-        summaryJa: "ビジネスと聞くと、巨大で有名な企業を思い浮かべがちだ。だが世界の事業の多くは小さい。街角のパン屋、家族経営の食堂、地元の修理店、一人のデザイン工房。巨大企業に比べれば小さくても、合わせれば小規模事業はほぼすべての経済の背骨をなす。その重要さは見落としやすいが極めて現実的だ。小規模事業は全雇用の大きな割合を生む。しばしば地元の人を雇い、地域内でお金を循環させる。近所の店で買うと、お金の多くが地元に留まりやすい。小規模事業は多様性と個性ももたらす。個性的な地元の店が並ぶ通りは、同じチェーン店だけの通りとは違って感じられる。世界を変えた大企業の多くも、ガレージや空き部屋の小さなスタートアップから始まった。今日の小さな事業が明日の巨人かもしれない。だが小規模事業の経営は大変だ。経営者は長時間働き、接客から経理まで自分ですべてをこなさねばならない。大企業の安さと競うのに苦労しうる。だから地域や政府は、公正な規則や助言、少額融資で支えることがある。客も、地元で買うと選ぶだけで助けになる。小規模事業は、経済が最大の担い手だけの話ではないと思い出させる。無数の小さな夢からも築かれ、それぞれが静かに貢献している。",
-        quiz: [
-          { q: "Why do small businesses matter to an economy?", options: ["Together they create a large share of jobs and keep money in the community", "They create no jobs", "They only harm the economy"], answer: 0 },
-          { q: "What do small businesses bring besides jobs?", options: ["Variety and character to a place", "Only higher prices", "Fewer choices"], answer: 0 },
-          { q: "Why is running a small business hard?", options: ["Owners work long hours, do everything, and struggle to match big firms' low prices", "It is always easy and free", "There is nothing to do"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0924-2",
-        title: "Technology You Can Wear",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "For most of history, our tools sat in our hands or on our desks. Today, a new kind of technology is moving onto our bodies. Watches that track our steps, glasses that show information, and rings that measure our sleep are all part of a growing field called wearable technology.\n\nThe idea is simple: instead of pulling a device out of your pocket, you wear it, so it is always with you and can quietly help throughout the day. A smartwatch can show a message, count your heartbeats, or remind you to stand up. Some glasses can give directions or translate signs as you look at them. These devices aim to give useful information without demanding your full attention.\n\nWearables are especially promising for health. Because they sit on the body all day, they can gently track things like heart rate, activity, and sleep. This can help people notice problems early and build healthier habits. Doctors are exploring how such data might help patients too.\n\nBut there are concerns. A device that is always on the body can collect very personal information, so protecting that data is essential. There is also the worry of being distracted, or too connected, all the time.\n\nWearable technology is still developing, and not every gadget will succeed. Yet the direction is clear: our tools are becoming smaller, closer, and more personal — quietly woven into the fabric of daily life.",
-        summaryJa: "歴史の大半、道具は手の中や机の上にあった。今、新しい種類の技術が私たちの体へ移りつつある。歩数を測る時計、情報を映す眼鏡、睡眠を測る指輪。すべて、ウェアラブル技術という成長分野の一部だ。考えは単純だ。ポケットから機器を取り出す代わりに身につけ、常に共にあって一日中静かに助ける。スマートウォッチはメッセージを表示し、心拍を数え、立ち上がるよう促す。眼鏡は見た標識の道案内や翻訳をするものもある。これらは全注意を求めず有用な情報を与えることを目指す。ウェアラブルは特に健康で有望だ。一日中体にあるので、心拍や活動、睡眠を優しく記録できる。問題に早く気づき、より健康な習慣を築く助けになる。医師もこのデータが患者を助けうるか探っている。だが懸念もある。常に体にある機器は極めて個人的な情報を集めうるので、その保護が不可欠だ。常に気が散る、あるいはつながりすぎる心配もある。ウェアラブル技術はまだ発展途上で、すべての機器が成功するわけではない。だが方向は明確だ。道具はより小さく、近く、個人的になり、日常の織物に静かに織り込まれていく。",
-        quiz: [
-          { q: "What is wearable technology?", options: ["Devices you wear on your body, like watches, glasses, and rings", "Only desktop computers", "Tools kept in a drawer"], answer: 0 },
-          { q: "Why are wearables especially promising for health?", options: ["They sit on the body all day and can track heart rate, activity, and sleep", "They cannot measure anything", "They only tell the time"], answer: 0 },
-          { q: "What is one concern about wearables?", options: ["They can collect very personal data, so protecting it is essential", "They are too large to wear", "They never turn on"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0924-3",
-        title: "Protecting Endangered Animals",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Across the world, many kinds of animals are in danger of disappearing forever. Tigers, elephants, certain whales, and countless lesser-known creatures have grown rare. When the last member of a species dies, that animal is gone for all time — a loss that can never be undone. Protecting endangered animals has become a shared goal for people everywhere.\n\nWhy are so many animals in trouble? The reasons are mostly human. As we clear forests, build cities, and change the land, wild animals lose the homes they need. Some are hunted illegally for their skin, horns, or other parts. Pollution and a changing climate add further pressure.\n\nThe loss matters for more than sentimental reasons. Every animal has a role in the web of nature. Bees carry pollen, wolves keep herds healthy, and forests full of life clean our air and water. Remove one creature, and others may suffer in ways that are hard to predict.\n\nAround the world, people are fighting to help. Countries set aside protected parks where animals can live safely. Laws ban the illegal trade in rare species. Scientists study animals to understand what they need, and some carefully raise endangered creatures to release them back into the wild.\n\nSaving these animals takes cooperation across borders, because nature does not stop at any country's line. By protecting endangered species, we protect the rich, living world we are all part of — and we keep it whole for those who come after us.",
-        summaryJa: "世界中で、多くの種類の動物が永遠に消える危機にある。トラ、ゾウ、ある種のクジラ、そして無数のあまり知られない生き物が稀になった。ある種の最後の一匹が死ぬと、その動物は永久に失われる——決して取り戻せない喪失だ。絶滅危惧動物を守ることは、各地の人々の共通の目標になった。なぜ多くの動物が危機にあるのか。理由の多くは人間だ。森を切り、都市を建て、土地を変えるにつれ、野生動物は必要なすみかを失う。皮や角などのために違法に狩られるものもいる。汚染や変わる気候がさらに圧力を加える。この喪失は感傷以上の理由で重要だ。どの動物も自然の網の中で役割を持つ。ハチは花粉を運び、オオカミは群れを健康に保ち、生命に満ちた森は空気と水を浄化する。一つの生き物を取り除けば、他が予測しにくい形で苦しみうる。世界中で人々は助けようと闘っている。動物が安全に暮らせる保護公園を設ける国もある。法は稀少種の違法取引を禁じる。科学者は動物が何を必要とするか研究し、絶滅危惧種を丁寧に育て野生に戻す人もいる。これらの動物を救うには国境を越えた協力が要る。自然はどの国の線でも止まらないからだ。絶滅危惧種を守ることで、私たち皆が属する豊かで生きた世界を守り、後に来る者のために全きまま保つのだ。",
-        quiz: [
-          { q: "Why are so many animals in danger?", options: ["Mostly human reasons: lost homes, illegal hunting, pollution, and a changing climate", "Because there are too few humans", "For no reason at all"], answer: 0 },
-          { q: "Why does losing an animal matter beyond sentiment?", options: ["Every animal has a role in nature, and removing one can harm others", "It never affects anything", "Only large animals matter"], answer: 0 },
-          { q: "Why does saving animals need cooperation across borders?", options: ["Nature does not stop at any country's line", "Because animals carry passports", "Because only one country has animals"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0924-4",
-        title: "Wagashi: Japan's Traditional Sweets",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japanese traditional sweets, called \"wagashi,\" are small works of art as much as they are food. Often served with green tea, they are made to delight the eyes as well as the tongue. A single wagashi may be shaped like a cherry blossom, a maple leaf, or a drop of dew, capturing the beauty of the season in a bite-sized treat.\n\nWagashi are usually made from simple, natural ingredients: rice, sweet bean paste, sugar, and fruit. Unlike many Western desserts, they are often not very sweet, and they use little or no butter or cream. This gentle taste pairs perfectly with the slightly bitter flavor of green tea.\n\nOne of the most special things about wagashi is their close link to the seasons. A skilled maker changes the shapes, colors, and names of the sweets throughout the year, so a wagashi eaten in spring looks and feels different from one eaten in autumn. Enjoying them is a way of tasting the passing year.\n\nMaking fine wagashi takes years of training. By hand, an artisan shapes soft dough into delicate flowers and leaves, working with patience and care. The finest pieces are almost too beautiful to eat.\n\nWagashi show a deep idea in Japanese culture: that even a simple sweet can hold beauty, season, and meaning. To eat one slowly, with a cup of tea, is to enjoy a small, quiet moment of art in everyday life.",
-        summaryJa: "「和菓子」と呼ばれる日本の伝統的なお菓子は、食べ物であると同時に小さな芸術作品だ。しばしば緑茶とともに供され、舌だけでなく目も楽しませるよう作られる。一つの和菓子が桜や紅葉、露の一滴の形をとり、季節の美しさを一口大の菓子に捉える。和菓子はふつう、米、あんこ、砂糖、果物という簡素で自然な材料から作られる。多くの西洋のデザートと違い、あまり甘くないことが多く、バターやクリームはほとんど使わない。この穏やかな味が、緑茶のやや苦い風味と完璧に合う。和菓子の最も特別な点の一つは、季節との密接なつながりだ。熟練の作り手は一年を通じて菓子の形、色、名を変えるので、春に食べる和菓子は秋のものと見た目も感じも違う。楽しむことは移ろう一年を味わうことだ。上質な和菓子作りには何年もの修練が要る。職人は手で柔らかい生地を繊細な花や葉に形づくり、忍耐と心配りで働く。最上のものは食べるには美しすぎるほどだ。和菓子は日本文化の深い考えを示す。簡素な菓子さえ、美と季節と意味を宿しうる。一つをお茶とともにゆっくり食べることは、日常の中の小さく静かな芸術の瞬間を楽しむことだ。",
-        quiz: [
-          { q: "What are wagashi?", options: ["Japanese traditional sweets, made to delight the eyes as well as the tongue", "A kind of hot soup", "A type of tea"], answer: 0 },
-          { q: "How do wagashi taste compared with many Western desserts?", options: ["Often not very sweet, using little or no butter or cream", "Much sweeter and full of cream", "Very salty"], answer: 0 },
-          { q: "What is special about wagashi and the seasons?", options: ["Their shapes, colors, and names change through the year", "They never change", "They can only be eaten in winter"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0924-5",
-        title: "Why Birds Migrate",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Each autumn, in many parts of the world, flocks of birds gather and fly away, sometimes traveling thousands of kilometers to warmer lands. In spring, they return. This great journey is called migration, and it is one of the most amazing feats in all of nature.\n\nWhy do birds take such a long and dangerous trip? The main reason is food and weather. As winter approaches, cold settles in and food becomes scarce. Insects vanish, and plants stop growing. Rather than starve or freeze, many birds fly to places where the weather is mild and food is plentiful. When spring returns and their northern homes bloom again, they come back to raise their young.\n\nHow birds find their way is a wonder in itself. Over such vast distances, with no maps or signs, they still reach the same regions year after year. Scientists believe birds use several clues: the position of the sun and stars, familiar landmarks like rivers and coasts, and even the Earth's magnetic field, which they seem able to sense.\n\nMigration is not easy. Birds must store energy for the journey, face storms and predators, and cross seas and mountains. Many do not survive. Those that do show incredible strength and instinct.\n\nBy protecting the places where birds rest and feed along the way, people can help these travelers complete their journeys. Migration reminds us that the natural world is deeply connected, across seasons and across the whole planet.",
-        summaryJa: "毎秋、世界の多くの地域で、鳥の群れが集まり飛び去る。時に何千キロも越え、より暖かい土地へ向かう。春には戻る。この大きな旅は渡りと呼ばれ、自然界で最も驚くべき偉業の一つだ。なぜ鳥はこれほど長く危険な旅をするのか。主な理由は食べ物と天気だ。冬が近づくと寒さが定着し食べ物が乏しくなる。昆虫は消え、植物は育たなくなる。飢えたり凍えたりする代わりに、多くの鳥は天気が穏やかで食べ物が豊富な場所へ飛ぶ。春が戻り北のすみかが再び花咲くと、雛を育てに戻ってくる。鳥がどう道を見つけるかも驚異だ。地図も標識もない広大な距離を、それでも年ごとに同じ地域へ着く。科学者は鳥がいくつかの手がかりを使うと考える。太陽や星の位置、川や海岸などなじみの目印、そして感じ取れるらしい地球の磁場だ。渡りは容易ではない。鳥は旅のためにエネルギーを蓄え、嵐や捕食者に直面し、海や山を越えねばならない。多くは生き延びない。生き延びる鳥は驚くべき力と本能を示す。途中で鳥が休み餌をとる場所を守ることで、人はこの旅人が旅を終える助けができる。渡りは、自然界が季節を越え地球全体で深くつながっていると思い出させる。",
-        quiz: [
-          { q: "Why do birds migrate?", options: ["Mainly for food and weather — they fly to milder places when winter brings cold and scarce food", "Because they dislike other birds", "For no reason"], answer: 0 },
-          { q: "How do birds find their way over vast distances?", options: ["Using the sun and stars, landmarks, and the Earth's magnetic field", "By reading road signs", "By following cars"], answer: 0 },
-          { q: "How can people help migrating birds?", options: ["By protecting the places where birds rest and feed along the way", "By removing all forests", "By feeding them nothing"], answer: 0 }
         ]
       }
     ]
