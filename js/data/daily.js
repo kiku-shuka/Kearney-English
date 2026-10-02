@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-02",
+    passages: [
+      {
+        id: "d1002-1",
+        title: "Why the Unemployment Rate Matters",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Every month, governments announce an important number: the unemployment rate. News reports treat it as a major event, and markets can rise or fall because of it. But what does this number really mean, and why does it matter so much?\n\nThe unemployment rate measures the share of people who want to work and are looking for a job, but cannot find one. If the rate is low, it usually means jobs are plentiful and the economy is healthy. If the rate is high, it means many people are struggling to find work, a sign that the economy may be weak.\n\nThis single number affects almost everyone. For workers, it hints at how easy or hard it will be to find or keep a job. For businesses, it signals whether customers will have money to spend. Governments and central banks watch it closely, using it to help decide whether to change interest rates or support the economy.\n\nThe number is not perfect, however. It does not count people who have given up looking for work, or those stuck in part-time jobs who want full-time ones. So wise observers look beyond the single figure to the fuller picture.\n\nStill, the unemployment rate remains one of the clearest windows into the health of an economy. Behind the percentage are millions of real people and their hopes for a steady job. That is why, each month, the world pauses to read this quiet but powerful number.",
+        summaryJa: "毎月、政府は重要な数字を発表する。失業率だ。ニュースはこれを大きな出来事として扱い、市場はこれで上下しうる。だがこの数字は本当は何を意味し、なぜそれほど重要なのか。失業率は、働きたくて仕事を探しているのに見つけられない人の割合を測る。率が低ければ、たいてい仕事が豊富で経済が健康なことを意味する。率が高ければ、多くの人が仕事探しに苦労しており、経済が弱いかもしれない兆しだ。この一つの数字はほぼ全員に影響する。働く人には、仕事を見つけ保つのがどれほど易しいか難しいかを示唆する。企業には、客にお金を使う余裕があるかを示す。政府や中央銀行はこれを注視し、金利を変えるか経済を支えるかの判断に使う。だがこの数字は完璧ではない。仕事探しを諦めた人や、フルタイムを望むのにパートにとどまる人は数えない。だから賢い観察者は、一つの数字を越えてより全体像を見る。それでも失業率は、経済の健康をのぞく最も明確な窓の一つだ。パーセントの背後には、何百万もの実在の人々と、安定した仕事への願いがある。だから毎月、世界はこの静かだが力強い数字を読むために立ち止まる。",
+        quiz: [
+          { q: "What does the unemployment rate measure?", options: ["The share of people who want to work and are looking but cannot find a job", "The number of companies in a country", "The price of goods"], answer: 0 },
+          { q: "What does a low unemployment rate usually mean?", options: ["Jobs are plentiful and the economy is likely healthy", "The economy is collapsing", "Nobody wants to work"], answer: 0 },
+          { q: "Why is the number not perfect?", options: ["It misses people who gave up looking or want full-time but work part-time", "It counts everyone perfectly", "It is always wrong"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1002-2",
+        title: "How Batteries Store Energy",
+        level: "★★★",
+        genre: "テクノロジー",
+        text: "Batteries are everywhere in modern life, powering our phones, toys, cars, and countless other devices. We charge them, use them, and charge them again, often without thinking about the clever chemistry inside. So how does a small battery actually store and release energy?\n\nThe secret lies in a chemical reaction. Inside a battery are two different materials, called electrodes, kept apart but connected by a special substance. When the battery is working, a chemical reaction makes tiny particles called electrons want to travel from one electrode to the other. But they cannot pass through the middle directly. Instead, they must flow out through the device — your phone or flashlight — doing useful work along the way, before returning to the battery. That flow of electrons is electricity.\n\nIn a rechargeable battery, this process can be reversed. When you plug it in to charge, electricity is pushed back into the battery, driving the chemical reaction backward and storing energy again, ready for next time.\n\nDifferent batteries use different chemicals, which affects how much energy they hold, how fast they charge, and how long they last. Scientists are always working to make batteries that store more power, charge faster, and are safer and cleaner.\n\nBetter batteries are now one of the most important goals in technology. They are the key to electric cars, to storing energy from the sun and wind, and to a future that relies less on burning fuel. All of it starts with that quiet chemistry in a little box.",
+        summaryJa: "電池は現代生活の至る所にあり、電話や玩具、車、無数の機器を動かす。私たちは充電し、使い、また充電する。中の巧みな化学を考えもせずに。では小さな電池は実際どうエネルギーを蓄え放つのか。秘密は化学反応にある。電池の中には電極という二つの異なる材料があり、離されつつ特別な物質でつながれている。電池が働くとき、化学反応が電子という小さな粒子を一方の電極から他方へ移りたがらせる。だが真ん中を直接通れない。代わりに機器——電話や懐中電灯——を通って流れ出し、道中で有用な仕事をしてから電池に戻る。その電子の流れが電気だ。充電式電池では、この過程を逆にできる。充電のためつなぐと、電気が電池に押し戻され、化学反応を逆向きに進めて再びエネルギーを蓄え、次に備える。電池ごとに使う化学物質が異なり、蓄える量、充電の速さ、持ちに影響する。科学者は常に、より多く蓄え、速く充電し、より安全で清潔な電池を作ろうとしている。より良い電池は今、技術で最も重要な目標の一つだ。電気自動車や、太陽と風からのエネルギーの貯蔵、燃料を燃やすことに頼らない未来の鍵だ。すべては小さな箱の中の静かな化学から始まる。",
+        quiz: [
+          { q: "What makes a battery work?", options: ["A chemical reaction that drives electrons from one electrode to the other", "A tiny fire inside", "A small motor"], answer: 0 },
+          { q: "Why must the electrons flow out through your device?", options: ["They cannot pass through the middle directly, so they do useful work on the way", "Because the device is empty", "They never move at all"], answer: 0 },
+          { q: "What happens in a rechargeable battery when you charge it?", options: ["Electricity is pushed back in, reversing the reaction and storing energy again", "The battery melts", "Nothing happens"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1002-3",
+        title: "One World, One Measure",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Imagine trying to build a bridge if every worker used a different idea of how long a meter is, or trying to sell food if a kilogram meant something different in each shop. Trade, science, and travel would fall into chaos. To prevent this, the world has agreed on shared units of measurement — a quiet agreement that holds much of modern life together.\n\nMost countries use a system called the metric system, built on simple, shared units: the meter for length, the kilogram for weight, the second for time, and a few others. Because these units mean exactly the same thing everywhere, a part made in one country will fit a machine built in another, and a scientist's result can be checked by others across the globe.\n\nAgreeing on measurement is harder than it sounds. For a long time, units were based on physical objects, like a special metal bar kept to define the meter. But such objects can change slightly over time. So scientists have now redefined the basic units using unchanging facts of nature, making them stable forever and available to anyone, anywhere.\n\nA few countries still use older systems for daily life, which can cause confusion, and even costly mistakes, when working across borders.\n\nShared measurement is one of humanity's great quiet achievements. It lets people who have never met, speaking different languages, build, trade, and discover together — all because they agreed, long ago, on exactly how much a meter really is.",
+        summaryJa: "もし作業員ごとに1メートルの長さの考えが違えば橋を建てるのを、店ごとに1キログラムの意味が違えば食べ物を売るのを想像してほしい。貿易も科学も旅も混乱に陥る。これを防ぐため、世界は共有の測定単位に合意した——現代生活の多くを支える静かな合意だ。多くの国はメートル法という仕組みを使い、簡素で共有された単位に基づく。長さのメートル、重さのキログラム、時間の秒など。これらの単位はどこでも全く同じ意味なので、ある国で作った部品が別の国で作った機械に合い、科学者の結果を世界中の他者が確認できる。測定への合意は聞こえるより難しい。長年、単位はメートルを定義する特別な金属棒のような物体に基づいた。だがそうした物体は時とともにわずかに変わりうる。そこで科学者は今、基本単位を変わらない自然の事実を使って再定義し、永遠に安定し、誰でもどこでも使えるようにした。いくつかの国は日常で古い仕組みをなお使い、国境を越えて作業するとき混乱や、時に高くつく誤りを生みうる。共有の測定は人類の偉大な静かな達成の一つだ。会ったこともなく違う言語を話す人々が、共に建て、取引し、発見できる——はるか昔に、1メートルが正確にどれだけかに合意したからだ。",
+        quiz: [
+          { q: "Why did the world agree on shared units of measurement?", options: ["Without them, trade, science, and travel would fall into chaos", "To make life more confusing", "Because units do not matter"], answer: 0 },
+          { q: "What is the metric system built on?", options: ["Simple shared units like the meter, kilogram, and second", "A different unit in every shop", "No units at all"], answer: 0 },
+          { q: "How have scientists made the basic units stable forever?", options: ["By redefining them using unchanging facts of nature instead of physical objects", "By hiding the metal bar", "By changing them every year"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1002-4",
+        title: "The Shinkansen: Japan's Bullet Train",
+        level: "★★☆",
+        genre: "日本",
+        text: "Gliding across Japan at speeds over 300 kilometers per hour, the Shinkansen, often called the bullet train, is one of the country's proudest achievements. With its long, pointed nose and smooth white body, it looks as fast as it is. Since it first began running decades ago, it has changed the way people travel in Japan.\n\nThe Shinkansen is famous for more than its speed. It is also remarkably safe and punctual. In its long history, it has carried billions of passengers with an outstanding safety record. The trains are so reliable that the average delay is measured in seconds, not minutes. A train that is even slightly late is considered a serious matter.\n\nHow is this possible? The answer is careful engineering and discipline. The tracks are specially built and smooth, the trains are constantly checked, and the whole system is run with great precision. Even the cleaning of the trains between trips is done with impressive speed and care.\n\nThe bullet train also changed life and business. Cities far apart became close, letting people live in one place and work in another, or do business across the country in a single day.\n\nToday, many countries have built their own high-speed trains, but the Shinkansen remains a symbol of what careful planning can achieve. It shows a very Japanese idea: that speed, safety, and order can travel together — a smooth, swift arrow connecting the whole nation.",
+        summaryJa: "時速300キロを超える速さで日本を駆け抜ける新幹線、しばしば弾丸列車と呼ばれるこれは、国の最も誇る達成の一つだ。長く尖った鼻と滑らかな白い車体で、速さそのままに見える。数十年前に初めて走って以来、日本の旅の仕方を変えた。新幹線は速さ以上のことで有名だ。驚くほど安全で時間に正確でもある。長い歴史で、卓越した安全記録とともに何十億もの乗客を運んできた。列車はとても信頼でき、平均遅延は分でなく秒で測られる。少しでも遅れる列車は重大事とみなされる。どうしてか。答えは入念な工学と規律だ。線路は特別に造られ滑らかで、列車は絶えず点検され、仕組み全体が高い精度で運行される。運行間の車内清掃さえ、見事な速さと心配りで行われる。弾丸列車は暮らしと事業も変えた。遠く離れた都市が近くなり、ある場所に住み別の場所で働いたり、一日で国中を商売したりできるようになった。今や多くの国が独自の高速列車を造ったが、新幹線は入念な計画が成し得るものの象徴であり続ける。速さ、安全、秩序が共に進めるという実に日本的な発想を示す。国全体をつなぐ、滑らかで速い矢だ。",
+        quiz: [
+          { q: "What is the Shinkansen famous for, besides its speed?", options: ["Being remarkably safe and punctual", "Being very slow", "Having no passengers"], answer: 0 },
+          { q: "How late is the average Shinkansen?", options: ["Its average delay is measured in seconds, not minutes", "Several hours", "A full day"], answer: 0 },
+          { q: "How did the bullet train change life and business?", options: ["Far-apart cities became close, so people could live and work in different places", "It made travel impossible", "It stopped all business"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1002-5",
+        title: "How We Taste Food",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Biting into a juicy orange or a piece of chocolate brings a burst of flavor. We enjoy taste every day, but few of us think about how it actually works. The sense of taste is a clever partnership between the tongue, the nose, and the brain.\n\nThe main work begins on your tongue, which is covered with thousands of tiny bumps. Hidden in these bumps are even smaller structures called taste buds. When food dissolves in your mouth, the taste buds detect it and send signals to the brain. Scientists have found that taste buds mainly sense five basic tastes: sweet, sour, salty, bitter, and a savory taste called umami, found in foods like soup and cheese.\n\nBut here is a surprise: much of what we call \"taste\" is really smell. As you chew, tiny scents travel up to your nose from inside your mouth. The brain combines these smells with the signals from your tongue to create the rich flavors you enjoy. This is why food tastes dull and flat when you have a cold and your nose is blocked.\n\nTaste is not just for pleasure. Long ago, it helped keep our ancestors safe. A sweet taste signaled energy-rich food, while a bitter taste warned of something that might be harmful.\n\nSo the next time you enjoy a delicious meal, remember the quiet teamwork behind it. Your tongue, your nose, and your brain are working together to turn simple food into a world of flavor.",
+        summaryJa: "みずみずしいオレンジや一片のチョコレートをかじると、風味がはじける。私たちは毎日味を楽しむが、それが実際どう働くか考える人は少ない。味覚は舌と鼻と脳の巧みな協力だ。主な働きは舌で始まる。舌は何千もの小さな突起で覆われている。この突起に隠れて、味蕾というさらに小さな構造がある。食べ物が口で溶けると、味蕾がそれを感知し脳に信号を送る。科学者は、味蕾が主に五つの基本の味を感じると発見した。甘味、酸味、塩味、苦味、そしてスープやチーズなどにあるうま味という旨い味だ。だが驚きがある。私たちが「味」と呼ぶものの多くは実は匂いだ。噛むと、小さな香りが口の中から鼻へ上る。脳はこの匂いを舌からの信号と合わせ、楽しむ豊かな風味を作る。だから風邪で鼻が詰まると食べ物の味が鈍く平板になる。味覚は楽しみのためだけではない。昔、祖先を安全に保つのを助けた。甘味はエネルギー豊富な食べ物を示し、苦味は害になりうるものを警告した。次においしい食事を楽しむとき、その背後の静かな共同作業を思い出してほしい。舌と鼻と脳が協力し、簡素な食べ物を風味の世界に変えている。",
+        quiz: [
+          { q: "What are hidden in the tiny bumps on your tongue?", options: ["Taste buds that detect food and send signals to the brain", "Small bones", "Tiny lights"], answer: 0 },
+          { q: "What are the five basic tastes?", options: ["Sweet, sour, salty, bitter, and umami (savory)", "Only sweet and salty", "Hot and cold"], answer: 0 },
+          { q: "Why does food taste dull when you have a cold?", options: ["Much of 'taste' is really smell, and a blocked nose cannot sense it", "Because the tongue disappears", "Because food changes"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-01",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What did people long believe was the reason we yawn?", options: ["That we need more oxygen, though studies have cast doubt on this", "That we are hungry", "That we want to talk"], answer: 0 },
           { q: "What is one interesting modern idea about yawning?", options: ["It may help cool the brain, helping it work better", "It makes the brain hotter", "It has no effect at all"], answer: 0 },
           { q: "What curious fact about yawning does the passage mention?", options: ["It is 'contagious' — seeing or reading about it can make you yawn", "It can only happen once a year", "Animals never yawn"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-25",
-    passages: [
-      {
-        id: "d0925-1",
-        title: "How Supply Chains Bring You Everything",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Pick up almost any object in your home — a phone, a shirt, a cup of coffee — and it has traveled a long, hidden journey to reach you. Behind every product is a supply chain: the whole network of steps that turns raw materials into a finished item and delivers it to your door.\n\nA supply chain can be surprisingly long. A single chocolate bar, for example, may start with cocoa grown on a farm in one country. The beans are dried, shipped, roasted in another country, mixed with sugar and milk, wrapped in packaging made somewhere else, and finally trucked to a shop near you. Dozens of companies and thousands of people may play a part, often without ever meeting.\n\nWhen a supply chain works well, we barely notice it. Shelves are full, prices are steady, and goods arrive on time. But the system is more delicate than it looks. A storm, a strike, or a shortage in one place can slow down the whole chain, leaving shelves empty far away. In recent years, people have seen how quickly such problems can spread.\n\nThis is why businesses work hard to manage their supply chains. They plan for delays, keep backup suppliers, and use computers to track goods across the world.\n\nThe next time something arrives quickly and cheaply, remember the quiet, complex web behind it. A supply chain is one of the great hidden machines of modern life.",
-        summaryJa: "家のほぼどんな物——電話、シャツ、一杯のコーヒー——を手に取っても、それはあなたに届くまで長い隠れた旅をしてきた。どの製品の背後にもサプライチェーンがある。原材料を完成品に変え、玄関まで届ける一連の段階の網だ。サプライチェーンは驚くほど長い。例えば一枚の板チョコは、ある国の農場で育つカカオから始まる。豆は乾かされ、運ばれ、別の国で焙煎され、砂糖や牛乳と混ぜられ、また別の場所で作られた包装に包まれ、最後にあなたの近くの店へトラックで運ばれる。何十もの会社と何千もの人が、しばしば一度も会わずに関わる。サプライチェーンがうまく働くと、私たちはほとんど気づかない。棚は満ち、価格は安定し、品は時間通り届く。だが仕組みは見た目より繊細だ。一箇所の嵐やストライキ、不足が連鎖全体を遅らせ、遠くの棚を空にしうる。近年、人々はこうした問題がいかに速く広がるかを見てきた。だから企業はサプライチェーンの管理に力を注ぐ。遅延に備え、予備の供給元を持ち、コンピューターで世界中の品を追う。次に何かが速く安く届いたら、その背後の静かで複雑な網を思い出してほしい。サプライチェーンは現代生活の偉大な隠れた機械の一つだ。",
-        quiz: [
-          { q: "What is a supply chain?", options: ["The whole network of steps that turns raw materials into a product and delivers it", "A single shop", "A type of money"], answer: 0 },
-          { q: "Why is a supply chain more delicate than it looks?", options: ["A storm, strike, or shortage in one place can slow the whole chain", "It never has any problems", "It is made of glass"], answer: 0 },
-          { q: "How do businesses manage their supply chains?", options: ["They plan for delays, keep backup suppliers, and track goods with computers", "They ignore all problems", "They stop making products"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0925-2",
-        title: "How Electric Cars Work",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "For more than a hundred years, most cars have run on gasoline, burning fuel in an engine to move. Now, a quieter kind of car is becoming common on our roads: the electric car. Instead of burning fuel, it runs on electricity stored in a large battery. But how does it actually work?\n\nAt the heart of an electric car is the battery, a big pack that stores electrical energy, much like a giant version of the battery in your phone. When you drive, this energy flows to an electric motor, which turns the wheels. Electric motors are simple, powerful, and very quiet, which is why an electric car glides along with almost no noise.\n\nTo refuel, you do not visit a gas station. Instead, you plug the car in and let the battery charge, often overnight at home. Charging can take longer than filling a tank, though fast chargers are improving.\n\nElectric cars have real advantages. They produce no exhaust from the car itself, which means cleaner air in cities. They are cheaper to run, since electricity often costs less than fuel, and they have fewer moving parts to break.\n\nThere are challenges too. Batteries are expensive, and drivers need enough places to charge, especially on long trips.\n\nStill, electric cars are spreading fast around the world. As batteries improve and charging becomes easier, this quiet, clean technology may soon become the normal way we drive.",
-        summaryJa: "100年以上、多くの車はガソリンで走り、エンジンで燃料を燃やして動いてきた。今、より静かな種類の車が道で当たり前になりつつある。電気自動車だ。燃料を燃やす代わりに、大きな電池に蓄えた電気で走る。だが実際どう働くのか。電気自動車の心臓は電池、電話の電池の巨大版のように電気エネルギーを蓄える大きなパックだ。運転すると、このエネルギーが電気モーターに流れ、車輪を回す。電気モーターは単純で力強く、とても静かだ。だから電気自動車はほとんど音もなく滑るように進む。給油にはガソリンスタンドへ行かない。代わりに車をつないで電池を充電する。しばしば家で一晩かけて。充電はタンクを満たすより時間がかかりうるが、急速充電器は改良が進む。電気自動車には本当の利点がある。車自体から排気を出さず、都市の空気が清潔になる。電気は燃料より安いことが多く走行費が安く、壊れる可動部品も少ない。課題もある。電池は高価で、特に長旅では十分な充電場所が要る。それでも電気自動車は世界中で急速に広がる。電池が改良され充電が容易になるにつれ、この静かで清潔な技術がやがて普通の運転の仕方になるかもしれない。",
-        quiz: [
-          { q: "What is at the heart of an electric car?", options: ["A large battery that stores electrical energy", "A tank of gasoline", "A wood-burning stove"], answer: 0 },
-          { q: "How do you refuel an electric car?", options: ["You plug it in and let the battery charge", "You visit a gas station", "You add water"], answer: 0 },
-          { q: "What is one advantage of electric cars?", options: ["They produce no exhaust from the car itself, meaning cleaner air", "They make more smoke", "They have more parts to break"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0925-3",
-        title: "Educating Every Child",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Imagine growing up without ever going to school — never learning to read, write, or do basic math. For millions of children around the world, this is still a reality. Making sure that every child, everywhere, can go to school has become one of the great goals shared by nations across the globe.\n\nWhy does it matter so much? Education changes lives. A child who learns to read can find better work, understand their rights, and make wiser choices about health and money. When girls in particular are educated, whole communities grow healthier and more prosperous. Education is one of the most powerful tools we have to reduce poverty.\n\nYet many children still miss out. Some live far from any school. Some are kept home to work or care for family. War, poverty, and lack of teachers all get in the way. For girls, old customs sometimes end their schooling early.\n\nAround the world, people are working to change this. Governments build schools and train teachers. Charities provide books, meals, and safe places to learn. Technology now brings lessons to remote villages through phones and radios.\n\nProgress has been real. Far more children go to school today than a generation ago. But the work is not finished, and recent challenges have slowed it in some places.\n\nEducating every child is not only fair; it is wise. A world where all children can learn is a world with more ideas, more hope, and more chances for everyone.",
-        summaryJa: "一度も学校に行かず育つことを想像してほしい——読み書きも基本の計算も習わずに。世界中の何百万もの子どもにとって、これはなお現実だ。どこの子も皆が学校に行けるようにすることは、世界の国々が共有する大きな目標の一つになった。なぜそれほど重要か。教育は人生を変える。読めるようになった子はより良い仕事を見つけ、自分の権利を理解し、健康やお金についてより賢い選択ができる。特に女子が教育を受けると、地域社会全体がより健康で豊かになる。教育は貧困を減らす最も強力な道具の一つだ。だが多くの子はなお機会を逃す。学校から遠く住む子もいる。働くためや家族の世話で家にとどめられる子もいる。戦争、貧困、教師不足がすべて妨げになる。女子には、古い慣習が早くに就学を終わらせることもある。世界中で人々はこれを変えようとしている。政府は学校を建て教師を養成する。慈善団体は本や食事、安全に学べる場所を提供する。技術は今、電話やラジオで遠い村に授業を届ける。進歩は本物だ。一世代前よりはるかに多くの子が学校に行く。だが仕事は終わっておらず、近年の困難が一部の場所で歩みを遅らせた。すべての子を教育することは公正なだけでなく賢明だ。すべての子が学べる世界は、より多くの発想と希望、そして皆への機会がある世界だ。",
-        quiz: [
-          { q: "Why does education matter so much?", options: ["It changes lives, helping people find work, understand rights, and reduce poverty", "It has no effect on people's lives", "It only helps rich people"], answer: 0 },
-          { q: "Why do many children still miss school?", options: ["Distance, poverty, work at home, war, and a lack of teachers", "Because school is too easy", "Because no schools exist anywhere"], answer: 0 },
-          { q: "How are people working to educate every child?", options: ["Building schools, training teachers, and bringing lessons through phones and radios", "By closing all schools", "By ignoring the problem"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0925-4",
-        title: "Ramen: Japan's Beloved Noodle Dish",
-        level: "★★☆",
-        genre: "日本",
-        text: "On a cold evening in Japan, few things are more comforting than a steaming bowl of ramen. This popular dish is made of wheat noodles served in a hot, flavorful soup, usually topped with things like sliced pork, green onions, seaweed, and a soft-boiled egg. Simple as it sounds, ramen has become one of Japan's most loved foods, enjoyed by people of every age.\n\nInterestingly, ramen came to Japan from China long ago, but over the years the Japanese made it entirely their own. Today, almost every region of Japan has its own style. The soup might be rich and creamy in one area, light and salty in another, or dark and savory somewhere else. Ramen lovers travel across the country just to taste local versions.\n\nMaking great ramen is taken very seriously. A good soup can take many hours, or even a whole day, to prepare, as cooks slowly draw deep flavor from bones, vegetables, and other ingredients. Some famous ramen shops have lines of customers waiting patiently outside.\n\nRamen is also part of everyday life. It is cheap, filling, and quick, making it a favorite meal for busy students and workers. There are tiny shops with just a few seats, and even instant ramen that anyone can make at home in minutes.\n\nFrom humble noodles has grown a rich food culture. A single bowl of ramen holds warmth, craft, and a strong sense of local pride.",
-        summaryJa: "日本の寒い夕べ、湯気の立つラーメンの丼ほど心温まるものは少ない。この人気の料理は、熱く風味豊かなスープに入った小麦の麺で、たいていチャーシューやねぎ、海苔、半熟卵などがのる。単純に聞こえるが、ラーメンは日本で最も愛される食べ物の一つになり、あらゆる年代の人に楽しまれる。興味深いことに、ラーメンは昔中国から日本に来たが、年月をかけて日本人はそれを完全に自分のものにした。今や日本のほぼどの地域にも独自の流儀がある。スープはある地域では濃厚でクリーミー、別では軽く塩気があり、また別では濃く旨みがある。ラーメン好きは地元版を味わうためだけに国中を旅する。優れたラーメン作りはとても真剣に受け止められる。良いスープは何時間、時に丸一日かかる。料理人が骨や野菜などからゆっくり深い風味を引き出すからだ。有名店には外で辛抱強く待つ客の列がある。ラーメンは日常の一部でもある。安く、満腹で、速いので、忙しい学生や働く人の好物だ。数席だけの小さな店もあれば、家で数分で作れるインスタントラーメンもある。素朴な麺から豊かな食文化が育った。一杯のラーメンに、温かさと職人技、そして強い地元の誇りが宿る。",
-        quiz: [
-          { q: "What is ramen?", options: ["Wheat noodles served in a hot, flavorful soup with toppings", "A cold sweet dessert", "A kind of tea"], answer: 0 },
-          { q: "How did ramen become uniquely Japanese?", options: ["It came from China long ago, but Japan made it its own with many regional styles", "It was never changed at all", "It has only one style everywhere"], answer: 0 },
-          { q: "Why is making great ramen taken seriously?", options: ["A good soup can take many hours or a whole day to prepare", "It takes only one second", "No effort is needed"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0925-5",
-        title: "How Plants Make Food from Light",
-        level: "★★★",
-        genre: "科学・カルチャー",
-        text: "Plants seem to live on almost nothing. Rooted in one spot, they never eat a meal as we do, yet they grow from tiny seeds into towering trees. Their secret is one of the most important processes on Earth: photosynthesis, the ability to make food from light.\n\nDeep inside their leaves, plants contain a green substance called chlorophyll. This is what makes leaves green, and it acts like a tiny solar panel. It captures energy from sunlight. Using that energy, the plant combines two simple ingredients — water drawn up from the soil, and a gas called carbon dioxide taken from the air — and turns them into sugar. This sugar is the plant's food, giving it the energy to grow.\n\nThere is a wonderful bonus in this process. As the plant makes its food, it releases oxygen into the air as a kind of waste. That oxygen is exactly what animals and people need to breathe. In a very real sense, plants and animals help keep each other alive.\n\nPhotosynthesis is happening quietly all around us, in every green leaf, blade of grass, and tiny plant in the sea. Together, the world's plants produce most of the oxygen we breathe and form the base of nearly every food chain.\n\nSo the next time you see a green leaf in the sun, remember what it is doing. It is quietly turning light into life — a piece of everyday magic that makes our whole world possible.",
-        summaryJa: "植物はほとんど何もなしに生きているように見える。一箇所に根を張り、私たちのように食事はしないのに、小さな種からそびえる木へと育つ。その秘密は地球で最も重要な過程の一つ、光合成——光から食物を作る能力だ。葉の奥深く、植物はクロロフィルという緑の物質を含む。これが葉を緑にし、小さな太陽電池のように働く。日光からエネルギーを捉えるのだ。そのエネルギーを使い、植物は二つの簡単な材料——土から吸い上げた水と、空気から取り込む二酸化炭素という気体——を合わせ、糖に変える。この糖が植物の食物で、育つエネルギーを与える。この過程には素晴らしいおまけがある。植物は食物を作る間、一種の廃物として酸素を空気中に放つ。その酸素こそ、動物や人が呼吸に必要とするものだ。実に本当の意味で、植物と動物は互いを生かし合っている。光合成は私たちの周りのあらゆる緑の葉、草の刃、海の小さな植物で静かに起きている。合わせて、世界の植物は私たちが呼吸する酸素の大半を作り、ほぼすべての食物連鎖の土台をなす。次に日なたの緑の葉を見たら、それが何をしているか思い出してほしい。静かに光を命に変えている——私たちの世界全体を可能にする、日常の魔法の一片だ。",
-        quiz: [
-          { q: "What is photosynthesis?", options: ["A plant's ability to make food from light", "A way plants eat meals like animals", "A kind of animal"], answer: 0 },
-          { q: "What does a plant combine to make sugar?", options: ["Water from the soil and carbon dioxide from the air, using energy from sunlight", "Only rocks", "Plastic and metal"], answer: 0 },
-          { q: "What helpful thing do plants release as they make food?", options: ["Oxygen, which animals and people need to breathe", "Poison gas", "Nothing at all"], answer: 0 }
         ]
       }
     ]
