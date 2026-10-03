@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-03",
+    passages: [
+      {
+        id: "d1003-1",
+        title: "Could a Four-Day Work Week Work?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "For many years, most people have worked five days a week. But recently, some companies have started testing a new idea: the four-day work week. The plan is simple. Workers come to the office for four days instead of five, but they still receive the same pay. The goal is to give people more time to rest and enjoy life, while keeping the business productive.\n\nCompanies that have tried this report some surprising results. Many workers say they feel less tired and more focused. With an extra day off, they can spend time with family, exercise, or finish personal tasks. As a result, some businesses have found that their staff get the same amount of work done in four days as they used to do in five.\n\nOf course, the idea does not fit every job. In hospitals, shops, and factories, someone must be present every day. For these workplaces, a four-day week is harder to plan. Managers also worry that four long days may feel more stressful than five shorter ones.\n\nStill, interest in the idea keeps growing. Several countries have run large trials, and many companies that joined them decided to continue. Experts say the key is good planning: clear goals, fewer useless meetings, and trust between managers and workers. Whether or not it becomes normal, the four-day week is making people rethink how we balance work and life.",
+        summaryJa: "週4日勤務の実験について。給与を減らさず勤務を4日にすると、社員の集中力が上がり、5日分と同じ仕事を終えられた例もある。ただし病院や店舗など毎日人が必要な職場では導入が難しく、1日の労働が長くなる心配もある。成功の鍵は明確な目標、無駄な会議の削減、上司と部下の信頼だと専門家は指摘する。",
+        quiz: [
+          { q: "What is the main idea of the four-day work week?", options: ["Working four days for the same pay", "Working four days for less pay", "Working more hours each day forever"], answer: 0 },
+          { q: "Why is the idea hard for hospitals and shops?", options: ["They have too many workers", "Someone must be present every day", "They do not need any staff"], answer: 1 },
+          { q: "According to experts, what helps the four-day week succeed?", options: ["More long meetings", "Good planning and trust", "Lower pay for workers"], answer: 1 }
+        ]
+      },
+      {
+        id: "d1003-2",
+        title: "The Little Squares That Store Big Information",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "You have probably seen them everywhere: small black-and-white squares on posters, menus, and product boxes. These are QR codes, and they have become part of daily life. But what exactly are they, and how do they work?\n\nA QR code is a type of barcode. A normal barcode, like the ones on food packages, stores information in a line of thin and thick stripes. A QR code goes further. Because it uses a square pattern, it can hold data in two directions, across and down. This means it can store much more information, such as a website address, a message, or payment details.\n\nWhen you point your phone's camera at a QR code, the camera reads the pattern of black and white dots. Software inside the phone turns that pattern into useful information, often a link to a website. In just a second, you can open a menu, pay for a bus ticket, or join a wireless network.\n\nQR codes were first created in Japan in the 1990s to track car parts in factories. For years, few people outside industry used them. Then smartphones made them easy to scan, and their use grew quickly around the world.\n\nOne reason they are so popular is that they are cheap and simple to make. Anyone can create one for free. However, experts warn that people should be careful. A QR code could lead to a harmful website, so it is wise to check where a code takes you before trusting it.",
+        summaryJa: "QRコードの仕組みについて。通常のバーコードは線で情報を記録するが、QRコードは縦横の四角いパターンでより多くの情報を持てる。スマホのカメラが白黒の点を読み取り、ウェブサイトのリンクなどに変換する。1990年代に日本で自動車部品の管理用に作られ、スマホの普及で世界中に広がった。安く簡単に作れる一方、危険なサイトへ誘導される恐れもあるため注意が必要。",
+        quiz: [
+          { q: "Why can a QR code store more than a normal barcode?", options: ["It uses color", "It stores data in two directions", "It is always bigger"], answer: 1 },
+          { q: "Where and why were QR codes first created?", options: ["In Japan, to track car parts", "In the US, for shopping", "In Europe, for banks"], answer: 0 },
+          { q: "What warning do experts give about QR codes?", options: ["They are too expensive", "They may lead to harmful websites", "They cannot be scanned by phones"], answer: 1 }
+        ]
+      },
+      {
+        id: "d1003-3",
+        title: "Why Countries Trade With Each Other",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "No country can produce everything its people need. Some nations have oil, others grow coffee, and others build cars or computers. Because of these differences, countries trade. International trade means buying and selling goods and services across borders, and it shapes the world economy every day.\n\nThe main reason for trade is simple: countries are good at different things. A nation with a warm climate may grow fruit easily, while a colder country may be better at making machines. When each country focuses on what it does well and trades for the rest, both sides can gain. People get a wider choice of products, often at lower prices.\n\nTrade also connects people. A phone in your pocket may contain metals from one continent, parts made on another, and software written somewhere else. This web of connections can bring countries closer and encourage cooperation.\n\nHowever, trade is not always smooth. Sometimes governments add taxes, called tariffs, on goods from abroad to protect their own companies. Other times, disagreements between countries slow trade down. These problems can raise prices and create tension.\n\nDespite the challenges, most experts agree that trade has helped reduce poverty and spread new ideas around the world. The key question for the future is how to make trade fair, so that both rich and poor nations benefit. As the world becomes more connected, understanding trade helps us understand the news, and the prices in our own shops.",
+        summaryJa: "国どうしが貿易をする理由について。どの国もすべてを自給できず、得意分野が異なるため、各国が得意なものに集中して交換すると双方が得をし、消費者の選択肢も広がる。貿易は国どうしを結びつけるが、関税や対立で滞ることもあり、価格上昇や緊張を生む。それでも貿易は貧困削減や新しい考えの普及に役立ってきたとされ、今後は公平な貿易の実現が課題となる。",
+        quiz: [
+          { q: "Why do countries trade according to the passage?", options: ["They are good at different things", "They all produce the same goods", "They want fewer choices"], answer: 0 },
+          { q: "What is a tariff?", options: ["A free gift to other countries", "A tax on goods from abroad", "A type of product"], answer: 1 },
+          { q: "What do most experts say trade has done?", options: ["Made the world less connected", "Helped reduce poverty and spread ideas", "Stopped all cooperation"], answer: 1 }
+        ]
+      },
+      {
+        id: "d1003-4",
+        title: "Japan's Famous Vending Machines",
+        level: "★★☆",
+        genre: "日本",
+        text: "Walk down almost any street in Japan, and you will soon see a vending machine glowing by the roadside. Japan has one of the highest numbers of vending machines in the world, millions of them, found in cities, small villages, and even on quiet mountain paths. For visitors, they are one of the country's most surprising sights.\n\nMost machines sell drinks, both hot and cold. On a winter morning, you can buy a warm can of tea or coffee; in summer, a cold bottle of water appears in seconds. But drinks are only the beginning. Some machines sell ice cream, hot meals, fresh eggs, umbrellas, or even flowers. Each one is like a tiny shop that never closes.\n\nWhy are there so many? One reason is safety. Japan has a very low crime rate, so machines can stand outside all night without being damaged or robbed. Another reason is space. Shops can be small and rents high, so a machine on the street is a cheap way to sell goods. Japanese people also value speed and convenience, and a machine gives both.\n\nThe machines are also known for being clean and reliable. They rarely break, and the area around them is usually tidy. In recent years, some have added touch screens and cashless payment, making them even easier to use.\n\nFor many people, these machines are a small symbol of daily life in Japan: quiet, convenient, and always ready to help, day or night.",
+        summaryJa: "日本の自動販売機について。日本は世界有数の設置台数を誇り、街中から山道まで見られる。温かい飲み物や冷たい飲み物のほか、アイス、温かい食事、卵、傘、花を売る機械もある。多い理由は、治安が良く屋外に置いても安全なこと、店舗の家賃が高く狭いこと、人々が速さと便利さを重んじることにある。清潔で故障も少なく、近年はタッチパネルやキャッシュレス決済も増え、日常生活の象徴となっている。",
+        quiz: [
+          { q: "What do most Japanese vending machines sell?", options: ["Only flowers", "Drinks, both hot and cold", "Only umbrellas"], answer: 1 },
+          { q: "What is one reason Japan has so many machines?", options: ["A very low crime rate", "Very large shops", "A lack of electricity"], answer: 0 },
+          { q: "What change has happened to machines in recent years?", options: ["They stopped selling drinks", "They added cashless payment", "They became dirtier"], answer: 1 }
+        ]
+      },
+      {
+        id: "d1003-5",
+        title: "Why Our Bodies Need Sleep",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Every night, we spend hours doing something that may seem like a waste of time: sleeping. Yet scientists agree that sleep is one of the most important things we do. Without it, our bodies and minds cannot work well. But what really happens while we sleep?\n\nSleep is not simply switching off. During the night, the brain stays busy. It sorts through the day's events and decides what to remember and what to forget. This is why a good night's sleep helps us learn and remember new things. Students who sleep well before a test often do better than those who stay up late studying.\n\nThe body also repairs itself during sleep. Muscles recover, and the body fights illness more effectively. People who do not get enough sleep are more likely to catch colds and feel stressed. Over many years, poor sleep can lead to serious health problems.\n\nHow much sleep do we need? It depends on age. Young children need the most, often ten hours or more. Most adults feel best with seven to nine hours each night. Yet many people around the world sleep less than this because of work, worry, or screens that keep them awake.\n\nExperts suggest a few simple habits for better sleep: go to bed at the same time each night, keep the room dark and cool, and avoid phones before bed. Good sleep is free, and it may be one of the best gifts we can give our health.",
+        summaryJa: "睡眠が必要な理由について。睡眠は時間の無駄に見えても心身にとって非常に重要で、眠っている間も脳は働き、その日の出来事を整理して記憶を残すため、よく眠ると学習や記憶に役立つ。体も回復し病気と闘う力が高まる。必要な時間は年齢によって異なり、子どもは10時間以上、大人は7〜9時間が目安。よい睡眠のコツは、毎日同じ時間に寝る、部屋を暗く涼しく保つ、寝る前にスマホを見ないこと。",
+        quiz: [
+          { q: "What does the brain do during sleep?", options: ["It switches off completely", "It sorts and stores memories", "It stops all activity"], answer: 1 },
+          { q: "How much sleep do most adults need?", options: ["Three to four hours", "Seven to nine hours", "Twelve hours"], answer: 1 },
+          { q: "What is one tip for better sleep?", options: ["Use phones in bed", "Keep the room bright", "Go to bed at the same time each night"], answer: 2 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-02",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What does this giant machine do?", options: ["It smashes tiny particles together at nearly the speed of light", "It grows crops underground", "It stores water"], answer: 0 },
           { q: "Why can't scientists simply look at these tiny particles?", options: ["They are far too small to see", "They are too bright", "They move too slowly"], answer: 0 },
           { q: "What does building such a machine require?", options: ["Thousands of scientists from many countries working together for decades", "One person in a weekend", "No effort at all"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-26",
-    passages: [
-      {
-        id: "d0926-1",
-        title: "Why Happy Workers Matter",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "For a long time, many companies thought their only job was to keep customers happy. The people who worked for the company were expected simply to do as they were told. Today, more and more businesses understand something important: happy workers are good for business.\n\nWhy does the happiness of employees matter so much? First, people who enjoy their work tend to do it better. They are more careful, more creative, and more willing to help. A worker who feels valued will often go the extra mile, while an unhappy one may do only the bare minimum.\n\nSecond, keeping good workers saves money. When someone leaves, the company must find and train a replacement, which is slow and expensive. A workplace where people feel respected and supported keeps its talented people longer.\n\nHappy workers also treat customers better. A friendly, cheerful employee makes customers feel welcome, while a tired, unhappy one can drive them away. In this way, the mood inside a company quietly reaches the people it serves.\n\nMaking workers happy does not mean simply paying more, though fair pay matters. It also means respect, interesting work, a chance to grow, and a healthy balance between work and life.\n\nWise companies now see their employees not just as workers, but as people whose wellbeing shapes everything. When a business takes care of its people, those people, in turn, take care of the business.",
-        summaryJa: "長い間、多くの企業は自分たちの唯一の仕事は客を満足させることだと考えていた。会社で働く人は、言われた通りにするだけと期待された。今、ますます多くの企業が大切なことを理解している。幸せな働き手はビジネスに良い、と。なぜ従業員の幸せがそれほど重要か。第一に、仕事を楽しむ人はそれをよりうまくやる傾向がある。より注意深く、創造的で、進んで助ける。大切にされていると感じる働き手はしばしば一歩踏み込むが、不幸な人は最低限しかしないかもしれない。第二に、良い働き手を留めることはお金を節約する。誰かが辞めると、会社は後任を探し訓練せねばならず、遅く高くつく。人が尊重され支えられていると感じる職場は、有能な人をより長く留める。幸せな働き手は客もより良く扱う。親しみやすく明るい従業員は客に歓迎されていると感じさせ、疲れて不幸な人は客を遠ざけうる。こうして会社内の雰囲気が、仕える相手に静かに届く。働き手を幸せにするとは、単に多く払うことではない——公正な給与は大切だが。敬意、面白い仕事、成長の機会、仕事と生活の健全なバランスも意味する。賢い企業は今、従業員を単なる働き手でなく、その幸福がすべてを形づくる人として見る。企業が人を大切にすれば、その人が今度は企業を大切にする。",
-        quiz: [
-          { q: "Why do happy workers do their jobs better?", options: ["They are more careful, creative, and willing to help", "They do less work", "They ignore customers"], answer: 0 },
-          { q: "How does keeping good workers save money?", options: ["The company avoids the slow, expensive task of replacing and training people", "It costs more to keep people", "Workers pay the company"], answer: 0 },
-          { q: "What does making workers happy involve, besides pay?", options: ["Respect, interesting work, a chance to grow, and work-life balance", "Only shouting orders", "Nothing at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0926-2",
-        title: "How Search Engines Work",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Type a few words into a search engine, and in less than a second you receive millions of results, with the most useful ones usually near the top. It feels effortless, but behind that instant answer lies a huge and clever system. How does a search engine find what you want so quickly?\n\nThe work happens in three main steps. First comes crawling. The search engine sends out software, sometimes called \"spiders,\" that travel across the internet, following links from page to page and visiting billions of websites.\n\nSecond comes indexing. As the spiders visit pages, the search engine stores information about each one in a giant index — a bit like the index at the back of a book, but vastly larger. This index lets the engine find relevant pages later without searching the whole internet again.\n\nThird comes ranking. When you type a question, the engine looks in its index for matching pages, then decides which to show first. To do this, it weighs many clues: how well a page matches your words, how trusted and popular it is, and how easy it is to read.\n\nBecause the internet changes constantly, this process never stops. Spiders keep crawling, the index keeps growing, and the ranking keeps improving.\n\nSo a simple search is really the tip of an enormous machine, quietly organizing the world's information so that the answer you need is only a moment away.",
-        summaryJa: "検索エンジンに数語を打ち込むと、一秒足らずで何百万もの結果が返り、最も役立つものがたいてい上位に来る。楽々に感じるが、その即座の答えの裏には巨大で巧みな仕組みがある。検索エンジンはどうして、欲しいものをそんなに速く見つけるのか。作業は主に三段階で起きる。第一はクロール。検索エンジンは「スパイダー」と呼ばれることもあるソフトを送り出し、ページからページへリンクをたどってインターネットを巡り、何十億ものサイトを訪れる。第二はインデックス化。スパイダーがページを訪れると、検索エンジンは各ページの情報を巨大な索引に蓄える。本の巻末の索引に少し似ているが、はるかに大きい。この索引のおかげで、後でインターネット全体を再び探さずに関連ページを見つけられる。第三はランク付け。質問を打つと、エンジンは索引で一致するページを探し、どれを最初に見せるか決める。そのため多くの手がかりを比べる。ページが語にどれだけ合うか、どれだけ信頼され人気か、どれだけ読みやすいか。インターネットは絶えず変わるので、この過程は止まらない。スパイダーは巡り続け、索引は育ち続け、ランク付けは改善し続ける。単純な検索は、実は巨大な機械の氷山の一角だ。世界の情報を静かに整理し、必要な答えが一瞬先にあるようにしている。",
-        quiz: [
-          { q: "What is the first step, 'crawling'?", options: ["Software travels the internet, following links and visiting billions of pages", "Deleting all websites", "Printing every page on paper"], answer: 0 },
-          { q: "What is the 'index' like?", options: ["A giant version of the index at the back of a book", "A single photograph", "A type of computer game"], answer: 0 },
-          { q: "How does the engine decide which pages to show first (ranking)?", options: ["It weighs how well a page matches, how trusted and popular it is, and how readable", "It picks pages at random", "It shows the oldest pages only"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0926-3",
-        title: "Working Together Against Disease",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Diseases do not carry passports. A sickness that appears in one country can, within days, travel by airplane to the other side of the world. Because germs cross borders so easily, protecting people's health has become a task that no country can handle alone. Around the world, nations work together to fight disease.\n\nThis cooperation takes many forms. Countries share information quickly when a new illness appears, so that others can prepare. Scientists in different nations work together to study diseases and to develop medicines and vaccines. When a poorer country faces an outbreak, richer nations and global organizations often send doctors, supplies, and support.\n\nOne of the greatest victories of this teamwork was the defeat of smallpox, a deadly disease that once killed millions. Through a huge worldwide effort, doctors vaccinated people across the globe until the disease disappeared completely. It was a triumph that no single country could have achieved.\n\nThe work continues today. Health experts watch for new diseases, help vaccinate children everywhere, and plan for future outbreaks. Recent years have reminded the world how important — and how difficult — this cooperation can be.\n\nFighting disease together is not always smooth. Countries may disagree, and trust must be built. But the basic truth is clear: when it comes to health, we are all connected. A safer world for one is a safer world for all, and protecting the health of distant strangers helps protect our own.",
-        summaryJa: "病気はパスポートを持たない。ある国で現れた病は、数日で飛行機に乗り地球の反対側へ移りうる。菌はたやすく国境を越えるので、人々の健康を守ることは一国では担えない務めになった。世界中で、国々は協力して病気と闘う。この協力は多くの形をとる。新しい病が現れると各国は素早く情報を共有し、他が備えられるようにする。異なる国の科学者が協力して病気を研究し、薬やワクチンを開発する。貧しい国が流行に直面すると、豊かな国や世界的な組織がしばしば医師や物資、支援を送る。この協働の最大の勝利の一つが、かつて何百万人もの命を奪った恐ろしい病、天然痘の克服だった。巨大な世界的努力を通じ、医師は病が完全に消えるまで世界中の人に予防接種をした。どの一国も成し得なかった偉業だ。仕事は今も続く。保健の専門家は新しい病を警戒し、各地の子への予防接種を助け、将来の流行に備える。近年、世界はこの協力がいかに重要で、いかに難しいかを思い出した。共に病気と闘うのは常に順調ではない。国は対立しうるし、信頼は築かねばならない。だが基本の真実は明確だ。健康に関して私たちは皆つながっている。一人にとって安全な世界は皆にとって安全な世界で、遠い見知らぬ人の健康を守ることが自分を守る助けになる。",
-        quiz: [
-          { q: "Why can't one country handle disease alone?", options: ["Germs cross borders easily, traveling around the world in days", "Because diseases never spread", "Because only one country has doctors"], answer: 0 },
-          { q: "What was one great victory of global health teamwork?", options: ["The complete defeat of smallpox through worldwide vaccination", "Making disease spread faster", "Closing all hospitals"], answer: 0 },
-          { q: "What basic truth does the passage share?", options: ["When it comes to health, we are all connected", "Health only matters in one country", "Cooperation never helps"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0926-4",
-        title: "The Kimono: Japan's Traditional Dress",
-        level: "★★☆",
-        genre: "日本",
-        text: "Few images say \"Japan\" as clearly as a person wearing a kimono. This traditional garment, with its long sleeves and beautiful patterns, has been worn in Japan for well over a thousand years. Though most people wear modern clothes today, the kimono remains a treasured symbol of Japanese culture.\n\nA kimono is a long robe, wrapped around the body and held closed with a wide sash called an \"obi.\" What makes each kimono special is its design. The colors, patterns, and cloth are often chosen to match the season or the occasion. A kimono for a summer festival is light and cheerful, while one for a formal event may be rich and elegant.\n\nKimonos are usually saved for special moments. People wear them for weddings, graduations, New Year visits to shrines, and coming-of-age ceremonies. Putting one on is a careful art in itself, and dressing in a fine kimono can take help and practice.\n\nBecause good kimonos are valuable and long-lasting, they are often passed down within families, from mother to daughter. A single kimono may carry decades of memories.\n\nIn recent years, young people and visitors have enjoyed renting kimonos to walk through old streets and temples, keeping the tradition alive in a new way.\n\nThe kimono is more than clothing. It is wearable art and living history — a graceful expression of the Japanese love of beauty, season, and respect for special moments in life.",
-        summaryJa: "着物を着た人ほど「日本」をはっきり物語る姿は少ない。長い袖と美しい模様を持つこの伝統的な衣服は、日本で千年をはるかに超えて着られてきた。今日ほとんどの人は現代の服を着るが、着物は日本文化の大切な象徴であり続ける。着物は長い上衣で、体に巻きつけ「帯」という幅広の帯で留める。各着物を特別にするのはその意匠だ。色や模様、布はしばしば季節や場に合わせて選ばれる。夏祭りの着物は軽く陽気で、正式な催しのものは豊かで優雅なこともある。着物はたいてい特別な時のためにとっておかれる。結婚式、卒業式、正月の神社参り、成人式に着る。着付けはそれ自体が丁寧な技で、上質な着物を着るには助けと練習が要ることもある。良い着物は価値があり長持ちするので、母から娘へと家族の中で受け継がれることが多い。一枚の着物が何十年もの思い出を宿しうる。近年、若者や訪問者は着物を借りて古い通りや寺を歩くのを楽しみ、新しい形で伝統を生かしている。着物は衣服以上のものだ。身にまとう芸術であり生きた歴史——美と季節、人生の特別な瞬間への敬意という日本の心の優雅な表現だ。",
-        quiz: [
-          { q: "What is an 'obi'?", options: ["The wide sash that holds a kimono closed", "A type of shoe", "A kind of hat"], answer: 0 },
-          { q: "When do people usually wear kimonos?", options: ["For special moments like weddings, graduations, and New Year visits", "Every single day for work", "Only while sleeping"], answer: 0 },
-          { q: "Why are kimonos often passed down in families?", options: ["Good kimonos are valuable and long-lasting, carrying decades of memories", "Because they are worthless", "Because they are made of paper"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0926-5",
-        title: "Why Do We Yawn?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "You are sitting quietly when, suddenly, your mouth opens wide, you take a deep breath, and you yawn. Everyone yawns — babies, old people, even dogs and cats. We often yawn when we are tired or bored. But the strange truth is that scientists are still not completely sure why we do it.\n\nFor a long time, people believed we yawn because we need more oxygen. The idea was that a tired body breathes shallowly, so a big yawn pulls in fresh air. But careful studies have cast doubt on this simple explanation, so scientists have looked for other reasons.\n\nOne interesting idea is that yawning helps cool the brain. A big yawn pulls in air and increases blood flow, which may lower the temperature of the brain slightly, helping it work better. This might explain why we yawn when we are tired, as a tired brain can be a little warmer.\n\nPerhaps the most curious fact about yawning is that it is \"contagious.\" When you see or even read about someone yawning, you may feel the urge to yawn too. This seems to be linked to how we connect with others, and it is stronger between people who are close.\n\nSo a simple yawn is more mysterious than it looks. It may cool our brains, keep us alert, and even connect us to the people around us. The next time you yawn, remember: science has not fully solved this everyday puzzle.",
-        summaryJa: "静かに座っていると突然、口が大きく開き、深く息を吸い、あくびをする。誰もがあくびをする——赤ちゃんも高齢者も、犬や猫さえも。私たちは疲れたり退屈したりするとよくあくびをする。だが奇妙な真実は、科学者がなぜあくびをするのかまだ完全には確かでないことだ。長い間、酸素が足りないからあくびをすると信じられていた。疲れた体は浅く呼吸するので、大きなあくびが新鮮な空気を取り込むという考えだ。だが入念な研究がこの単純な説明に疑いを投げかけ、科学者は他の理由を探してきた。興味深い説の一つは、あくびが脳を冷やす助けになるというものだ。大きなあくびは空気を取り込み血流を増やし、脳の温度をわずかに下げてよりよく働かせるかもしれない。これは疲れたときにあくびをする理由を説明しうる。疲れた脳は少し温かくなりうるからだ。あくびの最も不思議な事実は、それが「伝染する」ことだろう。誰かのあくびを見たり、読んだりさえすると、自分もあくびをしたくなる。これは人とのつながり方に関係するらしく、親しい人同士でより強い。単純なあくびは見た目より謎めいている。脳を冷やし、覚醒を保ち、周りの人とつなげさえするかもしれない。次にあくびをするとき、思い出してほしい。科学はこの日常の謎をまだ完全には解いていない。",
-        quiz: [
-          { q: "What did people long believe was the reason we yawn?", options: ["That we need more oxygen, though studies have cast doubt on this", "That we are hungry", "That we want to talk"], answer: 0 },
-          { q: "What is one interesting modern idea about yawning?", options: ["It may help cool the brain, helping it work better", "It makes the brain hotter", "It has no effect at all"], answer: 0 },
-          { q: "What curious fact about yawning does the passage mention?", options: ["It is 'contagious' — seeing or reading about it can make you yawn", "It can only happen once a year", "Animals never yawn"], answer: 0 }
         ]
       }
     ]
