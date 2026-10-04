@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-04",
+    passages: [
+      {
+        id: "d1004-1",
+        title: "How Small Companies Compete with Big Ones",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When we think of famous companies, we often imagine huge businesses with thousands of workers. But most companies in the world are actually small. How can a small shop or a young company survive next to a giant competitor? The answer is that being small has its own advantages.\n\nOne big advantage is speed. A large company may need weeks of meetings to make a decision. A small company can often decide in a single afternoon. This means it can react quickly to new trends and customer needs. When the market changes, the small firm can change with it.\n\nAnother advantage is a personal touch. Large companies serve millions of customers, so each person can feel like just a number. A small business, on the other hand, can learn its customers' names, remember their preferences, and offer friendly service. Many people happily pay a little more for that kind of care.\n\nSmall companies also tend to focus. Instead of trying to sell everything, they often choose one thing and do it very well. A tiny bakery known for the best bread in town does not need to beat a huge supermarket at everything. It only needs to be the best at one thing.\n\nOf course, small firms face real challenges, such as limited money and fewer staff. But by using their speed, their personal service, and their focus, many small companies not only survive but grow. In business, size is not everything. Sometimes being small is exactly what makes a company special.",
+        summaryJa: "小さな会社が大企業と競う方法について。世界の会社の多くは小規模だが、小ささには利点がある。第一に意思決定の速さで、市場の変化にすぐ対応できる。第二に顧客一人ひとりに寄り添う温かいサービスで、多くの人は多少高くてもそれを選ぶ。第三に一点集中で、何でも売ろうとせず得意分野を極める。資金や人手の制約はあるが、速さ・丁寧さ・集中を武器に生き残り成長する小企業は多い。",
+        quiz: [
+          { q: "According to the passage, what is one advantage of small companies?", options: ["They can make decisions quickly", "They have the most workers", "They never face challenges"], answer: 0 },
+          { q: "Why do some customers prefer small businesses?", options: ["They are always cheaper", "They offer a personal touch", "They sell everything"], answer: 1 },
+          { q: "What does the bakery example show?", options: ["Small firms should sell everything", "Being the best at one thing can work", "Supermarkets always win"], answer: 1 }
+        ]
+      },
+      {
+        id: "d1004-2",
+        title: "How Computers Remember: Inside Data Storage",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Every photo you take, every message you send, and every video you watch has to be stored somewhere. But where does all this information go, and how does a computer remember it? The answer lies in devices called storage drives.\n\nFor many years, most computers used hard disk drives, or HDDs. Inside an HDD, there is a round metal disk that spins very fast. A tiny arm moves across the disk and writes information by changing magnetic patterns on its surface. To read the data later, the arm checks those patterns again. Because the disk spins, an HDD has moving parts, a little like a record player.\n\nMore recently, many devices have started using solid-state drives, or SSDs. An SSD has no moving parts at all. Instead, it stores data in memory chips, using electricity to hold information even when the power is off. Because nothing has to spin or move, SSDs are usually faster and quieter, and they use less energy.\n\nSo why do HDDs still exist? The main reason is price. Hard drives can store huge amounts of data cheaply, which is useful for large systems that keep enormous files. Today, demand for storage is growing fast, partly because new technologies create more data than ever before.\n\nBoth types of drive do the same basic job: they keep our information safe until we need it. Whether spinning or silent, these quiet machines are the memory of the digital world, holding the photos, work, and messages that fill our daily lives.",
+        summaryJa: "コンピューターがデータを保存する仕組みについて。写真やメッセージなどの情報は記憶装置に保存される。長年使われてきたハードディスク（HDD）は、高速回転する金属の円盤に磁気のパターンで情報を書き込み、腕の部品が読み書きする。近年普及するソリッドステートドライブ（SSD）は可動部がなく、メモリーチップに電気で情報を保持するため、速く静かで省電力。それでもHDDが残るのは、大量のデータを安く保存できるから。需要は急速に増えている。",
+        quiz: [
+          { q: "How does a hard disk drive (HDD) store information?", options: ["By spinning a disk and changing magnetic patterns", "By printing on paper", "By using sound waves"], answer: 0 },
+          { q: "What is one advantage of an SSD over an HDD?", options: ["It has more moving parts", "It is usually faster and quieter", "It is always cheaper"], answer: 1 },
+          { q: "Why do HDDs still exist today?", options: ["They can store lots of data cheaply", "They never break", "They use no electricity"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1004-3",
+        title: "Working Together to Protect the World's Forests",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Forests cover about a third of the world's land, and they do far more than provide wood. They clean our air, store huge amounts of carbon, and are home to most of the planet's animals and plants. Yet forests are disappearing in many regions, cut down for farming, roads, and cities. Protecting them has become one of the world's shared challenges.\n\nThe problem is difficult because forests do not belong to one country alone. The air they clean and the climate they cool affect everyone. When a forest is lost in one place, the whole planet feels the result. For this reason, nations have begun to work together rather than act alone.\n\nCountries cooperate in several ways. Some richer nations provide money to poorer ones that agree to protect their forests instead of clearing them. International agreements set shared goals, such as slowing the loss of trees by a certain year. Scientists from many countries share satellite images that track exactly where forests are shrinking.\n\nRecent research also offers hope. One long study found that forests which are carefully managed, rather than left completely alone, can sometimes grow larger trees and store even more carbon. This suggests that protecting forests does not always mean doing nothing; wise management can help.\n\nChallenges remain, including illegal logging and the pressure to use land for food. But forests show clearly how connected the world has become. By cooperating across borders, countries have a real chance to keep these green treasures alive for future generations.",
+        summaryJa: "世界の森林を守るための国際協力について。森林は陸地の約3分の1を覆い、空気を浄化し、大量の炭素を蓄え、多くの動植物の住みかとなる。だが農地や道路のために各地で減少している。森林の恩恵は国境を越えて全人類に及ぶため、各国は協力し始めた。豊かな国が資金を出す、国際的な目標を定める、衛星画像を共有するなどの方法がある。近年の研究では、適切に管理された森林がより大きな木を育て炭素を多く蓄える例も示された。課題は残るが、協力により森を次世代へ残せる。",
+        quiz: [
+          { q: "Why is protecting forests a shared world challenge?", options: ["Forests affect the whole planet, not one country", "Only one country has forests", "Forests are not important"], answer: 0 },
+          { q: "What is one way countries cooperate on forests?", options: ["Richer nations fund poorer ones to protect forests", "They ignore the problem", "They cut down more trees together"], answer: 0 },
+          { q: "What did the recent long study suggest?", options: ["Forests should always be left alone", "Careful management can help forests store more carbon", "Trees cannot store carbon"], answer: 1 }
+        ]
+      },
+      {
+        id: "d1004-4",
+        title: "Japan's School Lunch Tradition",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, children bring lunch from home or buy it at school. In Japan, something different happens almost every day. Most public elementary and junior high schools serve a hot lunch, called kyushoku, and it is far more than just a meal. It is treated as part of a child's education.\n\nA typical school lunch is balanced and healthy. It often includes rice or bread, a main dish such as fish or meat, a vegetable side, soup, and a small carton of milk. Menus are planned by trained staff to give children the right amount of energy and nutrition. Meals usually cost little, and the food is cooked fresh, sometimes using vegetables grown nearby.\n\nWhat surprises many visitors is who serves the food. The students themselves do it. Wearing white aprons and caps, a small group brings the food to the classroom and serves their classmates. After eating, everyone helps clean up. Children also learn to say itadakimasu before the meal and gochisosama after, as a way of giving thanks.\n\nThrough this daily routine, students learn more than good eating habits. They learn responsibility, teamwork, and respect for the people who grow and prepare food. They also discover new dishes they might never try at home.\n\nFor many Japanese adults, school lunch is a warm memory of childhood. It shows how a simple meal can teach important lessons, filling both the stomach and the heart, one school day at a time.",
+        summaryJa: "日本の学校給食の伝統について。多くの公立小中学校では毎日温かい給食が出され、単なる食事でなく教育の一部とされる。ご飯やパン、主菜、野菜、汁物、牛乳などバランスがよく、栄養士が献立を考え、安価で作りたてだ。驚かれるのは配膳を児童自身が行う点で、白いエプロンと帽子で友達に配り、食後は皆で片づける。「いただきます」「ごちそうさま」で感謝も学ぶ。責任感や協力、食への敬意、新しい料理との出会いなど、多くを学べる。",
+        quiz: [
+          { q: "What is special about Japanese school lunch (kyushoku)?", options: ["It is treated as part of education", "It is always brought from home", "It is never healthy"], answer: 0 },
+          { q: "Who serves the food in Japanese schools?", options: ["Visitors from other countries", "The students themselves", "Only the teachers"], answer: 1 },
+          { q: "What do students learn through school lunch, besides eating habits?", options: ["Responsibility and teamwork", "How to skip cleaning", "How to cook at restaurants"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1004-5",
+        title: "Why Your Gut Bacteria Matter",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Inside your body, especially in your gut, live trillions of tiny living things called bacteria. The idea might sound unpleasant, but most of these bacteria are not harmful at all. In fact, scientists are learning that they are essential for our health. Together, this huge community is sometimes called the gut microbiome.\n\nThese bacteria do many useful jobs. They help break down the food we eat, especially fiber from fruits and vegetables that our bodies cannot digest alone. In return, they produce helpful substances, including certain vitamins. A healthy gut also supports the immune system, helping the body fight off illness.\n\nWhat surprises many people is that gut bacteria may affect more than digestion. Recent research suggests a link between the gut and the brain. Some studies have found that the types of bacteria in our gut may influence memory, mood, and even how quickly the brain ages. Scientists are still studying exactly how this works, but the connection is an exciting area of research.\n\nHow can we keep our gut bacteria healthy? The advice is simple and familiar. Eating a wide variety of plants, such as vegetables, fruits, beans, and whole grains, gives the good bacteria the food they need. Fermented foods like yogurt can help too. Too much sugar and processed food, on the other hand, may harm them.\n\nSo the next time you eat a colorful salad, remember that you are feeding not just yourself, but trillions of tiny helpers working quietly inside you.",
+        summaryJa: "腸内細菌の重要性について。体内、特に腸には無数の細菌がすみ、その多くは有害ではなく健康に欠かせない。この集団は「腸内細菌叢（マイクロバイオーム）」と呼ばれる。細菌は食物繊維の分解を助け、ビタミンなど有益な物質を作り、免疫も支える。近年の研究では腸と脳のつながりが示され、記憶や気分、脳の老化速度にも影響する可能性がある。腸内細菌を健やかに保つには、野菜・果物・豆・全粒穀物など多様な植物や発酵食品が役立ち、糖分や加工食品の取りすぎは良くない。",
+        quiz: [
+          { q: "What is the 'gut microbiome'?", options: ["The community of bacteria in our gut", "A type of food", "A kind of vitamin pill"], answer: 0 },
+          { q: "What do recent studies suggest about gut bacteria?", options: ["They only cause illness", "They may affect memory and mood", "They have no effect on the body"], answer: 1 },
+          { q: "How can we keep gut bacteria healthy?", options: ["Eat lots of sugar", "Eat a wide variety of plants", "Avoid all vegetables"], answer: 1 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-03",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is the heart's main job?", options: ["To pump blood, carrying oxygen and food around the body", "To digest food", "To store memories"], answer: 0 },
           { q: "How do the two halves of the heart work?", options: ["One side sends blood to the lungs for oxygen; the other pumps it to the body", "Both do exactly nothing", "They work only once a year"], answer: 0 },
           { q: "How can people take care of their heart?", options: ["Exercise, healthy food, good sleep, and avoiding harmful habits", "Never moving at all", "Skipping sleep"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-27",
-    passages: [
-      {
-        id: "d0927-1",
-        title: "What Is a Patent?",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Imagine you spend years inventing something new — a clever machine, a useful medicine, or a smart design. Just as you begin to sell it, a much larger company copies your idea and sells it cheaper. All your hard work seems lost. To prevent this, societies created a tool called the patent.\n\nA patent is a legal right that protects a new invention. When an inventor is granted a patent, others are not allowed to make, use, or sell that exact invention for a number of years without permission. In effect, the inventor is given a limited period to benefit from their own idea.\n\nWhy do we have patents? The main reason is to encourage new ideas. Inventing is often slow and expensive. If anyone could copy an idea the moment it appeared, few people would take the risk of inventing at all. A patent rewards effort and gives inventors a fair chance to earn back their investment.\n\nBut patents also have a cost. While a patent lasts, the price of a product can stay high, since no one else may make it. That is why patents do not last forever. After they expire, anyone may use the idea, and prices usually fall.\n\nPatents can also cause disputes. Companies sometimes argue in court over who truly invented something first, and these cases can be worth billions.\n\nIn the end, a patent tries to balance two goals: rewarding inventors, and eventually sharing good ideas with everyone.",
-        summaryJa: "何かを何年もかけて発明したと想像してほしい——巧みな機械、役立つ薬、賢い設計。売り始めた途端、はるかに大きな会社が発想を真似て安く売る。苦労がすべて失われるように見える。これを防ぐため、社会は特許という道具を作った。特許は新しい発明を守る法的権利だ。発明者に特許が認められると、他者は許可なくその発明を数年間、作ったり使ったり売ったりできない。実質、発明者は自分の発想から利益を得る限られた期間を与えられる。なぜ特許があるのか。主な理由は新しい発想を促すためだ。発明はしばしば遅く高くつく。現れた瞬間に誰でも真似できれば、発明の危険を冒す人はほとんどいなくなる。特許は努力に報い、投資を取り戻す公正な機会を与える。だが特許には代償もある。続く間、他が作れないので製品の価格が高いままになりうる。だから特許は永遠には続かない。切れた後は誰でも発想を使え、価格はふつう下がる。特許は争いも生む。企業は誰が最初に発明したか法廷で争うことがあり、数十億の価値になる事例もある。特許は二つの目標のバランスを取ろうとする。発明者に報いること、そしていずれ良い発想を皆と分かち合うことだ。",
-        quiz: [
-          { q: "What is a patent?", options: ["A legal right that protects a new invention for a number of years", "A type of factory", "A kind of tax"], answer: 0 },
-          { q: "Why do societies have patents?", options: ["To encourage new ideas by rewarding inventors' effort and risk", "To stop all inventions", "To make everything free"], answer: 0 },
-          { q: "Why don't patents last forever?", options: ["So that after they expire, anyone may use the idea and prices usually fall", "Because inventors dislike money", "Because ideas are worthless"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0927-2",
-        title: "How GPS Finds Your Location",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "When your phone shows a little dot marking exactly where you are on a map, it is using a remarkable system called GPS. With it, a device can find its place on Earth to within a few meters, almost anywhere in the world. But how can a phone know where it is, using nothing but the open sky?\n\nThe answer lies far above us. Circling the Earth are many satellites, each constantly sending out radio signals. Each signal carries two pieces of information: where the satellite is, and the exact time the signal was sent, measured by a very precise clock.\n\nYour phone listens for these signals. Because the signals travel at the speed of light, the phone can measure how long each one took to arrive, and from that, how far away each satellite is. By combining the distances to several satellites at once, the phone can work out the one spot on Earth where it must be. Using more satellites gives a more accurate answer.\n\nThis is why GPS usually works less well indoors or between tall buildings, where the signals from the sky are blocked.\n\nGPS is now part of daily life. It guides cars, ships, and planes, helps farmers and rescuers, and even keeps the world's clocks in step. All of it depends on a simple, beautiful idea: measure the time signals take to arrive, and let mathematics reveal exactly where you stand.",
-        summaryJa: "電話が地図上にあなたの正確な位置を示す小さな点を表示するとき、それはGPSという見事な仕組みを使っている。これで機器は世界のほぼどこでも、数メートル以内の精度で地球上の位置を見つけられる。だが電話は、開けた空だけを使ってどうして自分の位置を知れるのか。答えははるか頭上にある。地球を回る多くの衛星が、それぞれ絶えず電波信号を送っている。各信号は二つの情報を運ぶ。衛星がどこにあるか、そしてとても精密な時計で測った、信号が送られた正確な時刻だ。電話はこの信号を聞く。信号は光の速さで進むので、電話は各信号が届くのにかかった時間を測り、そこから各衛星までの距離を割り出せる。複数の衛星までの距離を同時に組み合わせると、地球上で自分がいるはずの一点を求められる。より多くの衛星を使うほど正確になる。だからGPSは室内や高いビルの間では、空からの信号が遮られてうまく働かないことが多い。GPSは今や日常の一部だ。車や船、飛行機を導き、農家や救助隊を助け、世界の時計まで合わせる。すべては単純で美しい考えに依る。信号が届く時間を測り、数学に自分の正確な位置を明かさせるのだ。",
-        quiz: [
-          { q: "What does each GPS satellite signal carry?", options: ["Where the satellite is and the exact time the signal was sent", "A photograph of your face", "Your phone number"], answer: 0 },
-          { q: "How does your phone work out its distance to a satellite?", options: ["By measuring how long the signal took to arrive, since signals travel at light speed", "By weighing the satellite", "By guessing"], answer: 0 },
-          { q: "Why does GPS work less well indoors or between tall buildings?", options: ["The signals from the sky are blocked", "Because phones sleep indoors", "Because satellites stop working"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0927-3",
-        title: "Protecting the World's Treasures",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Around the globe stand places of extraordinary value: ancient temples, great natural parks, historic city centers, and beautiful landscapes shaped over thousands of years. Some are made by human hands; others are wonders of nature. Together, they form a kind of shared inheritance that belongs, in a sense, to all of humanity. Protecting them has become an important global effort.\n\nWhy treat these places as everyone's concern? Because they cannot be replaced. If an ancient building falls or a unique forest is destroyed, no amount of money can bring it back. These sites also teach us about our history, our cultures, and the natural world. They draw visitors, support local economies, and fill people with wonder.\n\nTo help protect them, nations work together. Special lists honor the most important sites and encourage countries to care for them. Experts share knowledge on how to repair old buildings or protect rare animals. When disaster strikes, the world may send help to save a threatened treasure.\n\nThe task is not easy. Time, weather, pollution, crowds of tourists, and conflict all put these places at risk. Caring for them takes money, skill, and constant attention.\n\nStill, the effort is worthwhile. These treasures connect us to those who came before and to the planet we share. By protecting them, we keep the world's story alive — a gift passed carefully from one generation to the next.",
-        summaryJa: "世界各地に、並外れた価値を持つ場所がある。古代の寺院、雄大な自然公園、歴史ある都市の中心、何千年もかけて形づくられた美しい景観。人の手によるものもあれば、自然の驚異もある。合わせて、ある意味で全人類に属する共有の遺産をなす。それらを守ることは重要な世界的努力になった。なぜこれらを皆の関心事とするのか。取り替えがきかないからだ。古い建物が崩れたり独自の森が壊されたりすれば、どれほどのお金でも取り戻せない。これらの場所は歴史や文化、自然界について教えてくれる。訪問者を引き寄せ、地域経済を支え、人を驚きで満たす。守るため、国々は協力する。特別な一覧が最も重要な場所をたたえ、各国に世話を促す。専門家は古い建物の修復や稀少な動物の保護の知識を共有する。災害が起きると、世界は脅かされた宝を救う助けを送ることもある。仕事は容易でない。時間、天候、汚染、観光客の群れ、紛争がすべてこれらの場所を危険にさらす。世話には金と技、絶え間ない注意が要る。それでも努力は価値がある。これらの宝は、先を生きた人々と、分かち合う惑星に私たちをつなぐ。守ることで世界の物語を生かし続ける——世代から世代へ丁寧に受け継がれる贈り物だ。",
-        quiz: [
-          { q: "Why are these places treated as everyone's concern?", options: ["They cannot be replaced and teach us about history, culture, and nature", "They are worthless", "They belong to no one and matter to no one"], answer: 0 },
-          { q: "How do nations help protect these sites?", options: ["Special lists honor them and experts share knowledge on how to care for them", "By ignoring them", "By destroying old buildings"], answer: 0 },
-          { q: "What puts these treasures at risk?", options: ["Time, weather, pollution, crowds, and conflict", "Nothing ever threatens them", "Only their popularity"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0927-4",
-        title: "Japan's Majestic Castles",
-        level: "★★☆",
-        genre: "日本",
-        text: "Rising above many Japanese cities and towns are some of the country's most striking sights: old castles, with their curved roofs, white walls, and tall central towers. These beautiful buildings are more than tourist attractions. They are windows into hundreds of years of Japanese history.\n\nMost Japanese castles were built centuries ago, in a time of war among powerful lords. A castle was first of all a fortress, designed to protect those inside. Clever defenses were built in: steep stone walls, deep moats filled with water, and winding paths meant to slow down and confuse attackers. Yet the castles were also grand and beautiful, showing the power and taste of the lord who ruled there.\n\nAt the heart of a castle stands the main tower, or \"tenshu,\" often several stories tall. From its top, defenders could watch the land for miles. Today, visitors climb these same towers to enjoy the view and imagine life long ago.\n\nSadly, many original castles were lost over the centuries to fire, war, or time. Some that stand today are careful reconstructions, while a small number are original and greatly treasured.\n\nWhether old or rebuilt, Japan's castles remain proud symbols of their cities. They tell stories of samurai, lords, and battles, and they show a rare blend of strength and elegance. To stand before one is to feel the long, dramatic history of Japan rising all around you.",
-        summaryJa: "日本の多くの都市や町の上にそびえるのは、国で最も印象的な光景の一つ、古い城だ。反った屋根、白い壁、高い中央の塔を持つ。この美しい建物は観光名所以上のものだ。何百年もの日本の歴史をのぞく窓である。多くの日本の城は何世紀も前、力ある領主同士の戦の時代に築かれた。城はまず何よりも要塞で、中の者を守るよう設計された。巧みな防御が組み込まれた。急な石垣、水を満たした深い堀、攻め手を遅らせ惑わせる曲がりくねった道。だが城は壮大で美しくもあり、そこを治めた領主の力と趣味を示した。城の中心には天守、しばしば数階建ての主塔が立つ。その頂から、守り手は何マイルも土地を見渡せた。今日、訪問者は同じ塔に登り眺めを楽しみ、遠い昔の暮らしを思い描く。悲しいことに、多くの元の城が何世紀もの間に火事や戦、時によって失われた。今日立つもののいくつかは丁寧な再建で、少数は現存し大いに大切にされる。古くても再建でも、日本の城はその都市の誇り高い象徴であり続ける。侍や領主、戦の物語を語り、力と優雅さの稀な調和を示す。城の前に立つことは、日本の長く劇的な歴史が周りに立ち上がるのを感じることだ。",
-        quiz: [
-          { q: "What was a Japanese castle first of all?", options: ["A fortress designed to protect those inside", "A shopping center", "A school"], answer: 0 },
-          { q: "What is the 'tenshu'?", options: ["The main tower at the heart of a castle", "A castle garden", "A type of moat"], answer: 0 },
-          { q: "Why are some castles standing today reconstructions?", options: ["Many original castles were lost to fire, war, or time", "Because originals were never built", "Because they were never important"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0927-5",
-        title: "The Biggest Machine on Earth",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Deep underground, near the border of two countries in Europe, lies one of the most extraordinary machines ever built. It is a giant ring, many kilometers around, buried in a tunnel beneath farms and towns. Its purpose is strange and wonderful: to smash tiny particles together at nearly the speed of light, in order to understand what everything is made of.\n\nEverything around us — you, this page, the stars — is built from unimaginably small building blocks. To study these tiny pieces, scientists cannot simply look at them; they are far too small to see. Instead, they speed up particles inside the great ring and crash them together. In the burst of energy from each crash, new, even smaller particles briefly appear, and powerful detectors record what happens.\n\nBy studying these crashes, scientists learn the deepest rules of nature: what matter is, how it holds together, and how the universe began. One famous discovery from such a machine helped explain why particles have mass at all.\n\nBuilding and running such a machine is a huge task. It takes thousands of scientists from many countries, working together for decades. From time to time, parts are shut down and rebuilt to make the machine even better.\n\nThis vast machine reminds us of something inspiring: that human curiosity has no limit. To answer the biggest questions about the universe, people built one of the biggest and most delicate machines in history.",
-        summaryJa: "ヨーロッパの二国の国境近くの地下深くに、これまで作られた中で最も並外れた機械の一つがある。周囲何キロもある巨大な輪で、農地や町の下のトンネルに埋まっている。その目的は奇妙で素晴らしい。小さな粒子をほぼ光の速さでぶつけ合い、すべてが何でできているかを理解するのだ。私たちの周りのすべて——あなた、このページ、星々——は想像を絶するほど小さな構成要素でできている。この小さな部分を研究するのに、科学者はただ見ることはできない。小さすぎて見えないのだ。代わりに、大きな輪の中で粒子を加速し、互いに衝突させる。各衝突のエネルギーの爆発の中で、新たな、さらに小さな粒子が一瞬現れ、強力な検出器が何が起きるか記録する。この衝突を調べることで、科学者は自然の最も深い法則を学ぶ。物質とは何か、どう結びつくか、宇宙はどう始まったか。こうした機械での有名な発見の一つは、そもそもなぜ粒子に質量があるかの説明を助けた。こうした機械の建設と運用は巨大な仕事だ。多くの国の何千もの科学者が数十年協力する。時折、部品を停止し作り直して機械をさらに良くする。この巨大な機械は、心を鼓舞することを思い出させる。人間の好奇心に限りはない。宇宙の最大の問いに答えるため、人は史上最大級で最も繊細な機械の一つを作った。",
-        quiz: [
-          { q: "What does this giant machine do?", options: ["It smashes tiny particles together at nearly the speed of light", "It grows crops underground", "It stores water"], answer: 0 },
-          { q: "Why can't scientists simply look at these tiny particles?", options: ["They are far too small to see", "They are too bright", "They move too slowly"], answer: 0 },
-          { q: "What does building such a machine require?", options: ["Thousands of scientists from many countries working together for decades", "One person in a weekend", "No effort at all"], answer: 0 }
         ]
       }
     ]
