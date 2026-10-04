@@ -151,7 +151,19 @@ KE_DATA.extraSentences = [
   { id: "w2639-s09", ja: "その提案には、いくつか確認したい点があります。", en: "I have a few points I'd like to check about that proposal.", note: "points to check = 確認事項" },
   { id: "w2639-s10", ja: "決定は来週まで保留にしましょう。", en: "Let's hold off on the decision until next week.", note: "hold off on = 保留にする" },
   { id: "w2639-s11", ja: "フィードバックをありがとうございます。改善に活かします。", en: "Thank you for the feedback. I'll use it to improve.", note: "use it to improve = 改善に活かす" },
-  { id: "w2639-s12", ja: "引き続き、どうぞよろしくお願いいたします。", en: "I look forward to continuing to work with you.", note: "継続の関係を伝える挨拶" }
+  { id: "w2639-s12", ja: "引き続き、どうぞよろしくお願いいたします。", en: "I look forward to continuing to work with you.", note: "継続の関係を伝える挨拶" },
+  { id: "w2640-s01", ja: "念のため、締切をもう一度確認させてください。", en: "Just to be sure, let me double-check the deadline.", note: "just to be sure = 念のため" },
+  { id: "w2640-s02", ja: "その数字の根拠を教えていただけますか。", en: "Could you tell me what that number is based on?", note: "based on = 〜に基づく" },
+  { id: "w2640-s03", ja: "今期の売上は前年を上回る見込みです。", en: "We expect this quarter's sales to beat last year's.", note: "beat = 上回る" },
+  { id: "w2640-s04", ja: "この問題の原因を切り分けましょう。", en: "Let's narrow down the cause of this problem.", note: "narrow down = 絞り込む" },
+  { id: "w2640-s05", ja: "お手数ですが、資料を再送いただけますか。", en: "Sorry to trouble you, but could you send the document again?", note: "Sorry to trouble you = お手数ですが" },
+  { id: "w2640-s06", ja: "結論から申し上げると、計画は予定どおり進んでいます。", en: "To get to the point, the plan is on schedule.", note: "to get to the point = 結論から言うと" },
+  { id: "w2640-s07", ja: "このリスクは事前に共有しておくべきでした。", en: "We should have shared this risk in advance.", note: "should have + 過去分詞 = 〜すべきだった" },
+  { id: "w2640-s08", ja: "追加の費用が発生する場合は、必ず事前にご連絡します。", en: "If any extra costs come up, I'll let you know beforehand.", note: "come up = 発生する" },
+  { id: "w2640-s09", ja: "全員の予定が合う時間を探しています。", en: "I'm looking for a time that works for everyone.", note: "work for = 都合が合う" },
+  { id: "w2640-s10", ja: "この件は優先度を上げて対応します。", en: "I'll move this up the priority list.", note: "move up = 優先度を上げる" },
+  { id: "w2640-s11", ja: "次回までに各自の担当を決めておきましょう。", en: "Let's decide who does what before the next meeting.", note: "who does what = 役割分担" },
+  { id: "w2640-s12", ja: "厳しいご意見も含め、率直なご意見に感謝します。", en: "I appreciate your honest feedback, including the critical points.", note: "critical = 批判的な・厳しい" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -203,7 +215,15 @@ KE_DATA.extraPhrases = [
   { id: "w2638-p05", en: "I'll keep you posted.", ja: "随時ご報告します。", tip: "keep someone posted = 随時知らせる" },
   { id: "w2638-p06", en: "Let's give it a shot.", ja: "とりあえずやってみましょう。", tip: "give it a shot = 試しにやってみる" },
   { id: "w2638-p07", en: "Let's circle back to this after lunch.", ja: "この件は昼食後にまた戻りましょう。", tip: "circle back to = 〜に後で戻る" },
-  { id: "w2638-p08", en: "Let's agree to disagree on this one.", ja: "この件は見解の相違ということにしましょう。", tip: "対立を穏やかに収める型" }
+  { id: "w2638-p08", en: "Let's agree to disagree on this one.", ja: "この件は見解の相違ということにしましょう。", tip: "対立を穏やかに収める型" },
+  { id: "w2640-p01", en: "Let me get the ball rolling.", ja: "まず口火を切らせてください（始めましょう）。", tip: "get the ball rolling = 物事を始める" },
+  { id: "w2640-p02", en: "Can we nail down the details?", ja: "細部を固めてしまえますか。", tip: "nail down = 確定させる・詰める" },
+  { id: "w2640-p03", en: "I'll flag it to the team.", ja: "チームに注意喚起しておきます。", tip: "flag = 注意を促す・共有する" },
+  { id: "w2640-p04", en: "Let's not get ahead of ourselves.", ja: "先走らないようにしましょう。", tip: "get ahead of oneself = 先走る" },
+  { id: "w2640-p05", en: "That's the gist of it.", ja: "要点はそんなところです。", tip: "the gist = 要旨・要点" },
+  { id: "w2640-p06", en: "Can you ballpark the cost?", ja: "費用をざっくり見積もってもらえますか。", tip: "ballpark = 概算する（口語）" },
+  { id: "w2640-p07", en: "Let's keep each other in the loop.", ja: "お互い情報を共有し合いましょう。", tip: "in the loop = 情報を共有している状態" },
+  { id: "w2640-p08", en: "I'll take that as a yes.", ja: "では了承いただいたものとします。", tip: "やんわり同意を確認する型" }
 ];
 
 /* シャドーイングの追加スクリプト（shadowing.js と同スキーマ） */
@@ -423,6 +443,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "I could set up a small test with our team next week.", ja: "来週、チームで小さなテストを始められます。" },
       { s: "B", en: "Good. Let's try it and see the results.", ja: "いいね。試して結果を見よう。" }
     ]
+  },
+  {
+    id: "w2640-sh1",
+    title: "予算会議でのコスト削減の相談",
+    level: "★★☆",
+    description: "予算が厳しい中で、品質を落とさずに現実的なコスト削減案を話し合う場面。提案・懸念・合意の型を身につける。",
+    lines: [
+      { s: "A", en: "Thanks for coming. We need to find ways to cut costs this quarter.", ja: "集まってくれてありがとう。今四半期はコスト削減の方法を見つける必要があります。" },
+      { s: "B", en: "I understand. How much do we need to save?", ja: "承知しました。どのくらい削減が必要ですか？" },
+      { s: "A", en: "Around ten percent, but without hurting quality.", ja: "約10％です。ただし品質は落とさずに。" },
+      { s: "B", en: "In that case, we could reduce travel and use online meetings more.", ja: "それなら、出張を減らしてオンライン会議を増やせます。" },
+      { s: "A", en: "Good idea. What about our software subscriptions?", ja: "いい案ですね。ソフトの契約についてはどうでしょう？" },
+      { s: "B", en: "We pay for several tools we rarely use. We could cancel those.", ja: "ほとんど使っていないツールにいくつか支払っています。それらは解約できます。" },
+      { s: "A", en: "Let's do that. I'd like to avoid cutting training, though.", ja: "そうしましょう。ただ、研修の削減は避けたいです。" },
+      { s: "B", en: "I agree. Training keeps the team strong in the long run.", ja: "同感です。研修は長期的にチームを強く保ちます。" },
+      { s: "A", en: "Exactly. Could you prepare a list of possible savings by Friday?", ja: "その通り。金曜までに削減候補のリストを作ってもらえますか？" },
+      { s: "B", en: "Sure. I'll send it to you with the expected amounts.", ja: "もちろんです。見込み額を添えてお送りします。" }
+    ]
   }
 ];
 
@@ -571,6 +609,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2639-t03", ja: "政府は人々にもっと貯蓄するよう促すべきだと思いますか？", en: "Should governments encourage people to save more money?",
     sample: { point: "Yes, I think governments should gently encourage people to save more.", reason: "The main reason is that savings protect families from emergencies and give people more freedom and security in the future.", example: "For example, simple programs that automatically put a little of each paycheck into savings have helped many people build a safety net without pain.", point2: "So while people must be free to choose, wise encouragement to save can make a whole society more stable." }
+  },
+  {
+    id: "w2640-t01", ja: "金利が高いとき、人々は新たな借り入れを控えるべきだと思いますか？", en: "When interest rates are high, should people avoid taking on new loans?",
+    sample: { point: "In general, I think people should be more careful about new loans when interest rates are high.", reason: "The main reason is that higher rates mean larger monthly payments, which can strain a household budget for years.", example: "For example, with borrowing costs recently reaching their highest levels in over two decades, a home or car loan taken now can cost far more than the same loan a few years ago.", point2: "So unless the purchase is truly necessary, waiting or saving first is often the wiser choice." }
+  },
+  {
+    id: "w2640-t02", ja: "企業は急成長よりも、着実で長期的な成長を目指すべきだと思いますか？", en: "Should companies aim for steady, long-term growth rather than rapid expansion?",
+    sample: { point: "I believe most companies are better off aiming for steady, long-term growth.", reason: "This is because rapid expansion often hides weak foundations, and a sudden downturn can then threaten the whole business.", example: "For example, in an uncertain economy with volatile markets, firms that grew carefully and kept some cash in reserve are far better able to survive a shock.", point2: "So while fast growth looks impressive, steady growth is usually safer and lasts longer." }
+  },
+  {
+    id: "w2640-t03", ja: "今日の労働市場では、生涯にわたって学び続けることは必要だと思いますか？", en: "Is lifelong learning necessary in today's job market?",
+    sample: { point: "Yes, I strongly believe that lifelong learning is now necessary, not optional.", reason: "The main reason is that technology and job requirements change so quickly that skills can become outdated within a few years.", example: "For example, workers who keep learning new tools and digital skills are far more likely to stay employed when their industry changes or automates certain tasks.", point2: "So treating learning as a lifelong habit is one of the best ways to protect your career." }
   }
 ];
 
@@ -594,6 +644,25 @@ KE_DATA.extraScenarios = [
       { speaker: "user", task: "コストへの影響を正直に伝えつつ価値を示す", model: "Yes, it will increase the cost by about ten percent, but it will make the final results much more reliable.", ja: "はい、費用は約10％増えますが、最終成果の信頼性が大きく高まります。", hints: ["increase the cost by ...", "much more reliable"] },
       { speaker: "partner", en: "Let me think about it. Can you send me a short written proposal?", ja: "少し考えさせてください。簡単な提案書を送ってもらえますか？" },
       { speaker: "user", task: "承諾し、期限を約束して締める", model: "Of course. I'll send you a one-page proposal by tomorrow afternoon. Thank you for considering it.", ja: "もちろんです。明日の午後までに1枚の提案書をお送りします。ご検討ありがとうございます。", hints: ["I'll send you ... by ...", "Thank you for considering it"] }
+    ]
+  },
+  {
+    id: "w2640-rp1",
+    title: "英語面接（自己紹介と志望動機）",
+    level: "★★☆",
+    userRole: "応募者（あなた）",
+    partnerRole: "面接官（Ms. Carter）",
+    description: "英語での面接で、自己紹介・強み・志望動機・逆質問を通じて自分を伝える場面。落ち着いて簡潔に答える型を身につける。",
+    turns: [
+      { speaker: "partner", en: "Thank you for coming in today. Could you start by telling me a little about yourself?", ja: "本日はお越しいただきありがとうございます。まず簡単に自己紹介をお願いできますか？" },
+      { speaker: "user", task: "簡潔に自己紹介する（現職と経験年数）", model: "Of course. I currently work as a marketing coordinator, and I've been in the field for about five years.", ja: "もちろんです。現在はマーケティング担当として働いており、この分野での経験は約5年です。", hints: ["I currently work as ...", "I've been in the field for ..."] },
+      { speaker: "partner", en: "Great. What would you say is your biggest strength?", ja: "いいですね。あなたの最大の強みは何だと思いますか？" },
+      { speaker: "user", task: "強みを一つ、具体例とともに述べる", model: "I'd say my biggest strength is staying organized under pressure. Even with tight deadlines, I keep projects on track.", ja: "私の最大の強みは、プレッシャーの中でも整理して物事を進められることです。厳しい締切でもプロジェクトを順調に保ちます。", hints: ["my biggest strength is ...", "under pressure"] },
+      { speaker: "partner", en: "Why are you interested in working with our company?", ja: "なぜ当社で働きたいと思うのですか？" },
+      { speaker: "user", task: "志望動機を伝える（会社の価値観・成長に共感）", model: "I admire how your company values creativity, and I'd love to grow while helping your team reach new customers.", ja: "御社が創造性を重視している点に魅力を感じており、チームが新しい顧客を獲得する手伝いをしながら成長したいです。", hints: ["I admire how ...", "I'd love to grow"] },
+      { speaker: "partner", en: "Do you have any questions for me?", ja: "何か質問はありますか？" },
+      { speaker: "user", task: "逆質問をする（入社後最初の数か月で期待される成果）", model: "Yes, thank you. What would success look like in this role during the first few months?", ja: "はい、ありがとうございます。この職務では、最初の数か月でどのような成果が成功とされますか？", hints: ["What would success look like ...", "in the first few months"] },
+      { speaker: "partner", en: "That's a thoughtful question. We'll be in touch soon with the next steps.", ja: "良い質問ですね。次の段階について近いうちにご連絡します。" }
     ]
   }
 ];
