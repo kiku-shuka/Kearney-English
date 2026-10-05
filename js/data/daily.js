@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-05",
+    passages: [
+      {
+        id: "d1005-1",
+        title: "Why Companies Buy Other Companies",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "In the business news, you often hear that one company has bought another. A large technology firm might buy a small startup, or two banks might join to become one. These deals, known as mergers and acquisitions, can involve enormous amounts of money. But why would a company spend so much to buy another business?\n\nOne common reason is speed. Building a new product or entering a new market can take years. By buying a company that already does these things well, a firm can save time. For example, a big company might buy a small startup not just for its product, but for its talented team and new ideas.\n\nAnother reason is to reduce competition. If two companies that sell similar products join together, they may gain a larger share of the market. Sometimes a company buys a rival simply to become the clear leader in its field.\n\nCompanies also buy others to offer more to their customers. A firm that sells software might buy a company that provides customer support, so it can offer a complete service in one place.\n\nHowever, these deals are not always successful. Two companies may have very different ways of working, and combining them can be difficult. Workers may worry about losing their jobs, and customers may dislike the changes. Studies show that many large deals fail to bring the hoped-for benefits.\n\nSo when you read that one company has bought another, remember that behind the big numbers lies a careful bet on the future.",
+        summaryJa: "企業が他社を買収する理由について。ニュースでよく聞く合併・買収（M&A）には巨額の資金が動く。主な理由の一つは時間の節約で、既に得意な会社を買えば新製品開発や新市場参入の年月を省ける。第二に競争の緩和で、似た会社が一つになれば市場シェアを拡大できる。第三に顧客への提供価値を高めるためで、関連サービスの会社を買い一括提供する。ただし企業文化の違いから統合は難しく、多くの大型買収は期待した成果を上げられないという研究もある。",
+        quiz: [
+          { q: "What are 'mergers and acquisitions'?", options: ["Deals where companies join or buy each other", "A type of tax", "A kind of product"], answer: 0 },
+          { q: "Why might a big company buy a small startup?", options: ["To save time and get new ideas", "To close it immediately", "To avoid making money"], answer: 0 },
+          { q: "What does the passage say about large deals?", options: ["They always succeed", "Many fail to bring the hoped-for benefits", "They never involve much money"], answer: 1 }
+        ]
+      },
+      {
+        id: "d1005-2",
+        title: "Robots in Space: Helping Hands on the Station",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "High above the Earth, astronauts live and work on the International Space Station, or ISS. Life there is exciting, but also dangerous. Going outside the station, into open space, is one of the riskiest parts of the job. To make this work safer, engineers have built a special helper: the robotic arm.\n\nA robotic arm is a long mechanical limb attached to the outside of the station. It can bend and turn much like a human arm, but it is far stronger and does not need air, food, or rest. Astronauts control it from inside, using cameras and screens to see what the arm is doing.\n\nThese arms do many important jobs. They can catch arriving spacecraft and connect them gently to the station. They can move heavy equipment, hold tools, and even carry an astronaut to a work site. By doing the heavy and dangerous tasks, the arm lets humans stay safely inside more often.\n\nEngineers keep improving space robots. Newer designs can do more delicate work, and some may one day repair satellites or build large structures in orbit. Companies on Earth are now developing new robotic arms to send up to the station, adding fresh skills to the crew's toolkit.\n\nSpace is a hard place for humans, but it is a natural home for machines. Working together, astronauts and robots can do more than either could alone. In the future, these mechanical helpers may be essential partners as people travel even farther from Earth.",
+        summaryJa: "宇宙ステーションのロボットアームについて。国際宇宙ステーション（ISS）での船外活動は最も危険な作業の一つで、それを安全にするためにロボットアームが作られた。人間の腕のように曲がり回るが、はるかに強く、空気も食事も休息も要らない。宇宙飛行士は内部からカメラと画面で操作する。到着した宇宙船を捕まえて連結し、重い機材を動かし、飛行士を作業場所へ運ぶ。危険で重い作業を担うことで人間は安全に内部にいられる。新型の開発も進み、将来は衛星修理や軌道上での建設も期待される。",
+        quiz: [
+          { q: "What is a robotic arm on the ISS used for?", options: ["Doing heavy and dangerous jobs", "Cooking food for astronauts", "Flying the station to Earth"], answer: 0 },
+          { q: "How do astronauts control the arm?", options: ["From inside, using cameras and screens", "By going outside every time", "They cannot control it"], answer: 0 },
+          { q: "What might future space robots do?", options: ["Repair satellites and build structures", "Replace the Earth", "Stop all space travel"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1005-3",
+        title: "How Countries Help Each Other After Disasters",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When a powerful earthquake, flood, or storm strikes, the damage can be too great for one country to handle alone. Buildings fall, roads break, and thousands of people may need food, water, and medical care at once. In these moments, something remarkable often happens: other countries rush to help.\n\nThis kind of help is called international disaster relief. Within hours of a major disaster, nations may send rescue teams, doctors, and supplies. Specially trained workers, sometimes with dogs, search through fallen buildings for survivors. Aircraft bring tents, clean water, and food to areas that have lost everything.\n\nWhy do countries help strangers far away? One reason is simple human kindness; people naturally want to ease the suffering of others. There are also practical reasons. A country that helps others today may need help itself tomorrow, since disasters can strike anywhere. By working together, nations build trust and friendship that last beyond the emergency.\n\nCooperation is not always easy. Aid must be organized quickly, and teams from different countries must work together despite language differences. Sometimes supplies are delayed, or the greatest needs are hard to reach. International groups help by coordinating the effort so that help arrives where it is needed most.\n\nNatural disasters remind us how fragile life can be, but they also reveal something hopeful. Again and again, when one part of the world suffers, people from many nations reach out their hands. In the face of disaster, humanity often shows its best side.",
+        summaryJa: "災害後に国どうしが助け合う仕組みについて。大地震や洪水、嵐が襲うと被害は一国では対処できないほど大きくなり、他国がすぐ支援に駆けつける。これを国際災害援助と呼び、数時間以内に救助隊や医師、物資が送られ、倒壊した建物で生存者を捜索し、テントや水、食料を届ける。理由は人としての思いやりに加え、災害はどこでも起こりうるため助け合いが信頼と友情を生むという実利もある。言語の違いなど調整は容易でないが、国際機関が全体を調整する。災害は命のもろさと同時に人類の善良さを映し出す。",
+        quiz: [
+          { q: "What is 'international disaster relief'?", options: ["Countries sending help after a disaster", "A type of natural disaster", "A country refusing to help"], answer: 0 },
+          { q: "What is one reason countries help others?", options: ["Human kindness and future trust", "To make disasters worse", "To avoid friendship"], answer: 0 },
+          { q: "What makes cooperation difficult?", options: ["Language differences and delays", "Having too many doctors", "Disasters being too small"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1005-4",
+        title: "The Art of Origami",
+        level: "★★☆",
+        genre: "日本",
+        text: "Take a simple square of paper, make a few careful folds, and watch it turn into a crane, a flower, or a jumping frog. This is origami, the Japanese art of paper folding. The word comes from two Japanese words: ori, meaning to fold, and kami, meaning paper. With no scissors and no glue, origami creates beautiful shapes using only folds.\n\nOrigami has a long history in Japan. Hundreds of years ago, paper was expensive, so folded paper figures were used in special ceremonies. Over time, as paper became cheaper, origami grew into a popular hobby for both children and adults. Today it is known and loved all around the world.\n\nThe most famous origami model is the paper crane. In Japan, the crane is a symbol of good luck and long life. There is a well-known tradition that if a person folds one thousand paper cranes, their wish may come true. Many people fold cranes as a sign of hope and peace.\n\nOrigami is more than just a pastime. Teachers use it to help children learn about shapes and patience. Surprisingly, it has also helped science. Engineers study origami folds to design objects that must open and close, such as solar panels for satellites and tiny medical devices.\n\nFrom a child's toy to advanced technology, origami shows how something simple can be powerful. All it takes is a sheet of paper, steady hands, and a little imagination to create something wonderful.",
+        summaryJa: "日本の折り紙について。一枚の正方形の紙を丁寧に折るだけで鶴や花、跳ねるカエルになる。「折り紙」は「折る」と「紙」を合わせた言葉で、はさみも糊も使わず折りだけで美しい形を作る。昔は紙が高価で儀式に使われたが、安くなると子どもから大人までの趣味になり、今や世界中で愛される。最も有名なのは鶴で、幸運と長寿の象徴とされ、千羽折ると願いがかなうという伝えもある。折り紙は図形や忍耐の学習にも役立ち、衛星の太陽光パネルや小型医療機器の設計など科学にも応用されている。",
+        quiz: [
+          { q: "What does the word 'origami' mean?", options: ["To fold paper", "To cut paper", "To paint paper"], answer: 0 },
+          { q: "What does the paper crane symbolize in Japan?", options: ["Good luck and long life", "Bad weather", "Hard work"], answer: 0 },
+          { q: "How has origami helped science?", options: ["It helps design objects that open and close", "It replaces all machines", "It stops space travel"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1005-5",
+        title: "The Nobel Prizes: Celebrating Great Ideas",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Each year in early October, the world turns its attention to a special announcement. One by one, the winners of the Nobel Prizes are revealed. For many scientists, writers, and peacemakers, winning a Nobel Prize is the highest honor of their lives. But what are these famous prizes, and where did they come from?\n\nThe prizes are named after Alfred Nobel, a Swedish inventor who lived in the 1800s. Nobel became very rich by inventing dynamite. Late in life, he decided to use his fortune for a better purpose. In his will, he asked that prizes be given each year to people who had done the greatest good for humanity.\n\nToday there are prizes in several fields: physics, chemistry, medicine, literature, peace, and economics. Winners receive a gold medal, a certificate, and a large sum of money. More importantly, they receive the respect of people around the world.\n\nMany Nobel discoveries have changed our lives. Prizes have been given for understanding diseases, for new medicines, and for ideas that led to computers and the internet. The Peace Prize has honored people who worked to end wars or protect human rights.\n\nThe Nobel Prizes remind us that curiosity and kindness matter. They show that one person's hard work, whether in a laboratory or in a troubled region, can improve life for millions. Every October, the prizes celebrate the best of what human beings can achieve.",
+        summaryJa: "ノーベル賞について。毎年10月初旬に受賞者が次々と発表され、多くの科学者や作家、平和活動家にとって人生最高の栄誉となる。賞はダイナマイトを発明して富を築いたスウェーデンの発明家アルフレッド・ノーベルにちなむ。彼は遺言で、人類に最大の貢献をした人へ毎年賞を贈るよう求めた。現在は物理学・化学・医学・文学・平和・経済の分野があり、受賞者は金メダルと賞状、賞金、そして世界中の敬意を受ける。病気の解明や新薬、コンピューターやインターネットにつながる発見などが称えられてきた。好奇心と思いやりの大切さを思い出させてくれる。",
+        quiz: [
+          { q: "Who was Alfred Nobel?", options: ["A Swedish inventor who invented dynamite", "A famous singer", "A king of Sweden"], answer: 0 },
+          { q: "In which fields are Nobel Prizes given?", options: ["Only sports", "Physics, chemistry, medicine, literature, peace, economics", "Only music and art"], answer: 1 },
+          { q: "What do the Nobel Prizes remind us, according to the passage?", options: ["That curiosity and kindness matter", "That money is useless", "That science is boring"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-04",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Does the moon really change shape?", options: ["No — we see its lit half from different angles as it orbits the Earth", "Yes, it grows and shrinks", "Yes, it melts"], answer: 0 },
           { q: "Why does the moon shine?", options: ["Like a mirror, the sun's light falls on it; it makes no light of its own", "It burns like a fire", "It has a light bulb inside"], answer: 0 },
           { q: "Where does the idea of a 'month' come from?", options: ["The cycle of the moon's phases, which repeats about once a month", "The number of days in a week", "The seasons only"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-28",
-    passages: [
-      {
-        id: "d0928-1",
-        title: "Why Companies Invest in Research",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Every product we use, from a phone to a medicine to a snack, once began as an idea that had to be developed and tested. This work is called research and development, often shortened to R&D. Many successful companies spend a large amount of money on it, even though it may not bring any profit for years. Why do they take this risk?\n\nThe main reason is the future. The products that make a company money today will not sell forever. Customers' needs change, and rivals catch up. A company that stops improving will slowly fall behind. By investing in research, a business creates the new products and better methods it will need to survive tomorrow.\n\nR&D can take many forms. Some companies run laboratories where scientists explore new ideas. Others test and improve their products, or study how customers behave. A little of this work leads to a big breakthrough; much of it quietly makes existing products a bit better.\n\nThe difficulty is that research is uncertain. Money is spent long before any reward appears, and many experiments fail. A company must be patient and willing to lose some bets in order to win a few big ones.\n\nYet history shows that the boldest inventions — new medicines, faster computers, cleaner energy — usually came from someone willing to invest in ideas that did not yet pay. In business, research is a bet on tomorrow, and it is often the wisest bet of all.",
-        summaryJa: "電話から薬、お菓子まで、私たちが使うあらゆる製品は、かつて開発され試験されねばならない一つの発想として始まった。この仕事を研究開発、しばしばR&Dと略す。多くの成功した企業は、何年も利益をもたらさないかもしれないのに、これに大金を使う。なぜこの危険を冒すのか。主な理由は未来だ。今日会社にお金をもたらす製品も永遠には売れない。客のニーズは変わり、競合が追いつく。改善をやめた会社はゆっくり遅れをとる。研究に投資することで、企業は明日生き延びるのに必要な新製品やより良い手法を生む。R&Dは多くの形をとる。科学者が新しい発想を探る研究所を持つ会社もある。製品を試し改良したり、客の行動を研究したりする会社もある。この仕事の一部は大きな飛躍につながり、多くは既存の製品を静かに少し良くする。難しいのは研究が不確実なことだ。報いが現れるずっと前にお金が使われ、多くの実験は失敗する。会社は忍耐強く、いくつかの大きな勝ちを得るため、いくつかの賭けに負ける覚悟が要る。だが歴史は、最も大胆な発明——新薬、速いコンピューター、清潔なエネルギー——がたいてい、まだ報われない発想に投資する人から生まれたと示す。ビジネスで研究は明日への賭けで、しばしば最も賢い賭けだ。",
-        quiz: [
-          { q: "What is 'R&D'?", options: ["Research and development — the work of creating and testing new ideas and products", "A type of shop", "A way to fire workers"], answer: 0 },
-          { q: "Why do companies invest in research despite the risk?", options: ["Today's products won't sell forever, so they need new ones to survive tomorrow", "Because research always makes instant money", "To avoid ever changing"], answer: 0 },
-          { q: "What makes research difficult?", options: ["It is uncertain: money is spent long before any reward, and many experiments fail", "It is always cheap and easy", "It never fails"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0928-2",
-        title: "How a Microwave Cooks Your Food",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "A microwave oven can heat a bowl of soup in a minute, without any flame and without getting very hot itself. To many people this seems almost magical. But the microwave works on a clever and simple piece of science, hidden inside its metal box.\n\nInside the oven is a device that produces invisible waves of energy, called microwaves. These are a kind of wave, similar in family to radio waves and light, but tuned to a special length. When you turn the oven on, these waves fill the cooking space and pass into the food.\n\nHere is the key. Microwaves are very good at shaking the tiny water particles found in almost all food. As the waves pass through, they make these water particles vibrate back and forth very quickly. This fast movement creates heat, and so the food warms up from the inside out, cooked by its own jiggling water.\n\nThis explains some things you may have noticed. Very dry foods heat slowly, because they have little water to shake. And the metal walls of the oven bounce the waves back inside, which is also why you should never put metal objects in a microwave.\n\nThe microwave oven is a wonderful example of turning science into everyday convenience. A hidden wave, a little water, and a few seconds — and a cold meal becomes a warm one, all thanks to a clever understanding of how energy moves.",
-        summaryJa: "電子レンジは、炎もなく、それ自体はあまり熱くならずに、一分でスープの器を温められる。多くの人にはほとんど魔法に見える。だが電子レンジは、金属の箱の中に隠れた巧みで単純な科学で働く。オーブンの中には、マイクロ波と呼ばれる目に見えないエネルギーの波を作る装置がある。これは電波や光と同じ仲間の波の一種だが、特別な長さに調整されている。オーブンをつけると、この波が調理空間を満たし食べ物の中に入る。ここが鍵だ。マイクロ波は、ほぼすべての食べ物にある小さな水の粒子を揺らすのがとても得意だ。波が通り抜けると、この水の粒子を素早く前後に振動させる。この速い動きが熱を生み、食べ物は内側から温まる。自らの揺れる水で調理されるのだ。これは気づいたことのいくつかを説明する。とても乾いた食べ物は、揺らす水が少ないので温まりが遅い。そしてオーブンの金属の壁は波を中へ跳ね返す。だから電子レンジに金属を入れてはいけない。電子レンジは科学を日常の便利さに変える見事な例だ。隠れた波、少しの水、数秒——そして冷たい食事が温かくなる。エネルギーがどう動くかの巧みな理解のおかげだ。",
-        quiz: [
-          { q: "What does a microwave oven make to cook food?", options: ["Invisible waves of energy called microwaves", "A hidden flame", "Hot water only"], answer: 0 },
-          { q: "How do microwaves heat the food?", options: ["They make the water particles in food vibrate quickly, which creates heat", "They paint the food", "They freeze the food first"], answer: 0 },
-          { q: "Why do very dry foods heat slowly in a microwave?", options: ["They have little water to shake", "They are too big", "They reflect all the waves"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0928-3",
-        title: "The Roads and Bridges That Connect Us",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Every day, we use roads, bridges, railways, ports, water pipes, and power lines without much thought. Together, these are called infrastructure — the basic structures that a society needs to function. Though we rarely notice it when it works, infrastructure quietly shapes the life of every country on Earth.\n\nGood infrastructure brings enormous benefits. A road lets farmers carry crops to market. A bridge connects a village to a hospital. Clean water pipes keep people healthy, and electric lines power schools and businesses. When these systems work well, life becomes easier, safer, and more prosperous. A country with strong infrastructure can grow and trade with the world.\n\nBuilding and maintaining infrastructure is a huge and costly task. Roads crack, bridges age, and pipes wear out. Governments must plan carefully and spend wisely, often over many years. Poorer countries may struggle to afford the systems they need, while richer ones must keep repairing what they already have.\n\nAround the world, nations sometimes work together on large projects, sharing money and knowledge. Building a railway or a power line can connect not just towns, but whole countries.\n\nInfrastructure is easy to take for granted, precisely because it usually works. But the next time you cross a bridge or turn on a tap, remember the vast, hidden network beneath modern life. Quietly, it holds our societies together and carries us into the future.",
-        summaryJa: "毎日、私たちはあまり考えずに道路や橋、鉄道、港、水道管、電線を使う。合わせてこれらをインフラ——社会が機能するために必要な基本的な構造——という。うまく働いているときはめったに気づかないが、インフラは地球のあらゆる国の暮らしを静かに形づくる。良いインフラは莫大な恩恵をもたらす。道路は農家が作物を市場へ運ぶのを可能にする。橋は村を病院につなぐ。清潔な水道管は人々を健康に保ち、電線は学校や事業に電力を供給する。これらがうまく働くと、暮らしはより楽に、安全に、豊かになる。強いインフラを持つ国は成長し世界と貿易できる。インフラの建設と維持は巨大で費用のかかる仕事だ。道路はひび割れ、橋は老い、管はすり減る。政府は慎重に計画し賢く支出せねばならず、しばしば何年もかけて。貧しい国は必要な仕組みを賄うのに苦労し、豊かな国はすでに持つものを直し続けねばならない。世界中で、国々は大きな事業で協力し、お金と知識を分かち合うことがある。鉄道や電線の建設は、町だけでなく国全体をつなぎうる。インフラは、たいていうまく働くからこそ当たり前に思われやすい。だが次に橋を渡り蛇口をひねるとき、現代生活の下の広大な隠れた網を思い出してほしい。静かに、それは社会を一つに保ち、私たちを未来へ運ぶ。",
-        quiz: [
-          { q: "What is 'infrastructure'?", options: ["The basic structures a society needs, like roads, bridges, water pipes, and power lines", "A type of food", "A kind of money"], answer: 0 },
-          { q: "What is one benefit of good infrastructure?", options: ["Roads let farmers reach markets, and bridges connect villages to hospitals", "It makes life harder", "It has no effect on trade"], answer: 0 },
-          { q: "Why is infrastructure easy to take for granted?", options: ["Precisely because it usually works quietly", "Because it never exists", "Because it is always broken"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0928-4",
-        title: "Sushi: A Japanese Art of Food",
-        level: "★★☆",
-        genre: "日本",
-        text: "When people around the world think of Japanese food, one dish often comes to mind first: sushi. Though many imagine it as simply raw fish, sushi is something more precise and more beautiful. At its heart, sushi is a dish built on specially prepared rice, seasoned with a little vinegar, and topped or filled with fresh ingredients.\n\nThere are many kinds of sushi. Some are small mounds of rice with a slice of fish on top; others are rolls wrapped in dark seaweed and cut into rounds. The toppings can be fish, but also egg, vegetables, or shellfish. Not all sushi contains raw fish at all.\n\nMaking good sushi is treated as a serious craft. A master sushi chef may train for many years, learning to cook the rice perfectly, choose the freshest fish, and shape each piece by hand with just the right pressure. The goal is a balance of flavor, texture, and beauty in a single bite.\n\nSushi is also enjoyed in many settings. It can be a special, expensive meal at a fine restaurant, or a quick, cheap treat from a shop where plates travel past on a moving belt.\n\nToday, sushi is loved all over the world, and each country adds its own twist. Yet at its core, it remains a symbol of Japanese cooking: simple, fresh ingredients, prepared with great care, and served with respect for both the food and the person eating it.",
-        summaryJa: "世界中の人が日本の食べ物を思うとき、まず一つの料理が浮かぶことが多い。寿司だ。多くの人は単なる生の魚と想像するが、寿司はもっと精緻で美しいものだ。核心において寿司は、少しの酢で味付けした特別に用意した米の上に、あるいは中に、新鮮な材料を組み合わせた料理だ。寿司には多くの種類がある。米の小さな山に魚の切り身をのせたものもあれば、黒い海苔で巻いて輪切りにしたものもある。具は魚のこともあれば、卵や野菜、貝のこともある。すべての寿司が生の魚を含むわけではない。良い寿司作りは真剣な職人技として扱われる。寿司職人は何年も修行し、米を完璧に炊き、最も新鮮な魚を選び、ちょうどよい力加減で一貫ずつ手で握ることを学ぶ。目標は、一口の中の味、食感、美しさの調和だ。寿司は多くの場面でも楽しまれる。上等な店での特別で高価な食事にも、皿がベルトで流れてくる店での手早く安いごちそうにもなる。今日、寿司は世界中で愛され、各国が独自の工夫を加える。だが核心では、日本料理の象徴であり続ける。簡素で新鮮な材料を大きな心配りで用意し、食べ物と食べる人の双方への敬意とともに供する。",
-        quiz: [
-          { q: "What is sushi built on, at its heart?", options: ["Specially prepared rice seasoned with a little vinegar", "Only raw fish", "Bread and butter"], answer: 0 },
-          { q: "Does all sushi contain raw fish?", options: ["No — toppings can also be egg, vegetables, or shellfish", "Yes, always", "No, it never has fish"], answer: 0 },
-          { q: "Why is making good sushi treated as a serious craft?", options: ["A chef trains for years to cook rice perfectly, choose fresh fish, and shape each piece", "Because it takes no skill", "Because it is made by machines only"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0928-5",
-        title: "The Amazing Human Heart",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Place your hand on your chest, and you will feel it: a steady beat, repeating again and again. That is your heart, one of the hardest-working parts of your body. About the size of your fist, it never takes a rest, beating around a hundred thousand times every single day.\n\nWhat does the heart actually do? Its job is to pump blood. Blood carries oxygen and food to every part of your body, from your brain to your toes, and carries away waste. The heart is the powerful muscle that keeps this life-giving liquid moving. With each beat, it squeezes and pushes blood out through a network of tubes called blood vessels, which reach every corner of the body.\n\nThe heart works in two main halves. One side sends blood to the lungs to pick up fresh oxygen. The other side pumps that oxygen-rich blood out to the rest of the body. In this way, the heart never stops sending fresh supplies where they are needed.\n\nBecause the heart is so important, taking care of it matters greatly. Exercise makes the heart stronger, just like any other muscle. Healthy food, good sleep, and avoiding harmful habits all help it last a long time.\n\nYour heart began beating before you were born and will continue for your whole life, quietly and faithfully. It is a small, tireless pump, and it is one of the true wonders of the living body.",
-        summaryJa: "胸に手を当てると感じるだろう。何度も繰り返す一定の鼓動。それがあなたの心臓、体で最も働き者の部分の一つだ。こぶしほどの大きさで、決して休まず、毎日およそ十万回打つ。心臓は実際何をするのか。その仕事は血液を送り出すことだ。血液は酸素と栄養を、脳からつま先まで体のあらゆる部分へ運び、老廃物を運び去る。心臓はこの命を与える液体を動かし続ける強力な筋肉だ。一打ごとに、血管という管の網を通して血液を絞り出し押し出し、体のすみずみに届く。心臓は主に二つの半分で働く。一方は肺へ血液を送り新鮮な酸素を取り込む。他方はその酸素豊富な血液を体の残りへ送り出す。こうして心臓は必要な所へ新しい供給を送り続ける。心臓はとても重要なので、その世話は大いに大切だ。運動は、他の筋肉と同じく心臓を強くする。健康的な食事、良い睡眠、有害な習慣を避けることがすべて長持ちを助ける。あなたの心臓は生まれる前から打ち始め、一生続く。静かに忠実に。小さく疲れ知らずのポンプであり、生きた体の真の驚異の一つだ。",
-        quiz: [
-          { q: "What is the heart's main job?", options: ["To pump blood, carrying oxygen and food around the body", "To digest food", "To store memories"], answer: 0 },
-          { q: "How do the two halves of the heart work?", options: ["One side sends blood to the lungs for oxygen; the other pumps it to the body", "Both do exactly nothing", "They work only once a year"], answer: 0 },
-          { q: "How can people take care of their heart?", options: ["Exercise, healthy food, good sleep, and avoiding harmful habits", "Never moving at all", "Skipping sleep"], answer: 0 }
         ]
       }
     ]
