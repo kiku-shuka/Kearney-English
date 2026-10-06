@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-06",
+    passages: [
+      {
+        id: "d1006-1",
+        title: "Why Do Prices Change? Supply and Demand",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Have you ever noticed that the price of something can change from week to week? Strawberries may be cheap in summer but expensive in winter. A popular toy may cost more just before a holiday. Behind these changes is one of the most basic ideas in business: supply and demand.\n\n\"Demand\" means how much people want to buy something. \"Supply\" means how much of it is available to sell. When many people want a product but there is not much of it, the price usually goes up. When there is plenty of a product but few people want it, the price usually goes down. Prices are like a meeting point between what buyers want and what sellers have.\n\nThink about strawberries again. In summer, farmers grow a lot of them, so supply is high and prices fall. In winter, few strawberries are grown, so supply is low and prices rise. The fruit is the same, but the balance has changed.\n\nMany things can shift this balance. Bad weather can reduce supply and push prices up. A new fashion can suddenly increase demand. Even news and rumors can make people rush to buy or sell.\n\nUnderstanding supply and demand helps us make better choices. If you know prices often fall when supply is high, you might wait for the right season to buy. Businesses use the same idea to decide how much to produce and what to charge. Once you see it, you will notice supply and demand working almost everywhere.",
+        summaryJa: "価格が変わる理由（需要と供給）について。イチゴは夏は安く冬は高いなど、値段は週ごとに変わる。その背景にあるのが需要と供給という基本概念だ。需要は人がどれだけ買いたいか、供給はどれだけ売りに出ているか。欲しい人が多く品物が少なければ価格は上がり、品物が多く欲しい人が少なければ下がる。悪天候は供給を減らし価格を上げ、流行は需要を急に高める。噂だけで人が殺到することもある。この仕組みを知れば買い時を選べ、企業も生産量や価格を決められる。",
+        quiz: [
+          { q: "What does 'demand' mean?", options: ["How much people want to buy something", "How much is available to sell", "The weather"], answer: 0 },
+          { q: "Why are strawberries cheaper in summer?", options: ["Supply is high in summer", "Nobody wants them", "They taste worse"], answer: 0 },
+          { q: "What can push prices up by reducing supply?", options: ["Bad weather", "More farmers", "Lower demand"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1006-2",
+        title: "How Electric Cars Work",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "More and more electric cars are appearing on the world's roads. They are quiet, they produce no smoke from a tailpipe, and many drivers love them. But how does an electric car actually work, and how is it different from a normal car?\n\nA traditional car burns petrol or diesel inside its engine. The burning fuel creates small explosions that push parts of the engine and turn the wheels. An electric car has no such engine. Instead, it uses a large battery and an electric motor. The battery stores electricity, and the motor uses that electricity to turn the wheels. There is no burning and no fuel tank.\n\nBecause an electric motor has few moving parts, electric cars are smooth and very quiet. They also need less repair, since there is no oil to change and fewer parts to wear out. Many people enjoy how quickly these cars speed up, as the motor gives power almost instantly.\n\nOf course, electric cars also have challenges. The battery must be charged, which can take longer than filling a tank with fuel. Drivers need places to charge, so countries are building more charging stations. The distance a car can travel on one charge is improving every year, but long trips still require planning.\n\nElectric cars are not perfect, and making their batteries uses energy and materials. Still, because they produce no exhaust while driving, many people see them as an important step toward cleaner city air and a quieter, greener future.",
+        summaryJa: "電気自動車の仕組みについて。静かで排気ガスを出さない電気自動車が世界中で増えている。普通の車はエンジン内でガソリンや軽油を燃やし、その爆発で車輪を回す。電気自動車にはエンジンがなく、大きなバッテリーと電気モーターを使う。バッテリーに電気をため、モーターがその電気で車輪を回すので燃焼も燃料タンクもない。可動部が少なく静かで修理も少なく、加速も速い。一方で充電に時間がかかり、充電設備が必要で、1回の充電で走れる距離はまだ計画を要する。それでも走行中に排気を出さないため、きれいな空気への一歩と見られている。",
+        quiz: [
+          { q: "What does an electric car use instead of an engine that burns fuel?", options: ["A battery and an electric motor", "A larger fuel tank", "A steam engine"], answer: 0 },
+          { q: "Why do electric cars need less repair?", options: ["They have fewer moving parts and no oil to change", "They are never driven", "They burn more fuel"], answer: 0 },
+          { q: "What is one challenge of electric cars?", options: ["Charging can take longer than filling a tank", "They make a lot of smoke", "They cannot move at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1006-3",
+        title: "Why Countries Have Embassies",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "In many capital cities, you can find buildings that fly the flags of faraway nations. These are embassies, the official homes of one country inside another. Almost every country keeps embassies abroad. But what exactly do they do, and why are they so important?\n\nAn embassy represents its home country in a foreign land. It is led by an ambassador, a senior official who speaks for their government. Through the embassy, two countries can talk to each other directly, share messages, and build relationships. When leaders disagree, embassies allow them to keep communicating instead of cutting off contact.\n\nEmbassies also help ordinary people. If you lose your passport while travelling abroad, your country's embassy can help you. Embassies issue visas to foreigners who wish to visit, and they support citizens who face trouble, such as an accident or arrest in another country.\n\nAnother important job is building friendship between nations. Embassies organize cultural events, support trade, and help students and businesses connect across borders. In this quiet way, they turn distant countries into partners.\n\nEmbassies follow special international rules. For example, the police of the host country usually cannot enter an embassy without permission, and ambassadors receive special protection. These rules, agreed long ago, help diplomats work safely even during disagreements.\n\nIn a world where countries must share one planet, embassies are bridges. They remind us that even when nations differ, talking is almost always better than silence. Through these quiet offices, the business of peace continues every single day.",
+        summaryJa: "各国が大使館を置く理由について。多くの首都には外国の旗を掲げた建物があり、これが大使館で、ほぼどの国も海外に置いている。大使館は本国を代表し、大使が政府を代弁する。これを通じて二国は直接話し、意見が対立しても連絡を絶たずに済む。旅行中にパスポートを失った自国民を助け、外国人へビザを発給し、事故や逮捕などの困難も支援する。文化行事や貿易、留学・ビジネスの橋渡しも担う。国際ルールで守られ、ホスト国の警察は許可なく立ち入れない。対立しても対話を続ける「橋」として、平和の営みを支えている。",
+        quiz: [
+          { q: "What is an embassy?", options: ["The official home of one country inside another", "A type of airport", "A kind of school"], answer: 0 },
+          { q: "How can an embassy help ordinary travelers?", options: ["By helping if they lose a passport", "By selling cars", "By cooking meals"], answer: 0 },
+          { q: "What special rule protects embassies?", options: ["Host police usually cannot enter without permission", "Anyone can enter freely", "They must close during disagreements"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1006-4",
+        title: "Japanese Gardens: Peace in a Small Space",
+        level: "★★☆",
+        genre: "日本",
+        text: "Step through a gate into a Japanese garden, and the noisy city seems to disappear. Instead of straight lines and bright flowers, you find winding paths, quiet ponds, and carefully placed stones. A Japanese garden is designed not just to look beautiful, but to bring a feeling of calm. For hundreds of years, these gardens have been treasured places for rest and reflection.\n\nJapanese gardens often try to copy nature in a small space. A large rock may stand for a mountain, and a pond may represent the sea. White sand, raked into gentle lines, can suggest flowing water, even where there is no water at all. Nothing is placed by accident; every tree and stone has its purpose.\n\nUnlike some gardens that burst with color, Japanese gardens prefer soft greens and simple shapes. The beauty comes from balance and empty space. A single maple tree turning red in autumn can mean more than a field of flowers. Visitors are invited to slow down and notice small details.\n\nMany famous gardens are found beside temples, where monks once used them for quiet thought. Some gardens have no plants at all, only rocks and raked sand; these are known as dry gardens. People can sit for a long time, looking at the simple pattern and letting their minds grow still.\n\nIn a busy modern world, Japanese gardens offer a gift that never grows old: a small, peaceful place where a person can breathe slowly and feel at ease.",
+        summaryJa: "日本庭園について。門をくぐると街の喧騒が消え、曲がりくねった小道や静かな池、丁寧に置かれた石が現れる。日本庭園は美しさだけでなく心の静けさをもたらすよう設計されている。狭い空間で自然を映し、大きな石は山、池は海を表し、白砂を熊手で描いた線は水の流れを思わせる。すべてに意味があり偶然に置かれたものはない。華やかな色より柔らかな緑と簡素な形を好み、余白と調和に美がある。寺のそばには僧が瞑想に使った庭も多く、植物を使わず石と砂だけの「枯山水」もある。忙しい現代でゆっくり呼吸できる安らぎの場を与えてくれる。",
+        quiz: [
+          { q: "What is the main purpose of a Japanese garden?", options: ["To bring a feeling of calm", "To grow food", "To hold sports events"], answer: 0 },
+          { q: "In a Japanese garden, what might white raked sand suggest?", options: ["Flowing water", "A busy road", "A tall building"], answer: 0 },
+          { q: "What is a 'dry garden'?", options: ["A garden with only rocks and raked sand", "A garden full of flowers", "A garden under water"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1006-5",
+        title: "How the Body Heals Itself",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "If you cut your finger, something amazing happens over the next few days. Without any medicine, the wound slowly closes, and new skin grows. Your body is repairing itself. This power to heal is one of the most remarkable things about living creatures, and scientists are still learning how it works.\n\nHealing begins almost at once. When you get a cut, tiny parts of your blood called platelets gather at the wound and help it stop bleeding by forming a clot. Soon after, special cells arrive to clean away dirt and germs. Then the body starts to build new tissue, closing the gap bit by bit until the skin is whole again.\n\nNot every part of the body heals equally well. Skin and bone can repair themselves quite effectively. Other tissues, such as the cartilage in our knees, heal very slowly or not at all. This is why injuries to joints can trouble people for years, and why scientists are working hard to find new ways to help such tissues grow back.\n\nOur daily habits affect how well we heal. Good food gives the body the materials it needs to build new cells. Sleep is also vital, because much repair happens while we rest. Smoking and too much stress, on the other hand, can slow healing down.\n\nThe human body is not a machine that simply wears out. It is always rebuilding itself, quietly and constantly. Understanding this helps doctors heal patients, and reminds us to care for the remarkable body we live in.",
+        summaryJa: "体が自ら治る仕組みについて。指を切っても薬なしで数日で傷は閉じ、新しい皮膚ができる。この自己治癒力は生き物の驚くべき特徴で、科学者は今も研究している。傷ができるとすぐ、血液中の血小板が集まって血を固め、特別な細胞が汚れや細菌を除去し、やがて新しい組織を作って隙間を埋める。皮膚や骨はよく治るが、膝の軟骨などはほとんど治らず、関節の怪我が長く続く理由であり、科学者は再生法を探っている。食事は新しい細胞の材料となり、睡眠中に多くの修復が起こる。喫煙や過度なストレスは治りを遅らせる。体は絶えず自らを作り直している。",
+        quiz: [
+          { q: "What do platelets do when you get a cut?", options: ["Help stop bleeding by forming a clot", "Make the cut bigger", "Produce new bones"], answer: 0 },
+          { q: "Which tissue heals very slowly or not at all?", options: ["Cartilage in the knees", "Skin", "Blood"], answer: 0 },
+          { q: "What helps the body heal well?", options: ["Good food and enough sleep", "Smoking", "Lots of stress"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-05",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is special about bats among mammals?", options: ["They are the only mammals that can truly fly", "They cannot move at all", "They only live in water"], answer: 0 },
           { q: "How does echolocation work?", options: ["A bat sends out high squeaks and listens to the echoes to sense the world", "A bat uses a flashlight", "A bat reads a map"], answer: 0 },
           { q: "Why are bats useful to us?", options: ["They eat pest insects, spread pollen and seeds, and help plants grow", "They harm all crops", "They do nothing helpful"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-29",
-    passages: [
-      {
-        id: "d0929-1",
-        title: "Why Making More Can Cost Less",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Here is a puzzle from the world of business: often, the more of something a company makes, the cheaper each item becomes to produce. Making a million cups can cost far less per cup than making a hundred. This idea is called \"economies of scale,\" and it shapes much of the modern economy.\n\nWhy does this happen? Some costs do not grow when you make more. A company must design a product, build a factory, and buy machines whether it makes ten items or ten thousand. When those large, fixed costs are spread across many products, the cost of each single item drops.\n\nBuying in bulk helps too. A company that buys huge amounts of materials can often get a lower price. Large machines and smooth systems can also work faster and waste less.\n\nEconomies of scale explain why big companies can sometimes sell things so cheaply, and why it can be hard for a small newcomer to compete on price alone.\n\nBut bigger is not always better. If a company grows too large, it can become slow and hard to manage. Communication breaks down, and decisions take longer. Beyond a certain point, size can start to add costs instead of cutting them.\n\nWise businesses look for the right size for what they do. Understanding economies of scale helps explain a great deal about how our world of goods and prices really works — and why the giant factory and the tiny workshop both still exist.",
-        summaryJa: "ビジネスの世界の謎がある。しばしば、会社が何かを多く作るほど、一つあたりの製造費は安くなる。カップを百万個作る方が、百個作るより一個あたりずっと安くつきうる。この考えを「規模の経済」といい、現代経済の多くを形づくる。なぜ起きるのか。多く作っても増えない費用がある。会社は製品を設計し、工場を建て、機械を買わねばならない。十個作ろうと一万個作ろうとだ。この大きな固定費が多くの製品に分散されると、一個あたりの費用は下がる。大量購入も役立つ。材料を大量に買う会社はしばしば安い価格を得られる。大きな機械や滑らかな仕組みも、より速く働き無駄が少ない。規模の経済は、なぜ大企業が時に物をとても安く売れるか、なぜ小さな新参者が価格だけで競うのが難しいかを説明する。だが大きいほど良いとは限らない。会社が大きくなりすぎると、遅く管理しにくくなりうる。意思疎通が崩れ、決定に時間がかかる。ある点を超えると、規模は費用を削るどころか加え始めうる。賢い企業は自分のすることに合う適切な規模を探す。規模の経済を理解すると、物と価格の世界が実際どう働くか、そしてなぜ巨大工場と小さな工房の両方がなお存在するかがよく分かる。",
-        quiz: [
-          { q: "What are 'economies of scale'?", options: ["Making more of something often lowers the cost of each item", "Making more always costs more per item", "A type of weighing machine"], answer: 0 },
-          { q: "Why does making more lower the cost per item?", options: ["Large fixed costs are spread across many products, and bulk buying is cheaper", "Because machines get more expensive", "Because materials cost more in bulk"], answer: 0 },
-          { q: "Why is bigger not always better?", options: ["A company that grows too large can become slow and hard to manage", "Large companies never have problems", "Size always cuts costs forever"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0929-2",
-        title: "How Airplanes Stay in the Sky",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "It can seem impossible that a machine weighing hundreds of tons can lift into the air and stay there. Yet every day, thousands of airplanes fly safely around the world. The secret is not magic, but a careful use of air, shape, and speed.\n\nThe key is the wing. If you look closely, an airplane wing has a special shape: rounded and curved on top, flatter underneath. As the plane rushes forward, air flows over and under the wing. Because of the wing's shape, the air moving over the top travels a little faster than the air below. This difference creates lower pressure above the wing and higher pressure below it. The higher pressure underneath pushes the wing — and the whole plane — upward. This upward push is called lift.\n\nTo create enough lift, the plane must move very fast. That is the job of the engines, which push the aircraft forward with great power. Speed plus the wing's clever shape equals flight.\n\nPilots control the plane using movable parts on the wings and tail. By adjusting these, they can climb, turn, and descend smoothly and safely.\n\nFlight is one of humanity's greatest achievements. For most of history, people could only dream of joining the birds. Now, thanks to a deep understanding of air and motion, we cross oceans in hours. The next time you see a plane overhead, remember the quiet science holding it up.",
-        summaryJa: "数百トンの機械が空に上がり、そこに留まれるとは不可能に見えるかもしれない。だが毎日、何千もの飛行機が世界中を安全に飛ぶ。秘密は魔法でなく、空気と形と速さの入念な利用だ。鍵は翼だ。よく見ると飛行機の翼は特別な形をしている。上は丸く湾曲し、下は平らだ。機体が前へ突き進むと、空気が翼の上と下を流れる。翼の形のため、上を通る空気は下より少し速く進む。この差が翼の上に低い気圧、下に高い気圧を生む。下の高い気圧が翼——そして機体全体——を上へ押す。この上向きの押しを揚力という。十分な揚力を生むには、機体はとても速く動かねばならない。それがエンジンの仕事で、大きな力で機を前へ押す。速さと翼の巧みな形が合わさって飛行になる。パイロットは翼や尾の動く部分で機を操る。これを調整して、滑らかに安全に上昇し、旋回し、降下できる。飛行は人類最大の達成の一つだ。歴史の大半、人は鳥に加わることを夢見るだけだった。今、空気と運動の深い理解のおかげで、私たちは数時間で海を渡る。次に頭上の飛行機を見たら、それを支える静かな科学を思い出してほしい。",
-        quiz: [
-          { q: "What is the key part that lets a plane fly?", options: ["The wing, with its special curved shape", "The seats", "The windows"], answer: 0 },
-          { q: "How does the wing create 'lift'?", options: ["Air moves faster over the top, making lower pressure above and higher below, pushing up", "By flapping like a bird", "By being very heavy"], answer: 0 },
-          { q: "Why must a plane move very fast?", options: ["To create enough lift, which is the job of the engines", "To use more fuel for fun", "So the wings can rest"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0929-3",
-        title: "Money Around the World",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Travel from one country to another, and you will quickly notice something: the money changes. One nation uses dollars, another uses yen, another uses euros. Almost every country has its own kind of money, called its currency. Why does the world not simply use one single money for everyone?\n\nThe answer is tied to how countries run their own economies. A nation's currency is a tool its government and central bank use to manage prices, jobs, and growth. By controlling their own money, countries can respond to their own needs, which would be much harder if everyone shared one currency.\n\nBecause there are many currencies, we need a way to trade one for another. This is done through \"exchange rates,\" which say how much of one currency you get for another. These rates change all the time, rising and falling based on trade, interest rates, and confidence in each economy.\n\nExchange rates matter to everyone, not just travelers. When a country's money becomes weaker, its exports can become cheaper for foreigners to buy, which may help its businesses. But imported goods become more expensive at home. A stronger currency does the opposite.\n\nSome groups of countries have chosen to share a single currency to make trade easier among them, though this brings both benefits and challenges.\n\nSo the world's many currencies are more than just different coins and notes. They are tools that let each country steer its own economy, all connected in a vast, ever-shifting global market.",
-        summaryJa: "ある国から別の国へ旅すると、すぐに気づくことがある。お金が変わるのだ。ある国はドル、別は円、また別はユーロを使う。ほぼどの国にも独自のお金、通貨がある。なぜ世界は皆で一つのお金を使わないのか。答えは各国が自国の経済をどう運営するかに結びつく。国の通貨は、政府と中央銀行が物価や雇用、成長を管理するために使う道具だ。自国のお金を制御することで、国は自らの必要に応えられる。皆が一つの通貨を共有すればずっと難しくなる。多くの通貨があるので、一つを別のものに換える方法が要る。これは「為替レート」で行われ、ある通貨で別の通貨をどれだけ得られるかを示す。このレートは絶えず変わり、貿易や金利、各経済への信頼によって上下する。為替レートは旅行者だけでなく皆に関わる。国のお金が弱くなると、輸出は外国人に安く買え、その事業を助けうる。だが輸入品は国内で高くなる。強い通貨は逆だ。貿易を互いに容易にするため単一通貨を共有することを選んだ国の集まりもあるが、利点と課題の両方をもたらす。世界の多くの通貨は、単なる異なる硬貨や紙幣以上のものだ。各国が自国の経済を操る道具であり、広大で絶えず動く世界市場ですべてつながっている。",
-        quiz: [
-          { q: "Why does almost every country have its own currency?", options: ["A currency is a tool to manage its own prices, jobs, and growth", "Because coins look nicer that way", "For no reason at all"], answer: 0 },
-          { q: "What are 'exchange rates'?", options: ["How much of one currency you get for another", "The number of banks in a country", "A type of tax"], answer: 0 },
-          { q: "What can happen when a country's money becomes weaker?", options: ["Its exports can become cheaper for foreigners, but imports cost more at home", "Nothing changes at all", "All prices become fixed forever"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0929-4",
-        title: "The Way of the Samurai",
-        level: "★★☆",
-        genre: "日本",
-        text: "For hundreds of years, Japan was shaped by a class of warriors known as the samurai. Skilled with the sword and loyal to their lords, they were the fighters of old Japan. But the samurai were more than soldiers. They followed a code of honor and behavior that still influences Japanese culture today.\n\nThis code is often called \"bushido,\" meaning \"the way of the warrior.\" It valued qualities such as courage, honesty, self-control, and above all, loyalty. A samurai was expected to be brave in battle but also calm, polite, and fair in daily life. Many samurai studied not only fighting, but also poetry, calligraphy, and the tea ceremony, believing that a true warrior should have a rich and disciplined mind.\n\nLoyalty was central. A samurai served a lord and was expected to be faithful, even in hard times. Honor mattered more than personal comfort or safety. To lose one's honor was considered worse than to lose one's life.\n\nThe age of the samurai ended long ago, as Japan changed and modernized. Yet their spirit did not vanish. The values of discipline, respect, loyalty, and doing one's duty with dignity can still be seen in Japanese schools, companies, and sports today.\n\nThe samurai remind us that real strength is not only about power. It is also about character — being honest, self-controlled, and faithful to what one believes is right, in good times and bad.",
-        summaryJa: "何百年もの間、日本は侍と呼ばれる武士の階級によって形づくられた。刀に長け主君に忠実な、古い日本の戦士だった。だが侍は兵士以上の存在だった。今日の日本文化になお影響する、名誉と行動の規範に従った。この規範はしばしば「武士道」——武士の道——と呼ばれる。勇気、正直、自制、そして何より忠誠といった資質を重んじた。侍は戦で勇敢であると同時に、日常では穏やかで礼儀正しく公正であることが期待された。多くの侍は戦いだけでなく詩や書道、茶道も学び、真の武士は豊かで規律ある心を持つべきだと信じた。忠誠が中心だった。侍は主君に仕え、困難な時でも忠実であることが期待された。名誉は個人の快適さや安全より重要だった。名誉を失うことは命を失うより悪いとされた。侍の時代は、日本が変わり近代化するとともにとうに終わった。だがその精神は消えなかった。規律、敬意、忠誠、威厳をもって務めを果たすという価値は、今日の日本の学校や企業、スポーツにもなお見られる。侍は、真の強さは力だけの話ではないと思い出させる。それは人格の話でもある——良い時も悪い時も、正直で自制し、正しいと信じるものに忠実であることだ。",
-        quiz: [
-          { q: "What is 'bushido'?", options: ["The samurai code of honor, meaning 'the way of the warrior'", "A type of sword", "A Japanese food"], answer: 0 },
-          { q: "What qualities did the samurai code value?", options: ["Courage, honesty, self-control, and loyalty", "Laziness and dishonesty", "Only fighting skill"], answer: 0 },
-          { q: "What do the samurai remind us about real strength?", options: ["It is also about character — being honest, self-controlled, and faithful to what is right", "It is only about power", "It does not matter at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0929-5",
-        title: "Why the Moon Changes Shape",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Look up at the night sky over several weeks, and you will see the moon change. Some nights it is a full, bright circle. Other nights it is a thin curve, or gone altogether. These changing shapes are called the phases of the moon. But the moon is not really changing shape at all — so what is happening?\n\nThe secret is light and position. The moon does not make its own light. Like a mirror, it shines only because the sun's light falls on it. The sun always lights up one half of the moon, the half facing it. But as the moon travels around the Earth, we on the ground see that lit half from different angles.\n\nWhen the moon is on the far side of the Earth from the sun, we see its whole lit face, and it looks like a full circle. When the moon is between the Earth and the sun, its dark side faces us, and we can barely see it at all. In between, we see only part of the lit half, which gives us the curved shapes.\n\nThis cycle repeats about once a month, which is where the very idea of a \"month\" comes from.\n\nSo the changing moon is a kind of shadow play in space, performed by the sun, the Earth, and the moon together. Nothing about the moon itself changes. We are simply watching sunlight from a moving point of view.",
-        summaryJa: "数週間、夜空を見上げると、月が変わるのが見える。ある夜は満ちた明るい円。別の夜は細い曲線、あるいは全く見えない。この変わる形を月の満ち欠け(相)という。だが月は本当は形を変えていない——では何が起きているのか。秘密は光と位置だ。月は自ら光を作らない。鏡のように、太陽の光が当たるから輝くだけだ。太陽は常に月の半分、太陽に面した半分を照らす。だが月が地球の周りを巡るにつれ、地上の私たちはその照らされた半分を異なる角度から見る。月が太陽から見て地球の反対側にあるとき、私たちはその照らされた面全体を見て、満ちた円に見える。月が地球と太陽の間にあるとき、その暗い側が私たちに面し、ほとんど見えない。その間、私たちは照らされた半分の一部だけを見て、曲がった形になる。この周期はおよそひと月に一度繰り返し、そこから「月(month)」という考えそのものが来ている。だから変わる月は、太陽と地球と月が共に演じる宇宙の影絵のようなものだ。月そのものは何も変わらない。私たちはただ、動く視点から太陽の光を見ているのだ。",
-        quiz: [
-          { q: "Does the moon really change shape?", options: ["No — we see its lit half from different angles as it orbits the Earth", "Yes, it grows and shrinks", "Yes, it melts"], answer: 0 },
-          { q: "Why does the moon shine?", options: ["Like a mirror, the sun's light falls on it; it makes no light of its own", "It burns like a fire", "It has a light bulb inside"], answer: 0 },
-          { q: "Where does the idea of a 'month' come from?", options: ["The cycle of the moon's phases, which repeats about once a month", "The number of days in a week", "The seasons only"], answer: 0 }
         ]
       }
     ]
