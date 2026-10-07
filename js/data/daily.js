@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-07",
+    passages: [
+      {
+        id: "d1007-1",
+        title: "Why Do Businesses Advertise?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Everywhere we look, we see advertisements. They appear on television, on websites, on buses, and even on our phones. Companies spend huge amounts of money on them every year. But why do businesses advertise, and does it really work?\n\nThe simplest reason is to make people aware. A company may sell a wonderful product, but if nobody knows it exists, nobody will buy it. Advertising tells people, \"We are here, and this is what we offer.\" For a new business, this first step is especially important.\n\nAdvertising also tries to make a product feel special. Two shops may sell very similar coffee, but one may use friendly pictures and a clever slogan to make customers feel good about choosing it. In this way, advertising shapes not just what we know, but how we feel.\n\nAnother goal is to remind us. Even famous companies keep advertising, because people forget and new customers are always growing up. A regular advertisement keeps a brand fresh in our minds, so we think of it when we are ready to buy.\n\nOf course, advertising has its critics. Some ads can be annoying, and a few may promise more than a product can give. Wise customers learn to enjoy clever ads without believing every word.\n\nFor businesses, though, advertising remains one of the most powerful tools they have. A good advertisement does more than sell a product. It tells a story, builds trust, and invites us to become part of it.",
+        summaryJa: "企業が広告を出す理由について。テレビやウェブ、バス、スマホなど至る所に広告があり、企業は毎年巨額を投じる。最も単純な理由は認知で、どんなに良い商品も存在を知られなければ売れず、新しい事業には特に重要な第一歩だ。広告は商品を特別に感じさせる役割もあり、似たコーヒーでも親しみやすい写真や巧みな標語で選びたくなる。さらに「思い出させる」目的もあり有名企業も宣伝を続ける。一方で、わずらわしい広告や誇大な約束への批判もあり、賢い消費者は鵜呑みにせず楽しむ。広告は物語を語り信頼を築く強力な手段だ。",
+        quiz: [
+          { q: "What is the simplest reason businesses advertise?", options: ["To make people aware a product exists", "To waste money", "To hide their products"], answer: 0 },
+          { q: "How does advertising make a product feel special?", options: ["With friendly pictures and clever slogans", "By raising the price only", "By removing the product"], answer: 0 },
+          { q: "Why do even famous companies keep advertising?", options: ["People forget and new customers grow up", "They have no products", "Nobody knows them"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1007-2",
+        title: "How GPS Knows Where You Are",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "When you open a map on your phone, a little blue dot shows exactly where you are. You can be in a strange city, yet your phone knows your position within a few meters. This everyday magic is powered by a system called GPS, which stands for Global Positioning System. But how does it work?\n\nHigh above the Earth, dozens of satellites circle the planet. Each one constantly sends out radio signals that include the exact time the signal was sent. Your phone listens for these signals. Because radio waves travel at a known speed, your phone can measure how long each signal took to arrive, and from that it can work out how far away each satellite is.\n\nTo find your exact location, your phone needs signals from at least four satellites. By combining the distances to several satellites, it can calculate where on Earth you must be. This clever use of distance and time is what places that blue dot on your map.\n\nGPS was first built for the military, but today everyone uses it. It guides cars, ships, and airplanes. Farmers use it to steer tractors, and delivery drivers use it to find addresses. It even helps scientists track animals and measure the slow movement of the Earth itself.\n\nThe next time your phone shows you the way, remember the quiet satellites far above, sending their steady signals. Thanks to them, it is now very hard to get truly lost.",
+        summaryJa: "GPSが現在地を知る仕組みについて。スマホの地図では青い点が数メートルの精度で自分の位置を示す。これを支えるのが全地球測位システム（GPS）だ。上空では数十基の衛星が地球を回り、信号を送った正確な時刻を含む電波を絶えず発信する。スマホはこれを受信し、電波の速さが分かっているため到達までの時間から各衛星までの距離を計算できる。正確な位置を知るには最低4基の衛星の信号が必要で、複数の距離を組み合わせて地球上の位置を割り出す。元は軍用だったが今は誰もが使い、車や船、農業、配達、動物追跡や地殻変動の計測にも役立つ。",
+        quiz: [
+          { q: "What does GPS stand for?", options: ["Global Positioning System", "Great Phone Signal", "General Power Source"], answer: 0 },
+          { q: "How does a phone work out its distance from a satellite?", options: ["By measuring how long the signal took to arrive", "By weighing the satellite", "By taking a photo"], answer: 0 },
+          { q: "How many satellites does a phone need to find your exact location?", options: ["At least four", "Only one", "Exactly two"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1007-3",
+        title: "Why Countries Use Different Money",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "If you travel from Japan to the United States, your yen will not buy a cup of coffee. First you must change it into dollars. Almost every country has its own money, or currency, such as the yen, the dollar, the euro, or the pound. Why does the world use so many different kinds of money, and how do they work together?\n\nA currency is really a promise of value, managed by a country or group of countries. Having its own money gives a nation control over its economy. For example, a country can print more money or change interest rates to help its businesses and workers. If every country shared one currency, no single nation could make these choices alone.\n\nBecause currencies are different, they must be exchanged. The price of one currency in terms of another is called the exchange rate, and it changes every day. If many people want to buy a country's goods, they need its currency, and its value may rise. News, trade, and even confidence can make a currency stronger or weaker.\n\nThese changes matter to ordinary people. A weaker yen, for instance, makes foreign travel more expensive for Japanese tourists, but it makes Japanese products cheaper for foreign buyers. Businesses watch exchange rates closely when they trade across borders.\n\nDifferent currencies can seem confusing, but they reflect a simple truth: the world is made of many separate economies, each managing its own affairs, yet all connected through the constant exchange of money and goods.",
+        summaryJa: "各国が異なる通貨を使う理由について。日本から米国へ行くと円では買い物ができず、まずドルに替える必要がある。ほぼどの国も円・ドル・ユーロ・ポンドなど独自の通貨を持つ。通貨は国や地域が管理する価値の約束で、独自通貨を持てば経済を自国で制御でき、紙幣増刷や金利変更で企業や労働者を支えられる。全世界が同じ通貨なら各国が単独で判断できない。通貨が違うため交換が必要で、交換比率（為替レート）は日々変わる。円安は日本人の海外旅行を高くするが、日本製品を外国人には安くする。通貨の違いは、多くの経済が独自に運営されつつ交換でつながる世界を映す。",
+        quiz: [
+          { q: "Why does having its own money help a country?", options: ["It can control its own economy", "It makes travel free", "It stops all trade"], answer: 0 },
+          { q: "What is the 'exchange rate'?", options: ["The price of one currency in terms of another", "A type of tax", "The weight of a coin"], answer: 0 },
+          { q: "What does a weaker yen do?", options: ["Makes Japanese products cheaper for foreign buyers", "Makes everything free", "Stops foreign travel completely"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1007-4",
+        title: "Matsuri: Japan's Lively Festivals",
+        level: "★★☆",
+        genre: "日本",
+        text: "Throughout the year, towns and villages across Japan come alive with the sound of drums, music, and happy voices. These celebrations are called matsuri, the Japanese word for festivals. From tiny local events to huge city parades, matsuri are a colorful and important part of life in Japan.\n\nMost matsuri have their roots in the Shinto religion and were originally held to thank the gods for a good harvest or to pray for health and safety. Many still take place at shrines. Over time, they have also become joyful social events where neighbors gather and visitors are welcome.\n\nA typical festival is full of energy. People wear traditional clothes called happi coats, and teams carry a mikoshi, a portable shrine, through the streets on their shoulders. They shout together as they move, sharing the heavy weight and the excitement. Drums beat, flutes play, and lanterns glow as evening falls.\n\nFood is another highlight. Rows of small stalls sell grilled squid, sweet pancakes, candied fruit, and many other treats. Children play simple games, trying to catch goldfish or win a prize. The air is filled with wonderful smells and laughter.\n\nEach region has its own famous festivals, from snow festivals in the north to fire and water festivals elsewhere. Though the styles differ, they share the same spirit. Matsuri bring people together across generations, keeping old traditions alive while giving everyone a reason to smile, dance, and celebrate together.",
+        summaryJa: "日本の祭りについて。一年を通じて各地の町や村が太鼓や音楽、歓声でにぎわう。この祝祭が「祭り」で、小さな地域行事から大都市の大行列まで、日本の生活の彩り豊かで大切な一部だ。多くは神道に由来し、元は豊作への感謝や健康・安全の祈願として神社で行われた。やがて近隣が集い来訪者も歓迎する楽しい社交の場にもなった。法被を着た人々が神輿を担ぎ、声を合わせて練り歩き、太鼓や笛が鳴り提灯がともる。屋台ではイカ焼きや甘い菓子が並び、子どもは金魚すくいを楽しむ。地域ごとに名高い祭りがあり、世代を超えて人を結び伝統を守りながら、皆が笑い踊る理由を与えてくれる。",
+        quiz: [
+          { q: "What does 'matsuri' mean?", options: ["Festivals", "Gardens", "Trains"], answer: 0 },
+          { q: "What is a 'mikoshi'?", options: ["A portable shrine carried through the streets", "A kind of food", "A musical instrument"], answer: 0 },
+          { q: "What do food stalls at a matsuri sell?", options: ["Grilled squid and sweet treats", "Only medicine", "Cars and bicycles"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1007-5",
+        title: "Why Do We Have Seasons?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "In many parts of the world, the year brings four seasons: spring, summer, autumn, and winter. Days grow long and warm, then short and cold, in a steady cycle. Many people think the seasons happen because the Earth moves closer to or farther from the Sun. Surprisingly, that is not the real reason.\n\nThe true cause is the tilt of the Earth. Our planet does not stand straight up as it travels around the Sun. Instead, it leans to one side at a gentle angle. This tilt stays the same all year, but because the Earth is always moving around the Sun, different parts of the planet lean toward the Sun at different times.\n\nWhen your part of the Earth leans toward the Sun, the Sun's light hits it more directly and for more hours each day. This brings summer, with its long, warm days. Six months later, your part leans away from the Sun. The light arrives at a lower angle and for fewer hours, bringing the short, cold days of winter.\n\nThis is also why the seasons are opposite in the north and south. When it is summer in Japan, it is winter in Australia, because the two halves of the Earth lean in opposite directions.\n\nSo the seasons are not about distance from the Sun, but about angle and light. Thanks to a small tilt in our spinning planet, we enjoy the beauty of changing seasons, each with its own weather, colors, and character.",
+        summaryJa: "季節が生まれる理由について。世界の多くの地域では春・夏・秋・冬の四季が巡り、日は長く暖かくなり、また短く寒くなる。多くの人は地球が太陽に近づいたり遠ざかったりするためと思うが、それは本当の理由ではない。真の原因は地球の傾きだ。地球は太陽の周りを回る際にまっすぐ立たず、少し傾いている。傾きは一年中同じだが、地球が公転するため時期によって異なる地域が太陽の方を向く。太陽側に傾くと光がより直接・長時間当たり夏になり、半年後に反対へ傾くと光が低い角度で短時間となり冬になる。だから南北で季節が逆になる。季節は距離でなく角度と光で決まる。",
+        quiz: [
+          { q: "What is the real cause of the seasons?", options: ["The tilt of the Earth", "The Earth moving closer to the Sun", "The Sun getting hotter"], answer: 0 },
+          { q: "What happens when your part of the Earth leans toward the Sun?", options: ["It becomes summer with long, warm days", "It becomes winter", "Nothing changes"], answer: 0 },
+          { q: "Why is it summer in Japan when it is winter in Australia?", options: ["The two halves lean in opposite directions", "Australia has no sun", "Japan is closer to the Moon"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-06",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What remarkable ability do two eyes give us?", options: ["Seeing in three dimensions and judging distance", "Seeing in the dark", "Reading minds"], answer: 0 },
           { q: "Why do the two eyes not see exactly the same thing?", options: ["They sit a few centimeters apart, viewing the world from slightly different angles", "One eye is always closed", "They look in opposite directions"], answer: 0 },
           { q: "What is 'depth perception' useful for?", options: ["Pouring water, walking down stairs, driving, and catching a ball", "Nothing at all", "Only for sleeping"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-09-30",
-    passages: [
-      {
-        id: "d0930-1",
-        title: "Why a Business Needs a Plan",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Starting a business can feel exciting and full of possibility. Someone has a great idea and wants to begin right away. But experienced people know that one quiet step can make the difference between success and failure: writing a business plan.\n\nA business plan is a written document that describes what a business will do and how. It explains the product or service, who the customers are, how the company will make money, and what it will cost to get started. In short, it turns a dream into a clear plan of action.\n\nWhy is this so useful? First, writing a plan forces you to think carefully. On paper, weak ideas and hidden costs become visible before you spend real money. A plan can reveal problems early, while they are still easy to fix.\n\nSecond, a plan helps you explain your idea to others. Banks, investors, and partners usually want to see a solid plan before they give money or support. A clear plan shows that you are serious and have thought things through.\n\nThird, a plan acts like a map. As the business grows, the owner can look back at the plan to check whether things are going as expected, and adjust when needed.\n\nOf course, no plan is perfect, and real life brings surprises. A good plan is not a set of chains, but a guide that can change as you learn. Still, starting without one is like setting off on a long journey with no map at all.",
-        summaryJa: "事業を始めるのはわくわくして可能性に満ちて感じられる。素晴らしい着想を持ち、すぐ始めたい。だが経験ある人は、成功と失敗を分けうる一つの静かな段階を知っている。事業計画を書くことだ。事業計画は、事業が何をどうするかを述べた書面だ。製品やサービス、顧客は誰か、会社がどう稼ぐか、始めるのにいくらかかるかを説明する。要するに、夢を明確な行動計画に変える。なぜ有用か。第一に、計画を書くと慎重に考えざるをえない。紙の上では、弱い着想や隠れた費用が、実際にお金を使う前に見える。計画は問題を早く、まだ直しやすいうちに明らかにできる。第二に、計画は着想を他者に説明する助けになる。銀行や投資家、提携先はふつう、お金や支援を与える前にしっかりした計画を見たがる。明確な計画は、あなたが本気でよく考えたと示す。第三に、計画は地図のように働く。事業が育つにつれ、所有者は計画を振り返り、予定通りか確認し、必要なら調整できる。もちろん完璧な計画はなく、現実は驚きをもたらす。良い計画は鎖でなく、学びとともに変えられる案内だ。だが計画なしに始めるのは、地図なしで長い旅に出るようなものだ。",
-        quiz: [
-          { q: "What is a business plan?", options: ["A written document describing what a business will do and how", "A type of bank", "A finished product"], answer: 0 },
-          { q: "How does writing a plan help before you spend money?", options: ["It makes weak ideas and hidden costs visible early, while they are easy to fix", "It guarantees instant success", "It hides all problems"], answer: 0 },
-          { q: "How is a good plan described?", options: ["Not a set of chains, but a guide that can change as you learn", "A rule that can never change", "A useless piece of paper"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0930-2",
-        title: "Robots Exploring Mars",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Millions of kilometers from Earth, on the cold, red surface of Mars, small robots are slowly rolling across the ground. These machines, called rovers, are sent by scientists to explore a world where no human has ever set foot. Through them, we are getting our first close look at another planet.\n\nWhy send robots instead of people? Mars is a harsh and distant place. The journey takes many months, the air is unbreathable, and the cold is deadly. Sending humans would be enormously expensive and dangerous. A robot, however, can travel there, work for years, and never need food, air, or a way home.\n\nA Mars rover is like a scientist on wheels. It carries cameras to take photographs, tools to study rocks and soil, and instruments to test the air. It looks for clues about the planet's past — especially signs that water, and perhaps even tiny life, once existed there.\n\nControlling a rover is a slow and careful task. Because Mars is so far away, a radio command from Earth takes many minutes to arrive. Scientists cannot drive the rover second by second; instead, they send careful instructions and wait to see the results.\n\nThese brave little robots have already lasted far longer than expected, sending home stunning pictures and important discoveries. They are the eyes and hands of humanity on a distant world — proof that even when we cannot go somewhere ourselves, our curiosity can still reach across the stars.",
-        summaryJa: "地球から何百万キロも離れた火星の冷たく赤い地表を、小さなロボットがゆっくり転がって進んでいる。ローバーと呼ばれるこの機械は、人がまだ足を踏み入れたことのない世界を探るために科学者が送ったものだ。ローバーを通じ、私たちは初めて別の惑星を間近に見ている。なぜ人でなくロボットを送るのか。火星は過酷で遠い場所だ。旅は何か月もかかり、空気は吸えず、寒さは致命的だ。人を送るのは莫大に高価で危険だ。だがロボットはそこへ行き、何年も働き、食料も空気も帰る手段も要らない。火星ローバーは車輪の付いた科学者のようだ。写真を撮るカメラ、岩や土を調べる道具、空気を試す装置を積む。惑星の過去の手がかり——特にかつて水が、もしかすると小さな生命さえ存在した証を探す。ローバーの操縦は遅く慎重な作業だ。火星はとても遠いので、地球からの無線指令は届くのに何分もかかる。科学者は一秒ごとに運転できず、慎重な指示を送り結果を待つ。この勇敢な小さなロボットは、予想よりはるかに長く持ち、見事な写真と重要な発見を送ってきた。遠い世界での人類の目と手であり、自分で行けなくても好奇心は星々を越えて届く証だ。",
-        quiz: [
-          { q: "Why do scientists send robots to Mars instead of people?", options: ["Mars is harsh, distant, and dangerous, and robots need no food, air, or way home", "Because robots enjoy travel", "Because people are not curious"], answer: 0 },
-          { q: "What is a Mars rover like?", options: ["A scientist on wheels, with cameras and tools to study rocks, soil, and air", "A simple toy", "A rocket only"], answer: 0 },
-          { q: "Why is controlling a rover slow?", options: ["A radio command from Earth takes many minutes to reach faraway Mars", "Because the rover is asleep", "Because Earth is closer than the moon"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0930-3",
-        title: "The Rivers That Cross Borders",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Rivers do not care about the lines humans draw on maps. A great river may begin high in the mountains of one country, flow through a second, and reach the sea in a third. Many of the world's most important rivers are shared by several nations. This simple fact of nature has made rivers one of the great tests of cooperation between countries.\n\nA shared river is a shared blessing. Its water grows crops, provides drinking water, powers electricity, and carries boats and goods. For the people who live along it, the river is life itself. But because the water is shared, what one country does affects its neighbors. If an upstream nation takes too much water or builds a large dam, the countries downstream may receive too little.\n\nThis can cause tension. Yet more often, it has pushed nations to work together. Countries that share a river frequently sign agreements about how to divide the water fairly, how to keep it clean, and how to warn each other of floods. In many places, old rivals have found that they must cooperate over water, whether they like each other or not.\n\nCaring for shared rivers grows more important every year, as populations rise and the climate changes.\n\nA river crossing borders is a powerful reminder that nature connects us. The water flowing past one village today may reach a distant land tomorrow. To manage it well, neighbors must talk, share, and think of one another — as the river itself joins them together.",
-        summaryJa: "川は人が地図に引く線を気にしない。大きな川はある国の高い山で始まり、二つ目の国を流れ、三つ目で海に達しうる。世界の最も重要な川の多くは複数の国に共有される。この自然の単純な事実が、川を国家間協力の大きな試金石の一つにした。共有する川は共有の恵みだ。その水は作物を育て、飲み水を供給し、電気を生み、船と荷を運ぶ。川沿いに住む人々にとって、川は命そのものだ。だが水が共有されるため、一国のすることが隣国に影響する。上流の国が水を取りすぎたり大きなダムを造ったりすると、下流の国は水が少なすぎるかもしれない。これは緊張を生みうる。だがより多くの場合、国々を協力へ押しやってきた。川を共有する国は、水を公正に分ける方法、清潔に保つ方法、互いに洪水を知らせる方法について協定を結ぶことが多い。多くの場所で、古いライバルが、好むと好まざるとにかかわらず水で協力せねばならないと気づいた。共有する川の世話は、人口が増え気候が変わるにつれ、年々重要になる。国境を越える川は、自然が私たちをつなぐ力強い証だ。今日ある村を流れる水が明日遠い地に届きうる。うまく管理するには、隣人は話し、分かち合い、互いを思わねばならない。川そのものが彼らを結びつけるように。",
-        quiz: [
-          { q: "Why are many important rivers a test of cooperation?", options: ["They are shared by several nations, so one country's actions affect its neighbors", "Because rivers follow map lines exactly", "Because no one uses rivers"], answer: 0 },
-          { q: "What can happen if an upstream nation takes too much water?", options: ["Countries downstream may receive too little", "Nothing changes for anyone", "The river flows backward"], answer: 0 },
-          { q: "How have shared rivers often pushed nations?", options: ["To work together, signing agreements to divide water fairly and keep it clean", "To stop all farming", "To ignore each other completely"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0930-4",
-        title: "Kabuki: Japan's Dramatic Theater",
-        level: "★★☆",
-        genre: "日本",
-        text: "Imagine a stage bursting with color: actors in magnificent costumes, faces painted in bold red and white, striking dramatic poses as music and shouts fill the air. This is kabuki, one of Japan's most famous traditional forms of theater, loved for its beauty, drama, and energy for over four hundred years.\n\nKabuki plays tell stories of love, honor, heroes, and history. Everything about them is larger than life. The costumes are grand, the makeup is striking, and the actors move in a powerful, exaggerated style. At key moments, an actor may freeze in a dramatic pose, crossing his eyes, while the audience cheers. The stage itself is full of clever tricks, including revolving floors and secret passages.\n\nOne surprising fact is that in traditional kabuki, all the roles, including the women, are played by men. Certain actors train for many years to play female parts with great grace, and these performers are highly respected.\n\nKabuki is also a family art. Famous acting families pass their skills and stage names down through the generations, so a great actor today may be the son and grandson of great actors before him.\n\nThough it is centuries old, kabuki is still performed and enjoyed in Japan today, by both older fans and curious newcomers. It is a living link to the past — a loud, colorful, thrilling window into the stories and spirit of old Japan, kept proudly alive on the modern stage.",
-        summaryJa: "色にあふれる舞台を想像してほしい。壮麗な衣装の役者、赤と白で大胆に塗られた顔、音楽と掛け声が満ちる中での劇的な見得。これが歌舞伎、日本で最も有名な伝統演劇の一つで、その美しさ、劇性、活力ゆえに400年以上愛されてきた。歌舞伎の演目は、愛や名誉、英雄、歴史の物語を語る。すべてが実物以上に大きい。衣装は壮大、化粧は鮮烈、役者は力強く誇張された様式で動く。要所で役者は目を寄せて劇的な見得で静止し、観客は喝采する。舞台自体も、回る床や秘密の通路など巧みな仕掛けに満ちる。意外な事実は、伝統的な歌舞伎ではすべての役、女性役も含めて男が演じることだ。特定の役者は何年も修行して優雅に女性役を演じ、この演者は大いに尊敬される。歌舞伎は一族の芸でもある。有名な役者一族が技と芸名を世代を超えて受け継ぐので、今日の名優は名優の息子であり孫かもしれない。何世紀も古いが、歌舞伎は今日も日本で上演され、年配のファンにも好奇心旺盛な新参者にも楽しまれる。過去への生きたつながり——古い日本の物語と精神への、騒がしく色鮮やかでわくわくする窓であり、現代の舞台で誇り高く生かされている。",
-        quiz: [
-          { q: "What kind of theater is kabuki?", options: ["A traditional Japanese theater known for color, drama, and energy", "A silent, plain form of theater", "A type of sport"], answer: 0 },
-          { q: "What is a surprising fact about traditional kabuki?", options: ["All the roles, including women, are played by men", "There are no actors", "It has no costumes"], answer: 0 },
-          { q: "How is kabuki a 'family art'?", options: ["Famous acting families pass their skills and stage names down through generations", "Only strangers may perform it", "It changes owners every day"], answer: 0 }
-        ]
-      },
-      {
-        id: "d0930-5",
-        title: "Bats: Masters of the Night",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "As the sun sets and most animals settle down to sleep, another world comes alive. Out of caves, trees, and quiet corners fly the bats, some of the most remarkable creatures on Earth. Bats are the only mammals that can truly fly, and they rule the night sky in ways that still amaze scientists.\n\nThe most famous of a bat's skills is how it finds its way in the dark. Many bats use a trick called echolocation. As they fly, they send out high squeaks, far too high for humans to hear. These sounds bounce off objects and return as echoes. By listening to the echoes, a bat can build a picture of the world around it, sensing walls, insects, and prey in complete darkness.\n\nBats are also very useful to us. Many kinds eat huge numbers of insects each night, including pests that harm crops. Others drink nectar and, like bees, carry pollen from flower to flower, helping plants grow. Some fruit bats spread seeds across the forest.\n\nSadly, bats are often feared or misunderstood. In truth, the vast majority are shy, gentle, and harmless to people, quietly doing important work while we sleep.\n\nRecent studies even suggest that bats may hold secrets about long life and fighting disease, and scientists are eager to learn from them.\n\nSo the next time you see a bat flit across the evening sky, do not be afraid. You are watching a true master of the night at work.",
-        summaryJa: "日が沈み、多くの動物が眠りにつくと、別の世界が息づき始める。洞窟や木、静かな片隅からコウモリが飛び立つ。地球で最も注目すべき生き物の一つだ。コウモリは真に飛べる唯一の哺乳類で、科学者を今も驚かせる仕方で夜空を支配する。コウモリの技で最も有名なのは、暗闇で道を見つける方法だ。多くのコウモリは反響定位(エコーロケーション)という技を使う。飛びながら、人には高すぎて聞こえない高い鳴き声を出す。この音が物に跳ね返り、こだまとして戻る。こだまを聞くことで、コウモリは周りの世界の像を作り、完全な暗闇で壁や昆虫、獲物を感じ取る。コウモリは私たちにとても役立ちもする。多くの種は毎晩膨大な数の昆虫、作物を害する害虫を食べる。花の蜜を飲み、ハチのように花から花へ花粉を運び植物の成長を助けるものもいる。果実を食べるコウモリは森中に種を広げる。悲しいことに、コウモリはしばしば恐れられ誤解される。実は大多数は臆病で優しく、人に無害で、私たちが眠る間に静かに大切な仕事をしている。最近の研究は、コウモリが長寿や病気との闘いの秘密を握るかもしれないと示唆し、科学者は学びたがっている。次に夕空をコウモリがよぎるのを見ても、恐れないでほしい。真の夜の達人が働くのを見ているのだ。",
-        quiz: [
-          { q: "What is special about bats among mammals?", options: ["They are the only mammals that can truly fly", "They cannot move at all", "They only live in water"], answer: 0 },
-          { q: "How does echolocation work?", options: ["A bat sends out high squeaks and listens to the echoes to sense the world", "A bat uses a flashlight", "A bat reads a map"], answer: 0 },
-          { q: "Why are bats useful to us?", options: ["They eat pest insects, spread pollen and seeds, and help plants grow", "They harm all crops", "They do nothing helpful"], answer: 0 }
         ]
       }
     ]
