@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-08",
+    passages: [
+      {
+        id: "d1008-1",
+        title: "How Banks Keep Our Money Safe",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Most adults keep their money in a bank. We put our pay into a bank account, take out cash when we need it, and pay bills online. But have you ever wondered what a bank really does with your money, and why we trust it?\n\nA bank is a business that looks after money. When you put money into the bank, this is called a deposit. The bank keeps your money safe and records exactly how much is yours. You can take it out whenever you need it. For this service, the bank keeps your savings secure, which is much safer than hiding cash at home.\n\nBut banks do more than store money. They also lend it. When many people deposit money, the bank does not simply leave it in a safe. Instead, it lends some of that money to other people and businesses who need it, for example to buy a house or start a company. These borrowers pay back the loan with a little extra, called interest.\n\nThis is how a bank earns money. It charges more interest to borrowers than it pays to savers, and the difference becomes its profit. In this way, a bank connects people who have extra money with people who need money.\n\nBanks must be careful and honest, because people trust them with their savings. Governments watch over banks with strict rules to keep them safe. Thanks to this system, money can move around the economy, helping people and businesses grow.",
+        summaryJa: "銀行が私たちのお金を守る仕組みについて。多くの大人は銀行にお金を預け、必要なとき引き出し、オンラインで支払う。銀行はお金を管理する事業で、預け入れ（預金）されたお金を安全に保管し、誰のいくらかを正確に記録する。自宅に現金を隠すよりずっと安全だ。さらに銀行はお金を貸し出す。多くの人の預金の一部を、住宅購入や起業などで資金を必要とする人や企業に貸し、借り手は利子を付けて返す。借り手から受け取る利子を預金者に払う利子より高くし、その差が銀行の利益になる。余剰資金のある人と必要な人を結ぶ。政府は厳しい規則で銀行を監督し、お金が経済を巡る。",
+        quiz: [
+          { q: "What is a 'deposit'?", options: ["Money you put into a bank", "A type of loan", "A bank's profit"], answer: 0 },
+          { q: "What do banks do with the money people deposit?", options: ["Lend some of it to others", "Burn it", "Give it away for free"], answer: 0 },
+          { q: "How does a bank earn money?", options: ["It charges borrowers more interest than it pays savers", "It never lends money", "It hides all the cash"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1008-2",
+        title: "How Wi-Fi Connects Us",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "In homes, cafés, and offices around the world, people connect to the internet without any wires. We call this Wi-Fi, and most of us use it every day. We often take it for granted, but how does Wi-Fi actually send information through the air?\n\nWi-Fi uses radio waves, the same kind of invisible waves that carry music to a radio. A small device called a router is connected to the internet, usually through a cable coming into the building. The router turns internet data into radio signals and sends them out into the air. Your phone or computer has a tiny antenna that receives these signals and turns them back into useful information, such as a web page or a video.\n\nThe signals travel in both directions. When you send a message or load a page, your device sends radio waves back to the router, which passes your request on to the internet. All of this happens many times per second, far too fast for us to notice.\n\nWi-Fi has limits. Radio signals grow weaker as they travel, so the farther you are from the router, the slower your connection may become. Thick walls and other electronics can also block or disturb the signal. This is why your connection is often best in the same room as the router.\n\nWi-Fi has changed how we live and work, letting us move freely while staying connected. Invisible and silent, these radio waves quietly carry our digital world through the air around us.",
+        summaryJa: "Wi-Fiが私たちをつなぐ仕組みについて。家やカフェ、職場で私たちは無線でインターネットに接続する。これがWi-Fiで、毎日使う人が多い。Wi-Fiはラジオと同じ電波を使う。ルーターという小さな機器が通常ケーブルでインターネットにつながり、データを電波に変えて空中へ送る。スマホやパソコンの小さなアンテナがこれを受け取り、ウェブページや動画などの情報に戻す。信号は双方向で、メッセージ送信やページ読み込みの際は端末がルーターへ電波を返す。電波は遠くなるほど弱まり、厚い壁や他の電子機器が妨げることもある。だからルーターと同じ部屋が最も快適だ。目に見えない電波が私たちのデジタル世界を運ぶ。",
+        quiz: [
+          { q: "What does Wi-Fi use to send information?", options: ["Radio waves", "Water pipes", "Sunlight only"], answer: 0 },
+          { q: "What does a router do?", options: ["Turns internet data into radio signals", "Cooks food", "Stores photos forever"], answer: 0 },
+          { q: "Why is your connection often best in the same room as the router?", options: ["Signals grow weaker as they travel", "Routers hate other rooms", "Phones cannot move"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1008-3",
+        title: "What Are World Heritage Sites?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Around the globe, there are places so special that the whole world agrees they must be protected. These are called World Heritage Sites. They include ancient ruins, beautiful natural areas, historic cities, and famous monuments. But who decides what becomes a World Heritage Site, and why does it matter?\n\nThe idea comes from a part of the United Nations called UNESCO. Its goal is to protect places of great value to all of humanity, not just to one country. A site may be chosen for its history, its culture, or its natural beauty. Famous examples include the pyramids of Egypt, the Great Barrier Reef, and many historic temples and castles.\n\nTo become a World Heritage Site, a place must be carefully studied. The country where it is located makes a request, and experts check whether the site is truly unique and important. If it is accepted, the country promises to protect it, and the world community helps to watch over it.\n\nWhy protect these places together? Some sites face dangers such as pollution, war, or too many visitors. Others may fall apart simply with age. By working across borders, nations can share money and knowledge to keep these treasures safe for the future.\n\nWorld Heritage Sites remind us that history and nature belong to everyone. A temple in Asia or a forest in Africa is part of a story shared by all people. Protecting them is a way of saying that some things are too precious to lose.",
+        summaryJa: "世界遺産について。世界には全人類が守るべきと認める特別な場所があり、これを世界遺産と呼ぶ。古代遺跡や美しい自然、歴史都市、有名な記念物などが含まれる。発案は国連の機関ユネスコで、一国だけでなく人類全体に価値ある場所を守ることを目指す。歴史・文化・自然美で選ばれ、エジプトのピラミッドやグレートバリアリーフ、歴史的な寺や城などが例だ。登録には所在国が申請し、専門家が独自性と重要性を確認する。認められると国は保護を約束し、世界も見守る。汚染や戦争、観光客過多、老朽化などの危険に対し、国境を越えて資金と知識を共有する。歴史と自然は皆のものだと教えてくれる。",
+        quiz: [
+          { q: "Which organization chooses World Heritage Sites?", options: ["UNESCO, part of the United Nations", "A single city council", "A private company"], answer: 0 },
+          { q: "For what reasons can a site be chosen?", options: ["Its history, culture, or natural beauty", "Only its size", "Only its price"], answer: 0 },
+          { q: "Why do nations protect these places together?", options: ["Sites face dangers and belong to everyone", "To keep them secret", "To sell them quickly"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1008-4",
+        title: "Ojigi: The Japanese Art of Bowing",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, people greet each other with a handshake or a wave. In Japan, the most common greeting is a bow, known as ojigi. From busy offices to quiet shops, you will see people bowing many times a day. A simple bend of the body can say hello, thank you, sorry, or goodbye.\n\nBowing is more than just a movement; it carries meaning. The deeper and longer the bow, the more respect or feeling it shows. A small nod of the head is friendly and casual, used between friends. A deeper bow from the waist is more formal, used to greet a customer, a teacher, or an important guest. The deepest bows are saved for serious apologies or great thanks.\n\nChildren in Japan learn to bow from a young age, at home and at school. Over time, bowing becomes natural, almost automatic. People even bow while talking on the phone, although the other person cannot see them. The habit is simply part of showing respect.\n\nBowing also helps keep a comfortable distance. Unlike a handshake or a hug, a bow does not require touching, which many people find polite and clean. During the greeting, both people usually lower their eyes as a sign of humility.\n\nFor visitors to Japan, a small bow is a friendly way to show respect, and it is always appreciated. Though it looks simple, ojigi reflects deep values in Japanese culture: respect, humility, and care for the feelings of others.",
+        summaryJa: "日本のお辞儀（ojigi）について。多くの国では握手や手を振って挨拶するが、日本で最も一般的な挨拶はお辞儀だ。職場から小さな店まで、人々は一日に何度もお辞儀をする。体を少し曲げるだけで、こんにちは・ありがとう・ごめんなさい・さようならを伝えられる。お辞儀は動作以上の意味を持ち、深く長いほど敬意や思いが強い。軽い会釈は友人同士の気軽なもの、腰から曲げる深いお辞儀は客や先生、大切な客への丁寧なもので、最も深いお辞儀は謝罪や大きな感謝に使う。子どもは幼い頃から家庭や学校で学び、電話中にもお辞儀するほど自然になる。触れずに済み清潔で、互いに目を伏せて謙虚さを示す。敬意・謙虚・思いやりを映す。",
+        quiz: [
+          { q: "What is the most common greeting in Japan?", options: ["A bow, called ojigi", "A loud shout", "A high five"], answer: 0 },
+          { q: "What does a deeper, longer bow show?", options: ["More respect or feeling", "Less respect", "Anger"], answer: 0 },
+          { q: "What is one reason some people find bowing polite?", options: ["It does not require touching", "It is very loud", "It takes many hours"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1008-5",
+        title: "How Do We Measure Time?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "We check the time many times a day, on phones, clocks, and watches. Time guides our work, our travel, and our rest. But how do we actually measure something we cannot see or touch? The story of timekeeping is a long journey from the sky to the atom.\n\nLong ago, people measured time by watching nature. The Sun rising and setting marked the days, and the changing Moon marked the months. To track shorter periods, early people used simple tools. A sundial used the shadow of a stick to show the hour, while a water clock measured time by water slowly dripping from one container to another.\n\nThese early clocks were useful but not very exact. A sundial, for example, is useless at night or on a cloudy day. Over the centuries, inventors built better machines. Mechanical clocks with gears and springs could tick steadily day and night, and later, small watches could fit in a pocket.\n\nToday, the most accurate clocks measure time using atoms. Inside an atomic clock, tiny particles vibrate billions of times each second, always at the same steady rate. By counting these vibrations, scientists can measure time with astonishing precision, losing less than a second over millions of years.\n\nWhy does such precision matter? Modern life depends on it. Systems like GPS, the internet, and banking all need clocks that agree perfectly. From a shadow on the ground to vibrating atoms, our search for better time has quietly shaped the modern world.",
+        summaryJa: "時間の測り方について。私たちは一日に何度も時刻を確認するが、見えず触れられない時間をどう測るのか。時計の歴史は空から原子への長い旅だ。昔は自然を見て測り、太陽の出入りが日を、月の満ち欠けが月を示した。短い時間には道具を使い、日時計は棒の影で時刻を示し、水時計は容器から滴る水で測った。これらは便利だが正確でなく、日時計は夜や曇天では使えない。やがて歯車とばねの機械式時計が昼夜問わず時を刻み、懐中時計も生まれた。今最も正確なのは原子時計で、原子が毎秒数十億回、一定の速さで振動する。その回数を数え、数百万年に1秒未満の精度で測れる。GPSやインターネット、銀行は完全に一致した時計を必要とする。",
+        quiz: [
+          { q: "How did people measure months long ago?", options: ["By the changing Moon", "By counting cars", "By weighing water"], answer: 0 },
+          { q: "Why is a sundial not always useful?", options: ["It is useless at night or on cloudy days", "It is too heavy to lift", "It needs electricity"], answer: 0 },
+          { q: "How does an atomic clock measure time?", options: ["By counting the vibrations of atoms", "By watching the Sun", "By dripping water"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-07",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What are hidden in the tiny bumps on your tongue?", options: ["Taste buds that detect food and send signals to the brain", "Small bones", "Tiny lights"], answer: 0 },
           { q: "What are the five basic tastes?", options: ["Sweet, sour, salty, bitter, and umami (savory)", "Only sweet and salty", "Hot and cold"], answer: 0 },
           { q: "Why does food taste dull when you have a cold?", options: ["Much of 'taste' is really smell, and a blocked nose cannot sense it", "Because the tongue disappears", "Because food changes"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-01",
-    passages: [
-      {
-        id: "d1001-1",
-        title: "How Companies Keep Customers Coming Back",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Winning a new customer is exciting for any business. But experienced companies know a quieter truth: keeping an old customer is often far more valuable than finding a new one. A loyal customer who returns again and again, and who tells friends, can be worth more than many one-time buyers.\n\nWhy is this so? Finding new customers is expensive. A company must spend money on advertising and offers to attract strangers. A happy existing customer, however, already knows and trusts the company. They come back on their own, cost little to keep, and often spend more over time.\n\nSo how do companies build this loyalty? The foundation is always a good product and honest service. No trick can keep customers who feel cheated or disappointed. Beyond that, businesses use many methods. Some offer reward programs, giving points or discounts to people who return. Others remember their customers' names and preferences, making each visit feel personal. Quick, kind help when something goes wrong can turn an angry customer into a devoted one.\n\nThere is a danger, though. Loyalty must be earned, not assumed. A company that takes its regular customers for granted, or treats new customers better than old ones, can lose the very trust it worked to build.\n\nIn the end, customer loyalty is a relationship, much like a friendship. It grows slowly, through many small moments of care and respect, and like any relationship, it must be nurtured to last.",
-        summaryJa: "新しい客を得るのはどの事業にもわくわくする。だが経験ある企業は静かな真実を知っている。古い客を保つことは、新しい客を見つけるよりずっと価値があることが多い。何度も戻り、友人に伝える忠実な客は、多くの一度きりの買い手より価値がありうる。なぜか。新しい客を見つけるのは高くつく。見知らぬ人を引きつけるため広告や特典にお金を使わねばならない。だが満足した既存の客は、すでに会社を知り信頼している。自ら戻り、保つ費用は少なく、時とともに多く使うことが多い。ではどう忠誠を築くのか。土台は常に良い製品と誠実なサービスだ。だまされたり失望したと感じる客は、どんな策でも保てない。その上で企業は多くの方法を使う。戻る人に点数や割引を与える報酬制度もある。客の名や好みを覚え、各訪問を個人的に感じさせる店もある。問題が起きた時の素早く親切な対応は、怒った客を熱心な客に変えうる。だが危険もある。忠誠は得るもので、当然と思ってはならない。常連を軽んじたり、新規客を既存客より優遇する会社は、築いた信頼そのものを失いうる。客の忠誠は友情のような関係だ。多くの小さな心配りと敬意の瞬間を通じてゆっくり育ち、どんな関係とも同じく、続くには育まねばならない。",
-        quiz: [
-          { q: "Why is keeping an old customer often more valuable than finding a new one?", options: ["Loyal customers return on their own, cost little to keep, and often spend more", "Old customers never buy anything", "New customers are always free to find"], answer: 0 },
-          { q: "What is the foundation of customer loyalty?", options: ["A good product and honest service", "Tricks and false promises", "Ignoring customers"], answer: 0 },
-          { q: "What danger does the passage warn about?", options: ["Taking regular customers for granted can lose the trust you built", "Being too kind to customers", "Making products too good"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1001-2",
-        title: "Data Centers in Space?",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "The buildings that power our digital world, called data centers, are hungry machines. They use enormous amounts of electricity to run their computers and even more to keep them cool. As our use of computing grows, so does this hunger. Now, some companies are exploring a bold and surprising idea: what if we put data centers in space?\n\nAt first this sounds like science fiction, but there are real reasons behind it. In orbit high above the Earth, sunlight is strong and almost never blocked by clouds or night. A data center there could be powered by huge solar panels, drawing clean energy directly from the sun, around the clock. Space is also extremely cold, which might help with the hard problem of cooling the computers.\n\nOf course, the challenges are enormous. Launching heavy equipment into space is very expensive. Repairing a broken machine in orbit is far harder than sending a worker to a building on Earth. And the computers must survive harsh radiation and the dangers of space.\n\nFor now, companies are testing small steps, such as putting a few powerful chips on a satellite to see how they perform. A full data center in space is still a distant dream.\n\nYet the idea shows how far people will reach to meet the growing need for computing power, while trying to protect the planet. The answer to an earthly problem may, one day, be found far above our heads.",
-        summaryJa: "デジタル世界を支える建物、データセンターは飢えた機械だ。コンピューターを動かすのに膨大な電力を使い、冷やすのにさらに多く使う。計算の利用が増えるほど、この飢えも増す。今、一部の企業は大胆で意外な考えを探っている。データセンターを宇宙に置いたらどうか、と。最初はSFに聞こえるが、裏には本当の理由がある。地球のはるか上の軌道では、日光は強く、雲や夜にほとんど遮られない。そこのデータセンターは巨大な太陽光パネルで動き、太陽から直接、昼夜を問わず清潔なエネルギーを得られる。宇宙は極めて冷たくもあり、コンピューター冷却という難問を助けるかもしれない。もちろん課題は甚大だ。重い機器を宇宙へ打ち上げるのは非常に高価だ。軌道で壊れた機械を直すのは、地上の建物に作業員を送るよりはるかに難しい。コンピューターは厳しい放射線や宇宙の危険に耐えねばならない。今のところ企業は小さな一歩を試している。いくつかの強力なチップを衛星に載せ、どう働くか見るなどだ。宇宙の本格的なデータセンターはまだ遠い夢だ。だがこの考えは、地球を守ろうとしつつ、増える計算力の需要に応えるため人がどれほど遠くへ手を伸ばすかを示す。地上の問題の答えは、いつか頭上はるかに見つかるかもしれない。",
-        quiz: [
-          { q: "Why are data centers called 'hungry machines'?", options: ["They use enormous electricity to run and cool their computers", "They eat food", "They never use power"], answer: 0 },
-          { q: "What is one reason to put a data center in space?", options: ["Strong, almost constant sunlight could power it with clean solar energy", "There is no sunlight in space", "Space is very warm"], answer: 0 },
-          { q: "What is one big challenge of the idea?", options: ["Launching heavy equipment is expensive and repairs in orbit are very hard", "It is cheap and easy", "There are no challenges"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1001-3",
-        title: "Why Reliable News Matters",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Every day, we are flooded with information. News reaches us from televisions, websites, and the phones in our pockets, at all hours. With so much available, one question grows more important than ever: how do we know what is true?\n\nReliable news — information that is carefully checked and honestly reported — is one of the quiet foundations of a healthy society. When people have accurate facts, they can make good decisions, whether about their health, their money, or their leaders. Good journalists work hard to gather facts, check them with several sources, and correct mistakes. This careful work helps keep the public informed and the powerful honest.\n\nBut today, false or misleading information spreads easily and quickly. A dramatic but untrue story can travel around the world before the truth catches up. Some false news is spread by accident; some is created on purpose to trick or divide people. Modern tools can even make fake images and videos look real.\n\nSo how can a person find reliable news? A few simple habits help. Check where a story comes from, and whether trusted sources report the same thing. Be careful of news designed to make you very angry or afraid, as strong emotions can cloud judgment. And remember that a real story can be corrected, while a lie often cannot.\n\nIn a world full of noise, the ability to find and value honest information is a vital skill — one that helps protect both individuals and the societies they share.",
-        summaryJa: "毎日、私たちは情報であふれている。ニュースはテレビやウェブサイト、ポケットの電話から、いつでも届く。これほど多くが手に入る中、一つの問いがかつてなく重要になる。何が真実かをどう知るのか。信頼できるニュース——入念に確認され正直に報じられた情報——は、健全な社会の静かな土台の一つだ。正確な事実があれば、人は健康やお金、指導者について良い判断ができる。良い記者は懸命に事実を集め、複数の情報源で確認し、誤りを正す。この丁寧な仕事が、市民を知らせ、権力者を正直に保つのを助ける。だが今日、誤ったり誤解を招く情報はたやすく速く広がる。劇的だが真実でない話が、真実が追いつく前に世界を巡りうる。偶然広がる偽ニュースもあれば、人をだましたり分断するため意図的に作られるものもある。現代の道具は偽の画像や動画を本物らしく見せることさえできる。では信頼できるニュースをどう見つけるか。いくつかの簡単な習慣が役立つ。話の出所を確かめ、信頼できる情報源が同じことを報じているか見る。強く怒らせたり怖がらせるよう作られたニュースに注意する。強い感情は判断を曇らせうる。本当の話は訂正できるが、嘘はしばしばできない。雑音に満ちた世界で、正直な情報を見つけ重んじる力は不可欠な技能だ。個人と、共有する社会の両方を守る助けになる。",
-        quiz: [
-          { q: "Why is reliable news a foundation of a healthy society?", options: ["Accurate facts let people make good decisions and keep the powerful honest", "It has no effect on society", "It only entertains"], answer: 0 },
-          { q: "Why does false information spread so easily today?", options: ["A dramatic but untrue story can travel fast, and tools can fake images and videos", "Because everyone checks everything", "Because lies move slowly"], answer: 0 },
-          { q: "What is one habit that helps you find reliable news?", options: ["Check the source and whether trusted sources report the same thing", "Believe whatever makes you angriest", "Never check anything"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1001-4",
-        title: "Daruma: Japan's Dolls of Determination",
-        level: "★★☆",
-        genre: "日本",
-        text: "In homes and shops across Japan, you may notice a curious round doll, usually bright red, with a serious face and two large white circles where the eyes should be. This is a daruma, a traditional doll that stands for good luck, patience, and the power of not giving up.\n\nThe daruma has a clever design. It is round and weighted at the bottom, so that if you push it over, it rights itself and stands up again. This has given it a famous saying: \"fall down seven times, stand up eight.\" The doll is a gentle reminder that no matter how often we fail, we can always rise and try again.\n\nThe most interesting custom involves the doll's blank eyes. When a person sets an important goal — passing an exam, starting a business, or any heartfelt wish — they paint in one eye. The one-eyed daruma then sits where it can be seen, as a daily reminder of the goal. When the goal is finally reached, the person joyfully paints in the second eye, completing the doll.\n\nDaruma are often bought at the New Year and at temples, and old ones are sometimes returned to be respectfully burned, making way for new hopes.\n\nMore than a toy, the daruma carries a warm and powerful message. Set your goal, work with patience, and never give up. Keep rising, and one day you will fill in that second eye.",
-        summaryJa: "日本の家や店のあちこちで、不思議な丸い人形に気づくかもしれない。たいてい鮮やかな赤で、真剣な顔をし、目のあるべき所に二つの大きな白い円がある。これがだるま、幸運、忍耐、諦めない力を表す伝統的な人形だ。だるまは巧みな作りだ。丸く底が重いので、倒しても起き上がって再び立つ。ここから有名な言葉が生まれた。「七転び八起き」。この人形は、何度失敗しても、いつでも立ち上がり再び挑めると優しく思い出させる。最も興味深い習慣は人形の空白の目に関わる。人が重要な目標——試験の合格、起業、心からの願い——を定めると、片方の目を描き入れる。片目のだるまは見える所に置かれ、目標を毎日思い出させる。目標がついに達成されると、喜んでもう一方の目を描き入れ、人形を完成させる。だるまは正月や寺でよく買われ、古いものは敬意をもって焼かれ、新しい希望に道を譲ることもある。だるまは玩具以上に、温かく力強いメッセージを運ぶ。目標を定め、忍耐強く取り組み、決して諦めるな。立ち上がり続ければ、いつかあの二つ目の目を描き入れられる。",
-        quiz: [
-          { q: "What does a daruma doll stand for?", options: ["Good luck, patience, and the power of not giving up", "Laziness", "Bad luck"], answer: 0 },
-          { q: "What famous saying is linked to the daruma's design?", options: ["'Fall down seven times, stand up eight'", "'Sleep all day'", "'Never try anything'"], answer: 0 },
-          { q: "What is the custom with the daruma's eyes?", options: ["Paint one eye when setting a goal, and the second when the goal is reached", "Paint both eyes and throw it away", "Never paint the eyes"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1001-5",
-        title: "Why We Have Two Eyes",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Have you ever wondered why we have two eyes instead of one? After all, each eye seems to see the same scene. But having two eyes gives us a remarkable ability that a single eye could not: the power to see the world in three dimensions, and to judge distance.\n\nThe secret is that your two eyes do not see exactly the same thing. Because they sit a few centimeters apart, each eye views the world from a slightly different angle. You can prove this easily: hold up one finger, and look at it with only your left eye, then only your right. The finger seems to jump from side to side.\n\nYour brain takes these two slightly different pictures and combines them into one. From the small differences between them, it cleverly works out how far away things are. This is why, with both eyes open, you can quickly judge whether a ball is near or far, or reach out and catch it.\n\nThis ability is called depth perception, and it is very useful. It helps us pour water into a cup, walk down stairs, drive a car, and avoid bumping into things. Animals that hunt, like eagles and cats, usually have both eyes facing forward for exactly this reason.\n\nSo two eyes are not just a spare in case one fails. Together, they turn two flat images into a rich, three-dimensional world — a quiet piece of teamwork happening inside your head every moment you look around.",
-        summaryJa: "なぜ私たちは目が一つでなく二つあるのか、考えたことはあるだろうか。結局、どちらの目も同じ光景を見ているように思える。だが二つの目は、一つの目にはできない驚くべき能力を与える。世界を三次元で見て、距離を判断する力だ。秘密は、二つの目が全く同じものを見ていないことだ。数センチ離れているので、各目はわずかに違う角度から世界を見る。簡単に確かめられる。指を一本立て、左目だけで、次に右目だけで見る。指が左右に跳ぶように見える。脳はこの少し違う二つの絵を一つに合わせる。その小さな違いから、物がどれだけ遠いかを巧みに割り出す。だから両目を開けると、ボールが近いか遠いかを素早く判断でき、手を伸ばして捕れる。この能力を奥行き知覚といい、とても役立つ。コップに水を注ぎ、階段を下り、車を運転し、物にぶつからないようにするのを助ける。ワシや猫など狩りをする動物は、まさにこの理由で両目が前を向いていることが多い。だから二つの目は、一つが故障した時の予備ではない。二つ合わさって、二枚の平らな画像を豊かな三次元の世界に変える。見回すたびに頭の中で起きる、静かな共同作業だ。",
-        quiz: [
-          { q: "What remarkable ability do two eyes give us?", options: ["Seeing in three dimensions and judging distance", "Seeing in the dark", "Reading minds"], answer: 0 },
-          { q: "Why do the two eyes not see exactly the same thing?", options: ["They sit a few centimeters apart, viewing the world from slightly different angles", "One eye is always closed", "They look in opposite directions"], answer: 0 },
-          { q: "What is 'depth perception' useful for?", options: ["Pouring water, walking down stairs, driving, and catching a ball", "Nothing at all", "Only for sleeping"], answer: 0 }
         ]
       }
     ]
