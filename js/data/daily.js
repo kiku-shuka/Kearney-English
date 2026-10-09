@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-09",
+    passages: [
+      {
+        id: "d1009-1",
+        title: "The Rise of Online Shopping",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Not long ago, if you wanted to buy something, you had to visit a shop. Today, millions of people shop without leaving home. With a few taps on a phone, clothes, food, and gifts arrive at the door within days or even hours. This change, known as online shopping or e-commerce, has transformed the way businesses work.\n\nFor customers, the benefits are clear. Online stores are open 24 hours a day and never close. People can compare prices from many shops in minutes and read reviews written by other buyers. Someone living far from a city can order the same products as someone in the center of town. For busy people, this saves a great deal of time.\n\nFor businesses, online selling opens new doors. A small company can now reach customers all over the country, or even the world, without building expensive shops. Some businesses sell only online, keeping their costs low. Others combine physical stores with websites to offer the best of both.\n\nBut the change also brings challenges. Delivering goods quickly costs money and creates more traffic and packaging waste. Small local shops sometimes struggle to compete with giant online companies. And customers cannot touch or try products before buying, so returns are common.\n\nOnline shopping is still growing, and it keeps changing. Whatever happens next, one thing is clear: the simple act of buying has moved from the street into our pockets, and business will never be quite the same again.",
+        summaryJa: "オンラインショッピングの台頭について。少し前までは買い物に店へ行く必要があったが、今や多くの人が自宅から買い物をし、スマホを数回タップするだけで衣類や食品、贈り物が数日や数時間で届く。この変化（電子商取引）は商売のあり方を変えた。客にとっては24時間開いており、価格比較やレビュー閲覧ができ、都市から遠くても同じ商品を買える利点がある。企業は高価な店舗なしで全国・世界の客に届けられる。一方、迅速な配送は費用や交通・包装ごみを増やし、地元の小店は巨大企業と競うのに苦労し、試せないため返品も多い。買い物が通りからポケットへ移った。",
+        quiz: [
+          { q: "What is 'e-commerce'?", options: ["Shopping online", "A type of shop building", "A delivery truck"], answer: 0 },
+          { q: "What is one benefit for businesses selling online?", options: ["They can reach customers far away without many shops", "They must build more stores", "They cannot sell anything"], answer: 0 },
+          { q: "What is one challenge of online shopping?", options: ["Customers cannot try products before buying", "Shops close at night", "Nobody can compare prices"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1009-2",
+        title: "Robots That Look Like Us",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "For a long time, robots that look and move like people appeared only in films and stories. Today, they are slowly becoming real. Engineers around the world are building humanoid robots, machines with a head, two arms, and two legs, designed to move much like a human being. Why would anyone want a robot shaped like a person?\n\nThe answer is that our world is built for human bodies. Doors, stairs, tools, and chairs are all made for people. A robot with a human shape can use the same spaces and objects without changes. It can climb stairs, open doors, and pick up everyday tools, which a wheeled machine often cannot do.\n\nBuilding such robots is very difficult. Walking on two legs, for example, is hard to balance, something humans learn as babies but machines find complex. Engineers must give robots sensors to feel the ground, motors to move smoothly, and software to make quick decisions. Progress has been slow, but modern robots can now walk, carry boxes, and even run.\n\nCompanies hope these robots will one day help in factories, hospitals, and homes. They might lift heavy loads, assist elderly people, or work in places that are dangerous for humans. Some may be ready within a few years, while others are still being tested.\n\nHumanoid robots are not meant to replace people, but to work alongside us. As they improve, these mechanical helpers may become a familiar part of daily life, sharing both our spaces and our tasks.",
+        summaryJa: "人型（ヒューマノイド）ロボットについて。人のように見えて動くロボットは長く映画や物語だけの存在だったが、今や現実になりつつある。世界の技術者が頭・両腕・両脚を持ち人のように動く人型ロボットを作っている。理由は、世界が人の体に合わせて作られているからだ。ドアや階段、道具、椅子は人向けで、人型なら改造せずに同じ空間や物を使え、階段を上りドアを開け道具を持てる。しかし二足歩行の制御は難しく、センサーやモーター、素早い判断の制御が要る。工場や病院、家庭での活用が期待され、重い物を運び高齢者を助け危険な場所で働く。人に取って代わるのでなく共に働くことを目指す。",
+        quiz: [
+          { q: "Why do engineers build robots shaped like people?", options: ["Our world is built for human bodies", "People dislike wheels", "Robots must look scary"], answer: 0 },
+          { q: "What is one difficult part of building humanoid robots?", options: ["Balancing while walking on two legs", "Painting them blue", "Turning them off"], answer: 0 },
+          { q: "What is the goal of humanoid robots, according to the passage?", options: ["To work alongside people", "To replace all humans", "To stay in films only"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1009-3",
+        title: "Why English Became a Global Language",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Today, English is spoken in almost every country. Pilots use it to land planes safely, scientists use it to share discoveries, and travelers use it to find their way. For many people, English is not their first language, yet they study it to connect with the wider world. How did one language come to play such a global role?\n\nThe story begins with history. Hundreds of years ago, Britain built a large empire that spread the English language across many continents. Later, the United States grew into a powerful country in business, science, and entertainment. Because so much trade, research, and popular culture happened in English, learning it became useful almost everywhere.\n\nToday, English works as a \"common language,\" or a shared second language that people from different countries use to understand each other. A businessperson from Japan and one from Brazil may both speak English in a meeting, even though it is the first language of neither. In this way, English acts as a bridge between cultures.\n\nThis role brings both benefits and concerns. On one hand, a shared language makes trade, science, and travel easier. On the other hand, some people worry that smaller languages may be forgotten if everyone focuses only on English.\n\nThe future may bring change. Other languages are growing, and new technology can now translate speech instantly. For now, though, English remains a key that opens doors around the world, which is why so many people choose to learn it.",
+        summaryJa: "英語が世界の共通語になった理由について。今日、英語はほぼどの国でも話され、操縦士は安全な着陸に、科学者は発見の共有に、旅行者は道案内に使う。多くの人は母語でなくても世界とつながるため学ぶ。歴史的に、かつて英国が大帝国を築き英語を各大陸へ広め、後に米国が商業・科学・娯楽の強国となり、多くの取引や研究、大衆文化が英語で行われたため学ぶ価値が生まれた。今や英語は異なる国の人が理解し合う「共通語」として橋渡しをする。貿易や科学、旅行を容易にする一方、少数言語が忘れられる懸念もある。翻訳技術の進歩で将来は変わるかもしれないが、今は世界の扉を開く鍵だ。",
+        quiz: [
+          { q: "How did English first spread across many continents?", options: ["Through Britain's large empire", "By a single invention", "Through one school"], answer: 0 },
+          { q: "What does 'a common language' mean here?", options: ["A shared second language people use to understand each other", "A language nobody speaks", "A very old language"], answer: 0 },
+          { q: "What is one concern about English being global?", options: ["Smaller languages may be forgotten", "Planes cannot land", "Science will stop"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1009-4",
+        title: "Sushi: More Than Just Raw Fish",
+        level: "★★☆",
+        genre: "日本",
+        text: "When people around the world think of Japanese food, sushi is often the first dish that comes to mind. Many believe sushi simply means raw fish, but that is not quite true. The heart of sushi is actually the rice, carefully cooked and gently flavored with vinegar. The word sushi refers to this special rice, which may be topped with fish, vegetables, or egg.\n\nSushi has a surprising history. Long ago, it was not a fresh dish at all. People packed fish in rice to keep it from going bad, and the rice was thrown away before eating. Over time, cooks in Japan began to eat the rice together with the fish, and fresh sushi as we know it was born in the city of Edo, now called Tokyo.\n\nMaking good sushi takes great skill. In Japan, a sushi chef may train for years just to learn how to prepare the rice correctly. The fish must be fresh and cut with care, and each piece should be shaped by hand in a moment. It is both a food and an art.\n\nThere are many kinds of sushi. Some are small balls of rice topped with fish, while others are rolled in seaweed with vegetables inside. Today, sushi is loved far beyond Japan, and new styles have appeared in many countries.\n\nWhether simple or fancy, sushi shows a key idea in Japanese cooking: using fresh ingredients simply, so their natural flavors can shine.",
+        summaryJa: "寿司について。世界の人が日本食といえばまず思い浮かべるのが寿司だが、寿司＝生魚と思われがちで、それは正確ではない。寿司の中心は実は米で、丁寧に炊き酢でやさしく味付けしたものを指し、その上に魚や野菜、卵をのせる。歴史は意外で、昔は生の料理でなく、魚を米に漬けて保存し米は捨てていた。やがて魚と米を一緒に食べるようになり、今のような寿司が江戸（現在の東京）で生まれた。良い寿司作りには高い技術が要り、職人は米の扱いを学ぶだけで何年も修業する。握り寿司や巻き寿司など種類も多い。新鮮な素材を簡素に使い、自然な味を生かす日本料理の要点を示す。",
+        quiz: [
+          { q: "What is the heart of sushi, according to the passage?", options: ["The rice, flavored with vinegar", "Only raw fish", "The seaweed"], answer: 0 },
+          { q: "Why did people long ago pack fish in rice?", options: ["To keep it from going bad", "To make it colorful", "To sell the rice"], answer: 0 },
+          { q: "What key idea in Japanese cooking does sushi show?", options: ["Using fresh ingredients simply", "Hiding all natural flavors", "Cooking everything for hours"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1009-5",
+        title: "Why Do Leaves Change Color in Autumn?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Each autumn, in many parts of the world, something beautiful happens. The green leaves of summer slowly turn to bright yellow, orange, and red before they fall. People travel far just to see the colors. But why do leaves change color, and where do these colors come from?\n\nThe answer lies inside the leaves. All through spring and summer, leaves are full of a green substance called chlorophyll. Chlorophyll has an important job: it uses sunlight to make food for the tree. Because there is so much of it, the leaves look green, and we do not see the other colors hidden underneath.\n\nAs autumn arrives, the days grow shorter and the air turns cooler. The tree senses these changes and begins to prepare for winter. It slowly stops making chlorophyll, and the green color fades away. Now the colors that were hidden all along can finally be seen: yellows and oranges that were always in the leaf.\n\nRed is a little different. In some trees, bright red colors are made fresh in autumn, especially when the days are sunny and the nights are cool. This is why some years bring more brilliant reds than others.\n\nFinally, the tree seals off each leaf, and it falls to the ground. Losing its leaves helps the tree save water and energy through the cold winter. So the beauty of autumn is really a sign of a tree getting ready to rest, and to grow green again in spring.",
+        summaryJa: "秋に葉の色が変わる理由について。秋になると世界の多くの地域で、夏の緑の葉が黄・橙・赤に変わって落ちる。その色を見るために遠くまで旅する人もいる。理由は葉の中にある。春夏の間、葉は葉緑素という緑の物質に満ち、これが日光で木の栄養を作る。量が多いため葉は緑に見え、下に隠れた他の色は見えない。秋に日が短く空気が冷えると木は冬支度を始め、葉緑素を作るのをやめて緑が薄れ、隠れていた黄や橙が現れる。赤は少し違い、晴れた日と涼しい夜に新たに作られる木もあり、年によって鮮やかさが変わる。最後に葉は切り離されて落ち、木は水と力を蓄えて冬を越し、春に再び緑になる。",
+        quiz: [
+          { q: "What makes leaves look green in summer?", options: ["A substance called chlorophyll", "Yellow paint", "The autumn wind"], answer: 0 },
+          { q: "Why do yellow and orange colors appear in autumn?", options: ["The green chlorophyll fades and reveals them", "Someone paints the leaves", "They come from the soil"], answer: 0 },
+          { q: "Why does a tree lose its leaves in winter?", options: ["To save water and energy", "To look taller", "To stop growing forever"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-08",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What does the brain do during sleep?", options: ["It switches off completely", "It sorts and stores memories", "It stops all activity"], answer: 1 },
           { q: "How much sleep do most adults need?", options: ["Three to four hours", "Seven to nine hours", "Twelve hours"], answer: 1 },
           { q: "What is one tip for better sleep?", options: ["Use phones in bed", "Keep the room bright", "Go to bed at the same time each night"], answer: 2 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-02",
-    passages: [
-      {
-        id: "d1002-1",
-        title: "Why the Unemployment Rate Matters",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Every month, governments announce an important number: the unemployment rate. News reports treat it as a major event, and markets can rise or fall because of it. But what does this number really mean, and why does it matter so much?\n\nThe unemployment rate measures the share of people who want to work and are looking for a job, but cannot find one. If the rate is low, it usually means jobs are plentiful and the economy is healthy. If the rate is high, it means many people are struggling to find work, a sign that the economy may be weak.\n\nThis single number affects almost everyone. For workers, it hints at how easy or hard it will be to find or keep a job. For businesses, it signals whether customers will have money to spend. Governments and central banks watch it closely, using it to help decide whether to change interest rates or support the economy.\n\nThe number is not perfect, however. It does not count people who have given up looking for work, or those stuck in part-time jobs who want full-time ones. So wise observers look beyond the single figure to the fuller picture.\n\nStill, the unemployment rate remains one of the clearest windows into the health of an economy. Behind the percentage are millions of real people and their hopes for a steady job. That is why, each month, the world pauses to read this quiet but powerful number.",
-        summaryJa: "毎月、政府は重要な数字を発表する。失業率だ。ニュースはこれを大きな出来事として扱い、市場はこれで上下しうる。だがこの数字は本当は何を意味し、なぜそれほど重要なのか。失業率は、働きたくて仕事を探しているのに見つけられない人の割合を測る。率が低ければ、たいてい仕事が豊富で経済が健康なことを意味する。率が高ければ、多くの人が仕事探しに苦労しており、経済が弱いかもしれない兆しだ。この一つの数字はほぼ全員に影響する。働く人には、仕事を見つけ保つのがどれほど易しいか難しいかを示唆する。企業には、客にお金を使う余裕があるかを示す。政府や中央銀行はこれを注視し、金利を変えるか経済を支えるかの判断に使う。だがこの数字は完璧ではない。仕事探しを諦めた人や、フルタイムを望むのにパートにとどまる人は数えない。だから賢い観察者は、一つの数字を越えてより全体像を見る。それでも失業率は、経済の健康をのぞく最も明確な窓の一つだ。パーセントの背後には、何百万もの実在の人々と、安定した仕事への願いがある。だから毎月、世界はこの静かだが力強い数字を読むために立ち止まる。",
-        quiz: [
-          { q: "What does the unemployment rate measure?", options: ["The share of people who want to work and are looking but cannot find a job", "The number of companies in a country", "The price of goods"], answer: 0 },
-          { q: "What does a low unemployment rate usually mean?", options: ["Jobs are plentiful and the economy is likely healthy", "The economy is collapsing", "Nobody wants to work"], answer: 0 },
-          { q: "Why is the number not perfect?", options: ["It misses people who gave up looking or want full-time but work part-time", "It counts everyone perfectly", "It is always wrong"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1002-2",
-        title: "How Batteries Store Energy",
-        level: "★★★",
-        genre: "テクノロジー",
-        text: "Batteries are everywhere in modern life, powering our phones, toys, cars, and countless other devices. We charge them, use them, and charge them again, often without thinking about the clever chemistry inside. So how does a small battery actually store and release energy?\n\nThe secret lies in a chemical reaction. Inside a battery are two different materials, called electrodes, kept apart but connected by a special substance. When the battery is working, a chemical reaction makes tiny particles called electrons want to travel from one electrode to the other. But they cannot pass through the middle directly. Instead, they must flow out through the device — your phone or flashlight — doing useful work along the way, before returning to the battery. That flow of electrons is electricity.\n\nIn a rechargeable battery, this process can be reversed. When you plug it in to charge, electricity is pushed back into the battery, driving the chemical reaction backward and storing energy again, ready for next time.\n\nDifferent batteries use different chemicals, which affects how much energy they hold, how fast they charge, and how long they last. Scientists are always working to make batteries that store more power, charge faster, and are safer and cleaner.\n\nBetter batteries are now one of the most important goals in technology. They are the key to electric cars, to storing energy from the sun and wind, and to a future that relies less on burning fuel. All of it starts with that quiet chemistry in a little box.",
-        summaryJa: "電池は現代生活の至る所にあり、電話や玩具、車、無数の機器を動かす。私たちは充電し、使い、また充電する。中の巧みな化学を考えもせずに。では小さな電池は実際どうエネルギーを蓄え放つのか。秘密は化学反応にある。電池の中には電極という二つの異なる材料があり、離されつつ特別な物質でつながれている。電池が働くとき、化学反応が電子という小さな粒子を一方の電極から他方へ移りたがらせる。だが真ん中を直接通れない。代わりに機器——電話や懐中電灯——を通って流れ出し、道中で有用な仕事をしてから電池に戻る。その電子の流れが電気だ。充電式電池では、この過程を逆にできる。充電のためつなぐと、電気が電池に押し戻され、化学反応を逆向きに進めて再びエネルギーを蓄え、次に備える。電池ごとに使う化学物質が異なり、蓄える量、充電の速さ、持ちに影響する。科学者は常に、より多く蓄え、速く充電し、より安全で清潔な電池を作ろうとしている。より良い電池は今、技術で最も重要な目標の一つだ。電気自動車や、太陽と風からのエネルギーの貯蔵、燃料を燃やすことに頼らない未来の鍵だ。すべては小さな箱の中の静かな化学から始まる。",
-        quiz: [
-          { q: "What makes a battery work?", options: ["A chemical reaction that drives electrons from one electrode to the other", "A tiny fire inside", "A small motor"], answer: 0 },
-          { q: "Why must the electrons flow out through your device?", options: ["They cannot pass through the middle directly, so they do useful work on the way", "Because the device is empty", "They never move at all"], answer: 0 },
-          { q: "What happens in a rechargeable battery when you charge it?", options: ["Electricity is pushed back in, reversing the reaction and storing energy again", "The battery melts", "Nothing happens"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1002-3",
-        title: "One World, One Measure",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Imagine trying to build a bridge if every worker used a different idea of how long a meter is, or trying to sell food if a kilogram meant something different in each shop. Trade, science, and travel would fall into chaos. To prevent this, the world has agreed on shared units of measurement — a quiet agreement that holds much of modern life together.\n\nMost countries use a system called the metric system, built on simple, shared units: the meter for length, the kilogram for weight, the second for time, and a few others. Because these units mean exactly the same thing everywhere, a part made in one country will fit a machine built in another, and a scientist's result can be checked by others across the globe.\n\nAgreeing on measurement is harder than it sounds. For a long time, units were based on physical objects, like a special metal bar kept to define the meter. But such objects can change slightly over time. So scientists have now redefined the basic units using unchanging facts of nature, making them stable forever and available to anyone, anywhere.\n\nA few countries still use older systems for daily life, which can cause confusion, and even costly mistakes, when working across borders.\n\nShared measurement is one of humanity's great quiet achievements. It lets people who have never met, speaking different languages, build, trade, and discover together — all because they agreed, long ago, on exactly how much a meter really is.",
-        summaryJa: "もし作業員ごとに1メートルの長さの考えが違えば橋を建てるのを、店ごとに1キログラムの意味が違えば食べ物を売るのを想像してほしい。貿易も科学も旅も混乱に陥る。これを防ぐため、世界は共有の測定単位に合意した——現代生活の多くを支える静かな合意だ。多くの国はメートル法という仕組みを使い、簡素で共有された単位に基づく。長さのメートル、重さのキログラム、時間の秒など。これらの単位はどこでも全く同じ意味なので、ある国で作った部品が別の国で作った機械に合い、科学者の結果を世界中の他者が確認できる。測定への合意は聞こえるより難しい。長年、単位はメートルを定義する特別な金属棒のような物体に基づいた。だがそうした物体は時とともにわずかに変わりうる。そこで科学者は今、基本単位を変わらない自然の事実を使って再定義し、永遠に安定し、誰でもどこでも使えるようにした。いくつかの国は日常で古い仕組みをなお使い、国境を越えて作業するとき混乱や、時に高くつく誤りを生みうる。共有の測定は人類の偉大な静かな達成の一つだ。会ったこともなく違う言語を話す人々が、共に建て、取引し、発見できる——はるか昔に、1メートルが正確にどれだけかに合意したからだ。",
-        quiz: [
-          { q: "Why did the world agree on shared units of measurement?", options: ["Without them, trade, science, and travel would fall into chaos", "To make life more confusing", "Because units do not matter"], answer: 0 },
-          { q: "What is the metric system built on?", options: ["Simple shared units like the meter, kilogram, and second", "A different unit in every shop", "No units at all"], answer: 0 },
-          { q: "How have scientists made the basic units stable forever?", options: ["By redefining them using unchanging facts of nature instead of physical objects", "By hiding the metal bar", "By changing them every year"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1002-4",
-        title: "The Shinkansen: Japan's Bullet Train",
-        level: "★★☆",
-        genre: "日本",
-        text: "Gliding across Japan at speeds over 300 kilometers per hour, the Shinkansen, often called the bullet train, is one of the country's proudest achievements. With its long, pointed nose and smooth white body, it looks as fast as it is. Since it first began running decades ago, it has changed the way people travel in Japan.\n\nThe Shinkansen is famous for more than its speed. It is also remarkably safe and punctual. In its long history, it has carried billions of passengers with an outstanding safety record. The trains are so reliable that the average delay is measured in seconds, not minutes. A train that is even slightly late is considered a serious matter.\n\nHow is this possible? The answer is careful engineering and discipline. The tracks are specially built and smooth, the trains are constantly checked, and the whole system is run with great precision. Even the cleaning of the trains between trips is done with impressive speed and care.\n\nThe bullet train also changed life and business. Cities far apart became close, letting people live in one place and work in another, or do business across the country in a single day.\n\nToday, many countries have built their own high-speed trains, but the Shinkansen remains a symbol of what careful planning can achieve. It shows a very Japanese idea: that speed, safety, and order can travel together — a smooth, swift arrow connecting the whole nation.",
-        summaryJa: "時速300キロを超える速さで日本を駆け抜ける新幹線、しばしば弾丸列車と呼ばれるこれは、国の最も誇る達成の一つだ。長く尖った鼻と滑らかな白い車体で、速さそのままに見える。数十年前に初めて走って以来、日本の旅の仕方を変えた。新幹線は速さ以上のことで有名だ。驚くほど安全で時間に正確でもある。長い歴史で、卓越した安全記録とともに何十億もの乗客を運んできた。列車はとても信頼でき、平均遅延は分でなく秒で測られる。少しでも遅れる列車は重大事とみなされる。どうしてか。答えは入念な工学と規律だ。線路は特別に造られ滑らかで、列車は絶えず点検され、仕組み全体が高い精度で運行される。運行間の車内清掃さえ、見事な速さと心配りで行われる。弾丸列車は暮らしと事業も変えた。遠く離れた都市が近くなり、ある場所に住み別の場所で働いたり、一日で国中を商売したりできるようになった。今や多くの国が独自の高速列車を造ったが、新幹線は入念な計画が成し得るものの象徴であり続ける。速さ、安全、秩序が共に進めるという実に日本的な発想を示す。国全体をつなぐ、滑らかで速い矢だ。",
-        quiz: [
-          { q: "What is the Shinkansen famous for, besides its speed?", options: ["Being remarkably safe and punctual", "Being very slow", "Having no passengers"], answer: 0 },
-          { q: "How late is the average Shinkansen?", options: ["Its average delay is measured in seconds, not minutes", "Several hours", "A full day"], answer: 0 },
-          { q: "How did the bullet train change life and business?", options: ["Far-apart cities became close, so people could live and work in different places", "It made travel impossible", "It stopped all business"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1002-5",
-        title: "How We Taste Food",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Biting into a juicy orange or a piece of chocolate brings a burst of flavor. We enjoy taste every day, but few of us think about how it actually works. The sense of taste is a clever partnership between the tongue, the nose, and the brain.\n\nThe main work begins on your tongue, which is covered with thousands of tiny bumps. Hidden in these bumps are even smaller structures called taste buds. When food dissolves in your mouth, the taste buds detect it and send signals to the brain. Scientists have found that taste buds mainly sense five basic tastes: sweet, sour, salty, bitter, and a savory taste called umami, found in foods like soup and cheese.\n\nBut here is a surprise: much of what we call \"taste\" is really smell. As you chew, tiny scents travel up to your nose from inside your mouth. The brain combines these smells with the signals from your tongue to create the rich flavors you enjoy. This is why food tastes dull and flat when you have a cold and your nose is blocked.\n\nTaste is not just for pleasure. Long ago, it helped keep our ancestors safe. A sweet taste signaled energy-rich food, while a bitter taste warned of something that might be harmful.\n\nSo the next time you enjoy a delicious meal, remember the quiet teamwork behind it. Your tongue, your nose, and your brain are working together to turn simple food into a world of flavor.",
-        summaryJa: "みずみずしいオレンジや一片のチョコレートをかじると、風味がはじける。私たちは毎日味を楽しむが、それが実際どう働くか考える人は少ない。味覚は舌と鼻と脳の巧みな協力だ。主な働きは舌で始まる。舌は何千もの小さな突起で覆われている。この突起に隠れて、味蕾というさらに小さな構造がある。食べ物が口で溶けると、味蕾がそれを感知し脳に信号を送る。科学者は、味蕾が主に五つの基本の味を感じると発見した。甘味、酸味、塩味、苦味、そしてスープやチーズなどにあるうま味という旨い味だ。だが驚きがある。私たちが「味」と呼ぶものの多くは実は匂いだ。噛むと、小さな香りが口の中から鼻へ上る。脳はこの匂いを舌からの信号と合わせ、楽しむ豊かな風味を作る。だから風邪で鼻が詰まると食べ物の味が鈍く平板になる。味覚は楽しみのためだけではない。昔、祖先を安全に保つのを助けた。甘味はエネルギー豊富な食べ物を示し、苦味は害になりうるものを警告した。次においしい食事を楽しむとき、その背後の静かな共同作業を思い出してほしい。舌と鼻と脳が協力し、簡素な食べ物を風味の世界に変えている。",
-        quiz: [
-          { q: "What are hidden in the tiny bumps on your tongue?", options: ["Taste buds that detect food and send signals to the brain", "Small bones", "Tiny lights"], answer: 0 },
-          { q: "What are the five basic tastes?", options: ["Sweet, sour, salty, bitter, and umami (savory)", "Only sweet and salty", "Hot and cold"], answer: 0 },
-          { q: "Why does food taste dull when you have a cold?", options: ["Much of 'taste' is really smell, and a blocked nose cannot sense it", "Because the tongue disappears", "Because food changes"], answer: 0 }
         ]
       }
     ]
