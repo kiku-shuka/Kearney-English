@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-10",
+    passages: [
+      {
+        id: "d1010-1",
+        title: "Why Good Customer Service Matters",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Imagine two coffee shops on the same street, selling coffee at the same price. In one, the staff smile, remember your name, and quickly fix any mistake. In the other, the workers seem bored and slow to help. Which shop would you return to? For most people, the answer is easy. This is the power of good customer service.\n\nCustomer service means how a business treats the people who buy from it. It includes answering questions, solving problems, and making customers feel valued. Good service can turn a first-time buyer into a loyal customer who comes back again and again.\n\nWhy does this matter so much? One reason is that keeping an existing customer is usually cheaper than finding a new one. A happy customer may also tell friends and family about a business, giving it free and trusted advertising. In contrast, one bad experience can push a customer away forever, and they may warn others too.\n\nToday, customer service happens in many places: in shops, on the phone, and online. When something goes wrong, customers notice how quickly and kindly a company responds. A fast, honest reply can actually build more trust than if nothing had gone wrong at all.\n\nGood service does not always require spending more money. Often it is about simple things: listening carefully, being polite, and keeping promises. In a world full of choices, the way a business treats people can be the very thing that sets it apart.",
+        summaryJa: "良い顧客サービスが大切な理由について。同じ通りで同じ値段のコーヒー店が2軒あり、一方は店員が笑顔で名前を覚え間違いもすぐ直す。もう一方は無愛想で対応が遅い。多くの人は前者に戻る。これが良い顧客サービスの力だ。顧客サービスとは、買ってくれる人をどう扱うかで、質問に答え、問題を解決し、大切にされていると感じさせること。既存客を保つ方が新規開拓より安く、満足した客は友人に広めてくれる無料で信頼ある宣伝になる。逆に一度の悪い経験は客を永久に遠ざける。丁寧に聞き、礼儀正しく、約束を守るといった簡単なことが差を生む。",
+        quiz: [
+          { q: "What does 'customer service' mean?", options: ["How a business treats the people who buy from it", "The price of a product", "A kind of machine"], answer: 0 },
+          { q: "Why is keeping an existing customer valuable?", options: ["It is usually cheaper than finding a new one", "It costs much more", "It drives customers away"], answer: 0 },
+          { q: "What can build trust when something goes wrong?", options: ["A fast, honest reply", "Ignoring the customer", "Hiding the problem"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1010-2",
+        title: "How Touchscreens Know Your Touch",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Every day, we touch glass screens to open apps, type messages, and look at photos. Phones, tablets, and even cash machines now use touchscreens. We tap and swipe without thinking, but how does a flat piece of glass know exactly where our finger is?\n\nMost modern phones use a kind of screen called a capacitive touchscreen. The secret is that the human body carries a small amount of natural electricity. Under the glass, there is a very thin, invisible grid of lines that holds a weak electric charge. When your finger touches the screen, it changes the charge at that exact spot. The phone senses this tiny change and works out where you touched.\n\nBecause the screen reacts to electricity, not pressure, you only need a light touch. This is also why these screens usually do not work if you wear thick gloves, since the glove blocks the electricity from your skin. Special gloves with built-in threads can solve this problem.\n\nTouchscreens can follow more than one finger at a time. This is how you can zoom in on a photo by moving two fingers apart, or rotate a map with a twist. The screen tracks each point separately, many times every second.\n\nBefore touchscreens, people controlled computers with buttons and a mouse. Now, a simple sheet of glass connects us directly to our digital world. The next time you tap your phone, remember the hidden grid quietly sensing the gentle electricity of your touch.",
+        summaryJa: "タッチスクリーンが指を感知する仕組みについて。私たちは毎日ガラス画面に触れてアプリを開き、文字を打ち、写真を見る。スマホやタブレット、現金自動機も使う。平らなガラスがなぜ指の位置を正確に知るのか。多くのスマホは静電容量式という画面を使う。鍵は人体がわずかな電気を帯びていること。ガラスの下に弱い電荷を持つ見えない格子があり、指が触れるとその点の電荷が変化し、スマホがそれを感知して位置を割り出す。圧力でなく電気に反応するため軽く触れるだけでよく、厚い手袋では電気が遮られ反応しない。複数の指も同時に追え、2本指で写真を拡大したり地図を回したりできる。",
+        quiz: [
+          { q: "How does a capacitive touchscreen sense your finger?", options: ["It detects a change in electric charge", "It smells your finger", "It listens for a sound"], answer: 0 },
+          { q: "Why do these screens often not work with thick gloves?", options: ["The glove blocks electricity from your skin", "The glove is too warm", "The screen is asleep"], answer: 0 },
+          { q: "How can you zoom in on a photo?", options: ["By moving two fingers apart", "By shouting at it", "By closing the phone"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1010-3",
+        title: "How the Olympic Games Bring the World Together",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Every few years, athletes from almost every country on Earth gather in one city for the Olympic Games. For a few weeks, the world watches runners, swimmers, and gymnasts compete for medals. The Olympics are the largest sporting event in history, but they are about far more than sport.\n\nThe modern Olympic Games began in 1896, inspired by an ancient festival held in Greece thousands of years ago. The idea was simple but powerful: to bring nations together in friendly competition rather than conflict. Today, athletes from more than 200 countries take part, making the Games a rare moment when the whole world meets in peace.\n\nThe Olympics follow important traditions. Athletes march together in an opening ceremony, each nation carrying its flag. The Olympic rings, five colored circles joined together, stand for the continents united as one. A flame is carried from Greece to the host city, a symbol of shared history passed from hand to hand.\n\nOf course, the Games are not perfect. Hosting them costs a great deal of money, and politics sometimes enters the stadium. Yet for many people, the Olympics still offer something special: the sight of rivals shaking hands, and of small countries standing proudly beside large ones.\n\nAt their best, the Olympic Games remind us of a hopeful idea. Despite our many differences, people everywhere share the same dreams of effort, fairness, and friendship, expressed through the simple joy of sport.",
+        summaryJa: "オリンピックが世界を一つにする仕組みについて。数年ごとに、ほぼ全ての国の選手が一つの都市に集い、数週間、世界が走者や水泳、体操の競技を見守る。史上最大のスポーツ大会だが、スポーツ以上の意味を持つ。近代五輪は古代ギリシャの祭りに着想を得て1896年に始まり、争いでなく友好的な競争で国々を結ぶという理念があった。今や200超の国が参加する。開会式で各国が国旗を掲げて行進し、五輪は結ばれた五大陸を表し、聖火がギリシャから開催地へ運ばれる。開催費や政治の問題もあるが、ライバルが握手し小国が大国と並ぶ姿は特別だ。努力・公正・友情という共通の夢を思い出させる。",
+        quiz: [
+          { q: "When did the modern Olympic Games begin?", options: ["In 1896", "Last year", "In ancient times only"], answer: 0 },
+          { q: "What do the five Olympic rings stand for?", options: ["The continents united as one", "Five famous athletes", "Five cities"], answer: 0 },
+          { q: "What is one problem with hosting the Olympics?", options: ["It costs a great deal of money", "Nobody watches", "There are no athletes"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1010-4",
+        title: "Bonsai: The Art of Tiny Trees",
+        level: "★★☆",
+        genre: "日本",
+        text: "Imagine a tree old enough to look like it belongs in a forest, yet small enough to sit on a table. This is bonsai, the Japanese art of growing miniature trees in small pots. A bonsai is not a special kind of tree; it is an ordinary tree, such as a pine or a maple, kept small through years of careful care.\n\nThe word bonsai means planted in a container. The art came to Japan from China long ago and slowly developed into the form known today. Growing a bonsai is a slow and patient hobby. A gardener trims the leaves and roots, and gently bends the branches with soft wire to create a pleasing shape. Some famous bonsai trees are over a hundred years old and are passed down through families.\n\nThe goal is not simply to make a tree small. It is to create a living picture of nature, balanced and beautiful. A good bonsai should look natural, as if shaped by wind and time, not by human hands. Each tree reflects the taste and patience of the person who cares for it.\n\nBonsai also teaches important lessons. It cannot be rushed; a tree grows at its own speed. The gardener must observe closely, make small changes, and wait. In this way, bonsai is as much about the grower as the tree.\n\nToday, people around the world enjoy bonsai. In a small pot, it holds a quiet reminder of patience, nature, and the beauty of slow and careful work.",
+        summaryJa: "盆栽について。森にありそうなほど古く見えるのに、机に置けるほど小さい木を想像してほしい。これが盆栽で、小さな鉢でミニチュアの木を育てる日本の芸術だ。特別な木ではなく、松や楓などの普通の木を長年の手入れで小さく保つ。「盆栽」は「鉢に植えた」という意味で、昔中国から日本へ伝わり今の形に発展した。葉や根を刈り、針金で枝をやさしく曲げて形を整える、ゆっくりと忍耐の要る趣味だ。百年以上の名木もあり家族で受け継がれる。目的は小さくすることでなく、自然の生きた絵を作ること。急げず、よく観察し小さな変化を加えて待つ。盆栽は木であると同時に育てる人の姿も映す。",
+        quiz: [
+          { q: "What is a bonsai?", options: ["An ordinary tree kept small in a pot", "A special kind of plastic tree", "A type of flower only"], answer: 0 },
+          { q: "How does a gardener shape a bonsai's branches?", options: ["By gently bending them with soft wire", "By cutting them all off", "By painting them"], answer: 0 },
+          { q: "What lesson does bonsai teach?", options: ["Patience; it cannot be rushed", "To work as fast as possible", "To ignore the tree"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1010-5",
+        title: "Why Is the Sky Blue?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Look up on a clear day, and the sky is a beautiful blue. Children often ask why, and it is a question that puzzled people for a very long time. The answer is hidden in sunlight itself and in the air around us.\n\nSunlight may look white, but it is really a mix of all the colors of the rainbow. Each color travels as a wave, and the waves are different sizes. Red light has long, lazy waves, while blue light has short, quick waves. When sunlight enters our atmosphere, it meets countless tiny molecules of gas in the air.\n\nHere is the key. The small molecules in the air scatter, or bounce away, short blue waves much more strongly than long red waves. As a result, blue light is thrown in every direction across the sky. When you look up, blue light is coming at you from all around, and so the whole sky appears blue.\n\nThis same idea explains the beautiful colors of sunset. When the Sun is low, its light must pass through much more air to reach your eyes. By then, most of the blue light has been scattered away, leaving the reds and oranges that paint the evening sky.\n\nSo the blue sky and the red sunset are two sides of the same story. Both are created by sunlight breaking apart as it travels through the air, a quiet piece of science happening above our heads every single day.",
+        summaryJa: "空が青い理由について。晴れた日に見上げると空は美しい青で、子どもがよく尋ねる長年の謎だった。答えは太陽光そのものと周りの空気にある。太陽光は白く見えても実は虹のすべての色の混合で、各色は波として進み波の大きさが違う。赤い光は長くゆったりした波、青い光は短く速い波だ。太陽光が大気に入ると無数の小さな気体分子に出会う。要点は、空気中の小さな分子が短い青の波を長い赤の波よりずっと強く散乱させること。その結果、青い光が空のあらゆる方向にまき散らされ、見上げると四方から届くため空全体が青く見える。夕日が赤いのも同じ理屈で、低い太陽の光は長く空気を通り青が散ってしまい赤や橙が残る。",
+        quiz: [
+          { q: "What is sunlight really made of?", options: ["A mix of all the colors of the rainbow", "Only blue light", "Only white paint"], answer: 0 },
+          { q: "Why does the sky look blue?", options: ["Air molecules scatter blue light in every direction", "The sky is painted blue", "Blue light disappears"], answer: 0 },
+          { q: "Why is a sunset red and orange?", options: ["Most blue light has been scattered away by then", "The Sun changes color", "The air turns red"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-09",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is the 'gut microbiome'?", options: ["The community of bacteria in our gut", "A type of food", "A kind of vitamin pill"], answer: 0 },
           { q: "What do recent studies suggest about gut bacteria?", options: ["They only cause illness", "They may affect memory and mood", "They have no effect on the body"], answer: 1 },
           { q: "How can we keep gut bacteria healthy?", options: ["Eat lots of sugar", "Eat a wide variety of plants", "Avoid all vegetables"], answer: 1 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-03",
-    passages: [
-      {
-        id: "d1003-1",
-        title: "Could a Four-Day Work Week Work?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "For many years, most people have worked five days a week. But recently, some companies have started testing a new idea: the four-day work week. The plan is simple. Workers come to the office for four days instead of five, but they still receive the same pay. The goal is to give people more time to rest and enjoy life, while keeping the business productive.\n\nCompanies that have tried this report some surprising results. Many workers say they feel less tired and more focused. With an extra day off, they can spend time with family, exercise, or finish personal tasks. As a result, some businesses have found that their staff get the same amount of work done in four days as they used to do in five.\n\nOf course, the idea does not fit every job. In hospitals, shops, and factories, someone must be present every day. For these workplaces, a four-day week is harder to plan. Managers also worry that four long days may feel more stressful than five shorter ones.\n\nStill, interest in the idea keeps growing. Several countries have run large trials, and many companies that joined them decided to continue. Experts say the key is good planning: clear goals, fewer useless meetings, and trust between managers and workers. Whether or not it becomes normal, the four-day week is making people rethink how we balance work and life.",
-        summaryJa: "週4日勤務の実験について。給与を減らさず勤務を4日にすると、社員の集中力が上がり、5日分と同じ仕事を終えられた例もある。ただし病院や店舗など毎日人が必要な職場では導入が難しく、1日の労働が長くなる心配もある。成功の鍵は明確な目標、無駄な会議の削減、上司と部下の信頼だと専門家は指摘する。",
-        quiz: [
-          { q: "What is the main idea of the four-day work week?", options: ["Working four days for the same pay", "Working four days for less pay", "Working more hours each day forever"], answer: 0 },
-          { q: "Why is the idea hard for hospitals and shops?", options: ["They have too many workers", "Someone must be present every day", "They do not need any staff"], answer: 1 },
-          { q: "According to experts, what helps the four-day week succeed?", options: ["More long meetings", "Good planning and trust", "Lower pay for workers"], answer: 1 }
-        ]
-      },
-      {
-        id: "d1003-2",
-        title: "The Little Squares That Store Big Information",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "You have probably seen them everywhere: small black-and-white squares on posters, menus, and product boxes. These are QR codes, and they have become part of daily life. But what exactly are they, and how do they work?\n\nA QR code is a type of barcode. A normal barcode, like the ones on food packages, stores information in a line of thin and thick stripes. A QR code goes further. Because it uses a square pattern, it can hold data in two directions, across and down. This means it can store much more information, such as a website address, a message, or payment details.\n\nWhen you point your phone's camera at a QR code, the camera reads the pattern of black and white dots. Software inside the phone turns that pattern into useful information, often a link to a website. In just a second, you can open a menu, pay for a bus ticket, or join a wireless network.\n\nQR codes were first created in Japan in the 1990s to track car parts in factories. For years, few people outside industry used them. Then smartphones made them easy to scan, and their use grew quickly around the world.\n\nOne reason they are so popular is that they are cheap and simple to make. Anyone can create one for free. However, experts warn that people should be careful. A QR code could lead to a harmful website, so it is wise to check where a code takes you before trusting it.",
-        summaryJa: "QRコードの仕組みについて。通常のバーコードは線で情報を記録するが、QRコードは縦横の四角いパターンでより多くの情報を持てる。スマホのカメラが白黒の点を読み取り、ウェブサイトのリンクなどに変換する。1990年代に日本で自動車部品の管理用に作られ、スマホの普及で世界中に広がった。安く簡単に作れる一方、危険なサイトへ誘導される恐れもあるため注意が必要。",
-        quiz: [
-          { q: "Why can a QR code store more than a normal barcode?", options: ["It uses color", "It stores data in two directions", "It is always bigger"], answer: 1 },
-          { q: "Where and why were QR codes first created?", options: ["In Japan, to track car parts", "In the US, for shopping", "In Europe, for banks"], answer: 0 },
-          { q: "What warning do experts give about QR codes?", options: ["They are too expensive", "They may lead to harmful websites", "They cannot be scanned by phones"], answer: 1 }
-        ]
-      },
-      {
-        id: "d1003-3",
-        title: "Why Countries Trade With Each Other",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "No country can produce everything its people need. Some nations have oil, others grow coffee, and others build cars or computers. Because of these differences, countries trade. International trade means buying and selling goods and services across borders, and it shapes the world economy every day.\n\nThe main reason for trade is simple: countries are good at different things. A nation with a warm climate may grow fruit easily, while a colder country may be better at making machines. When each country focuses on what it does well and trades for the rest, both sides can gain. People get a wider choice of products, often at lower prices.\n\nTrade also connects people. A phone in your pocket may contain metals from one continent, parts made on another, and software written somewhere else. This web of connections can bring countries closer and encourage cooperation.\n\nHowever, trade is not always smooth. Sometimes governments add taxes, called tariffs, on goods from abroad to protect their own companies. Other times, disagreements between countries slow trade down. These problems can raise prices and create tension.\n\nDespite the challenges, most experts agree that trade has helped reduce poverty and spread new ideas around the world. The key question for the future is how to make trade fair, so that both rich and poor nations benefit. As the world becomes more connected, understanding trade helps us understand the news, and the prices in our own shops.",
-        summaryJa: "国どうしが貿易をする理由について。どの国もすべてを自給できず、得意分野が異なるため、各国が得意なものに集中して交換すると双方が得をし、消費者の選択肢も広がる。貿易は国どうしを結びつけるが、関税や対立で滞ることもあり、価格上昇や緊張を生む。それでも貿易は貧困削減や新しい考えの普及に役立ってきたとされ、今後は公平な貿易の実現が課題となる。",
-        quiz: [
-          { q: "Why do countries trade according to the passage?", options: ["They are good at different things", "They all produce the same goods", "They want fewer choices"], answer: 0 },
-          { q: "What is a tariff?", options: ["A free gift to other countries", "A tax on goods from abroad", "A type of product"], answer: 1 },
-          { q: "What do most experts say trade has done?", options: ["Made the world less connected", "Helped reduce poverty and spread ideas", "Stopped all cooperation"], answer: 1 }
-        ]
-      },
-      {
-        id: "d1003-4",
-        title: "Japan's Famous Vending Machines",
-        level: "★★☆",
-        genre: "日本",
-        text: "Walk down almost any street in Japan, and you will soon see a vending machine glowing by the roadside. Japan has one of the highest numbers of vending machines in the world, millions of them, found in cities, small villages, and even on quiet mountain paths. For visitors, they are one of the country's most surprising sights.\n\nMost machines sell drinks, both hot and cold. On a winter morning, you can buy a warm can of tea or coffee; in summer, a cold bottle of water appears in seconds. But drinks are only the beginning. Some machines sell ice cream, hot meals, fresh eggs, umbrellas, or even flowers. Each one is like a tiny shop that never closes.\n\nWhy are there so many? One reason is safety. Japan has a very low crime rate, so machines can stand outside all night without being damaged or robbed. Another reason is space. Shops can be small and rents high, so a machine on the street is a cheap way to sell goods. Japanese people also value speed and convenience, and a machine gives both.\n\nThe machines are also known for being clean and reliable. They rarely break, and the area around them is usually tidy. In recent years, some have added touch screens and cashless payment, making them even easier to use.\n\nFor many people, these machines are a small symbol of daily life in Japan: quiet, convenient, and always ready to help, day or night.",
-        summaryJa: "日本の自動販売機について。日本は世界有数の設置台数を誇り、街中から山道まで見られる。温かい飲み物や冷たい飲み物のほか、アイス、温かい食事、卵、傘、花を売る機械もある。多い理由は、治安が良く屋外に置いても安全なこと、店舗の家賃が高く狭いこと、人々が速さと便利さを重んじることにある。清潔で故障も少なく、近年はタッチパネルやキャッシュレス決済も増え、日常生活の象徴となっている。",
-        quiz: [
-          { q: "What do most Japanese vending machines sell?", options: ["Only flowers", "Drinks, both hot and cold", "Only umbrellas"], answer: 1 },
-          { q: "What is one reason Japan has so many machines?", options: ["A very low crime rate", "Very large shops", "A lack of electricity"], answer: 0 },
-          { q: "What change has happened to machines in recent years?", options: ["They stopped selling drinks", "They added cashless payment", "They became dirtier"], answer: 1 }
-        ]
-      },
-      {
-        id: "d1003-5",
-        title: "Why Our Bodies Need Sleep",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Every night, we spend hours doing something that may seem like a waste of time: sleeping. Yet scientists agree that sleep is one of the most important things we do. Without it, our bodies and minds cannot work well. But what really happens while we sleep?\n\nSleep is not simply switching off. During the night, the brain stays busy. It sorts through the day's events and decides what to remember and what to forget. This is why a good night's sleep helps us learn and remember new things. Students who sleep well before a test often do better than those who stay up late studying.\n\nThe body also repairs itself during sleep. Muscles recover, and the body fights illness more effectively. People who do not get enough sleep are more likely to catch colds and feel stressed. Over many years, poor sleep can lead to serious health problems.\n\nHow much sleep do we need? It depends on age. Young children need the most, often ten hours or more. Most adults feel best with seven to nine hours each night. Yet many people around the world sleep less than this because of work, worry, or screens that keep them awake.\n\nExperts suggest a few simple habits for better sleep: go to bed at the same time each night, keep the room dark and cool, and avoid phones before bed. Good sleep is free, and it may be one of the best gifts we can give our health.",
-        summaryJa: "睡眠が必要な理由について。睡眠は時間の無駄に見えても心身にとって非常に重要で、眠っている間も脳は働き、その日の出来事を整理して記憶を残すため、よく眠ると学習や記憶に役立つ。体も回復し病気と闘う力が高まる。必要な時間は年齢によって異なり、子どもは10時間以上、大人は7〜9時間が目安。よい睡眠のコツは、毎日同じ時間に寝る、部屋を暗く涼しく保つ、寝る前にスマホを見ないこと。",
-        quiz: [
-          { q: "What does the brain do during sleep?", options: ["It switches off completely", "It sorts and stores memories", "It stops all activity"], answer: 1 },
-          { q: "How much sleep do most adults need?", options: ["Three to four hours", "Seven to nine hours", "Twelve hours"], answer: 1 },
-          { q: "What is one tip for better sleep?", options: ["Use phones in bed", "Keep the room bright", "Go to bed at the same time each night"], answer: 2 }
         ]
       }
     ]
