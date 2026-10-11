@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-11",
+    passages: [
+      {
+        id: "d1011-1",
+        title: "What Makes a Strong Brand?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Think of a famous company. You can probably picture its logo, its colors, and maybe even a short phrase it uses. That instant feeling in your mind is the power of a brand. A brand is much more than a name or a symbol; it is the whole idea that people have about a company.\n\nA strong brand does several things. First, it helps customers recognize a product quickly among many others. A simple logo on a shoe or a drink tells you at a glance who made it. Second, a brand carries a promise. When people trust a brand, they expect the same quality every time they buy, whether in Tokyo or New York.\n\nBuilding a brand takes time and care. Companies choose names, colors, and designs that are easy to remember and that match the feeling they want to give. A brand for children's toys may use bright colors and a playful style, while a brand for business suits may look simple and serious.\n\nA brand also lives in how a company behaves. If a business treats customers well and keeps its promises, its brand grows stronger. But if it breaks trust, even a famous brand can be damaged quickly. News travels fast, and people remember.\n\nIn a crowded market, a strong brand is one of a company's most valuable possessions. It cannot be held in your hand, yet it can be worth more than factories or machines. A good brand turns a simple product into something people know, trust, and choose again and again.",
+        summaryJa: "強いブランドを作るものについて。有名企業を思い浮かべると、ロゴや色、短い標語が頭に浮かぶ。その瞬時の感覚がブランドの力だ。ブランドは名前や記号以上に、人々が企業に抱く全体像を指す。強いブランドはまず、多くの商品の中で素早く見分けさせる。靴や飲み物の簡単なロゴで誰の製品か一目で分かる。次に約束を担い、信頼されれば東京でもニューヨークでも同じ品質を期待される。名前・色・デザインを覚えやすく選ぶのには時間と手間がかかる。さらにブランドは企業の振る舞いにも宿り、約束を守れば強まり、信頼を裏切れば一気に傷つく。混み合う市場で、手に取れないのに工場や機械以上の価値を持つ。",
+        quiz: [
+          { q: "What is a brand, according to the passage?", options: ["The whole idea people have about a company", "Only a factory", "A type of machine"], answer: 0 },
+          { q: "What does a brand promise to customers?", options: ["The same quality every time", "A different product each time", "Lower prices always"], answer: 0 },
+          { q: "How can even a famous brand be damaged quickly?", options: ["By breaking people's trust", "By using a logo", "By being easy to remember"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1011-2",
+        title: "How 3D Printing Builds Objects",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Most printers put flat ink onto paper. But a special kind of machine can print solid objects you can hold in your hand, such as a toy, a cup, or even a part for a machine. This technology is called 3D printing, and it is changing how things are made.\n\nA normal object, like a plastic cup, is usually made in a factory using large molds. A 3D printer works in a completely different way. It builds an object from the bottom up, adding material one thin layer at a time. Most printers melt a thin plastic thread and lay it down in the right shape, layer upon layer, until the whole object is complete. This can take minutes for a small item or many hours for a large one.\n\nBefore printing, a designer creates a digital model of the object on a computer. The printer follows this model exactly, which means the same design can be sent anywhere in the world and printed again.\n\n3D printing has many uses. Doctors use it to make models of bones before an operation. Engineers print parts to test new ideas quickly and cheaply. Some people even print spare parts for broken items at home, instead of buying new ones.\n\nThe technology still has limits. Printing can be slow, and the objects are not always as strong as factory-made ones. But 3D printing allows almost anyone to turn an idea into a real object, which once seemed like something only from a dream.",
+        summaryJa: "3Dプリンティングが物を作る仕組みについて。普通のプリンターは紙に平らなインクを乗せるが、特別な機械はおもちゃやカップ、機械の部品など手に取れる立体物を印刷できる。これが3Dプリンティングで、物の作り方を変えつつある。普通の製品は工場で大きな型を使って作るが、3Dプリンターは下から薄い層を一枚ずつ重ねて作る。多くは細いプラスチックの糸を溶かして形に並べ、層を積み重ねる。小物なら数分、大物なら何時間もかかる。事前に設計者がコンピューターで立体模型を作り、プリンターがそれに従う。同じ設計を世界中へ送って再び印刷できる。医療や試作、家庭での部品作りに使われる。遅さや強度の限界はあるが、誰でも発想を実物にできる。",
+        quiz: [
+          { q: "How does a 3D printer build an object?", options: ["By adding material one thin layer at a time", "By carving a block of wood", "By painting on paper"], answer: 0 },
+          { q: "What must a designer make before printing?", options: ["A digital model on a computer", "A paper drawing only", "A real factory"], answer: 0 },
+          { q: "What is one use of 3D printing mentioned?", options: ["Making models of bones before an operation", "Cooking dinner", "Cleaning streets"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1011-3",
+        title: "Why Clean Water Is a Global Challenge",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Turn on a tap, and clean water flows out. For many people, this is so normal that they never think about it. Yet around the world, billions of people do not have safe water to drink. Clean water has become one of the great challenges of our time, and it connects people in every country.\n\nWater covers most of the Earth, but almost all of it is salty seawater or frozen ice. Only a small amount is fresh water that people can drink, and it is not spread evenly. Some regions have plenty, while others face long droughts. In many poorer areas, families, often children, must walk for hours each day to collect water that may still make them sick.\n\nDirty water is dangerous. It can carry diseases that harm or even kill, especially young children. For this reason, bringing clean water to everyone is one of the world's shared goals. Governments, charities, and scientists work together to dig wells, build pipes, and create simple filters that make water safe.\n\nThe problem is growing harder. As the population rises and the climate changes, water is becoming scarcer in some places. Cities need more, farms need more, and sometimes countries that share a river must decide how to divide it fairly.\n\nStill, there is real progress. Over the past decades, millions more people have gained access to clean water. The task is far from finished, but it shows what cooperation can do. Water is life, and sharing it wisely is a challenge for the whole world.",
+        summaryJa: "きれいな水が世界的課題である理由について。蛇口をひねれば清潔な水が出るのを当然と思う人は多いが、世界では何十億もの人が安全な飲み水を得られない。きれいな水は現代の大きな課題で、あらゆる国の人を結ぶ。地球の大半は水だが、ほとんどは塩水や氷で、飲める淡水はわずかで偏在する。豊富な地域もあれば干ばつに苦しむ地域もあり、貧しい地域では家族（しばしば子ども）が何時間も歩いて水を汲み、それでも病気になることがある。汚れた水は病気を運び特に幼児に危険だ。各国政府や慈善団体、科学者が井戸や水道、簡単な浄水器を作る。人口増加と気候変動で水はさらに希少になり、川を共有する国は公平な分配を迫られる。それでも前進はあり協力の力を示す。",
+        quiz: [
+          { q: "Why is only a small amount of Earth's water usable for drinking?", options: ["Almost all of it is salty or frozen", "People drink too fast", "Water is not on Earth"], answer: 0 },
+          { q: "Why is dirty water dangerous?", options: ["It can carry diseases", "It is too cold", "It is too expensive"], answer: 0 },
+          { q: "What is making the water problem harder?", options: ["Rising population and climate change", "Too much clean water", "Fewer people on Earth"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1011-4",
+        title: "Tatami: The Floor of a Japanese Home",
+        level: "★★☆",
+        genre: "日本",
+        text: "Step into a traditional Japanese room, and you may notice the floor is not made of wood or carpet, but of soft, firm mats with a gentle green color and a fresh, grassy smell. These are tatami mats, and for centuries they have been a part of daily life in Japan.\n\nTatami are made from natural materials. A thick base is covered with a woven surface made from a plant called rush grass. Each mat is the same rectangular shape, about twice as long as it is wide. Because the size is fixed, Japanese people often measure the size of a room by the number of tatami mats it holds. A small room might be six mats, a larger one eight mats.\n\nLiving with tatami shapes how people behave. Shoes are always removed before stepping onto them, which keeps the mats clean. People often sit directly on the floor on cushions, and at night, a soft mattress called a futon can be laid out for sleeping and put away in the morning. In this way, one room can be used for many purposes.\n\nTatami also feel pleasant. They are soft enough to sit on comfortably, yet firm enough to walk on. In summer they feel cool, and their natural smell is loved by many.\n\nToday, many Japanese homes have wooden or carpeted floors, but most still keep at least one tatami room. It remains a calm, traditional space, connecting modern life to the customs of the past.",
+        summaryJa: "日本の家の畳について。伝統的な和室に入ると、床が木やカーペットでなく、やわらかく締まった、淡い緑色で草のさわやかな香りのする敷物であることに気づく。これが畳で、何世紀も日本の暮らしの一部だ。畳は自然素材で作られ、厚い土台をい草という植物で織った表面で覆う。各畳は同じ長方形で、長さは幅の約2倍。寸法が決まっているため部屋の広さを畳の枚数で測ることが多く、「六畳」「八畳」などと言う。畳の上では靴を脱いで清潔を保ち、座布団に座り、夜は布団を敷いて寝て朝に片づけ、一部屋を多目的に使える。やわらかく座り心地がよく、夏は涼しく香りも好まれる。今も多くの家が一部屋は畳を残す。",
+        quiz: [
+          { q: "What are tatami mats made from?", options: ["Natural materials including rush grass", "Plastic and metal", "Glass"], answer: 0 },
+          { q: "How do Japanese people often measure a room's size?", options: ["By the number of tatami mats", "By its color", "By its smell"], answer: 0 },
+          { q: "Why are shoes removed before stepping on tatami?", options: ["To keep the mats clean", "To make them colder", "To make noise"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1011-5",
+        title: "How Plants Make Their Own Food",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Humans and animals must eat other living things to get energy. Plants are different. A tree or a blade of grass can make its own food using nothing more than sunlight, air, and water. This amazing process is called photosynthesis, and almost all life on Earth depends on it.\n\nPhotosynthesis happens mostly in the leaves. Inside each leaf is a green substance called chlorophyll, which gives plants their color. Chlorophyll's special job is to capture energy from sunlight. At the same time, the plant takes in a gas called carbon dioxide from the air through tiny holes in its leaves, and it draws up water from the soil through its roots.\n\nUsing the energy from the Sun, the plant combines the water and the carbon dioxide to make a kind of sugar. This sugar is the plant's food, giving it the energy to grow. In a way, a plant is like a tiny factory powered by sunlight.\n\nThere is a wonderful bonus for the rest of us. As plants make their food, they release a gas we cannot live without: oxygen. Every breath we take contains oxygen made by plants, from the smallest grass to the largest forest.\n\nSo plants do far more than look beautiful. They feed themselves, they feed the animals that eat them, and they fill the air with the oxygen we need. The quiet green leaves all around us are busy at work, keeping the whole living world alive.",
+        summaryJa: "植物が自ら食べ物を作る仕組みについて。人や動物はエネルギーを得るため他の生き物を食べねばならないが、植物は違う。木や草は日光・空気・水だけで自分の食べ物を作れる。この驚くべき過程を光合成と呼び、地球のほぼ全ての生命が頼っている。光合成は主に葉で起こり、葉の中の葉緑素という緑の物質が植物の色を生み、日光のエネルギーを捉える。同時に植物は葉の小さな穴から二酸化炭素を取り込み、根から水を吸い上げる。太陽のエネルギーで水と二酸化炭素を合わせて糖を作り、それが植物の食べ物となり成長を支える。おまけに植物は酸素を放出し、私たちの一呼吸ごとの酸素は植物が作る。静かな緑の葉が世界の命を支えている。",
+        quiz: [
+          { q: "What is photosynthesis?", options: ["How plants make their own food using sunlight", "How animals hunt", "A type of soil"], answer: 0 },
+          { q: "What does chlorophyll do?", options: ["Captures energy from sunlight", "Makes plants grow legs", "Cools the air"], answer: 0 },
+          { q: "What important gas do plants release?", options: ["Oxygen", "Smoke", "Helium"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-10",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Who was Alfred Nobel?", options: ["A Swedish inventor who invented dynamite", "A famous singer", "A king of Sweden"], answer: 0 },
           { q: "In which fields are Nobel Prizes given?", options: ["Only sports", "Physics, chemistry, medicine, literature, peace, economics", "Only music and art"], answer: 1 },
           { q: "What do the Nobel Prizes remind us, according to the passage?", options: ["That curiosity and kindness matter", "That money is useless", "That science is boring"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-04",
-    passages: [
-      {
-        id: "d1004-1",
-        title: "How Small Companies Compete with Big Ones",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When we think of famous companies, we often imagine huge businesses with thousands of workers. But most companies in the world are actually small. How can a small shop or a young company survive next to a giant competitor? The answer is that being small has its own advantages.\n\nOne big advantage is speed. A large company may need weeks of meetings to make a decision. A small company can often decide in a single afternoon. This means it can react quickly to new trends and customer needs. When the market changes, the small firm can change with it.\n\nAnother advantage is a personal touch. Large companies serve millions of customers, so each person can feel like just a number. A small business, on the other hand, can learn its customers' names, remember their preferences, and offer friendly service. Many people happily pay a little more for that kind of care.\n\nSmall companies also tend to focus. Instead of trying to sell everything, they often choose one thing and do it very well. A tiny bakery known for the best bread in town does not need to beat a huge supermarket at everything. It only needs to be the best at one thing.\n\nOf course, small firms face real challenges, such as limited money and fewer staff. But by using their speed, their personal service, and their focus, many small companies not only survive but grow. In business, size is not everything. Sometimes being small is exactly what makes a company special.",
-        summaryJa: "小さな会社が大企業と競う方法について。世界の会社の多くは小規模だが、小ささには利点がある。第一に意思決定の速さで、市場の変化にすぐ対応できる。第二に顧客一人ひとりに寄り添う温かいサービスで、多くの人は多少高くてもそれを選ぶ。第三に一点集中で、何でも売ろうとせず得意分野を極める。資金や人手の制約はあるが、速さ・丁寧さ・集中を武器に生き残り成長する小企業は多い。",
-        quiz: [
-          { q: "According to the passage, what is one advantage of small companies?", options: ["They can make decisions quickly", "They have the most workers", "They never face challenges"], answer: 0 },
-          { q: "Why do some customers prefer small businesses?", options: ["They are always cheaper", "They offer a personal touch", "They sell everything"], answer: 1 },
-          { q: "What does the bakery example show?", options: ["Small firms should sell everything", "Being the best at one thing can work", "Supermarkets always win"], answer: 1 }
-        ]
-      },
-      {
-        id: "d1004-2",
-        title: "How Computers Remember: Inside Data Storage",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Every photo you take, every message you send, and every video you watch has to be stored somewhere. But where does all this information go, and how does a computer remember it? The answer lies in devices called storage drives.\n\nFor many years, most computers used hard disk drives, or HDDs. Inside an HDD, there is a round metal disk that spins very fast. A tiny arm moves across the disk and writes information by changing magnetic patterns on its surface. To read the data later, the arm checks those patterns again. Because the disk spins, an HDD has moving parts, a little like a record player.\n\nMore recently, many devices have started using solid-state drives, or SSDs. An SSD has no moving parts at all. Instead, it stores data in memory chips, using electricity to hold information even when the power is off. Because nothing has to spin or move, SSDs are usually faster and quieter, and they use less energy.\n\nSo why do HDDs still exist? The main reason is price. Hard drives can store huge amounts of data cheaply, which is useful for large systems that keep enormous files. Today, demand for storage is growing fast, partly because new technologies create more data than ever before.\n\nBoth types of drive do the same basic job: they keep our information safe until we need it. Whether spinning or silent, these quiet machines are the memory of the digital world, holding the photos, work, and messages that fill our daily lives.",
-        summaryJa: "コンピューターがデータを保存する仕組みについて。写真やメッセージなどの情報は記憶装置に保存される。長年使われてきたハードディスク（HDD）は、高速回転する金属の円盤に磁気のパターンで情報を書き込み、腕の部品が読み書きする。近年普及するソリッドステートドライブ（SSD）は可動部がなく、メモリーチップに電気で情報を保持するため、速く静かで省電力。それでもHDDが残るのは、大量のデータを安く保存できるから。需要は急速に増えている。",
-        quiz: [
-          { q: "How does a hard disk drive (HDD) store information?", options: ["By spinning a disk and changing magnetic patterns", "By printing on paper", "By using sound waves"], answer: 0 },
-          { q: "What is one advantage of an SSD over an HDD?", options: ["It has more moving parts", "It is usually faster and quieter", "It is always cheaper"], answer: 1 },
-          { q: "Why do HDDs still exist today?", options: ["They can store lots of data cheaply", "They never break", "They use no electricity"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1004-3",
-        title: "Working Together to Protect the World's Forests",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Forests cover about a third of the world's land, and they do far more than provide wood. They clean our air, store huge amounts of carbon, and are home to most of the planet's animals and plants. Yet forests are disappearing in many regions, cut down for farming, roads, and cities. Protecting them has become one of the world's shared challenges.\n\nThe problem is difficult because forests do not belong to one country alone. The air they clean and the climate they cool affect everyone. When a forest is lost in one place, the whole planet feels the result. For this reason, nations have begun to work together rather than act alone.\n\nCountries cooperate in several ways. Some richer nations provide money to poorer ones that agree to protect their forests instead of clearing them. International agreements set shared goals, such as slowing the loss of trees by a certain year. Scientists from many countries share satellite images that track exactly where forests are shrinking.\n\nRecent research also offers hope. One long study found that forests which are carefully managed, rather than left completely alone, can sometimes grow larger trees and store even more carbon. This suggests that protecting forests does not always mean doing nothing; wise management can help.\n\nChallenges remain, including illegal logging and the pressure to use land for food. But forests show clearly how connected the world has become. By cooperating across borders, countries have a real chance to keep these green treasures alive for future generations.",
-        summaryJa: "世界の森林を守るための国際協力について。森林は陸地の約3分の1を覆い、空気を浄化し、大量の炭素を蓄え、多くの動植物の住みかとなる。だが農地や道路のために各地で減少している。森林の恩恵は国境を越えて全人類に及ぶため、各国は協力し始めた。豊かな国が資金を出す、国際的な目標を定める、衛星画像を共有するなどの方法がある。近年の研究では、適切に管理された森林がより大きな木を育て炭素を多く蓄える例も示された。課題は残るが、協力により森を次世代へ残せる。",
-        quiz: [
-          { q: "Why is protecting forests a shared world challenge?", options: ["Forests affect the whole planet, not one country", "Only one country has forests", "Forests are not important"], answer: 0 },
-          { q: "What is one way countries cooperate on forests?", options: ["Richer nations fund poorer ones to protect forests", "They ignore the problem", "They cut down more trees together"], answer: 0 },
-          { q: "What did the recent long study suggest?", options: ["Forests should always be left alone", "Careful management can help forests store more carbon", "Trees cannot store carbon"], answer: 1 }
-        ]
-      },
-      {
-        id: "d1004-4",
-        title: "Japan's School Lunch Tradition",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, children bring lunch from home or buy it at school. In Japan, something different happens almost every day. Most public elementary and junior high schools serve a hot lunch, called kyushoku, and it is far more than just a meal. It is treated as part of a child's education.\n\nA typical school lunch is balanced and healthy. It often includes rice or bread, a main dish such as fish or meat, a vegetable side, soup, and a small carton of milk. Menus are planned by trained staff to give children the right amount of energy and nutrition. Meals usually cost little, and the food is cooked fresh, sometimes using vegetables grown nearby.\n\nWhat surprises many visitors is who serves the food. The students themselves do it. Wearing white aprons and caps, a small group brings the food to the classroom and serves their classmates. After eating, everyone helps clean up. Children also learn to say itadakimasu before the meal and gochisosama after, as a way of giving thanks.\n\nThrough this daily routine, students learn more than good eating habits. They learn responsibility, teamwork, and respect for the people who grow and prepare food. They also discover new dishes they might never try at home.\n\nFor many Japanese adults, school lunch is a warm memory of childhood. It shows how a simple meal can teach important lessons, filling both the stomach and the heart, one school day at a time.",
-        summaryJa: "日本の学校給食の伝統について。多くの公立小中学校では毎日温かい給食が出され、単なる食事でなく教育の一部とされる。ご飯やパン、主菜、野菜、汁物、牛乳などバランスがよく、栄養士が献立を考え、安価で作りたてだ。驚かれるのは配膳を児童自身が行う点で、白いエプロンと帽子で友達に配り、食後は皆で片づける。「いただきます」「ごちそうさま」で感謝も学ぶ。責任感や協力、食への敬意、新しい料理との出会いなど、多くを学べる。",
-        quiz: [
-          { q: "What is special about Japanese school lunch (kyushoku)?", options: ["It is treated as part of education", "It is always brought from home", "It is never healthy"], answer: 0 },
-          { q: "Who serves the food in Japanese schools?", options: ["Visitors from other countries", "The students themselves", "Only the teachers"], answer: 1 },
-          { q: "What do students learn through school lunch, besides eating habits?", options: ["Responsibility and teamwork", "How to skip cleaning", "How to cook at restaurants"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1004-5",
-        title: "Why Your Gut Bacteria Matter",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Inside your body, especially in your gut, live trillions of tiny living things called bacteria. The idea might sound unpleasant, but most of these bacteria are not harmful at all. In fact, scientists are learning that they are essential for our health. Together, this huge community is sometimes called the gut microbiome.\n\nThese bacteria do many useful jobs. They help break down the food we eat, especially fiber from fruits and vegetables that our bodies cannot digest alone. In return, they produce helpful substances, including certain vitamins. A healthy gut also supports the immune system, helping the body fight off illness.\n\nWhat surprises many people is that gut bacteria may affect more than digestion. Recent research suggests a link between the gut and the brain. Some studies have found that the types of bacteria in our gut may influence memory, mood, and even how quickly the brain ages. Scientists are still studying exactly how this works, but the connection is an exciting area of research.\n\nHow can we keep our gut bacteria healthy? The advice is simple and familiar. Eating a wide variety of plants, such as vegetables, fruits, beans, and whole grains, gives the good bacteria the food they need. Fermented foods like yogurt can help too. Too much sugar and processed food, on the other hand, may harm them.\n\nSo the next time you eat a colorful salad, remember that you are feeding not just yourself, but trillions of tiny helpers working quietly inside you.",
-        summaryJa: "腸内細菌の重要性について。体内、特に腸には無数の細菌がすみ、その多くは有害ではなく健康に欠かせない。この集団は「腸内細菌叢（マイクロバイオーム）」と呼ばれる。細菌は食物繊維の分解を助け、ビタミンなど有益な物質を作り、免疫も支える。近年の研究では腸と脳のつながりが示され、記憶や気分、脳の老化速度にも影響する可能性がある。腸内細菌を健やかに保つには、野菜・果物・豆・全粒穀物など多様な植物や発酵食品が役立ち、糖分や加工食品の取りすぎは良くない。",
-        quiz: [
-          { q: "What is the 'gut microbiome'?", options: ["The community of bacteria in our gut", "A type of food", "A kind of vitamin pill"], answer: 0 },
-          { q: "What do recent studies suggest about gut bacteria?", options: ["They only cause illness", "They may affect memory and mood", "They have no effect on the body"], answer: 1 },
-          { q: "How can we keep gut bacteria healthy?", options: ["Eat lots of sugar", "Eat a wide variety of plants", "Avoid all vegetables"], answer: 1 }
         ]
       }
     ]
