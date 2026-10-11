@@ -163,7 +163,19 @@ KE_DATA.extraSentences = [
   { id: "w2640-s09", ja: "全員の予定が合う時間を探しています。", en: "I'm looking for a time that works for everyone.", note: "work for = 都合が合う" },
   { id: "w2640-s10", ja: "この件は優先度を上げて対応します。", en: "I'll move this up the priority list.", note: "move up = 優先度を上げる" },
   { id: "w2640-s11", ja: "次回までに各自の担当を決めておきましょう。", en: "Let's decide who does what before the next meeting.", note: "who does what = 役割分担" },
-  { id: "w2640-s12", ja: "厳しいご意見も含め、率直なご意見に感謝します。", en: "I appreciate your honest feedback, including the critical points.", note: "critical = 批判的な・厳しい" }
+  { id: "w2640-s12", ja: "厳しいご意見も含め、率直なご意見に感謝します。", en: "I appreciate your honest feedback, including the critical points.", note: "critical = 批判的な・厳しい" },
+  { id: "w2641-s01", ja: "この資料に目を通しておいていただけますか。", en: "Could you look over this document beforehand?", note: "look over = ざっと目を通す" },
+  { id: "w2641-s02", ja: "申し訳ありませんが、その締切は厳しいです。", en: "I'm afraid that deadline is going to be tight.", note: "I'm afraid ... = 残念な知らせの前置き" },
+  { id: "w2641-s03", ja: "私の理解が正しいか確認させてください。", en: "Let me make sure I understand correctly.", note: "make sure = 確実にする・確認する" },
+  { id: "w2641-s04", ja: "この問題は優先的に対応する必要があります。", en: "We need to deal with this issue as a priority.", note: "as a priority = 優先事項として" },
+  { id: "w2641-s05", ja: "来週の会議の議題を送っていただけますか。", en: "Could you send me the agenda for next week's meeting?", note: "agenda = 議題・予定表" },
+  { id: "w2641-s06", ja: "コスト削減のため、いくつか案を検討しています。", en: "We're considering a few options to cut costs.", note: "cut costs = 費用を削減する" },
+  { id: "w2641-s07", ja: "ご不明な点があれば、遠慮なくお尋ねください。", en: "If anything is unclear, please feel free to ask.", note: "feel free to = 遠慮なく〜する" },
+  { id: "w2641-s08", ja: "現時点では、まだ結論は出ていません。", en: "At this point, we haven't reached a conclusion yet.", note: "reach a conclusion = 結論に達する" },
+  { id: "w2641-s09", ja: "そのスケジュールで問題ありません。", en: "That schedule works fine for us.", note: "work fine = 都合がよい・問題なく機能する" },
+  { id: "w2641-s10", ja: "念のため、もう一度数字を確認してもらえますか。", en: "Just in case, could you check the figures once more?", note: "figures = 数字・データ" },
+  { id: "w2641-s11", ja: "この件については、来週改めてご連絡します。", en: "I'll get back to you on this next week.", note: "get back to = 後で返答する" },
+  { id: "w2641-s12", ja: "長期的には、このやり方の方が効率的です。", en: "In the long run, this approach is more efficient.", note: "in the long run = 長期的には" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -461,6 +473,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Exactly. Could you prepare a list of possible savings by Friday?", ja: "その通り。金曜までに削減候補のリストを作ってもらえますか？" },
       { s: "B", en: "Sure. I'll send it to you with the expected amounts.", ja: "もちろんです。見込み額を添えてお送りします。" }
     ]
+  },
+  {
+    id: "w2641-sh1",
+    title: "電話での問い合わせ対応（納期の確認）",
+    level: "★★☆",
+    description: "顧客からの電話で注文の状況を確認し、遅れをわびて見通しと代替案を伝える場面。電話応対の基本の型を身につける。",
+    lines: [
+      { s: "A", en: "Good morning, this is Sakura Trading. How can I help you?", ja: "おはようございます、さくら商事です。どのようなご用件でしょうか？" },
+      { s: "B", en: "Hello, I'm calling about my order. It hasn't arrived yet.", ja: "もしもし、注文の件でお電話しました。まだ届いていないのですが。" },
+      { s: "A", en: "I'm sorry to hear that. May I have your order number?", ja: "申し訳ございません。注文番号を教えていただけますか？" },
+      { s: "B", en: "Yes, it's four-five-two-one.", ja: "はい、4521です。" },
+      { s: "A", en: "Thank you. Let me check the status for you.", ja: "ありがとうございます。状況を確認いたします。" },
+      { s: "A", en: "I'm afraid your order has been delayed by two days.", ja: "申し訳ありませんが、ご注文は2日遅れております。" },
+      { s: "B", en: "Two days? I need it for an event on Friday.", ja: "2日ですか？金曜のイベントで必要なのです。" },
+      { s: "A", en: "I understand. I can send it by express delivery at no extra cost.", ja: "承知しました。追加料金なしで速達でお送りできます。" },
+      { s: "B", en: "That would be great. When will it arrive?", ja: "それは助かります。いつ届きますか？" },
+      { s: "A", en: "It should reach you by Thursday morning. I'm very sorry for the trouble.", ja: "木曜の朝までには届くはずです。ご迷惑をおかけして申し訳ありません。" }
+    ]
   }
 ];
 
@@ -621,6 +651,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2640-t03", ja: "今日の労働市場では、生涯にわたって学び続けることは必要だと思いますか？", en: "Is lifelong learning necessary in today's job market?",
     sample: { point: "Yes, I strongly believe that lifelong learning is now necessary, not optional.", reason: "The main reason is that technology and job requirements change so quickly that skills can become outdated within a few years.", example: "For example, workers who keep learning new tools and digital skills are far more likely to stay employed when their industry changes or automates certain tasks.", point2: "So treating learning as a lifelong habit is one of the best ways to protect your career." }
+  },
+  {
+    id: "w2641-t01", ja: "企業は出張を減らしてオンライン会議に切り替えるべきだと思いますか？", en: "Should companies replace business trips with online meetings?",
+    sample: { point: "I think companies should replace many business trips with online meetings, but not all of them.", reason: "The main reason is that online meetings save a lot of time and money and cut travel costs, which matters even more when fuel prices are high.", example: "For example, a routine update that once required a day of flying can now be done in a one-hour video call, letting staff spend the rest of the day on real work.", point2: "So online meetings should be the default, while important first meetings and relationship-building still deserve a trip in person." }
+  },
+  {
+    id: "w2641-t02", ja: "若い世代にとって、家を買うより借りる方が良い選択だと思いますか？", en: "For young people, is renting a better choice than buying a home?",
+    sample: { point: "In my view, renting is often the wiser choice for young people today, at least for now.", reason: "The main reason is that buying requires a huge amount of money, and with borrowing costs so high, monthly payments can be a heavy burden for years.", example: "For example, with mortgage rates at their highest in a long time, a young worker who rents keeps the freedom to move for a better job instead of being tied to one place by a loan.", point2: "So while owning a home is a fine goal, renting first can give young people flexibility and financial safety." }
+  },
+  {
+    id: "w2641-t03", ja: "店は商品の種類を絞った方が良いと思いますか？", en: "Should shops offer fewer product choices?",
+    sample: { point: "I think many shops would actually benefit from offering fewer, well-chosen products.", reason: "The main reason is that too many choices can confuse customers and raise costs, while a smaller, careful selection builds trust and is easier to manage.", example: "For example, some retailers have recently cut the number of items they sell and found that customers decide faster and are happier with a clear, quality range.", point2: "So fewer choices, if chosen wisely, can be better for both the customer and the shop." }
   }
 ];
 
