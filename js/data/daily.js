@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-12",
+    passages: [
+      {
+        id: "d1012-1",
+        title: "The Subscription Economy: Paying Every Month",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Not long ago, when you wanted music, you bought a CD. When you wanted a film, you bought or rented a DVD. Today, many people pay a small amount every month instead and get access to thousands of songs or movies. This way of paying is called a subscription, and it has changed many businesses.\n\nA subscription means you pay a regular fee, usually monthly, to use a service for as long as you keep paying. Music apps, video services, games, and even software for work now use this model. Some companies send physical items too, such as a box of food or coffee delivered every month.\n\nWhy do businesses like subscriptions so much? The main reason is steady income. Instead of selling a product once, a company earns money again and again from the same customer. This makes it easier to plan for the future. For customers, the appeal is convenience and choice: for one monthly fee, they can enjoy far more than they could ever buy one by one.\n\nBut there are downsides. Because each fee seems small, people may sign up for many services and forget about them, slowly spending a lot. Companies also raise their prices over time, knowing that customers find it easy to keep paying rather than cancel.\n\nThe subscription model keeps spreading into new areas. It can be a great deal, but it rewards careful customers. The wise habit is simple: check now and then what you are paying for, and keep only what you truly use.",
+        summaryJa: "サブスクリプション経済について。少し前は音楽はCD、映画はDVDを買ったが、今は多くの人が毎月少額を払い、何千もの曲や映画を利用する。この支払い方をサブスクリプションと呼び、多くの事業を変えた。サブスクは、払い続ける限りサービスを使える定期料金（通常は月額）だ。音楽・動画・ゲーム・業務用ソフトのほか、食品やコーヒーを毎月届ける例もある。企業が好む主な理由は安定収入で、同じ客から繰り返し収益を得られ将来を計画しやすい。客には便利さと選択肢の多さが魅力だ。一方、少額に見えて契約を忘れ出費がかさむことや、企業が徐々に値上げする難点もある。時々契約内容を確認し、本当に使うものだけ残すのが賢明だ。",
+        quiz: [
+          { q: "What is a subscription?", options: ["A regular fee to use a service while you keep paying", "A one-time purchase forever", "A free gift"], answer: 0 },
+          { q: "Why do businesses like subscriptions?", options: ["They provide steady, repeated income", "They earn money only once", "They lose customers"], answer: 0 },
+          { q: "What is one downside for customers?", options: ["They may forget services and keep paying", "Services are always free", "Prices never change"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1012-2",
+        title: "How Video Streaming Works",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "When you press play on an online video, it starts almost at once, even if the film is two hours long. You do not have to wait to download the whole thing first. This everyday magic is called streaming, and it is how most of us watch video today.\n\nThe word streaming is a good description. Instead of sending you the entire video at the start, the service sends it in a steady stream of small pieces, one after another. Your device plays each piece while the next pieces are still arriving. As long as the pieces keep coming fast enough, the video plays smoothly.\n\nThe video itself is stored on powerful computers called servers, often in huge buildings far away. When you press play, your device asks the nearest server for the video. To save time, companies keep copies of popular shows on servers in many countries, so the data does not have to travel too far.\n\nStreaming also adjusts to your internet speed. If your connection is fast, you get a sharp, clear picture. If it slows down, the service quietly lowers the quality so the video does not stop. This is why a video sometimes looks blurry for a moment and then becomes clear again.\n\nThanks to streaming, a library of films and music that once would have filled many shelves now fits inside a phone. Behind the simple press of a button, tiny pieces of data are racing across the world to reach your screen just in time.",
+        summaryJa: "動画配信（ストリーミング）の仕組みについて。オンライン動画は再生を押すとほぼ即座に始まり、2時間の映画でも全部をダウンロードする必要がない。この日常の魔法がストリーミングだ。名前の通り、最初に全体を送るのでなく、小さな断片を次々と流して送る。端末は届いた断片を再生しつつ次を受け取り、十分速く届く限りなめらかに再生される。動画はサーバーという強力なコンピューターに保存され、人気作は多くの国のサーバーに複製を置きデータの移動距離を短くする。通信速度にも合わせ、速ければ鮮明、遅ければ画質を下げて止まらないようにする。一瞬ぼやけてまた鮮明になるのはこのためだ。棚を埋めるほどの作品がスマホに収まる。",
+        quiz: [
+          { q: "How does streaming send a video to you?", options: ["In a steady stream of small pieces", "All at once at the start", "By mailing a disc"], answer: 0 },
+          { q: "Why do companies keep copies of shows on servers in many countries?", options: ["So the data does not travel too far", "To hide the shows", "To make them cost more"], answer: 0 },
+          { q: "What happens when your internet connection slows down?", options: ["The service lowers the video quality so it does not stop", "The video stops forever", "The screen turns off"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1012-3",
+        title: "The Story of the Passport",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "If you want to travel to another country, you usually need one small but powerful book: a passport. This document proves who you are and which country you come from. Without it, crossing most borders is impossible. But where did the passport come from, and why does the whole world rely on it?\n\nThe idea is very old. Long ago, rulers gave travelers letters asking local officials to let them pass safely. The modern passport, however, grew mainly in the 20th century. After a major war, countries wanted to control who entered and left, and a standard travel document became normal around the world.\n\nToday's passports follow shared rules so that every country can read them. Inside are your name, your photograph, and your date of birth. Modern passports also contain a tiny electronic chip holding the same information, which machines at airports can check in seconds.\n\nA passport does more than identify you. It is also a request. The issuing country politely asks other nations to allow the traveler to pass and to treat them well. In this way, a passport is a small symbol of trust between countries.\n\nNot all passports are equal. Citizens of some countries can visit many places easily, while others face more checks and need special permission, called a visa. This difference reflects the relationships between nations.\n\nFor millions of people, this little book is the key to the world. It turns a stranger at a border into a welcome guest, allowing people, ideas, and friendships to travel across the globe.",
+        summaryJa: "パスポートの歴史について。他国へ旅するには、小さいが強力な一冊、パスポートが必要だ。これは本人と出身国を証明する文書で、無ければ多くの国境を越えられない。発想は古く、昔は統治者が旅人に安全な通行を頼む手紙を渡した。近代的なパスポートは主に20世紀に広まり、大戦後に各国が出入国管理を望み、標準的な渡航文書が一般化した。今のパスポートは共通の規則に従い、氏名・写真・生年月日に加え、同じ情報を持つ電子チップがあり空港の機械が数秒で確認する。パスポートは身元証明であると同時に、発行国が他国に通行と厚遇を頼む依頼でもある。国によって入りやすさは異なり、ビザが必要な場合もある。世界への鍵だ。",
+        quiz: [
+          { q: "What does a passport prove?", options: ["Who you are and which country you come from", "How much money you have", "What job you do"], answer: 0 },
+          { q: "What do modern passports contain besides your name and photo?", options: ["A tiny electronic chip with your information", "A small camera", "A phone"], answer: 0 },
+          { q: "What is a 'visa'?", options: ["Special permission to enter a country", "A type of passport photo", "A kind of airplane"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1012-4",
+        title: "The Kotatsu: A Cozy Japanese Winter",
+        level: "★★☆",
+        genre: "日本",
+        text: "When winter comes to Japan, many families gather around a special piece of furniture that keeps them warm and brings them together. It is called a kotatsu, and for many people it is the heart of the home in the cold months.\n\nA kotatsu is a low table with a hidden secret. Underneath the tabletop is a small electric heater. Over the frame lies a thick blanket, and the tabletop sits on top of the blanket to hold it in place. When you sit on the floor and slide your legs under the table, the blanket traps the warm air around you. Your lower body stays wonderfully warm, even if the room is cold.\n\nThe kotatsu exists partly because of how Japanese homes are built. Traditionally, houses were designed to stay cool in the hot, humid summer, and they often did not have strong heating for the whole house. Instead of warming every room, the kotatsu warms just the people around it, saving energy.\n\nThe kotatsu is more than a heater. It is a place where families come together. People eat, talk, watch television, study, and sometimes even fall asleep around it. A favorite winter scene is a family sharing a fruit called mikan while sitting under the warm blanket.\n\nModern homes now have many kinds of heating, yet the kotatsu remains popular. It offers something that central heating cannot: a small, warm circle that quietly draws people close on a cold winter night.",
+        summaryJa: "日本のこたつについて。冬になると、多くの家族が体を温め、人を一つに集める特別な家具の周りに集まる。それがこたつで、寒い時期の家の中心だ。こたつは低い机で、天板の下に小さな電気ヒーターが隠れている。枠の上に厚い布団を掛け、その上に天板を置いて押さえる。床に座って脚を机の下に入れると、布団が暖かい空気を閉じ込め、部屋が寒くても下半身がとても暖かい。日本の家は蒸し暑い夏向けに作られ、家全体の暖房が弱いことが多かったため、こたつは人の周りだけを温めて省エネになる。食事や会話、テレビ、勉強、居眠りの場でもあり、みかんを食べる冬の光景が人気だ。今も根強く愛される。",
+        quiz: [
+          { q: "What is hidden under a kotatsu's tabletop?", options: ["A small electric heater", "A television", "A refrigerator"], answer: 0 },
+          { q: "Why did the kotatsu become common in Japan?", options: ["Homes often lacked strong heating for the whole house", "Japan is always hot", "Everyone disliked blankets"], answer: 0 },
+          { q: "What is a favorite winter scene with a kotatsu?", options: ["A family sharing mikan under the warm blanket", "Swimming in the sea", "Driving a car"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1012-5",
+        title: "Why Does the Moon Change Shape?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Look at the Moon over several nights, and you will see it change. Some nights it is a thin curve, like a smile. Other nights it is a bright, full circle. A week later, it may be gone. These changing shapes are called the phases of the Moon. But the Moon is not really changing shape at all. So what is happening?\n\nThe key to the puzzle is light. The Moon does not make its own light. Instead, it shines because sunlight falls on it, just as sunlight falls on the Earth. The Sun always lights up one half of the Moon, while the other half stays dark.\n\nAs the Moon travels around the Earth, which takes about a month, we see it from different angles. Sometimes we see mostly the lit half, and the Moon looks full and round. At other times we see mostly the dark half, and only a thin curve of light remains. When the lit side faces away from us completely, we cannot see the Moon at all. This is called a new moon.\n\nSo the phases are simply the result of our changing view of the same lit Moon. The shape we see depends on where the Moon is in its monthly journey around us.\n\nPeople have watched these phases for thousands of years. They were among the first clocks and calendars, marking weeks and months. Even today, the gentle changing of the Moon connects us to the same sky our ancestors watched long ago.",
+        summaryJa: "月の形が変わる理由について。数晩月を見ると形が変わる。細い曲線の夜もあれば、明るい満月の夜もあり、一週間後には見えなくなることもある。この変化を月の満ち欠け（相）と呼ぶが、実は月の形そのものは変わっていない。鍵は光だ。月は自ら光らず、地球と同じく太陽の光が当たって輝く。太陽は常に月の半分を照らし、残り半分は暗い。月は約一か月かけて地球を回り、私たちは異なる角度から見る。明るい半分が多く見えれば満月、暗い半分が多ければ細い光だけ、明るい側が完全に裏を向けば見えず、これを新月と呼ぶ。満ち欠けは同じ月の見え方の変化にすぎない。古来、週や月を刻む最初の暦だった。",
+        quiz: [
+          { q: "Does the Moon make its own light?", options: ["No, it shines because sunlight falls on it", "Yes, it glows by itself", "No, it has no light at all ever"], answer: 0 },
+          { q: "Why do we see different shapes of the Moon?", options: ["We see it from different angles as it orbits Earth", "The Moon really changes shape", "The Sun moves away"], answer: 0 },
+          { q: "What is a 'new moon'?", options: ["When the lit side faces away and we cannot see it", "A brand new moon in the sky", "A full, bright circle"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-11",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What do platelets do when you get a cut?", options: ["Help stop bleeding by forming a clot", "Make the cut bigger", "Produce new bones"], answer: 0 },
           { q: "Which tissue heals very slowly or not at all?", options: ["Cartilage in the knees", "Skin", "Blood"], answer: 0 },
           { q: "What helps the body heal well?", options: ["Good food and enough sleep", "Smoking", "Lots of stress"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-05",
-    passages: [
-      {
-        id: "d1005-1",
-        title: "Why Companies Buy Other Companies",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "In the business news, you often hear that one company has bought another. A large technology firm might buy a small startup, or two banks might join to become one. These deals, known as mergers and acquisitions, can involve enormous amounts of money. But why would a company spend so much to buy another business?\n\nOne common reason is speed. Building a new product or entering a new market can take years. By buying a company that already does these things well, a firm can save time. For example, a big company might buy a small startup not just for its product, but for its talented team and new ideas.\n\nAnother reason is to reduce competition. If two companies that sell similar products join together, they may gain a larger share of the market. Sometimes a company buys a rival simply to become the clear leader in its field.\n\nCompanies also buy others to offer more to their customers. A firm that sells software might buy a company that provides customer support, so it can offer a complete service in one place.\n\nHowever, these deals are not always successful. Two companies may have very different ways of working, and combining them can be difficult. Workers may worry about losing their jobs, and customers may dislike the changes. Studies show that many large deals fail to bring the hoped-for benefits.\n\nSo when you read that one company has bought another, remember that behind the big numbers lies a careful bet on the future.",
-        summaryJa: "企業が他社を買収する理由について。ニュースでよく聞く合併・買収（M&A）には巨額の資金が動く。主な理由の一つは時間の節約で、既に得意な会社を買えば新製品開発や新市場参入の年月を省ける。第二に競争の緩和で、似た会社が一つになれば市場シェアを拡大できる。第三に顧客への提供価値を高めるためで、関連サービスの会社を買い一括提供する。ただし企業文化の違いから統合は難しく、多くの大型買収は期待した成果を上げられないという研究もある。",
-        quiz: [
-          { q: "What are 'mergers and acquisitions'?", options: ["Deals where companies join or buy each other", "A type of tax", "A kind of product"], answer: 0 },
-          { q: "Why might a big company buy a small startup?", options: ["To save time and get new ideas", "To close it immediately", "To avoid making money"], answer: 0 },
-          { q: "What does the passage say about large deals?", options: ["They always succeed", "Many fail to bring the hoped-for benefits", "They never involve much money"], answer: 1 }
-        ]
-      },
-      {
-        id: "d1005-2",
-        title: "Robots in Space: Helping Hands on the Station",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "High above the Earth, astronauts live and work on the International Space Station, or ISS. Life there is exciting, but also dangerous. Going outside the station, into open space, is one of the riskiest parts of the job. To make this work safer, engineers have built a special helper: the robotic arm.\n\nA robotic arm is a long mechanical limb attached to the outside of the station. It can bend and turn much like a human arm, but it is far stronger and does not need air, food, or rest. Astronauts control it from inside, using cameras and screens to see what the arm is doing.\n\nThese arms do many important jobs. They can catch arriving spacecraft and connect them gently to the station. They can move heavy equipment, hold tools, and even carry an astronaut to a work site. By doing the heavy and dangerous tasks, the arm lets humans stay safely inside more often.\n\nEngineers keep improving space robots. Newer designs can do more delicate work, and some may one day repair satellites or build large structures in orbit. Companies on Earth are now developing new robotic arms to send up to the station, adding fresh skills to the crew's toolkit.\n\nSpace is a hard place for humans, but it is a natural home for machines. Working together, astronauts and robots can do more than either could alone. In the future, these mechanical helpers may be essential partners as people travel even farther from Earth.",
-        summaryJa: "宇宙ステーションのロボットアームについて。国際宇宙ステーション（ISS）での船外活動は最も危険な作業の一つで、それを安全にするためにロボットアームが作られた。人間の腕のように曲がり回るが、はるかに強く、空気も食事も休息も要らない。宇宙飛行士は内部からカメラと画面で操作する。到着した宇宙船を捕まえて連結し、重い機材を動かし、飛行士を作業場所へ運ぶ。危険で重い作業を担うことで人間は安全に内部にいられる。新型の開発も進み、将来は衛星修理や軌道上での建設も期待される。",
-        quiz: [
-          { q: "What is a robotic arm on the ISS used for?", options: ["Doing heavy and dangerous jobs", "Cooking food for astronauts", "Flying the station to Earth"], answer: 0 },
-          { q: "How do astronauts control the arm?", options: ["From inside, using cameras and screens", "By going outside every time", "They cannot control it"], answer: 0 },
-          { q: "What might future space robots do?", options: ["Repair satellites and build structures", "Replace the Earth", "Stop all space travel"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1005-3",
-        title: "How Countries Help Each Other After Disasters",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When a powerful earthquake, flood, or storm strikes, the damage can be too great for one country to handle alone. Buildings fall, roads break, and thousands of people may need food, water, and medical care at once. In these moments, something remarkable often happens: other countries rush to help.\n\nThis kind of help is called international disaster relief. Within hours of a major disaster, nations may send rescue teams, doctors, and supplies. Specially trained workers, sometimes with dogs, search through fallen buildings for survivors. Aircraft bring tents, clean water, and food to areas that have lost everything.\n\nWhy do countries help strangers far away? One reason is simple human kindness; people naturally want to ease the suffering of others. There are also practical reasons. A country that helps others today may need help itself tomorrow, since disasters can strike anywhere. By working together, nations build trust and friendship that last beyond the emergency.\n\nCooperation is not always easy. Aid must be organized quickly, and teams from different countries must work together despite language differences. Sometimes supplies are delayed, or the greatest needs are hard to reach. International groups help by coordinating the effort so that help arrives where it is needed most.\n\nNatural disasters remind us how fragile life can be, but they also reveal something hopeful. Again and again, when one part of the world suffers, people from many nations reach out their hands. In the face of disaster, humanity often shows its best side.",
-        summaryJa: "災害後に国どうしが助け合う仕組みについて。大地震や洪水、嵐が襲うと被害は一国では対処できないほど大きくなり、他国がすぐ支援に駆けつける。これを国際災害援助と呼び、数時間以内に救助隊や医師、物資が送られ、倒壊した建物で生存者を捜索し、テントや水、食料を届ける。理由は人としての思いやりに加え、災害はどこでも起こりうるため助け合いが信頼と友情を生むという実利もある。言語の違いなど調整は容易でないが、国際機関が全体を調整する。災害は命のもろさと同時に人類の善良さを映し出す。",
-        quiz: [
-          { q: "What is 'international disaster relief'?", options: ["Countries sending help after a disaster", "A type of natural disaster", "A country refusing to help"], answer: 0 },
-          { q: "What is one reason countries help others?", options: ["Human kindness and future trust", "To make disasters worse", "To avoid friendship"], answer: 0 },
-          { q: "What makes cooperation difficult?", options: ["Language differences and delays", "Having too many doctors", "Disasters being too small"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1005-4",
-        title: "The Art of Origami",
-        level: "★★☆",
-        genre: "日本",
-        text: "Take a simple square of paper, make a few careful folds, and watch it turn into a crane, a flower, or a jumping frog. This is origami, the Japanese art of paper folding. The word comes from two Japanese words: ori, meaning to fold, and kami, meaning paper. With no scissors and no glue, origami creates beautiful shapes using only folds.\n\nOrigami has a long history in Japan. Hundreds of years ago, paper was expensive, so folded paper figures were used in special ceremonies. Over time, as paper became cheaper, origami grew into a popular hobby for both children and adults. Today it is known and loved all around the world.\n\nThe most famous origami model is the paper crane. In Japan, the crane is a symbol of good luck and long life. There is a well-known tradition that if a person folds one thousand paper cranes, their wish may come true. Many people fold cranes as a sign of hope and peace.\n\nOrigami is more than just a pastime. Teachers use it to help children learn about shapes and patience. Surprisingly, it has also helped science. Engineers study origami folds to design objects that must open and close, such as solar panels for satellites and tiny medical devices.\n\nFrom a child's toy to advanced technology, origami shows how something simple can be powerful. All it takes is a sheet of paper, steady hands, and a little imagination to create something wonderful.",
-        summaryJa: "日本の折り紙について。一枚の正方形の紙を丁寧に折るだけで鶴や花、跳ねるカエルになる。「折り紙」は「折る」と「紙」を合わせた言葉で、はさみも糊も使わず折りだけで美しい形を作る。昔は紙が高価で儀式に使われたが、安くなると子どもから大人までの趣味になり、今や世界中で愛される。最も有名なのは鶴で、幸運と長寿の象徴とされ、千羽折ると願いがかなうという伝えもある。折り紙は図形や忍耐の学習にも役立ち、衛星の太陽光パネルや小型医療機器の設計など科学にも応用されている。",
-        quiz: [
-          { q: "What does the word 'origami' mean?", options: ["To fold paper", "To cut paper", "To paint paper"], answer: 0 },
-          { q: "What does the paper crane symbolize in Japan?", options: ["Good luck and long life", "Bad weather", "Hard work"], answer: 0 },
-          { q: "How has origami helped science?", options: ["It helps design objects that open and close", "It replaces all machines", "It stops space travel"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1005-5",
-        title: "The Nobel Prizes: Celebrating Great Ideas",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Each year in early October, the world turns its attention to a special announcement. One by one, the winners of the Nobel Prizes are revealed. For many scientists, writers, and peacemakers, winning a Nobel Prize is the highest honor of their lives. But what are these famous prizes, and where did they come from?\n\nThe prizes are named after Alfred Nobel, a Swedish inventor who lived in the 1800s. Nobel became very rich by inventing dynamite. Late in life, he decided to use his fortune for a better purpose. In his will, he asked that prizes be given each year to people who had done the greatest good for humanity.\n\nToday there are prizes in several fields: physics, chemistry, medicine, literature, peace, and economics. Winners receive a gold medal, a certificate, and a large sum of money. More importantly, they receive the respect of people around the world.\n\nMany Nobel discoveries have changed our lives. Prizes have been given for understanding diseases, for new medicines, and for ideas that led to computers and the internet. The Peace Prize has honored people who worked to end wars or protect human rights.\n\nThe Nobel Prizes remind us that curiosity and kindness matter. They show that one person's hard work, whether in a laboratory or in a troubled region, can improve life for millions. Every October, the prizes celebrate the best of what human beings can achieve.",
-        summaryJa: "ノーベル賞について。毎年10月初旬に受賞者が次々と発表され、多くの科学者や作家、平和活動家にとって人生最高の栄誉となる。賞はダイナマイトを発明して富を築いたスウェーデンの発明家アルフレッド・ノーベルにちなむ。彼は遺言で、人類に最大の貢献をした人へ毎年賞を贈るよう求めた。現在は物理学・化学・医学・文学・平和・経済の分野があり、受賞者は金メダルと賞状、賞金、そして世界中の敬意を受ける。病気の解明や新薬、コンピューターやインターネットにつながる発見などが称えられてきた。好奇心と思いやりの大切さを思い出させてくれる。",
-        quiz: [
-          { q: "Who was Alfred Nobel?", options: ["A Swedish inventor who invented dynamite", "A famous singer", "A king of Sweden"], answer: 0 },
-          { q: "In which fields are Nobel Prizes given?", options: ["Only sports", "Physics, chemistry, medicine, literature, peace, economics", "Only music and art"], answer: 1 },
-          { q: "What do the Nobel Prizes remind us, according to the passage?", options: ["That curiosity and kindness matter", "That money is useless", "That science is boring"], answer: 0 }
         ]
       }
     ]
