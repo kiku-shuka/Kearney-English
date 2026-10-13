@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-13",
+    passages: [
+      {
+        id: "d1013-1",
+        title: "Why Companies Go to Trade Shows",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Every year, in large halls around the world, companies set up colorful stands to show their newest products. Thousands of visitors walk past, stopping to watch demonstrations and ask questions. These big events are called trade shows or exhibitions, and for many businesses they are an important part of the year.\n\nA trade show brings together many companies from the same industry in one place. There are shows for cars, for food, for technology, and for almost everything else. Some are open only to people who work in the industry, while others welcome the public too.\n\nWhy do companies spend so much money to take part? One reason is to show new products. A trade show lets a company reveal its latest work to a large audience all at once, often attracting attention from the news. Another reason is meeting people. In a single day, a company may talk to future customers, partners, and suppliers who would be hard to reach otherwise.\n\nTrade shows are also a chance to learn. By walking around, a company can see what its competitors are doing and discover new ideas. Visitors can compare many products side by side, which is difficult to do online.\n\nOf course, attending costs money and time, and the results are not always easy to measure. Yet for many businesses, the face-to-face contact is worth it. In a digital world, a trade show offers something rare: a place where people in an industry meet, shake hands, and see new ideas with their own eyes.",
+        summaryJa: "企業が展示会に出る理由について。毎年、世界中の大きな会場で企業が色鮮やかなブースを構え最新製品を見せ、何千もの来場者が実演を見て質問する。こうした催しを展示会（トレードショー）と呼び、多くの企業にとって年間の重要な行事だ。展示会は同じ業界の多くの企業を一か所に集め、車・食品・技術などあらゆる分野にある。業界関係者限定のものも一般公開のものもある。参加理由の一つは新製品の発表で、一度に多くの人へ公開でき報道の注目も集めやすい。もう一つは人との出会いで、将来の客や提携先、仕入先と一日で会える。競合の動向を知り新しい発想を得る学びの場でもある。費用も時間もかかるが、対面の価値は大きい。",
+        quiz: [
+          { q: "What is a trade show?", options: ["An event where companies show products to many visitors", "A kind of online shop", "A type of factory"], answer: 0 },
+          { q: "What is one reason companies attend trade shows?", options: ["To show new products to a large audience", "To close their business", "To avoid meeting people"], answer: 0 },
+          { q: "What can visitors do at a trade show that is hard online?", options: ["Compare many products side by side", "Fly an airplane", "Cook a meal"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1013-2",
+        title: "How Solar Panels Turn Sunlight into Electricity",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "On the roofs of houses, in wide open fields, and even on small calculators, you can find dark panels that quietly turn sunlight into electricity. These are solar panels, and they are becoming an important source of clean energy around the world. But how can a flat panel make power from nothing but light?\n\nThe answer lies in a special material, usually a form of silicon, the same element found in sand. A solar panel is made of many small units called cells. When sunlight hits a cell, the energy in the light knocks tiny particles, called electrons, loose inside the material. The design of the cell pushes these electrons to flow in one direction, and a flow of electrons is exactly what electricity is.\n\nSolar panels have real advantages. Once they are built, they produce power without burning fuel, making no smoke and no noise. Sunlight is free and will not run out for billions of years. For homes far from power lines, solar panels can bring electricity where none existed before.\n\nThere are limits too. Panels only make power when the Sun shines, so they produce nothing at night and less on cloudy days. To use solar power after dark, people store extra energy in batteries. Making the panels also requires energy and materials.\n\nEven so, solar power is growing quickly as panels become cheaper and better. Turning sunlight directly into electricity, with no moving parts, is a quiet but powerful idea that is helping to change how the world makes energy.",
+        summaryJa: "ソーラーパネルが日光を電気に変える仕組みについて。家の屋根や広い野原、小さな電卓にも、日光を静かに電気に変える黒いパネルがある。これがソーラーパネルで、世界で重要なクリーンエネルギー源になりつつある。鍵は特別な材料、普通は砂にも含まれるケイ素（シリコン）だ。パネルはセルという小さな単位の集まりで、日光が当たると光のエネルギーが材料内の電子をはじき出し、セルの設計が電子を一方向に流す。電子の流れこそが電気だ。燃料を燃やさず煙も騒音もなく、日光は無料で尽きない。電線のない地域にも電気を届ける。ただし太陽が出ている時しか発電できず、夜は電池に蓄える。製造にも資源が要る。安く高性能になり急速に普及している。",
+        quiz: [
+          { q: "What material is usually used in solar panels?", options: ["Silicon, found in sand", "Gold", "Water"], answer: 0 },
+          { q: "What is electricity, according to the passage?", options: ["A flow of electrons", "A type of light", "A kind of metal"], answer: 0 },
+          { q: "What is one limit of solar panels?", options: ["They make no power at night", "They are very noisy", "They burn a lot of fuel"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1013-3",
+        title: "What Does the United Nations Do?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "In a world with around 200 countries, disagreements are certain to happen. To help nations talk instead of fight, a special organization was created: the United Nations, often called the UN. Almost every country in the world is a member, making it the largest meeting place of nations ever built.\n\nThe UN was formed in 1945, just after a terrible world war. Its founders had a clear hope: to prevent such a war from ever happening again. They wanted a place where countries could come together, share their problems, and solve them with words rather than weapons.\n\nThe UN does many kinds of work. One part, where member countries send representatives, is a forum for discussion and voting on shared problems. Another part focuses on peace, sometimes sending soldiers from many nations to help keep calm in troubled areas. But the UN is about far more than conflict.\n\nMuch of its work quietly improves daily life. UN programs help feed hungry people, fight diseases, protect children, care for refugees, and respond to natural disasters. Other parts work on shared challenges such as health rules, safe air travel, and protecting the environment.\n\nThe UN is not perfect. It cannot force powerful countries to agree, and change can be slow. Yet it remains a vital meeting place where even enemies can keep talking.\n\nFor all its weaknesses, the United Nations reflects a hopeful idea that has lasted for generations: that the world's problems are best solved when nations work together, not alone.",
+        summaryJa: "国連（国際連合）の役割について。約200の国がある世界では対立は必ず起こる。戦う代わりに話し合えるよう作られたのが国連で、ほぼ全ての国が加盟する史上最大の国家の集まりだ。1945年、恐ろしい世界大戦の直後に設立され、創設者は二度と同じ戦争を起こさないという明確な願いを持ち、各国が集い問題を武器でなく言葉で解決する場を望んだ。加盟国の代表が集う討議と投票の場があり、平和のため多国籍の兵士を派遣することもある。だが対立以外の仕事も多く、飢えた人を助け、病気と闘い、子どもや難民を守り、災害に対応する。保健規則や安全な航空、環境保護にも取り組む。完璧ではないが、敵同士も話し続けられる重要な場だ。",
+        quiz: [
+          { q: "When and why was the UN formed?", options: ["In 1945, to help prevent another world war", "Last year, to sell products", "In ancient times, for sports"], answer: 0 },
+          { q: "What is one example of the UN's everyday work?", options: ["Helping feed hungry people and fight diseases", "Building cars", "Running shops"], answer: 0 },
+          { q: "What is one weakness of the UN?", options: ["It cannot force powerful countries to agree", "It has no members", "It never discusses problems"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1013-4",
+        title: "Mount Fuji: Japan's Sacred Mountain",
+        level: "★★☆",
+        genre: "日本",
+        text: "Rising high above the land, with a nearly perfect cone shape and a snow-covered top, Mount Fuji is the most famous symbol of Japan. At 3,776 meters, it is the country's highest mountain. On a clear day, it can be seen from far away, even from the city of Tokyo, and its beautiful shape has inspired artists and travelers for centuries.\n\nMount Fuji is actually a volcano. It last erupted about 300 years ago and is quiet today, though scientists watch it carefully. Over thousands of years, its eruptions built the smooth, balanced slopes that people admire so much.\n\nFor a long time, Mount Fuji has been seen as a sacred place. In the past, it was a site for religious pilgrimage, and climbing it was an act of faith. Many shrines stand around its base, and the mountain appears again and again in old poems and paintings. Today it is recognized as a World Heritage Site, honored not only for its beauty but for its deep cultural meaning.\n\nEach year, during the short summer season, more than 200,000 people climb to the top. Many start at night so they can watch the sunrise from the summit, a view so admired it has its own name, goraiko, meaning the arrival of light.\n\nWhether seen from a train window, a painting, or its own high slopes, Mount Fuji holds a special place in the hearts of Japanese people. It stands as a quiet, timeless symbol of their homeland.",
+        summaryJa: "日本の霊峰、富士山について。ほぼ完璧な円錐形と雪をかぶった頂で高くそびえる富士山は、日本の最も有名な象徴だ。標高3,776メートルで国内最高峰。晴れた日には東京からも遠くに見え、その美しい姿は何世紀も芸術家や旅人を魅了してきた。富士山は実は火山で、約300年前に最後に噴火し今は静かだが、科学者が注意深く見守る。長く聖地とされ、昔は信仰の巡礼地で登ることは信仰の行いだった。麓には多くの神社があり、古い詩や絵に繰り返し登場する。今は世界遺産として美しさと深い文化的意味で称えられる。夏の短い時期に20万人以上が登り、多くが夜に出発して山頂から「御来光」を見る。故郷の時を超えた象徴だ。",
+        quiz: [
+          { q: "What kind of mountain is Mount Fuji?", options: ["A volcano", "A man-made hill", "An underwater mountain"], answer: 0 },
+          { q: "Why has Mount Fuji long been seen as special?", options: ["It is a sacred place of pilgrimage and art", "It is the smallest mountain", "It is always erupting"], answer: 0 },
+          { q: "What is 'goraiko'?", options: ["The sunrise seen from the summit", "A type of food", "A kind of train"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1013-5",
+        title: "How Do Airplanes Fly?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "A large airplane can weigh hundreds of tons, yet it lifts into the sky and stays there for hours. To many people, this seems almost impossible. How can something so heavy fly through the air? The answer is found mainly in the shape of its wings.\n\nLook closely at an airplane wing from the side. It is not flat. The top is gently curved, while the bottom is flatter. As the plane moves forward very fast, air rushes over and under the wing. Because of the wing's shape, the air moving over the curved top travels faster than the air below. This difference creates lower pressure above the wing and higher pressure below it. The higher pressure under the wing pushes the wing, and the whole plane, upward. This upward push is called lift.\n\nBut a wing cannot create lift without speed. That is the job of the engines. Powerful jet engines push the plane forward faster and faster along the runway. Once the plane is moving fast enough, the wings produce enough lift to raise it off the ground.\n\nFlying is a careful balance of forces. Lift pushes the plane up, while gravity pulls it down. The engines push it forward, while the air pushes back, a force called drag. Pilots and designers manage all four forces to keep the plane steady.\n\nSo an airplane does not really fight the air. Instead, it uses the air cleverly, shaping and speeding it to hold tons of metal gently in the sky.",
+        summaryJa: "飛行機が飛ぶ仕組みについて。大型機は数百トンもあるのに空へ上がり何時間も飛び続ける。不可能に思えるが、答えは主に翼の形にある。翼を横から見ると平らでなく、上面は緩やかに湾曲し下面は平らだ。機体が高速で前進すると空気が翼の上下を流れ、形のため上面を通る空気の方が速く流れる。その差で翼の上の圧力が低く下が高くなり、下の高い圧力が翼と機体を上へ押す。これが「揚力」だ。ただし揚力には速度が必要で、それがエンジンの役割だ。強力なジェットエンジンが滑走路で機体を加速し、十分速くなると翼が揚力を生んで離陸する。揚力・重力・推力・抗力の四つの力の均衡で安定して飛ぶ。空気と戦わず巧みに利用している。",
+        quiz: [
+          { q: "What mainly allows an airplane to fly?", options: ["The shape of its wings creating lift", "Its bright color", "Its heavy weight"], answer: 0 },
+          { q: "Why is air pressure lower above the wing?", options: ["Air moves faster over the curved top", "The wing is painted white", "There is no air above"], answer: 0 },
+          { q: "What is the job of the engines?", options: ["To push the plane forward fast enough for lift", "To cool the passengers", "To make the plane heavier"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-12",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is the real cause of the seasons?", options: ["The tilt of the Earth", "The Earth moving closer to the Sun", "The Sun getting hotter"], answer: 0 },
           { q: "What happens when your part of the Earth leans toward the Sun?", options: ["It becomes summer with long, warm days", "It becomes winter", "Nothing changes"], answer: 0 },
           { q: "Why is it summer in Japan when it is winter in Australia?", options: ["The two halves lean in opposite directions", "Australia has no sun", "Japan is closer to the Moon"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-06",
-    passages: [
-      {
-        id: "d1006-1",
-        title: "Why Do Prices Change? Supply and Demand",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Have you ever noticed that the price of something can change from week to week? Strawberries may be cheap in summer but expensive in winter. A popular toy may cost more just before a holiday. Behind these changes is one of the most basic ideas in business: supply and demand.\n\n\"Demand\" means how much people want to buy something. \"Supply\" means how much of it is available to sell. When many people want a product but there is not much of it, the price usually goes up. When there is plenty of a product but few people want it, the price usually goes down. Prices are like a meeting point between what buyers want and what sellers have.\n\nThink about strawberries again. In summer, farmers grow a lot of them, so supply is high and prices fall. In winter, few strawberries are grown, so supply is low and prices rise. The fruit is the same, but the balance has changed.\n\nMany things can shift this balance. Bad weather can reduce supply and push prices up. A new fashion can suddenly increase demand. Even news and rumors can make people rush to buy or sell.\n\nUnderstanding supply and demand helps us make better choices. If you know prices often fall when supply is high, you might wait for the right season to buy. Businesses use the same idea to decide how much to produce and what to charge. Once you see it, you will notice supply and demand working almost everywhere.",
-        summaryJa: "価格が変わる理由（需要と供給）について。イチゴは夏は安く冬は高いなど、値段は週ごとに変わる。その背景にあるのが需要と供給という基本概念だ。需要は人がどれだけ買いたいか、供給はどれだけ売りに出ているか。欲しい人が多く品物が少なければ価格は上がり、品物が多く欲しい人が少なければ下がる。悪天候は供給を減らし価格を上げ、流行は需要を急に高める。噂だけで人が殺到することもある。この仕組みを知れば買い時を選べ、企業も生産量や価格を決められる。",
-        quiz: [
-          { q: "What does 'demand' mean?", options: ["How much people want to buy something", "How much is available to sell", "The weather"], answer: 0 },
-          { q: "Why are strawberries cheaper in summer?", options: ["Supply is high in summer", "Nobody wants them", "They taste worse"], answer: 0 },
-          { q: "What can push prices up by reducing supply?", options: ["Bad weather", "More farmers", "Lower demand"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1006-2",
-        title: "How Electric Cars Work",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "More and more electric cars are appearing on the world's roads. They are quiet, they produce no smoke from a tailpipe, and many drivers love them. But how does an electric car actually work, and how is it different from a normal car?\n\nA traditional car burns petrol or diesel inside its engine. The burning fuel creates small explosions that push parts of the engine and turn the wheels. An electric car has no such engine. Instead, it uses a large battery and an electric motor. The battery stores electricity, and the motor uses that electricity to turn the wheels. There is no burning and no fuel tank.\n\nBecause an electric motor has few moving parts, electric cars are smooth and very quiet. They also need less repair, since there is no oil to change and fewer parts to wear out. Many people enjoy how quickly these cars speed up, as the motor gives power almost instantly.\n\nOf course, electric cars also have challenges. The battery must be charged, which can take longer than filling a tank with fuel. Drivers need places to charge, so countries are building more charging stations. The distance a car can travel on one charge is improving every year, but long trips still require planning.\n\nElectric cars are not perfect, and making their batteries uses energy and materials. Still, because they produce no exhaust while driving, many people see them as an important step toward cleaner city air and a quieter, greener future.",
-        summaryJa: "電気自動車の仕組みについて。静かで排気ガスを出さない電気自動車が世界中で増えている。普通の車はエンジン内でガソリンや軽油を燃やし、その爆発で車輪を回す。電気自動車にはエンジンがなく、大きなバッテリーと電気モーターを使う。バッテリーに電気をため、モーターがその電気で車輪を回すので燃焼も燃料タンクもない。可動部が少なく静かで修理も少なく、加速も速い。一方で充電に時間がかかり、充電設備が必要で、1回の充電で走れる距離はまだ計画を要する。それでも走行中に排気を出さないため、きれいな空気への一歩と見られている。",
-        quiz: [
-          { q: "What does an electric car use instead of an engine that burns fuel?", options: ["A battery and an electric motor", "A larger fuel tank", "A steam engine"], answer: 0 },
-          { q: "Why do electric cars need less repair?", options: ["They have fewer moving parts and no oil to change", "They are never driven", "They burn more fuel"], answer: 0 },
-          { q: "What is one challenge of electric cars?", options: ["Charging can take longer than filling a tank", "They make a lot of smoke", "They cannot move at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1006-3",
-        title: "Why Countries Have Embassies",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "In many capital cities, you can find buildings that fly the flags of faraway nations. These are embassies, the official homes of one country inside another. Almost every country keeps embassies abroad. But what exactly do they do, and why are they so important?\n\nAn embassy represents its home country in a foreign land. It is led by an ambassador, a senior official who speaks for their government. Through the embassy, two countries can talk to each other directly, share messages, and build relationships. When leaders disagree, embassies allow them to keep communicating instead of cutting off contact.\n\nEmbassies also help ordinary people. If you lose your passport while travelling abroad, your country's embassy can help you. Embassies issue visas to foreigners who wish to visit, and they support citizens who face trouble, such as an accident or arrest in another country.\n\nAnother important job is building friendship between nations. Embassies organize cultural events, support trade, and help students and businesses connect across borders. In this quiet way, they turn distant countries into partners.\n\nEmbassies follow special international rules. For example, the police of the host country usually cannot enter an embassy without permission, and ambassadors receive special protection. These rules, agreed long ago, help diplomats work safely even during disagreements.\n\nIn a world where countries must share one planet, embassies are bridges. They remind us that even when nations differ, talking is almost always better than silence. Through these quiet offices, the business of peace continues every single day.",
-        summaryJa: "各国が大使館を置く理由について。多くの首都には外国の旗を掲げた建物があり、これが大使館で、ほぼどの国も海外に置いている。大使館は本国を代表し、大使が政府を代弁する。これを通じて二国は直接話し、意見が対立しても連絡を絶たずに済む。旅行中にパスポートを失った自国民を助け、外国人へビザを発給し、事故や逮捕などの困難も支援する。文化行事や貿易、留学・ビジネスの橋渡しも担う。国際ルールで守られ、ホスト国の警察は許可なく立ち入れない。対立しても対話を続ける「橋」として、平和の営みを支えている。",
-        quiz: [
-          { q: "What is an embassy?", options: ["The official home of one country inside another", "A type of airport", "A kind of school"], answer: 0 },
-          { q: "How can an embassy help ordinary travelers?", options: ["By helping if they lose a passport", "By selling cars", "By cooking meals"], answer: 0 },
-          { q: "What special rule protects embassies?", options: ["Host police usually cannot enter without permission", "Anyone can enter freely", "They must close during disagreements"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1006-4",
-        title: "Japanese Gardens: Peace in a Small Space",
-        level: "★★☆",
-        genre: "日本",
-        text: "Step through a gate into a Japanese garden, and the noisy city seems to disappear. Instead of straight lines and bright flowers, you find winding paths, quiet ponds, and carefully placed stones. A Japanese garden is designed not just to look beautiful, but to bring a feeling of calm. For hundreds of years, these gardens have been treasured places for rest and reflection.\n\nJapanese gardens often try to copy nature in a small space. A large rock may stand for a mountain, and a pond may represent the sea. White sand, raked into gentle lines, can suggest flowing water, even where there is no water at all. Nothing is placed by accident; every tree and stone has its purpose.\n\nUnlike some gardens that burst with color, Japanese gardens prefer soft greens and simple shapes. The beauty comes from balance and empty space. A single maple tree turning red in autumn can mean more than a field of flowers. Visitors are invited to slow down and notice small details.\n\nMany famous gardens are found beside temples, where monks once used them for quiet thought. Some gardens have no plants at all, only rocks and raked sand; these are known as dry gardens. People can sit for a long time, looking at the simple pattern and letting their minds grow still.\n\nIn a busy modern world, Japanese gardens offer a gift that never grows old: a small, peaceful place where a person can breathe slowly and feel at ease.",
-        summaryJa: "日本庭園について。門をくぐると街の喧騒が消え、曲がりくねった小道や静かな池、丁寧に置かれた石が現れる。日本庭園は美しさだけでなく心の静けさをもたらすよう設計されている。狭い空間で自然を映し、大きな石は山、池は海を表し、白砂を熊手で描いた線は水の流れを思わせる。すべてに意味があり偶然に置かれたものはない。華やかな色より柔らかな緑と簡素な形を好み、余白と調和に美がある。寺のそばには僧が瞑想に使った庭も多く、植物を使わず石と砂だけの「枯山水」もある。忙しい現代でゆっくり呼吸できる安らぎの場を与えてくれる。",
-        quiz: [
-          { q: "What is the main purpose of a Japanese garden?", options: ["To bring a feeling of calm", "To grow food", "To hold sports events"], answer: 0 },
-          { q: "In a Japanese garden, what might white raked sand suggest?", options: ["Flowing water", "A busy road", "A tall building"], answer: 0 },
-          { q: "What is a 'dry garden'?", options: ["A garden with only rocks and raked sand", "A garden full of flowers", "A garden under water"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1006-5",
-        title: "How the Body Heals Itself",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "If you cut your finger, something amazing happens over the next few days. Without any medicine, the wound slowly closes, and new skin grows. Your body is repairing itself. This power to heal is one of the most remarkable things about living creatures, and scientists are still learning how it works.\n\nHealing begins almost at once. When you get a cut, tiny parts of your blood called platelets gather at the wound and help it stop bleeding by forming a clot. Soon after, special cells arrive to clean away dirt and germs. Then the body starts to build new tissue, closing the gap bit by bit until the skin is whole again.\n\nNot every part of the body heals equally well. Skin and bone can repair themselves quite effectively. Other tissues, such as the cartilage in our knees, heal very slowly or not at all. This is why injuries to joints can trouble people for years, and why scientists are working hard to find new ways to help such tissues grow back.\n\nOur daily habits affect how well we heal. Good food gives the body the materials it needs to build new cells. Sleep is also vital, because much repair happens while we rest. Smoking and too much stress, on the other hand, can slow healing down.\n\nThe human body is not a machine that simply wears out. It is always rebuilding itself, quietly and constantly. Understanding this helps doctors heal patients, and reminds us to care for the remarkable body we live in.",
-        summaryJa: "体が自ら治る仕組みについて。指を切っても薬なしで数日で傷は閉じ、新しい皮膚ができる。この自己治癒力は生き物の驚くべき特徴で、科学者は今も研究している。傷ができるとすぐ、血液中の血小板が集まって血を固め、特別な細胞が汚れや細菌を除去し、やがて新しい組織を作って隙間を埋める。皮膚や骨はよく治るが、膝の軟骨などはほとんど治らず、関節の怪我が長く続く理由であり、科学者は再生法を探っている。食事は新しい細胞の材料となり、睡眠中に多くの修復が起こる。喫煙や過度なストレスは治りを遅らせる。体は絶えず自らを作り直している。",
-        quiz: [
-          { q: "What do platelets do when you get a cut?", options: ["Help stop bleeding by forming a clot", "Make the cut bigger", "Produce new bones"], answer: 0 },
-          { q: "Which tissue heals very slowly or not at all?", options: ["Cartilage in the knees", "Skin", "Blood"], answer: 0 },
-          { q: "What helps the body heal well?", options: ["Good food and enough sleep", "Smoking", "Lots of stress"], answer: 0 }
         ]
       }
     ]
