@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-14",
+    passages: [
+      {
+        id: "d1014-1",
+        title: "What Is Inflation?",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "Have you ever heard an older person say, \"When I was young, this cost half as much\"? They are describing inflation, one of the most important ideas in economics. Inflation means that, over time, prices slowly rise, and each unit of money buys a little less than it did before.\n\nA small amount of inflation is normal and even healthy. In most years, prices creep up gently, perhaps two or three percent. This usually goes unnoticed in daily life. The trouble begins when inflation becomes high. If prices rise quickly, people's savings and wages buy less, and families feel poorer even if their pay has not changed.\n\nWhat causes inflation? One common cause is demand. When many people want to buy goods but there are not enough to go around, sellers raise their prices. Another cause is rising costs. If fuel or materials become more expensive, companies pass those higher costs on to customers. Sometimes, if there is simply too much money in the economy, its value falls and prices climb.\n\nGovernments and central banks watch inflation carefully. To slow it down, a central bank may raise interest rates, making borrowing more expensive, which cools spending. But if they act too strongly, they can slow the whole economy.\n\nInflation affects everyone, from shoppers to business owners. Understanding it helps people make better choices about saving, spending, and planning for the future. Behind the simple fact of rising prices lies a powerful force that shapes the whole economy.",
+        summaryJa: "インフレーション（インフレ）とは何かについて。年配の人が「若い頃はこれが半額だった」と言うのはインフレの話だ。インフレとは、時とともに物価が少しずつ上がり、同じ金額で買える量が前より減ることをいう。少しのインフレは正常で健全であり、多くの年は2〜3%ほど緩やかに上がり日常では気づきにくい。問題は高インフレで、急に物価が上がると貯金や給料の価値が下がり、給料が同じでも生活が苦しく感じる。原因は需要（欲しい人が多く品が足りない）、費用の上昇（燃料や材料の高騰）、お金が多すぎて価値が下がることなど。中央銀行は金利を上げて支出を冷ますが、やりすぎると経済全体が鈍る。インフレは誰にも影響し、理解は賢い選択に役立つ。",
+        quiz: [
+          { q: "What does inflation mean?", options: ["Prices slowly rise and money buys less", "Prices always fall", "Money buys more over time"], answer: 0 },
+          { q: "What is one common cause of inflation?", options: ["High demand with not enough goods", "Too few shoppers", "Falling fuel costs only"], answer: 0 },
+          { q: "How might a central bank slow inflation?", options: ["By raising interest rates", "By printing much more money", "By lowering all prices itself"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1014-2",
+        title: "How Contactless Cards Work",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "In many cities, people now pay for a train, a coffee, or a bus by simply touching a card or phone against a reader. There is no need to swipe or type a number; a quick tap is enough. These are called contactless cards, and they are quietly replacing cash and paper tickets in daily life.\n\nThe secret inside the card is a tiny chip and a thin loop of wire, which acts as an antenna. Surprisingly, most of these cards have no battery at all. When you hold the card close to a reader, the reader sends out a weak radio signal. This signal gives the card just enough power to wake up and reply. In less than a second, the card and reader exchange information, and the payment or ticket is confirmed.\n\nBecause the card only works at a very short distance, usually a few centimeters, it will not activate by accident in your pocket. This short range is an important safety feature.\n\nContactless technology has many uses. The same idea powers train passes, office entry cards, and tap-to-pay bank cards. Phones and watches can now copy these cards too, so people can pay with a device they already carry.\n\nThe main benefits are speed and convenience. A busy train station can move thousands of people through its gates quickly when no one has to search for change. As more places adopt it, the simple tap is becoming one of the most common actions of modern daily life.",
+        summaryJa: "非接触型（タッチ式）カードの仕組みについて。多くの都市で、人々は電車やコーヒー、バスの支払いをカードやスマホを読み取り機にかざすだけで済ませる。スワイプも番号入力も不要で、一瞬のタッチでよい。これが非接触型カードで、現金や紙の切符に静かに取って代わっている。カードの中には小さなチップとアンテナになる細い輪状の線があり、驚くことに多くは電池を持たない。読み取り機に近づけると弱い電波が送られ、その電波がカードを動かすわずかな電力を与え、1秒未満で情報をやり取りし決済や改札が確認される。数センチの至近距離でしか働かないため、ポケットの中で誤作動しない安全設計だ。交通系・入館・決済に使われ、スマホや時計でも使える。速さと利便性が利点だ。",
+        quiz: [
+          { q: "What is inside a contactless card?", options: ["A tiny chip and a loop of wire acting as an antenna", "A small battery and a motor", "A camera"], answer: 0 },
+          { q: "Where does the card get its power to reply?", options: ["From the reader's weak radio signal", "From a built-in battery", "From sunlight"], answer: 0 },
+          { q: "Why won't the card activate by accident in your pocket?", options: ["It only works at a very short distance", "It is always switched off", "It needs a password each time"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1014-3",
+        title: "What Does the Red Cross Do?",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "When a terrible earthquake, flood, or other emergency strikes, one of the first groups to arrive and help is often the Red Cross. Its simple symbol, a red cross on a white background, is known in almost every country. But what exactly is this organization, and what does it do?\n\nThe Red Cross began more than 150 years ago. A man named Henry Dunant saw many wounded soldiers left without care after a battle, and he believed that all people in need deserve help, no matter which side they are on. From this idea grew a worldwide movement dedicated to protecting human life and easing suffering.\n\nToday, the Red Cross and its partner, the Red Crescent, work in nearly every nation. Their volunteers do many kinds of work. They bring food, water, and shelter to people after disasters. They help families find loved ones who were separated by war or crisis. They also teach first aid, collect blood for hospitals, and support people during long emergencies.\n\nA key idea guides the Red Cross: it must stay neutral. In a conflict, it does not take sides. This neutrality allows its workers to help wounded or suffering people everywhere, and it lets them enter dangerous places that others cannot.\n\nThe Red Cross depends on millions of volunteers and on donations from the public. Its long history shows a simple but powerful belief: that in times of trouble, every human being deserves kindness, care, and hope.",
+        summaryJa: "赤十字の活動について。大地震や洪水などの非常時に、最初に駆けつけ助ける団体の一つが赤十字だ。白地に赤い十字の記章はほぼ全ての国で知られる。赤十字は150年以上前に始まった。アンリ・デュナンが戦いの後に手当てを受けられない多くの負傷兵を見て、どちら側であれ困っている人は助けられるべきだと信じたことから、人命を守り苦しみを和らげる世界的運動が生まれた。今は赤十字と赤新月が各国で活動し、災害後に食料・水・住まいを届け、離ればなれの家族を再会させ、応急手当を教え、献血を集め、長い非常時を支える。要は中立で、紛争で味方せず、だからこそ危険な場所でも誰でも助けられる。多くのボランティアと寄付に支えられている。",
+        quiz: [
+          { q: "Who started the idea behind the Red Cross?", options: ["Henry Dunant, after seeing wounded soldiers", "A famous king", "A large company"], answer: 0 },
+          { q: "What is one kind of work the Red Cross does?", options: ["Bringing food, water, and shelter after disasters", "Selling cars", "Building airplanes"], answer: 0 },
+          { q: "Why does the Red Cross stay neutral?", options: ["So it can help suffering people on all sides", "To make more money", "To avoid helping anyone"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1014-4",
+        title: "Green Tea: Japan's Everyday Drink",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, few things are as common and as loved as green tea. It is served in homes, offered to guests, sold in every shop, and even poured for free in many restaurants. For centuries, this simple green drink has been part of daily life, bringing a moment of calm to busy days.\n\nGreen tea comes from the leaves of a plant called the tea bush, the same plant that gives us black tea. The difference is in how the leaves are treated. For green tea, the fresh leaves are heated soon after picking, often with steam. This keeps them green and gives the tea its fresh, slightly grassy taste. Black tea, by contrast, is allowed to change color before drying.\n\nThere are many kinds of Japanese green tea. Everyday tea, called sencha, is enjoyed at home and at work. A bright green powder called matcha is whisked with hot water and used in the traditional tea ceremony and in many sweets. Roasted tea, with a warm, nutty flavor, is popular on cold days.\n\nGreen tea is also seen as healthy. It contains natural substances that many people believe are good for the body, and it is usually drunk without sugar or milk.\n\nMore than just a drink, green tea reflects a Japanese love of simple, natural things. A warm cup shared with others is a small act of welcome and care, a quiet tradition that continues in millions of homes every single day.",
+        summaryJa: "日本の日常の飲み物、緑茶について。日本で緑茶ほど身近で愛されるものは少なく、家庭で出され、客にふるまわれ、どの店でも売られ、多くの飲食店で無料でも出される。何世紀も日常の一部で、忙しい日に静けさをもたらす。緑茶は茶の木の葉から作られ、紅茶と同じ植物だが処理が違う。緑茶は摘んですぐ蒸気などで加熱して緑を保ち、さわやかでやや草のような味になる。紅茶は乾かす前に色を変える。種類も多く、日常の煎茶、点てて使う鮮やかな粉末の抹茶（茶道や菓子に使う）、寒い日に人気の香ばしいほうじ茶などがある。砂糖やミルクを入れず飲むことが多く、健康的とされる。簡素で自然なものを愛する心を映す。",
+        quiz: [
+          { q: "How is green tea different from black tea?", options: ["Its leaves are heated soon after picking to stay green", "It comes from a totally different plant", "It is always sweet"], answer: 0 },
+          { q: "What is 'matcha'?", options: ["A bright green powder whisked with hot water", "A kind of black tea", "A type of coffee"], answer: 0 },
+          { q: "How is green tea usually drunk in Japan?", options: ["Without sugar or milk", "Only with lots of sugar", "Mixed with soup"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1014-5",
+        title: "How Clouds Form and Why It Rains",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Clouds drift across the sky in endless shapes, sometimes white and soft, sometimes dark and heavy. We see them every day, yet they can seem mysterious. Where do clouds come from, and why does rain fall from some of them? The answer is a simple and beautiful cycle of water.\n\nIt begins with heat. The Sun warms lakes, rivers, and oceans, and some of the water turns into an invisible gas called water vapor, which rises into the air. This process is called evaporation. The higher the vapor goes, the cooler the air becomes.\n\nAs the vapor cools, it changes back into tiny drops of water, far too small and light to fall. Billions of these tiny drops gather together, and that is what a cloud really is: a great crowd of tiny water droplets floating in the sky.\n\nInside a cloud, the droplets bump into one another and join together. Little by little, they grow into larger drops. When a drop becomes heavy enough that the air can no longer hold it up, it falls to the ground as rain. If the air is very cold, the water may fall as snow instead.\n\nOnce the rain reaches the ground, it flows into rivers and seas, where it will one day evaporate and rise again. This endless journey is called the water cycle. So the rain on your window and the clouds above your head are part of the same water that has been traveling around our planet for millions of years.",
+        summaryJa: "雲のでき方と雨が降る理由について。空には絶えず様々な形の雲が流れ、白くやわらかいこともあれば暗く重いこともある。毎日見るのに不思議に思える。雲はどこから来て、なぜ一部から雨が降るのか。答えは水の美しい循環だ。始まりは熱で、太陽が湖や川、海を温め、一部の水が目に見えない水蒸気になって空へ昇る。これを蒸発という。高く昇るほど空気は冷え、水蒸気は小さな水滴に戻る。軽くて落ちない無数の水滴が集まったものが雲だ。雲の中で水滴はぶつかって合わさり、少しずつ大きくなり、空気が支えきれない重さになると雨として落ちる。とても寒ければ雪になる。地面の雨は川や海へ流れ、いつかまた蒸発する。この循環を水循環と呼ぶ。",
+        quiz: [
+          { q: "What is a cloud really made of?", options: ["A great crowd of tiny water droplets", "Smoke from the ground", "Pieces of cotton"], answer: 0 },
+          { q: "What is 'evaporation'?", options: ["Water turning into vapor and rising into the air", "Rain falling to the ground", "Ice becoming a rock"], answer: 0 },
+          { q: "Why does a drop finally fall as rain?", options: ["It grows heavy enough that the air cannot hold it up", "The cloud pushes it down on purpose", "The Sun throws it down"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-13",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "How did people measure months long ago?", options: ["By the changing Moon", "By counting cars", "By weighing water"], answer: 0 },
           { q: "Why is a sundial not always useful?", options: ["It is useless at night or on cloudy days", "It is too heavy to lift", "It needs electricity"], answer: 0 },
           { q: "How does an atomic clock measure time?", options: ["By counting the vibrations of atoms", "By watching the Sun", "By dripping water"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-07",
-    passages: [
-      {
-        id: "d1007-1",
-        title: "Why Do Businesses Advertise?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Everywhere we look, we see advertisements. They appear on television, on websites, on buses, and even on our phones. Companies spend huge amounts of money on them every year. But why do businesses advertise, and does it really work?\n\nThe simplest reason is to make people aware. A company may sell a wonderful product, but if nobody knows it exists, nobody will buy it. Advertising tells people, \"We are here, and this is what we offer.\" For a new business, this first step is especially important.\n\nAdvertising also tries to make a product feel special. Two shops may sell very similar coffee, but one may use friendly pictures and a clever slogan to make customers feel good about choosing it. In this way, advertising shapes not just what we know, but how we feel.\n\nAnother goal is to remind us. Even famous companies keep advertising, because people forget and new customers are always growing up. A regular advertisement keeps a brand fresh in our minds, so we think of it when we are ready to buy.\n\nOf course, advertising has its critics. Some ads can be annoying, and a few may promise more than a product can give. Wise customers learn to enjoy clever ads without believing every word.\n\nFor businesses, though, advertising remains one of the most powerful tools they have. A good advertisement does more than sell a product. It tells a story, builds trust, and invites us to become part of it.",
-        summaryJa: "企業が広告を出す理由について。テレビやウェブ、バス、スマホなど至る所に広告があり、企業は毎年巨額を投じる。最も単純な理由は認知で、どんなに良い商品も存在を知られなければ売れず、新しい事業には特に重要な第一歩だ。広告は商品を特別に感じさせる役割もあり、似たコーヒーでも親しみやすい写真や巧みな標語で選びたくなる。さらに「思い出させる」目的もあり有名企業も宣伝を続ける。一方で、わずらわしい広告や誇大な約束への批判もあり、賢い消費者は鵜呑みにせず楽しむ。広告は物語を語り信頼を築く強力な手段だ。",
-        quiz: [
-          { q: "What is the simplest reason businesses advertise?", options: ["To make people aware a product exists", "To waste money", "To hide their products"], answer: 0 },
-          { q: "How does advertising make a product feel special?", options: ["With friendly pictures and clever slogans", "By raising the price only", "By removing the product"], answer: 0 },
-          { q: "Why do even famous companies keep advertising?", options: ["People forget and new customers grow up", "They have no products", "Nobody knows them"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1007-2",
-        title: "How GPS Knows Where You Are",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "When you open a map on your phone, a little blue dot shows exactly where you are. You can be in a strange city, yet your phone knows your position within a few meters. This everyday magic is powered by a system called GPS, which stands for Global Positioning System. But how does it work?\n\nHigh above the Earth, dozens of satellites circle the planet. Each one constantly sends out radio signals that include the exact time the signal was sent. Your phone listens for these signals. Because radio waves travel at a known speed, your phone can measure how long each signal took to arrive, and from that it can work out how far away each satellite is.\n\nTo find your exact location, your phone needs signals from at least four satellites. By combining the distances to several satellites, it can calculate where on Earth you must be. This clever use of distance and time is what places that blue dot on your map.\n\nGPS was first built for the military, but today everyone uses it. It guides cars, ships, and airplanes. Farmers use it to steer tractors, and delivery drivers use it to find addresses. It even helps scientists track animals and measure the slow movement of the Earth itself.\n\nThe next time your phone shows you the way, remember the quiet satellites far above, sending their steady signals. Thanks to them, it is now very hard to get truly lost.",
-        summaryJa: "GPSが現在地を知る仕組みについて。スマホの地図では青い点が数メートルの精度で自分の位置を示す。これを支えるのが全地球測位システム（GPS）だ。上空では数十基の衛星が地球を回り、信号を送った正確な時刻を含む電波を絶えず発信する。スマホはこれを受信し、電波の速さが分かっているため到達までの時間から各衛星までの距離を計算できる。正確な位置を知るには最低4基の衛星の信号が必要で、複数の距離を組み合わせて地球上の位置を割り出す。元は軍用だったが今は誰もが使い、車や船、農業、配達、動物追跡や地殻変動の計測にも役立つ。",
-        quiz: [
-          { q: "What does GPS stand for?", options: ["Global Positioning System", "Great Phone Signal", "General Power Source"], answer: 0 },
-          { q: "How does a phone work out its distance from a satellite?", options: ["By measuring how long the signal took to arrive", "By weighing the satellite", "By taking a photo"], answer: 0 },
-          { q: "How many satellites does a phone need to find your exact location?", options: ["At least four", "Only one", "Exactly two"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1007-3",
-        title: "Why Countries Use Different Money",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "If you travel from Japan to the United States, your yen will not buy a cup of coffee. First you must change it into dollars. Almost every country has its own money, or currency, such as the yen, the dollar, the euro, or the pound. Why does the world use so many different kinds of money, and how do they work together?\n\nA currency is really a promise of value, managed by a country or group of countries. Having its own money gives a nation control over its economy. For example, a country can print more money or change interest rates to help its businesses and workers. If every country shared one currency, no single nation could make these choices alone.\n\nBecause currencies are different, they must be exchanged. The price of one currency in terms of another is called the exchange rate, and it changes every day. If many people want to buy a country's goods, they need its currency, and its value may rise. News, trade, and even confidence can make a currency stronger or weaker.\n\nThese changes matter to ordinary people. A weaker yen, for instance, makes foreign travel more expensive for Japanese tourists, but it makes Japanese products cheaper for foreign buyers. Businesses watch exchange rates closely when they trade across borders.\n\nDifferent currencies can seem confusing, but they reflect a simple truth: the world is made of many separate economies, each managing its own affairs, yet all connected through the constant exchange of money and goods.",
-        summaryJa: "各国が異なる通貨を使う理由について。日本から米国へ行くと円では買い物ができず、まずドルに替える必要がある。ほぼどの国も円・ドル・ユーロ・ポンドなど独自の通貨を持つ。通貨は国や地域が管理する価値の約束で、独自通貨を持てば経済を自国で制御でき、紙幣増刷や金利変更で企業や労働者を支えられる。全世界が同じ通貨なら各国が単独で判断できない。通貨が違うため交換が必要で、交換比率（為替レート）は日々変わる。円安は日本人の海外旅行を高くするが、日本製品を外国人には安くする。通貨の違いは、多くの経済が独自に運営されつつ交換でつながる世界を映す。",
-        quiz: [
-          { q: "Why does having its own money help a country?", options: ["It can control its own economy", "It makes travel free", "It stops all trade"], answer: 0 },
-          { q: "What is the 'exchange rate'?", options: ["The price of one currency in terms of another", "A type of tax", "The weight of a coin"], answer: 0 },
-          { q: "What does a weaker yen do?", options: ["Makes Japanese products cheaper for foreign buyers", "Makes everything free", "Stops foreign travel completely"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1007-4",
-        title: "Matsuri: Japan's Lively Festivals",
-        level: "★★☆",
-        genre: "日本",
-        text: "Throughout the year, towns and villages across Japan come alive with the sound of drums, music, and happy voices. These celebrations are called matsuri, the Japanese word for festivals. From tiny local events to huge city parades, matsuri are a colorful and important part of life in Japan.\n\nMost matsuri have their roots in the Shinto religion and were originally held to thank the gods for a good harvest or to pray for health and safety. Many still take place at shrines. Over time, they have also become joyful social events where neighbors gather and visitors are welcome.\n\nA typical festival is full of energy. People wear traditional clothes called happi coats, and teams carry a mikoshi, a portable shrine, through the streets on their shoulders. They shout together as they move, sharing the heavy weight and the excitement. Drums beat, flutes play, and lanterns glow as evening falls.\n\nFood is another highlight. Rows of small stalls sell grilled squid, sweet pancakes, candied fruit, and many other treats. Children play simple games, trying to catch goldfish or win a prize. The air is filled with wonderful smells and laughter.\n\nEach region has its own famous festivals, from snow festivals in the north to fire and water festivals elsewhere. Though the styles differ, they share the same spirit. Matsuri bring people together across generations, keeping old traditions alive while giving everyone a reason to smile, dance, and celebrate together.",
-        summaryJa: "日本の祭りについて。一年を通じて各地の町や村が太鼓や音楽、歓声でにぎわう。この祝祭が「祭り」で、小さな地域行事から大都市の大行列まで、日本の生活の彩り豊かで大切な一部だ。多くは神道に由来し、元は豊作への感謝や健康・安全の祈願として神社で行われた。やがて近隣が集い来訪者も歓迎する楽しい社交の場にもなった。法被を着た人々が神輿を担ぎ、声を合わせて練り歩き、太鼓や笛が鳴り提灯がともる。屋台ではイカ焼きや甘い菓子が並び、子どもは金魚すくいを楽しむ。地域ごとに名高い祭りがあり、世代を超えて人を結び伝統を守りながら、皆が笑い踊る理由を与えてくれる。",
-        quiz: [
-          { q: "What does 'matsuri' mean?", options: ["Festivals", "Gardens", "Trains"], answer: 0 },
-          { q: "What is a 'mikoshi'?", options: ["A portable shrine carried through the streets", "A kind of food", "A musical instrument"], answer: 0 },
-          { q: "What do food stalls at a matsuri sell?", options: ["Grilled squid and sweet treats", "Only medicine", "Cars and bicycles"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1007-5",
-        title: "Why Do We Have Seasons?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "In many parts of the world, the year brings four seasons: spring, summer, autumn, and winter. Days grow long and warm, then short and cold, in a steady cycle. Many people think the seasons happen because the Earth moves closer to or farther from the Sun. Surprisingly, that is not the real reason.\n\nThe true cause is the tilt of the Earth. Our planet does not stand straight up as it travels around the Sun. Instead, it leans to one side at a gentle angle. This tilt stays the same all year, but because the Earth is always moving around the Sun, different parts of the planet lean toward the Sun at different times.\n\nWhen your part of the Earth leans toward the Sun, the Sun's light hits it more directly and for more hours each day. This brings summer, with its long, warm days. Six months later, your part leans away from the Sun. The light arrives at a lower angle and for fewer hours, bringing the short, cold days of winter.\n\nThis is also why the seasons are opposite in the north and south. When it is summer in Japan, it is winter in Australia, because the two halves of the Earth lean in opposite directions.\n\nSo the seasons are not about distance from the Sun, but about angle and light. Thanks to a small tilt in our spinning planet, we enjoy the beauty of changing seasons, each with its own weather, colors, and character.",
-        summaryJa: "季節が生まれる理由について。世界の多くの地域では春・夏・秋・冬の四季が巡り、日は長く暖かくなり、また短く寒くなる。多くの人は地球が太陽に近づいたり遠ざかったりするためと思うが、それは本当の理由ではない。真の原因は地球の傾きだ。地球は太陽の周りを回る際にまっすぐ立たず、少し傾いている。傾きは一年中同じだが、地球が公転するため時期によって異なる地域が太陽の方を向く。太陽側に傾くと光がより直接・長時間当たり夏になり、半年後に反対へ傾くと光が低い角度で短時間となり冬になる。だから南北で季節が逆になる。季節は距離でなく角度と光で決まる。",
-        quiz: [
-          { q: "What is the real cause of the seasons?", options: ["The tilt of the Earth", "The Earth moving closer to the Sun", "The Sun getting hotter"], answer: 0 },
-          { q: "What happens when your part of the Earth leans toward the Sun?", options: ["It becomes summer with long, warm days", "It becomes winter", "Nothing changes"], answer: 0 },
-          { q: "Why is it summer in Japan when it is winter in Australia?", options: ["The two halves lean in opposite directions", "Australia has no sun", "Japan is closer to the Moon"], answer: 0 }
         ]
       }
     ]
