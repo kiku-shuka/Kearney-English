@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-15",
+    passages: [
+      {
+        id: "d1015-1",
+        title: "What Are Stocks and Shares?",
+        level: "★★★",
+        genre: "ビジネス",
+        text: "In the business news, you often hear that markets have \"gone up\" or \"fallen.\" These reports are about stocks, also called shares. A share is a small piece of ownership in a company. If you own shares in a business, you own a tiny part of it. But why do companies sell pieces of themselves, and why do people buy them?\n\nCompanies sell shares mainly to raise money. Suppose a company wants to build a new factory but does not have enough cash. Instead of only borrowing from a bank, it can sell shares to the public. Many people each pay a little, and together they provide a large sum. In return, those people become part-owners.\n\nPeople buy shares hoping to gain in two ways. First, if the company does well and grows, the value of each share may rise, so the shares can be sold later for more than they cost. Second, some companies share part of their profits with owners through regular payments called dividends.\n\nBut shares carry risk. If a company does badly, the value of its shares can fall, and owners may lose money. Share prices also move up and down with the news, the economy, and even people's feelings. Some days, markets rise sharply; other days, they drop.\n\nUnderstanding shares helps people follow the economy and make careful choices. Owning part of a company can be rewarding, but it is never a sure thing. Wise investors learn to think long-term and never risk money they cannot afford to lose.",
+        summaryJa: "株式とは何かについて。ニュースで市場が「上がった」「下がった」と聞くのは株式（シェア）の話だ。株は会社の所有権の小さな一片で、株を持てばその会社のごく一部を所有することになる。会社が株を売る主な理由は資金調達だ。新工場を建てたいが現金が足りない時、銀行から借りるだけでなく一般に株を売れる。多くの人が少しずつ払い、合わせて大きな額になり、買った人は共同所有者となる。買い手は二つの利益を期待する。会社が成長すれば株の価値が上がり高く売れること、利益の一部が配当として分配されること。だが会社が不振なら株価は下がり損もする。株価は報道や景気、人々の気分でも動く。長期で考え、失ってよい範囲でと賢い投資家は学ぶ。",
+        quiz: [
+          { q: "What is a share?", options: ["A small piece of ownership in a company", "A type of bank loan", "A government tax"], answer: 0 },
+          { q: "Why do companies sell shares?", options: ["Mainly to raise money", "To lose customers", "To close down"], answer: 0 },
+          { q: "What is a risk of owning shares?", options: ["Their value can fall and you may lose money", "They always rise", "They are free"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1015-2",
+        title: "How Rockets Reach Space",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Launching a rocket into space is one of the most dramatic sights in science. With a roar and a cloud of smoke, a tall machine rises slowly, then faster and faster, until it disappears into the sky. But how does a rocket escape the pull of the Earth and reach space?\n\nThe main challenge is gravity. Earth's gravity pulls everything down, so to leave the ground, a rocket must push upward with enormous force. Rockets create this force by burning fuel very quickly. As the fuel burns, it makes hot gas, which shoots out of the bottom of the rocket at great speed. This rushing gas pushes the rocket in the opposite direction, upward. It is the same idea as letting go of a balloon and watching it fly around the room.\n\nA rocket must also go incredibly fast. To stay in orbit around the Earth, it needs to travel at about 28,000 kilometers per hour. At that speed, it keeps falling toward the Earth but keeps missing it, circling the planet instead.\n\nBecause so much fuel is needed, most rockets are built in parts called stages. When the first stage uses up its fuel, it drops away, making the rocket lighter so the next stage can push on. In the past, these parts were lost, but today some companies land them again to reuse them.\n\nReaching space is difficult and expensive, yet rockets have carried people to the Moon and machines across the solar system, turning the dream of space travel into reality.",
+        summaryJa: "ロケットが宇宙へ到達する仕組みについて。ロケットの打ち上げは科学で最も劇的な光景の一つで、轟音と煙とともに背の高い機体がゆっくり、やがて速く上昇し空へ消える。最大の課題は重力だ。地球の重力は全てを下へ引くため、離陸には巨大な上向きの力が要る。ロケットは燃料を一気に燃やし、高温のガスを機体の下から高速で噴き出す。そのガスが反対方向（上）へロケットを押す。風船を手放すと飛び回るのと同じ原理だ。さらに猛烈な速さが必要で、地球を回る軌道に乗るには時速約2万8千キロで進む。落ち続けながら地球をかすめ続け周回する。燃料が大量に要るため多くは段（ステージ）に分かれ、使い切った段を切り離して軽くする。近年は再利用のため着陸させる企業もある。",
+        quiz: [
+          { q: "How does a rocket push itself upward?", options: ["By shooting hot gas out of the bottom at great speed", "By flapping wings", "By using a big fan"], answer: 0 },
+          { q: "Why does a rocket need to go so fast to stay in orbit?", options: ["So it keeps falling toward Earth but keeps missing it", "So it can make noise", "So it can turn colors"], answer: 0 },
+          { q: "Why are rockets built in stages?", options: ["To drop empty parts and become lighter", "To look taller", "To carry more passengers only"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1015-3",
+        title: "How Does International Mail Reach You?",
+        level: "★★☆",
+        genre: "世界情勢",
+        text: "Imagine sending a letter or a small parcel from Japan to a friend in Brazil. It travels thousands of kilometers, crosses several countries, and is handled by different postal workers who speak different languages. Yet, with the right address and stamp, it usually arrives. How does mail travel so smoothly between nations?\n\nThe answer is quiet international cooperation. Long ago, sending mail abroad was difficult. Each country had its own rules, and senders sometimes had to pay several different postal services along the way. To fix this, countries agreed to work together and created an organization to set shared rules for international post.\n\nThanks to these rules, the system is simple for the sender. You pay postage only once, in your own country, using your own stamps. Your national post office then passes the mail to the next country, which carries it onward. The countries settle the costs between themselves later. In this way, many separate postal services act like one giant network.\n\nShared standards make it work. Addresses follow common patterns, and special codes help machines sort millions of items quickly. Airplanes, ships, trucks, and trains all play a part in the journey.\n\nToday, people send fewer letters, but online shopping has created a flood of parcels crossing borders. The old system has had to grow and change to keep up.\n\nThe next time a postcard arrives from far away, remember the quiet agreement between nations that carried it. It is a small, everyday example of how the world chooses to cooperate.",
+        summaryJa: "国際郵便が届く仕組みについて。日本からブラジルの友人へ手紙や小包を送ると、何千キロも旅し、いくつもの国を越え、言語の違う郵便職員が扱う。それでも正しい住所と切手があればたいてい届く。なぜ国家間をなめらかに運べるのか。答えは静かな国際協力だ。昔は各国の規則が異なり、途中で複数の郵便に支払うこともあった。これを解決するため各国が協力し、国際郵便の共通規則を定める組織を作った。おかげで送り手は自国で一度切手を貼るだけでよく、自国の郵便が次の国へ渡し、各国が後で費用を精算する。多くの郵便が一つの巨大網のように働く。住所の共通様式や郵便番号で機械が高速に仕分ける。近年は手紙が減る一方、通販で小包が国境を越えて急増している。",
+        quiz: [
+          { q: "Why was sending mail abroad difficult long ago?", options: ["Each country had its own rules and separate payments", "There was no paper", "No one could write"], answer: 0 },
+          { q: "How many times does the sender usually pay postage?", options: ["Once, in their own country", "In every country it passes", "Never"], answer: 0 },
+          { q: "What has recently increased international mail?", options: ["Online shopping creating many parcels", "Fewer people on Earth", "The end of airplanes"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1015-4",
+        title: "Karaoke: Singing Together in Japan",
+        level: "★★☆",
+        genre: "日本",
+        text: "Few forms of entertainment are as closely linked to Japan as karaoke. The word means empty orchestra, because the music plays without a singer, leaving the singing to you. Invented in Japan in the 1970s, karaoke has since spread to almost every country in the world.\n\nKaraoke is simple. A machine plays the music of a popular song while the words appear on a screen. Singers follow the words and sing along, with no need to remember the lyrics. It does not matter if you are a great singer or a terrible one; the point is to have fun.\n\nIn Japan, people often enjoy karaoke in special places called karaoke boxes. These are small private rooms that a group can rent by the hour. Friends, families, or coworkers go inside, order drinks and snacks, and take turns singing just for each other. Because the room is private, even shy people feel brave enough to try.\n\nKaraoke plays an important social role. After a long day, coworkers may go together to sing and relax, growing closer in a way that a formal meeting never allows. For many people, it is a cheerful way to release stress and share laughter.\n\nFrom a simple machine to a worldwide hobby, karaoke shows how a fun idea can cross every border. Whether sung well or badly, a karaoke song is really about something universal: the simple joy of making music and sharing a happy moment with others.",
+        summaryJa: "日本のカラオケについて。カラオケほど日本と結びついた娯楽は少ない。「空（から）のオーケストラ」を意味し、歌手なしで音楽が流れ、歌うのはあなた自身だ。1970年代に日本で生まれ、今や世界中に広まった。仕組みは簡単で、機械が人気曲の音楽を流し、画面に歌詞が出る。歌手はそれを追って歌え、歌詞を覚える必要がない。上手でも下手でも関係なく、楽しむことが目的だ。日本では「カラオケボックス」という時間貸しの小さな個室で楽しむことが多く、友人や家族、同僚が入って飲食し、順に歌う。個室なので恥ずかしがり屋も挑戦できる。長い一日の後に同僚と歌って打ち解け、ストレス発散にもなる。楽しい発想が国境を越えることを示す。",
+        quiz: [
+          { q: "What does the word 'karaoke' mean?", options: ["Empty orchestra", "Loud music", "Happy song"], answer: 0 },
+          { q: "What is a 'karaoke box'?", options: ["A small private room a group can rent", "A kind of radio", "A type of drink"], answer: 0 },
+          { q: "What social role does karaoke play in Japan?", options: ["Helping coworkers relax and grow closer", "Replacing all meetings", "Teaching people to cook"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1015-5",
+        title: "Why Is the Ocean Salty?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "If you have ever swum in the sea and tasted the water by accident, you know it is very salty. Rivers and lakes, however, are usually fresh, with little or no salt. This raises a curious question: if rivers flow into the sea, and rivers are not salty, why is the ocean so full of salt?\n\nThe answer begins on land. Rainwater is slightly acidic, and as it flows over rocks and soil, it slowly breaks them down. In doing so, it picks up tiny amounts of minerals, including salt. You cannot taste this salt in a river because the amount is so small. But every river carries this slight saltiness toward the sea.\n\nHere is the key. When seawater sits under the hot Sun, some of it evaporates, turning into vapor and rising to form clouds. But when water evaporates, it leaves the salt behind. So fresh water keeps arriving from rivers, carrying a little more salt each time, while pure water keeps leaving through evaporation. Over millions of years, the salt has built up, making the sea steadily saltier.\n\nSome places are saltier than others. In very hot areas where lots of water evaporates, the sea can be especially salty. In colder places, or where many rivers pour in, the water is less salty.\n\nSo the ocean's saltiness is the result of a slow, patient process, drop by drop, over an unimaginably long time. The sea is, in a way, a record of the land slowly dissolving into the water.",
+        summaryJa: "海が塩辛い理由について。海で誤って海水を味わえば、とても塩辛いと分かる。一方、川や湖はたいてい真水で塩はほとんどない。川が海に流れ込み、川は塩辛くないのに、なぜ海は塩でいっぱいなのか。答えは陸から始まる。雨水はわずかに酸性で、岩や土を流れるうちに少しずつ溶かし、塩を含む微量の鉱物を拾う。川では量が少なく味を感じないが、どの川もこのわずかな塩気を海へ運ぶ。鍵はここだ。海水が太陽で温まると一部が蒸発して雲になるが、蒸発時に塩は残される。川から真水が塩を運び続け、蒸発で純水だけが出ていくため、何百万年もかけて塩がたまり海は徐々に塩辛くなった。暑い地域の海は特に塩辛く、寒い地域や川が多い所は塩分が低い。",
+        quiz: [
+          { q: "Where does the salt in the ocean mainly come from?", options: ["Minerals that rivers pick up from rocks and soil", "Fish making salt", "Salt falling from the sky"], answer: 0 },
+          { q: "Why does salt build up in the sea?", options: ["Water evaporates and leaves the salt behind", "The sea eats salt", "Rivers remove salt"], answer: 0 },
+          { q: "Where is the sea especially salty?", options: ["In very hot areas where lots of water evaporates", "Where many rivers pour in", "In cold places only"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-14",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What makes leaves look green in summer?", options: ["A substance called chlorophyll", "Yellow paint", "The autumn wind"], answer: 0 },
           { q: "Why do yellow and orange colors appear in autumn?", options: ["The green chlorophyll fades and reveals them", "Someone paints the leaves", "They come from the soil"], answer: 0 },
           { q: "Why does a tree lose its leaves in winter?", options: ["To save water and energy", "To look taller", "To stop growing forever"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-08",
-    passages: [
-      {
-        id: "d1008-1",
-        title: "How Banks Keep Our Money Safe",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Most adults keep their money in a bank. We put our pay into a bank account, take out cash when we need it, and pay bills online. But have you ever wondered what a bank really does with your money, and why we trust it?\n\nA bank is a business that looks after money. When you put money into the bank, this is called a deposit. The bank keeps your money safe and records exactly how much is yours. You can take it out whenever you need it. For this service, the bank keeps your savings secure, which is much safer than hiding cash at home.\n\nBut banks do more than store money. They also lend it. When many people deposit money, the bank does not simply leave it in a safe. Instead, it lends some of that money to other people and businesses who need it, for example to buy a house or start a company. These borrowers pay back the loan with a little extra, called interest.\n\nThis is how a bank earns money. It charges more interest to borrowers than it pays to savers, and the difference becomes its profit. In this way, a bank connects people who have extra money with people who need money.\n\nBanks must be careful and honest, because people trust them with their savings. Governments watch over banks with strict rules to keep them safe. Thanks to this system, money can move around the economy, helping people and businesses grow.",
-        summaryJa: "銀行が私たちのお金を守る仕組みについて。多くの大人は銀行にお金を預け、必要なとき引き出し、オンラインで支払う。銀行はお金を管理する事業で、預け入れ（預金）されたお金を安全に保管し、誰のいくらかを正確に記録する。自宅に現金を隠すよりずっと安全だ。さらに銀行はお金を貸し出す。多くの人の預金の一部を、住宅購入や起業などで資金を必要とする人や企業に貸し、借り手は利子を付けて返す。借り手から受け取る利子を預金者に払う利子より高くし、その差が銀行の利益になる。余剰資金のある人と必要な人を結ぶ。政府は厳しい規則で銀行を監督し、お金が経済を巡る。",
-        quiz: [
-          { q: "What is a 'deposit'?", options: ["Money you put into a bank", "A type of loan", "A bank's profit"], answer: 0 },
-          { q: "What do banks do with the money people deposit?", options: ["Lend some of it to others", "Burn it", "Give it away for free"], answer: 0 },
-          { q: "How does a bank earn money?", options: ["It charges borrowers more interest than it pays savers", "It never lends money", "It hides all the cash"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1008-2",
-        title: "How Wi-Fi Connects Us",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "In homes, cafés, and offices around the world, people connect to the internet without any wires. We call this Wi-Fi, and most of us use it every day. We often take it for granted, but how does Wi-Fi actually send information through the air?\n\nWi-Fi uses radio waves, the same kind of invisible waves that carry music to a radio. A small device called a router is connected to the internet, usually through a cable coming into the building. The router turns internet data into radio signals and sends them out into the air. Your phone or computer has a tiny antenna that receives these signals and turns them back into useful information, such as a web page or a video.\n\nThe signals travel in both directions. When you send a message or load a page, your device sends radio waves back to the router, which passes your request on to the internet. All of this happens many times per second, far too fast for us to notice.\n\nWi-Fi has limits. Radio signals grow weaker as they travel, so the farther you are from the router, the slower your connection may become. Thick walls and other electronics can also block or disturb the signal. This is why your connection is often best in the same room as the router.\n\nWi-Fi has changed how we live and work, letting us move freely while staying connected. Invisible and silent, these radio waves quietly carry our digital world through the air around us.",
-        summaryJa: "Wi-Fiが私たちをつなぐ仕組みについて。家やカフェ、職場で私たちは無線でインターネットに接続する。これがWi-Fiで、毎日使う人が多い。Wi-Fiはラジオと同じ電波を使う。ルーターという小さな機器が通常ケーブルでインターネットにつながり、データを電波に変えて空中へ送る。スマホやパソコンの小さなアンテナがこれを受け取り、ウェブページや動画などの情報に戻す。信号は双方向で、メッセージ送信やページ読み込みの際は端末がルーターへ電波を返す。電波は遠くなるほど弱まり、厚い壁や他の電子機器が妨げることもある。だからルーターと同じ部屋が最も快適だ。目に見えない電波が私たちのデジタル世界を運ぶ。",
-        quiz: [
-          { q: "What does Wi-Fi use to send information?", options: ["Radio waves", "Water pipes", "Sunlight only"], answer: 0 },
-          { q: "What does a router do?", options: ["Turns internet data into radio signals", "Cooks food", "Stores photos forever"], answer: 0 },
-          { q: "Why is your connection often best in the same room as the router?", options: ["Signals grow weaker as they travel", "Routers hate other rooms", "Phones cannot move"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1008-3",
-        title: "What Are World Heritage Sites?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Around the globe, there are places so special that the whole world agrees they must be protected. These are called World Heritage Sites. They include ancient ruins, beautiful natural areas, historic cities, and famous monuments. But who decides what becomes a World Heritage Site, and why does it matter?\n\nThe idea comes from a part of the United Nations called UNESCO. Its goal is to protect places of great value to all of humanity, not just to one country. A site may be chosen for its history, its culture, or its natural beauty. Famous examples include the pyramids of Egypt, the Great Barrier Reef, and many historic temples and castles.\n\nTo become a World Heritage Site, a place must be carefully studied. The country where it is located makes a request, and experts check whether the site is truly unique and important. If it is accepted, the country promises to protect it, and the world community helps to watch over it.\n\nWhy protect these places together? Some sites face dangers such as pollution, war, or too many visitors. Others may fall apart simply with age. By working across borders, nations can share money and knowledge to keep these treasures safe for the future.\n\nWorld Heritage Sites remind us that history and nature belong to everyone. A temple in Asia or a forest in Africa is part of a story shared by all people. Protecting them is a way of saying that some things are too precious to lose.",
-        summaryJa: "世界遺産について。世界には全人類が守るべきと認める特別な場所があり、これを世界遺産と呼ぶ。古代遺跡や美しい自然、歴史都市、有名な記念物などが含まれる。発案は国連の機関ユネスコで、一国だけでなく人類全体に価値ある場所を守ることを目指す。歴史・文化・自然美で選ばれ、エジプトのピラミッドやグレートバリアリーフ、歴史的な寺や城などが例だ。登録には所在国が申請し、専門家が独自性と重要性を確認する。認められると国は保護を約束し、世界も見守る。汚染や戦争、観光客過多、老朽化などの危険に対し、国境を越えて資金と知識を共有する。歴史と自然は皆のものだと教えてくれる。",
-        quiz: [
-          { q: "Which organization chooses World Heritage Sites?", options: ["UNESCO, part of the United Nations", "A single city council", "A private company"], answer: 0 },
-          { q: "For what reasons can a site be chosen?", options: ["Its history, culture, or natural beauty", "Only its size", "Only its price"], answer: 0 },
-          { q: "Why do nations protect these places together?", options: ["Sites face dangers and belong to everyone", "To keep them secret", "To sell them quickly"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1008-4",
-        title: "Ojigi: The Japanese Art of Bowing",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, people greet each other with a handshake or a wave. In Japan, the most common greeting is a bow, known as ojigi. From busy offices to quiet shops, you will see people bowing many times a day. A simple bend of the body can say hello, thank you, sorry, or goodbye.\n\nBowing is more than just a movement; it carries meaning. The deeper and longer the bow, the more respect or feeling it shows. A small nod of the head is friendly and casual, used between friends. A deeper bow from the waist is more formal, used to greet a customer, a teacher, or an important guest. The deepest bows are saved for serious apologies or great thanks.\n\nChildren in Japan learn to bow from a young age, at home and at school. Over time, bowing becomes natural, almost automatic. People even bow while talking on the phone, although the other person cannot see them. The habit is simply part of showing respect.\n\nBowing also helps keep a comfortable distance. Unlike a handshake or a hug, a bow does not require touching, which many people find polite and clean. During the greeting, both people usually lower their eyes as a sign of humility.\n\nFor visitors to Japan, a small bow is a friendly way to show respect, and it is always appreciated. Though it looks simple, ojigi reflects deep values in Japanese culture: respect, humility, and care for the feelings of others.",
-        summaryJa: "日本のお辞儀（ojigi）について。多くの国では握手や手を振って挨拶するが、日本で最も一般的な挨拶はお辞儀だ。職場から小さな店まで、人々は一日に何度もお辞儀をする。体を少し曲げるだけで、こんにちは・ありがとう・ごめんなさい・さようならを伝えられる。お辞儀は動作以上の意味を持ち、深く長いほど敬意や思いが強い。軽い会釈は友人同士の気軽なもの、腰から曲げる深いお辞儀は客や先生、大切な客への丁寧なもので、最も深いお辞儀は謝罪や大きな感謝に使う。子どもは幼い頃から家庭や学校で学び、電話中にもお辞儀するほど自然になる。触れずに済み清潔で、互いに目を伏せて謙虚さを示す。敬意・謙虚・思いやりを映す。",
-        quiz: [
-          { q: "What is the most common greeting in Japan?", options: ["A bow, called ojigi", "A loud shout", "A high five"], answer: 0 },
-          { q: "What does a deeper, longer bow show?", options: ["More respect or feeling", "Less respect", "Anger"], answer: 0 },
-          { q: "What is one reason some people find bowing polite?", options: ["It does not require touching", "It is very loud", "It takes many hours"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1008-5",
-        title: "How Do We Measure Time?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "We check the time many times a day, on phones, clocks, and watches. Time guides our work, our travel, and our rest. But how do we actually measure something we cannot see or touch? The story of timekeeping is a long journey from the sky to the atom.\n\nLong ago, people measured time by watching nature. The Sun rising and setting marked the days, and the changing Moon marked the months. To track shorter periods, early people used simple tools. A sundial used the shadow of a stick to show the hour, while a water clock measured time by water slowly dripping from one container to another.\n\nThese early clocks were useful but not very exact. A sundial, for example, is useless at night or on a cloudy day. Over the centuries, inventors built better machines. Mechanical clocks with gears and springs could tick steadily day and night, and later, small watches could fit in a pocket.\n\nToday, the most accurate clocks measure time using atoms. Inside an atomic clock, tiny particles vibrate billions of times each second, always at the same steady rate. By counting these vibrations, scientists can measure time with astonishing precision, losing less than a second over millions of years.\n\nWhy does such precision matter? Modern life depends on it. Systems like GPS, the internet, and banking all need clocks that agree perfectly. From a shadow on the ground to vibrating atoms, our search for better time has quietly shaped the modern world.",
-        summaryJa: "時間の測り方について。私たちは一日に何度も時刻を確認するが、見えず触れられない時間をどう測るのか。時計の歴史は空から原子への長い旅だ。昔は自然を見て測り、太陽の出入りが日を、月の満ち欠けが月を示した。短い時間には道具を使い、日時計は棒の影で時刻を示し、水時計は容器から滴る水で測った。これらは便利だが正確でなく、日時計は夜や曇天では使えない。やがて歯車とばねの機械式時計が昼夜問わず時を刻み、懐中時計も生まれた。今最も正確なのは原子時計で、原子が毎秒数十億回、一定の速さで振動する。その回数を数え、数百万年に1秒未満の精度で測れる。GPSやインターネット、銀行は完全に一致した時計を必要とする。",
-        quiz: [
-          { q: "How did people measure months long ago?", options: ["By the changing Moon", "By counting cars", "By weighing water"], answer: 0 },
-          { q: "Why is a sundial not always useful?", options: ["It is useless at night or on cloudy days", "It is too heavy to lift", "It needs electricity"], answer: 0 },
-          { q: "How does an atomic clock measure time?", options: ["By counting the vibrations of atoms", "By watching the Sun", "By dripping water"], answer: 0 }
         ]
       }
     ]
