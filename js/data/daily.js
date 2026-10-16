@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-16",
+    passages: [
+      {
+        id: "d1016-1",
+        title: "Why Companies Recall Products",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Sometimes a company announces that it is \"recalling\" one of its products. This means it is asking customers to return or stop using something they already bought, usually because a problem has been found. A car maker might recall cars with a faulty part, or an electronics company might recall a machine that could overheat. Recalls can be costly and embarrassing, so why do companies do them?\n\nThe main reason is safety. If a product could hurt someone, a responsible company must act quickly, even if it loses money. For example, if a washing machine has a part that might catch fire, the company will offer to repair or replace it for free. Fixing the problem early is far better than waiting for someone to be harmed.\n\nRecalls also protect something less visible but very valuable: trust. Customers are more likely to forgive a company that admits a mistake and fixes it than one that tries to hide a danger. A well-handled recall can even show that a company cares about its customers.\n\nIn many countries, laws require companies to report serious product problems. Government agencies watch over this process and can order a recall if a company does not act. This system helps keep dangerous goods off the shelves.\n\nOf course, recalls cost money and can damage a brand for a time. But the alternative, leaving an unsafe product in people's homes, is far worse. In the end, a recall is a company choosing safety and honesty over short-term profit.",
+        summaryJa: "企業が製品を回収（リコール）する理由について。企業が製品を「リコール」すると発表することがある。これは問題が見つかったために、すでに購入した製品の返却や使用中止を客に求めることだ。自動車会社が不具合部品の車を回収したり、電機会社が過熱の恐れある機械を回収したりする。費用もかかり体面も悪いのになぜ行うのか。主な理由は安全だ。人を傷つけうる製品には、損をしても責任ある企業は素早く動く。例えば発火の恐れある洗濯機の部品は無償で修理・交換する。早く直す方が、誰かが害を受けるのを待つよりずっと良い。リコールは信頼も守る。隠すより過ちを認め直す企業の方が許されやすい。多くの国で重大な問題の報告が法で義務づけられ、政府機関が監督する。安全と誠実を短期利益より優先する選択だ。",
+        quiz: [
+          { q: "What does it mean when a company 'recalls' a product?", options: ["It asks customers to return or stop using it", "It sells more of it", "It raises its price"], answer: 0 },
+          { q: "What is the main reason companies recall products?", options: ["Safety", "To make more money quickly", "To win awards"], answer: 0 },
+          { q: "Why can a well-handled recall help a company?", options: ["It can protect customers' trust", "It hides all problems", "It removes all laws"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1016-2",
+        title: "How Self-Driving Cars Work",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "For many years, a car that drives itself was only an idea in science fiction. Today, real self-driving cars are being tested on roads around the world. These vehicles can steer, brake, and change lanes with little or no help from a human. But how can a car \"see\" the road and make safe decisions on its own?\n\nA self-driving car depends on sensors, its electronic eyes and ears. Cameras watch for traffic lights, road signs, and lane markings. Radar measures the distance to other cars, even in rain or fog. Many cars also use a system called lidar, which sends out laser beams to build a detailed three-dimensional map of everything around the vehicle. Together, these sensors give the car a full picture of its surroundings.\n\nAll this information flows into a powerful computer, the car's \"brain.\" Using software, the computer decides what to do: when to slow down, when to turn, and when to stop. It must make these choices many times each second, faster than a human could.\n\nSome new systems also share information. Cars can receive data from road sensors and traffic signals, helping them understand what is happening even around a corner they cannot see.\n\nSelf-driving cars are not yet perfect. They can struggle with unusual situations, bad weather, or confusing road work. But supporters hope that one day they will reduce accidents, since most crashes are caused by human mistakes. The road ahead is long, but the technology keeps moving forward.",
+        summaryJa: "自動運転車の仕組みについて。長年、自ら走る車はSFの中の発想だったが、今や実物が世界各地の道路で試験されている。人の助けをほとんど借りずにハンドル操作・ブレーキ・車線変更ができる。どうやって道を「見て」安全に判断するのか。鍵はセンサー、いわば電子の目と耳だ。カメラは信号・標識・車線を見張り、レーダーは雨や霧でも他車との距離を測る。多くはライダーという装置でレーザーを放ち周囲の立体地図を作る。これらが車に周囲の全体像を与える。情報は強力なコンピューター（車の「脳」）に集まり、ソフトが減速・曲がる・止まるを毎秒何度も判断する。道路センサーや信号の情報を受け取り、見えない角の先を知る車もある。まだ完璧でないが、事故削減が期待される。",
+        quiz: [
+          { q: "What do the sensors on a self-driving car act as?", options: ["Its electronic eyes and ears", "Its engine", "Its seats"], answer: 0 },
+          { q: "What does lidar do?", options: ["Sends laser beams to build a 3D map of the surroundings", "Plays music", "Cleans the windows"], answer: 0 },
+          { q: "Why do supporters hope self-driving cars will reduce accidents?", options: ["Most crashes are caused by human mistakes", "Cars never move", "Humans drive perfectly"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1016-3",
+        title: "Keeping the Skies Safe: Shared Air-Travel Rules",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "At this very moment, thousands of airplanes are flying above the Earth, carrying millions of people between countries. A plane might take off in one nation, cross the airspace of several others, and land on a different continent. For this to happen safely every day, the countries of the world must follow the same rules. Air travel is one of the clearest examples of global cooperation.\n\nLong ago, as flying grew popular, a problem appeared. Each country had its own ideas about how planes should operate. But an airplane does not stop at a border, so different rules could be dangerous. To solve this, nations agreed to create shared standards for flying, managed through international cooperation.\n\nToday, these shared rules cover almost everything. Pilots around the world are trained to similar standards. Air traffic controllers use English as a common language, so a pilot from Japan and a controller in France can understand each other. Even the markings on runways and the meaning of signals are the same worldwide.\n\nSafety is the greatest goal. When a serious accident happens, experts from different countries often investigate together, and the lessons are shared so the same mistake is less likely to happen again anywhere.\n\nThis cooperation does not remove competition between airlines, nor does it erase borders. Instead, it shows that on certain shared challenges, countries gain far more by agreeing than by acting alone. Every safe landing is a quiet reminder that the world can, when it chooses, work as one.",
+        summaryJa: "空の安全を支える国際的な航空ルールについて。今この瞬間も何千もの飛行機が地球上空を飛び、何百万もの人を国から国へ運んでいる。ある国で離陸し、いくつもの国の空を越え、別の大陸に着陸することもある。これを毎日安全に行うには、世界の国々が同じルールに従う必要がある。航空は国際協力の最も分かりやすい例の一つだ。昔、飛行機が普及すると各国の考えが異なり危険だった。飛行機は国境で止まらないため、各国は共通基準を作ることで合意した。今やルールはほぼ全てを網羅し、操縦士の訓練水準は世界共通、管制官は英語を共通言語に使い、滑走路の表示や合図の意味も世界共通だ。重大事故は各国の専門家が共同調査し教訓を共有する。合意する方が単独より得だと示している。",
+        quiz: [
+          { q: "Why do countries need shared rules for air travel?", options: ["Airplanes cross borders, so different rules would be dangerous", "Planes never leave one country", "Rules make flying slower"], answer: 0 },
+          { q: "What common language do air traffic controllers use?", options: ["English", "Only their own language", "No language at all"], answer: 0 },
+          { q: "What happens after a serious air accident?", options: ["Experts from different countries investigate and share lessons", "Everyone forgets it", "All planes are destroyed"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1016-4",
+        title: "Chopsticks: How to Use Them in Japan",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, most meals are eaten with a pair of thin sticks called chopsticks, or hashi. For visitors who have never used them, they can seem tricky at first, but with a little practice, they become easy and even enjoyable. Learning to use chopsticks is a small but useful step into Japanese daily life.\n\nTo hold chopsticks, you rest one stick on your ring finger and the base of your thumb, keeping it still. You move the other stick with your thumb, index, and middle fingers, like holding a pencil. Only the top stick moves, pinching food between the two tips. It takes practice, but soon it feels natural.\n\nIn Japan, there are also polite manners to follow. Some actions are considered rude because they remind people of customs used at funerals. For example, you should never stick your chopsticks straight up in a bowl of rice, and you should not pass food directly from your chopsticks to someone else's. When you are not using them, you rest the chopsticks neatly on a small holder or across your bowl.\n\nChopsticks are usually made of wood, bamboo, or plastic, and many families have their own favorite pairs. In restaurants, simple wooden chopsticks are often split apart from a single piece just before the meal.\n\nMore than just tools for eating, chopsticks reflect a culture of care and respect at the table. Using them well, and politely, is a simple way to show appreciation for the meal and for the people sharing it.",
+        summaryJa: "日本での箸の使い方について。日本ではほとんどの食事を「箸」という細い二本の棒で食べる。初めての人には難しく見えるが、少し練習すれば簡単で楽しくなる。箸を使えることは日本の日常への小さな一歩だ。持ち方は、一本を薬指と親指の付け根に乗せて動かさず、もう一本を親指・人さし指・中指で鉛筆のように動かす。上の箸だけを動かし、二本の先で食べ物をつまむ。作法もあり、葬儀を連想させる動作は失礼とされる。例えばご飯に箸を立てたり、箸から箸へ直接食べ物を渡したりしない。使わない時は箸置きや器の上に置く。箸は木・竹・プラスチック製で、割り箸は食前に割る。食事と同席者への敬意を示す文化を映す。",
+        quiz: [
+          { q: "How do you use chopsticks?", options: ["Keep one stick still and move the other like a pencil", "Move both sticks wildly", "Hold them in your fist only"], answer: 0 },
+          { q: "What is considered rude in Japan?", options: ["Sticking chopsticks straight up in a bowl of rice", "Using a chopstick holder", "Eating quietly"], answer: 0 },
+          { q: "What do chopsticks reflect, according to the passage?", options: ["A culture of care and respect at the table", "A dislike of food", "A love of noise"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1016-5",
+        title: "How Do Rainbows Form?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "After a rain shower, when the Sun comes out again, you may see one of nature's most beautiful sights: a rainbow arching across the sky. Its band of colors, from red to violet, has amazed people for thousands of years. But a rainbow is not really an object in the sky. It is made of sunlight, rain, and your own eyes working together.\n\nThe secret is that sunlight, which looks white, is really a mixture of all colors. Normally these colors travel together and we do not notice them. But when sunlight passes through a raindrop, something special happens. As the light enters the drop, it bends, and the different colors bend by slightly different amounts. The light bounces off the back of the drop and bends again as it comes out. This spreads the white light into its separate colors, like a tiny prism.\n\nMillions of raindrops do this at the same time. Each drop sends a particular color toward your eyes, depending on its position in the sky. Together, all these drops create the great arc of colors we call a rainbow.\n\nA rainbow always appears in the part of the sky opposite the Sun. That is why you see them when the Sun is low, in the morning or late afternoon, with rain in front of you. Because the rainbow depends on where you stand, no two people see exactly the same one. Your rainbow is truly your own.",
+        summaryJa: "虹のでき方について。雨上がりに太陽が出ると、空にかかる虹という自然の美しい光景が見える。赤から紫までの色の帯は何千年も人を驚かせてきた。だが虹は空にある物体ではなく、太陽光と雨とあなたの目が共に作るものだ。鍵は、白く見える太陽光が実は全ての色の混合であること。普段は色が一緒に進み気づかないが、光が雨粒を通ると特別なことが起こる。粒に入る時に光が曲がり、色ごとに曲がる量がわずかに違う。粒の奥で反射し、出る時にまた曲がって、白い光が小さなプリズムのように分かれる。無数の雨粒が同時にこれを行い、各粒が位置に応じた色を目へ送り、色の大きな弧になる。虹は必ず太陽と反対側に見え、立つ位置で変わるため、同じ虹を見る人はいない。",
+        quiz: [
+          { q: "What is a rainbow really made of?", options: ["Sunlight, rain, and your eyes working together", "Colored glass in the sky", "Painted clouds"], answer: 0 },
+          { q: "What happens when sunlight passes through a raindrop?", options: ["It bends and splits into separate colors", "It disappears", "It turns to rain"], answer: 0 },
+          { q: "Where does a rainbow always appear?", options: ["In the part of the sky opposite the Sun", "Right next to the Sun", "Only straight above you"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-15",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is sunlight really made of?", options: ["A mix of all the colors of the rainbow", "Only blue light", "Only white paint"], answer: 0 },
           { q: "Why does the sky look blue?", options: ["Air molecules scatter blue light in every direction", "The sky is painted blue", "Blue light disappears"], answer: 0 },
           { q: "Why is a sunset red and orange?", options: ["Most blue light has been scattered away by then", "The Sun changes color", "The air turns red"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-09",
-    passages: [
-      {
-        id: "d1009-1",
-        title: "The Rise of Online Shopping",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Not long ago, if you wanted to buy something, you had to visit a shop. Today, millions of people shop without leaving home. With a few taps on a phone, clothes, food, and gifts arrive at the door within days or even hours. This change, known as online shopping or e-commerce, has transformed the way businesses work.\n\nFor customers, the benefits are clear. Online stores are open 24 hours a day and never close. People can compare prices from many shops in minutes and read reviews written by other buyers. Someone living far from a city can order the same products as someone in the center of town. For busy people, this saves a great deal of time.\n\nFor businesses, online selling opens new doors. A small company can now reach customers all over the country, or even the world, without building expensive shops. Some businesses sell only online, keeping their costs low. Others combine physical stores with websites to offer the best of both.\n\nBut the change also brings challenges. Delivering goods quickly costs money and creates more traffic and packaging waste. Small local shops sometimes struggle to compete with giant online companies. And customers cannot touch or try products before buying, so returns are common.\n\nOnline shopping is still growing, and it keeps changing. Whatever happens next, one thing is clear: the simple act of buying has moved from the street into our pockets, and business will never be quite the same again.",
-        summaryJa: "オンラインショッピングの台頭について。少し前までは買い物に店へ行く必要があったが、今や多くの人が自宅から買い物をし、スマホを数回タップするだけで衣類や食品、贈り物が数日や数時間で届く。この変化（電子商取引）は商売のあり方を変えた。客にとっては24時間開いており、価格比較やレビュー閲覧ができ、都市から遠くても同じ商品を買える利点がある。企業は高価な店舗なしで全国・世界の客に届けられる。一方、迅速な配送は費用や交通・包装ごみを増やし、地元の小店は巨大企業と競うのに苦労し、試せないため返品も多い。買い物が通りからポケットへ移った。",
-        quiz: [
-          { q: "What is 'e-commerce'?", options: ["Shopping online", "A type of shop building", "A delivery truck"], answer: 0 },
-          { q: "What is one benefit for businesses selling online?", options: ["They can reach customers far away without many shops", "They must build more stores", "They cannot sell anything"], answer: 0 },
-          { q: "What is one challenge of online shopping?", options: ["Customers cannot try products before buying", "Shops close at night", "Nobody can compare prices"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1009-2",
-        title: "Robots That Look Like Us",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "For a long time, robots that look and move like people appeared only in films and stories. Today, they are slowly becoming real. Engineers around the world are building humanoid robots, machines with a head, two arms, and two legs, designed to move much like a human being. Why would anyone want a robot shaped like a person?\n\nThe answer is that our world is built for human bodies. Doors, stairs, tools, and chairs are all made for people. A robot with a human shape can use the same spaces and objects without changes. It can climb stairs, open doors, and pick up everyday tools, which a wheeled machine often cannot do.\n\nBuilding such robots is very difficult. Walking on two legs, for example, is hard to balance, something humans learn as babies but machines find complex. Engineers must give robots sensors to feel the ground, motors to move smoothly, and software to make quick decisions. Progress has been slow, but modern robots can now walk, carry boxes, and even run.\n\nCompanies hope these robots will one day help in factories, hospitals, and homes. They might lift heavy loads, assist elderly people, or work in places that are dangerous for humans. Some may be ready within a few years, while others are still being tested.\n\nHumanoid robots are not meant to replace people, but to work alongside us. As they improve, these mechanical helpers may become a familiar part of daily life, sharing both our spaces and our tasks.",
-        summaryJa: "人型（ヒューマノイド）ロボットについて。人のように見えて動くロボットは長く映画や物語だけの存在だったが、今や現実になりつつある。世界の技術者が頭・両腕・両脚を持ち人のように動く人型ロボットを作っている。理由は、世界が人の体に合わせて作られているからだ。ドアや階段、道具、椅子は人向けで、人型なら改造せずに同じ空間や物を使え、階段を上りドアを開け道具を持てる。しかし二足歩行の制御は難しく、センサーやモーター、素早い判断の制御が要る。工場や病院、家庭での活用が期待され、重い物を運び高齢者を助け危険な場所で働く。人に取って代わるのでなく共に働くことを目指す。",
-        quiz: [
-          { q: "Why do engineers build robots shaped like people?", options: ["Our world is built for human bodies", "People dislike wheels", "Robots must look scary"], answer: 0 },
-          { q: "What is one difficult part of building humanoid robots?", options: ["Balancing while walking on two legs", "Painting them blue", "Turning them off"], answer: 0 },
-          { q: "What is the goal of humanoid robots, according to the passage?", options: ["To work alongside people", "To replace all humans", "To stay in films only"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1009-3",
-        title: "Why English Became a Global Language",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Today, English is spoken in almost every country. Pilots use it to land planes safely, scientists use it to share discoveries, and travelers use it to find their way. For many people, English is not their first language, yet they study it to connect with the wider world. How did one language come to play such a global role?\n\nThe story begins with history. Hundreds of years ago, Britain built a large empire that spread the English language across many continents. Later, the United States grew into a powerful country in business, science, and entertainment. Because so much trade, research, and popular culture happened in English, learning it became useful almost everywhere.\n\nToday, English works as a \"common language,\" or a shared second language that people from different countries use to understand each other. A businessperson from Japan and one from Brazil may both speak English in a meeting, even though it is the first language of neither. In this way, English acts as a bridge between cultures.\n\nThis role brings both benefits and concerns. On one hand, a shared language makes trade, science, and travel easier. On the other hand, some people worry that smaller languages may be forgotten if everyone focuses only on English.\n\nThe future may bring change. Other languages are growing, and new technology can now translate speech instantly. For now, though, English remains a key that opens doors around the world, which is why so many people choose to learn it.",
-        summaryJa: "英語が世界の共通語になった理由について。今日、英語はほぼどの国でも話され、操縦士は安全な着陸に、科学者は発見の共有に、旅行者は道案内に使う。多くの人は母語でなくても世界とつながるため学ぶ。歴史的に、かつて英国が大帝国を築き英語を各大陸へ広め、後に米国が商業・科学・娯楽の強国となり、多くの取引や研究、大衆文化が英語で行われたため学ぶ価値が生まれた。今や英語は異なる国の人が理解し合う「共通語」として橋渡しをする。貿易や科学、旅行を容易にする一方、少数言語が忘れられる懸念もある。翻訳技術の進歩で将来は変わるかもしれないが、今は世界の扉を開く鍵だ。",
-        quiz: [
-          { q: "How did English first spread across many continents?", options: ["Through Britain's large empire", "By a single invention", "Through one school"], answer: 0 },
-          { q: "What does 'a common language' mean here?", options: ["A shared second language people use to understand each other", "A language nobody speaks", "A very old language"], answer: 0 },
-          { q: "What is one concern about English being global?", options: ["Smaller languages may be forgotten", "Planes cannot land", "Science will stop"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1009-4",
-        title: "Sushi: More Than Just Raw Fish",
-        level: "★★☆",
-        genre: "日本",
-        text: "When people around the world think of Japanese food, sushi is often the first dish that comes to mind. Many believe sushi simply means raw fish, but that is not quite true. The heart of sushi is actually the rice, carefully cooked and gently flavored with vinegar. The word sushi refers to this special rice, which may be topped with fish, vegetables, or egg.\n\nSushi has a surprising history. Long ago, it was not a fresh dish at all. People packed fish in rice to keep it from going bad, and the rice was thrown away before eating. Over time, cooks in Japan began to eat the rice together with the fish, and fresh sushi as we know it was born in the city of Edo, now called Tokyo.\n\nMaking good sushi takes great skill. In Japan, a sushi chef may train for years just to learn how to prepare the rice correctly. The fish must be fresh and cut with care, and each piece should be shaped by hand in a moment. It is both a food and an art.\n\nThere are many kinds of sushi. Some are small balls of rice topped with fish, while others are rolled in seaweed with vegetables inside. Today, sushi is loved far beyond Japan, and new styles have appeared in many countries.\n\nWhether simple or fancy, sushi shows a key idea in Japanese cooking: using fresh ingredients simply, so their natural flavors can shine.",
-        summaryJa: "寿司について。世界の人が日本食といえばまず思い浮かべるのが寿司だが、寿司＝生魚と思われがちで、それは正確ではない。寿司の中心は実は米で、丁寧に炊き酢でやさしく味付けしたものを指し、その上に魚や野菜、卵をのせる。歴史は意外で、昔は生の料理でなく、魚を米に漬けて保存し米は捨てていた。やがて魚と米を一緒に食べるようになり、今のような寿司が江戸（現在の東京）で生まれた。良い寿司作りには高い技術が要り、職人は米の扱いを学ぶだけで何年も修業する。握り寿司や巻き寿司など種類も多い。新鮮な素材を簡素に使い、自然な味を生かす日本料理の要点を示す。",
-        quiz: [
-          { q: "What is the heart of sushi, according to the passage?", options: ["The rice, flavored with vinegar", "Only raw fish", "The seaweed"], answer: 0 },
-          { q: "Why did people long ago pack fish in rice?", options: ["To keep it from going bad", "To make it colorful", "To sell the rice"], answer: 0 },
-          { q: "What key idea in Japanese cooking does sushi show?", options: ["Using fresh ingredients simply", "Hiding all natural flavors", "Cooking everything for hours"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1009-5",
-        title: "Why Do Leaves Change Color in Autumn?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Each autumn, in many parts of the world, something beautiful happens. The green leaves of summer slowly turn to bright yellow, orange, and red before they fall. People travel far just to see the colors. But why do leaves change color, and where do these colors come from?\n\nThe answer lies inside the leaves. All through spring and summer, leaves are full of a green substance called chlorophyll. Chlorophyll has an important job: it uses sunlight to make food for the tree. Because there is so much of it, the leaves look green, and we do not see the other colors hidden underneath.\n\nAs autumn arrives, the days grow shorter and the air turns cooler. The tree senses these changes and begins to prepare for winter. It slowly stops making chlorophyll, and the green color fades away. Now the colors that were hidden all along can finally be seen: yellows and oranges that were always in the leaf.\n\nRed is a little different. In some trees, bright red colors are made fresh in autumn, especially when the days are sunny and the nights are cool. This is why some years bring more brilliant reds than others.\n\nFinally, the tree seals off each leaf, and it falls to the ground. Losing its leaves helps the tree save water and energy through the cold winter. So the beauty of autumn is really a sign of a tree getting ready to rest, and to grow green again in spring.",
-        summaryJa: "秋に葉の色が変わる理由について。秋になると世界の多くの地域で、夏の緑の葉が黄・橙・赤に変わって落ちる。その色を見るために遠くまで旅する人もいる。理由は葉の中にある。春夏の間、葉は葉緑素という緑の物質に満ち、これが日光で木の栄養を作る。量が多いため葉は緑に見え、下に隠れた他の色は見えない。秋に日が短く空気が冷えると木は冬支度を始め、葉緑素を作るのをやめて緑が薄れ、隠れていた黄や橙が現れる。赤は少し違い、晴れた日と涼しい夜に新たに作られる木もあり、年によって鮮やかさが変わる。最後に葉は切り離されて落ち、木は水と力を蓄えて冬を越し、春に再び緑になる。",
-        quiz: [
-          { q: "What makes leaves look green in summer?", options: ["A substance called chlorophyll", "Yellow paint", "The autumn wind"], answer: 0 },
-          { q: "Why do yellow and orange colors appear in autumn?", options: ["The green chlorophyll fades and reveals them", "Someone paints the leaves", "They come from the soil"], answer: 0 },
-          { q: "Why does a tree lose its leaves in winter?", options: ["To save water and energy", "To look taller", "To stop growing forever"], answer: 0 }
         ]
       }
     ]
