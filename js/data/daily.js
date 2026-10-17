@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-17",
+    passages: [
+      {
+        id: "d1017-1",
+        title: "What Makes a Good Leader?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "In every company, team, or group, someone usually takes the role of leader. A leader guides others toward a shared goal. But not all leaders are equal. Some inspire people to do their best work, while others leave their teams tired and unhappy. So what makes a good leader?\n\nOne important quality is clear communication. A good leader explains the goal so that everyone understands where the team is going and why. When people know the purpose of their work, they feel more motivated and make better decisions on their own.\n\nAnother quality is listening. Weak leaders only give orders, but strong leaders also listen carefully to their team. They ask for ideas, pay attention to problems, and are willing to change their minds when someone has a better suggestion. This makes workers feel respected and valued.\n\nGood leaders also stay calm under pressure. When something goes wrong, a panicking leader spreads fear, while a steady leader helps the team think clearly and find a solution. Taking responsibility for mistakes, instead of blaming others, builds deep trust.\n\nFinally, the best leaders care about the people they lead, not just the results. They notice when someone is struggling and offer support. Over time, this kindness creates a loyal and hardworking team.\n\nLeadership is not about being the loudest person in the room or simply giving orders. It is about guiding, listening, and caring. A truly good leader helps others grow, and in doing so, helps the whole team succeed together.",
+        summaryJa: "良いリーダーとは何かについて。どの会社やチームにも、普通は誰かがリーダー役を担い、共通の目標へ皆を導く。だが全てのリーダーが同じではなく、人の力を引き出す人もいれば、チームを疲れさせる人もいる。良いリーダーの条件は何か。一つは明確な伝達で、目標とその理由を説明し、皆が目的を理解すると意欲が高まり自ら良い判断をする。もう一つは傾聴で、命じるだけでなく意見を求め、より良い提案には考えを変える。すると部下は尊重されていると感じる。危機でも冷静で、失敗を人のせいにせず責任を取る姿勢が信頼を生む。さらに最良のリーダーは成果だけでなく人を気にかけ、苦しむ人を支える。声の大きさや命令でなく、導き・聴き・思いやることがリーダーシップだ。",
+        quiz: [
+          { q: "What is one important quality of a good leader?", options: ["Clear communication of the goal", "Keeping all plans secret", "Never speaking to the team"], answer: 0 },
+          { q: "How do strong leaders treat their team's ideas?", options: ["They listen and may change their minds", "They ignore every idea", "They forbid all suggestions"], answer: 0 },
+          { q: "What does a good leader do when a mistake happens?", options: ["Takes responsibility instead of blaming others", "Panics and spreads fear", "Hides from the team"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1017-2",
+        title: "How Telescopes Let Us See the Universe",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "On a clear night, we can see thousands of stars with our eyes alone. But the universe holds far more than we can see this way. To look deeper into space, scientists use telescopes, instruments that make faraway objects appear closer and brighter. Thanks to them, we have discovered planets, galaxies, and the history of the universe itself.\n\nHow does a telescope work? The main job of a telescope is to collect light. Our eyes are small, so they gather only a little light. A telescope has a large lens or, more often, a large curved mirror that gathers much more. The bigger the mirror, the more light it catches, and the fainter the objects it can show. The telescope then focuses this light into a clear, bright image.\n\nDifferent telescopes see different things. Some study ordinary light, the kind our eyes can see. Others are built to detect kinds of light that are invisible to us, such as ultraviolet light or radio waves. By studying these hidden forms of light, scientists learn things that no ordinary photograph could reveal.\n\nThe most powerful telescopes are placed in space. Above the Earth's air, which blurs and blocks light, they get a perfectly clear view. Space telescopes have sent back amazing images of distant galaxies billions of light-years away.\n\nEvery telescope, from a small one in a garden to a giant in orbit, does the same wonderful thing. It gathers ancient light from across the universe and lets human beings explore worlds we can never visit.",
+        summaryJa: "望遠鏡が宇宙を見せてくれる仕組みについて。晴れた夜には肉眼で何千もの星が見えるが、宇宙はそれよりはるかに多くを抱える。より深く見るため科学者は望遠鏡を使い、遠くの物を近く明るく見せる。おかげで惑星や銀河、宇宙の歴史まで分かった。望遠鏡の主な仕事は光を集めることだ。目は小さく少しの光しか集められないが、望遠鏡は大きなレンズや、多くは大きな曲面鏡でずっと多く集める。鏡が大きいほど多くの光を捉え、暗い天体も見える。その光を鮮明な像に結ぶ。普通の光を見るものもあれば、紫外線や電波など目に見えない光を捉えるものもある。最も強力なものは宇宙に置かれ、大気のゆがみを避けて鮮明に見る。はるか彼方の銀河の像を送ってきた。",
+        quiz: [
+          { q: "What is the main job of a telescope?", options: ["To collect light", "To make noise", "To heat the stars"], answer: 0 },
+          { q: "Why can bigger mirrors show fainter objects?", options: ["They catch more light", "They are heavier", "They are closer to stars"], answer: 0 },
+          { q: "Why are the most powerful telescopes placed in space?", options: ["Above the air, they get a perfectly clear view", "Space is warmer", "There is no reason"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1017-3",
+        title: "How the World Protects Endangered Animals",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Across the world, many kinds of animals are in danger of disappearing forever. Elephants, tigers, sea turtles, and countless others have become rare. When a species vanishes, it is gone for all time. Because animals do not respect borders, protecting them has become a task that nations must share.\n\nAnimals become endangered for several reasons. People clear forests where they live, hunt them illegally, or pollute their rivers and seas. A warming climate also forces some animals out of their natural homes. Often, a single country cannot solve these problems alone, because the same animals migrate across many lands and oceans.\n\nFor this reason, countries have made agreements to protect wildlife together. One important agreement controls the trade of endangered animals and their parts, making it illegal to buy or sell them across borders. This helps reduce the hunting of rare creatures for profit.\n\nNations cooperate in other ways too. They create protected parks where animals can live safely, share scientific knowledge, and send money to poorer countries to help them guard their forests and seas. Rangers from different nations are even trained to stop illegal hunters.\n\nThere have been real successes. Some animals that were once nearly extinct, such as certain whales, have slowly grown in number again thanks to international protection.\n\nThe work is far from over, and many species remain at risk. Yet the effort shows an important truth: the natural world belongs to everyone, and saving it is a responsibility that crosses every border.",
+        summaryJa: "世界が絶滅危惧動物を守る仕組みについて。世界中で多くの動物が永久に姿を消す危機にある。ゾウやトラ、ウミガメなど多くが希少になった。種が消えれば二度と戻らない。動物は国境を守らないため、保護は各国が分担すべき課題だ。原因は、生息地の森の伐採、密猟、川や海の汚染で、温暖化も住みかを奪う。同じ動物が多くの土地や海を渡るため、一国だけでは解決できない。そこで各国は協力して野生動物を守る取り決めを作った。重要な協定は絶滅危惧種やその部位の国際取引を規制し、売買を違法とする。各国は保護区を作り、科学知識を共有し、貧しい国へ資金を送り、監視員を訓練する。国際的保護でクジラなどが回復した例もある。自然は皆のものだ。",
+        quiz: [
+          { q: "Why must nations share the task of protecting animals?", options: ["Animals migrate across borders and oceans", "Animals belong to one country", "Borders stop all animals"], answer: 0 },
+          { q: "What does one important agreement control?", options: ["The trade of endangered animals across borders", "The price of food", "The speed of cars"], answer: 0 },
+          { q: "What is one success mentioned?", options: ["Some whales have grown in number again", "All animals are now safe", "Hunting has completely ended"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1017-4",
+        title: "Soba and Udon: Japan's Beloved Noodles",
+        level: "★★☆",
+        genre: "日本",
+        text: "Noodles are one of the most popular foods in Japan, enjoyed quickly at a train station or slowly at home. Among the many kinds, two of the most loved are soba and udon. Though both are noodles served in a tasty broth, they are quite different, and many Japanese people have a strong favorite.\n\nSoba noodles are thin and brownish-gray, made from buckwheat flour. They have a slightly nutty taste and a firm texture. Soba can be served hot in a warm soup or cold on a bamboo tray with a dipping sauce, which is especially popular in summer. Buckwheat is also seen as healthy, which adds to soba's good reputation.\n\nUdon noodles are thick, white, and soft, made from wheat flour. They are chewy and mild in flavor, which makes them comforting, especially on a cold day. Udon is usually served hot in a light, warm broth, often topped with green onions, a piece of fried food called tempura, or a raw egg.\n\nBoth noodles are sold everywhere, from simple stand-up shops in stations to fine restaurants. Each region of Japan has its own style, broth, and toppings, so the same dish can taste different from town to town.\n\nThere is even a tradition of eating soba on New Year's Eve, as the long noodles are said to represent a long life. Whether thin and nutty or thick and soft, these noodles are a warm and everyday part of life in Japan.",
+        summaryJa: "日本の人気麺、そばとうどんについて。麺は日本で最も人気の食べ物の一つで、駅で手早く、家でゆっくり楽しまれる。中でも特に愛されるのがそばとうどんだ。どちらもおいしい汁で食べる麺だが、かなり違い、好みが分かれる。そばは細く茶灰色で、そば粉から作られ、やや香ばしく歯ごたえがある。温かい汁でも、夏に人気の冷たいせいろ（つけ汁）でも食べる。健康的ともされる。うどんは太く白くやわらかで、小麦粉から作られ、もちもちして穏やかな味で、寒い日に心地よい。温かい薄い汁で、ねぎ・天ぷら・生卵をのせることが多い。地域ごとに汁や具が違う。大晦日に長寿を願ってそばを食べる習わしもある。日常の温かい一部だ。",
+        quiz: [
+          { q: "What is soba made from?", options: ["Buckwheat flour", "Rice only", "Potatoes"], answer: 0 },
+          { q: "How are udon noodles described?", options: ["Thick, white, and soft", "Thin and brownish-gray", "Hard and salty"], answer: 0 },
+          { q: "Why is soba eaten on New Year's Eve?", options: ["The long noodles are said to represent a long life", "It is the cheapest food", "It must be eaten cold"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1017-5",
+        title: "Why Do Birds Migrate?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Every year, as the seasons change, billions of birds make long journeys across the Earth. Some fly thousands of kilometers, from one continent to another, and then return months later. This amazing travel is called migration. But why do birds take such difficult and dangerous trips instead of simply staying in one place?\n\nThe main reason is food. In autumn, as the weather turns cold in northern lands, insects disappear and plants stop growing. Food becomes scarce. Rather than starve through the winter, many birds fly south to warmer regions where food is still plentiful. When spring returns and the north grows rich with food again, they fly back to raise their young.\n\nMigration is also about safety and space for breeding. The far north has long summer days and few predators, making it a good place to lay eggs and feed chicks. So birds travel north in spring to breed and south in autumn to survive.\n\nHow birds find their way is one of nature's great mysteries. Scientists believe they use the Sun and stars, remember landmarks like rivers and coasts, and can even sense the Earth's magnetic field, like a built-in compass. Young birds often know which way to go without being taught.\n\nMigration is hard and risky. Birds face storms, tiredness, and hunger along the way. Yet this incredible journey has helped birds survive for millions of years, following the food and the warmth in an endless rhythm around our turning planet.",
+        summaryJa: "鳥が渡りをする理由について。毎年、季節が変わると何十億もの鳥が地球上を長く旅する。大陸から大陸へ何千キロも飛び、数か月後に戻るものもいる。この驚くべき移動を渡りと呼ぶ。なぜ一か所にとどまらず、難しく危険な旅をするのか。主な理由は食べ物だ。秋に北の地が寒くなると昆虫が消え植物も育たず、食料が乏しくなる。冬に飢えるより、多くの鳥は食料の豊富な暖かい南へ飛ぶ。春に北が再び豊かになると戻って子を育てる。渡りは繁殖の安全と空間のためでもあり、北の長い夏の日と少ない天敵は産卵と育雛に適する。方角の見つけ方は謎で、太陽や星、川や海岸の記憶、地球の磁場の感知（体内の羅針盤）を使うとされる。嵐や疲れ、空腹の危険があるが、何百万年も鳥を生かしてきた。",
+        quiz: [
+          { q: "What is the main reason birds migrate?", options: ["To find food", "To get lost", "To avoid flying"], answer: 0 },
+          { q: "Why do many birds travel to the far north in spring?", options: ["It is a good, safe place to breed", "It has no food", "It is always dark"], answer: 0 },
+          { q: "How do scientists think birds find their way?", options: ["Using the Sun, stars, landmarks, and Earth's magnetic field", "By asking people", "By reading maps"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-16",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is photosynthesis?", options: ["How plants make their own food using sunlight", "How animals hunt", "A type of soil"], answer: 0 },
           { q: "What does chlorophyll do?", options: ["Captures energy from sunlight", "Makes plants grow legs", "Cools the air"], answer: 0 },
           { q: "What important gas do plants release?", options: ["Oxygen", "Smoke", "Helium"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-10",
-    passages: [
-      {
-        id: "d1010-1",
-        title: "Why Good Customer Service Matters",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Imagine two coffee shops on the same street, selling coffee at the same price. In one, the staff smile, remember your name, and quickly fix any mistake. In the other, the workers seem bored and slow to help. Which shop would you return to? For most people, the answer is easy. This is the power of good customer service.\n\nCustomer service means how a business treats the people who buy from it. It includes answering questions, solving problems, and making customers feel valued. Good service can turn a first-time buyer into a loyal customer who comes back again and again.\n\nWhy does this matter so much? One reason is that keeping an existing customer is usually cheaper than finding a new one. A happy customer may also tell friends and family about a business, giving it free and trusted advertising. In contrast, one bad experience can push a customer away forever, and they may warn others too.\n\nToday, customer service happens in many places: in shops, on the phone, and online. When something goes wrong, customers notice how quickly and kindly a company responds. A fast, honest reply can actually build more trust than if nothing had gone wrong at all.\n\nGood service does not always require spending more money. Often it is about simple things: listening carefully, being polite, and keeping promises. In a world full of choices, the way a business treats people can be the very thing that sets it apart.",
-        summaryJa: "良い顧客サービスが大切な理由について。同じ通りで同じ値段のコーヒー店が2軒あり、一方は店員が笑顔で名前を覚え間違いもすぐ直す。もう一方は無愛想で対応が遅い。多くの人は前者に戻る。これが良い顧客サービスの力だ。顧客サービスとは、買ってくれる人をどう扱うかで、質問に答え、問題を解決し、大切にされていると感じさせること。既存客を保つ方が新規開拓より安く、満足した客は友人に広めてくれる無料で信頼ある宣伝になる。逆に一度の悪い経験は客を永久に遠ざける。丁寧に聞き、礼儀正しく、約束を守るといった簡単なことが差を生む。",
-        quiz: [
-          { q: "What does 'customer service' mean?", options: ["How a business treats the people who buy from it", "The price of a product", "A kind of machine"], answer: 0 },
-          { q: "Why is keeping an existing customer valuable?", options: ["It is usually cheaper than finding a new one", "It costs much more", "It drives customers away"], answer: 0 },
-          { q: "What can build trust when something goes wrong?", options: ["A fast, honest reply", "Ignoring the customer", "Hiding the problem"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1010-2",
-        title: "How Touchscreens Know Your Touch",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Every day, we touch glass screens to open apps, type messages, and look at photos. Phones, tablets, and even cash machines now use touchscreens. We tap and swipe without thinking, but how does a flat piece of glass know exactly where our finger is?\n\nMost modern phones use a kind of screen called a capacitive touchscreen. The secret is that the human body carries a small amount of natural electricity. Under the glass, there is a very thin, invisible grid of lines that holds a weak electric charge. When your finger touches the screen, it changes the charge at that exact spot. The phone senses this tiny change and works out where you touched.\n\nBecause the screen reacts to electricity, not pressure, you only need a light touch. This is also why these screens usually do not work if you wear thick gloves, since the glove blocks the electricity from your skin. Special gloves with built-in threads can solve this problem.\n\nTouchscreens can follow more than one finger at a time. This is how you can zoom in on a photo by moving two fingers apart, or rotate a map with a twist. The screen tracks each point separately, many times every second.\n\nBefore touchscreens, people controlled computers with buttons and a mouse. Now, a simple sheet of glass connects us directly to our digital world. The next time you tap your phone, remember the hidden grid quietly sensing the gentle electricity of your touch.",
-        summaryJa: "タッチスクリーンが指を感知する仕組みについて。私たちは毎日ガラス画面に触れてアプリを開き、文字を打ち、写真を見る。スマホやタブレット、現金自動機も使う。平らなガラスがなぜ指の位置を正確に知るのか。多くのスマホは静電容量式という画面を使う。鍵は人体がわずかな電気を帯びていること。ガラスの下に弱い電荷を持つ見えない格子があり、指が触れるとその点の電荷が変化し、スマホがそれを感知して位置を割り出す。圧力でなく電気に反応するため軽く触れるだけでよく、厚い手袋では電気が遮られ反応しない。複数の指も同時に追え、2本指で写真を拡大したり地図を回したりできる。",
-        quiz: [
-          { q: "How does a capacitive touchscreen sense your finger?", options: ["It detects a change in electric charge", "It smells your finger", "It listens for a sound"], answer: 0 },
-          { q: "Why do these screens often not work with thick gloves?", options: ["The glove blocks electricity from your skin", "The glove is too warm", "The screen is asleep"], answer: 0 },
-          { q: "How can you zoom in on a photo?", options: ["By moving two fingers apart", "By shouting at it", "By closing the phone"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1010-3",
-        title: "How the Olympic Games Bring the World Together",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Every few years, athletes from almost every country on Earth gather in one city for the Olympic Games. For a few weeks, the world watches runners, swimmers, and gymnasts compete for medals. The Olympics are the largest sporting event in history, but they are about far more than sport.\n\nThe modern Olympic Games began in 1896, inspired by an ancient festival held in Greece thousands of years ago. The idea was simple but powerful: to bring nations together in friendly competition rather than conflict. Today, athletes from more than 200 countries take part, making the Games a rare moment when the whole world meets in peace.\n\nThe Olympics follow important traditions. Athletes march together in an opening ceremony, each nation carrying its flag. The Olympic rings, five colored circles joined together, stand for the continents united as one. A flame is carried from Greece to the host city, a symbol of shared history passed from hand to hand.\n\nOf course, the Games are not perfect. Hosting them costs a great deal of money, and politics sometimes enters the stadium. Yet for many people, the Olympics still offer something special: the sight of rivals shaking hands, and of small countries standing proudly beside large ones.\n\nAt their best, the Olympic Games remind us of a hopeful idea. Despite our many differences, people everywhere share the same dreams of effort, fairness, and friendship, expressed through the simple joy of sport.",
-        summaryJa: "オリンピックが世界を一つにする仕組みについて。数年ごとに、ほぼ全ての国の選手が一つの都市に集い、数週間、世界が走者や水泳、体操の競技を見守る。史上最大のスポーツ大会だが、スポーツ以上の意味を持つ。近代五輪は古代ギリシャの祭りに着想を得て1896年に始まり、争いでなく友好的な競争で国々を結ぶという理念があった。今や200超の国が参加する。開会式で各国が国旗を掲げて行進し、五輪は結ばれた五大陸を表し、聖火がギリシャから開催地へ運ばれる。開催費や政治の問題もあるが、ライバルが握手し小国が大国と並ぶ姿は特別だ。努力・公正・友情という共通の夢を思い出させる。",
-        quiz: [
-          { q: "When did the modern Olympic Games begin?", options: ["In 1896", "Last year", "In ancient times only"], answer: 0 },
-          { q: "What do the five Olympic rings stand for?", options: ["The continents united as one", "Five famous athletes", "Five cities"], answer: 0 },
-          { q: "What is one problem with hosting the Olympics?", options: ["It costs a great deal of money", "Nobody watches", "There are no athletes"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1010-4",
-        title: "Bonsai: The Art of Tiny Trees",
-        level: "★★☆",
-        genre: "日本",
-        text: "Imagine a tree old enough to look like it belongs in a forest, yet small enough to sit on a table. This is bonsai, the Japanese art of growing miniature trees in small pots. A bonsai is not a special kind of tree; it is an ordinary tree, such as a pine or a maple, kept small through years of careful care.\n\nThe word bonsai means planted in a container. The art came to Japan from China long ago and slowly developed into the form known today. Growing a bonsai is a slow and patient hobby. A gardener trims the leaves and roots, and gently bends the branches with soft wire to create a pleasing shape. Some famous bonsai trees are over a hundred years old and are passed down through families.\n\nThe goal is not simply to make a tree small. It is to create a living picture of nature, balanced and beautiful. A good bonsai should look natural, as if shaped by wind and time, not by human hands. Each tree reflects the taste and patience of the person who cares for it.\n\nBonsai also teaches important lessons. It cannot be rushed; a tree grows at its own speed. The gardener must observe closely, make small changes, and wait. In this way, bonsai is as much about the grower as the tree.\n\nToday, people around the world enjoy bonsai. In a small pot, it holds a quiet reminder of patience, nature, and the beauty of slow and careful work.",
-        summaryJa: "盆栽について。森にありそうなほど古く見えるのに、机に置けるほど小さい木を想像してほしい。これが盆栽で、小さな鉢でミニチュアの木を育てる日本の芸術だ。特別な木ではなく、松や楓などの普通の木を長年の手入れで小さく保つ。「盆栽」は「鉢に植えた」という意味で、昔中国から日本へ伝わり今の形に発展した。葉や根を刈り、針金で枝をやさしく曲げて形を整える、ゆっくりと忍耐の要る趣味だ。百年以上の名木もあり家族で受け継がれる。目的は小さくすることでなく、自然の生きた絵を作ること。急げず、よく観察し小さな変化を加えて待つ。盆栽は木であると同時に育てる人の姿も映す。",
-        quiz: [
-          { q: "What is a bonsai?", options: ["An ordinary tree kept small in a pot", "A special kind of plastic tree", "A type of flower only"], answer: 0 },
-          { q: "How does a gardener shape a bonsai's branches?", options: ["By gently bending them with soft wire", "By cutting them all off", "By painting them"], answer: 0 },
-          { q: "What lesson does bonsai teach?", options: ["Patience; it cannot be rushed", "To work as fast as possible", "To ignore the tree"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1010-5",
-        title: "Why Is the Sky Blue?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Look up on a clear day, and the sky is a beautiful blue. Children often ask why, and it is a question that puzzled people for a very long time. The answer is hidden in sunlight itself and in the air around us.\n\nSunlight may look white, but it is really a mix of all the colors of the rainbow. Each color travels as a wave, and the waves are different sizes. Red light has long, lazy waves, while blue light has short, quick waves. When sunlight enters our atmosphere, it meets countless tiny molecules of gas in the air.\n\nHere is the key. The small molecules in the air scatter, or bounce away, short blue waves much more strongly than long red waves. As a result, blue light is thrown in every direction across the sky. When you look up, blue light is coming at you from all around, and so the whole sky appears blue.\n\nThis same idea explains the beautiful colors of sunset. When the Sun is low, its light must pass through much more air to reach your eyes. By then, most of the blue light has been scattered away, leaving the reds and oranges that paint the evening sky.\n\nSo the blue sky and the red sunset are two sides of the same story. Both are created by sunlight breaking apart as it travels through the air, a quiet piece of science happening above our heads every single day.",
-        summaryJa: "空が青い理由について。晴れた日に見上げると空は美しい青で、子どもがよく尋ねる長年の謎だった。答えは太陽光そのものと周りの空気にある。太陽光は白く見えても実は虹のすべての色の混合で、各色は波として進み波の大きさが違う。赤い光は長くゆったりした波、青い光は短く速い波だ。太陽光が大気に入ると無数の小さな気体分子に出会う。要点は、空気中の小さな分子が短い青の波を長い赤の波よりずっと強く散乱させること。その結果、青い光が空のあらゆる方向にまき散らされ、見上げると四方から届くため空全体が青く見える。夕日が赤いのも同じ理屈で、低い太陽の光は長く空気を通り青が散ってしまい赤や橙が残る。",
-        quiz: [
-          { q: "What is sunlight really made of?", options: ["A mix of all the colors of the rainbow", "Only blue light", "Only white paint"], answer: 0 },
-          { q: "Why does the sky look blue?", options: ["Air molecules scatter blue light in every direction", "The sky is painted blue", "Blue light disappears"], answer: 0 },
-          { q: "Why is a sunset red and orange?", options: ["Most blue light has been scattered away by then", "The Sun changes color", "The air turns red"], answer: 0 }
         ]
       }
     ]
