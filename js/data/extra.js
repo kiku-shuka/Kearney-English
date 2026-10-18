@@ -175,7 +175,19 @@ KE_DATA.extraSentences = [
   { id: "w2641-s09", ja: "そのスケジュールで問題ありません。", en: "That schedule works fine for us.", note: "work fine = 都合がよい・問題なく機能する" },
   { id: "w2641-s10", ja: "念のため、もう一度数字を確認してもらえますか。", en: "Just in case, could you check the figures once more?", note: "figures = 数字・データ" },
   { id: "w2641-s11", ja: "この件については、来週改めてご連絡します。", en: "I'll get back to you on this next week.", note: "get back to = 後で返答する" },
-  { id: "w2641-s12", ja: "長期的には、このやり方の方が効率的です。", en: "In the long run, this approach is more efficient.", note: "in the long run = 長期的には" }
+  { id: "w2641-s12", ja: "長期的には、このやり方の方が効率的です。", en: "In the long run, this approach is more efficient.", note: "in the long run = 長期的には" },
+  { id: "w2642-s01", ja: "このプロジェクトの進捗を共有させてください。", en: "Let me give you an update on this project.", note: "give an update = 進捗を共有する" },
+  { id: "w2642-s02", ja: "その点については私の見落としでした。申し訳ありません。", en: "That was an oversight on my part. I apologize.", note: "oversight = 見落とし・不注意" },
+  { id: "w2642-s03", ja: "見積もりは明日までにお送りできます。", en: "I can send you the estimate by tomorrow.", note: "estimate = 見積もり" },
+  { id: "w2642-s04", ja: "この方針で進めてよろしいでしょうか。", en: "Shall we go ahead with this plan?", note: "go ahead with = 〜を進める" },
+  { id: "w2642-s05", ja: "少しお時間をいただければ、調べてお答えします。", en: "If you give me a moment, I'll look into it and get back to you.", note: "look into = 調べる" },
+  { id: "w2642-s06", ja: "コストと品質のバランスを取る必要があります。", en: "We need to balance cost and quality.", note: "balance A and B = AとBの釣り合いを取る" },
+  { id: "w2642-s07", ja: "その数字にはいくつか前提があります。", en: "There are a few assumptions behind those figures.", note: "assumption = 前提・仮定" },
+  { id: "w2642-s08", ja: "ご都合のよい日程を2、3候補いただけますか。", en: "Could you give me two or three dates that work for you?", note: "候補日を複数もらう丁寧な依頼" },
+  { id: "w2642-s09", ja: "問題が解決するまで、私が対応します。", en: "I'll handle this until the problem is solved.", note: "handle = 対応する" },
+  { id: "w2642-s10", ja: "この件は経営陣の承認が必要です。", en: "This will need approval from management.", note: "approval = 承認" },
+  { id: "w2642-s11", ja: "遠回しに言わず、率直にお伝えします。", en: "I'll be direct rather than beating around the bush.", note: "beat around the bush = 遠回しに言う" },
+  { id: "w2642-s12", ja: "ご期待に応えられるよう全力を尽くします。", en: "I'll do my best to meet your expectations.", note: "meet expectations = 期待に応える" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -235,7 +247,15 @@ KE_DATA.extraPhrases = [
   { id: "w2640-p05", en: "That's the gist of it.", ja: "要点はそんなところです。", tip: "the gist = 要旨・要点" },
   { id: "w2640-p06", en: "Can you ballpark the cost?", ja: "費用をざっくり見積もってもらえますか。", tip: "ballpark = 概算する（口語）" },
   { id: "w2640-p07", en: "Let's keep each other in the loop.", ja: "お互い情報を共有し合いましょう。", tip: "in the loop = 情報を共有している状態" },
-  { id: "w2640-p08", en: "I'll take that as a yes.", ja: "では了承いただいたものとします。", tip: "やんわり同意を確認する型" }
+  { id: "w2640-p08", en: "I'll take that as a yes.", ja: "では了承いただいたものとします。", tip: "やんわり同意を確認する型" },
+  { id: "w2642-p01", en: "Let's hit the ground running.", ja: "最初から全力で取りかかりましょう。", tip: "hit the ground running = 勢いよく始める" },
+  { id: "w2642-p02", en: "That's not set in stone yet.", ja: "それはまだ確定ではありません。", tip: "set in stone = 変更不可に決まっている" },
+  { id: "w2642-p03", en: "Let me play catch-up.", ja: "遅れている分を取り戻させてください。", tip: "play catch-up = 遅れを取り戻す" },
+  { id: "w2642-p04", en: "I'm drawing a blank.", ja: "ど忘れして思い出せません。", tip: "draw a blank = 思い出せない・何も浮かばない" },
+  { id: "w2642-p05", en: "Let's move the needle on this.", ja: "これで実際に成果を動かしましょう。", tip: "move the needle = 目に見える変化を生む" },
+  { id: "w2642-p06", en: "That's a bit of a stretch for us.", ja: "それは我々には少し無理があります。", tip: "a stretch = やや無理がある・背伸び" },
+  { id: "w2642-p07", en: "I'll ping you when it's ready.", ja: "準備ができたら連絡します。", tip: "ping = （軽く）連絡する（口語）" },
+  { id: "w2642-p08", en: "Let's wrap up here.", ja: "ここで締めくくりましょう。", tip: "wrap up = 締めくくる・終える" }
 ];
 
 /* シャドーイングの追加スクリプト（shadowing.js と同スキーマ） */
@@ -491,6 +511,24 @@ KE_DATA.extraShadowing = [
       { s: "B", en: "That would be great. When will it arrive?", ja: "それは助かります。いつ届きますか？" },
       { s: "A", en: "It should reach you by Thursday morning. I'm very sorry for the trouble.", ja: "木曜の朝までには届くはずです。ご迷惑をおかけして申し訳ありません。" }
     ]
+  },
+  {
+    id: "w2642-sh1",
+    title: "新しい同僚を迎える（初日の会話）",
+    level: "★★☆",
+    description: "入社初日の新しい同僚を迎え、自己紹介し、必要な手助けを申し出る場面。歓迎と気遣いの表現を身につける。",
+    lines: [
+      { s: "A", en: "Good morning! You must be the new team member. Welcome aboard!", ja: "おはようございます！新しいチームの方ですね。ようこそ！" },
+      { s: "B", en: "Thank you. I'm a little nervous, to be honest.", ja: "ありがとうございます。正直、少し緊張しています。" },
+      { s: "A", en: "That's completely normal. Everyone feels that way on the first day.", ja: "全く普通のことですよ。初日は誰でもそう感じます。" },
+      { s: "B", en: "That's good to hear. Where should I sit?", ja: "そう聞いて安心しました。どこに座ればいいですか？" },
+      { s: "A", en: "Your desk is right next to mine, so you can ask me anything.", ja: "あなたの席は私の隣なので、何でも聞いてください。" },
+      { s: "B", en: "Thank you. What should I do first?", ja: "ありがとうございます。まず何をすればいいですか？" },
+      { s: "A", en: "First, let's set up your computer and email. Then I'll introduce you to the team.", ja: "まずパソコンとメールを設定しましょう。それからチームに紹介します。" },
+      { s: "B", en: "Sounds good. Is there anything I should read to catch up?", ja: "いいですね。追いつくために読んでおくべきものはありますか？" },
+      { s: "A", en: "I'll share a few documents with you. Take your time to go through them.", ja: "いくつか資料を共有します。ゆっくり目を通してください。" },
+      { s: "B", en: "Thank you for your help. I'm looking forward to working with everyone.", ja: "お世話になります。皆さんと働くのを楽しみにしています。" }
+    ]
   }
 ];
 
@@ -663,6 +701,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2641-t03", ja: "店は商品の種類を絞った方が良いと思いますか？", en: "Should shops offer fewer product choices?",
     sample: { point: "I think many shops would actually benefit from offering fewer, well-chosen products.", reason: "The main reason is that too many choices can confuse customers and raise costs, while a smaller, careful selection builds trust and is easier to manage.", example: "For example, some retailers have recently cut the number of items they sell and found that customers decide faster and are happier with a clear, quality range.", point2: "So fewer choices, if chosen wisely, can be better for both the customer and the shop." }
+  },
+  {
+    id: "w2642-t01", ja: "上司が長時間働くことは、部下にとって良い手本になると思いますか？", en: "Does a manager who works long hours set a good example for the team?",
+    sample: { point: "I don't think working long hours makes a manager a good example; in fact, it can do harm.", reason: "The main reason is that when a leader stays late every day, team members may feel pressured to do the same, even when they are tired and less productive.", example: "For example, a company leader recently said that bosses who overwork quietly teach staff that long hours matter more than good results.", point2: "So a better example is a manager who works efficiently and respects everyone's time, including their own." }
+  },
+  {
+    id: "w2642-t02", ja: "企業は従業員の健康にもっと投資すべきだと思いますか？", en: "Should companies invest more in their employees' health?",
+    sample: { point: "Yes, I believe companies should invest more in the health of their employees.", reason: "The main reason is that healthy workers are happier, take fewer sick days, and tend to do better work over the long term.", example: "For example, some large companies now help pay for medicine, health check-ups, or gym memberships, and they often find that staff stay longer and perform better.", point2: "So spending on employee health is not just kind; it is also a wise business decision." }
+  },
+  {
+    id: "w2642-t03", ja: "仕事を選ぶとき、給料と安定性のどちらをより重視すべきだと思いますか？", en: "When choosing a job, should you value salary or stability more?",
+    sample: { point: "In my view, stability usually matters more than a high salary, especially early in a career.", reason: "The main reason is that a steady job lets you build skills, gain experience, and plan your life without the fear of sudden loss.", example: "For example, during times when many companies announce layoffs, a worker in a stable job can keep learning and saving, while a higher-paid but risky job may disappear overnight.", point2: "So while pay is important, a stable foundation often brings greater security and growth in the long run." }
   }
 ];
 
