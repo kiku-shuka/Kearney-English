@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-18",
+    passages: [
+      {
+        id: "d1018-1",
+        title: "Why First Impressions Matter in Business",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "They say you never get a second chance to make a first impression. In business, this old saying is especially true. Within the first few seconds of meeting someone, people form an opinion that can be hard to change. For a company or a worker, a good first impression can open doors, while a poor one can close them.\n\nWhy do first impressions form so quickly? The human brain is built to judge situations fast. When we meet a new person or enter a new shop, we notice many small things at once: how someone is dressed, how they speak, whether they smile, and whether a place looks clean and organized. From these clues, we quickly decide whether to trust what we see.\n\nIn business, first impressions appear in many forms. A salesperson's greeting, the design of a website, or the tidiness of a store can all shape how customers feel before a single word about the product is spoken. A warm welcome and a neat appearance suggest care and professionalism.\n\nThe good news is that first impressions can be managed. Simple actions help: arriving on time, listening carefully, dressing suitably, and showing genuine interest in the other person. These cost nothing but attention.\n\nOf course, a good first impression is only a beginning. It must be followed by honest work and real quality, or trust will fade. Still, because people decide so fast, that first moment is a chance worth taking seriously. A strong start makes everything that follows easier.",
+        summaryJa: "ビジネスで第一印象が大切な理由について。「第一印象をやり直す機会は二度とない」とよく言われ、ビジネスでは特に真実だ。人は出会って数秒で意見を形成し、それは覆しにくい。良い第一印象は扉を開き、悪ければ閉ざす。脳は状況を素早く判断するよう作られ、新しい人や店で服装・話し方・笑顔・清潔さなど多くの手がかりを一度に捉え、信頼するか瞬時に決める。ビジネスでは、販売員の挨拶、ウェブサイトの作り、店の整頓などが、商品の話を聞く前に客の感情を左右する。時間厳守、傾聴、適切な服装、相手への関心で印象は整えられる。ただし第一印象は始まりにすぎず、誠実な仕事と品質が続かねば信頼は薄れる。",
+        quiz: [
+          { q: "Why do first impressions form so quickly?", options: ["The brain is built to judge situations fast", "People think very slowly", "There are no clues to notice"], answer: 0 },
+          { q: "What can shape a customer's first impression in business?", options: ["A greeting, a website's design, or a tidy store", "Only the product's price", "Nothing at all"], answer: 0 },
+          { q: "What does the passage say a good first impression must be followed by?", options: ["Honest work and real quality", "Nothing more", "A second meeting only"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1018-2",
+        title: "How a Microwave Oven Heats Food",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "A microwave oven can heat a bowl of soup in just a minute, far faster than a stove. It seems almost magical: there is no flame and no glowing element, yet the food becomes hot. How does a microwave warm food so quickly without any obvious source of heat?\n\nThe secret is a type of invisible wave called a microwave, which gives the oven its name. These are a kind of radio wave, similar to the waves that carry signals to a phone, but tuned for a special job. Inside the oven, a part called the magnetron produces these waves and sends them into the cooking space.\n\nHere is the clever part. Microwaves affect water. Almost all food contains water, and the microwaves make the tiny water molecules inside the food vibrate very fast. This rapid shaking creates heat, warming the food from the inside as well as the outside. Because the energy goes straight to the water in the food, heating is very quick.\n\nThis also explains some common experiences. A dry plate stays cool because it has little water, while the food on it becomes hot. Foods heat unevenly if the water is not spread evenly, which is why many ovens have a turning plate to help.\n\nMicrowaves are safe when the oven is used correctly, because the metal body and the screen in the door keep the waves inside. Fast, clean, and simple, the microwave oven has become one of the most common machines in kitchens around the world.",
+        summaryJa: "電子レンジが食品を温める仕組みについて。電子レンジはスープを1分ほどで温め、コンロよりずっと速い。炎も赤く光る部分もないのに食品が熱くなり、魔法のようだ。鍵はマイクロ波という目に見えない波で、これが名前の由来だ。これはスマホに信号を運ぶ電波に似た一種で、特別な用途に調整されている。庫内のマグネトロンという部品が波を作り、調理空間へ送る。巧妙なのは、マイクロ波が水に作用する点だ。ほとんどの食品は水を含み、波が食品内の小さな水分子を高速で振動させる。その激しい揺れが熱を生み、内側からも温める。水の少ない皿は冷たいままで上の食品は熱くなる。水が偏ると加熱も偏るため回転皿がある。金属の本体と扉の網が波を閉じ込め安全だ。",
+        quiz: [
+          { q: "What produces the microwaves inside the oven?", options: ["A part called the magnetron", "A small flame", "A light bulb"], answer: 0 },
+          { q: "How do microwaves heat food?", options: ["They make water molecules in the food vibrate fast", "They set the food on fire", "They blow hot air"], answer: 0 },
+          { q: "Why does a dry plate stay cool?", options: ["It has little water", "It is made of water", "Microwaves avoid food"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1018-3",
+        title: "How the World Works Together to Fight Disease",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "A disease does not need a passport. A sickness that begins in one country can travel across the world in days, carried by travelers on airplanes. Because germs ignore borders, protecting human health has become a task that no single nation can manage alone. Fighting disease is one of the most important examples of global cooperation.\n\nCountries work together in several ways. They share information quickly when a new illness appears, so that doctors everywhere can prepare. They send scientists and medical teams to places where an outbreak is spreading. A global health organization helps coordinate this work, setting shared rules and advice that nations can follow.\n\nOne of the greatest achievements of this cooperation is vaccines. When a dangerous disease spreads, scientists around the world may race to develop a vaccine, then share it widely. Working together, nations once managed to wipe out smallpox, a disease that had killed millions for centuries. It is now gone from the world, a victory that belonged to all of humanity.\n\nChallenges remain. Poorer countries sometimes cannot afford medicines, so richer nations and charities help pay for them. Diseases can also return if people stop being careful. And cooperation can be slowed by disagreements between countries.\n\nStill, the pattern is clear. When a serious illness threatens the world, people of many nations, languages, and beliefs often unite against a common enemy. In the fight for health, the world has learned that we are safest when we protect one another.",
+        summaryJa: "世界が協力して病気と闘う仕組みについて。病気にパスポートは要らない。ある国で始まった病が、飛行機の旅行者により数日で世界へ広がる。病原体は国境を無視するため、健康を守ることは一国だけでは担えない課題だ。病気との闘いは国際協力の最も重要な例の一つだ。各国は新しい病が現れると情報を素早く共有し、各地の医師が備える。流行地へ科学者や医療チームを送る。世界的な保健機関が共通の規則と助言を定め調整する。最大の成果の一つがワクチンで、危険な病が広がると世界の科学者が開発を急ぎ広く共有する。協力により天然痘を根絶し、今や世界から消えた。貧しい国の薬代を豊かな国や慈善団体が支える。油断で病が戻ることもあり、対立で協力が遅れることもある。それでも脅威の前に人々は団結する。",
+        quiz: [
+          { q: "Why can't one country fight disease alone?", options: ["Germs ignore borders and spread between countries", "Diseases stay in one place", "Only one country has doctors"], answer: 0 },
+          { q: "What is one great achievement of global cooperation mentioned?", options: ["Wiping out smallpox with vaccines", "Ending all travel", "Closing all hospitals"], answer: 0 },
+          { q: "How do richer nations help poorer ones fight disease?", options: ["By helping pay for medicines", "By taking their doctors away", "By hiding information"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1018-4",
+        title: "Maneki-neko: The Beckoning Cat",
+        level: "★★☆",
+        genre: "日本",
+        text: "If you have visited a Japanese restaurant or shop, you may have seen a small cat figure near the entrance, with one paw raised as if waving. This is the maneki-neko, which means beckoning cat. Far from being a simple decoration, it is a well-loved symbol believed to bring good luck and fortune, especially to businesses.\n\nThe cat's raised paw is the key. In Japan, people beckon others to come closer with a gesture like this. So the maneki-neko appears to be inviting customers, money, and good luck into a shop. Which paw is raised can carry a meaning too: a raised left paw is often said to invite customers, while a raised right paw is said to invite wealth.\n\nThe figures come in different colors, and each is believed to bring a different kind of luck. A white cat stands for happiness, a gold one for money, and a black one for protection from harm. Many cats also wear a small bell or a red collar, a style once seen on pet cats long ago.\n\nThere are many old stories about how the lucky cat began. In one famous tale, a cat raised its paw to a passing lord, inviting him into a temple, and moments later he was saved from a storm. Grateful, he became the temple's supporter.\n\nToday the maneki-neko is known around the world. Cheerful and welcoming, it continues to wave its little paw, wishing good fortune to everyone who passes by.",
+        summaryJa: "招き猫について。日本の飲食店や店の入口近くで、片方の前足を手招きのように上げた小さな猫の置物を見たことがあるかもしれない。これが招き猫だ。単なる飾りでなく、特に商売に幸運と富をもたらすと信じられる愛される縁起物だ。鍵は上げた前足で、日本では人をこの仕草で招く。だから招き猫は客やお金、幸運を店へ招くように見える。どちらの足かにも意味があり、左足は客を、右足は富を招くとよく言われる。色も様々で、白は幸福、金はお金、黒は魔除けとされる。鈴や赤い首輪を着けた猫も多く、昔の飼い猫の装いだ。由来の古い話も多く、ある猫が領主を手招きして寺へ招き、直後に嵐から救った話は有名だ。今や世界で知られ、幸運を願い手招きを続ける。",
+        quiz: [
+          { q: "What does 'maneki-neko' mean?", options: ["Beckoning cat", "Sleeping cat", "Big dog"], answer: 0 },
+          { q: "What is the raised paw believed to do?", options: ["Invite customers, money, and good luck", "Scare people away", "Clean the shop"], answer: 0 },
+          { q: "What is a gold maneki-neko believed to bring?", options: ["Money", "Rain", "Bad luck"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1018-5",
+        title: "Why Do We Dream?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Every night, when we fall into a deep sleep, our minds create strange and vivid stories called dreams. Some are happy, some are frightening, and many are quickly forgotten when we wake. People have wondered about the meaning of dreams for thousands of years. Even today, scientists are still working to understand why we dream at all.\n\nDreams happen mostly during a stage of sleep when the brain is very active, almost as busy as when we are awake. During this time, the eyes move quickly behind closed lids, and the most vivid dreams occur. Everyone dreams, even people who do not remember doing so.\n\nScientists have several ideas about why we dream. One popular idea is that dreaming helps the brain sort through the day's events, keeping important memories and letting go of unimportant ones. This may be why a good night's sleep helps us learn.\n\nAnother idea is that dreams let us safely practice dealing with problems or fears. By facing a frightening situation in a dream, the mind may prepare itself for real life. Some scientists think dreams are simply the brain making sense of random signals while it rests.\n\nThe truth is that no one knows for certain, and dreaming may do several of these things at once. What is clear is that dreams are a normal and healthy part of sleep.\n\nSo the next time you wake from a strange dream, remember that your resting brain was quietly at work, sorting, practicing, and perhaps telling itself a story in the dark.",
+        summaryJa: "なぜ夢を見るのかについて。毎晩、深い眠りに入ると、心は夢という不思議で鮮明な物語を作る。楽しいもの、怖いものがあり、目覚めると多くは忘れられる。人は何千年も夢の意味を考えてきたが、なぜ夢を見るのか科学者は今も解明中だ。夢は主に脳が非常に活発な睡眠段階で起こり、覚醒時に近いほど忙しい。この間、閉じたまぶたの奥で目が素早く動き、最も鮮明な夢が現れる。誰もが夢を見るが、覚えていない人もいる。説はいくつかあり、一つは脳が一日の出来事を整理し、重要な記憶を残し不要なものを捨てるのを助けるというもので、よい睡眠が学習を助ける理由かもしれない。問題や恐れへの対処を安全に練習させるという説もある。休息中の無作為な信号を脳が意味づけしているだけという見方もある。確かなことは誰も知らないが、夢は正常で健康な睡眠の一部だ。",
+        quiz: [
+          { q: "When do the most vivid dreams happen?", options: ["During a sleep stage when the brain is very active", "Only when fully awake", "Never"], answer: 0 },
+          { q: "What is one popular idea about why we dream?", options: ["Dreaming helps the brain sort through memories", "Dreams make us taller", "Dreams stop the heart"], answer: 0 },
+          { q: "What does the passage say is clear about dreams?", options: ["They are a normal and healthy part of sleep", "They are always bad", "Only some people dream"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-17",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Does the Moon make its own light?", options: ["No, it shines because sunlight falls on it", "Yes, it glows by itself", "No, it has no light at all ever"], answer: 0 },
           { q: "Why do we see different shapes of the Moon?", options: ["We see it from different angles as it orbits Earth", "The Moon really changes shape", "The Sun moves away"], answer: 0 },
           { q: "What is a 'new moon'?", options: ["When the lit side faces away and we cannot see it", "A brand new moon in the sky", "A full, bright circle"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-11",
-    passages: [
-      {
-        id: "d1011-1",
-        title: "What Makes a Strong Brand?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Think of a famous company. You can probably picture its logo, its colors, and maybe even a short phrase it uses. That instant feeling in your mind is the power of a brand. A brand is much more than a name or a symbol; it is the whole idea that people have about a company.\n\nA strong brand does several things. First, it helps customers recognize a product quickly among many others. A simple logo on a shoe or a drink tells you at a glance who made it. Second, a brand carries a promise. When people trust a brand, they expect the same quality every time they buy, whether in Tokyo or New York.\n\nBuilding a brand takes time and care. Companies choose names, colors, and designs that are easy to remember and that match the feeling they want to give. A brand for children's toys may use bright colors and a playful style, while a brand for business suits may look simple and serious.\n\nA brand also lives in how a company behaves. If a business treats customers well and keeps its promises, its brand grows stronger. But if it breaks trust, even a famous brand can be damaged quickly. News travels fast, and people remember.\n\nIn a crowded market, a strong brand is one of a company's most valuable possessions. It cannot be held in your hand, yet it can be worth more than factories or machines. A good brand turns a simple product into something people know, trust, and choose again and again.",
-        summaryJa: "強いブランドを作るものについて。有名企業を思い浮かべると、ロゴや色、短い標語が頭に浮かぶ。その瞬時の感覚がブランドの力だ。ブランドは名前や記号以上に、人々が企業に抱く全体像を指す。強いブランドはまず、多くの商品の中で素早く見分けさせる。靴や飲み物の簡単なロゴで誰の製品か一目で分かる。次に約束を担い、信頼されれば東京でもニューヨークでも同じ品質を期待される。名前・色・デザインを覚えやすく選ぶのには時間と手間がかかる。さらにブランドは企業の振る舞いにも宿り、約束を守れば強まり、信頼を裏切れば一気に傷つく。混み合う市場で、手に取れないのに工場や機械以上の価値を持つ。",
-        quiz: [
-          { q: "What is a brand, according to the passage?", options: ["The whole idea people have about a company", "Only a factory", "A type of machine"], answer: 0 },
-          { q: "What does a brand promise to customers?", options: ["The same quality every time", "A different product each time", "Lower prices always"], answer: 0 },
-          { q: "How can even a famous brand be damaged quickly?", options: ["By breaking people's trust", "By using a logo", "By being easy to remember"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1011-2",
-        title: "How 3D Printing Builds Objects",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Most printers put flat ink onto paper. But a special kind of machine can print solid objects you can hold in your hand, such as a toy, a cup, or even a part for a machine. This technology is called 3D printing, and it is changing how things are made.\n\nA normal object, like a plastic cup, is usually made in a factory using large molds. A 3D printer works in a completely different way. It builds an object from the bottom up, adding material one thin layer at a time. Most printers melt a thin plastic thread and lay it down in the right shape, layer upon layer, until the whole object is complete. This can take minutes for a small item or many hours for a large one.\n\nBefore printing, a designer creates a digital model of the object on a computer. The printer follows this model exactly, which means the same design can be sent anywhere in the world and printed again.\n\n3D printing has many uses. Doctors use it to make models of bones before an operation. Engineers print parts to test new ideas quickly and cheaply. Some people even print spare parts for broken items at home, instead of buying new ones.\n\nThe technology still has limits. Printing can be slow, and the objects are not always as strong as factory-made ones. But 3D printing allows almost anyone to turn an idea into a real object, which once seemed like something only from a dream.",
-        summaryJa: "3Dプリンティングが物を作る仕組みについて。普通のプリンターは紙に平らなインクを乗せるが、特別な機械はおもちゃやカップ、機械の部品など手に取れる立体物を印刷できる。これが3Dプリンティングで、物の作り方を変えつつある。普通の製品は工場で大きな型を使って作るが、3Dプリンターは下から薄い層を一枚ずつ重ねて作る。多くは細いプラスチックの糸を溶かして形に並べ、層を積み重ねる。小物なら数分、大物なら何時間もかかる。事前に設計者がコンピューターで立体模型を作り、プリンターがそれに従う。同じ設計を世界中へ送って再び印刷できる。医療や試作、家庭での部品作りに使われる。遅さや強度の限界はあるが、誰でも発想を実物にできる。",
-        quiz: [
-          { q: "How does a 3D printer build an object?", options: ["By adding material one thin layer at a time", "By carving a block of wood", "By painting on paper"], answer: 0 },
-          { q: "What must a designer make before printing?", options: ["A digital model on a computer", "A paper drawing only", "A real factory"], answer: 0 },
-          { q: "What is one use of 3D printing mentioned?", options: ["Making models of bones before an operation", "Cooking dinner", "Cleaning streets"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1011-3",
-        title: "Why Clean Water Is a Global Challenge",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Turn on a tap, and clean water flows out. For many people, this is so normal that they never think about it. Yet around the world, billions of people do not have safe water to drink. Clean water has become one of the great challenges of our time, and it connects people in every country.\n\nWater covers most of the Earth, but almost all of it is salty seawater or frozen ice. Only a small amount is fresh water that people can drink, and it is not spread evenly. Some regions have plenty, while others face long droughts. In many poorer areas, families, often children, must walk for hours each day to collect water that may still make them sick.\n\nDirty water is dangerous. It can carry diseases that harm or even kill, especially young children. For this reason, bringing clean water to everyone is one of the world's shared goals. Governments, charities, and scientists work together to dig wells, build pipes, and create simple filters that make water safe.\n\nThe problem is growing harder. As the population rises and the climate changes, water is becoming scarcer in some places. Cities need more, farms need more, and sometimes countries that share a river must decide how to divide it fairly.\n\nStill, there is real progress. Over the past decades, millions more people have gained access to clean water. The task is far from finished, but it shows what cooperation can do. Water is life, and sharing it wisely is a challenge for the whole world.",
-        summaryJa: "きれいな水が世界的課題である理由について。蛇口をひねれば清潔な水が出るのを当然と思う人は多いが、世界では何十億もの人が安全な飲み水を得られない。きれいな水は現代の大きな課題で、あらゆる国の人を結ぶ。地球の大半は水だが、ほとんどは塩水や氷で、飲める淡水はわずかで偏在する。豊富な地域もあれば干ばつに苦しむ地域もあり、貧しい地域では家族（しばしば子ども）が何時間も歩いて水を汲み、それでも病気になることがある。汚れた水は病気を運び特に幼児に危険だ。各国政府や慈善団体、科学者が井戸や水道、簡単な浄水器を作る。人口増加と気候変動で水はさらに希少になり、川を共有する国は公平な分配を迫られる。それでも前進はあり協力の力を示す。",
-        quiz: [
-          { q: "Why is only a small amount of Earth's water usable for drinking?", options: ["Almost all of it is salty or frozen", "People drink too fast", "Water is not on Earth"], answer: 0 },
-          { q: "Why is dirty water dangerous?", options: ["It can carry diseases", "It is too cold", "It is too expensive"], answer: 0 },
-          { q: "What is making the water problem harder?", options: ["Rising population and climate change", "Too much clean water", "Fewer people on Earth"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1011-4",
-        title: "Tatami: The Floor of a Japanese Home",
-        level: "★★☆",
-        genre: "日本",
-        text: "Step into a traditional Japanese room, and you may notice the floor is not made of wood or carpet, but of soft, firm mats with a gentle green color and a fresh, grassy smell. These are tatami mats, and for centuries they have been a part of daily life in Japan.\n\nTatami are made from natural materials. A thick base is covered with a woven surface made from a plant called rush grass. Each mat is the same rectangular shape, about twice as long as it is wide. Because the size is fixed, Japanese people often measure the size of a room by the number of tatami mats it holds. A small room might be six mats, a larger one eight mats.\n\nLiving with tatami shapes how people behave. Shoes are always removed before stepping onto them, which keeps the mats clean. People often sit directly on the floor on cushions, and at night, a soft mattress called a futon can be laid out for sleeping and put away in the morning. In this way, one room can be used for many purposes.\n\nTatami also feel pleasant. They are soft enough to sit on comfortably, yet firm enough to walk on. In summer they feel cool, and their natural smell is loved by many.\n\nToday, many Japanese homes have wooden or carpeted floors, but most still keep at least one tatami room. It remains a calm, traditional space, connecting modern life to the customs of the past.",
-        summaryJa: "日本の家の畳について。伝統的な和室に入ると、床が木やカーペットでなく、やわらかく締まった、淡い緑色で草のさわやかな香りのする敷物であることに気づく。これが畳で、何世紀も日本の暮らしの一部だ。畳は自然素材で作られ、厚い土台をい草という植物で織った表面で覆う。各畳は同じ長方形で、長さは幅の約2倍。寸法が決まっているため部屋の広さを畳の枚数で測ることが多く、「六畳」「八畳」などと言う。畳の上では靴を脱いで清潔を保ち、座布団に座り、夜は布団を敷いて寝て朝に片づけ、一部屋を多目的に使える。やわらかく座り心地がよく、夏は涼しく香りも好まれる。今も多くの家が一部屋は畳を残す。",
-        quiz: [
-          { q: "What are tatami mats made from?", options: ["Natural materials including rush grass", "Plastic and metal", "Glass"], answer: 0 },
-          { q: "How do Japanese people often measure a room's size?", options: ["By the number of tatami mats", "By its color", "By its smell"], answer: 0 },
-          { q: "Why are shoes removed before stepping on tatami?", options: ["To keep the mats clean", "To make them colder", "To make noise"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1011-5",
-        title: "How Plants Make Their Own Food",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Humans and animals must eat other living things to get energy. Plants are different. A tree or a blade of grass can make its own food using nothing more than sunlight, air, and water. This amazing process is called photosynthesis, and almost all life on Earth depends on it.\n\nPhotosynthesis happens mostly in the leaves. Inside each leaf is a green substance called chlorophyll, which gives plants their color. Chlorophyll's special job is to capture energy from sunlight. At the same time, the plant takes in a gas called carbon dioxide from the air through tiny holes in its leaves, and it draws up water from the soil through its roots.\n\nUsing the energy from the Sun, the plant combines the water and the carbon dioxide to make a kind of sugar. This sugar is the plant's food, giving it the energy to grow. In a way, a plant is like a tiny factory powered by sunlight.\n\nThere is a wonderful bonus for the rest of us. As plants make their food, they release a gas we cannot live without: oxygen. Every breath we take contains oxygen made by plants, from the smallest grass to the largest forest.\n\nSo plants do far more than look beautiful. They feed themselves, they feed the animals that eat them, and they fill the air with the oxygen we need. The quiet green leaves all around us are busy at work, keeping the whole living world alive.",
-        summaryJa: "植物が自ら食べ物を作る仕組みについて。人や動物はエネルギーを得るため他の生き物を食べねばならないが、植物は違う。木や草は日光・空気・水だけで自分の食べ物を作れる。この驚くべき過程を光合成と呼び、地球のほぼ全ての生命が頼っている。光合成は主に葉で起こり、葉の中の葉緑素という緑の物質が植物の色を生み、日光のエネルギーを捉える。同時に植物は葉の小さな穴から二酸化炭素を取り込み、根から水を吸い上げる。太陽のエネルギーで水と二酸化炭素を合わせて糖を作り、それが植物の食べ物となり成長を支える。おまけに植物は酸素を放出し、私たちの一呼吸ごとの酸素は植物が作る。静かな緑の葉が世界の命を支えている。",
-        quiz: [
-          { q: "What is photosynthesis?", options: ["How plants make their own food using sunlight", "How animals hunt", "A type of soil"], answer: 0 },
-          { q: "What does chlorophyll do?", options: ["Captures energy from sunlight", "Makes plants grow legs", "Cools the air"], answer: 0 },
-          { q: "What important gas do plants release?", options: ["Oxygen", "Smoke", "Helium"], answer: 0 }
         ]
       }
     ]
