@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-19",
+    passages: [
+      {
+        id: "d1019-1",
+        title: "How Tourism Helps Local Economies",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Every year, millions of people travel to other countries for holidays. They visit famous sights, taste local food, and buy gifts to take home. This travel is more than just fun for the visitors. It is also big business, and it can bring great benefits to the places people visit.\n\nWhen tourists arrive, they spend money in many ways. They pay for hotels, meals in restaurants, tickets to museums, and rides on trains and buses. They buy souvenirs from local shops. All of this spending flows into the local economy, supporting businesses and creating jobs for local people, from hotel staff to tour guides.\n\nTourism can also help preserve culture and nature. When old temples, festivals, or beautiful landscapes attract visitors, there is a strong reason to protect and maintain them. Money from tourism can pay for this care, keeping traditions alive for the future.\n\nTo welcome more visitors, some governments offer helpful policies. For example, a country might make shopping tax-free for tourists, so goods become cheaper and people buy more. Clear signs in foreign languages and easy transport also make a place more inviting.\n\nHowever, too many tourists can cause problems. Crowded streets, rising prices, and damage to nature can trouble local residents. For this reason, many cities now try to manage tourism carefully, welcoming visitors while protecting daily life.\n\nUsed wisely, tourism is a powerful tool. It connects cultures, supports local families, and helps the world's beautiful and historic places survive for generations to come.",
+        summaryJa: "観光が地域経済を支える仕組みについて。毎年、何百万もの人が休暇で外国を旅し、名所を訪れ、郷土料理を味わい、土産を買う。これは観光客にとって楽しみ以上で、大きなビジネスであり、訪問先に大きな恩恵をもたらす。観光客はホテル、飲食、美術館の入場、電車やバス、土産店などで多様に支出し、それが地域経済に流れ込み、ホテル従業員からガイドまで雇用を生む。古い寺や祭り、美しい景観が人を呼べば保護の理由になり、観光収入で維持でき伝統が守られる。免税や多言語の案内、便利な交通も来訪を促す。ただし観光客が多すぎると混雑や物価高、自然破壊で住民が困る。だから多くの都市は慎重に管理する。賢く使えば文化を結び家庭を支える強力な手段だ。",
+        quiz: [
+          { q: "How does tourism help a local economy?", options: ["Tourists' spending supports businesses and creates jobs", "It removes all shops", "It lowers all wages"], answer: 0 },
+          { q: "How can tourism help preserve culture and nature?", options: ["Money from tourism can pay to protect them", "It destroys old temples", "It stops all festivals"], answer: 0 },
+          { q: "What problem can too many tourists cause?", options: ["Crowded streets and rising prices for residents", "Empty cities", "Lower prices forever"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1019-2",
+        title: "How Space Probes Explore Other Worlds",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Human beings have walked on the Moon, but we have never set foot on another planet. Mars, the moons of Jupiter, and distant comets are far too dangerous and far away for people to visit easily. Yet we have still explored these places up close. How? We send robots called space probes to go where humans cannot.\n\nA space probe is an unmanned spacecraft, a traveling robot packed with scientific instruments. After being launched from Earth, it may journey for months or even years to reach its target. Along the way, it is guided by signals from Earth and by its own computers.\n\nProbes do many kinds of work. Some fly past a planet, taking photographs as they pass. Others go into orbit, circling a world for years to study it carefully. The boldest probes land on the surface or even scoop up samples of rock and dust. A few are designed to bring these samples all the way back to Earth, where scientists can study them in detail.\n\nBecause probes are so far away, they must work alone. A command sent from Earth can take many minutes, or even hours, to arrive. So probes are built to make some decisions by themselves and to survive extreme cold, heat, and radiation.\n\nThanks to these brave little machines, we have seen the rings of Saturn, the deserts of Mars, and the icy edges of our solar system. Space probes are the explorers of our age, carrying human curiosity to worlds we may never touch ourselves.",
+        summaryJa: "宇宙探査機が他の世界を探る仕組みについて。人類は月を歩いたが、他の惑星にはまだ降り立っていない。火星や木星の衛星、遠い彗星は危険で遠く、人が容易に行けない。それでも間近で探査してきた。人が行けない所へ探査機というロボットを送るからだ。探査機は科学機器を積んだ無人の宇宙船で、地球から打ち上げられ、目標まで何か月、時に何年も旅する。地球からの信号と自らのコンピューターで導かれる。惑星の脇を通り写真を撮るもの、周回して長年調べるもの、表面に着陸し岩や塵を採取するものもあり、試料を地球へ持ち帰る設計もある。遠いため命令の到達に何分も何時間もかかり、自ら判断し極端な寒暖や放射線に耐える。土星の環や火星の砂漠を見せてくれた。",
+        quiz: [
+          { q: "What is a space probe?", options: ["An unmanned spacecraft full of scientific instruments", "A rocket with astronauts", "A telescope on Earth"], answer: 0 },
+          { q: "What do the boldest probes do?", options: ["Land and even collect samples", "Stay on Earth", "Only make noise"], answer: 0 },
+          { q: "Why must probes make some decisions by themselves?", options: ["Commands from Earth can take a long time to arrive", "They dislike Earth", "They have no computers"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1019-3",
+        title: "Why Do Countries Give Foreign Aid?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Sometimes we hear that one country has given money or help to another. A wealthy nation might send food after a famine, build a hospital in a poorer country, or train its teachers and doctors. This kind of help, given from one country to another, is called foreign aid. But why do countries help people who live far away?\n\nThere are several reasons. The simplest is human kindness. When people suffer from hunger, disaster, or disease, many feel a duty to help, no matter where those people live. Saving lives and reducing suffering is a goal shared by people everywhere.\n\nThere are also practical reasons. A more stable and healthy world is safer for everyone. When a poorer country grows stronger, it can become a trading partner, buying and selling goods. Helping to stop a disease in one place protects every other place too, because sickness crosses borders.\n\nForeign aid comes in different forms. Some is emergency aid, sent quickly after a disaster. Other aid is long-term, helping a country build schools, clean water systems, or farms so that it can support itself in the future. The best aid aims not just to give, but to help people stand on their own.\n\nAid is not always simple. If it is poorly planned, money can be wasted or fail to reach those who need it. Still, at its best, foreign aid reflects a hopeful idea: that the nations of the world are connected, and that helping others can help us all.",
+        summaryJa: "国が外国援助を行う理由について。ある国が別の国にお金や支援を与えたと聞くことがある。豊かな国が飢饉の後に食料を送り、貧しい国に病院を建て、教師や医師を育てることもある。国から国へのこうした支援を外国援助と呼ぶ。なぜ遠くに住む人を助けるのか。最も単純なのは人としての思いやりで、飢えや災害、病気に苦しむ人を、どこに住んでいても助けたいと感じる。実利もあり、安定した健康な世界は皆にとって安全で、貧しい国が強くなれば貿易相手になり、ある地の病気を止めれば他の地も守られる。災害直後の緊急援助もあれば、学校や水道、農業を築く長期援助もある。最良の援助は自立を助ける。計画が悪いと無駄になることもあるが、最良の時、世界はつながっているという希望を映す。",
+        quiz: [
+          { q: "What is 'foreign aid'?", options: ["Help given from one country to another", "A type of tax at home", "A kind of festival"], answer: 0 },
+          { q: "What is one practical reason countries give aid?", options: ["A stable, healthy world is safer and can bring trade", "To make the world poorer", "To stop all travel"], answer: 0 },
+          { q: "What does the best aid aim to do?", options: ["Help people stand on their own", "Keep people dependent forever", "Waste money"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1019-4",
+        title: "Momijigari: Japan's Autumn Leaf Viewing",
+        level: "★★☆",
+        genre: "日本",
+        text: "In spring, Japan is famous for its cherry blossoms, but autumn brings a different kind of beauty. As the weather cools, the leaves of maples and other trees turn brilliant shades of red, orange, and gold. Enjoying these colors is a beloved tradition called momijigari, which means autumn leaf hunting, though no hunting is involved. It simply means going out to admire the leaves.\n\nMomijigari has been popular for over a thousand years. Long ago, nobles wrote poems about the changing leaves, and today people of all ages continue the custom. When autumn arrives, families, friends, and travelers visit parks, temples, and mountains famous for their colorful trees.\n\nTiming is important. The leaves change at different times depending on the region and the weather. The colors begin in the cold northern mountains and slowly move south over several weeks. Television and websites even report a leaf-color forecast, so people can plan the best day to visit.\n\nSome of the most beautiful spots are around old temples and gardens, especially in cities like Kyoto. In the evening, certain gardens light up the trees, and the glowing red leaves against the dark sky are a breathtaking sight.\n\nMomijigari is a gentle, quiet pleasure. People walk slowly, take photographs, and share warm food and drink in the crisp air. Like the cherry blossoms of spring, the autumn leaves remind people that beautiful moments do not last forever, which makes them all the more precious to enjoy together.",
+        summaryJa: "日本の紅葉狩りについて。春の桜で有名な日本だが、秋は別の美しさをもたらす。涼しくなると楓などの葉が鮮やかな赤・橙・金に染まる。この色を楽しむ愛される習わしが「紅葉狩り」で、「狩り」とあるが狩りはせず、出かけて葉を愛でることを指す。千年以上前から親しまれ、昔は貴族が紅葉の歌を詠み、今も老若が続ける。秋には家族や友人、旅人が名所の公園や寺、山を訪れる。時期が大切で、地域や天気で色づきが異なり、寒い北の山から始まり数週かけて南下する。「紅葉前線」の予報もある。特に京都など古い寺や庭園が美しく、夜はライトアップされ、暗い空に映える赤い葉は見事だ。ゆっくり歩き写真を撮り、温かい飲食を楽しむ静かな喜びだ。桜同様、美しい時は永遠でないと教えてくれる。",
+        quiz: [
+          { q: "What does 'momijigari' mean?", options: ["Going out to admire autumn leaves", "Hunting animals in autumn", "Planting cherry trees"], answer: 0 },
+          { q: "Why does Japan have a 'leaf-color forecast'?", options: ["Leaves change at different times by region and weather", "Leaves never change", "To forecast rain only"], answer: 0 },
+          { q: "What do the autumn leaves remind people of?", options: ["That beautiful moments do not last forever", "That winter never comes", "That trees are boring"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1019-5",
+        title: "How Do Bees Make Honey?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Honey is one of nature's sweetest gifts, enjoyed by people for thousands of years. We buy it in jars at the shop, but honey is not made in a factory. It is made by tiny insects: honeybees. The way they turn flowers into honey is one of the most amazing processes in nature.\n\nIt all begins with flowers. A worker bee flies from blossom to blossom, drinking a sweet liquid called nectar with its long tongue. It stores the nectar in a special stomach, separate from the one it uses for its own food. When the bee is full, it flies back to the hive, often after visiting hundreds of flowers.\n\nBack at the hive, the bee passes the nectar to other bees, mouth to mouth. As they do this, chemicals in the bees' bodies slowly change the nectar, turning it into honey. The bees then place the honey into small wax rooms called cells. Nectar is still watery, so the bees beat their wings to blow air over it, drying it until it becomes thick and sweet.\n\nFinally, the bees seal each full cell with a cap of wax, saving the honey as food for the winter, when no flowers bloom. A single hive can store a large amount, far more than the bees need, which is why people can share in it.\n\nSo the honey on your toast is the hard work of thousands of bees and millions of flowers, a tiny golden treasure gathered from the summer fields.",
+        summaryJa: "ミツバチが蜜を作る仕組みについて。蜂蜜は自然の最も甘い贈り物の一つで、何千年も親しまれてきた。店では瓶で買うが、工場で作られるのではなく、小さな昆虫ミツバチが作る。花を蜂蜜に変える過程は自然で最も驚くべきものの一つだ。始まりは花で、働き蜂が花から花へ飛び、長い舌で花蜜という甘い液を飲み、自分の食事用とは別の特別な胃にためる。満杯になると巣へ戻る。巣では蜜を口移しで他の蜂に渡し、その際に蜂の体内の化学物質が蜜を少しずつ蜂蜜に変える。蜂蜜を巣房という小さな蝋の部屋に入れる。花蜜は水っぽいので羽で風を送って乾かし、濃く甘くする。最後に蝋の蓋で各房を閉じ、花の咲かない冬の食料として蓄える。一つの巣は必要以上に蓄えるため人も分けてもらえる。",
+        quiz: [
+          { q: "What do worker bees collect from flowers?", options: ["A sweet liquid called nectar", "Small stones", "Water only"], answer: 0 },
+          { q: "How do bees dry the nectar into thick honey?", options: ["They beat their wings to blow air over it", "They bake it in an oven", "They freeze it"], answer: 0 },
+          { q: "Why do bees store honey?", options: ["As food for winter, when no flowers bloom", "To sell it", "To throw it away"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-18",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What mainly allows an airplane to fly?", options: ["The shape of its wings creating lift", "Its bright color", "Its heavy weight"], answer: 0 },
           { q: "Why is air pressure lower above the wing?", options: ["Air moves faster over the curved top", "The wing is painted white", "There is no air above"], answer: 0 },
           { q: "What is the job of the engines?", options: ["To push the plane forward fast enough for lift", "To cool the passengers", "To make the plane heavier"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-12",
-    passages: [
-      {
-        id: "d1012-1",
-        title: "The Subscription Economy: Paying Every Month",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Not long ago, when you wanted music, you bought a CD. When you wanted a film, you bought or rented a DVD. Today, many people pay a small amount every month instead and get access to thousands of songs or movies. This way of paying is called a subscription, and it has changed many businesses.\n\nA subscription means you pay a regular fee, usually monthly, to use a service for as long as you keep paying. Music apps, video services, games, and even software for work now use this model. Some companies send physical items too, such as a box of food or coffee delivered every month.\n\nWhy do businesses like subscriptions so much? The main reason is steady income. Instead of selling a product once, a company earns money again and again from the same customer. This makes it easier to plan for the future. For customers, the appeal is convenience and choice: for one monthly fee, they can enjoy far more than they could ever buy one by one.\n\nBut there are downsides. Because each fee seems small, people may sign up for many services and forget about them, slowly spending a lot. Companies also raise their prices over time, knowing that customers find it easy to keep paying rather than cancel.\n\nThe subscription model keeps spreading into new areas. It can be a great deal, but it rewards careful customers. The wise habit is simple: check now and then what you are paying for, and keep only what you truly use.",
-        summaryJa: "サブスクリプション経済について。少し前は音楽はCD、映画はDVDを買ったが、今は多くの人が毎月少額を払い、何千もの曲や映画を利用する。この支払い方をサブスクリプションと呼び、多くの事業を変えた。サブスクは、払い続ける限りサービスを使える定期料金（通常は月額）だ。音楽・動画・ゲーム・業務用ソフトのほか、食品やコーヒーを毎月届ける例もある。企業が好む主な理由は安定収入で、同じ客から繰り返し収益を得られ将来を計画しやすい。客には便利さと選択肢の多さが魅力だ。一方、少額に見えて契約を忘れ出費がかさむことや、企業が徐々に値上げする難点もある。時々契約内容を確認し、本当に使うものだけ残すのが賢明だ。",
-        quiz: [
-          { q: "What is a subscription?", options: ["A regular fee to use a service while you keep paying", "A one-time purchase forever", "A free gift"], answer: 0 },
-          { q: "Why do businesses like subscriptions?", options: ["They provide steady, repeated income", "They earn money only once", "They lose customers"], answer: 0 },
-          { q: "What is one downside for customers?", options: ["They may forget services and keep paying", "Services are always free", "Prices never change"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1012-2",
-        title: "How Video Streaming Works",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "When you press play on an online video, it starts almost at once, even if the film is two hours long. You do not have to wait to download the whole thing first. This everyday magic is called streaming, and it is how most of us watch video today.\n\nThe word streaming is a good description. Instead of sending you the entire video at the start, the service sends it in a steady stream of small pieces, one after another. Your device plays each piece while the next pieces are still arriving. As long as the pieces keep coming fast enough, the video plays smoothly.\n\nThe video itself is stored on powerful computers called servers, often in huge buildings far away. When you press play, your device asks the nearest server for the video. To save time, companies keep copies of popular shows on servers in many countries, so the data does not have to travel too far.\n\nStreaming also adjusts to your internet speed. If your connection is fast, you get a sharp, clear picture. If it slows down, the service quietly lowers the quality so the video does not stop. This is why a video sometimes looks blurry for a moment and then becomes clear again.\n\nThanks to streaming, a library of films and music that once would have filled many shelves now fits inside a phone. Behind the simple press of a button, tiny pieces of data are racing across the world to reach your screen just in time.",
-        summaryJa: "動画配信（ストリーミング）の仕組みについて。オンライン動画は再生を押すとほぼ即座に始まり、2時間の映画でも全部をダウンロードする必要がない。この日常の魔法がストリーミングだ。名前の通り、最初に全体を送るのでなく、小さな断片を次々と流して送る。端末は届いた断片を再生しつつ次を受け取り、十分速く届く限りなめらかに再生される。動画はサーバーという強力なコンピューターに保存され、人気作は多くの国のサーバーに複製を置きデータの移動距離を短くする。通信速度にも合わせ、速ければ鮮明、遅ければ画質を下げて止まらないようにする。一瞬ぼやけてまた鮮明になるのはこのためだ。棚を埋めるほどの作品がスマホに収まる。",
-        quiz: [
-          { q: "How does streaming send a video to you?", options: ["In a steady stream of small pieces", "All at once at the start", "By mailing a disc"], answer: 0 },
-          { q: "Why do companies keep copies of shows on servers in many countries?", options: ["So the data does not travel too far", "To hide the shows", "To make them cost more"], answer: 0 },
-          { q: "What happens when your internet connection slows down?", options: ["The service lowers the video quality so it does not stop", "The video stops forever", "The screen turns off"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1012-3",
-        title: "The Story of the Passport",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "If you want to travel to another country, you usually need one small but powerful book: a passport. This document proves who you are and which country you come from. Without it, crossing most borders is impossible. But where did the passport come from, and why does the whole world rely on it?\n\nThe idea is very old. Long ago, rulers gave travelers letters asking local officials to let them pass safely. The modern passport, however, grew mainly in the 20th century. After a major war, countries wanted to control who entered and left, and a standard travel document became normal around the world.\n\nToday's passports follow shared rules so that every country can read them. Inside are your name, your photograph, and your date of birth. Modern passports also contain a tiny electronic chip holding the same information, which machines at airports can check in seconds.\n\nA passport does more than identify you. It is also a request. The issuing country politely asks other nations to allow the traveler to pass and to treat them well. In this way, a passport is a small symbol of trust between countries.\n\nNot all passports are equal. Citizens of some countries can visit many places easily, while others face more checks and need special permission, called a visa. This difference reflects the relationships between nations.\n\nFor millions of people, this little book is the key to the world. It turns a stranger at a border into a welcome guest, allowing people, ideas, and friendships to travel across the globe.",
-        summaryJa: "パスポートの歴史について。他国へ旅するには、小さいが強力な一冊、パスポートが必要だ。これは本人と出身国を証明する文書で、無ければ多くの国境を越えられない。発想は古く、昔は統治者が旅人に安全な通行を頼む手紙を渡した。近代的なパスポートは主に20世紀に広まり、大戦後に各国が出入国管理を望み、標準的な渡航文書が一般化した。今のパスポートは共通の規則に従い、氏名・写真・生年月日に加え、同じ情報を持つ電子チップがあり空港の機械が数秒で確認する。パスポートは身元証明であると同時に、発行国が他国に通行と厚遇を頼む依頼でもある。国によって入りやすさは異なり、ビザが必要な場合もある。世界への鍵だ。",
-        quiz: [
-          { q: "What does a passport prove?", options: ["Who you are and which country you come from", "How much money you have", "What job you do"], answer: 0 },
-          { q: "What do modern passports contain besides your name and photo?", options: ["A tiny electronic chip with your information", "A small camera", "A phone"], answer: 0 },
-          { q: "What is a 'visa'?", options: ["Special permission to enter a country", "A type of passport photo", "A kind of airplane"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1012-4",
-        title: "The Kotatsu: A Cozy Japanese Winter",
-        level: "★★☆",
-        genre: "日本",
-        text: "When winter comes to Japan, many families gather around a special piece of furniture that keeps them warm and brings them together. It is called a kotatsu, and for many people it is the heart of the home in the cold months.\n\nA kotatsu is a low table with a hidden secret. Underneath the tabletop is a small electric heater. Over the frame lies a thick blanket, and the tabletop sits on top of the blanket to hold it in place. When you sit on the floor and slide your legs under the table, the blanket traps the warm air around you. Your lower body stays wonderfully warm, even if the room is cold.\n\nThe kotatsu exists partly because of how Japanese homes are built. Traditionally, houses were designed to stay cool in the hot, humid summer, and they often did not have strong heating for the whole house. Instead of warming every room, the kotatsu warms just the people around it, saving energy.\n\nThe kotatsu is more than a heater. It is a place where families come together. People eat, talk, watch television, study, and sometimes even fall asleep around it. A favorite winter scene is a family sharing a fruit called mikan while sitting under the warm blanket.\n\nModern homes now have many kinds of heating, yet the kotatsu remains popular. It offers something that central heating cannot: a small, warm circle that quietly draws people close on a cold winter night.",
-        summaryJa: "日本のこたつについて。冬になると、多くの家族が体を温め、人を一つに集める特別な家具の周りに集まる。それがこたつで、寒い時期の家の中心だ。こたつは低い机で、天板の下に小さな電気ヒーターが隠れている。枠の上に厚い布団を掛け、その上に天板を置いて押さえる。床に座って脚を机の下に入れると、布団が暖かい空気を閉じ込め、部屋が寒くても下半身がとても暖かい。日本の家は蒸し暑い夏向けに作られ、家全体の暖房が弱いことが多かったため、こたつは人の周りだけを温めて省エネになる。食事や会話、テレビ、勉強、居眠りの場でもあり、みかんを食べる冬の光景が人気だ。今も根強く愛される。",
-        quiz: [
-          { q: "What is hidden under a kotatsu's tabletop?", options: ["A small electric heater", "A television", "A refrigerator"], answer: 0 },
-          { q: "Why did the kotatsu become common in Japan?", options: ["Homes often lacked strong heating for the whole house", "Japan is always hot", "Everyone disliked blankets"], answer: 0 },
-          { q: "What is a favorite winter scene with a kotatsu?", options: ["A family sharing mikan under the warm blanket", "Swimming in the sea", "Driving a car"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1012-5",
-        title: "Why Does the Moon Change Shape?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Look at the Moon over several nights, and you will see it change. Some nights it is a thin curve, like a smile. Other nights it is a bright, full circle. A week later, it may be gone. These changing shapes are called the phases of the Moon. But the Moon is not really changing shape at all. So what is happening?\n\nThe key to the puzzle is light. The Moon does not make its own light. Instead, it shines because sunlight falls on it, just as sunlight falls on the Earth. The Sun always lights up one half of the Moon, while the other half stays dark.\n\nAs the Moon travels around the Earth, which takes about a month, we see it from different angles. Sometimes we see mostly the lit half, and the Moon looks full and round. At other times we see mostly the dark half, and only a thin curve of light remains. When the lit side faces away from us completely, we cannot see the Moon at all. This is called a new moon.\n\nSo the phases are simply the result of our changing view of the same lit Moon. The shape we see depends on where the Moon is in its monthly journey around us.\n\nPeople have watched these phases for thousands of years. They were among the first clocks and calendars, marking weeks and months. Even today, the gentle changing of the Moon connects us to the same sky our ancestors watched long ago.",
-        summaryJa: "月の形が変わる理由について。数晩月を見ると形が変わる。細い曲線の夜もあれば、明るい満月の夜もあり、一週間後には見えなくなることもある。この変化を月の満ち欠け（相）と呼ぶが、実は月の形そのものは変わっていない。鍵は光だ。月は自ら光らず、地球と同じく太陽の光が当たって輝く。太陽は常に月の半分を照らし、残り半分は暗い。月は約一か月かけて地球を回り、私たちは異なる角度から見る。明るい半分が多く見えれば満月、暗い半分が多ければ細い光だけ、明るい側が完全に裏を向けば見えず、これを新月と呼ぶ。満ち欠けは同じ月の見え方の変化にすぎない。古来、週や月を刻む最初の暦だった。",
-        quiz: [
-          { q: "Does the Moon make its own light?", options: ["No, it shines because sunlight falls on it", "Yes, it glows by itself", "No, it has no light at all ever"], answer: 0 },
-          { q: "Why do we see different shapes of the Moon?", options: ["We see it from different angles as it orbits Earth", "The Moon really changes shape", "The Sun moves away"], answer: 0 },
-          { q: "What is a 'new moon'?", options: ["When the lit side faces away and we cannot see it", "A brand new moon in the sky", "A full, bright circle"], answer: 0 }
         ]
       }
     ]
