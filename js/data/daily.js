@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-20",
+    passages: [
+      {
+        id: "d1020-1",
+        title: "What Is a Startup?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "You have probably heard the word \"startup.\" A startup is a young company, usually just beginning, built around a new idea. While a normal new shop might sell familiar things in a familiar way, a startup often tries to do something different, such as creating a new product, a new service, or a new way of solving a problem.\n\nStartups usually begin small, sometimes with just a few people working in a tiny office or even at home. The founders have an idea they believe in, but they often do not yet have much money. To grow, many startups look for investors, people who give them money in exchange for a share of the company. If the company succeeds, the investors gain; if it fails, they lose.\n\nWhy are startups exciting? Because they can grow very fast. A good idea, helped by technology, can reach millions of people in just a few years. Some of today's largest and most famous companies began as tiny startups not long ago.\n\nBut startups are also risky. Many fail, because the idea does not work, the money runs out, or a bigger company does the same thing better. Life in a startup can mean long hours and uncertainty.\n\nDespite the risks, startups are important. They bring new ideas, create jobs, and push older companies to improve. Governments often support them, holding awards and events to encourage them, because a healthy stream of new companies helps keep an economy fresh and growing.",
+        summaryJa: "スタートアップとは何かについて。「スタートアップ」という言葉を聞いたことがあるだろう。スタートアップは新しい発想を核に始まったばかりの若い会社だ。普通の新店が見慣れた物を見慣れた方法で売るのに対し、スタートアップは新製品・新サービス・新しい問題解決法など、何か違うことに挑むことが多い。たいてい数人で小さな事務所や自宅から始まり、創業者は信じる発想を持つが資金は乏しい。成長のため、会社の株と引き換えに資金を出す投資家を探す。成功すれば投資家も得をし、失敗すれば損をする。良い発想は技術の助けで数年で何百万人にも届き、今の大企業も元は小さなスタートアップだった。だが失敗も多く危険で、長時間労働と不確実さを伴う。それでも新しい発想と雇用を生み、経済を新鮮に保つ。",
+        quiz: [
+          { q: "What is a startup?", options: ["A young company built around a new idea", "A very old, large company", "A government office"], answer: 0 },
+          { q: "How do many startups get money to grow?", options: ["From investors, in exchange for a share of the company", "By printing money", "From nowhere"], answer: 0 },
+          { q: "Why are startups risky?", options: ["Many fail if the idea doesn't work or money runs out", "They can never grow", "They are always safe"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1020-2",
+        title: "How Do Batteries Store Energy?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Batteries are everywhere in modern life. They power our phones, remote controls, toys, cars, and countless other devices. A battery lets us carry energy with us and use it whenever we want, far from any wall socket. But what is really happening inside that small container?\n\nA battery stores energy in the form of chemicals. Inside, there are special materials and a substance that lets tiny charged particles move between them. When you connect a battery to a device and switch it on, a chemical reaction begins. This reaction pushes a stream of tiny particles, called electrons, out of one end of the battery, through the device, and back into the other end. That flow of electrons is electricity, and it is what makes the device work.\n\nAs the battery is used, the chemicals slowly change. Eventually, the reaction can no longer continue, and we say the battery is \"dead.\" A simple battery must then be thrown away or recycled.\n\nSome batteries, however, can be recharged. In these, electricity from a charger pushes the chemical reaction backward, returning the materials to their starting state. This is why a phone battery can be used again and again, though after many years it slowly weakens.\n\nScientists are working hard to make batteries better: lighter, longer-lasting, and safer. Because clean energy from the sun and wind is not always available, large batteries are becoming important for storing it. From a tiny watch to a huge power station, batteries quietly hold the energy that keeps our world running.",
+        summaryJa: "電池がエネルギーを蓄える仕組みについて。電池は現代生活のあらゆる所にあり、スマホやリモコン、おもちゃ、車などを動かす。電池のおかげでエネルギーを持ち運び、コンセントから離れても使える。小さな容器の中では何が起きているのか。電池はエネルギーを化学物質の形で蓄える。内部には特別な材料と、小さな帯電粒子がその間を移動できる物質がある。機器につないで動かすと化学反応が始まり、電子という小さな粒子の流れが一方の端から出て機器を通りもう一方へ戻る。この電子の流れが電気で、機器を動かす。使ううちに化学物質が変化し、やがて反応が続かなくなると「切れた」状態になる。再充電できる電池は、充電器の電気で反応を逆に進め元に戻す。軽く長持ちで安全な電池の研究が進み、太陽や風の電気を蓄えるのにも重要になっている。",
+        quiz: [
+          { q: "In what form does a battery store energy?", options: ["As chemicals", "As light", "As sound"], answer: 0 },
+          { q: "What is the flow of electrons through a device?", options: ["Electricity", "Water", "Heat only"], answer: 0 },
+          { q: "How can a rechargeable battery be used again?", options: ["A charger pushes the chemical reaction backward", "It never runs out", "You shake it"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1020-3",
+        title: "How the World Works to End Hunger",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "The Earth produces enough food for everyone, yet millions of people still go hungry. Some cannot afford to buy food, while others live in places struck by drought, war, or disaster. Ending hunger has become one of the world's most important shared goals, and no single country can achieve it alone.\n\nCountries and organizations work together in several ways. When a sudden crisis strikes, such as a famine or a flood, international groups rush emergency food to the people in danger. Trucks, ships, and planes carry grain and supplies to areas that cannot feed themselves, often saving many lives.\n\nBut sending food is only a short-term answer. To end hunger for good, the world must help people grow their own food. Experts teach farmers better methods, provide stronger seeds, and help build systems to store and water crops. New science can help too. For example, researchers are finding faster ways to breed fish and crops, so that more food can be produced in less time.\n\nThere are also deeper causes to solve. Poverty, poor roads, and unfair prices can all keep food away from those who need it. Peace matters as well, because war is one of the greatest causes of hunger.\n\nProgress has been real but uneven. Over past decades, the share of hungry people in the world fell, though recent crises have slowed this gain. The task is huge, but the goal is clear and shared: a world where every person, in every country, has enough to eat.",
+        summaryJa: "世界が飢餓をなくすための取り組みについて。地球は全員分の食料を生産できるのに、今も何百万もの人が飢えている。食料を買えない人もいれば、干ばつや戦争、災害に見舞われた地に住む人もいる。飢餓の根絶は世界の重要な共通目標で、一国だけでは達成できない。各国や組織は協力する。飢饉や洪水などの危機では、国際団体が緊急食料を急送し、トラックや船、飛行機で穀物を届け多くの命を救う。だが食料を送るのは短期策にすぎず、根絶には人々が自ら食料を作れるよう助ける必要がある。専門家が農法を教え、強い種を提供し、貯蔵や灌漑を整える。魚や作物を速く育てる新しい科学も役立つ。貧困や悪路、不公平な価格、戦争も原因だ。過去数十年で飢えた人の割合は減ったが、近年の危機で停滞している。",
+        quiz: [
+          { q: "Why can't one country end hunger alone?", options: ["It is a huge shared global problem", "Only one country has food", "Hunger does not exist"], answer: 0 },
+          { q: "What is a short-term answer when a crisis strikes?", options: ["Rushing emergency food to people in danger", "Ignoring the crisis", "Raising food prices"], answer: 0 },
+          { q: "What is a long-term way to end hunger?", options: ["Helping people grow their own food", "Sending food only once", "Closing all farms"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1020-4",
+        title: "Ikebana: The Art of Japanese Flower Arranging",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, people put flowers in a vase simply to make a room look pretty. In Japan, arranging flowers has grown into a careful and respected art called ikebana. The word means \"living flowers,\" and ikebana is far more than just placing blooms in water. It is a thoughtful practice with deep roots in Japanese culture.\n\nIkebana began hundreds of years ago, connected to offering flowers at temples. Over time, it developed into an art studied by many people. Unlike a full, colorful Western bouquet, an ikebana arrangement is often simple, using only a few flowers, stems, and leaves. Empty space is just as important as the plants themselves.\n\nThe art follows careful ideas about balance and line. Arrangers pay attention to the shape of each branch, the angle of a stem, and the meeting of three main points, often said to represent heaven, earth, and humanity. The goal is not to show as many flowers as possible, but to capture the natural beauty and feeling of the plants.\n\nCreating ikebana is also a quiet, almost meditative activity. The arranger works slowly and with full attention, and the process itself is valued as much as the final result. Many people find it calming and thoughtful.\n\nToday, ikebana is studied and enjoyed around the world. In a single branch and a few leaves, it shows a key idea in Japanese art: that beauty often lies in simplicity, balance, and respect for nature.",
+        summaryJa: "日本の生け花について。多くの国では部屋を美しく見せるため花を花瓶に挿すが、日本では花を生けることが生け花という丁寧で尊ばれる芸術に発展した。「生きた花」を意味し、ただ水に花を挿す以上のもので、日本文化に深く根ざした思慮深い実践だ。数百年前、寺への献花と結びついて始まり、やがて多くの人が学ぶ芸術になった。色鮮やかで豪華な西洋の花束と違い、生け花は数本の花や茎、葉だけを使う簡素なものが多く、余白も植物と同じくらい大切だ。均衡と線を重んじ、枝の形や茎の角度、天・地・人を表すとされる三つの主要点の調和に注意を払う。できるだけ多く飾るのでなく、自然の美と趣を捉えるのが目的だ。瞑想のように静かで、過程そのものも尊ばれる。簡素・調和・自然への敬意を示す。",
+        quiz: [
+          { q: "What does the word 'ikebana' mean?", options: ["Living flowers", "Big garden", "Painted vase"], answer: 0 },
+          { q: "How is ikebana different from a Western bouquet?", options: ["It is often simple, and empty space matters", "It uses as many flowers as possible", "It uses no plants"], answer: 0 },
+          { q: "What is valued as much as the final arrangement?", options: ["The quiet, careful process of making it", "The price of the vase", "The speed of the work"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1020-5",
+        title: "How Does Our Memory Work?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Think of your favorite song, the face of a friend, or what you ate for breakfast. All of these are memories, stored somewhere inside your brain. Memory is one of the most important things the brain does, yet how it works is still a wonderful puzzle that scientists are slowly solving.\n\nMemory is not kept in one single place, like a book on a shelf. Instead, it is spread across the brain in connections between tiny cells called neurons. When you learn something new, certain neurons connect and send signals to one another. The more often this happens, the stronger the connection becomes, and the easier the memory is to recall.\n\nScientists often describe two main types of memory. Short-term memory holds information for just a few seconds, like a phone number you repeat before dialing. Long-term memory can last for years, holding names, skills, and important events. Sleep plays a key role, because during the night the brain moves some memories from short-term into long-term storage.\n\nNot everything is remembered, and that is a good thing. The brain lets go of unimportant details so that it is not overloaded. This is also why we forget. Forgetting is a normal part of how memory works.\n\nWe can help our memory in simple ways: paying careful attention, repeating information, getting enough sleep, and connecting new ideas to things we already know. Understanding memory not only explains a daily mystery but also helps us learn and remember better throughout our lives.",
+        summaryJa: "記憶の仕組みについて。好きな歌、友人の顔、朝食べた物――これらは皆、脳のどこかに蓄えられた記憶だ。記憶は脳の最も重要な働きの一つだが、その仕組みは科学者が少しずつ解き明かす素晴らしい謎だ。記憶は棚の本のように一か所にあるのでなく、ニューロンという小さな細胞のつながりとして脳全体に広がる。新しく学ぶと特定のニューロンがつながり信号を送り合い、繰り返すほどつながりが強まり思い出しやすくなる。短期記憶は数秒だけ情報を保ち（かける前に繰り返す電話番号など）、長期記憶は名前や技能、重要な出来事を何年も保つ。睡眠が重要で、夜に脳は一部の記憶を短期から長期へ移す。重要でない細部は忘れて過負荷を防ぐ。注意を払う、繰り返す、十分眠る、既知の事と結ぶことで記憶を助けられる。",
+        quiz: [
+          { q: "Where are memories stored in the brain?", options: ["In connections between cells called neurons", "In one single place like a book", "Outside the body"], answer: 0 },
+          { q: "What does long-term memory hold?", options: ["Names, skills, and important events for years", "Only phone numbers for seconds", "Nothing at all"], answer: 0 },
+          { q: "What is one simple way to help your memory?", options: ["Getting enough sleep and repeating information", "Never paying attention", "Avoiding all new ideas"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-19",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is a cloud really made of?", options: ["A great crowd of tiny water droplets", "Smoke from the ground", "Pieces of cotton"], answer: 0 },
           { q: "What is 'evaporation'?", options: ["Water turning into vapor and rising into the air", "Rain falling to the ground", "Ice becoming a rock"], answer: 0 },
           { q: "Why does a drop finally fall as rain?", options: ["It grows heavy enough that the air cannot hold it up", "The cloud pushes it down on purpose", "The Sun throws it down"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-13",
-    passages: [
-      {
-        id: "d1013-1",
-        title: "Why Companies Go to Trade Shows",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Every year, in large halls around the world, companies set up colorful stands to show their newest products. Thousands of visitors walk past, stopping to watch demonstrations and ask questions. These big events are called trade shows or exhibitions, and for many businesses they are an important part of the year.\n\nA trade show brings together many companies from the same industry in one place. There are shows for cars, for food, for technology, and for almost everything else. Some are open only to people who work in the industry, while others welcome the public too.\n\nWhy do companies spend so much money to take part? One reason is to show new products. A trade show lets a company reveal its latest work to a large audience all at once, often attracting attention from the news. Another reason is meeting people. In a single day, a company may talk to future customers, partners, and suppliers who would be hard to reach otherwise.\n\nTrade shows are also a chance to learn. By walking around, a company can see what its competitors are doing and discover new ideas. Visitors can compare many products side by side, which is difficult to do online.\n\nOf course, attending costs money and time, and the results are not always easy to measure. Yet for many businesses, the face-to-face contact is worth it. In a digital world, a trade show offers something rare: a place where people in an industry meet, shake hands, and see new ideas with their own eyes.",
-        summaryJa: "企業が展示会に出る理由について。毎年、世界中の大きな会場で企業が色鮮やかなブースを構え最新製品を見せ、何千もの来場者が実演を見て質問する。こうした催しを展示会（トレードショー）と呼び、多くの企業にとって年間の重要な行事だ。展示会は同じ業界の多くの企業を一か所に集め、車・食品・技術などあらゆる分野にある。業界関係者限定のものも一般公開のものもある。参加理由の一つは新製品の発表で、一度に多くの人へ公開でき報道の注目も集めやすい。もう一つは人との出会いで、将来の客や提携先、仕入先と一日で会える。競合の動向を知り新しい発想を得る学びの場でもある。費用も時間もかかるが、対面の価値は大きい。",
-        quiz: [
-          { q: "What is a trade show?", options: ["An event where companies show products to many visitors", "A kind of online shop", "A type of factory"], answer: 0 },
-          { q: "What is one reason companies attend trade shows?", options: ["To show new products to a large audience", "To close their business", "To avoid meeting people"], answer: 0 },
-          { q: "What can visitors do at a trade show that is hard online?", options: ["Compare many products side by side", "Fly an airplane", "Cook a meal"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1013-2",
-        title: "How Solar Panels Turn Sunlight into Electricity",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "On the roofs of houses, in wide open fields, and even on small calculators, you can find dark panels that quietly turn sunlight into electricity. These are solar panels, and they are becoming an important source of clean energy around the world. But how can a flat panel make power from nothing but light?\n\nThe answer lies in a special material, usually a form of silicon, the same element found in sand. A solar panel is made of many small units called cells. When sunlight hits a cell, the energy in the light knocks tiny particles, called electrons, loose inside the material. The design of the cell pushes these electrons to flow in one direction, and a flow of electrons is exactly what electricity is.\n\nSolar panels have real advantages. Once they are built, they produce power without burning fuel, making no smoke and no noise. Sunlight is free and will not run out for billions of years. For homes far from power lines, solar panels can bring electricity where none existed before.\n\nThere are limits too. Panels only make power when the Sun shines, so they produce nothing at night and less on cloudy days. To use solar power after dark, people store extra energy in batteries. Making the panels also requires energy and materials.\n\nEven so, solar power is growing quickly as panels become cheaper and better. Turning sunlight directly into electricity, with no moving parts, is a quiet but powerful idea that is helping to change how the world makes energy.",
-        summaryJa: "ソーラーパネルが日光を電気に変える仕組みについて。家の屋根や広い野原、小さな電卓にも、日光を静かに電気に変える黒いパネルがある。これがソーラーパネルで、世界で重要なクリーンエネルギー源になりつつある。鍵は特別な材料、普通は砂にも含まれるケイ素（シリコン）だ。パネルはセルという小さな単位の集まりで、日光が当たると光のエネルギーが材料内の電子をはじき出し、セルの設計が電子を一方向に流す。電子の流れこそが電気だ。燃料を燃やさず煙も騒音もなく、日光は無料で尽きない。電線のない地域にも電気を届ける。ただし太陽が出ている時しか発電できず、夜は電池に蓄える。製造にも資源が要る。安く高性能になり急速に普及している。",
-        quiz: [
-          { q: "What material is usually used in solar panels?", options: ["Silicon, found in sand", "Gold", "Water"], answer: 0 },
-          { q: "What is electricity, according to the passage?", options: ["A flow of electrons", "A type of light", "A kind of metal"], answer: 0 },
-          { q: "What is one limit of solar panels?", options: ["They make no power at night", "They are very noisy", "They burn a lot of fuel"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1013-3",
-        title: "What Does the United Nations Do?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "In a world with around 200 countries, disagreements are certain to happen. To help nations talk instead of fight, a special organization was created: the United Nations, often called the UN. Almost every country in the world is a member, making it the largest meeting place of nations ever built.\n\nThe UN was formed in 1945, just after a terrible world war. Its founders had a clear hope: to prevent such a war from ever happening again. They wanted a place where countries could come together, share their problems, and solve them with words rather than weapons.\n\nThe UN does many kinds of work. One part, where member countries send representatives, is a forum for discussion and voting on shared problems. Another part focuses on peace, sometimes sending soldiers from many nations to help keep calm in troubled areas. But the UN is about far more than conflict.\n\nMuch of its work quietly improves daily life. UN programs help feed hungry people, fight diseases, protect children, care for refugees, and respond to natural disasters. Other parts work on shared challenges such as health rules, safe air travel, and protecting the environment.\n\nThe UN is not perfect. It cannot force powerful countries to agree, and change can be slow. Yet it remains a vital meeting place where even enemies can keep talking.\n\nFor all its weaknesses, the United Nations reflects a hopeful idea that has lasted for generations: that the world's problems are best solved when nations work together, not alone.",
-        summaryJa: "国連（国際連合）の役割について。約200の国がある世界では対立は必ず起こる。戦う代わりに話し合えるよう作られたのが国連で、ほぼ全ての国が加盟する史上最大の国家の集まりだ。1945年、恐ろしい世界大戦の直後に設立され、創設者は二度と同じ戦争を起こさないという明確な願いを持ち、各国が集い問題を武器でなく言葉で解決する場を望んだ。加盟国の代表が集う討議と投票の場があり、平和のため多国籍の兵士を派遣することもある。だが対立以外の仕事も多く、飢えた人を助け、病気と闘い、子どもや難民を守り、災害に対応する。保健規則や安全な航空、環境保護にも取り組む。完璧ではないが、敵同士も話し続けられる重要な場だ。",
-        quiz: [
-          { q: "When and why was the UN formed?", options: ["In 1945, to help prevent another world war", "Last year, to sell products", "In ancient times, for sports"], answer: 0 },
-          { q: "What is one example of the UN's everyday work?", options: ["Helping feed hungry people and fight diseases", "Building cars", "Running shops"], answer: 0 },
-          { q: "What is one weakness of the UN?", options: ["It cannot force powerful countries to agree", "It has no members", "It never discusses problems"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1013-4",
-        title: "Mount Fuji: Japan's Sacred Mountain",
-        level: "★★☆",
-        genre: "日本",
-        text: "Rising high above the land, with a nearly perfect cone shape and a snow-covered top, Mount Fuji is the most famous symbol of Japan. At 3,776 meters, it is the country's highest mountain. On a clear day, it can be seen from far away, even from the city of Tokyo, and its beautiful shape has inspired artists and travelers for centuries.\n\nMount Fuji is actually a volcano. It last erupted about 300 years ago and is quiet today, though scientists watch it carefully. Over thousands of years, its eruptions built the smooth, balanced slopes that people admire so much.\n\nFor a long time, Mount Fuji has been seen as a sacred place. In the past, it was a site for religious pilgrimage, and climbing it was an act of faith. Many shrines stand around its base, and the mountain appears again and again in old poems and paintings. Today it is recognized as a World Heritage Site, honored not only for its beauty but for its deep cultural meaning.\n\nEach year, during the short summer season, more than 200,000 people climb to the top. Many start at night so they can watch the sunrise from the summit, a view so admired it has its own name, goraiko, meaning the arrival of light.\n\nWhether seen from a train window, a painting, or its own high slopes, Mount Fuji holds a special place in the hearts of Japanese people. It stands as a quiet, timeless symbol of their homeland.",
-        summaryJa: "日本の霊峰、富士山について。ほぼ完璧な円錐形と雪をかぶった頂で高くそびえる富士山は、日本の最も有名な象徴だ。標高3,776メートルで国内最高峰。晴れた日には東京からも遠くに見え、その美しい姿は何世紀も芸術家や旅人を魅了してきた。富士山は実は火山で、約300年前に最後に噴火し今は静かだが、科学者が注意深く見守る。長く聖地とされ、昔は信仰の巡礼地で登ることは信仰の行いだった。麓には多くの神社があり、古い詩や絵に繰り返し登場する。今は世界遺産として美しさと深い文化的意味で称えられる。夏の短い時期に20万人以上が登り、多くが夜に出発して山頂から「御来光」を見る。故郷の時を超えた象徴だ。",
-        quiz: [
-          { q: "What kind of mountain is Mount Fuji?", options: ["A volcano", "A man-made hill", "An underwater mountain"], answer: 0 },
-          { q: "Why has Mount Fuji long been seen as special?", options: ["It is a sacred place of pilgrimage and art", "It is the smallest mountain", "It is always erupting"], answer: 0 },
-          { q: "What is 'goraiko'?", options: ["The sunrise seen from the summit", "A type of food", "A kind of train"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1013-5",
-        title: "How Do Airplanes Fly?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "A large airplane can weigh hundreds of tons, yet it lifts into the sky and stays there for hours. To many people, this seems almost impossible. How can something so heavy fly through the air? The answer is found mainly in the shape of its wings.\n\nLook closely at an airplane wing from the side. It is not flat. The top is gently curved, while the bottom is flatter. As the plane moves forward very fast, air rushes over and under the wing. Because of the wing's shape, the air moving over the curved top travels faster than the air below. This difference creates lower pressure above the wing and higher pressure below it. The higher pressure under the wing pushes the wing, and the whole plane, upward. This upward push is called lift.\n\nBut a wing cannot create lift without speed. That is the job of the engines. Powerful jet engines push the plane forward faster and faster along the runway. Once the plane is moving fast enough, the wings produce enough lift to raise it off the ground.\n\nFlying is a careful balance of forces. Lift pushes the plane up, while gravity pulls it down. The engines push it forward, while the air pushes back, a force called drag. Pilots and designers manage all four forces to keep the plane steady.\n\nSo an airplane does not really fight the air. Instead, it uses the air cleverly, shaping and speeding it to hold tons of metal gently in the sky.",
-        summaryJa: "飛行機が飛ぶ仕組みについて。大型機は数百トンもあるのに空へ上がり何時間も飛び続ける。不可能に思えるが、答えは主に翼の形にある。翼を横から見ると平らでなく、上面は緩やかに湾曲し下面は平らだ。機体が高速で前進すると空気が翼の上下を流れ、形のため上面を通る空気の方が速く流れる。その差で翼の上の圧力が低く下が高くなり、下の高い圧力が翼と機体を上へ押す。これが「揚力」だ。ただし揚力には速度が必要で、それがエンジンの役割だ。強力なジェットエンジンが滑走路で機体を加速し、十分速くなると翼が揚力を生んで離陸する。揚力・重力・推力・抗力の四つの力の均衡で安定して飛ぶ。空気と戦わず巧みに利用している。",
-        quiz: [
-          { q: "What mainly allows an airplane to fly?", options: ["The shape of its wings creating lift", "Its bright color", "Its heavy weight"], answer: 0 },
-          { q: "Why is air pressure lower above the wing?", options: ["Air moves faster over the curved top", "The wing is painted white", "There is no air above"], answer: 0 },
-          { q: "What is the job of the engines?", options: ["To push the plane forward fast enough for lift", "To cool the passengers", "To make the plane heavier"], answer: 0 }
         ]
       }
     ]
