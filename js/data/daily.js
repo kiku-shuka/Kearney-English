@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-21",
+    passages: [
+      {
+        id: "d1021-1",
+        title: "Why Time Management Matters at Work",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "In any job, there is always more to do than time to do it. Emails arrive, meetings fill the calendar, and tasks pile up. The people who succeed are often not those who work the most hours, but those who manage their time well. Good time management is one of the most valuable skills in business.\n\nWhy does it matter so much? When you manage your time well, you finish important work on time, feel less stressed, and make fewer mistakes. When you manage it poorly, you may rush, forget things, or stay late to catch up. Over time, good time habits make work calmer and more productive.\n\nThere are simple ways to manage time better. One is to decide what is most important each day and do that first, before smaller tasks. Another is to break a big job into smaller steps, so it feels less frightening and is easier to start. Writing a short list of tasks also helps, because a clear plan is easier to follow than a busy mind.\n\nIt also helps to avoid common traps. Checking messages every few minutes breaks concentration, so many people set certain times to deal with them. Saying \"yes\" to everything can leave no time for what truly matters, so learning to say \"no\" politely is important too.\n\nTime is the one resource everyone shares equally: twenty-four hours a day. We cannot make more of it, but we can choose how to use it. Managing time wisely is really about choosing what matters most.",
+        summaryJa: "職場で時間管理が大切な理由について。どんな仕事でも、やるべきことは時間より多い。メールが届き、会議が予定を埋め、仕事が積み上がる。成功するのは最も長く働く人でなく、時間をうまく使う人であることが多い。良い時間管理はビジネスで最も価値ある技能の一つだ。うまく使えば重要な仕事を期限内に終え、ストレスが減り、ミスも減る。下手だと焦り、忘れ、残業で取り戻すことになる。良いコツは、毎日最も重要なことを先に行う、大きな仕事を小さな段階に分けて始めやすくする、短いリストを書くこと。数分ごとのメール確認は集中を乱すので時間を決めて対応し、何でも引き受けず丁寧に断ることも大切だ。時間は誰にも平等な一日24時間で、増やせないが使い方は選べる。",
+        quiz: [
+          { q: "Who often succeeds at work, according to the passage?", options: ["Those who manage their time well", "Those who work the most hours", "Those who never plan"], answer: 0 },
+          { q: "What is one way to manage time better?", options: ["Do the most important task first", "Do the smallest tasks only", "Avoid all planning"], answer: 0 },
+          { q: "Why is learning to say 'no' politely important?", options: ["Saying yes to everything leaves no time for what matters", "It makes people unhappy", "It wastes time"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1021-2",
+        title: "How Doctors See Inside the Body",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Long ago, a doctor could only guess what was happening inside a patient's body without cutting it open. Today, thanks to clever machines, doctors can look inside a living person safely and painlessly. These tools have changed medicine, helping doctors find problems early and treat them better.\n\nThe oldest of these tools is the X-ray. X-rays are a kind of invisible ray that can pass through soft parts of the body, like skin and muscle, but are blocked by harder parts, like bone. By sending X-rays through the body onto a detector, doctors can create a picture in which bones appear clearly. This makes X-rays very useful for finding broken bones.\n\nOther machines go further. A CT scanner takes many X-ray pictures from different angles and uses a computer to build a detailed, cross-section view of the inside of the body. An MRI machine uses strong magnets and radio waves instead of X-rays, and is especially good at showing soft tissues, such as the brain.\n\nThere is also ultrasound, which uses sound waves too high for us to hear. The waves bounce off organs inside the body, and a computer turns the echoes into a moving picture. Ultrasound is famous for showing images of babies before they are born.\n\nToday, computers help doctors study these images, sometimes spotting tiny signs that are easy to miss. Together, these tools act like windows into the human body, helping doctors understand and heal without a single cut.",
+        summaryJa: "医師が体の中を見る仕組みについて。昔、医師は体を切り開かずに中で何が起きているか推測するしかなかった。今は巧妙な機械のおかげで、生きた人の体内を安全に痛みなく見られる。これは医学を変え、問題の早期発見と治療に役立つ。最も古い道具はレントゲン（X線）で、皮膚や筋肉など柔らかい部分を通り抜けるが骨など硬い部分で遮られる。検出器に当てると骨がはっきり写り、骨折の発見に役立つ。CTは多数のX線画像を角度を変えて撮り、コンピューターで体内の断面図を作る。MRIはX線でなく強い磁石と電波を使い、脳など柔らかい組織を写すのが得意だ。超音波は人に聞こえない高い音波を使い、臓器で跳ね返る反響を動く画像にする。出産前の赤ちゃんの画像で有名だ。コンピューターが画像の解析も助ける。",
+        quiz: [
+          { q: "Why do bones appear clearly on an X-ray?", options: ["X-rays pass through soft parts but are blocked by bone", "Bones glow by themselves", "X-rays avoid muscles only"], answer: 0 },
+          { q: "What does an MRI machine use instead of X-rays?", options: ["Strong magnets and radio waves", "Only sunlight", "Hot water"], answer: 0 },
+          { q: "What is ultrasound famous for showing?", options: ["Images of babies before they are born", "The surface of the Moon", "Broken bones only"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1021-3",
+        title: "What Are Human Rights?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Imagine a list of things that every person in the world should have, simply because they are human, no matter their country, language, or beliefs. This is the idea behind human rights. They are basic freedoms and protections that belong to everyone, from birth, and that no one should be able to take away.\n\nThe modern idea of human rights grew stronger after the terrible events of a great world war. In 1948, countries came together and agreed on a famous document that listed these shared rights for all people. It was a promise that such suffering should never happen again.\n\nHuman rights cover many areas of life. They include the right to life and safety, the right to be treated equally under the law, and freedom from slavery and cruel treatment. They also include the freedom to speak, to believe in a religion of one's choice, and to learn through education. Importantly, rights come with respect for the rights of others.\n\nAgreeing on rights is easier than protecting them everywhere. In some places, people are still treated unfairly or silenced. For this reason, governments, courts, and organizations work to defend human rights, and ordinary people speak up when rights are ignored.\n\nHuman rights remind us of a simple but powerful truth: that every person has value and deserves to be treated with dignity. The idea is not finished or perfect, but it gives the world a shared goal to aim for, and a standard by which fairness can be measured.",
+        summaryJa: "人権とは何かについて。国や言語、信条に関わらず、人間であるというだけで世界の誰もが持つべきものの一覧を想像してほしい。これが人権の考えだ。生まれながらに誰もが持つ基本的な自由と保護で、誰も奪えないものとされる。近代的な人権の考えは、大戦の悲劇の後に強まった。1948年、各国が集い、全ての人の共通の権利を列挙した有名な文書に合意した。二度と同じ苦しみを起こさないという約束だった。人権は生命と安全、法の下の平等、奴隷や残酷な扱いからの自由、言論・信教の自由、教育などを含み、他者の権利の尊重も伴う。合意より各地で守る方が難しく、今も不当に扱われ声を封じられる人がいる。だから政府や裁判所、団体が擁護し、人々も声を上げる。全ての人に価値と尊厳があると教える。",
+        quiz: [
+          { q: "What are human rights?", options: ["Basic freedoms and protections that belong to everyone", "Rules only for rich people", "Laws of a single city"], answer: 0 },
+          { q: "What happened in 1948?", options: ["Countries agreed on a famous document listing shared rights", "The first car was built", "A new planet was found"], answer: 0 },
+          { q: "Why is protecting rights difficult?", options: ["In some places people are still treated unfairly", "Rights are secret", "No one cares about fairness"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1021-4",
+        title: "Omotenashi: The Spirit of Japanese Hospitality",
+        level: "★★☆",
+        genre: "日本",
+        text: "Visitors to Japan often say they are surprised by how kindly and carefully they are treated. A shop worker may walk you to the door, a hotel may remember your name, and a taxi door may open by itself. Behind this attentive service is a deep cultural idea called omotenashi, which can be translated as Japanese hospitality.\n\nOmotenashi is more than just good service. It means caring for a guest with a full and sincere heart, thinking ahead about what they might need, and doing so without expecting anything in return. The host tries to make the guest feel comfortable and valued, often through small, quiet actions that are easy to miss.\n\nThe idea has old roots. It is connected to the traditional tea ceremony, in which a host prepares everything with great care for the comfort and pleasure of the guest. Every detail, from the temperature of the room to the choice of bowl, is considered.\n\nIn daily life, omotenashi appears in many forms. A restaurant may bring a warm towel before a meal. A train may be cleaned and ready exactly on time. Staff bow to welcome and thank customers. These actions show respect and attention to detail.\n\nOf course, kindness and good service exist everywhere in the world. What makes omotenashi special is the belief that caring for others is a quiet art, worth doing well for its own sake. For many people, this gentle spirit is one of the most memorable parts of a visit to Japan.",
+        summaryJa: "日本のおもてなしの心について。日本を訪れる人はしばしば、その親切で心のこもった扱いに驚く。店員が戸口まで見送り、ホテルが名前を覚え、タクシーのドアが自動で開く。この行き届いた接客の背景に、日本のもてなしを意味する「おもてなし」という深い文化がある。おもてなしは良い接客以上のもので、客を心から誠実にもてなし、必要を先回りして考え、見返りを求めずに行うことを指す。小さく静かな、気づきにくい行いで客を心地よく大切に感じさせる。茶道に通じる古い由来があり、亭主が部屋の温度や茶碗の選びまで客のために心を配る。日常では食前の温かいおしぼり、時間通りに清掃された電車、歓迎と感謝のお辞儀などに表れる。人を思いやることを静かな芸術とみなす点が特別だ。",
+        quiz: [
+          { q: "What does 'omotenashi' mean?", options: ["Japanese hospitality, caring sincerely for a guest", "A type of food", "A kind of train"], answer: 0 },
+          { q: "What old tradition is omotenashi connected to?", options: ["The traditional tea ceremony", "Car racing", "Modern shopping malls"], answer: 0 },
+          { q: "What makes omotenashi special?", options: ["The belief that caring for others is a quiet art", "That it expects large payment", "That it is always loud"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1021-5",
+        title: "How Do Our Eyes See Color?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "The world around us is full of color: green leaves, blue skies, red apples. We enjoy these colors every day without thinking. But color is not really \"in\" the objects themselves. It is created by light and by our amazing eyes working together.\n\nIt starts with light. Although sunlight looks white, it is actually made of all the colors mixed together. When light hits an object, the object soaks up some colors and bounces others back. A red apple, for example, absorbs most colors but reflects red light toward our eyes. So the color we see is the light that an object does not keep.\n\nInside each eye are millions of tiny cells that react to light. Some of these cells, called cones, are special because they detect color. Most people have three kinds of cones, which react to red, green, or blue light. By combining the signals from these three types, the brain can create the millions of colors we see, just as mixing a few paints can make many shades.\n\nThis also explains color blindness. Some people have cones that work differently, so they may find it hard to tell certain colors apart, such as red and green. It does not mean they see no color at all.\n\nOur sense of color is a quiet partnership between the sun, the objects around us, and our own eyes and brain. The next time you admire a sunset or a flower, remember that the color you enjoy is really a kind of beautiful message made of light.",
+        summaryJa: "目が色を見る仕組みについて。周りの世界は緑の葉、青い空、赤いリンゴと色で満ちている。毎日何気なく楽しむが、色は物そのものの中にあるのではなく、光と私たちの驚くべき目が共に作り出す。始まりは光で、太陽光は白く見えても実は全ての色が混ざっている。光が物に当たると、物は一部の色を吸収し残りを跳ね返す。赤いリンゴはほとんどの色を吸収し赤い光を目へ反射する。つまり見える色は物が保たなかった光だ。目の中には光に反応する無数の細胞があり、錐体という細胞が色を感知する。多くの人は赤・緑・青に反応する三種の錐体を持ち、その信号を組み合わせて脳が無数の色を作る。色覚の違いもこれで説明でき、赤と緑の区別が難しい人もいるが全く色が見えないわけではない。",
+        quiz: [
+          { q: "Why does a red apple look red?", options: ["It reflects red light and absorbs most other colors", "It makes its own red light", "It is painted each day"], answer: 0 },
+          { q: "What are the eye cells that detect color called?", options: ["Cones", "Bones", "Stones"], answer: 0 },
+          { q: "What does color blindness usually mean?", options: ["Some colors are hard to tell apart, not that no color is seen", "A person sees no light at all", "A person sees only new colors"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-20",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Where does the salt in the ocean mainly come from?", options: ["Minerals that rivers pick up from rocks and soil", "Fish making salt", "Salt falling from the sky"], answer: 0 },
           { q: "Why does salt build up in the sea?", options: ["Water evaporates and leaves the salt behind", "The sea eats salt", "Rivers remove salt"], answer: 0 },
           { q: "Where is the sea especially salty?", options: ["In very hot areas where lots of water evaporates", "Where many rivers pour in", "In cold places only"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-14",
-    passages: [
-      {
-        id: "d1014-1",
-        title: "What Is Inflation?",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "Have you ever heard an older person say, \"When I was young, this cost half as much\"? They are describing inflation, one of the most important ideas in economics. Inflation means that, over time, prices slowly rise, and each unit of money buys a little less than it did before.\n\nA small amount of inflation is normal and even healthy. In most years, prices creep up gently, perhaps two or three percent. This usually goes unnoticed in daily life. The trouble begins when inflation becomes high. If prices rise quickly, people's savings and wages buy less, and families feel poorer even if their pay has not changed.\n\nWhat causes inflation? One common cause is demand. When many people want to buy goods but there are not enough to go around, sellers raise their prices. Another cause is rising costs. If fuel or materials become more expensive, companies pass those higher costs on to customers. Sometimes, if there is simply too much money in the economy, its value falls and prices climb.\n\nGovernments and central banks watch inflation carefully. To slow it down, a central bank may raise interest rates, making borrowing more expensive, which cools spending. But if they act too strongly, they can slow the whole economy.\n\nInflation affects everyone, from shoppers to business owners. Understanding it helps people make better choices about saving, spending, and planning for the future. Behind the simple fact of rising prices lies a powerful force that shapes the whole economy.",
-        summaryJa: "インフレーション（インフレ）とは何かについて。年配の人が「若い頃はこれが半額だった」と言うのはインフレの話だ。インフレとは、時とともに物価が少しずつ上がり、同じ金額で買える量が前より減ることをいう。少しのインフレは正常で健全であり、多くの年は2〜3%ほど緩やかに上がり日常では気づきにくい。問題は高インフレで、急に物価が上がると貯金や給料の価値が下がり、給料が同じでも生活が苦しく感じる。原因は需要（欲しい人が多く品が足りない）、費用の上昇（燃料や材料の高騰）、お金が多すぎて価値が下がることなど。中央銀行は金利を上げて支出を冷ますが、やりすぎると経済全体が鈍る。インフレは誰にも影響し、理解は賢い選択に役立つ。",
-        quiz: [
-          { q: "What does inflation mean?", options: ["Prices slowly rise and money buys less", "Prices always fall", "Money buys more over time"], answer: 0 },
-          { q: "What is one common cause of inflation?", options: ["High demand with not enough goods", "Too few shoppers", "Falling fuel costs only"], answer: 0 },
-          { q: "How might a central bank slow inflation?", options: ["By raising interest rates", "By printing much more money", "By lowering all prices itself"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1014-2",
-        title: "How Contactless Cards Work",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "In many cities, people now pay for a train, a coffee, or a bus by simply touching a card or phone against a reader. There is no need to swipe or type a number; a quick tap is enough. These are called contactless cards, and they are quietly replacing cash and paper tickets in daily life.\n\nThe secret inside the card is a tiny chip and a thin loop of wire, which acts as an antenna. Surprisingly, most of these cards have no battery at all. When you hold the card close to a reader, the reader sends out a weak radio signal. This signal gives the card just enough power to wake up and reply. In less than a second, the card and reader exchange information, and the payment or ticket is confirmed.\n\nBecause the card only works at a very short distance, usually a few centimeters, it will not activate by accident in your pocket. This short range is an important safety feature.\n\nContactless technology has many uses. The same idea powers train passes, office entry cards, and tap-to-pay bank cards. Phones and watches can now copy these cards too, so people can pay with a device they already carry.\n\nThe main benefits are speed and convenience. A busy train station can move thousands of people through its gates quickly when no one has to search for change. As more places adopt it, the simple tap is becoming one of the most common actions of modern daily life.",
-        summaryJa: "非接触型（タッチ式）カードの仕組みについて。多くの都市で、人々は電車やコーヒー、バスの支払いをカードやスマホを読み取り機にかざすだけで済ませる。スワイプも番号入力も不要で、一瞬のタッチでよい。これが非接触型カードで、現金や紙の切符に静かに取って代わっている。カードの中には小さなチップとアンテナになる細い輪状の線があり、驚くことに多くは電池を持たない。読み取り機に近づけると弱い電波が送られ、その電波がカードを動かすわずかな電力を与え、1秒未満で情報をやり取りし決済や改札が確認される。数センチの至近距離でしか働かないため、ポケットの中で誤作動しない安全設計だ。交通系・入館・決済に使われ、スマホや時計でも使える。速さと利便性が利点だ。",
-        quiz: [
-          { q: "What is inside a contactless card?", options: ["A tiny chip and a loop of wire acting as an antenna", "A small battery and a motor", "A camera"], answer: 0 },
-          { q: "Where does the card get its power to reply?", options: ["From the reader's weak radio signal", "From a built-in battery", "From sunlight"], answer: 0 },
-          { q: "Why won't the card activate by accident in your pocket?", options: ["It only works at a very short distance", "It is always switched off", "It needs a password each time"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1014-3",
-        title: "What Does the Red Cross Do?",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "When a terrible earthquake, flood, or other emergency strikes, one of the first groups to arrive and help is often the Red Cross. Its simple symbol, a red cross on a white background, is known in almost every country. But what exactly is this organization, and what does it do?\n\nThe Red Cross began more than 150 years ago. A man named Henry Dunant saw many wounded soldiers left without care after a battle, and he believed that all people in need deserve help, no matter which side they are on. From this idea grew a worldwide movement dedicated to protecting human life and easing suffering.\n\nToday, the Red Cross and its partner, the Red Crescent, work in nearly every nation. Their volunteers do many kinds of work. They bring food, water, and shelter to people after disasters. They help families find loved ones who were separated by war or crisis. They also teach first aid, collect blood for hospitals, and support people during long emergencies.\n\nA key idea guides the Red Cross: it must stay neutral. In a conflict, it does not take sides. This neutrality allows its workers to help wounded or suffering people everywhere, and it lets them enter dangerous places that others cannot.\n\nThe Red Cross depends on millions of volunteers and on donations from the public. Its long history shows a simple but powerful belief: that in times of trouble, every human being deserves kindness, care, and hope.",
-        summaryJa: "赤十字の活動について。大地震や洪水などの非常時に、最初に駆けつけ助ける団体の一つが赤十字だ。白地に赤い十字の記章はほぼ全ての国で知られる。赤十字は150年以上前に始まった。アンリ・デュナンが戦いの後に手当てを受けられない多くの負傷兵を見て、どちら側であれ困っている人は助けられるべきだと信じたことから、人命を守り苦しみを和らげる世界的運動が生まれた。今は赤十字と赤新月が各国で活動し、災害後に食料・水・住まいを届け、離ればなれの家族を再会させ、応急手当を教え、献血を集め、長い非常時を支える。要は中立で、紛争で味方せず、だからこそ危険な場所でも誰でも助けられる。多くのボランティアと寄付に支えられている。",
-        quiz: [
-          { q: "Who started the idea behind the Red Cross?", options: ["Henry Dunant, after seeing wounded soldiers", "A famous king", "A large company"], answer: 0 },
-          { q: "What is one kind of work the Red Cross does?", options: ["Bringing food, water, and shelter after disasters", "Selling cars", "Building airplanes"], answer: 0 },
-          { q: "Why does the Red Cross stay neutral?", options: ["So it can help suffering people on all sides", "To make more money", "To avoid helping anyone"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1014-4",
-        title: "Green Tea: Japan's Everyday Drink",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, few things are as common and as loved as green tea. It is served in homes, offered to guests, sold in every shop, and even poured for free in many restaurants. For centuries, this simple green drink has been part of daily life, bringing a moment of calm to busy days.\n\nGreen tea comes from the leaves of a plant called the tea bush, the same plant that gives us black tea. The difference is in how the leaves are treated. For green tea, the fresh leaves are heated soon after picking, often with steam. This keeps them green and gives the tea its fresh, slightly grassy taste. Black tea, by contrast, is allowed to change color before drying.\n\nThere are many kinds of Japanese green tea. Everyday tea, called sencha, is enjoyed at home and at work. A bright green powder called matcha is whisked with hot water and used in the traditional tea ceremony and in many sweets. Roasted tea, with a warm, nutty flavor, is popular on cold days.\n\nGreen tea is also seen as healthy. It contains natural substances that many people believe are good for the body, and it is usually drunk without sugar or milk.\n\nMore than just a drink, green tea reflects a Japanese love of simple, natural things. A warm cup shared with others is a small act of welcome and care, a quiet tradition that continues in millions of homes every single day.",
-        summaryJa: "日本の日常の飲み物、緑茶について。日本で緑茶ほど身近で愛されるものは少なく、家庭で出され、客にふるまわれ、どの店でも売られ、多くの飲食店で無料でも出される。何世紀も日常の一部で、忙しい日に静けさをもたらす。緑茶は茶の木の葉から作られ、紅茶と同じ植物だが処理が違う。緑茶は摘んですぐ蒸気などで加熱して緑を保ち、さわやかでやや草のような味になる。紅茶は乾かす前に色を変える。種類も多く、日常の煎茶、点てて使う鮮やかな粉末の抹茶（茶道や菓子に使う）、寒い日に人気の香ばしいほうじ茶などがある。砂糖やミルクを入れず飲むことが多く、健康的とされる。簡素で自然なものを愛する心を映す。",
-        quiz: [
-          { q: "How is green tea different from black tea?", options: ["Its leaves are heated soon after picking to stay green", "It comes from a totally different plant", "It is always sweet"], answer: 0 },
-          { q: "What is 'matcha'?", options: ["A bright green powder whisked with hot water", "A kind of black tea", "A type of coffee"], answer: 0 },
-          { q: "How is green tea usually drunk in Japan?", options: ["Without sugar or milk", "Only with lots of sugar", "Mixed with soup"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1014-5",
-        title: "How Clouds Form and Why It Rains",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Clouds drift across the sky in endless shapes, sometimes white and soft, sometimes dark and heavy. We see them every day, yet they can seem mysterious. Where do clouds come from, and why does rain fall from some of them? The answer is a simple and beautiful cycle of water.\n\nIt begins with heat. The Sun warms lakes, rivers, and oceans, and some of the water turns into an invisible gas called water vapor, which rises into the air. This process is called evaporation. The higher the vapor goes, the cooler the air becomes.\n\nAs the vapor cools, it changes back into tiny drops of water, far too small and light to fall. Billions of these tiny drops gather together, and that is what a cloud really is: a great crowd of tiny water droplets floating in the sky.\n\nInside a cloud, the droplets bump into one another and join together. Little by little, they grow into larger drops. When a drop becomes heavy enough that the air can no longer hold it up, it falls to the ground as rain. If the air is very cold, the water may fall as snow instead.\n\nOnce the rain reaches the ground, it flows into rivers and seas, where it will one day evaporate and rise again. This endless journey is called the water cycle. So the rain on your window and the clouds above your head are part of the same water that has been traveling around our planet for millions of years.",
-        summaryJa: "雲のでき方と雨が降る理由について。空には絶えず様々な形の雲が流れ、白くやわらかいこともあれば暗く重いこともある。毎日見るのに不思議に思える。雲はどこから来て、なぜ一部から雨が降るのか。答えは水の美しい循環だ。始まりは熱で、太陽が湖や川、海を温め、一部の水が目に見えない水蒸気になって空へ昇る。これを蒸発という。高く昇るほど空気は冷え、水蒸気は小さな水滴に戻る。軽くて落ちない無数の水滴が集まったものが雲だ。雲の中で水滴はぶつかって合わさり、少しずつ大きくなり、空気が支えきれない重さになると雨として落ちる。とても寒ければ雪になる。地面の雨は川や海へ流れ、いつかまた蒸発する。この循環を水循環と呼ぶ。",
-        quiz: [
-          { q: "What is a cloud really made of?", options: ["A great crowd of tiny water droplets", "Smoke from the ground", "Pieces of cotton"], answer: 0 },
-          { q: "What is 'evaporation'?", options: ["Water turning into vapor and rising into the air", "Rain falling to the ground", "Ice becoming a rock"], answer: 0 },
-          { q: "Why does a drop finally fall as rain?", options: ["It grows heavy enough that the air cannot hold it up", "The cloud pushes it down on purpose", "The Sun throws it down"], answer: 0 }
         ]
       }
     ]
