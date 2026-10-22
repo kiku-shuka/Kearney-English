@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-22",
+    passages: [
+      {
+        id: "d1022-1",
+        title: "Why Businesses Must Adapt to Change",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "The business world never stands still. New technologies appear, customers change their habits, and what was popular yesterday can be forgotten tomorrow. Because of this, one of the most important skills for any company is the ability to adapt, to change with the times.\n\nHistory is full of examples. Not long ago, people bought music on discs, rented films from shops, and printed photographs from rolls of film. As technology changed, companies that sold these products had to change too. Some invented new businesses, such as streaming music or digital photos. Others, which refused to change, slowly disappeared. Even large, famous companies can fall behind if they ignore new trends.\n\nAdapting is not easy. It can mean stopping a product that once made a lot of money, or learning completely new skills. It takes courage to change something that still seems to be working, before it is too late. Yet companies that watch the world carefully, and act early, often survive and grow.\n\nAdapting does not only mean technology. A company may need to change because customers care about new things, such as protecting the environment or shopping online. Listening to customers is one of the best ways to see change coming.\n\nThe lesson is clear. In business, standing still is risky, because the world keeps moving. The strongest companies are not always the biggest or the oldest, but the ones most willing to learn, to let go of the past, and to welcome what comes next.",
+        summaryJa: "企業が変化に適応すべき理由について。ビジネスの世界は止まらない。新技術が現れ、客の習慣が変わり、昨日の人気が明日は忘れられる。だからどの会社にも最も重要な技能の一つが、時代とともに変わる適応力だ。歴史には例が多い。少し前は人は音楽をディスクで買い、店で映画を借り、フィルムから写真を現像した。技術が変わると、これらを売る企業も変わらねばならず、音楽配信やデジタル写真など新事業を生んだ会社もあれば、変化を拒んで消えた会社もある。有名な大企業でも新しい流れを無視すれば遅れる。適応は容易でなく、稼いでいた製品をやめたり新しい技能を学んだりする勇気が要る。環境配慮やオンライン購入など客の関心の変化にも対応が必要で、客の声を聞くことが変化を察する最良の方法だ。止まることは危険だ。",
+        quiz: [
+          { q: "Why must companies be able to adapt?", options: ["Technology, customers, and trends keep changing", "The world never changes", "Customers never change"], answer: 0 },
+          { q: "What happened to companies that refused to change?", options: ["Some slowly disappeared", "They all grew bigger", "Nothing changed"], answer: 0 },
+          { q: "What is one of the best ways to see change coming?", options: ["Listening to customers", "Ignoring the world", "Keeping old products forever"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1022-2",
+        title: "How a Refrigerator Keeps Food Cold",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Almost every kitchen has a refrigerator, quietly keeping our food fresh and cold. We open it many times a day without thinking about how it works. But a refrigerator does something clever: it does not add cold to the food. Instead, it removes heat from inside and carries that heat away.\n\nThe secret is a special liquid called a refrigerant, which flows through pipes inside the machine. This liquid has a useful property: it can change easily between a liquid and a gas. As the refrigerant flows through pipes inside the fridge, it turns into a gas, and in doing so it soaks up heat from the air and food inside. This makes the inside colder.\n\nThe warm gas is then pumped to pipes on the outside or back of the fridge. There, it is squeezed and turns back into a liquid, releasing the heat it carried into the room. This is why the back of a refrigerator often feels warm. The liquid then flows inside again, and the cycle repeats over and over.\n\nA thermostat watches the temperature. When the inside is cold enough, it switches the system off; when it warms up, it switches on again. This saves energy and keeps the temperature steady.\n\nBy moving heat from the inside to the outside, a refrigerator keeps food cool, slowing the growth of the tiny germs that make food go bad. This simple but powerful idea has changed how we store food and made fresh meals possible all year round.",
+        summaryJa: "冷蔵庫が食品を冷やす仕組みについて。ほとんどの台所に冷蔵庫があり、静かに食品を新鮮に冷たく保つ。毎日何度も開けるが仕組みは考えない。冷蔵庫は巧妙で、食品に冷たさを加えるのでなく、内部から熱を取り去って外へ運ぶ。鍵は冷媒という特別な液体で、機械内の管を流れる。この液体は液体と気体の間で変わりやすい性質を持つ。庫内の管を流れると気体になり、その際に内部の空気や食品から熱を吸い取り、中を冷やす。暖まった気体は外側や背面の管へ送られ、圧縮されて再び液体に戻り、運んだ熱を部屋へ放出する。だから背面は温かいことが多い。液体は再び内部へ流れ、循環が繰り返される。サーモスタットが温度を見て入切し省エネする。熱を内から外へ移し、食品を腐らせる菌の繁殖を遅らせる。",
+        quiz: [
+          { q: "What does a refrigerator actually do to keep food cold?", options: ["It removes heat from inside and carries it away", "It adds cold air from outside", "It freezes the room"], answer: 0 },
+          { q: "Why does the back of a refrigerator often feel warm?", options: ["It releases the heat carried from inside", "It has a small fire", "It stores hot water"], answer: 0 },
+          { q: "What does the thermostat do?", options: ["Switches the system on and off to keep a steady temperature", "Cooks the food", "Opens the door"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1022-3",
+        title: "How Countries Share Weather Information",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Weather does not stop at borders. A storm that forms over the ocean near one country may strike another a few days later. Rain clouds, heat waves, and cold winds all travel freely across the map. For this reason, no country can understand its own weather by looking only at itself. To forecast the weather well, the nations of the world must share what they see.\n\nEvery day, thousands of weather stations, ships, balloons, and satellites around the globe measure temperature, wind, and pressure. On their own, these numbers would be of little use. But countries have agreed to share this information freely and quickly with one another. The measurements flow into powerful computers that model how the weather will move and change.\n\nThis cooperation is remarkable. Even countries that disagree about other things usually continue to share weather data, because everyone benefits. A good forecast can warn people about a coming typhoon, help farmers plan their crops, and keep ships and planes safe.\n\nThe system is guided by an international organization that sets shared rules, so that a measurement taken in one country can be understood in every other. Scientists also share their knowledge, improving forecasts for all.\n\nThanks to this quiet, daily cooperation, a warning about a dangerous storm can now reach people days in advance, giving them time to prepare. Weather forecasting shows that when a problem touches everyone, sharing information openly is not only kind, it is the only way that truly works.",
+        summaryJa: "各国が気象情報を共有する仕組みについて。天気は国境で止まらない。ある国の近くの海で生まれた嵐が、数日後に別の国を襲うこともある。雨雲や熱波、冷たい風も地図上を自由に動く。だからどの国も自国だけを見て天気を理解できない。よい予報には世界の国々が観測を共有する必要がある。毎日、世界中の何千もの気象観測所・船・気球・衛星が気温・風・気圧を測る。単独では役に立たないが、各国はこれを自由に素早く共有することで合意している。データは強力なコンピューターに流れ、天気の動きを計算する。対立する国どうしでも気象データの共有は続く。誰もが得をするからだ。国際機関が共通規則を定め、ある国の測定値を他国でも理解できる。危険な嵐の警告が数日前に届き、備える時間を生む。",
+        quiz: [
+          { q: "Why can't a country understand its weather by looking only at itself?", options: ["Weather travels freely across borders", "Weather stays in one country", "Weather does not exist"], answer: 0 },
+          { q: "What do countries agree to do with their weather measurements?", options: ["Share them freely and quickly with one another", "Keep them all secret", "Throw them away"], answer: 0 },
+          { q: "Why do even rival countries share weather data?", options: ["Everyone benefits from good forecasts", "They are forced to by weather", "It makes storms stop"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1022-4",
+        title: "Rice: The Heart of the Japanese Table",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many Japanese homes, a meal does not feel complete without rice. For hundreds of years, rice has been the center of the Japanese table, so important that the word for cooked rice, gohan, can also simply mean a meal. To understand Japanese food, it helps to understand the deep place rice holds in the culture.\n\nJapanese rice is a short-grain type that becomes slightly sticky when cooked. This stickiness is loved, because it makes the rice easy to pick up with chopsticks and perfect for dishes like sushi and rice balls. The rice is usually served plain and white, in its own bowl, next to other dishes rather than mixed with them.\n\nGrowing rice has shaped Japan for centuries. In the past, farming rice required whole villages to work together to flood the fields and share water. This cooperation helped form close communities. Even today, bright green rice fields in summer and golden ones in autumn are a familiar and beloved sight in the countryside.\n\nRice appears in many forms. It is pressed into rice balls called onigiri, pounded into a chewy cake called mochi, and even brewed into the drink known as sake. Leftover rice is rarely wasted.\n\nTo many Japanese people, rice means more than food. It stands for home, hard work, and the changing seasons. A warm bowl of rice is a small, everyday comfort, connecting modern life to a long and treasured history.",
+        summaryJa: "日本の食卓の中心、米について。多くの日本の家庭では、ご飯がないと食事が完成した気がしない。何百年も米は日本の食卓の中心で、炊いた米を指す「ご飯」は「食事」そのものも意味するほど大切だ。日本食を理解するには、米が文化で占める深い位置を知ると助けになる。日本の米は短粒種で、炊くと少し粘りが出る。この粘りは好まれ、箸でつまみやすく、寿司やおにぎりに最適だ。普通は白いまま別の茶碗で、他のおかずと混ぜず並べて出す。米作りは何世紀も日本を形づくり、昔は村全体で協力して田に水を張り分け合い、密な共同体を育んだ。夏の緑、秋の黄金の田は今も愛される風景だ。米はおにぎり、餅、酒など様々な形になり、残りも無駄にしない。米は故郷や勤勉、季節の移ろいを表す。",
+        quiz: [
+          { q: "What can the Japanese word 'gohan' mean?", options: ["Both cooked rice and a meal", "Only fish", "A kind of drink"], answer: 0 },
+          { q: "Why is the stickiness of Japanese rice liked?", options: ["It is easy to pick up with chopsticks", "It tastes bad", "It cannot be eaten"], answer: 0 },
+          { q: "How did growing rice affect communities in the past?", options: ["Villages worked together, forming close communities", "People lived completely alone", "It stopped all farming"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1022-5",
+        title: "How Do Our Ears Hear Sound?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Right now, you may hear many sounds: voices, music, or the hum of a machine. Hearing seems instant and effortless, but behind it is a remarkable journey, as your ears turn invisible waves in the air into sounds your brain can understand.\n\nSound begins as a vibration. When something shakes, like a guitar string or a person's voice, it makes the air around it move in tiny waves. These sound waves spread out in all directions, much like ripples on water. We cannot see them, but our ears are built to catch them.\n\nThe outer ear, the part we can see, works like a cup, gathering sound waves and guiding them into a narrow tube. At the end of the tube is the eardrum, a thin, tight piece of skin. When sound waves hit it, the eardrum vibrates, just like a tiny drum.\n\nThese vibrations then pass through three of the smallest bones in the body, which pass the shaking deeper inside the ear. There, in a spiral part filled with liquid and tiny hairs, the vibrations are turned into electrical signals. These signals travel along a nerve to the brain, which understands them as sound.\n\nAll of this happens in an instant, thousands of times, as you listen. Our ears also help us know where a sound comes from and keep our balance. From a whisper to a song, hearing is a quiet miracle that connects us to the world around us every single moment.",
+        summaryJa: "耳が音を聞く仕組みについて。今あなたは声や音楽、機械の音など多くの音を聞いているかもしれない。聞くことは一瞬で楽に思えるが、その裏では、耳が空気中の見えない波を脳が理解できる音に変える見事な旅がある。音は振動から始まる。ギターの弦や人の声など何かが震えると、周りの空気が小さな波となって動く。この音波は水の波紋のように四方へ広がる。見えないが耳が捉える。外耳は見える部分でカップのように音波を集め、細い管へ導く。管の奥には鼓膜という薄く張った皮があり、音波が当たると太鼓のように震える。その振動は体で最も小さい三つの骨を通り、耳の奥へ伝わる。液体と小さな毛で満ちた渦巻き状の部分で振動が電気信号に変わり、神経を通り脳へ届き音として理解される。音の方向や平衡感覚にも役立つ。",
+        quiz: [
+          { q: "How does sound begin?", options: ["As a vibration that makes the air move in waves", "As a bright light", "As a smell"], answer: 0 },
+          { q: "What does the eardrum do when sound waves hit it?", options: ["It vibrates like a tiny drum", "It makes light", "It stops moving"], answer: 0 },
+          { q: "What happens in the spiral part of the ear?", options: ["Vibrations are turned into electrical signals for the brain", "Food is digested", "Air is cleaned"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-21",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is a rainbow really made of?", options: ["Sunlight, rain, and your eyes working together", "Colored glass in the sky", "Painted clouds"], answer: 0 },
           { q: "What happens when sunlight passes through a raindrop?", options: ["It bends and splits into separate colors", "It disappears", "It turns to rain"], answer: 0 },
           { q: "Where does a rainbow always appear?", options: ["In the part of the sky opposite the Sun", "Right next to the Sun", "Only straight above you"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-15",
-    passages: [
-      {
-        id: "d1015-1",
-        title: "What Are Stocks and Shares?",
-        level: "★★★",
-        genre: "ビジネス",
-        text: "In the business news, you often hear that markets have \"gone up\" or \"fallen.\" These reports are about stocks, also called shares. A share is a small piece of ownership in a company. If you own shares in a business, you own a tiny part of it. But why do companies sell pieces of themselves, and why do people buy them?\n\nCompanies sell shares mainly to raise money. Suppose a company wants to build a new factory but does not have enough cash. Instead of only borrowing from a bank, it can sell shares to the public. Many people each pay a little, and together they provide a large sum. In return, those people become part-owners.\n\nPeople buy shares hoping to gain in two ways. First, if the company does well and grows, the value of each share may rise, so the shares can be sold later for more than they cost. Second, some companies share part of their profits with owners through regular payments called dividends.\n\nBut shares carry risk. If a company does badly, the value of its shares can fall, and owners may lose money. Share prices also move up and down with the news, the economy, and even people's feelings. Some days, markets rise sharply; other days, they drop.\n\nUnderstanding shares helps people follow the economy and make careful choices. Owning part of a company can be rewarding, but it is never a sure thing. Wise investors learn to think long-term and never risk money they cannot afford to lose.",
-        summaryJa: "株式とは何かについて。ニュースで市場が「上がった」「下がった」と聞くのは株式（シェア）の話だ。株は会社の所有権の小さな一片で、株を持てばその会社のごく一部を所有することになる。会社が株を売る主な理由は資金調達だ。新工場を建てたいが現金が足りない時、銀行から借りるだけでなく一般に株を売れる。多くの人が少しずつ払い、合わせて大きな額になり、買った人は共同所有者となる。買い手は二つの利益を期待する。会社が成長すれば株の価値が上がり高く売れること、利益の一部が配当として分配されること。だが会社が不振なら株価は下がり損もする。株価は報道や景気、人々の気分でも動く。長期で考え、失ってよい範囲でと賢い投資家は学ぶ。",
-        quiz: [
-          { q: "What is a share?", options: ["A small piece of ownership in a company", "A type of bank loan", "A government tax"], answer: 0 },
-          { q: "Why do companies sell shares?", options: ["Mainly to raise money", "To lose customers", "To close down"], answer: 0 },
-          { q: "What is a risk of owning shares?", options: ["Their value can fall and you may lose money", "They always rise", "They are free"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1015-2",
-        title: "How Rockets Reach Space",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Launching a rocket into space is one of the most dramatic sights in science. With a roar and a cloud of smoke, a tall machine rises slowly, then faster and faster, until it disappears into the sky. But how does a rocket escape the pull of the Earth and reach space?\n\nThe main challenge is gravity. Earth's gravity pulls everything down, so to leave the ground, a rocket must push upward with enormous force. Rockets create this force by burning fuel very quickly. As the fuel burns, it makes hot gas, which shoots out of the bottom of the rocket at great speed. This rushing gas pushes the rocket in the opposite direction, upward. It is the same idea as letting go of a balloon and watching it fly around the room.\n\nA rocket must also go incredibly fast. To stay in orbit around the Earth, it needs to travel at about 28,000 kilometers per hour. At that speed, it keeps falling toward the Earth but keeps missing it, circling the planet instead.\n\nBecause so much fuel is needed, most rockets are built in parts called stages. When the first stage uses up its fuel, it drops away, making the rocket lighter so the next stage can push on. In the past, these parts were lost, but today some companies land them again to reuse them.\n\nReaching space is difficult and expensive, yet rockets have carried people to the Moon and machines across the solar system, turning the dream of space travel into reality.",
-        summaryJa: "ロケットが宇宙へ到達する仕組みについて。ロケットの打ち上げは科学で最も劇的な光景の一つで、轟音と煙とともに背の高い機体がゆっくり、やがて速く上昇し空へ消える。最大の課題は重力だ。地球の重力は全てを下へ引くため、離陸には巨大な上向きの力が要る。ロケットは燃料を一気に燃やし、高温のガスを機体の下から高速で噴き出す。そのガスが反対方向（上）へロケットを押す。風船を手放すと飛び回るのと同じ原理だ。さらに猛烈な速さが必要で、地球を回る軌道に乗るには時速約2万8千キロで進む。落ち続けながら地球をかすめ続け周回する。燃料が大量に要るため多くは段（ステージ）に分かれ、使い切った段を切り離して軽くする。近年は再利用のため着陸させる企業もある。",
-        quiz: [
-          { q: "How does a rocket push itself upward?", options: ["By shooting hot gas out of the bottom at great speed", "By flapping wings", "By using a big fan"], answer: 0 },
-          { q: "Why does a rocket need to go so fast to stay in orbit?", options: ["So it keeps falling toward Earth but keeps missing it", "So it can make noise", "So it can turn colors"], answer: 0 },
-          { q: "Why are rockets built in stages?", options: ["To drop empty parts and become lighter", "To look taller", "To carry more passengers only"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1015-3",
-        title: "How Does International Mail Reach You?",
-        level: "★★☆",
-        genre: "世界情勢",
-        text: "Imagine sending a letter or a small parcel from Japan to a friend in Brazil. It travels thousands of kilometers, crosses several countries, and is handled by different postal workers who speak different languages. Yet, with the right address and stamp, it usually arrives. How does mail travel so smoothly between nations?\n\nThe answer is quiet international cooperation. Long ago, sending mail abroad was difficult. Each country had its own rules, and senders sometimes had to pay several different postal services along the way. To fix this, countries agreed to work together and created an organization to set shared rules for international post.\n\nThanks to these rules, the system is simple for the sender. You pay postage only once, in your own country, using your own stamps. Your national post office then passes the mail to the next country, which carries it onward. The countries settle the costs between themselves later. In this way, many separate postal services act like one giant network.\n\nShared standards make it work. Addresses follow common patterns, and special codes help machines sort millions of items quickly. Airplanes, ships, trucks, and trains all play a part in the journey.\n\nToday, people send fewer letters, but online shopping has created a flood of parcels crossing borders. The old system has had to grow and change to keep up.\n\nThe next time a postcard arrives from far away, remember the quiet agreement between nations that carried it. It is a small, everyday example of how the world chooses to cooperate.",
-        summaryJa: "国際郵便が届く仕組みについて。日本からブラジルの友人へ手紙や小包を送ると、何千キロも旅し、いくつもの国を越え、言語の違う郵便職員が扱う。それでも正しい住所と切手があればたいてい届く。なぜ国家間をなめらかに運べるのか。答えは静かな国際協力だ。昔は各国の規則が異なり、途中で複数の郵便に支払うこともあった。これを解決するため各国が協力し、国際郵便の共通規則を定める組織を作った。おかげで送り手は自国で一度切手を貼るだけでよく、自国の郵便が次の国へ渡し、各国が後で費用を精算する。多くの郵便が一つの巨大網のように働く。住所の共通様式や郵便番号で機械が高速に仕分ける。近年は手紙が減る一方、通販で小包が国境を越えて急増している。",
-        quiz: [
-          { q: "Why was sending mail abroad difficult long ago?", options: ["Each country had its own rules and separate payments", "There was no paper", "No one could write"], answer: 0 },
-          { q: "How many times does the sender usually pay postage?", options: ["Once, in their own country", "In every country it passes", "Never"], answer: 0 },
-          { q: "What has recently increased international mail?", options: ["Online shopping creating many parcels", "Fewer people on Earth", "The end of airplanes"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1015-4",
-        title: "Karaoke: Singing Together in Japan",
-        level: "★★☆",
-        genre: "日本",
-        text: "Few forms of entertainment are as closely linked to Japan as karaoke. The word means empty orchestra, because the music plays without a singer, leaving the singing to you. Invented in Japan in the 1970s, karaoke has since spread to almost every country in the world.\n\nKaraoke is simple. A machine plays the music of a popular song while the words appear on a screen. Singers follow the words and sing along, with no need to remember the lyrics. It does not matter if you are a great singer or a terrible one; the point is to have fun.\n\nIn Japan, people often enjoy karaoke in special places called karaoke boxes. These are small private rooms that a group can rent by the hour. Friends, families, or coworkers go inside, order drinks and snacks, and take turns singing just for each other. Because the room is private, even shy people feel brave enough to try.\n\nKaraoke plays an important social role. After a long day, coworkers may go together to sing and relax, growing closer in a way that a formal meeting never allows. For many people, it is a cheerful way to release stress and share laughter.\n\nFrom a simple machine to a worldwide hobby, karaoke shows how a fun idea can cross every border. Whether sung well or badly, a karaoke song is really about something universal: the simple joy of making music and sharing a happy moment with others.",
-        summaryJa: "日本のカラオケについて。カラオケほど日本と結びついた娯楽は少ない。「空（から）のオーケストラ」を意味し、歌手なしで音楽が流れ、歌うのはあなた自身だ。1970年代に日本で生まれ、今や世界中に広まった。仕組みは簡単で、機械が人気曲の音楽を流し、画面に歌詞が出る。歌手はそれを追って歌え、歌詞を覚える必要がない。上手でも下手でも関係なく、楽しむことが目的だ。日本では「カラオケボックス」という時間貸しの小さな個室で楽しむことが多く、友人や家族、同僚が入って飲食し、順に歌う。個室なので恥ずかしがり屋も挑戦できる。長い一日の後に同僚と歌って打ち解け、ストレス発散にもなる。楽しい発想が国境を越えることを示す。",
-        quiz: [
-          { q: "What does the word 'karaoke' mean?", options: ["Empty orchestra", "Loud music", "Happy song"], answer: 0 },
-          { q: "What is a 'karaoke box'?", options: ["A small private room a group can rent", "A kind of radio", "A type of drink"], answer: 0 },
-          { q: "What social role does karaoke play in Japan?", options: ["Helping coworkers relax and grow closer", "Replacing all meetings", "Teaching people to cook"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1015-5",
-        title: "Why Is the Ocean Salty?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "If you have ever swum in the sea and tasted the water by accident, you know it is very salty. Rivers and lakes, however, are usually fresh, with little or no salt. This raises a curious question: if rivers flow into the sea, and rivers are not salty, why is the ocean so full of salt?\n\nThe answer begins on land. Rainwater is slightly acidic, and as it flows over rocks and soil, it slowly breaks them down. In doing so, it picks up tiny amounts of minerals, including salt. You cannot taste this salt in a river because the amount is so small. But every river carries this slight saltiness toward the sea.\n\nHere is the key. When seawater sits under the hot Sun, some of it evaporates, turning into vapor and rising to form clouds. But when water evaporates, it leaves the salt behind. So fresh water keeps arriving from rivers, carrying a little more salt each time, while pure water keeps leaving through evaporation. Over millions of years, the salt has built up, making the sea steadily saltier.\n\nSome places are saltier than others. In very hot areas where lots of water evaporates, the sea can be especially salty. In colder places, or where many rivers pour in, the water is less salty.\n\nSo the ocean's saltiness is the result of a slow, patient process, drop by drop, over an unimaginably long time. The sea is, in a way, a record of the land slowly dissolving into the water.",
-        summaryJa: "海が塩辛い理由について。海で誤って海水を味わえば、とても塩辛いと分かる。一方、川や湖はたいてい真水で塩はほとんどない。川が海に流れ込み、川は塩辛くないのに、なぜ海は塩でいっぱいなのか。答えは陸から始まる。雨水はわずかに酸性で、岩や土を流れるうちに少しずつ溶かし、塩を含む微量の鉱物を拾う。川では量が少なく味を感じないが、どの川もこのわずかな塩気を海へ運ぶ。鍵はここだ。海水が太陽で温まると一部が蒸発して雲になるが、蒸発時に塩は残される。川から真水が塩を運び続け、蒸発で純水だけが出ていくため、何百万年もかけて塩がたまり海は徐々に塩辛くなった。暑い地域の海は特に塩辛く、寒い地域や川が多い所は塩分が低い。",
-        quiz: [
-          { q: "Where does the salt in the ocean mainly come from?", options: ["Minerals that rivers pick up from rocks and soil", "Fish making salt", "Salt falling from the sky"], answer: 0 },
-          { q: "Why does salt build up in the sea?", options: ["Water evaporates and leaves the salt behind", "The sea eats salt", "Rivers remove salt"], answer: 0 },
-          { q: "Where is the sea especially salty?", options: ["In very hot areas where lots of water evaporates", "Where many rivers pour in", "In cold places only"], answer: 0 }
         ]
       }
     ]
