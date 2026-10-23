@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-23",
+    passages: [
+      {
+        id: "d1023-1",
+        title: "Why Negotiation Is an Important Skill",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Negotiation happens when two or more people with different wishes try to reach an agreement. It may sound like something only lawyers or business leaders do, but in truth, we all negotiate. Agreeing on a price, deciding where to eat with friends, or asking for more time on a task are all small negotiations. In business, the skill is especially valuable.\n\nMany people think negotiation means winning while the other side loses. Good negotiators know this is often a mistake. The best result is usually one where both sides feel satisfied, sometimes called a \"win-win.\" When both parties are happy, they are more likely to keep the agreement and to do business again in the future.\n\nHow can someone negotiate well? The first step is preparation. Before a talk, it helps to know clearly what you want, what you can offer, and what the other side might need. During the talk, listening is just as important as speaking. By understanding what the other person truly wants, you can often find a solution that helps you both.\n\nPatience and respect also matter. A calm, polite tone keeps the conversation friendly, even during disagreement. Rushing or using pressure may win once, but it can damage trust and future relationships.\n\nNegotiation is not about tricks; it is about communication and problem-solving. Whether you are agreeing on a business deal or simply planning a weekend, the ability to negotiate well helps you reach fair agreements and build stronger relationships with the people around you.",
+        summaryJa: "交渉が重要な技能である理由について。交渉とは、異なる望みを持つ二人以上が合意を目指すときに起こる。弁護士や経営者だけのものに聞こえるが、実は誰もが交渉している。値段の合意、友人との食事場所決め、仕事の期限延長の依頼も小さな交渉だ。ビジネスでは特に価値が高い。多くの人は交渉を、相手が負けて自分が勝つことだと思うが、良い交渉者はそれが誤りだと知る。最良は双方が満足する「ウィンウィン」で、両者が満足すれば合意が守られ再び取引しやすい。上手に交渉するにはまず準備で、自分の望み・提供できるもの・相手の必要を把握する。話す時は聞くことも同じく大切だ。忍耐と敬意も重要で、焦りや圧力は一度は勝てても信頼を損なう。交渉は駆け引きでなく意思疎通と問題解決だ。",
+        quiz: [
+          { q: "What is a 'win-win' result?", options: ["One where both sides feel satisfied", "One where one side loses badly", "One where no one agrees"], answer: 0 },
+          { q: "What is the first step to negotiating well?", options: ["Preparation", "Shouting loudly", "Leaving early"], answer: 0 },
+          { q: "Why can using pressure be a problem?", options: ["It can damage trust and future relationships", "It always works forever", "It makes everyone happy"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1023-2",
+        title: "How a Camera Takes a Photo",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "With a phone in our pocket, most of us can take a photograph in an instant. We press a button, and a moment is saved forever. But behind that simple tap is a clever process that captures light and turns it into a picture. How does a camera actually work?\n\nThe most important idea is light. A camera cannot see in the dark, because a photograph is really a record of light. Every object we see is reflecting light, and a camera's job is to collect that light and save the pattern it makes.\n\nAt the front of every camera is a lens, a curved piece of glass. The lens gathers the light coming from a scene and bends it, focusing it to form a sharp image inside the camera. If the lens is not focused correctly, the picture looks blurry.\n\nLong ago, this light fell onto film coated with chemicals that changed when light hit them. Today, most cameras are digital. The light falls instead on a small electronic chip called a sensor. The sensor is covered with millions of tiny points that each measure how much light and what color they receive. A computer inside the camera turns all these measurements into the image you see on the screen.\n\nA camera also controls how much light enters and for how long. In bright sun, it lets in less; in a dark room, more. By capturing light so carefully, a camera lets us freeze a single moment and keep it, long after the moment itself has passed.",
+        summaryJa: "カメラが写真を撮る仕組みについて。ポケットのスマホで、私たちは一瞬で写真を撮れる。ボタンを押せば一瞬が永遠に保存される。だがその単純な操作の裏には、光を捉えて絵に変える巧妙な過程がある。最も重要なのは光だ。写真は実は光の記録で、暗闇では撮れない。見える物は皆光を反射し、カメラはその光を集めて模様を保存する。前面にはレンズという曲面ガラスがあり、景色からの光を集めて曲げ、内部に鮮明な像を結ぶ。焦点が合わないとぼやける。昔は光が化学物質を塗ったフィルムに当たったが、今はほとんどデジタルで、光はセンサーという小さな電子チップに当たる。センサーは無数の点で光量と色を測り、内部のコンピューターが像に変える。入る光の量と時間も調整し、明るい日は少なく暗い部屋では多く取り込む。一瞬を凍らせて残せる。",
+        quiz: [
+          { q: "What is a photograph really a record of?", options: ["Light", "Sound", "Smell"], answer: 0 },
+          { q: "What does the lens do?", options: ["Gathers and focuses light to form a sharp image", "Stores the photos", "Makes the camera heavy"], answer: 0 },
+          { q: "What does a digital camera's sensor do?", options: ["Measures how much light and what color it receives", "Plays music", "Prints the photo on film"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1023-3",
+        title: "How Countries Work Together to Protect the Oceans",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "The ocean covers more than two-thirds of our planet. It gives us food, produces much of the oxygen we breathe, and helps control the world's climate. Yet the ocean is in trouble. Pollution, overfishing, and warming waters are harming it. Because no single country owns the open sea, protecting the ocean has become a task the whole world must share.\n\nMuch of the ocean lies beyond any country's borders, in waters that belong to everyone and to no one. This makes rules hard to set and harder to enforce. To solve this, nations meet and agree on shared rules: how much fish may be caught, how waste may be dumped, and which areas should be protected.\n\nOne important effort is the creation of marine protected areas, special zones where fishing and other activities are limited so that sea life can recover. When countries agree to protect these areas together, fish populations can grow again, helping everyone in the long run.\n\nPollution is another shared problem. Plastic thrown away in one country can float across the sea and wash up on a beach far away. For this reason, nations work together to reduce plastic waste and clean the water.\n\nProgress is slow and not always easy, because countries have different needs and interests. But there have been real successes, such as the return of some whale populations once hunted almost to extinction. The ocean connects every coast on Earth, and caring for it is a duty, and a hope, that all nations share.",
+        summaryJa: "各国が協力して海を守る仕組みについて。海は地球の3分の2以上を覆い、食料を与え、呼吸する酸素の多くを作り、気候の調整も助ける。だが海は危機にあり、汚染・乱獲・水温上昇が損なっている。外洋はどの国の所有でもないため、海の保護は世界全体が分担すべき課題だ。海の多くは国境の外、誰のものでもなく皆のものである海域にあり、規則の設定も施行も難しい。そこで各国は会合し、漁獲量や廃棄、保護区域などの共通規則に合意する。重要な取り組みが海洋保護区の設定で、漁などを制限し海の生き物を回復させる。各国が共同で守ると魚が再び増える。プラスチック汚染も共通問題で、ある国のごみが遠い浜に漂着するため協力して削減する。進みは遅いが、絶滅寸前だったクジラの回復など成果もある。",
+        quiz: [
+          { q: "Why is protecting the ocean a shared world task?", options: ["No single country owns the open sea", "Only one country has an ocean", "The ocean is tiny"], answer: 0 },
+          { q: "What is a 'marine protected area'?", options: ["A zone where fishing and activities are limited so sea life can recover", "A place to dump waste", "A fishing competition"], answer: 0 },
+          { q: "How can plastic from one country harm another?", options: ["It can float across the sea and wash up far away", "It stays in one place forever", "It turns into fish"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1023-4",
+        title: "Washi: Traditional Japanese Paper",
+        level: "★★☆",
+        genre: "日本",
+        text: "Most of the paper we use today is made quickly in large factories. But in Japan, there is a special kind of paper made slowly by hand, following methods hundreds of years old. It is called washi, which simply means Japanese paper. Strong, beautiful, and long-lasting, washi is treasured both as a craft and as an art.\n\nWashi is not made from ordinary wood pulp like most modern paper. Instead, it is made from the inner bark of certain plants, such as the mulberry tree. The long, tough fibers of these plants give washi its special strength. Skilled makers soak, clean, and beat the fibers, then spread them thinly over a screen in water. As the water drains away, a sheet of paper forms, which is then carefully dried.\n\nBecause washi is so strong, it has many uses. In traditional Japanese homes, it is used in sliding doors and paper screens that let soft light into a room. It is also used for calligraphy, for origami, for lanterns, and for repairing old books and artworks, even in famous museums around the world.\n\nMaking washi takes time, patience, and skill, and the number of makers has fallen over the years. To protect this tradition, washi has been recognized as an important part of cultural heritage.\n\nIn an age of cheap, throwaway products, washi reminds us of the beauty of things made slowly and with care. A single sheet can last for centuries, carrying the skill of its maker far into the future.",
+        summaryJa: "日本の伝統的な和紙について。今日使う紙の多くは大きな工場で速く作られる。だが日本には、数百年前からの手法で手作業により時間をかけて作る特別な紙がある。それが「和紙」、つまり日本の紙だ。丈夫で美しく長持ちし、工芸かつ芸術として大切にされる。和紙は普通の紙のような木材パルプでなく、楮（こうぞ）などの植物の内皮から作る。その長く強い繊維が和紙に特別な強さを与える。熟練者は繊維を浸し洗い叩き、水中で薄く漉き、水が抜けると紙ができ、丁寧に乾かす。丈夫なので用途は多く、障子や襖、書道、折り紙、提灯、古書や美術品の修復（世界の有名美術館でも）に使われる。作るには時間と忍耐と技が要り、作り手は減ったため、文化遺産として守られている。ゆっくり丁寧に作る美を思い出させる。",
+        quiz: [
+          { q: "What is washi made from?", options: ["The inner bark of plants like the mulberry tree", "Plastic", "Metal"], answer: 0 },
+          { q: "Why does washi have special strength?", options: ["The long, tough fibers of the plants", "It is very thick", "It is made by machines"], answer: 0 },
+          { q: "What is one traditional use of washi?", options: ["Sliding doors and paper screens in homes", "Building cars", "Making roads"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1023-5",
+        title: "How Do Plants Spread Their Seeds?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "A plant has a problem that we rarely think about: it cannot walk. Rooted in one spot, a plant cannot carry its seeds to new ground. Yet if all its seeds simply fell at its feet, the young plants would crowd together and fight for light and water. So over millions of years, plants have found many clever ways to send their seeds far away.\n\nOne common method is the wind. Some seeds, like those of the dandelion, are light and have tiny hairs that act like a parachute, carrying them on the breeze. Others, like the seeds of maple trees, have little wings that make them spin and glide away from the parent tree.\n\nMany plants use animals instead. They grow sweet, tasty fruit around their seeds. An animal eats the fruit, walks far away, and later drops the seeds in its waste, often with natural fertilizer. Other seeds have tiny hooks that stick to the fur of passing animals, or to people's clothes, and are carried to new places.\n\nWater is another helper. Some seeds can float, drifting down rivers or across the sea to distant shores. The coconut, for example, can travel a long way by ocean before growing on a new beach.\n\nA few plants even launch their own seeds, with pods that burst open and throw them into the air. In all these ways, a plant that cannot move still manages to travel the world, one seed at a time.",
+        summaryJa: "植物が種を広げる仕組みについて。植物には、私たちがあまり考えない問題がある。歩けないのだ。一か所に根を張り、種を新しい土地へ運べない。だが全ての種が足元に落ちれば、若い植物が密集し光や水を奪い合う。そこで植物は何百万年もかけ、種を遠くへ送る巧妙な方法を数多く見つけた。一つは風で、タンポポの種は軽く、細い毛がパラシュートのように風に乗せる。楓の種には小さな翼があり、回転し滑空して親木から離れる。多くは動物を使い、種の周りに甘くおいしい果実を作る。動物が食べて遠くへ行き、糞とともに種を落とし、天然の肥料も付く。小さな鉤で動物の毛や人の服にくっつく種もある。水も助けで、川や海を漂う種があり、ヤシの実は海を長く旅して新しい浜で育つ。種を自ら飛ばす植物もある。",
+        quiz: [
+          { q: "Why do plants need to spread their seeds far away?", options: ["So young plants don't crowd and fight for light and water", "To make noise", "To stay in one spot"], answer: 0 },
+          { q: "How does a dandelion seed travel?", options: ["On the wind, using tiny hairs like a parachute", "By swimming", "By walking"], answer: 0 },
+          { q: "How do some seeds use animals?", options: ["Animals eat the fruit and drop seeds far away", "Animals paint the seeds", "Animals cook the seeds"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-22",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is the main reason birds migrate?", options: ["To find food", "To get lost", "To avoid flying"], answer: 0 },
           { q: "Why do many birds travel to the far north in spring?", options: ["It is a good, safe place to breed", "It has no food", "It is always dark"], answer: 0 },
           { q: "How do scientists think birds find their way?", options: ["Using the Sun, stars, landmarks, and Earth's magnetic field", "By asking people", "By reading maps"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-16",
-    passages: [
-      {
-        id: "d1016-1",
-        title: "Why Companies Recall Products",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Sometimes a company announces that it is \"recalling\" one of its products. This means it is asking customers to return or stop using something they already bought, usually because a problem has been found. A car maker might recall cars with a faulty part, or an electronics company might recall a machine that could overheat. Recalls can be costly and embarrassing, so why do companies do them?\n\nThe main reason is safety. If a product could hurt someone, a responsible company must act quickly, even if it loses money. For example, if a washing machine has a part that might catch fire, the company will offer to repair or replace it for free. Fixing the problem early is far better than waiting for someone to be harmed.\n\nRecalls also protect something less visible but very valuable: trust. Customers are more likely to forgive a company that admits a mistake and fixes it than one that tries to hide a danger. A well-handled recall can even show that a company cares about its customers.\n\nIn many countries, laws require companies to report serious product problems. Government agencies watch over this process and can order a recall if a company does not act. This system helps keep dangerous goods off the shelves.\n\nOf course, recalls cost money and can damage a brand for a time. But the alternative, leaving an unsafe product in people's homes, is far worse. In the end, a recall is a company choosing safety and honesty over short-term profit.",
-        summaryJa: "企業が製品を回収（リコール）する理由について。企業が製品を「リコール」すると発表することがある。これは問題が見つかったために、すでに購入した製品の返却や使用中止を客に求めることだ。自動車会社が不具合部品の車を回収したり、電機会社が過熱の恐れある機械を回収したりする。費用もかかり体面も悪いのになぜ行うのか。主な理由は安全だ。人を傷つけうる製品には、損をしても責任ある企業は素早く動く。例えば発火の恐れある洗濯機の部品は無償で修理・交換する。早く直す方が、誰かが害を受けるのを待つよりずっと良い。リコールは信頼も守る。隠すより過ちを認め直す企業の方が許されやすい。多くの国で重大な問題の報告が法で義務づけられ、政府機関が監督する。安全と誠実を短期利益より優先する選択だ。",
-        quiz: [
-          { q: "What does it mean when a company 'recalls' a product?", options: ["It asks customers to return or stop using it", "It sells more of it", "It raises its price"], answer: 0 },
-          { q: "What is the main reason companies recall products?", options: ["Safety", "To make more money quickly", "To win awards"], answer: 0 },
-          { q: "Why can a well-handled recall help a company?", options: ["It can protect customers' trust", "It hides all problems", "It removes all laws"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1016-2",
-        title: "How Self-Driving Cars Work",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "For many years, a car that drives itself was only an idea in science fiction. Today, real self-driving cars are being tested on roads around the world. These vehicles can steer, brake, and change lanes with little or no help from a human. But how can a car \"see\" the road and make safe decisions on its own?\n\nA self-driving car depends on sensors, its electronic eyes and ears. Cameras watch for traffic lights, road signs, and lane markings. Radar measures the distance to other cars, even in rain or fog. Many cars also use a system called lidar, which sends out laser beams to build a detailed three-dimensional map of everything around the vehicle. Together, these sensors give the car a full picture of its surroundings.\n\nAll this information flows into a powerful computer, the car's \"brain.\" Using software, the computer decides what to do: when to slow down, when to turn, and when to stop. It must make these choices many times each second, faster than a human could.\n\nSome new systems also share information. Cars can receive data from road sensors and traffic signals, helping them understand what is happening even around a corner they cannot see.\n\nSelf-driving cars are not yet perfect. They can struggle with unusual situations, bad weather, or confusing road work. But supporters hope that one day they will reduce accidents, since most crashes are caused by human mistakes. The road ahead is long, but the technology keeps moving forward.",
-        summaryJa: "自動運転車の仕組みについて。長年、自ら走る車はSFの中の発想だったが、今や実物が世界各地の道路で試験されている。人の助けをほとんど借りずにハンドル操作・ブレーキ・車線変更ができる。どうやって道を「見て」安全に判断するのか。鍵はセンサー、いわば電子の目と耳だ。カメラは信号・標識・車線を見張り、レーダーは雨や霧でも他車との距離を測る。多くはライダーという装置でレーザーを放ち周囲の立体地図を作る。これらが車に周囲の全体像を与える。情報は強力なコンピューター（車の「脳」）に集まり、ソフトが減速・曲がる・止まるを毎秒何度も判断する。道路センサーや信号の情報を受け取り、見えない角の先を知る車もある。まだ完璧でないが、事故削減が期待される。",
-        quiz: [
-          { q: "What do the sensors on a self-driving car act as?", options: ["Its electronic eyes and ears", "Its engine", "Its seats"], answer: 0 },
-          { q: "What does lidar do?", options: ["Sends laser beams to build a 3D map of the surroundings", "Plays music", "Cleans the windows"], answer: 0 },
-          { q: "Why do supporters hope self-driving cars will reduce accidents?", options: ["Most crashes are caused by human mistakes", "Cars never move", "Humans drive perfectly"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1016-3",
-        title: "Keeping the Skies Safe: Shared Air-Travel Rules",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "At this very moment, thousands of airplanes are flying above the Earth, carrying millions of people between countries. A plane might take off in one nation, cross the airspace of several others, and land on a different continent. For this to happen safely every day, the countries of the world must follow the same rules. Air travel is one of the clearest examples of global cooperation.\n\nLong ago, as flying grew popular, a problem appeared. Each country had its own ideas about how planes should operate. But an airplane does not stop at a border, so different rules could be dangerous. To solve this, nations agreed to create shared standards for flying, managed through international cooperation.\n\nToday, these shared rules cover almost everything. Pilots around the world are trained to similar standards. Air traffic controllers use English as a common language, so a pilot from Japan and a controller in France can understand each other. Even the markings on runways and the meaning of signals are the same worldwide.\n\nSafety is the greatest goal. When a serious accident happens, experts from different countries often investigate together, and the lessons are shared so the same mistake is less likely to happen again anywhere.\n\nThis cooperation does not remove competition between airlines, nor does it erase borders. Instead, it shows that on certain shared challenges, countries gain far more by agreeing than by acting alone. Every safe landing is a quiet reminder that the world can, when it chooses, work as one.",
-        summaryJa: "空の安全を支える国際的な航空ルールについて。今この瞬間も何千もの飛行機が地球上空を飛び、何百万もの人を国から国へ運んでいる。ある国で離陸し、いくつもの国の空を越え、別の大陸に着陸することもある。これを毎日安全に行うには、世界の国々が同じルールに従う必要がある。航空は国際協力の最も分かりやすい例の一つだ。昔、飛行機が普及すると各国の考えが異なり危険だった。飛行機は国境で止まらないため、各国は共通基準を作ることで合意した。今やルールはほぼ全てを網羅し、操縦士の訓練水準は世界共通、管制官は英語を共通言語に使い、滑走路の表示や合図の意味も世界共通だ。重大事故は各国の専門家が共同調査し教訓を共有する。合意する方が単独より得だと示している。",
-        quiz: [
-          { q: "Why do countries need shared rules for air travel?", options: ["Airplanes cross borders, so different rules would be dangerous", "Planes never leave one country", "Rules make flying slower"], answer: 0 },
-          { q: "What common language do air traffic controllers use?", options: ["English", "Only their own language", "No language at all"], answer: 0 },
-          { q: "What happens after a serious air accident?", options: ["Experts from different countries investigate and share lessons", "Everyone forgets it", "All planes are destroyed"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1016-4",
-        title: "Chopsticks: How to Use Them in Japan",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, most meals are eaten with a pair of thin sticks called chopsticks, or hashi. For visitors who have never used them, they can seem tricky at first, but with a little practice, they become easy and even enjoyable. Learning to use chopsticks is a small but useful step into Japanese daily life.\n\nTo hold chopsticks, you rest one stick on your ring finger and the base of your thumb, keeping it still. You move the other stick with your thumb, index, and middle fingers, like holding a pencil. Only the top stick moves, pinching food between the two tips. It takes practice, but soon it feels natural.\n\nIn Japan, there are also polite manners to follow. Some actions are considered rude because they remind people of customs used at funerals. For example, you should never stick your chopsticks straight up in a bowl of rice, and you should not pass food directly from your chopsticks to someone else's. When you are not using them, you rest the chopsticks neatly on a small holder or across your bowl.\n\nChopsticks are usually made of wood, bamboo, or plastic, and many families have their own favorite pairs. In restaurants, simple wooden chopsticks are often split apart from a single piece just before the meal.\n\nMore than just tools for eating, chopsticks reflect a culture of care and respect at the table. Using them well, and politely, is a simple way to show appreciation for the meal and for the people sharing it.",
-        summaryJa: "日本での箸の使い方について。日本ではほとんどの食事を「箸」という細い二本の棒で食べる。初めての人には難しく見えるが、少し練習すれば簡単で楽しくなる。箸を使えることは日本の日常への小さな一歩だ。持ち方は、一本を薬指と親指の付け根に乗せて動かさず、もう一本を親指・人さし指・中指で鉛筆のように動かす。上の箸だけを動かし、二本の先で食べ物をつまむ。作法もあり、葬儀を連想させる動作は失礼とされる。例えばご飯に箸を立てたり、箸から箸へ直接食べ物を渡したりしない。使わない時は箸置きや器の上に置く。箸は木・竹・プラスチック製で、割り箸は食前に割る。食事と同席者への敬意を示す文化を映す。",
-        quiz: [
-          { q: "How do you use chopsticks?", options: ["Keep one stick still and move the other like a pencil", "Move both sticks wildly", "Hold them in your fist only"], answer: 0 },
-          { q: "What is considered rude in Japan?", options: ["Sticking chopsticks straight up in a bowl of rice", "Using a chopstick holder", "Eating quietly"], answer: 0 },
-          { q: "What do chopsticks reflect, according to the passage?", options: ["A culture of care and respect at the table", "A dislike of food", "A love of noise"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1016-5",
-        title: "How Do Rainbows Form?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "After a rain shower, when the Sun comes out again, you may see one of nature's most beautiful sights: a rainbow arching across the sky. Its band of colors, from red to violet, has amazed people for thousands of years. But a rainbow is not really an object in the sky. It is made of sunlight, rain, and your own eyes working together.\n\nThe secret is that sunlight, which looks white, is really a mixture of all colors. Normally these colors travel together and we do not notice them. But when sunlight passes through a raindrop, something special happens. As the light enters the drop, it bends, and the different colors bend by slightly different amounts. The light bounces off the back of the drop and bends again as it comes out. This spreads the white light into its separate colors, like a tiny prism.\n\nMillions of raindrops do this at the same time. Each drop sends a particular color toward your eyes, depending on its position in the sky. Together, all these drops create the great arc of colors we call a rainbow.\n\nA rainbow always appears in the part of the sky opposite the Sun. That is why you see them when the Sun is low, in the morning or late afternoon, with rain in front of you. Because the rainbow depends on where you stand, no two people see exactly the same one. Your rainbow is truly your own.",
-        summaryJa: "虹のでき方について。雨上がりに太陽が出ると、空にかかる虹という自然の美しい光景が見える。赤から紫までの色の帯は何千年も人を驚かせてきた。だが虹は空にある物体ではなく、太陽光と雨とあなたの目が共に作るものだ。鍵は、白く見える太陽光が実は全ての色の混合であること。普段は色が一緒に進み気づかないが、光が雨粒を通ると特別なことが起こる。粒に入る時に光が曲がり、色ごとに曲がる量がわずかに違う。粒の奥で反射し、出る時にまた曲がって、白い光が小さなプリズムのように分かれる。無数の雨粒が同時にこれを行い、各粒が位置に応じた色を目へ送り、色の大きな弧になる。虹は必ず太陽と反対側に見え、立つ位置で変わるため、同じ虹を見る人はいない。",
-        quiz: [
-          { q: "What is a rainbow really made of?", options: ["Sunlight, rain, and your eyes working together", "Colored glass in the sky", "Painted clouds"], answer: 0 },
-          { q: "What happens when sunlight passes through a raindrop?", options: ["It bends and splits into separate colors", "It disappears", "It turns to rain"], answer: 0 },
-          { q: "Where does a rainbow always appear?", options: ["In the part of the sky opposite the Sun", "Right next to the Sun", "Only straight above you"], answer: 0 }
         ]
       }
     ]
