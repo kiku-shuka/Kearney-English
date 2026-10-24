@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-24",
+    passages: [
+      {
+        id: "d1024-1",
+        title: "Why Teamwork Matters at Work",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "In almost every workplace, people work in teams. A project may need a designer, a planner, a seller, and a manager, each doing a different part. Alone, no single person could finish the whole job well. This is why teamwork is one of the most important ideas in business.\n\nWhy does working as a team help? The first reason is that people have different skills. One person may be good with numbers, another with words, and another with people. When they combine their strengths, the team can do things that none of them could do alone. A good team is more than the sum of its members.\n\nTeamwork also brings better ideas. When people share their thoughts, they can build on one another's suggestions and spot mistakes before they cause harm. A problem that seems impossible to one person may be solved quickly when several minds think together.\n\nBut good teamwork does not happen by accident. It needs clear communication, so everyone knows who is doing what. It needs trust, so people are not afraid to share ideas or admit mistakes. And it needs respect, so that every voice, even a quiet one, is heard.\n\nOf course, teams can face problems too, such as disagreements or members who do not share the work fairly. Good leaders and open communication help solve these.\n\nIn the end, teamwork reflects a simple truth: most great things are not built by one person, but by many people working together toward a shared goal.",
+        summaryJa: "職場でチームワークが大切な理由について。ほぼどの職場でも人はチームで働く。あるプロジェクトには設計者・企画者・営業・管理者が必要で、それぞれが別の部分を担う。一人では全体をうまく仕上げられない。だからチームワークはビジネスで最も重要な考えの一つだ。役立つ理由の一つは、人それぞれ技能が違うこと。数字が得意な人、言葉が得意な人、人づきあいが得意な人が強みを合わせると、一人ではできないことができる。良いチームは構成員の総和以上だ。意見を出し合えば互いの案を発展させ、害が出る前に誤りに気づける。だが良いチームワークは偶然には生まれず、明確な意思疎通・信頼・敬意が要る。意見の対立や不公平な分担の問題もあり、良いリーダーと率直な対話が助ける。多くの偉業は一人でなく皆で成される。",
+        quiz: [
+          { q: "Why does working as a team help?", options: ["People combine their different skills", "One person does everything alone", "Nobody shares ideas"], answer: 0 },
+          { q: "What does good teamwork need?", options: ["Clear communication, trust, and respect", "Secrecy and fear", "No communication at all"], answer: 0 },
+          { q: "What simple truth does teamwork reflect?", options: ["Most great things are built by many people together", "One person builds everything", "Teams never succeed"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1024-2",
+        title: "How Noise-Cancelling Headphones Work",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "On a noisy train or a busy street, some people wear special headphones that seem to make the world go quiet. These are noise-cancelling headphones, and they do something that sounds almost impossible: they use sound to remove sound. How can adding more noise actually make things quieter?\n\nTo understand this, we need to remember that sound travels in waves, a pattern of rises and falls moving through the air. When a wave of sound reaches your ear, you hear it. The clever idea behind noise-cancelling headphones is that two waves can cancel each other out. If one wave rises at exactly the moment another falls, they meet and flatten, leaving silence.\n\nInside the headphones, a tiny microphone listens to the noise around you, such as the hum of an engine. A small computer instantly creates a new sound wave that is the exact opposite of that noise. When this opposite wave is played into your ears, it meets the unwanted noise and cancels much of it out. The steady hum seems to disappear.\n\nThis method works best on low, steady sounds, like the drone of an airplane. Sudden, sharp sounds, like a voice, are harder to cancel completely. That is why these headphones are popular with travelers who want to rest on long journeys.\n\nBy quietly producing the opposite of noise, these headphones create a small island of calm. They are a clever example of how understanding the science of sound can make everyday life more peaceful.",
+        summaryJa: "ノイズキャンセリング・ヘッドホンの仕組みについて。騒がしい電車や通りで、世界を静かにするような特別なヘッドホンを着ける人がいる。これがノイズキャンセリング・ヘッドホンで、音を使って音を消すという一見不可能なことをする。なぜ音を足すと静かになるのか。音は波として空気中を伝わる上下の模様で、耳に届くと聞こえる。巧妙なのは、二つの波が互いに打ち消し合える点だ。一方が上がる瞬間にもう一方が下がれば、出会って平らになり静けさが残る。ヘッドホン内の小さなマイクが周囲の騒音（エンジンの唸りなど）を聞き、小さなコンピューターが瞬時にその正反対の波を作る。それを耳に流すと騒音と出会い大部分を打ち消す。低く一定の音に最も効き、声のような突発音は完全には消しにくい。だから長旅で休みたい旅行者に人気だ。",
+        quiz: [
+          { q: "What clever idea do noise-cancelling headphones use?", options: ["Two sound waves can cancel each other out", "They make the ear sleep", "They block the ears with cotton"], answer: 0 },
+          { q: "What does the tiny microphone inside do?", options: ["Listens to the noise around you", "Plays music only", "Measures temperature"], answer: 0 },
+          { q: "What kind of sound is easiest to cancel?", options: ["Low, steady sounds like an engine hum", "Sudden voices", "No sound at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1024-3",
+        title: "What Happens at a Climate Summit?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Every year, leaders and experts from almost every country travel to a single city for a large meeting about one shared problem: the changing climate. These gatherings are often called climate summits. Thousands of people attend, and the world watches closely. But what actually happens at such a meeting, and why does it matter?\n\nThe basic reason for a climate summit is simple. The Earth's climate is warming, mainly because of gases released when we burn fuels like coal and oil. This affects every country, through stronger storms, droughts, and rising seas. Since no nation can solve the problem alone, countries must talk and plan together.\n\nAt a summit, representatives discuss how much each country should reduce its harmful gases, and how fast. Richer nations, which have released the most gases over history, are often asked to do more and to help poorer nations that suffer the most. Countries also promise money to help communities prepare for a changing climate.\n\nThese meetings are not easy. Nations have different needs and interests, and progress can feel slow. Agreements are often weaker than scientists hope. Some people leave disappointed.\n\nYet climate summits still matter. They keep the problem in the public eye, push countries to set goals, and allow the world to measure who is keeping their promises. Step by step, imperfect as it is, this is how a problem too big for any one country is slowly, carefully faced by all of them together.",
+        summaryJa: "気候サミットで何が起こるかについて。毎年、ほぼ全ての国の指導者や専門家が一つの都市に集まり、共通の問題「気候変動」を話し合う。こうした会合はよく気候サミットと呼ばれ、何千人も参加し世界が注視する。開催理由は単純だ。地球の気候は主に石炭や石油を燃やす際に出る気体のために温暖化し、強い嵐や干ばつ、海面上昇で全ての国に影響する。一国では解決できないため各国が共に話し計画する。サミットでは、各国がどれだけ速く有害な気体を減らすべきか議論する。歴史上最も多く排出した豊かな国はより多くの対策と、最も苦しむ貧しい国への支援を求められることが多い。各国は気候変動への備えを助ける資金も約束する。利害が異なり進みは遅く合意は期待より弱いこともあるが、問題を世に示し目標を設定させ約束の履行を測れる。",
+        quiz: [
+          { q: "Why is the Earth's climate warming, mainly?", options: ["Gases released when we burn fuels like coal and oil", "The Moon moving away", "Too much rain"], answer: 0 },
+          { q: "What are richer nations often asked to do?", options: ["Do more and help poorer nations", "Do nothing", "Burn more fuel"], answer: 0 },
+          { q: "Why do climate summits still matter despite slow progress?", options: ["They push countries to set goals and keep the problem in view", "They end all problems at once", "They are only parties"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1024-4",
+        title: "Japanese Pottery and the Beauty of Imperfection",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many cultures, a perfect, smooth, and even object is seen as the most beautiful. In Japan, however, there is a different idea. A handmade tea bowl that is slightly uneven, with small marks from the maker's hands, can be treasured as more beautiful than a perfect machine-made cup. This idea lies at the heart of traditional Japanese pottery.\n\nJapan has made pottery for thousands of years, and different regions are famous for their own styles, clays, and colors. Some pottery is smooth and refined, while other kinds are rough and earthy. What they often share is a respect for natural materials and the marks of the hand that made them.\n\nBehind this is a deep idea sometimes called wabi-sabi, which finds beauty in things that are simple, natural, and imperfect. A crack, an uneven shape, or a change in color is not seen as a fault, but as a sign of character and of the passing of time.\n\nThis idea appears strongly in a repair method called kintsugi. When a bowl breaks, instead of hiding the damage, the pieces are joined with a special lacquer mixed with gold. The golden lines make the repair visible and even beautiful, turning the bowl's history into part of its charm.\n\nJapanese pottery teaches a gentle lesson: that nothing needs to be perfect to be valuable. A cup marked by time and use, like a person with a life's experiences, can hold a quiet beauty all its own.",
+        summaryJa: "日本の陶芸と不完全の美について。多くの文化では、滑らかで均一な完璧な物が最も美しいとされる。だが日本には別の考えがある。少しゆがみ、作り手の指の跡が残る手作りの茶碗が、完璧な機械製より美しいと大切にされることがある。これが日本の伝統陶芸の核心だ。日本は何千年も陶器を作り、地域ごとに独自の様式・土・色で知られる。滑らかで洗練されたものも、素朴で土の質感が強いものもあるが、自然の素材と作り手の手の跡への敬意を共有することが多い。背景には「わびさび」と呼ばれる、簡素・自然・不完全なものに美を見出す深い考えがある。ひびやゆがみ、色の変化は欠点でなく、趣や時の流れの印とされる。割れた器を金入りの漆で継ぐ「金継ぎ」にも表れる。完璧でなくても価値があると教えてくれる。",
+        quiz: [
+          { q: "What idea lies at the heart of traditional Japanese pottery?", options: ["Beauty can be found in natural, imperfect things", "Only perfect machine-made cups are beautiful", "Pottery must never be touched"], answer: 0 },
+          { q: "What is 'wabi-sabi'?", options: ["Finding beauty in simple, natural, imperfect things", "A type of clay", "A fast machine"], answer: 0 },
+          { q: "What is 'kintsugi'?", options: ["Repairing broken pottery with gold-mixed lacquer", "Throwing away broken bowls", "Painting cups blue"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1024-5",
+        title: "Why Do We Have Fingerprints?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Look closely at the tip of one of your fingers, and you will see tiny lines forming loops, arches, and swirls. These are your fingerprints. One famous fact about them is that no two people have exactly the same pattern, not even identical twins. But why do we have these strange little patterns at all?\n\nFingerprints form before we are even born, while a baby grows inside its mother. The exact pattern depends partly on our genes and partly on tiny, random events during growth. This is why the pattern is unique to each person, and why it stays the same for your whole life.\n\nFor a long time, scientists believed fingerprints helped us grip objects, like the tread on a tire. Newer research suggests the truth may be more surprising. The tiny ridges may actually help our sense of touch. As a finger moves across a surface, the ridges vibrate, sending richer signals to the brain and helping us feel fine details and textures.\n\nBecause each person's fingerprints are unique and unchanging, they have become very useful for identifying people. Police have long used them to solve crimes, and today many phones and locks can be opened with a simple touch of a finger.\n\nSo these small patterns on our fingertips are more than just marks. They help us feel the world, they make each of us one of a kind, and they have quietly become one of the most trusted ways to tell one person from another.",
+        summaryJa: "指紋がある理由について。指先をよく見ると、輪や弓、渦を作る細い線がある。これが指紋だ。有名なのは、一卵性双生児でさえ全く同じ模様の人はいないという事実だ。だがなぜこんな模様があるのか。指紋は生まれる前、母の胎内で育つ間に形づくられる。正確な模様は一部は遺伝子に、一部は成長中の小さな偶然による。だから各人に固有で、一生変わらない。長く科学者は指紋がタイヤの溝のように物をつかむのを助けると考えたが、新しい研究ではもっと意外かもしれないと示す。細い隆起は触覚を助け、指が表面を動くと隆起が振動し、脳へ豊かな信号を送り細かな質感を感じさせるという。固有で変わらないため人の識別に役立ち、警察の捜査やスマホ・錠の指紋認証に使われる。",
+        quiz: [
+          { q: "What is famous about fingerprints?", options: ["No two people have exactly the same pattern", "Everyone has the same pattern", "They change every year"], answer: 0 },
+          { q: "What does newer research suggest fingerprints may help with?", options: ["Our sense of touch", "Our hearing", "Our eyesight"], answer: 0 },
+          { q: "Why are fingerprints useful for identifying people?", options: ["They are unique and do not change", "They are all identical", "They disappear quickly"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-23",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "When do the most vivid dreams happen?", options: ["During a sleep stage when the brain is very active", "Only when fully awake", "Never"], answer: 0 },
           { q: "What is one popular idea about why we dream?", options: ["Dreaming helps the brain sort through memories", "Dreams make us taller", "Dreams stop the heart"], answer: 0 },
           { q: "What does the passage say is clear about dreams?", options: ["They are a normal and healthy part of sleep", "They are always bad", "Only some people dream"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-17",
-    passages: [
-      {
-        id: "d1017-1",
-        title: "What Makes a Good Leader?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "In every company, team, or group, someone usually takes the role of leader. A leader guides others toward a shared goal. But not all leaders are equal. Some inspire people to do their best work, while others leave their teams tired and unhappy. So what makes a good leader?\n\nOne important quality is clear communication. A good leader explains the goal so that everyone understands where the team is going and why. When people know the purpose of their work, they feel more motivated and make better decisions on their own.\n\nAnother quality is listening. Weak leaders only give orders, but strong leaders also listen carefully to their team. They ask for ideas, pay attention to problems, and are willing to change their minds when someone has a better suggestion. This makes workers feel respected and valued.\n\nGood leaders also stay calm under pressure. When something goes wrong, a panicking leader spreads fear, while a steady leader helps the team think clearly and find a solution. Taking responsibility for mistakes, instead of blaming others, builds deep trust.\n\nFinally, the best leaders care about the people they lead, not just the results. They notice when someone is struggling and offer support. Over time, this kindness creates a loyal and hardworking team.\n\nLeadership is not about being the loudest person in the room or simply giving orders. It is about guiding, listening, and caring. A truly good leader helps others grow, and in doing so, helps the whole team succeed together.",
-        summaryJa: "良いリーダーとは何かについて。どの会社やチームにも、普通は誰かがリーダー役を担い、共通の目標へ皆を導く。だが全てのリーダーが同じではなく、人の力を引き出す人もいれば、チームを疲れさせる人もいる。良いリーダーの条件は何か。一つは明確な伝達で、目標とその理由を説明し、皆が目的を理解すると意欲が高まり自ら良い判断をする。もう一つは傾聴で、命じるだけでなく意見を求め、より良い提案には考えを変える。すると部下は尊重されていると感じる。危機でも冷静で、失敗を人のせいにせず責任を取る姿勢が信頼を生む。さらに最良のリーダーは成果だけでなく人を気にかけ、苦しむ人を支える。声の大きさや命令でなく、導き・聴き・思いやることがリーダーシップだ。",
-        quiz: [
-          { q: "What is one important quality of a good leader?", options: ["Clear communication of the goal", "Keeping all plans secret", "Never speaking to the team"], answer: 0 },
-          { q: "How do strong leaders treat their team's ideas?", options: ["They listen and may change their minds", "They ignore every idea", "They forbid all suggestions"], answer: 0 },
-          { q: "What does a good leader do when a mistake happens?", options: ["Takes responsibility instead of blaming others", "Panics and spreads fear", "Hides from the team"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1017-2",
-        title: "How Telescopes Let Us See the Universe",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "On a clear night, we can see thousands of stars with our eyes alone. But the universe holds far more than we can see this way. To look deeper into space, scientists use telescopes, instruments that make faraway objects appear closer and brighter. Thanks to them, we have discovered planets, galaxies, and the history of the universe itself.\n\nHow does a telescope work? The main job of a telescope is to collect light. Our eyes are small, so they gather only a little light. A telescope has a large lens or, more often, a large curved mirror that gathers much more. The bigger the mirror, the more light it catches, and the fainter the objects it can show. The telescope then focuses this light into a clear, bright image.\n\nDifferent telescopes see different things. Some study ordinary light, the kind our eyes can see. Others are built to detect kinds of light that are invisible to us, such as ultraviolet light or radio waves. By studying these hidden forms of light, scientists learn things that no ordinary photograph could reveal.\n\nThe most powerful telescopes are placed in space. Above the Earth's air, which blurs and blocks light, they get a perfectly clear view. Space telescopes have sent back amazing images of distant galaxies billions of light-years away.\n\nEvery telescope, from a small one in a garden to a giant in orbit, does the same wonderful thing. It gathers ancient light from across the universe and lets human beings explore worlds we can never visit.",
-        summaryJa: "望遠鏡が宇宙を見せてくれる仕組みについて。晴れた夜には肉眼で何千もの星が見えるが、宇宙はそれよりはるかに多くを抱える。より深く見るため科学者は望遠鏡を使い、遠くの物を近く明るく見せる。おかげで惑星や銀河、宇宙の歴史まで分かった。望遠鏡の主な仕事は光を集めることだ。目は小さく少しの光しか集められないが、望遠鏡は大きなレンズや、多くは大きな曲面鏡でずっと多く集める。鏡が大きいほど多くの光を捉え、暗い天体も見える。その光を鮮明な像に結ぶ。普通の光を見るものもあれば、紫外線や電波など目に見えない光を捉えるものもある。最も強力なものは宇宙に置かれ、大気のゆがみを避けて鮮明に見る。はるか彼方の銀河の像を送ってきた。",
-        quiz: [
-          { q: "What is the main job of a telescope?", options: ["To collect light", "To make noise", "To heat the stars"], answer: 0 },
-          { q: "Why can bigger mirrors show fainter objects?", options: ["They catch more light", "They are heavier", "They are closer to stars"], answer: 0 },
-          { q: "Why are the most powerful telescopes placed in space?", options: ["Above the air, they get a perfectly clear view", "Space is warmer", "There is no reason"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1017-3",
-        title: "How the World Protects Endangered Animals",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Across the world, many kinds of animals are in danger of disappearing forever. Elephants, tigers, sea turtles, and countless others have become rare. When a species vanishes, it is gone for all time. Because animals do not respect borders, protecting them has become a task that nations must share.\n\nAnimals become endangered for several reasons. People clear forests where they live, hunt them illegally, or pollute their rivers and seas. A warming climate also forces some animals out of their natural homes. Often, a single country cannot solve these problems alone, because the same animals migrate across many lands and oceans.\n\nFor this reason, countries have made agreements to protect wildlife together. One important agreement controls the trade of endangered animals and their parts, making it illegal to buy or sell them across borders. This helps reduce the hunting of rare creatures for profit.\n\nNations cooperate in other ways too. They create protected parks where animals can live safely, share scientific knowledge, and send money to poorer countries to help them guard their forests and seas. Rangers from different nations are even trained to stop illegal hunters.\n\nThere have been real successes. Some animals that were once nearly extinct, such as certain whales, have slowly grown in number again thanks to international protection.\n\nThe work is far from over, and many species remain at risk. Yet the effort shows an important truth: the natural world belongs to everyone, and saving it is a responsibility that crosses every border.",
-        summaryJa: "世界が絶滅危惧動物を守る仕組みについて。世界中で多くの動物が永久に姿を消す危機にある。ゾウやトラ、ウミガメなど多くが希少になった。種が消えれば二度と戻らない。動物は国境を守らないため、保護は各国が分担すべき課題だ。原因は、生息地の森の伐採、密猟、川や海の汚染で、温暖化も住みかを奪う。同じ動物が多くの土地や海を渡るため、一国だけでは解決できない。そこで各国は協力して野生動物を守る取り決めを作った。重要な協定は絶滅危惧種やその部位の国際取引を規制し、売買を違法とする。各国は保護区を作り、科学知識を共有し、貧しい国へ資金を送り、監視員を訓練する。国際的保護でクジラなどが回復した例もある。自然は皆のものだ。",
-        quiz: [
-          { q: "Why must nations share the task of protecting animals?", options: ["Animals migrate across borders and oceans", "Animals belong to one country", "Borders stop all animals"], answer: 0 },
-          { q: "What does one important agreement control?", options: ["The trade of endangered animals across borders", "The price of food", "The speed of cars"], answer: 0 },
-          { q: "What is one success mentioned?", options: ["Some whales have grown in number again", "All animals are now safe", "Hunting has completely ended"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1017-4",
-        title: "Soba and Udon: Japan's Beloved Noodles",
-        level: "★★☆",
-        genre: "日本",
-        text: "Noodles are one of the most popular foods in Japan, enjoyed quickly at a train station or slowly at home. Among the many kinds, two of the most loved are soba and udon. Though both are noodles served in a tasty broth, they are quite different, and many Japanese people have a strong favorite.\n\nSoba noodles are thin and brownish-gray, made from buckwheat flour. They have a slightly nutty taste and a firm texture. Soba can be served hot in a warm soup or cold on a bamboo tray with a dipping sauce, which is especially popular in summer. Buckwheat is also seen as healthy, which adds to soba's good reputation.\n\nUdon noodles are thick, white, and soft, made from wheat flour. They are chewy and mild in flavor, which makes them comforting, especially on a cold day. Udon is usually served hot in a light, warm broth, often topped with green onions, a piece of fried food called tempura, or a raw egg.\n\nBoth noodles are sold everywhere, from simple stand-up shops in stations to fine restaurants. Each region of Japan has its own style, broth, and toppings, so the same dish can taste different from town to town.\n\nThere is even a tradition of eating soba on New Year's Eve, as the long noodles are said to represent a long life. Whether thin and nutty or thick and soft, these noodles are a warm and everyday part of life in Japan.",
-        summaryJa: "日本の人気麺、そばとうどんについて。麺は日本で最も人気の食べ物の一つで、駅で手早く、家でゆっくり楽しまれる。中でも特に愛されるのがそばとうどんだ。どちらもおいしい汁で食べる麺だが、かなり違い、好みが分かれる。そばは細く茶灰色で、そば粉から作られ、やや香ばしく歯ごたえがある。温かい汁でも、夏に人気の冷たいせいろ（つけ汁）でも食べる。健康的ともされる。うどんは太く白くやわらかで、小麦粉から作られ、もちもちして穏やかな味で、寒い日に心地よい。温かい薄い汁で、ねぎ・天ぷら・生卵をのせることが多い。地域ごとに汁や具が違う。大晦日に長寿を願ってそばを食べる習わしもある。日常の温かい一部だ。",
-        quiz: [
-          { q: "What is soba made from?", options: ["Buckwheat flour", "Rice only", "Potatoes"], answer: 0 },
-          { q: "How are udon noodles described?", options: ["Thick, white, and soft", "Thin and brownish-gray", "Hard and salty"], answer: 0 },
-          { q: "Why is soba eaten on New Year's Eve?", options: ["The long noodles are said to represent a long life", "It is the cheapest food", "It must be eaten cold"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1017-5",
-        title: "Why Do Birds Migrate?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Every year, as the seasons change, billions of birds make long journeys across the Earth. Some fly thousands of kilometers, from one continent to another, and then return months later. This amazing travel is called migration. But why do birds take such difficult and dangerous trips instead of simply staying in one place?\n\nThe main reason is food. In autumn, as the weather turns cold in northern lands, insects disappear and plants stop growing. Food becomes scarce. Rather than starve through the winter, many birds fly south to warmer regions where food is still plentiful. When spring returns and the north grows rich with food again, they fly back to raise their young.\n\nMigration is also about safety and space for breeding. The far north has long summer days and few predators, making it a good place to lay eggs and feed chicks. So birds travel north in spring to breed and south in autumn to survive.\n\nHow birds find their way is one of nature's great mysteries. Scientists believe they use the Sun and stars, remember landmarks like rivers and coasts, and can even sense the Earth's magnetic field, like a built-in compass. Young birds often know which way to go without being taught.\n\nMigration is hard and risky. Birds face storms, tiredness, and hunger along the way. Yet this incredible journey has helped birds survive for millions of years, following the food and the warmth in an endless rhythm around our turning planet.",
-        summaryJa: "鳥が渡りをする理由について。毎年、季節が変わると何十億もの鳥が地球上を長く旅する。大陸から大陸へ何千キロも飛び、数か月後に戻るものもいる。この驚くべき移動を渡りと呼ぶ。なぜ一か所にとどまらず、難しく危険な旅をするのか。主な理由は食べ物だ。秋に北の地が寒くなると昆虫が消え植物も育たず、食料が乏しくなる。冬に飢えるより、多くの鳥は食料の豊富な暖かい南へ飛ぶ。春に北が再び豊かになると戻って子を育てる。渡りは繁殖の安全と空間のためでもあり、北の長い夏の日と少ない天敵は産卵と育雛に適する。方角の見つけ方は謎で、太陽や星、川や海岸の記憶、地球の磁場の感知（体内の羅針盤）を使うとされる。嵐や疲れ、空腹の危険があるが、何百万年も鳥を生かしてきた。",
-        quiz: [
-          { q: "What is the main reason birds migrate?", options: ["To find food", "To get lost", "To avoid flying"], answer: 0 },
-          { q: "Why do many birds travel to the far north in spring?", options: ["It is a good, safe place to breed", "It has no food", "It is always dark"], answer: 0 },
-          { q: "How do scientists think birds find their way?", options: ["Using the Sun, stars, landmarks, and Earth's magnetic field", "By asking people", "By reading maps"], answer: 0 }
         ]
       }
     ]
