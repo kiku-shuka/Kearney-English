@@ -187,7 +187,19 @@ KE_DATA.extraSentences = [
   { id: "w2642-s09", ja: "問題が解決するまで、私が対応します。", en: "I'll handle this until the problem is solved.", note: "handle = 対応する" },
   { id: "w2642-s10", ja: "この件は経営陣の承認が必要です。", en: "This will need approval from management.", note: "approval = 承認" },
   { id: "w2642-s11", ja: "遠回しに言わず、率直にお伝えします。", en: "I'll be direct rather than beating around the bush.", note: "beat around the bush = 遠回しに言う" },
-  { id: "w2642-s12", ja: "ご期待に応えられるよう全力を尽くします。", en: "I'll do my best to meet your expectations.", note: "meet expectations = 期待に応える" }
+  { id: "w2642-s12", ja: "ご期待に応えられるよう全力を尽くします。", en: "I'll do my best to meet your expectations.", note: "meet expectations = 期待に応える" },
+  { id: "w2643-s01", ja: "本日はお時間をいただきありがとうございます。", en: "Thank you for taking the time to meet today.", note: "会議冒頭の定番の挨拶" },
+  { id: "w2643-s02", ja: "まず、前回の要点を振り返らせてください。", en: "First, let me recap the main points from last time.", note: "recap = 要点を振り返る" },
+  { id: "w2643-s03", ja: "その案には賛成ですが、一つ懸念があります。", en: "I agree with the idea, but I have one concern.", note: "賛成と懸念をセットで伝える型" },
+  { id: "w2643-s04", ja: "予算内で収まるか確認する必要があります。", en: "We need to check whether it fits within the budget.", note: "fit within the budget = 予算内に収まる" },
+  { id: "w2643-s05", ja: "詳細は後ほどメールでお送りします。", en: "I'll send you the details by email later.", note: "" },
+  { id: "w2643-s06", ja: "この件は専門のチームに引き継ぎます。", en: "I'll hand this over to the specialist team.", note: "hand over = 引き継ぐ" },
+  { id: "w2643-s07", ja: "想定していなかった問題が出てきました。", en: "An issue has come up that we did not expect.", note: "come up = 生じる・持ち上がる" },
+  { id: "w2643-s08", ja: "もう少し情報をいただければ助かります。", en: "It would help if you could give me a little more information.", note: "It would help if ... = 〜していただけると助かる" },
+  { id: "w2643-s09", ja: "全体のスケジュールを一度見直しましょう。", en: "Let's review the overall schedule once.", note: "review = 見直す" },
+  { id: "w2643-s10", ja: "結果が出次第、すぐにご報告します。", en: "I'll report to you as soon as we have the results.", note: "as soon as = 〜次第すぐに" },
+  { id: "w2643-s11", ja: "その条件であれば、前向きに検討できます。", en: "On those terms, we can seriously consider it.", note: "on those terms = その条件で" },
+  { id: "w2643-s12", ja: "何かあれば、いつでもご連絡ください。", en: "Please contact me anytime if anything comes up.", note: "anytime = いつでも" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -529,6 +541,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "I'll share a few documents with you. Take your time to go through them.", ja: "いくつか資料を共有します。ゆっくり目を通してください。" },
       { s: "B", en: "Thank you for your help. I'm looking forward to working with everyone.", ja: "お世話になります。皆さんと働くのを楽しみにしています。" }
     ]
+  },
+  {
+    id: "w2643-sh1",
+    title: "取引先との会食でのスモールトーク",
+    level: "★★☆",
+    description: "取引先との食事の席で、仕事以外の話題から会話を温め、関係を築く場面。スモールトークの型を身につける。",
+    lines: [
+      { s: "A", en: "Thank you for joining me for lunch. I hope you like Japanese food.", ja: "昼食にお付き合いいただきありがとうございます。和食はお好きだといいのですが。" },
+      { s: "B", en: "I love it. Thank you for the invitation.", ja: "大好きです。お誘いありがとうございます。" },
+      { s: "A", en: "Is this your first time in Tokyo?", ja: "東京は初めてですか？" },
+      { s: "B", en: "Yes, it is. The city is bigger than I imagined.", ja: "はい、初めてです。想像より大きな街ですね。" },
+      { s: "A", en: "Have you had a chance to see anything so far?", ja: "これまでに何か見る機会はありましたか？" },
+      { s: "B", en: "I visited a temple yesterday. It was beautiful.", ja: "昨日お寺を訪れました。美しかったです。" },
+      { s: "A", en: "I'm glad to hear that. How was your flight?", ja: "それは良かったです。フライトはいかがでしたか？" },
+      { s: "B", en: "A little long, but comfortable. I managed to sleep.", ja: "少し長かったですが快適でした。眠ることもできました。" },
+      { s: "A", en: "Good. Well, please help yourself. We can talk about business after lunch.", ja: "よかった。さあ、どうぞ召し上がってください。仕事の話は食後にしましょう。" },
+      { s: "B", en: "Sounds perfect. Let's enjoy the meal first.", ja: "いいですね。まずは食事を楽しみましょう。" }
+    ]
   }
 ];
 
@@ -713,6 +743,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2642-t03", ja: "仕事を選ぶとき、給料と安定性のどちらをより重視すべきだと思いますか？", en: "When choosing a job, should you value salary or stability more?",
     sample: { point: "In my view, stability usually matters more than a high salary, especially early in a career.", reason: "The main reason is that a steady job lets you build skills, gain experience, and plan your life without the fear of sudden loss.", example: "For example, during times when many companies announce layoffs, a worker in a stable job can keep learning and saving, while a higher-paid but risky job may disappear overnight.", point2: "So while pay is important, a stable foundation often brings greater security and growth in the long run." }
+  },
+  {
+    id: "w2643-t01", ja: "物価が上がっているとき、人々はお金の使い方をどう変えるべきだと思いますか？", en: "When prices are rising, how should people change the way they spend money?",
+    sample: { point: "When prices rise, I think people should spend more carefully and focus on what they truly need.", reason: "The main reason is that when money buys less, careless spending can quickly lead to debt or stress.", example: "For example, with prices climbing at their fastest pace in years, a family that plans its shopping and cooks at home can protect its budget far better than one that buys on impulse.", point2: "So in times of rising prices, a simple habit of planning and saving becomes more valuable than ever." }
+  },
+  {
+    id: "w2643-t02", ja: "新しい技術に多額のお金を投資するのは賢明だと思いますか？", en: "Is it wise to invest a lot of money in new technology?",
+    sample: { point: "I think investing in new technology can be wise, but only with caution and balance.", reason: "The main reason is that new technology can bring huge rewards, yet it is also risky, and its value can rise and fall quickly.", example: "For example, when excitement about a new technology grows too fast, prices can climb far above real value, and investors who put in everything may suffer heavy losses.", point2: "So it is wise to invest some money in promising technology, but never more than one can afford to lose." }
+  },
+  {
+    id: "w2643-t03", ja: "家庭はエネルギーの節約にもっと取り組むべきだと思いますか？", en: "Should households do more to save energy?",
+    sample: { point: "Yes, I believe households should make more effort to save energy.", reason: "The main reason is that saving energy lowers bills, which matters a lot when energy costs are high, and it also helps the environment.", example: "For example, simple steps like turning off unused lights, using efficient appliances, and heating only the rooms in use can cut a family's energy bill noticeably over a year.", point2: "So saving energy is a rare choice that is good for the wallet and the planet at the same time." }
   }
 ];
 
