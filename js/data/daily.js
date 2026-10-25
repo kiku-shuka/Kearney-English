@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-25",
+    passages: [
+      {
+        id: "d1025-1",
+        title: "Why Saving Money Matters",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Most of us earn money and then spend it on the things we need and want. But wise people also do something else: they save. Saving means keeping some of your money instead of spending all of it. It may sound simple, but the habit of saving is one of the most powerful tools for a secure and happy life.\n\nWhy is saving so important? The first reason is safety. Life is full of surprises, and some are expensive. A car may break down, or a person may suddenly lose a job. People who have saved money, often called an \"emergency fund,\" can face these problems calmly. Those who have not may fall into debt.\n\nSaving also helps us reach our goals. Big dreams, such as travelling, studying, or buying a home, usually cost more than one month's pay. By saving a little regularly, a person slowly builds the money needed to make these dreams real.\n\nThere is also a quieter benefit: peace of mind. Knowing you have money set aside reduces worry and gives you more freedom to make choices, such as changing jobs or trying something new.\n\nHow can someone save? Experts often suggest a simple rule: save a small part of your income first, before spending the rest, rather than hoping money will be left over at the end. Even a small amount, saved regularly, grows over time.\n\nSaving is not about being rich. It is about being prepared, and about giving your future self a gift.",
+        summaryJa: "貯金が大切な理由について。多くの人はお金を稼ぎ、必要な物や欲しい物に使う。だが賢い人はもう一つのことをする。貯めるのだ。貯金とは全部使わず一部を取っておくこと。単純に聞こえるが、貯める習慣は安心で幸せな人生の最も強力な道具の一つだ。第一の理由は安全で、人生は予想外の出費に満ちる。車が壊れたり急に職を失ったりしても、「緊急資金」を貯めた人は落ち着いて対処でき、ない人は借金に陥りやすい。貯金は目標達成も助ける。旅行や勉強、住宅購入など大きな夢は一か月の給料より高く、少しずつ貯めれば実現できる。心の平安という利点もあり、蓄えがあると不安が減り選択の自由が増す。コツは、余ったら貯めるのでなく使う前にまず一部を貯めること。少額でも定期的に貯めれば時とともに増える。",
+        quiz: [
+          { q: "What does saving money mean?", options: ["Keeping some of your money instead of spending it all", "Spending everything you earn", "Borrowing more money"], answer: 0 },
+          { q: "What is an 'emergency fund' for?", options: ["Facing sudden, expensive problems calmly", "Buying luxury items only", "Paying no attention to money"], answer: 0 },
+          { q: "What simple rule do experts often suggest?", options: ["Save a part of your income first, before spending", "Spend first and hope money is left", "Never save anything"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1025-2",
+        title: "How Do Drones Fly?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "In recent years, small flying machines called drones have become a common sight. They film videos from the sky, deliver packages, inspect bridges, and help farmers check their fields. Unlike an airplane or a helicopter, a drone has no pilot on board. So how does this little machine lift itself into the air and fly so steadily?\n\nMost drones have four arms, each with a spinning blade called a rotor, which is why they are often called \"quadcopters.\" Each rotor works like a tiny propeller. As the blades spin fast, they push air downward, and this creates an upward force that lifts the drone. The faster the blades spin, the higher the drone rises.\n\nThe clever part is control. To move, a drone changes the speed of each rotor separately. If the rotors at the back spin faster than those at the front, the drone tilts forward and flies ahead. By carefully balancing the four rotors, the drone can rise, turn, hover in place, or move in any direction.\n\nA small computer inside the drone makes constant tiny adjustments, many times each second, to keep it steady. Sensors tell the computer how the drone is tilting, and it corrects itself faster than a human could. A person on the ground controls the drone with a remote, or sometimes a flight is planned in advance.\n\nLight, cheap, and able to reach difficult places, drones have opened up new possibilities in photography, delivery, farming, and rescue, changing the way we see and reach the world around us.",
+        summaryJa: "ドローンが飛ぶ仕組みについて。近年、ドローンという小さな飛行機械をよく見かける。空から撮影し、荷物を届け、橋を点検し、農家の畑確認も助ける。飛行機やヘリと違い操縦士が乗っていない。この小さな機械はどうやって浮き、安定して飛ぶのか。多くのドローンは四本の腕を持ち、それぞれに回転する羽根（ローター）があり、だから「クアッドコプター」と呼ばれる。各ローターは小さなプロペラのように速く回って空気を下へ押し、上向きの力でドローンを持ち上げる。巧妙なのは制御で、各ローターの速度を別々に変える。後ろが前より速く回ると前へ傾いて進む。四つのバランスで上昇・旋回・空中停止・移動ができる。内部の小さなコンピューターが毎秒何度も微調整し、センサーの情報で人より速く姿勢を正す。地上から遠隔操作するか、飛行をあらかじめ計画する。",
+        quiz: [
+          { q: "How does a drone lift itself into the air?", options: ["Spinning blades push air downward, creating an upward force", "It fills with hot air", "It jumps off a ramp"], answer: 0 },
+          { q: "How does a drone move forward?", options: ["By changing the speed of each rotor separately", "By flapping wings", "By using wheels"], answer: 0 },
+          { q: "What keeps a drone steady?", options: ["A small computer making constant tiny adjustments", "A human holding it", "Strong glue"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1025-3",
+        title: "Why Education Matters Around the World",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Most children today go to school, learning to read, write, and count. For many of us, this seems completely normal. Yet around the world, millions of children still cannot go to school, or must leave early. Making sure that every child can learn has become one of the great shared goals of our time.\n\nWhy does education matter so much? For an individual, it opens doors. A person who can read and write, and who has useful skills, can find better work, earn more, and make healthier choices. Education helps people understand the world and take part in their society.\n\nEducation also helps whole countries. A nation with educated people can build stronger businesses, better hospitals, and fairer systems. For this reason, many consider education one of the best ways to reduce poverty over the long term.\n\nBut not every child has the chance to learn. In some poorer regions, families cannot afford books or uniforms, schools are far away, or children must work to help their families. In some places, girls in particular have fewer chances than boys, though this is slowly changing.\n\nGovernments and international groups work to close this gap. They build schools, train teachers, and help pay the costs so that more children can attend. New technology, such as lessons delivered by phone or radio, can reach children in faraway places.\n\nThe goal is simple but powerful: that every child, everywhere, should have the chance to learn. When a child is educated, the benefits spread to their family, their country, and the whole world.",
+        summaryJa: "世界で教育が大切な理由について。今日、多くの子どもは学校へ行き、読み書きと計算を学ぶ。私たちには当たり前に思えるが、世界では今も何百万もの子どもが学校へ行けず、早くに辞めざるを得ない。全ての子が学べるようにすることは現代の大きな共通目標の一つだ。個人には扉を開く。読み書きができ役立つ技能があれば、より良い仕事に就き、多く稼ぎ、健康的な選択もできる。教育は世界の理解と社会参加を助ける。国にとっても、教育を受けた人がいれば、より強い企業や良い病院、公正な制度を築ける。だから長期的に貧困を減らす最良の方法の一つとされる。だが全ての子に機会はなく、貧しい地域では本や制服を買えず、学校が遠く、家の手伝いで働く子もいる。特に女子は機会が少ないが徐々に変わっている。各国や国際団体が学校建設や教員養成、費用援助で格差を埋める。電話やラジオの授業も遠隔地に届く。",
+        quiz: [
+          { q: "How does education help an individual?", options: ["It opens doors to better work and choices", "It makes life harder", "It has no effect"], answer: 0 },
+          { q: "Why is education seen as a way to reduce poverty?", options: ["Educated people build stronger businesses and systems", "It costs too much to help anyone", "It keeps people poor"], answer: 0 },
+          { q: "What is one reason some children cannot go to school?", options: ["Families cannot afford books, or schools are far away", "They already know everything", "Schools are banned everywhere"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1025-4",
+        title: "Haiku: Japan's Short Poems",
+        level: "★★☆",
+        genre: "日本",
+        text: "Imagine trying to capture a whole moment, a feeling, or a season, in just a few words. This is the art of haiku, one of the shortest and most famous forms of poetry in the world. Born in Japan centuries ago, a haiku uses very few words to paint a single, clear picture in the reader's mind.\n\nA traditional haiku follows a simple pattern of sound. In Japanese, it has three parts, with five, then seven, then five sound-units, making seventeen in all. This tight rule forces the poet to choose every word with great care. There is no room for anything unnecessary.\n\nHaiku usually describe nature and the seasons. Many include a special word, called a kigo, that shows the time of year, such as cherry blossoms for spring or snow for winter. A good haiku often captures a small, quiet moment: a frog jumping into a pond, the first cold wind of autumn, or the light of the moon.\n\nWhat makes haiku powerful is what they leave out. Instead of explaining a feeling, a haiku shows a simple scene and lets the reader feel it for themselves. In this way, a few words can open a wide world of thought and emotion.\n\nToday, people all over the world write haiku, in many languages. Writing one is a wonderful exercise in paying attention, to nature, to language, and to the present moment. In seventeen sounds, a haiku reminds us that even the smallest moment can hold great beauty.",
+        summaryJa: "日本の短詩、俳句について。ある瞬間や感情、季節をわずかな言葉で捉えることを想像してほしい。これが俳句の芸術で、世界で最も短く有名な詩の形の一つだ。何世紀も前に日本で生まれ、ごく少ない言葉で読者の心に一つの鮮明な絵を描く。伝統的な俳句は音の単純な型に従い、日本語では五・七・五の三部で計十七音。この厳しい規則が詩人に一語一語を慎重に選ばせ、不要なものを入れる余地はない。多くは自然や季節を描き、季節を示す「季語」（春の桜、冬の雪など）を含むことが多い。良い俳句は、池に飛び込む蛙、秋の初めの冷たい風、月の光など、小さく静かな瞬間を捉える。力の源は省略で、感情を説明せず情景だけ示し読者に感じさせる。今や世界中で多くの言語で作られ、自然と言葉と「今」に注意を向ける素晴らしい練習だ。",
+        quiz: [
+          { q: "What is the traditional sound pattern of a Japanese haiku?", options: ["Five, seven, five sound-units", "Ten lines of ten words", "No pattern at all"], answer: 0 },
+          { q: "What is a 'kigo'?", options: ["A word that shows the time of year", "A type of drum", "A long speech"], answer: 0 },
+          { q: "What makes haiku powerful?", options: ["What they leave out, letting the reader feel the scene", "Explaining every feeling in detail", "Using thousands of words"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1025-5",
+        title: "How Do Spiders Make Their Webs?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "On a dewy morning, you might see a spider's web shining between two branches, perfect and round. It looks delicate, yet it is one of nature's strongest and most clever creations. How does a tiny spider build such a complex trap, with no tools and no lessons?\n\nThe secret is silk. Inside its body, a spider makes a special liquid. When the spider pushes this liquid out through tiny openings, it turns into a thread of silk as it meets the air. This silk is amazingly strong for its weight, stronger than a thread of steel of the same thickness, yet it can also stretch without breaking.\n\nBuilding a web takes careful steps. First, the spider must cross the gap between two points. It often does this by releasing a light thread that floats on the breeze until it catches on the other side. Once this first bridge is fixed, the spider walks across it and builds a frame, then adds lines that reach into the center like the spokes of a wheel. Finally, it lays a spiral of sticky silk to catch insects.\n\nCleverly, not all the silk is sticky. The spider walks only on the non-sticky lines, so it does not get caught in its own trap. When an insect flies into the sticky spiral, the spider feels the web shake and rushes out.\n\nA spider builds all this from memory and instinct, often in less than an hour. The web it makes is a quiet masterpiece of natural engineering.",
+        summaryJa: "クモが巣を作る仕組みについて。露の朝、二本の枝の間に丸く完璧なクモの巣が輝くのを見るかもしれない。繊細に見えるが、自然で最も強く巧妙な創造物の一つだ。小さなクモが道具も教えもなく、どうやってこんな複雑な罠を作るのか。鍵は糸だ。体内で特別な液を作り、小さな穴から押し出すと空気に触れて糸になる。この糸は重さの割に驚くほど強く、同じ太さの鋼より強いのに切れずに伸びる。作るには手順が要る。まず二点の間を渡らねばならず、軽い糸を風に乗せて反対側に引っかける。この最初の橋が固定されると、クモは渡って枠を作り、車輪の輻のように中心へ向かう線を足し、最後に虫を捕らえる粘る糸の渦を張る。巧妙にも全部が粘るのではなく、クモは粘らない線だけを歩き自分の罠にかからない。虫がかかると揺れを感じて駆け出す。記憶と本能で一時間足らずで作る。",
+        quiz: [
+          { q: "What is a spider's web made of?", options: ["Silk the spider makes inside its body", "Plastic string", "Thin metal wire"], answer: 0 },
+          { q: "How does a spider often cross the first gap?", options: ["By releasing a light thread that floats on the breeze", "By jumping very far", "By building a bridge of wood"], answer: 0 },
+          { q: "Why doesn't a spider get caught in its own web?", options: ["It walks only on the non-sticky lines", "It never touches the web", "Its feet are made of glue"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-24",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What do worker bees collect from flowers?", options: ["A sweet liquid called nectar", "Small stones", "Water only"], answer: 0 },
           { q: "How do bees dry the nectar into thick honey?", options: ["They beat their wings to blow air over it", "They bake it in an oven", "They freeze it"], answer: 0 },
           { q: "Why do bees store honey?", options: ["As food for winter, when no flowers bloom", "To sell it", "To throw it away"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-18",
-    passages: [
-      {
-        id: "d1018-1",
-        title: "Why First Impressions Matter in Business",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "They say you never get a second chance to make a first impression. In business, this old saying is especially true. Within the first few seconds of meeting someone, people form an opinion that can be hard to change. For a company or a worker, a good first impression can open doors, while a poor one can close them.\n\nWhy do first impressions form so quickly? The human brain is built to judge situations fast. When we meet a new person or enter a new shop, we notice many small things at once: how someone is dressed, how they speak, whether they smile, and whether a place looks clean and organized. From these clues, we quickly decide whether to trust what we see.\n\nIn business, first impressions appear in many forms. A salesperson's greeting, the design of a website, or the tidiness of a store can all shape how customers feel before a single word about the product is spoken. A warm welcome and a neat appearance suggest care and professionalism.\n\nThe good news is that first impressions can be managed. Simple actions help: arriving on time, listening carefully, dressing suitably, and showing genuine interest in the other person. These cost nothing but attention.\n\nOf course, a good first impression is only a beginning. It must be followed by honest work and real quality, or trust will fade. Still, because people decide so fast, that first moment is a chance worth taking seriously. A strong start makes everything that follows easier.",
-        summaryJa: "ビジネスで第一印象が大切な理由について。「第一印象をやり直す機会は二度とない」とよく言われ、ビジネスでは特に真実だ。人は出会って数秒で意見を形成し、それは覆しにくい。良い第一印象は扉を開き、悪ければ閉ざす。脳は状況を素早く判断するよう作られ、新しい人や店で服装・話し方・笑顔・清潔さなど多くの手がかりを一度に捉え、信頼するか瞬時に決める。ビジネスでは、販売員の挨拶、ウェブサイトの作り、店の整頓などが、商品の話を聞く前に客の感情を左右する。時間厳守、傾聴、適切な服装、相手への関心で印象は整えられる。ただし第一印象は始まりにすぎず、誠実な仕事と品質が続かねば信頼は薄れる。",
-        quiz: [
-          { q: "Why do first impressions form so quickly?", options: ["The brain is built to judge situations fast", "People think very slowly", "There are no clues to notice"], answer: 0 },
-          { q: "What can shape a customer's first impression in business?", options: ["A greeting, a website's design, or a tidy store", "Only the product's price", "Nothing at all"], answer: 0 },
-          { q: "What does the passage say a good first impression must be followed by?", options: ["Honest work and real quality", "Nothing more", "A second meeting only"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1018-2",
-        title: "How a Microwave Oven Heats Food",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "A microwave oven can heat a bowl of soup in just a minute, far faster than a stove. It seems almost magical: there is no flame and no glowing element, yet the food becomes hot. How does a microwave warm food so quickly without any obvious source of heat?\n\nThe secret is a type of invisible wave called a microwave, which gives the oven its name. These are a kind of radio wave, similar to the waves that carry signals to a phone, but tuned for a special job. Inside the oven, a part called the magnetron produces these waves and sends them into the cooking space.\n\nHere is the clever part. Microwaves affect water. Almost all food contains water, and the microwaves make the tiny water molecules inside the food vibrate very fast. This rapid shaking creates heat, warming the food from the inside as well as the outside. Because the energy goes straight to the water in the food, heating is very quick.\n\nThis also explains some common experiences. A dry plate stays cool because it has little water, while the food on it becomes hot. Foods heat unevenly if the water is not spread evenly, which is why many ovens have a turning plate to help.\n\nMicrowaves are safe when the oven is used correctly, because the metal body and the screen in the door keep the waves inside. Fast, clean, and simple, the microwave oven has become one of the most common machines in kitchens around the world.",
-        summaryJa: "電子レンジが食品を温める仕組みについて。電子レンジはスープを1分ほどで温め、コンロよりずっと速い。炎も赤く光る部分もないのに食品が熱くなり、魔法のようだ。鍵はマイクロ波という目に見えない波で、これが名前の由来だ。これはスマホに信号を運ぶ電波に似た一種で、特別な用途に調整されている。庫内のマグネトロンという部品が波を作り、調理空間へ送る。巧妙なのは、マイクロ波が水に作用する点だ。ほとんどの食品は水を含み、波が食品内の小さな水分子を高速で振動させる。その激しい揺れが熱を生み、内側からも温める。水の少ない皿は冷たいままで上の食品は熱くなる。水が偏ると加熱も偏るため回転皿がある。金属の本体と扉の網が波を閉じ込め安全だ。",
-        quiz: [
-          { q: "What produces the microwaves inside the oven?", options: ["A part called the magnetron", "A small flame", "A light bulb"], answer: 0 },
-          { q: "How do microwaves heat food?", options: ["They make water molecules in the food vibrate fast", "They set the food on fire", "They blow hot air"], answer: 0 },
-          { q: "Why does a dry plate stay cool?", options: ["It has little water", "It is made of water", "Microwaves avoid food"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1018-3",
-        title: "How the World Works Together to Fight Disease",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "A disease does not need a passport. A sickness that begins in one country can travel across the world in days, carried by travelers on airplanes. Because germs ignore borders, protecting human health has become a task that no single nation can manage alone. Fighting disease is one of the most important examples of global cooperation.\n\nCountries work together in several ways. They share information quickly when a new illness appears, so that doctors everywhere can prepare. They send scientists and medical teams to places where an outbreak is spreading. A global health organization helps coordinate this work, setting shared rules and advice that nations can follow.\n\nOne of the greatest achievements of this cooperation is vaccines. When a dangerous disease spreads, scientists around the world may race to develop a vaccine, then share it widely. Working together, nations once managed to wipe out smallpox, a disease that had killed millions for centuries. It is now gone from the world, a victory that belonged to all of humanity.\n\nChallenges remain. Poorer countries sometimes cannot afford medicines, so richer nations and charities help pay for them. Diseases can also return if people stop being careful. And cooperation can be slowed by disagreements between countries.\n\nStill, the pattern is clear. When a serious illness threatens the world, people of many nations, languages, and beliefs often unite against a common enemy. In the fight for health, the world has learned that we are safest when we protect one another.",
-        summaryJa: "世界が協力して病気と闘う仕組みについて。病気にパスポートは要らない。ある国で始まった病が、飛行機の旅行者により数日で世界へ広がる。病原体は国境を無視するため、健康を守ることは一国だけでは担えない課題だ。病気との闘いは国際協力の最も重要な例の一つだ。各国は新しい病が現れると情報を素早く共有し、各地の医師が備える。流行地へ科学者や医療チームを送る。世界的な保健機関が共通の規則と助言を定め調整する。最大の成果の一つがワクチンで、危険な病が広がると世界の科学者が開発を急ぎ広く共有する。協力により天然痘を根絶し、今や世界から消えた。貧しい国の薬代を豊かな国や慈善団体が支える。油断で病が戻ることもあり、対立で協力が遅れることもある。それでも脅威の前に人々は団結する。",
-        quiz: [
-          { q: "Why can't one country fight disease alone?", options: ["Germs ignore borders and spread between countries", "Diseases stay in one place", "Only one country has doctors"], answer: 0 },
-          { q: "What is one great achievement of global cooperation mentioned?", options: ["Wiping out smallpox with vaccines", "Ending all travel", "Closing all hospitals"], answer: 0 },
-          { q: "How do richer nations help poorer ones fight disease?", options: ["By helping pay for medicines", "By taking their doctors away", "By hiding information"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1018-4",
-        title: "Maneki-neko: The Beckoning Cat",
-        level: "★★☆",
-        genre: "日本",
-        text: "If you have visited a Japanese restaurant or shop, you may have seen a small cat figure near the entrance, with one paw raised as if waving. This is the maneki-neko, which means beckoning cat. Far from being a simple decoration, it is a well-loved symbol believed to bring good luck and fortune, especially to businesses.\n\nThe cat's raised paw is the key. In Japan, people beckon others to come closer with a gesture like this. So the maneki-neko appears to be inviting customers, money, and good luck into a shop. Which paw is raised can carry a meaning too: a raised left paw is often said to invite customers, while a raised right paw is said to invite wealth.\n\nThe figures come in different colors, and each is believed to bring a different kind of luck. A white cat stands for happiness, a gold one for money, and a black one for protection from harm. Many cats also wear a small bell or a red collar, a style once seen on pet cats long ago.\n\nThere are many old stories about how the lucky cat began. In one famous tale, a cat raised its paw to a passing lord, inviting him into a temple, and moments later he was saved from a storm. Grateful, he became the temple's supporter.\n\nToday the maneki-neko is known around the world. Cheerful and welcoming, it continues to wave its little paw, wishing good fortune to everyone who passes by.",
-        summaryJa: "招き猫について。日本の飲食店や店の入口近くで、片方の前足を手招きのように上げた小さな猫の置物を見たことがあるかもしれない。これが招き猫だ。単なる飾りでなく、特に商売に幸運と富をもたらすと信じられる愛される縁起物だ。鍵は上げた前足で、日本では人をこの仕草で招く。だから招き猫は客やお金、幸運を店へ招くように見える。どちらの足かにも意味があり、左足は客を、右足は富を招くとよく言われる。色も様々で、白は幸福、金はお金、黒は魔除けとされる。鈴や赤い首輪を着けた猫も多く、昔の飼い猫の装いだ。由来の古い話も多く、ある猫が領主を手招きして寺へ招き、直後に嵐から救った話は有名だ。今や世界で知られ、幸運を願い手招きを続ける。",
-        quiz: [
-          { q: "What does 'maneki-neko' mean?", options: ["Beckoning cat", "Sleeping cat", "Big dog"], answer: 0 },
-          { q: "What is the raised paw believed to do?", options: ["Invite customers, money, and good luck", "Scare people away", "Clean the shop"], answer: 0 },
-          { q: "What is a gold maneki-neko believed to bring?", options: ["Money", "Rain", "Bad luck"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1018-5",
-        title: "Why Do We Dream?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Every night, when we fall into a deep sleep, our minds create strange and vivid stories called dreams. Some are happy, some are frightening, and many are quickly forgotten when we wake. People have wondered about the meaning of dreams for thousands of years. Even today, scientists are still working to understand why we dream at all.\n\nDreams happen mostly during a stage of sleep when the brain is very active, almost as busy as when we are awake. During this time, the eyes move quickly behind closed lids, and the most vivid dreams occur. Everyone dreams, even people who do not remember doing so.\n\nScientists have several ideas about why we dream. One popular idea is that dreaming helps the brain sort through the day's events, keeping important memories and letting go of unimportant ones. This may be why a good night's sleep helps us learn.\n\nAnother idea is that dreams let us safely practice dealing with problems or fears. By facing a frightening situation in a dream, the mind may prepare itself for real life. Some scientists think dreams are simply the brain making sense of random signals while it rests.\n\nThe truth is that no one knows for certain, and dreaming may do several of these things at once. What is clear is that dreams are a normal and healthy part of sleep.\n\nSo the next time you wake from a strange dream, remember that your resting brain was quietly at work, sorting, practicing, and perhaps telling itself a story in the dark.",
-        summaryJa: "なぜ夢を見るのかについて。毎晩、深い眠りに入ると、心は夢という不思議で鮮明な物語を作る。楽しいもの、怖いものがあり、目覚めると多くは忘れられる。人は何千年も夢の意味を考えてきたが、なぜ夢を見るのか科学者は今も解明中だ。夢は主に脳が非常に活発な睡眠段階で起こり、覚醒時に近いほど忙しい。この間、閉じたまぶたの奥で目が素早く動き、最も鮮明な夢が現れる。誰もが夢を見るが、覚えていない人もいる。説はいくつかあり、一つは脳が一日の出来事を整理し、重要な記憶を残し不要なものを捨てるのを助けるというもので、よい睡眠が学習を助ける理由かもしれない。問題や恐れへの対処を安全に練習させるという説もある。休息中の無作為な信号を脳が意味づけしているだけという見方もある。確かなことは誰も知らないが、夢は正常で健康な睡眠の一部だ。",
-        quiz: [
-          { q: "When do the most vivid dreams happen?", options: ["During a sleep stage when the brain is very active", "Only when fully awake", "Never"], answer: 0 },
-          { q: "What is one popular idea about why we dream?", options: ["Dreaming helps the brain sort through memories", "Dreams make us taller", "Dreams stop the heart"], answer: 0 },
-          { q: "What does the passage say is clear about dreams?", options: ["They are a normal and healthy part of sleep", "They are always bad", "Only some people dream"], answer: 0 }
         ]
       }
     ]
