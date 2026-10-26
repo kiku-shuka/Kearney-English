@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-26",
+    passages: [
+      {
+        id: "d1026-1",
+        title: "Why Companies Invest in the Future",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When a company earns money, it has a choice. It can keep the profit now, or it can spend some of it to build for the future. This second choice is called investment. A business might build a new factory, buy better machines, or spend money on research to create new products. Why would a company give up money today for an uncertain reward tomorrow?\n\nThe answer is growth. A company that only takes its profits and never invests may do well for a while, but it will slowly fall behind. Machines wear out, products grow old, and competitors improve. By investing, a company keeps itself strong and ready for the future.\n\nThere are different kinds of investment. Building factories or buying equipment helps a company make more, or make things better. Spending on research and new ideas can lead to products that do not even exist yet. Training workers is an investment too, because skilled people do better work.\n\nInvestment always carries risk. A new factory is expensive, and a new product might fail. The reward is not certain. This is why companies study carefully before they invest, trying to balance risk against possible gain.\n\nGood investment benefits more than the company. New factories create jobs, and new products can improve daily life. When businesses invest wisely, whole economies can grow.\n\nIn the end, investment is really about patience and belief, giving up a smaller reward now in the hope of a greater one later. It is how a company plants the seeds of its own future.",
+        summaryJa: "企業が将来に投資する理由について。企業は利益を得ると選択に迫られる。今の利益を取っておくか、一部を使って将来のために築くか。この二つ目が投資だ。新工場の建設、より良い機械の購入、新製品のための研究などがある。なぜ今のお金を手放して不確実な将来の報酬を狙うのか。答えは成長だ。利益を取るだけで投資しない企業は一時はよくても徐々に遅れる。機械は摩耗し、製品は古び、競合は改善する。投資すれば強さを保ち将来に備えられる。工場や設備はより多く・より良く作るのに役立ち、研究はまだ存在しない製品を生み、従業員の訓練も投資だ。投資には必ずリスクがあり報酬は不確実なので、企業は慎重に調べ危険と利益を比べる。良い投資は雇用を生み生活を改善し、経済全体を成長させる。投資は忍耐と信念の問題だ。",
+        quiz: [
+          { q: "What is 'investment' for a company?", options: ["Spending some profit now to build for the future", "Keeping all profit and spending nothing", "Giving money away freely"], answer: 0 },
+          { q: "What happens to a company that never invests?", options: ["It slowly falls behind", "It always wins", "It stays strong forever without change"], answer: 0 },
+          { q: "Why does investment carry risk?", options: ["It is expensive and the reward is not certain", "It always succeeds", "It costs nothing"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1026-2",
+        title: "How Does Email Travel Across the World?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "You write a message, press \"send,\" and within seconds your email appears on a friend's screen on the other side of the world. It feels instant and simple. But in those few seconds, your message makes a remarkable journey through a hidden network that spans the entire planet.\n\nWhen you send an email, your message does not travel in one piece. Instead, it is broken into small parts called packets. Each packet is like a page of a letter, labelled with the address of where it is going and where it came from. These packets travel separately across the internet and are put back together at the other end.\n\nThe packets move through many machines. First, your message goes to a mail server, a powerful computer that handles email. That server finds the address of your friend's email provider and passes the message along. The packets may cross through many countries, travelling as flashes of light through cables, some of them lying deep under the ocean.\n\nSpecial addresses make this possible. Every email address has two parts, joined by the \"at\" sign. The part after it tells the system which company handles that person's mail, so the message knows where to go.\n\nFinally, the email arrives at your friend's mail server and waits there until they open their inbox. All of this happens automatically, thousands of times every second, around the world. The next time you send an email, remember the vast, invisible journey your few words take to arrive.",
+        summaryJa: "メールが世界を渡る仕組みについて。メッセージを書いて「送信」を押すと、数秒で地球の反対側の友人の画面に届く。瞬時で単純に感じるが、その数秒でメッセージは地球全体に広がる見えない網を通る見事な旅をする。メールを送ると、メッセージは一つの塊でなくパケットという小さな部分に分けられる。各パケットは手紙の一ページのようで、宛先と差出元の住所が付く。別々にインターネットを渡り、受信側で元に戻される。パケットは多くの機械を通る。まずメールサーバーという強力なコンピューターへ行き、友人のメール業者の住所を見つけて渡す。海底深くのケーブルを含め、光として多くの国を越える。メールアドレスは「＠」で二部に分かれ、後ろの部分が誰の業者が扱うかを示す。最後に友人のサーバーに届き、受信箱を開くまで待つ。",
+        quiz: [
+          { q: "How does an email travel across the internet?", options: ["Broken into small parts called packets", "As one large piece only", "By being printed and mailed"], answer: 0 },
+          { q: "What is a mail server?", options: ["A powerful computer that handles email", "A type of envelope", "A delivery truck"], answer: 0 },
+          { q: "What does the part after the 'at' sign in an email address tell the system?", options: ["Which company handles that person's mail", "The person's age", "The weather"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1026-3",
+        title: "Why the World Uses Shared Measurements",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Imagine buying a kilogram of rice in one country and finding that a \"kilogram\" there is different from a kilogram somewhere else. Trade would be chaos, and no one could trust a number. To avoid this, the countries of the world have agreed on shared systems of measurement. It is a quiet form of cooperation that touches almost everything we do.\n\nLong ago, measurements were different everywhere. A \"foot\" might be the length of a local ruler's foot, and a town's weights might not match the next town's. As trade and science grew, these differences caused confusion, arguments, and mistakes. The world needed a common language of numbers.\n\nThe answer was the metric system, built on units like the meter and the kilogram. Most countries now use it, and scientists everywhere use it too. Because the units are shared and carefully defined, a measurement made in one country means exactly the same in another.\n\nShared standards go beyond weights and lengths. The world also agrees on how to measure time, so clocks everywhere can match. There are even shared rules for the shapes of screws, the safety of toys, and the size of shipping containers, which lets goods move smoothly between nations.\n\nKeeping these standards is the work of international groups, where experts from many countries meet and agree. It is not exciting news, but it is essential. Every time a product fits, a clock agrees, or a trade is fair, we quietly enjoy the benefit of a world that measures together.",
+        summaryJa: "世界が共通の単位を使う理由について。ある国で米1キログラムを買い、その「キログラム」が別の場所と違ったら、取引は混乱し誰も数字を信じられない。これを避けるため、世界の国々は共通の計量体系に合意した。ほぼ全ての営みに関わる静かな協力だ。昔は計量が場所ごとに異なり、「フィート」は地元の支配者の足の長さ、町ごとに重さも違った。取引と科学が発展すると、違いは混乱や争い、誤りを生んだ。世界には共通の数の言語が必要だった。答えがメートルやキログラムに基づくメートル法で、今や多くの国と科学者が使う。単位が共有され厳密に定義されるため、ある国の測定値が別の国でも全く同じ意味になる。時間の測り方、ねじの形、玩具の安全、輸送コンテナの寸法にも共通規則があり、物がなめらかに国境を越える。国際機関が維持する。",
+        quiz: [
+          { q: "Why did the world need shared measurements?", options: ["Different measurements caused confusion in trade and science", "To make numbers harder", "Because no one measured anything"], answer: 0 },
+          { q: "What is the metric system built on?", options: ["Units like the meter and the kilogram", "The length of a king's foot", "Random numbers"], answer: 0 },
+          { q: "What is one benefit of shared standards beyond weights and lengths?", options: ["Goods like shipping containers move smoothly between nations", "Clocks never agree", "Trade becomes unfair"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1026-4",
+        title: "Japanese Martial Arts: The Way of Budo",
+        level: "★★☆",
+        genre: "日本",
+        text: "When people think of Japanese martial arts, they may picture judo throws, karate kicks, or the swords of kendo. Japan has given the world several famous fighting arts. But these arts are about far more than fighting. Together they are known as budo, which means the martial way, and the word way is the key to understanding them.\n\nMany Japanese martial arts have names ending in do, meaning way or path: judo, kendo, aikido. This is not an accident. It shows that the art is seen as a lifelong path of self-improvement, not just a method of self-defense. A student trains the body, but also the mind and character.\n\nEach art has its own style. Judo focuses on throws and holds, using an opponent's strength against them. Kendo is the way of the sword, practiced today with bamboo swords and armor. Karate uses strikes with the hands and feet, while aikido turns an attacker's energy away gently.\n\nDespite their differences, these arts share common values. Respect is central: students bow before and after practice, showing respect for their teacher and their partner. Self-control, patience, and effort are valued more highly than winning. A good martial artist stays calm and never uses their skill to harm others needlessly.\n\nFor this reason, millions of people, including many children, practice budo not to become fighters, but to grow stronger in body and spirit. The true goal is not to defeat others, but to improve oneself, one quiet practice at a time.",
+        summaryJa: "日本の武道について。日本の武術というと、柔道の投げ技、空手の蹴り、剣道の剣を思い浮かべるかもしれない。日本は世界にいくつもの有名な武術を与えた。だがこれらは戦い以上のものだ。まとめて「武道」と呼ばれ、「道」という語が理解の鍵だ。柔道・剣道・合気道など、多くは「道」で終わる名を持つ。これは偶然でなく、単なる護身術でなく生涯の自己研鑽の道とみなされることを示す。学ぶ者は体だけでなく心と人格も鍛える。柔道は相手の力を利用した投げや固め、剣道は今日は竹刀と防具で行う剣の道、空手は手足の打撃、合気道は相手の力をやさしくそらす。違いはあれど敬意という共通の価値を持ち、稽古の前後にお辞儀する。克己・忍耐・努力が勝利より重んじられる。多くの子どもも含め、人は強さを心身に育てるために武道を行う。",
+        quiz: [
+          { q: "What does the word 'budo' mean?", options: ["The martial way", "A type of sword", "A kind of food"], answer: 0 },
+          { q: "Why do many martial arts have names ending in 'do' (way)?", options: ["They are seen as a lifelong path of self-improvement", "They are named after a city", "It means 'fast'"], answer: 0 },
+          { q: "What is valued more highly than winning in budo?", options: ["Self-control, patience, and effort", "Harming others", "Being the loudest"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1026-5",
+        title: "Why Does Ice Float on Water?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Drop an ice cube into a glass of water, and it floats. We see this so often that we never question it. Yet it is actually very strange. For almost every other substance in the world, the solid form is heavier than the liquid form and sinks. Water is a rare and important exception. Why does ice float?\n\nTo understand this, think about what makes something float or sink. An object floats if it is less dense than the liquid around it, meaning the same amount of space holds less weight. So the real question is: why is ice less dense than water?\n\nWhen most liquids freeze, their tiny particles pack closely together, making the solid denser. Water is different. As it freezes, its particles join in a special open pattern, with more empty space between them. This means that ice takes up slightly more room than the same amount of water, making it lighter for its size. So it floats.\n\nThis small, strange fact has huge effects on our planet. In winter, a layer of ice forms on top of a lake or pond, but the water below stays liquid. This floating lid of ice protects the fish and plants underneath, letting them survive the cold. If ice sank, lakes would freeze solid from the bottom up, and much life could not survive.\n\nSo the simple sight of a floating ice cube hides a deep truth: a tiny quirk of water helps make life on Earth possible.",
+        summaryJa: "氷が水に浮く理由について。氷を水の入ったコップに落とすと浮く。よく見る光景なので疑わないが、実はとても奇妙だ。世界のほぼ全ての物質では、固体は液体より重く沈む。水はまれで重要な例外だ。なぜ氷は浮くのか。浮沈を決めるのは密度で、周りの液体より密度が低い（同じ体積で軽い）と浮く。だから問いは、なぜ氷は水より密度が低いのか、だ。多くの液体は凍ると粒子が密に詰まり固体は密度が高くなる。水は違い、凍るとき粒子が隙間の多い特別な開いた形で結びつく。つまり氷は同じ量の水より少し大きな場所を占め、体積の割に軽くなり浮く。この小さな事実は地球に大きな影響を持つ。冬、湖の表面に氷の層ができても下の水は液体のままで、氷の蓋が魚や植物を守り寒さを越させる。もし氷が沈めば湖は底から凍り、多くの命が生きられない。",
+        quiz: [
+          { q: "When does an object float?", options: ["When it is less dense than the liquid around it", "When it is heavier than the liquid", "Only when it is warm"], answer: 0 },
+          { q: "Why is ice less dense than water?", options: ["Its particles freeze in an open pattern with more empty space", "It has no particles", "It is always hot"], answer: 0 },
+          { q: "Why is floating ice important for a lake in winter?", options: ["It protects the fish and plants in the water below", "It makes the lake disappear", "It heats the water"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-25",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Where are memories stored in the brain?", options: ["In connections between cells called neurons", "In one single place like a book", "Outside the body"], answer: 0 },
           { q: "What does long-term memory hold?", options: ["Names, skills, and important events for years", "Only phone numbers for seconds", "Nothing at all"], answer: 0 },
           { q: "What is one simple way to help your memory?", options: ["Getting enough sleep and repeating information", "Never paying attention", "Avoiding all new ideas"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-19",
-    passages: [
-      {
-        id: "d1019-1",
-        title: "How Tourism Helps Local Economies",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Every year, millions of people travel to other countries for holidays. They visit famous sights, taste local food, and buy gifts to take home. This travel is more than just fun for the visitors. It is also big business, and it can bring great benefits to the places people visit.\n\nWhen tourists arrive, they spend money in many ways. They pay for hotels, meals in restaurants, tickets to museums, and rides on trains and buses. They buy souvenirs from local shops. All of this spending flows into the local economy, supporting businesses and creating jobs for local people, from hotel staff to tour guides.\n\nTourism can also help preserve culture and nature. When old temples, festivals, or beautiful landscapes attract visitors, there is a strong reason to protect and maintain them. Money from tourism can pay for this care, keeping traditions alive for the future.\n\nTo welcome more visitors, some governments offer helpful policies. For example, a country might make shopping tax-free for tourists, so goods become cheaper and people buy more. Clear signs in foreign languages and easy transport also make a place more inviting.\n\nHowever, too many tourists can cause problems. Crowded streets, rising prices, and damage to nature can trouble local residents. For this reason, many cities now try to manage tourism carefully, welcoming visitors while protecting daily life.\n\nUsed wisely, tourism is a powerful tool. It connects cultures, supports local families, and helps the world's beautiful and historic places survive for generations to come.",
-        summaryJa: "観光が地域経済を支える仕組みについて。毎年、何百万もの人が休暇で外国を旅し、名所を訪れ、郷土料理を味わい、土産を買う。これは観光客にとって楽しみ以上で、大きなビジネスであり、訪問先に大きな恩恵をもたらす。観光客はホテル、飲食、美術館の入場、電車やバス、土産店などで多様に支出し、それが地域経済に流れ込み、ホテル従業員からガイドまで雇用を生む。古い寺や祭り、美しい景観が人を呼べば保護の理由になり、観光収入で維持でき伝統が守られる。免税や多言語の案内、便利な交通も来訪を促す。ただし観光客が多すぎると混雑や物価高、自然破壊で住民が困る。だから多くの都市は慎重に管理する。賢く使えば文化を結び家庭を支える強力な手段だ。",
-        quiz: [
-          { q: "How does tourism help a local economy?", options: ["Tourists' spending supports businesses and creates jobs", "It removes all shops", "It lowers all wages"], answer: 0 },
-          { q: "How can tourism help preserve culture and nature?", options: ["Money from tourism can pay to protect them", "It destroys old temples", "It stops all festivals"], answer: 0 },
-          { q: "What problem can too many tourists cause?", options: ["Crowded streets and rising prices for residents", "Empty cities", "Lower prices forever"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1019-2",
-        title: "How Space Probes Explore Other Worlds",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Human beings have walked on the Moon, but we have never set foot on another planet. Mars, the moons of Jupiter, and distant comets are far too dangerous and far away for people to visit easily. Yet we have still explored these places up close. How? We send robots called space probes to go where humans cannot.\n\nA space probe is an unmanned spacecraft, a traveling robot packed with scientific instruments. After being launched from Earth, it may journey for months or even years to reach its target. Along the way, it is guided by signals from Earth and by its own computers.\n\nProbes do many kinds of work. Some fly past a planet, taking photographs as they pass. Others go into orbit, circling a world for years to study it carefully. The boldest probes land on the surface or even scoop up samples of rock and dust. A few are designed to bring these samples all the way back to Earth, where scientists can study them in detail.\n\nBecause probes are so far away, they must work alone. A command sent from Earth can take many minutes, or even hours, to arrive. So probes are built to make some decisions by themselves and to survive extreme cold, heat, and radiation.\n\nThanks to these brave little machines, we have seen the rings of Saturn, the deserts of Mars, and the icy edges of our solar system. Space probes are the explorers of our age, carrying human curiosity to worlds we may never touch ourselves.",
-        summaryJa: "宇宙探査機が他の世界を探る仕組みについて。人類は月を歩いたが、他の惑星にはまだ降り立っていない。火星や木星の衛星、遠い彗星は危険で遠く、人が容易に行けない。それでも間近で探査してきた。人が行けない所へ探査機というロボットを送るからだ。探査機は科学機器を積んだ無人の宇宙船で、地球から打ち上げられ、目標まで何か月、時に何年も旅する。地球からの信号と自らのコンピューターで導かれる。惑星の脇を通り写真を撮るもの、周回して長年調べるもの、表面に着陸し岩や塵を採取するものもあり、試料を地球へ持ち帰る設計もある。遠いため命令の到達に何分も何時間もかかり、自ら判断し極端な寒暖や放射線に耐える。土星の環や火星の砂漠を見せてくれた。",
-        quiz: [
-          { q: "What is a space probe?", options: ["An unmanned spacecraft full of scientific instruments", "A rocket with astronauts", "A telescope on Earth"], answer: 0 },
-          { q: "What do the boldest probes do?", options: ["Land and even collect samples", "Stay on Earth", "Only make noise"], answer: 0 },
-          { q: "Why must probes make some decisions by themselves?", options: ["Commands from Earth can take a long time to arrive", "They dislike Earth", "They have no computers"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1019-3",
-        title: "Why Do Countries Give Foreign Aid?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Sometimes we hear that one country has given money or help to another. A wealthy nation might send food after a famine, build a hospital in a poorer country, or train its teachers and doctors. This kind of help, given from one country to another, is called foreign aid. But why do countries help people who live far away?\n\nThere are several reasons. The simplest is human kindness. When people suffer from hunger, disaster, or disease, many feel a duty to help, no matter where those people live. Saving lives and reducing suffering is a goal shared by people everywhere.\n\nThere are also practical reasons. A more stable and healthy world is safer for everyone. When a poorer country grows stronger, it can become a trading partner, buying and selling goods. Helping to stop a disease in one place protects every other place too, because sickness crosses borders.\n\nForeign aid comes in different forms. Some is emergency aid, sent quickly after a disaster. Other aid is long-term, helping a country build schools, clean water systems, or farms so that it can support itself in the future. The best aid aims not just to give, but to help people stand on their own.\n\nAid is not always simple. If it is poorly planned, money can be wasted or fail to reach those who need it. Still, at its best, foreign aid reflects a hopeful idea: that the nations of the world are connected, and that helping others can help us all.",
-        summaryJa: "国が外国援助を行う理由について。ある国が別の国にお金や支援を与えたと聞くことがある。豊かな国が飢饉の後に食料を送り、貧しい国に病院を建て、教師や医師を育てることもある。国から国へのこうした支援を外国援助と呼ぶ。なぜ遠くに住む人を助けるのか。最も単純なのは人としての思いやりで、飢えや災害、病気に苦しむ人を、どこに住んでいても助けたいと感じる。実利もあり、安定した健康な世界は皆にとって安全で、貧しい国が強くなれば貿易相手になり、ある地の病気を止めれば他の地も守られる。災害直後の緊急援助もあれば、学校や水道、農業を築く長期援助もある。最良の援助は自立を助ける。計画が悪いと無駄になることもあるが、最良の時、世界はつながっているという希望を映す。",
-        quiz: [
-          { q: "What is 'foreign aid'?", options: ["Help given from one country to another", "A type of tax at home", "A kind of festival"], answer: 0 },
-          { q: "What is one practical reason countries give aid?", options: ["A stable, healthy world is safer and can bring trade", "To make the world poorer", "To stop all travel"], answer: 0 },
-          { q: "What does the best aid aim to do?", options: ["Help people stand on their own", "Keep people dependent forever", "Waste money"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1019-4",
-        title: "Momijigari: Japan's Autumn Leaf Viewing",
-        level: "★★☆",
-        genre: "日本",
-        text: "In spring, Japan is famous for its cherry blossoms, but autumn brings a different kind of beauty. As the weather cools, the leaves of maples and other trees turn brilliant shades of red, orange, and gold. Enjoying these colors is a beloved tradition called momijigari, which means autumn leaf hunting, though no hunting is involved. It simply means going out to admire the leaves.\n\nMomijigari has been popular for over a thousand years. Long ago, nobles wrote poems about the changing leaves, and today people of all ages continue the custom. When autumn arrives, families, friends, and travelers visit parks, temples, and mountains famous for their colorful trees.\n\nTiming is important. The leaves change at different times depending on the region and the weather. The colors begin in the cold northern mountains and slowly move south over several weeks. Television and websites even report a leaf-color forecast, so people can plan the best day to visit.\n\nSome of the most beautiful spots are around old temples and gardens, especially in cities like Kyoto. In the evening, certain gardens light up the trees, and the glowing red leaves against the dark sky are a breathtaking sight.\n\nMomijigari is a gentle, quiet pleasure. People walk slowly, take photographs, and share warm food and drink in the crisp air. Like the cherry blossoms of spring, the autumn leaves remind people that beautiful moments do not last forever, which makes them all the more precious to enjoy together.",
-        summaryJa: "日本の紅葉狩りについて。春の桜で有名な日本だが、秋は別の美しさをもたらす。涼しくなると楓などの葉が鮮やかな赤・橙・金に染まる。この色を楽しむ愛される習わしが「紅葉狩り」で、「狩り」とあるが狩りはせず、出かけて葉を愛でることを指す。千年以上前から親しまれ、昔は貴族が紅葉の歌を詠み、今も老若が続ける。秋には家族や友人、旅人が名所の公園や寺、山を訪れる。時期が大切で、地域や天気で色づきが異なり、寒い北の山から始まり数週かけて南下する。「紅葉前線」の予報もある。特に京都など古い寺や庭園が美しく、夜はライトアップされ、暗い空に映える赤い葉は見事だ。ゆっくり歩き写真を撮り、温かい飲食を楽しむ静かな喜びだ。桜同様、美しい時は永遠でないと教えてくれる。",
-        quiz: [
-          { q: "What does 'momijigari' mean?", options: ["Going out to admire autumn leaves", "Hunting animals in autumn", "Planting cherry trees"], answer: 0 },
-          { q: "Why does Japan have a 'leaf-color forecast'?", options: ["Leaves change at different times by region and weather", "Leaves never change", "To forecast rain only"], answer: 0 },
-          { q: "What do the autumn leaves remind people of?", options: ["That beautiful moments do not last forever", "That winter never comes", "That trees are boring"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1019-5",
-        title: "How Do Bees Make Honey?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Honey is one of nature's sweetest gifts, enjoyed by people for thousands of years. We buy it in jars at the shop, but honey is not made in a factory. It is made by tiny insects: honeybees. The way they turn flowers into honey is one of the most amazing processes in nature.\n\nIt all begins with flowers. A worker bee flies from blossom to blossom, drinking a sweet liquid called nectar with its long tongue. It stores the nectar in a special stomach, separate from the one it uses for its own food. When the bee is full, it flies back to the hive, often after visiting hundreds of flowers.\n\nBack at the hive, the bee passes the nectar to other bees, mouth to mouth. As they do this, chemicals in the bees' bodies slowly change the nectar, turning it into honey. The bees then place the honey into small wax rooms called cells. Nectar is still watery, so the bees beat their wings to blow air over it, drying it until it becomes thick and sweet.\n\nFinally, the bees seal each full cell with a cap of wax, saving the honey as food for the winter, when no flowers bloom. A single hive can store a large amount, far more than the bees need, which is why people can share in it.\n\nSo the honey on your toast is the hard work of thousands of bees and millions of flowers, a tiny golden treasure gathered from the summer fields.",
-        summaryJa: "ミツバチが蜜を作る仕組みについて。蜂蜜は自然の最も甘い贈り物の一つで、何千年も親しまれてきた。店では瓶で買うが、工場で作られるのではなく、小さな昆虫ミツバチが作る。花を蜂蜜に変える過程は自然で最も驚くべきものの一つだ。始まりは花で、働き蜂が花から花へ飛び、長い舌で花蜜という甘い液を飲み、自分の食事用とは別の特別な胃にためる。満杯になると巣へ戻る。巣では蜜を口移しで他の蜂に渡し、その際に蜂の体内の化学物質が蜜を少しずつ蜂蜜に変える。蜂蜜を巣房という小さな蝋の部屋に入れる。花蜜は水っぽいので羽で風を送って乾かし、濃く甘くする。最後に蝋の蓋で各房を閉じ、花の咲かない冬の食料として蓄える。一つの巣は必要以上に蓄えるため人も分けてもらえる。",
-        quiz: [
-          { q: "What do worker bees collect from flowers?", options: ["A sweet liquid called nectar", "Small stones", "Water only"], answer: 0 },
-          { q: "How do bees dry the nectar into thick honey?", options: ["They beat their wings to blow air over it", "They bake it in an oven", "They freeze it"], answer: 0 },
-          { q: "Why do bees store honey?", options: ["As food for winter, when no flowers bloom", "To sell it", "To throw it away"], answer: 0 }
         ]
       }
     ]
