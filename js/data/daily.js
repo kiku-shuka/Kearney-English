@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-27",
+    passages: [
+      {
+        id: "d1027-1",
+        title: "Why Reputation Matters in Business",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "A company can own factories, machines, and money, but one of its most valuable possessions cannot be seen or touched. It is its reputation, the opinion that people have about it. A good reputation takes years to build but can be lost in a moment. For any business, protecting it is deeply important.\n\nWhy does reputation matter so much? The main reason is trust. When people trust a company, they are willing to buy from it, work for it, and recommend it to others. A business with a strong, honest reputation attracts loyal customers who return again and again, which is far cheaper than finding new ones.\n\nReputation is built on actions, not words. A company earns a good name by keeping its promises, making quality products, treating customers and workers fairly, and being honest when something goes wrong. Over many years, these actions add up to a reputation that people respect.\n\nThe danger is that reputation is fragile. A single scandal, a broken promise, or poor treatment of customers can damage years of good work. In today's connected world, news travels fast, and an unhappy customer can share their story with millions in minutes.\n\nThis is why wise companies guard their reputation carefully. They know that an honest reputation is not just good manners; it is good business. In the end, people do business with those they trust, and trust, once earned, is one of the most powerful advantages a company can have.",
+        summaryJa: "ビジネスで評判が大切な理由について。企業は工場や機械、資金を持てるが、最も価値ある財産の一つは見えず触れられない。それが評判、つまり人々が抱く意見だ。良い評判は築くのに何年もかかるが一瞬で失われる。どの事業でも守ることが極めて重要だ。理由の中心は信頼で、人は信頼する企業から買い、そこで働き、他人に薦める。強く誠実な評判は、何度も戻る忠実な客を引き寄せ、新規開拓よりずっと安い。評判は言葉でなく行動で築かれる。約束を守り、良い製品を作り、客と従業員を公平に扱い、問題時に正直であることで良い名を得る。だが評判はもろく、一つの不祥事や約束違反、客への悪い対応が長年の努力を損なう。つながった世界では悪評は一瞬で何百万人にも広がる。誠実な評判は礼儀でなく良い商売だ。",
+        quiz: [
+          { q: "What is one of a company's most valuable possessions that cannot be seen?", options: ["Its reputation", "Its factory", "Its money"], answer: 0 },
+          { q: "How is a good reputation built?", options: ["Through actions like keeping promises and quality work", "By spending the most money", "By making many speeches"], answer: 0 },
+          { q: "Why is reputation fragile today?", options: ["News travels fast and can reach millions quickly", "No one ever talks", "It can never be damaged"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1027-2",
+        title: "How Do Passwords Keep Us Safe?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Every day, we type passwords to open our phones, check email, or buy things online. A password is a secret word or set of characters that proves you are really you. It acts like a key to a locked door, letting the right person in and keeping others out. But how do passwords keep our information safe, and how can we make them stronger?\n\nWhen you create a password, a well-designed website does not simply store it as plain text. Instead, it scrambles the password into a long, unreadable code using a special math process. When you log in again, the site scrambles what you typed and checks whether it matches. This means that even someone who breaks into the system should not be able to read your actual password.\n\nThe problem is that people often choose weak passwords, such as \"1234\" or their own name. These are easy to guess, and computers can try millions of common passwords very quickly. A strong password is long and hard to guess, mixing letters, numbers, and symbols, and is not a real word.\n\nExperts give simple advice. Use a different password for each important account, so that if one is stolen, the others stay safe. Many people now use a \"password manager,\" a program that creates and remembers strong passwords for them.\n\nFor extra safety, many services add a second step, such as a code sent to your phone. A password is only a first line of defense, but a strong one is still one of the simplest ways to protect your digital life.",
+        summaryJa: "パスワードが私たちを守る仕組みについて。私たちは毎日、スマホを開き、メールを確認し、オンラインで買い物するためにパスワードを打つ。パスワードは本人であることを証明する秘密の語や文字列で、鍵のように正しい人を入れ他人を締め出す。どう情報を守り、どう強くできるのか。パスワードを作ると、よく設計されたサイトはそのまま保存せず、特別な数学処理で長く読めない符号に変換する。再ログイン時に入力を同様に変換し一致を確認する。だから侵入者も実際のパスワードを読めないはずだ。問題は「1234」や自分の名前など弱いパスワードを選びがちで、コンピューターは一般的なものを一瞬で大量に試せる。強いパスワードは長く推測しにくく、文字・数字・記号を混ぜ実在の語でない。重要な口座ごとに別のパスワードを使い、パスワード管理ソフトも役立つ。スマホへの確認コードなど二段階認証も安全を高める。",
+        quiz: [
+          { q: "What does a well-designed website do with your password?", options: ["Scrambles it into unreadable code", "Prints it on paper", "Shows it to everyone"], answer: 0 },
+          { q: "What makes a strong password?", options: ["Long and hard to guess, mixing letters, numbers, and symbols", "A simple word like your name", "The number 1234"], answer: 0 },
+          { q: "Why use a different password for each important account?", options: ["If one is stolen, the others stay safe", "To make them easy to forget", "Because it is required by law"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1027-3",
+        title: "What Is GDP? Measuring a Country's Economy",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "In the news, you often hear that a country's economy is \"growing\" or \"shrinking.\" But how can anyone measure something as huge as the economy of a whole nation? The most common tool is a number called GDP, which stands for Gross Domestic Product. Understanding it helps us make sense of much of the world's news.\n\nGDP is, roughly, the total value of all the goods and services a country produces in a year. This includes everything from cars and computers to haircuts and bus rides. If a country makes and sells more this year than last year, its GDP grows, and we say the economy is growing.\n\nWhy do people care so much about GDP? When an economy grows, there are usually more jobs, higher wages, and more money for schools and hospitals. When GDP shrinks, businesses may struggle and people may lose work. So governments watch GDP closely and try to help it grow steadily.\n\nHowever, GDP is not a perfect measure. It counts how much a country produces, but not how fairly that wealth is shared. A country can have a rising GDP while many of its people remain poor. GDP also ignores things that matter to happiness, such as clean air, free time, and good health.\n\nFor this reason, experts say GDP is useful but should not be the only guide. It tells us about the size of an economy, but not the whole story of how well people are actually living. Numbers help, but they never capture everything.",
+        summaryJa: "GDP（国内総生産）とは何かについて。ニュースで国の経済が「成長」「縮小」していると聞くが、一国の経済ほど巨大なものをどう測るのか。最も一般的な道具がGDPという数字だ。これを理解すると世界のニュースの多くが分かる。GDPはおおよそ、その国が一年に生産する全ての財とサービスの総価値で、車やコンピューターから散髪やバス乗車まで含む。昨年より多く作り売ればGDPは増え、経済成長と言う。人々が気にするのは、経済が成長すると普通は雇用が増え賃金が上がり、学校や病院の資金も増えるからだ。縮小すると企業は苦しみ失業も出る。だから政府はGDPを注視し安定成長を促す。だがGDPは完璧でなく、生産量は測るが富が公平に分けられているかは測らない。GDPが伸びても多くの人が貧しいこともある。きれいな空気や自由時間、健康も映さない。有用だが唯一の指標にすべきでない。",
+        quiz: [
+          { q: "What does GDP roughly measure?", options: ["The total value of goods and services a country produces in a year", "The number of people in a country", "The size of a country's land"], answer: 0 },
+          { q: "Why do people care about GDP growing?", options: ["It usually means more jobs and higher wages", "It makes the country smaller", "It has no effect on anyone"], answer: 0 },
+          { q: "What is one weakness of GDP?", options: ["It does not show how fairly wealth is shared", "It counts nothing at all", "It measures happiness perfectly"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1027-4",
+        title: "Noren: The Curtains at Japan's Doorways",
+        level: "★★☆",
+        genre: "日本",
+        text: "Walk through an old shopping street in Japan, and you will see short fabric curtains hanging in many doorways. Split down the middle so a person can pass through, these cloth hangings are called noren. They may look like simple decoration, but noren carry meaning and have been part of Japanese life for centuries.\n\nA noren has several practical uses. Hanging in a doorway, it offers shade from the sun, blocks wind and dust, and gives a little privacy, while still letting air and people pass easily. Long ago, before modern signs, shops used them to mark their entrance and to display their name or symbol.\n\nMost importantly, a noren shows whether a shop is open. When a restaurant or store is doing business, the noren hangs outside the door. When the shop closes for the day, the staff take it down. So a hanging noren is a simple, friendly sign that says, \"Welcome, we are open.\"\n\nNoren also carry a shop's pride. A restaurant's noren may be dyed with its name and a beautiful design, and an old, respected business is sometimes said to have a well-known noren. To damage a shop's reputation is even described as hurting its noren.\n\nToday, noren are still common at restaurants, hot-spring inns, and homes, and modern designers create new styles too. Simple yet full of meaning, the noren is a small cloth that quietly carries welcome, tradition, and the spirit of a Japanese shop.",
+        summaryJa: "日本の店先ののれんについて。日本の古い商店街を歩くと、多くの戸口に短い布の暖簾が下がっている。人が通れるよう中央で割れたこの布を「のれん」と呼ぶ。単なる飾りに見えるが意味を持ち、何世紀も日本の生活の一部だ。のれんには実用もある。戸口に下げると日差しを遮り、風やほこりを防ぎ、少し目隠しにもなりつつ、空気も人も通す。昔、近代的な看板がない頃は、店の入口を示し名や印を掲げた。最も大切なのは営業中かどうかを示すことで、営業中は外に掛け、閉めると外す。だから掛かったのれんは「ようこそ、営業中です」という親しみある合図だ。店の誇りも担い、名や美しい意匠を染めることもあり、老舗は「のれんが知られる」と言われる。店の評判を傷つけることは「のれんを傷つける」とも言う。今も飲食店や温泉宿、家庭で見られる。",
+        quiz: [
+          { q: "What are 'noren'?", options: ["Short fabric curtains hung in doorways", "A type of food", "A kind of car"], answer: 0 },
+          { q: "What does a noren hanging outside a shop usually show?", options: ["That the shop is open", "That the shop is on fire", "That the shop moved away"], answer: 0 },
+          { q: "What does 'hurting its noren' describe?", options: ["Damaging a shop's reputation", "Cleaning the floor", "Raising prices"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1027-5",
+        title: "How Does Our Sense of Smell Work?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "The smell of fresh bread, flowers, or rain can fill us with pleasure, warning, or memory in an instant. Smell is one of our oldest and most powerful senses, yet we rarely stop to think about how it works. How does the nose turn the air around us into the rich world of smells?\n\nEverything we smell gives off tiny, invisible particles called molecules, which float in the air. When we breathe in, these molecules travel up into the nose. High inside the nose is a small patch covered with millions of special sensing cells. When certain molecules touch these cells, the cells send a signal to the brain, which recognizes the smell.\n\nHumans can tell apart a huge number of different smells, perhaps more than a trillion. This is because smells are not detected one by one. Instead, each smell is a mixture that triggers a particular pattern of cells, and the brain learns to recognize these patterns, much like letters forming countless words.\n\nSmell is closely linked to memory and emotion. The part of the brain that handles smell sits near the parts that store memories and feelings. This is why a single scent, like a certain food or perfume, can suddenly bring back a strong memory from long ago.\n\nSmell also protects us. The bad smell of spoiled food or smoke warns us of danger before we can see it. Quiet and often ignored, our sense of smell shapes how we enjoy food, sense the world, and remember our lives.",
+        summaryJa: "嗅覚の仕組みについて。焼きたてのパンや花、雨のにおいは、一瞬で喜びや警告、記憶をもたらす。嗅覚は最も古く強力な感覚の一つだが、仕組みを考えることは少ない。鼻はどうやって周りの空気を豊かなにおいの世界に変えるのか。においを放つものは皆、分子という小さな見えない粒子を出し空気中を漂う。息を吸うと分子が鼻の奥へ上る。鼻の高い所には無数の特別な感知細胞に覆われた小さな領域があり、特定の分子が触れると細胞が脳へ信号を送り、脳がにおいを認識する。人は一兆以上ともいわれる膨大な数のにおいを区別できる。においは一つずつでなく、混合物が特定の細胞の組み合わせを刺激し、脳が文字が無数の語を作るようにその模様を覚えるからだ。嗅覚は記憶や感情と深く結びつき、脳の嗅覚を扱う部分が記憶や感情の部分の近くにあるため、ある香りが昔の記憶を呼び起こす。腐った食べ物や煙のにおいは危険を知らせ守ってくれる。",
+        quiz: [
+          { q: "What travels into the nose when we smell something?", options: ["Tiny invisible particles called molecules", "Small stones", "Beams of light"], answer: 0 },
+          { q: "Why can a single scent bring back a strong memory?", options: ["The brain's smell area sits near memory and emotion areas", "Smells contain words", "The nose stores memories"], answer: 0 },
+          { q: "How does smell protect us?", options: ["Bad smells warn us of danger like spoiled food or smoke", "It makes us run faster", "It turns off our eyes"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-26",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why does a red apple look red?", options: ["It reflects red light and absorbs most other colors", "It makes its own red light", "It is painted each day"], answer: 0 },
           { q: "What are the eye cells that detect color called?", options: ["Cones", "Bones", "Stones"], answer: 0 },
           { q: "What does color blindness usually mean?", options: ["Some colors are hard to tell apart, not that no color is seen", "A person sees no light at all", "A person sees only new colors"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-20",
-    passages: [
-      {
-        id: "d1020-1",
-        title: "What Is a Startup?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "You have probably heard the word \"startup.\" A startup is a young company, usually just beginning, built around a new idea. While a normal new shop might sell familiar things in a familiar way, a startup often tries to do something different, such as creating a new product, a new service, or a new way of solving a problem.\n\nStartups usually begin small, sometimes with just a few people working in a tiny office or even at home. The founders have an idea they believe in, but they often do not yet have much money. To grow, many startups look for investors, people who give them money in exchange for a share of the company. If the company succeeds, the investors gain; if it fails, they lose.\n\nWhy are startups exciting? Because they can grow very fast. A good idea, helped by technology, can reach millions of people in just a few years. Some of today's largest and most famous companies began as tiny startups not long ago.\n\nBut startups are also risky. Many fail, because the idea does not work, the money runs out, or a bigger company does the same thing better. Life in a startup can mean long hours and uncertainty.\n\nDespite the risks, startups are important. They bring new ideas, create jobs, and push older companies to improve. Governments often support them, holding awards and events to encourage them, because a healthy stream of new companies helps keep an economy fresh and growing.",
-        summaryJa: "スタートアップとは何かについて。「スタートアップ」という言葉を聞いたことがあるだろう。スタートアップは新しい発想を核に始まったばかりの若い会社だ。普通の新店が見慣れた物を見慣れた方法で売るのに対し、スタートアップは新製品・新サービス・新しい問題解決法など、何か違うことに挑むことが多い。たいてい数人で小さな事務所や自宅から始まり、創業者は信じる発想を持つが資金は乏しい。成長のため、会社の株と引き換えに資金を出す投資家を探す。成功すれば投資家も得をし、失敗すれば損をする。良い発想は技術の助けで数年で何百万人にも届き、今の大企業も元は小さなスタートアップだった。だが失敗も多く危険で、長時間労働と不確実さを伴う。それでも新しい発想と雇用を生み、経済を新鮮に保つ。",
-        quiz: [
-          { q: "What is a startup?", options: ["A young company built around a new idea", "A very old, large company", "A government office"], answer: 0 },
-          { q: "How do many startups get money to grow?", options: ["From investors, in exchange for a share of the company", "By printing money", "From nowhere"], answer: 0 },
-          { q: "Why are startups risky?", options: ["Many fail if the idea doesn't work or money runs out", "They can never grow", "They are always safe"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1020-2",
-        title: "How Do Batteries Store Energy?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Batteries are everywhere in modern life. They power our phones, remote controls, toys, cars, and countless other devices. A battery lets us carry energy with us and use it whenever we want, far from any wall socket. But what is really happening inside that small container?\n\nA battery stores energy in the form of chemicals. Inside, there are special materials and a substance that lets tiny charged particles move between them. When you connect a battery to a device and switch it on, a chemical reaction begins. This reaction pushes a stream of tiny particles, called electrons, out of one end of the battery, through the device, and back into the other end. That flow of electrons is electricity, and it is what makes the device work.\n\nAs the battery is used, the chemicals slowly change. Eventually, the reaction can no longer continue, and we say the battery is \"dead.\" A simple battery must then be thrown away or recycled.\n\nSome batteries, however, can be recharged. In these, electricity from a charger pushes the chemical reaction backward, returning the materials to their starting state. This is why a phone battery can be used again and again, though after many years it slowly weakens.\n\nScientists are working hard to make batteries better: lighter, longer-lasting, and safer. Because clean energy from the sun and wind is not always available, large batteries are becoming important for storing it. From a tiny watch to a huge power station, batteries quietly hold the energy that keeps our world running.",
-        summaryJa: "電池がエネルギーを蓄える仕組みについて。電池は現代生活のあらゆる所にあり、スマホやリモコン、おもちゃ、車などを動かす。電池のおかげでエネルギーを持ち運び、コンセントから離れても使える。小さな容器の中では何が起きているのか。電池はエネルギーを化学物質の形で蓄える。内部には特別な材料と、小さな帯電粒子がその間を移動できる物質がある。機器につないで動かすと化学反応が始まり、電子という小さな粒子の流れが一方の端から出て機器を通りもう一方へ戻る。この電子の流れが電気で、機器を動かす。使ううちに化学物質が変化し、やがて反応が続かなくなると「切れた」状態になる。再充電できる電池は、充電器の電気で反応を逆に進め元に戻す。軽く長持ちで安全な電池の研究が進み、太陽や風の電気を蓄えるのにも重要になっている。",
-        quiz: [
-          { q: "In what form does a battery store energy?", options: ["As chemicals", "As light", "As sound"], answer: 0 },
-          { q: "What is the flow of electrons through a device?", options: ["Electricity", "Water", "Heat only"], answer: 0 },
-          { q: "How can a rechargeable battery be used again?", options: ["A charger pushes the chemical reaction backward", "It never runs out", "You shake it"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1020-3",
-        title: "How the World Works to End Hunger",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "The Earth produces enough food for everyone, yet millions of people still go hungry. Some cannot afford to buy food, while others live in places struck by drought, war, or disaster. Ending hunger has become one of the world's most important shared goals, and no single country can achieve it alone.\n\nCountries and organizations work together in several ways. When a sudden crisis strikes, such as a famine or a flood, international groups rush emergency food to the people in danger. Trucks, ships, and planes carry grain and supplies to areas that cannot feed themselves, often saving many lives.\n\nBut sending food is only a short-term answer. To end hunger for good, the world must help people grow their own food. Experts teach farmers better methods, provide stronger seeds, and help build systems to store and water crops. New science can help too. For example, researchers are finding faster ways to breed fish and crops, so that more food can be produced in less time.\n\nThere are also deeper causes to solve. Poverty, poor roads, and unfair prices can all keep food away from those who need it. Peace matters as well, because war is one of the greatest causes of hunger.\n\nProgress has been real but uneven. Over past decades, the share of hungry people in the world fell, though recent crises have slowed this gain. The task is huge, but the goal is clear and shared: a world where every person, in every country, has enough to eat.",
-        summaryJa: "世界が飢餓をなくすための取り組みについて。地球は全員分の食料を生産できるのに、今も何百万もの人が飢えている。食料を買えない人もいれば、干ばつや戦争、災害に見舞われた地に住む人もいる。飢餓の根絶は世界の重要な共通目標で、一国だけでは達成できない。各国や組織は協力する。飢饉や洪水などの危機では、国際団体が緊急食料を急送し、トラックや船、飛行機で穀物を届け多くの命を救う。だが食料を送るのは短期策にすぎず、根絶には人々が自ら食料を作れるよう助ける必要がある。専門家が農法を教え、強い種を提供し、貯蔵や灌漑を整える。魚や作物を速く育てる新しい科学も役立つ。貧困や悪路、不公平な価格、戦争も原因だ。過去数十年で飢えた人の割合は減ったが、近年の危機で停滞している。",
-        quiz: [
-          { q: "Why can't one country end hunger alone?", options: ["It is a huge shared global problem", "Only one country has food", "Hunger does not exist"], answer: 0 },
-          { q: "What is a short-term answer when a crisis strikes?", options: ["Rushing emergency food to people in danger", "Ignoring the crisis", "Raising food prices"], answer: 0 },
-          { q: "What is a long-term way to end hunger?", options: ["Helping people grow their own food", "Sending food only once", "Closing all farms"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1020-4",
-        title: "Ikebana: The Art of Japanese Flower Arranging",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, people put flowers in a vase simply to make a room look pretty. In Japan, arranging flowers has grown into a careful and respected art called ikebana. The word means \"living flowers,\" and ikebana is far more than just placing blooms in water. It is a thoughtful practice with deep roots in Japanese culture.\n\nIkebana began hundreds of years ago, connected to offering flowers at temples. Over time, it developed into an art studied by many people. Unlike a full, colorful Western bouquet, an ikebana arrangement is often simple, using only a few flowers, stems, and leaves. Empty space is just as important as the plants themselves.\n\nThe art follows careful ideas about balance and line. Arrangers pay attention to the shape of each branch, the angle of a stem, and the meeting of three main points, often said to represent heaven, earth, and humanity. The goal is not to show as many flowers as possible, but to capture the natural beauty and feeling of the plants.\n\nCreating ikebana is also a quiet, almost meditative activity. The arranger works slowly and with full attention, and the process itself is valued as much as the final result. Many people find it calming and thoughtful.\n\nToday, ikebana is studied and enjoyed around the world. In a single branch and a few leaves, it shows a key idea in Japanese art: that beauty often lies in simplicity, balance, and respect for nature.",
-        summaryJa: "日本の生け花について。多くの国では部屋を美しく見せるため花を花瓶に挿すが、日本では花を生けることが生け花という丁寧で尊ばれる芸術に発展した。「生きた花」を意味し、ただ水に花を挿す以上のもので、日本文化に深く根ざした思慮深い実践だ。数百年前、寺への献花と結びついて始まり、やがて多くの人が学ぶ芸術になった。色鮮やかで豪華な西洋の花束と違い、生け花は数本の花や茎、葉だけを使う簡素なものが多く、余白も植物と同じくらい大切だ。均衡と線を重んじ、枝の形や茎の角度、天・地・人を表すとされる三つの主要点の調和に注意を払う。できるだけ多く飾るのでなく、自然の美と趣を捉えるのが目的だ。瞑想のように静かで、過程そのものも尊ばれる。簡素・調和・自然への敬意を示す。",
-        quiz: [
-          { q: "What does the word 'ikebana' mean?", options: ["Living flowers", "Big garden", "Painted vase"], answer: 0 },
-          { q: "How is ikebana different from a Western bouquet?", options: ["It is often simple, and empty space matters", "It uses as many flowers as possible", "It uses no plants"], answer: 0 },
-          { q: "What is valued as much as the final arrangement?", options: ["The quiet, careful process of making it", "The price of the vase", "The speed of the work"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1020-5",
-        title: "How Does Our Memory Work?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Think of your favorite song, the face of a friend, or what you ate for breakfast. All of these are memories, stored somewhere inside your brain. Memory is one of the most important things the brain does, yet how it works is still a wonderful puzzle that scientists are slowly solving.\n\nMemory is not kept in one single place, like a book on a shelf. Instead, it is spread across the brain in connections between tiny cells called neurons. When you learn something new, certain neurons connect and send signals to one another. The more often this happens, the stronger the connection becomes, and the easier the memory is to recall.\n\nScientists often describe two main types of memory. Short-term memory holds information for just a few seconds, like a phone number you repeat before dialing. Long-term memory can last for years, holding names, skills, and important events. Sleep plays a key role, because during the night the brain moves some memories from short-term into long-term storage.\n\nNot everything is remembered, and that is a good thing. The brain lets go of unimportant details so that it is not overloaded. This is also why we forget. Forgetting is a normal part of how memory works.\n\nWe can help our memory in simple ways: paying careful attention, repeating information, getting enough sleep, and connecting new ideas to things we already know. Understanding memory not only explains a daily mystery but also helps us learn and remember better throughout our lives.",
-        summaryJa: "記憶の仕組みについて。好きな歌、友人の顔、朝食べた物――これらは皆、脳のどこかに蓄えられた記憶だ。記憶は脳の最も重要な働きの一つだが、その仕組みは科学者が少しずつ解き明かす素晴らしい謎だ。記憶は棚の本のように一か所にあるのでなく、ニューロンという小さな細胞のつながりとして脳全体に広がる。新しく学ぶと特定のニューロンがつながり信号を送り合い、繰り返すほどつながりが強まり思い出しやすくなる。短期記憶は数秒だけ情報を保ち（かける前に繰り返す電話番号など）、長期記憶は名前や技能、重要な出来事を何年も保つ。睡眠が重要で、夜に脳は一部の記憶を短期から長期へ移す。重要でない細部は忘れて過負荷を防ぐ。注意を払う、繰り返す、十分眠る、既知の事と結ぶことで記憶を助けられる。",
-        quiz: [
-          { q: "Where are memories stored in the brain?", options: ["In connections between cells called neurons", "In one single place like a book", "Outside the body"], answer: 0 },
-          { q: "What does long-term memory hold?", options: ["Names, skills, and important events for years", "Only phone numbers for seconds", "Nothing at all"], answer: 0 },
-          { q: "What is one simple way to help your memory?", options: ["Getting enough sleep and repeating information", "Never paying attention", "Avoiding all new ideas"], answer: 0 }
         ]
       }
     ]
