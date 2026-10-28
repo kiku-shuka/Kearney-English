@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-28",
+    passages: [
+      {
+        id: "d1028-1",
+        title: "How to Make a Budget",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Many people feel that their money disappears too quickly, with little to show for it at the end of the month. One of the best ways to take control is to make a budget. A budget is simply a plan for your money, deciding where it will go before you spend it. It works for a single person, a family, or even a large company.\n\nMaking a basic budget is not difficult. The first step is to know your income, the money that comes in each month. The second step is to track your spending, the money that goes out. Many people are surprised when they see how much they spend on small things, like snacks or coffee, once they add it all up.\n\nNext, you divide your spending into groups. Some costs are needs, such as food, rent, and electricity, which you cannot avoid. Others are wants, such as games or eating out, which are nice but not necessary. A good budget makes sure that needs are paid first, and then sets a limit on wants.\n\nA wise plan also includes saving. Many experts suggest treating savings like a need, setting some money aside each month before spending on wants.\n\nThe real power of a budget is awareness. When you can see where your money goes, you can make better choices. A budget does not mean you can never enjoy yourself. It simply means you, and not chance, decide how your money is used.",
+        summaryJa: "予算（家計の計画）の立て方について。多くの人は、月末に何も残らずお金がすぐ消えると感じる。これを管理する最良の方法の一つが予算を立てることだ。予算とは、使う前にお金の行き先を決める計画で、個人でも家族でも大企業でも使える。基本の予算は難しくない。第一歩は収入、つまり毎月入るお金を知ること。第二歩は支出、つまり出ていくお金を記録すること。間食やコーヒーなど小さな出費も合計すると驚くほど多い。次に支出を分類する。食費・家賃・電気など避けられない「必要」と、ゲームや外食など「欲しいもの」がある。良い予算は必要を先に払い、欲しいものに上限を設ける。貯蓄を「必要」として欲しいものに使う前に取り分ける人も多い。予算の本当の力は「気づき」で、お金の流れが見えればより良い選択ができる。偶然でなく自分が使い道を決められる。",
+        quiz: [
+          { q: "What is a budget?", options: ["A plan for your money before you spend it", "A type of bank", "A kind of tax"], answer: 0 },
+          { q: "What is the difference between 'needs' and 'wants'?", options: ["Needs are unavoidable costs; wants are nice but not necessary", "They are exactly the same", "Wants must always be paid first"], answer: 0 },
+          { q: "What is the real power of a budget?", options: ["Awareness of where your money goes", "Making money disappear", "Never enjoying anything"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1028-2",
+        title: "How Do Elevators Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "In tall buildings everywhere, elevators carry people up and down all day, quietly and safely. We step in, press a button, and arrive at another floor without a thought. But lifting a heavy box full of people, sometimes hundreds of meters into the air, is no simple task. How does an elevator work, and why is it so safe?\n\nMost elevators work using a clever idea called a counterweight. The elevator car hangs from strong steel ropes that run up and over a wheel at the top of the building and down to a heavy weight on the other side. This counterweight is about as heavy as the car with a few people inside. Because the two sides nearly balance, the motor does not have to lift the full weight of the car. It only needs to move the small difference, which saves a great deal of energy.\n\nA powerful electric motor turns the wheel, pulling the car up or letting it down. A computer controls the motor, choosing which floors to stop at and making sure the car arrives level with the floor.\n\nSafety is built in at every step. The steel ropes are far stronger than needed, and there are usually several of them, so the car cannot fall if one breaks. Most importantly, every elevator has a device called a governor. If the car ever moves too fast, the governor triggers brakes that grip the rails and stop it. Thanks to these systems, riding an elevator is one of the safest journeys we make.",
+        summaryJa: "エレベーターの仕組みについて。高い建物では、エレベーターが一日中静かに安全に人を上下させる。乗ってボタンを押せば別の階に着く。だが人を乗せた重い箱を時に数百メートルも持ち上げるのは簡単ではない。どう動き、なぜ安全なのか。多くはカウンターウェイト（釣り合いおもり）という巧妙な仕組みを使う。かごは強い鋼のロープで吊られ、ロープは建物上部の滑車を越えて反対側の重いおもりへ下りる。このおもりは数人乗ったかごとほぼ同じ重さだ。両側がほぼ釣り合うため、モーターはかご全体でなくわずかな差だけ動かせばよく、省エネになる。強力な電動モーターが滑車を回し、コンピューターが停止階や着床を制御する。安全も随所にあり、鋼ロープは必要以上に強く複数あるので一本切れても落ちない。最も重要なのは調速機で、速すぎると鋼レールをつかむブレーキが作動して止める。",
+        quiz: [
+          { q: "What is a 'counterweight' used for in an elevator?", options: ["To balance the car so the motor moves only a small difference", "To make the car heavier", "To light the car"], answer: 0 },
+          { q: "Why can't the car fall if one rope breaks?", options: ["There are usually several strong ropes", "The car has wings", "Ropes never hold the car"], answer: 0 },
+          { q: "What does the 'governor' do?", options: ["Triggers brakes if the car moves too fast", "Chooses the music", "Opens the windows"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1028-3",
+        title: "Why Do Countries Sign Treaties?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When two or more countries want to agree on something important, they often write it down in a formal document called a treaty. A treaty is a promise between nations, a written agreement that each side pledges to follow. Treaties have shaped the world for thousands of years, ending wars, opening trade, and setting rules that cross borders.\n\nWhy do countries bother to sign them? The main reason is trust. A spoken promise between leaders can be forgotten or denied, but a written treaty is clear and lasting. By signing, each country publicly agrees to certain actions, and other nations can see whether the promise is kept.\n\nTreaties cover many subjects. Some are peace treaties that formally end a war. Others are trade treaties that allow goods to move more freely between countries. In modern times, many treaties deal with shared global problems, such as protecting the environment, limiting dangerous weapons, or defending human rights.\n\nMaking a treaty takes patience. Representatives from each country discuss the terms carefully, sometimes for years, until everyone can agree. Once signed, a treaty usually must also be approved by each country's own government before it takes full effect.\n\nTreaties are powerful, but they are not perfect. There is no world police to force a country to obey, so treaties depend on nations keeping their word and on the pressure of other countries. Still, they remain one of the most important tools the world has. Through treaties, nations turn difficult conversations into lasting, shared rules.",
+        summaryJa: "国が条約を結ぶ理由について。二つ以上の国が重要な事柄で合意したいとき、条約という正式な文書に書き記すことが多い。条約は国家間の約束で、各国が守ると誓う文書だ。条約は何千年も世界を形づくり、戦争を終わらせ、貿易を開き、国境を越える規則を定めてきた。なぜ署名するのか。中心は信頼だ。口約束は忘れられ否定されうるが、文書の条約は明確で長く残る。署名により各国は公に行動を約束し、他国は守られているか見られる。条約は多岐にわたり、戦争を正式に終える平和条約、物が自由に動く貿易条約、環境保護・危険兵器の制限・人権擁護など地球規模の問題を扱うものもある。作成には忍耐が要り、各国の代表が何年もかけて条件を話し合う。署名後も各国政府の承認が要ることが多い。強力だが完璧でなく、強制する世界警察はなく、各国が約束を守ることと他国の圧力に頼る。",
+        quiz: [
+          { q: "What is a treaty?", options: ["A written agreement, a promise between nations", "A type of army", "A national holiday"], answer: 0 },
+          { q: "Why do countries write treaties down?", options: ["A written treaty is clear and lasting, building trust", "To keep them secret", "So they can be forgotten"], answer: 0 },
+          { q: "Why are treaties not perfect?", options: ["There is no world police to force a country to obey", "They are never signed", "They always start wars"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1028-4",
+        title: "Hanami: Japan's Cherry Blossom Tradition",
+        level: "★★☆",
+        genre: "日本",
+        text: "Each spring, something wonderful happens across Japan. For about a week, cherry trees burst into clouds of soft pink and white flowers called sakura. People rush outside to enjoy them in a beloved custom called hanami, which means flower viewing. For many, it is the most awaited moment of the year.\n\nDuring hanami, families, friends, and coworkers gather under the blossoming trees in parks and along rivers. They spread out mats, share food and drinks, talk, and simply gaze up at the flowers. In the evening, some places light up the trees, and the glowing blossoms against the dark sky are breathtaking.\n\nThe timing is delicate. The blossoms open at slightly different times across the country, starting in the warm south and moving north over several weeks. Television and websites report a cherry blossom front, so people can plan the best day to go. The flowers last only a short time, and a single rain or strong wind can scatter them.\n\nThis brief life is part of the beauty. For centuries, the cherry blossom has been a gentle reminder that beautiful things do not last forever. Rather than making people sad, this thought encourages them to enjoy the present moment fully, together with others.\n\nHanami is more than looking at flowers. It is a celebration of spring, of friendship, and of life itself. When the sakura bloom, the whole country seems to pause and look up, sharing a quiet, happy moment before the petals fall.",
+        summaryJa: "日本の花見について。毎春、日本各地で素晴らしいことが起こる。約一週間、桜の木が淡い桜色と白の花の雲のように咲く。人々は外へ出て、「花見」という愛される習わしで楽しむ。多くの人にとって一年で最も待ち望む時だ。花見では家族や友人、同僚が公園や川沿いの桜の下に集まり、敷物を広げ飲食し、語り、花を見上げる。夜は木をライトアップする場所もあり、暗い空に映える花は見事だ。時期は繊細で、暖かい南から始まり数週かけて北上する。「桜前線」が報じられ、人は最適な日を計画する。花は短命で、一度の雨や強風で散る。この短い命も美の一部だ。桜は何世紀も、美しいものは永遠でないとやさしく思い出させてきた。悲しむより今を存分に楽しむよう促す。花見は花を見る以上に、春と友情と命そのものの祝いだ。",
+        quiz: [
+          { q: "What does 'hanami' mean?", options: ["Flower viewing", "Snow festival", "Mountain climbing"], answer: 0 },
+          { q: "Why is there a 'cherry blossom front' report?", options: ["Blossoms open at different times across the country", "The flowers never open", "To forecast earthquakes"], answer: 0 },
+          { q: "What does the short life of the blossoms remind people of?", options: ["That beautiful things do not last forever", "That spring never ends", "That trees are useless"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1028-5",
+        title: "What Causes Thunder and Lightning?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "During a storm, the sky suddenly flashes with a brilliant light, and moments later a deep rumble rolls across the clouds. Lightning and thunder are among nature's most dramatic shows. They can seem frightening, but they come from a simple natural process happening high in the clouds.\n\nIt begins with electricity. Inside a large storm cloud, strong winds toss around countless tiny pieces of ice and water. As they bump and rub together, they build up an electric charge, much like when you rub a balloon on your hair. The charge grows and grows until it is released all at once in a giant spark. That spark, leaping between the cloud and the ground, or between clouds, is lightning.\n\nLightning is incredibly hot, far hotter than the surface of the Sun. In an instant, it heats the air around it so fast that the air explodes outward. This sudden movement of air creates a powerful sound wave, which we hear as thunder. So lightning and thunder happen at the same moment; we simply see the flash before we hear the sound.\n\nThis is also why we can tell how far away a storm is. Light travels almost instantly, but sound travels much more slowly. By counting the seconds between the flash and the rumble, we can estimate the distance. A long gap means the storm is far; a short one means it is close.\n\nPowerful and beautiful, lightning is simply nature releasing the electricity it has quietly built up in the sky.",
+        summaryJa: "雷と稲妻の原因について。嵐の間、空が突然まばゆく光り、少し後に低いとどろきが雲を渡る。稲妻と雷は自然の最も劇的な見世物の一つだ。怖く見えるが、雲の高い所で起こる単純な自然の過程から生まれる。始まりは電気だ。大きな嵐雲の中で強い風が無数の小さな氷や水の粒を揺さぶる。ぶつかり擦れ合ううちに、風船を髪でこするように電気を帯びる。電荷は大きくなり、ついに巨大な火花として一気に放出される。雲と地面の間や雲どうしを飛ぶその火花が稲妻だ。稲妻は太陽の表面よりはるかに高温で、一瞬で周りの空気を急激に熱し、空気が外へ爆発する。この急な空気の動きが強い音波を生み、雷として聞こえる。だから稲妻と雷は同時に起き、光を先に見て音を後に聞くだけだ。光はほぼ瞬時、音は遅いので、光と音の間の秒数で距離を推定できる。",
+        quiz: [
+          { q: "What is lightning?", options: ["A giant spark of electricity released from a cloud", "A type of cloud", "A kind of rain"], answer: 0 },
+          { q: "What causes the sound of thunder?", options: ["Lightning heats the air so fast that it explodes outward", "Clouds hitting each other softly", "Rain falling on roofs"], answer: 0 },
+          { q: "Why do we see the flash before we hear the thunder?", options: ["Light travels much faster than sound", "Thunder comes first but is quiet", "They happen hours apart"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-27",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "How does sound begin?", options: ["As a vibration that makes the air move in waves", "As a bright light", "As a smell"], answer: 0 },
           { q: "What does the eardrum do when sound waves hit it?", options: ["It vibrates like a tiny drum", "It makes light", "It stops moving"], answer: 0 },
           { q: "What happens in the spiral part of the ear?", options: ["Vibrations are turned into electrical signals for the brain", "Food is digested", "Air is cleaned"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-21",
-    passages: [
-      {
-        id: "d1021-1",
-        title: "Why Time Management Matters at Work",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "In any job, there is always more to do than time to do it. Emails arrive, meetings fill the calendar, and tasks pile up. The people who succeed are often not those who work the most hours, but those who manage their time well. Good time management is one of the most valuable skills in business.\n\nWhy does it matter so much? When you manage your time well, you finish important work on time, feel less stressed, and make fewer mistakes. When you manage it poorly, you may rush, forget things, or stay late to catch up. Over time, good time habits make work calmer and more productive.\n\nThere are simple ways to manage time better. One is to decide what is most important each day and do that first, before smaller tasks. Another is to break a big job into smaller steps, so it feels less frightening and is easier to start. Writing a short list of tasks also helps, because a clear plan is easier to follow than a busy mind.\n\nIt also helps to avoid common traps. Checking messages every few minutes breaks concentration, so many people set certain times to deal with them. Saying \"yes\" to everything can leave no time for what truly matters, so learning to say \"no\" politely is important too.\n\nTime is the one resource everyone shares equally: twenty-four hours a day. We cannot make more of it, but we can choose how to use it. Managing time wisely is really about choosing what matters most.",
-        summaryJa: "職場で時間管理が大切な理由について。どんな仕事でも、やるべきことは時間より多い。メールが届き、会議が予定を埋め、仕事が積み上がる。成功するのは最も長く働く人でなく、時間をうまく使う人であることが多い。良い時間管理はビジネスで最も価値ある技能の一つだ。うまく使えば重要な仕事を期限内に終え、ストレスが減り、ミスも減る。下手だと焦り、忘れ、残業で取り戻すことになる。良いコツは、毎日最も重要なことを先に行う、大きな仕事を小さな段階に分けて始めやすくする、短いリストを書くこと。数分ごとのメール確認は集中を乱すので時間を決めて対応し、何でも引き受けず丁寧に断ることも大切だ。時間は誰にも平等な一日24時間で、増やせないが使い方は選べる。",
-        quiz: [
-          { q: "Who often succeeds at work, according to the passage?", options: ["Those who manage their time well", "Those who work the most hours", "Those who never plan"], answer: 0 },
-          { q: "What is one way to manage time better?", options: ["Do the most important task first", "Do the smallest tasks only", "Avoid all planning"], answer: 0 },
-          { q: "Why is learning to say 'no' politely important?", options: ["Saying yes to everything leaves no time for what matters", "It makes people unhappy", "It wastes time"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1021-2",
-        title: "How Doctors See Inside the Body",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Long ago, a doctor could only guess what was happening inside a patient's body without cutting it open. Today, thanks to clever machines, doctors can look inside a living person safely and painlessly. These tools have changed medicine, helping doctors find problems early and treat them better.\n\nThe oldest of these tools is the X-ray. X-rays are a kind of invisible ray that can pass through soft parts of the body, like skin and muscle, but are blocked by harder parts, like bone. By sending X-rays through the body onto a detector, doctors can create a picture in which bones appear clearly. This makes X-rays very useful for finding broken bones.\n\nOther machines go further. A CT scanner takes many X-ray pictures from different angles and uses a computer to build a detailed, cross-section view of the inside of the body. An MRI machine uses strong magnets and radio waves instead of X-rays, and is especially good at showing soft tissues, such as the brain.\n\nThere is also ultrasound, which uses sound waves too high for us to hear. The waves bounce off organs inside the body, and a computer turns the echoes into a moving picture. Ultrasound is famous for showing images of babies before they are born.\n\nToday, computers help doctors study these images, sometimes spotting tiny signs that are easy to miss. Together, these tools act like windows into the human body, helping doctors understand and heal without a single cut.",
-        summaryJa: "医師が体の中を見る仕組みについて。昔、医師は体を切り開かずに中で何が起きているか推測するしかなかった。今は巧妙な機械のおかげで、生きた人の体内を安全に痛みなく見られる。これは医学を変え、問題の早期発見と治療に役立つ。最も古い道具はレントゲン（X線）で、皮膚や筋肉など柔らかい部分を通り抜けるが骨など硬い部分で遮られる。検出器に当てると骨がはっきり写り、骨折の発見に役立つ。CTは多数のX線画像を角度を変えて撮り、コンピューターで体内の断面図を作る。MRIはX線でなく強い磁石と電波を使い、脳など柔らかい組織を写すのが得意だ。超音波は人に聞こえない高い音波を使い、臓器で跳ね返る反響を動く画像にする。出産前の赤ちゃんの画像で有名だ。コンピューターが画像の解析も助ける。",
-        quiz: [
-          { q: "Why do bones appear clearly on an X-ray?", options: ["X-rays pass through soft parts but are blocked by bone", "Bones glow by themselves", "X-rays avoid muscles only"], answer: 0 },
-          { q: "What does an MRI machine use instead of X-rays?", options: ["Strong magnets and radio waves", "Only sunlight", "Hot water"], answer: 0 },
-          { q: "What is ultrasound famous for showing?", options: ["Images of babies before they are born", "The surface of the Moon", "Broken bones only"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1021-3",
-        title: "What Are Human Rights?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Imagine a list of things that every person in the world should have, simply because they are human, no matter their country, language, or beliefs. This is the idea behind human rights. They are basic freedoms and protections that belong to everyone, from birth, and that no one should be able to take away.\n\nThe modern idea of human rights grew stronger after the terrible events of a great world war. In 1948, countries came together and agreed on a famous document that listed these shared rights for all people. It was a promise that such suffering should never happen again.\n\nHuman rights cover many areas of life. They include the right to life and safety, the right to be treated equally under the law, and freedom from slavery and cruel treatment. They also include the freedom to speak, to believe in a religion of one's choice, and to learn through education. Importantly, rights come with respect for the rights of others.\n\nAgreeing on rights is easier than protecting them everywhere. In some places, people are still treated unfairly or silenced. For this reason, governments, courts, and organizations work to defend human rights, and ordinary people speak up when rights are ignored.\n\nHuman rights remind us of a simple but powerful truth: that every person has value and deserves to be treated with dignity. The idea is not finished or perfect, but it gives the world a shared goal to aim for, and a standard by which fairness can be measured.",
-        summaryJa: "人権とは何かについて。国や言語、信条に関わらず、人間であるというだけで世界の誰もが持つべきものの一覧を想像してほしい。これが人権の考えだ。生まれながらに誰もが持つ基本的な自由と保護で、誰も奪えないものとされる。近代的な人権の考えは、大戦の悲劇の後に強まった。1948年、各国が集い、全ての人の共通の権利を列挙した有名な文書に合意した。二度と同じ苦しみを起こさないという約束だった。人権は生命と安全、法の下の平等、奴隷や残酷な扱いからの自由、言論・信教の自由、教育などを含み、他者の権利の尊重も伴う。合意より各地で守る方が難しく、今も不当に扱われ声を封じられる人がいる。だから政府や裁判所、団体が擁護し、人々も声を上げる。全ての人に価値と尊厳があると教える。",
-        quiz: [
-          { q: "What are human rights?", options: ["Basic freedoms and protections that belong to everyone", "Rules only for rich people", "Laws of a single city"], answer: 0 },
-          { q: "What happened in 1948?", options: ["Countries agreed on a famous document listing shared rights", "The first car was built", "A new planet was found"], answer: 0 },
-          { q: "Why is protecting rights difficult?", options: ["In some places people are still treated unfairly", "Rights are secret", "No one cares about fairness"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1021-4",
-        title: "Omotenashi: The Spirit of Japanese Hospitality",
-        level: "★★☆",
-        genre: "日本",
-        text: "Visitors to Japan often say they are surprised by how kindly and carefully they are treated. A shop worker may walk you to the door, a hotel may remember your name, and a taxi door may open by itself. Behind this attentive service is a deep cultural idea called omotenashi, which can be translated as Japanese hospitality.\n\nOmotenashi is more than just good service. It means caring for a guest with a full and sincere heart, thinking ahead about what they might need, and doing so without expecting anything in return. The host tries to make the guest feel comfortable and valued, often through small, quiet actions that are easy to miss.\n\nThe idea has old roots. It is connected to the traditional tea ceremony, in which a host prepares everything with great care for the comfort and pleasure of the guest. Every detail, from the temperature of the room to the choice of bowl, is considered.\n\nIn daily life, omotenashi appears in many forms. A restaurant may bring a warm towel before a meal. A train may be cleaned and ready exactly on time. Staff bow to welcome and thank customers. These actions show respect and attention to detail.\n\nOf course, kindness and good service exist everywhere in the world. What makes omotenashi special is the belief that caring for others is a quiet art, worth doing well for its own sake. For many people, this gentle spirit is one of the most memorable parts of a visit to Japan.",
-        summaryJa: "日本のおもてなしの心について。日本を訪れる人はしばしば、その親切で心のこもった扱いに驚く。店員が戸口まで見送り、ホテルが名前を覚え、タクシーのドアが自動で開く。この行き届いた接客の背景に、日本のもてなしを意味する「おもてなし」という深い文化がある。おもてなしは良い接客以上のもので、客を心から誠実にもてなし、必要を先回りして考え、見返りを求めずに行うことを指す。小さく静かな、気づきにくい行いで客を心地よく大切に感じさせる。茶道に通じる古い由来があり、亭主が部屋の温度や茶碗の選びまで客のために心を配る。日常では食前の温かいおしぼり、時間通りに清掃された電車、歓迎と感謝のお辞儀などに表れる。人を思いやることを静かな芸術とみなす点が特別だ。",
-        quiz: [
-          { q: "What does 'omotenashi' mean?", options: ["Japanese hospitality, caring sincerely for a guest", "A type of food", "A kind of train"], answer: 0 },
-          { q: "What old tradition is omotenashi connected to?", options: ["The traditional tea ceremony", "Car racing", "Modern shopping malls"], answer: 0 },
-          { q: "What makes omotenashi special?", options: ["The belief that caring for others is a quiet art", "That it expects large payment", "That it is always loud"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1021-5",
-        title: "How Do Our Eyes See Color?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "The world around us is full of color: green leaves, blue skies, red apples. We enjoy these colors every day without thinking. But color is not really \"in\" the objects themselves. It is created by light and by our amazing eyes working together.\n\nIt starts with light. Although sunlight looks white, it is actually made of all the colors mixed together. When light hits an object, the object soaks up some colors and bounces others back. A red apple, for example, absorbs most colors but reflects red light toward our eyes. So the color we see is the light that an object does not keep.\n\nInside each eye are millions of tiny cells that react to light. Some of these cells, called cones, are special because they detect color. Most people have three kinds of cones, which react to red, green, or blue light. By combining the signals from these three types, the brain can create the millions of colors we see, just as mixing a few paints can make many shades.\n\nThis also explains color blindness. Some people have cones that work differently, so they may find it hard to tell certain colors apart, such as red and green. It does not mean they see no color at all.\n\nOur sense of color is a quiet partnership between the sun, the objects around us, and our own eyes and brain. The next time you admire a sunset or a flower, remember that the color you enjoy is really a kind of beautiful message made of light.",
-        summaryJa: "目が色を見る仕組みについて。周りの世界は緑の葉、青い空、赤いリンゴと色で満ちている。毎日何気なく楽しむが、色は物そのものの中にあるのではなく、光と私たちの驚くべき目が共に作り出す。始まりは光で、太陽光は白く見えても実は全ての色が混ざっている。光が物に当たると、物は一部の色を吸収し残りを跳ね返す。赤いリンゴはほとんどの色を吸収し赤い光を目へ反射する。つまり見える色は物が保たなかった光だ。目の中には光に反応する無数の細胞があり、錐体という細胞が色を感知する。多くの人は赤・緑・青に反応する三種の錐体を持ち、その信号を組み合わせて脳が無数の色を作る。色覚の違いもこれで説明でき、赤と緑の区別が難しい人もいるが全く色が見えないわけではない。",
-        quiz: [
-          { q: "Why does a red apple look red?", options: ["It reflects red light and absorbs most other colors", "It makes its own red light", "It is painted each day"], answer: 0 },
-          { q: "What are the eye cells that detect color called?", options: ["Cones", "Bones", "Stones"], answer: 0 },
-          { q: "What does color blindness usually mean?", options: ["Some colors are hard to tell apart, not that no color is seen", "A person sees no light at all", "A person sees only new colors"], answer: 0 }
         ]
       }
     ]
