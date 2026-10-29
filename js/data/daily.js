@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-29",
+    passages: [
+      {
+        id: "d1029-1",
+        title: "What Is Insurance?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Life is full of risks. A house might catch fire, a car might crash, or a person might become ill and unable to work. Any of these events can cost a huge amount of money, far more than most people have saved. To protect against such surprises, people use something called insurance. Understanding it helps explain a big part of the world's economy.\n\nThe idea behind insurance is simple and clever: sharing risk among many people. A large group of people each pay a small, regular amount of money, called a premium, to an insurance company. Most of them will not suffer a disaster in any given year. But for the unlucky few who do, the company uses the collected money to help pay for the damage.\n\nIn this way, a cost that would ruin one family is shared gently among thousands. Each person pays a little to be safe, instead of risking a loss they could never afford alone. It is a bit like a whole village agreeing to help rebuild any single house that burns down.\n\nThere are many kinds of insurance: for homes, cars, health, and travel. Some are required by law, such as car insurance in many countries, while others are a personal choice.\n\nInsurance cannot stop bad things from happening, and it is not free. But it brings something valuable: peace of mind. By turning a possible huge loss into a small, steady cost, insurance lets people and businesses take sensible risks and recover when life does not go as planned.",
+        summaryJa: "保険とは何かについて。人生はリスクに満ちる。家が火事になり、車が事故を起こし、人が病気で働けなくなるかもしれない。どれも巨額の費用がかかり、多くの人の貯金を超える。こうした予想外に備えて人は保険を使う。理解すれば世界経済の大きな部分が分かる。保険の発想は単純で巧妙だ。多くの人でリスクを分け合う。大勢が少額の「保険料」を定期的に保険会社へ払う。ほとんどの人はその年に災難に遭わないが、不運な少数のために会社が集めたお金で損害を補う。こうして一家族を破滅させる費用が何千人にやさしく分けられる。皆が少し払って安全を買い、一人では負えない損失の危険を避ける。火事の家をみんなで建て直す村のようだ。住宅・車・健康・旅行など種類は多く、法で義務づけられるものもある。保険は災難を止めないが、心の安らぎをもたらす。",
+        quiz: [
+          { q: "What is the main idea behind insurance?", options: ["Sharing risk among many people", "Making disasters happen", "Saving nothing at all"], answer: 0 },
+          { q: "What is a 'premium'?", options: ["A small, regular payment to an insurance company", "A kind of disaster", "A free gift"], answer: 0 },
+          { q: "What valuable thing does insurance bring?", options: ["Peace of mind", "More accidents", "Higher risk"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1029-2",
+        title: "How Do LED Lights Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Look around your home, and you will probably see LED lights. They glow in our lamps, phones, televisions, and traffic signals. LEDs have quietly replaced the old light bulbs that were used for over a hundred years. They last far longer and use much less electricity. But how do these tiny lights actually produce light?\n\nThe letters LED stand for light-emitting diode. A diode is a small electronic part that lets electricity flow in only one direction. In an LED, this part is made of special materials. When electricity passes through these materials, something remarkable happens: the material itself gives off light directly. The electricity is turned into light.\n\nThis is very different from an old-style bulb. An old bulb made light by heating a thin wire until it glowed. That method wasted most of the energy as heat, not light, which is why old bulbs became hot and burned out. An LED stays cool and turns far more of its energy into light, making it much more efficient.\n\nBecause they are so efficient and long-lasting, LEDs save energy and money. A single LED can last for many years, and using less electricity is also better for the environment.\n\nLEDs can be made in different colors, and they can be tiny or very bright. This is why they appear everywhere, from the giant screens in a city to the small light that shows your phone is charging. Clean, cool, and efficient, the LED has changed how we light up our world.",
+        summaryJa: "LED照明の仕組みについて。家の中を見れば、ランプやスマホ、テレビ、信号機など至る所にLEDが光っている。LEDは百年以上使われた旧式の電球に静かに取って代わった。はるかに長持ちし電気も少ない。この小さな光はどうやって光を生むのか。LEDは「発光ダイオード」の略だ。ダイオードは電気を一方向だけ流す小さな電子部品で、LEDでは特別な材料でできている。電気がこの材料を通ると驚くことに材料自体が直接光を放つ。電気が光に変わるのだ。旧式電球は細い線を熱して光らせ、多くのエネルギーを光でなく熱として無駄にし、熱くなって切れた。LEDは冷たいままで多くを光に変え、ずっと効率的だ。長寿命で省エネ・節約になり環境にも良い。様々な色で作れ、小さくも非常に明るくもできる。都市の大画面からスマホの充電ランプまで使われる。",
+        quiz: [
+          { q: "What does 'LED' stand for?", options: ["Light-emitting diode", "Long electric day", "Low energy drink"], answer: 0 },
+          { q: "How did old-style bulbs make light?", options: ["By heating a thin wire until it glowed", "By using radio waves", "By cooling water"], answer: 0 },
+          { q: "Why are LEDs more efficient than old bulbs?", options: ["They turn far more energy into light, not heat", "They use more electricity", "They burn hotter"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1029-3",
+        title: "How the World Shares Scientific Discoveries",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When a scientist in one country makes an important discovery, people everywhere can soon benefit from it. A new medicine, a better way to grow food, or a deeper understanding of the universe does not stay locked inside one nation. Instead, science is shared across borders, in one of the finest examples of global cooperation.\n\nHow does this sharing work? When scientists complete a study, they usually write a paper describing exactly what they did and what they found. Other scientists around the world read these papers, check the results, and build on them. In this way, knowledge grows step by step, with each discovery resting on the work of others, often from many different countries.\n\nScientists also meet and work together directly. They gather at international conferences, share data over the internet, and form teams that cross borders. Some of the greatest projects, such as exploring space or studying tiny particles, are far too large and expensive for one country alone, so many nations join together to fund and build them.\n\nThis openness has a long tradition. Most scientists believe that knowledge belongs to all of humanity and should be shared, not hidden. Of course, there are limits: companies may keep some discoveries secret for business, and a few areas are kept private for safety. But the general spirit of science is open.\n\nBy sharing freely, the world moves faster. A problem solved in one place can help people everywhere. In science, cooperation is not just kind; it is how progress is made.",
+        summaryJa: "世界が科学的発見を共有する仕組みについて。ある国の科学者が重要な発見をすると、やがて世界中の人が恩恵を受けられる。新薬やより良い食料生産法、宇宙の深い理解は一国に閉じ込められず、国境を越えて共有される。国際協力の最良の例の一つだ。どう共有するのか。研究を終えると科学者は、行ったことと分かったことを正確に記した論文を書く。世界の他の科学者がそれを読み、結果を確かめ、その上に積み重ねる。こうして知識は一歩ずつ育ち、各発見が多くの国の他者の仕事の上に立つ。科学者は直接協力もし、国際会議で集い、ネットでデータを共有し、国境を越えたチームを作る。宇宙探査や素粒子研究のような巨大で高価な計画は一国では無理で、多国が資金を出し協力する。知識は人類全体のもので隠さず共有すべきという伝統がある。自由な共有で世界は速く進む。",
+        quiz: [
+          { q: "How do scientists usually share what they find?", options: ["By writing papers that others read and build on", "By keeping it secret forever", "By telling only their family"], answer: 0 },
+          { q: "Why do many nations join together on some projects?", options: ["They are too large and expensive for one country alone", "No country is interested", "To keep them small"], answer: 0 },
+          { q: "What do most scientists believe about knowledge?", options: ["It belongs to all of humanity and should be shared", "It should always be hidden", "It is useless"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1029-4",
+        title: "Oshogatsu: Japanese New Year",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, the biggest celebration of the year is a winter holiday in December. In Japan, the most important holiday of all is the New Year, known as oshogatsu. While people around the world welcome the new year, in Japan it is a deep and special time, full of customs that go back centuries.\n\nPreparations begin before the year ends. People clean their homes thoroughly, a custom called osoji, to clear away the dust of the old year and welcome the new one fresh and pure. Families also decorate their doors with arrangements of pine and bamboo, believed to invite good fortune.\n\nThe New Year itself is a quiet, family time. Many people visit a shrine or temple in the first days of January, a custom called hatsumode, to pray for health and happiness in the year ahead. Special foods are eaten, beautifully arranged in boxes, each dish carrying a wish, such as long life or good harvests. Children receive small gifts of money from older relatives.\n\nThe mood of oshogatsu is one of rest, gratitude, and hope. Many shops and offices close for several days, something rare in busy Japan, so that families can be together. People send New Year cards to friends, and the cards all arrive on January 1st.\n\nFor the Japanese, oshogatsu is a moment to pause, to thank the past year, and to begin again with a clean and hopeful heart. It is a gentle, meaningful start to each new year.",
+        summaryJa: "日本の正月（お正月）について。多くの国では一年最大の祝いが12月の冬の休日だが、日本で最も大切な祝日は新年「お正月」だ。世界中が新年を迎える中、日本では何世紀も続く習わしに満ちた特別で深い時だ。準備は年末前から始まる。「大掃除」で家を徹底的に清め、旧年のほこりを払い新年を清らかに迎える。松や竹の飾りを戸口に置き、幸運を招くとされる。正月自体は静かな家族の時で、多くの人が1月初めに神社や寺へ「初詣」に行き、健康と幸せを祈る。願いを込めた料理が美しく箱に詰められ、子どもは年長者からお金の贈り物をもらう。休息・感謝・希望の気分で、多くの店や職場が数日閉まり家族が集う。友人に年賀状を送り、元日に届く。過去の年に感謝し清い心で再出発する穏やかで意味深い始まりだ。",
+        quiz: [
+          { q: "What is 'oshogatsu'?", options: ["The Japanese New Year, the most important holiday", "A summer festival", "A kind of food only"], answer: 0 },
+          { q: "What is 'hatsumode'?", options: ["Visiting a shrine or temple in early January to pray", "A big meal in summer", "A sports event"], answer: 0 },
+          { q: "What is the general mood of oshogatsu?", options: ["Rest, gratitude, and hope", "Fear and worry", "Hard work and stress"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1029-5",
+        title: "How Do Fish Breathe Underwater?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "All animals need oxygen to live, including fish. But fish spend their whole lives underwater, where there is no air to breathe. So how do they get the oxygen they need? The answer is that fish have a special organ for breathing water, called gills.\n\nWater may look like it has no air, but there is oxygen hidden inside it. Tiny amounts of oxygen gas are mixed into the water itself, and this is what fish use. Their challenge is to pull this oxygen out of the water, and gills are perfectly designed for the job.\n\nGills are found on each side of a fish's head, usually hidden under a flap. A fish breathes by taking water into its mouth and pushing it out over the gills. The gills are full of very thin, feathery parts, rich with blood. As water flows over them, oxygen passes from the water into the fish's blood, while waste gas passes out. The used water then flows out through the gill openings.\n\nBecause there is far less oxygen in water than in air, gills must be very efficient. This is also why many fish die quickly when taken out of water: in the air, their gills collapse and stick together, so they can no longer absorb oxygen, even though they are surrounded by it.\n\nGills are a beautiful example of how living things adapt to their homes. Thanks to them, fish can live and breathe in rivers, lakes, and the vast ocean, worlds where humans could never survive without help.",
+        summaryJa: "魚が水中で呼吸する仕組みについて。魚を含め全ての動物は生きるのに酸素が要る。だが魚は一生を水中で過ごし、そこには吸う空気がない。どうやって必要な酸素を得るのか。答えは、水で呼吸する特別な器官「えら」を持つことだ。水は空気がないように見えても、中に酸素が隠れている。わずかな酸素ガスが水に混ざっており、魚はそれを使う。課題は水から酸素を取り出すことで、えらはその仕事に完璧に設計されている。えらは魚の頭の両側、普通はふたの下にある。魚は口から水を取り入れ、えらの上に押し出して呼吸する。えらは血の豊富な薄い羽状の部分に満ち、水が流れると酸素が水から血へ移り、不要なガスが出る。使った水はえらの開口から出る。水中は空気より酸素がはるかに少ないためえらは高効率だ。水から出すと多くの魚がすぐ死ぬのは、空気中でえらがつぶれ酸素を吸えないからだ。",
+        quiz: [
+          { q: "What special organ do fish use to breathe?", options: ["Gills", "Wings", "Ears"], answer: 0 },
+          { q: "Where do fish get their oxygen?", options: ["From oxygen mixed inside the water", "From the air above only", "From the mud"], answer: 0 },
+          { q: "Why do many fish die quickly out of water?", options: ["In air their gills collapse and cannot absorb oxygen", "They dislike the sun", "They have too much oxygen"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-28",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why do plants need to spread their seeds far away?", options: ["So young plants don't crowd and fight for light and water", "To make noise", "To stay in one spot"], answer: 0 },
           { q: "How does a dandelion seed travel?", options: ["On the wind, using tiny hairs like a parachute", "By swimming", "By walking"], answer: 0 },
           { q: "How do some seeds use animals?", options: ["Animals eat the fruit and drop seeds far away", "Animals paint the seeds", "Animals cook the seeds"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-22",
-    passages: [
-      {
-        id: "d1022-1",
-        title: "Why Businesses Must Adapt to Change",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "The business world never stands still. New technologies appear, customers change their habits, and what was popular yesterday can be forgotten tomorrow. Because of this, one of the most important skills for any company is the ability to adapt, to change with the times.\n\nHistory is full of examples. Not long ago, people bought music on discs, rented films from shops, and printed photographs from rolls of film. As technology changed, companies that sold these products had to change too. Some invented new businesses, such as streaming music or digital photos. Others, which refused to change, slowly disappeared. Even large, famous companies can fall behind if they ignore new trends.\n\nAdapting is not easy. It can mean stopping a product that once made a lot of money, or learning completely new skills. It takes courage to change something that still seems to be working, before it is too late. Yet companies that watch the world carefully, and act early, often survive and grow.\n\nAdapting does not only mean technology. A company may need to change because customers care about new things, such as protecting the environment or shopping online. Listening to customers is one of the best ways to see change coming.\n\nThe lesson is clear. In business, standing still is risky, because the world keeps moving. The strongest companies are not always the biggest or the oldest, but the ones most willing to learn, to let go of the past, and to welcome what comes next.",
-        summaryJa: "企業が変化に適応すべき理由について。ビジネスの世界は止まらない。新技術が現れ、客の習慣が変わり、昨日の人気が明日は忘れられる。だからどの会社にも最も重要な技能の一つが、時代とともに変わる適応力だ。歴史には例が多い。少し前は人は音楽をディスクで買い、店で映画を借り、フィルムから写真を現像した。技術が変わると、これらを売る企業も変わらねばならず、音楽配信やデジタル写真など新事業を生んだ会社もあれば、変化を拒んで消えた会社もある。有名な大企業でも新しい流れを無視すれば遅れる。適応は容易でなく、稼いでいた製品をやめたり新しい技能を学んだりする勇気が要る。環境配慮やオンライン購入など客の関心の変化にも対応が必要で、客の声を聞くことが変化を察する最良の方法だ。止まることは危険だ。",
-        quiz: [
-          { q: "Why must companies be able to adapt?", options: ["Technology, customers, and trends keep changing", "The world never changes", "Customers never change"], answer: 0 },
-          { q: "What happened to companies that refused to change?", options: ["Some slowly disappeared", "They all grew bigger", "Nothing changed"], answer: 0 },
-          { q: "What is one of the best ways to see change coming?", options: ["Listening to customers", "Ignoring the world", "Keeping old products forever"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1022-2",
-        title: "How a Refrigerator Keeps Food Cold",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Almost every kitchen has a refrigerator, quietly keeping our food fresh and cold. We open it many times a day without thinking about how it works. But a refrigerator does something clever: it does not add cold to the food. Instead, it removes heat from inside and carries that heat away.\n\nThe secret is a special liquid called a refrigerant, which flows through pipes inside the machine. This liquid has a useful property: it can change easily between a liquid and a gas. As the refrigerant flows through pipes inside the fridge, it turns into a gas, and in doing so it soaks up heat from the air and food inside. This makes the inside colder.\n\nThe warm gas is then pumped to pipes on the outside or back of the fridge. There, it is squeezed and turns back into a liquid, releasing the heat it carried into the room. This is why the back of a refrigerator often feels warm. The liquid then flows inside again, and the cycle repeats over and over.\n\nA thermostat watches the temperature. When the inside is cold enough, it switches the system off; when it warms up, it switches on again. This saves energy and keeps the temperature steady.\n\nBy moving heat from the inside to the outside, a refrigerator keeps food cool, slowing the growth of the tiny germs that make food go bad. This simple but powerful idea has changed how we store food and made fresh meals possible all year round.",
-        summaryJa: "冷蔵庫が食品を冷やす仕組みについて。ほとんどの台所に冷蔵庫があり、静かに食品を新鮮に冷たく保つ。毎日何度も開けるが仕組みは考えない。冷蔵庫は巧妙で、食品に冷たさを加えるのでなく、内部から熱を取り去って外へ運ぶ。鍵は冷媒という特別な液体で、機械内の管を流れる。この液体は液体と気体の間で変わりやすい性質を持つ。庫内の管を流れると気体になり、その際に内部の空気や食品から熱を吸い取り、中を冷やす。暖まった気体は外側や背面の管へ送られ、圧縮されて再び液体に戻り、運んだ熱を部屋へ放出する。だから背面は温かいことが多い。液体は再び内部へ流れ、循環が繰り返される。サーモスタットが温度を見て入切し省エネする。熱を内から外へ移し、食品を腐らせる菌の繁殖を遅らせる。",
-        quiz: [
-          { q: "What does a refrigerator actually do to keep food cold?", options: ["It removes heat from inside and carries it away", "It adds cold air from outside", "It freezes the room"], answer: 0 },
-          { q: "Why does the back of a refrigerator often feel warm?", options: ["It releases the heat carried from inside", "It has a small fire", "It stores hot water"], answer: 0 },
-          { q: "What does the thermostat do?", options: ["Switches the system on and off to keep a steady temperature", "Cooks the food", "Opens the door"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1022-3",
-        title: "How Countries Share Weather Information",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Weather does not stop at borders. A storm that forms over the ocean near one country may strike another a few days later. Rain clouds, heat waves, and cold winds all travel freely across the map. For this reason, no country can understand its own weather by looking only at itself. To forecast the weather well, the nations of the world must share what they see.\n\nEvery day, thousands of weather stations, ships, balloons, and satellites around the globe measure temperature, wind, and pressure. On their own, these numbers would be of little use. But countries have agreed to share this information freely and quickly with one another. The measurements flow into powerful computers that model how the weather will move and change.\n\nThis cooperation is remarkable. Even countries that disagree about other things usually continue to share weather data, because everyone benefits. A good forecast can warn people about a coming typhoon, help farmers plan their crops, and keep ships and planes safe.\n\nThe system is guided by an international organization that sets shared rules, so that a measurement taken in one country can be understood in every other. Scientists also share their knowledge, improving forecasts for all.\n\nThanks to this quiet, daily cooperation, a warning about a dangerous storm can now reach people days in advance, giving them time to prepare. Weather forecasting shows that when a problem touches everyone, sharing information openly is not only kind, it is the only way that truly works.",
-        summaryJa: "各国が気象情報を共有する仕組みについて。天気は国境で止まらない。ある国の近くの海で生まれた嵐が、数日後に別の国を襲うこともある。雨雲や熱波、冷たい風も地図上を自由に動く。だからどの国も自国だけを見て天気を理解できない。よい予報には世界の国々が観測を共有する必要がある。毎日、世界中の何千もの気象観測所・船・気球・衛星が気温・風・気圧を測る。単独では役に立たないが、各国はこれを自由に素早く共有することで合意している。データは強力なコンピューターに流れ、天気の動きを計算する。対立する国どうしでも気象データの共有は続く。誰もが得をするからだ。国際機関が共通規則を定め、ある国の測定値を他国でも理解できる。危険な嵐の警告が数日前に届き、備える時間を生む。",
-        quiz: [
-          { q: "Why can't a country understand its weather by looking only at itself?", options: ["Weather travels freely across borders", "Weather stays in one country", "Weather does not exist"], answer: 0 },
-          { q: "What do countries agree to do with their weather measurements?", options: ["Share them freely and quickly with one another", "Keep them all secret", "Throw them away"], answer: 0 },
-          { q: "Why do even rival countries share weather data?", options: ["Everyone benefits from good forecasts", "They are forced to by weather", "It makes storms stop"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1022-4",
-        title: "Rice: The Heart of the Japanese Table",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many Japanese homes, a meal does not feel complete without rice. For hundreds of years, rice has been the center of the Japanese table, so important that the word for cooked rice, gohan, can also simply mean a meal. To understand Japanese food, it helps to understand the deep place rice holds in the culture.\n\nJapanese rice is a short-grain type that becomes slightly sticky when cooked. This stickiness is loved, because it makes the rice easy to pick up with chopsticks and perfect for dishes like sushi and rice balls. The rice is usually served plain and white, in its own bowl, next to other dishes rather than mixed with them.\n\nGrowing rice has shaped Japan for centuries. In the past, farming rice required whole villages to work together to flood the fields and share water. This cooperation helped form close communities. Even today, bright green rice fields in summer and golden ones in autumn are a familiar and beloved sight in the countryside.\n\nRice appears in many forms. It is pressed into rice balls called onigiri, pounded into a chewy cake called mochi, and even brewed into the drink known as sake. Leftover rice is rarely wasted.\n\nTo many Japanese people, rice means more than food. It stands for home, hard work, and the changing seasons. A warm bowl of rice is a small, everyday comfort, connecting modern life to a long and treasured history.",
-        summaryJa: "日本の食卓の中心、米について。多くの日本の家庭では、ご飯がないと食事が完成した気がしない。何百年も米は日本の食卓の中心で、炊いた米を指す「ご飯」は「食事」そのものも意味するほど大切だ。日本食を理解するには、米が文化で占める深い位置を知ると助けになる。日本の米は短粒種で、炊くと少し粘りが出る。この粘りは好まれ、箸でつまみやすく、寿司やおにぎりに最適だ。普通は白いまま別の茶碗で、他のおかずと混ぜず並べて出す。米作りは何世紀も日本を形づくり、昔は村全体で協力して田に水を張り分け合い、密な共同体を育んだ。夏の緑、秋の黄金の田は今も愛される風景だ。米はおにぎり、餅、酒など様々な形になり、残りも無駄にしない。米は故郷や勤勉、季節の移ろいを表す。",
-        quiz: [
-          { q: "What can the Japanese word 'gohan' mean?", options: ["Both cooked rice and a meal", "Only fish", "A kind of drink"], answer: 0 },
-          { q: "Why is the stickiness of Japanese rice liked?", options: ["It is easy to pick up with chopsticks", "It tastes bad", "It cannot be eaten"], answer: 0 },
-          { q: "How did growing rice affect communities in the past?", options: ["Villages worked together, forming close communities", "People lived completely alone", "It stopped all farming"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1022-5",
-        title: "How Do Our Ears Hear Sound?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Right now, you may hear many sounds: voices, music, or the hum of a machine. Hearing seems instant and effortless, but behind it is a remarkable journey, as your ears turn invisible waves in the air into sounds your brain can understand.\n\nSound begins as a vibration. When something shakes, like a guitar string or a person's voice, it makes the air around it move in tiny waves. These sound waves spread out in all directions, much like ripples on water. We cannot see them, but our ears are built to catch them.\n\nThe outer ear, the part we can see, works like a cup, gathering sound waves and guiding them into a narrow tube. At the end of the tube is the eardrum, a thin, tight piece of skin. When sound waves hit it, the eardrum vibrates, just like a tiny drum.\n\nThese vibrations then pass through three of the smallest bones in the body, which pass the shaking deeper inside the ear. There, in a spiral part filled with liquid and tiny hairs, the vibrations are turned into electrical signals. These signals travel along a nerve to the brain, which understands them as sound.\n\nAll of this happens in an instant, thousands of times, as you listen. Our ears also help us know where a sound comes from and keep our balance. From a whisper to a song, hearing is a quiet miracle that connects us to the world around us every single moment.",
-        summaryJa: "耳が音を聞く仕組みについて。今あなたは声や音楽、機械の音など多くの音を聞いているかもしれない。聞くことは一瞬で楽に思えるが、その裏では、耳が空気中の見えない波を脳が理解できる音に変える見事な旅がある。音は振動から始まる。ギターの弦や人の声など何かが震えると、周りの空気が小さな波となって動く。この音波は水の波紋のように四方へ広がる。見えないが耳が捉える。外耳は見える部分でカップのように音波を集め、細い管へ導く。管の奥には鼓膜という薄く張った皮があり、音波が当たると太鼓のように震える。その振動は体で最も小さい三つの骨を通り、耳の奥へ伝わる。液体と小さな毛で満ちた渦巻き状の部分で振動が電気信号に変わり、神経を通り脳へ届き音として理解される。音の方向や平衡感覚にも役立つ。",
-        quiz: [
-          { q: "How does sound begin?", options: ["As a vibration that makes the air move in waves", "As a bright light", "As a smell"], answer: 0 },
-          { q: "What does the eardrum do when sound waves hit it?", options: ["It vibrates like a tiny drum", "It makes light", "It stops moving"], answer: 0 },
-          { q: "What happens in the spiral part of the ear?", options: ["Vibrations are turned into electrical signals for the brain", "Food is digested", "Air is cleaned"], answer: 0 }
         ]
       }
     ]
