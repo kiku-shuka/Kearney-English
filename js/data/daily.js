@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-30",
+    passages: [
+      {
+        id: "d1030-1",
+        title: "Why Good Communication Matters at Work",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Many workplace problems do not come from a lack of skill or effort. They come from poor communication. A message that is unclear, a question that is never asked, or an email that is misunderstood can waste hours, cause mistakes, and create bad feelings. For this reason, good communication is one of the most valuable skills in any job.\n\nGood communication begins with being clear. When you give instructions or share an idea, it helps to say exactly what you mean, in simple words. It is also wise to check that the other person has understood, rather than assuming they have. A short question like \"Does that make sense?\" can prevent a big mistake later.\n\nListening is just as important as speaking. A good communicator pays full attention to others, instead of only waiting for their turn to talk. By truly listening, you understand what people need and show them respect, which builds trust.\n\nCommunication also means choosing the right way to share a message. A quick question may be best in person or by chat, while important details should be written down so they are not forgotten. Tone matters too: a polite, calm message is far more effective than an angry one.\n\nIn today's workplaces, people often work with others far away, in different countries and time zones. This makes clear writing and patience even more important.\n\nStrong communication will not solve every problem, but it prevents many. When people share information clearly and listen well, work becomes smoother, faster, and more pleasant for everyone.",
+        summaryJa: "職場で良い意思疎通が大切な理由について。職場の多くの問題は技能や努力の不足でなく、まずい意思疎通から生じる。不明確な伝達、聞かれなかった質問、誤解されたメールは、時間を無駄にし、ミスを生み、悪感情を作る。だから良い意思疎通はどの仕事でも最も価値ある技能の一つだ。まず明確であること。指示や考えを伝えるときは簡単な言葉で正確に言い、相手が理解したか確認するのが賢い。「分かりますか？」の一言が後の大失敗を防ぐ。話すのと同じくらい聞くことも重要で、自分の番を待つだけでなく全注意を向ける。真に聞けば相手の必要を理解し敬意を示し信頼が築かれる。伝える手段選びも大切で、簡単な質問は対面やチャット、重要な詳細は記録する。口調も大切で丁寧で穏やかな方が効果的だ。遠隔・多国間の仕事では明確な文章と忍耐がさらに重要になる。",
+        quiz: [
+          { q: "Where do many workplace problems come from?", options: ["Poor communication", "Too much skill", "Working too slowly on purpose"], answer: 0 },
+          { q: "Why is listening important?", options: ["It helps you understand needs and shows respect", "It wastes time", "It stops all work"], answer: 0 },
+          { q: "What makes clear communication even more important today?", options: ["People often work with others far away", "Everyone works in one room", "No one sends messages"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1030-2",
+        title: "How Do Speakers Make Sound?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "From tiny earphones to huge concert systems, speakers fill our lives with music, voices, and sound. We press play, and sound seems to appear from nowhere. But a speaker is really a clever machine that turns an electric signal back into the vibrations we hear as sound. How does it work?\n\nFirst, remember what sound really is: a vibration moving through the air. When something shakes quickly, it pushes the air into waves, and our ears sense these waves as sound. So to make sound, a speaker must make the air vibrate.\n\nInside a speaker is a cone, usually made of paper or plastic, attached to a coil of wire that sits near a magnet. When the electric signal from a phone or amplifier flows through the coil, it turns the coil into a magnet too. As the signal rapidly changes, the coil is pushed and pulled by the fixed magnet, moving back and forth very fast.\n\nThis moving coil shakes the cone, and the cone pushes the air, creating sound waves. The pattern of the electric signal decides exactly how the cone moves, so the speaker can reproduce a voice, a drum, or a violin.\n\nThe size of a speaker affects its sound. Large speakers move a lot of air and are good for deep, low sounds, while small ones are better for high notes. That is why big sound systems use several speakers of different sizes together.\n\nFrom a whisper to a roar, a speaker is simply electricity made audible, turning invisible signals into the sounds we love.",
+        summaryJa: "スピーカーが音を出す仕組みについて。小さなイヤホンから巨大なコンサート装置まで、スピーカーは音楽や声で生活を満たす。再生を押すと音がどこからともなく現れるようだが、スピーカーは電気信号を、私たちが音として聞く振動に戻す巧妙な機械だ。まず音とは空気を伝わる振動だ。何かが速く震えると空気が波となって押され、耳がそれを音と感じる。だから音を出すにはスピーカーが空気を振動させねばならない。内部には紙やプラスチックのコーン（円錐）があり、磁石の近くの線のコイルに付いている。スマホやアンプの電気信号がコイルを流れるとコイルも磁石になり、信号が急に変わるとコイルが固定磁石に押し引きされ高速で前後する。この動きがコーンを揺らし空気を押して音波を作る。信号の形がコーンの動きを決める。大きいスピーカーは低音、小さいものは高音が得意だ。",
+        quiz: [
+          { q: "What is sound, really?", options: ["A vibration moving through the air", "A type of light", "A color"], answer: 0 },
+          { q: "What makes the coil inside a speaker move?", options: ["The changing electric signal pushing against a magnet", "A small motor with wheels", "Falling water"], answer: 0 },
+          { q: "Why are large speakers good for low sounds?", options: ["They move a lot of air", "They are lighter", "They use no electricity"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1030-3",
+        title: "What Is a Refugee, and How Does the World Help?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Most people live their whole lives in the country where they were born. But sometimes, people are forced to flee their homeland to survive. They may be escaping war, violence, or persecution for their beliefs. A person who has fled to another country for safety, and cannot return home, is called a refugee.\n\nBecoming a refugee is not a choice made lightly. People leave behind their homes, jobs, and often family members, carrying only what they can hold. They cross borders hoping to find a place where they will be safe. At the end of their journey, they often arrive with nothing, in a country whose language they may not speak.\n\nHelping refugees has become a shared task for the world. An international agency works to protect them and to coordinate aid. Countries that receive refugees provide shelter, food, and medical care, often in large camps near the border. Over time, many refugees are helped to settle, find work, and send their children to school.\n\nThis is not easy. Caring for large numbers of people is expensive, and some communities worry about the strain. Yet there is a long-held principle, agreed by many nations, that people fleeing serious danger should not be sent back into it.\n\nBehind the word \"refugee\" are ordinary people, with hopes and skills, who lost their homes through no fault of their own. When the world helps them, it is not only an act of kindness. It is a promise that, in their worst moment, no human being should be left completely alone.",
+        summaryJa: "難民とは何か、そして世界はどう助けるかについて。多くの人は生まれた国で一生を過ごす。だが時に、人は生き延びるため故郷を逃れざるを得ない。戦争や暴力、信条ゆえの迫害から逃れることもある。安全を求めて他国へ逃れ、帰れない人を難民と呼ぶ。難民になるのは軽い選択ではない。家や仕事、しばしば家族を残し、持てる物だけを携え、安全な場所を求めて国境を越える。旅の果てに、言葉も通じない国へ何も持たずに着くことが多い。難民を助けることは世界共通の課題になった。国際機関が保護と援助の調整に当たり、受け入れ国は国境近くの大きなキャンプで住まい・食料・医療を提供する。やがて定住や就労、子の就学を助ける。費用は高く負担を心配する地域もあるが、重大な危険から逃れる人を送り返さないという多国間の原則がある。「難民」という語の背後には普通の人々がいる。",
+        quiz: [
+          { q: "Who is a refugee?", options: ["A person who flees to another country for safety and cannot return home", "A tourist on holiday", "A person who moves for a better job only"], answer: 0 },
+          { q: "What do countries that receive refugees often provide?", options: ["Shelter, food, and medical care", "Nothing at all", "Only money"], answer: 0 },
+          { q: "What long-held principle do many nations agree on?", options: ["People fleeing serious danger should not be sent back into it", "Refugees must always be sent home", "No one should ever cross a border"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1030-4",
+        title: "Omamori: Japanese Lucky Charms",
+        level: "★★☆",
+        genre: "日本",
+        text: "Visit a shrine or temple in Japan, and near the entrance you may find a counter selling small, colorful cloth bags. These are omamori, Japanese amulets believed to bring good luck and protection. Many Japanese people carry one in a bag or pocket, or hang it in their car or home.\n\nAn omamori is usually a small pouch of beautiful cloth, often silk, with words stitched on the front. Inside is a piece of paper or wood with a prayer written on it. By tradition, the omamori should not be opened; doing so is said to let the good luck escape.\n\nWhat makes omamori interesting is that each one is for a specific purpose. There are omamori for safe travel, for success in study, for good health, for finding love, and for the safe birth of a baby. Students buy them before important exams, and drivers keep one for safety on the road. When a person has a particular wish or worry, there is usually an omamori for it.\n\nOmamori are often given as gifts. A parent might give one to a child leaving home, or a friend might offer one to someone starting something new, as a way of saying, \"I am thinking of you.\"\n\nBy custom, an omamori lasts about a year. After that, people bring the old one back to a shrine to be respectfully burned, and may buy a new one. More than a simple charm, an omamori is a small, portable wish, carrying care, hope, and a quiet feeling of protection.",
+        summaryJa: "日本のお守りについて。日本の神社や寺を訪れると、入口近くで小さく色鮮やかな布の袋を売る場所がある。これが「お守り」で、幸運と加護をもたらすとされる。多くの人が鞄やポケットに入れて持ち歩き、車や家に下げる。お守りは普通、絹などの美しい布の小さな袋で、表に文字が縫われ、中に祈りを記した紙や木が入る。伝統では開けてはならず、開けると幸運が逃げるという。興味深いのは、それぞれ目的があることだ。交通安全、学業成就、健康、縁結び、安産などのお守りがある。学生は試験前に買い、運転手は安全のために持つ。願いや心配があればたいていそれ用のお守りがある。贈り物にもよくされ、家を出る子へ親が、何かを始める人へ友が渡す。約一年で、古いものは神社に返して焚き上げてもらい新しいものを買う。携帯できる小さな願いだ。",
+        quiz: [
+          { q: "What is an 'omamori'?", options: ["A Japanese amulet believed to bring luck and protection", "A type of food", "A kind of car"], answer: 0 },
+          { q: "Why should an omamori not be opened?", options: ["Opening it is said to let the good luck escape", "It contains money", "It is too heavy"], answer: 0 },
+          { q: "What is special about different omamori?", options: ["Each one is for a specific purpose, like travel or study", "They are all exactly the same", "They never last"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1030-5",
+        title: "What Are Stars Made Of?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "On a clear, dark night, the sky fills with thousands of tiny points of light. For most of human history, people could only wonder what the stars were. Today, thanks to science, we know a great deal about them. A star is not a tiny spark; it is an enormous ball of hot, glowing gas, so far away that it looks small.\n\nStars are made mostly of the two lightest and most common gases in the universe: hydrogen and helium. Deep inside a star, the pressure and heat are almost unimaginable. Under these conditions, something amazing happens: the hydrogen is squeezed so hard that its particles join together to form helium. This process, called nuclear fusion, releases a vast amount of energy.\n\nThat energy is what makes a star shine. It travels outward from the star's center and finally escapes as the light and heat we see and feel. Our own Sun is a star, and it is this same process that lights our days and warms our planet.\n\nStars are not all the same. Some are small and cool, glowing red, while others are huge and hot, shining blue-white. Stars also change over a very long life, often lasting billions of years, before they finally run out of fuel.\n\nThe next time you look up at the night sky, remember that each star is a distant sun, burning across unimaginable distances. The gentle light reaching your eyes began its journey long ago, from a giant furnace deep in space.",
+        summaryJa: "星は何でできているかについて。晴れた暗い夜、空は何千もの小さな光の点で満ちる。人類の歴史の大半、人は星が何かを想像するしかなかった。今は科学のおかげで多くが分かる。星は小さな火花でなく、巨大な高温の輝くガスの球で、遠いため小さく見える。星は宇宙で最も軽く一般的な二つの気体、水素とヘリウムが主成分だ。星の深部では圧力と熱が想像を絶し、水素が強く押されて粒子が結びつきヘリウムになる。これを核融合と呼び、膨大なエネルギーを放つ。そのエネルギーが星を輝かせ、中心から外へ進み、見える光や感じる熱として逃げる。太陽も星で、同じ過程が昼を照らし地球を温める。星は同じでなく、小さく赤いものも、巨大で青白いものもある。何十億年も生き、やがて燃料を使い果たす。あなたに届く光はずっと昔に旅立った。",
+        quiz: [
+          { q: "What is a star?", options: ["An enormous ball of hot, glowing gas", "A tiny spark near Earth", "A kind of cloud"], answer: 0 },
+          { q: "What are stars made mostly of?", options: ["Hydrogen and helium", "Rock and metal", "Ice and dust"], answer: 0 },
+          { q: "What makes a star shine?", options: ["Energy released by nuclear fusion in its center", "A battery inside it", "Reflected light from Earth"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-29",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is famous about fingerprints?", options: ["No two people have exactly the same pattern", "Everyone has the same pattern", "They change every year"], answer: 0 },
           { q: "What does newer research suggest fingerprints may help with?", options: ["Our sense of touch", "Our hearing", "Our eyesight"], answer: 0 },
           { q: "Why are fingerprints useful for identifying people?", options: ["They are unique and do not change", "They are all identical", "They disappear quickly"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-23",
-    passages: [
-      {
-        id: "d1023-1",
-        title: "Why Negotiation Is an Important Skill",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Negotiation happens when two or more people with different wishes try to reach an agreement. It may sound like something only lawyers or business leaders do, but in truth, we all negotiate. Agreeing on a price, deciding where to eat with friends, or asking for more time on a task are all small negotiations. In business, the skill is especially valuable.\n\nMany people think negotiation means winning while the other side loses. Good negotiators know this is often a mistake. The best result is usually one where both sides feel satisfied, sometimes called a \"win-win.\" When both parties are happy, they are more likely to keep the agreement and to do business again in the future.\n\nHow can someone negotiate well? The first step is preparation. Before a talk, it helps to know clearly what you want, what you can offer, and what the other side might need. During the talk, listening is just as important as speaking. By understanding what the other person truly wants, you can often find a solution that helps you both.\n\nPatience and respect also matter. A calm, polite tone keeps the conversation friendly, even during disagreement. Rushing or using pressure may win once, but it can damage trust and future relationships.\n\nNegotiation is not about tricks; it is about communication and problem-solving. Whether you are agreeing on a business deal or simply planning a weekend, the ability to negotiate well helps you reach fair agreements and build stronger relationships with the people around you.",
-        summaryJa: "交渉が重要な技能である理由について。交渉とは、異なる望みを持つ二人以上が合意を目指すときに起こる。弁護士や経営者だけのものに聞こえるが、実は誰もが交渉している。値段の合意、友人との食事場所決め、仕事の期限延長の依頼も小さな交渉だ。ビジネスでは特に価値が高い。多くの人は交渉を、相手が負けて自分が勝つことだと思うが、良い交渉者はそれが誤りだと知る。最良は双方が満足する「ウィンウィン」で、両者が満足すれば合意が守られ再び取引しやすい。上手に交渉するにはまず準備で、自分の望み・提供できるもの・相手の必要を把握する。話す時は聞くことも同じく大切だ。忍耐と敬意も重要で、焦りや圧力は一度は勝てても信頼を損なう。交渉は駆け引きでなく意思疎通と問題解決だ。",
-        quiz: [
-          { q: "What is a 'win-win' result?", options: ["One where both sides feel satisfied", "One where one side loses badly", "One where no one agrees"], answer: 0 },
-          { q: "What is the first step to negotiating well?", options: ["Preparation", "Shouting loudly", "Leaving early"], answer: 0 },
-          { q: "Why can using pressure be a problem?", options: ["It can damage trust and future relationships", "It always works forever", "It makes everyone happy"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1023-2",
-        title: "How a Camera Takes a Photo",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "With a phone in our pocket, most of us can take a photograph in an instant. We press a button, and a moment is saved forever. But behind that simple tap is a clever process that captures light and turns it into a picture. How does a camera actually work?\n\nThe most important idea is light. A camera cannot see in the dark, because a photograph is really a record of light. Every object we see is reflecting light, and a camera's job is to collect that light and save the pattern it makes.\n\nAt the front of every camera is a lens, a curved piece of glass. The lens gathers the light coming from a scene and bends it, focusing it to form a sharp image inside the camera. If the lens is not focused correctly, the picture looks blurry.\n\nLong ago, this light fell onto film coated with chemicals that changed when light hit them. Today, most cameras are digital. The light falls instead on a small electronic chip called a sensor. The sensor is covered with millions of tiny points that each measure how much light and what color they receive. A computer inside the camera turns all these measurements into the image you see on the screen.\n\nA camera also controls how much light enters and for how long. In bright sun, it lets in less; in a dark room, more. By capturing light so carefully, a camera lets us freeze a single moment and keep it, long after the moment itself has passed.",
-        summaryJa: "カメラが写真を撮る仕組みについて。ポケットのスマホで、私たちは一瞬で写真を撮れる。ボタンを押せば一瞬が永遠に保存される。だがその単純な操作の裏には、光を捉えて絵に変える巧妙な過程がある。最も重要なのは光だ。写真は実は光の記録で、暗闇では撮れない。見える物は皆光を反射し、カメラはその光を集めて模様を保存する。前面にはレンズという曲面ガラスがあり、景色からの光を集めて曲げ、内部に鮮明な像を結ぶ。焦点が合わないとぼやける。昔は光が化学物質を塗ったフィルムに当たったが、今はほとんどデジタルで、光はセンサーという小さな電子チップに当たる。センサーは無数の点で光量と色を測り、内部のコンピューターが像に変える。入る光の量と時間も調整し、明るい日は少なく暗い部屋では多く取り込む。一瞬を凍らせて残せる。",
-        quiz: [
-          { q: "What is a photograph really a record of?", options: ["Light", "Sound", "Smell"], answer: 0 },
-          { q: "What does the lens do?", options: ["Gathers and focuses light to form a sharp image", "Stores the photos", "Makes the camera heavy"], answer: 0 },
-          { q: "What does a digital camera's sensor do?", options: ["Measures how much light and what color it receives", "Plays music", "Prints the photo on film"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1023-3",
-        title: "How Countries Work Together to Protect the Oceans",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "The ocean covers more than two-thirds of our planet. It gives us food, produces much of the oxygen we breathe, and helps control the world's climate. Yet the ocean is in trouble. Pollution, overfishing, and warming waters are harming it. Because no single country owns the open sea, protecting the ocean has become a task the whole world must share.\n\nMuch of the ocean lies beyond any country's borders, in waters that belong to everyone and to no one. This makes rules hard to set and harder to enforce. To solve this, nations meet and agree on shared rules: how much fish may be caught, how waste may be dumped, and which areas should be protected.\n\nOne important effort is the creation of marine protected areas, special zones where fishing and other activities are limited so that sea life can recover. When countries agree to protect these areas together, fish populations can grow again, helping everyone in the long run.\n\nPollution is another shared problem. Plastic thrown away in one country can float across the sea and wash up on a beach far away. For this reason, nations work together to reduce plastic waste and clean the water.\n\nProgress is slow and not always easy, because countries have different needs and interests. But there have been real successes, such as the return of some whale populations once hunted almost to extinction. The ocean connects every coast on Earth, and caring for it is a duty, and a hope, that all nations share.",
-        summaryJa: "各国が協力して海を守る仕組みについて。海は地球の3分の2以上を覆い、食料を与え、呼吸する酸素の多くを作り、気候の調整も助ける。だが海は危機にあり、汚染・乱獲・水温上昇が損なっている。外洋はどの国の所有でもないため、海の保護は世界全体が分担すべき課題だ。海の多くは国境の外、誰のものでもなく皆のものである海域にあり、規則の設定も施行も難しい。そこで各国は会合し、漁獲量や廃棄、保護区域などの共通規則に合意する。重要な取り組みが海洋保護区の設定で、漁などを制限し海の生き物を回復させる。各国が共同で守ると魚が再び増える。プラスチック汚染も共通問題で、ある国のごみが遠い浜に漂着するため協力して削減する。進みは遅いが、絶滅寸前だったクジラの回復など成果もある。",
-        quiz: [
-          { q: "Why is protecting the ocean a shared world task?", options: ["No single country owns the open sea", "Only one country has an ocean", "The ocean is tiny"], answer: 0 },
-          { q: "What is a 'marine protected area'?", options: ["A zone where fishing and activities are limited so sea life can recover", "A place to dump waste", "A fishing competition"], answer: 0 },
-          { q: "How can plastic from one country harm another?", options: ["It can float across the sea and wash up far away", "It stays in one place forever", "It turns into fish"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1023-4",
-        title: "Washi: Traditional Japanese Paper",
-        level: "★★☆",
-        genre: "日本",
-        text: "Most of the paper we use today is made quickly in large factories. But in Japan, there is a special kind of paper made slowly by hand, following methods hundreds of years old. It is called washi, which simply means Japanese paper. Strong, beautiful, and long-lasting, washi is treasured both as a craft and as an art.\n\nWashi is not made from ordinary wood pulp like most modern paper. Instead, it is made from the inner bark of certain plants, such as the mulberry tree. The long, tough fibers of these plants give washi its special strength. Skilled makers soak, clean, and beat the fibers, then spread them thinly over a screen in water. As the water drains away, a sheet of paper forms, which is then carefully dried.\n\nBecause washi is so strong, it has many uses. In traditional Japanese homes, it is used in sliding doors and paper screens that let soft light into a room. It is also used for calligraphy, for origami, for lanterns, and for repairing old books and artworks, even in famous museums around the world.\n\nMaking washi takes time, patience, and skill, and the number of makers has fallen over the years. To protect this tradition, washi has been recognized as an important part of cultural heritage.\n\nIn an age of cheap, throwaway products, washi reminds us of the beauty of things made slowly and with care. A single sheet can last for centuries, carrying the skill of its maker far into the future.",
-        summaryJa: "日本の伝統的な和紙について。今日使う紙の多くは大きな工場で速く作られる。だが日本には、数百年前からの手法で手作業により時間をかけて作る特別な紙がある。それが「和紙」、つまり日本の紙だ。丈夫で美しく長持ちし、工芸かつ芸術として大切にされる。和紙は普通の紙のような木材パルプでなく、楮（こうぞ）などの植物の内皮から作る。その長く強い繊維が和紙に特別な強さを与える。熟練者は繊維を浸し洗い叩き、水中で薄く漉き、水が抜けると紙ができ、丁寧に乾かす。丈夫なので用途は多く、障子や襖、書道、折り紙、提灯、古書や美術品の修復（世界の有名美術館でも）に使われる。作るには時間と忍耐と技が要り、作り手は減ったため、文化遺産として守られている。ゆっくり丁寧に作る美を思い出させる。",
-        quiz: [
-          { q: "What is washi made from?", options: ["The inner bark of plants like the mulberry tree", "Plastic", "Metal"], answer: 0 },
-          { q: "Why does washi have special strength?", options: ["The long, tough fibers of the plants", "It is very thick", "It is made by machines"], answer: 0 },
-          { q: "What is one traditional use of washi?", options: ["Sliding doors and paper screens in homes", "Building cars", "Making roads"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1023-5",
-        title: "How Do Plants Spread Their Seeds?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "A plant has a problem that we rarely think about: it cannot walk. Rooted in one spot, a plant cannot carry its seeds to new ground. Yet if all its seeds simply fell at its feet, the young plants would crowd together and fight for light and water. So over millions of years, plants have found many clever ways to send their seeds far away.\n\nOne common method is the wind. Some seeds, like those of the dandelion, are light and have tiny hairs that act like a parachute, carrying them on the breeze. Others, like the seeds of maple trees, have little wings that make them spin and glide away from the parent tree.\n\nMany plants use animals instead. They grow sweet, tasty fruit around their seeds. An animal eats the fruit, walks far away, and later drops the seeds in its waste, often with natural fertilizer. Other seeds have tiny hooks that stick to the fur of passing animals, or to people's clothes, and are carried to new places.\n\nWater is another helper. Some seeds can float, drifting down rivers or across the sea to distant shores. The coconut, for example, can travel a long way by ocean before growing on a new beach.\n\nA few plants even launch their own seeds, with pods that burst open and throw them into the air. In all these ways, a plant that cannot move still manages to travel the world, one seed at a time.",
-        summaryJa: "植物が種を広げる仕組みについて。植物には、私たちがあまり考えない問題がある。歩けないのだ。一か所に根を張り、種を新しい土地へ運べない。だが全ての種が足元に落ちれば、若い植物が密集し光や水を奪い合う。そこで植物は何百万年もかけ、種を遠くへ送る巧妙な方法を数多く見つけた。一つは風で、タンポポの種は軽く、細い毛がパラシュートのように風に乗せる。楓の種には小さな翼があり、回転し滑空して親木から離れる。多くは動物を使い、種の周りに甘くおいしい果実を作る。動物が食べて遠くへ行き、糞とともに種を落とし、天然の肥料も付く。小さな鉤で動物の毛や人の服にくっつく種もある。水も助けで、川や海を漂う種があり、ヤシの実は海を長く旅して新しい浜で育つ。種を自ら飛ばす植物もある。",
-        quiz: [
-          { q: "Why do plants need to spread their seeds far away?", options: ["So young plants don't crowd and fight for light and water", "To make noise", "To stay in one spot"], answer: 0 },
-          { q: "How does a dandelion seed travel?", options: ["On the wind, using tiny hairs like a parachute", "By swimming", "By walking"], answer: 0 },
-          { q: "How do some seeds use animals?", options: ["Animals eat the fruit and drop seeds far away", "Animals paint the seeds", "Animals cook the seeds"], answer: 0 }
         ]
       }
     ]
