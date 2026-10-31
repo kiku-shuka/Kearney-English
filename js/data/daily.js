@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-10-31",
+    passages: [
+      {
+        id: "d1031-1",
+        title: "What Is Profit?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "At the heart of almost every business is a single important idea: profit. People start companies, work hard, and take risks largely in the hope of making a profit. But what exactly is profit, and why does it matter so much?\n\nProfit is, quite simply, the money a business has left after it pays all its costs. Imagine a baker who sells bread. In one day, she takes in a certain amount of money from customers. But she also has costs: flour, electricity, rent for the shop, and the wages of her workers. If what she earns is greater than what she spends, the difference is her profit. If she spends more than she earns, she makes a loss.\n\nProfit matters for several reasons. First, it is how a business survives. Without profit, a company cannot pay its bills for long and will eventually close. Second, profit allows a business to grow. The baker might use her profit to buy a bigger oven, open a second shop, or hire more staff.\n\nProfit is not the same as the total money coming in, which is called revenue. A shop can have high revenue but still make no profit if its costs are just as high. Wise business owners watch both carefully.\n\nOf course, most good businesses care about more than profit alone, such as treating customers and workers well. But profit remains the fuel that keeps a business alive. Without it, even a company full of good ideas cannot keep its doors open.",
+        summaryJa: "利益とは何かについて。ほぼ全てのビジネスの中心に、利益という重要な考えがある。人が会社を始め、懸命に働き、リスクを取るのは、主に利益を得る望みからだ。利益とは何で、なぜ重要なのか。利益とは、全ての費用を払った後に事業に残るお金だ。パンを売るパン職人を想像しよう。一日で客から一定のお金を得るが、小麦粉・電気・家賃・従業員の賃金という費用もある。稼ぎが支出より多ければその差が利益、支出が多ければ損失だ。利益が重要な理由はいくつかある。第一に事業の存続で、利益がなければ支払いが続かずやがて閉じる。第二に成長を可能にし、大きなオーブンや二号店、増員に使える。利益は入ってくる総額（収益）とは違い、収益が高くても費用も高ければ利益はない。良い経営者は両方を注視する。利益は事業を生かす燃料だ。",
+        quiz: [
+          { q: "What is profit?", options: ["The money left after a business pays all its costs", "The total money that comes in", "A type of tax"], answer: 0 },
+          { q: "What is the difference between profit and revenue?", options: ["Revenue is total money in; profit is what remains after costs", "They are exactly the same", "Profit is always larger than revenue"], answer: 0 },
+          { q: "Why does profit matter?", options: ["It lets a business survive and grow", "It makes costs disappear", "It is never needed"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1031-2",
+        title: "How Does a Vacuum Cleaner Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "A vacuum cleaner seems to do something magical: it sucks up dust and dirt from the floor as if by an invisible force. We push it around the room, and the mess disappears. But there is no magic here, only a clever use of a simple idea about air and pressure.\n\nThe secret is moving air. Inside the vacuum cleaner is an electric motor that spins a fan very fast. This fan pushes air out of the back of the machine. As the air is pushed out, it leaves behind an area with less air inside the machine, a region of low pressure.\n\nHere is the important part. The air outside, at normal pressure, always tries to rush into any space with lower pressure. So the higher-pressure air outside pushes its way in through the opening at the bottom of the vacuum. As this air rushes in, it carries dust and dirt along with it, lifting them off the floor.\n\nThe dusty air is then pulled through a bag or a container, which has a filter. The filter is like a fine net: it lets the air pass through but traps the dust and dirt inside. The clean air then flows out the back, and the dirt stays behind.\n\nSo a vacuum cleaner does not really \"suck.\" Instead, it lowers the pressure inside, and the ordinary air outside does the pushing. It is an everyday example of how understanding air pressure can turn a simple fan into a useful cleaning machine.",
+        summaryJa: "掃除機の仕組みについて。掃除機は見えない力でほこりやごみを吸い取る魔法のように見える。押して回すとごみが消える。だが魔法はなく、空気と圧力についての単純な考えを巧みに使っているだけだ。鍵は動く空気だ。掃除機の中では電動モーターがファンを高速で回し、機械の後ろから空気を押し出す。空気が押し出されると、中に空気の少ない低圧の領域ができる。重要なのはここだ。外の通常の圧力の空気は、圧力の低い空間へ流れ込もうとする。だから外の高い圧力の空気が、掃除機の底の口から押し入る。この空気が流れ込む際にほこりやごみを巻き込み床から持ち上げる。ほこりを含んだ空気は袋や容器のフィルターを通り、フィルターは細かい網のように空気は通しごみは捕らえる。きれいな空気が後ろから出る。掃除機は「吸う」のでなく内部の圧力を下げ、外の空気が押している。",
+        quiz: [
+          { q: "What does the fan inside a vacuum cleaner do?", options: ["Pushes air out, creating low pressure inside", "Blows dust onto the floor", "Makes the machine heavier"], answer: 0 },
+          { q: "Why does air rush into the vacuum cleaner?", options: ["Higher-pressure air outside pushes into the low-pressure space", "The dust pulls it in", "The motor blows it in"], answer: 0 },
+          { q: "What does the filter do?", options: ["Lets air pass but traps dust and dirt", "Makes more dust", "Stops the motor"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1031-3",
+        title: "Why Do Countries Have Flags?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "At the Olympic Games, outside government buildings, and on ships at sea, you will see them: flags. Almost every country in the world has one, a piece of colored cloth with a special design. A flag may seem like a simple decoration, but it is one of the most powerful symbols a nation can have. Why do countries bother to have flags, and what do they mean?\n\nA flag's main purpose is to represent a whole country in a single image. The colors and shapes are not chosen by accident. Each usually carries a meaning, standing for the nation's history, values, land, or people. A star might represent hope, a color might stand for courage or peace, and a shape might recall an important event. In this way, a flag tells a short story about who a people believe they are.\n\nFlags also bring people together. When citizens see their flag, they may feel a sense of shared identity and belonging, a reminder that they are part of something larger than themselves. At sporting events, people wave flags with pride and joy.\n\nFlags are practical too. Long ago, armies and ships used flags to identify themselves from a distance, and this use continues today. An agreed set of flags lets nations recognize one another instantly, without a single word.\n\nA flag is only cloth, yet people treat it with deep respect, because of what it stands for. In its colors and patterns, a nation carries its past, its hopes, and its sense of unity, held up for all the world to see.",
+        summaryJa: "国に国旗がある理由について。オリンピックや官庁の前、海上の船で国旗を目にする。世界のほぼ全ての国が、特別な意匠の色布を持つ。単なる飾りに見えるが、国が持てる最も強力な象徴の一つだ。なぜ国旗を持ち、何を意味するのか。国旗の主な目的は、一つの図像で国全体を表すことだ。色や形は偶然でなく、たいてい意味を持ち、国の歴史・価値観・土地・人々を表す。星は希望、ある色は勇気や平和、形は重要な出来事を思い起こさせる。こうして国旗は、人々が自分たちを何者と信じるかの短い物語を語る。国旗は人を結びつけ、国民は共有の帰属意識を感じ、競技会では誇りと喜びで振る。実用もあり、昔は軍や船が遠くから自他を識別し、今も続く。布にすぎないが、その象徴ゆえに深く敬われる。過去と希望、結束を掲げる。",
+        quiz: [
+          { q: "What is a flag's main purpose?", options: ["To represent a whole country in a single image", "To keep people warm", "To block the wind"], answer: 0 },
+          { q: "Why are a flag's colors and shapes chosen?", options: ["They usually carry meanings about history, values, or people", "They are picked at random", "They mean nothing"], answer: 0 },
+          { q: "How did armies and ships use flags long ago?", options: ["To identify themselves from a distance", "To cook food", "To measure time"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1031-4",
+        title: "Obon: Honoring Ancestors in Japan",
+        level: "★★☆",
+        genre: "日本",
+        text: "Every summer in Japan, there is a special time when families remember and welcome the spirits of their ancestors. This gentle tradition is called Obon, and it is one of the most important events of the Japanese year. Though it is not a sad occasion, it is a deeply meaningful one, blending memory, family, and quiet celebration.\n\nObon is based on an old belief that, for a few days each summer, the spirits of family members who have died return to visit the living. To welcome them, families clean the graves of their ancestors and place offerings of food and flowers. Many people travel long distances to return to their hometowns, so Obon becomes a time of family reunion.\n\nSeveral beautiful customs mark the season. People light small lanterns to help guide the spirits home, and at the end of Obon, some float paper lanterns on rivers or the sea to see the spirits off again. In many towns, people gather in the evening for a dance called Bon Odori, moving in a circle to the beat of a drum. Anyone can join, and the dance welcomes both the living and the visiting spirits.\n\nObon shows an important idea in Japanese culture: a deep respect for ancestors and a sense that family connections continue even after death. Rather than fearing the dead, people welcome them warmly, with food, light, and dancing.\n\nFor many Japanese, Obon is a time to pause, to feel grateful to those who came before, and to be together with family, old and new.",
+        summaryJa: "日本のお盆について。毎夏、日本には家族が先祖の霊を思い出し迎える特別な時がある。この穏やかな伝統を「お盆」と呼び、日本の一年で最も大切な行事の一つだ。悲しい機会ではなく、記憶と家族と静かな祝いが混じる深い意味を持つ時だ。お盆は、夏の数日間、亡くなった家族の霊が生者を訪ねて戻るという古い信仰に基づく。迎えるため家族は先祖の墓を清め、食べ物や花を供える。多くの人が遠くから故郷へ帰り、お盆は家族の再会の時になる。美しい習わしも多く、霊を家へ導く小さな灯をともし、お盆の終わりには紙の灯籠を川や海に流して霊を送る。夕方には太鼓に合わせて輪になって踊る「盆踊り」に集い、誰でも加われ、生者と訪れた霊を迎える。先祖への深い敬意と、死後も家族のつながりが続く感覚を示す。死を恐れず温かく迎える。",
+        quiz: [
+          { q: "What does Obon welcome?", options: ["The spirits of ancestors returning to visit", "The start of winter", "A sports season"], answer: 0 },
+          { q: "What is 'Bon Odori'?", options: ["A dance in a circle to the beat of a drum", "A type of food", "A kind of boat"], answer: 0 },
+          { q: "What idea does Obon show in Japanese culture?", options: ["Deep respect for ancestors and lasting family ties", "That the past should be forgotten", "That family does not matter"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1031-5",
+        title: "The History of Halloween",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Each year on the 31st of October, in many countries, children dress up as ghosts, witches, and monsters and go from house to house asking for sweets. Adults wear costumes to parties, and homes are decorated with pumpkins carved into glowing faces. This is Halloween. It is great fun, but it also has a long and interesting history.\n\nHalloween began more than two thousand years ago, with an ancient festival held by the Celtic people of Europe. They celebrated the end of the harvest and the start of winter, around the start of November. They believed that on the night before, the line between the living and the dead grew thin, and spirits could walk the earth. People lit fires and wore costumes, hoping to frighten away any harmful spirits.\n\nOver many centuries, this old festival mixed with other traditions and slowly changed into the holiday we know today. The custom of carving faces into vegetables also comes from these old times. When people later moved to America, they found that pumpkins were perfect for carving, and the glowing pumpkin became a famous symbol of Halloween.\n\nToday, Halloween is less about spirits and more about fun. The old idea of wearing costumes to scare away ghosts has become a cheerful game of dressing up. Children's \"trick or treat\" turns a night of fear into a night of sweets and laughter.\n\nFrom an ancient fire festival to a modern celebration, Halloween shows how traditions can travel across time and around the world, changing as they go.",
+        summaryJa: "ハロウィーンの歴史について。毎年10月31日、多くの国で子どもが幽霊や魔女、怪物に扮して家々を回りお菓子をねだる。大人は仮装してパーティーへ行き、家はかぼちゃを彫った光る顔で飾られる。これがハロウィーンだ。楽しいが長く興味深い歴史もある。ハロウィーンは二千年以上前、ヨーロッパのケルト人の古い祭りに始まった。彼らは収穫の終わりと冬の始まり（11月初め頃）を祝い、その前夜に生者と死者の境が薄くなり霊が地上を歩けると信じた。人々は火をたき仮装し、害ある霊を追い払おうとした。何世紀もかけて他の伝統と混ざり今の祝日に変わった。野菜に顔を彫る習わしも昔から来ており、後に人々がアメリカへ移るとかぼちゃが彫刻に最適で、光るかぼちゃが有名な象徴になった。今は霊より楽しみが中心で、仮装は陽気な遊びになった。",
+        quiz: [
+          { q: "Where did Halloween begin?", options: ["With an ancient Celtic festival in Europe", "In modern America only", "In a toy factory"], answer: 0 },
+          { q: "Why did ancient people wear costumes?", options: ["To frighten away harmful spirits", "To stay warm in summer", "To win prizes"], answer: 0 },
+          { q: "How did the glowing pumpkin become a Halloween symbol?", options: ["In America, pumpkins were perfect for carving", "It was always used in Europe", "It grew on its own"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-30",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is a spider's web made of?", options: ["Silk the spider makes inside its body", "Plastic string", "Thin metal wire"], answer: 0 },
           { q: "How does a spider often cross the first gap?", options: ["By releasing a light thread that floats on the breeze", "By jumping very far", "By building a bridge of wood"], answer: 0 },
           { q: "Why doesn't a spider get caught in its own web?", options: ["It walks only on the non-sticky lines", "It never touches the web", "Its feet are made of glue"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-24",
-    passages: [
-      {
-        id: "d1024-1",
-        title: "Why Teamwork Matters at Work",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "In almost every workplace, people work in teams. A project may need a designer, a planner, a seller, and a manager, each doing a different part. Alone, no single person could finish the whole job well. This is why teamwork is one of the most important ideas in business.\n\nWhy does working as a team help? The first reason is that people have different skills. One person may be good with numbers, another with words, and another with people. When they combine their strengths, the team can do things that none of them could do alone. A good team is more than the sum of its members.\n\nTeamwork also brings better ideas. When people share their thoughts, they can build on one another's suggestions and spot mistakes before they cause harm. A problem that seems impossible to one person may be solved quickly when several minds think together.\n\nBut good teamwork does not happen by accident. It needs clear communication, so everyone knows who is doing what. It needs trust, so people are not afraid to share ideas or admit mistakes. And it needs respect, so that every voice, even a quiet one, is heard.\n\nOf course, teams can face problems too, such as disagreements or members who do not share the work fairly. Good leaders and open communication help solve these.\n\nIn the end, teamwork reflects a simple truth: most great things are not built by one person, but by many people working together toward a shared goal.",
-        summaryJa: "職場でチームワークが大切な理由について。ほぼどの職場でも人はチームで働く。あるプロジェクトには設計者・企画者・営業・管理者が必要で、それぞれが別の部分を担う。一人では全体をうまく仕上げられない。だからチームワークはビジネスで最も重要な考えの一つだ。役立つ理由の一つは、人それぞれ技能が違うこと。数字が得意な人、言葉が得意な人、人づきあいが得意な人が強みを合わせると、一人ではできないことができる。良いチームは構成員の総和以上だ。意見を出し合えば互いの案を発展させ、害が出る前に誤りに気づける。だが良いチームワークは偶然には生まれず、明確な意思疎通・信頼・敬意が要る。意見の対立や不公平な分担の問題もあり、良いリーダーと率直な対話が助ける。多くの偉業は一人でなく皆で成される。",
-        quiz: [
-          { q: "Why does working as a team help?", options: ["People combine their different skills", "One person does everything alone", "Nobody shares ideas"], answer: 0 },
-          { q: "What does good teamwork need?", options: ["Clear communication, trust, and respect", "Secrecy and fear", "No communication at all"], answer: 0 },
-          { q: "What simple truth does teamwork reflect?", options: ["Most great things are built by many people together", "One person builds everything", "Teams never succeed"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1024-2",
-        title: "How Noise-Cancelling Headphones Work",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "On a noisy train or a busy street, some people wear special headphones that seem to make the world go quiet. These are noise-cancelling headphones, and they do something that sounds almost impossible: they use sound to remove sound. How can adding more noise actually make things quieter?\n\nTo understand this, we need to remember that sound travels in waves, a pattern of rises and falls moving through the air. When a wave of sound reaches your ear, you hear it. The clever idea behind noise-cancelling headphones is that two waves can cancel each other out. If one wave rises at exactly the moment another falls, they meet and flatten, leaving silence.\n\nInside the headphones, a tiny microphone listens to the noise around you, such as the hum of an engine. A small computer instantly creates a new sound wave that is the exact opposite of that noise. When this opposite wave is played into your ears, it meets the unwanted noise and cancels much of it out. The steady hum seems to disappear.\n\nThis method works best on low, steady sounds, like the drone of an airplane. Sudden, sharp sounds, like a voice, are harder to cancel completely. That is why these headphones are popular with travelers who want to rest on long journeys.\n\nBy quietly producing the opposite of noise, these headphones create a small island of calm. They are a clever example of how understanding the science of sound can make everyday life more peaceful.",
-        summaryJa: "ノイズキャンセリング・ヘッドホンの仕組みについて。騒がしい電車や通りで、世界を静かにするような特別なヘッドホンを着ける人がいる。これがノイズキャンセリング・ヘッドホンで、音を使って音を消すという一見不可能なことをする。なぜ音を足すと静かになるのか。音は波として空気中を伝わる上下の模様で、耳に届くと聞こえる。巧妙なのは、二つの波が互いに打ち消し合える点だ。一方が上がる瞬間にもう一方が下がれば、出会って平らになり静けさが残る。ヘッドホン内の小さなマイクが周囲の騒音（エンジンの唸りなど）を聞き、小さなコンピューターが瞬時にその正反対の波を作る。それを耳に流すと騒音と出会い大部分を打ち消す。低く一定の音に最も効き、声のような突発音は完全には消しにくい。だから長旅で休みたい旅行者に人気だ。",
-        quiz: [
-          { q: "What clever idea do noise-cancelling headphones use?", options: ["Two sound waves can cancel each other out", "They make the ear sleep", "They block the ears with cotton"], answer: 0 },
-          { q: "What does the tiny microphone inside do?", options: ["Listens to the noise around you", "Plays music only", "Measures temperature"], answer: 0 },
-          { q: "What kind of sound is easiest to cancel?", options: ["Low, steady sounds like an engine hum", "Sudden voices", "No sound at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1024-3",
-        title: "What Happens at a Climate Summit?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Every year, leaders and experts from almost every country travel to a single city for a large meeting about one shared problem: the changing climate. These gatherings are often called climate summits. Thousands of people attend, and the world watches closely. But what actually happens at such a meeting, and why does it matter?\n\nThe basic reason for a climate summit is simple. The Earth's climate is warming, mainly because of gases released when we burn fuels like coal and oil. This affects every country, through stronger storms, droughts, and rising seas. Since no nation can solve the problem alone, countries must talk and plan together.\n\nAt a summit, representatives discuss how much each country should reduce its harmful gases, and how fast. Richer nations, which have released the most gases over history, are often asked to do more and to help poorer nations that suffer the most. Countries also promise money to help communities prepare for a changing climate.\n\nThese meetings are not easy. Nations have different needs and interests, and progress can feel slow. Agreements are often weaker than scientists hope. Some people leave disappointed.\n\nYet climate summits still matter. They keep the problem in the public eye, push countries to set goals, and allow the world to measure who is keeping their promises. Step by step, imperfect as it is, this is how a problem too big for any one country is slowly, carefully faced by all of them together.",
-        summaryJa: "気候サミットで何が起こるかについて。毎年、ほぼ全ての国の指導者や専門家が一つの都市に集まり、共通の問題「気候変動」を話し合う。こうした会合はよく気候サミットと呼ばれ、何千人も参加し世界が注視する。開催理由は単純だ。地球の気候は主に石炭や石油を燃やす際に出る気体のために温暖化し、強い嵐や干ばつ、海面上昇で全ての国に影響する。一国では解決できないため各国が共に話し計画する。サミットでは、各国がどれだけ速く有害な気体を減らすべきか議論する。歴史上最も多く排出した豊かな国はより多くの対策と、最も苦しむ貧しい国への支援を求められることが多い。各国は気候変動への備えを助ける資金も約束する。利害が異なり進みは遅く合意は期待より弱いこともあるが、問題を世に示し目標を設定させ約束の履行を測れる。",
-        quiz: [
-          { q: "Why is the Earth's climate warming, mainly?", options: ["Gases released when we burn fuels like coal and oil", "The Moon moving away", "Too much rain"], answer: 0 },
-          { q: "What are richer nations often asked to do?", options: ["Do more and help poorer nations", "Do nothing", "Burn more fuel"], answer: 0 },
-          { q: "Why do climate summits still matter despite slow progress?", options: ["They push countries to set goals and keep the problem in view", "They end all problems at once", "They are only parties"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1024-4",
-        title: "Japanese Pottery and the Beauty of Imperfection",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many cultures, a perfect, smooth, and even object is seen as the most beautiful. In Japan, however, there is a different idea. A handmade tea bowl that is slightly uneven, with small marks from the maker's hands, can be treasured as more beautiful than a perfect machine-made cup. This idea lies at the heart of traditional Japanese pottery.\n\nJapan has made pottery for thousands of years, and different regions are famous for their own styles, clays, and colors. Some pottery is smooth and refined, while other kinds are rough and earthy. What they often share is a respect for natural materials and the marks of the hand that made them.\n\nBehind this is a deep idea sometimes called wabi-sabi, which finds beauty in things that are simple, natural, and imperfect. A crack, an uneven shape, or a change in color is not seen as a fault, but as a sign of character and of the passing of time.\n\nThis idea appears strongly in a repair method called kintsugi. When a bowl breaks, instead of hiding the damage, the pieces are joined with a special lacquer mixed with gold. The golden lines make the repair visible and even beautiful, turning the bowl's history into part of its charm.\n\nJapanese pottery teaches a gentle lesson: that nothing needs to be perfect to be valuable. A cup marked by time and use, like a person with a life's experiences, can hold a quiet beauty all its own.",
-        summaryJa: "日本の陶芸と不完全の美について。多くの文化では、滑らかで均一な完璧な物が最も美しいとされる。だが日本には別の考えがある。少しゆがみ、作り手の指の跡が残る手作りの茶碗が、完璧な機械製より美しいと大切にされることがある。これが日本の伝統陶芸の核心だ。日本は何千年も陶器を作り、地域ごとに独自の様式・土・色で知られる。滑らかで洗練されたものも、素朴で土の質感が強いものもあるが、自然の素材と作り手の手の跡への敬意を共有することが多い。背景には「わびさび」と呼ばれる、簡素・自然・不完全なものに美を見出す深い考えがある。ひびやゆがみ、色の変化は欠点でなく、趣や時の流れの印とされる。割れた器を金入りの漆で継ぐ「金継ぎ」にも表れる。完璧でなくても価値があると教えてくれる。",
-        quiz: [
-          { q: "What idea lies at the heart of traditional Japanese pottery?", options: ["Beauty can be found in natural, imperfect things", "Only perfect machine-made cups are beautiful", "Pottery must never be touched"], answer: 0 },
-          { q: "What is 'wabi-sabi'?", options: ["Finding beauty in simple, natural, imperfect things", "A type of clay", "A fast machine"], answer: 0 },
-          { q: "What is 'kintsugi'?", options: ["Repairing broken pottery with gold-mixed lacquer", "Throwing away broken bowls", "Painting cups blue"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1024-5",
-        title: "Why Do We Have Fingerprints?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Look closely at the tip of one of your fingers, and you will see tiny lines forming loops, arches, and swirls. These are your fingerprints. One famous fact about them is that no two people have exactly the same pattern, not even identical twins. But why do we have these strange little patterns at all?\n\nFingerprints form before we are even born, while a baby grows inside its mother. The exact pattern depends partly on our genes and partly on tiny, random events during growth. This is why the pattern is unique to each person, and why it stays the same for your whole life.\n\nFor a long time, scientists believed fingerprints helped us grip objects, like the tread on a tire. Newer research suggests the truth may be more surprising. The tiny ridges may actually help our sense of touch. As a finger moves across a surface, the ridges vibrate, sending richer signals to the brain and helping us feel fine details and textures.\n\nBecause each person's fingerprints are unique and unchanging, they have become very useful for identifying people. Police have long used them to solve crimes, and today many phones and locks can be opened with a simple touch of a finger.\n\nSo these small patterns on our fingertips are more than just marks. They help us feel the world, they make each of us one of a kind, and they have quietly become one of the most trusted ways to tell one person from another.",
-        summaryJa: "指紋がある理由について。指先をよく見ると、輪や弓、渦を作る細い線がある。これが指紋だ。有名なのは、一卵性双生児でさえ全く同じ模様の人はいないという事実だ。だがなぜこんな模様があるのか。指紋は生まれる前、母の胎内で育つ間に形づくられる。正確な模様は一部は遺伝子に、一部は成長中の小さな偶然による。だから各人に固有で、一生変わらない。長く科学者は指紋がタイヤの溝のように物をつかむのを助けると考えたが、新しい研究ではもっと意外かもしれないと示す。細い隆起は触覚を助け、指が表面を動くと隆起が振動し、脳へ豊かな信号を送り細かな質感を感じさせるという。固有で変わらないため人の識別に役立ち、警察の捜査やスマホ・錠の指紋認証に使われる。",
-        quiz: [
-          { q: "What is famous about fingerprints?", options: ["No two people have exactly the same pattern", "Everyone has the same pattern", "They change every year"], answer: 0 },
-          { q: "What does newer research suggest fingerprints may help with?", options: ["Our sense of touch", "Our hearing", "Our eyesight"], answer: 0 },
-          { q: "Why are fingerprints useful for identifying people?", options: ["They are unique and do not change", "They are all identical", "They disappear quickly"], answer: 0 }
         ]
       }
     ]
