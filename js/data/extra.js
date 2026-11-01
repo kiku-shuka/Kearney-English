@@ -199,7 +199,19 @@ KE_DATA.extraSentences = [
   { id: "w2643-s09", ja: "全体のスケジュールを一度見直しましょう。", en: "Let's review the overall schedule once.", note: "review = 見直す" },
   { id: "w2643-s10", ja: "結果が出次第、すぐにご報告します。", en: "I'll report to you as soon as we have the results.", note: "as soon as = 〜次第すぐに" },
   { id: "w2643-s11", ja: "その条件であれば、前向きに検討できます。", en: "On those terms, we can seriously consider it.", note: "on those terms = その条件で" },
-  { id: "w2643-s12", ja: "何かあれば、いつでもご連絡ください。", en: "Please contact me anytime if anything comes up.", note: "anytime = いつでも" }
+  { id: "w2643-s12", ja: "何かあれば、いつでもご連絡ください。", en: "Please contact me anytime if anything comes up.", note: "anytime = いつでも" },
+  { id: "w2644-s01", ja: "この点について、皆さんのご意見を伺いたいです。", en: "I'd like to hear everyone's opinion on this point.", note: "I'd like to hear ... = 〜の意見を聞きたい" },
+  { id: "w2644-s02", ja: "申し訳ありませんが、少し遅れて参加します。", en: "I'm sorry, but I'll be joining a little late.", note: "join late = 遅れて参加する" },
+  { id: "w2644-s03", ja: "その件は確認してから折り返します。", en: "Let me check on that and get back to you.", note: "check on = 確認する" },
+  { id: "w2644-s04", ja: "今回の目標を改めて確認しましょう。", en: "Let's go over our goal for this project again.", note: "go over = 再確認する・見直す" },
+  { id: "w2644-s05", ja: "資料は会議の前日までにお送りします。", en: "I'll send the materials by the day before the meeting.", note: "by the day before = 前日までに" },
+  { id: "w2644-s06", ja: "この作業には思ったより時間がかかりそうです。", en: "This task looks like it will take longer than I expected.", note: "take longer than expected = 予想より時間がかかる" },
+  { id: "w2644-s07", ja: "ご指摘ありがとうございます。すぐに修正します。", en: "Thank you for pointing that out. I'll fix it right away.", note: "point out = 指摘する" },
+  { id: "w2644-s08", ja: "予算については別途ご相談させてください。", en: "Let me discuss the budget with you separately.", note: "separately = 別途・別に" },
+  { id: "w2644-s09", ja: "全員が同じ理解でいるか確認したいです。", en: "I want to make sure we are all on the same page.", note: "on the same page = 認識が一致している" },
+  { id: "w2644-s10", ja: "ご不便をおかけして申し訳ありません。", en: "I'm sorry for the inconvenience.", note: "inconvenience = 不便・迷惑" },
+  { id: "w2644-s11", ja: "では、次のステップに移りましょう。", en: "Well then, let's move on to the next step.", note: "move on to = 次へ進む" },
+  { id: "w2644-s12", ja: "引き続き状況を注視します。", en: "We'll keep a close eye on the situation.", note: "keep a close eye on = 注意深く見守る" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -267,7 +279,15 @@ KE_DATA.extraPhrases = [
   { id: "w2642-p05", en: "Let's move the needle on this.", ja: "これで実際に成果を動かしましょう。", tip: "move the needle = 目に見える変化を生む" },
   { id: "w2642-p06", en: "That's a bit of a stretch for us.", ja: "それは我々には少し無理があります。", tip: "a stretch = やや無理がある・背伸び" },
   { id: "w2642-p07", en: "I'll ping you when it's ready.", ja: "準備ができたら連絡します。", tip: "ping = （軽く）連絡する（口語）" },
-  { id: "w2642-p08", en: "Let's wrap up here.", ja: "ここで締めくくりましょう。", tip: "wrap up = 締めくくる・終える" }
+  { id: "w2642-p08", en: "Let's wrap up here.", ja: "ここで締めくくりましょう。", tip: "wrap up = 締めくくる・終える" },
+  { id: "w2644-p01", en: "Let's take it one step at a time.", ja: "一歩ずつ進めましょう。", tip: "焦らず順を追う時の定番" },
+  { id: "w2644-p02", en: "That's a load off my mind.", ja: "それで肩の荷が下りました。", tip: "a load off one's mind = 肩の荷が下りる" },
+  { id: "w2644-p03", en: "Can I run something by you?", ja: "ちょっと相談してもいいですか。", tip: "run something by someone = 〜に意見を聞く・相談する" },
+  { id: "w2644-p04", en: "Let's not jump to conclusions.", ja: "早まって結論を出すのはやめましょう。", tip: "jump to conclusions = 早合点する" },
+  { id: "w2644-p05", en: "I'll leave it up to you.", ja: "お任せします。", tip: "leave it up to you = 判断を委ねる" },
+  { id: "w2644-p06", en: "That's easier said than done.", ja: "言うは易く行うは難し、ですね。", tip: "easier said than done = 言うは易し" },
+  { id: "w2644-p07", en: "Let's split the difference.", ja: "間を取りましょう（折半しましょう）。", tip: "split the difference = 差を折半する・妥協する" },
+  { id: "w2644-p08", en: "Keep up the good work.", ja: "この調子で頑張ってください。", tip: "励ましの定番表現" }
 ];
 
 /* シャドーイングの追加スクリプト（shadowing.js と同スキーマ） */
@@ -559,6 +579,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Good. Well, please help yourself. We can talk about business after lunch.", ja: "よかった。さあ、どうぞ召し上がってください。仕事の話は食後にしましょう。" },
       { s: "B", en: "Sounds perfect. Let's enjoy the meal first.", ja: "いいですね。まずは食事を楽しみましょう。" }
     ]
+  },
+  {
+    id: "w2644-sh1",
+    title: "締め切り延長のお願い",
+    level: "★★☆",
+    description: "予想外の事情で締め切りに間に合いそうにないとき、上司に正直に状況を伝え、延長と代替案を相談する場面。",
+    lines: [
+      { s: "A", en: "Excuse me, do you have a moment to talk about the report?", ja: "すみません、報告書について少しお話しできますか？" },
+      { s: "B", en: "Sure. Is everything going well?", ja: "もちろん。順調ですか？" },
+      { s: "A", en: "Mostly, but I've run into a problem I didn't expect.", ja: "おおむねは。ただ、予想外の問題にぶつかりまして。" },
+      { s: "B", en: "What kind of problem?", ja: "どんな問題ですか？" },
+      { s: "A", en: "The data from the client arrived late, so I'm behind schedule.", ja: "クライアントのデータが遅れて届き、予定より遅れています。" },
+      { s: "B", en: "I see. How much more time do you think you need?", ja: "なるほど。あとどのくらい時間が必要そうですか？" },
+      { s: "A", en: "Two more days would let me finish it properly.", ja: "あと2日あれば、きちんと仕上げられます。" },
+      { s: "B", en: "That should be fine. I'd rather have it done well than rushed.", ja: "それで大丈夫でしょう。急いで雑にするより、しっかり仕上げてほしいので。" },
+      { s: "A", en: "Thank you. I'll send a short update tomorrow so you can see the progress.", ja: "ありがとうございます。進捗が分かるよう、明日簡単な報告をお送りします。" },
+      { s: "B", en: "Great. Thanks for letting me know early.", ja: "いいですね。早めに知らせてくれて助かります。" }
+    ]
   }
 ];
 
@@ -755,6 +793,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2643-t03", ja: "家庭はエネルギーの節約にもっと取り組むべきだと思いますか？", en: "Should households do more to save energy?",
     sample: { point: "Yes, I believe households should make more effort to save energy.", reason: "The main reason is that saving energy lowers bills, which matters a lot when energy costs are high, and it also helps the environment.", example: "For example, simple steps like turning off unused lights, using efficient appliances, and heating only the rooms in use can cut a family's energy bill noticeably over a year.", point2: "So saving energy is a rare choice that is good for the wallet and the planet at the same time." }
+  },
+  {
+    id: "w2644-t01", ja: "企業は採用の選考にAIを使うべきだと思いますか？", en: "Should companies use AI to help choose new employees?",
+    sample: { point: "I think companies can use AI in hiring, but only as a helper, not as the final decision-maker.", reason: "The main reason is that AI can quickly sort through many applications and reduce simple human bias, yet it can also repeat hidden unfair patterns and miss a person's real character.", example: "For example, AI might fairly shortlist candidates by skills, but a warm, motivated person who does not fit the usual pattern could be wrongly rejected by a machine.", point2: "So AI should support human judgment in hiring, with a real person always making the final choice." }
+  },
+  {
+    id: "w2644-t02", ja: "変化の速い時代には、一つの分野を深く極めるべきだと思いますか、それとも幅広い技能を身につけるべきだと思いますか？", en: "In a fast-changing world, should people specialize deeply in one field or build a wide range of skills?",
+    sample: { point: "In a fast-changing world, I believe a mix is best, with one strong skill and several supporting ones.", reason: "The main reason is that deep skill in one area makes you valuable, while a range of skills helps you adapt when jobs and tools change.", example: "For example, a designer who also understands a little about business and technology can move between roles far more easily if their industry suddenly shifts.", point2: "So rather than choosing only one path, it is wiser to go deep in one skill while staying curious about many." }
+  },
+  {
+    id: "w2644-t03", ja: "若者は在学中にアルバイトの経験を積むべきだと思いますか？", en: "Should young people gain part-time work experience while they are still studying?",
+    sample: { point: "Yes, I think part-time work while studying is valuable for most young people, within limits.", reason: "The main reason is that a job teaches skills that school cannot, such as handling money, working with others, and being responsible to an employer.", example: "For example, a student who works a few hours in a shop often learns punctuality and communication that later help them in any career.", point2: "So as long as it does not harm their studies or health, part-time work can be a useful part of growing up." }
   }
 ];
 
@@ -797,6 +847,24 @@ KE_DATA.extraScenarios = [
       { speaker: "partner", en: "Do you have any questions for me?", ja: "何か質問はありますか？" },
       { speaker: "user", task: "逆質問をする（入社後最初の数か月で期待される成果）", model: "Yes, thank you. What would success look like in this role during the first few months?", ja: "はい、ありがとうございます。この職務では、最初の数か月でどのような成果が成功とされますか？", hints: ["What would success look like ...", "in the first few months"] },
       { speaker: "partner", en: "That's a thoughtful question. We'll be in touch soon with the next steps.", ja: "良い質問ですね。次の段階について近いうちにご連絡します。" }
+    ]
+  },
+  {
+    id: "w2644-rp1",
+    title: "顧客からのクレーム対応",
+    level: "★★★",
+    userRole: "店舗スタッフ（あなた）",
+    partnerRole: "不満を持つ顧客（Ms. Brown）",
+    description: "届いた商品に問題があったと訴える顧客に、丁寧に謝罪し、状況を確認して解決策を示し、信頼を回復する場面。",
+    turns: [
+      { speaker: "partner", en: "I'm really unhappy. The lamp I ordered arrived broken.", ja: "本当にがっかりしています。注文したランプが壊れて届いたんです。" },
+      { speaker: "user", task: "まず丁寧に謝罪する", model: "I'm very sorry to hear that. I apologize for the trouble this has caused you.", ja: "それを伺い大変申し訳ありません。ご迷惑をおかけしお詫びします。", hints: ["I'm very sorry to hear that", "I apologize for ..."] },
+      { speaker: "partner", en: "I need it for a gift this weekend. What can you do?", ja: "今週末の贈り物に必要なんです。どうしてくれますか？" },
+      { speaker: "user", task: "解決策を示す（無料で交換品を速達）", model: "I understand. I'll send you a replacement by express delivery at no extra cost, so it arrives before the weekend.", ja: "承知しました。追加料金なしで速達にて交換品をお送りし、週末前に届くようにします。", hints: ["send you a replacement", "at no extra cost"] },
+      { speaker: "partner", en: "And what about the broken one?", ja: "壊れた方はどうすれば？" },
+      { speaker: "user", task: "返品の手間を減らす案を伝える", model: "Please don't worry about returning it. We'll arrange a free pickup, so you don't have to do anything.", ja: "ご返送のご心配は要りません。無料の集荷を手配しますので、何もしていただく必要はありません。", hints: ["don't worry about ...", "arrange a free pickup"] },
+      { speaker: "partner", en: "All right, that sounds fair. Thank you.", ja: "分かりました、それなら納得です。ありがとう。" },
+      { speaker: "user", task: "感謝と再発防止の一言で締める", model: "Thank you for your patience. We'll also check our packaging to make sure this doesn't happen again.", ja: "ご辛抱いただきありがとうございます。再発しないよう梱包も見直します。", hints: ["Thank you for your patience", "make sure this doesn't happen again"] }
     ]
   }
 ];
