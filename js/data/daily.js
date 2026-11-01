@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-01",
+    passages: [
+      {
+        id: "d1101-1",
+        title: "What Is a Supply Chain?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When you buy a loaf of bread or a new phone, it seems simple: you pay, and you take it home. But behind that single product is a long and complex journey involving many companies and people across the world. This journey, from raw materials to the finished item in your hands, is called a supply chain.\n\nThink about a simple cotton T-shirt. First, a farmer grows the cotton. The cotton is sold to a factory that spins it into thread, and another factory weaves the thread into cloth. A third factory cuts and sews the cloth into shirts. The shirts are then shipped, perhaps across oceans, to a warehouse, and finally delivered to a shop. Each step is a link in the chain.\n\nA good supply chain is carefully organized so that each part arrives at the right place at the right time. If one link breaks, the whole chain can suffer. For example, if a factory closes or a ship is delayed, shops may run out of products, and prices may rise.\n\nIn recent years, companies have learned how fragile supply chains can be. A problem in one country, such as a storm or a shortage of parts, can quickly affect shops on the other side of the world.\n\nBecause of this, businesses work hard to make their supply chains strong and flexible. Understanding supply chains helps explain why a product is available, why it costs what it does, and how deeply the world's economies are connected, one link at a time.",
+        summaryJa: "サプライチェーン（供給網）とは何かについて。パン一斤や新しいスマホを買うのは単純に見えるが、その一つの製品の背後には、世界中の多くの企業と人が関わる長く複雑な旅がある。原材料から手元の完成品までのこの道のりをサプライチェーンと呼ぶ。綿のTシャツを考えよう。まず農家が綿を育て、工場が糸に紡ぎ、別の工場が布に織り、三つ目の工場が裁断・縫製する。シャツは海を越えて倉庫へ運ばれ、最後に店へ届く。各段階が鎖の輪だ。良い供給網は各部分が適切な時に適切な場所へ届くよう組まれ、一つの輪が切れると全体が苦しむ。工場閉鎖や船の遅れで品切れや価格上昇が起こる。近年、企業は供給網のもろさを学んだ。一国の問題が世界の反対側の店に影響する。だから強く柔軟な供給網作りに努める。世界経済のつながりを示す。",
+        quiz: [
+          { q: "What is a supply chain?", options: ["The journey from raw materials to the finished product", "A type of money", "A single factory"], answer: 0 },
+          { q: "What can happen if one link in the chain breaks?", options: ["Shops may run out of products and prices may rise", "Nothing changes", "Products become free"], answer: 0 },
+          { q: "What have companies learned in recent years?", options: ["Supply chains can be fragile", "Supply chains never fail", "Products need no transport"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1101-2",
+        title: "How Does a Zipper Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "We use zippers every day, on jackets, bags, and boots, without a second thought. We pull a small tab, and two separate edges join into one strong, closed seam. Pull it the other way, and they come apart again. It feels simple, but the zipper is a clever invention, and looking closely reveals how neatly it works.\n\nA zipper has three main parts. Along each side are rows of small teeth, usually made of metal or plastic. Each tooth has a little bump on top and a hollow underneath. The third part is the slider, the piece you pull.\n\nThe secret is in the shape of the teeth and the slider. When you pull the slider up to close the zipper, it guides the teeth from both sides together. As they meet, the bump of each tooth fits snugly into the hollow of the tooth opposite it, locking them together one by one. The teeth are set so that they hold tightly and do not easily pull apart sideways.\n\nWhen you pull the slider the other way, a small wedge inside it does the opposite job, gently forcing the joined teeth apart again. So the same little slider can both lock and unlock the teeth, simply depending on which way it moves.\n\nThe zipper was invented over a hundred years ago and has barely changed since, because the design works so well. It is a perfect example of how a simple, clever idea can quietly become part of daily life all over the world.",
+        summaryJa: "ファスナー（ジッパー）の仕組みについて。私たちは上着や鞄、靴のファスナーを毎日何気なく使う。小さなつまみを引くと二つの別々の縁が一つの強い閉じた縫い目になり、逆に引くとまた離れる。単純に見えるが巧妙な発明で、よく見ると見事な働きが分かる。ファスナーには主に三つの部分がある。両側に並ぶ小さな歯（金属やプラスチック製）で、各歯の上には小さな突起、下には窪みがある。三つ目はつまみ（スライダー）だ。鍵は歯とスライダーの形だ。閉じる向きに引くと、スライダーが両側の歯を合わせ、各歯の突起が向かいの歯の窪みにぴたりとはまり、一つずつかみ合う。横には簡単に離れないよう配置されている。逆に引くと内部の小さなくさびが歯を押し離す。同じスライダーが向きだけで施錠と解錠を行う。百年以上前の発明でほぼ変わっていない。",
+        quiz: [
+          { q: "What are the three main parts of a zipper?", options: ["Two rows of teeth and a slider", "Three sliders", "A battery and two wires"], answer: 0 },
+          { q: "How do the teeth lock together?", options: ["Each tooth's bump fits into the hollow of the opposite tooth", "They are glued each time", "They melt together"], answer: 0 },
+          { q: "How does the slider open the zipper?", options: ["A small wedge inside forces the joined teeth apart", "It cuts the teeth off", "It adds new teeth"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1101-3",
+        title: "How the World Works to Protect Children",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Children are among the most vulnerable people in the world. They depend on adults for food, safety, and care, and they cannot easily protect themselves. When war, poverty, or disaster strikes, children often suffer the most. For this reason, protecting children has become a shared goal that crosses every border.\n\nMuch of this work is coordinated by an international organization dedicated to children, supported by many nations. Its goal is simple but huge: to help every child survive and grow up healthy, safe, and educated, no matter where they are born.\n\nThe work takes many forms. Teams bring clean water, food, and medicine to children in poor or troubled areas. They run programs to vaccinate babies against deadly diseases, an effort that has saved millions of young lives. They help build schools and provide books, so that children who might never have learned to read get the chance.\n\nIn emergencies, such as a war or an earthquake, protecting children becomes urgent. Workers set up safe spaces, reunite children with lost families, and give comfort to those who are frightened and alone.\n\nThere is also a widely agreed idea that all children have certain rights, including the right to be safe, to learn, to play, and to be heard. Most countries have promised to respect these rights.\n\nThe task is far from finished, and millions of children still face hardship. But the shared effort reflects a simple belief held around the world: that every child, everywhere, deserves a fair and hopeful start in life.",
+        summaryJa: "世界が子どもを守る取り組みについて。子どもは世界で最も弱い立場の人々に含まれる。食べ物・安全・世話を大人に頼り、自分を守りにくい。戦争や貧困、災害が起これば子どもが最も苦しむことが多い。だから子どもの保護は国境を越えた共通の目標になった。多くはある国際機関が調整し、多国が支える。目標は単純だが大きい。どこに生まれても、全ての子が健康で安全に、教育を受けて育つのを助けることだ。活動は多様で、貧しい・困難な地域の子へ清潔な水・食料・薬を届け、致命的な病気のワクチン接種で何百万もの命を救い、学校建設や本の提供で読み書きの機会を与える。戦争や地震などの緊急時には、安全な場所を設け、はぐれた家族と再会させ、恐れて孤独な子を慰める。子どもには安全・学び・遊び・意見を聞かれる権利があるという広く合意された考えもある。",
+        quiz: [
+          { q: "Why are children especially vulnerable?", options: ["They depend on adults and cannot easily protect themselves", "They are very strong", "They never need help"], answer: 0 },
+          { q: "What is one way the world protects children's health?", options: ["Vaccinating babies against deadly diseases", "Ignoring illness", "Closing all hospitals"], answer: 0 },
+          { q: "What rights do all children widely share?", options: ["To be safe, to learn, to play, and to be heard", "To do dangerous work", "To have no school"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1101-4",
+        title: "Zen: Stillness in Japanese Culture",
+        level: "★★☆",
+        genre: "日本",
+        text: "Many things that feel typically Japanese, such as a simple garden of raked sand, a quiet tea ceremony, or a calm, empty room, share a common root. That root is Zen, a form of Buddhism that came to Japan centuries ago and deeply shaped its culture. Zen is not only a religion; it is a way of seeing the world.\n\nAt the heart of Zen is a practice called zazen, or seated meditation. A person sits still and quiet, often facing a wall, and simply pays attention to the present moment and their own breathing. The goal is not to escape life, but to calm the busy mind and see things clearly, just as they are.\n\nZen teaches that true understanding comes not only from words and thinking, but from direct experience and quiet awareness. It values simplicity, patience, and being fully present in whatever you are doing, whether drinking tea, cleaning a floor, or walking in a garden.\n\nThis spirit has flowed into Japanese arts for hundreds of years. The tea ceremony, calligraphy, garden design, and even flower arranging all carry the Zen love of simplicity, stillness, and careful attention. Empty space is valued as much as what fills it.\n\nToday, Zen ideas have spread far beyond Japan. People around the world practice meditation to find calm in busy lives. Whether or not one follows the religion, Zen offers a gentle lesson that many find valuable: to slow down, pay attention, and find peace in the present moment.",
+        summaryJa: "日本文化における禅について。熊手で砂を整えた簡素な庭、静かな茶道、落ち着いた何もない部屋など、いかにも日本的に感じる多くのものに共通の根がある。それが禅だ。何世紀も前に日本へ伝わり文化を深く形づくった仏教の一派で、宗教であると同時に世界の見方でもある。禅の中心は「座禅」という座って行う瞑想だ。静かに座り、しばしば壁に向かい、今この瞬間と自分の呼吸に注意を向ける。目的は人生から逃げることでなく、忙しい心を鎮め物事をありのままに見ることだ。禅は、真の理解が言葉や思考だけでなく直接の経験と静かな気づきから来ると説き、簡素・忍耐・目の前のことに全身で臨むことを重んじる。茶道や書道、庭園設計、生け花にもこの心が流れ、余白が中身と同じく尊ばれる。今や世界に広まり、人々は忙しい生活で心の平穏を求め瞑想する。",
+        quiz: [
+          { q: "What is 'zazen'?", options: ["Seated meditation, paying attention to the present moment", "A kind of food", "A loud festival"], answer: 0 },
+          { q: "What does Zen value?", options: ["Simplicity, patience, and being fully present", "Noise and hurry", "Owning many things"], answer: 0 },
+          { q: "How has Zen influenced Japanese arts?", options: ["It brought a love of simplicity, stillness, and attention", "It made them very colorful and busy", "It removed all art"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1101-5",
+        title: "How Does Soap Clean?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "We wash our hands, our dishes, and our clothes with soap every day, trusting it to make them clean. But water alone often cannot remove grease and oil; think of trying to wash a greasy pan with just water. So what makes soap so good at cleaning, and why does it work when water by itself fails?\n\nThe secret lies in the special shape of the tiny particles that make up soap. Each soap particle is like a tiny tadpole with two very different ends. One end loves water and is pulled toward it. The other end hates water but loves oil and grease, and is pulled toward them instead.\n\nThis double nature is the key. When you wash something greasy, the oil-loving ends of many soap particles stick into the drop of grease, while their water-loving ends point outward, into the water. In this way, the soap particles surround the grease and break it into tiny drops, each wrapped in soap. These wrapped drops can now mix with water and be rinsed away, carrying the dirt with them.\n\nThis is also why soap works best with a little scrubbing and plenty of water. The scrubbing loosens the dirt, and the water carries away the soap-wrapped grease.\n\nSoap is one of the oldest and most important inventions for human health. By allowing us to wash away not only dirt but also germs, this simple, clever substance has helped protect people from disease for thousands of years.",
+        summaryJa: "石けんが汚れを落とす仕組みについて。私たちは毎日、手や食器、衣類を石けんで洗い、きれいになると信じている。だが水だけでは油や脂を落としにくい。油まみれの鍋を水だけで洗おうとする様子を思い浮かべてほしい。なぜ石けんはよく落とし、水だけでは駄目なのか。鍵は石けんを作る小さな粒子の特別な形にある。各粒子はオタマジャクシのようで、両端がまったく違う。一方の端は水を好み水に引かれ、もう一方は水を嫌い油や脂を好んでそちらに引かれる。この二重の性質が鍵だ。油汚れを洗うと、多くの粒子の油好きの端が脂の滴に刺さり、水好きの端は外の水へ向く。こうして粒子が脂を囲み小さな滴に分け、石けんに包まれた滴は水に混ざり流し落とせ、汚れも一緒に去る。だから少しこすり、たっぷりの水で最もよく落ちる。細菌も洗い流せ、健康を守ってきた。",
+        quiz: [
+          { q: "Why can't water alone remove grease well?", options: ["Grease and oil do not mix with water by themselves", "Water is too strong", "Grease loves water"], answer: 0 },
+          { q: "What is special about a soap particle?", options: ["One end loves water; the other loves oil and grease", "It is made of metal", "It has no ends"], answer: 0 },
+          { q: "How does soap remove grease?", options: ["It surrounds grease so it can mix with water and rinse away", "It burns the grease", "It freezes the grease"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-10-31",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "When does an object float?", options: ["When it is less dense than the liquid around it", "When it is heavier than the liquid", "Only when it is warm"], answer: 0 },
           { q: "Why is ice less dense than water?", options: ["Its particles freeze in an open pattern with more empty space", "It has no particles", "It is always hot"], answer: 0 },
           { q: "Why is floating ice important for a lake in winter?", options: ["It protects the fish and plants in the water below", "It makes the lake disappear", "It heats the water"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-25",
-    passages: [
-      {
-        id: "d1025-1",
-        title: "Why Saving Money Matters",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Most of us earn money and then spend it on the things we need and want. But wise people also do something else: they save. Saving means keeping some of your money instead of spending all of it. It may sound simple, but the habit of saving is one of the most powerful tools for a secure and happy life.\n\nWhy is saving so important? The first reason is safety. Life is full of surprises, and some are expensive. A car may break down, or a person may suddenly lose a job. People who have saved money, often called an \"emergency fund,\" can face these problems calmly. Those who have not may fall into debt.\n\nSaving also helps us reach our goals. Big dreams, such as travelling, studying, or buying a home, usually cost more than one month's pay. By saving a little regularly, a person slowly builds the money needed to make these dreams real.\n\nThere is also a quieter benefit: peace of mind. Knowing you have money set aside reduces worry and gives you more freedom to make choices, such as changing jobs or trying something new.\n\nHow can someone save? Experts often suggest a simple rule: save a small part of your income first, before spending the rest, rather than hoping money will be left over at the end. Even a small amount, saved regularly, grows over time.\n\nSaving is not about being rich. It is about being prepared, and about giving your future self a gift.",
-        summaryJa: "貯金が大切な理由について。多くの人はお金を稼ぎ、必要な物や欲しい物に使う。だが賢い人はもう一つのことをする。貯めるのだ。貯金とは全部使わず一部を取っておくこと。単純に聞こえるが、貯める習慣は安心で幸せな人生の最も強力な道具の一つだ。第一の理由は安全で、人生は予想外の出費に満ちる。車が壊れたり急に職を失ったりしても、「緊急資金」を貯めた人は落ち着いて対処でき、ない人は借金に陥りやすい。貯金は目標達成も助ける。旅行や勉強、住宅購入など大きな夢は一か月の給料より高く、少しずつ貯めれば実現できる。心の平安という利点もあり、蓄えがあると不安が減り選択の自由が増す。コツは、余ったら貯めるのでなく使う前にまず一部を貯めること。少額でも定期的に貯めれば時とともに増える。",
-        quiz: [
-          { q: "What does saving money mean?", options: ["Keeping some of your money instead of spending it all", "Spending everything you earn", "Borrowing more money"], answer: 0 },
-          { q: "What is an 'emergency fund' for?", options: ["Facing sudden, expensive problems calmly", "Buying luxury items only", "Paying no attention to money"], answer: 0 },
-          { q: "What simple rule do experts often suggest?", options: ["Save a part of your income first, before spending", "Spend first and hope money is left", "Never save anything"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1025-2",
-        title: "How Do Drones Fly?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "In recent years, small flying machines called drones have become a common sight. They film videos from the sky, deliver packages, inspect bridges, and help farmers check their fields. Unlike an airplane or a helicopter, a drone has no pilot on board. So how does this little machine lift itself into the air and fly so steadily?\n\nMost drones have four arms, each with a spinning blade called a rotor, which is why they are often called \"quadcopters.\" Each rotor works like a tiny propeller. As the blades spin fast, they push air downward, and this creates an upward force that lifts the drone. The faster the blades spin, the higher the drone rises.\n\nThe clever part is control. To move, a drone changes the speed of each rotor separately. If the rotors at the back spin faster than those at the front, the drone tilts forward and flies ahead. By carefully balancing the four rotors, the drone can rise, turn, hover in place, or move in any direction.\n\nA small computer inside the drone makes constant tiny adjustments, many times each second, to keep it steady. Sensors tell the computer how the drone is tilting, and it corrects itself faster than a human could. A person on the ground controls the drone with a remote, or sometimes a flight is planned in advance.\n\nLight, cheap, and able to reach difficult places, drones have opened up new possibilities in photography, delivery, farming, and rescue, changing the way we see and reach the world around us.",
-        summaryJa: "ドローンが飛ぶ仕組みについて。近年、ドローンという小さな飛行機械をよく見かける。空から撮影し、荷物を届け、橋を点検し、農家の畑確認も助ける。飛行機やヘリと違い操縦士が乗っていない。この小さな機械はどうやって浮き、安定して飛ぶのか。多くのドローンは四本の腕を持ち、それぞれに回転する羽根（ローター）があり、だから「クアッドコプター」と呼ばれる。各ローターは小さなプロペラのように速く回って空気を下へ押し、上向きの力でドローンを持ち上げる。巧妙なのは制御で、各ローターの速度を別々に変える。後ろが前より速く回ると前へ傾いて進む。四つのバランスで上昇・旋回・空中停止・移動ができる。内部の小さなコンピューターが毎秒何度も微調整し、センサーの情報で人より速く姿勢を正す。地上から遠隔操作するか、飛行をあらかじめ計画する。",
-        quiz: [
-          { q: "How does a drone lift itself into the air?", options: ["Spinning blades push air downward, creating an upward force", "It fills with hot air", "It jumps off a ramp"], answer: 0 },
-          { q: "How does a drone move forward?", options: ["By changing the speed of each rotor separately", "By flapping wings", "By using wheels"], answer: 0 },
-          { q: "What keeps a drone steady?", options: ["A small computer making constant tiny adjustments", "A human holding it", "Strong glue"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1025-3",
-        title: "Why Education Matters Around the World",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Most children today go to school, learning to read, write, and count. For many of us, this seems completely normal. Yet around the world, millions of children still cannot go to school, or must leave early. Making sure that every child can learn has become one of the great shared goals of our time.\n\nWhy does education matter so much? For an individual, it opens doors. A person who can read and write, and who has useful skills, can find better work, earn more, and make healthier choices. Education helps people understand the world and take part in their society.\n\nEducation also helps whole countries. A nation with educated people can build stronger businesses, better hospitals, and fairer systems. For this reason, many consider education one of the best ways to reduce poverty over the long term.\n\nBut not every child has the chance to learn. In some poorer regions, families cannot afford books or uniforms, schools are far away, or children must work to help their families. In some places, girls in particular have fewer chances than boys, though this is slowly changing.\n\nGovernments and international groups work to close this gap. They build schools, train teachers, and help pay the costs so that more children can attend. New technology, such as lessons delivered by phone or radio, can reach children in faraway places.\n\nThe goal is simple but powerful: that every child, everywhere, should have the chance to learn. When a child is educated, the benefits spread to their family, their country, and the whole world.",
-        summaryJa: "世界で教育が大切な理由について。今日、多くの子どもは学校へ行き、読み書きと計算を学ぶ。私たちには当たり前に思えるが、世界では今も何百万もの子どもが学校へ行けず、早くに辞めざるを得ない。全ての子が学べるようにすることは現代の大きな共通目標の一つだ。個人には扉を開く。読み書きができ役立つ技能があれば、より良い仕事に就き、多く稼ぎ、健康的な選択もできる。教育は世界の理解と社会参加を助ける。国にとっても、教育を受けた人がいれば、より強い企業や良い病院、公正な制度を築ける。だから長期的に貧困を減らす最良の方法の一つとされる。だが全ての子に機会はなく、貧しい地域では本や制服を買えず、学校が遠く、家の手伝いで働く子もいる。特に女子は機会が少ないが徐々に変わっている。各国や国際団体が学校建設や教員養成、費用援助で格差を埋める。電話やラジオの授業も遠隔地に届く。",
-        quiz: [
-          { q: "How does education help an individual?", options: ["It opens doors to better work and choices", "It makes life harder", "It has no effect"], answer: 0 },
-          { q: "Why is education seen as a way to reduce poverty?", options: ["Educated people build stronger businesses and systems", "It costs too much to help anyone", "It keeps people poor"], answer: 0 },
-          { q: "What is one reason some children cannot go to school?", options: ["Families cannot afford books, or schools are far away", "They already know everything", "Schools are banned everywhere"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1025-4",
-        title: "Haiku: Japan's Short Poems",
-        level: "★★☆",
-        genre: "日本",
-        text: "Imagine trying to capture a whole moment, a feeling, or a season, in just a few words. This is the art of haiku, one of the shortest and most famous forms of poetry in the world. Born in Japan centuries ago, a haiku uses very few words to paint a single, clear picture in the reader's mind.\n\nA traditional haiku follows a simple pattern of sound. In Japanese, it has three parts, with five, then seven, then five sound-units, making seventeen in all. This tight rule forces the poet to choose every word with great care. There is no room for anything unnecessary.\n\nHaiku usually describe nature and the seasons. Many include a special word, called a kigo, that shows the time of year, such as cherry blossoms for spring or snow for winter. A good haiku often captures a small, quiet moment: a frog jumping into a pond, the first cold wind of autumn, or the light of the moon.\n\nWhat makes haiku powerful is what they leave out. Instead of explaining a feeling, a haiku shows a simple scene and lets the reader feel it for themselves. In this way, a few words can open a wide world of thought and emotion.\n\nToday, people all over the world write haiku, in many languages. Writing one is a wonderful exercise in paying attention, to nature, to language, and to the present moment. In seventeen sounds, a haiku reminds us that even the smallest moment can hold great beauty.",
-        summaryJa: "日本の短詩、俳句について。ある瞬間や感情、季節をわずかな言葉で捉えることを想像してほしい。これが俳句の芸術で、世界で最も短く有名な詩の形の一つだ。何世紀も前に日本で生まれ、ごく少ない言葉で読者の心に一つの鮮明な絵を描く。伝統的な俳句は音の単純な型に従い、日本語では五・七・五の三部で計十七音。この厳しい規則が詩人に一語一語を慎重に選ばせ、不要なものを入れる余地はない。多くは自然や季節を描き、季節を示す「季語」（春の桜、冬の雪など）を含むことが多い。良い俳句は、池に飛び込む蛙、秋の初めの冷たい風、月の光など、小さく静かな瞬間を捉える。力の源は省略で、感情を説明せず情景だけ示し読者に感じさせる。今や世界中で多くの言語で作られ、自然と言葉と「今」に注意を向ける素晴らしい練習だ。",
-        quiz: [
-          { q: "What is the traditional sound pattern of a Japanese haiku?", options: ["Five, seven, five sound-units", "Ten lines of ten words", "No pattern at all"], answer: 0 },
-          { q: "What is a 'kigo'?", options: ["A word that shows the time of year", "A type of drum", "A long speech"], answer: 0 },
-          { q: "What makes haiku powerful?", options: ["What they leave out, letting the reader feel the scene", "Explaining every feeling in detail", "Using thousands of words"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1025-5",
-        title: "How Do Spiders Make Their Webs?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "On a dewy morning, you might see a spider's web shining between two branches, perfect and round. It looks delicate, yet it is one of nature's strongest and most clever creations. How does a tiny spider build such a complex trap, with no tools and no lessons?\n\nThe secret is silk. Inside its body, a spider makes a special liquid. When the spider pushes this liquid out through tiny openings, it turns into a thread of silk as it meets the air. This silk is amazingly strong for its weight, stronger than a thread of steel of the same thickness, yet it can also stretch without breaking.\n\nBuilding a web takes careful steps. First, the spider must cross the gap between two points. It often does this by releasing a light thread that floats on the breeze until it catches on the other side. Once this first bridge is fixed, the spider walks across it and builds a frame, then adds lines that reach into the center like the spokes of a wheel. Finally, it lays a spiral of sticky silk to catch insects.\n\nCleverly, not all the silk is sticky. The spider walks only on the non-sticky lines, so it does not get caught in its own trap. When an insect flies into the sticky spiral, the spider feels the web shake and rushes out.\n\nA spider builds all this from memory and instinct, often in less than an hour. The web it makes is a quiet masterpiece of natural engineering.",
-        summaryJa: "クモが巣を作る仕組みについて。露の朝、二本の枝の間に丸く完璧なクモの巣が輝くのを見るかもしれない。繊細に見えるが、自然で最も強く巧妙な創造物の一つだ。小さなクモが道具も教えもなく、どうやってこんな複雑な罠を作るのか。鍵は糸だ。体内で特別な液を作り、小さな穴から押し出すと空気に触れて糸になる。この糸は重さの割に驚くほど強く、同じ太さの鋼より強いのに切れずに伸びる。作るには手順が要る。まず二点の間を渡らねばならず、軽い糸を風に乗せて反対側に引っかける。この最初の橋が固定されると、クモは渡って枠を作り、車輪の輻のように中心へ向かう線を足し、最後に虫を捕らえる粘る糸の渦を張る。巧妙にも全部が粘るのではなく、クモは粘らない線だけを歩き自分の罠にかからない。虫がかかると揺れを感じて駆け出す。記憶と本能で一時間足らずで作る。",
-        quiz: [
-          { q: "What is a spider's web made of?", options: ["Silk the spider makes inside its body", "Plastic string", "Thin metal wire"], answer: 0 },
-          { q: "How does a spider often cross the first gap?", options: ["By releasing a light thread that floats on the breeze", "By jumping very far", "By building a bridge of wood"], answer: 0 },
-          { q: "Why doesn't a spider get caught in its own web?", options: ["It walks only on the non-sticky lines", "It never touches the web", "Its feet are made of glue"], answer: 0 }
         ]
       }
     ]
