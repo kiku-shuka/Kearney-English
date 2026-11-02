@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-02",
+    passages: [
+      {
+        id: "d1102-1",
+        title: "What Is a Franchise?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "If you travel to a different city, or even a different country, you may notice the same shops and restaurants again and again. The same burger chain, the same coffee shop, the same convenience store appears everywhere, looking almost identical. Often, this is possible because of a business idea called a franchise.\n\nIn a franchise, one company owns a successful brand, along with its name, its products, and its way of doing business. This company is called the franchisor. Instead of opening every new shop itself, it allows other people to open and run their own shop using that brand. These people are called franchisees.\n\nA franchisee pays the franchisor a fee, and often a share of the profits. In return, they get to use the famous name, sell the well-known products, and receive training and support. They also must follow strict rules, so that every shop looks and feels the same and offers the same quality.\n\nThis system has benefits for both sides. The franchisor can grow very quickly across many places without paying for everything alone. The franchisee gets to run a business with a trusted name, which is less risky than starting something completely new and unknown.\n\nOf course, there are challenges too. The franchisee has less freedom to make their own choices, and must share their earnings. Still, franchising has become one of the most common ways for brands to spread around the world. The next time you see a familiar shop far from home, there is a good chance it is a franchise.",
+        summaryJa: "フランチャイズとは何かについて。別の街、さらには別の国へ行っても、同じ店や飲食店を何度も見かけることがある。同じハンバーガーチェーン、同じ喫茶店、同じコンビニがどこにでも、ほぼそっくりな姿で現れる。これはフランチャイズという事業の仕組みのおかげであることが多い。フランチャイズでは、ある会社が成功したブランドを、その名前・商品・商売のやり方とともに所有する。これを本部（フランチャイザー）という。新店を全て自分で開く代わりに、他の人がそのブランドを使って自分の店を開き運営するのを認める。この人々を加盟店（フランチャイジー）と呼ぶ。加盟店は本部に料金を払い、しばしば利益の一部も納める。見返りに有名な名前を使い、知られた商品を売り、研修や支援を受ける。各店が同じに見え同じ品質になるよう厳しい規則にも従う。本部は素早く広がれ、加盟店は信頼ある名前で比較的低リスクに商売できる。自由が少なく収益も分け合う難点もある。",
+        quiz: [
+          { q: "What is a 'franchisee'?", options: ["A person who opens and runs a shop using another company's brand", "The company that owns the brand", "A type of product"], answer: 0 },
+          { q: "What does a franchisee give the franchisor?", options: ["A fee and often a share of the profits", "Nothing at all", "A new brand name"], answer: 0 },
+          { q: "Why is franchising less risky for the franchisee?", options: ["They run a business with a trusted, well-known name", "The brand is completely unknown", "They can ignore all rules"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1102-2",
+        title: "How Does a Smoke Detector Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "On the ceiling of many homes, offices, and hotels is a small, round, white device that most people rarely think about: the smoke detector. It usually sits quietly for years. But if a fire starts, it can save lives by giving an early warning, long before people might notice the danger themselves, especially while they are asleep.\n\nBut how does such a small, simple-looking device sense smoke in the air? There are a few types, but one common kind works using light. Inside the detector is a small, dark chamber with a tiny light source, such as an LED, shining a narrow beam across it. Next to the beam, but not directly in its path, sits a light sensor.\n\nIn normal, clean air, the light shines straight across the chamber, and the sensor beside it stays in the dark. But when smoke drifts into the chamber, its tiny particles scatter the light in all directions. Some of this scattered light now reaches the sensor. The moment the sensor detects this light, the detector knows smoke is present and sets off a loud alarm.\n\nThis clever design means the detector does not need to see fire or feel heat. It only needs to notice smoke particles in the air. Because of this, it can warn people very early, sometimes before flames even appear.\n\nSmoke detectors are cheap, simple, and extremely effective. This small, quiet guardian on the ceiling is one of the most successful safety inventions of modern times, protecting millions of people every single night.",
+        summaryJa: "煙感知器（火災報知器）の仕組みについて。多くの家庭やオフィス、ホテルの天井には、普段ほとんど意識されない小さな丸い白い装置がある。煙感知器だ。何年も静かに取り付けられているが、火災が起きれば早期に警報を出し、特に就寝中など人が危険に気づく前に命を救える。ではこの小さな装置はどうやって空気中の煙を感知するのか。数種類あるが、よくある一つは光を使う。内部には小さな暗い部屋があり、LEDなどの小さな光源が細い光の筋を横切らせる。その光の筋の脇、直接の進路からは外れた位置に光センサーがある。きれいな空気ではセンサーは暗いままだが、煙が入ると微粒子が光をあらゆる方向に散乱させ、その一部がセンサーに届く。センサーが光を捉えた瞬間、煙ありと判断し大きな警報を鳴らす。炎を見たり熱を感じたりせず、煙の粒子に気づくだけでよい。安価で単純だが非常に効果的な発明だ。",
+        quiz: [
+          { q: "What does one common type of smoke detector use to sense smoke?", options: ["A light beam and a light sensor", "A camera that sees fire", "A thermometer only"], answer: 0 },
+          { q: "In clean air, why does the alarm stay silent?", options: ["The light shines straight across and does not reach the sensor", "There is no light inside", "The sensor is broken"], answer: 0 },
+          { q: "How does smoke set off the alarm?", options: ["Its particles scatter the light so some reaches the sensor", "It blocks all electricity", "It heats the whole room"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1102-3",
+        title: "Counting People: The Census Around the World",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "How many people live in a country? It sounds like a simple question, but the answer is very important, and surprisingly hard to find. To answer it, almost every nation in the world carries out a great counting of its people, called a census. Usually it happens once every ten years.\n\nA census is more than just a head count. Governments try to learn who lives where, how old people are, what work they do, and how families are made up. To do this, they send forms to every home, or send workers to visit, asking people to answer questions about their household.\n\nWhy go to all this effort? Because governments use this information to plan for the future. If a census shows that many young children live in one area, the government knows it may need to build more schools there. If another area has many older people, it may need more hospitals and care. The data also helps decide how money and services are shared fairly among regions.\n\nTaking a census is a huge task. In a large country, counting hundreds of millions of people takes years of planning and a small army of workers. In some remote places, counters must travel for days to reach a single village.\n\nThe idea of counting people is ancient, used by rulers thousands of years ago. Today it is more organized and fair, aiming to include everyone. A census is one of the quiet but powerful tools that help a country understand itself and plan wisely for the years ahead.",
+        summaryJa: "世界の国勢調査（人口調査）について。ある国に何人住んでいるか。単純に聞こえるが、その答えはとても重要で、意外に調べにくい。答えを得るため、世界のほぼ全ての国が「国勢調査」と呼ばれる大規模な人口の数え上げを行う。たいてい十年に一度だ。国勢調査は単なる頭数の勘定ではない。政府は誰がどこに住み、年齢や仕事、家族構成はどうかを知ろうとする。各家庭に用紙を送ったり調査員が訪問したりして、世帯について質問に答えてもらう。なぜそこまでするのか。政府はこの情報で将来を計画するからだ。幼い子が多い地域なら学校を増やす必要が分かり、高齢者が多ければ病院や介護が要る。資金やサービスを地域に公平に配る判断にも役立つ。大国では数億人を数えるのに何年もの計画と大勢の調査員が要る。遠隔地では一つの村へ何日もかけて向かう。古代から行われてきたが、今はより整然と公平で、全員を含めることを目指す。",
+        quiz: [
+          { q: "What is a census?", options: ["A great counting of a country's people, usually every ten years", "A yearly tax", "A kind of election only"], answer: 0 },
+          { q: "Why do governments collect census information?", options: ["To plan for the future, such as building schools or hospitals", "To sell it to shops", "For no real reason"], answer: 0 },
+          { q: "Why is taking a census a huge task?", options: ["Counting millions of people takes years of planning and many workers", "It is done in one hour", "Only one person does it"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1102-4",
+        title: "Furoshiki: The Japanese Art of Wrapping Cloth",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, there is a simple but clever everyday tool that is just a square piece of cloth. It is called a furoshiki. At first, it looks like nothing special, just a decorated handkerchief, perhaps a bit larger. But in skilled hands, this single square of cloth can become a bag, a gift wrapper, or a way to carry almost anything.\n\nThe furoshiki has a long history. Its name comes from the word for bath, and long ago people used such cloths to wrap their clothes at public baths. Over time, they became a common way to carry and wrap all kinds of things, from books to lunch boxes to bottles.\n\nThe beauty of the furoshiki is its simple flexibility. There are no handles, no zips, and no fixed shape. By folding and tying the corners in different ways, a person can wrap a round melon, a flat box, or two bottles side by side. When the cloth is not needed, it folds flat and takes up almost no space.\n\nToday, as many people worry about waste from plastic bags and paper, the furoshiki is becoming popular again, both in Japan and abroad. It can be used again and again for years, and a beautiful cloth makes a gift feel even more special.\n\nThe furoshiki shows a gentle idea found often in Japanese culture: that a simple, ordinary object, used with care and a little skill, can be both useful and beautiful at the same time.",
+        summaryJa: "日本の風呂敷について。日本には、ただの正方形の布でありながら簡素で巧妙な日用品がある。風呂敷だ。一見すると、少し大きめの装飾されたハンカチにしか見えない。しかし使い慣れた手にかかれば、この一枚の布が鞄にも、贈り物の包みにも、ほとんど何でも運ぶ道具にもなる。風呂敷には長い歴史がある。名は「風呂」の語に由来し、昔は公衆浴場で衣類を包むのに使われた。やがて本や弁当、瓶まで、あらゆる物を運び包む一般的な方法になった。良さはその単純な柔軟性だ。取っ手もファスナーも決まった形もない。角の折り方・結び方を変えるだけで、丸いメロンも平たい箱も二本の瓶も包める。使わない時は平らに畳め場所を取らない。今やレジ袋や紙の無駄を気にする人が増え、国内外で再び人気だ。何年も繰り返し使え、美しい布は贈り物を一層特別にする。簡素な物を工夫して使う日本文化の考えを表す。",
+        quiz: [
+          { q: "What is a furoshiki?", options: ["A square piece of cloth used to wrap and carry things", "A kind of hard suitcase", "A paper bag"], answer: 0 },
+          { q: "Where does the name 'furoshiki' come from?", options: ["The word for bath, where cloths wrapped clothes", "The word for book", "The name of a city"], answer: 0 },
+          { q: "Why is the furoshiki becoming popular again?", options: ["It can be reused for years, unlike plastic bags", "It is made of plastic", "It can only be used once"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1102-5",
+        title: "How Do Magnets Work?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Most of us have played with magnets. We know that they can stick to a fridge, pick up paper clips, and either pull toward each other or push apart. This invisible force feels almost like magic. But what is really happening inside a magnet, and why do only some things feel its pull?\n\nThe secret lies deep inside the material, far too small to see. Everything is made of tiny atoms, and inside many atoms are even tinier moving parts called electrons. As they move, each atom can act like an incredibly small magnet, with a north end and a south end.\n\nIn most materials, these tiny atomic magnets point in every direction at random, so their forces cancel out, and the material is not magnetic. But in a few special metals, such as iron, the tiny magnets can line up, all pointing the same way. When billions of them line up together, their forces add up, and the whole object becomes a magnet we can feel.\n\nEvery magnet has two ends, called poles: a north and a south. A simple rule governs them: opposite poles attract, pulling together, while like poles repel, pushing apart. This is why two magnets sometimes jump together and sometimes refuse to meet.\n\nMagnets are not just toys. They are hidden inside motors, speakers, computers, and many machines we use every day. This quiet, invisible force, born from the movement of particles too small to imagine, shapes much of the modern world around us.",
+        summaryJa: "磁石の仕組みについて。多くの人が磁石で遊んだことがある。冷蔵庫にくっつき、クリップを持ち上げ、互いに引き合ったり反発したりする。この目に見えない力はまるで魔法のようだ。だが磁石の内部では実際に何が起きていて、なぜ一部の物だけが引きつけられるのか。秘密は目に見えないほど小さな物質の奥にある。あらゆる物は小さな原子でできており、多くの原子の中には電子というさらに小さな動く粒がある。電子が動くことで、各原子はN極とS極を持つ極めて小さな磁石のように振る舞える。ほとんどの物質ではこの小さな原子磁石がばらばらの向きを向き、力が打ち消し合って磁石にならない。だが鉄など一部の特別な金属では、小さな磁石が同じ向きにそろう。何十億もそろうと力が足し合わさり、全体が感じ取れる磁石になる。磁石にはN極とS極があり、異なる極は引き合い、同じ極は反発する。モーターやスピーカー、コンピューターの中にも隠れている。",
+        quiz: [
+          { q: "Inside a magnet, what makes each atom act like a tiny magnet?", options: ["The movement of tiny parts called electrons", "The color of the metal", "The weight of the atom"], answer: 0 },
+          { q: "Why are most materials not magnetic?", options: ["Their tiny atomic magnets point in random directions and cancel out", "They have no atoms", "They are too heavy"], answer: 0 },
+          { q: "What happens with the poles of two magnets?", options: ["Opposite poles attract; like poles repel", "All poles always attract", "Poles do nothing"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-01",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What travels into the nose when we smell something?", options: ["Tiny invisible particles called molecules", "Small stones", "Beams of light"], answer: 0 },
           { q: "Why can a single scent bring back a strong memory?", options: ["The brain's smell area sits near memory and emotion areas", "Smells contain words", "The nose stores memories"], answer: 0 },
           { q: "How does smell protect us?", options: ["Bad smells warn us of danger like spoiled food or smoke", "It makes us run faster", "It turns off our eyes"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-26",
-    passages: [
-      {
-        id: "d1026-1",
-        title: "Why Companies Invest in the Future",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When a company earns money, it has a choice. It can keep the profit now, or it can spend some of it to build for the future. This second choice is called investment. A business might build a new factory, buy better machines, or spend money on research to create new products. Why would a company give up money today for an uncertain reward tomorrow?\n\nThe answer is growth. A company that only takes its profits and never invests may do well for a while, but it will slowly fall behind. Machines wear out, products grow old, and competitors improve. By investing, a company keeps itself strong and ready for the future.\n\nThere are different kinds of investment. Building factories or buying equipment helps a company make more, or make things better. Spending on research and new ideas can lead to products that do not even exist yet. Training workers is an investment too, because skilled people do better work.\n\nInvestment always carries risk. A new factory is expensive, and a new product might fail. The reward is not certain. This is why companies study carefully before they invest, trying to balance risk against possible gain.\n\nGood investment benefits more than the company. New factories create jobs, and new products can improve daily life. When businesses invest wisely, whole economies can grow.\n\nIn the end, investment is really about patience and belief, giving up a smaller reward now in the hope of a greater one later. It is how a company plants the seeds of its own future.",
-        summaryJa: "企業が将来に投資する理由について。企業は利益を得ると選択に迫られる。今の利益を取っておくか、一部を使って将来のために築くか。この二つ目が投資だ。新工場の建設、より良い機械の購入、新製品のための研究などがある。なぜ今のお金を手放して不確実な将来の報酬を狙うのか。答えは成長だ。利益を取るだけで投資しない企業は一時はよくても徐々に遅れる。機械は摩耗し、製品は古び、競合は改善する。投資すれば強さを保ち将来に備えられる。工場や設備はより多く・より良く作るのに役立ち、研究はまだ存在しない製品を生み、従業員の訓練も投資だ。投資には必ずリスクがあり報酬は不確実なので、企業は慎重に調べ危険と利益を比べる。良い投資は雇用を生み生活を改善し、経済全体を成長させる。投資は忍耐と信念の問題だ。",
-        quiz: [
-          { q: "What is 'investment' for a company?", options: ["Spending some profit now to build for the future", "Keeping all profit and spending nothing", "Giving money away freely"], answer: 0 },
-          { q: "What happens to a company that never invests?", options: ["It slowly falls behind", "It always wins", "It stays strong forever without change"], answer: 0 },
-          { q: "Why does investment carry risk?", options: ["It is expensive and the reward is not certain", "It always succeeds", "It costs nothing"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1026-2",
-        title: "How Does Email Travel Across the World?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "You write a message, press \"send,\" and within seconds your email appears on a friend's screen on the other side of the world. It feels instant and simple. But in those few seconds, your message makes a remarkable journey through a hidden network that spans the entire planet.\n\nWhen you send an email, your message does not travel in one piece. Instead, it is broken into small parts called packets. Each packet is like a page of a letter, labelled with the address of where it is going and where it came from. These packets travel separately across the internet and are put back together at the other end.\n\nThe packets move through many machines. First, your message goes to a mail server, a powerful computer that handles email. That server finds the address of your friend's email provider and passes the message along. The packets may cross through many countries, travelling as flashes of light through cables, some of them lying deep under the ocean.\n\nSpecial addresses make this possible. Every email address has two parts, joined by the \"at\" sign. The part after it tells the system which company handles that person's mail, so the message knows where to go.\n\nFinally, the email arrives at your friend's mail server and waits there until they open their inbox. All of this happens automatically, thousands of times every second, around the world. The next time you send an email, remember the vast, invisible journey your few words take to arrive.",
-        summaryJa: "メールが世界を渡る仕組みについて。メッセージを書いて「送信」を押すと、数秒で地球の反対側の友人の画面に届く。瞬時で単純に感じるが、その数秒でメッセージは地球全体に広がる見えない網を通る見事な旅をする。メールを送ると、メッセージは一つの塊でなくパケットという小さな部分に分けられる。各パケットは手紙の一ページのようで、宛先と差出元の住所が付く。別々にインターネットを渡り、受信側で元に戻される。パケットは多くの機械を通る。まずメールサーバーという強力なコンピューターへ行き、友人のメール業者の住所を見つけて渡す。海底深くのケーブルを含め、光として多くの国を越える。メールアドレスは「＠」で二部に分かれ、後ろの部分が誰の業者が扱うかを示す。最後に友人のサーバーに届き、受信箱を開くまで待つ。",
-        quiz: [
-          { q: "How does an email travel across the internet?", options: ["Broken into small parts called packets", "As one large piece only", "By being printed and mailed"], answer: 0 },
-          { q: "What is a mail server?", options: ["A powerful computer that handles email", "A type of envelope", "A delivery truck"], answer: 0 },
-          { q: "What does the part after the 'at' sign in an email address tell the system?", options: ["Which company handles that person's mail", "The person's age", "The weather"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1026-3",
-        title: "Why the World Uses Shared Measurements",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Imagine buying a kilogram of rice in one country and finding that a \"kilogram\" there is different from a kilogram somewhere else. Trade would be chaos, and no one could trust a number. To avoid this, the countries of the world have agreed on shared systems of measurement. It is a quiet form of cooperation that touches almost everything we do.\n\nLong ago, measurements were different everywhere. A \"foot\" might be the length of a local ruler's foot, and a town's weights might not match the next town's. As trade and science grew, these differences caused confusion, arguments, and mistakes. The world needed a common language of numbers.\n\nThe answer was the metric system, built on units like the meter and the kilogram. Most countries now use it, and scientists everywhere use it too. Because the units are shared and carefully defined, a measurement made in one country means exactly the same in another.\n\nShared standards go beyond weights and lengths. The world also agrees on how to measure time, so clocks everywhere can match. There are even shared rules for the shapes of screws, the safety of toys, and the size of shipping containers, which lets goods move smoothly between nations.\n\nKeeping these standards is the work of international groups, where experts from many countries meet and agree. It is not exciting news, but it is essential. Every time a product fits, a clock agrees, or a trade is fair, we quietly enjoy the benefit of a world that measures together.",
-        summaryJa: "世界が共通の単位を使う理由について。ある国で米1キログラムを買い、その「キログラム」が別の場所と違ったら、取引は混乱し誰も数字を信じられない。これを避けるため、世界の国々は共通の計量体系に合意した。ほぼ全ての営みに関わる静かな協力だ。昔は計量が場所ごとに異なり、「フィート」は地元の支配者の足の長さ、町ごとに重さも違った。取引と科学が発展すると、違いは混乱や争い、誤りを生んだ。世界には共通の数の言語が必要だった。答えがメートルやキログラムに基づくメートル法で、今や多くの国と科学者が使う。単位が共有され厳密に定義されるため、ある国の測定値が別の国でも全く同じ意味になる。時間の測り方、ねじの形、玩具の安全、輸送コンテナの寸法にも共通規則があり、物がなめらかに国境を越える。国際機関が維持する。",
-        quiz: [
-          { q: "Why did the world need shared measurements?", options: ["Different measurements caused confusion in trade and science", "To make numbers harder", "Because no one measured anything"], answer: 0 },
-          { q: "What is the metric system built on?", options: ["Units like the meter and the kilogram", "The length of a king's foot", "Random numbers"], answer: 0 },
-          { q: "What is one benefit of shared standards beyond weights and lengths?", options: ["Goods like shipping containers move smoothly between nations", "Clocks never agree", "Trade becomes unfair"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1026-4",
-        title: "Japanese Martial Arts: The Way of Budo",
-        level: "★★☆",
-        genre: "日本",
-        text: "When people think of Japanese martial arts, they may picture judo throws, karate kicks, or the swords of kendo. Japan has given the world several famous fighting arts. But these arts are about far more than fighting. Together they are known as budo, which means the martial way, and the word way is the key to understanding them.\n\nMany Japanese martial arts have names ending in do, meaning way or path: judo, kendo, aikido. This is not an accident. It shows that the art is seen as a lifelong path of self-improvement, not just a method of self-defense. A student trains the body, but also the mind and character.\n\nEach art has its own style. Judo focuses on throws and holds, using an opponent's strength against them. Kendo is the way of the sword, practiced today with bamboo swords and armor. Karate uses strikes with the hands and feet, while aikido turns an attacker's energy away gently.\n\nDespite their differences, these arts share common values. Respect is central: students bow before and after practice, showing respect for their teacher and their partner. Self-control, patience, and effort are valued more highly than winning. A good martial artist stays calm and never uses their skill to harm others needlessly.\n\nFor this reason, millions of people, including many children, practice budo not to become fighters, but to grow stronger in body and spirit. The true goal is not to defeat others, but to improve oneself, one quiet practice at a time.",
-        summaryJa: "日本の武道について。日本の武術というと、柔道の投げ技、空手の蹴り、剣道の剣を思い浮かべるかもしれない。日本は世界にいくつもの有名な武術を与えた。だがこれらは戦い以上のものだ。まとめて「武道」と呼ばれ、「道」という語が理解の鍵だ。柔道・剣道・合気道など、多くは「道」で終わる名を持つ。これは偶然でなく、単なる護身術でなく生涯の自己研鑽の道とみなされることを示す。学ぶ者は体だけでなく心と人格も鍛える。柔道は相手の力を利用した投げや固め、剣道は今日は竹刀と防具で行う剣の道、空手は手足の打撃、合気道は相手の力をやさしくそらす。違いはあれど敬意という共通の価値を持ち、稽古の前後にお辞儀する。克己・忍耐・努力が勝利より重んじられる。多くの子どもも含め、人は強さを心身に育てるために武道を行う。",
-        quiz: [
-          { q: "What does the word 'budo' mean?", options: ["The martial way", "A type of sword", "A kind of food"], answer: 0 },
-          { q: "Why do many martial arts have names ending in 'do' (way)?", options: ["They are seen as a lifelong path of self-improvement", "They are named after a city", "It means 'fast'"], answer: 0 },
-          { q: "What is valued more highly than winning in budo?", options: ["Self-control, patience, and effort", "Harming others", "Being the loudest"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1026-5",
-        title: "Why Does Ice Float on Water?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Drop an ice cube into a glass of water, and it floats. We see this so often that we never question it. Yet it is actually very strange. For almost every other substance in the world, the solid form is heavier than the liquid form and sinks. Water is a rare and important exception. Why does ice float?\n\nTo understand this, think about what makes something float or sink. An object floats if it is less dense than the liquid around it, meaning the same amount of space holds less weight. So the real question is: why is ice less dense than water?\n\nWhen most liquids freeze, their tiny particles pack closely together, making the solid denser. Water is different. As it freezes, its particles join in a special open pattern, with more empty space between them. This means that ice takes up slightly more room than the same amount of water, making it lighter for its size. So it floats.\n\nThis small, strange fact has huge effects on our planet. In winter, a layer of ice forms on top of a lake or pond, but the water below stays liquid. This floating lid of ice protects the fish and plants underneath, letting them survive the cold. If ice sank, lakes would freeze solid from the bottom up, and much life could not survive.\n\nSo the simple sight of a floating ice cube hides a deep truth: a tiny quirk of water helps make life on Earth possible.",
-        summaryJa: "氷が水に浮く理由について。氷を水の入ったコップに落とすと浮く。よく見る光景なので疑わないが、実はとても奇妙だ。世界のほぼ全ての物質では、固体は液体より重く沈む。水はまれで重要な例外だ。なぜ氷は浮くのか。浮沈を決めるのは密度で、周りの液体より密度が低い（同じ体積で軽い）と浮く。だから問いは、なぜ氷は水より密度が低いのか、だ。多くの液体は凍ると粒子が密に詰まり固体は密度が高くなる。水は違い、凍るとき粒子が隙間の多い特別な開いた形で結びつく。つまり氷は同じ量の水より少し大きな場所を占め、体積の割に軽くなり浮く。この小さな事実は地球に大きな影響を持つ。冬、湖の表面に氷の層ができても下の水は液体のままで、氷の蓋が魚や植物を守り寒さを越させる。もし氷が沈めば湖は底から凍り、多くの命が生きられない。",
-        quiz: [
-          { q: "When does an object float?", options: ["When it is less dense than the liquid around it", "When it is heavier than the liquid", "Only when it is warm"], answer: 0 },
-          { q: "Why is ice less dense than water?", options: ["Its particles freeze in an open pattern with more empty space", "It has no particles", "It is always hot"], answer: 0 },
-          { q: "Why is floating ice important for a lake in winter?", options: ["It protects the fish and plants in the water below", "It makes the lake disappear", "It heats the water"], answer: 0 }
         ]
       }
     ]
