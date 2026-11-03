@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-03",
+    passages: [
+      {
+        id: "d1103-1",
+        title: "How Do Auctions Work?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Most of the time, when we buy something, the price is already fixed. We see the number on the label, and we decide whether to pay it. But there is another, older way to sell things, where the price is not decided in advance. Instead, the buyers themselves decide it, by competing with one another. This is called an auction.\n\nAt an auction, an item is offered for sale, and people who want it make offers, called bids. Each new bid must be higher than the last. A person running the auction, the auctioneer, calls out the rising prices. As long as someone is willing to pay more, the price keeps climbing. When no one will go higher, the item is sold to the person who made the highest bid.\n\nWhy sell this way? Auctions are useful when the true value of something is uncertain. A rare painting, an old house, or a special antique may be worth very different amounts to different people. An auction lets the market decide the price naturally, based on how much people really want the item that day.\n\nFor the seller, an auction can bring a surprisingly high price if several buyers compete strongly. For buyers, it offers a fair and open chance to win, though there is a risk of paying too much in the excitement of the moment.\n\nAuctions are used for art, farm animals, antiques, and even government contracts. Today, many happen online, with people bidding from around the world. The idea, however, remains the same: let competition decide the price.",
+        summaryJa: "競売（オークション）の仕組みについて。普段、何かを買う時は値段が既に決まっている。札の数字を見て払うか決める。だが値段を前もって決めない、より古い売り方もある。買い手自身が競い合って値段を決める。これを競売という。競売では品物が売りに出され、欲しい人が入札という申し出をする。新しい入札は前より高くなければならない。競売人が上がっていく値を読み上げ、誰かが払う気がある限り値は上がり続ける。誰も上を出さなくなると、最高額を付けた人に売られる。なぜこう売るのか。品物の本当の価値が不確かな時に役立つからだ。珍しい絵、古い家、特別な骨董は人によって価値が大きく異なる。競売はその日の欲しさに応じて市場に自然に値を決めさせる。売り手は競争が激しければ驚くほど高値が付き、買い手は公平で開かれた機会を得るが、勢いで払い過ぎる危険もある。美術品や家畜、骨董、政府契約にも使われ、今は多くがオンラインで行われる。",
+        quiz: [
+          { q: "What is a 'bid' at an auction?", options: ["An offer to buy, which must be higher than the last", "A fixed price on a label", "A kind of receipt"], answer: 0 },
+          { q: "When is an auction especially useful?", options: ["When the true value of something is uncertain", "When everything has a clear fixed price", "When no one wants the item"], answer: 0 },
+          { q: "What is a risk for buyers at an auction?", options: ["Paying too much in the excitement of the moment", "Never being allowed to bid", "The price can never rise"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1103-2",
+        title: "How Does a Thermos Keep Drinks Hot or Cold?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "On a cold morning, you can pour hot tea into a thermos flask, and hours later it is still steaming. On a hot day, the same flask can keep a drink icy cold. It seems almost magical that one simple container can do both. The secret is that a thermos does not add heat or cold; it simply slows down the movement of heat.\n\nHeat always tries to flow from a warmer place to a cooler one. To keep a drink hot, you must stop heat from escaping. To keep a drink cold, you must stop heat from getting in. A thermos is designed to block heat from moving in either direction.\n\nThe clever part is a double wall. A thermos has a container inside another container, with a narrow gap between them. From this gap, most of the air has been removed, creating something close to a vacuum, a space with almost nothing in it. Because heat needs a material to travel through easily, this near-empty gap is a powerful barrier. Heat struggles to cross it.\n\nOn top of this, the inner surfaces are often shiny, like a mirror. This shiny layer reflects heat rays back, adding another barrier against heat escaping or entering.\n\nTogether, these features mean that heat moves extremely slowly in or out. The drink inside keeps its temperature for many hours. The thermos is a beautiful example of clever design: instead of using power or energy, it simply uses empty space and a mirror to quietly control the flow of heat.",
+        summaryJa: "魔法瓶（保温・保冷ボトル）の仕組みについて。寒い朝、魔法瓶に熱いお茶を注げば何時間後もまだ湯気が立つ。暑い日には同じ瓶が飲み物を冷たいまま保つ。一つの単純な容器が両方できるのは不思議だが、秘密は熱を加えたり冷やしたりするのでなく、熱の移動を遅らせる点にある。熱は常に暖かい所から冷たい所へ流れようとする。熱いまま保つには熱の逃げを止め、冷たいまま保つには熱の侵入を止める必要がある。魔法瓶はどちら向きの熱移動も妨げるように作られている。巧妙なのは二重の壁だ。容器の中にもう一つ容器があり、間に狭い隙間がある。この隙間からほとんどの空気が抜かれ、ほぼ真空に近い、中にほとんど何もない空間になる。熱は物質を通って伝わりやすいので、このほぼ空の隙間は強力な壁になる。さらに内側の面は鏡のように光り、熱線を反射して逃げや侵入を防ぐ。力を使わず空間と鏡で熱の流れを静かに制御する見事な設計だ。",
+        quiz: [
+          { q: "What does a thermos actually do?", options: ["It slows down the movement of heat in or out", "It adds heat to the drink", "It creates cold air"], answer: 0 },
+          { q: "Why is the gap between the two walls near-empty (a vacuum)?", options: ["Heat needs a material to travel through, so an empty gap blocks it", "To make the flask lighter only", "To store extra drink"], answer: 0 },
+          { q: "What do the shiny inner surfaces do?", options: ["They reflect heat rays back, blocking heat from escaping or entering", "They make the drink taste better", "They produce light"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1103-3",
+        title: "What Is Fair Trade?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When you buy a bar of chocolate, a cup of coffee, or a banana, it is easy to forget that the journey began far away, often on a small farm in a poorer country. The farmers who grow these crops work hard, yet for a long time many of them earned very little. The price they received was so low that they could barely support their families. Fair trade is an idea created to help change this.\n\nThe goal of fair trade is simple: to make sure that the farmers and workers who grow our food receive a fair and stable price for it. Under fair trade rules, buyers agree to pay at least a certain minimum price, even when world prices fall very low. This gives farmers some protection and allows them to plan for the future.\n\nFair trade also sets other standards. It encourages safe working conditions, bans unfair child labour, and often provides extra money for the whole community, which can be used to build schools, wells, or health centres.\n\nWhen a product follows these rules, it can carry a special label, so shoppers can recognise it. By choosing such products, customers in richer countries can support farmers on the other side of the world, often for only a little extra cost.\n\nFair trade is not perfect, and it cannot solve every problem of global poverty. But it reflects a hopeful idea: that trade between distant countries can be made more just, and that the choices of ordinary shoppers can help improve the lives of people they will never meet.",
+        summaryJa: "フェアトレード（公正取引）とは何かについて。板チョコやコーヒー、バナナを買う時、その旅が遠くの、しばしば貧しい国の小さな農園で始まったことを忘れがちだ。これらの作物を育てる農家は懸命に働くのに、長い間ごくわずかしか得られなかった。受け取る価格が低すぎて家族を養うのもやっとだった。フェアトレードはこれを変えるために生まれた考えだ。目標は単純で、食べ物を育てる農家や労働者が公正で安定した価格を受け取れるようにすることだ。この仕組みでは、買い手は世界価格が大きく下がっても少なくとも一定の最低価格を払うと約束する。これが農家を守り、将来の計画を可能にする。安全な労働条件を促し、不当な児童労働を禁じ、地域全体のための追加資金を出すこともあり、学校や井戸、診療所を作れる。規則に従う商品には専用のラベルが付き、買い物客が見分けられる。豊かな国の消費者がわずかな追加費用で遠くの農家を支えられる。完全ではないが、取引をより公正にできるという希望を示す。",
+        quiz: [
+          { q: "What is the main goal of fair trade?", options: ["To ensure farmers receive a fair and stable price for their crops", "To make food more expensive for no reason", "To stop all international trade"], answer: 0 },
+          { q: "What do buyers agree to under fair trade rules?", options: ["To pay at least a certain minimum price, even when world prices fall", "To pay as little as possible", "To buy only from rich countries"], answer: 0 },
+          { q: "How can shoppers recognise a fair trade product?", options: ["It can carry a special label", "By its weight", "It has no packaging"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1103-4",
+        title: "Shichi-Go-San: Celebrating Children's Growth",
+        level: "★★☆",
+        genre: "日本",
+        text: "In mid-November, if you visit a Japanese shrine, you may see a charming sight: small children dressed in beautiful, formal clothes, walking proudly with their parents. Many of the girls wear bright kimono, and many of the boys wear traditional outfits too. This is Shichi-Go-San, a gentle festival that celebrates the healthy growth of young children.\n\nThe name means seven-five-three, and these numbers are the heart of the celebration. Families mark the festival for girls aged three and seven, and for boys aged three and five. The event is usually held around the fifteenth of November, though families may visit on any convenient day near that date.\n\nThe custom has deep roots. Long ago, when medicine was poor, many children did not survive their early years. Reaching these ages was a real and joyful achievement, so parents gave thanks and prayed for their child's continued health and happiness. That spirit of gratitude remains at the centre of the festival today.\n\nOn the day, families often visit a shrine to offer thanks. A common and much-loved part of the celebration is a sweet called chitose-ame, meaning thousand-year candy. This long, thin, red-and-white sweet carries a wish for a long and healthy life.\n\nOf course, taking photographs is a big part of the day too, and these pictures become treasured family memories. Shichi-Go-San is a warm reminder of something universal: the deep love parents feel for their children, and their simple, heartfelt wish to see them grow up safe and well.",
+        summaryJa: "七五三について。十一月の半ば、日本の神社を訪れると、美しい晴れ着を着た小さな子どもたちが親と誇らしげに歩く微笑ましい光景を目にするかもしれない。多くの女の子は鮮やかな着物を、男の子も伝統的な装いをまとう。これが七五三、幼い子の健やかな成長を祝う穏やかな行事だ。名は「七・五・三」を意味し、この数字が祝いの核心だ。女の子は三歳と七歳、男の子は三歳と五歳で祝う。たいてい十一月十五日ごろに行うが、その近くの都合のよい日に参る家庭も多い。由来は深い。昔、医療が乏しく多くの子が幼くして亡くなった時代、この年齢に達するのは本当に喜ばしい達成で、親は感謝し、子の健康と幸せを祈った。その感謝の心が今も中心にある。当日は神社に参り、千歳飴という細長い紅白の飴が愛される。長く健やかな命への願いが込められる。写真も大切な思い出になる。子を思う親の愛を表す行事だ。",
+        quiz: [
+          { q: "What does Shichi-Go-San celebrate?", options: ["The healthy growth of young children", "The start of the new year", "A rice harvest"], answer: 0 },
+          { q: "Which ages are marked in the festival?", options: ["Girls aged three and seven; boys aged three and five", "Only age ten", "Adults aged twenty"], answer: 0 },
+          { q: "What does the sweet 'chitose-ame' represent?", options: ["A wish for a long and healthy life", "A kind of medicine", "The end of childhood"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1103-5",
+        title: "Why Does Bread Rise?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Think about the difference between a flat, hard cracker and a soft, fluffy loaf of bread. Both can be made from similar flour, yet bread is light and full of tiny holes. Something makes the dough grow and fill with air before it is baked. That something is one of the oldest and most useful partnerships between humans and nature: the work of yeast.\n\nYeast is a tiny living thing, a kind of fungus so small that we cannot see a single one. When a baker mixes yeast into dough with a little warmth, water, and the sugars found in flour, the yeast begins to feed. As it eats the sugars, it produces a gas called carbon dioxide, the same gas we breathe out.\n\nThis gas cannot easily escape from the stretchy dough. Instead, it forms thousands of tiny bubbles trapped inside. As more and more gas is made, these bubbles grow, and the whole lump of dough slowly swells and rises, sometimes doubling in size.\n\nWhen the risen dough goes into a hot oven, the heat makes the trapped gas expand even more, pushing the bread up further. The heat then makes the dough firm, freezing all those little bubbles in place. This is why a slice of bread is covered in small holes.\n\nSo the soft texture of bread is really a record of the quiet, invisible work of millions of tiny living creatures. It is a wonderful example of how people learned, long ago, to turn a natural process into delicious food.",
+        summaryJa: "パンが膨らむ理由について。平たく硬いクラッカーと、柔らかくふわふわのパンの違いを考えてみよう。似た小麦粉から作れるのに、パンは軽く小さな穴だらけだ。焼く前に生地を膨らませ空気で満たす何かがある。それは人間と自然の最も古く有用な協力の一つ、酵母（イースト）の働きだ。酵母は小さな生き物で、一つでは見えないほど小さな菌の一種だ。パン職人が酵母を生地に混ぜ、少しの温かさと水、小麦粉の糖を与えると、酵母は食べ始める。糖を食べると二酸化炭素という気体を出す。私たちが吐く息と同じ気体だ。この気体は伸びる生地から簡単には逃げられず、内部に閉じ込められた何千もの小さな泡になる。気体が増えるほど泡は大きくなり、生地全体がゆっくり膨らみ、時に倍の大きさになる。膨らんだ生地を熱い窯に入れると、熱で気体がさらに膨張しパンを押し上げ、やがて生地が固まって泡がその場で固定される。だからパンは小さな穴だらけだ。パンの柔らかさは無数の小さな生き物の静かな働きの記録だ。",
+        quiz: [
+          { q: "What makes bread dough rise?", options: ["Yeast producing a gas called carbon dioxide", "Adding cold water only", "Pressing the dough flat"], answer: 0 },
+          { q: "What is yeast?", options: ["A tiny living thing, a kind of fungus", "A type of metal", "A kind of salt"], answer: 0 },
+          { q: "Why is a slice of bread covered in small holes?", options: ["Tiny gas bubbles were trapped, then fixed in place by the oven's heat", "Someone makes the holes by hand", "The flour has holes in it"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-02",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is lightning?", options: ["A giant spark of electricity released from a cloud", "A type of cloud", "A kind of rain"], answer: 0 },
           { q: "What causes the sound of thunder?", options: ["Lightning heats the air so fast that it explodes outward", "Clouds hitting each other softly", "Rain falling on roofs"], answer: 0 },
           { q: "Why do we see the flash before we hear the thunder?", options: ["Light travels much faster than sound", "Thunder comes first but is quiet", "They happen hours apart"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-27",
-    passages: [
-      {
-        id: "d1027-1",
-        title: "Why Reputation Matters in Business",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "A company can own factories, machines, and money, but one of its most valuable possessions cannot be seen or touched. It is its reputation, the opinion that people have about it. A good reputation takes years to build but can be lost in a moment. For any business, protecting it is deeply important.\n\nWhy does reputation matter so much? The main reason is trust. When people trust a company, they are willing to buy from it, work for it, and recommend it to others. A business with a strong, honest reputation attracts loyal customers who return again and again, which is far cheaper than finding new ones.\n\nReputation is built on actions, not words. A company earns a good name by keeping its promises, making quality products, treating customers and workers fairly, and being honest when something goes wrong. Over many years, these actions add up to a reputation that people respect.\n\nThe danger is that reputation is fragile. A single scandal, a broken promise, or poor treatment of customers can damage years of good work. In today's connected world, news travels fast, and an unhappy customer can share their story with millions in minutes.\n\nThis is why wise companies guard their reputation carefully. They know that an honest reputation is not just good manners; it is good business. In the end, people do business with those they trust, and trust, once earned, is one of the most powerful advantages a company can have.",
-        summaryJa: "ビジネスで評判が大切な理由について。企業は工場や機械、資金を持てるが、最も価値ある財産の一つは見えず触れられない。それが評判、つまり人々が抱く意見だ。良い評判は築くのに何年もかかるが一瞬で失われる。どの事業でも守ることが極めて重要だ。理由の中心は信頼で、人は信頼する企業から買い、そこで働き、他人に薦める。強く誠実な評判は、何度も戻る忠実な客を引き寄せ、新規開拓よりずっと安い。評判は言葉でなく行動で築かれる。約束を守り、良い製品を作り、客と従業員を公平に扱い、問題時に正直であることで良い名を得る。だが評判はもろく、一つの不祥事や約束違反、客への悪い対応が長年の努力を損なう。つながった世界では悪評は一瞬で何百万人にも広がる。誠実な評判は礼儀でなく良い商売だ。",
-        quiz: [
-          { q: "What is one of a company's most valuable possessions that cannot be seen?", options: ["Its reputation", "Its factory", "Its money"], answer: 0 },
-          { q: "How is a good reputation built?", options: ["Through actions like keeping promises and quality work", "By spending the most money", "By making many speeches"], answer: 0 },
-          { q: "Why is reputation fragile today?", options: ["News travels fast and can reach millions quickly", "No one ever talks", "It can never be damaged"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1027-2",
-        title: "How Do Passwords Keep Us Safe?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Every day, we type passwords to open our phones, check email, or buy things online. A password is a secret word or set of characters that proves you are really you. It acts like a key to a locked door, letting the right person in and keeping others out. But how do passwords keep our information safe, and how can we make them stronger?\n\nWhen you create a password, a well-designed website does not simply store it as plain text. Instead, it scrambles the password into a long, unreadable code using a special math process. When you log in again, the site scrambles what you typed and checks whether it matches. This means that even someone who breaks into the system should not be able to read your actual password.\n\nThe problem is that people often choose weak passwords, such as \"1234\" or their own name. These are easy to guess, and computers can try millions of common passwords very quickly. A strong password is long and hard to guess, mixing letters, numbers, and symbols, and is not a real word.\n\nExperts give simple advice. Use a different password for each important account, so that if one is stolen, the others stay safe. Many people now use a \"password manager,\" a program that creates and remembers strong passwords for them.\n\nFor extra safety, many services add a second step, such as a code sent to your phone. A password is only a first line of defense, but a strong one is still one of the simplest ways to protect your digital life.",
-        summaryJa: "パスワードが私たちを守る仕組みについて。私たちは毎日、スマホを開き、メールを確認し、オンラインで買い物するためにパスワードを打つ。パスワードは本人であることを証明する秘密の語や文字列で、鍵のように正しい人を入れ他人を締め出す。どう情報を守り、どう強くできるのか。パスワードを作ると、よく設計されたサイトはそのまま保存せず、特別な数学処理で長く読めない符号に変換する。再ログイン時に入力を同様に変換し一致を確認する。だから侵入者も実際のパスワードを読めないはずだ。問題は「1234」や自分の名前など弱いパスワードを選びがちで、コンピューターは一般的なものを一瞬で大量に試せる。強いパスワードは長く推測しにくく、文字・数字・記号を混ぜ実在の語でない。重要な口座ごとに別のパスワードを使い、パスワード管理ソフトも役立つ。スマホへの確認コードなど二段階認証も安全を高める。",
-        quiz: [
-          { q: "What does a well-designed website do with your password?", options: ["Scrambles it into unreadable code", "Prints it on paper", "Shows it to everyone"], answer: 0 },
-          { q: "What makes a strong password?", options: ["Long and hard to guess, mixing letters, numbers, and symbols", "A simple word like your name", "The number 1234"], answer: 0 },
-          { q: "Why use a different password for each important account?", options: ["If one is stolen, the others stay safe", "To make them easy to forget", "Because it is required by law"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1027-3",
-        title: "What Is GDP? Measuring a Country's Economy",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "In the news, you often hear that a country's economy is \"growing\" or \"shrinking.\" But how can anyone measure something as huge as the economy of a whole nation? The most common tool is a number called GDP, which stands for Gross Domestic Product. Understanding it helps us make sense of much of the world's news.\n\nGDP is, roughly, the total value of all the goods and services a country produces in a year. This includes everything from cars and computers to haircuts and bus rides. If a country makes and sells more this year than last year, its GDP grows, and we say the economy is growing.\n\nWhy do people care so much about GDP? When an economy grows, there are usually more jobs, higher wages, and more money for schools and hospitals. When GDP shrinks, businesses may struggle and people may lose work. So governments watch GDP closely and try to help it grow steadily.\n\nHowever, GDP is not a perfect measure. It counts how much a country produces, but not how fairly that wealth is shared. A country can have a rising GDP while many of its people remain poor. GDP also ignores things that matter to happiness, such as clean air, free time, and good health.\n\nFor this reason, experts say GDP is useful but should not be the only guide. It tells us about the size of an economy, but not the whole story of how well people are actually living. Numbers help, but they never capture everything.",
-        summaryJa: "GDP（国内総生産）とは何かについて。ニュースで国の経済が「成長」「縮小」していると聞くが、一国の経済ほど巨大なものをどう測るのか。最も一般的な道具がGDPという数字だ。これを理解すると世界のニュースの多くが分かる。GDPはおおよそ、その国が一年に生産する全ての財とサービスの総価値で、車やコンピューターから散髪やバス乗車まで含む。昨年より多く作り売ればGDPは増え、経済成長と言う。人々が気にするのは、経済が成長すると普通は雇用が増え賃金が上がり、学校や病院の資金も増えるからだ。縮小すると企業は苦しみ失業も出る。だから政府はGDPを注視し安定成長を促す。だがGDPは完璧でなく、生産量は測るが富が公平に分けられているかは測らない。GDPが伸びても多くの人が貧しいこともある。きれいな空気や自由時間、健康も映さない。有用だが唯一の指標にすべきでない。",
-        quiz: [
-          { q: "What does GDP roughly measure?", options: ["The total value of goods and services a country produces in a year", "The number of people in a country", "The size of a country's land"], answer: 0 },
-          { q: "Why do people care about GDP growing?", options: ["It usually means more jobs and higher wages", "It makes the country smaller", "It has no effect on anyone"], answer: 0 },
-          { q: "What is one weakness of GDP?", options: ["It does not show how fairly wealth is shared", "It counts nothing at all", "It measures happiness perfectly"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1027-4",
-        title: "Noren: The Curtains at Japan's Doorways",
-        level: "★★☆",
-        genre: "日本",
-        text: "Walk through an old shopping street in Japan, and you will see short fabric curtains hanging in many doorways. Split down the middle so a person can pass through, these cloth hangings are called noren. They may look like simple decoration, but noren carry meaning and have been part of Japanese life for centuries.\n\nA noren has several practical uses. Hanging in a doorway, it offers shade from the sun, blocks wind and dust, and gives a little privacy, while still letting air and people pass easily. Long ago, before modern signs, shops used them to mark their entrance and to display their name or symbol.\n\nMost importantly, a noren shows whether a shop is open. When a restaurant or store is doing business, the noren hangs outside the door. When the shop closes for the day, the staff take it down. So a hanging noren is a simple, friendly sign that says, \"Welcome, we are open.\"\n\nNoren also carry a shop's pride. A restaurant's noren may be dyed with its name and a beautiful design, and an old, respected business is sometimes said to have a well-known noren. To damage a shop's reputation is even described as hurting its noren.\n\nToday, noren are still common at restaurants, hot-spring inns, and homes, and modern designers create new styles too. Simple yet full of meaning, the noren is a small cloth that quietly carries welcome, tradition, and the spirit of a Japanese shop.",
-        summaryJa: "日本の店先ののれんについて。日本の古い商店街を歩くと、多くの戸口に短い布の暖簾が下がっている。人が通れるよう中央で割れたこの布を「のれん」と呼ぶ。単なる飾りに見えるが意味を持ち、何世紀も日本の生活の一部だ。のれんには実用もある。戸口に下げると日差しを遮り、風やほこりを防ぎ、少し目隠しにもなりつつ、空気も人も通す。昔、近代的な看板がない頃は、店の入口を示し名や印を掲げた。最も大切なのは営業中かどうかを示すことで、営業中は外に掛け、閉めると外す。だから掛かったのれんは「ようこそ、営業中です」という親しみある合図だ。店の誇りも担い、名や美しい意匠を染めることもあり、老舗は「のれんが知られる」と言われる。店の評判を傷つけることは「のれんを傷つける」とも言う。今も飲食店や温泉宿、家庭で見られる。",
-        quiz: [
-          { q: "What are 'noren'?", options: ["Short fabric curtains hung in doorways", "A type of food", "A kind of car"], answer: 0 },
-          { q: "What does a noren hanging outside a shop usually show?", options: ["That the shop is open", "That the shop is on fire", "That the shop moved away"], answer: 0 },
-          { q: "What does 'hurting its noren' describe?", options: ["Damaging a shop's reputation", "Cleaning the floor", "Raising prices"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1027-5",
-        title: "How Does Our Sense of Smell Work?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "The smell of fresh bread, flowers, or rain can fill us with pleasure, warning, or memory in an instant. Smell is one of our oldest and most powerful senses, yet we rarely stop to think about how it works. How does the nose turn the air around us into the rich world of smells?\n\nEverything we smell gives off tiny, invisible particles called molecules, which float in the air. When we breathe in, these molecules travel up into the nose. High inside the nose is a small patch covered with millions of special sensing cells. When certain molecules touch these cells, the cells send a signal to the brain, which recognizes the smell.\n\nHumans can tell apart a huge number of different smells, perhaps more than a trillion. This is because smells are not detected one by one. Instead, each smell is a mixture that triggers a particular pattern of cells, and the brain learns to recognize these patterns, much like letters forming countless words.\n\nSmell is closely linked to memory and emotion. The part of the brain that handles smell sits near the parts that store memories and feelings. This is why a single scent, like a certain food or perfume, can suddenly bring back a strong memory from long ago.\n\nSmell also protects us. The bad smell of spoiled food or smoke warns us of danger before we can see it. Quiet and often ignored, our sense of smell shapes how we enjoy food, sense the world, and remember our lives.",
-        summaryJa: "嗅覚の仕組みについて。焼きたてのパンや花、雨のにおいは、一瞬で喜びや警告、記憶をもたらす。嗅覚は最も古く強力な感覚の一つだが、仕組みを考えることは少ない。鼻はどうやって周りの空気を豊かなにおいの世界に変えるのか。においを放つものは皆、分子という小さな見えない粒子を出し空気中を漂う。息を吸うと分子が鼻の奥へ上る。鼻の高い所には無数の特別な感知細胞に覆われた小さな領域があり、特定の分子が触れると細胞が脳へ信号を送り、脳がにおいを認識する。人は一兆以上ともいわれる膨大な数のにおいを区別できる。においは一つずつでなく、混合物が特定の細胞の組み合わせを刺激し、脳が文字が無数の語を作るようにその模様を覚えるからだ。嗅覚は記憶や感情と深く結びつき、脳の嗅覚を扱う部分が記憶や感情の部分の近くにあるため、ある香りが昔の記憶を呼び起こす。腐った食べ物や煙のにおいは危険を知らせ守ってくれる。",
-        quiz: [
-          { q: "What travels into the nose when we smell something?", options: ["Tiny invisible particles called molecules", "Small stones", "Beams of light"], answer: 0 },
-          { q: "Why can a single scent bring back a strong memory?", options: ["The brain's smell area sits near memory and emotion areas", "Smells contain words", "The nose stores memories"], answer: 0 },
-          { q: "How does smell protect us?", options: ["Bad smells warn us of danger like spoiled food or smoke", "It makes us run faster", "It turns off our eyes"], answer: 0 }
         ]
       }
     ]
