@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-04",
+    passages: [
+      {
+        id: "d1104-1",
+        title: "Why Do Shops Have Sales?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Walk through almost any shopping street, and you will see them: big signs shouting SALE, 50% OFF, or FINAL CLEARANCE. Shops seem to love lowering their prices. But this raises a puzzling question. If a shop makes money by selling things, why would it suddenly choose to sell them for less?\n\nIn fact, sales are a clever business tool, not an act of kindness. There are several good reasons behind them. One of the most common is clearing old stock. Shops have limited space, and holding on to unsold goods costs money. A winter coat that does not sell by spring takes up room that newer products need. By cutting the price, the shop can sell it quickly, free up space, and get back at least some of its money.\n\nSales also bring people through the door. A customer who comes in for a cheap item may also buy other things at full price while they are there. The low price acts like bait, attracting shoppers who might otherwise have stayed home.\n\nTiming matters too. Shops often hold sales at the end of a season, after a holiday, or when a newer model arrives. They may also use short sales to compete with a rival shop nearby.\n\nSo the next time you see a big discount, remember that the shop has usually thought carefully about it. A sale is not simply a gift; it is a smart way to manage stock, attract customers, and keep money flowing, while still giving shoppers a genuine chance to save.",
+        summaryJa: "店がなぜセールを行うのかについて。どの商店街を歩いても「セール」「半額」「最終処分」の大きな看板を目にする。店は値下げが大好きなようだ。だがここに不思議な疑問がある。店は物を売って儲けるのに、なぜ急に安く売ろうとするのか。実はセールは親切でなく巧妙な商売の手段だ。いくつか理由がある。最も一般的なのは古い在庫の処分だ。店の空間は限られ、売れ残り品を抱えると費用がかかる。春までに売れない冬のコートは、新商品に必要な場所を占める。値下げすれば素早く売り、空間を空け、少なくとも一部の資金を取り戻せる。セールは客を呼び込みもする。安い品目当てに来た客が、ついでに定価の物も買うかもしれない。安値は餌のように働く。時期も重要だ。季節末や祝日後、新型が出た時にセールをよく行う。近くの競合に対抗する短期セールもある。だからセールは単なる贈り物でなく、在庫管理と集客、資金の流れを保つ賢い方法であり、同時に買い手に本当に節約の機会も与える。",
+        quiz: [
+          { q: "What is one common reason shops hold sales?", options: ["To clear old stock and free up space", "To lose as much money as possible", "To close the shop forever"], answer: 0 },
+          { q: "How can a low-priced item help a shop?", options: ["It brings customers in, who may also buy full-price items", "It stops anyone from entering", "It makes all other prices rise"], answer: 0 },
+          { q: "When do shops often hold sales?", options: ["At the end of a season or when a newer model arrives", "Only on their first day of business", "Never, in most cases"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1104-2",
+        title: "How Does a Key and Lock Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Every day, we trust small metal keys to protect our homes, our cars, and our valuables. We slide a key into a lock, give it a turn, and the door opens. Use the wrong key, and nothing happens. It seems simple, but inside that small lock is a clever and precise little machine. The most common type is called a pin tumbler lock.\n\nInside the lock is a round part called the plug, which must turn to open the door. But the plug is held still by a row of small metal pins. Each pin is actually cut into two pieces of different lengths. A spring pushes each pin down, so the cut points sit at different heights, crossing the line where the plug meets the rest of the lock. While the pins cross this line, the plug cannot turn.\n\nThis is where the key comes in. The top edge of a key is cut into a special pattern of high and low points. When the correct key slides in, each cut lifts its matching pin to exactly the right height. At that moment, all the cuts in the pins line up perfectly along the gap around the plug. With nothing crossing the line any more, the plug is free to turn, and the lock opens.\n\nA wrong key lifts the pins to the wrong heights, so they still block the plug, and it will not turn. This small, hidden puzzle of pins and springs is a simple but brilliant idea that has kept doors safely locked for well over a century.",
+        summaryJa: "鍵と錠前の仕組みについて。私たちは毎日、小さな金属の鍵に家や車、貴重品の保護を託している。鍵を錠に差し込んで回すと扉が開く。違う鍵では何も起きない。単純に見えるが、小さな錠の中には巧妙で精密な小さな機械がある。最も一般的なのはピンタンブラー錠だ。錠の中には「プラグ」という丸い部分があり、これが回ると扉が開く。だがプラグは一列の小さな金属ピンに止められている。各ピンは実は長さの違う二つに切れており、ばねが各ピンを押し下げるため、切れ目は異なる高さにあり、プラグと錠の残り部分の境目の線をまたぐ。ピンがこの線をまたぐ間、プラグは回らない。そこで鍵の出番だ。鍵の上縁は高低の特別な形に刻まれ、正しい鍵を差すと各刻みが対応するピンをちょうどよい高さに持ち上げる。その瞬間、全ての切れ目が隙間に沿って完全にそろい、プラグが回って錠が開く。違う鍵では高さが合わずプラグを塞いだままだ。一世紀以上扉を守ってきた見事な発想だ。",
+        quiz: [
+          { q: "In a pin tumbler lock, what holds the plug still?", options: ["A row of small metal pins cut into two pieces", "A large battery", "A magnet"], answer: 0 },
+          { q: "What does the correct key do?", options: ["It lifts each pin to exactly the right height so the plug can turn", "It melts the pins", "It pushes the plug out"], answer: 0 },
+          { q: "Why does a wrong key fail?", options: ["It lifts the pins to the wrong heights, so they still block the plug", "It is always too big to fit", "It turns the plug backward"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1104-3",
+        title: "What Is Sustainable Development?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Imagine a family that owns a small apple orchard. If they pick every apple and also cut down the trees for firewood, they might have a rich year. But the next year, there will be no trees, no apples, and nothing left for their children. Clearly, using everything at once is not wise. This simple idea lies at the heart of a concept that guides nations today: sustainable development.\n\nSustainable development means meeting the needs of people living now, without destroying the ability of future generations to meet their own needs. In other words, it asks us to grow and improve our lives, but in a way that does not use up the planet or ruin it for those who come after us.\n\nThe idea rests on balancing three things. The first is the economy: people need jobs, food, and a decent standard of living. The second is society: fairness, health, and education for all. The third is the environment: clean air and water, healthy forests, and a stable climate. True progress, the idea says, must care for all three at once, not sacrifice one for another.\n\nTo guide this effort, the countries of the world have agreed on a set of shared goals. These include ending poverty, providing good education, protecting nature, and using cleaner energy. The goals are ambitious, and no country has reached them all.\n\nSustainable development is not easy, and progress is often slow. But it offers a hopeful and practical vision: that humanity can keep improving its life while still passing on a healthy world to its children.",
+        summaryJa: "持続可能な開発とは何かについて。小さなりんご園を持つ家族を想像しよう。りんごを全部もぎ、薪にと木も切り倒せば、その年は豊かかもしれない。だが翌年は木もりんごもなく、子どもたちに残る物もない。全てを一度に使い切るのは賢明でない。この単純な考えが、今日の国々を導く概念「持続可能な開発」の核心にある。持続可能な開発とは、今を生きる人々の必要を満たしつつ、将来の世代が自らの必要を満たす力を壊さないことを意味する。つまり暮らしを成長させ向上させるが、地球を使い果たしたり後の世代のために台無しにしたりしない形で、ということだ。考えは三つの均衡に基づく。第一は経済、人には仕事・食料・まともな生活水準が要る。第二は社会、全員への公平・健康・教育。第三は環境、きれいな空気と水、健全な森、安定した気候だ。本当の進歩は三つすべてを同時に大切にせねばならない。世界の国々は共通の目標に合意した。貧困の終結や良質な教育、自然保護、よりきれいなエネルギーだ。達成した国はまだない。",
+        quiz: [
+          { q: "What does sustainable development mean?", options: ["Meeting today's needs without harming future generations' ability to meet theirs", "Using up all resources as fast as possible", "Never changing anything"], answer: 0 },
+          { q: "Which three things must sustainable development balance?", options: ["The economy, society, and the environment", "Only money", "Only one country's needs"], answer: 0 },
+          { q: "What have the countries of the world agreed on?", options: ["A set of shared goals, such as ending poverty and protecting nature", "To ignore the environment", "To stop all education"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1104-4",
+        title: "Daruma: The Rolling Wish Doll",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many Japanese homes and shops, you can find a round, red doll with a serious face and no arms or legs. It is called a daruma, and it is far more than a simple decoration. The daruma is a symbol of good luck, patience, and the determination to reach a goal, however hard the journey.\n\nThe doll has a special shape. It is round and weighted at the bottom, so that if you push it over, it always rolls back upright on its own. This is the heart of its meaning. It represents a famous idea expressed in a Japanese saying: fall down seven times, stand up eight. The daruma teaches that no matter how often we are knocked down by failure, we should always rise again and keep trying.\n\nOne of the most charming customs involves the doll's eyes, which are usually left blank white when it is bought. When a person makes an important wish or sets a big goal, they paint in one eye. The one-eyed daruma then sits in the home, watching over them, a daily reminder of their promise to keep working. When at last the goal is reached, the person joyfully paints in the second eye.\n\nPeople buy daruma dolls when starting something important, such as a new business, an exam, or a personal dream. The little red doll is a gentle, powerful friend, quietly encouraging its owner never to give up until the goal is finally complete.",
+        summaryJa: "だるまについて。日本の多くの家庭や店で、まじめな顔をして手足のない、丸くて赤い人形を見かける。だるまと呼ばれ、単なる飾り以上のものだ。だるまは幸運・忍耐、そしてどんなに道のりが厳しくても目標に達しようとする決意の象徴だ。人形は特別な形をしている。丸く底が重いので、倒しても必ず自分で起き上がる。これが意味の核心だ。「七転び八起き」という日本のことわざで表される有名な考えを表す。失敗に何度打ちのめされても、また立ち上がり挑み続けよ、と教える。最も心温まる習慣は目に関わる。買った時、両目はたいてい白い空白のままだ。大切な願い事をしたり大きな目標を立てたりする時、片方の目を描き入れる。片目のだるまは家に座って見守り、努力し続ける約束を日々思い出させる。ついに目標が達成されると、喜んでもう片方の目を描き入れる。新しい事業や試験、個人の夢など、大切な事を始める時に買う。あきらめるなと静かに励ます力強い友だ。",
+        quiz: [
+          { q: "Why does a daruma doll always return upright?", options: ["It is round and weighted at the bottom", "It has hidden legs", "Someone lifts it each time"], answer: 0 },
+          { q: "What saying does the daruma represent?", options: ["Fall down seven times, stand up eight", "Look before you leap", "The early bird catches the worm"], answer: 0 },
+          { q: "What is the custom involving the daruma's eyes?", options: ["Paint one eye when making a wish, the other when the goal is reached", "Paint both eyes at the start", "Never paint the eyes"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1104-5",
+        title: "How Do Volcanoes Work?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "A volcano can seem like one of nature's most frightening wonders: a mountain that suddenly breathes fire, smoke, and rivers of glowing rock. For thousands of years, people watched them with fear and wonder. Today, science can explain where this tremendous power comes from, and the answer lies far beneath our feet.\n\nDeep inside the Earth, below the hard surface we live on, the rock is so hot that in some places it melts into a thick, glowing liquid. This underground molten rock is called magma. Because magma is lighter than the solid rock around it, it slowly rises, collecting in large pools called magma chambers, often several kilometres below the ground.\n\nMagma also contains gases, trapped under enormous pressure, rather like the gas in a fizzy drink before you open the bottle. As the magma rises and the pressure drops, these gases try to escape and expand. If the pressure becomes too great, the magma is forced violently up through a weak spot or crack in the surface. This is an eruption.\n\nOnce the molten rock reaches the open air, we no longer call it magma. It is now called lava. The lava flows out, sometimes gently, sometimes in a huge explosion of ash and rock. As the lava cools, it hardens into new stone, slowly building up the mountain shape of the volcano over many eruptions.\n\nVolcanoes can be dangerous, but they also create rich soil and new land. They are a dramatic reminder that our calm-looking planet is still powerfully alive deep inside.",
+        summaryJa: "火山の仕組みについて。火山は自然の最も恐ろしい驚異の一つに見える。突然、火と煙、輝く岩の川を噴き出す山だ。何千年もの間、人々は恐れと驚きで見つめてきた。今日、科学はこの途方もない力がどこから来るかを説明でき、答えは私たちの足のはるか下にある。地球の奥深く、私たちが暮らす硬い地表の下では、岩がとても熱く、場所によっては溶けて濃く輝く液体になる。この地下の溶けた岩をマグマという。マグマは周囲の固い岩より軽いためゆっくり上昇し、地下数キロにあるマグマだまりという大きな溜まりに集まる。マグマは巨大な圧力の下に閉じ込められた気体も含む。炭酸飲料を開ける前の気体のようだ。マグマが上昇し圧力が下がると、気体が逃げ膨張しようとする。圧力が高くなりすぎると、マグマは地表の弱い所や割れ目から激しく押し上げられる。これが噴火だ。溶けた岩が地上に出ると溶岩と呼ぶ。冷えると固まって新しい石になり、何度もの噴火で山の形を築く。豊かな土や新しい土地も生む。地球が今も内部で力強く生きている証だ。",
+        quiz: [
+          { q: "What is magma?", options: ["Hot molten rock deep inside the Earth", "A kind of cold water", "Ash on the surface"], answer: 0 },
+          { q: "Why does rising magma cause an eruption?", options: ["Trapped gases expand as pressure drops, forcing the magma up", "It freezes and cracks", "It is pulled by the moon"], answer: 0 },
+          { q: "What do we call molten rock once it reaches the open air?", options: ["Lava", "Magma chamber", "Ash only"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-03",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What special organ do fish use to breathe?", options: ["Gills", "Wings", "Ears"], answer: 0 },
           { q: "Where do fish get their oxygen?", options: ["From oxygen mixed inside the water", "From the air above only", "From the mud"], answer: 0 },
           { q: "Why do many fish die quickly out of water?", options: ["In air their gills collapse and cannot absorb oxygen", "They dislike the sun", "They have too much oxygen"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-28",
-    passages: [
-      {
-        id: "d1028-1",
-        title: "How to Make a Budget",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Many people feel that their money disappears too quickly, with little to show for it at the end of the month. One of the best ways to take control is to make a budget. A budget is simply a plan for your money, deciding where it will go before you spend it. It works for a single person, a family, or even a large company.\n\nMaking a basic budget is not difficult. The first step is to know your income, the money that comes in each month. The second step is to track your spending, the money that goes out. Many people are surprised when they see how much they spend on small things, like snacks or coffee, once they add it all up.\n\nNext, you divide your spending into groups. Some costs are needs, such as food, rent, and electricity, which you cannot avoid. Others are wants, such as games or eating out, which are nice but not necessary. A good budget makes sure that needs are paid first, and then sets a limit on wants.\n\nA wise plan also includes saving. Many experts suggest treating savings like a need, setting some money aside each month before spending on wants.\n\nThe real power of a budget is awareness. When you can see where your money goes, you can make better choices. A budget does not mean you can never enjoy yourself. It simply means you, and not chance, decide how your money is used.",
-        summaryJa: "予算（家計の計画）の立て方について。多くの人は、月末に何も残らずお金がすぐ消えると感じる。これを管理する最良の方法の一つが予算を立てることだ。予算とは、使う前にお金の行き先を決める計画で、個人でも家族でも大企業でも使える。基本の予算は難しくない。第一歩は収入、つまり毎月入るお金を知ること。第二歩は支出、つまり出ていくお金を記録すること。間食やコーヒーなど小さな出費も合計すると驚くほど多い。次に支出を分類する。食費・家賃・電気など避けられない「必要」と、ゲームや外食など「欲しいもの」がある。良い予算は必要を先に払い、欲しいものに上限を設ける。貯蓄を「必要」として欲しいものに使う前に取り分ける人も多い。予算の本当の力は「気づき」で、お金の流れが見えればより良い選択ができる。偶然でなく自分が使い道を決められる。",
-        quiz: [
-          { q: "What is a budget?", options: ["A plan for your money before you spend it", "A type of bank", "A kind of tax"], answer: 0 },
-          { q: "What is the difference between 'needs' and 'wants'?", options: ["Needs are unavoidable costs; wants are nice but not necessary", "They are exactly the same", "Wants must always be paid first"], answer: 0 },
-          { q: "What is the real power of a budget?", options: ["Awareness of where your money goes", "Making money disappear", "Never enjoying anything"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1028-2",
-        title: "How Do Elevators Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "In tall buildings everywhere, elevators carry people up and down all day, quietly and safely. We step in, press a button, and arrive at another floor without a thought. But lifting a heavy box full of people, sometimes hundreds of meters into the air, is no simple task. How does an elevator work, and why is it so safe?\n\nMost elevators work using a clever idea called a counterweight. The elevator car hangs from strong steel ropes that run up and over a wheel at the top of the building and down to a heavy weight on the other side. This counterweight is about as heavy as the car with a few people inside. Because the two sides nearly balance, the motor does not have to lift the full weight of the car. It only needs to move the small difference, which saves a great deal of energy.\n\nA powerful electric motor turns the wheel, pulling the car up or letting it down. A computer controls the motor, choosing which floors to stop at and making sure the car arrives level with the floor.\n\nSafety is built in at every step. The steel ropes are far stronger than needed, and there are usually several of them, so the car cannot fall if one breaks. Most importantly, every elevator has a device called a governor. If the car ever moves too fast, the governor triggers brakes that grip the rails and stop it. Thanks to these systems, riding an elevator is one of the safest journeys we make.",
-        summaryJa: "エレベーターの仕組みについて。高い建物では、エレベーターが一日中静かに安全に人を上下させる。乗ってボタンを押せば別の階に着く。だが人を乗せた重い箱を時に数百メートルも持ち上げるのは簡単ではない。どう動き、なぜ安全なのか。多くはカウンターウェイト（釣り合いおもり）という巧妙な仕組みを使う。かごは強い鋼のロープで吊られ、ロープは建物上部の滑車を越えて反対側の重いおもりへ下りる。このおもりは数人乗ったかごとほぼ同じ重さだ。両側がほぼ釣り合うため、モーターはかご全体でなくわずかな差だけ動かせばよく、省エネになる。強力な電動モーターが滑車を回し、コンピューターが停止階や着床を制御する。安全も随所にあり、鋼ロープは必要以上に強く複数あるので一本切れても落ちない。最も重要なのは調速機で、速すぎると鋼レールをつかむブレーキが作動して止める。",
-        quiz: [
-          { q: "What is a 'counterweight' used for in an elevator?", options: ["To balance the car so the motor moves only a small difference", "To make the car heavier", "To light the car"], answer: 0 },
-          { q: "Why can't the car fall if one rope breaks?", options: ["There are usually several strong ropes", "The car has wings", "Ropes never hold the car"], answer: 0 },
-          { q: "What does the 'governor' do?", options: ["Triggers brakes if the car moves too fast", "Chooses the music", "Opens the windows"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1028-3",
-        title: "Why Do Countries Sign Treaties?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When two or more countries want to agree on something important, they often write it down in a formal document called a treaty. A treaty is a promise between nations, a written agreement that each side pledges to follow. Treaties have shaped the world for thousands of years, ending wars, opening trade, and setting rules that cross borders.\n\nWhy do countries bother to sign them? The main reason is trust. A spoken promise between leaders can be forgotten or denied, but a written treaty is clear and lasting. By signing, each country publicly agrees to certain actions, and other nations can see whether the promise is kept.\n\nTreaties cover many subjects. Some are peace treaties that formally end a war. Others are trade treaties that allow goods to move more freely between countries. In modern times, many treaties deal with shared global problems, such as protecting the environment, limiting dangerous weapons, or defending human rights.\n\nMaking a treaty takes patience. Representatives from each country discuss the terms carefully, sometimes for years, until everyone can agree. Once signed, a treaty usually must also be approved by each country's own government before it takes full effect.\n\nTreaties are powerful, but they are not perfect. There is no world police to force a country to obey, so treaties depend on nations keeping their word and on the pressure of other countries. Still, they remain one of the most important tools the world has. Through treaties, nations turn difficult conversations into lasting, shared rules.",
-        summaryJa: "国が条約を結ぶ理由について。二つ以上の国が重要な事柄で合意したいとき、条約という正式な文書に書き記すことが多い。条約は国家間の約束で、各国が守ると誓う文書だ。条約は何千年も世界を形づくり、戦争を終わらせ、貿易を開き、国境を越える規則を定めてきた。なぜ署名するのか。中心は信頼だ。口約束は忘れられ否定されうるが、文書の条約は明確で長く残る。署名により各国は公に行動を約束し、他国は守られているか見られる。条約は多岐にわたり、戦争を正式に終える平和条約、物が自由に動く貿易条約、環境保護・危険兵器の制限・人権擁護など地球規模の問題を扱うものもある。作成には忍耐が要り、各国の代表が何年もかけて条件を話し合う。署名後も各国政府の承認が要ることが多い。強力だが完璧でなく、強制する世界警察はなく、各国が約束を守ることと他国の圧力に頼る。",
-        quiz: [
-          { q: "What is a treaty?", options: ["A written agreement, a promise between nations", "A type of army", "A national holiday"], answer: 0 },
-          { q: "Why do countries write treaties down?", options: ["A written treaty is clear and lasting, building trust", "To keep them secret", "So they can be forgotten"], answer: 0 },
-          { q: "Why are treaties not perfect?", options: ["There is no world police to force a country to obey", "They are never signed", "They always start wars"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1028-4",
-        title: "Hanami: Japan's Cherry Blossom Tradition",
-        level: "★★☆",
-        genre: "日本",
-        text: "Each spring, something wonderful happens across Japan. For about a week, cherry trees burst into clouds of soft pink and white flowers called sakura. People rush outside to enjoy them in a beloved custom called hanami, which means flower viewing. For many, it is the most awaited moment of the year.\n\nDuring hanami, families, friends, and coworkers gather under the blossoming trees in parks and along rivers. They spread out mats, share food and drinks, talk, and simply gaze up at the flowers. In the evening, some places light up the trees, and the glowing blossoms against the dark sky are breathtaking.\n\nThe timing is delicate. The blossoms open at slightly different times across the country, starting in the warm south and moving north over several weeks. Television and websites report a cherry blossom front, so people can plan the best day to go. The flowers last only a short time, and a single rain or strong wind can scatter them.\n\nThis brief life is part of the beauty. For centuries, the cherry blossom has been a gentle reminder that beautiful things do not last forever. Rather than making people sad, this thought encourages them to enjoy the present moment fully, together with others.\n\nHanami is more than looking at flowers. It is a celebration of spring, of friendship, and of life itself. When the sakura bloom, the whole country seems to pause and look up, sharing a quiet, happy moment before the petals fall.",
-        summaryJa: "日本の花見について。毎春、日本各地で素晴らしいことが起こる。約一週間、桜の木が淡い桜色と白の花の雲のように咲く。人々は外へ出て、「花見」という愛される習わしで楽しむ。多くの人にとって一年で最も待ち望む時だ。花見では家族や友人、同僚が公園や川沿いの桜の下に集まり、敷物を広げ飲食し、語り、花を見上げる。夜は木をライトアップする場所もあり、暗い空に映える花は見事だ。時期は繊細で、暖かい南から始まり数週かけて北上する。「桜前線」が報じられ、人は最適な日を計画する。花は短命で、一度の雨や強風で散る。この短い命も美の一部だ。桜は何世紀も、美しいものは永遠でないとやさしく思い出させてきた。悲しむより今を存分に楽しむよう促す。花見は花を見る以上に、春と友情と命そのものの祝いだ。",
-        quiz: [
-          { q: "What does 'hanami' mean?", options: ["Flower viewing", "Snow festival", "Mountain climbing"], answer: 0 },
-          { q: "Why is there a 'cherry blossom front' report?", options: ["Blossoms open at different times across the country", "The flowers never open", "To forecast earthquakes"], answer: 0 },
-          { q: "What does the short life of the blossoms remind people of?", options: ["That beautiful things do not last forever", "That spring never ends", "That trees are useless"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1028-5",
-        title: "What Causes Thunder and Lightning?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "During a storm, the sky suddenly flashes with a brilliant light, and moments later a deep rumble rolls across the clouds. Lightning and thunder are among nature's most dramatic shows. They can seem frightening, but they come from a simple natural process happening high in the clouds.\n\nIt begins with electricity. Inside a large storm cloud, strong winds toss around countless tiny pieces of ice and water. As they bump and rub together, they build up an electric charge, much like when you rub a balloon on your hair. The charge grows and grows until it is released all at once in a giant spark. That spark, leaping between the cloud and the ground, or between clouds, is lightning.\n\nLightning is incredibly hot, far hotter than the surface of the Sun. In an instant, it heats the air around it so fast that the air explodes outward. This sudden movement of air creates a powerful sound wave, which we hear as thunder. So lightning and thunder happen at the same moment; we simply see the flash before we hear the sound.\n\nThis is also why we can tell how far away a storm is. Light travels almost instantly, but sound travels much more slowly. By counting the seconds between the flash and the rumble, we can estimate the distance. A long gap means the storm is far; a short one means it is close.\n\nPowerful and beautiful, lightning is simply nature releasing the electricity it has quietly built up in the sky.",
-        summaryJa: "雷と稲妻の原因について。嵐の間、空が突然まばゆく光り、少し後に低いとどろきが雲を渡る。稲妻と雷は自然の最も劇的な見世物の一つだ。怖く見えるが、雲の高い所で起こる単純な自然の過程から生まれる。始まりは電気だ。大きな嵐雲の中で強い風が無数の小さな氷や水の粒を揺さぶる。ぶつかり擦れ合ううちに、風船を髪でこするように電気を帯びる。電荷は大きくなり、ついに巨大な火花として一気に放出される。雲と地面の間や雲どうしを飛ぶその火花が稲妻だ。稲妻は太陽の表面よりはるかに高温で、一瞬で周りの空気を急激に熱し、空気が外へ爆発する。この急な空気の動きが強い音波を生み、雷として聞こえる。だから稲妻と雷は同時に起き、光を先に見て音を後に聞くだけだ。光はほぼ瞬時、音は遅いので、光と音の間の秒数で距離を推定できる。",
-        quiz: [
-          { q: "What is lightning?", options: ["A giant spark of electricity released from a cloud", "A type of cloud", "A kind of rain"], answer: 0 },
-          { q: "What causes the sound of thunder?", options: ["Lightning heats the air so fast that it explodes outward", "Clouds hitting each other softly", "Rain falling on roofs"], answer: 0 },
-          { q: "Why do we see the flash before we hear the thunder?", options: ["Light travels much faster than sound", "Thunder comes first but is quiet", "They happen hours apart"], answer: 0 }
         ]
       }
     ]
