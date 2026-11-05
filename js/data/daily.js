@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-05",
+    passages: [
+      {
+        id: "d1105-1",
+        title: "What Is Market Research?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Imagine you want to open a small café. You have a lovely idea in your head, but one worrying question remains: will people actually want to come? Before spending all your money, it would be wise to find out what customers really like. This process of learning about customers before making decisions is called market research.\n\nMarket research is how businesses try to understand the people they hope to sell to. Instead of simply guessing what customers want, a company gathers real information first. This helps it avoid expensive mistakes and make products that people will actually buy.\n\nThere are many ways to do this. One common method is the survey, where a company asks many people questions about their tastes, habits, and opinions. Another is the interview, a deeper conversation with a smaller group. Companies may also watch how shoppers behave in a store, or test a new product with a small group before selling it widely.\n\nThe information collected can answer important questions. Who are our customers? What price are they willing to pay? What do they dislike about products that already exist? With good answers, a business can design something that truly fits people's needs.\n\nOf course, market research is not perfect. People do not always do what they say they will, and tastes can change quickly. Still, gathering information greatly improves a company's chances of success.\n\nIn short, market research turns guessing into informed choice. By listening carefully to customers before acting, a business gives itself a much better chance of offering something people genuinely want.",
+        summaryJa: "市場調査（マーケットリサーチ）とは何かについて。小さなカフェを開きたいとしよう。素敵な構想が頭にあるが、気がかりな疑問が一つ残る。本当に客は来てくれるのか。全財産を使う前に、客が本当に何を好むかを知るのが賢明だ。決定を下す前に客について学ぶこの作業を市場調査という。市場調査は、企業が売りたい相手である人々を理解しようとする方法だ。客が何を望むか単に推測するのでなく、まず本物の情報を集める。これにより高くつく失敗を避け、実際に買ってもらえる商品を作れる。方法は多い。一般的なのはアンケートで、多くの人に好みや習慣、意見を尋ねる。もう一つは面接で、少人数とより深く話す。店での買い物客の行動を観察したり、広く売る前に少人数で新商品を試したりもする。集めた情報は、客は誰か、いくら払う気があるか、既存商品の不満は何かといった重要な問いに答える。良い答えがあれば、人々の必要に真に合う物を設計できる。完璧ではないが成功の可能性を大きく高める。",
+        quiz: [
+          { q: "What is market research?", options: ["Learning about customers before making business decisions", "Spending all your money quickly", "Hiding information from customers"], answer: 0 },
+          { q: "What is one common method of market research?", options: ["A survey, asking many people questions", "Guessing with no information", "Closing the business"], answer: 0 },
+          { q: "Why is market research still not perfect?", options: ["People don't always do what they say, and tastes change quickly", "It always gives perfect answers", "Customers never have opinions"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1105-2",
+        title: "How Do Traffic Lights Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "At busy crossroads all over the world, three coloured lights quietly do an important job. Red, yellow, and green signals guide cars, buses, and people, telling them when to stop and when to go. Without them, busy junctions would quickly fall into dangerous confusion. But how do these simple lights know when to change?\n\nIn the past, all traffic lights worked on a fixed timer. Each direction was given a set number of seconds for green, then yellow, then red, repeating the same pattern all day. This is simple and still common, but it has a weakness: the lights change even when no cars are waiting, which can waste everyone's time.\n\nModern systems are often smarter. Many junctions now have sensors buried under the road or cameras mounted above. These can detect how many cars are waiting in each direction. The system uses this information to adjust the timing, giving a longer green light to the direction with more traffic, and a shorter one where the road is empty.\n\nIn large cities, traffic lights may be connected to a central computer that controls many junctions at once. By timing the lights carefully, it can create a green wave, so that a car travelling at the right speed meets one green light after another, keeping traffic flowing smoothly.\n\nSo a traffic light is more than a simple coloured lamp. Behind it may lie timers, sensors, and even powerful computers, all working together. Their shared goal is simple but vital: to keep people moving safely and to prevent the chaos of a busy road with no rules.",
+        summaryJa: "信号機の仕組みについて。世界中の混雑した交差点で、三色の光が静かに大切な仕事をしている。赤・黄・緑の信号が車やバス、人を導き、止まる時と進む時を伝える。信号がなければ混雑した交差点はすぐ危険な混乱に陥る。ではこの単純な光はいつ変わるべきと分かるのか。昔はすべて固定タイマーで動いた。各方向に緑・黄・赤の秒数が決められ、一日中同じ型を繰り返す。単純で今も一般的だが弱点がある。待つ車がなくても変わり、皆の時間を無駄にしうる。現代の仕組みはより賢いことが多い。多くの交差点は路面下のセンサーや上部のカメラを備え、各方向に待つ車の数を感知できる。その情報で時間を調整し、交通量の多い方向に長い緑を、空いた道に短い緑を与える。大都市では中央のコンピューターが多くの交差点を一度に制御し、信号を巧みに合わせて「グリーンウェーブ」を作り、適切な速度の車が次々と緑に出会えるようにする。タイマー・センサー・コンピューターが協力し、安全に人を流す。",
+        quiz: [
+          { q: "How did traffic lights traditionally work?", options: ["On a fixed timer, repeating the same pattern all day", "By reading drivers' minds", "They never changed"], answer: 0 },
+          { q: "What do modern sensors or cameras at junctions detect?", options: ["How many cars are waiting in each direction", "The color of each car", "The names of the drivers"], answer: 0 },
+          { q: "What is a 'green wave'?", options: ["Timed lights so a car at the right speed meets one green after another", "A green-colored road", "A type of traffic jam"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1105-3",
+        title: "What Is Diplomacy?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Countries, like people, do not always agree. They may argue over borders, trade, resources, or the treatment of their citizens. When people disagree, they can either fight or talk. The same is true for nations. The art of solving problems between countries through talking, rather than fighting, is called diplomacy.\n\nDiplomacy is the main way that countries deal with one another in peace. Through it, nations share their views, make agreements, and try to settle disagreements before they grow into something worse. The goal is to protect a country's interests while avoiding the terrible costs of conflict.\n\nMuch of this work is done by special people called diplomats, who represent their country abroad. The most senior is often called an ambassador. Many countries keep an embassy, a kind of official home, in foreign capitals. From there, diplomats pass on messages, build friendships, and carefully explain their government's position.\n\nDiplomacy takes many forms. Sometimes leaders meet face to face at a summit. Sometimes countries send letters or hold long, quiet talks away from the public eye. Large international organisations also give nations a place to discuss shared problems and vote on solutions together.\n\nDiplomacy is not always successful, and talks can fail. Yet history shows that patient conversation has prevented countless conflicts and ended many others. A skilled diplomat may achieve with words what armies never could.\n\nIn a world of nearly two hundred nations, with different languages, beliefs, and interests, diplomacy is the quiet, steady effort to keep those differences from turning into danger, and to help the world's peoples live together in peace.",
+        summaryJa: "外交とは何かについて。国も人と同じで、いつも意見が一致するわけではない。国境や貿易、資源、国民の扱いをめぐって争うこともある。人は対立すると戦うか話すかできる。国も同じだ。国同士の問題を戦いでなく話し合いで解決する技術を外交という。外交は、国々が平和のうちに互いに関わる主な方法だ。これを通じ、国は考えを伝え合い、合意を結び、対立が悪化する前に収めようとする。目的は、紛争の恐ろしい代償を避けつつ自国の利益を守ることだ。この仕事の多くは外交官という特別な人々が担い、外国で自国を代表する。最上位はしばしば大使と呼ばれる。多くの国は外国の首都に大使館という公式の拠点を置く。そこから外交官は伝言を伝え、友好を築き、自国政府の立場を丁寧に説明する。首脳が直接会う会談もあれば、手紙や人目を避けた長い静かな交渉もある。大きな国際機関も共通の問題を話し合う場を与える。常に成功するわけではないが、忍耐強い対話は数えきれぬ紛争を防いできた。",
+        quiz: [
+          { q: "What is diplomacy?", options: ["Solving problems between countries through talking rather than fighting", "A kind of war", "A type of trade only"], answer: 0 },
+          { q: "Who represents their country abroad in this work?", options: ["Diplomats, the most senior often called an ambassador", "Only soldiers", "Tourists"], answer: 0 },
+          { q: "What does history show about patient conversation?", options: ["It has prevented countless conflicts and ended many others", "It never helps", "It always starts wars"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1105-4",
+        title: "Konbini: Japan's Convenience Stores",
+        level: "★★☆",
+        genre: "日本",
+        text: "In most countries, a convenience store is a small shop for buying snacks, drinks, and a few basic goods late at night. In Japan, the convenience store, or konbini, is something far more impressive. Open twenty-four hours a day, these bright, tidy shops have become a remarkable part of daily life, offering a surprising range of services under one small roof.\n\nOf course, a konbini sells food, but even this is special. The fresh rice balls, boxed lunches, sandwiches, and hot snacks are known for being tasty, cheap, and changed often with the seasons. Many people happily eat from a konbini every day.\n\nWhat truly amazes visitors, however, is everything else a konbini can do. Inside one small shop, you can pay your electricity and gas bills, buy concert tickets, and send or collect parcels. You can use a cash machine, make photocopies, print documents, and buy stamps. Clean toilets are usually available for anyone to use, and the staff are famous for being polite and helpful.\n\nThis incredible convenience comes from careful organisation. Deliveries arrive several times a day, so shelves are always full and food is always fresh. Everything is designed to save the customer time and effort.\n\nFor many people in Japan, the konbini is a quiet hero of everyday life, always open, always nearby, and always ready to help. It is a small but perfect example of the Japanese talent for making ordinary daily life smooth, efficient, and just a little more comfortable.",
+        summaryJa: "日本のコンビニについて。多くの国で、コンビニエンスストアは夜遅くに菓子や飲み物、少しの日用品を買う小さな店だ。日本では「コンビニ」はずっと印象的な存在だ。二十四時間開き、明るく整然としたこの店は、日常生活の見事な一部となり、小さな屋根の下に驚くほど多様なサービスを提供する。もちろん食べ物も売るが、それさえ特別だ。新鮮なおにぎりや弁当、サンドイッチ、温かい軽食はおいしく安く、季節ごとによく変わることで知られる。毎日コンビニで食べる人も多い。だが訪問者が本当に驚くのはそれ以外にできることだ。一つの小さな店で、電気やガスの料金を払い、コンサートの切符を買い、荷物を送り受け取れる。現金自動預払機を使い、コピーや書類の印刷をし、切手も買える。清潔なトイレもたいてい誰でも使え、店員は礼儀正しく親切なことで有名だ。この便利さは入念な仕組みから来る。配達が日に何度も届き、棚は常に満ち、食品は常に新鮮だ。日本の人々にとって、いつも開いて近くにあり助けてくれる日常の静かな英雄だ。",
+        quiz: [
+          { q: "How is a Japanese konbini different from a typical convenience store?", options: ["It offers a surprising range of services and is open 24 hours", "It only opens one hour a day", "It sells nothing at all"], answer: 0 },
+          { q: "What is one service you can use at a konbini besides buying food?", options: ["Paying bills, sending parcels, or using a cash machine", "Flying an airplane", "Growing crops"], answer: 0 },
+          { q: "Why are konbini shelves always full and food fresh?", options: ["Deliveries arrive several times a day", "The shop never sells anything", "Customers bring their own food"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1105-5",
+        title: "Why Do Onions Make Us Cry?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "It is a strange and common kitchen experience. You pick up a knife, begin to slice an onion, and within moments your eyes start to sting and fill with tears. You are not sad at all, yet you are crying. Why does this ordinary vegetable have such a powerful effect on us, and what is really going on?\n\nThe answer is a clever form of self-defence by the onion. While it grows in the ground, an onion needs protection from animals that might eat it. Inside its cells, it keeps certain chemicals stored separately, so they are harmless as long as the onion is whole.\n\nEverything changes when you cut it. The knife breaks open the cells, and the separated chemicals suddenly mix together. This mixing causes a quick reaction that produces a new, irritating gas, which floats up from the chopping board into the air.\n\nWhen this gas reaches your eyes, it meets the thin layer of water that always covers them. The gas and the water react to form a mild acid, which gently stings the surface of the eye. Your eyes react to this tiny discomfort in the only way they can: they produce tears to wash the irritation away.\n\nSo your tears are not a sign of emotion, but a natural cleaning response. There are ways to reduce the effect, such as chilling the onion first or cutting it under running water. But the basic cause is wonderfully simple: a humble onion, quietly defending itself, right there on your kitchen table.",
+        summaryJa: "玉ねぎを切るとなぜ涙が出るのかについて。奇妙でよくある台所の経験だ。包丁を取り玉ねぎを切り始めると、たちまち目がしみて涙があふれる。少しも悲しくないのに泣いている。なぜこの普通の野菜はこれほど強く作用するのか、実際に何が起きているのか。答えは玉ねぎの巧妙な自己防衛だ。土の中で育つ間、玉ねぎは食べようとする動物から身を守る必要がある。細胞の中にある種の化学物質を別々に蓄え、丸ごとのうちは無害だ。切ると一変する。包丁が細胞を破り、分かれていた物質が突然混ざる。この混合が素早い反応を起こし、刺激性の新しい気体を生み、まな板から空中へ立ち上る。その気体が目に届くと、目を常に覆う薄い水の層に出会う。気体と水が反応して弱い酸ができ、目の表面を軽く刺激する。目はこの小さな不快に唯一できる方法で応じる。涙を出して刺激を洗い流すのだ。だから涙は感情でなく自然な洗浄反応だ。先に冷やす、流水の下で切るなどで和らげられる。原因は実に単純、玉ねぎが静かに身を守っているのだ。",
+        quiz: [
+          { q: "Why does an onion keep certain chemicals stored separately?", options: ["As self-defence, to protect itself from animals that might eat it", "To make soup taste better", "To grow faster"], answer: 0 },
+          { q: "What happens when you cut an onion?", options: ["The cells break and the chemicals mix, making an irritating gas", "It turns into water", "Nothing changes inside"], answer: 0 },
+          { q: "Why do your eyes produce tears?", options: ["To wash away the mild acid that irritates the eye's surface", "Because you feel very sad", "To make the onion sweeter"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-04",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is a star?", options: ["An enormous ball of hot, glowing gas", "A tiny spark near Earth", "A kind of cloud"], answer: 0 },
           { q: "What are stars made mostly of?", options: ["Hydrogen and helium", "Rock and metal", "Ice and dust"], answer: 0 },
           { q: "What makes a star shine?", options: ["Energy released by nuclear fusion in its center", "A battery inside it", "Reflected light from Earth"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-29",
-    passages: [
-      {
-        id: "d1029-1",
-        title: "What Is Insurance?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Life is full of risks. A house might catch fire, a car might crash, or a person might become ill and unable to work. Any of these events can cost a huge amount of money, far more than most people have saved. To protect against such surprises, people use something called insurance. Understanding it helps explain a big part of the world's economy.\n\nThe idea behind insurance is simple and clever: sharing risk among many people. A large group of people each pay a small, regular amount of money, called a premium, to an insurance company. Most of them will not suffer a disaster in any given year. But for the unlucky few who do, the company uses the collected money to help pay for the damage.\n\nIn this way, a cost that would ruin one family is shared gently among thousands. Each person pays a little to be safe, instead of risking a loss they could never afford alone. It is a bit like a whole village agreeing to help rebuild any single house that burns down.\n\nThere are many kinds of insurance: for homes, cars, health, and travel. Some are required by law, such as car insurance in many countries, while others are a personal choice.\n\nInsurance cannot stop bad things from happening, and it is not free. But it brings something valuable: peace of mind. By turning a possible huge loss into a small, steady cost, insurance lets people and businesses take sensible risks and recover when life does not go as planned.",
-        summaryJa: "保険とは何かについて。人生はリスクに満ちる。家が火事になり、車が事故を起こし、人が病気で働けなくなるかもしれない。どれも巨額の費用がかかり、多くの人の貯金を超える。こうした予想外に備えて人は保険を使う。理解すれば世界経済の大きな部分が分かる。保険の発想は単純で巧妙だ。多くの人でリスクを分け合う。大勢が少額の「保険料」を定期的に保険会社へ払う。ほとんどの人はその年に災難に遭わないが、不運な少数のために会社が集めたお金で損害を補う。こうして一家族を破滅させる費用が何千人にやさしく分けられる。皆が少し払って安全を買い、一人では負えない損失の危険を避ける。火事の家をみんなで建て直す村のようだ。住宅・車・健康・旅行など種類は多く、法で義務づけられるものもある。保険は災難を止めないが、心の安らぎをもたらす。",
-        quiz: [
-          { q: "What is the main idea behind insurance?", options: ["Sharing risk among many people", "Making disasters happen", "Saving nothing at all"], answer: 0 },
-          { q: "What is a 'premium'?", options: ["A small, regular payment to an insurance company", "A kind of disaster", "A free gift"], answer: 0 },
-          { q: "What valuable thing does insurance bring?", options: ["Peace of mind", "More accidents", "Higher risk"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1029-2",
-        title: "How Do LED Lights Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Look around your home, and you will probably see LED lights. They glow in our lamps, phones, televisions, and traffic signals. LEDs have quietly replaced the old light bulbs that were used for over a hundred years. They last far longer and use much less electricity. But how do these tiny lights actually produce light?\n\nThe letters LED stand for light-emitting diode. A diode is a small electronic part that lets electricity flow in only one direction. In an LED, this part is made of special materials. When electricity passes through these materials, something remarkable happens: the material itself gives off light directly. The electricity is turned into light.\n\nThis is very different from an old-style bulb. An old bulb made light by heating a thin wire until it glowed. That method wasted most of the energy as heat, not light, which is why old bulbs became hot and burned out. An LED stays cool and turns far more of its energy into light, making it much more efficient.\n\nBecause they are so efficient and long-lasting, LEDs save energy and money. A single LED can last for many years, and using less electricity is also better for the environment.\n\nLEDs can be made in different colors, and they can be tiny or very bright. This is why they appear everywhere, from the giant screens in a city to the small light that shows your phone is charging. Clean, cool, and efficient, the LED has changed how we light up our world.",
-        summaryJa: "LED照明の仕組みについて。家の中を見れば、ランプやスマホ、テレビ、信号機など至る所にLEDが光っている。LEDは百年以上使われた旧式の電球に静かに取って代わった。はるかに長持ちし電気も少ない。この小さな光はどうやって光を生むのか。LEDは「発光ダイオード」の略だ。ダイオードは電気を一方向だけ流す小さな電子部品で、LEDでは特別な材料でできている。電気がこの材料を通ると驚くことに材料自体が直接光を放つ。電気が光に変わるのだ。旧式電球は細い線を熱して光らせ、多くのエネルギーを光でなく熱として無駄にし、熱くなって切れた。LEDは冷たいままで多くを光に変え、ずっと効率的だ。長寿命で省エネ・節約になり環境にも良い。様々な色で作れ、小さくも非常に明るくもできる。都市の大画面からスマホの充電ランプまで使われる。",
-        quiz: [
-          { q: "What does 'LED' stand for?", options: ["Light-emitting diode", "Long electric day", "Low energy drink"], answer: 0 },
-          { q: "How did old-style bulbs make light?", options: ["By heating a thin wire until it glowed", "By using radio waves", "By cooling water"], answer: 0 },
-          { q: "Why are LEDs more efficient than old bulbs?", options: ["They turn far more energy into light, not heat", "They use more electricity", "They burn hotter"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1029-3",
-        title: "How the World Shares Scientific Discoveries",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When a scientist in one country makes an important discovery, people everywhere can soon benefit from it. A new medicine, a better way to grow food, or a deeper understanding of the universe does not stay locked inside one nation. Instead, science is shared across borders, in one of the finest examples of global cooperation.\n\nHow does this sharing work? When scientists complete a study, they usually write a paper describing exactly what they did and what they found. Other scientists around the world read these papers, check the results, and build on them. In this way, knowledge grows step by step, with each discovery resting on the work of others, often from many different countries.\n\nScientists also meet and work together directly. They gather at international conferences, share data over the internet, and form teams that cross borders. Some of the greatest projects, such as exploring space or studying tiny particles, are far too large and expensive for one country alone, so many nations join together to fund and build them.\n\nThis openness has a long tradition. Most scientists believe that knowledge belongs to all of humanity and should be shared, not hidden. Of course, there are limits: companies may keep some discoveries secret for business, and a few areas are kept private for safety. But the general spirit of science is open.\n\nBy sharing freely, the world moves faster. A problem solved in one place can help people everywhere. In science, cooperation is not just kind; it is how progress is made.",
-        summaryJa: "世界が科学的発見を共有する仕組みについて。ある国の科学者が重要な発見をすると、やがて世界中の人が恩恵を受けられる。新薬やより良い食料生産法、宇宙の深い理解は一国に閉じ込められず、国境を越えて共有される。国際協力の最良の例の一つだ。どう共有するのか。研究を終えると科学者は、行ったことと分かったことを正確に記した論文を書く。世界の他の科学者がそれを読み、結果を確かめ、その上に積み重ねる。こうして知識は一歩ずつ育ち、各発見が多くの国の他者の仕事の上に立つ。科学者は直接協力もし、国際会議で集い、ネットでデータを共有し、国境を越えたチームを作る。宇宙探査や素粒子研究のような巨大で高価な計画は一国では無理で、多国が資金を出し協力する。知識は人類全体のもので隠さず共有すべきという伝統がある。自由な共有で世界は速く進む。",
-        quiz: [
-          { q: "How do scientists usually share what they find?", options: ["By writing papers that others read and build on", "By keeping it secret forever", "By telling only their family"], answer: 0 },
-          { q: "Why do many nations join together on some projects?", options: ["They are too large and expensive for one country alone", "No country is interested", "To keep them small"], answer: 0 },
-          { q: "What do most scientists believe about knowledge?", options: ["It belongs to all of humanity and should be shared", "It should always be hidden", "It is useless"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1029-4",
-        title: "Oshogatsu: Japanese New Year",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, the biggest celebration of the year is a winter holiday in December. In Japan, the most important holiday of all is the New Year, known as oshogatsu. While people around the world welcome the new year, in Japan it is a deep and special time, full of customs that go back centuries.\n\nPreparations begin before the year ends. People clean their homes thoroughly, a custom called osoji, to clear away the dust of the old year and welcome the new one fresh and pure. Families also decorate their doors with arrangements of pine and bamboo, believed to invite good fortune.\n\nThe New Year itself is a quiet, family time. Many people visit a shrine or temple in the first days of January, a custom called hatsumode, to pray for health and happiness in the year ahead. Special foods are eaten, beautifully arranged in boxes, each dish carrying a wish, such as long life or good harvests. Children receive small gifts of money from older relatives.\n\nThe mood of oshogatsu is one of rest, gratitude, and hope. Many shops and offices close for several days, something rare in busy Japan, so that families can be together. People send New Year cards to friends, and the cards all arrive on January 1st.\n\nFor the Japanese, oshogatsu is a moment to pause, to thank the past year, and to begin again with a clean and hopeful heart. It is a gentle, meaningful start to each new year.",
-        summaryJa: "日本の正月（お正月）について。多くの国では一年最大の祝いが12月の冬の休日だが、日本で最も大切な祝日は新年「お正月」だ。世界中が新年を迎える中、日本では何世紀も続く習わしに満ちた特別で深い時だ。準備は年末前から始まる。「大掃除」で家を徹底的に清め、旧年のほこりを払い新年を清らかに迎える。松や竹の飾りを戸口に置き、幸運を招くとされる。正月自体は静かな家族の時で、多くの人が1月初めに神社や寺へ「初詣」に行き、健康と幸せを祈る。願いを込めた料理が美しく箱に詰められ、子どもは年長者からお金の贈り物をもらう。休息・感謝・希望の気分で、多くの店や職場が数日閉まり家族が集う。友人に年賀状を送り、元日に届く。過去の年に感謝し清い心で再出発する穏やかで意味深い始まりだ。",
-        quiz: [
-          { q: "What is 'oshogatsu'?", options: ["The Japanese New Year, the most important holiday", "A summer festival", "A kind of food only"], answer: 0 },
-          { q: "What is 'hatsumode'?", options: ["Visiting a shrine or temple in early January to pray", "A big meal in summer", "A sports event"], answer: 0 },
-          { q: "What is the general mood of oshogatsu?", options: ["Rest, gratitude, and hope", "Fear and worry", "Hard work and stress"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1029-5",
-        title: "How Do Fish Breathe Underwater?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "All animals need oxygen to live, including fish. But fish spend their whole lives underwater, where there is no air to breathe. So how do they get the oxygen they need? The answer is that fish have a special organ for breathing water, called gills.\n\nWater may look like it has no air, but there is oxygen hidden inside it. Tiny amounts of oxygen gas are mixed into the water itself, and this is what fish use. Their challenge is to pull this oxygen out of the water, and gills are perfectly designed for the job.\n\nGills are found on each side of a fish's head, usually hidden under a flap. A fish breathes by taking water into its mouth and pushing it out over the gills. The gills are full of very thin, feathery parts, rich with blood. As water flows over them, oxygen passes from the water into the fish's blood, while waste gas passes out. The used water then flows out through the gill openings.\n\nBecause there is far less oxygen in water than in air, gills must be very efficient. This is also why many fish die quickly when taken out of water: in the air, their gills collapse and stick together, so they can no longer absorb oxygen, even though they are surrounded by it.\n\nGills are a beautiful example of how living things adapt to their homes. Thanks to them, fish can live and breathe in rivers, lakes, and the vast ocean, worlds where humans could never survive without help.",
-        summaryJa: "魚が水中で呼吸する仕組みについて。魚を含め全ての動物は生きるのに酸素が要る。だが魚は一生を水中で過ごし、そこには吸う空気がない。どうやって必要な酸素を得るのか。答えは、水で呼吸する特別な器官「えら」を持つことだ。水は空気がないように見えても、中に酸素が隠れている。わずかな酸素ガスが水に混ざっており、魚はそれを使う。課題は水から酸素を取り出すことで、えらはその仕事に完璧に設計されている。えらは魚の頭の両側、普通はふたの下にある。魚は口から水を取り入れ、えらの上に押し出して呼吸する。えらは血の豊富な薄い羽状の部分に満ち、水が流れると酸素が水から血へ移り、不要なガスが出る。使った水はえらの開口から出る。水中は空気より酸素がはるかに少ないためえらは高効率だ。水から出すと多くの魚がすぐ死ぬのは、空気中でえらがつぶれ酸素を吸えないからだ。",
-        quiz: [
-          { q: "What special organ do fish use to breathe?", options: ["Gills", "Wings", "Ears"], answer: 0 },
-          { q: "Where do fish get their oxygen?", options: ["From oxygen mixed inside the water", "From the air above only", "From the mud"], answer: 0 },
-          { q: "Why do many fish die quickly out of water?", options: ["In air their gills collapse and cannot absorb oxygen", "They dislike the sun", "They have too much oxygen"], answer: 0 }
         ]
       }
     ]
