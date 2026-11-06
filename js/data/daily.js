@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-06",
+    passages: [
+      {
+        id: "d1106-1",
+        title: "What Is a Nonprofit Organization?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Most businesses exist to make a profit. They sell goods or services, and the money left over after costs becomes profit for the owners. But not every organisation works this way. Some exist mainly to help others or to serve a cause, rather than to make money for owners. These are called nonprofit organisations.\n\nA nonprofit still needs money to operate. It must pay its staff, rent offices, and cover its costs, just like any business. The key difference is what happens to any extra money. In a normal company, extra money goes to the owners as profit. In a nonprofit, there are no owners taking profit. Instead, all the money is put back into the work of the organisation, to help it do more good.\n\nNonprofits work in countless areas. Some care for sick or poor people, some protect animals or nature, some support the arts, and some run schools or hospitals. They get their money from donations, membership fees, government support, and sometimes from selling goods or services.\n\nBecause they do not aim to enrich owners, nonprofits are often trusted to act for the public good. Many are run partly by volunteers, people who give their time for free because they believe in the cause.\n\nNonprofits are an important part of society, sitting between private business and government. They remind us that organisations can be powerful tools not only for making money, but also for solving problems, helping people, and improving the world we all share.",
+        summaryJa: "非営利団体（NPO）とは何かについて。ほとんどの事業は利益を得るために存在する。物やサービスを売り、費用を引いて残った金が所有者の利益になる。だがすべての組織がこうではない。一部は金もうけより、他者を助けたり理念に尽くしたりするために存在する。これを非営利団体という。非営利団体も運営に金が要る。職員に給料を払い、事務所を借り、費用を賄うのはどの事業とも同じだ。違いは余った金の行き先だ。普通の会社では余った金は利益として所有者に行く。非営利団体には利益を取る所有者がいない。代わりにすべての金が組織の活動に戻され、より多くの善を行うのを助ける。活動分野は無数だ。病める人や貧しい人の世話、動物や自然の保護、芸術の支援、学校や病院の運営もある。資金は寄付、会費、政府の支援、時に物やサービスの販売から得る。所有者を富ませるのが目的でないため、公共の利益のために動くと信頼されることが多い。理念を信じ無償で時間をささげるボランティアが一部を担う。民間企業と政府の間に位置する社会の重要な一部だ。",
+        quiz: [
+          { q: "What is the main goal of a nonprofit organisation?", options: ["To help others or serve a cause, rather than make profit for owners", "To make owners as rich as possible", "To avoid doing any work"], answer: 0 },
+          { q: "What happens to any extra money in a nonprofit?", options: ["It is put back into the organisation's work", "It is given to owners as profit", "It is thrown away"], answer: 0 },
+          { q: "Who are volunteers?", options: ["People who give their time for free because they believe in the cause", "People who own the organisation", "Paid company directors"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1106-2",
+        title: "How Do Clocks Keep Time?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "We rely on clocks every day, trusting them to tell us the correct time, hour after hour, without stopping. But have you ever wondered how a clock actually measures time so steadily? The secret, found in almost every clock ever made, is surprisingly simple: a clock needs something that repeats at a perfectly regular rhythm.\n\nThink of it like counting. If you knew that something happened exactly once every second, you could count those events to measure time. A clock does the same thing, but automatically. It contains a part that moves back and forth, or vibrates, at a steady, unchanging speed. By counting these movements, the clock tracks the passing seconds, minutes, and hours.\n\nIn old-fashioned clocks, this steady beat came from a swinging pendulum or a small spring-driven wheel. Each swing took exactly the same amount of time, and gears counted the swings to move the hands around the face.\n\nMost modern clocks and watches, however, use a tiny piece of a mineral called quartz. When a small electric current from a battery passes through a quartz crystal, the crystal vibrates incredibly fast, exactly the same number of times every second. A tiny electronic circuit counts these vibrations and uses them to keep perfect time.\n\nWhether it is a grand old pendulum clock or a modern digital watch, the basic idea is always the same. To measure time, you need a steady, repeating beat, and then you simply count it. It is a beautifully simple idea at the heart of every clock in the world.",
+        summaryJa: "時計はどうやって時を刻むのかについて。私たちは毎日時計に頼り、止まることなく正しい時刻を告げると信じている。だが時計がどうやってそれほど安定して時間を測るのか、考えたことがあるだろうか。これまで作られたほぼすべての時計に共通する秘密は意外に単純だ。時計には完全に規則正しいリズムで繰り返す何かが要る。数えることを思い浮かべよう。何かがちょうど一秒に一回起こると分かっていれば、それを数えて時間を測れる。時計も同じことを自動で行う。一定で変わらない速さで前後に動く、つまり振動する部分を持ち、その動きを数えて秒・分・時を追う。昔の時計では、この一定の拍は振り子やばね仕掛けの小さな車輪から来た。一振りがちょうど同じ時間で、歯車が振りを数えて針を動かした。だが現代の時計の多くは水晶という鉱物の小片を使う。電池の小さな電流が水晶に流れると、水晶は毎秒まったく同じ回数、非常に速く振動する。小さな電子回路がこれを数え、正確な時を保つ。要は一定で繰り返す拍を数えることだ。",
+        quiz: [
+          { q: "What does a clock basically need to measure time?", options: ["Something that repeats at a perfectly regular rhythm", "A very large size", "Bright colors"], answer: 0 },
+          { q: "How did old-fashioned clocks keep a steady beat?", options: ["With a swinging pendulum or a spring-driven wheel", "With a quartz battery only", "By guessing"], answer: 0 },
+          { q: "How does a quartz clock keep time?", options: ["A quartz crystal vibrates a set number of times each second, and a circuit counts them", "It uses a tiny pendulum", "It has no moving or vibrating part"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1106-3",
+        title: "What Is an NGO?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When a terrible flood strikes a poor country, or when a forest is in danger, help often arrives not only from governments, but from a different kind of group. These groups are run neither by a government nor for profit. They are formed by ordinary citizens who come together to work on a problem they care about. Such a group is called a non-governmental organisation, or NGO for short.\n\nAs the name suggests, an NGO is independent of any government. This independence is important. It means an NGO can speak freely, work across borders, and act quickly, without waiting for political permission. Many NGOs work internationally, helping people in countries far from their own.\n\nNGOs work on a huge range of causes. Some provide food, shelter, and medical care after disasters. Others protect the environment, defend human rights, support education, or fight disease. They are often staffed by a mix of paid workers and volunteers, and they usually depend on donations from the public to fund their work.\n\nBecause they are close to the people they help, NGOs can often understand local problems better than large, distant institutions. They can also draw public attention to issues that might otherwise be ignored, and put pressure on governments to act.\n\nNGOs are not perfect, and like any organisation they must be run honestly and well. But at their best, they show something hopeful about humanity: that ordinary people, by joining together and acting with care, can make a real difference to lives far beyond their own borders.",
+        summaryJa: "NGO（非政府組織）とは何かについて。貧しい国をひどい洪水が襲った時、あるいは森が危機にある時、助けは政府だけでなく別の種類の集団からも届くことが多い。この集団は政府が運営するのでも利益のためでもない。気にかける問題に取り組もうと集まった普通の市民が作る。これを非政府組織、略してNGOという。名の通りNGOはどの政府からも独立している。この独立は重要だ。自由に発言し、国境を越えて働き、政治的許可を待たず素早く動けることを意味する。多くのNGOは国際的に活動し、自国から遠い国の人々を助ける。活動する理念は実に幅広い。災害後に食料・住まい・医療を提供するもの、環境を守るもの、人権を擁護するもの、教育を支えるもの、病気と闘うものがある。有給の職員とボランティアが混在し、活動資金は市民の寄付に頼ることが多い。助ける人々に近いため、遠く大きな機関より地域の問題をよく理解できる。見過ごされがちな問題に世間の注目を集め、政府に行動を促すこともできる。完璧ではないが、最良の時は人間性の希望を示す。",
+        quiz: [
+          { q: "What does 'NGO' stand for?", options: ["Non-governmental organisation", "National gold office", "New global order"], answer: 0 },
+          { q: "Why is an NGO's independence from government important?", options: ["It can speak freely, work across borders, and act quickly", "It can collect taxes", "It can command armies"], answer: 0 },
+          { q: "Where do NGOs usually get money for their work?", options: ["From donations from the public", "Only from selling weapons", "They never need money"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1106-4",
+        title: "Sumo: Japan's National Sport",
+        level: "★★☆",
+        genre: "日本",
+        text: "In a sport that is over a thousand years old, two very large men face each other inside a small circle of clay and sand. At a signal, they rush together with surprising speed and power, pushing, gripping, and twisting. Within seconds, it is often over. This is sumo, the traditional wrestling of Japan, and it is far more than a simple test of strength.\n\nThe rules of sumo are beautifully simple. The ring, called the dohyo, is a raised circle. A wrestler loses if any part of his body except the soles of his feet touches the ground, or if he is pushed out of the circle. There are no weight classes, so a smaller, cleverer wrestler can sometimes defeat a much heavier one using skill and balance.\n\nWhat makes sumo special, however, is its deep connection to tradition and ceremony. Sumo began long ago partly as a religious ritual, and much of that spirit remains today. Before a match, wrestlers throw salt into the ring to purify it, and they perform slow, powerful movements that have not changed for centuries.\n\nThe wrestlers themselves live a strict and disciplined life, often in special training houses where young wrestlers learn the sport and its manners. Their large size comes from careful training and eating, not from laziness.\n\nFor many Japanese people, sumo is not just entertainment but a living link to their country's long history. It blends sport, ceremony, and ancient custom into a single dramatic moment, played out again and again inside that small, sacred circle.",
+        summaryJa: "日本の国技・相撲について。千年以上の歴史を持つ競技で、二人の非常に大きな男が粘土と砂の小さな円の中で向き合う。合図とともに驚くほどの速さと力でぶつかり、押し、組み、ひねる。数秒で勝負がつくことも多い。これが日本の伝統的な格闘技、相撲であり、単なる力比べをはるかに超える。規則は見事に単純だ。土俵という盛り上がった円の中で、足の裏以外の体の一部が地面につくか、円の外へ押し出されると負けだ。体重別がないので、小柄で賢い力士が技とバランスでずっと重い相手を倒すこともある。だが相撲を特別にするのは伝統と儀式との深いつながりだ。相撲は昔、宗教的な儀式として始まった面があり、その精神が今も多く残る。取組の前、力士は塩を土俵にまいて清め、何世紀も変わらぬゆっくりとした力強い動作を行う。力士自身は厳しく規律ある生活を送り、しばしば特別な部屋で競技と作法を学ぶ。その大きな体は入念な稽古と食事から来る。多くの日本人にとって相撲は娯楽でなく歴史への生きたつながりだ。",
+        quiz: [
+          { q: "How does a sumo wrestler lose a match?", options: ["He touches the ground with his body or is pushed out of the circle", "He runs too fast", "He speaks during the match"], answer: 0 },
+          { q: "Why can a smaller wrestler sometimes win?", options: ["There are no weight classes, so skill and balance can beat size", "Bigger wrestlers are not allowed to win", "Small wrestlers start first"], answer: 0 },
+          { q: "Why do wrestlers throw salt into the ring?", options: ["To purify it, as part of sumo's old religious tradition", "To make the ground slippery", "To feed the audience"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1106-5",
+        title: "How Do Bats Find Their Way in the Dark?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "On a warm evening, you may see bats flying swiftly through the darkening sky, twisting and turning to catch tiny insects. It seems impossible. How can they fly so fast and so accurately in the dark, without crashing into trees or each other? The answer is one of nature's most amazing tricks, and it has little to do with their eyes.\n\nInstead of relying on sight, many bats see with sound. As a bat flies, it makes a stream of very high squeaks, so high that human ears cannot hear them at all. These sounds travel out into the darkness, and when they hit an object, such as a tree, a wall, or a flying insect, they bounce back as echoes.\n\nThe bat listens carefully to these returning echoes. From them, its brain builds a detailed picture of the world around it. A quick echo means an object is close; a slow one means it is far away. By sending out sounds and listening to the echoes again and again, the bat can judge the exact position, size, and even the movement of things nearby. This remarkable ability is called echolocation.\n\nEcholocation is so precise that a bat can catch a single moving insect in complete darkness, or fly through a thick forest without touching a leaf.\n\nSo bats are not blind, as people once believed. Rather, they have a second, extraordinary way of sensing the world. They show us that there is more than one way to find your path, and that nature often solves problems in surprising and wonderful ways.",
+        summaryJa: "コウモリが暗闇でどう道を見つけるのかについて。暖かい夕方、暗くなる空をコウモリが素早く飛び、身をひるがえして小さな虫を捕らえる様子を見るかもしれない。不可能に思える。木や互いにぶつからず、暗闇でなぜそれほど速く正確に飛べるのか。答えは自然の最も驚くべき技の一つで、目とはほとんど関係がない。多くのコウモリは視覚でなく音で「見る」。飛びながら非常に高い鳴き声の連なりを出す。高すぎて人間の耳には全く聞こえない。この音は暗闇へ進み、木や壁、飛ぶ虫などの物に当たるとこだまとなって跳ね返る。コウモリは戻るこだまを注意深く聞く。それから脳が周囲の詳しい像を作る。速いこだまは物が近い、遅いこだまは遠いことを意味する。音を出してこだまを聞くのを何度も繰り返し、近くの物の正確な位置・大きさ・動きまで判断できる。この驚くべき能力を反響定位（エコーロケーション）という。非常に精密で、真っ暗闇で一匹の動く虫を捕らえ、密林を葉に触れず飛べる。昔信じられたように盲目ではなく、世界を感じる並外れた第二の方法を持つのだ。",
+        quiz: [
+          { q: "How do many bats 'see' in the dark?", options: ["With sound, by listening to echoes", "With very bright eyes", "By smelling objects"], answer: 0 },
+          { q: "What does a quick returning echo tell the bat?", options: ["An object is close", "The sun is rising", "The bat is tired"], answer: 0 },
+          { q: "What is this ability called?", options: ["Echolocation", "Photosynthesis", "Hibernation"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-05",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Where did Halloween begin?", options: ["With an ancient Celtic festival in Europe", "In modern America only", "In a toy factory"], answer: 0 },
           { q: "Why did ancient people wear costumes?", options: ["To frighten away harmful spirits", "To stay warm in summer", "To win prizes"], answer: 0 },
           { q: "How did the glowing pumpkin become a Halloween symbol?", options: ["In America, pumpkins were perfect for carving", "It was always used in Europe", "It grew on its own"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-30",
-    passages: [
-      {
-        id: "d1030-1",
-        title: "Why Good Communication Matters at Work",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Many workplace problems do not come from a lack of skill or effort. They come from poor communication. A message that is unclear, a question that is never asked, or an email that is misunderstood can waste hours, cause mistakes, and create bad feelings. For this reason, good communication is one of the most valuable skills in any job.\n\nGood communication begins with being clear. When you give instructions or share an idea, it helps to say exactly what you mean, in simple words. It is also wise to check that the other person has understood, rather than assuming they have. A short question like \"Does that make sense?\" can prevent a big mistake later.\n\nListening is just as important as speaking. A good communicator pays full attention to others, instead of only waiting for their turn to talk. By truly listening, you understand what people need and show them respect, which builds trust.\n\nCommunication also means choosing the right way to share a message. A quick question may be best in person or by chat, while important details should be written down so they are not forgotten. Tone matters too: a polite, calm message is far more effective than an angry one.\n\nIn today's workplaces, people often work with others far away, in different countries and time zones. This makes clear writing and patience even more important.\n\nStrong communication will not solve every problem, but it prevents many. When people share information clearly and listen well, work becomes smoother, faster, and more pleasant for everyone.",
-        summaryJa: "職場で良い意思疎通が大切な理由について。職場の多くの問題は技能や努力の不足でなく、まずい意思疎通から生じる。不明確な伝達、聞かれなかった質問、誤解されたメールは、時間を無駄にし、ミスを生み、悪感情を作る。だから良い意思疎通はどの仕事でも最も価値ある技能の一つだ。まず明確であること。指示や考えを伝えるときは簡単な言葉で正確に言い、相手が理解したか確認するのが賢い。「分かりますか？」の一言が後の大失敗を防ぐ。話すのと同じくらい聞くことも重要で、自分の番を待つだけでなく全注意を向ける。真に聞けば相手の必要を理解し敬意を示し信頼が築かれる。伝える手段選びも大切で、簡単な質問は対面やチャット、重要な詳細は記録する。口調も大切で丁寧で穏やかな方が効果的だ。遠隔・多国間の仕事では明確な文章と忍耐がさらに重要になる。",
-        quiz: [
-          { q: "Where do many workplace problems come from?", options: ["Poor communication", "Too much skill", "Working too slowly on purpose"], answer: 0 },
-          { q: "Why is listening important?", options: ["It helps you understand needs and shows respect", "It wastes time", "It stops all work"], answer: 0 },
-          { q: "What makes clear communication even more important today?", options: ["People often work with others far away", "Everyone works in one room", "No one sends messages"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1030-2",
-        title: "How Do Speakers Make Sound?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "From tiny earphones to huge concert systems, speakers fill our lives with music, voices, and sound. We press play, and sound seems to appear from nowhere. But a speaker is really a clever machine that turns an electric signal back into the vibrations we hear as sound. How does it work?\n\nFirst, remember what sound really is: a vibration moving through the air. When something shakes quickly, it pushes the air into waves, and our ears sense these waves as sound. So to make sound, a speaker must make the air vibrate.\n\nInside a speaker is a cone, usually made of paper or plastic, attached to a coil of wire that sits near a magnet. When the electric signal from a phone or amplifier flows through the coil, it turns the coil into a magnet too. As the signal rapidly changes, the coil is pushed and pulled by the fixed magnet, moving back and forth very fast.\n\nThis moving coil shakes the cone, and the cone pushes the air, creating sound waves. The pattern of the electric signal decides exactly how the cone moves, so the speaker can reproduce a voice, a drum, or a violin.\n\nThe size of a speaker affects its sound. Large speakers move a lot of air and are good for deep, low sounds, while small ones are better for high notes. That is why big sound systems use several speakers of different sizes together.\n\nFrom a whisper to a roar, a speaker is simply electricity made audible, turning invisible signals into the sounds we love.",
-        summaryJa: "スピーカーが音を出す仕組みについて。小さなイヤホンから巨大なコンサート装置まで、スピーカーは音楽や声で生活を満たす。再生を押すと音がどこからともなく現れるようだが、スピーカーは電気信号を、私たちが音として聞く振動に戻す巧妙な機械だ。まず音とは空気を伝わる振動だ。何かが速く震えると空気が波となって押され、耳がそれを音と感じる。だから音を出すにはスピーカーが空気を振動させねばならない。内部には紙やプラスチックのコーン（円錐）があり、磁石の近くの線のコイルに付いている。スマホやアンプの電気信号がコイルを流れるとコイルも磁石になり、信号が急に変わるとコイルが固定磁石に押し引きされ高速で前後する。この動きがコーンを揺らし空気を押して音波を作る。信号の形がコーンの動きを決める。大きいスピーカーは低音、小さいものは高音が得意だ。",
-        quiz: [
-          { q: "What is sound, really?", options: ["A vibration moving through the air", "A type of light", "A color"], answer: 0 },
-          { q: "What makes the coil inside a speaker move?", options: ["The changing electric signal pushing against a magnet", "A small motor with wheels", "Falling water"], answer: 0 },
-          { q: "Why are large speakers good for low sounds?", options: ["They move a lot of air", "They are lighter", "They use no electricity"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1030-3",
-        title: "What Is a Refugee, and How Does the World Help?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Most people live their whole lives in the country where they were born. But sometimes, people are forced to flee their homeland to survive. They may be escaping war, violence, or persecution for their beliefs. A person who has fled to another country for safety, and cannot return home, is called a refugee.\n\nBecoming a refugee is not a choice made lightly. People leave behind their homes, jobs, and often family members, carrying only what they can hold. They cross borders hoping to find a place where they will be safe. At the end of their journey, they often arrive with nothing, in a country whose language they may not speak.\n\nHelping refugees has become a shared task for the world. An international agency works to protect them and to coordinate aid. Countries that receive refugees provide shelter, food, and medical care, often in large camps near the border. Over time, many refugees are helped to settle, find work, and send their children to school.\n\nThis is not easy. Caring for large numbers of people is expensive, and some communities worry about the strain. Yet there is a long-held principle, agreed by many nations, that people fleeing serious danger should not be sent back into it.\n\nBehind the word \"refugee\" are ordinary people, with hopes and skills, who lost their homes through no fault of their own. When the world helps them, it is not only an act of kindness. It is a promise that, in their worst moment, no human being should be left completely alone.",
-        summaryJa: "難民とは何か、そして世界はどう助けるかについて。多くの人は生まれた国で一生を過ごす。だが時に、人は生き延びるため故郷を逃れざるを得ない。戦争や暴力、信条ゆえの迫害から逃れることもある。安全を求めて他国へ逃れ、帰れない人を難民と呼ぶ。難民になるのは軽い選択ではない。家や仕事、しばしば家族を残し、持てる物だけを携え、安全な場所を求めて国境を越える。旅の果てに、言葉も通じない国へ何も持たずに着くことが多い。難民を助けることは世界共通の課題になった。国際機関が保護と援助の調整に当たり、受け入れ国は国境近くの大きなキャンプで住まい・食料・医療を提供する。やがて定住や就労、子の就学を助ける。費用は高く負担を心配する地域もあるが、重大な危険から逃れる人を送り返さないという多国間の原則がある。「難民」という語の背後には普通の人々がいる。",
-        quiz: [
-          { q: "Who is a refugee?", options: ["A person who flees to another country for safety and cannot return home", "A tourist on holiday", "A person who moves for a better job only"], answer: 0 },
-          { q: "What do countries that receive refugees often provide?", options: ["Shelter, food, and medical care", "Nothing at all", "Only money"], answer: 0 },
-          { q: "What long-held principle do many nations agree on?", options: ["People fleeing serious danger should not be sent back into it", "Refugees must always be sent home", "No one should ever cross a border"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1030-4",
-        title: "Omamori: Japanese Lucky Charms",
-        level: "★★☆",
-        genre: "日本",
-        text: "Visit a shrine or temple in Japan, and near the entrance you may find a counter selling small, colorful cloth bags. These are omamori, Japanese amulets believed to bring good luck and protection. Many Japanese people carry one in a bag or pocket, or hang it in their car or home.\n\nAn omamori is usually a small pouch of beautiful cloth, often silk, with words stitched on the front. Inside is a piece of paper or wood with a prayer written on it. By tradition, the omamori should not be opened; doing so is said to let the good luck escape.\n\nWhat makes omamori interesting is that each one is for a specific purpose. There are omamori for safe travel, for success in study, for good health, for finding love, and for the safe birth of a baby. Students buy them before important exams, and drivers keep one for safety on the road. When a person has a particular wish or worry, there is usually an omamori for it.\n\nOmamori are often given as gifts. A parent might give one to a child leaving home, or a friend might offer one to someone starting something new, as a way of saying, \"I am thinking of you.\"\n\nBy custom, an omamori lasts about a year. After that, people bring the old one back to a shrine to be respectfully burned, and may buy a new one. More than a simple charm, an omamori is a small, portable wish, carrying care, hope, and a quiet feeling of protection.",
-        summaryJa: "日本のお守りについて。日本の神社や寺を訪れると、入口近くで小さく色鮮やかな布の袋を売る場所がある。これが「お守り」で、幸運と加護をもたらすとされる。多くの人が鞄やポケットに入れて持ち歩き、車や家に下げる。お守りは普通、絹などの美しい布の小さな袋で、表に文字が縫われ、中に祈りを記した紙や木が入る。伝統では開けてはならず、開けると幸運が逃げるという。興味深いのは、それぞれ目的があることだ。交通安全、学業成就、健康、縁結び、安産などのお守りがある。学生は試験前に買い、運転手は安全のために持つ。願いや心配があればたいていそれ用のお守りがある。贈り物にもよくされ、家を出る子へ親が、何かを始める人へ友が渡す。約一年で、古いものは神社に返して焚き上げてもらい新しいものを買う。携帯できる小さな願いだ。",
-        quiz: [
-          { q: "What is an 'omamori'?", options: ["A Japanese amulet believed to bring luck and protection", "A type of food", "A kind of car"], answer: 0 },
-          { q: "Why should an omamori not be opened?", options: ["Opening it is said to let the good luck escape", "It contains money", "It is too heavy"], answer: 0 },
-          { q: "What is special about different omamori?", options: ["Each one is for a specific purpose, like travel or study", "They are all exactly the same", "They never last"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1030-5",
-        title: "What Are Stars Made Of?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "On a clear, dark night, the sky fills with thousands of tiny points of light. For most of human history, people could only wonder what the stars were. Today, thanks to science, we know a great deal about them. A star is not a tiny spark; it is an enormous ball of hot, glowing gas, so far away that it looks small.\n\nStars are made mostly of the two lightest and most common gases in the universe: hydrogen and helium. Deep inside a star, the pressure and heat are almost unimaginable. Under these conditions, something amazing happens: the hydrogen is squeezed so hard that its particles join together to form helium. This process, called nuclear fusion, releases a vast amount of energy.\n\nThat energy is what makes a star shine. It travels outward from the star's center and finally escapes as the light and heat we see and feel. Our own Sun is a star, and it is this same process that lights our days and warms our planet.\n\nStars are not all the same. Some are small and cool, glowing red, while others are huge and hot, shining blue-white. Stars also change over a very long life, often lasting billions of years, before they finally run out of fuel.\n\nThe next time you look up at the night sky, remember that each star is a distant sun, burning across unimaginable distances. The gentle light reaching your eyes began its journey long ago, from a giant furnace deep in space.",
-        summaryJa: "星は何でできているかについて。晴れた暗い夜、空は何千もの小さな光の点で満ちる。人類の歴史の大半、人は星が何かを想像するしかなかった。今は科学のおかげで多くが分かる。星は小さな火花でなく、巨大な高温の輝くガスの球で、遠いため小さく見える。星は宇宙で最も軽く一般的な二つの気体、水素とヘリウムが主成分だ。星の深部では圧力と熱が想像を絶し、水素が強く押されて粒子が結びつきヘリウムになる。これを核融合と呼び、膨大なエネルギーを放つ。そのエネルギーが星を輝かせ、中心から外へ進み、見える光や感じる熱として逃げる。太陽も星で、同じ過程が昼を照らし地球を温める。星は同じでなく、小さく赤いものも、巨大で青白いものもある。何十億年も生き、やがて燃料を使い果たす。あなたに届く光はずっと昔に旅立った。",
-        quiz: [
-          { q: "What is a star?", options: ["An enormous ball of hot, glowing gas", "A tiny spark near Earth", "A kind of cloud"], answer: 0 },
-          { q: "What are stars made mostly of?", options: ["Hydrogen and helium", "Rock and metal", "Ice and dust"], answer: 0 },
-          { q: "What makes a star shine?", options: ["Energy released by nuclear fusion in its center", "A battery inside it", "Reflected light from Earth"], answer: 0 }
         ]
       }
     ]
