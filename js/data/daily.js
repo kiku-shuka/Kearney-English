@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-07",
+    passages: [
+      {
+        id: "d1107-1",
+        title: "What Is a Patent?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Imagine you spend years, and a great deal of money, inventing a clever new machine. The moment you start selling it, a larger company copies your idea exactly, makes it more cheaply, and takes all the customers. This would feel deeply unfair, and it might stop people from ever bothering to invent anything. To prevent this problem, societies created a special kind of right called a patent.\n\nA patent is a legal protection given to the inventor of something new and useful. For a limited number of years, usually around twenty, it gives the inventor the exclusive right to make and sell their invention. During this time, no one else may copy it without the inventor's permission. This gives inventors a fair chance to earn money from their hard work and clever ideas.\n\nBut a patent is not only about protecting one person. In exchange for this protection, the inventor must publicly explain exactly how the invention works. This information is published for everyone to read. So while others cannot copy the invention yet, they can learn from it, and they can build new ideas upon it.\n\nIn this way, a patent tries to balance two needs. It rewards inventors, encouraging them to keep creating. At the same time, it slowly shares useful knowledge with the whole world.\n\nWhen the patent finally ends, anyone may use the invention freely. Many everyday products we now take for granted were once protected by patents. The system is an attempt to make sure that good ideas are both rewarded and, in time, shared with all.",
+        summaryJa: "特許とは何かについて。巧妙な新しい機械の発明に何年も多額の金も費やしたとしよう。売り始めた途端、大企業がその考えをそっくり真似て安く作り、客を全部奪う。これはひどく不公平に感じられ、人々が発明しようとする気をなくさせかねない。この問題を防ぐため、社会は特許という特別な権利を作った。特許は、新しく有用な物の発明者に与えられる法的保護だ。限られた年数、たいてい二十年ほど、発明者に自分の発明を作り売る独占的権利を与える。その間、他の誰も発明者の許可なく真似できない。これにより発明者は努力と知恵から正当に稼ぐ機会を得る。だが特許は一人を守るだけではない。保護と引き換えに、発明者は発明の仕組みを正確に公に説明せねばならない。この情報は誰もが読めるよう公開される。だから他者はまだ真似できないが、そこから学び、新しい考えを積み重ねられる。こうして特許は、発明者に報い創作を促すことと、有用な知識を世界と分かち合うことの均衡を図る。特許が終わると誰でも自由に使える。",
+        quiz: [
+          { q: "What does a patent give an inventor?", options: ["The exclusive right to make and sell their invention for a limited time", "The right to copy others' inventions", "Free money forever"], answer: 0 },
+          { q: "What must an inventor do in exchange for a patent?", options: ["Publicly explain exactly how the invention works", "Keep the invention totally secret", "Give the invention away at once"], answer: 0 },
+          { q: "What happens when a patent finally ends?", options: ["Anyone may use the invention freely", "The invention is destroyed", "The inventor is punished"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1107-2",
+        title: "How Does an Electric Kettle Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "An electric kettle is one of the most useful machines in a modern kitchen. You fill it with water, press a switch, and in a minute or two the water is boiling. Then, just as you need it, the kettle clicks and switches itself off. It seems simple, but inside this everyday object are two clever pieces of engineering working together.\n\nThe first is the heating element. At the bottom of the kettle is a metal coil or plate. When you press the switch, electricity flows through this element. The element strongly resists the flow of electricity, and this resistance makes it become very hot, very quickly. The heat passes straight into the water touching it, and soon the whole kettle of water is boiling.\n\nThe second clever part answers an important question: how does the kettle know when to stop? If it kept heating, it would boil dry and could start a fire. The answer is a special part called a thermostat. Inside it is usually a piece of metal made of two different layers joined together. As the water boils, hot steam rises and warms this metal. Because the two layers expand at different rates when heated, the metal bends. This tiny bending movement is just enough to flip the switch and cut off the electricity.\n\nSo the kettle boils the water quickly and then protects itself automatically. This simple partnership of a heating element and a heat-sensitive switch is a small masterpiece of design, quietly making a safe cup of tea possible millions of times a day.",
+        summaryJa: "電気ケトルの仕組みについて。電気ケトルは現代の台所で最も便利な機械の一つだ。水を入れ、スイッチを押すと、一、二分で湯が沸く。そして必要なちょうどその時、ケトルはカチッと鳴って自分で電源を切る。単純に見えるが、この日用品の中では二つの巧妙な工学が協力している。一つ目は発熱体だ。ケトルの底に金属のコイルか板がある。スイッチを押すと電気がこの発熱体を流れる。発熱体は電気の流れに強く抵抗し、この抵抗で素早く非常に熱くなる。熱は接する水へ直接伝わり、やがてケトル中の水が沸く。二つ目の巧妙な部分は重要な問いに答える。いつ止めるべきとケトルはどう分かるのか。加熱し続ければ空だきして火事になりかねない。答えはサーモスタットという特別な部品だ。中にはたいてい二枚の異なる金属を貼り合わせた板がある。湯が沸くと熱い蒸気が上り、この金属を温める。二層は熱で膨らむ割合が違うため金属が曲がる。このわずかな曲がりがスイッチを切るのにちょうど足りる。素早く沸かし自動で身を守る見事な設計だ。",
+        quiz: [
+          { q: "What makes the heating element become hot?", options: ["It resists the flow of electricity, which produces heat", "It is filled with hot air", "It uses a tiny fire"], answer: 0 },
+          { q: "Why does the kettle need to switch off automatically?", options: ["Otherwise it would boil dry and could start a fire", "To save the water's color", "To make the water colder"], answer: 0 },
+          { q: "How does the thermostat sense that the water is boiling?", options: ["Steam warms a two-layer metal that bends and flips the switch", "It hears the bubbles", "It counts the minutes only"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1107-3",
+        title: "How Do Nations Cooperate in Space?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Space exploration is one of the most difficult and expensive things that humans attempt. Building rockets, sending people safely beyond the Earth, and keeping them alive in the emptiness of space costs enormous amounts of money and requires brilliant minds. For this reason, space has become a surprising place where nations, even rival ones, often work together.\n\nThe most famous example is a large laboratory that orbits high above the Earth, built and run by several countries together. Astronauts from different nations live and work there side by side for months. The equipment, the costs, and the scientific discoveries are all shared. In the silence of space, people who might disagree on Earth cooperate closely to survive and to learn.\n\nNations also agree on important rules for space. Long ago, countries signed treaties promising that space would be used peacefully, that no nation could claim to own the Moon or a planet, and that space should benefit all of humanity. These agreements help keep space calm and open to everyone.\n\nCooperation makes good sense. By sharing the huge costs, countries can achieve together what none could easily afford alone. By sharing knowledge, they help science move faster for the benefit of all. And by working side by side, scientists and astronauts build trust and friendship across borders.\n\nSpace is vast, difficult, and dangerous. Perhaps that is exactly why it so often brings people together. Looking down at the Earth from far above, with no borders visible, many astronauts have said the same thing: from space, we are simply one world.",
+        summaryJa: "国々は宇宙でどう協力するのかについて。宇宙探査は人類が挑む最も難しく費用のかかることの一つだ。ロケットを作り、人を安全に地球の外へ送り、宇宙の虚空で生かし続けるには膨大な金と優れた頭脳が要る。だからこそ宇宙は、競い合う国同士さえしばしば協力する意外な場になった。最も有名な例は、地球のはるか上を回る大きな実験室で、数か国が共同で建設・運営する。異なる国の宇宙飛行士が何か月も肩を並べて暮らし働く。設備も費用も科学的発見もすべて分かち合う。宇宙の静寂の中、地上では対立しうる人々が生き延び学ぶため密に協力する。宇宙の重要な規則にも各国は合意する。昔、各国は、宇宙は平和に使う、どの国も月や惑星を所有できない、宇宙は全人類の利益になるべきだと約束する条約に署名した。これらは宇宙を穏やかで開かれた場に保つ。協力は理にかなう。巨額の費用を分け合い、一国では難しいことを共に達成し、知識を分かち科学を速める。国境を越えた信頼と友情も築く。宇宙から見れば私たちは一つの世界だ、と多くの飛行士が語る。",
+        quiz: [
+          { q: "Why do nations often cooperate in space?", options: ["It is so difficult and expensive that sharing costs and knowledge helps", "Because space is cheap and easy", "Because one country owns space"], answer: 0 },
+          { q: "What is the famous example of space cooperation described?", options: ["A large laboratory orbiting Earth, built and run by several countries", "A single private rocket", "A museum on the Moon"], answer: 0 },
+          { q: "What did countries promise in their space treaties?", options: ["Space would be used peacefully and no nation could own the Moon", "Each country could claim its own planet", "Space would be kept secret"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1107-4",
+        title: "Nengajo: Japan's New Year Greeting Cards",
+        level: "★★☆",
+        genre: "日本",
+        text: "As the end of the year approaches in Japan, people become busy with a cherished tradition: writing nengajo, or New Year greeting cards. These simple postcards are sent to friends, family, colleagues, and anyone a person wishes to thank. For a short time, the whole country takes part in one enormous exchange of good wishes.\n\nA nengajo carries a short, warm message. People thank others for their kindness in the past year and wish them health and happiness in the year to come. Many cards are decorated with the animal of the coming year, taken from the twelve-year cycle of the Japanese zodiac, such as the rat, the ox, or the tiger.\n\nWhat makes nengajo truly special is their timing. People write their cards in December and post them in time for a remarkable service: the post office carefully holds all the cards and delivers them together on the morning of January the first. On New Year's Day, families wake to find a pile of greetings from everyone who was thinking of them.\n\nIn recent years, as mobile phones and messaging apps have spread, fewer young people send paper nengajo. Yet the custom remains deeply loved. There is something special about holding a real card, chosen and written by hand, that a quick digital message cannot quite replace.\n\nThe nengajo is a gentle, thoughtful tradition. Once a year, it gives millions of people a quiet reason to stop, remember the people who matter to them, and send a few kind words across the distance.",
+        summaryJa: "日本の年賀状について。日本で年の瀬が近づくと、人々は大切な伝統で忙しくなる。年賀状を書くことだ。この簡素なはがきは友人や家族、同僚、感謝したい相手に送られる。短い間、国全体が一つの巨大な祝いの言葉のやり取りに加わる。年賀状には短く温かい言葉が記される。過去一年の親切に礼を述べ、来る年の健康と幸せを願う。多くは十二年周期の干支から取った翌年の動物（子・丑・寅など）で飾られる。年賀状を本当に特別にするのはその時期だ。人々は十二月に書いて、見事な仕組みに間に合うよう投函する。郵便局がすべての年賀状を丁寧に預かり、一月一日の朝にまとめて配達するのだ。元日、家族は自分を思ってくれた皆からの挨拶の山を見つけて目覚める。近年、携帯電話やメッセージアプリの普及で紙の年賀状を送る若者は減った。だが習慣は深く愛されている。手で選び書かれた本物のカードには、素早いデジタルの便りでは置き換えられない特別な何かがある。大切な人を思い出す静かな理由を与える。",
+        quiz: [
+          { q: "What is a nengajo?", options: ["A New Year greeting card sent to friends, family, and others", "A kind of New Year food", "A type of money gift"], answer: 0 },
+          { q: "What is special about when nengajo are delivered?", options: ["The post office holds them and delivers them together on January 1st", "They arrive one year late", "They are never delivered"], answer: 0 },
+          { q: "Why do many people still love sending paper nengajo?", options: ["A real, handwritten card feels special in a way a digital message cannot", "They are cheaper than phones", "The law requires it"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1107-5",
+        title: "How Do Plants Drink Water?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Every living thing needs water, and plants are no exception. A large tree may use hundreds of litres of water on a hot day. Yet a plant has no mouth and no heart to pump liquid around its body. So here is a surprising puzzle: how does a plant pull water all the way up from the soil, sometimes to the top of a tall tree, without any pump at all?\n\nThe journey begins underground. A plant's roots spread out in the soil, covered in tiny hairs that soak up water, rather like a sponge. The water then enters a system of very thin tubes that run all the way up through the stem or trunk and out into every leaf. These tubes are narrower than a human hair.\n\nThe real secret, however, is up in the leaves. On a warm day, water slowly evaporates from tiny holes in the leaves and escapes into the air. As each drop of water leaves, it gently pulls the next drop up behind it. Because water sticks to itself, the whole thread of water in the tube is pulled upward, like a long chain being drawn up from above.\n\nIn this way, the sun and the air do the work that a pump would do in an animal. As water escapes from the leaves, more is quietly drawn up from the roots to replace it.\n\nSo a plant does not really drink in the way we do. Instead, it lets water flow through its body in a slow, silent stream, powered simply by sunshine and evaporation.",
+        summaryJa: "植物はどうやって水を飲むのかについて。生き物はみな水を必要とし、植物も例外でない。大きな木は暑い日に何百リットルもの水を使うことがある。だが植物には口も、液体を体中に送る心臓もない。そこで意外な謎がある。ポンプもないのに、植物はどうやって土から水を、時に高い木のてっぺんまで引き上げるのか。旅は地下で始まる。植物の根は土中に広がり、海綿のように水を吸う小さな毛で覆われている。水はその後、茎や幹をずっと上まで通り、すべての葉へ出る非常に細い管の系に入る。この管は人の髪より細い。だが本当の秘密は葉の上にある。暖かい日、水は葉の小さな穴からゆっくり蒸発し空気へ逃げる。水の一滴が去るたび、後ろの次の滴を優しく引き上げる。水は互いにくっつくので、管の中の水の糸全体が上へ引かれる。上から長い鎖を引き上げるようだ。こうして太陽と空気が、動物のポンプの役割を果たす。葉から水が逃げると、代わりに根からさらに引き上げられる。植物は私たちのように飲むのでなく、日光と蒸発だけで体を水が静かに流れるのだ。",
+        quiz: [
+          { q: "How does water first enter a plant?", options: ["Through tiny hairs on its roots that soak up water from the soil", "Through its flowers", "It makes water inside itself"], answer: 0 },
+          { q: "What pulls water up to the top of a plant?", options: ["Water evaporating from the leaves pulls the next drops up behind it", "A small heart pumps it", "The wind pushes it up"], answer: 0 },
+          { q: "What powers this movement of water?", options: ["Sunshine and evaporation", "Electricity from the soil", "The plant's muscles"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-06",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why can't water alone remove grease well?", options: ["Grease and oil do not mix with water by themselves", "Water is too strong", "Grease loves water"], answer: 0 },
           { q: "What is special about a soap particle?", options: ["One end loves water; the other loves oil and grease", "It is made of metal", "It has no ends"], answer: 0 },
           { q: "How does soap remove grease?", options: ["It surrounds grease so it can mix with water and rinse away", "It burns the grease", "It freezes the grease"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-10-31",
-    passages: [
-      {
-        id: "d1031-1",
-        title: "What Is Profit?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "At the heart of almost every business is a single important idea: profit. People start companies, work hard, and take risks largely in the hope of making a profit. But what exactly is profit, and why does it matter so much?\n\nProfit is, quite simply, the money a business has left after it pays all its costs. Imagine a baker who sells bread. In one day, she takes in a certain amount of money from customers. But she also has costs: flour, electricity, rent for the shop, and the wages of her workers. If what she earns is greater than what she spends, the difference is her profit. If she spends more than she earns, she makes a loss.\n\nProfit matters for several reasons. First, it is how a business survives. Without profit, a company cannot pay its bills for long and will eventually close. Second, profit allows a business to grow. The baker might use her profit to buy a bigger oven, open a second shop, or hire more staff.\n\nProfit is not the same as the total money coming in, which is called revenue. A shop can have high revenue but still make no profit if its costs are just as high. Wise business owners watch both carefully.\n\nOf course, most good businesses care about more than profit alone, such as treating customers and workers well. But profit remains the fuel that keeps a business alive. Without it, even a company full of good ideas cannot keep its doors open.",
-        summaryJa: "利益とは何かについて。ほぼ全てのビジネスの中心に、利益という重要な考えがある。人が会社を始め、懸命に働き、リスクを取るのは、主に利益を得る望みからだ。利益とは何で、なぜ重要なのか。利益とは、全ての費用を払った後に事業に残るお金だ。パンを売るパン職人を想像しよう。一日で客から一定のお金を得るが、小麦粉・電気・家賃・従業員の賃金という費用もある。稼ぎが支出より多ければその差が利益、支出が多ければ損失だ。利益が重要な理由はいくつかある。第一に事業の存続で、利益がなければ支払いが続かずやがて閉じる。第二に成長を可能にし、大きなオーブンや二号店、増員に使える。利益は入ってくる総額（収益）とは違い、収益が高くても費用も高ければ利益はない。良い経営者は両方を注視する。利益は事業を生かす燃料だ。",
-        quiz: [
-          { q: "What is profit?", options: ["The money left after a business pays all its costs", "The total money that comes in", "A type of tax"], answer: 0 },
-          { q: "What is the difference between profit and revenue?", options: ["Revenue is total money in; profit is what remains after costs", "They are exactly the same", "Profit is always larger than revenue"], answer: 0 },
-          { q: "Why does profit matter?", options: ["It lets a business survive and grow", "It makes costs disappear", "It is never needed"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1031-2",
-        title: "How Does a Vacuum Cleaner Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "A vacuum cleaner seems to do something magical: it sucks up dust and dirt from the floor as if by an invisible force. We push it around the room, and the mess disappears. But there is no magic here, only a clever use of a simple idea about air and pressure.\n\nThe secret is moving air. Inside the vacuum cleaner is an electric motor that spins a fan very fast. This fan pushes air out of the back of the machine. As the air is pushed out, it leaves behind an area with less air inside the machine, a region of low pressure.\n\nHere is the important part. The air outside, at normal pressure, always tries to rush into any space with lower pressure. So the higher-pressure air outside pushes its way in through the opening at the bottom of the vacuum. As this air rushes in, it carries dust and dirt along with it, lifting them off the floor.\n\nThe dusty air is then pulled through a bag or a container, which has a filter. The filter is like a fine net: it lets the air pass through but traps the dust and dirt inside. The clean air then flows out the back, and the dirt stays behind.\n\nSo a vacuum cleaner does not really \"suck.\" Instead, it lowers the pressure inside, and the ordinary air outside does the pushing. It is an everyday example of how understanding air pressure can turn a simple fan into a useful cleaning machine.",
-        summaryJa: "掃除機の仕組みについて。掃除機は見えない力でほこりやごみを吸い取る魔法のように見える。押して回すとごみが消える。だが魔法はなく、空気と圧力についての単純な考えを巧みに使っているだけだ。鍵は動く空気だ。掃除機の中では電動モーターがファンを高速で回し、機械の後ろから空気を押し出す。空気が押し出されると、中に空気の少ない低圧の領域ができる。重要なのはここだ。外の通常の圧力の空気は、圧力の低い空間へ流れ込もうとする。だから外の高い圧力の空気が、掃除機の底の口から押し入る。この空気が流れ込む際にほこりやごみを巻き込み床から持ち上げる。ほこりを含んだ空気は袋や容器のフィルターを通り、フィルターは細かい網のように空気は通しごみは捕らえる。きれいな空気が後ろから出る。掃除機は「吸う」のでなく内部の圧力を下げ、外の空気が押している。",
-        quiz: [
-          { q: "What does the fan inside a vacuum cleaner do?", options: ["Pushes air out, creating low pressure inside", "Blows dust onto the floor", "Makes the machine heavier"], answer: 0 },
-          { q: "Why does air rush into the vacuum cleaner?", options: ["Higher-pressure air outside pushes into the low-pressure space", "The dust pulls it in", "The motor blows it in"], answer: 0 },
-          { q: "What does the filter do?", options: ["Lets air pass but traps dust and dirt", "Makes more dust", "Stops the motor"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1031-3",
-        title: "Why Do Countries Have Flags?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "At the Olympic Games, outside government buildings, and on ships at sea, you will see them: flags. Almost every country in the world has one, a piece of colored cloth with a special design. A flag may seem like a simple decoration, but it is one of the most powerful symbols a nation can have. Why do countries bother to have flags, and what do they mean?\n\nA flag's main purpose is to represent a whole country in a single image. The colors and shapes are not chosen by accident. Each usually carries a meaning, standing for the nation's history, values, land, or people. A star might represent hope, a color might stand for courage or peace, and a shape might recall an important event. In this way, a flag tells a short story about who a people believe they are.\n\nFlags also bring people together. When citizens see their flag, they may feel a sense of shared identity and belonging, a reminder that they are part of something larger than themselves. At sporting events, people wave flags with pride and joy.\n\nFlags are practical too. Long ago, armies and ships used flags to identify themselves from a distance, and this use continues today. An agreed set of flags lets nations recognize one another instantly, without a single word.\n\nA flag is only cloth, yet people treat it with deep respect, because of what it stands for. In its colors and patterns, a nation carries its past, its hopes, and its sense of unity, held up for all the world to see.",
-        summaryJa: "国に国旗がある理由について。オリンピックや官庁の前、海上の船で国旗を目にする。世界のほぼ全ての国が、特別な意匠の色布を持つ。単なる飾りに見えるが、国が持てる最も強力な象徴の一つだ。なぜ国旗を持ち、何を意味するのか。国旗の主な目的は、一つの図像で国全体を表すことだ。色や形は偶然でなく、たいてい意味を持ち、国の歴史・価値観・土地・人々を表す。星は希望、ある色は勇気や平和、形は重要な出来事を思い起こさせる。こうして国旗は、人々が自分たちを何者と信じるかの短い物語を語る。国旗は人を結びつけ、国民は共有の帰属意識を感じ、競技会では誇りと喜びで振る。実用もあり、昔は軍や船が遠くから自他を識別し、今も続く。布にすぎないが、その象徴ゆえに深く敬われる。過去と希望、結束を掲げる。",
-        quiz: [
-          { q: "What is a flag's main purpose?", options: ["To represent a whole country in a single image", "To keep people warm", "To block the wind"], answer: 0 },
-          { q: "Why are a flag's colors and shapes chosen?", options: ["They usually carry meanings about history, values, or people", "They are picked at random", "They mean nothing"], answer: 0 },
-          { q: "How did armies and ships use flags long ago?", options: ["To identify themselves from a distance", "To cook food", "To measure time"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1031-4",
-        title: "Obon: Honoring Ancestors in Japan",
-        level: "★★☆",
-        genre: "日本",
-        text: "Every summer in Japan, there is a special time when families remember and welcome the spirits of their ancestors. This gentle tradition is called Obon, and it is one of the most important events of the Japanese year. Though it is not a sad occasion, it is a deeply meaningful one, blending memory, family, and quiet celebration.\n\nObon is based on an old belief that, for a few days each summer, the spirits of family members who have died return to visit the living. To welcome them, families clean the graves of their ancestors and place offerings of food and flowers. Many people travel long distances to return to their hometowns, so Obon becomes a time of family reunion.\n\nSeveral beautiful customs mark the season. People light small lanterns to help guide the spirits home, and at the end of Obon, some float paper lanterns on rivers or the sea to see the spirits off again. In many towns, people gather in the evening for a dance called Bon Odori, moving in a circle to the beat of a drum. Anyone can join, and the dance welcomes both the living and the visiting spirits.\n\nObon shows an important idea in Japanese culture: a deep respect for ancestors and a sense that family connections continue even after death. Rather than fearing the dead, people welcome them warmly, with food, light, and dancing.\n\nFor many Japanese, Obon is a time to pause, to feel grateful to those who came before, and to be together with family, old and new.",
-        summaryJa: "日本のお盆について。毎夏、日本には家族が先祖の霊を思い出し迎える特別な時がある。この穏やかな伝統を「お盆」と呼び、日本の一年で最も大切な行事の一つだ。悲しい機会ではなく、記憶と家族と静かな祝いが混じる深い意味を持つ時だ。お盆は、夏の数日間、亡くなった家族の霊が生者を訪ねて戻るという古い信仰に基づく。迎えるため家族は先祖の墓を清め、食べ物や花を供える。多くの人が遠くから故郷へ帰り、お盆は家族の再会の時になる。美しい習わしも多く、霊を家へ導く小さな灯をともし、お盆の終わりには紙の灯籠を川や海に流して霊を送る。夕方には太鼓に合わせて輪になって踊る「盆踊り」に集い、誰でも加われ、生者と訪れた霊を迎える。先祖への深い敬意と、死後も家族のつながりが続く感覚を示す。死を恐れず温かく迎える。",
-        quiz: [
-          { q: "What does Obon welcome?", options: ["The spirits of ancestors returning to visit", "The start of winter", "A sports season"], answer: 0 },
-          { q: "What is 'Bon Odori'?", options: ["A dance in a circle to the beat of a drum", "A type of food", "A kind of boat"], answer: 0 },
-          { q: "What idea does Obon show in Japanese culture?", options: ["Deep respect for ancestors and lasting family ties", "That the past should be forgotten", "That family does not matter"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1031-5",
-        title: "The History of Halloween",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Each year on the 31st of October, in many countries, children dress up as ghosts, witches, and monsters and go from house to house asking for sweets. Adults wear costumes to parties, and homes are decorated with pumpkins carved into glowing faces. This is Halloween. It is great fun, but it also has a long and interesting history.\n\nHalloween began more than two thousand years ago, with an ancient festival held by the Celtic people of Europe. They celebrated the end of the harvest and the start of winter, around the start of November. They believed that on the night before, the line between the living and the dead grew thin, and spirits could walk the earth. People lit fires and wore costumes, hoping to frighten away any harmful spirits.\n\nOver many centuries, this old festival mixed with other traditions and slowly changed into the holiday we know today. The custom of carving faces into vegetables also comes from these old times. When people later moved to America, they found that pumpkins were perfect for carving, and the glowing pumpkin became a famous symbol of Halloween.\n\nToday, Halloween is less about spirits and more about fun. The old idea of wearing costumes to scare away ghosts has become a cheerful game of dressing up. Children's \"trick or treat\" turns a night of fear into a night of sweets and laughter.\n\nFrom an ancient fire festival to a modern celebration, Halloween shows how traditions can travel across time and around the world, changing as they go.",
-        summaryJa: "ハロウィーンの歴史について。毎年10月31日、多くの国で子どもが幽霊や魔女、怪物に扮して家々を回りお菓子をねだる。大人は仮装してパーティーへ行き、家はかぼちゃを彫った光る顔で飾られる。これがハロウィーンだ。楽しいが長く興味深い歴史もある。ハロウィーンは二千年以上前、ヨーロッパのケルト人の古い祭りに始まった。彼らは収穫の終わりと冬の始まり（11月初め頃）を祝い、その前夜に生者と死者の境が薄くなり霊が地上を歩けると信じた。人々は火をたき仮装し、害ある霊を追い払おうとした。何世紀もかけて他の伝統と混ざり今の祝日に変わった。野菜に顔を彫る習わしも昔から来ており、後に人々がアメリカへ移るとかぼちゃが彫刻に最適で、光るかぼちゃが有名な象徴になった。今は霊より楽しみが中心で、仮装は陽気な遊びになった。",
-        quiz: [
-          { q: "Where did Halloween begin?", options: ["With an ancient Celtic festival in Europe", "In modern America only", "In a toy factory"], answer: 0 },
-          { q: "Why did ancient people wear costumes?", options: ["To frighten away harmful spirits", "To stay warm in summer", "To win prizes"], answer: 0 },
-          { q: "How did the glowing pumpkin become a Halloween symbol?", options: ["In America, pumpkins were perfect for carving", "It was always used in Europe", "It grew on its own"], answer: 0 }
         ]
       }
     ]
