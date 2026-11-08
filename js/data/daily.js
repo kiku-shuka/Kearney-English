@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-08",
+    passages: [
+      {
+        id: "d1108-1",
+        title: "What Is Interest?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Suppose you lend a friend some money, and a year later they pay you back exactly the same amount. You have gained nothing, even though your friend used your money for a whole year. In the world of finance, money almost never works this way. When money is borrowed or saved, a little extra is usually added over time. This extra money is called interest.\n\nInterest can be understood simply as the cost of using someone else's money, or the reward for lending yours. It is usually described as a percentage of the amount, charged each year. For example, if you borrow 100 and the interest rate is five percent, after one year you owe 105.\n\nInterest works in two directions, and this is important to understand. When you put money into a savings account at a bank, the bank is really borrowing your money. In return, it pays you interest, so your savings slowly grow. But when you borrow money, for a car or a house, you must pay interest to the lender, so you pay back more than you borrowed.\n\nThere is also a powerful effect called compound interest. This happens when you earn interest not only on your original money, but also on the interest you have already earned. Over many years, this can make savings grow surprisingly large.\n\nUnderstanding interest is one of the most useful money skills a person can have. It quietly shapes saving, borrowing, and the price of almost everything bought over time, affecting nearly every financial choice we make.",
+        summaryJa: "利子・金利とは何かについて。友人にお金を貸し、一年後にちょうど同じ額を返してもらったとしよう。友人は一年間あなたのお金を使ったのに、あなたは何も得ていない。金融の世界では、お金はほぼこうは働かない。お金が借りられたり預けられたりすると、時とともに普通は少し上乗せされる。この上乗せ分を利子（金利）という。利子は、他人のお金を使う費用、または自分のお金を貸す報酬と単純に理解できる。たいてい金額に対する割合として年ごとに示される。例えば100を借りて金利が5%なら、一年後には105を返すことになる。利子は二方向に働く点が重要だ。銀行の預金口座にお金を入れると、実は銀行があなたのお金を借りている。見返りに利子を払い、貯金が少しずつ増える。だが車や家のためにお金を借りると、貸し手に利子を払い、借りた以上を返す。複利という強力な効果もある。元のお金だけでなく、既に得た利子にも利子がつくことだ。長年で貯金は驚くほど大きく育つ。利子の理解は最も役立つお金の技能の一つだ。",
+        quiz: [
+          { q: "What is interest?", options: ["The cost of using someone else's money, or the reward for lending yours", "A kind of tax on food", "A type of bank building"], answer: 0 },
+          { q: "What happens when you put money in a savings account?", options: ["The bank borrows it and pays you interest, so your savings grow", "You must pay the bank extra each year", "Your money disappears"], answer: 0 },
+          { q: "What is compound interest?", options: ["Earning interest on your original money and on the interest already earned", "Interest that never changes", "A fee for closing an account"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1108-2",
+        title: "How Does a Camera Take a Photo?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "A photograph can freeze a single moment forever: a smile, a sunset, a crowded street. We take thousands of pictures with our phones without a second thought. But behind every photo lies a clever process, one that cameras share with our own eyes. At its heart, a camera is simply a device for catching light.\n\nLight is the key to everything. When you look at an object, light bounces off it and travels in all directions. A camera's job is to collect some of that light and record the pattern it makes. To do this well, every camera has a lens.\n\nThe lens is a specially shaped piece of glass or plastic that bends the incoming light. As the scattered light passes through the lens, it is bent so that the rays come together neatly and form a sharp, clear image inside the camera. This is called focusing, and it is the same thing the lens in your eye does.\n\nIn the past, this focused image fell onto a piece of film coated with chemicals that reacted to light. In modern digital cameras, it falls instead onto an electronic sensor. This sensor is covered with millions of tiny light-detectors. Each one measures how much light and what colour hits it, and turns that into numbers.\n\nThe camera then combines all these millions of measurements into a single picture, made of tiny coloured dots. This is your photograph, stored as data.\n\nSo every photo is really a careful recording of light, captured through a lens and frozen in an instant, ready to be looked at again and again.",
+        summaryJa: "カメラはどうやって写真を撮るのかについて。写真は一瞬を永遠に凍らせる。笑顔、夕日、混んだ通り。私たちは何気なくスマホで何千枚も撮る。だがどの写真の裏にも巧妙な過程があり、それは私たち自身の目と共通する。カメラは要するに光を捕らえる装置だ。光がすべての鍵だ。物を見ると、光が物に当たって跳ね返り四方へ進む。カメラの仕事は、その光の一部を集め、作る模様を記録することだ。そのため、どのカメラにもレンズがある。レンズは特別な形のガラスかプラスチックで、入ってくる光を曲げる。散らばった光がレンズを通ると曲げられ、光線がきれいに集まってカメラ内に鮮明な像を結ぶ。これを焦点合わせといい、目のレンズがするのと同じだ。昔はこの像が光に反応する薬品を塗ったフィルムに落ちた。現代のデジタルカメラでは電子センサーに落ちる。センサーは何百万もの小さな光検出器で覆われ、各々が当たる光の量と色を測り数値に変える。カメラはこの数百万の測定を一枚の絵にまとめる。写真は光の記録だ。",
+        quiz: [
+          { q: "What does a camera basically do?", options: ["It catches light and records the pattern it makes", "It creates light from nothing", "It measures sound"], answer: 0 },
+          { q: "What does the lens do?", options: ["It bends the light so the rays form a sharp, clear image", "It colors the photo by hand", "It stores the picture"], answer: 0 },
+          { q: "What does a digital camera's sensor do?", options: ["Millions of tiny detectors measure the light and color and turn it into numbers", "It paints the image with ink", "It plays the sound of the scene"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1108-3",
+        title: "What Does the World Health Organization Do?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Diseases do not respect borders. A sickness that begins in one country can, in our connected world, spread to others within days. No single nation can protect itself completely on its own. For this reason, the countries of the world created a special organisation to work together on health: the World Health Organization, often shortened to WHO.\n\nThe WHO is part of the United Nations, and almost every country in the world is a member. Its basic goal is simple but enormous: to help all people everywhere reach the best possible health. To do this, it works in many different ways.\n\nOne of its most important jobs is watching for dangerous diseases. The WHO acts like a global lookout, collecting information from around the world. If a serious illness begins to spread, it can warn other countries quickly and help coordinate a response. It also leads huge campaigns to fight specific diseases, such as efforts to vaccinate children everywhere.\n\nThe WHO does much quieter work too. It gathers health information, sets common standards, and gives scientific advice that countries can trust. It helps poorer nations build hospitals, train nurses and doctors, and provide clean water and medicine.\n\nLike any large organisation, the WHO is not perfect, and it depends on the cooperation and funding of its members. But its basic idea is a hopeful one. It reflects a simple truth that the world slowly learned: that protecting the health of people in distant lands also helps protect the health of everyone, including ourselves.",
+        summaryJa: "世界保健機関（WHO）は何をするのかについて。病気は国境を尊重しない。一国で始まった病が、つながった世界では数日で他国へ広がりうる。一国だけで完全に身を守れる国はない。だから世界の国々は、健康のために協力する特別な組織を作った。世界保健機関、しばしばWHOと略される。WHOは国連の一部で、ほぼすべての国が加盟する。基本目標は単純だが壮大だ。あらゆる地のすべての人が可能な限り最良の健康に達するのを助けることだ。そのため多様な方法で働く。最も重要な仕事の一つは危険な病気への警戒だ。WHOは世界の見張りのように情報を集める。深刻な病が広がり始めれば他国に素早く警告し、対応の調整を助ける。子どもへの予防接種など、特定の病気と闘う大規模な取り組みも率いる。もっと地味な仕事もする。健康情報を集め、共通の基準を定め、信頼できる科学的助言を与える。貧しい国の病院建設や看護師・医師の育成、清潔な水と薬の提供も助ける。完璧ではなく加盟国の協力と資金に頼るが、希望ある考えだ。",
+        quiz: [
+          { q: "Why did countries create the WHO?", options: ["Because diseases cross borders and no nation can protect itself alone", "To control world trade", "To run a single hospital"], answer: 0 },
+          { q: "What is one of the WHO's most important jobs?", options: ["Watching for dangerous diseases and warning other countries", "Selling medicine for profit", "Building airports"], answer: 0 },
+          { q: "What quieter work does the WHO do?", options: ["Setting health standards and helping poorer nations train doctors", "Making films", "Designing cars"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1108-4",
+        title: "Onsen: Japan's Hot Spring Culture",
+        level: "★★☆",
+        genre: "日本",
+        text: "Japan sits on a chain of volcanoes, and deep underground, the earth heats vast amounts of water. In many places, this naturally hot water rises to the surface, creating a hot spring. In Japanese, a hot spring is called an onsen, and bathing in one is one of the country's most loved and relaxing traditions.\n\nAn onsen is far more than a simple hot bath. The water is rich in natural minerals, and for centuries people have believed it to be good for health, easing tired muscles and warming the body. Surrounded by beautiful mountains or quiet forests, soaking in an onsen is a deeply peaceful experience, especially in winter, when snow may fall gently around the steaming water.\n\nThere are important customs to follow. Before entering the shared bath, bathers must wash their bodies carefully and completely, so the water stays clean for everyone. People then enter the bath with no clothing at all, which is simply normal and natural at an onsen. The bath is a place for quiet rest, not for swimming or noise.\n\nOnsen come in many forms. Some are indoors, while others, called rotenburo, are outdoors, offering lovely views of nature. Many are part of traditional inns where guests stay overnight.\n\nFor many Japanese people, visiting an onsen is a cherished way to escape the stress of busy life. It combines the gifts of nature, a long cultural tradition, and simple physical comfort into one quiet, steaming pool of warm water.",
+        summaryJa: "日本の温泉文化について。日本は火山の連なりの上にあり、地下深くで大地が大量の水を温める。多くの場所でこの自然に熱い水が地表へ湧き出し、温泉ができる。日本語で温泉といい、そこに入ることは国で最も愛される癒やしの伝統の一つだ。温泉は単なる熱い風呂をはるかに超える。水は天然のミネラルに富み、何世紀も健康に良いと信じられ、疲れた筋肉をほぐし体を温める。美しい山や静かな森に囲まれて湯につかるのは深く穏やかな体験で、特に冬、湯気の立つ湯の周りに雪がそっと降る時はなおさらだ。守るべき大切な作法がある。共同の湯に入る前に体を丁寧に完全に洗い、皆のために湯を清潔に保つ。そして一切衣服を着けずに入るが、温泉ではごく普通で自然なことだ。湯は静かに休む場で、泳いだり騒いだりする場ではない。温泉には多くの形がある。屋内のものもあれば、露天風呂という屋外のものもあり、自然の眺めを楽しめる。宿泊する伝統的な旅館の一部も多い。忙しい生活の緊張から逃れる大切な方法だ。",
+        quiz: [
+          { q: "Where does the hot water of an onsen come from?", options: ["The earth heats underground water, which rises to the surface", "It is boiled in large kettles", "It comes from the sea"], answer: 0 },
+          { q: "What must bathers do before entering the shared bath?", options: ["Wash their bodies carefully so the water stays clean", "Jump straight in with their clothes on", "Add soap to the bath"], answer: 0 },
+          { q: "What is a 'rotenburo'?", options: ["An outdoor onsen with views of nature", "A kind of indoor swimming pool", "A type of towel"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1108-5",
+        title: "Why Do We Shiver When We Are Cold?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "On a cold winter morning, waiting outside for a bus, you may suddenly feel your body begin to tremble. Your teeth chatter, and your arms and legs shake, all by themselves. You did not choose to do this. This is shivering, and although it feels unpleasant, it is actually your body cleverly trying to protect you.\n\nThe human body works best at a fairly steady warm temperature, around thirty-seven degrees. If the body becomes too cold, it cannot work properly, and this can become dangerous. So the body is always carefully watching its own temperature, and it will act quickly to stay warm.\n\nWhen sensors in your skin tell the brain that it is getting cold, the brain sends out a clever command to your muscles. It orders them to tighten and relax very fast, again and again, many times each second. This rapid shaking of the muscles is exactly what we feel as shivering.\n\nBut why does this make heat? The answer is that moving muscles always produce heat as they work. It is the same reason you feel hot after running or exercising. By making the muscles move quickly without you even trying, shivering turns energy into warmth, helping to raise the body's temperature back toward a safe level.\n\nSo shivering is not a weakness or a fault. It is an automatic, built-in heater, switched on by the brain without you having to think about it. It is one of the many quiet, clever ways your body works constantly to keep you alive and well.",
+        summaryJa: "寒いとなぜ身震いするのかについて。寒い冬の朝、バスを外で待っていると、突然体が震え出すのを感じるかもしれない。歯がカチカチ鳴り、腕や脚がひとりでに震える。自分で選んだわけではない。これが身震い（シバリング）で、不快に感じるが、実は体が巧妙にあなたを守ろうとしているのだ。人体はおよそ三十七度のかなり一定した温かい体温で最もよく働く。体が冷えすぎるとうまく働けず、危険になりうる。だから体は常に自分の体温を注意深く見守り、温かさを保とうと素早く動く。皮膚のセンサーが寒くなってきたと脳に伝えると、脳は筋肉に巧妙な指令を送る。毎秒何度も、速く緊張と弛緩を繰り返せと命じる。この筋肉の素早い震えこそ、私たちが身震いとして感じるものだ。ではなぜ熱が出るのか。動く筋肉は働く時いつも熱を生むからだ。走ったり運動したりすると暑くなるのと同じ理由だ。身震いは筋肉を素早く動かしてエネルギーを熱に変え、体温を安全な水準へ戻す。弱さや欠陥でなく、脳が入れる自動の内蔵ヒーターなのだ。",
+        quiz: [
+          { q: "Why is shivering actually helpful?", options: ["It is the body's way of trying to make heat and stay warm", "It cools the body down", "It has no purpose"], answer: 0 },
+          { q: "What does the brain order the muscles to do?", options: ["Tighten and relax very fast, again and again", "Stop moving completely", "Grow larger"], answer: 0 },
+          { q: "Why does moving the muscles make heat?", options: ["Moving muscles always produce heat as they work", "Muscles contain tiny fires", "Heat comes from the skin's color"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-07",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Inside a magnet, what makes each atom act like a tiny magnet?", options: ["The movement of tiny parts called electrons", "The color of the metal", "The weight of the atom"], answer: 0 },
           { q: "Why are most materials not magnetic?", options: ["Their tiny atomic magnets point in random directions and cancel out", "They have no atoms", "They are too heavy"], answer: 0 },
           { q: "What happens with the poles of two magnets?", options: ["Opposite poles attract; like poles repel", "All poles always attract", "Poles do nothing"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-01",
-    passages: [
-      {
-        id: "d1101-1",
-        title: "What Is a Supply Chain?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When you buy a loaf of bread or a new phone, it seems simple: you pay, and you take it home. But behind that single product is a long and complex journey involving many companies and people across the world. This journey, from raw materials to the finished item in your hands, is called a supply chain.\n\nThink about a simple cotton T-shirt. First, a farmer grows the cotton. The cotton is sold to a factory that spins it into thread, and another factory weaves the thread into cloth. A third factory cuts and sews the cloth into shirts. The shirts are then shipped, perhaps across oceans, to a warehouse, and finally delivered to a shop. Each step is a link in the chain.\n\nA good supply chain is carefully organized so that each part arrives at the right place at the right time. If one link breaks, the whole chain can suffer. For example, if a factory closes or a ship is delayed, shops may run out of products, and prices may rise.\n\nIn recent years, companies have learned how fragile supply chains can be. A problem in one country, such as a storm or a shortage of parts, can quickly affect shops on the other side of the world.\n\nBecause of this, businesses work hard to make their supply chains strong and flexible. Understanding supply chains helps explain why a product is available, why it costs what it does, and how deeply the world's economies are connected, one link at a time.",
-        summaryJa: "サプライチェーン（供給網）とは何かについて。パン一斤や新しいスマホを買うのは単純に見えるが、その一つの製品の背後には、世界中の多くの企業と人が関わる長く複雑な旅がある。原材料から手元の完成品までのこの道のりをサプライチェーンと呼ぶ。綿のTシャツを考えよう。まず農家が綿を育て、工場が糸に紡ぎ、別の工場が布に織り、三つ目の工場が裁断・縫製する。シャツは海を越えて倉庫へ運ばれ、最後に店へ届く。各段階が鎖の輪だ。良い供給網は各部分が適切な時に適切な場所へ届くよう組まれ、一つの輪が切れると全体が苦しむ。工場閉鎖や船の遅れで品切れや価格上昇が起こる。近年、企業は供給網のもろさを学んだ。一国の問題が世界の反対側の店に影響する。だから強く柔軟な供給網作りに努める。世界経済のつながりを示す。",
-        quiz: [
-          { q: "What is a supply chain?", options: ["The journey from raw materials to the finished product", "A type of money", "A single factory"], answer: 0 },
-          { q: "What can happen if one link in the chain breaks?", options: ["Shops may run out of products and prices may rise", "Nothing changes", "Products become free"], answer: 0 },
-          { q: "What have companies learned in recent years?", options: ["Supply chains can be fragile", "Supply chains never fail", "Products need no transport"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1101-2",
-        title: "How Does a Zipper Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "We use zippers every day, on jackets, bags, and boots, without a second thought. We pull a small tab, and two separate edges join into one strong, closed seam. Pull it the other way, and they come apart again. It feels simple, but the zipper is a clever invention, and looking closely reveals how neatly it works.\n\nA zipper has three main parts. Along each side are rows of small teeth, usually made of metal or plastic. Each tooth has a little bump on top and a hollow underneath. The third part is the slider, the piece you pull.\n\nThe secret is in the shape of the teeth and the slider. When you pull the slider up to close the zipper, it guides the teeth from both sides together. As they meet, the bump of each tooth fits snugly into the hollow of the tooth opposite it, locking them together one by one. The teeth are set so that they hold tightly and do not easily pull apart sideways.\n\nWhen you pull the slider the other way, a small wedge inside it does the opposite job, gently forcing the joined teeth apart again. So the same little slider can both lock and unlock the teeth, simply depending on which way it moves.\n\nThe zipper was invented over a hundred years ago and has barely changed since, because the design works so well. It is a perfect example of how a simple, clever idea can quietly become part of daily life all over the world.",
-        summaryJa: "ファスナー（ジッパー）の仕組みについて。私たちは上着や鞄、靴のファスナーを毎日何気なく使う。小さなつまみを引くと二つの別々の縁が一つの強い閉じた縫い目になり、逆に引くとまた離れる。単純に見えるが巧妙な発明で、よく見ると見事な働きが分かる。ファスナーには主に三つの部分がある。両側に並ぶ小さな歯（金属やプラスチック製）で、各歯の上には小さな突起、下には窪みがある。三つ目はつまみ（スライダー）だ。鍵は歯とスライダーの形だ。閉じる向きに引くと、スライダーが両側の歯を合わせ、各歯の突起が向かいの歯の窪みにぴたりとはまり、一つずつかみ合う。横には簡単に離れないよう配置されている。逆に引くと内部の小さなくさびが歯を押し離す。同じスライダーが向きだけで施錠と解錠を行う。百年以上前の発明でほぼ変わっていない。",
-        quiz: [
-          { q: "What are the three main parts of a zipper?", options: ["Two rows of teeth and a slider", "Three sliders", "A battery and two wires"], answer: 0 },
-          { q: "How do the teeth lock together?", options: ["Each tooth's bump fits into the hollow of the opposite tooth", "They are glued each time", "They melt together"], answer: 0 },
-          { q: "How does the slider open the zipper?", options: ["A small wedge inside forces the joined teeth apart", "It cuts the teeth off", "It adds new teeth"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1101-3",
-        title: "How the World Works to Protect Children",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Children are among the most vulnerable people in the world. They depend on adults for food, safety, and care, and they cannot easily protect themselves. When war, poverty, or disaster strikes, children often suffer the most. For this reason, protecting children has become a shared goal that crosses every border.\n\nMuch of this work is coordinated by an international organization dedicated to children, supported by many nations. Its goal is simple but huge: to help every child survive and grow up healthy, safe, and educated, no matter where they are born.\n\nThe work takes many forms. Teams bring clean water, food, and medicine to children in poor or troubled areas. They run programs to vaccinate babies against deadly diseases, an effort that has saved millions of young lives. They help build schools and provide books, so that children who might never have learned to read get the chance.\n\nIn emergencies, such as a war or an earthquake, protecting children becomes urgent. Workers set up safe spaces, reunite children with lost families, and give comfort to those who are frightened and alone.\n\nThere is also a widely agreed idea that all children have certain rights, including the right to be safe, to learn, to play, and to be heard. Most countries have promised to respect these rights.\n\nThe task is far from finished, and millions of children still face hardship. But the shared effort reflects a simple belief held around the world: that every child, everywhere, deserves a fair and hopeful start in life.",
-        summaryJa: "世界が子どもを守る取り組みについて。子どもは世界で最も弱い立場の人々に含まれる。食べ物・安全・世話を大人に頼り、自分を守りにくい。戦争や貧困、災害が起これば子どもが最も苦しむことが多い。だから子どもの保護は国境を越えた共通の目標になった。多くはある国際機関が調整し、多国が支える。目標は単純だが大きい。どこに生まれても、全ての子が健康で安全に、教育を受けて育つのを助けることだ。活動は多様で、貧しい・困難な地域の子へ清潔な水・食料・薬を届け、致命的な病気のワクチン接種で何百万もの命を救い、学校建設や本の提供で読み書きの機会を与える。戦争や地震などの緊急時には、安全な場所を設け、はぐれた家族と再会させ、恐れて孤独な子を慰める。子どもには安全・学び・遊び・意見を聞かれる権利があるという広く合意された考えもある。",
-        quiz: [
-          { q: "Why are children especially vulnerable?", options: ["They depend on adults and cannot easily protect themselves", "They are very strong", "They never need help"], answer: 0 },
-          { q: "What is one way the world protects children's health?", options: ["Vaccinating babies against deadly diseases", "Ignoring illness", "Closing all hospitals"], answer: 0 },
-          { q: "What rights do all children widely share?", options: ["To be safe, to learn, to play, and to be heard", "To do dangerous work", "To have no school"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1101-4",
-        title: "Zen: Stillness in Japanese Culture",
-        level: "★★☆",
-        genre: "日本",
-        text: "Many things that feel typically Japanese, such as a simple garden of raked sand, a quiet tea ceremony, or a calm, empty room, share a common root. That root is Zen, a form of Buddhism that came to Japan centuries ago and deeply shaped its culture. Zen is not only a religion; it is a way of seeing the world.\n\nAt the heart of Zen is a practice called zazen, or seated meditation. A person sits still and quiet, often facing a wall, and simply pays attention to the present moment and their own breathing. The goal is not to escape life, but to calm the busy mind and see things clearly, just as they are.\n\nZen teaches that true understanding comes not only from words and thinking, but from direct experience and quiet awareness. It values simplicity, patience, and being fully present in whatever you are doing, whether drinking tea, cleaning a floor, or walking in a garden.\n\nThis spirit has flowed into Japanese arts for hundreds of years. The tea ceremony, calligraphy, garden design, and even flower arranging all carry the Zen love of simplicity, stillness, and careful attention. Empty space is valued as much as what fills it.\n\nToday, Zen ideas have spread far beyond Japan. People around the world practice meditation to find calm in busy lives. Whether or not one follows the religion, Zen offers a gentle lesson that many find valuable: to slow down, pay attention, and find peace in the present moment.",
-        summaryJa: "日本文化における禅について。熊手で砂を整えた簡素な庭、静かな茶道、落ち着いた何もない部屋など、いかにも日本的に感じる多くのものに共通の根がある。それが禅だ。何世紀も前に日本へ伝わり文化を深く形づくった仏教の一派で、宗教であると同時に世界の見方でもある。禅の中心は「座禅」という座って行う瞑想だ。静かに座り、しばしば壁に向かい、今この瞬間と自分の呼吸に注意を向ける。目的は人生から逃げることでなく、忙しい心を鎮め物事をありのままに見ることだ。禅は、真の理解が言葉や思考だけでなく直接の経験と静かな気づきから来ると説き、簡素・忍耐・目の前のことに全身で臨むことを重んじる。茶道や書道、庭園設計、生け花にもこの心が流れ、余白が中身と同じく尊ばれる。今や世界に広まり、人々は忙しい生活で心の平穏を求め瞑想する。",
-        quiz: [
-          { q: "What is 'zazen'?", options: ["Seated meditation, paying attention to the present moment", "A kind of food", "A loud festival"], answer: 0 },
-          { q: "What does Zen value?", options: ["Simplicity, patience, and being fully present", "Noise and hurry", "Owning many things"], answer: 0 },
-          { q: "How has Zen influenced Japanese arts?", options: ["It brought a love of simplicity, stillness, and attention", "It made them very colorful and busy", "It removed all art"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1101-5",
-        title: "How Does Soap Clean?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "We wash our hands, our dishes, and our clothes with soap every day, trusting it to make them clean. But water alone often cannot remove grease and oil; think of trying to wash a greasy pan with just water. So what makes soap so good at cleaning, and why does it work when water by itself fails?\n\nThe secret lies in the special shape of the tiny particles that make up soap. Each soap particle is like a tiny tadpole with two very different ends. One end loves water and is pulled toward it. The other end hates water but loves oil and grease, and is pulled toward them instead.\n\nThis double nature is the key. When you wash something greasy, the oil-loving ends of many soap particles stick into the drop of grease, while their water-loving ends point outward, into the water. In this way, the soap particles surround the grease and break it into tiny drops, each wrapped in soap. These wrapped drops can now mix with water and be rinsed away, carrying the dirt with them.\n\nThis is also why soap works best with a little scrubbing and plenty of water. The scrubbing loosens the dirt, and the water carries away the soap-wrapped grease.\n\nSoap is one of the oldest and most important inventions for human health. By allowing us to wash away not only dirt but also germs, this simple, clever substance has helped protect people from disease for thousands of years.",
-        summaryJa: "石けんが汚れを落とす仕組みについて。私たちは毎日、手や食器、衣類を石けんで洗い、きれいになると信じている。だが水だけでは油や脂を落としにくい。油まみれの鍋を水だけで洗おうとする様子を思い浮かべてほしい。なぜ石けんはよく落とし、水だけでは駄目なのか。鍵は石けんを作る小さな粒子の特別な形にある。各粒子はオタマジャクシのようで、両端がまったく違う。一方の端は水を好み水に引かれ、もう一方は水を嫌い油や脂を好んでそちらに引かれる。この二重の性質が鍵だ。油汚れを洗うと、多くの粒子の油好きの端が脂の滴に刺さり、水好きの端は外の水へ向く。こうして粒子が脂を囲み小さな滴に分け、石けんに包まれた滴は水に混ざり流し落とせ、汚れも一緒に去る。だから少しこすり、たっぷりの水で最もよく落ちる。細菌も洗い流せ、健康を守ってきた。",
-        quiz: [
-          { q: "Why can't water alone remove grease well?", options: ["Grease and oil do not mix with water by themselves", "Water is too strong", "Grease loves water"], answer: 0 },
-          { q: "What is special about a soap particle?", options: ["One end loves water; the other loves oil and grease", "It is made of metal", "It has no ends"], answer: 0 },
-          { q: "How does soap remove grease?", options: ["It surrounds grease so it can mix with water and rinse away", "It burns the grease", "It freezes the grease"], answer: 0 }
         ]
       }
     ]
