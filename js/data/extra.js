@@ -211,7 +211,19 @@ KE_DATA.extraSentences = [
   { id: "w2644-s09", ja: "全員が同じ理解でいるか確認したいです。", en: "I want to make sure we are all on the same page.", note: "on the same page = 認識が一致している" },
   { id: "w2644-s10", ja: "ご不便をおかけして申し訳ありません。", en: "I'm sorry for the inconvenience.", note: "inconvenience = 不便・迷惑" },
   { id: "w2644-s11", ja: "では、次のステップに移りましょう。", en: "Well then, let's move on to the next step.", note: "move on to = 次へ進む" },
-  { id: "w2644-s12", ja: "引き続き状況を注視します。", en: "We'll keep a close eye on the situation.", note: "keep a close eye on = 注意深く見守る" }
+  { id: "w2644-s12", ja: "引き続き状況を注視します。", en: "We'll keep a close eye on the situation.", note: "keep a close eye on = 注意深く見守る" },
+  { id: "w2645-s01", ja: "一つ確認させてください。", en: "Let me just confirm one thing.", note: "Let me just confirm = 確認させてください" },
+  { id: "w2645-s02", ja: "では、本題に入りましょう。", en: "Well then, let's get down to business.", note: "get down to business = 本題に入る" },
+  { id: "w2645-s03", ja: "その点については後ほど触れます。", en: "I'll come back to that point later.", note: "come back to = 後で戻る・触れる" },
+  { id: "w2645-s04", ja: "簡単に背景を説明させてください。", en: "Let me give you some quick background.", note: "background = 背景・経緯" },
+  { id: "w2645-s05", ja: "結論から申し上げます。", en: "Let me start with the conclusion.", note: "start with = ～から始める" },
+  { id: "w2645-s06", ja: "詳細は追ってメールでお送りします。", en: "I'll follow up with the details by email.", note: "follow up = 追って連絡する" },
+  { id: "w2645-s07", ja: "そのスケジュールは少し厳しいかもしれません。", en: "That schedule might be a little tight.", note: "tight = (日程が)厳しい・きつい" },
+  { id: "w2645-s08", ja: "何か見落としていないか確認させてください。", en: "Let me make sure we're not missing anything.", note: "miss = 見落とす" },
+  { id: "w2645-s09", ja: "ご都合のよい時間を教えていただけますか。", en: "Could you let me know what time works for you?", note: "works for you = 都合が合う" },
+  { id: "w2645-s10", ja: "この件は私が引き受けます。", en: "I'll take care of this one.", note: "take care of = 引き受ける・対応する" },
+  { id: "w2645-s11", ja: "少し考える時間をいただけますか。", en: "Could I have some time to think it over?", note: "think over = じっくり考える" },
+  { id: "w2645-s12", ja: "ご期待に応えられるよう努めます。", en: "I'll do my best to meet your expectations.", note: "meet expectations = 期待に応える" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -597,6 +609,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Thank you. I'll send a short update tomorrow so you can see the progress.", ja: "ありがとうございます。進捗が分かるよう、明日簡単な報告をお送りします。" },
       { s: "B", en: "Great. Thanks for letting me know early.", ja: "いいですね。早めに知らせてくれて助かります。" }
     ]
+  },
+  {
+    id: "w2645-sh1",
+    title: "打ち合わせの日程変更（電話）",
+    level: "★★☆",
+    description: "こちらの急な事情で打ち合わせの日程を変更し、代わりの候補日を電話で調整する場面。",
+    lines: [
+      { s: "A", en: "Hello, this is Sato from Kearney. Do you have a moment?", ja: "もしもし、カーニーの佐藤です。少しお時間よろしいですか？" },
+      { s: "B", en: "Yes, of course. How can I help?", ja: "はい、もちろんです。どうされましたか？" },
+      { s: "A", en: "I'm calling about our meeting scheduled for Thursday.", ja: "木曜に予定している打ち合わせの件でお電話しました。" },
+      { s: "B", en: "Right, at two o'clock. Is there a problem?", ja: "ええ、2時からですね。何か問題でも？" },
+      { s: "A", en: "I'm afraid something urgent has come up on our side.", ja: "申し訳ないのですが、こちらで急な用件が入ってしまいまして。" },
+      { s: "B", en: "No problem at all. Would you like to reschedule?", ja: "まったく問題ありません。日程を変更しますか？" },
+      { s: "A", en: "Yes, if possible. Would Friday morning work for you?", ja: "はい、可能でしたら。金曜の午前中はご都合いかがでしょう？" },
+      { s: "B", en: "Friday morning is fine. Shall we say ten o'clock?", ja: "金曜の午前で大丈夫です。10時でいかがでしょう？" },
+      { s: "A", en: "Ten o'clock is perfect. Thank you for being flexible.", ja: "10時で問題ありません。ご配慮ありがとうございます。" },
+      { s: "B", en: "Not at all. I'll send a new invitation right away.", ja: "とんでもないです。すぐに新しい招待をお送りします。" }
+    ]
   }
 ];
 
@@ -805,6 +835,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2644-t03", ja: "若者は在学中にアルバイトの経験を積むべきだと思いますか？", en: "Should young people gain part-time work experience while they are still studying?",
     sample: { point: "Yes, I think part-time work while studying is valuable for most young people, within limits.", reason: "The main reason is that a job teaches skills that school cannot, such as handling money, working with others, and being responsible to an employer.", example: "For example, a student who works a few hours in a shop often learns punctuality and communication that later help them in any career.", point2: "So as long as it does not harm their studies or health, part-time work can be a useful part of growing up." }
+  },
+  {
+    id: "w2645-t01", ja: "企業はリモートワークを続けるべきだと思いますか、それともオフィス勤務に戻すべきだと思いますか？", en: "Should companies keep remote work, or bring employees back to the office?",
+    sample: { point: "I believe a hybrid approach, mixing remote and office work, is the best choice for most companies.", reason: "The main reason is that remote work saves commuting time and suits focused tasks, while the office is better for teamwork, training, and building trust.", example: "For example, an engineer may write code more easily at home, but a new employee often learns much faster by sitting near experienced colleagues.", point2: "So rather than choosing only one, companies should let the type of work decide where it is done." }
+  },
+  {
+    id: "w2645-t02", ja: "社会人は、働きながら定期的に新しい技能を学び直すべきだと思いますか？", en: "Should working adults regularly learn new skills throughout their careers?",
+    sample: { point: "Yes, I strongly believe that working adults should keep learning new skills throughout their lives.", reason: "The main reason is that technology and jobs change quickly, so skills that are valuable today may be out of date in ten years.", example: "For example, many office workers have had to learn new software and data skills that simply did not exist when they first started working.", point2: "So continuous learning is no longer optional; it is the best way to stay useful and confident in a changing world." }
+  },
+  {
+    id: "w2645-t03", ja: "社会は現金を減らし、キャッシュレス化を進めるべきだと思いますか？", en: "Should society move toward becoming a cashless society?",
+    sample: { point: "I think moving toward a cashless society is positive, but cash should not disappear completely.", reason: "The main reason is that digital payments are fast and convenient, yet some people, especially the elderly, still depend on cash and could be left behind.", example: "For example, paying by phone makes shopping quick and records easy to track, but a person without a smartphone or bank card would struggle if shops stopped taking cash.", point2: "So society should encourage cashless payment while still protecting the right to use cash." }
   }
 ];
 
