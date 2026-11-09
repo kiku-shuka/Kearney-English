@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-09",
+    passages: [
+      {
+        id: "d1109-1",
+        title: "What Is a Trademark?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Think of a famous company. Almost at once, a picture probably comes into your mind: a special symbol, a particular name written in a certain style, or a well-known logo. These signs are incredibly valuable to a business, because they instantly tell customers who made a product. To protect them, the law provides something called a trademark.\n\nA trademark is a sign that identifies the goods or services of one particular company and separates them from all others. It can be a brand name, a logo, a symbol, or even a special shape or sound. When a company registers a trademark, the law gives it the exclusive right to use that sign for its products.\n\nWhy does this matter so much? Imagine if any company could put a famous brand's name and logo on its own goods. Customers would be tricked into buying poor copies, thinking they were the real thing. The trademark prevents this. It protects the customer, who can trust that a product with a certain mark really comes from the company they expect.\n\nIt also protects the business. A company may spend many years, and a great deal of effort, building a good reputation. Its trademark captures all of that trust and quality in a single, recognisable sign. If others could freely copy it, that hard-earned reputation could be damaged or stolen.\n\nSo a trademark is more than just a logo. It is a promise and a protection, linking a product to the company that stands behind it, and helping honest businesses and careful customers trust one another.",
+        summaryJa: "商標（トレードマーク）とは何かについて。有名な企業を思い浮かべてみよう。ほぼ瞬時に、ある像が頭に浮かぶはずだ。特別な記号、独特の書体で書かれた名前、よく知られたロゴなど。これらの印は企業にとって極めて価値が高い。誰がその製品を作ったかを客に即座に伝えるからだ。これを守るため、法律は商標というものを備えている。商標は、ある特定の企業の商品やサービスを示し、他のすべてと区別する印だ。ブランド名、ロゴ、記号、さらには特別な形や音でもよい。企業が商標を登録すると、法律はその印を自社製品に使う独占的権利を与える。なぜそれほど重要なのか。もしどの会社も有名ブランドの名前やロゴを自社の品に付けられたら、客は本物と思って粗悪な模倣品を買わされてしまう。商標はこれを防ぐ。ある印の付いた製品が、期待する企業から確かに来ると信頼できる。企業も守られる。長年と多大な努力で築いた評判を、商標が一つの識別可能な印に凝縮する。自由に真似されれば、その評判は損なわれかねない。商標は約束であり保護だ。",
+        quiz: [
+          { q: "What is a trademark?", options: ["A sign that identifies one company's goods and separates them from others", "A tax on products", "A kind of factory"], answer: 0 },
+          { q: "How does a trademark protect customers?", options: ["They can trust that a marked product really comes from the expected company", "It makes all products cheaper", "It hides the maker's name"], answer: 0 },
+          { q: "Why is a trademark valuable to a business?", options: ["It captures the trust and reputation the company has built, in one sign", "It lets the company copy rivals", "It replaces the need to make good products"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1109-2",
+        title: "How Does a Microphone Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Every time a singer performs on stage, or you make a call on your phone, a small device is quietly doing something remarkable. It is taking sound, which you cannot see or touch, and turning it into electricity that can be sent, recorded, or made louder. This device is the microphone, and understanding it begins with understanding what sound really is.\n\nSound is a kind of movement in the air. When you speak, your voice makes the air around you vibrate, pushing it back and forth in tiny, fast waves. These invisible waves spread out and travel to your listener's ears, and also to any microphone nearby.\n\nInside a microphone is a thin, flexible part called a diaphragm, rather like a tiny drum skin. When the sound waves in the air hit this diaphragm, they push and pull it, making it vibrate exactly in step with the sound. A loud sound moves it a lot; a quiet sound moves it a little.\n\nThe clever part is turning this movement into electricity. The vibrating diaphragm is connected to parts that respond to its motion. As the diaphragm moves back and forth, it causes a matching electric signal to flow, growing stronger and weaker in perfect time with the original sound.\n\nIn this way, the shape of the sound is copied into the shape of an electric current. That electric signal can then travel down a wire, be stored on a device, or be fed into a loudspeaker to be heard again. A microphone, in short, is a clever translator, turning the language of sound into the language of electricity.",
+        summaryJa: "マイク（マイクロフォン）の仕組みについて。歌手が舞台で歌うたび、あるいは電話をかけるたび、小さな装置が静かに驚くべきことをしている。見えも触れもしない音を取り込み、送ったり録音したり大きくしたりできる電気に変えるのだ。これがマイクで、理解は音とは本当は何かを知ることから始まる。音は空気の動きの一種だ。話すと声が周りの空気を振動させ、小さく速い波として前後に押す。この見えない波が広がり、聞き手の耳や近くのマイクへ届く。マイクの中には振動板という薄くしなやかな部分があり、小さな太鼓の皮のようだ。空気中の音波がこの振動板に当たると、押したり引いたりして、音とぴったり合わせて振動させる。大きな音は大きく、小さな音は小さく動かす。巧妙なのはこの動きを電気に変えることだ。振動板はその動きに反応する部品につながっている。前後に動くと、元の音と完全に合った電気信号が流れ、強弱を繰り返す。こうして音の形が電流の形に写される。その信号は電線を通り、機器に保存され、スピーカーで再び聞ける。マイクは音の言葉を電気の言葉に訳す賢い翻訳者だ。",
+        quiz: [
+          { q: "What is sound, according to the passage?", options: ["A kind of movement, or vibration, in the air", "A type of light", "A chemical in the air"], answer: 0 },
+          { q: "What does the diaphragm in a microphone do?", options: ["It vibrates in step with the sound waves that hit it", "It glows when sound arrives", "It stays perfectly still"], answer: 0 },
+          { q: "What does a microphone basically do?", options: ["It turns the shape of sound into a matching electric signal", "It makes sound disappear", "It turns electricity into light"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1109-3",
+        title: "How Do Countries Agree on Common Standards?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Imagine travelling to another country and finding that your phone charger does not fit the wall sockets, that the screws in the shops do not match your tools, and that even the paper is a strange size. Daily life would become difficult and wasteful. To prevent exactly this kind of confusion, countries quietly work together to agree on common standards.\n\nA standard is simply an agreed way of doing or measuring something, so that products and systems from different places can work together. Standards cover an enormous range of things: the size of a shipping container, the strength of a bicycle helmet, the meaning of symbols on clothing labels, and the rules that let computers around the world talk to each other.\n\nMuch of this work is done by international organisations where experts from many countries meet. They discuss, test, and finally agree on a shared rule. The agreement is usually voluntary, yet countries and companies choose to follow it, because doing so makes trade and daily life far smoother.\n\nThe benefits are huge, even if we rarely notice them. Because of shared standards, a container packed in one country fits the ships, trains, and trucks of every other. A safety rule agreed in one place can protect people everywhere. And new technologies can spread quickly across borders.\n\nStandards are a quiet form of international cooperation. They rarely make the news, and most people never think about them. Yet every day, this patient agreement between nations allows the modern world to fit together, piece by piece, almost without us noticing.",
+        summaryJa: "国々はどうやって共通の標準（規格）に合意するのかについて。別の国へ旅して、スマホの充電器が壁のコンセントに合わず、店のねじが自分の工具に合わず、紙さえ変な大きさだったと想像してみよう。日常は難しく無駄の多いものになる。まさにこうした混乱を防ぐため、国々は静かに協力して共通の標準に合意する。標準とは、物事を行う・測る合意された方法に過ぎず、異なる場所の製品や仕組みが一緒に機能できるようにする。標準は実に幅広い。輸送用コンテナの寸法、自転車用ヘルメットの強度、衣類ラベルの記号の意味、世界中のコンピューターが通信できる規則などだ。この仕事の多くは、多国の専門家が集まる国際機関で行われる。議論し、試験し、最終的に共有の規則に合意する。合意はたいてい任意だが、国や企業は従うことを選ぶ。そうすれば貿易も日常もずっと滑らかになるからだ。恩恵は巨大だが、めったに気づかれない。共有の標準のおかげで、一国で詰めたコンテナがどの国の船・列車・トラックにも合う。一か所で合意された安全規則が各地の人を守り、新技術が国境を越えて素早く広まる。静かな国際協力の形だ。",
+        quiz: [
+          { q: "What is a 'standard'?", options: ["An agreed way of doing or measuring something, so systems can work together", "A kind of tax", "A national flag"], answer: 0 },
+          { q: "How are international standards usually agreed?", options: ["Experts from many countries meet, test, and agree on a shared rule", "One country forces all others to obey", "They happen by accident"], answer: 0 },
+          { q: "What is one benefit of shared standards?", options: ["A container packed in one country fits the ships and trucks of others", "Travel becomes impossible", "Products stop working together"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1109-4",
+        title: "Kaki: The Persimmon, a Taste of Japanese Autumn",
+        level: "★★☆",
+        genre: "日本",
+        text: "As autumn deepens in Japan and the leaves turn red and gold, another splash of colour appears in the countryside. In gardens and on hillsides, the bare branches of certain trees become covered with round, bright orange fruit. This is the kaki, or persimmon, one of the most beloved fruits of the Japanese autumn.\n\nThe persimmon has been grown in Japan for many centuries, and it holds a special place in the season. Its warm orange colour, glowing against a blue autumn sky, is a classic image of the time of year. A tree heavy with fruit after its leaves have fallen is a common and much-loved sight.\n\nThere are two main kinds of kaki. One is sweet and can be eaten crisp and fresh, straight from the tree. The other is naturally bitter when raw, and cannot be enjoyed that way. For this second kind, people use a clever traditional method. They peel the fruit and hang it up to dry in the autumn air for several weeks. Slowly, the bitterness disappears, and the fruit becomes soft, chewy, and intensely sweet. This dried persimmon is called hoshigaki, and it is treasured as a natural sweet.\n\nNothing is wasted. Even the leaves and the drying fruit become part of the beauty of the season.\n\nFor many Japanese people, the sight and taste of kaki bring back memories of autumn, of family gardens, and of grandparents carefully preparing hoshigaki. It is a simple fruit, yet it carries the warm, gentle feeling of the Japanese autumn.",
+        summaryJa: "日本の秋の味、柿について。日本で秋が深まり木の葉が赤や金に色づくころ、田園にもう一つの彩りが現れる。庭や丘の斜面で、ある木の裸の枝が丸く鮮やかなオレンジ色の実で覆われる。これが柿、日本の秋で最も愛される果物の一つだ。柿は何世紀も日本で育てられ、季節の中で特別な位置を占める。青い秋空に映える温かいオレンジ色は、この時期の古典的な情景だ。葉が落ちた後に実をたわわに付けた木は、よく見られる愛される光景だ。柿には主に二種類ある。一つは甘く、木からもいでそのまま新鮮に食べられる。もう一つは生だと自然に渋く、そのままでは楽しめない。この渋い方には、巧妙な伝統の方法を使う。皮をむいて秋の空気の中に数週間つるして干すのだ。ゆっくり渋みが消え、柔らかく歯ごたえのある、強く甘い実になる。この干した柿を干し柿といい、自然の甘味として大切にされる。多くの日本人にとって、柿の姿と味は秋や家族の庭、祖父母の思い出を呼び起こす。簡素な果物だが、日本の秋の温かく穏やかな気持ちを運ぶ。",
+        quiz: [
+          { q: "When do persimmons become a common sight in Japan?", options: ["In autumn, as bright orange fruit on the trees", "In the middle of summer", "Only in spring"], answer: 0 },
+          { q: "What do people do with the naturally bitter kind of kaki?", options: ["Peel it and hang it to dry, which removes the bitterness", "Throw it away at once", "Eat it raw with salt"], answer: 0 },
+          { q: "What is 'hoshigaki'?", options: ["Dried persimmon, soft and intensely sweet", "A kind of autumn leaf", "A persimmon drink"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1109-5",
+        title: "Why Do We Hiccup?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "They arrive without warning, often at the worst moment. You are eating, laughing, or talking, when suddenly your body makes a sharp, funny sound: hic! A moment later, it happens again, and again, with a rhythm you cannot control. These are hiccups, one of the strangest and most harmless things the human body does. But what actually causes them?\n\nThe answer involves an important muscle you rarely think about, called the diaphragm. It sits under your lungs, and it is the main muscle you use for breathing. Normally, it moves smoothly up and down, pulling air gently into your lungs and letting it out again.\n\nA hiccup begins when this diaphragm muscle suddenly twitches, or jumps, instead of moving smoothly. This sudden jump makes you pull in a quick, sharp breath of air without meaning to. But at almost exactly the same instant, a small flap at the top of your throat snaps shut. The rushing air hits this closed flap, and that is what makes the sharp hic sound we all know.\n\nSo a single hiccup is really two things happening together: a sudden jump of the breathing muscle, and the quick closing of the throat.\n\nWhat causes the diaphragm to twitch in the first place is not always clear. Eating too fast, drinking fizzy drinks, or sudden excitement can all set it off. Usually, hiccups are completely harmless and stop on their own within a few minutes. They remain one of the body's small, funny mysteries, a little reminder of the complex machinery quietly working inside us all.",
+        summaryJa: "なぜしゃっくりが出るのかについて。しゃっくりは前触れなく、しばしば最悪のときに訪れる。食事や笑い、会話の最中、突然体が「ヒック！」という鋭い妙な音を立てる。少しするとまた、何度も、自分では止められないリズムで繰り返す。これがしゃっくりで、人体のする最も奇妙で無害なことの一つだ。だが実際、何が原因なのか。答えには、めったに意識しない大切な筋肉、横隔膜が関わる。肺の下にあり、呼吸に使う主な筋肉だ。普段は滑らかに上下し、空気を優しく肺に取り込み、また出す。しゃっくりは、この横隔膜が滑らかに動く代わりに突然ぴくりと跳ねると始まる。この急な跳ねで、意図せず素早く鋭く息を吸い込む。だがほぼ同じ瞬間、喉の上部にある小さな弁がパッと閉じる。勢いよく入る空気がこの閉じた弁に当たり、あの「ヒック」という音になる。つまり一回のしゃっくりは、呼吸筋の急な跳ねと喉の素早い閉鎖という二つが同時に起こることだ。横隔膜がなぜ跳ねるかは必ずしも明らかでない。早食いや炭酸飲料、突然の興奮が引き金になりうる。たいてい無害で数分で自然に止まる。",
+        quiz: [
+          { q: "Which muscle is involved in hiccups?", options: ["The diaphragm, the main muscle used for breathing", "A muscle in the foot", "A muscle in the hand"], answer: 0 },
+          { q: "What two things happen together in a single hiccup?", options: ["A sudden jump of the breathing muscle and the quick closing of the throat", "A sneeze and a cough", "Blinking and swallowing"], answer: 0 },
+          { q: "What can set off hiccups?", options: ["Eating too fast, fizzy drinks, or sudden excitement", "Sleeping deeply", "Sitting very still"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-08",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What makes bread dough rise?", options: ["Yeast producing a gas called carbon dioxide", "Adding cold water only", "Pressing the dough flat"], answer: 0 },
           { q: "What is yeast?", options: ["A tiny living thing, a kind of fungus", "A type of metal", "A kind of salt"], answer: 0 },
           { q: "Why is a slice of bread covered in small holes?", options: ["Tiny gas bubbles were trapped, then fixed in place by the oven's heat", "Someone makes the holes by hand", "The flour has holes in it"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-02",
-    passages: [
-      {
-        id: "d1102-1",
-        title: "What Is a Franchise?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "If you travel to a different city, or even a different country, you may notice the same shops and restaurants again and again. The same burger chain, the same coffee shop, the same convenience store appears everywhere, looking almost identical. Often, this is possible because of a business idea called a franchise.\n\nIn a franchise, one company owns a successful brand, along with its name, its products, and its way of doing business. This company is called the franchisor. Instead of opening every new shop itself, it allows other people to open and run their own shop using that brand. These people are called franchisees.\n\nA franchisee pays the franchisor a fee, and often a share of the profits. In return, they get to use the famous name, sell the well-known products, and receive training and support. They also must follow strict rules, so that every shop looks and feels the same and offers the same quality.\n\nThis system has benefits for both sides. The franchisor can grow very quickly across many places without paying for everything alone. The franchisee gets to run a business with a trusted name, which is less risky than starting something completely new and unknown.\n\nOf course, there are challenges too. The franchisee has less freedom to make their own choices, and must share their earnings. Still, franchising has become one of the most common ways for brands to spread around the world. The next time you see a familiar shop far from home, there is a good chance it is a franchise.",
-        summaryJa: "フランチャイズとは何かについて。別の街、さらには別の国へ行っても、同じ店や飲食店を何度も見かけることがある。同じハンバーガーチェーン、同じ喫茶店、同じコンビニがどこにでも、ほぼそっくりな姿で現れる。これはフランチャイズという事業の仕組みのおかげであることが多い。フランチャイズでは、ある会社が成功したブランドを、その名前・商品・商売のやり方とともに所有する。これを本部（フランチャイザー）という。新店を全て自分で開く代わりに、他の人がそのブランドを使って自分の店を開き運営するのを認める。この人々を加盟店（フランチャイジー）と呼ぶ。加盟店は本部に料金を払い、しばしば利益の一部も納める。見返りに有名な名前を使い、知られた商品を売り、研修や支援を受ける。各店が同じに見え同じ品質になるよう厳しい規則にも従う。本部は素早く広がれ、加盟店は信頼ある名前で比較的低リスクに商売できる。自由が少なく収益も分け合う難点もある。",
-        quiz: [
-          { q: "What is a 'franchisee'?", options: ["A person who opens and runs a shop using another company's brand", "The company that owns the brand", "A type of product"], answer: 0 },
-          { q: "What does a franchisee give the franchisor?", options: ["A fee and often a share of the profits", "Nothing at all", "A new brand name"], answer: 0 },
-          { q: "Why is franchising less risky for the franchisee?", options: ["They run a business with a trusted, well-known name", "The brand is completely unknown", "They can ignore all rules"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1102-2",
-        title: "How Does a Smoke Detector Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "On the ceiling of many homes, offices, and hotels is a small, round, white device that most people rarely think about: the smoke detector. It usually sits quietly for years. But if a fire starts, it can save lives by giving an early warning, long before people might notice the danger themselves, especially while they are asleep.\n\nBut how does such a small, simple-looking device sense smoke in the air? There are a few types, but one common kind works using light. Inside the detector is a small, dark chamber with a tiny light source, such as an LED, shining a narrow beam across it. Next to the beam, but not directly in its path, sits a light sensor.\n\nIn normal, clean air, the light shines straight across the chamber, and the sensor beside it stays in the dark. But when smoke drifts into the chamber, its tiny particles scatter the light in all directions. Some of this scattered light now reaches the sensor. The moment the sensor detects this light, the detector knows smoke is present and sets off a loud alarm.\n\nThis clever design means the detector does not need to see fire or feel heat. It only needs to notice smoke particles in the air. Because of this, it can warn people very early, sometimes before flames even appear.\n\nSmoke detectors are cheap, simple, and extremely effective. This small, quiet guardian on the ceiling is one of the most successful safety inventions of modern times, protecting millions of people every single night.",
-        summaryJa: "煙感知器（火災報知器）の仕組みについて。多くの家庭やオフィス、ホテルの天井には、普段ほとんど意識されない小さな丸い白い装置がある。煙感知器だ。何年も静かに取り付けられているが、火災が起きれば早期に警報を出し、特に就寝中など人が危険に気づく前に命を救える。ではこの小さな装置はどうやって空気中の煙を感知するのか。数種類あるが、よくある一つは光を使う。内部には小さな暗い部屋があり、LEDなどの小さな光源が細い光の筋を横切らせる。その光の筋の脇、直接の進路からは外れた位置に光センサーがある。きれいな空気ではセンサーは暗いままだが、煙が入ると微粒子が光をあらゆる方向に散乱させ、その一部がセンサーに届く。センサーが光を捉えた瞬間、煙ありと判断し大きな警報を鳴らす。炎を見たり熱を感じたりせず、煙の粒子に気づくだけでよい。安価で単純だが非常に効果的な発明だ。",
-        quiz: [
-          { q: "What does one common type of smoke detector use to sense smoke?", options: ["A light beam and a light sensor", "A camera that sees fire", "A thermometer only"], answer: 0 },
-          { q: "In clean air, why does the alarm stay silent?", options: ["The light shines straight across and does not reach the sensor", "There is no light inside", "The sensor is broken"], answer: 0 },
-          { q: "How does smoke set off the alarm?", options: ["Its particles scatter the light so some reaches the sensor", "It blocks all electricity", "It heats the whole room"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1102-3",
-        title: "Counting People: The Census Around the World",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "How many people live in a country? It sounds like a simple question, but the answer is very important, and surprisingly hard to find. To answer it, almost every nation in the world carries out a great counting of its people, called a census. Usually it happens once every ten years.\n\nA census is more than just a head count. Governments try to learn who lives where, how old people are, what work they do, and how families are made up. To do this, they send forms to every home, or send workers to visit, asking people to answer questions about their household.\n\nWhy go to all this effort? Because governments use this information to plan for the future. If a census shows that many young children live in one area, the government knows it may need to build more schools there. If another area has many older people, it may need more hospitals and care. The data also helps decide how money and services are shared fairly among regions.\n\nTaking a census is a huge task. In a large country, counting hundreds of millions of people takes years of planning and a small army of workers. In some remote places, counters must travel for days to reach a single village.\n\nThe idea of counting people is ancient, used by rulers thousands of years ago. Today it is more organized and fair, aiming to include everyone. A census is one of the quiet but powerful tools that help a country understand itself and plan wisely for the years ahead.",
-        summaryJa: "世界の国勢調査（人口調査）について。ある国に何人住んでいるか。単純に聞こえるが、その答えはとても重要で、意外に調べにくい。答えを得るため、世界のほぼ全ての国が「国勢調査」と呼ばれる大規模な人口の数え上げを行う。たいてい十年に一度だ。国勢調査は単なる頭数の勘定ではない。政府は誰がどこに住み、年齢や仕事、家族構成はどうかを知ろうとする。各家庭に用紙を送ったり調査員が訪問したりして、世帯について質問に答えてもらう。なぜそこまでするのか。政府はこの情報で将来を計画するからだ。幼い子が多い地域なら学校を増やす必要が分かり、高齢者が多ければ病院や介護が要る。資金やサービスを地域に公平に配る判断にも役立つ。大国では数億人を数えるのに何年もの計画と大勢の調査員が要る。遠隔地では一つの村へ何日もかけて向かう。古代から行われてきたが、今はより整然と公平で、全員を含めることを目指す。",
-        quiz: [
-          { q: "What is a census?", options: ["A great counting of a country's people, usually every ten years", "A yearly tax", "A kind of election only"], answer: 0 },
-          { q: "Why do governments collect census information?", options: ["To plan for the future, such as building schools or hospitals", "To sell it to shops", "For no real reason"], answer: 0 },
-          { q: "Why is taking a census a huge task?", options: ["Counting millions of people takes years of planning and many workers", "It is done in one hour", "Only one person does it"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1102-4",
-        title: "Furoshiki: The Japanese Art of Wrapping Cloth",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, there is a simple but clever everyday tool that is just a square piece of cloth. It is called a furoshiki. At first, it looks like nothing special, just a decorated handkerchief, perhaps a bit larger. But in skilled hands, this single square of cloth can become a bag, a gift wrapper, or a way to carry almost anything.\n\nThe furoshiki has a long history. Its name comes from the word for bath, and long ago people used such cloths to wrap their clothes at public baths. Over time, they became a common way to carry and wrap all kinds of things, from books to lunch boxes to bottles.\n\nThe beauty of the furoshiki is its simple flexibility. There are no handles, no zips, and no fixed shape. By folding and tying the corners in different ways, a person can wrap a round melon, a flat box, or two bottles side by side. When the cloth is not needed, it folds flat and takes up almost no space.\n\nToday, as many people worry about waste from plastic bags and paper, the furoshiki is becoming popular again, both in Japan and abroad. It can be used again and again for years, and a beautiful cloth makes a gift feel even more special.\n\nThe furoshiki shows a gentle idea found often in Japanese culture: that a simple, ordinary object, used with care and a little skill, can be both useful and beautiful at the same time.",
-        summaryJa: "日本の風呂敷について。日本には、ただの正方形の布でありながら簡素で巧妙な日用品がある。風呂敷だ。一見すると、少し大きめの装飾されたハンカチにしか見えない。しかし使い慣れた手にかかれば、この一枚の布が鞄にも、贈り物の包みにも、ほとんど何でも運ぶ道具にもなる。風呂敷には長い歴史がある。名は「風呂」の語に由来し、昔は公衆浴場で衣類を包むのに使われた。やがて本や弁当、瓶まで、あらゆる物を運び包む一般的な方法になった。良さはその単純な柔軟性だ。取っ手もファスナーも決まった形もない。角の折り方・結び方を変えるだけで、丸いメロンも平たい箱も二本の瓶も包める。使わない時は平らに畳め場所を取らない。今やレジ袋や紙の無駄を気にする人が増え、国内外で再び人気だ。何年も繰り返し使え、美しい布は贈り物を一層特別にする。簡素な物を工夫して使う日本文化の考えを表す。",
-        quiz: [
-          { q: "What is a furoshiki?", options: ["A square piece of cloth used to wrap and carry things", "A kind of hard suitcase", "A paper bag"], answer: 0 },
-          { q: "Where does the name 'furoshiki' come from?", options: ["The word for bath, where cloths wrapped clothes", "The word for book", "The name of a city"], answer: 0 },
-          { q: "Why is the furoshiki becoming popular again?", options: ["It can be reused for years, unlike plastic bags", "It is made of plastic", "It can only be used once"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1102-5",
-        title: "How Do Magnets Work?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Most of us have played with magnets. We know that they can stick to a fridge, pick up paper clips, and either pull toward each other or push apart. This invisible force feels almost like magic. But what is really happening inside a magnet, and why do only some things feel its pull?\n\nThe secret lies deep inside the material, far too small to see. Everything is made of tiny atoms, and inside many atoms are even tinier moving parts called electrons. As they move, each atom can act like an incredibly small magnet, with a north end and a south end.\n\nIn most materials, these tiny atomic magnets point in every direction at random, so their forces cancel out, and the material is not magnetic. But in a few special metals, such as iron, the tiny magnets can line up, all pointing the same way. When billions of them line up together, their forces add up, and the whole object becomes a magnet we can feel.\n\nEvery magnet has two ends, called poles: a north and a south. A simple rule governs them: opposite poles attract, pulling together, while like poles repel, pushing apart. This is why two magnets sometimes jump together and sometimes refuse to meet.\n\nMagnets are not just toys. They are hidden inside motors, speakers, computers, and many machines we use every day. This quiet, invisible force, born from the movement of particles too small to imagine, shapes much of the modern world around us.",
-        summaryJa: "磁石の仕組みについて。多くの人が磁石で遊んだことがある。冷蔵庫にくっつき、クリップを持ち上げ、互いに引き合ったり反発したりする。この目に見えない力はまるで魔法のようだ。だが磁石の内部では実際に何が起きていて、なぜ一部の物だけが引きつけられるのか。秘密は目に見えないほど小さな物質の奥にある。あらゆる物は小さな原子でできており、多くの原子の中には電子というさらに小さな動く粒がある。電子が動くことで、各原子はN極とS極を持つ極めて小さな磁石のように振る舞える。ほとんどの物質ではこの小さな原子磁石がばらばらの向きを向き、力が打ち消し合って磁石にならない。だが鉄など一部の特別な金属では、小さな磁石が同じ向きにそろう。何十億もそろうと力が足し合わさり、全体が感じ取れる磁石になる。磁石にはN極とS極があり、異なる極は引き合い、同じ極は反発する。モーターやスピーカー、コンピューターの中にも隠れている。",
-        quiz: [
-          { q: "Inside a magnet, what makes each atom act like a tiny magnet?", options: ["The movement of tiny parts called electrons", "The color of the metal", "The weight of the atom"], answer: 0 },
-          { q: "Why are most materials not magnetic?", options: ["Their tiny atomic magnets point in random directions and cancel out", "They have no atoms", "They are too heavy"], answer: 0 },
-          { q: "What happens with the poles of two magnets?", options: ["Opposite poles attract; like poles repel", "All poles always attract", "Poles do nothing"], answer: 0 }
         ]
       }
     ]
