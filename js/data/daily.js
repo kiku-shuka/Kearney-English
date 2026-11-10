@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-10",
+    passages: [
+      {
+        id: "d1110-1",
+        title: "What Is Cash Flow?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Here is a puzzle that surprises many people: a company can be making a profit and still go out of business. How is this possible? The answer lies in one of the most important ideas in business, something as vital to a company as blood is to the body. It is called cash flow.\n\nCash flow simply means the movement of actual money into and out of a business. Money flows in when customers pay for goods or services. Money flows out when the company pays its workers, its suppliers, and its rent. For a business to survive, it must always have enough cash available at the right moment to pay what it owes.\n\nThis is different from profit. Profit is the money a company earns over time, on paper. But timing is everything. Imagine a company sells a large order and will earn a good profit, but the customer will not pay for sixty days. Meanwhile, the workers must be paid this week. On paper the company is doing well, yet right now it has no cash. If it cannot pay its staff, it is in serious trouble.\n\nThis is why businesses watch their cash flow so carefully. They must make sure that money is coming in fast enough to cover the money going out. A healthy, profitable company can be sunk by poor cash flow.\n\nSo cash flow is really about timing and survival. Profit shows whether a business is successful in the long run, but cash flow decides whether it can pay its bills today, and live to trade tomorrow.",
+        summaryJa: "キャッシュフロー（資金の流れ）とは何かについて。多くの人を驚かせる謎がある。利益を出している会社が倒産することがあるのだ。どうしてか。答えは、体にとっての血液のように会社にとって極めて重要な、経営で最も大切な考えの一つにある。キャッシュフローだ。キャッシュフローとは単に、実際のお金が事業に出入りする流れのことだ。客が商品やサービスの代金を払えばお金が入り、会社が従業員・仕入先・家賃を払えばお金が出る。生き残るには、支払うべき時に常に十分な現金を持っていなければならない。これは利益とは違う。利益は会社が時間をかけて得る、帳簿上のお金だ。だが時機がすべてだ。大口の注文を売って大きな利益が出る予定でも、客の支払いが六十日後だとしよう。一方、従業員には今週払わねばならない。帳簿上は好調でも、今は現金がない。従業員に払えなければ深刻な事態だ。だから企業はキャッシュフローを注意深く見る。出るお金を賄えるほど速くお金が入るか確かめねばならない。黒字の会社でも資金繰りの悪化で沈みうる。要は時機と生存だ。",
+        quiz: [
+          { q: "Why can a profitable company still go out of business?", options: ["It may run out of cash to pay its bills at the right moment", "Profit is always fake", "Customers never pay anything"], answer: 0 },
+          { q: "What is cash flow?", options: ["The movement of actual money into and out of a business", "The number of workers a company has", "The color of a company's money"], answer: 0 },
+          { q: "Why is timing so important?", options: ["Money owed to the company may arrive after its own bills are due", "Bills never have a due date", "Timing does not matter at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1110-2",
+        title: "How Do Solar Panels Make Electricity?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "On the roofs of houses, in large fields, and even on small calculators, dark blue or black panels quietly turn sunlight into electricity. They have no moving parts, make no noise, and burn no fuel. They simply sit in the sun and produce power. This almost magical process happens inside devices called solar panels, and it begins with a very special material.\n\nMost solar panels are made mainly from silicon, the same material found in ordinary sand. Silicon has a remarkable property: when light shines on it, it can knock tiny particles called electrons loose inside the material. Moving electrons are exactly what electricity is. So in a way, sunlight itself sets the electricity in motion.\n\nA solar panel is cleverly built to make these loosened electrons all flow in the same direction, rather than drifting randomly. When light hits the panel, it frees many electrons, and the design of the panel guides them to flow out through wires as a useful electric current. The brighter the sunlight, the more electricity is produced.\n\nThis electricity can then be used at once, stored in batteries for later, or sent into the wider electricity network to power other homes.\n\nSolar panels have become very important because their fuel, sunlight, is free, clean, and almost endless. They produce no smoke and no harmful gases while they work. As the world looks for cleaner ways to make energy, these silent panels, quietly turning light into power, are playing a larger and larger part in our daily lives.",
+        summaryJa: "太陽光パネルはどうやって電気を作るのかについて。家の屋根や広い野原、小さな電卓の上でさえ、濃い青や黒のパネルが静かに日光を電気に変える。可動部もなく、音も立てず、燃料も燃やさない。ただ日なたにあって電力を生む。この魔法のような過程は太陽光パネルという装置の中で起こり、とても特別な材料から始まる。多くのパネルは主にシリコンでできている。ふつうの砂にも含まれる材料だ。シリコンには驚くべき性質がある。光が当たると、材料の中で電子という小さな粒を弾き出せるのだ。動く電子こそが電気そのものだ。だからある意味、日光自体が電気を動かし始める。太陽光パネルは、弾き出された電子がばらばらに漂うのでなく同じ向きに流れるよう巧みに作られている。光が当たると多くの電子が自由になり、パネルの設計がそれを電線へ有用な電流として導く。日光が強いほど多くの電気が生まれる。この電気はすぐ使うことも、電池に蓄えることも、電力網に送って他の家をまかなうこともできる。燃料の日光は無料で清潔、ほぼ無尽蔵だ。",
+        quiz: [
+          { q: "What material are most solar panels mainly made from?", options: ["Silicon, also found in ordinary sand", "Pure gold", "Wood"], answer: 0 },
+          { q: "How does sunlight create electricity in a solar panel?", options: ["It knocks electrons loose, and moving electrons are electricity", "It heats water into steam", "It burns a small fuel"], answer: 0 },
+          { q: "Why have solar panels become so important?", options: ["Their fuel, sunlight, is free, clean, and almost endless", "They are the cheapest metal", "They make loud, useful noise"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1110-3",
+        title: "How Do Countries Protect Endangered Animals?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Across the world, many kinds of animals are in danger of disappearing forever. Elephants, tigers, certain whales, and countless lesser-known creatures have become rare, their numbers falling year after year. When a species vanishes completely, it is called extinction, and it can never be undone. To prevent this loss, countries have learned that they must work together.\n\nThe reason is simple: animals do not know borders. A bird may nest in one country and spend the winter in another. A whale may swim through the waters of many nations. Fighting to save such animals makes little sense if only one country acts while its neighbours do nothing.\n\nSo nations cooperate in several ways. One of the most important is controlling trade. Many animals became endangered because people hunted them to sell their skins, horns, or other parts. Countries have signed agreements that ban or strictly limit the international trade in these threatened species, removing much of the profit from harming them.\n\nCountries also work together to protect important habitats, the forests, rivers, and seas where animals live. They may create protected parks and reserves, and share scientific knowledge about how best to help a species recover. Richer nations sometimes help poorer ones pay for this difficult work.\n\nProtecting wildlife is not easy, and sadly some battles are lost. But there have also been real successes, with certain species slowly recovering thanks to international effort. Each one is a reminder that, by working together, nations can protect the rich variety of life that all humanity shares and depends upon.",
+        summaryJa: "国々はどうやって絶滅危惧種を守るのかについて。世界中で、多くの種類の動物が永遠に姿を消す危機にある。ゾウ、トラ、ある種のクジラ、数えきれぬ無名の生き物が珍しくなり、数が年々減っている。ある種が完全に消えることを絶滅といい、二度と取り返せない。この損失を防ぐため、国々は協力せねばならないと学んだ。理由は単純だ。動物は国境を知らない。鳥はある国で巣を作り別の国で冬を越す。クジラは多くの国の海を泳ぐ。一国だけが動き隣国が何もしなければ、こうした動物を救う意味は薄い。だから国々は数通りに協力する。最も重要な一つは取引の規制だ。多くの動物は、皮や角などを売るために狩られて絶滅に瀕した。各国は、こうした脅かされた種の国際取引を禁じる・厳しく制限する協定に署名し、害する利益の多くを取り除いた。生息地—動物の暮らす森・川・海—を守る協力もする。保護区を作り、種の回復を助ける科学的知識を分かち合う。豊かな国が貧しい国の費用を助けることもある。容易でなく失う戦いもあるが、国際協力で回復した種もある。共有する命の多様性を守れる証だ。",
+        quiz: [
+          { q: "Why must countries cooperate to protect animals?", options: ["Animals do not know borders and move between countries", "Animals only live in one city", "Cooperation is required by no one"], answer: 0 },
+          { q: "What is one important way countries protect endangered species?", options: ["Banning or strictly limiting international trade in them", "Hunting them faster", "Ignoring the problem"], answer: 0 },
+          { q: "What is 'extinction'?", options: ["When a species disappears completely and can never return", "When an animal moves to a new country", "A kind of protected park"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1110-4",
+        title: "Japan's Amazing Vending Machines",
+        level: "★★☆",
+        genre: "日本",
+        text: "In almost every country, you can find a vending machine or two, usually selling cold drinks or snacks in a train station or an office. But in Japan, the vending machine has reached a level found nowhere else. With millions of them spread across the country, they have become a familiar and surprisingly useful part of everyday life.\n\nThe most striking thing is simply how many there are. You can find vending machines not only in stations and shops, but on quiet streets, at the tops of mountains, and in tiny villages far from anywhere. They stand outside all night, brightly lit, always ready to serve.\n\nWhat they sell can also be surprising. Of course, there are cold and even hot drinks, available at the touch of a button. But across the country, machines also sell hot meals, ice cream, fresh eggs, flowers, umbrellas for a sudden shower, and many other useful things. In a country where they are trusted and rarely damaged, they can safely offer almost anything.\n\nWhy are they so popular in Japan? Part of the reason is that Japan is a very safe country, so machines left outside are seldom broken or robbed. They also save space and labour, serving customers day and night without any staff.\n\nFor visitors, Japan's vending machines are often a delightful surprise. For the people who live there, they are simply a normal, convenient helper, standing quietly on the corner, ready at any hour to provide a warm drink, a quick meal, or a forgotten umbrella.",
+        summaryJa: "日本のすごい自動販売機について。ほぼどの国にも自販機は一つ二つあり、たいてい駅や職場で冷たい飲み物や軽食を売っている。だが日本では、自販機は他のどこにもない水準に達した。全国に何百万台も広がり、日常の身近で驚くほど便利な一部になった。最も際立つのは、その数の多さだ。駅や店だけでなく、静かな通りや山の頂、どこからも遠い小さな村にも見つかる。一晩中、明るく灯り、いつでも使える状態で外に立つ。売る物も驚きだ。もちろんボタン一つで冷たい、さらには温かい飲み物も買える。だが全国で、温かい食事やアイスクリーム、新鮮な卵、花、急な雨の傘など、多くの役立つ物も売る。信頼され、めったに壊されない国だからこそ、ほぼ何でも安全に提供できる。なぜ日本でこれほど人気なのか。一因は日本がとても安全な国で、外に置かれた機械がめったに壊されも盗まれもしないことだ。場所と人手を省き、店員なしで昼も夜も客に応じる。訪問者には楽しい驚きで、住む人には普通の便利な助っ人だ。",
+        quiz: [
+          { q: "What is most striking about vending machines in Japan?", options: ["How many there are, even in remote places", "That there are only a few", "That they sell nothing"], answer: 0 },
+          { q: "What is one surprising thing Japanese machines may sell?", options: ["Hot meals, fresh eggs, flowers, or umbrellas", "Live animals", "Cars"], answer: 0 },
+          { q: "Why are vending machines so successful in Japan?", options: ["Japan is very safe, so machines are seldom broken or robbed", "They are guarded by many staff", "They are only open one hour a day"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1110-5",
+        title: "Why Do We Yawn?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "It happens to everyone. You are tired, or bored, or you have just woken up, and suddenly your mouth opens wide, you take a long, deep breath, and you yawn. Even reading about yawning may make you want to do it. Yawning is one of the most common things humans do, yet, surprisingly, scientists are still not completely sure why we do it.\n\nFor a long time, people believed that yawning was caused by a lack of oxygen. The idea was that when we are tired, we breathe too shallowly, so a big yawn pulls in extra air. However, careful experiments have cast doubt on this simple explanation, and today many scientists think the main reason may be different.\n\nOne popular modern idea is that yawning helps to cool the brain. The brain works best within a narrow temperature range, and a large yawn pulls in cool air and increases blood flow, which may help lower the brain's temperature a little. This might explain why we often yawn when we are tired, as a tired brain can become slightly warmer.\n\nThere is also the strange fact of contagious yawning. When we see another person yawn, or even just think about it, we often yawn too. Scientists believe this may be linked to the way humans understand and copy each other's feelings.\n\nSo yawning remains a small, everyday mystery. It is something we all do many times a day, yet its full purpose is still not perfectly understood, a quiet reminder that even ordinary things can hide deep questions.",
+        summaryJa: "なぜあくびをするのかについて。誰にでも起こる。疲れたり退屈したり、起きたばかりのとき、突然口が大きく開き、長く深く息を吸い、あくびをする。あくびについて読むだけでしたくなるかもしれない。あくびは人間の最もありふれた動作の一つだが、意外にも科学者はなぜするのかまだ完全には分かっていない。長い間、あくびは酸素不足で起こると信じられた。疲れると呼吸が浅くなり、大きなあくびで余分な空気を取り込むという考えだ。だが入念な実験がこの単純な説明に疑問を投げかけ、今日多くの科学者は主な理由は別かもしれないと考える。現代の有力な一説は、あくびが脳を冷やすのを助けるというものだ。脳は狭い温度範囲で最もよく働き、大きなあくびは冷たい空気を取り込み血流を増やし、脳の温度を少し下げるのを助けるかもしれない。疲れた脳はやや暖かくなりうるので、疲れるとよくあくびが出るのを説明できるかもしれない。「うつる」あくびという不思議もある。人のあくびを見たり考えたりするだけで自分も出る。人が互いの感情を理解し真似る仕方と結びつくと考えられる。あくびは日常の小さな謎だ。",
+        quiz: [
+          { q: "What did people long believe caused yawning?", options: ["A lack of oxygen", "Too much sunlight", "Eating too much"], answer: 0 },
+          { q: "What is one popular modern idea about why we yawn?", options: ["It may help cool the brain", "It makes us taller", "It cleans the teeth"], answer: 0 },
+          { q: "What is 'contagious' yawning?", options: ["We often yawn when we see or think about someone else yawning", "Yawning that makes you ill", "Yawning only done while asleep"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-09",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is magma?", options: ["Hot molten rock deep inside the Earth", "A kind of cold water", "Ash on the surface"], answer: 0 },
           { q: "Why does rising magma cause an eruption?", options: ["Trapped gases expand as pressure drops, forcing the magma up", "It freezes and cracks", "It is pulled by the moon"], answer: 0 },
           { q: "What do we call molten rock once it reaches the open air?", options: ["Lava", "Magma chamber", "Ash only"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-03",
-    passages: [
-      {
-        id: "d1103-1",
-        title: "How Do Auctions Work?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Most of the time, when we buy something, the price is already fixed. We see the number on the label, and we decide whether to pay it. But there is another, older way to sell things, where the price is not decided in advance. Instead, the buyers themselves decide it, by competing with one another. This is called an auction.\n\nAt an auction, an item is offered for sale, and people who want it make offers, called bids. Each new bid must be higher than the last. A person running the auction, the auctioneer, calls out the rising prices. As long as someone is willing to pay more, the price keeps climbing. When no one will go higher, the item is sold to the person who made the highest bid.\n\nWhy sell this way? Auctions are useful when the true value of something is uncertain. A rare painting, an old house, or a special antique may be worth very different amounts to different people. An auction lets the market decide the price naturally, based on how much people really want the item that day.\n\nFor the seller, an auction can bring a surprisingly high price if several buyers compete strongly. For buyers, it offers a fair and open chance to win, though there is a risk of paying too much in the excitement of the moment.\n\nAuctions are used for art, farm animals, antiques, and even government contracts. Today, many happen online, with people bidding from around the world. The idea, however, remains the same: let competition decide the price.",
-        summaryJa: "競売（オークション）の仕組みについて。普段、何かを買う時は値段が既に決まっている。札の数字を見て払うか決める。だが値段を前もって決めない、より古い売り方もある。買い手自身が競い合って値段を決める。これを競売という。競売では品物が売りに出され、欲しい人が入札という申し出をする。新しい入札は前より高くなければならない。競売人が上がっていく値を読み上げ、誰かが払う気がある限り値は上がり続ける。誰も上を出さなくなると、最高額を付けた人に売られる。なぜこう売るのか。品物の本当の価値が不確かな時に役立つからだ。珍しい絵、古い家、特別な骨董は人によって価値が大きく異なる。競売はその日の欲しさに応じて市場に自然に値を決めさせる。売り手は競争が激しければ驚くほど高値が付き、買い手は公平で開かれた機会を得るが、勢いで払い過ぎる危険もある。美術品や家畜、骨董、政府契約にも使われ、今は多くがオンラインで行われる。",
-        quiz: [
-          { q: "What is a 'bid' at an auction?", options: ["An offer to buy, which must be higher than the last", "A fixed price on a label", "A kind of receipt"], answer: 0 },
-          { q: "When is an auction especially useful?", options: ["When the true value of something is uncertain", "When everything has a clear fixed price", "When no one wants the item"], answer: 0 },
-          { q: "What is a risk for buyers at an auction?", options: ["Paying too much in the excitement of the moment", "Never being allowed to bid", "The price can never rise"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1103-2",
-        title: "How Does a Thermos Keep Drinks Hot or Cold?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "On a cold morning, you can pour hot tea into a thermos flask, and hours later it is still steaming. On a hot day, the same flask can keep a drink icy cold. It seems almost magical that one simple container can do both. The secret is that a thermos does not add heat or cold; it simply slows down the movement of heat.\n\nHeat always tries to flow from a warmer place to a cooler one. To keep a drink hot, you must stop heat from escaping. To keep a drink cold, you must stop heat from getting in. A thermos is designed to block heat from moving in either direction.\n\nThe clever part is a double wall. A thermos has a container inside another container, with a narrow gap between them. From this gap, most of the air has been removed, creating something close to a vacuum, a space with almost nothing in it. Because heat needs a material to travel through easily, this near-empty gap is a powerful barrier. Heat struggles to cross it.\n\nOn top of this, the inner surfaces are often shiny, like a mirror. This shiny layer reflects heat rays back, adding another barrier against heat escaping or entering.\n\nTogether, these features mean that heat moves extremely slowly in or out. The drink inside keeps its temperature for many hours. The thermos is a beautiful example of clever design: instead of using power or energy, it simply uses empty space and a mirror to quietly control the flow of heat.",
-        summaryJa: "魔法瓶（保温・保冷ボトル）の仕組みについて。寒い朝、魔法瓶に熱いお茶を注げば何時間後もまだ湯気が立つ。暑い日には同じ瓶が飲み物を冷たいまま保つ。一つの単純な容器が両方できるのは不思議だが、秘密は熱を加えたり冷やしたりするのでなく、熱の移動を遅らせる点にある。熱は常に暖かい所から冷たい所へ流れようとする。熱いまま保つには熱の逃げを止め、冷たいまま保つには熱の侵入を止める必要がある。魔法瓶はどちら向きの熱移動も妨げるように作られている。巧妙なのは二重の壁だ。容器の中にもう一つ容器があり、間に狭い隙間がある。この隙間からほとんどの空気が抜かれ、ほぼ真空に近い、中にほとんど何もない空間になる。熱は物質を通って伝わりやすいので、このほぼ空の隙間は強力な壁になる。さらに内側の面は鏡のように光り、熱線を反射して逃げや侵入を防ぐ。力を使わず空間と鏡で熱の流れを静かに制御する見事な設計だ。",
-        quiz: [
-          { q: "What does a thermos actually do?", options: ["It slows down the movement of heat in or out", "It adds heat to the drink", "It creates cold air"], answer: 0 },
-          { q: "Why is the gap between the two walls near-empty (a vacuum)?", options: ["Heat needs a material to travel through, so an empty gap blocks it", "To make the flask lighter only", "To store extra drink"], answer: 0 },
-          { q: "What do the shiny inner surfaces do?", options: ["They reflect heat rays back, blocking heat from escaping or entering", "They make the drink taste better", "They produce light"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1103-3",
-        title: "What Is Fair Trade?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When you buy a bar of chocolate, a cup of coffee, or a banana, it is easy to forget that the journey began far away, often on a small farm in a poorer country. The farmers who grow these crops work hard, yet for a long time many of them earned very little. The price they received was so low that they could barely support their families. Fair trade is an idea created to help change this.\n\nThe goal of fair trade is simple: to make sure that the farmers and workers who grow our food receive a fair and stable price for it. Under fair trade rules, buyers agree to pay at least a certain minimum price, even when world prices fall very low. This gives farmers some protection and allows them to plan for the future.\n\nFair trade also sets other standards. It encourages safe working conditions, bans unfair child labour, and often provides extra money for the whole community, which can be used to build schools, wells, or health centres.\n\nWhen a product follows these rules, it can carry a special label, so shoppers can recognise it. By choosing such products, customers in richer countries can support farmers on the other side of the world, often for only a little extra cost.\n\nFair trade is not perfect, and it cannot solve every problem of global poverty. But it reflects a hopeful idea: that trade between distant countries can be made more just, and that the choices of ordinary shoppers can help improve the lives of people they will never meet.",
-        summaryJa: "フェアトレード（公正取引）とは何かについて。板チョコやコーヒー、バナナを買う時、その旅が遠くの、しばしば貧しい国の小さな農園で始まったことを忘れがちだ。これらの作物を育てる農家は懸命に働くのに、長い間ごくわずかしか得られなかった。受け取る価格が低すぎて家族を養うのもやっとだった。フェアトレードはこれを変えるために生まれた考えだ。目標は単純で、食べ物を育てる農家や労働者が公正で安定した価格を受け取れるようにすることだ。この仕組みでは、買い手は世界価格が大きく下がっても少なくとも一定の最低価格を払うと約束する。これが農家を守り、将来の計画を可能にする。安全な労働条件を促し、不当な児童労働を禁じ、地域全体のための追加資金を出すこともあり、学校や井戸、診療所を作れる。規則に従う商品には専用のラベルが付き、買い物客が見分けられる。豊かな国の消費者がわずかな追加費用で遠くの農家を支えられる。完全ではないが、取引をより公正にできるという希望を示す。",
-        quiz: [
-          { q: "What is the main goal of fair trade?", options: ["To ensure farmers receive a fair and stable price for their crops", "To make food more expensive for no reason", "To stop all international trade"], answer: 0 },
-          { q: "What do buyers agree to under fair trade rules?", options: ["To pay at least a certain minimum price, even when world prices fall", "To pay as little as possible", "To buy only from rich countries"], answer: 0 },
-          { q: "How can shoppers recognise a fair trade product?", options: ["It can carry a special label", "By its weight", "It has no packaging"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1103-4",
-        title: "Shichi-Go-San: Celebrating Children's Growth",
-        level: "★★☆",
-        genre: "日本",
-        text: "In mid-November, if you visit a Japanese shrine, you may see a charming sight: small children dressed in beautiful, formal clothes, walking proudly with their parents. Many of the girls wear bright kimono, and many of the boys wear traditional outfits too. This is Shichi-Go-San, a gentle festival that celebrates the healthy growth of young children.\n\nThe name means seven-five-three, and these numbers are the heart of the celebration. Families mark the festival for girls aged three and seven, and for boys aged three and five. The event is usually held around the fifteenth of November, though families may visit on any convenient day near that date.\n\nThe custom has deep roots. Long ago, when medicine was poor, many children did not survive their early years. Reaching these ages was a real and joyful achievement, so parents gave thanks and prayed for their child's continued health and happiness. That spirit of gratitude remains at the centre of the festival today.\n\nOn the day, families often visit a shrine to offer thanks. A common and much-loved part of the celebration is a sweet called chitose-ame, meaning thousand-year candy. This long, thin, red-and-white sweet carries a wish for a long and healthy life.\n\nOf course, taking photographs is a big part of the day too, and these pictures become treasured family memories. Shichi-Go-San is a warm reminder of something universal: the deep love parents feel for their children, and their simple, heartfelt wish to see them grow up safe and well.",
-        summaryJa: "七五三について。十一月の半ば、日本の神社を訪れると、美しい晴れ着を着た小さな子どもたちが親と誇らしげに歩く微笑ましい光景を目にするかもしれない。多くの女の子は鮮やかな着物を、男の子も伝統的な装いをまとう。これが七五三、幼い子の健やかな成長を祝う穏やかな行事だ。名は「七・五・三」を意味し、この数字が祝いの核心だ。女の子は三歳と七歳、男の子は三歳と五歳で祝う。たいてい十一月十五日ごろに行うが、その近くの都合のよい日に参る家庭も多い。由来は深い。昔、医療が乏しく多くの子が幼くして亡くなった時代、この年齢に達するのは本当に喜ばしい達成で、親は感謝し、子の健康と幸せを祈った。その感謝の心が今も中心にある。当日は神社に参り、千歳飴という細長い紅白の飴が愛される。長く健やかな命への願いが込められる。写真も大切な思い出になる。子を思う親の愛を表す行事だ。",
-        quiz: [
-          { q: "What does Shichi-Go-San celebrate?", options: ["The healthy growth of young children", "The start of the new year", "A rice harvest"], answer: 0 },
-          { q: "Which ages are marked in the festival?", options: ["Girls aged three and seven; boys aged three and five", "Only age ten", "Adults aged twenty"], answer: 0 },
-          { q: "What does the sweet 'chitose-ame' represent?", options: ["A wish for a long and healthy life", "A kind of medicine", "The end of childhood"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1103-5",
-        title: "Why Does Bread Rise?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Think about the difference between a flat, hard cracker and a soft, fluffy loaf of bread. Both can be made from similar flour, yet bread is light and full of tiny holes. Something makes the dough grow and fill with air before it is baked. That something is one of the oldest and most useful partnerships between humans and nature: the work of yeast.\n\nYeast is a tiny living thing, a kind of fungus so small that we cannot see a single one. When a baker mixes yeast into dough with a little warmth, water, and the sugars found in flour, the yeast begins to feed. As it eats the sugars, it produces a gas called carbon dioxide, the same gas we breathe out.\n\nThis gas cannot easily escape from the stretchy dough. Instead, it forms thousands of tiny bubbles trapped inside. As more and more gas is made, these bubbles grow, and the whole lump of dough slowly swells and rises, sometimes doubling in size.\n\nWhen the risen dough goes into a hot oven, the heat makes the trapped gas expand even more, pushing the bread up further. The heat then makes the dough firm, freezing all those little bubbles in place. This is why a slice of bread is covered in small holes.\n\nSo the soft texture of bread is really a record of the quiet, invisible work of millions of tiny living creatures. It is a wonderful example of how people learned, long ago, to turn a natural process into delicious food.",
-        summaryJa: "パンが膨らむ理由について。平たく硬いクラッカーと、柔らかくふわふわのパンの違いを考えてみよう。似た小麦粉から作れるのに、パンは軽く小さな穴だらけだ。焼く前に生地を膨らませ空気で満たす何かがある。それは人間と自然の最も古く有用な協力の一つ、酵母（イースト）の働きだ。酵母は小さな生き物で、一つでは見えないほど小さな菌の一種だ。パン職人が酵母を生地に混ぜ、少しの温かさと水、小麦粉の糖を与えると、酵母は食べ始める。糖を食べると二酸化炭素という気体を出す。私たちが吐く息と同じ気体だ。この気体は伸びる生地から簡単には逃げられず、内部に閉じ込められた何千もの小さな泡になる。気体が増えるほど泡は大きくなり、生地全体がゆっくり膨らみ、時に倍の大きさになる。膨らんだ生地を熱い窯に入れると、熱で気体がさらに膨張しパンを押し上げ、やがて生地が固まって泡がその場で固定される。だからパンは小さな穴だらけだ。パンの柔らかさは無数の小さな生き物の静かな働きの記録だ。",
-        quiz: [
-          { q: "What makes bread dough rise?", options: ["Yeast producing a gas called carbon dioxide", "Adding cold water only", "Pressing the dough flat"], answer: 0 },
-          { q: "What is yeast?", options: ["A tiny living thing, a kind of fungus", "A type of metal", "A kind of salt"], answer: 0 },
-          { q: "Why is a slice of bread covered in small holes?", options: ["Tiny gas bubbles were trapped, then fixed in place by the oven's heat", "Someone makes the holes by hand", "The flour has holes in it"], answer: 0 }
         ]
       }
     ]
