@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-11",
+    passages: [
+      {
+        id: "d1111-1",
+        title: "What Is a Share in a Company?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When a company wants to grow, it often needs a large amount of money, perhaps to build a new factory or expand into other countries. One powerful way to raise this money is to sell small pieces of the company itself to the public. Each of these small pieces is called a share, and anyone who owns one becomes, in a tiny way, a part-owner of the company.\n\nImagine a company is divided into a million equal pieces. If you buy one share, you own one millionth of that company. Buy a thousand shares, and you own a thousand millionths. Owning shares makes you a shareholder, with a real stake in how the business performs.\n\nWhy do people buy shares? There are two main hopes. First, if the company does well and becomes more valuable, the price of each share may rise. The shareholder can then sell their shares for more than they paid, making a profit. Second, many companies share some of their yearly profits with their shareholders. This payment is called a dividend.\n\nOf course, there is also risk. If the company does badly, the share price can fall, and shareholders may lose money. Share prices can rise and fall for many reasons, so buying shares is never a sure way to get rich.\n\nShares are a clever idea that connects ordinary people to the success of businesses. They let companies raise money to grow, and they let people, in a small way, own a part of the companies whose products they use every day.",
+        summaryJa: "株（株式）とは何かについて。会社が成長したいとき、新しい工場を建てたり他国へ進出したりするために、多額の資金を必要とすることが多い。その資金を集める強力な方法の一つが、会社自体の小さな一片を広く人々に売ることだ。この小さな一片を株といい、一つでも持てば、ごくわずかながら会社の一部の所有者になる。会社が百万の等しい片に分かれていると想像しよう。一株買えば会社の百万分の一を所有する。千株買えば千の百万分の一だ。株を持つと株主になり、事業の成績に本当の利害を持つ。なぜ人は株を買うのか。主な望みは二つ。第一に、会社が好調で価値が上がれば、各株の値段も上がりうる。株主は払った額より高く売って利益を得られる。第二に、多くの会社は年間利益の一部を株主に分ける。この支払いを配当という。もちろん危険もある。会社が不調なら株価は下がり、株主は損をしうる。株価は様々な理由で上下し、確実に儲かる方法では決してない。株は人々を事業の成功に結びつける巧妙な考えだ。",
+        quiz: [
+          { q: "What does owning a share mean?", options: ["You become, in a tiny way, a part-owner of the company", "You manage the whole company", "You work for the company for free"], answer: 0 },
+          { q: "What is a dividend?", options: ["A payment of some of a company's profits to its shareholders", "A fee for buying shares", "A kind of company car"], answer: 0 },
+          { q: "What is a risk of buying shares?", options: ["If the company does badly, the share price can fall and you may lose money", "Shares always rise in value", "You can never sell them"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1111-2",
+        title: "How Does Wi-Fi Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "In homes, cafés, and offices everywhere, people connect their phones and computers to the internet without any wires at all. We call this Wi-Fi, and it feels almost like magic. Information seems to travel through empty air, from a small box on the wall to the device in your hand. But there is no magic involved, only a clever use of something invisible all around us: radio waves.\n\nRadio waves are a kind of energy that travels through the air, the same basic thing used to carry radio and television signals. They are completely invisible and harmless, and they can pass through air and even walls. Wi-Fi uses these waves to carry information instead of music or pictures.\n\nAt the centre of a Wi-Fi network is a device called a router. The router is connected to the internet, usually by a cable coming into the building. Its job is to turn the information from the internet into radio waves and broadcast them into the air around it.\n\nYour phone or computer contains a tiny radio of its own. It listens for these waves, receives them, and turns them back into useful information, such as a web page or a message. It can also send waves back to the router, so the conversation goes both ways.\n\nBecause the signal travels through the air, you must be fairly close to the router for a strong connection. Walls and distance can weaken it.\n\nSo Wi-Fi is really just a two-way radio conversation, happening silently and invisibly, carrying the whole internet across the short distance from a router to your hand.",
+        summaryJa: "Wi-Fiの仕組みについて。家でも喫茶店でも職場でも、人々は線を一切使わずスマホやパソコンをインターネットにつなぐ。これをWi-Fiといい、まるで魔法のようだ。情報が壁の小さな箱から手の中の機器へ、何もない空中を伝わるように見える。だが魔法ではなく、私たちの周りに見えない形で存在するもの、電波の巧妙な利用だ。電波は空気中を伝わるエネルギーの一種で、ラジオやテレビの信号を運ぶのと同じものだ。完全に目に見えず無害で、空気や壁さえ通り抜けられる。Wi-Fiはこの波で、音楽や映像の代わりに情報を運ぶ。Wi-Fiネットワークの中心にはルーターという装置がある。ルーターはたいてい建物に入るケーブルでインターネットにつながる。その仕事は、インターネットからの情報を電波に変え、周囲の空中へ放つことだ。あなたのスマホやパソコンは自前の小さな無線機を持つ。この波を聞き取り受信し、ウェブページやメッセージなど役立つ情報に戻す。ルーターへ波を送り返しもでき、やり取りは双方向だ。壁や距離で弱まるため、強い接続にはルーターに近い必要がある。",
+        quiz: [
+          { q: "What does Wi-Fi use to carry information?", options: ["Radio waves travelling through the air", "Thin hidden wires", "Beams of water"], answer: 0 },
+          { q: "What is the job of a router?", options: ["To turn internet information into radio waves and broadcast them", "To store all the world's websites", "To make electricity"], answer: 0 },
+          { q: "Why must you be fairly close to the router?", options: ["Walls and distance can weaken the signal", "The router can only see you", "Radio waves need sunlight"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1111-3",
+        title: "What Is the United Nations?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "The world is divided into nearly two hundred countries, each with its own government, language, and interests. With so many different nations sharing one planet, disagreements are certain to arise. How can the countries of the world talk to one another, solve problems, and avoid dangerous conflicts? To help with exactly this, nations created a remarkable organisation called the United Nations, often shortened to the UN.\n\nThe United Nations was founded after the Second World War, a terrible conflict that taught the world a hard lesson about the cost of war. Its central purpose is to help keep peace between countries. Almost every nation in the world is now a member.\n\nThe UN works in many ways. Its most famous feature is a great hall where representatives from every member country can meet, speak, and vote on important issues. Here, even the smallest nation has a voice. When conflicts threaten, the UN can send peacekeepers, help arrange talks, or ask countries to stop fighting.\n\nBut the UN does far more than deal with conflict. Through its many agencies, it works to improve health, feed the hungry, protect children, help refugees, guard important sites, and care for the environment. Much of the quiet good it does around the world goes unnoticed.\n\nThe UN is not a world government, and it cannot force powerful countries to obey. It depends on cooperation, and it is often criticised for being slow or weak. Yet it remains humanity's largest attempt to work together as one, a place where nations can meet and talk, instead of only fighting.",
+        summaryJa: "国際連合（国連）とは何かについて。世界は二百近い国に分かれ、各国が独自の政府・言語・利害を持つ。これほど多くの国が一つの惑星を分かち合えば、対立は必ず生じる。世界の国々はどうすれば互いに話し合い、問題を解決し、危険な紛争を避けられるのか。まさにこれを助けるため、国々は国際連合、しばしば国連と略される見事な組織を作った。国連は第二次世界大戦の後に設立された。戦争の代償という厳しい教訓を世界に与えた恐ろしい紛争だ。中心的な目的は国家間の平和を保つことで、今やほぼすべての国が加盟する。国連は多様に働く。最も有名なのは、全加盟国の代表が集まり発言し重要な問題に投票できる大きな議場だ。ここでは最も小さな国にも発言権がある。紛争が脅かせば、平和維持部隊を送り、会談を整え、戦いの停止を求められる。だが国連は紛争対応にとどまらない。多くの機関を通じ、健康の増進、飢餓の救済、子どもの保護、難民の支援、重要な場所の保護、環境の保全に努める。世界政府ではなく強国を従わせる力はないが、人類が一つとして協力しようとする最大の試みだ。",
+        quiz: [
+          { q: "Why was the United Nations founded?", options: ["To help keep peace between countries, after the Second World War", "To rule the whole world directly", "To start new wars"], answer: 0 },
+          { q: "What is the UN's most famous feature?", options: ["A hall where every member country can meet, speak, and vote", "A single large army", "A world bank only"], answer: 0 },
+          { q: "What is a limitation of the UN?", options: ["It is not a world government and cannot force powerful countries to obey", "It controls every country completely", "It has no members"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1111-4",
+        title: "Ekiben: Japan's Railway Lunch Boxes",
+        level: "★★☆",
+        genre: "日本",
+        text: "Travelling by train in Japan is a pleasure in itself, and part of that pleasure comes from a delicious tradition: the ekiben. The word combines eki, meaning station, and ben, short for bento, the Japanese boxed lunch. An ekiben is simply a bento sold at a railway station or on a train, but it is far more special than that plain description suggests.\n\nWhat makes ekiben so loved is their variety and local character. All over Japan, each region and even each individual station is famous for its own particular ekiben. These boxes are filled with local specialities: the seafood of a coastal town, the beef of a famous farming area, or a dish linked to that region's history. Travellers look forward to trying the special ekiben of each place they pass through.\n\nThe boxes themselves are often beautiful. The food is arranged with great care, colourful and neat, and the container may be shaped or decorated to match the local theme. Some even come in pottery pots that travellers keep as souvenirs. A few clever ekiben can even heat themselves when you pull a string.\n\nEating an ekiben while watching the landscape roll past the window is one of the small joys of Japanese travel. It turns a simple meal into part of the journey itself.\n\nFor many people, the ekiben is a delicious reminder that in Japan, even everyday things like a packed lunch can become a small work of art, and a way to taste the character of a distant place.",
+        summaryJa: "日本の駅弁について。日本で列車の旅をするのはそれ自体が楽しみで、その楽しみの一部はおいしい伝統、駅弁から来る。「駅」と、弁当を略した「弁」を合わせた言葉だ。駅弁は単に駅や車内で売られる弁当だが、その素っ気ない説明よりずっと特別だ。駅弁がこれほど愛されるのは、その多様さと土地ごとの個性だ。日本中で、各地方、さらには個々の駅までが独自の駅弁で有名だ。海辺の町の海の幸、有名な産地の牛肉、その地方の歴史に結びついた料理など、土地の名物が詰まる。旅人は通る各地の特別な駅弁を試すのを楽しみにする。箱そのものも美しいことが多い。料理は丁寧に、彩りよく整えて並べられ、容器が土地の主題に合わせて形作られ飾られることもある。旅人が記念に取っておく陶器の器に入ったものさえある。紐を引くと自ら温まる巧妙な駅弁もある。車窓を流れる景色を眺めながら駅弁を食べるのは、日本の旅の小さな喜びの一つだ。単純な食事を旅そのものの一部に変える。日常の弁当さえ小さな芸術になりうると教えてくれる。",
+        quiz: [
+          { q: "What is an 'ekiben'?", options: ["A boxed lunch sold at a railway station or on a train", "A kind of train ticket", "A type of railway car"], answer: 0 },
+          { q: "What makes ekiben so loved?", options: ["Their variety and local character, using each region's specialities", "They are all exactly the same", "They contain no food"], answer: 0 },
+          { q: "What is special about some ekiben boxes?", options: ["They are beautiful, and some can even heat themselves", "They are always empty", "They cannot be opened"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1111-5",
+        title: "How Do Chameleons Change Color?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "The chameleon is one of nature's most famous animals, known all over the world for a single amazing ability: it can change the colour of its skin. A chameleon sitting on a brown branch may be dull and brownish, but moments later, in a different mood, it may blaze with bright green, yellow, or even blue. For a long time, people misunderstood how and why this happens.\n\nMany people believe chameleons change colour mainly to hide, matching whatever they sit on. This is partly true, but it is not the main reason. Scientists have discovered that chameleons change colour mostly to show how they feel and to communicate with other chameleons. A bright, bold display can warn off a rival or attract a mate, while darker colours may signal fear or help the animal warm up in the sun.\n\nBut how do they actually do it? The secret lies in special layers of tiny crystals inside their skin. The chameleon can slightly change the spacing of these tiny crystals by relaxing or tightening its skin. Because colour depends on how light bounces off these crystals, changing their spacing changes the colour we see. When the crystals are close together, the skin may look blue or green; when they are spread apart, it may look yellow or red.\n\nSo a chameleon is not simply copying its background like a living mirror. Instead, it is using a remarkable, built-in system of crystals and light to paint its feelings onto its own skin, one of the most beautiful tricks in the whole of nature.",
+        summaryJa: "カメレオンはどうやって体の色を変えるのかについて。カメレオンは自然で最も有名な動物の一つで、ある驚くべき能力で世界中に知られる。皮膚の色を変えられるのだ。茶色い枝に座るカメレオンはくすんだ茶色でも、しばらくして気分が変われば、鮮やかな緑や黄、さらには青に輝くことがある。長い間、人々はどうやって、なぜそうなるのかを誤解していた。多くの人は、カメレオンが主に身を隠すため、座る物に合わせて色を変えると信じている。一部は正しいが、主な理由ではない。科学者は、カメレオンが主に気持ちを示し、他のカメレオンと意思疎通するために色を変えると発見した。鮮やかで大胆な見せ方は競争相手を追い払い、相手を引きつける一方、暗い色は恐れを示したり日なたで体を温めるのを助けたりする。ではどうやって行うのか。秘密は皮膚の中の小さな結晶の特別な層にある。カメレオンは皮膚を緩めたり張ったりして結晶の間隔をわずかに変えられる。色は光が結晶にどう跳ね返るかで決まるので、間隔を変えると見える色が変わる。近いと青や緑、離れると黄や赤に見える。生きた鏡のように背景を写すのではなく、結晶と光の見事な仕組みで気持ちを皮膚に描くのだ。",
+        quiz: [
+          { q: "What is the main reason chameleons change colour?", options: ["To show how they feel and communicate with other chameleons", "Only to match the exact background", "To become invisible completely"], answer: 0 },
+          { q: "How does a chameleon change its colour?", options: ["By changing the spacing of tiny crystals in its skin", "By painting itself", "By eating colored food"], answer: 0 },
+          { q: "What decides the colour we see on its skin?", options: ["How light bounces off the crystals, which depends on their spacing", "The time of day only", "The color of its food"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-10",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why does an onion keep certain chemicals stored separately?", options: ["As self-defence, to protect itself from animals that might eat it", "To make soup taste better", "To grow faster"], answer: 0 },
           { q: "What happens when you cut an onion?", options: ["The cells break and the chemicals mix, making an irritating gas", "It turns into water", "Nothing changes inside"], answer: 0 },
           { q: "Why do your eyes produce tears?", options: ["To wash away the mild acid that irritates the eye's surface", "Because you feel very sad", "To make the onion sweeter"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-04",
-    passages: [
-      {
-        id: "d1104-1",
-        title: "Why Do Shops Have Sales?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Walk through almost any shopping street, and you will see them: big signs shouting SALE, 50% OFF, or FINAL CLEARANCE. Shops seem to love lowering their prices. But this raises a puzzling question. If a shop makes money by selling things, why would it suddenly choose to sell them for less?\n\nIn fact, sales are a clever business tool, not an act of kindness. There are several good reasons behind them. One of the most common is clearing old stock. Shops have limited space, and holding on to unsold goods costs money. A winter coat that does not sell by spring takes up room that newer products need. By cutting the price, the shop can sell it quickly, free up space, and get back at least some of its money.\n\nSales also bring people through the door. A customer who comes in for a cheap item may also buy other things at full price while they are there. The low price acts like bait, attracting shoppers who might otherwise have stayed home.\n\nTiming matters too. Shops often hold sales at the end of a season, after a holiday, or when a newer model arrives. They may also use short sales to compete with a rival shop nearby.\n\nSo the next time you see a big discount, remember that the shop has usually thought carefully about it. A sale is not simply a gift; it is a smart way to manage stock, attract customers, and keep money flowing, while still giving shoppers a genuine chance to save.",
-        summaryJa: "店がなぜセールを行うのかについて。どの商店街を歩いても「セール」「半額」「最終処分」の大きな看板を目にする。店は値下げが大好きなようだ。だがここに不思議な疑問がある。店は物を売って儲けるのに、なぜ急に安く売ろうとするのか。実はセールは親切でなく巧妙な商売の手段だ。いくつか理由がある。最も一般的なのは古い在庫の処分だ。店の空間は限られ、売れ残り品を抱えると費用がかかる。春までに売れない冬のコートは、新商品に必要な場所を占める。値下げすれば素早く売り、空間を空け、少なくとも一部の資金を取り戻せる。セールは客を呼び込みもする。安い品目当てに来た客が、ついでに定価の物も買うかもしれない。安値は餌のように働く。時期も重要だ。季節末や祝日後、新型が出た時にセールをよく行う。近くの競合に対抗する短期セールもある。だからセールは単なる贈り物でなく、在庫管理と集客、資金の流れを保つ賢い方法であり、同時に買い手に本当に節約の機会も与える。",
-        quiz: [
-          { q: "What is one common reason shops hold sales?", options: ["To clear old stock and free up space", "To lose as much money as possible", "To close the shop forever"], answer: 0 },
-          { q: "How can a low-priced item help a shop?", options: ["It brings customers in, who may also buy full-price items", "It stops anyone from entering", "It makes all other prices rise"], answer: 0 },
-          { q: "When do shops often hold sales?", options: ["At the end of a season or when a newer model arrives", "Only on their first day of business", "Never, in most cases"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1104-2",
-        title: "How Does a Key and Lock Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Every day, we trust small metal keys to protect our homes, our cars, and our valuables. We slide a key into a lock, give it a turn, and the door opens. Use the wrong key, and nothing happens. It seems simple, but inside that small lock is a clever and precise little machine. The most common type is called a pin tumbler lock.\n\nInside the lock is a round part called the plug, which must turn to open the door. But the plug is held still by a row of small metal pins. Each pin is actually cut into two pieces of different lengths. A spring pushes each pin down, so the cut points sit at different heights, crossing the line where the plug meets the rest of the lock. While the pins cross this line, the plug cannot turn.\n\nThis is where the key comes in. The top edge of a key is cut into a special pattern of high and low points. When the correct key slides in, each cut lifts its matching pin to exactly the right height. At that moment, all the cuts in the pins line up perfectly along the gap around the plug. With nothing crossing the line any more, the plug is free to turn, and the lock opens.\n\nA wrong key lifts the pins to the wrong heights, so they still block the plug, and it will not turn. This small, hidden puzzle of pins and springs is a simple but brilliant idea that has kept doors safely locked for well over a century.",
-        summaryJa: "鍵と錠前の仕組みについて。私たちは毎日、小さな金属の鍵に家や車、貴重品の保護を託している。鍵を錠に差し込んで回すと扉が開く。違う鍵では何も起きない。単純に見えるが、小さな錠の中には巧妙で精密な小さな機械がある。最も一般的なのはピンタンブラー錠だ。錠の中には「プラグ」という丸い部分があり、これが回ると扉が開く。だがプラグは一列の小さな金属ピンに止められている。各ピンは実は長さの違う二つに切れており、ばねが各ピンを押し下げるため、切れ目は異なる高さにあり、プラグと錠の残り部分の境目の線をまたぐ。ピンがこの線をまたぐ間、プラグは回らない。そこで鍵の出番だ。鍵の上縁は高低の特別な形に刻まれ、正しい鍵を差すと各刻みが対応するピンをちょうどよい高さに持ち上げる。その瞬間、全ての切れ目が隙間に沿って完全にそろい、プラグが回って錠が開く。違う鍵では高さが合わずプラグを塞いだままだ。一世紀以上扉を守ってきた見事な発想だ。",
-        quiz: [
-          { q: "In a pin tumbler lock, what holds the plug still?", options: ["A row of small metal pins cut into two pieces", "A large battery", "A magnet"], answer: 0 },
-          { q: "What does the correct key do?", options: ["It lifts each pin to exactly the right height so the plug can turn", "It melts the pins", "It pushes the plug out"], answer: 0 },
-          { q: "Why does a wrong key fail?", options: ["It lifts the pins to the wrong heights, so they still block the plug", "It is always too big to fit", "It turns the plug backward"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1104-3",
-        title: "What Is Sustainable Development?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Imagine a family that owns a small apple orchard. If they pick every apple and also cut down the trees for firewood, they might have a rich year. But the next year, there will be no trees, no apples, and nothing left for their children. Clearly, using everything at once is not wise. This simple idea lies at the heart of a concept that guides nations today: sustainable development.\n\nSustainable development means meeting the needs of people living now, without destroying the ability of future generations to meet their own needs. In other words, it asks us to grow and improve our lives, but in a way that does not use up the planet or ruin it for those who come after us.\n\nThe idea rests on balancing three things. The first is the economy: people need jobs, food, and a decent standard of living. The second is society: fairness, health, and education for all. The third is the environment: clean air and water, healthy forests, and a stable climate. True progress, the idea says, must care for all three at once, not sacrifice one for another.\n\nTo guide this effort, the countries of the world have agreed on a set of shared goals. These include ending poverty, providing good education, protecting nature, and using cleaner energy. The goals are ambitious, and no country has reached them all.\n\nSustainable development is not easy, and progress is often slow. But it offers a hopeful and practical vision: that humanity can keep improving its life while still passing on a healthy world to its children.",
-        summaryJa: "持続可能な開発とは何かについて。小さなりんご園を持つ家族を想像しよう。りんごを全部もぎ、薪にと木も切り倒せば、その年は豊かかもしれない。だが翌年は木もりんごもなく、子どもたちに残る物もない。全てを一度に使い切るのは賢明でない。この単純な考えが、今日の国々を導く概念「持続可能な開発」の核心にある。持続可能な開発とは、今を生きる人々の必要を満たしつつ、将来の世代が自らの必要を満たす力を壊さないことを意味する。つまり暮らしを成長させ向上させるが、地球を使い果たしたり後の世代のために台無しにしたりしない形で、ということだ。考えは三つの均衡に基づく。第一は経済、人には仕事・食料・まともな生活水準が要る。第二は社会、全員への公平・健康・教育。第三は環境、きれいな空気と水、健全な森、安定した気候だ。本当の進歩は三つすべてを同時に大切にせねばならない。世界の国々は共通の目標に合意した。貧困の終結や良質な教育、自然保護、よりきれいなエネルギーだ。達成した国はまだない。",
-        quiz: [
-          { q: "What does sustainable development mean?", options: ["Meeting today's needs without harming future generations' ability to meet theirs", "Using up all resources as fast as possible", "Never changing anything"], answer: 0 },
-          { q: "Which three things must sustainable development balance?", options: ["The economy, society, and the environment", "Only money", "Only one country's needs"], answer: 0 },
-          { q: "What have the countries of the world agreed on?", options: ["A set of shared goals, such as ending poverty and protecting nature", "To ignore the environment", "To stop all education"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1104-4",
-        title: "Daruma: The Rolling Wish Doll",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many Japanese homes and shops, you can find a round, red doll with a serious face and no arms or legs. It is called a daruma, and it is far more than a simple decoration. The daruma is a symbol of good luck, patience, and the determination to reach a goal, however hard the journey.\n\nThe doll has a special shape. It is round and weighted at the bottom, so that if you push it over, it always rolls back upright on its own. This is the heart of its meaning. It represents a famous idea expressed in a Japanese saying: fall down seven times, stand up eight. The daruma teaches that no matter how often we are knocked down by failure, we should always rise again and keep trying.\n\nOne of the most charming customs involves the doll's eyes, which are usually left blank white when it is bought. When a person makes an important wish or sets a big goal, they paint in one eye. The one-eyed daruma then sits in the home, watching over them, a daily reminder of their promise to keep working. When at last the goal is reached, the person joyfully paints in the second eye.\n\nPeople buy daruma dolls when starting something important, such as a new business, an exam, or a personal dream. The little red doll is a gentle, powerful friend, quietly encouraging its owner never to give up until the goal is finally complete.",
-        summaryJa: "だるまについて。日本の多くの家庭や店で、まじめな顔をして手足のない、丸くて赤い人形を見かける。だるまと呼ばれ、単なる飾り以上のものだ。だるまは幸運・忍耐、そしてどんなに道のりが厳しくても目標に達しようとする決意の象徴だ。人形は特別な形をしている。丸く底が重いので、倒しても必ず自分で起き上がる。これが意味の核心だ。「七転び八起き」という日本のことわざで表される有名な考えを表す。失敗に何度打ちのめされても、また立ち上がり挑み続けよ、と教える。最も心温まる習慣は目に関わる。買った時、両目はたいてい白い空白のままだ。大切な願い事をしたり大きな目標を立てたりする時、片方の目を描き入れる。片目のだるまは家に座って見守り、努力し続ける約束を日々思い出させる。ついに目標が達成されると、喜んでもう片方の目を描き入れる。新しい事業や試験、個人の夢など、大切な事を始める時に買う。あきらめるなと静かに励ます力強い友だ。",
-        quiz: [
-          { q: "Why does a daruma doll always return upright?", options: ["It is round and weighted at the bottom", "It has hidden legs", "Someone lifts it each time"], answer: 0 },
-          { q: "What saying does the daruma represent?", options: ["Fall down seven times, stand up eight", "Look before you leap", "The early bird catches the worm"], answer: 0 },
-          { q: "What is the custom involving the daruma's eyes?", options: ["Paint one eye when making a wish, the other when the goal is reached", "Paint both eyes at the start", "Never paint the eyes"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1104-5",
-        title: "How Do Volcanoes Work?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "A volcano can seem like one of nature's most frightening wonders: a mountain that suddenly breathes fire, smoke, and rivers of glowing rock. For thousands of years, people watched them with fear and wonder. Today, science can explain where this tremendous power comes from, and the answer lies far beneath our feet.\n\nDeep inside the Earth, below the hard surface we live on, the rock is so hot that in some places it melts into a thick, glowing liquid. This underground molten rock is called magma. Because magma is lighter than the solid rock around it, it slowly rises, collecting in large pools called magma chambers, often several kilometres below the ground.\n\nMagma also contains gases, trapped under enormous pressure, rather like the gas in a fizzy drink before you open the bottle. As the magma rises and the pressure drops, these gases try to escape and expand. If the pressure becomes too great, the magma is forced violently up through a weak spot or crack in the surface. This is an eruption.\n\nOnce the molten rock reaches the open air, we no longer call it magma. It is now called lava. The lava flows out, sometimes gently, sometimes in a huge explosion of ash and rock. As the lava cools, it hardens into new stone, slowly building up the mountain shape of the volcano over many eruptions.\n\nVolcanoes can be dangerous, but they also create rich soil and new land. They are a dramatic reminder that our calm-looking planet is still powerfully alive deep inside.",
-        summaryJa: "火山の仕組みについて。火山は自然の最も恐ろしい驚異の一つに見える。突然、火と煙、輝く岩の川を噴き出す山だ。何千年もの間、人々は恐れと驚きで見つめてきた。今日、科学はこの途方もない力がどこから来るかを説明でき、答えは私たちの足のはるか下にある。地球の奥深く、私たちが暮らす硬い地表の下では、岩がとても熱く、場所によっては溶けて濃く輝く液体になる。この地下の溶けた岩をマグマという。マグマは周囲の固い岩より軽いためゆっくり上昇し、地下数キロにあるマグマだまりという大きな溜まりに集まる。マグマは巨大な圧力の下に閉じ込められた気体も含む。炭酸飲料を開ける前の気体のようだ。マグマが上昇し圧力が下がると、気体が逃げ膨張しようとする。圧力が高くなりすぎると、マグマは地表の弱い所や割れ目から激しく押し上げられる。これが噴火だ。溶けた岩が地上に出ると溶岩と呼ぶ。冷えると固まって新しい石になり、何度もの噴火で山の形を築く。豊かな土や新しい土地も生む。地球が今も内部で力強く生きている証だ。",
-        quiz: [
-          { q: "What is magma?", options: ["Hot molten rock deep inside the Earth", "A kind of cold water", "Ash on the surface"], answer: 0 },
-          { q: "Why does rising magma cause an eruption?", options: ["Trapped gases expand as pressure drops, forcing the magma up", "It freezes and cracks", "It is pulled by the moon"], answer: 0 },
-          { q: "What do we call molten rock once it reaches the open air?", options: ["Lava", "Magma chamber", "Ash only"], answer: 0 }
         ]
       }
     ]
