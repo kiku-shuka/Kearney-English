@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-12",
+    passages: [
+      {
+        id: "d1112-1",
+        title: "What Is Inflation?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Have you ever heard an older person say, When I was young, a bottle of milk cost almost nothing? They are not imagining it. Over the years, the prices of most things slowly rise. A meal, a train ticket, or a house usually costs more today than it did twenty years ago. This general, slow rise in prices over time is called inflation.\n\nInflation really means that money is losing some of its value. If prices double over many years, then the same coin buys only half as much as it once did. The money in your pocket has not changed, but what it can buy has shrunk.\n\nA small, steady amount of inflation is normal and is usually not a problem. In fact, most governments aim for a little inflation each year, because it is a sign of a healthy, growing economy. Prices and wages tend to rise together slowly.\n\nProblems appear when inflation becomes too fast. If prices rise very quickly, people's savings lose value, and those on fixed incomes, such as pensioners, can suffer, because their money buys less and less. Life becomes uncertain and difficult.\n\nThis is why governments and central banks watch inflation very carefully. They use various tools to try to keep it low and steady, avoiding both fast price rises and the opposite problem of falling prices.\n\nUnderstanding inflation helps explain many things: why wages rise, why saving matters, and why the money of today will almost certainly buy less in the future than it does right now.",
+        summaryJa: "インフレーション（物価上昇）とは何かについて。年配の人が「若い頃は牛乳一本がほとんどただ同然だった」と言うのを聞いたことはないだろうか。思い込みではない。年月とともに、ほとんどの物の値段はゆっくり上がる。食事も電車の切符も家も、たいてい二十年前より今の方が高い。この時間をかけた全般的でゆっくりした値上がりをインフレという。インフレは実は、お金が価値の一部を失うことを意味する。何年もかけて物価が倍になれば、同じ硬貨で買えるのはかつての半分だけだ。財布のお金は変わらないが、買える量は縮んだ。小さく安定したインフレは普通で、たいてい問題ではない。実際、多くの政府は毎年少しのインフレを目指す。健全で成長する経済の兆しだからだ。物価と賃金はゆっくり共に上がる傾向がある。問題はインフレが速すぎるときに生じる。物価が急に上がると貯金は価値を失い、年金生活者など固定収入の人は苦しむ。だから政府や中央銀行はインフレを注意深く見守り、様々な手段で低く安定に保とうとする。賃金が上がる理由や貯蓄が大切な理由を説明してくれる。",
+        quiz: [
+          { q: "What is inflation?", options: ["A general, slow rise in prices over time", "A fall in all prices to zero", "A kind of new coin"], answer: 0 },
+          { q: "What does inflation mean for money?", options: ["Money slowly loses some of its value", "Money becomes worth more each day", "Money stops existing"], answer: 0 },
+          { q: "When does inflation become a problem?", options: ["When prices rise too fast, so savings and fixed incomes lose value", "When it is small and steady", "Inflation is never a problem"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1112-2",
+        title: "How Does a Battery Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Batteries are everywhere in modern life, powering our phones, toys, torches, and remote controls. A battery is a small, portable store of energy, ready to give electricity whenever we need it. But a battery does not actually hold electricity inside it, waiting to pour out. Instead, it holds something cleverer: the power to make electricity on demand, through a chemical reaction.\n\nInside every battery are chemicals, carefully chosen and kept apart. These chemicals have a strong tendency to react with one another. When they do react, one of the effects is to push tiny particles called electrons from one part of the battery to another. A flow of electrons is exactly what electricity is.\n\nThe clever design of a battery is that the chemicals cannot react directly inside it. The only path for the electrons to travel is out through the two ends of the battery, called terminals. When you connect a battery into a device, such as a torch, you complete a path, or circuit, between these two terminals. Now the electrons can finally flow, travelling out of the battery, through the device, and back again. On their way, they give their energy to the device, lighting the bulb.\n\nAs the battery works, its chemicals are slowly used up. Eventually, the reaction can no longer happen, and we say the battery is flat, or dead. Some batteries can be recharged, which uses electricity to reverse the chemical change, so the battery can be used again.\n\nSo a battery is really a small chemical factory, quietly turning stored chemicals into useful electric power.",
+        summaryJa: "電池の仕組みについて。電池は現代生活のあらゆる所にあり、スマホやおもちゃ、懐中電灯、リモコンを動かす。電池は小さな持ち運べるエネルギーの蓄えで、必要なときに電気を出せる。だが電池は実は、中に電気をためて噴き出すのを待っているのではない。もっと巧妙なもの、化学反応で必要に応じて電気を作る力を持つ。どの電池の中にも、慎重に選ばれ分けて保たれた化学物質がある。これらは互いに強く反応しようとする性質を持つ。反応すると、その効果の一つとして、電子という小さな粒を電池のある部分から別の部分へ押しやる。電子の流れこそが電気だ。電池の巧妙な設計は、化学物質が内部で直接反応できないことだ。電子が進める唯一の道は、端子という二つの端を通って外へ出ることだ。電池を懐中電灯などの機器につなぐと、二つの端子の間に回路という道ができる。すると電子はようやく流れ、電池から出て機器を通り戻る。途中でエネルギーを機器に与え、電球を灯す。働くうちに化学物質は使い切られ、やがて電池切れになる。充電で元に戻せる電池もある。小さな化学工場だ。",
+        quiz: [
+          { q: "What does a battery actually store?", options: ["Chemicals that can make electricity through a reaction", "Electricity waiting inside, ready to pour out", "Tiny bulbs"], answer: 0 },
+          { q: "What is electricity, in a battery?", options: ["A flow of tiny particles called electrons", "A kind of light", "A type of heat only"], answer: 0 },
+          { q: "Why does a battery eventually go flat?", options: ["Its chemicals are slowly used up, so the reaction can no longer happen", "It runs out of stored light", "The terminals disappear"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1112-3",
+        title: "How Does the World Help After a Natural Disaster?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When a powerful earthquake, flood, or storm strikes a region, the damage can be overwhelming. Homes are destroyed, roads are broken, and many people may suddenly be left without food, clean water, or shelter. In such moments, a stricken country often cannot cope alone. One of the most hopeful sights in such times is the way the rest of the world comes together to help.\n\nHelp arrives in many forms and from many directions. In the first critical days, rescue teams fly in from other countries, bringing trained workers and dogs to search for survivors trapped under fallen buildings. Speed is vital, as every hour counts.\n\nAfter the immediate rescue, the focus turns to survival and comfort. Governments, international organisations, and charities send emergency supplies: clean water, food, medicine, tents, and blankets. Medical teams set up temporary hospitals to care for the injured and prevent the spread of disease.\n\nMuch of this effort is coordinated so that help is not wasted or duplicated. Large organisations and the famous Red Cross and Red Crescent work to make sure aid reaches the people who need it most. Ordinary people around the world also give money, often in huge amounts, to support the relief work.\n\nThe road to full recovery after a great disaster can take many years. But the immediate response shows something deeply encouraging about humanity. When disaster strikes one part of the human family, people everywhere, regardless of nation or language, are often moved to reach out and help strangers they will never meet.",
+        summaryJa: "自然災害の後、世界はどう助けるのかについて。強い地震や洪水、暴風がある地域を襲うと、被害は圧倒的になりうる。家は壊れ、道は寸断され、多くの人が突然、食べ物や清潔な水、住む場所を失う。そんなとき、被災した国は一国だけでは対処しきれないことが多い。こうした時に最も希望ある光景の一つが、世界の他の地域が助けに集まる様子だ。助けは多くの形で、多くの方向から届く。最初の重要な数日、他国から救助隊が飛来し、訓練された人や犬を連れて、倒れた建物の下に閉じ込められた生存者を捜す。一刻を争うので速さが重要だ。当面の救助の後、焦点は生存と安らぎに移る。政府や国際機関、慈善団体が、清潔な水、食料、薬、テント、毛布などの緊急物資を送る。医療チームが仮設の病院を設け、負傷者を手当てし病気の広がりを防ぐ。多くは助けが無駄や重複にならないよう調整される。大きな組織や有名な赤十字・赤新月が、最も必要とする人に援助が届くよう努める。世界中の普通の人々も多額の寄付をする。完全な復興には何年もかかりうるが、即時の対応は人間性の励みになる何かを示す。",
+        quiz: [
+          { q: "What arrives in the first critical days after a disaster?", options: ["Rescue teams to search for trapped survivors", "Only tourists", "New factories"], answer: 0 },
+          { q: "What kind of emergency supplies are sent?", options: ["Clean water, food, medicine, tents, and blankets", "Toys and games only", "Nothing useful"], answer: 0 },
+          { q: "Why is the relief effort coordinated?", options: ["So that help is not wasted or duplicated and reaches those who need it most", "To make it slower", "To help only one city"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1112-4",
+        title: "Shodo: The Art of Japanese Calligraphy",
+        level: "★★☆",
+        genre: "日本",
+        text: "In a quiet room, a person sits straight and still before a clean sheet of white paper. They dip a soft brush into black ink, pause for a moment to calm their mind, and then, in a few smooth, confident strokes, create a beautiful character. This is shodo, the ancient art of Japanese calligraphy, in which writing itself becomes a form of art.\n\nShodo uses a few simple tools: a brush, a stick of ink, a stone to prepare the ink with water, and paper. Yet mastering them takes many years. Unlike typing or everyday writing, the goal of shodo is not only to be clear, but to be beautiful and full of feeling.\n\nEvery stroke matters enormously. The artist must control the amount of ink, the pressure of the brush, and the speed of the hand. A single character may be written in one flowing movement that cannot be corrected or touched up afterwards. Because of this, the writing captures the artist's state of mind at that exact moment. A calm, focused heart produces calm, balanced writing.\n\nFor this reason, shodo is seen as much more than beautiful writing. Like many Japanese arts, it is also a path to developing patience, concentration, and inner calm. Children learn it at school, and many adults practise it throughout their lives.\n\nA finished work of shodo, hanging on a wall, is admired not just for its meaning, but for its energy and grace, a frozen record of a single, perfect, unrepeatable moment of focus.",
+        summaryJa: "書道、日本の書の芸術について。静かな部屋で、人が白い清らかな紙の前に背筋を伸ばして静かに座る。柔らかい筆を黒い墨に浸し、少し間を置いて心を鎮め、そして滑らかで確かな数筆で美しい文字を生み出す。これが書道、書くこと自体が芸術になる日本の古い技だ。書道が使う道具は少ない。筆、墨、水で墨をする硯、そして紙だ。だが使いこなすには長い年月がかかる。入力や日常の筆記と違い、書道の目的は明瞭であることだけでなく、美しく感情に満ちていることだ。一筆一筆が非常に重要だ。書き手は墨の量、筆の圧、手の速さを操らねばならない。一文字が、後から直せない一つの流れる動きで書かれることもある。だから書は、まさにその瞬間の書き手の心を捉える。穏やかで集中した心は穏やかで均整のとれた書を生む。このため書道は美しい文字以上のものと見なされる。多くの日本の芸術同様、忍耐や集中、内なる静けさを育む道でもある。子どもは学校で学び、多くの大人が生涯を通じて続ける。壁に掛けられた作品は、意味だけでなく力と優美さでも称えられる。",
+        quiz: [
+          { q: "What is shodo?", options: ["The Japanese art of calligraphy, where writing becomes art", "A kind of painting with colors", "A type of dance"], answer: 0 },
+          { q: "Why does every stroke matter so much?", options: ["A character is often written in one movement that cannot be corrected", "The paper is very expensive", "The brush is very heavy"], answer: 0 },
+          { q: "Besides beautiful writing, what is shodo seen as?", options: ["A path to developing patience, concentration, and inner calm", "A way to write as fast as possible", "A kind of sport"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1112-5",
+        title: "Why Do Cats Purr?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Anyone who has stroked a happy, sleepy cat knows the gentle, rumbling sound it makes: a soft, steady purr. It is one of the most comforting sounds in the animal world, and we usually take it as a clear sign that a cat is content. But how do cats make this sound, and does it always mean they are happy? The answer is more surprising than you might think.\n\nFirst, how is a purr made? Scientists believe it comes from the muscles in the cat's voice box, or larynx. These muscles open and close the space very quickly, many times a second. As the cat breathes in and out, the air passing through this rapidly moving space creates the familiar purring sound. Remarkably, a cat can purr continuously, both as it breathes in and as it breathes out.\n\nThe bigger surprise is why cats purr. Most of the time, a purr does mean a cat is relaxed and happy. But cats have also been observed purring when they are frightened, injured, or even close to death. This suggests that purring is not only a sign of joy.\n\nOne fascinating idea is that purring may help a cat to heal. The gentle vibrations of a purr happen at a frequency that some scientists think may help to strengthen bones and repair tissues. If this is true, a cat may purr to comfort and heal itself in times of stress, as well as to express contentment.\n\nSo the humble purr may be far more than a simple sound of happiness. It remains one of the gentle mysteries of our feline friends.",
+        summaryJa: "猫はなぜ喉を鳴らすのかについて。幸せそうに眠い猫をなでたことのある人なら、その優しく響く音、柔らかく一定したゴロゴロを知っている。動物界で最も心地よい音の一つで、普通は猫が満足している明らかな印と受け取る。だが猫はどうやってこの音を出し、いつも幸せを意味するのか。答えは思うより意外だ。まず、どうやって鳴らすのか。科学者は、猫の喉頭（声を出す器官）の筋肉から来ると考える。この筋肉が毎秒何度も素早く空間を開閉する。猫が息を吸い吐きする際、この素早く動く空間を通る空気があのゴロゴロ音を作る。驚くべきことに、猫は吸う時も吐く時も続けて鳴らせる。もっと大きな驚きはなぜ鳴らすかだ。たいていは確かにくつろぎ幸せを意味する。だが猫は、怖がったり傷ついたり、死に近いときでさえ喉を鳴らすのが観察されている。喜びの印だけではないのだ。興味深い一説は、ゴロゴロが猫の治癒を助けるかもしれないというものだ。その穏やかな振動はある周波数で起こり、骨を強め組織を修復するのを助けうると考える科学者もいる。本当なら、猫はストレス時に自らを慰め癒やすために鳴らすのかもしれない。",
+        quiz: [
+          { q: "How do scientists believe a purr is made?", options: ["By muscles in the voice box opening and closing very quickly", "By the cat's stomach", "By the cat's tail moving"], answer: 0 },
+          { q: "What is surprising about when cats purr?", options: ["They also purr when frightened, injured, or near death, not only when happy", "They only purr once a year", "They purr only while eating"], answer: 0 },
+          { q: "What is one fascinating idea about purring?", options: ["Its vibrations may help strengthen bones and repair tissues", "It makes the cat grow bigger", "It cleans the cat's fur"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-11",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "How do many bats 'see' in the dark?", options: ["With sound, by listening to echoes", "With very bright eyes", "By smelling objects"], answer: 0 },
           { q: "What does a quick returning echo tell the bat?", options: ["An object is close", "The sun is rising", "The bat is tired"], answer: 0 },
           { q: "What is this ability called?", options: ["Echolocation", "Photosynthesis", "Hibernation"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-05",
-    passages: [
-      {
-        id: "d1105-1",
-        title: "What Is Market Research?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Imagine you want to open a small café. You have a lovely idea in your head, but one worrying question remains: will people actually want to come? Before spending all your money, it would be wise to find out what customers really like. This process of learning about customers before making decisions is called market research.\n\nMarket research is how businesses try to understand the people they hope to sell to. Instead of simply guessing what customers want, a company gathers real information first. This helps it avoid expensive mistakes and make products that people will actually buy.\n\nThere are many ways to do this. One common method is the survey, where a company asks many people questions about their tastes, habits, and opinions. Another is the interview, a deeper conversation with a smaller group. Companies may also watch how shoppers behave in a store, or test a new product with a small group before selling it widely.\n\nThe information collected can answer important questions. Who are our customers? What price are they willing to pay? What do they dislike about products that already exist? With good answers, a business can design something that truly fits people's needs.\n\nOf course, market research is not perfect. People do not always do what they say they will, and tastes can change quickly. Still, gathering information greatly improves a company's chances of success.\n\nIn short, market research turns guessing into informed choice. By listening carefully to customers before acting, a business gives itself a much better chance of offering something people genuinely want.",
-        summaryJa: "市場調査（マーケットリサーチ）とは何かについて。小さなカフェを開きたいとしよう。素敵な構想が頭にあるが、気がかりな疑問が一つ残る。本当に客は来てくれるのか。全財産を使う前に、客が本当に何を好むかを知るのが賢明だ。決定を下す前に客について学ぶこの作業を市場調査という。市場調査は、企業が売りたい相手である人々を理解しようとする方法だ。客が何を望むか単に推測するのでなく、まず本物の情報を集める。これにより高くつく失敗を避け、実際に買ってもらえる商品を作れる。方法は多い。一般的なのはアンケートで、多くの人に好みや習慣、意見を尋ねる。もう一つは面接で、少人数とより深く話す。店での買い物客の行動を観察したり、広く売る前に少人数で新商品を試したりもする。集めた情報は、客は誰か、いくら払う気があるか、既存商品の不満は何かといった重要な問いに答える。良い答えがあれば、人々の必要に真に合う物を設計できる。完璧ではないが成功の可能性を大きく高める。",
-        quiz: [
-          { q: "What is market research?", options: ["Learning about customers before making business decisions", "Spending all your money quickly", "Hiding information from customers"], answer: 0 },
-          { q: "What is one common method of market research?", options: ["A survey, asking many people questions", "Guessing with no information", "Closing the business"], answer: 0 },
-          { q: "Why is market research still not perfect?", options: ["People don't always do what they say, and tastes change quickly", "It always gives perfect answers", "Customers never have opinions"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1105-2",
-        title: "How Do Traffic Lights Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "At busy crossroads all over the world, three coloured lights quietly do an important job. Red, yellow, and green signals guide cars, buses, and people, telling them when to stop and when to go. Without them, busy junctions would quickly fall into dangerous confusion. But how do these simple lights know when to change?\n\nIn the past, all traffic lights worked on a fixed timer. Each direction was given a set number of seconds for green, then yellow, then red, repeating the same pattern all day. This is simple and still common, but it has a weakness: the lights change even when no cars are waiting, which can waste everyone's time.\n\nModern systems are often smarter. Many junctions now have sensors buried under the road or cameras mounted above. These can detect how many cars are waiting in each direction. The system uses this information to adjust the timing, giving a longer green light to the direction with more traffic, and a shorter one where the road is empty.\n\nIn large cities, traffic lights may be connected to a central computer that controls many junctions at once. By timing the lights carefully, it can create a green wave, so that a car travelling at the right speed meets one green light after another, keeping traffic flowing smoothly.\n\nSo a traffic light is more than a simple coloured lamp. Behind it may lie timers, sensors, and even powerful computers, all working together. Their shared goal is simple but vital: to keep people moving safely and to prevent the chaos of a busy road with no rules.",
-        summaryJa: "信号機の仕組みについて。世界中の混雑した交差点で、三色の光が静かに大切な仕事をしている。赤・黄・緑の信号が車やバス、人を導き、止まる時と進む時を伝える。信号がなければ混雑した交差点はすぐ危険な混乱に陥る。ではこの単純な光はいつ変わるべきと分かるのか。昔はすべて固定タイマーで動いた。各方向に緑・黄・赤の秒数が決められ、一日中同じ型を繰り返す。単純で今も一般的だが弱点がある。待つ車がなくても変わり、皆の時間を無駄にしうる。現代の仕組みはより賢いことが多い。多くの交差点は路面下のセンサーや上部のカメラを備え、各方向に待つ車の数を感知できる。その情報で時間を調整し、交通量の多い方向に長い緑を、空いた道に短い緑を与える。大都市では中央のコンピューターが多くの交差点を一度に制御し、信号を巧みに合わせて「グリーンウェーブ」を作り、適切な速度の車が次々と緑に出会えるようにする。タイマー・センサー・コンピューターが協力し、安全に人を流す。",
-        quiz: [
-          { q: "How did traffic lights traditionally work?", options: ["On a fixed timer, repeating the same pattern all day", "By reading drivers' minds", "They never changed"], answer: 0 },
-          { q: "What do modern sensors or cameras at junctions detect?", options: ["How many cars are waiting in each direction", "The color of each car", "The names of the drivers"], answer: 0 },
-          { q: "What is a 'green wave'?", options: ["Timed lights so a car at the right speed meets one green after another", "A green-colored road", "A type of traffic jam"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1105-3",
-        title: "What Is Diplomacy?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Countries, like people, do not always agree. They may argue over borders, trade, resources, or the treatment of their citizens. When people disagree, they can either fight or talk. The same is true for nations. The art of solving problems between countries through talking, rather than fighting, is called diplomacy.\n\nDiplomacy is the main way that countries deal with one another in peace. Through it, nations share their views, make agreements, and try to settle disagreements before they grow into something worse. The goal is to protect a country's interests while avoiding the terrible costs of conflict.\n\nMuch of this work is done by special people called diplomats, who represent their country abroad. The most senior is often called an ambassador. Many countries keep an embassy, a kind of official home, in foreign capitals. From there, diplomats pass on messages, build friendships, and carefully explain their government's position.\n\nDiplomacy takes many forms. Sometimes leaders meet face to face at a summit. Sometimes countries send letters or hold long, quiet talks away from the public eye. Large international organisations also give nations a place to discuss shared problems and vote on solutions together.\n\nDiplomacy is not always successful, and talks can fail. Yet history shows that patient conversation has prevented countless conflicts and ended many others. A skilled diplomat may achieve with words what armies never could.\n\nIn a world of nearly two hundred nations, with different languages, beliefs, and interests, diplomacy is the quiet, steady effort to keep those differences from turning into danger, and to help the world's peoples live together in peace.",
-        summaryJa: "外交とは何かについて。国も人と同じで、いつも意見が一致するわけではない。国境や貿易、資源、国民の扱いをめぐって争うこともある。人は対立すると戦うか話すかできる。国も同じだ。国同士の問題を戦いでなく話し合いで解決する技術を外交という。外交は、国々が平和のうちに互いに関わる主な方法だ。これを通じ、国は考えを伝え合い、合意を結び、対立が悪化する前に収めようとする。目的は、紛争の恐ろしい代償を避けつつ自国の利益を守ることだ。この仕事の多くは外交官という特別な人々が担い、外国で自国を代表する。最上位はしばしば大使と呼ばれる。多くの国は外国の首都に大使館という公式の拠点を置く。そこから外交官は伝言を伝え、友好を築き、自国政府の立場を丁寧に説明する。首脳が直接会う会談もあれば、手紙や人目を避けた長い静かな交渉もある。大きな国際機関も共通の問題を話し合う場を与える。常に成功するわけではないが、忍耐強い対話は数えきれぬ紛争を防いできた。",
-        quiz: [
-          { q: "What is diplomacy?", options: ["Solving problems between countries through talking rather than fighting", "A kind of war", "A type of trade only"], answer: 0 },
-          { q: "Who represents their country abroad in this work?", options: ["Diplomats, the most senior often called an ambassador", "Only soldiers", "Tourists"], answer: 0 },
-          { q: "What does history show about patient conversation?", options: ["It has prevented countless conflicts and ended many others", "It never helps", "It always starts wars"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1105-4",
-        title: "Konbini: Japan's Convenience Stores",
-        level: "★★☆",
-        genre: "日本",
-        text: "In most countries, a convenience store is a small shop for buying snacks, drinks, and a few basic goods late at night. In Japan, the convenience store, or konbini, is something far more impressive. Open twenty-four hours a day, these bright, tidy shops have become a remarkable part of daily life, offering a surprising range of services under one small roof.\n\nOf course, a konbini sells food, but even this is special. The fresh rice balls, boxed lunches, sandwiches, and hot snacks are known for being tasty, cheap, and changed often with the seasons. Many people happily eat from a konbini every day.\n\nWhat truly amazes visitors, however, is everything else a konbini can do. Inside one small shop, you can pay your electricity and gas bills, buy concert tickets, and send or collect parcels. You can use a cash machine, make photocopies, print documents, and buy stamps. Clean toilets are usually available for anyone to use, and the staff are famous for being polite and helpful.\n\nThis incredible convenience comes from careful organisation. Deliveries arrive several times a day, so shelves are always full and food is always fresh. Everything is designed to save the customer time and effort.\n\nFor many people in Japan, the konbini is a quiet hero of everyday life, always open, always nearby, and always ready to help. It is a small but perfect example of the Japanese talent for making ordinary daily life smooth, efficient, and just a little more comfortable.",
-        summaryJa: "日本のコンビニについて。多くの国で、コンビニエンスストアは夜遅くに菓子や飲み物、少しの日用品を買う小さな店だ。日本では「コンビニ」はずっと印象的な存在だ。二十四時間開き、明るく整然としたこの店は、日常生活の見事な一部となり、小さな屋根の下に驚くほど多様なサービスを提供する。もちろん食べ物も売るが、それさえ特別だ。新鮮なおにぎりや弁当、サンドイッチ、温かい軽食はおいしく安く、季節ごとによく変わることで知られる。毎日コンビニで食べる人も多い。だが訪問者が本当に驚くのはそれ以外にできることだ。一つの小さな店で、電気やガスの料金を払い、コンサートの切符を買い、荷物を送り受け取れる。現金自動預払機を使い、コピーや書類の印刷をし、切手も買える。清潔なトイレもたいてい誰でも使え、店員は礼儀正しく親切なことで有名だ。この便利さは入念な仕組みから来る。配達が日に何度も届き、棚は常に満ち、食品は常に新鮮だ。日本の人々にとって、いつも開いて近くにあり助けてくれる日常の静かな英雄だ。",
-        quiz: [
-          { q: "How is a Japanese konbini different from a typical convenience store?", options: ["It offers a surprising range of services and is open 24 hours", "It only opens one hour a day", "It sells nothing at all"], answer: 0 },
-          { q: "What is one service you can use at a konbini besides buying food?", options: ["Paying bills, sending parcels, or using a cash machine", "Flying an airplane", "Growing crops"], answer: 0 },
-          { q: "Why are konbini shelves always full and food fresh?", options: ["Deliveries arrive several times a day", "The shop never sells anything", "Customers bring their own food"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1105-5",
-        title: "Why Do Onions Make Us Cry?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "It is a strange and common kitchen experience. You pick up a knife, begin to slice an onion, and within moments your eyes start to sting and fill with tears. You are not sad at all, yet you are crying. Why does this ordinary vegetable have such a powerful effect on us, and what is really going on?\n\nThe answer is a clever form of self-defence by the onion. While it grows in the ground, an onion needs protection from animals that might eat it. Inside its cells, it keeps certain chemicals stored separately, so they are harmless as long as the onion is whole.\n\nEverything changes when you cut it. The knife breaks open the cells, and the separated chemicals suddenly mix together. This mixing causes a quick reaction that produces a new, irritating gas, which floats up from the chopping board into the air.\n\nWhen this gas reaches your eyes, it meets the thin layer of water that always covers them. The gas and the water react to form a mild acid, which gently stings the surface of the eye. Your eyes react to this tiny discomfort in the only way they can: they produce tears to wash the irritation away.\n\nSo your tears are not a sign of emotion, but a natural cleaning response. There are ways to reduce the effect, such as chilling the onion first or cutting it under running water. But the basic cause is wonderfully simple: a humble onion, quietly defending itself, right there on your kitchen table.",
-        summaryJa: "玉ねぎを切るとなぜ涙が出るのかについて。奇妙でよくある台所の経験だ。包丁を取り玉ねぎを切り始めると、たちまち目がしみて涙があふれる。少しも悲しくないのに泣いている。なぜこの普通の野菜はこれほど強く作用するのか、実際に何が起きているのか。答えは玉ねぎの巧妙な自己防衛だ。土の中で育つ間、玉ねぎは食べようとする動物から身を守る必要がある。細胞の中にある種の化学物質を別々に蓄え、丸ごとのうちは無害だ。切ると一変する。包丁が細胞を破り、分かれていた物質が突然混ざる。この混合が素早い反応を起こし、刺激性の新しい気体を生み、まな板から空中へ立ち上る。その気体が目に届くと、目を常に覆う薄い水の層に出会う。気体と水が反応して弱い酸ができ、目の表面を軽く刺激する。目はこの小さな不快に唯一できる方法で応じる。涙を出して刺激を洗い流すのだ。だから涙は感情でなく自然な洗浄反応だ。先に冷やす、流水の下で切るなどで和らげられる。原因は実に単純、玉ねぎが静かに身を守っているのだ。",
-        quiz: [
-          { q: "Why does an onion keep certain chemicals stored separately?", options: ["As self-defence, to protect itself from animals that might eat it", "To make soup taste better", "To grow faster"], answer: 0 },
-          { q: "What happens when you cut an onion?", options: ["The cells break and the chemicals mix, making an irritating gas", "It turns into water", "Nothing changes inside"], answer: 0 },
-          { q: "Why do your eyes produce tears?", options: ["To wash away the mild acid that irritates the eye's surface", "Because you feel very sad", "To make the onion sweeter"], answer: 0 }
         ]
       }
     ]
