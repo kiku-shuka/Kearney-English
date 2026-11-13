@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-13",
+    passages: [
+      {
+        id: "d1113-1",
+        title: "What Is an Entrepreneur?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Think of a product or service you use and love. Someone, somewhere, had the idea for it first. At some point, that person decided not just to dream about their idea, but to take a risk and build a real business around it. A person who does this, who starts a new business and accepts the risks involved, is called an entrepreneur.\n\nBeing an entrepreneur is about more than just having a good idea. Many people have good ideas. What makes an entrepreneur different is the willingness to act, and to take a chance. Starting a business is risky. It often requires money, long hours, and hard work, with no promise of success. An entrepreneur steps forward anyway, believing their idea is worth the effort.\n\nEntrepreneurs come in many forms. Some start huge technology companies that change the world. But most are much smaller: a person who opens a local bakery, a family that starts a cleaning service, or someone who sells handmade goods online. All of them share the same basic spirit of creating something new.\n\nThe work is not easy. Many new businesses fail, and an entrepreneur must be ready to face problems, learn from mistakes, and keep going when things are difficult. It takes courage, patience, and determination.\n\nYet entrepreneurs are vital to any economy. They create new products, new services, and new jobs. By being brave enough to turn their ideas into reality, they drive progress and bring useful new things into the world, benefiting not only themselves, but everyone around them.",
+        summaryJa: "起業家とは何かについて。あなたが使って気に入っている製品やサービスを思い浮かべよう。どこかの誰かが最初にその着想を得た。ある時その人は、着想を夢見るだけでなく、危険を冒してそれを中心に本物の事業を築こうと決めた。これを行う人、新しい事業を始め、伴う危険を引き受ける人を起業家という。起業家であることは、良い着想を持つこと以上だ。良い着想を持つ人は多い。起業家を分けるのは、行動し賭けに出る意欲だ。事業を始めるのは危険で、しばしば金や長時間、重労働を要し、成功の保証はない。それでも起業家は、自分の着想が努力に値すると信じて踏み出す。起業家は様々だ。世界を変える巨大な技術企業を始める人もいる。だが多くはずっと小さい。地元のパン屋を開く人、清掃業を始める家族、手作りの品をネットで売る人など。皆、新しい何かを創る同じ精神を分かち合う。容易ではない。多くの新事業は失敗し、問題に向き合い失敗から学び、困難でも続ける覚悟が要る。勇気・忍耐・決意が要る。だが起業家はどの経済にも不可欠で、新しい製品・サービス・雇用を生む。",
+        quiz: [
+          { q: "What is an entrepreneur?", options: ["A person who starts a new business and accepts the risks involved", "A person who only dreams, never acts", "A government official"], answer: 0 },
+          { q: "What makes an entrepreneur different from others with good ideas?", options: ["The willingness to act and take a chance", "Having no ideas at all", "Avoiding all work"], answer: 0 },
+          { q: "Why are entrepreneurs vital to an economy?", options: ["They create new products, services, and jobs", "They stop all new businesses", "They never take risks"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1113-2",
+        title: "How Does a Refrigerator Keep Food Cold?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "A refrigerator is one of the most useful machines in any home. It keeps our food fresh and safe by holding it at a low temperature, day and night, for years. But a refrigerator does not actually make cold. In fact, cold is not a thing that can be made. Instead, the clever trick of a refrigerator is to take the heat out of the food and the air inside, and move it somewhere else.\n\nTo understand this, think about a simple fact: a liquid turning into a gas takes in heat from its surroundings. This is why you feel cool when water evaporates from your wet skin. A refrigerator uses this same idea, over and over.\n\nInside a refrigerator is a special liquid that flows around through pipes. In the pipes inside the cold section, this liquid is allowed to turn into a gas. As it does, it soaks up heat from the food and air around it, making the inside cold. The gas, now carrying this heat, flows to pipes at the back of the fridge, outside the cold box. There, it is squeezed back into a liquid, and as this happens, it releases the heat it collected into the kitchen air.\n\nThis is why the back of a refrigerator often feels warm. The machine is quietly dumping the heat it removed from your food.\n\nSo a refrigerator is really a heat-moving machine. It does not create cold; it simply carries unwanted heat out of the food and releases it into the room, keeping your food cool and fresh.",
+        summaryJa: "冷蔵庫はどうやって食べ物を冷たく保つのかについて。冷蔵庫はどの家でも最も役立つ機械の一つだ。昼も夜も、何年も食べ物を低い温度に保ち、新鮮で安全に保つ。だが冷蔵庫は実は「冷たさ」を作っていない。そもそも冷たさは作れるものではない。冷蔵庫の巧妙な技は、食べ物や中の空気から熱を取り出し、別の場所へ移すことだ。これを理解するには、単純な事実を考えよう。液体が気体に変わるとき、周りから熱を奪う。濡れた肌から水が蒸発すると涼しく感じるのはこのためだ。冷蔵庫は同じ考えを何度も使う。冷蔵庫の中には、管を巡る特別な液体がある。冷える区画の中の管では、この液体が気体に変わるのを許される。すると周りの食べ物や空気から熱を吸い取り、内部を冷たくする。熱を運ぶその気体は、冷たい箱の外、冷蔵庫の背面の管へ流れる。そこで押し縮められて液体に戻り、その際に集めた熱を台所の空気へ放つ。冷蔵庫の背面がよく温かいのはこのためだ。要は熱を移す機械で、冷たさを作るのでなく、不要な熱を食べ物から運び出し部屋へ放つのだ。",
+        quiz: [
+          { q: "What does a refrigerator actually do?", options: ["It moves heat out of the food and air, rather than making cold", "It creates cold from nothing", "It freezes the kitchen"], answer: 0 },
+          { q: "What simple fact does a refrigerator use?", options: ["A liquid turning into a gas takes in heat from its surroundings", "Gas is always colder than liquid", "Heat moves from cold to hot by itself"], answer: 0 },
+          { q: "Why does the back of a refrigerator often feel warm?", options: ["It is releasing the heat removed from the food into the kitchen air", "It has a small fire inside", "The food is being cooked there"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1113-3",
+        title: "How Do Countries Protect the Oceans?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "The oceans cover most of our planet, and they are vital to all life on Earth. They provide food for billions of people, produce much of the oxygen we breathe, and help control the world's climate. Yet the oceans face serious problems, from pollution to the danger of taking too many fish. Because the sea belongs to no single country, protecting it is a task that nations can only do by working together.\n\nOne of the biggest challenges is overfishing. If too many fish are caught, their numbers fall, and the fish may not be able to recover. To prevent this, countries make agreements that set limits on how many fish may be caught, and when. This helps fish populations stay healthy for the future.\n\nPollution is another shared problem. Waste, especially plastic, flows from the land into the sea, where it harms sea creatures and spreads across the whole ocean. Nations are working together to reduce this waste and to clean up the seas.\n\nCountries also create marine protected areas, special zones of ocean where fishing and other harmful activities are limited or banned. In these safe areas, sea life can recover and thrive, rather like national parks in the sea.\n\nNone of this is easy, because the ocean is vast and hard to watch over. Rules made by one country mean little if its neighbours ignore them. But slowly, through patient cooperation and shared agreements, the nations of the world are learning to care for the great oceans that connect and sustain us all.",
+        summaryJa: "国々はどうやって海を守るのかについて。海は地球の大部分を覆い、地球上のすべての生命に欠かせない。何十億もの人に食料を与え、私たちが吸う酸素の多くを作り、世界の気候の調整を助ける。だが海は、汚染から魚の取りすぎの危険まで、深刻な問題に直面する。海はどの一国のものでもないため、守るのは国々が協力してのみできる課題だ。最大の難題の一つは魚の取りすぎ（乱獲）だ。あまりに多く捕れば数が減り、回復できなくなりうる。これを防ぐため、各国はいつ・どれだけ捕ってよいか制限を定める協定を結ぶ。将来に向け魚の数を健全に保つのを助ける。汚染も共通の問題だ。ごみ、特にプラスチックが陸から海へ流れ込み、海の生き物を害し海全体に広がる。各国はこのごみを減らし海を清掃しようと協力している。海洋保護区も設ける。漁などの有害な活動を制限・禁止する特別な区域で、海の国立公園のようだ。海は広大で見守りにくく容易ではないが、忍耐強い協力と協定で、国々は私たちをつなぎ支える大海を守ることを学びつつある。",
+        quiz: [
+          { q: "Why must countries work together to protect the oceans?", options: ["The sea belongs to no single country", "Each country owns its own ocean", "The ocean is very small"], answer: 0 },
+          { q: "How do countries try to prevent overfishing?", options: ["They make agreements limiting how many fish may be caught", "They catch as many fish as possible", "They ban all boats forever"], answer: 0 },
+          { q: "What is a 'marine protected area'?", options: ["A zone of ocean where fishing and harmful activities are limited or banned", "A new type of fishing boat", "A factory in the sea"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1113-4",
+        title: "Origami: The Art of Paper Folding",
+        level: "★★☆",
+        genre: "日本",
+        text: "Take a simple, flat square of paper. With no scissors and no glue, using only careful folds, you can transform it into a crane, a flower, a box, or a jumping frog. This is origami, the Japanese art of paper folding, a craft that turns a humble sheet of paper into something beautiful through patience and skill alone.\n\nThe name itself describes it perfectly, combining the Japanese words for folding and paper. The rules are simple: you start with a square and you only fold. Yet from these simple beginnings, people have created an astonishing variety of shapes, from easy models for children to incredibly complex designs that take hours to complete.\n\nThe most famous origami model of all is the paper crane. In Japan, the crane is a symbol of good luck and long life. There is a well-known belief that a person who folds one thousand paper cranes may be granted a wish. Because of this, strings of colourful cranes are often folded as a heartfelt wish for peace, health, or recovery from illness.\n\nOrigami is enjoyed by people of all ages. For children, it is a fun game that also teaches patience and careful hands. For adults, it can be a relaxing hobby or even a serious art form.\n\nBeyond its beauty, origami has surprised the world in another way. Scientists and engineers now study its clever folds to help design things that must fold up small and then open out, such as solar panels for spacecraft. A simple paper art has become a source of modern inspiration.",
+        summaryJa: "折り紙、紙を折る芸術について。単純で平らな正方形の紙を取る。はさみも糊も使わず、丁寧に折るだけで、鶴や花、箱、跳ねるカエルに変えられる。これが折り紙、日本の紙を折る芸術で、ただの一枚の紙を忍耐と技だけで美しいものに変える工芸だ。名前自体がそれを完璧に表し、「折る」と「紙」の日本語を合わせている。規則は単純で、正方形から始め、折るだけだ。だがこの単純な始まりから、人々は驚くほど多様な形を生んだ。子ども向けの易しい作品から、完成に何時間もかかる非常に複雑な設計まで。最も有名な折り紙は折り鶴だ。日本で鶴は幸運と長寿の象徴だ。千羽の鶴を折ると願いがかなうかもしれないという有名な言い伝えがある。だから色とりどりの鶴の連なりが、平和や健康、病気からの回復を願う心として折られることが多い。折り紙はあらゆる年齢の人に楽しまれる。子どもには忍耐と器用な手を育てる楽しい遊び、大人にはくつろぎの趣味や本格的な芸術にもなる。美しさを超え、科学者や技術者はその巧妙な折りを研究し、宇宙船の太陽光パネルなど小さく畳んで開く物の設計に役立てている。",
+        quiz: [
+          { q: "What are the basic rules of origami?", options: ["Start with a square and only fold, with no scissors or glue", "Cut and glue many pieces", "Use only round paper"], answer: 0 },
+          { q: "What does the paper crane symbolize in Japan?", options: ["Good luck and long life", "Bad weather", "A kind of money"], answer: 0 },
+          { q: "How has origami inspired scientists and engineers?", options: ["Its folds help design things that fold up small and open out, like spacecraft solar panels", "It replaced all computers", "It is used to build roads"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1113-5",
+        title: "How Do Rainbows Form?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "After a rain shower, when the sun comes out again, we are sometimes rewarded with one of nature's most beautiful sights: a rainbow, a great arch of colour stretching across the sky. For thousands of years, people wondered what rainbows were. Today, we understand that a rainbow is made by sunlight, rain, and a clever trick of light.\n\nThe first secret is that sunlight, which looks white or colourless, is actually a mixture of many colours all travelling together. We usually cannot see them separately, but under the right conditions, they can be split apart.\n\nThis is exactly what happens in a rainbow, and the splitting is done by raindrops. When sunlight enters a tiny, round drop of rain, the light bends as it passes into the water. Because each colour in the light bends by a slightly different amount, the colours begin to spread out and separate. The light then bounces off the back of the raindrop and comes back out, now split into its separate colours.\n\nMillions of raindrops do this at the same time, each sending a particular colour towards your eyes. Together, they form the familiar arch of red, orange, yellow, green, blue, and violet that we call a rainbow.\n\nThis is also why you can only see a rainbow when the sun is behind you and the rain is in front of you. You are standing in just the right place to catch the split light.\n\nSo a rainbow is not really an object in the sky. It is a beautiful pattern of sunlight, painted for a moment by falling rain.",
+        summaryJa: "虹はどうやってできるのかについて。雨上がり、再び日が差すと、時に自然の最も美しい光景の一つ、虹が空に大きな色の弧を描いて現れる。何千年もの間、人々は虹とは何かと不思議がった。今日、虹は日光と雨、そして光の巧妙な技で作られると分かっている。第一の秘密は、白く無色に見える日光が、実は多くの色が共に進む混ざり合いだということだ。普段は別々に見えないが、条件が整うと分けられる。まさにこれが虹で起こり、分けるのは雨粒だ。日光が小さな丸い雨粒に入ると、水に入る際に光が曲がる。光の各色はわずかに異なる量だけ曲がるので、色が広がり分かれ始める。光は雨粒の裏で跳ね返り、今や別々の色に分かれて出てくる。何百万もの雨粒が同時にこれを行い、それぞれが特定の色をあなたの目へ送る。合わさって、赤・橙・黄・緑・青・紫のおなじみの弧、虹になる。だから虹は、太陽が背後、雨が前方にあるときだけ見える。分かれた光を捉えるちょうどよい場所に立っているのだ。虹は空の物体ではなく、落ちる雨が一瞬描く日光の美しい模様だ。",
+        quiz: [
+          { q: "What is sunlight really made of?", options: ["A mixture of many colors travelling together", "Only the color white", "A kind of water"], answer: 0 },
+          { q: "What splits the sunlight into colors in a rainbow?", options: ["Raindrops, which bend each color by a slightly different amount", "The clouds blocking the sun", "The wind"], answer: 0 },
+          { q: "Why can you only see a rainbow in certain positions?", options: ["The sun must be behind you and the rain in front of you", "You must be very high up", "It only works at midnight"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-12",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "How does water first enter a plant?", options: ["Through tiny hairs on its roots that soak up water from the soil", "Through its flowers", "It makes water inside itself"], answer: 0 },
           { q: "What pulls water up to the top of a plant?", options: ["Water evaporating from the leaves pulls the next drops up behind it", "A small heart pumps it", "The wind pushes it up"], answer: 0 },
           { q: "What powers this movement of water?", options: ["Sunshine and evaporation", "Electricity from the soil", "The plant's muscles"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-06",
-    passages: [
-      {
-        id: "d1106-1",
-        title: "What Is a Nonprofit Organization?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Most businesses exist to make a profit. They sell goods or services, and the money left over after costs becomes profit for the owners. But not every organisation works this way. Some exist mainly to help others or to serve a cause, rather than to make money for owners. These are called nonprofit organisations.\n\nA nonprofit still needs money to operate. It must pay its staff, rent offices, and cover its costs, just like any business. The key difference is what happens to any extra money. In a normal company, extra money goes to the owners as profit. In a nonprofit, there are no owners taking profit. Instead, all the money is put back into the work of the organisation, to help it do more good.\n\nNonprofits work in countless areas. Some care for sick or poor people, some protect animals or nature, some support the arts, and some run schools or hospitals. They get their money from donations, membership fees, government support, and sometimes from selling goods or services.\n\nBecause they do not aim to enrich owners, nonprofits are often trusted to act for the public good. Many are run partly by volunteers, people who give their time for free because they believe in the cause.\n\nNonprofits are an important part of society, sitting between private business and government. They remind us that organisations can be powerful tools not only for making money, but also for solving problems, helping people, and improving the world we all share.",
-        summaryJa: "非営利団体（NPO）とは何かについて。ほとんどの事業は利益を得るために存在する。物やサービスを売り、費用を引いて残った金が所有者の利益になる。だがすべての組織がこうではない。一部は金もうけより、他者を助けたり理念に尽くしたりするために存在する。これを非営利団体という。非営利団体も運営に金が要る。職員に給料を払い、事務所を借り、費用を賄うのはどの事業とも同じだ。違いは余った金の行き先だ。普通の会社では余った金は利益として所有者に行く。非営利団体には利益を取る所有者がいない。代わりにすべての金が組織の活動に戻され、より多くの善を行うのを助ける。活動分野は無数だ。病める人や貧しい人の世話、動物や自然の保護、芸術の支援、学校や病院の運営もある。資金は寄付、会費、政府の支援、時に物やサービスの販売から得る。所有者を富ませるのが目的でないため、公共の利益のために動くと信頼されることが多い。理念を信じ無償で時間をささげるボランティアが一部を担う。民間企業と政府の間に位置する社会の重要な一部だ。",
-        quiz: [
-          { q: "What is the main goal of a nonprofit organisation?", options: ["To help others or serve a cause, rather than make profit for owners", "To make owners as rich as possible", "To avoid doing any work"], answer: 0 },
-          { q: "What happens to any extra money in a nonprofit?", options: ["It is put back into the organisation's work", "It is given to owners as profit", "It is thrown away"], answer: 0 },
-          { q: "Who are volunteers?", options: ["People who give their time for free because they believe in the cause", "People who own the organisation", "Paid company directors"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1106-2",
-        title: "How Do Clocks Keep Time?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "We rely on clocks every day, trusting them to tell us the correct time, hour after hour, without stopping. But have you ever wondered how a clock actually measures time so steadily? The secret, found in almost every clock ever made, is surprisingly simple: a clock needs something that repeats at a perfectly regular rhythm.\n\nThink of it like counting. If you knew that something happened exactly once every second, you could count those events to measure time. A clock does the same thing, but automatically. It contains a part that moves back and forth, or vibrates, at a steady, unchanging speed. By counting these movements, the clock tracks the passing seconds, minutes, and hours.\n\nIn old-fashioned clocks, this steady beat came from a swinging pendulum or a small spring-driven wheel. Each swing took exactly the same amount of time, and gears counted the swings to move the hands around the face.\n\nMost modern clocks and watches, however, use a tiny piece of a mineral called quartz. When a small electric current from a battery passes through a quartz crystal, the crystal vibrates incredibly fast, exactly the same number of times every second. A tiny electronic circuit counts these vibrations and uses them to keep perfect time.\n\nWhether it is a grand old pendulum clock or a modern digital watch, the basic idea is always the same. To measure time, you need a steady, repeating beat, and then you simply count it. It is a beautifully simple idea at the heart of every clock in the world.",
-        summaryJa: "時計はどうやって時を刻むのかについて。私たちは毎日時計に頼り、止まることなく正しい時刻を告げると信じている。だが時計がどうやってそれほど安定して時間を測るのか、考えたことがあるだろうか。これまで作られたほぼすべての時計に共通する秘密は意外に単純だ。時計には完全に規則正しいリズムで繰り返す何かが要る。数えることを思い浮かべよう。何かがちょうど一秒に一回起こると分かっていれば、それを数えて時間を測れる。時計も同じことを自動で行う。一定で変わらない速さで前後に動く、つまり振動する部分を持ち、その動きを数えて秒・分・時を追う。昔の時計では、この一定の拍は振り子やばね仕掛けの小さな車輪から来た。一振りがちょうど同じ時間で、歯車が振りを数えて針を動かした。だが現代の時計の多くは水晶という鉱物の小片を使う。電池の小さな電流が水晶に流れると、水晶は毎秒まったく同じ回数、非常に速く振動する。小さな電子回路がこれを数え、正確な時を保つ。要は一定で繰り返す拍を数えることだ。",
-        quiz: [
-          { q: "What does a clock basically need to measure time?", options: ["Something that repeats at a perfectly regular rhythm", "A very large size", "Bright colors"], answer: 0 },
-          { q: "How did old-fashioned clocks keep a steady beat?", options: ["With a swinging pendulum or a spring-driven wheel", "With a quartz battery only", "By guessing"], answer: 0 },
-          { q: "How does a quartz clock keep time?", options: ["A quartz crystal vibrates a set number of times each second, and a circuit counts them", "It uses a tiny pendulum", "It has no moving or vibrating part"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1106-3",
-        title: "What Is an NGO?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When a terrible flood strikes a poor country, or when a forest is in danger, help often arrives not only from governments, but from a different kind of group. These groups are run neither by a government nor for profit. They are formed by ordinary citizens who come together to work on a problem they care about. Such a group is called a non-governmental organisation, or NGO for short.\n\nAs the name suggests, an NGO is independent of any government. This independence is important. It means an NGO can speak freely, work across borders, and act quickly, without waiting for political permission. Many NGOs work internationally, helping people in countries far from their own.\n\nNGOs work on a huge range of causes. Some provide food, shelter, and medical care after disasters. Others protect the environment, defend human rights, support education, or fight disease. They are often staffed by a mix of paid workers and volunteers, and they usually depend on donations from the public to fund their work.\n\nBecause they are close to the people they help, NGOs can often understand local problems better than large, distant institutions. They can also draw public attention to issues that might otherwise be ignored, and put pressure on governments to act.\n\nNGOs are not perfect, and like any organisation they must be run honestly and well. But at their best, they show something hopeful about humanity: that ordinary people, by joining together and acting with care, can make a real difference to lives far beyond their own borders.",
-        summaryJa: "NGO（非政府組織）とは何かについて。貧しい国をひどい洪水が襲った時、あるいは森が危機にある時、助けは政府だけでなく別の種類の集団からも届くことが多い。この集団は政府が運営するのでも利益のためでもない。気にかける問題に取り組もうと集まった普通の市民が作る。これを非政府組織、略してNGOという。名の通りNGOはどの政府からも独立している。この独立は重要だ。自由に発言し、国境を越えて働き、政治的許可を待たず素早く動けることを意味する。多くのNGOは国際的に活動し、自国から遠い国の人々を助ける。活動する理念は実に幅広い。災害後に食料・住まい・医療を提供するもの、環境を守るもの、人権を擁護するもの、教育を支えるもの、病気と闘うものがある。有給の職員とボランティアが混在し、活動資金は市民の寄付に頼ることが多い。助ける人々に近いため、遠く大きな機関より地域の問題をよく理解できる。見過ごされがちな問題に世間の注目を集め、政府に行動を促すこともできる。完璧ではないが、最良の時は人間性の希望を示す。",
-        quiz: [
-          { q: "What does 'NGO' stand for?", options: ["Non-governmental organisation", "National gold office", "New global order"], answer: 0 },
-          { q: "Why is an NGO's independence from government important?", options: ["It can speak freely, work across borders, and act quickly", "It can collect taxes", "It can command armies"], answer: 0 },
-          { q: "Where do NGOs usually get money for their work?", options: ["From donations from the public", "Only from selling weapons", "They never need money"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1106-4",
-        title: "Sumo: Japan's National Sport",
-        level: "★★☆",
-        genre: "日本",
-        text: "In a sport that is over a thousand years old, two very large men face each other inside a small circle of clay and sand. At a signal, they rush together with surprising speed and power, pushing, gripping, and twisting. Within seconds, it is often over. This is sumo, the traditional wrestling of Japan, and it is far more than a simple test of strength.\n\nThe rules of sumo are beautifully simple. The ring, called the dohyo, is a raised circle. A wrestler loses if any part of his body except the soles of his feet touches the ground, or if he is pushed out of the circle. There are no weight classes, so a smaller, cleverer wrestler can sometimes defeat a much heavier one using skill and balance.\n\nWhat makes sumo special, however, is its deep connection to tradition and ceremony. Sumo began long ago partly as a religious ritual, and much of that spirit remains today. Before a match, wrestlers throw salt into the ring to purify it, and they perform slow, powerful movements that have not changed for centuries.\n\nThe wrestlers themselves live a strict and disciplined life, often in special training houses where young wrestlers learn the sport and its manners. Their large size comes from careful training and eating, not from laziness.\n\nFor many Japanese people, sumo is not just entertainment but a living link to their country's long history. It blends sport, ceremony, and ancient custom into a single dramatic moment, played out again and again inside that small, sacred circle.",
-        summaryJa: "日本の国技・相撲について。千年以上の歴史を持つ競技で、二人の非常に大きな男が粘土と砂の小さな円の中で向き合う。合図とともに驚くほどの速さと力でぶつかり、押し、組み、ひねる。数秒で勝負がつくことも多い。これが日本の伝統的な格闘技、相撲であり、単なる力比べをはるかに超える。規則は見事に単純だ。土俵という盛り上がった円の中で、足の裏以外の体の一部が地面につくか、円の外へ押し出されると負けだ。体重別がないので、小柄で賢い力士が技とバランスでずっと重い相手を倒すこともある。だが相撲を特別にするのは伝統と儀式との深いつながりだ。相撲は昔、宗教的な儀式として始まった面があり、その精神が今も多く残る。取組の前、力士は塩を土俵にまいて清め、何世紀も変わらぬゆっくりとした力強い動作を行う。力士自身は厳しく規律ある生活を送り、しばしば特別な部屋で競技と作法を学ぶ。その大きな体は入念な稽古と食事から来る。多くの日本人にとって相撲は娯楽でなく歴史への生きたつながりだ。",
-        quiz: [
-          { q: "How does a sumo wrestler lose a match?", options: ["He touches the ground with his body or is pushed out of the circle", "He runs too fast", "He speaks during the match"], answer: 0 },
-          { q: "Why can a smaller wrestler sometimes win?", options: ["There are no weight classes, so skill and balance can beat size", "Bigger wrestlers are not allowed to win", "Small wrestlers start first"], answer: 0 },
-          { q: "Why do wrestlers throw salt into the ring?", options: ["To purify it, as part of sumo's old religious tradition", "To make the ground slippery", "To feed the audience"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1106-5",
-        title: "How Do Bats Find Their Way in the Dark?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "On a warm evening, you may see bats flying swiftly through the darkening sky, twisting and turning to catch tiny insects. It seems impossible. How can they fly so fast and so accurately in the dark, without crashing into trees or each other? The answer is one of nature's most amazing tricks, and it has little to do with their eyes.\n\nInstead of relying on sight, many bats see with sound. As a bat flies, it makes a stream of very high squeaks, so high that human ears cannot hear them at all. These sounds travel out into the darkness, and when they hit an object, such as a tree, a wall, or a flying insect, they bounce back as echoes.\n\nThe bat listens carefully to these returning echoes. From them, its brain builds a detailed picture of the world around it. A quick echo means an object is close; a slow one means it is far away. By sending out sounds and listening to the echoes again and again, the bat can judge the exact position, size, and even the movement of things nearby. This remarkable ability is called echolocation.\n\nEcholocation is so precise that a bat can catch a single moving insect in complete darkness, or fly through a thick forest without touching a leaf.\n\nSo bats are not blind, as people once believed. Rather, they have a second, extraordinary way of sensing the world. They show us that there is more than one way to find your path, and that nature often solves problems in surprising and wonderful ways.",
-        summaryJa: "コウモリが暗闇でどう道を見つけるのかについて。暖かい夕方、暗くなる空をコウモリが素早く飛び、身をひるがえして小さな虫を捕らえる様子を見るかもしれない。不可能に思える。木や互いにぶつからず、暗闇でなぜそれほど速く正確に飛べるのか。答えは自然の最も驚くべき技の一つで、目とはほとんど関係がない。多くのコウモリは視覚でなく音で「見る」。飛びながら非常に高い鳴き声の連なりを出す。高すぎて人間の耳には全く聞こえない。この音は暗闇へ進み、木や壁、飛ぶ虫などの物に当たるとこだまとなって跳ね返る。コウモリは戻るこだまを注意深く聞く。それから脳が周囲の詳しい像を作る。速いこだまは物が近い、遅いこだまは遠いことを意味する。音を出してこだまを聞くのを何度も繰り返し、近くの物の正確な位置・大きさ・動きまで判断できる。この驚くべき能力を反響定位（エコーロケーション）という。非常に精密で、真っ暗闇で一匹の動く虫を捕らえ、密林を葉に触れず飛べる。昔信じられたように盲目ではなく、世界を感じる並外れた第二の方法を持つのだ。",
-        quiz: [
-          { q: "How do many bats 'see' in the dark?", options: ["With sound, by listening to echoes", "With very bright eyes", "By smelling objects"], answer: 0 },
-          { q: "What does a quick returning echo tell the bat?", options: ["An object is close", "The sun is rising", "The bat is tired"], answer: 0 },
-          { q: "What is this ability called?", options: ["Echolocation", "Photosynthesis", "Hibernation"], answer: 0 }
         ]
       }
     ]
