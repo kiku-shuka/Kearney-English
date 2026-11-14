@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-14",
+    passages: [
+      {
+        id: "d1114-1",
+        title: "Why Does Competition Matter in Business?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Imagine a town with only one shop selling bread. Because there is nowhere else to go, the shop could charge high prices, sell stale bread, and treat its customers badly. The people would have no choice but to accept it. Now imagine a second bakery opens across the street. Suddenly, everything changes. This change is the power of competition.\n\nCompetition happens when two or more businesses try to win the same customers. To succeed, each business must offer something better than the others. This simple pressure has powerful and positive effects, mostly for the benefit of ordinary customers.\n\nFirst, competition tends to lower prices. If one shop charges too much, customers will simply go to a cheaper rival. To keep their customers, businesses must offer fair prices. Second, competition improves quality. A business that sells poor products will lose customers to one that sells better ones, so each must work hard to improve.\n\nCompetition also encourages new ideas. To stand out from their rivals, businesses invent new products, offer better service, or find clever ways to do things. This constant push for improvement drives much of the progress we enjoy.\n\nOf course, competition can be hard for the businesses themselves. They must work constantly to stay ahead, and some will fail. But for society as a whole, and for customers in particular, competition is usually a very good thing.\n\nSo the next time you enjoy a low price, a good product, or helpful service, remember that competition, the quiet struggle between businesses to win your custom, is often the reason.",
+        summaryJa: "なぜビジネスで競争が大切なのかについて。パンを売る店が一軒しかない町を想像しよう。他に行く所がないので、店は高値をつけ、古いパンを売り、客を粗末に扱えるかもしれない。人々は受け入れるしかない。では通りの向かいに二軒目のパン屋が開いたとしよう。突然すべてが変わる。この変化が競争の力だ。競争は、二つ以上の企業が同じ客を得ようとするときに起こる。成功するには、各企業が他より良い何かを提供せねばならない。この単純な圧力が、主に普通の客の利益のために、強力で良い効果を持つ。第一に、競争は価格を下げる傾向がある。一軒が高すぎれば客は安い競合へ行く。客を保つには公正な価格が要る。第二に、品質を上げる。粗悪な商品の店は良い店に客を奪われるので、各々が改善に努める。競争は新しい発想も促す。目立つために企業は新商品を生み、より良いサービスを提供し、巧妙な方法を見つける。この絶え間ない改善への推進が進歩の多くを生む。企業自身にはつらく、失敗する者もいるが、社会全体、特に客にはたいてい非常に良いことだ。",
+        quiz: [
+          { q: "What is competition in business?", options: ["When two or more businesses try to win the same customers", "When a shop has no rivals", "A kind of tax"], answer: 0 },
+          { q: "How does competition tend to affect prices?", options: ["It tends to lower them, as customers can go to a cheaper rival", "It makes all prices rise", "It has no effect on prices"], answer: 0 },
+          { q: "Why does competition encourage new ideas?", options: ["To stand out from rivals, businesses invent new products and services", "Because the law requires new ideas", "Because customers dislike new things"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1114-2",
+        title: "How Does a Touchscreen Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "We touch them hundreds of times a day, on our phones, at train stations, and in shops. We tap, swipe, and type on smooth glass screens, and somehow the device knows exactly where our finger is. This feels completely natural now, but it is a clever piece of technology. How does a flat sheet of glass know where you are touching it?\n\nThe most common type of touchscreen today uses electricity. The key fact behind it is that the human body conducts electricity, even if only a little. Our skin can carry a tiny electric charge.\n\nUnder the glass of the screen is a very thin, invisible layer that holds a small, even electrical charge across its whole surface. When your finger comes near and touches the glass, your body draws away a tiny amount of this charge at that exact spot. The screen is designed to notice this small change.\n\nSensors around the edges of the screen constantly measure the electrical charge across the surface. When the charge changes at one point, the device can work out precisely where the change happened, and therefore where your finger is. It does this incredibly fast, many times each second, so it can follow your finger smoothly as it moves.\n\nThis is also why these screens often do not respond to a gloved finger or the end of a normal pen. These materials do not conduct electricity, so the screen feels nothing.\n\nSo a touchscreen works by sensing the tiny electrical effect of your own body, turning a simple touch of glass into a precise command.",
+        summaryJa: "タッチスクリーンの仕組みについて。私たちは一日に何百回も、スマホや駅、店でそれに触れる。滑らかなガラスの画面をたたき、なで、入力し、機器はなぜか指の位置を正確に知る。今では完全に自然に感じるが、巧妙な技術だ。平らなガラスの板はどうやって触れられた場所を知るのか。今日最も一般的なタッチスクリーンは電気を使う。背景にある鍵は、人体がわずかながら電気を通すことだ。皮膚は小さな電荷を運べる。画面のガラスの下には、全面に小さく均一な電荷を保つ、非常に薄く目に見えない層がある。指が近づいてガラスに触れると、体がちょうどその場所の電荷をわずかに引き去る。画面はこの小さな変化に気づくよう作られている。画面の縁のセンサーが表面の電荷を絶えず測る。ある点で電荷が変わると、機器は変化が起きた場所、つまり指の位置を正確に割り出せる。毎秒何度も非常に速く行うので、動く指を滑らかに追える。だから手袋の指や普通のペンの先には反応しないことが多い。電気を通さないからだ。体の小さな電気的効果を感じ取るのだ。",
+        quiz: [
+          { q: "What key fact does a common touchscreen rely on?", options: ["The human body conducts a little electricity", "The human body produces light", "Glass is very heavy"], answer: 0 },
+          { q: "What happens when your finger touches the screen?", options: ["It draws away a tiny amount of the screen's electric charge at that spot", "It heats the glass", "It makes a sound"], answer: 0 },
+          { q: "Why does the screen often not respond to a gloved finger?", options: ["The glove does not conduct electricity, so the screen feels nothing", "The glove is too warm", "Gloves are too light"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1114-3",
+        title: "What Is a Peacekeeping Mission?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When a long and bitter conflict between groups or nations finally comes to an end, the danger is not always over. The two sides may stop fighting, but they often still distrust and fear one another. A single mistake or a small act of violence could easily start the fighting all over again. In these fragile moments, the world sometimes sends in a special kind of help: a peacekeeping mission.\n\nPeacekeepers are soldiers, police, and other workers sent by the international community, usually under the flag of the United Nations, to a place where a conflict has recently stopped. Importantly, they are not sent to fight a war or to take one side. Their job is to help keep the peace that has just been won.\n\nThey do this in several ways. They may stand between the two former enemies, watching the border or the agreed line between them, to make sure neither side breaks the ceasefire. They often help protect ordinary people who have suffered, delivering aid and guarding against violence. They may also help a damaged country slowly rebuild, supporting fair elections or helping former fighters return to normal life.\n\nPeacekeepers are often recognised by their light blue helmets or caps. These bright colours show that they come in peace, not as an enemy army.\n\nThe work is difficult and sometimes dangerous, and it does not always succeed. But at its best, a peacekeeping mission gives a war-torn region a precious chance: a calm space in which a fragile peace can grow strong, and ordinary life can slowly begin again.",
+        summaryJa: "平和維持活動（PKO）とは何かについて。集団や国家の間の長く激しい紛争がついに終わっても、危険は必ずしも去らない。双方が戦いをやめても、なお互いを不信し恐れることが多い。一つの過ちや小さな暴力が、たやすく戦いを再び始めかねない。こうしたもろい瞬間に、世界は時に特別な助けを送る。平和維持活動だ。平和維持要員は、国際社会が、たいてい国連の旗の下で、紛争が最近止まった場所へ送る兵士・警察・その他の働き手だ。重要なのは、戦争をするためでも一方に味方するためでもないことだ。彼らの仕事は、勝ち取ったばかりの平和を保つのを助けることだ。数通りに行う。かつての敵同士の間に立ち、国境や合意された境界線を見張り、どちらも停戦を破らないようにする。苦しんだ普通の人々を守り、援助を届け、暴力を防ぐこともよくある。傷ついた国の再建を助け、公正な選挙を支え、元戦闘員が普通の生活に戻るのを助けることもある。水色のヘルメットや帽子でよく見分けられる。敵でなく平和のために来た印だ。難しく危険で常に成功はしないが、最良の時、戦禍の地に貴重な機会を与える。",
+        quiz: [
+          { q: "What is the job of peacekeepers?", options: ["To help keep a peace that has just been won, not to fight a war", "To take one side and win the war", "To start new conflicts"], answer: 0 },
+          { q: "What is one thing peacekeepers do?", options: ["Watch the line between former enemies to make sure the ceasefire holds", "Choose which side should rule", "Build weapons"], answer: 0 },
+          { q: "Why do peacekeepers wear light blue helmets?", options: ["To show they come in peace, not as an enemy army", "To hide from everyone", "Because blue is the cheapest color"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1114-4",
+        title: "Maneki-neko: Japan's Beckoning Cat",
+        level: "★★☆",
+        genre: "日本",
+        text: "If you have ever visited a Japanese shop or restaurant, you may have noticed a small cat figure sitting near the entrance. It is usually white or golden, with one paw raised high in the air, as if waving hello. This cheerful little cat is the maneki-neko, meaning the beckoning cat, and it is one of Japan's most famous lucky charms.\n\nThe raised paw is the key to its meaning. In Japan, people traditionally beckon others to come closer with a gesture of the hand that looks like this raised paw. So the cat is not waving goodbye; it is inviting good things to come in. A cat with its left paw raised is believed to invite customers and people, while a right paw is thought to invite money and good fortune. This is why so many are placed in shops and businesses.\n\nThe details often carry meaning too. The colour of the cat, the collar it wears, and the coin it sometimes holds can all represent different kinds of luck, such as health, wealth, or success. There are countless charming stories about how the lucky cat first appeared, often involving a cat that saved or helped a kind person.\n\nToday, the maneki-neko is loved far beyond Japan and can be found in shops all around the world. Whether or not a person believes in its power, the little cat with its welcoming paw brings a warm and friendly feeling, silently wishing good luck to everyone who passes by.",
+        summaryJa: "招き猫、日本の縁起物について。日本の店や飲食店を訪れたことがあれば、入り口近くに座る小さな猫の像に気づいたかもしれない。たいてい白か金色で、片方の前足を高く上げ、まるで挨拶しているようだ。この陽気な小さな猫が招き猫で、日本で最も有名な縁起物の一つだ。上げた前足が意味の鍵だ。日本では伝統的に、この上げた前足のように見える手ぶりで人を近くへ招く。だから猫は別れを振っているのでなく、良いものを招き入れているのだ。左の前足を上げた猫は客や人を招き、右の前足は金や幸運を招くと信じられる。だから多くが店や事業に置かれる。細部にも意味があることが多い。猫の色、着けた首輪、時に持つ小判は、健康・富・成功など異なる種類の幸運を表しうる。縁起猫が最初に現れた経緯には、親切な人を救い助けた猫が登場する魅力的な話が数えきれぬほどある。今や招き猫は日本をはるかに超えて愛され、世界中の店で見つかる。力を信じるかどうかにかかわらず、招く前足の小さな猫は温かく親しみある気持ちを運ぶ。",
+        quiz: [
+          { q: "What does 'maneki-neko' mean?", options: ["The beckoning cat", "The sleeping cat", "The running cat"], answer: 0 },
+          { q: "What does the cat's raised paw represent?", options: ["Inviting good things, such as customers or fortune, to come in", "Saying goodbye", "Asking for food"], answer: 0 },
+          { q: "What is believed about a cat with its right paw raised?", options: ["It invites money and good fortune", "It brings bad weather", "It keeps people away"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1114-5",
+        title: "Why Do Stars Twinkle?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "On a clear night, far from city lights, the sky fills with countless stars. If you watch them, you will notice something lovely: many of the stars seem to shimmer and flicker, changing brightness and even colour from moment to moment. This is what we call twinkling. But here is a surprise: the stars themselves are not actually flickering at all. The twinkling happens much closer to home.\n\nA star is a huge, distant sun, shining with a steady light. That light travels across unimaginable distances of empty space to reach us, and during this long journey, it stays calm and even. The trouble only begins in the last tiny part of its journey, when the starlight enters the Earth's atmosphere, the layer of air around our planet.\n\nOur atmosphere is always moving. It is full of pockets of air at different temperatures, which are constantly shifting and swirling. As the thin beam of starlight passes down through these moving layers of air, it is bent this way and that, again and again. By the time it reaches your eye, the light has been nudged around so many times that the star appears to dance and sparkle.\n\nThis is also why planets usually twinkle much less than stars. Planets are far closer to us, so they appear not as a single point but as a tiny disc of light, which the air cannot disturb so easily.\n\nSo the twinkling of the stars is really a gift of our own restless air, turning steady, distant suns into the shimmering jewels of the night sky.",
+        summaryJa: "星はなぜまたたくのかについて。街の灯から離れた晴れた夜、空は無数の星で満ちる。見ていると素敵なことに気づく。多くの星がゆらめき明滅し、刻一刻と明るさや色さえ変える。これをまたたきと呼ぶ。だが驚きがある。星そのものは実はまったく明滅していない。またたきはもっと身近で起こる。星は巨大で遠い太陽で、一定の光で輝く。その光は想像もできない空間の距離を越えて私たちに届き、この長い旅の間、穏やかで一定だ。問題は旅の最後のごく一部、星の光が地球の大気、惑星を包む空気の層に入るときにだけ始まる。大気は常に動いている。異なる温度の空気の塊で満ち、絶えず移り渦巻く。細い星の光がこの動く空気の層を下りて通るうちに、あちこちへ何度も曲げられる。目に届くころには光は何度も押しやられ、星は踊り輝いて見える。だから惑星はたいてい星よりずっとまたたかない。惑星はずっと近く、一点でなく小さな光の円盤に見え、空気が乱しにくいのだ。星のまたたきは、私たち自身の落ち着かない空気の贈り物だ。",
+        quiz: [
+          { q: "Do the stars themselves actually flicker?", options: ["No, their light is steady; the twinkling happens in our atmosphere", "Yes, stars turn on and off", "Yes, they change size"], answer: 0 },
+          { q: "What causes the twinkling?", options: ["Starlight is bent as it passes through moving layers of air", "The stars are blinking", "Clouds cover the stars"], answer: 0 },
+          { q: "Why do planets usually twinkle less than stars?", options: ["They are closer and appear as a tiny disc, which the air cannot disturb so easily", "They are much hotter", "They have no light"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-13",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why is shivering actually helpful?", options: ["It is the body's way of trying to make heat and stay warm", "It cools the body down", "It has no purpose"], answer: 0 },
           { q: "What does the brain order the muscles to do?", options: ["Tighten and relax very fast, again and again", "Stop moving completely", "Grow larger"], answer: 0 },
           { q: "Why does moving the muscles make heat?", options: ["Moving muscles always produce heat as they work", "Muscles contain tiny fires", "Heat comes from the skin's color"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-07",
-    passages: [
-      {
-        id: "d1107-1",
-        title: "What Is a Patent?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Imagine you spend years, and a great deal of money, inventing a clever new machine. The moment you start selling it, a larger company copies your idea exactly, makes it more cheaply, and takes all the customers. This would feel deeply unfair, and it might stop people from ever bothering to invent anything. To prevent this problem, societies created a special kind of right called a patent.\n\nA patent is a legal protection given to the inventor of something new and useful. For a limited number of years, usually around twenty, it gives the inventor the exclusive right to make and sell their invention. During this time, no one else may copy it without the inventor's permission. This gives inventors a fair chance to earn money from their hard work and clever ideas.\n\nBut a patent is not only about protecting one person. In exchange for this protection, the inventor must publicly explain exactly how the invention works. This information is published for everyone to read. So while others cannot copy the invention yet, they can learn from it, and they can build new ideas upon it.\n\nIn this way, a patent tries to balance two needs. It rewards inventors, encouraging them to keep creating. At the same time, it slowly shares useful knowledge with the whole world.\n\nWhen the patent finally ends, anyone may use the invention freely. Many everyday products we now take for granted were once protected by patents. The system is an attempt to make sure that good ideas are both rewarded and, in time, shared with all.",
-        summaryJa: "特許とは何かについて。巧妙な新しい機械の発明に何年も多額の金も費やしたとしよう。売り始めた途端、大企業がその考えをそっくり真似て安く作り、客を全部奪う。これはひどく不公平に感じられ、人々が発明しようとする気をなくさせかねない。この問題を防ぐため、社会は特許という特別な権利を作った。特許は、新しく有用な物の発明者に与えられる法的保護だ。限られた年数、たいてい二十年ほど、発明者に自分の発明を作り売る独占的権利を与える。その間、他の誰も発明者の許可なく真似できない。これにより発明者は努力と知恵から正当に稼ぐ機会を得る。だが特許は一人を守るだけではない。保護と引き換えに、発明者は発明の仕組みを正確に公に説明せねばならない。この情報は誰もが読めるよう公開される。だから他者はまだ真似できないが、そこから学び、新しい考えを積み重ねられる。こうして特許は、発明者に報い創作を促すことと、有用な知識を世界と分かち合うことの均衡を図る。特許が終わると誰でも自由に使える。",
-        quiz: [
-          { q: "What does a patent give an inventor?", options: ["The exclusive right to make and sell their invention for a limited time", "The right to copy others' inventions", "Free money forever"], answer: 0 },
-          { q: "What must an inventor do in exchange for a patent?", options: ["Publicly explain exactly how the invention works", "Keep the invention totally secret", "Give the invention away at once"], answer: 0 },
-          { q: "What happens when a patent finally ends?", options: ["Anyone may use the invention freely", "The invention is destroyed", "The inventor is punished"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1107-2",
-        title: "How Does an Electric Kettle Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "An electric kettle is one of the most useful machines in a modern kitchen. You fill it with water, press a switch, and in a minute or two the water is boiling. Then, just as you need it, the kettle clicks and switches itself off. It seems simple, but inside this everyday object are two clever pieces of engineering working together.\n\nThe first is the heating element. At the bottom of the kettle is a metal coil or plate. When you press the switch, electricity flows through this element. The element strongly resists the flow of electricity, and this resistance makes it become very hot, very quickly. The heat passes straight into the water touching it, and soon the whole kettle of water is boiling.\n\nThe second clever part answers an important question: how does the kettle know when to stop? If it kept heating, it would boil dry and could start a fire. The answer is a special part called a thermostat. Inside it is usually a piece of metal made of two different layers joined together. As the water boils, hot steam rises and warms this metal. Because the two layers expand at different rates when heated, the metal bends. This tiny bending movement is just enough to flip the switch and cut off the electricity.\n\nSo the kettle boils the water quickly and then protects itself automatically. This simple partnership of a heating element and a heat-sensitive switch is a small masterpiece of design, quietly making a safe cup of tea possible millions of times a day.",
-        summaryJa: "電気ケトルの仕組みについて。電気ケトルは現代の台所で最も便利な機械の一つだ。水を入れ、スイッチを押すと、一、二分で湯が沸く。そして必要なちょうどその時、ケトルはカチッと鳴って自分で電源を切る。単純に見えるが、この日用品の中では二つの巧妙な工学が協力している。一つ目は発熱体だ。ケトルの底に金属のコイルか板がある。スイッチを押すと電気がこの発熱体を流れる。発熱体は電気の流れに強く抵抗し、この抵抗で素早く非常に熱くなる。熱は接する水へ直接伝わり、やがてケトル中の水が沸く。二つ目の巧妙な部分は重要な問いに答える。いつ止めるべきとケトルはどう分かるのか。加熱し続ければ空だきして火事になりかねない。答えはサーモスタットという特別な部品だ。中にはたいてい二枚の異なる金属を貼り合わせた板がある。湯が沸くと熱い蒸気が上り、この金属を温める。二層は熱で膨らむ割合が違うため金属が曲がる。このわずかな曲がりがスイッチを切るのにちょうど足りる。素早く沸かし自動で身を守る見事な設計だ。",
-        quiz: [
-          { q: "What makes the heating element become hot?", options: ["It resists the flow of electricity, which produces heat", "It is filled with hot air", "It uses a tiny fire"], answer: 0 },
-          { q: "Why does the kettle need to switch off automatically?", options: ["Otherwise it would boil dry and could start a fire", "To save the water's color", "To make the water colder"], answer: 0 },
-          { q: "How does the thermostat sense that the water is boiling?", options: ["Steam warms a two-layer metal that bends and flips the switch", "It hears the bubbles", "It counts the minutes only"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1107-3",
-        title: "How Do Nations Cooperate in Space?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Space exploration is one of the most difficult and expensive things that humans attempt. Building rockets, sending people safely beyond the Earth, and keeping them alive in the emptiness of space costs enormous amounts of money and requires brilliant minds. For this reason, space has become a surprising place where nations, even rival ones, often work together.\n\nThe most famous example is a large laboratory that orbits high above the Earth, built and run by several countries together. Astronauts from different nations live and work there side by side for months. The equipment, the costs, and the scientific discoveries are all shared. In the silence of space, people who might disagree on Earth cooperate closely to survive and to learn.\n\nNations also agree on important rules for space. Long ago, countries signed treaties promising that space would be used peacefully, that no nation could claim to own the Moon or a planet, and that space should benefit all of humanity. These agreements help keep space calm and open to everyone.\n\nCooperation makes good sense. By sharing the huge costs, countries can achieve together what none could easily afford alone. By sharing knowledge, they help science move faster for the benefit of all. And by working side by side, scientists and astronauts build trust and friendship across borders.\n\nSpace is vast, difficult, and dangerous. Perhaps that is exactly why it so often brings people together. Looking down at the Earth from far above, with no borders visible, many astronauts have said the same thing: from space, we are simply one world.",
-        summaryJa: "国々は宇宙でどう協力するのかについて。宇宙探査は人類が挑む最も難しく費用のかかることの一つだ。ロケットを作り、人を安全に地球の外へ送り、宇宙の虚空で生かし続けるには膨大な金と優れた頭脳が要る。だからこそ宇宙は、競い合う国同士さえしばしば協力する意外な場になった。最も有名な例は、地球のはるか上を回る大きな実験室で、数か国が共同で建設・運営する。異なる国の宇宙飛行士が何か月も肩を並べて暮らし働く。設備も費用も科学的発見もすべて分かち合う。宇宙の静寂の中、地上では対立しうる人々が生き延び学ぶため密に協力する。宇宙の重要な規則にも各国は合意する。昔、各国は、宇宙は平和に使う、どの国も月や惑星を所有できない、宇宙は全人類の利益になるべきだと約束する条約に署名した。これらは宇宙を穏やかで開かれた場に保つ。協力は理にかなう。巨額の費用を分け合い、一国では難しいことを共に達成し、知識を分かち科学を速める。国境を越えた信頼と友情も築く。宇宙から見れば私たちは一つの世界だ、と多くの飛行士が語る。",
-        quiz: [
-          { q: "Why do nations often cooperate in space?", options: ["It is so difficult and expensive that sharing costs and knowledge helps", "Because space is cheap and easy", "Because one country owns space"], answer: 0 },
-          { q: "What is the famous example of space cooperation described?", options: ["A large laboratory orbiting Earth, built and run by several countries", "A single private rocket", "A museum on the Moon"], answer: 0 },
-          { q: "What did countries promise in their space treaties?", options: ["Space would be used peacefully and no nation could own the Moon", "Each country could claim its own planet", "Space would be kept secret"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1107-4",
-        title: "Nengajo: Japan's New Year Greeting Cards",
-        level: "★★☆",
-        genre: "日本",
-        text: "As the end of the year approaches in Japan, people become busy with a cherished tradition: writing nengajo, or New Year greeting cards. These simple postcards are sent to friends, family, colleagues, and anyone a person wishes to thank. For a short time, the whole country takes part in one enormous exchange of good wishes.\n\nA nengajo carries a short, warm message. People thank others for their kindness in the past year and wish them health and happiness in the year to come. Many cards are decorated with the animal of the coming year, taken from the twelve-year cycle of the Japanese zodiac, such as the rat, the ox, or the tiger.\n\nWhat makes nengajo truly special is their timing. People write their cards in December and post them in time for a remarkable service: the post office carefully holds all the cards and delivers them together on the morning of January the first. On New Year's Day, families wake to find a pile of greetings from everyone who was thinking of them.\n\nIn recent years, as mobile phones and messaging apps have spread, fewer young people send paper nengajo. Yet the custom remains deeply loved. There is something special about holding a real card, chosen and written by hand, that a quick digital message cannot quite replace.\n\nThe nengajo is a gentle, thoughtful tradition. Once a year, it gives millions of people a quiet reason to stop, remember the people who matter to them, and send a few kind words across the distance.",
-        summaryJa: "日本の年賀状について。日本で年の瀬が近づくと、人々は大切な伝統で忙しくなる。年賀状を書くことだ。この簡素なはがきは友人や家族、同僚、感謝したい相手に送られる。短い間、国全体が一つの巨大な祝いの言葉のやり取りに加わる。年賀状には短く温かい言葉が記される。過去一年の親切に礼を述べ、来る年の健康と幸せを願う。多くは十二年周期の干支から取った翌年の動物（子・丑・寅など）で飾られる。年賀状を本当に特別にするのはその時期だ。人々は十二月に書いて、見事な仕組みに間に合うよう投函する。郵便局がすべての年賀状を丁寧に預かり、一月一日の朝にまとめて配達するのだ。元日、家族は自分を思ってくれた皆からの挨拶の山を見つけて目覚める。近年、携帯電話やメッセージアプリの普及で紙の年賀状を送る若者は減った。だが習慣は深く愛されている。手で選び書かれた本物のカードには、素早いデジタルの便りでは置き換えられない特別な何かがある。大切な人を思い出す静かな理由を与える。",
-        quiz: [
-          { q: "What is a nengajo?", options: ["A New Year greeting card sent to friends, family, and others", "A kind of New Year food", "A type of money gift"], answer: 0 },
-          { q: "What is special about when nengajo are delivered?", options: ["The post office holds them and delivers them together on January 1st", "They arrive one year late", "They are never delivered"], answer: 0 },
-          { q: "Why do many people still love sending paper nengajo?", options: ["A real, handwritten card feels special in a way a digital message cannot", "They are cheaper than phones", "The law requires it"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1107-5",
-        title: "How Do Plants Drink Water?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Every living thing needs water, and plants are no exception. A large tree may use hundreds of litres of water on a hot day. Yet a plant has no mouth and no heart to pump liquid around its body. So here is a surprising puzzle: how does a plant pull water all the way up from the soil, sometimes to the top of a tall tree, without any pump at all?\n\nThe journey begins underground. A plant's roots spread out in the soil, covered in tiny hairs that soak up water, rather like a sponge. The water then enters a system of very thin tubes that run all the way up through the stem or trunk and out into every leaf. These tubes are narrower than a human hair.\n\nThe real secret, however, is up in the leaves. On a warm day, water slowly evaporates from tiny holes in the leaves and escapes into the air. As each drop of water leaves, it gently pulls the next drop up behind it. Because water sticks to itself, the whole thread of water in the tube is pulled upward, like a long chain being drawn up from above.\n\nIn this way, the sun and the air do the work that a pump would do in an animal. As water escapes from the leaves, more is quietly drawn up from the roots to replace it.\n\nSo a plant does not really drink in the way we do. Instead, it lets water flow through its body in a slow, silent stream, powered simply by sunshine and evaporation.",
-        summaryJa: "植物はどうやって水を飲むのかについて。生き物はみな水を必要とし、植物も例外でない。大きな木は暑い日に何百リットルもの水を使うことがある。だが植物には口も、液体を体中に送る心臓もない。そこで意外な謎がある。ポンプもないのに、植物はどうやって土から水を、時に高い木のてっぺんまで引き上げるのか。旅は地下で始まる。植物の根は土中に広がり、海綿のように水を吸う小さな毛で覆われている。水はその後、茎や幹をずっと上まで通り、すべての葉へ出る非常に細い管の系に入る。この管は人の髪より細い。だが本当の秘密は葉の上にある。暖かい日、水は葉の小さな穴からゆっくり蒸発し空気へ逃げる。水の一滴が去るたび、後ろの次の滴を優しく引き上げる。水は互いにくっつくので、管の中の水の糸全体が上へ引かれる。上から長い鎖を引き上げるようだ。こうして太陽と空気が、動物のポンプの役割を果たす。葉から水が逃げると、代わりに根からさらに引き上げられる。植物は私たちのように飲むのでなく、日光と蒸発だけで体を水が静かに流れるのだ。",
-        quiz: [
-          { q: "How does water first enter a plant?", options: ["Through tiny hairs on its roots that soak up water from the soil", "Through its flowers", "It makes water inside itself"], answer: 0 },
-          { q: "What pulls water up to the top of a plant?", options: ["Water evaporating from the leaves pulls the next drops up behind it", "A small heart pumps it", "The wind pushes it up"], answer: 0 },
-          { q: "What powers this movement of water?", options: ["Sunshine and evaporation", "Electricity from the soil", "The plant's muscles"], answer: 0 }
         ]
       }
     ]
