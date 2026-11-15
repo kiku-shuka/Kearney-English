@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-15",
+    passages: [
+      {
+        id: "d1115-1",
+        title: "What Is a Wholesaler?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "When you buy a bottle of juice at a small local shop, you might imagine that the shopkeeper bought it directly from the company that made it. Sometimes this is true, but very often there is a hidden middle step in between. That step is a business called a wholesaler, and it quietly keeps much of our shopping world running smoothly.\n\nA wholesaler is a business that buys goods in very large amounts from the makers, and then sells them in smaller amounts to shops. The wholesaler does not usually sell to ordinary customers like you and me. Instead, its customers are the shops themselves.\n\nWhy is this middle step so useful? Imagine a small shop that wants to sell a hundred different products. Without wholesalers, the shopkeeper would have to contact a hundred different factories, arrange a hundred deliveries, and buy huge amounts from each. This would be slow, expensive, and almost impossible for a small business.\n\nA wholesaler solves this problem. It buys from many makers and gathers their products together. The small shop can then buy a little of everything from a single wholesaler, in amounts that suit its size. The maker also benefits, because it can sell huge amounts to a few wholesalers instead of dealing with thousands of tiny shops.\n\nSo the wholesaler acts as a helpful bridge between the makers of goods and the shops that sell them. Though customers rarely see them, wholesalers are a vital link in the chain that brings the products we want from the factory to the shelf.",
+        summaryJa: "卸売業者とは何かについて。小さな地元の店でジュースを一本買うとき、店主が作った会社から直接仕入れたと思うかもしれない。そうであることもあるが、間にしばしば隠れた中間の段階がある。それが卸売業者という事業で、私たちの買い物の世界の多くを静かに円滑に動かしている。卸売業者は、作り手から非常に大量に商品を買い、それを小さな量に分けて店に売る事業だ。普通はあなたや私のような一般客には売らない。顧客は店そのものだ。なぜこの中間段階が役立つのか。百種類の異なる商品を売りたい小さな店を想像しよう。卸売業者がなければ、店主は百の工場に連絡し、百の配送を手配し、それぞれから大量に買わねばならない。遅く、高くつき、小さな事業にはほぼ不可能だ。卸売業者はこれを解決する。多くの作り手から買い、商品をまとめる。小さな店は一つの卸売業者から、自分の規模に合う量で少しずつ何でも買える。作り手も、何千もの小さな店を相手にせず少数の卸に大量に売れるので得をする。工場から棚へ商品を運ぶ鎖の不可欠な環だ。",
+        quiz: [
+          { q: "What is a wholesaler?", options: ["A business that buys goods in large amounts from makers and sells them to shops", "A shop that sells to ordinary customers", "A kind of factory worker"], answer: 0 },
+          { q: "Who are a wholesaler's customers?", options: ["The shops themselves, not ordinary customers", "Only children", "The makers only"], answer: 0 },
+          { q: "How does a wholesaler help a small shop?", options: ["The shop can buy a little of everything from one wholesaler", "The shop must contact every factory itself", "The shop cannot buy anything"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1115-2",
+        title: "How Does GPS Know Where You Are?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Your phone can show you exactly where you are on a map, almost anywhere on Earth, within a few metres. This amazing ability comes from a system called GPS, which stands for Global Positioning System. But how can a small phone know its precise place on the whole planet? The answer lies far above your head, in space.\n\nHigh above the Earth, a number of satellites are constantly circling the planet. Each one carries a very accurate clock and is always sending out radio signals. These signals simply say, in effect, I am this satellite, and here is the exact time I sent this message.\n\nYour phone contains a small receiver that listens for these signals. The clever trick is in timing. The signal from a satellite takes a tiny amount of time to travel down to your phone. By measuring exactly how long the signal took to arrive, your phone can work out how far away that satellite is.\n\nKnowing the distance to just one satellite is not enough. But if your phone measures its distance from several satellites at the same time, it can combine this information. There is only one point on Earth that is exactly those distances from all of them at once, and that point is you.\n\nUsing signals from four or more satellites, your phone can calculate its position, and often its height, very accurately.\n\nSo every time you follow a map on your phone, you are quietly using a network of satellites in space, all working together to answer a simple question: where am I?",
+        summaryJa: "GPSはどうやって現在地を知るのかについて。スマホは地球上のほぼどこでも、数メートルの精度で地図上の正確な位置を示せる。この驚くべき能力はGPS（全地球測位システム）という仕組みから来る。だが小さなスマホがどうやって惑星全体での正確な位置を知るのか。答えは頭上はるか、宇宙にある。地球のはるか上空を、多数の衛星が絶えず回っている。各々が非常に正確な時計を積み、常に電波信号を送り出す。信号は要するに「私はこの衛星で、これを送った正確な時刻はこれだ」と言っている。スマホにはこの信号を聞く小さな受信機がある。巧妙な技は時間計測にある。衛星の信号はスマホへ届くのにごくわずかな時間かかる。信号が届くのにかかった時間を正確に測れば、その衛星までの距離が分かる。一つの衛星までの距離だけでは足りない。だが複数の衛星までの距離を同時に測れば、情報を組み合わせられる。地球上でそれら全てからちょうどその距離にある点は一つだけで、それがあなただ。四つ以上の衛星の信号で、位置や高さまで正確に計算できる。宇宙の衛星の網が協力し「私はどこか」に答えている。",
+        quiz: [
+          { q: "What does GPS use to find your location?", options: ["Satellites circling the Earth, sending radio signals", "Cameras on the ground", "A map printed in the phone"], answer: 0 },
+          { q: "How does your phone work out how far away a satellite is?", options: ["By measuring exactly how long the signal took to arrive", "By its color", "By its weight"], answer: 0 },
+          { q: "Why does your phone need several satellites, not just one?", options: ["Only one point on Earth is those exact distances from all of them at once", "One satellite is always broken", "Satellites work only in pairs"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1115-3",
+        title: "How Do International Courts Work?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Within a single country, when two people have a serious disagreement that they cannot solve themselves, they can go to a court. A judge listens to both sides and makes a fair decision, based on the law. But what happens when the disagreement is between two whole countries, or when terrible crimes are committed that shock the whole world? For these situations, the world has created international courts.\n\nAn international court is a special court that deals with matters between nations, or with the most serious crimes of global concern. Unlike a normal national court, it does not belong to any single country. Instead, it is set up by many nations working together, and its judges come from different parts of the world.\n\nThere are different kinds. One type helps settle peaceful disagreements between countries, for example over borders or the use of a shared river. Rather than fighting, the two nations agree to bring their case to the court and to accept its decision. This allows disputes to be solved with words and law, instead of weapons.\n\nAnother type deals with individuals who are accused of the very worst crimes, such as terrible acts committed during wars. These courts aim to show that no one is completely above the law, not even powerful leaders.\n\nInternational courts are not perfect. They often rely on countries choosing to cooperate, and a powerful nation may simply refuse. Yet they represent a hopeful idea: that even between nations, and even in the worst of times, reason, fairness, and law can offer a better path than force.",
+        summaryJa: "国際裁判所はどう機能するのかについて。一つの国の中では、二人が自分たちで解決できない深刻な対立を抱えたとき、裁判所へ行ける。裁判官が双方の言い分を聞き、法に基づいて公正な判断を下す。だが対立が二つの国全体の間にあるとき、あるいは世界を震撼させるひどい犯罪が行われたときはどうなるのか。こうした状況のため、世界は国際裁判所を作った。国際裁判所は、国家間の問題や、世界的に重大な最も深刻な犯罪を扱う特別な裁判所だ。普通の国の裁判所と違い、どの一国にも属さない。多くの国が協力して設け、裁判官は世界の様々な地域から来る。種類は異なる。一つは国家間の平和的な対立、例えば国境や共有の川の利用をめぐる争いの解決を助ける。戦う代わりに、両国が事件を裁判所に持ち込み判断を受け入れると合意する。これで争いを武器でなく言葉と法で解決できる。もう一つは、戦争中のひどい行為など、最悪の犯罪で告発された個人を扱う。強大な指導者でさえ法を完全には超えられないと示すことを目指す。完璧ではなく各国の協力に頼るが、希望ある考えを表す。",
+        quiz: [
+          { q: "What is an international court?", options: ["A court that deals with matters between nations or the worst global crimes", "A normal court belonging to one country", "A kind of parliament"], answer: 0 },
+          { q: "What does one type of international court help settle?", options: ["Peaceful disagreements between countries, like border disputes", "Shopping complaints", "School exams"], answer: 0 },
+          { q: "What is a limitation of international courts?", options: ["They often rely on countries choosing to cooperate, which a powerful nation may refuse", "They have too many judges", "They never make decisions"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1115-4",
+        title: "Koban: Japan's Neighborhood Police Boxes",
+        level: "★★☆",
+        genre: "日本",
+        text: "Walking through a Japanese town or city, you will often come across a small building, not much bigger than a room, sometimes marked with a red lamp. Inside, one or two police officers are usually on duty. This is a koban, a neighbourhood police box, and it is a simple but important part of what makes daily life in Japan feel so safe and orderly.\n\nUnlike a large central police station, a koban is small and local. It is placed right in the middle of the community it serves, near a station, a shopping street, or a residential area. Because it is so close to the people, the officers inside become a familiar and friendly presence, rather than a distant authority.\n\nThe work of a koban officer is wonderfully varied, and much of it has little to do with crime. One of their most common tasks is simply giving directions. Japanese addresses can be confusing, even for locals, so people constantly stop at a koban to ask the way. Officers also look after lost property. In Japan, if you lose your wallet or phone, there is a very good chance an honest person will hand it in at the nearest koban.\n\nOf course, the officers also help in emergencies, keep an eye on the area, and offer a safe place for anyone in trouble.\n\nThe koban system shows a gentle idea about safety: that it comes not only from catching criminals, but from a trusted, helpful presence woven quietly into the daily life of every neighbourhood.",
+        summaryJa: "交番、日本の地域の警察拠点について。日本の町や都市を歩くと、部屋ほどの大きさの小さな建物に、時に赤いランプが付いているのをよく見かける。中ではたいてい一人か二人の警察官が勤務している。これが交番で、日本の日常がこれほど安全で秩序あると感じさせる、簡素だが重要な一部だ。大きな中央の警察署と違い、交番は小さく地域に根ざす。駅や商店街、住宅地の近くなど、奉仕する地域のまさに真ん中に置かれる。人々にとても近いので、中の警察官は遠い権威でなく、親しみある身近な存在になる。交番の警察官の仕事は実に多様で、その多くは犯罪とほとんど関係ない。最も一般的な仕事の一つは道案内だ。日本の住所は地元の人にも紛らわしく、人々は絶えず交番に立ち寄って道を尋ねる。落とし物の管理もする。日本では財布やスマホを落としても、正直な人が最寄りの交番に届けてくれる可能性がとても高い。もちろん緊急時にも助け、地域を見守り、困った人に安全な場所を提供する。安全は犯人を捕まえるだけでなく、信頼され頼れる存在から来るという考えを示す。",
+        quiz: [
+          { q: "What is a koban?", options: ["A small neighbourhood police box, local to the community", "A large central prison", "A kind of train station"], answer: 0 },
+          { q: "What is one of the most common tasks of a koban officer?", options: ["Giving directions to people who are lost", "Building houses", "Flying planes"], answer: 0 },
+          { q: "What idea about safety does the koban system show?", options: ["Safety comes from a trusted, helpful presence in daily life, not only catching criminals", "Safety comes only from high walls", "Safety does not matter"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1115-5",
+        title: "Why Is Blood Red?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "If you have ever had a small cut, you know that human blood is red. It is one of those facts so familiar that we rarely stop to ask why. What is it about our blood that gives it this deep red colour? The answer takes us deep inside the body, down to some of the smallest and busiest parts of us.\n\nBlood has a very important job: it carries oxygen from our lungs to every part of the body, where it is needed to keep us alive. This vital task is done by tiny red blood cells, which float in their millions in our blood.\n\nInside each of these red blood cells is a special substance whose job is to grab and carry oxygen. This substance contains iron. And here is the key: when this iron-rich substance joins with oxygen, it turns a bright red colour. Because our blood is full of these cells, all carrying oxygen, the blood itself looks red.\n\nYou might have heard that blood is blue before it gets oxygen, but this is a myth. Blood is always some shade of red. When it is rich in fresh oxygen, leaving the lungs, it is a bright, vivid red. After it has delivered its oxygen to the body, it becomes a darker, duller red. Our veins can look bluish through the skin, but the blood inside them is still red.\n\nSo the red colour of blood is really the colour of iron meeting oxygen, a tiny chemical signal of the life-giving work happening inside us every second.",
+        summaryJa: "血はなぜ赤いのかについて。小さな切り傷を負ったことがあれば、人間の血が赤いと知っている。あまりに身近で、なぜかと立ち止まって問うことはめったにない。私たちの血の何がこの濃い赤色を与えるのか。答えは体の奥深く、私たちの最も小さく忙しい部分へと導く。血には重要な仕事がある。肺から体の隅々へ酸素を運び、生命を保つのに使う。この大切な仕事は、血中に何百万も浮かぶ小さな赤血球が行う。各赤血球の中には、酸素をつかんで運ぶ仕事をする特別な物質がある。この物質は鉄を含む。ここが鍵だ。この鉄に富む物質が酸素と結びつくと、鮮やかな赤色になる。血はこうした酸素を運ぶ細胞で満ちているので、血自体が赤く見える。酸素を得る前の血は青いと聞いたことがあるかもしれないが、これは俗説だ。血は常に何らかの赤だ。肺を出た新鮮な酸素に富む血は鮮やかな赤。体に酸素を届けた後は暗くくすんだ赤になる。皮膚越しに静脈は青みがかって見えるが、中の血はやはり赤い。血の赤は鉄が酸素と出会う色なのだ。",
+        quiz: [
+          { q: "What important job does blood do?", options: ["It carries oxygen from the lungs to every part of the body", "It makes the skin blue", "It cools the body like water"], answer: 0 },
+          { q: "What gives blood its red colour?", options: ["An iron-rich substance that turns red when it joins with oxygen", "A red dye we eat", "The color of the skin"], answer: 0 },
+          { q: "Is blood ever actually blue?", options: ["No, that is a myth; blood is always some shade of red", "Yes, before it has oxygen", "Yes, in the veins"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-14",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Which muscle is involved in hiccups?", options: ["The diaphragm, the main muscle used for breathing", "A muscle in the foot", "A muscle in the hand"], answer: 0 },
           { q: "What two things happen together in a single hiccup?", options: ["A sudden jump of the breathing muscle and the quick closing of the throat", "A sneeze and a cough", "Blinking and swallowing"], answer: 0 },
           { q: "What can set off hiccups?", options: ["Eating too fast, fizzy drinks, or sudden excitement", "Sleeping deeply", "Sitting very still"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-08",
-    passages: [
-      {
-        id: "d1108-1",
-        title: "What Is Interest?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Suppose you lend a friend some money, and a year later they pay you back exactly the same amount. You have gained nothing, even though your friend used your money for a whole year. In the world of finance, money almost never works this way. When money is borrowed or saved, a little extra is usually added over time. This extra money is called interest.\n\nInterest can be understood simply as the cost of using someone else's money, or the reward for lending yours. It is usually described as a percentage of the amount, charged each year. For example, if you borrow 100 and the interest rate is five percent, after one year you owe 105.\n\nInterest works in two directions, and this is important to understand. When you put money into a savings account at a bank, the bank is really borrowing your money. In return, it pays you interest, so your savings slowly grow. But when you borrow money, for a car or a house, you must pay interest to the lender, so you pay back more than you borrowed.\n\nThere is also a powerful effect called compound interest. This happens when you earn interest not only on your original money, but also on the interest you have already earned. Over many years, this can make savings grow surprisingly large.\n\nUnderstanding interest is one of the most useful money skills a person can have. It quietly shapes saving, borrowing, and the price of almost everything bought over time, affecting nearly every financial choice we make.",
-        summaryJa: "利子・金利とは何かについて。友人にお金を貸し、一年後にちょうど同じ額を返してもらったとしよう。友人は一年間あなたのお金を使ったのに、あなたは何も得ていない。金融の世界では、お金はほぼこうは働かない。お金が借りられたり預けられたりすると、時とともに普通は少し上乗せされる。この上乗せ分を利子（金利）という。利子は、他人のお金を使う費用、または自分のお金を貸す報酬と単純に理解できる。たいてい金額に対する割合として年ごとに示される。例えば100を借りて金利が5%なら、一年後には105を返すことになる。利子は二方向に働く点が重要だ。銀行の預金口座にお金を入れると、実は銀行があなたのお金を借りている。見返りに利子を払い、貯金が少しずつ増える。だが車や家のためにお金を借りると、貸し手に利子を払い、借りた以上を返す。複利という強力な効果もある。元のお金だけでなく、既に得た利子にも利子がつくことだ。長年で貯金は驚くほど大きく育つ。利子の理解は最も役立つお金の技能の一つだ。",
-        quiz: [
-          { q: "What is interest?", options: ["The cost of using someone else's money, or the reward for lending yours", "A kind of tax on food", "A type of bank building"], answer: 0 },
-          { q: "What happens when you put money in a savings account?", options: ["The bank borrows it and pays you interest, so your savings grow", "You must pay the bank extra each year", "Your money disappears"], answer: 0 },
-          { q: "What is compound interest?", options: ["Earning interest on your original money and on the interest already earned", "Interest that never changes", "A fee for closing an account"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1108-2",
-        title: "How Does a Camera Take a Photo?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "A photograph can freeze a single moment forever: a smile, a sunset, a crowded street. We take thousands of pictures with our phones without a second thought. But behind every photo lies a clever process, one that cameras share with our own eyes. At its heart, a camera is simply a device for catching light.\n\nLight is the key to everything. When you look at an object, light bounces off it and travels in all directions. A camera's job is to collect some of that light and record the pattern it makes. To do this well, every camera has a lens.\n\nThe lens is a specially shaped piece of glass or plastic that bends the incoming light. As the scattered light passes through the lens, it is bent so that the rays come together neatly and form a sharp, clear image inside the camera. This is called focusing, and it is the same thing the lens in your eye does.\n\nIn the past, this focused image fell onto a piece of film coated with chemicals that reacted to light. In modern digital cameras, it falls instead onto an electronic sensor. This sensor is covered with millions of tiny light-detectors. Each one measures how much light and what colour hits it, and turns that into numbers.\n\nThe camera then combines all these millions of measurements into a single picture, made of tiny coloured dots. This is your photograph, stored as data.\n\nSo every photo is really a careful recording of light, captured through a lens and frozen in an instant, ready to be looked at again and again.",
-        summaryJa: "カメラはどうやって写真を撮るのかについて。写真は一瞬を永遠に凍らせる。笑顔、夕日、混んだ通り。私たちは何気なくスマホで何千枚も撮る。だがどの写真の裏にも巧妙な過程があり、それは私たち自身の目と共通する。カメラは要するに光を捕らえる装置だ。光がすべての鍵だ。物を見ると、光が物に当たって跳ね返り四方へ進む。カメラの仕事は、その光の一部を集め、作る模様を記録することだ。そのため、どのカメラにもレンズがある。レンズは特別な形のガラスかプラスチックで、入ってくる光を曲げる。散らばった光がレンズを通ると曲げられ、光線がきれいに集まってカメラ内に鮮明な像を結ぶ。これを焦点合わせといい、目のレンズがするのと同じだ。昔はこの像が光に反応する薬品を塗ったフィルムに落ちた。現代のデジタルカメラでは電子センサーに落ちる。センサーは何百万もの小さな光検出器で覆われ、各々が当たる光の量と色を測り数値に変える。カメラはこの数百万の測定を一枚の絵にまとめる。写真は光の記録だ。",
-        quiz: [
-          { q: "What does a camera basically do?", options: ["It catches light and records the pattern it makes", "It creates light from nothing", "It measures sound"], answer: 0 },
-          { q: "What does the lens do?", options: ["It bends the light so the rays form a sharp, clear image", "It colors the photo by hand", "It stores the picture"], answer: 0 },
-          { q: "What does a digital camera's sensor do?", options: ["Millions of tiny detectors measure the light and color and turn it into numbers", "It paints the image with ink", "It plays the sound of the scene"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1108-3",
-        title: "What Does the World Health Organization Do?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Diseases do not respect borders. A sickness that begins in one country can, in our connected world, spread to others within days. No single nation can protect itself completely on its own. For this reason, the countries of the world created a special organisation to work together on health: the World Health Organization, often shortened to WHO.\n\nThe WHO is part of the United Nations, and almost every country in the world is a member. Its basic goal is simple but enormous: to help all people everywhere reach the best possible health. To do this, it works in many different ways.\n\nOne of its most important jobs is watching for dangerous diseases. The WHO acts like a global lookout, collecting information from around the world. If a serious illness begins to spread, it can warn other countries quickly and help coordinate a response. It also leads huge campaigns to fight specific diseases, such as efforts to vaccinate children everywhere.\n\nThe WHO does much quieter work too. It gathers health information, sets common standards, and gives scientific advice that countries can trust. It helps poorer nations build hospitals, train nurses and doctors, and provide clean water and medicine.\n\nLike any large organisation, the WHO is not perfect, and it depends on the cooperation and funding of its members. But its basic idea is a hopeful one. It reflects a simple truth that the world slowly learned: that protecting the health of people in distant lands also helps protect the health of everyone, including ourselves.",
-        summaryJa: "世界保健機関（WHO）は何をするのかについて。病気は国境を尊重しない。一国で始まった病が、つながった世界では数日で他国へ広がりうる。一国だけで完全に身を守れる国はない。だから世界の国々は、健康のために協力する特別な組織を作った。世界保健機関、しばしばWHOと略される。WHOは国連の一部で、ほぼすべての国が加盟する。基本目標は単純だが壮大だ。あらゆる地のすべての人が可能な限り最良の健康に達するのを助けることだ。そのため多様な方法で働く。最も重要な仕事の一つは危険な病気への警戒だ。WHOは世界の見張りのように情報を集める。深刻な病が広がり始めれば他国に素早く警告し、対応の調整を助ける。子どもへの予防接種など、特定の病気と闘う大規模な取り組みも率いる。もっと地味な仕事もする。健康情報を集め、共通の基準を定め、信頼できる科学的助言を与える。貧しい国の病院建設や看護師・医師の育成、清潔な水と薬の提供も助ける。完璧ではなく加盟国の協力と資金に頼るが、希望ある考えだ。",
-        quiz: [
-          { q: "Why did countries create the WHO?", options: ["Because diseases cross borders and no nation can protect itself alone", "To control world trade", "To run a single hospital"], answer: 0 },
-          { q: "What is one of the WHO's most important jobs?", options: ["Watching for dangerous diseases and warning other countries", "Selling medicine for profit", "Building airports"], answer: 0 },
-          { q: "What quieter work does the WHO do?", options: ["Setting health standards and helping poorer nations train doctors", "Making films", "Designing cars"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1108-4",
-        title: "Onsen: Japan's Hot Spring Culture",
-        level: "★★☆",
-        genre: "日本",
-        text: "Japan sits on a chain of volcanoes, and deep underground, the earth heats vast amounts of water. In many places, this naturally hot water rises to the surface, creating a hot spring. In Japanese, a hot spring is called an onsen, and bathing in one is one of the country's most loved and relaxing traditions.\n\nAn onsen is far more than a simple hot bath. The water is rich in natural minerals, and for centuries people have believed it to be good for health, easing tired muscles and warming the body. Surrounded by beautiful mountains or quiet forests, soaking in an onsen is a deeply peaceful experience, especially in winter, when snow may fall gently around the steaming water.\n\nThere are important customs to follow. Before entering the shared bath, bathers must wash their bodies carefully and completely, so the water stays clean for everyone. People then enter the bath with no clothing at all, which is simply normal and natural at an onsen. The bath is a place for quiet rest, not for swimming or noise.\n\nOnsen come in many forms. Some are indoors, while others, called rotenburo, are outdoors, offering lovely views of nature. Many are part of traditional inns where guests stay overnight.\n\nFor many Japanese people, visiting an onsen is a cherished way to escape the stress of busy life. It combines the gifts of nature, a long cultural tradition, and simple physical comfort into one quiet, steaming pool of warm water.",
-        summaryJa: "日本の温泉文化について。日本は火山の連なりの上にあり、地下深くで大地が大量の水を温める。多くの場所でこの自然に熱い水が地表へ湧き出し、温泉ができる。日本語で温泉といい、そこに入ることは国で最も愛される癒やしの伝統の一つだ。温泉は単なる熱い風呂をはるかに超える。水は天然のミネラルに富み、何世紀も健康に良いと信じられ、疲れた筋肉をほぐし体を温める。美しい山や静かな森に囲まれて湯につかるのは深く穏やかな体験で、特に冬、湯気の立つ湯の周りに雪がそっと降る時はなおさらだ。守るべき大切な作法がある。共同の湯に入る前に体を丁寧に完全に洗い、皆のために湯を清潔に保つ。そして一切衣服を着けずに入るが、温泉ではごく普通で自然なことだ。湯は静かに休む場で、泳いだり騒いだりする場ではない。温泉には多くの形がある。屋内のものもあれば、露天風呂という屋外のものもあり、自然の眺めを楽しめる。宿泊する伝統的な旅館の一部も多い。忙しい生活の緊張から逃れる大切な方法だ。",
-        quiz: [
-          { q: "Where does the hot water of an onsen come from?", options: ["The earth heats underground water, which rises to the surface", "It is boiled in large kettles", "It comes from the sea"], answer: 0 },
-          { q: "What must bathers do before entering the shared bath?", options: ["Wash their bodies carefully so the water stays clean", "Jump straight in with their clothes on", "Add soap to the bath"], answer: 0 },
-          { q: "What is a 'rotenburo'?", options: ["An outdoor onsen with views of nature", "A kind of indoor swimming pool", "A type of towel"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1108-5",
-        title: "Why Do We Shiver When We Are Cold?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "On a cold winter morning, waiting outside for a bus, you may suddenly feel your body begin to tremble. Your teeth chatter, and your arms and legs shake, all by themselves. You did not choose to do this. This is shivering, and although it feels unpleasant, it is actually your body cleverly trying to protect you.\n\nThe human body works best at a fairly steady warm temperature, around thirty-seven degrees. If the body becomes too cold, it cannot work properly, and this can become dangerous. So the body is always carefully watching its own temperature, and it will act quickly to stay warm.\n\nWhen sensors in your skin tell the brain that it is getting cold, the brain sends out a clever command to your muscles. It orders them to tighten and relax very fast, again and again, many times each second. This rapid shaking of the muscles is exactly what we feel as shivering.\n\nBut why does this make heat? The answer is that moving muscles always produce heat as they work. It is the same reason you feel hot after running or exercising. By making the muscles move quickly without you even trying, shivering turns energy into warmth, helping to raise the body's temperature back toward a safe level.\n\nSo shivering is not a weakness or a fault. It is an automatic, built-in heater, switched on by the brain without you having to think about it. It is one of the many quiet, clever ways your body works constantly to keep you alive and well.",
-        summaryJa: "寒いとなぜ身震いするのかについて。寒い冬の朝、バスを外で待っていると、突然体が震え出すのを感じるかもしれない。歯がカチカチ鳴り、腕や脚がひとりでに震える。自分で選んだわけではない。これが身震い（シバリング）で、不快に感じるが、実は体が巧妙にあなたを守ろうとしているのだ。人体はおよそ三十七度のかなり一定した温かい体温で最もよく働く。体が冷えすぎるとうまく働けず、危険になりうる。だから体は常に自分の体温を注意深く見守り、温かさを保とうと素早く動く。皮膚のセンサーが寒くなってきたと脳に伝えると、脳は筋肉に巧妙な指令を送る。毎秒何度も、速く緊張と弛緩を繰り返せと命じる。この筋肉の素早い震えこそ、私たちが身震いとして感じるものだ。ではなぜ熱が出るのか。動く筋肉は働く時いつも熱を生むからだ。走ったり運動したりすると暑くなるのと同じ理由だ。身震いは筋肉を素早く動かしてエネルギーを熱に変え、体温を安全な水準へ戻す。弱さや欠陥でなく、脳が入れる自動の内蔵ヒーターなのだ。",
-        quiz: [
-          { q: "Why is shivering actually helpful?", options: ["It is the body's way of trying to make heat and stay warm", "It cools the body down", "It has no purpose"], answer: 0 },
-          { q: "What does the brain order the muscles to do?", options: ["Tighten and relax very fast, again and again", "Stop moving completely", "Grow larger"], answer: 0 },
-          { q: "Why does moving the muscles make heat?", options: ["Moving muscles always produce heat as they work", "Muscles contain tiny fires", "Heat comes from the skin's color"], answer: 0 }
         ]
       }
     ]
