@@ -223,7 +223,19 @@ KE_DATA.extraSentences = [
   { id: "w2645-s09", ja: "ご都合のよい時間を教えていただけますか。", en: "Could you let me know what time works for you?", note: "works for you = 都合が合う" },
   { id: "w2645-s10", ja: "この件は私が引き受けます。", en: "I'll take care of this one.", note: "take care of = 引き受ける・対応する" },
   { id: "w2645-s11", ja: "少し考える時間をいただけますか。", en: "Could I have some time to think it over?", note: "think over = じっくり考える" },
-  { id: "w2645-s12", ja: "ご期待に応えられるよう努めます。", en: "I'll do my best to meet your expectations.", note: "meet expectations = 期待に応える" }
+  { id: "w2645-s12", ja: "ご期待に応えられるよう努めます。", en: "I'll do my best to meet your expectations.", note: "meet expectations = 期待に応える" },
+  { id: "w2646-s01", ja: "差し支えなければ、理由を伺えますか。", en: "If you don't mind, could I ask the reason?", note: "if you don't mind = 差し支えなければ" },
+  { id: "w2646-s02", ja: "念のため、もう一度確認させてください。", en: "Just to be sure, let me check once more.", note: "just to be sure = 念のため" },
+  { id: "w2646-s03", ja: "その方向で進めて問題ないでしょうか。", en: "Are you okay with us moving ahead in that direction?", note: "move ahead = 進める" },
+  { id: "w2646-s04", ja: "こちらの手違いでした。申し訳ありません。", en: "That was our mistake. I apologize.", note: "our mistake = こちらの手違い" },
+  { id: "w2646-s05", ja: "率直なご意見をお聞かせください。", en: "Please give me your honest opinion.", note: "honest opinion = 率直な意見" },
+  { id: "w2646-s06", ja: "期限に間に合わせるよう最善を尽くします。", en: "I'll do my best to meet the deadline.", note: "meet the deadline = 期限に間に合わせる" },
+  { id: "w2646-s07", ja: "この点について補足させてください。", en: "Let me add a little to this point.", note: "add to = 補足する" },
+  { id: "w2646-s08", ja: "後ほど議事録を共有します。", en: "I'll share the meeting notes later.", note: "meeting notes = 議事録" },
+  { id: "w2646-s09", ja: "ご質問があればいつでもどうぞ。", en: "Feel free to ask if you have any questions.", note: "feel free to = 遠慮なく～する" },
+  { id: "w2646-s10", ja: "そろそろ結論を出しましょう。", en: "Let's try to reach a decision soon.", note: "reach a decision = 結論を出す" },
+  { id: "w2646-s11", ja: "想定の範囲内です、ご心配なく。", en: "It's within what we expected, so don't worry.", note: "within what we expected = 想定の範囲内" },
+  { id: "w2646-s12", ja: "引き続きよろしくお願いします。", en: "Thank you, and I look forward to working with you.", note: "look forward to ~ing = ～を楽しみにする" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -299,7 +311,15 @@ KE_DATA.extraPhrases = [
   { id: "w2644-p05", en: "I'll leave it up to you.", ja: "お任せします。", tip: "leave it up to you = 判断を委ねる" },
   { id: "w2644-p06", en: "That's easier said than done.", ja: "言うは易く行うは難し、ですね。", tip: "easier said than done = 言うは易し" },
   { id: "w2644-p07", en: "Let's split the difference.", ja: "間を取りましょう（折半しましょう）。", tip: "split the difference = 差を折半する・妥協する" },
-  { id: "w2644-p08", en: "Keep up the good work.", ja: "この調子で頑張ってください。", tip: "励ましの定番表現" }
+  { id: "w2644-p08", en: "Keep up the good work.", ja: "この調子で頑張ってください。", tip: "励ましの定番表現" },
+  { id: "w2646-p01", en: "Let me play devil's advocate for a moment.", ja: "あえて反対の立場で考えてみます。", tip: "議論を深めるための前置き" },
+  { id: "w2646-p02", en: "Correct me if I'm wrong, but...", ja: "間違っていたら訂正してほしいのですが…", tip: "確認しながら切り出す型" },
+  { id: "w2646-p03", en: "Let's circle back to that later.", ja: "その件には後で戻りましょう。", tip: "circle back = 後で立ち返る" },
+  { id: "w2646-p04", en: "That's a fair point.", ja: "もっともなご指摘です。", tip: "相手の意見を認める一言" },
+  { id: "w2646-p05", en: "Let's touch base next week.", ja: "来週、状況を確認し合いましょう。", tip: "touch base = 連絡を取り合う" },
+  { id: "w2646-p06", en: "Let's not reinvent the wheel.", ja: "一から作り直す必要はありません。", tip: "reinvent the wheel = 無駄に一からやり直す" },
+  { id: "w2646-p07", en: "Let's take this offline.", ja: "この件は後で個別に話しましょう。", tip: "take offline = 別途話す" },
+  { id: "w2646-p08", en: "Let's keep our options open.", ja: "選択肢は残しておきましょう。", tip: "keep options open = 可能性を残す" }
 ];
 
 /* シャドーイングの追加スクリプト（shadowing.js と同スキーマ） */
@@ -627,6 +647,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Ten o'clock is perfect. Thank you for being flexible.", ja: "10時で問題ありません。ご配慮ありがとうございます。" },
       { s: "B", en: "Not at all. I'll send a new invitation right away.", ja: "とんでもないです。すぐに新しい招待をお送りします。" }
     ]
+  },
+  {
+    id: "w2646-sh1",
+    title: "新規の取引先へのアポイント電話",
+    level: "★★☆",
+    description: "初めての取引先候補に電話し、自社を簡単に紹介して打ち合わせの約束を取りつける場面。",
+    lines: [
+      { s: "A", en: "Good morning. My name is Tanaka from Kearney. Am I speaking with Mr. Lee?", ja: "おはようございます。カーニーの田中と申します。リーさんでいらっしゃいますか？" },
+      { s: "B", en: "Yes, this is Lee. How can I help you?", ja: "はい、リーです。どういったご用件でしょう？" },
+      { s: "A", en: "Thank you for taking my call. We help companies improve their customer service.", ja: "お電話ありがとうございます。弊社は企業の顧客対応の改善をお手伝いしています。" },
+      { s: "B", en: "I see. We have actually been thinking about that recently.", ja: "なるほど。実は最近、その点を考えていたところです。" },
+      { s: "A", en: "That's great to hear. Would you be open to a short meeting to discuss it?", ja: "それは何よりです。一度短くお打ち合わせをさせていただけませんか？" },
+      { s: "B", en: "Possibly. What would it involve?", ja: "そうですね…。どういった内容になりますか？" },
+      { s: "A", en: "Just thirty minutes, to understand your needs and share a few ideas.", ja: "30分ほどで、御社のご要望を伺い、いくつかご提案する形です。" },
+      { s: "B", en: "All right. Could we do it sometime next week?", ja: "わかりました。来週のどこかでお願いできますか？" },
+      { s: "A", en: "Of course. Would Tuesday afternoon suit you?", ja: "もちろんです。火曜の午後はご都合いかがでしょう？" },
+      { s: "B", en: "Tuesday afternoon works. I'll look forward to it.", ja: "火曜の午後で大丈夫です。楽しみにしています。" }
+    ]
   }
 ];
 
@@ -847,6 +885,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2645-t03", ja: "社会は現金を減らし、キャッシュレス化を進めるべきだと思いますか？", en: "Should society move toward becoming a cashless society?",
     sample: { point: "I think moving toward a cashless society is positive, but cash should not disappear completely.", reason: "The main reason is that digital payments are fast and convenient, yet some people, especially the elderly, still depend on cash and could be left behind.", example: "For example, paying by phone makes shopping quick and records easy to track, but a person without a smartphone or bank card would struggle if shops stopped taking cash.", point2: "So society should encourage cashless payment while still protecting the right to use cash." }
+  },
+  {
+    id: "w2646-t01", ja: "企業は週休3日制（週4日勤務）を導入すべきだと思いますか？", en: "Should companies introduce a four-day workweek?",
+    sample: { point: "I think a four-day workweek is worth trying, though it may not suit every job.", reason: "The main reason is that well-rested workers are often more focused and productive, and extra free time improves health and family life.", example: "For example, some companies that tested a four-day week found that employees finished the same amount of work while feeling far less tired.", point2: "So where the work allows it, giving people an extra day off could benefit both staff and companies." }
+  },
+  {
+    id: "w2646-t02", ja: "企業は社内の公用語を英語にすべきだと思いますか？", en: "Should companies make English their official in-house language?",
+    sample: { point: "I think using English inside a company can help, but it should be introduced carefully, not forced suddenly.", reason: "The main reason is that English makes it easier to work with overseas partners and hire talented people from abroad, yet rushing it can confuse staff and slow down daily work.", example: "For example, a company that switched to English overnight might find that skilled workers struggle to express ideas they could share easily in their own language.", point2: "So English can be a useful common language, as long as the change is gradual and well supported." }
+  },
+  {
+    id: "w2646-t03", ja: "企業は従業員が副業を持つことを認めるべきだと思いますか？", en: "Should companies allow their employees to have side jobs?",
+    sample: { point: "Yes, I believe companies should generally allow side jobs, within sensible limits.", reason: "The main reason is that a side job can help workers earn more, learn new skills, and feel more satisfied, which can even benefit their main job.", example: "For example, an employee who writes or designs on the side may bring fresh ideas and energy back to their regular work.", point2: "So as long as the side job does not harm their performance or compete with the company, allowing it is wise." }
   }
 ];
 
