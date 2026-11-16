@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-16",
+    passages: [
+      {
+        id: "d1116-1",
+        title: "What Is a Budget?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Imagine setting off on a long journey without a map, simply driving in whatever direction feels right. You might get somewhere, but you would probably waste time, fuel, and money. Managing money without a plan is rather similar. To avoid this, people and businesses use a simple but powerful tool called a budget.\n\nA budget is basically a plan for money. It looks ahead over a period of time, such as a month or a year, and compares two things: the money expected to come in, and the money expected to go out. For a family, the money coming in is mainly wages, and the money going out is rent, food, bills, and other costs. For a business, it is sales coming in, and wages, materials, and other costs going out.\n\nMaking a budget has several benefits. First, it shows whether you are living within your means. If more money is going out than coming in, the budget reveals this problem early, before it becomes a crisis. Second, a budget helps you set priorities. By planning ahead, you can make sure there is enough money for the things that matter most, and perhaps save some for the future.\n\nA budget is not meant to be a prison. It is a guide that gives you control and peace of mind. It helps you decide where your money should go, rather than wondering, at the end of the month, where it all went.\n\nWhether for a single person or a huge company, a good budget is the first step towards using money wisely and reaching your goals.",
+        summaryJa: "予算（バジェット）とは何かについて。地図も持たず、ただ正しそうな方向へ車を走らせて長い旅に出ることを想像しよう。どこかには着くかもしれないが、時間も燃料も金も無駄にするだろう。計画なしの金の管理もよく似ている。これを避けるため、人も企業も予算という簡素だが強力な道具を使う。予算は基本的に金の計画だ。一か月や一年といった期間を見通し、二つを比べる。入ってくると見込む金と、出ていくと見込む金だ。家庭なら入るのは主に給料、出るのは家賃・食費・光熱費などだ。企業なら入るのは売上、出るのは給料・材料費などだ。予算を作る利点はいくつかある。第一に、身の丈に合った暮らしをしているか示す。入るより出る方が多ければ、危機になる前に早く問題を明らかにする。第二に、優先順位を決める助けになる。前もって計画すれば、最も大切なことに十分な金を確保し、将来のために蓄えられる。予算は牢獄ではなく、主導権と安心を与える指針だ。金がどこへ行くべきか決める助けになる。賢く金を使い目標に達する第一歩だ。",
+        quiz: [
+          { q: "What is a budget?", options: ["A plan comparing money expected to come in and money expected to go out", "A type of bank", "A kind of loan"], answer: 0 },
+          { q: "What does a budget reveal early?", options: ["Whether more money is going out than coming in", "The weather next week", "Who your friends are"], answer: 0 },
+          { q: "How is a budget best understood?", options: ["As a guide that gives you control and peace of mind", "As a prison that controls you", "As a way to lose money"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1116-2",
+        title: "How Does a Lightbulb Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "With a simple flick of a switch, a dark room fills with light. We do this countless times, rarely wondering how a small glass bulb can turn invisible electricity into bright, useful light. The traditional lightbulb, invented well over a hundred years ago, does this with a wonderfully simple idea: it makes something so hot that it glows.\n\nInside a traditional bulb is a very thin coil of metal wire, called the filament. This filament is usually made of a metal that can survive extremely high temperatures without melting. When you turn on the switch, electricity flows through this thin wire.\n\nHere is the key. The filament is so thin that it strongly resists the flow of electricity. As the electricity pushes through, this resistance makes the wire heat up, and heat up, until it becomes incredibly hot, far hotter than a kitchen oven. Any object that gets hot enough begins to glow, first red, then orange, then brilliant white. The filament becomes so hot that it shines with a bright white light. This is the light we see.\n\nThere is one more clever detail. If the hot metal filament were surrounded by ordinary air, it would quickly burn up. To prevent this, the air is removed from inside the glass bulb, or it is filled with a special gas that does not let the filament burn. This allows the filament to glow for a long time without being destroyed.\n\nSo a simple lightbulb works by using electricity to heat a thin wire until it shines, turning the flow of power into the gift of light.",
+        summaryJa: "電球の仕組みについて。スイッチを軽く入れるだけで、暗い部屋が光で満ちる。私たちは数えきれぬほどこれを行うが、小さなガラスの球がどうやって目に見えない電気を明るく役立つ光に変えるのか、めったに考えない。百年以上前に発明された昔ながらの電球は、実に単純な考えでこれを行う。何かを非常に熱くして光らせるのだ。昔ながらの電球の中には、フィラメントという非常に細い金属線のコイルがある。たいてい極めて高い温度でも溶けない金属でできている。スイッチを入れると電気がこの細い線を流れる。ここが鍵だ。フィラメントはとても細いので電気の流れに強く抵抗する。電気が押し通ると、この抵抗で線が熱くなり続け、台所のオーブンよりはるかに熱い、信じられないほど高温になる。十分熱くなった物は光り始め、まず赤、次に橙、そして輝く白になる。フィラメントは非常に熱くなり明るい白い光で輝く。これが見える光だ。もう一つ巧妙な点がある。熱い金属線が普通の空気に囲まれていればすぐ燃え尽きる。防ぐため、ガラス球の中の空気は抜かれるか、燃えさせない特別な気体で満たされる。これで長く光れる。",
+        quiz: [
+          { q: "What is the filament in a lightbulb?", options: ["A very thin coil of metal wire that glows when heated", "A small battery", "A drop of water"], answer: 0 },
+          { q: "Why does the filament heat up?", options: ["It is so thin that it strongly resists the flow of electricity", "It is filled with fire", "It is rubbed by hand"], answer: 0 },
+          { q: "Why is the air removed from inside the bulb?", options: ["So the hot filament does not quickly burn up", "To make the bulb lighter", "To store light inside"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1116-3",
+        title: "Why Does Money Have Different Values in Different Countries?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "If you travel from one country to another, one of the first things you must do is change your money. You hand over the money of your home country and receive a different kind of money in return. Strangely, you do not always get the same amount back. One unit of your money might buy two units of another country's money, or only half a unit of a third. Why does money have these different values around the world?\n\nAlmost every country has its own money, called its currency. The value of one currency compared to another is called the exchange rate, and this rate is constantly changing. It is decided mainly by supply and demand, just like the price of anything else.\n\nThink of a country's currency as a product that people around the world may want to buy or sell. If a country's economy is strong, and many people want to buy its goods, invest there, or visit as tourists, they will need its currency. This high demand tends to make the currency more valuable. If people lose confidence in a country's economy, demand for its currency falls, and its value tends to drop.\n\nMany things affect this: how healthy a country's economy is, how stable its government seems, and how much its goods are wanted. Because these conditions change daily, exchange rates move up and down all the time.\n\nSo the different values of money reflect the ever-changing confidence of the world in each country's economy, a quiet daily vote on how each nation is doing.",
+        summaryJa: "なぜ国によってお金の価値が違うのかについて。ある国から別の国へ旅すると、まずしなければならないことの一つが両替だ。自国のお金を渡して別の種類のお金を受け取る。不思議なことに、いつも同じ額が返るわけではない。自国のお金一単位が別の国のお金二単位を買えることも、三つ目の国のお金半単位しか買えないこともある。なぜお金は世界でこう違う価値を持つのか。ほぼどの国も自国のお金、通貨を持つ。ある通貨の別の通貨に対する価値を為替レートといい、常に変わっている。主に需要と供給で決まる。他の何の値段とも同じだ。国の通貨を、世界の人々が買ったり売ったりしたい商品と考えよう。経済が強く、その国の商品を買いたい、投資したい、観光したい人が多ければ、その通貨が必要になる。この高い需要は通貨の価値を上げる傾向がある。国の経済への信頼が失われれば、通貨の需要は下がり、価値も下がる傾向がある。経済の健全さ、政府の安定、商品の人気など多くが影響する。こうした条件は日々変わるので、為替レートは絶えず上下する。お金の価値の違いは、各国経済への世界の変わりゆく信頼を映す。",
+        quiz: [
+          { q: "What is an 'exchange rate'?", options: ["The value of one currency compared to another", "A fee for entering a country", "A kind of bank account"], answer: 0 },
+          { q: "What mainly decides a currency's value?", options: ["Supply and demand, like the price of anything else", "The color of the money", "The number of coins printed"], answer: 0 },
+          { q: "What tends to make a currency more valuable?", options: ["High demand, when many people want that country's goods or to invest there", "A weak economy", "No one wanting the currency"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1116-4",
+        title: "The Japanese Love of Punctuality",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, if a friend says they will meet you at three o'clock, they might arrive at ten past three, and no one thinks much of it. In Japan, however, time is treated very differently. Being on time, to the exact minute, is deeply important, and this careful respect for time is a famous and striking feature of Japanese life.\n\nPerhaps the most famous example is Japan's trains. The country's railways are known around the world for being astonishingly punctual. Trains are expected to arrive and depart exactly on schedule, and a delay of even a minute or two is considered a real problem. If a train is late, the railway company may even apologise to its passengers.\n\nThis attitude goes far beyond trains. In schools and workplaces, arriving late is seen as a sign of carelessness and a lack of respect for others. In fact, many Japanese people believe that to be truly polite, you should arrive a little early, not just exactly on time. Arriving five minutes before a meeting is often considered normal.\n\nWhy does this matter so much? At its heart, punctuality in Japan is a form of respect. By being on time, you show that you value other people and do not want to waste their time. It reflects a wider cultural idea that caring for others and the smooth running of society are very important.\n\nFor a visitor, this can take some getting used to. But it also means that in Japan, you can usually rely on things happening exactly when they are supposed to.",
+        summaryJa: "日本の時間厳守の精神について。多くの国では、友人が三時に会おうと言って三時十分に現れても、誰も気にしない。だが日本では時間はまったく違って扱われる。分単位で正確に時間を守ることが深く重要で、この時間への細やかな敬意は日本の生活の有名で際立つ特徴だ。おそらく最も有名な例は日本の電車だ。日本の鉄道は驚くほど正確なことで世界中に知られる。電車は時刻どおりに発着すると期待され、一、二分の遅れさえ本当の問題とされる。遅れれば鉄道会社が乗客に謝ることさえある。この姿勢は電車をはるかに超える。学校や職場で遅刻は、不注意や他者への敬意の欠如の印と見なされる。実際、本当に礼儀正しくあるには、ちょうど時間どおりでなく少し早く着くべきだと多くの日本人が考える。会議の五分前に着くのがよく普通とされる。なぜそれほど大切なのか。根本的に、日本の時間厳守は敬意の一形態だ。時間を守ることで、他人を尊重しその時間を無駄にしたくないと示す。他者への配慮と社会の円滑な運営を重んじる広い文化的考えを映す。訪問者には慣れが要るが、物事が予定どおりに起こると頼れることでもある。",
+        quiz: [
+          { q: "What is a famous example of Japanese punctuality?", options: ["The trains, which are astonishingly punctual", "The weather", "The food"], answer: 0 },
+          { q: "What do many Japanese people believe about being polite with time?", options: ["You should arrive a little early, not just exactly on time", "You should always arrive late", "Time does not matter"], answer: 0 },
+          { q: "At its heart, what is punctuality in Japan?", options: ["A form of respect for other people and their time", "A way to earn money", "A kind of game"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1116-5",
+        title: "How Do Birds Fly?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "For thousands of years, humans looked up at birds gliding through the sky and dreamed of flying too. A bird makes it look so easy, rising into the air and soaring on the wind. But flight is a remarkable feat, and it depends on a clever combination of a bird's body, its wings, and the air itself.\n\nThe secret to staying up in the air is a force called lift. Lift is what pushes a bird upward, against the pull of gravity. The main source of lift is the special shape of a bird's wing. A wing is not flat. It is curved on top and flatter underneath. As the bird moves forward, air flows over and under the wing. Because of the curved shape, the air moving over the top has to travel a little faster, and this creates lower pressure above the wing than below it. The higher pressure underneath then pushes the wing, and the bird, upward.\n\nBut lift alone is not enough. To create this flow of air over the wings, the bird must move forward. Birds do this by flapping their wings, which pushes air backwards and drives the bird ahead, rather like rowing through the air. Once moving fast enough, the wings can also be held still to glide.\n\nBirds are beautifully built for this. Their bones are light, often hollow, and their feathers are both strong and incredibly light.\n\nSo a bird flying overhead is quietly obeying the laws of science, using the shape of its wings and the power of its muscles to turn moving air into the miracle of flight.",
+        summaryJa: "鳥はどうやって飛ぶのかについて。何千年もの間、人間は空を滑る鳥を見上げ、自分も飛ぶことを夢見た。鳥はいとも簡単そうに空へ上がり、風に乗って舞う。だが飛行は見事な技で、鳥の体・翼、そして空気そのものの巧妙な組み合わせに頼る。空中にとどまる秘密は揚力という力だ。揚力は重力の引っ張りに逆らって鳥を上へ押す。揚力の主な源は鳥の翼の特別な形だ。翼は平らでなく、上側が湾曲し下側がより平らだ。鳥が前へ進むと、空気が翼の上と下を流れる。湾曲した形のため、上を流れる空気は少し速く進まねばならず、これが翼の上を下より低い圧力にする。すると下側の高い圧力が翼を、そして鳥を上へ押す。だが揚力だけでは足りない。この空気の流れを翼に作るには、鳥は前へ進まねばならない。鳥は翼を羽ばたいて空気を後ろへ押し、前へ進む。空中を漕ぐようだ。十分速く動けば、翼を静止させて滑空もできる。鳥はこのために美しく作られている。骨は軽くしばしば中空で、羽は丈夫で非常に軽い。鳥は科学の法則に静かに従っているのだ。",
+        quiz: [
+          { q: "What force pushes a bird upward against gravity?", options: ["Lift", "Gravity", "Cold"], answer: 0 },
+          { q: "What is the main source of lift?", options: ["The special curved shape of a bird's wing", "The color of the feathers", "The bird's song"], answer: 0 },
+          { q: "Why do birds flap their wings?", options: ["To push air backwards and move forward, creating airflow over the wings", "To keep warm only", "To make noise"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-15",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What did people long believe caused yawning?", options: ["A lack of oxygen", "Too much sunlight", "Eating too much"], answer: 0 },
           { q: "What is one popular modern idea about why we yawn?", options: ["It may help cool the brain", "It makes us taller", "It cleans the teeth"], answer: 0 },
           { q: "What is 'contagious' yawning?", options: ["We often yawn when we see or think about someone else yawning", "Yawning that makes you ill", "Yawning only done while asleep"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-09",
-    passages: [
-      {
-        id: "d1109-1",
-        title: "What Is a Trademark?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Think of a famous company. Almost at once, a picture probably comes into your mind: a special symbol, a particular name written in a certain style, or a well-known logo. These signs are incredibly valuable to a business, because they instantly tell customers who made a product. To protect them, the law provides something called a trademark.\n\nA trademark is a sign that identifies the goods or services of one particular company and separates them from all others. It can be a brand name, a logo, a symbol, or even a special shape or sound. When a company registers a trademark, the law gives it the exclusive right to use that sign for its products.\n\nWhy does this matter so much? Imagine if any company could put a famous brand's name and logo on its own goods. Customers would be tricked into buying poor copies, thinking they were the real thing. The trademark prevents this. It protects the customer, who can trust that a product with a certain mark really comes from the company they expect.\n\nIt also protects the business. A company may spend many years, and a great deal of effort, building a good reputation. Its trademark captures all of that trust and quality in a single, recognisable sign. If others could freely copy it, that hard-earned reputation could be damaged or stolen.\n\nSo a trademark is more than just a logo. It is a promise and a protection, linking a product to the company that stands behind it, and helping honest businesses and careful customers trust one another.",
-        summaryJa: "商標（トレードマーク）とは何かについて。有名な企業を思い浮かべてみよう。ほぼ瞬時に、ある像が頭に浮かぶはずだ。特別な記号、独特の書体で書かれた名前、よく知られたロゴなど。これらの印は企業にとって極めて価値が高い。誰がその製品を作ったかを客に即座に伝えるからだ。これを守るため、法律は商標というものを備えている。商標は、ある特定の企業の商品やサービスを示し、他のすべてと区別する印だ。ブランド名、ロゴ、記号、さらには特別な形や音でもよい。企業が商標を登録すると、法律はその印を自社製品に使う独占的権利を与える。なぜそれほど重要なのか。もしどの会社も有名ブランドの名前やロゴを自社の品に付けられたら、客は本物と思って粗悪な模倣品を買わされてしまう。商標はこれを防ぐ。ある印の付いた製品が、期待する企業から確かに来ると信頼できる。企業も守られる。長年と多大な努力で築いた評判を、商標が一つの識別可能な印に凝縮する。自由に真似されれば、その評判は損なわれかねない。商標は約束であり保護だ。",
-        quiz: [
-          { q: "What is a trademark?", options: ["A sign that identifies one company's goods and separates them from others", "A tax on products", "A kind of factory"], answer: 0 },
-          { q: "How does a trademark protect customers?", options: ["They can trust that a marked product really comes from the expected company", "It makes all products cheaper", "It hides the maker's name"], answer: 0 },
-          { q: "Why is a trademark valuable to a business?", options: ["It captures the trust and reputation the company has built, in one sign", "It lets the company copy rivals", "It replaces the need to make good products"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1109-2",
-        title: "How Does a Microphone Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Every time a singer performs on stage, or you make a call on your phone, a small device is quietly doing something remarkable. It is taking sound, which you cannot see or touch, and turning it into electricity that can be sent, recorded, or made louder. This device is the microphone, and understanding it begins with understanding what sound really is.\n\nSound is a kind of movement in the air. When you speak, your voice makes the air around you vibrate, pushing it back and forth in tiny, fast waves. These invisible waves spread out and travel to your listener's ears, and also to any microphone nearby.\n\nInside a microphone is a thin, flexible part called a diaphragm, rather like a tiny drum skin. When the sound waves in the air hit this diaphragm, they push and pull it, making it vibrate exactly in step with the sound. A loud sound moves it a lot; a quiet sound moves it a little.\n\nThe clever part is turning this movement into electricity. The vibrating diaphragm is connected to parts that respond to its motion. As the diaphragm moves back and forth, it causes a matching electric signal to flow, growing stronger and weaker in perfect time with the original sound.\n\nIn this way, the shape of the sound is copied into the shape of an electric current. That electric signal can then travel down a wire, be stored on a device, or be fed into a loudspeaker to be heard again. A microphone, in short, is a clever translator, turning the language of sound into the language of electricity.",
-        summaryJa: "マイク（マイクロフォン）の仕組みについて。歌手が舞台で歌うたび、あるいは電話をかけるたび、小さな装置が静かに驚くべきことをしている。見えも触れもしない音を取り込み、送ったり録音したり大きくしたりできる電気に変えるのだ。これがマイクで、理解は音とは本当は何かを知ることから始まる。音は空気の動きの一種だ。話すと声が周りの空気を振動させ、小さく速い波として前後に押す。この見えない波が広がり、聞き手の耳や近くのマイクへ届く。マイクの中には振動板という薄くしなやかな部分があり、小さな太鼓の皮のようだ。空気中の音波がこの振動板に当たると、押したり引いたりして、音とぴったり合わせて振動させる。大きな音は大きく、小さな音は小さく動かす。巧妙なのはこの動きを電気に変えることだ。振動板はその動きに反応する部品につながっている。前後に動くと、元の音と完全に合った電気信号が流れ、強弱を繰り返す。こうして音の形が電流の形に写される。その信号は電線を通り、機器に保存され、スピーカーで再び聞ける。マイクは音の言葉を電気の言葉に訳す賢い翻訳者だ。",
-        quiz: [
-          { q: "What is sound, according to the passage?", options: ["A kind of movement, or vibration, in the air", "A type of light", "A chemical in the air"], answer: 0 },
-          { q: "What does the diaphragm in a microphone do?", options: ["It vibrates in step with the sound waves that hit it", "It glows when sound arrives", "It stays perfectly still"], answer: 0 },
-          { q: "What does a microphone basically do?", options: ["It turns the shape of sound into a matching electric signal", "It makes sound disappear", "It turns electricity into light"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1109-3",
-        title: "How Do Countries Agree on Common Standards?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Imagine travelling to another country and finding that your phone charger does not fit the wall sockets, that the screws in the shops do not match your tools, and that even the paper is a strange size. Daily life would become difficult and wasteful. To prevent exactly this kind of confusion, countries quietly work together to agree on common standards.\n\nA standard is simply an agreed way of doing or measuring something, so that products and systems from different places can work together. Standards cover an enormous range of things: the size of a shipping container, the strength of a bicycle helmet, the meaning of symbols on clothing labels, and the rules that let computers around the world talk to each other.\n\nMuch of this work is done by international organisations where experts from many countries meet. They discuss, test, and finally agree on a shared rule. The agreement is usually voluntary, yet countries and companies choose to follow it, because doing so makes trade and daily life far smoother.\n\nThe benefits are huge, even if we rarely notice them. Because of shared standards, a container packed in one country fits the ships, trains, and trucks of every other. A safety rule agreed in one place can protect people everywhere. And new technologies can spread quickly across borders.\n\nStandards are a quiet form of international cooperation. They rarely make the news, and most people never think about them. Yet every day, this patient agreement between nations allows the modern world to fit together, piece by piece, almost without us noticing.",
-        summaryJa: "国々はどうやって共通の標準（規格）に合意するのかについて。別の国へ旅して、スマホの充電器が壁のコンセントに合わず、店のねじが自分の工具に合わず、紙さえ変な大きさだったと想像してみよう。日常は難しく無駄の多いものになる。まさにこうした混乱を防ぐため、国々は静かに協力して共通の標準に合意する。標準とは、物事を行う・測る合意された方法に過ぎず、異なる場所の製品や仕組みが一緒に機能できるようにする。標準は実に幅広い。輸送用コンテナの寸法、自転車用ヘルメットの強度、衣類ラベルの記号の意味、世界中のコンピューターが通信できる規則などだ。この仕事の多くは、多国の専門家が集まる国際機関で行われる。議論し、試験し、最終的に共有の規則に合意する。合意はたいてい任意だが、国や企業は従うことを選ぶ。そうすれば貿易も日常もずっと滑らかになるからだ。恩恵は巨大だが、めったに気づかれない。共有の標準のおかげで、一国で詰めたコンテナがどの国の船・列車・トラックにも合う。一か所で合意された安全規則が各地の人を守り、新技術が国境を越えて素早く広まる。静かな国際協力の形だ。",
-        quiz: [
-          { q: "What is a 'standard'?", options: ["An agreed way of doing or measuring something, so systems can work together", "A kind of tax", "A national flag"], answer: 0 },
-          { q: "How are international standards usually agreed?", options: ["Experts from many countries meet, test, and agree on a shared rule", "One country forces all others to obey", "They happen by accident"], answer: 0 },
-          { q: "What is one benefit of shared standards?", options: ["A container packed in one country fits the ships and trucks of others", "Travel becomes impossible", "Products stop working together"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1109-4",
-        title: "Kaki: The Persimmon, a Taste of Japanese Autumn",
-        level: "★★☆",
-        genre: "日本",
-        text: "As autumn deepens in Japan and the leaves turn red and gold, another splash of colour appears in the countryside. In gardens and on hillsides, the bare branches of certain trees become covered with round, bright orange fruit. This is the kaki, or persimmon, one of the most beloved fruits of the Japanese autumn.\n\nThe persimmon has been grown in Japan for many centuries, and it holds a special place in the season. Its warm orange colour, glowing against a blue autumn sky, is a classic image of the time of year. A tree heavy with fruit after its leaves have fallen is a common and much-loved sight.\n\nThere are two main kinds of kaki. One is sweet and can be eaten crisp and fresh, straight from the tree. The other is naturally bitter when raw, and cannot be enjoyed that way. For this second kind, people use a clever traditional method. They peel the fruit and hang it up to dry in the autumn air for several weeks. Slowly, the bitterness disappears, and the fruit becomes soft, chewy, and intensely sweet. This dried persimmon is called hoshigaki, and it is treasured as a natural sweet.\n\nNothing is wasted. Even the leaves and the drying fruit become part of the beauty of the season.\n\nFor many Japanese people, the sight and taste of kaki bring back memories of autumn, of family gardens, and of grandparents carefully preparing hoshigaki. It is a simple fruit, yet it carries the warm, gentle feeling of the Japanese autumn.",
-        summaryJa: "日本の秋の味、柿について。日本で秋が深まり木の葉が赤や金に色づくころ、田園にもう一つの彩りが現れる。庭や丘の斜面で、ある木の裸の枝が丸く鮮やかなオレンジ色の実で覆われる。これが柿、日本の秋で最も愛される果物の一つだ。柿は何世紀も日本で育てられ、季節の中で特別な位置を占める。青い秋空に映える温かいオレンジ色は、この時期の古典的な情景だ。葉が落ちた後に実をたわわに付けた木は、よく見られる愛される光景だ。柿には主に二種類ある。一つは甘く、木からもいでそのまま新鮮に食べられる。もう一つは生だと自然に渋く、そのままでは楽しめない。この渋い方には、巧妙な伝統の方法を使う。皮をむいて秋の空気の中に数週間つるして干すのだ。ゆっくり渋みが消え、柔らかく歯ごたえのある、強く甘い実になる。この干した柿を干し柿といい、自然の甘味として大切にされる。多くの日本人にとって、柿の姿と味は秋や家族の庭、祖父母の思い出を呼び起こす。簡素な果物だが、日本の秋の温かく穏やかな気持ちを運ぶ。",
-        quiz: [
-          { q: "When do persimmons become a common sight in Japan?", options: ["In autumn, as bright orange fruit on the trees", "In the middle of summer", "Only in spring"], answer: 0 },
-          { q: "What do people do with the naturally bitter kind of kaki?", options: ["Peel it and hang it to dry, which removes the bitterness", "Throw it away at once", "Eat it raw with salt"], answer: 0 },
-          { q: "What is 'hoshigaki'?", options: ["Dried persimmon, soft and intensely sweet", "A kind of autumn leaf", "A persimmon drink"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1109-5",
-        title: "Why Do We Hiccup?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "They arrive without warning, often at the worst moment. You are eating, laughing, or talking, when suddenly your body makes a sharp, funny sound: hic! A moment later, it happens again, and again, with a rhythm you cannot control. These are hiccups, one of the strangest and most harmless things the human body does. But what actually causes them?\n\nThe answer involves an important muscle you rarely think about, called the diaphragm. It sits under your lungs, and it is the main muscle you use for breathing. Normally, it moves smoothly up and down, pulling air gently into your lungs and letting it out again.\n\nA hiccup begins when this diaphragm muscle suddenly twitches, or jumps, instead of moving smoothly. This sudden jump makes you pull in a quick, sharp breath of air without meaning to. But at almost exactly the same instant, a small flap at the top of your throat snaps shut. The rushing air hits this closed flap, and that is what makes the sharp hic sound we all know.\n\nSo a single hiccup is really two things happening together: a sudden jump of the breathing muscle, and the quick closing of the throat.\n\nWhat causes the diaphragm to twitch in the first place is not always clear. Eating too fast, drinking fizzy drinks, or sudden excitement can all set it off. Usually, hiccups are completely harmless and stop on their own within a few minutes. They remain one of the body's small, funny mysteries, a little reminder of the complex machinery quietly working inside us all.",
-        summaryJa: "なぜしゃっくりが出るのかについて。しゃっくりは前触れなく、しばしば最悪のときに訪れる。食事や笑い、会話の最中、突然体が「ヒック！」という鋭い妙な音を立てる。少しするとまた、何度も、自分では止められないリズムで繰り返す。これがしゃっくりで、人体のする最も奇妙で無害なことの一つだ。だが実際、何が原因なのか。答えには、めったに意識しない大切な筋肉、横隔膜が関わる。肺の下にあり、呼吸に使う主な筋肉だ。普段は滑らかに上下し、空気を優しく肺に取り込み、また出す。しゃっくりは、この横隔膜が滑らかに動く代わりに突然ぴくりと跳ねると始まる。この急な跳ねで、意図せず素早く鋭く息を吸い込む。だがほぼ同じ瞬間、喉の上部にある小さな弁がパッと閉じる。勢いよく入る空気がこの閉じた弁に当たり、あの「ヒック」という音になる。つまり一回のしゃっくりは、呼吸筋の急な跳ねと喉の素早い閉鎖という二つが同時に起こることだ。横隔膜がなぜ跳ねるかは必ずしも明らかでない。早食いや炭酸飲料、突然の興奮が引き金になりうる。たいてい無害で数分で自然に止まる。",
-        quiz: [
-          { q: "Which muscle is involved in hiccups?", options: ["The diaphragm, the main muscle used for breathing", "A muscle in the foot", "A muscle in the hand"], answer: 0 },
-          { q: "What two things happen together in a single hiccup?", options: ["A sudden jump of the breathing muscle and the quick closing of the throat", "A sneeze and a cough", "Blinking and swallowing"], answer: 0 },
-          { q: "What can set off hiccups?", options: ["Eating too fast, fizzy drinks, or sudden excitement", "Sleeping deeply", "Sitting very still"], answer: 0 }
         ]
       }
     ]
