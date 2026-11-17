@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-17",
+    passages: [
+      {
+        id: "d1117-1",
+        title: "Why Is Good Customer Service Important?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Think about two shops that sell exactly the same product at the same price. In one, the staff are rude, unhelpful, and seem annoyed by your questions. In the other, they are friendly, patient, and genuinely want to help. Which shop would you return to? For almost everyone, the answer is obvious. This simple example shows the power of good customer service.\n\nCustomer service means the way a business treats its customers, not just during a sale, but before and after it too. It includes answering questions kindly, solving problems quickly, and making each customer feel valued and respected. It may seem like a small thing, but it can make or break a business.\n\nThe reasons are powerful. First, good service keeps customers coming back. A happy customer is likely to return again and again, and over the years, this loyalty is worth a great deal of money. It is usually far cheaper to keep an existing customer than to find a new one.\n\nSecond, happy customers talk. A person who receives wonderful service often tells their friends and family, bringing in new customers for free. Sadly, the opposite is also true: a person treated badly may warn many others to stay away.\n\nFinally, good customer service builds a company's reputation, its good name, which is one of its most valuable possessions.\n\nSo customer service is not just about being polite. It is a smart and essential part of running a successful business. In a world where products are often similar, the way customers are treated can be the very thing that sets one business apart.",
+        summaryJa: "なぜ良い顧客対応（カスタマーサービス）が重要なのかについて。同じ商品を同じ値段で売る二つの店を考えよう。一方では店員が無礼で助けにならず、質問に迷惑そうだ。もう一方では親切で辛抱強く、心から助けたがる。どちらの店にまた行くだろう。ほぼ誰にとっても答えは明らかだ。この簡単な例が良い顧客対応の力を示す。顧客対応とは、企業が客を扱う仕方で、販売中だけでなく前後も含む。親切に質問に答え、素早く問題を解決し、各客に大切にされ尊重されていると感じさせることだ。小さなことに見えて、事業の成否を分けうる。理由は強力だ。第一に、良い対応は客を再来させる。満足した客は何度も戻りやすく、長年でこの忠誠は大きな金額に値する。既存の客を保つ方が新しい客を見つけるよりたいてい安い。第二に、満足した客は話す。素晴らしい対応を受けた人は友人や家族に話し、無料で新しい客を連れてくる。残念ながら逆もまた真で、ひどく扱われた人は多くの人に近づくなと警告しうる。最後に、良い対応は企業の評判、最も価値ある財産の一つを築く。礼儀正しさだけでなく、成功する事業に不可欠だ。",
+        quiz: [
+          { q: "What does customer service mean?", options: ["The way a business treats its customers, before, during, and after a sale", "The price of a product", "The size of a shop"], answer: 0 },
+          { q: "Why does good service keep customers coming back?", options: ["Happy customers return again, and this loyalty is worth a lot over time", "Customers must return by law", "It makes products cheaper"], answer: 0 },
+          { q: "How can happy customers bring in new customers for free?", options: ["They tell their friends and family about the wonderful service", "They pay the shop extra", "They never speak to anyone"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1117-2",
+        title: "How Does an Escalator Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "In shopping centres, stations, and airports, escalators carry streams of people smoothly up and down, all day long, without anyone having to lift a foot to climb. They seem to swallow people at one end and deliver them to another floor at the other. But how does this clever moving staircase actually work?\n\nThe heart of an escalator is a long loop of steps joined together in a chain, rather like a very large bicycle chain. This chain of steps runs in a continuous loop, round and round. At the top, powered by a strong electric motor, large toothed wheels pull the chain along, so the steps on the visible side are always climbing upward, carrying passengers with them.\n\nThe clever part is what happens at the top and bottom. The steps do not simply vanish. At each end, they slide under a metal comb and travel back, flat and hidden, underneath the staircase you can see, before rising up again at the other end to begin the journey once more. It is one endless loop.\n\nAnother neat trick is how the steps stay flat and level for you to stand on, even though the staircase is sloped. The steps are cleverly guided along two separate tracks, which keep each step horizontal as it climbs, so you never feel tilted.\n\nThe moving handrail beside you is driven by the same motor, moving at exactly the same speed as the steps, so your hand and feet travel together.\n\nSo an escalator is really an endless staircase on a chain, quietly turning a tiring climb into an effortless, moving ride.",
+        summaryJa: "エスカレーターの仕組みについて。商業施設や駅、空港で、エスカレーターは一日中、人の流れを滑らかに上下へ運び、誰も足を上げて上る必要がない。一方の端で人を飲み込み、もう一方で別の階へ届けるように見える。だがこの巧妙な動く階段は実際どう働くのか。エスカレーターの心臓は、鎖状につながった段の長い輪だ。非常に大きな自転車のチェーンのようなものだ。この段の鎖はぐるぐると連続した輪で回る。上部で強力な電動機に動かされ、大きな歯車が鎖を引き、見える側の段は常に上へ上り、乗客を運ぶ。巧妙なのは上下の端で起こることだ。段は単に消えるのでなく、各端で金属のくしの下へ滑り込み、見える階段の下を平らに隠れて戻り、反対の端でまた上がって旅を繰り返す。一つの終わりなき輪だ。もう一つの妙技は、階段が傾いているのに段が平らで水平に保たれ、立てることだ。段は二本の別々の軌道に沿って巧みに導かれ、上る間も各段を水平に保つので、傾きを感じない。横の動く手すりも同じ電動機で、段とまったく同じ速さで動く。終わりなき階段だ。",
+        quiz: [
+          { q: "What is the heart of an escalator?", options: ["A long loop of steps joined in a chain, driven by a motor", "A single large spring", "A tank of water"], answer: 0 },
+          { q: "What happens to the steps at the top and bottom?", options: ["They slide under a comb and travel back, hidden, before rising again", "They vanish completely", "They are thrown away"], answer: 0 },
+          { q: "How do the steps stay flat for you to stand on?", options: ["They are guided along two tracks that keep each step horizontal", "They are held by hand", "They are not actually flat"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1117-3",
+        title: "How Do the Olympic Games Bring the World Together?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Every few years, something remarkable happens. Athletes from almost every nation on Earth travel to a single city to take part in the Olympic Games. For a short time, the eyes of the whole world turn to one place, to watch people run, jump, swim, and compete. The Olympics are far more than a sports event; they are one of the greatest gatherings of humanity on the planet.\n\nThe modern Olympic Games were revived more than a hundred years ago, with a hopeful dream: that sport could bring people and nations closer together. The idea was that by meeting peacefully in friendly competition, countries that might otherwise distrust one another could build understanding and respect.\n\nThe Games are full of powerful symbols of unity. At the opening ceremony, athletes from every country march together into the stadium. The five rings of the Olympic flag represent the different parts of the world joined as one. For a few weeks, rivals compete not with weapons, but with speed, strength, and skill, and they often embrace as friends afterwards.\n\nOf course, the Olympics are not perfect. They are expensive, and real political tensions in the world do not simply disappear during the Games. Yet something special still happens. People everywhere cheer for astonishing human achievement, and for a moment, differences of language and nation seem to matter a little less.\n\nAt their best, the Olympic Games remind us of a simple, hopeful truth: that despite all our differences, the people of the world can come together, in peace, to celebrate what human beings are capable of.",
+        summaryJa: "オリンピックはどう世界を一つにするのかについて。数年ごとに、ある素晴らしいことが起こる。地球上のほぼすべての国の選手が、オリンピックに参加するため一つの都市へ集まる。短い間、世界中の目が一か所に向き、走り、跳び、泳ぎ、競う人々を見る。オリンピックはスポーツの催しをはるかに超え、地球上で最も大きな人類の集いの一つだ。近代オリンピックは百年以上前に復活した。スポーツが人と国を近づけられるという希望ある夢とともに。友好的な競争の中で平和に出会うことで、互いを不信しうる国々が理解と敬意を築けるという考えだ。大会は団結の力強い象徴に満ちる。開会式では全ての国の選手が共に競技場へ行進する。五輪旗の五つの輪は、一つに結ばれた世界の異なる地域を表す。数週間、競争相手は武器でなく速さ・力・技で競い、後にはしばしば友として抱き合う。もちろん完璧ではない。費用がかかり、世界の現実の政治的緊張が大会中に消えるわけでもない。それでも特別な何かが起こる。人々は驚くべき人間の達成に喝采し、一瞬、言語や国の違いが少し薄れて見える。",
+        quiz: [
+          { q: "What hopeful dream came with reviving the modern Olympics?", options: ["That sport could bring people and nations closer together", "That one country would win everything", "That sport would replace all jobs"], answer: 0 },
+          { q: "What do the five rings of the Olympic flag represent?", options: ["The different parts of the world joined as one", "Five famous athletes", "Five kinds of money"], answer: 0 },
+          { q: "What do the Games remind us, at their best?", options: ["That despite our differences, people can come together in peace", "That only strong countries matter", "That competition is pointless"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1117-4",
+        title: "Mochi: Japan's New Year Rice Cakes",
+        level: "★★☆",
+        genre: "日本",
+        text: "As the New Year approaches in Japan, one special food appears everywhere: mochi. Mochi is a soft, chewy rice cake, and it holds a treasured place in Japanese food and celebration, especially at New Year, the most important holiday of the year.\n\nMochi is not made from ordinary rice. It is made from a special sticky kind of rice, which is first steamed until soft. Then comes the remarkable part. Traditionally, the hot rice is placed in a large wooden bowl and pounded, again and again, with a heavy wooden mallet. This hard work is often done by two people working in rhythm: one pounds while the other quickly turns and wets the rice between blows. Slowly, the grains break down and join into one smooth, white, stretchy mass. This lively, traditional event is called mochitsuki.\n\nThe finished mochi can be used in countless ways. It can be shaped into round cakes, grilled until it puffs up, or added to a special New Year soup called ozoni. It can also be wrapped around sweet fillings to make delicious treats.\n\nMochi carries meaning too. Its stretchy, long shape is linked to wishes for a long life, and round stacked mochi are often displayed as a New Year decoration, offered for good fortune in the year ahead.\n\nOne word of caution: mochi is very sticky, and must be eaten carefully in small bites. But for millions of people in Japan, the soft, chewy taste of mochi is one of the warmest and most cherished flavours of the New Year season.",
+        summaryJa: "日本の正月の餅について。日本で新年が近づくと、特別な食べ物が至る所に現れる。餅だ。餅は柔らかく歯ごたえのある米の餅で、日本の食と祝い、特に一年で最も大切な祝日である正月で大切な位置を占める。餅は普通の米からは作らない。特別な粘りのある種類の米から作り、まず柔らかくなるまで蒸す。それから驚くべき部分が来る。伝統的に、熱い米を大きな木の臼に入れ、重い木の杵で何度もつく。この重労働はしばしば二人が呼吸を合わせて行う。一人がつき、もう一人が合間に素早く米を返し湿らせる。ゆっくり粒が崩れ、一つの滑らかで白く伸びる塊になる。この活気ある伝統行事を餅つきという。できた餅は数えきれぬほど多様に使える。丸い餅に形作り、膨らむまで焼き、お雑煮という特別な正月の汁に入れる。甘い具を包んでおいしい菓子にもする。餅には意味もある。伸びて長い形は長寿の願いに結びつき、丸く重ねた餅はよく正月飾りとして飾られ、来る年の幸運を祈って供えられる。一つ注意、餅はとても粘るので小さく一口ずつ注意して食べねばならない。",
+        quiz: [
+          { q: "What is mochi made from?", options: ["A special sticky kind of rice, steamed and pounded", "Wheat flour and sugar", "Potatoes"], answer: 0 },
+          { q: "What is 'mochitsuki'?", options: ["The traditional event of pounding hot rice into mochi", "A New Year song", "A type of bowl"], answer: 0 },
+          { q: "What does the stretchy, long shape of mochi represent?", options: ["Wishes for a long life", "A short, busy year", "Bad luck"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1117-5",
+        title: "Why Do We Dream?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Every night, when we fall into a deep sleep, our minds often come alive with strange and vivid adventures. We may fly through the air, talk to people from our past, or find ourselves in places that do not exist. These are dreams, and almost everyone has them. Yet, despite how common they are, one of the oldest questions about the human mind remains only partly answered: why do we dream at all?\n\nDreams happen mostly during a certain stage of sleep when the brain is surprisingly active, almost as busy as when we are awake. During this time, our eyes move quickly behind our closed lids, and the most vivid dreams usually occur.\n\nScientists are still not completely sure why we dream, but they have several interesting ideas. One popular theory is that dreaming helps the brain to sort and store memories. During the day, we take in a huge amount of information, and sleep may be the time when the brain decides what to keep and what to let go, weaving the pieces into dreams along the way.\n\nAnother idea is that dreams help us process our emotions. By replaying worries or feelings in the safety of sleep, the mind may be working through difficult experiences, helping us feel calmer when we wake.\n\nDreams may also simply be the brain staying active and practising, trying out ideas and situations while the body rests.\n\nSo the exact purpose of dreams remains one of science's intriguing mysteries. Each night, our sleeping minds create whole worlds, for reasons we are still, slowly, beginning to understand.",
+        summaryJa: "なぜ私たちは夢を見るのかについて。毎晩、深い眠りに落ちると、心はしばしば奇妙で鮮やかな冒険で生き生きとする。空を飛び、過去の人と話し、存在しない場所にいることもある。これが夢で、ほぼ誰もが見る。だがこれほど一般的なのに、人の心に関する最も古い問いの一つは、いまだ部分的にしか答えられていない。そもそもなぜ夢を見るのか。夢は主に、脳が驚くほど活発な、ほぼ起きているときと同じくらい忙しいある睡眠段階で起こる。この間、閉じたまぶたの奥で目が素早く動き、最も鮮やかな夢がたいてい起こる。科学者はなぜ夢を見るかまだ完全には分からないが、いくつか興味深い考えがある。有力な一説は、夢が脳の記憶の整理と保存を助けるというものだ。日中、私たちは膨大な情報を取り込み、睡眠は脳が何を残し何を手放すか決める時かもしれず、その過程で断片を夢に織り込む。もう一つの考えは、夢が感情の処理を助けるというものだ。眠りの安全の中で心配や感情を再生し、難しい経験を乗り越え、目覚めたとき穏やかに感じる助けになるのかもしれない。脳が活動を保ち練習しているだけかもしれない。夢の正確な目的は科学の魅力的な謎のままだ。",
+        quiz: [
+          { q: "When do the most vivid dreams usually occur?", options: ["During a stage of sleep when the brain is surprisingly active", "Only when we are fully awake", "Only in the morning"], answer: 0 },
+          { q: "What is one popular theory about why we dream?", options: ["Dreaming helps the brain sort and store memories", "Dreams clean our teeth", "Dreams make us taller"], answer: 0 },
+          { q: "What is another idea about the purpose of dreams?", options: ["They help us process our emotions in the safety of sleep", "They stop the heart", "They have no effect on the mind"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-16",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is the main reason chameleons change colour?", options: ["To show how they feel and communicate with other chameleons", "Only to match the exact background", "To become invisible completely"], answer: 0 },
           { q: "How does a chameleon change its colour?", options: ["By changing the spacing of tiny crystals in its skin", "By painting itself", "By eating colored food"], answer: 0 },
           { q: "What decides the colour we see on its skin?", options: ["How light bounces off the crystals, which depends on their spacing", "The time of day only", "The color of its food"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-10",
-    passages: [
-      {
-        id: "d1110-1",
-        title: "What Is Cash Flow?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Here is a puzzle that surprises many people: a company can be making a profit and still go out of business. How is this possible? The answer lies in one of the most important ideas in business, something as vital to a company as blood is to the body. It is called cash flow.\n\nCash flow simply means the movement of actual money into and out of a business. Money flows in when customers pay for goods or services. Money flows out when the company pays its workers, its suppliers, and its rent. For a business to survive, it must always have enough cash available at the right moment to pay what it owes.\n\nThis is different from profit. Profit is the money a company earns over time, on paper. But timing is everything. Imagine a company sells a large order and will earn a good profit, but the customer will not pay for sixty days. Meanwhile, the workers must be paid this week. On paper the company is doing well, yet right now it has no cash. If it cannot pay its staff, it is in serious trouble.\n\nThis is why businesses watch their cash flow so carefully. They must make sure that money is coming in fast enough to cover the money going out. A healthy, profitable company can be sunk by poor cash flow.\n\nSo cash flow is really about timing and survival. Profit shows whether a business is successful in the long run, but cash flow decides whether it can pay its bills today, and live to trade tomorrow.",
-        summaryJa: "キャッシュフロー（資金の流れ）とは何かについて。多くの人を驚かせる謎がある。利益を出している会社が倒産することがあるのだ。どうしてか。答えは、体にとっての血液のように会社にとって極めて重要な、経営で最も大切な考えの一つにある。キャッシュフローだ。キャッシュフローとは単に、実際のお金が事業に出入りする流れのことだ。客が商品やサービスの代金を払えばお金が入り、会社が従業員・仕入先・家賃を払えばお金が出る。生き残るには、支払うべき時に常に十分な現金を持っていなければならない。これは利益とは違う。利益は会社が時間をかけて得る、帳簿上のお金だ。だが時機がすべてだ。大口の注文を売って大きな利益が出る予定でも、客の支払いが六十日後だとしよう。一方、従業員には今週払わねばならない。帳簿上は好調でも、今は現金がない。従業員に払えなければ深刻な事態だ。だから企業はキャッシュフローを注意深く見る。出るお金を賄えるほど速くお金が入るか確かめねばならない。黒字の会社でも資金繰りの悪化で沈みうる。要は時機と生存だ。",
-        quiz: [
-          { q: "Why can a profitable company still go out of business?", options: ["It may run out of cash to pay its bills at the right moment", "Profit is always fake", "Customers never pay anything"], answer: 0 },
-          { q: "What is cash flow?", options: ["The movement of actual money into and out of a business", "The number of workers a company has", "The color of a company's money"], answer: 0 },
-          { q: "Why is timing so important?", options: ["Money owed to the company may arrive after its own bills are due", "Bills never have a due date", "Timing does not matter at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1110-2",
-        title: "How Do Solar Panels Make Electricity?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "On the roofs of houses, in large fields, and even on small calculators, dark blue or black panels quietly turn sunlight into electricity. They have no moving parts, make no noise, and burn no fuel. They simply sit in the sun and produce power. This almost magical process happens inside devices called solar panels, and it begins with a very special material.\n\nMost solar panels are made mainly from silicon, the same material found in ordinary sand. Silicon has a remarkable property: when light shines on it, it can knock tiny particles called electrons loose inside the material. Moving electrons are exactly what electricity is. So in a way, sunlight itself sets the electricity in motion.\n\nA solar panel is cleverly built to make these loosened electrons all flow in the same direction, rather than drifting randomly. When light hits the panel, it frees many electrons, and the design of the panel guides them to flow out through wires as a useful electric current. The brighter the sunlight, the more electricity is produced.\n\nThis electricity can then be used at once, stored in batteries for later, or sent into the wider electricity network to power other homes.\n\nSolar panels have become very important because their fuel, sunlight, is free, clean, and almost endless. They produce no smoke and no harmful gases while they work. As the world looks for cleaner ways to make energy, these silent panels, quietly turning light into power, are playing a larger and larger part in our daily lives.",
-        summaryJa: "太陽光パネルはどうやって電気を作るのかについて。家の屋根や広い野原、小さな電卓の上でさえ、濃い青や黒のパネルが静かに日光を電気に変える。可動部もなく、音も立てず、燃料も燃やさない。ただ日なたにあって電力を生む。この魔法のような過程は太陽光パネルという装置の中で起こり、とても特別な材料から始まる。多くのパネルは主にシリコンでできている。ふつうの砂にも含まれる材料だ。シリコンには驚くべき性質がある。光が当たると、材料の中で電子という小さな粒を弾き出せるのだ。動く電子こそが電気そのものだ。だからある意味、日光自体が電気を動かし始める。太陽光パネルは、弾き出された電子がばらばらに漂うのでなく同じ向きに流れるよう巧みに作られている。光が当たると多くの電子が自由になり、パネルの設計がそれを電線へ有用な電流として導く。日光が強いほど多くの電気が生まれる。この電気はすぐ使うことも、電池に蓄えることも、電力網に送って他の家をまかなうこともできる。燃料の日光は無料で清潔、ほぼ無尽蔵だ。",
-        quiz: [
-          { q: "What material are most solar panels mainly made from?", options: ["Silicon, also found in ordinary sand", "Pure gold", "Wood"], answer: 0 },
-          { q: "How does sunlight create electricity in a solar panel?", options: ["It knocks electrons loose, and moving electrons are electricity", "It heats water into steam", "It burns a small fuel"], answer: 0 },
-          { q: "Why have solar panels become so important?", options: ["Their fuel, sunlight, is free, clean, and almost endless", "They are the cheapest metal", "They make loud, useful noise"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1110-3",
-        title: "How Do Countries Protect Endangered Animals?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Across the world, many kinds of animals are in danger of disappearing forever. Elephants, tigers, certain whales, and countless lesser-known creatures have become rare, their numbers falling year after year. When a species vanishes completely, it is called extinction, and it can never be undone. To prevent this loss, countries have learned that they must work together.\n\nThe reason is simple: animals do not know borders. A bird may nest in one country and spend the winter in another. A whale may swim through the waters of many nations. Fighting to save such animals makes little sense if only one country acts while its neighbours do nothing.\n\nSo nations cooperate in several ways. One of the most important is controlling trade. Many animals became endangered because people hunted them to sell their skins, horns, or other parts. Countries have signed agreements that ban or strictly limit the international trade in these threatened species, removing much of the profit from harming them.\n\nCountries also work together to protect important habitats, the forests, rivers, and seas where animals live. They may create protected parks and reserves, and share scientific knowledge about how best to help a species recover. Richer nations sometimes help poorer ones pay for this difficult work.\n\nProtecting wildlife is not easy, and sadly some battles are lost. But there have also been real successes, with certain species slowly recovering thanks to international effort. Each one is a reminder that, by working together, nations can protect the rich variety of life that all humanity shares and depends upon.",
-        summaryJa: "国々はどうやって絶滅危惧種を守るのかについて。世界中で、多くの種類の動物が永遠に姿を消す危機にある。ゾウ、トラ、ある種のクジラ、数えきれぬ無名の生き物が珍しくなり、数が年々減っている。ある種が完全に消えることを絶滅といい、二度と取り返せない。この損失を防ぐため、国々は協力せねばならないと学んだ。理由は単純だ。動物は国境を知らない。鳥はある国で巣を作り別の国で冬を越す。クジラは多くの国の海を泳ぐ。一国だけが動き隣国が何もしなければ、こうした動物を救う意味は薄い。だから国々は数通りに協力する。最も重要な一つは取引の規制だ。多くの動物は、皮や角などを売るために狩られて絶滅に瀕した。各国は、こうした脅かされた種の国際取引を禁じる・厳しく制限する協定に署名し、害する利益の多くを取り除いた。生息地—動物の暮らす森・川・海—を守る協力もする。保護区を作り、種の回復を助ける科学的知識を分かち合う。豊かな国が貧しい国の費用を助けることもある。容易でなく失う戦いもあるが、国際協力で回復した種もある。共有する命の多様性を守れる証だ。",
-        quiz: [
-          { q: "Why must countries cooperate to protect animals?", options: ["Animals do not know borders and move between countries", "Animals only live in one city", "Cooperation is required by no one"], answer: 0 },
-          { q: "What is one important way countries protect endangered species?", options: ["Banning or strictly limiting international trade in them", "Hunting them faster", "Ignoring the problem"], answer: 0 },
-          { q: "What is 'extinction'?", options: ["When a species disappears completely and can never return", "When an animal moves to a new country", "A kind of protected park"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1110-4",
-        title: "Japan's Amazing Vending Machines",
-        level: "★★☆",
-        genre: "日本",
-        text: "In almost every country, you can find a vending machine or two, usually selling cold drinks or snacks in a train station or an office. But in Japan, the vending machine has reached a level found nowhere else. With millions of them spread across the country, they have become a familiar and surprisingly useful part of everyday life.\n\nThe most striking thing is simply how many there are. You can find vending machines not only in stations and shops, but on quiet streets, at the tops of mountains, and in tiny villages far from anywhere. They stand outside all night, brightly lit, always ready to serve.\n\nWhat they sell can also be surprising. Of course, there are cold and even hot drinks, available at the touch of a button. But across the country, machines also sell hot meals, ice cream, fresh eggs, flowers, umbrellas for a sudden shower, and many other useful things. In a country where they are trusted and rarely damaged, they can safely offer almost anything.\n\nWhy are they so popular in Japan? Part of the reason is that Japan is a very safe country, so machines left outside are seldom broken or robbed. They also save space and labour, serving customers day and night without any staff.\n\nFor visitors, Japan's vending machines are often a delightful surprise. For the people who live there, they are simply a normal, convenient helper, standing quietly on the corner, ready at any hour to provide a warm drink, a quick meal, or a forgotten umbrella.",
-        summaryJa: "日本のすごい自動販売機について。ほぼどの国にも自販機は一つ二つあり、たいてい駅や職場で冷たい飲み物や軽食を売っている。だが日本では、自販機は他のどこにもない水準に達した。全国に何百万台も広がり、日常の身近で驚くほど便利な一部になった。最も際立つのは、その数の多さだ。駅や店だけでなく、静かな通りや山の頂、どこからも遠い小さな村にも見つかる。一晩中、明るく灯り、いつでも使える状態で外に立つ。売る物も驚きだ。もちろんボタン一つで冷たい、さらには温かい飲み物も買える。だが全国で、温かい食事やアイスクリーム、新鮮な卵、花、急な雨の傘など、多くの役立つ物も売る。信頼され、めったに壊されない国だからこそ、ほぼ何でも安全に提供できる。なぜ日本でこれほど人気なのか。一因は日本がとても安全な国で、外に置かれた機械がめったに壊されも盗まれもしないことだ。場所と人手を省き、店員なしで昼も夜も客に応じる。訪問者には楽しい驚きで、住む人には普通の便利な助っ人だ。",
-        quiz: [
-          { q: "What is most striking about vending machines in Japan?", options: ["How many there are, even in remote places", "That there are only a few", "That they sell nothing"], answer: 0 },
-          { q: "What is one surprising thing Japanese machines may sell?", options: ["Hot meals, fresh eggs, flowers, or umbrellas", "Live animals", "Cars"], answer: 0 },
-          { q: "Why are vending machines so successful in Japan?", options: ["Japan is very safe, so machines are seldom broken or robbed", "They are guarded by many staff", "They are only open one hour a day"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1110-5",
-        title: "Why Do We Yawn?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "It happens to everyone. You are tired, or bored, or you have just woken up, and suddenly your mouth opens wide, you take a long, deep breath, and you yawn. Even reading about yawning may make you want to do it. Yawning is one of the most common things humans do, yet, surprisingly, scientists are still not completely sure why we do it.\n\nFor a long time, people believed that yawning was caused by a lack of oxygen. The idea was that when we are tired, we breathe too shallowly, so a big yawn pulls in extra air. However, careful experiments have cast doubt on this simple explanation, and today many scientists think the main reason may be different.\n\nOne popular modern idea is that yawning helps to cool the brain. The brain works best within a narrow temperature range, and a large yawn pulls in cool air and increases blood flow, which may help lower the brain's temperature a little. This might explain why we often yawn when we are tired, as a tired brain can become slightly warmer.\n\nThere is also the strange fact of contagious yawning. When we see another person yawn, or even just think about it, we often yawn too. Scientists believe this may be linked to the way humans understand and copy each other's feelings.\n\nSo yawning remains a small, everyday mystery. It is something we all do many times a day, yet its full purpose is still not perfectly understood, a quiet reminder that even ordinary things can hide deep questions.",
-        summaryJa: "なぜあくびをするのかについて。誰にでも起こる。疲れたり退屈したり、起きたばかりのとき、突然口が大きく開き、長く深く息を吸い、あくびをする。あくびについて読むだけでしたくなるかもしれない。あくびは人間の最もありふれた動作の一つだが、意外にも科学者はなぜするのかまだ完全には分かっていない。長い間、あくびは酸素不足で起こると信じられた。疲れると呼吸が浅くなり、大きなあくびで余分な空気を取り込むという考えだ。だが入念な実験がこの単純な説明に疑問を投げかけ、今日多くの科学者は主な理由は別かもしれないと考える。現代の有力な一説は、あくびが脳を冷やすのを助けるというものだ。脳は狭い温度範囲で最もよく働き、大きなあくびは冷たい空気を取り込み血流を増やし、脳の温度を少し下げるのを助けるかもしれない。疲れた脳はやや暖かくなりうるので、疲れるとよくあくびが出るのを説明できるかもしれない。「うつる」あくびという不思議もある。人のあくびを見たり考えたりするだけで自分も出る。人が互いの感情を理解し真似る仕方と結びつくと考えられる。あくびは日常の小さな謎だ。",
-        quiz: [
-          { q: "What did people long believe caused yawning?", options: ["A lack of oxygen", "Too much sunlight", "Eating too much"], answer: 0 },
-          { q: "What is one popular modern idea about why we yawn?", options: ["It may help cool the brain", "It makes us taller", "It cleans the teeth"], answer: 0 },
-          { q: "What is 'contagious' yawning?", options: ["We often yawn when we see or think about someone else yawning", "Yawning that makes you ill", "Yawning only done while asleep"], answer: 0 }
         ]
       }
     ]
