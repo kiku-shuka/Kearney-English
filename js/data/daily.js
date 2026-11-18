@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-18",
+    passages: [
+      {
+        id: "d1118-1",
+        title: "Why Do Companies Advertise?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Everywhere we look, we see advertising. It fills our screens, lines the streets on giant posters, and interrupts our videos and music. Companies spend enormous amounts of money on it, often many millions. This raises a simple question: why do businesses pour so much money into advertising, and what are they really trying to achieve?\n\nAt its most basic, advertising has two main goals: to inform and to persuade. The first job is simply to make people aware that a product exists. A company may have made a wonderful new product, but if nobody knows about it, nobody will buy it. Advertising spreads the word, telling customers what is available and where to find it.\n\nThe second job is to persuade. Beyond just giving information, advertising tries to make a product seem attractive and desirable. It may show happy people enjoying the product, or link it to good feelings like fun, comfort, or success. The aim is to make you want it, and to choose it over a rival's product.\n\nAdvertising also helps build a brand, a company's identity and reputation. By showing their name and message again and again, companies hope that customers will remember and trust them.\n\nOf course, as customers, it is wise to watch advertising with a thoughtful eye. Its goal is to sell, so it naturally shows products in the best possible light, and does not mention their faults.\n\nSo advertising is a powerful business tool. It is the main way companies connect with huge numbers of people, telling them a product exists and trying to convince them to buy it.",
+        summaryJa: "企業はなぜ広告を出すのかについて。どこを見ても広告がある。画面を埋め、巨大なポスターで街に並び、動画や音楽を遮る。企業はしばしば何百万もの莫大な金をそれに費やす。ここに単純な疑問が生じる。なぜ企業はこれほど多くの金を広告に注ぎ、本当は何を達成しようとしているのか。最も基本的に、広告には二つの主な目的がある。知らせることと、説得することだ。第一の仕事は単に、製品が存在すると人々に気づかせることだ。素晴らしい新製品を作っても、誰も知らなければ誰も買わない。広告は言葉を広め、何があってどこで手に入るかを客に伝える。第二の仕事は説得だ。情報を与えるだけでなく、製品を魅力的で欲しいものに見せようとする。幸せな人が製品を楽しむ様子を見せ、楽しさ・快適さ・成功などの良い感情に結びつけることもある。狙いはあなたに欲しがらせ、競合の製品より選ばせることだ。広告はブランド、企業の個性と評判も築く。名前とメッセージを繰り返し見せ、客が覚え信頼することを願う。もちろん客としては、広告を思慮深い目で見るのが賢明だ。売るのが目的なので製品を最もよく見せ、欠点には触れない。",
+        quiz: [
+          { q: "What are the two main goals of advertising?", options: ["To inform and to persuade", "To hide products and to confuse", "To lose money"], answer: 0 },
+          { q: "What is the 'inform' job of advertising?", options: ["To make people aware that a product exists", "To make the product disappear", "To lower all prices"], answer: 0 },
+          { q: "Why is it wise to watch advertising thoughtfully?", options: ["Its goal is to sell, so it shows products in the best light and hides faults", "It always tells the complete truth", "It is created by customers"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1118-2",
+        title: "How Does a Loudspeaker Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "From the tiny speaker in your phone to the huge ones at a concert, loudspeakers fill our world with sound: music, voices, and every other noise our devices make. A speaker takes an invisible electrical signal and turns it into sound that we can hear. In a way, it does the exact opposite job of a microphone. But how does it actually create sound from electricity?\n\nFirst, remember what sound really is. Sound is simply a vibration travelling through the air. When something vibrates back and forth quickly, it pushes on the air, creating waves that our ears detect as sound. So to make a sound, a speaker must make the air vibrate.\n\nInside a speaker is a cone, usually made of paper or light plastic, which can move back and forth. Attached to the cone is a coil of wire, which sits near a permanent magnet. Here is the clever part. When the electrical signal, carrying the music, flows through the coil, it turns the coil into a magnet too. As the signal rapidly changes, the coil is pushed and pulled by the nearby permanent magnet, moving back and forth very fast.\n\nBecause the coil is attached to the cone, the cone moves with it, vibrating in and out. This moving cone pushes the air, creating sound waves that travel to your ears. The pattern of the electrical signal becomes the exact pattern of the sound.\n\nSo a loudspeaker is a clever device that uses electricity and a magnet to make a cone dance, turning an invisible signal back into the music and voices we love to hear.",
+        summaryJa: "スピーカーの仕組みについて。スマホの小さなスピーカーからコンサートの巨大なものまで、スピーカーは音楽や声、機器が出すあらゆる音で世界を満たす。スピーカーは目に見えない電気信号を、聞こえる音に変える。ある意味、マイクとちょうど逆の仕事をする。だがどうやって電気から音を作るのか。まず音とは本当は何かを思い出そう。音は単に空気を伝わる振動だ。何かが素早く前後に振動すると空気を押し、波を作り、耳がそれを音として捉える。だから音を出すにはスピーカーは空気を振動させねばならない。スピーカーの中には、紙か軽いプラスチックでできた前後に動けるコーン（円錐）がある。コーンには針金のコイルが付き、永久磁石の近くにある。ここが巧妙だ。音楽を運ぶ電気信号がコイルを流れると、コイルも磁石になる。信号が素早く変わると、コイルは近くの永久磁石に押し引きされ、とても速く前後に動く。コイルはコーンに付いているのでコーンも一緒に動き、出入りして振動する。この動くコーンが空気を押し、耳へ届く音波を作る。電気信号の模様がそのまま音の模様になる。",
+        quiz: [
+          { q: "What is sound, according to the passage?", options: ["A vibration travelling through the air", "A kind of light", "A type of electricity only"], answer: 0 },
+          { q: "What makes the coil move back and forth?", options: ["The changing electrical signal makes it a magnet, pushed and pulled by a permanent magnet", "A small motor turns it", "Someone shakes it by hand"], answer: 0 },
+          { q: "How does the moving cone create sound?", options: ["It pushes the air, creating sound waves that travel to your ears", "It produces light waves", "It stays perfectly still"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1118-3",
+        title: "Why Do Countries Protect Forests Together?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Spread across our planet are vast forests, from the cold pine woods of the north to the steaming rainforests near the equator. These forests are far more than just a lot of trees. They are among the most important and valuable things on Earth, and protecting them has become a task that no single country can manage alone.\n\nWhy do forests matter so much? First, they are home to a huge share of the world's wild animals, plants, and insects. A single rainforest can contain more kinds of life than entire continents elsewhere. Second, forests act like the planet's lungs. Trees take in carbon dioxide, a gas linked to a warming climate, and release the oxygen we breathe. Great forests help keep the whole world's climate in balance.\n\nYet forests are under threat. In many places, they are being cut down for wood or to clear land for farming. When a forest is lost, its animals lose their home, and the carbon stored in the trees is released, which can harm the climate everywhere.\n\nThis is why forests have become a global concern. A rainforest may stand within one country, but the benefits it gives, from clean air to a stable climate, are shared by the whole world. So richer nations sometimes help poorer ones to protect their forests, offering money and support in return for keeping the trees standing.\n\nProtecting forests is a difficult balance between the needs of local people and the needs of the planet. But slowly, the world is learning that these great forests are a treasure belonging, in a sense, to us all.",
+        summaryJa: "なぜ国々は協力して森を守るのかについて。惑星の各地に、北の寒い松林から赤道近くの蒸し暑い熱帯雨林まで、広大な森が広がる。これらの森は単なる多くの木をはるかに超える。地球上で最も重要で価値あるものの一つで、守ることはどの一国も単独では担えない課題になった。なぜ森はそれほど大切なのか。第一に、世界の野生動物・植物・昆虫の大きな割合の住みかだ。一つの熱帯雨林が、他の大陸全体より多くの種類の命を含むこともある。第二に、森は惑星の肺のように働く。木は温暖化に結びつく気体、二酸化炭素を取り込み、私たちが吸う酸素を放つ。大きな森は世界全体の気候の均衡を保つ助けになる。だが森は脅威にさらされている。多くの場所で、木材のため、あるいは農地にするため切り倒されている。森が失われると動物は住みかを失い、木に蓄えられた炭素が放たれ、各地の気候を害しうる。だから森は地球規模の関心事になった。熱帯雨林は一国の中にあっても、与える恵み、清い空気から安定した気候までは世界全体で分かち合う。豊かな国が貧しい国の森の保護を助けることもある。地元の人々と地球の必要の難しい均衡だが、世界は学びつつある。",
+        quiz: [
+          { q: "Why do forests act like the planet's lungs?", options: ["Trees take in carbon dioxide and release the oxygen we breathe", "They pump water like a heart", "They make electricity"], answer: 0 },
+          { q: "What happens when a forest is cut down?", options: ["Animals lose their home and stored carbon is released, harming the climate", "Nothing changes at all", "More animals appear"], answer: 0 },
+          { q: "Why have forests become a global concern?", options: ["A forest stands in one country, but its benefits are shared by the whole world", "Forests belong to no planet", "Trees are worthless"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1118-4",
+        title: "Japanese Gardens: Nature in Miniature",
+        level: "★★☆",
+        genre: "日本",
+        text: "Stepping into a traditional Japanese garden can feel like entering a world of deep peace. There are no loud colours or busy flower beds. Instead, there are carefully placed rocks, quiet pools of water, raked gravel, and a gentle arrangement of trees and moss. A Japanese garden is not just a pretty space; it is a carefully designed work of art, meant to calm the mind and reflect the beauty of nature itself.\n\nThe key idea behind a Japanese garden is to capture the feeling of natural landscapes, such as mountains, rivers, and seas, in a small and peaceful space. A few large rocks might represent distant mountains or islands. A pond or a stream of raked white gravel can suggest a river or the ocean. In this way, a whole landscape is created in miniature.\n\nGreat care is taken over every detail. Designers think about how the garden will look in each season: cherry blossoms in spring, cool green in summer, red leaves in autumn, and quiet snow in winter. Nothing is placed by accident. Even empty space is important, giving the eye room to rest.\n\nOne famous style is the Zen rock garden, where there are almost no plants at all, just rocks set in a bed of gravel, raked into flowing patterns. These gardens are made for quiet thought and meditation.\n\nA Japanese garden teaches a gentle lesson. True beauty does not have to be loud or crowded. By looking carefully at a few simple, natural things, arranged with great care, we can find a deep and lasting sense of calm.",
+        summaryJa: "日本庭園、縮められた自然について。伝統的な日本庭園に足を踏み入れると、深い静けさの世界に入るように感じられる。派手な色やにぎやかな花壇はない。代わりに、丁寧に置かれた石、静かな水の池、整えられた砂利、木と苔の穏やかな配置がある。日本庭園は単なる美しい空間でなく、心を鎮め自然そのものの美を映すために入念に設計された芸術作品だ。日本庭園の核心にある考えは、山・川・海などの自然の風景の趣を、小さく穏やかな空間に捉えることだ。いくつかの大きな石が遠い山や島を表すこともある。池や整えた白砂利の流れが川や海を思わせる。こうして風景全体が縮小して作られる。細部すべてに細心の注意が払われる。設計者は各季節での見え方を考える。春の桜、夏の涼しい緑、秋の紅葉、冬の静かな雪。何一つ偶然に置かれない。余白さえ重要で、目に休む余地を与える。有名な一様式は枯山水で、植物がほとんどなく、砂利の床に石を据え、流れる模様に整える。静かな思索と瞑想のために作られる。本当の美は派手で混み合っている必要はないと教えてくれる。",
+        quiz: [
+          { q: "What is the key idea behind a Japanese garden?", options: ["To capture the feeling of natural landscapes in a small, peaceful space", "To grow as many flowers as possible", "To be as loud and colorful as possible"], answer: 0 },
+          { q: "What might a few large rocks represent?", options: ["Distant mountains or islands", "Cars", "Houses"], answer: 0 },
+          { q: "What is a Zen rock garden?", options: ["A garden with almost no plants, just rocks in raked gravel, for quiet thought", "A garden full of bright flowers", "A vegetable field"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1118-5",
+        title: "Why Do Leaves Change Colour in Autumn?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Each autumn, something beautiful happens in forests and parks across much of the world. The green leaves of summer slowly transform into brilliant shades of yellow, orange, and red, before finally falling to the ground. It is one of nature's most lovely displays. But what causes this magical change of colour?\n\nThe answer begins with the green colour itself. Leaves are green because they are full of a substance called chlorophyll. This remarkable substance has a vital job: it uses sunlight to make food for the tree, through a process called photosynthesis. All through the warm, bright days of spring and summer, the leaves are busy making food, and they are packed with green chlorophyll.\n\nHere is the surprising part. The yellow and orange colours were hiding in the leaf all along, all summer. They were simply covered up by the much stronger green colour.\n\nAs autumn arrives, the days grow shorter and colder. The tree senses that winter is coming and begins to prepare for rest. It stops making food, and the green chlorophyll slowly breaks down and disappears. As the green fades away, the yellow and orange colours that were always there are finally revealed.\n\nThe bright red colours are a little different. In some trees, red pigments are actually made fresh in autumn, which can protect the leaf as it finishes its final work.\n\nSo the glorious colours of autumn are not really new. They are the leaf's true, hidden colours, shining through at last as the tree quietly prepares for the long sleep of winter.",
+        summaryJa: "秋に葉の色が変わるのはなぜかについて。毎秋、世界の多くの地域の森や公園で美しいことが起こる。夏の緑の葉がゆっくりと鮮やかな黄・橙・赤に変わり、ついに地面へ落ちる。自然の最も美しい見せ物の一つだ。だが何がこの魔法のような色の変化を起こすのか。答えは緑色そのものから始まる。葉が緑なのは、葉緑素（クロロフィル）という物質に満ちているからだ。この驚くべき物質には重要な仕事がある。光合成という過程で、日光を使って木のための食べ物を作るのだ。春と夏の暖かく明るい日々ずっと、葉は食べ物作りに忙しく、緑の葉緑素で満たされている。ここが意外な点だ。黄や橙の色は、夏中ずっと葉の中に隠れていた。ただずっと強い緑色に覆われていただけだ。秋が来ると、日は短く寒くなる。木は冬の到来を察し、休む準備を始める。食べ物作りをやめ、緑の葉緑素はゆっくり分解して消える。緑が薄れると、ずっとそこにあった黄や橙の色がついに現れる。鮮やかな赤は少し違う。木によっては赤い色素が実は秋に新しく作られ、葉を守る。秋の輝く色は本当は新しくなく、葉の隠れた真の色なのだ。",
+        quiz: [
+          { q: "Why are leaves green in summer?", options: ["They are full of chlorophyll, which uses sunlight to make food", "They are painted green", "They are cold"], answer: 0 },
+          { q: "Where were the yellow and orange colours during summer?", options: ["Hiding in the leaf, covered up by the stronger green colour", "In the soil", "They did not exist yet"], answer: 0 },
+          { q: "What happens as autumn arrives?", options: ["The green chlorophyll breaks down, revealing the yellow and orange colours", "The leaves turn blue", "New green appears"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-17",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "How do scientists believe a purr is made?", options: ["By muscles in the voice box opening and closing very quickly", "By the cat's stomach", "By the cat's tail moving"], answer: 0 },
           { q: "What is surprising about when cats purr?", options: ["They also purr when frightened, injured, or near death, not only when happy", "They only purr once a year", "They purr only while eating"], answer: 0 },
           { q: "What is one fascinating idea about purring?", options: ["Its vibrations may help strengthen bones and repair tissues", "It makes the cat grow bigger", "It cleans the cat's fur"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-11",
-    passages: [
-      {
-        id: "d1111-1",
-        title: "What Is a Share in a Company?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When a company wants to grow, it often needs a large amount of money, perhaps to build a new factory or expand into other countries. One powerful way to raise this money is to sell small pieces of the company itself to the public. Each of these small pieces is called a share, and anyone who owns one becomes, in a tiny way, a part-owner of the company.\n\nImagine a company is divided into a million equal pieces. If you buy one share, you own one millionth of that company. Buy a thousand shares, and you own a thousand millionths. Owning shares makes you a shareholder, with a real stake in how the business performs.\n\nWhy do people buy shares? There are two main hopes. First, if the company does well and becomes more valuable, the price of each share may rise. The shareholder can then sell their shares for more than they paid, making a profit. Second, many companies share some of their yearly profits with their shareholders. This payment is called a dividend.\n\nOf course, there is also risk. If the company does badly, the share price can fall, and shareholders may lose money. Share prices can rise and fall for many reasons, so buying shares is never a sure way to get rich.\n\nShares are a clever idea that connects ordinary people to the success of businesses. They let companies raise money to grow, and they let people, in a small way, own a part of the companies whose products they use every day.",
-        summaryJa: "株（株式）とは何かについて。会社が成長したいとき、新しい工場を建てたり他国へ進出したりするために、多額の資金を必要とすることが多い。その資金を集める強力な方法の一つが、会社自体の小さな一片を広く人々に売ることだ。この小さな一片を株といい、一つでも持てば、ごくわずかながら会社の一部の所有者になる。会社が百万の等しい片に分かれていると想像しよう。一株買えば会社の百万分の一を所有する。千株買えば千の百万分の一だ。株を持つと株主になり、事業の成績に本当の利害を持つ。なぜ人は株を買うのか。主な望みは二つ。第一に、会社が好調で価値が上がれば、各株の値段も上がりうる。株主は払った額より高く売って利益を得られる。第二に、多くの会社は年間利益の一部を株主に分ける。この支払いを配当という。もちろん危険もある。会社が不調なら株価は下がり、株主は損をしうる。株価は様々な理由で上下し、確実に儲かる方法では決してない。株は人々を事業の成功に結びつける巧妙な考えだ。",
-        quiz: [
-          { q: "What does owning a share mean?", options: ["You become, in a tiny way, a part-owner of the company", "You manage the whole company", "You work for the company for free"], answer: 0 },
-          { q: "What is a dividend?", options: ["A payment of some of a company's profits to its shareholders", "A fee for buying shares", "A kind of company car"], answer: 0 },
-          { q: "What is a risk of buying shares?", options: ["If the company does badly, the share price can fall and you may lose money", "Shares always rise in value", "You can never sell them"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1111-2",
-        title: "How Does Wi-Fi Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "In homes, cafés, and offices everywhere, people connect their phones and computers to the internet without any wires at all. We call this Wi-Fi, and it feels almost like magic. Information seems to travel through empty air, from a small box on the wall to the device in your hand. But there is no magic involved, only a clever use of something invisible all around us: radio waves.\n\nRadio waves are a kind of energy that travels through the air, the same basic thing used to carry radio and television signals. They are completely invisible and harmless, and they can pass through air and even walls. Wi-Fi uses these waves to carry information instead of music or pictures.\n\nAt the centre of a Wi-Fi network is a device called a router. The router is connected to the internet, usually by a cable coming into the building. Its job is to turn the information from the internet into radio waves and broadcast them into the air around it.\n\nYour phone or computer contains a tiny radio of its own. It listens for these waves, receives them, and turns them back into useful information, such as a web page or a message. It can also send waves back to the router, so the conversation goes both ways.\n\nBecause the signal travels through the air, you must be fairly close to the router for a strong connection. Walls and distance can weaken it.\n\nSo Wi-Fi is really just a two-way radio conversation, happening silently and invisibly, carrying the whole internet across the short distance from a router to your hand.",
-        summaryJa: "Wi-Fiの仕組みについて。家でも喫茶店でも職場でも、人々は線を一切使わずスマホやパソコンをインターネットにつなぐ。これをWi-Fiといい、まるで魔法のようだ。情報が壁の小さな箱から手の中の機器へ、何もない空中を伝わるように見える。だが魔法ではなく、私たちの周りに見えない形で存在するもの、電波の巧妙な利用だ。電波は空気中を伝わるエネルギーの一種で、ラジオやテレビの信号を運ぶのと同じものだ。完全に目に見えず無害で、空気や壁さえ通り抜けられる。Wi-Fiはこの波で、音楽や映像の代わりに情報を運ぶ。Wi-Fiネットワークの中心にはルーターという装置がある。ルーターはたいてい建物に入るケーブルでインターネットにつながる。その仕事は、インターネットからの情報を電波に変え、周囲の空中へ放つことだ。あなたのスマホやパソコンは自前の小さな無線機を持つ。この波を聞き取り受信し、ウェブページやメッセージなど役立つ情報に戻す。ルーターへ波を送り返しもでき、やり取りは双方向だ。壁や距離で弱まるため、強い接続にはルーターに近い必要がある。",
-        quiz: [
-          { q: "What does Wi-Fi use to carry information?", options: ["Radio waves travelling through the air", "Thin hidden wires", "Beams of water"], answer: 0 },
-          { q: "What is the job of a router?", options: ["To turn internet information into radio waves and broadcast them", "To store all the world's websites", "To make electricity"], answer: 0 },
-          { q: "Why must you be fairly close to the router?", options: ["Walls and distance can weaken the signal", "The router can only see you", "Radio waves need sunlight"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1111-3",
-        title: "What Is the United Nations?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "The world is divided into nearly two hundred countries, each with its own government, language, and interests. With so many different nations sharing one planet, disagreements are certain to arise. How can the countries of the world talk to one another, solve problems, and avoid dangerous conflicts? To help with exactly this, nations created a remarkable organisation called the United Nations, often shortened to the UN.\n\nThe United Nations was founded after the Second World War, a terrible conflict that taught the world a hard lesson about the cost of war. Its central purpose is to help keep peace between countries. Almost every nation in the world is now a member.\n\nThe UN works in many ways. Its most famous feature is a great hall where representatives from every member country can meet, speak, and vote on important issues. Here, even the smallest nation has a voice. When conflicts threaten, the UN can send peacekeepers, help arrange talks, or ask countries to stop fighting.\n\nBut the UN does far more than deal with conflict. Through its many agencies, it works to improve health, feed the hungry, protect children, help refugees, guard important sites, and care for the environment. Much of the quiet good it does around the world goes unnoticed.\n\nThe UN is not a world government, and it cannot force powerful countries to obey. It depends on cooperation, and it is often criticised for being slow or weak. Yet it remains humanity's largest attempt to work together as one, a place where nations can meet and talk, instead of only fighting.",
-        summaryJa: "国際連合（国連）とは何かについて。世界は二百近い国に分かれ、各国が独自の政府・言語・利害を持つ。これほど多くの国が一つの惑星を分かち合えば、対立は必ず生じる。世界の国々はどうすれば互いに話し合い、問題を解決し、危険な紛争を避けられるのか。まさにこれを助けるため、国々は国際連合、しばしば国連と略される見事な組織を作った。国連は第二次世界大戦の後に設立された。戦争の代償という厳しい教訓を世界に与えた恐ろしい紛争だ。中心的な目的は国家間の平和を保つことで、今やほぼすべての国が加盟する。国連は多様に働く。最も有名なのは、全加盟国の代表が集まり発言し重要な問題に投票できる大きな議場だ。ここでは最も小さな国にも発言権がある。紛争が脅かせば、平和維持部隊を送り、会談を整え、戦いの停止を求められる。だが国連は紛争対応にとどまらない。多くの機関を通じ、健康の増進、飢餓の救済、子どもの保護、難民の支援、重要な場所の保護、環境の保全に努める。世界政府ではなく強国を従わせる力はないが、人類が一つとして協力しようとする最大の試みだ。",
-        quiz: [
-          { q: "Why was the United Nations founded?", options: ["To help keep peace between countries, after the Second World War", "To rule the whole world directly", "To start new wars"], answer: 0 },
-          { q: "What is the UN's most famous feature?", options: ["A hall where every member country can meet, speak, and vote", "A single large army", "A world bank only"], answer: 0 },
-          { q: "What is a limitation of the UN?", options: ["It is not a world government and cannot force powerful countries to obey", "It controls every country completely", "It has no members"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1111-4",
-        title: "Ekiben: Japan's Railway Lunch Boxes",
-        level: "★★☆",
-        genre: "日本",
-        text: "Travelling by train in Japan is a pleasure in itself, and part of that pleasure comes from a delicious tradition: the ekiben. The word combines eki, meaning station, and ben, short for bento, the Japanese boxed lunch. An ekiben is simply a bento sold at a railway station or on a train, but it is far more special than that plain description suggests.\n\nWhat makes ekiben so loved is their variety and local character. All over Japan, each region and even each individual station is famous for its own particular ekiben. These boxes are filled with local specialities: the seafood of a coastal town, the beef of a famous farming area, or a dish linked to that region's history. Travellers look forward to trying the special ekiben of each place they pass through.\n\nThe boxes themselves are often beautiful. The food is arranged with great care, colourful and neat, and the container may be shaped or decorated to match the local theme. Some even come in pottery pots that travellers keep as souvenirs. A few clever ekiben can even heat themselves when you pull a string.\n\nEating an ekiben while watching the landscape roll past the window is one of the small joys of Japanese travel. It turns a simple meal into part of the journey itself.\n\nFor many people, the ekiben is a delicious reminder that in Japan, even everyday things like a packed lunch can become a small work of art, and a way to taste the character of a distant place.",
-        summaryJa: "日本の駅弁について。日本で列車の旅をするのはそれ自体が楽しみで、その楽しみの一部はおいしい伝統、駅弁から来る。「駅」と、弁当を略した「弁」を合わせた言葉だ。駅弁は単に駅や車内で売られる弁当だが、その素っ気ない説明よりずっと特別だ。駅弁がこれほど愛されるのは、その多様さと土地ごとの個性だ。日本中で、各地方、さらには個々の駅までが独自の駅弁で有名だ。海辺の町の海の幸、有名な産地の牛肉、その地方の歴史に結びついた料理など、土地の名物が詰まる。旅人は通る各地の特別な駅弁を試すのを楽しみにする。箱そのものも美しいことが多い。料理は丁寧に、彩りよく整えて並べられ、容器が土地の主題に合わせて形作られ飾られることもある。旅人が記念に取っておく陶器の器に入ったものさえある。紐を引くと自ら温まる巧妙な駅弁もある。車窓を流れる景色を眺めながら駅弁を食べるのは、日本の旅の小さな喜びの一つだ。単純な食事を旅そのものの一部に変える。日常の弁当さえ小さな芸術になりうると教えてくれる。",
-        quiz: [
-          { q: "What is an 'ekiben'?", options: ["A boxed lunch sold at a railway station or on a train", "A kind of train ticket", "A type of railway car"], answer: 0 },
-          { q: "What makes ekiben so loved?", options: ["Their variety and local character, using each region's specialities", "They are all exactly the same", "They contain no food"], answer: 0 },
-          { q: "What is special about some ekiben boxes?", options: ["They are beautiful, and some can even heat themselves", "They are always empty", "They cannot be opened"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1111-5",
-        title: "How Do Chameleons Change Color?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "The chameleon is one of nature's most famous animals, known all over the world for a single amazing ability: it can change the colour of its skin. A chameleon sitting on a brown branch may be dull and brownish, but moments later, in a different mood, it may blaze with bright green, yellow, or even blue. For a long time, people misunderstood how and why this happens.\n\nMany people believe chameleons change colour mainly to hide, matching whatever they sit on. This is partly true, but it is not the main reason. Scientists have discovered that chameleons change colour mostly to show how they feel and to communicate with other chameleons. A bright, bold display can warn off a rival or attract a mate, while darker colours may signal fear or help the animal warm up in the sun.\n\nBut how do they actually do it? The secret lies in special layers of tiny crystals inside their skin. The chameleon can slightly change the spacing of these tiny crystals by relaxing or tightening its skin. Because colour depends on how light bounces off these crystals, changing their spacing changes the colour we see. When the crystals are close together, the skin may look blue or green; when they are spread apart, it may look yellow or red.\n\nSo a chameleon is not simply copying its background like a living mirror. Instead, it is using a remarkable, built-in system of crystals and light to paint its feelings onto its own skin, one of the most beautiful tricks in the whole of nature.",
-        summaryJa: "カメレオンはどうやって体の色を変えるのかについて。カメレオンは自然で最も有名な動物の一つで、ある驚くべき能力で世界中に知られる。皮膚の色を変えられるのだ。茶色い枝に座るカメレオンはくすんだ茶色でも、しばらくして気分が変われば、鮮やかな緑や黄、さらには青に輝くことがある。長い間、人々はどうやって、なぜそうなるのかを誤解していた。多くの人は、カメレオンが主に身を隠すため、座る物に合わせて色を変えると信じている。一部は正しいが、主な理由ではない。科学者は、カメレオンが主に気持ちを示し、他のカメレオンと意思疎通するために色を変えると発見した。鮮やかで大胆な見せ方は競争相手を追い払い、相手を引きつける一方、暗い色は恐れを示したり日なたで体を温めるのを助けたりする。ではどうやって行うのか。秘密は皮膚の中の小さな結晶の特別な層にある。カメレオンは皮膚を緩めたり張ったりして結晶の間隔をわずかに変えられる。色は光が結晶にどう跳ね返るかで決まるので、間隔を変えると見える色が変わる。近いと青や緑、離れると黄や赤に見える。生きた鏡のように背景を写すのではなく、結晶と光の見事な仕組みで気持ちを皮膚に描くのだ。",
-        quiz: [
-          { q: "What is the main reason chameleons change colour?", options: ["To show how they feel and communicate with other chameleons", "Only to match the exact background", "To become invisible completely"], answer: 0 },
-          { q: "How does a chameleon change its colour?", options: ["By changing the spacing of tiny crystals in its skin", "By painting itself", "By eating colored food"], answer: 0 },
-          { q: "What decides the colour we see on its skin?", options: ["How light bounces off the crystals, which depends on their spacing", "The time of day only", "The color of its food"], answer: 0 }
         ]
       }
     ]
