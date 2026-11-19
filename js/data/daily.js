@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-19",
+    passages: [
+      {
+        id: "d1119-1",
+        title: "What Makes a Good Team at Work?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Most important work is not done by one person alone, but by a team. Whether building a bridge, running a shop, or creating a new product, groups of people must work together towards a shared goal. Yet some teams achieve wonderful things, while others, with equally talented members, struggle and fail. What is the secret? What makes a group of people into a good team?\n\nOne of the most important ingredients is clear communication. In a good team, members share information openly, listen carefully to one another, and are not afraid to ask questions or raise problems. When people do not talk clearly, mistakes and misunderstandings quickly appear.\n\nA second key ingredient is trust. Team members must be able to rely on each other to do their part. When there is trust, people feel safe to share new ideas, admit mistakes, and ask for help, without fear of being blamed. This makes the whole team stronger.\n\nGood teams also understand their roles. Each member knows what they are responsible for, and how their work fits with everyone else's. Like players on a sports team, each person has a position, and together they cover the whole field.\n\nFinally, a good team shares a common goal. Everyone understands what they are trying to achieve and why it matters. This shared purpose keeps people pulling in the same direction, even when the work is hard.\n\nSo a good team is far more than a group of clever individuals. It is a group that communicates, trusts, understands its roles, and works together, achieving things that no single person ever could alone.",
+        summaryJa: "良い職場のチームを作るものは何かについて。大切な仕事の多くは一人でなく、チームで行われる。橋を建てるにせよ、店を運営するにせよ、新製品を作るにせよ、人々が共有の目標に向けて協力せねばならない。だが同じくらい有能な人員でも、素晴らしい成果を上げるチームもあれば、苦しみ失敗するチームもある。秘訣は何か。人の集まりを良いチームにするものは何か。最も重要な要素の一つは明確な意思疎通だ。良いチームでは、情報を率直に共有し、互いに注意深く聞き、質問や問題提起を恐れない。明確に話さないと、誤りや誤解がすぐ生じる。第二の鍵は信頼だ。各自が自分の役割を果たすと互いに頼れねばならない。信頼があると、責められる恐れなく新しい考えを共有し、失敗を認め、助けを求められる。これがチーム全体を強くする。良いチームは役割も理解する。各自が何に責任を持ち、自分の仕事が他の皆とどう合うか知る。スポーツのように各自に持ち場があり、共に全体を覆う。最後に、良いチームは共通の目標を分かち合う。皆が何を達成しようとし、なぜ大切かを理解する。賢い個人の集まり以上だ。",
+        quiz: [
+          { q: "What is one of the most important ingredients of a good team?", options: ["Clear communication", "Keeping all information secret", "Never speaking to each other"], answer: 0 },
+          { q: "Why does trust make a team stronger?", options: ["People feel safe to share ideas, admit mistakes, and ask for help", "It lets people avoid all work", "It makes the team smaller"], answer: 0 },
+          { q: "What keeps a good team pulling in the same direction?", options: ["A shared common goal that everyone understands", "Each person having a different secret goal", "No goal at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1119-2",
+        title: "How Do Robots Help Us Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "When many people hear the word robot, they imagine a human-shaped machine from a film. But most real robots look nothing like that. A robot is simply a machine that can be programmed to carry out tasks, often on its own. Today, robots quietly help people in factories, hospitals, warehouses, and many other places, doing work that is hard, dangerous, or simply very repetitive.\n\nThe most common place to find robots is in factories. Here, robotic arms perform the same precise movements over and over, all day long, without ever getting tired or bored. They can weld metal, paint cars, or carefully place tiny parts, often faster and more accurately than a human hand. Because they do not tire, they help make products of a steady, reliable quality.\n\nRobots are especially valuable for jobs that are dangerous for people. They can work with poisonous chemicals, lift very heavy loads, or explore places that are too risky for humans, such as deep underwater or inside a damaged building.\n\nMore and more, robots are also moving beyond factories. In some warehouses, robots race around fetching goods. In hospitals, they may help carry supplies or assist doctors in delicate operations.\n\nRobots are not perfect, and they work best alongside people, not instead of them. A machine can repeat a task, but it cannot yet think, judge, and solve surprising problems the way a human can.\n\nSo robots are powerful helpers. By taking on the hard, dangerous, and repetitive work, they free people to focus on the tasks that need a human mind: thinking, deciding, and creating.",
+        summaryJa: "ロボットはどう私たちの仕事を助けるのかについて。「ロボット」という言葉を聞くと、多くの人は映画の人型の機械を思い浮かべる。だが現実のロボットの多くはそう見えない。ロボットは単に、作業を行うようプログラムできる機械で、しばしば自分で動く。今日、ロボットは工場や病院、倉庫など多くの場所で静かに人を助け、難しい・危険な、あるいは非常に反復的な仕事を行う。ロボットが最もよくいるのは工場だ。ロボットアームが同じ精密な動きを一日中何度も、疲れも飽きもせず繰り返す。金属を溶接し、車を塗り、小さな部品を丁寧に置き、しばしば人の手より速く正確だ。疲れないので、安定し信頼できる品質の製品作りを助ける。人に危険な仕事で特に価値がある。有毒な化学物質を扱い、非常に重い荷を持ち上げ、深海や損傷した建物の中など人に危険すぎる場所を探れる。ますます工場を超えても広がる。倉庫で品物を取りに走り回り、病院で物資を運び、繊細な手術で医師を助けることもある。完璧ではなく、人の代わりでなく人と並んで働くのが最良だ。機械は作業を繰り返せても、人のように考え判断し意外な問題を解くことはまだできない。",
+        quiz: [
+          { q: "What is a robot?", options: ["A machine that can be programmed to carry out tasks, often on its own", "Always a human-shaped machine from a film", "A kind of computer game"], answer: 0 },
+          { q: "Why are robots especially valuable for dangerous jobs?", options: ["They can handle poisons, heavy loads, or risky places instead of people", "They enjoy danger", "They never work at all"], answer: 0 },
+          { q: "Why do robots work best alongside people?", options: ["Robots repeat tasks, but cannot yet think and solve surprising problems like humans", "People slow robots down", "Robots can do absolutely everything alone"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1119-3",
+        title: "What Is Foreign Aid?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "The world is a place of great differences. Some countries are very wealthy, with good schools, modern hospitals, and clean running water for everyone. Others are much poorer, where many people struggle to find enough food, clean water, or basic medical care. To help close this gap, richer countries often give help to poorer ones. This help is called foreign aid.\n\nForeign aid comes in several forms. Sometimes it is emergency aid, given quickly after a disaster such as an earthquake, flood, or famine. This includes food, water, medicine, and shelter to save lives in a crisis.\n\nMore often, foreign aid is about longer-term development. The goal here is not just to help for a day, but to help a country improve itself for the future. Richer nations may provide money and experts to help build schools, hospitals, roads, and clean water systems. They may help train teachers, doctors, and farmers, so that the country can grow stronger on its own.\n\nWhy do countries give aid? Partly out of simple kindness, a wish to help fellow human beings in need. But there are other reasons too. A more stable, healthier, and wealthier world is safer and better for everyone, including the countries that give the aid.\n\nForeign aid is not always simple or perfect. It must be given carefully, so that it truly helps local people and does not create new problems. But at its heart, it reflects a hopeful idea: that the nations of the world have a shared responsibility to help one another, so that fewer people are left behind.",
+        summaryJa: "対外援助（外国援助）とは何かについて。世界は大きな差のある場所だ。とても豊かで、良い学校・近代的な病院・皆のための清潔な水道がある国もある。もっと貧しく、多くの人が十分な食料や清潔な水、基本的な医療を得るのに苦労する国もある。この差を縮めるため、豊かな国はしばしば貧しい国を助ける。この助けを対外援助という。対外援助はいくつかの形で来る。地震・洪水・飢饉などの災害の後に素早く与えられる緊急援助のこともある。危機で命を救う食料・水・薬・住まいを含む。だがより多くの場合、対外援助はより長期の開発に関わる。目的は一日助けることでなく、国が将来に向けて自らを改善するのを助けることだ。豊かな国は、学校・病院・道路・清潔な水の仕組みの建設を助ける資金と専門家を提供する。教師・医師・農家の育成を助け、国が自力で強くなれるようにする。なぜ国は援助するのか。一部は単純な親切、困っている仲間を助けたいという願いからだ。だが他の理由もある。より安定し健康で豊かな世界は、援助する国を含め皆にとって安全で良い。完璧ではないが、国々が互いを助け合う共有の責任という希望を映す。",
+        quiz: [
+          { q: "What is foreign aid?", options: ["Help given by richer countries to poorer ones", "A kind of tax on travel", "A type of weapon"], answer: 0 },
+          { q: "What is the goal of longer-term development aid?", options: ["To help a country improve itself for the future, not just for a day", "To keep the country weak", "To take the country's land"], answer: 0 },
+          { q: "Why do countries give aid, besides kindness?", options: ["A more stable, healthier, wealthier world is safer and better for everyone", "To make the world poorer", "For no reason at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1119-4",
+        title: "Osoji: The Japanese Year-End Cleaning",
+        level: "★★☆",
+        genre: "日本",
+        text: "In many countries, people do a big spring cleaning of their homes once a year. In Japan, there is a similar but special tradition, and it happens at the end of the year, in the cold days of December. It is called osoji, which simply means big cleaning, and it is an important way of preparing for the New Year.\n\nOsoji is far more than ordinary tidying up. Towards the end of December, families, schools, offices, and shops all take part in a thorough, deep clean. People clean places that are usually ignored: they wipe high windows, scrub floors, clear out cupboards, and throw away things they no longer need. The whole building is made fresh and spotless.\n\nThe reason behind osoji is both practical and spiritual. On a practical level, it is simply satisfying to begin a new year in a clean and tidy home. But there is a deeper meaning too. The cleaning is a way of clearing away the dust and troubles of the old year, both the physical dirt and, in a sense, the bad luck. By cleaning the home completely, people prepare a pure, fresh space to welcome the New Year and its blessings.\n\nThere is a good feeling in doing osoji together. Family members work side by side, and the hard work creates a sense of a fresh start shared by all.\n\nSo osoji is more than just cleaning. It is a yearly ritual of renewal, a way of closing the old year with care and opening the new one with a clean and hopeful heart.",
+        summaryJa: "大掃除、日本の年末の清掃について。多くの国で、人々は年に一度家の「春の大掃除」をする。日本にも似た特別な伝統があり、年末、十二月の寒い日々に行われる。大掃除と呼ばれ、文字どおり「大きな掃除」を意味し、新年を迎える大切な準備だ。大掃除は普通の片付けをはるかに超える。十二月の終わりごろ、家庭・学校・職場・店がみな徹底した深い清掃に取り組む。普段無視される場所も掃除する。高い窓を拭き、床を磨き、戸棚を片付け、もう要らない物を捨てる。建物全体を新しく、ちりひとつなくする。大掃除の理由は実用的でも精神的でもある。実用面では、清潔で整った家で新年を始めるのは単純に気持ちよい。だがより深い意味もある。掃除は古い年のちりと厄介を、物理的な汚れと、ある意味で悪運を払いのける方法だ。家を完全に清めることで、新年とその恵みを迎える清らかで新鮮な空間を整える。共に大掃除をするのは良い気持ちだ。家族が肩を並べて働き、重労働が皆で分かち合う新たな出発の感覚を生む。年を気持ちよく閉じ、清らかで希望ある心で新年を開く更新の儀式だ。",
+        quiz: [
+          { q: "When does osoji take place?", options: ["At the end of the year, in December, to prepare for the New Year", "In the middle of summer", "Every single morning"], answer: 0 },
+          { q: "What is the deeper meaning of osoji?", options: ["Clearing away the dust and troubles of the old year to welcome a fresh start", "Making the home dirtier", "Hiding things from guests"], answer: 0 },
+          { q: "What good feeling comes from doing osoji together?", options: ["A sense of a fresh start shared by all the family", "A feeling of being completely alone", "Anger at one another"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1119-5",
+        title: "How Clever Are Crows?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Crows and their relatives, such as ravens, are often overlooked as ordinary black birds. But scientists who study them have made a surprising discovery: these birds are among the most intelligent animals on the whole planet. In fact, some crows can solve problems that would puzzle a young child.\n\nOne of their most famous skills is using tools. Some crows bend a piece of wire into a hook to pull food out of a tube, or use a stick to dig insects out of a log. Making and using a tool to solve a problem was once thought to be something only humans and a few apes could do.\n\nCrows also have remarkable memories. They can remember the faces of individual people for years, and they seem to know which humans have been kind to them and which have been a threat. Recent studies suggest they can even memorise vast areas of land, remembering where food is likely to be found.\n\nThey are clever in social ways too. Crows live in groups, communicate with a wide range of calls, and can even work together to solve a problem or to chase away a larger enemy.\n\nPerhaps most impressively, crows seem able to plan for the future, saving a useful tool for a task they expect to face later. This kind of thinking ahead is very rare in the animal world.\n\nSo the next time you see a crow watching you from a rooftop, remember that behind those dark eyes is one of nature's finest problem-solvers, a feathered genius hiding in plain sight in our towns and cities.",
+        summaryJa: "カラスはどれほど賢いのかについて。カラスやその仲間のワタリガラスは、しばしばありふれた黒い鳥として見過ごされる。だが研究する科学者たちは驚くべき発見をした。これらの鳥は惑星全体で最も知能の高い動物に数えられるのだ。実際、一部のカラスは幼い子どもを困らせるような問題を解ける。最も有名な技の一つは道具の使用だ。あるカラスは針金を曲げてかぎを作り管から食べ物を引き出し、小枝を使って丸太から虫を掘り出す。問題を解くため道具を作り使うのは、かつて人間と一部の類人猿だけができると思われていた。カラスは驚くべき記憶力も持つ。個々の人の顔を何年も覚え、どの人間が親切でどれが脅威だったか分かるようだ。最近の研究は、広い土地を記憶し、食べ物が見つかりそうな場所を覚えられることさえ示す。社会的にも賢い。群れで暮らし、幅広い鳴き声で意思疎通し、問題を解いたり大きな敵を追い払ったりするため協力さえできる。おそらく最も見事なのは、将来の計画ができるらしいことだ。後で直面すると予想する作業のため、役立つ道具を取っておく。この先読みは動物界で非常に珍しい。黒い目の奥に自然屈指の問題解決者がいるのだ。",
+        quiz: [
+          { q: "What surprising discovery have scientists made about crows?", options: ["They are among the most intelligent animals on the planet", "They cannot see at all", "They never make any sound"], answer: 0 },
+          { q: "What is one famous skill of some crows?", options: ["Making and using tools, such as bending wire into a hook", "Reading books", "Driving cars"], answer: 0 },
+          { q: "What rare ability do crows seem to have?", options: ["Planning for the future, such as saving a tool for a later task", "Living underwater", "Glowing in the dark"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-18",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What is sunlight really made of?", options: ["A mixture of many colors travelling together", "Only the color white", "A kind of water"], answer: 0 },
           { q: "What splits the sunlight into colors in a rainbow?", options: ["Raindrops, which bend each color by a slightly different amount", "The clouds blocking the sun", "The wind"], answer: 0 },
           { q: "Why can you only see a rainbow in certain positions?", options: ["The sun must be behind you and the rain in front of you", "You must be very high up", "It only works at midnight"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-12",
-    passages: [
-      {
-        id: "d1112-1",
-        title: "What Is Inflation?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Have you ever heard an older person say, When I was young, a bottle of milk cost almost nothing? They are not imagining it. Over the years, the prices of most things slowly rise. A meal, a train ticket, or a house usually costs more today than it did twenty years ago. This general, slow rise in prices over time is called inflation.\n\nInflation really means that money is losing some of its value. If prices double over many years, then the same coin buys only half as much as it once did. The money in your pocket has not changed, but what it can buy has shrunk.\n\nA small, steady amount of inflation is normal and is usually not a problem. In fact, most governments aim for a little inflation each year, because it is a sign of a healthy, growing economy. Prices and wages tend to rise together slowly.\n\nProblems appear when inflation becomes too fast. If prices rise very quickly, people's savings lose value, and those on fixed incomes, such as pensioners, can suffer, because their money buys less and less. Life becomes uncertain and difficult.\n\nThis is why governments and central banks watch inflation very carefully. They use various tools to try to keep it low and steady, avoiding both fast price rises and the opposite problem of falling prices.\n\nUnderstanding inflation helps explain many things: why wages rise, why saving matters, and why the money of today will almost certainly buy less in the future than it does right now.",
-        summaryJa: "インフレーション（物価上昇）とは何かについて。年配の人が「若い頃は牛乳一本がほとんどただ同然だった」と言うのを聞いたことはないだろうか。思い込みではない。年月とともに、ほとんどの物の値段はゆっくり上がる。食事も電車の切符も家も、たいてい二十年前より今の方が高い。この時間をかけた全般的でゆっくりした値上がりをインフレという。インフレは実は、お金が価値の一部を失うことを意味する。何年もかけて物価が倍になれば、同じ硬貨で買えるのはかつての半分だけだ。財布のお金は変わらないが、買える量は縮んだ。小さく安定したインフレは普通で、たいてい問題ではない。実際、多くの政府は毎年少しのインフレを目指す。健全で成長する経済の兆しだからだ。物価と賃金はゆっくり共に上がる傾向がある。問題はインフレが速すぎるときに生じる。物価が急に上がると貯金は価値を失い、年金生活者など固定収入の人は苦しむ。だから政府や中央銀行はインフレを注意深く見守り、様々な手段で低く安定に保とうとする。賃金が上がる理由や貯蓄が大切な理由を説明してくれる。",
-        quiz: [
-          { q: "What is inflation?", options: ["A general, slow rise in prices over time", "A fall in all prices to zero", "A kind of new coin"], answer: 0 },
-          { q: "What does inflation mean for money?", options: ["Money slowly loses some of its value", "Money becomes worth more each day", "Money stops existing"], answer: 0 },
-          { q: "When does inflation become a problem?", options: ["When prices rise too fast, so savings and fixed incomes lose value", "When it is small and steady", "Inflation is never a problem"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1112-2",
-        title: "How Does a Battery Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Batteries are everywhere in modern life, powering our phones, toys, torches, and remote controls. A battery is a small, portable store of energy, ready to give electricity whenever we need it. But a battery does not actually hold electricity inside it, waiting to pour out. Instead, it holds something cleverer: the power to make electricity on demand, through a chemical reaction.\n\nInside every battery are chemicals, carefully chosen and kept apart. These chemicals have a strong tendency to react with one another. When they do react, one of the effects is to push tiny particles called electrons from one part of the battery to another. A flow of electrons is exactly what electricity is.\n\nThe clever design of a battery is that the chemicals cannot react directly inside it. The only path for the electrons to travel is out through the two ends of the battery, called terminals. When you connect a battery into a device, such as a torch, you complete a path, or circuit, between these two terminals. Now the electrons can finally flow, travelling out of the battery, through the device, and back again. On their way, they give their energy to the device, lighting the bulb.\n\nAs the battery works, its chemicals are slowly used up. Eventually, the reaction can no longer happen, and we say the battery is flat, or dead. Some batteries can be recharged, which uses electricity to reverse the chemical change, so the battery can be used again.\n\nSo a battery is really a small chemical factory, quietly turning stored chemicals into useful electric power.",
-        summaryJa: "電池の仕組みについて。電池は現代生活のあらゆる所にあり、スマホやおもちゃ、懐中電灯、リモコンを動かす。電池は小さな持ち運べるエネルギーの蓄えで、必要なときに電気を出せる。だが電池は実は、中に電気をためて噴き出すのを待っているのではない。もっと巧妙なもの、化学反応で必要に応じて電気を作る力を持つ。どの電池の中にも、慎重に選ばれ分けて保たれた化学物質がある。これらは互いに強く反応しようとする性質を持つ。反応すると、その効果の一つとして、電子という小さな粒を電池のある部分から別の部分へ押しやる。電子の流れこそが電気だ。電池の巧妙な設計は、化学物質が内部で直接反応できないことだ。電子が進める唯一の道は、端子という二つの端を通って外へ出ることだ。電池を懐中電灯などの機器につなぐと、二つの端子の間に回路という道ができる。すると電子はようやく流れ、電池から出て機器を通り戻る。途中でエネルギーを機器に与え、電球を灯す。働くうちに化学物質は使い切られ、やがて電池切れになる。充電で元に戻せる電池もある。小さな化学工場だ。",
-        quiz: [
-          { q: "What does a battery actually store?", options: ["Chemicals that can make electricity through a reaction", "Electricity waiting inside, ready to pour out", "Tiny bulbs"], answer: 0 },
-          { q: "What is electricity, in a battery?", options: ["A flow of tiny particles called electrons", "A kind of light", "A type of heat only"], answer: 0 },
-          { q: "Why does a battery eventually go flat?", options: ["Its chemicals are slowly used up, so the reaction can no longer happen", "It runs out of stored light", "The terminals disappear"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1112-3",
-        title: "How Does the World Help After a Natural Disaster?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When a powerful earthquake, flood, or storm strikes a region, the damage can be overwhelming. Homes are destroyed, roads are broken, and many people may suddenly be left without food, clean water, or shelter. In such moments, a stricken country often cannot cope alone. One of the most hopeful sights in such times is the way the rest of the world comes together to help.\n\nHelp arrives in many forms and from many directions. In the first critical days, rescue teams fly in from other countries, bringing trained workers and dogs to search for survivors trapped under fallen buildings. Speed is vital, as every hour counts.\n\nAfter the immediate rescue, the focus turns to survival and comfort. Governments, international organisations, and charities send emergency supplies: clean water, food, medicine, tents, and blankets. Medical teams set up temporary hospitals to care for the injured and prevent the spread of disease.\n\nMuch of this effort is coordinated so that help is not wasted or duplicated. Large organisations and the famous Red Cross and Red Crescent work to make sure aid reaches the people who need it most. Ordinary people around the world also give money, often in huge amounts, to support the relief work.\n\nThe road to full recovery after a great disaster can take many years. But the immediate response shows something deeply encouraging about humanity. When disaster strikes one part of the human family, people everywhere, regardless of nation or language, are often moved to reach out and help strangers they will never meet.",
-        summaryJa: "自然災害の後、世界はどう助けるのかについて。強い地震や洪水、暴風がある地域を襲うと、被害は圧倒的になりうる。家は壊れ、道は寸断され、多くの人が突然、食べ物や清潔な水、住む場所を失う。そんなとき、被災した国は一国だけでは対処しきれないことが多い。こうした時に最も希望ある光景の一つが、世界の他の地域が助けに集まる様子だ。助けは多くの形で、多くの方向から届く。最初の重要な数日、他国から救助隊が飛来し、訓練された人や犬を連れて、倒れた建物の下に閉じ込められた生存者を捜す。一刻を争うので速さが重要だ。当面の救助の後、焦点は生存と安らぎに移る。政府や国際機関、慈善団体が、清潔な水、食料、薬、テント、毛布などの緊急物資を送る。医療チームが仮設の病院を設け、負傷者を手当てし病気の広がりを防ぐ。多くは助けが無駄や重複にならないよう調整される。大きな組織や有名な赤十字・赤新月が、最も必要とする人に援助が届くよう努める。世界中の普通の人々も多額の寄付をする。完全な復興には何年もかかりうるが、即時の対応は人間性の励みになる何かを示す。",
-        quiz: [
-          { q: "What arrives in the first critical days after a disaster?", options: ["Rescue teams to search for trapped survivors", "Only tourists", "New factories"], answer: 0 },
-          { q: "What kind of emergency supplies are sent?", options: ["Clean water, food, medicine, tents, and blankets", "Toys and games only", "Nothing useful"], answer: 0 },
-          { q: "Why is the relief effort coordinated?", options: ["So that help is not wasted or duplicated and reaches those who need it most", "To make it slower", "To help only one city"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1112-4",
-        title: "Shodo: The Art of Japanese Calligraphy",
-        level: "★★☆",
-        genre: "日本",
-        text: "In a quiet room, a person sits straight and still before a clean sheet of white paper. They dip a soft brush into black ink, pause for a moment to calm their mind, and then, in a few smooth, confident strokes, create a beautiful character. This is shodo, the ancient art of Japanese calligraphy, in which writing itself becomes a form of art.\n\nShodo uses a few simple tools: a brush, a stick of ink, a stone to prepare the ink with water, and paper. Yet mastering them takes many years. Unlike typing or everyday writing, the goal of shodo is not only to be clear, but to be beautiful and full of feeling.\n\nEvery stroke matters enormously. The artist must control the amount of ink, the pressure of the brush, and the speed of the hand. A single character may be written in one flowing movement that cannot be corrected or touched up afterwards. Because of this, the writing captures the artist's state of mind at that exact moment. A calm, focused heart produces calm, balanced writing.\n\nFor this reason, shodo is seen as much more than beautiful writing. Like many Japanese arts, it is also a path to developing patience, concentration, and inner calm. Children learn it at school, and many adults practise it throughout their lives.\n\nA finished work of shodo, hanging on a wall, is admired not just for its meaning, but for its energy and grace, a frozen record of a single, perfect, unrepeatable moment of focus.",
-        summaryJa: "書道、日本の書の芸術について。静かな部屋で、人が白い清らかな紙の前に背筋を伸ばして静かに座る。柔らかい筆を黒い墨に浸し、少し間を置いて心を鎮め、そして滑らかで確かな数筆で美しい文字を生み出す。これが書道、書くこと自体が芸術になる日本の古い技だ。書道が使う道具は少ない。筆、墨、水で墨をする硯、そして紙だ。だが使いこなすには長い年月がかかる。入力や日常の筆記と違い、書道の目的は明瞭であることだけでなく、美しく感情に満ちていることだ。一筆一筆が非常に重要だ。書き手は墨の量、筆の圧、手の速さを操らねばならない。一文字が、後から直せない一つの流れる動きで書かれることもある。だから書は、まさにその瞬間の書き手の心を捉える。穏やかで集中した心は穏やかで均整のとれた書を生む。このため書道は美しい文字以上のものと見なされる。多くの日本の芸術同様、忍耐や集中、内なる静けさを育む道でもある。子どもは学校で学び、多くの大人が生涯を通じて続ける。壁に掛けられた作品は、意味だけでなく力と優美さでも称えられる。",
-        quiz: [
-          { q: "What is shodo?", options: ["The Japanese art of calligraphy, where writing becomes art", "A kind of painting with colors", "A type of dance"], answer: 0 },
-          { q: "Why does every stroke matter so much?", options: ["A character is often written in one movement that cannot be corrected", "The paper is very expensive", "The brush is very heavy"], answer: 0 },
-          { q: "Besides beautiful writing, what is shodo seen as?", options: ["A path to developing patience, concentration, and inner calm", "A way to write as fast as possible", "A kind of sport"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1112-5",
-        title: "Why Do Cats Purr?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Anyone who has stroked a happy, sleepy cat knows the gentle, rumbling sound it makes: a soft, steady purr. It is one of the most comforting sounds in the animal world, and we usually take it as a clear sign that a cat is content. But how do cats make this sound, and does it always mean they are happy? The answer is more surprising than you might think.\n\nFirst, how is a purr made? Scientists believe it comes from the muscles in the cat's voice box, or larynx. These muscles open and close the space very quickly, many times a second. As the cat breathes in and out, the air passing through this rapidly moving space creates the familiar purring sound. Remarkably, a cat can purr continuously, both as it breathes in and as it breathes out.\n\nThe bigger surprise is why cats purr. Most of the time, a purr does mean a cat is relaxed and happy. But cats have also been observed purring when they are frightened, injured, or even close to death. This suggests that purring is not only a sign of joy.\n\nOne fascinating idea is that purring may help a cat to heal. The gentle vibrations of a purr happen at a frequency that some scientists think may help to strengthen bones and repair tissues. If this is true, a cat may purr to comfort and heal itself in times of stress, as well as to express contentment.\n\nSo the humble purr may be far more than a simple sound of happiness. It remains one of the gentle mysteries of our feline friends.",
-        summaryJa: "猫はなぜ喉を鳴らすのかについて。幸せそうに眠い猫をなでたことのある人なら、その優しく響く音、柔らかく一定したゴロゴロを知っている。動物界で最も心地よい音の一つで、普通は猫が満足している明らかな印と受け取る。だが猫はどうやってこの音を出し、いつも幸せを意味するのか。答えは思うより意外だ。まず、どうやって鳴らすのか。科学者は、猫の喉頭（声を出す器官）の筋肉から来ると考える。この筋肉が毎秒何度も素早く空間を開閉する。猫が息を吸い吐きする際、この素早く動く空間を通る空気があのゴロゴロ音を作る。驚くべきことに、猫は吸う時も吐く時も続けて鳴らせる。もっと大きな驚きはなぜ鳴らすかだ。たいていは確かにくつろぎ幸せを意味する。だが猫は、怖がったり傷ついたり、死に近いときでさえ喉を鳴らすのが観察されている。喜びの印だけではないのだ。興味深い一説は、ゴロゴロが猫の治癒を助けるかもしれないというものだ。その穏やかな振動はある周波数で起こり、骨を強め組織を修復するのを助けうると考える科学者もいる。本当なら、猫はストレス時に自らを慰め癒やすために鳴らすのかもしれない。",
-        quiz: [
-          { q: "How do scientists believe a purr is made?", options: ["By muscles in the voice box opening and closing very quickly", "By the cat's stomach", "By the cat's tail moving"], answer: 0 },
-          { q: "What is surprising about when cats purr?", options: ["They also purr when frightened, injured, or near death, not only when happy", "They only purr once a year", "They purr only while eating"], answer: 0 },
-          { q: "What is one fascinating idea about purring?", options: ["Its vibrations may help strengthen bones and repair tissues", "It makes the cat grow bigger", "It cleans the cat's fur"], answer: 0 }
         ]
       }
     ]
