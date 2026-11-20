@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-20",
+    passages: [
+      {
+        id: "d1120-1",
+        title: "What Is Supply and Demand?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Why does a bottle of water cost so little, while a diamond costs a fortune? Why do strawberries become cheaper in summer, and umbrellas sell out on a rainy day? Behind nearly every price in the world lies one of the most important ideas in all of economics: supply and demand.\n\nLet us start with demand. Demand simply means how much of something people want to buy. When many people want a product, we say demand is high. When few people want it, demand is low.\n\nSupply means how much of that product is available for sale. When there is a lot of it, supply is high. When it is rare or hard to make, supply is low.\n\nThe magic happens when these two forces meet, because together they shape the price. When demand is high but supply is low, the price tends to rise. Many buyers are competing for few goods, so sellers can charge more. This is why a rare painting or a ticket to a popular concert can be so expensive. On the other hand, when supply is high but demand is low, the price tends to fall. Sellers must lower prices to attract the few buyers who want their goods.\n\nPrices are always moving as these forces shift. A good harvest increases the supply of fruit, pushing prices down. A sudden craze increases demand for a toy, pushing prices up.\n\nSo supply and demand is a quiet, powerful dance happening behind every price tag. Understanding it helps explain why things cost what they do, all around us, every single day.",
+        summaryJa: "需要と供給とは何かについて。なぜ水のボトルはこれほど安く、ダイヤモンドは大金がかかるのか。なぜイチゴは夏に安くなり、傘は雨の日に売り切れるのか。世界のほぼすべての価格の背後に、経済学で最も重要な考えの一つ、需要と供給がある。需要から始めよう。需要とは単に、人々がどれだけ買いたいかだ。多くの人が欲しければ需要が高いといい、少なければ低いという。供給とは、その製品がどれだけ売りに出ているかだ。たくさんあれば供給が高く、珍しく作りにくければ低い。魔法はこの二つの力が出会うときに起こる。共に価格を形づくるからだ。需要が高く供給が低いと、価格は上がる傾向がある。多くの買い手が少ない品を奪い合うので、売り手は高く付けられる。珍しい絵や人気コンサートの切符が高いのはこのためだ。逆に供給が高く需要が低いと、価格は下がる傾向がある。売り手は、欲しがる少数の買い手を引きつけるため値を下げねばならない。これらの力が動くと価格は常に動く。豊作は果物の供給を増やし値を下げ、突然の流行は玩具の需要を増やし値を上げる。すべての値札の裏の静かで力強い踊りだ。",
+        quiz: [
+          { q: "What does 'demand' mean?", options: ["How much of something people want to buy", "How heavy a product is", "The color of a product"], answer: 0 },
+          { q: "What tends to happen when demand is high but supply is low?", options: ["The price tends to rise", "The price tends to fall to zero", "Nothing changes"], answer: 0 },
+          { q: "Why can a rare painting be so expensive?", options: ["Many buyers compete for few goods, so sellers can charge more", "Paintings are always cheap", "No one wants it"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1120-2",
+        title: "How Does the Internet Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Every day, we use the internet to send messages, watch videos, and visit websites from all over the world. It feels like magic, as if all this information lives inside our own phone or computer. But in reality, the internet is something far more amazing: a vast network connecting millions of computers across the entire planet.\n\nAt its heart, the internet is simply a way for computers to talk to each other. The word itself means a network of networks. All around the world, computers are linked together by cables, including huge cables that run along the bottom of the oceans, and by wireless signals. This web of connections lets a computer in one country send information to a computer in another, in less than a second.\n\nBut how does the information travel? When you send something, such as a photo, it is not sent all in one piece. Instead, it is broken up into many tiny pieces called packets. Each packet travels separately across the network, perhaps even taking different routes, like cars finding their own way through a city. When all the packets arrive at the other end, the receiving computer puts them back together in the right order, and the photo appears, whole again.\n\nTo make sure packets reach the right place, every device on the internet has its own address, a unique number, so information can be sent exactly where it needs to go.\n\nSo the internet is not a single thing, but a giant, worldwide conversation between machines, constantly breaking information into pieces, sending it across the globe, and joining it back together, all in the blink of an eye.",
+        summaryJa: "インターネットの仕組みについて。私たちは毎日、インターネットでメッセージを送り、動画を見て、世界中のウェブサイトを訪れる。まるで魔法のようで、この情報すべてが自分のスマホやパソコンの中にあるかのようだ。だが実際、インターネットはもっと驚くべきもの、惑星全体で何百万ものコンピューターをつなぐ広大なネットワークだ。核心的に、インターネットは単にコンピューター同士が話す手段だ。言葉自体が「ネットワークのネットワーク」を意味する。世界中で、コンピューターはケーブル（海底を走る巨大なケーブルを含む）や無線信号で結ばれている。このつながりの網が、一国のコンピューターから別の国のコンピューターへ、一秒足らずで情報を送らせる。だが情報はどう進むのか。何か、例えば写真を送るとき、一つの塊では送られない。パケットという多くの小さな断片に分けられる。各パケットは別々にネットワークを進み、異なる経路さえ通る。街で各自の道を見つける車のようだ。すべてのパケットが相手側に着くと、受け取るコンピューターが正しい順に組み直し、写真が丸ごと現れる。正しい場所へ届くよう、ネット上の各機器は固有の番号という自分の住所を持つ。機械同士の世界規模の会話だ。",
+        quiz: [
+          { q: "What is the internet, at its heart?", options: ["A vast network connecting millions of computers worldwide", "A single computer in one place", "A kind of television"], answer: 0 },
+          { q: "How does information travel across the internet?", options: ["It is broken into tiny pieces called packets that travel separately", "It is sent all in one large piece", "It travels by post"], answer: 0 },
+          { q: "How do packets reach the right place?", options: ["Every device has its own unique address, a number", "They are guided by hand", "They choose randomly and hope"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1120-3",
+        title: "How Do Scientists Around the World Work Together?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Some of the biggest questions in science are far too large for any single person, or even any single country, to answer alone. How did the universe begin? How can we cure a terrible disease? To tackle such enormous challenges, scientists from many different nations join forces, in one of the most hopeful forms of international cooperation.\n\nThis teamwork takes many shapes. Sometimes, countries pool their money and brains to build a single giant machine that no one nation could afford. Enormous telescopes that study distant stars, or huge laboratories that explore the tiny particles inside atoms, are often built and shared by many countries together. Scientists from all over the world travel to use them and share what they discover.\n\nCooperation is also vital in a crisis. When a dangerous new disease appears, scientists across the globe quickly share information about it. By working together and sharing their findings openly, researchers in different countries can develop tests, treatments, and vaccines far faster than any one nation could alone.\n\nMuch of this sharing happens through published research. When scientists make a discovery, they write it up and share it with the world, so that others can check it, learn from it, and build upon it. In this way, human knowledge grows like a great building, with each country adding its own bricks.\n\nScience, at its best, does not really belong to any one nation. A discovery made in one country can help people everywhere. By working together across borders, scientists remind us that curiosity and the search for truth are shared by all of humanity.",
+        summaryJa: "世界中の科学者はどう協力するのかについて。科学の最大級の問いのいくつかは、どの一人、いや一国でも単独では答えるには大きすぎる。宇宙はどう始まったのか。恐ろしい病をどう治せるのか。こうした巨大な課題に挑むため、多くの国の科学者が力を合わせる。国際協力の最も希望ある形の一つだ。この協働は多くの形をとる。どの一国も負担できない一つの巨大な機械を作るため、国々が資金と頭脳を出し合うこともある。遠い星を調べる巨大望遠鏡や、原子内の小さな粒子を探る大きな実験施設は、しばしば多くの国が共同で建設し共有する。世界中の科学者がそれを使いに来て、発見を分かち合う。危機でも協力は不可欠だ。危険な新しい病が現れると、世界中の科学者が素早くその情報を共有する。協力して発見を率直に分かち合うことで、各国の研究者はどの一国よりはるかに速く検査・治療・ワクチンを開発できる。この共有の多くは発表された研究を通じて起こる。科学者は発見を書き世界と分かち合い、他者が確かめ学び積み重ねる。人類の知識は大きな建物のように育つ。科学は本当はどの一国のものでもない。好奇心と真実の探求は全人類が分かち合う。",
+        quiz: [
+          { q: "Why do scientists from many nations join forces?", options: ["Some questions are too large for any single person or country alone", "Because they are forced to by law", "Because science is easy"], answer: 0 },
+          { q: "How does cooperation help in a disease crisis?", options: ["Sharing findings openly lets researchers develop tests and vaccines far faster", "It slows everything down", "It keeps all information secret"], answer: 0 },
+          { q: "How does human knowledge grow, according to the passage?", options: ["Like a great building, with each country adding its own bricks", "By one country keeping all discoveries", "It never grows"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1120-4",
+        title: "Green Tea in Japanese Life",
+        level: "★★☆",
+        genre: "日本",
+        text: "In Japan, there is one drink so common and so loved that it is woven into the very fabric of daily life: green tea. From a simple cup served with a meal to a formal ceremony lasting hours, green tea appears everywhere, enjoyed by people of all ages, all across the country.\n\nGreen tea and black tea actually come from the very same plant. The difference lies in how the leaves are treated after picking. For green tea, the leaves are heated quickly, often with steam, which keeps them green and gives the tea its fresh, slightly grassy taste. For black tea, the leaves are allowed to change colour first.\n\nThere are many kinds of Japanese green tea. The most common everyday tea is sencha, a refreshing drink served in homes and restaurants. A special, powdered green tea called matcha is brighter and stronger, and it is the tea used in the famous Japanese tea ceremony. Matcha is also now popular around the world in sweets and drinks.\n\nGreen tea is more than just a tasty drink. Many people believe it is very good for health, and it has been enjoyed for its calming yet refreshing effect for centuries. Offering a cup of tea to a guest is also a simple, warm act of welcome and respect.\n\nSo green tea is a quiet but constant companion in Japanese life. It is there in a quiet moment alone, in a friendly chat, and in the most solemn of ceremonies, a small green cup holding a long and gentle tradition.",
+        summaryJa: "日本の生活における緑茶（日本茶）について。日本には、あまりに身近で愛され、日常生活の織物そのものに織り込まれた飲み物がある。緑茶だ。食事に添える一杯から、何時間も続く正式な儀式まで、緑茶は至る所に現れ、全国のあらゆる年齢の人に楽しまれる。緑茶と紅茶は実はまったく同じ植物から来る。違いは摘んだ後の葉の扱い方にある。緑茶では葉を素早く、しばしば蒸気で加熱し、緑を保ち、新鮮でやや草のような味を与える。紅茶では先に葉の色を変えさせる。日本の緑茶には多くの種類がある。最も一般的な日常の茶は煎茶で、家庭や飲食店で供されるさわやかな飲み物だ。抹茶という特別な粉末の緑茶はより鮮やかで濃く、有名な茶道で使われる。抹茶は今や世界中で菓子や飲み物に人気だ。緑茶はおいしい飲み物以上のものだ。健康に非常に良いと多くの人が信じ、落ち着かせつつさわやかな効果で何世紀も楽しまれてきた。客に一杯の茶を出すのは、歓迎と敬意の簡素で温かい行為でもある。日本の生活の静かで絶えぬ伴侶だ。",
+        quiz: [
+          { q: "What is the difference between green tea and black tea?", options: ["How the leaves are treated after picking, though they come from the same plant", "They come from totally different plants", "One is a drink and one is a food"], answer: 0 },
+          { q: "What is 'matcha'?", options: ["A special powdered green tea used in the tea ceremony", "A kind of black tea", "A type of coffee"], answer: 0 },
+          { q: "What does offering a cup of tea to a guest show?", options: ["A warm act of welcome and respect", "A wish for them to leave", "A kind of payment"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1120-5",
+        title: "How Do Archaeologists Learn About the Past?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "How do we know how people lived thousands of years ago, long before anyone wrote anything down? Much of what we know comes from the patient work of archaeologists, the scientists who study human history by digging up and examining the things that people left behind.\n\nOver thousands of years, old towns, villages, and objects slowly become buried under layers of soil and dust. Archaeologists carefully dig down through these layers to uncover them. But they do not simply dig for treasure. They work slowly and gently, often with small tools and brushes, because exactly where each object is found is just as important as the object itself.\n\nThis is because of a clever idea: deeper usually means older. As the years pass, new layers of earth form on top of old ones. So, in general, objects found in a deeper layer are older than objects found above them. By studying these layers, archaeologists can work out the order in which things happened.\n\nThe objects they find, called artifacts, are like clues in a mystery. A broken pot, an old coin, the remains of a meal, or the foundations of a house can all tell a story. From these pieces, archaeologists work like detectives, slowly building a picture of how people once lived: what they ate, what they believed, and how they worked.\n\nModern science helps too. Special tests can reveal the age of an object or what it was made of.\n\nSo archaeologists are the storytellers of the deep past, reading the silent clues in the earth to bring long-lost lives back to light.",
+        summaryJa: "考古学者はどうやって過去を知るのかについて。誰も何も書き記す前の何千年も昔、人々がどう暮らしたか、私たちはどうして分かるのか。知っていることの多くは考古学者の忍耐強い仕事から来る。人々が残した物を掘り出し調べて人類史を研究する科学者だ。何千年もの間、古い町や村、物は土やちりの層の下にゆっくり埋もれる。考古学者はこれらの層を注意深く掘り下げて現す。だが単に宝を掘るのではない。各物がどこで見つかるかが物そのものと同じくらい重要なので、小さな道具や刷毛でゆっくり丁寧に作業する。これは巧妙な考えによる。深いほどたいてい古い、のだ。年月が経つと古い層の上に新しい土の層ができる。だから一般に、深い層で見つかる物は上の層の物より古い。これらの層を調べ、物事が起きた順序を割り出せる。見つける物は遺物と呼ばれ、謎の手がかりのようだ。割れた壺、古い硬貨、食事の残り、家の基礎、すべてが物語を語りうる。これらの断片から探偵のように、人々がかつてどう暮らし、何を食べ、何を信じ、どう働いたかの像をゆっくり築く。現代科学も助ける。特別な検査で物の年代や材質が分かる。過去の語り部だ。",
+        quiz: [
+          { q: "What do archaeologists study?", options: ["Human history, by digging up and examining things people left behind", "Only living animals", "The weather of the future"], answer: 0 },
+          { q: "Why is where an object is found so important?", options: ["Deeper layers are usually older, showing the order things happened", "Deeper objects are always treasure", "The location does not matter"], answer: 0 },
+          { q: "What are 'artifacts'?", options: ["Objects people left behind, which are like clues to a story", "A kind of modern computer", "Living plants"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-19",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Do the stars themselves actually flicker?", options: ["No, their light is steady; the twinkling happens in our atmosphere", "Yes, stars turn on and off", "Yes, they change size"], answer: 0 },
           { q: "What causes the twinkling?", options: ["Starlight is bent as it passes through moving layers of air", "The stars are blinking", "Clouds cover the stars"], answer: 0 },
           { q: "Why do planets usually twinkle less than stars?", options: ["They are closer and appear as a tiny disc, which the air cannot disturb so easily", "They are much hotter", "They have no light"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-13",
-    passages: [
-      {
-        id: "d1113-1",
-        title: "What Is an Entrepreneur?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Think of a product or service you use and love. Someone, somewhere, had the idea for it first. At some point, that person decided not just to dream about their idea, but to take a risk and build a real business around it. A person who does this, who starts a new business and accepts the risks involved, is called an entrepreneur.\n\nBeing an entrepreneur is about more than just having a good idea. Many people have good ideas. What makes an entrepreneur different is the willingness to act, and to take a chance. Starting a business is risky. It often requires money, long hours, and hard work, with no promise of success. An entrepreneur steps forward anyway, believing their idea is worth the effort.\n\nEntrepreneurs come in many forms. Some start huge technology companies that change the world. But most are much smaller: a person who opens a local bakery, a family that starts a cleaning service, or someone who sells handmade goods online. All of them share the same basic spirit of creating something new.\n\nThe work is not easy. Many new businesses fail, and an entrepreneur must be ready to face problems, learn from mistakes, and keep going when things are difficult. It takes courage, patience, and determination.\n\nYet entrepreneurs are vital to any economy. They create new products, new services, and new jobs. By being brave enough to turn their ideas into reality, they drive progress and bring useful new things into the world, benefiting not only themselves, but everyone around them.",
-        summaryJa: "起業家とは何かについて。あなたが使って気に入っている製品やサービスを思い浮かべよう。どこかの誰かが最初にその着想を得た。ある時その人は、着想を夢見るだけでなく、危険を冒してそれを中心に本物の事業を築こうと決めた。これを行う人、新しい事業を始め、伴う危険を引き受ける人を起業家という。起業家であることは、良い着想を持つこと以上だ。良い着想を持つ人は多い。起業家を分けるのは、行動し賭けに出る意欲だ。事業を始めるのは危険で、しばしば金や長時間、重労働を要し、成功の保証はない。それでも起業家は、自分の着想が努力に値すると信じて踏み出す。起業家は様々だ。世界を変える巨大な技術企業を始める人もいる。だが多くはずっと小さい。地元のパン屋を開く人、清掃業を始める家族、手作りの品をネットで売る人など。皆、新しい何かを創る同じ精神を分かち合う。容易ではない。多くの新事業は失敗し、問題に向き合い失敗から学び、困難でも続ける覚悟が要る。勇気・忍耐・決意が要る。だが起業家はどの経済にも不可欠で、新しい製品・サービス・雇用を生む。",
-        quiz: [
-          { q: "What is an entrepreneur?", options: ["A person who starts a new business and accepts the risks involved", "A person who only dreams, never acts", "A government official"], answer: 0 },
-          { q: "What makes an entrepreneur different from others with good ideas?", options: ["The willingness to act and take a chance", "Having no ideas at all", "Avoiding all work"], answer: 0 },
-          { q: "Why are entrepreneurs vital to an economy?", options: ["They create new products, services, and jobs", "They stop all new businesses", "They never take risks"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1113-2",
-        title: "How Does a Refrigerator Keep Food Cold?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "A refrigerator is one of the most useful machines in any home. It keeps our food fresh and safe by holding it at a low temperature, day and night, for years. But a refrigerator does not actually make cold. In fact, cold is not a thing that can be made. Instead, the clever trick of a refrigerator is to take the heat out of the food and the air inside, and move it somewhere else.\n\nTo understand this, think about a simple fact: a liquid turning into a gas takes in heat from its surroundings. This is why you feel cool when water evaporates from your wet skin. A refrigerator uses this same idea, over and over.\n\nInside a refrigerator is a special liquid that flows around through pipes. In the pipes inside the cold section, this liquid is allowed to turn into a gas. As it does, it soaks up heat from the food and air around it, making the inside cold. The gas, now carrying this heat, flows to pipes at the back of the fridge, outside the cold box. There, it is squeezed back into a liquid, and as this happens, it releases the heat it collected into the kitchen air.\n\nThis is why the back of a refrigerator often feels warm. The machine is quietly dumping the heat it removed from your food.\n\nSo a refrigerator is really a heat-moving machine. It does not create cold; it simply carries unwanted heat out of the food and releases it into the room, keeping your food cool and fresh.",
-        summaryJa: "冷蔵庫はどうやって食べ物を冷たく保つのかについて。冷蔵庫はどの家でも最も役立つ機械の一つだ。昼も夜も、何年も食べ物を低い温度に保ち、新鮮で安全に保つ。だが冷蔵庫は実は「冷たさ」を作っていない。そもそも冷たさは作れるものではない。冷蔵庫の巧妙な技は、食べ物や中の空気から熱を取り出し、別の場所へ移すことだ。これを理解するには、単純な事実を考えよう。液体が気体に変わるとき、周りから熱を奪う。濡れた肌から水が蒸発すると涼しく感じるのはこのためだ。冷蔵庫は同じ考えを何度も使う。冷蔵庫の中には、管を巡る特別な液体がある。冷える区画の中の管では、この液体が気体に変わるのを許される。すると周りの食べ物や空気から熱を吸い取り、内部を冷たくする。熱を運ぶその気体は、冷たい箱の外、冷蔵庫の背面の管へ流れる。そこで押し縮められて液体に戻り、その際に集めた熱を台所の空気へ放つ。冷蔵庫の背面がよく温かいのはこのためだ。要は熱を移す機械で、冷たさを作るのでなく、不要な熱を食べ物から運び出し部屋へ放つのだ。",
-        quiz: [
-          { q: "What does a refrigerator actually do?", options: ["It moves heat out of the food and air, rather than making cold", "It creates cold from nothing", "It freezes the kitchen"], answer: 0 },
-          { q: "What simple fact does a refrigerator use?", options: ["A liquid turning into a gas takes in heat from its surroundings", "Gas is always colder than liquid", "Heat moves from cold to hot by itself"], answer: 0 },
-          { q: "Why does the back of a refrigerator often feel warm?", options: ["It is releasing the heat removed from the food into the kitchen air", "It has a small fire inside", "The food is being cooked there"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1113-3",
-        title: "How Do Countries Protect the Oceans?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "The oceans cover most of our planet, and they are vital to all life on Earth. They provide food for billions of people, produce much of the oxygen we breathe, and help control the world's climate. Yet the oceans face serious problems, from pollution to the danger of taking too many fish. Because the sea belongs to no single country, protecting it is a task that nations can only do by working together.\n\nOne of the biggest challenges is overfishing. If too many fish are caught, their numbers fall, and the fish may not be able to recover. To prevent this, countries make agreements that set limits on how many fish may be caught, and when. This helps fish populations stay healthy for the future.\n\nPollution is another shared problem. Waste, especially plastic, flows from the land into the sea, where it harms sea creatures and spreads across the whole ocean. Nations are working together to reduce this waste and to clean up the seas.\n\nCountries also create marine protected areas, special zones of ocean where fishing and other harmful activities are limited or banned. In these safe areas, sea life can recover and thrive, rather like national parks in the sea.\n\nNone of this is easy, because the ocean is vast and hard to watch over. Rules made by one country mean little if its neighbours ignore them. But slowly, through patient cooperation and shared agreements, the nations of the world are learning to care for the great oceans that connect and sustain us all.",
-        summaryJa: "国々はどうやって海を守るのかについて。海は地球の大部分を覆い、地球上のすべての生命に欠かせない。何十億もの人に食料を与え、私たちが吸う酸素の多くを作り、世界の気候の調整を助ける。だが海は、汚染から魚の取りすぎの危険まで、深刻な問題に直面する。海はどの一国のものでもないため、守るのは国々が協力してのみできる課題だ。最大の難題の一つは魚の取りすぎ（乱獲）だ。あまりに多く捕れば数が減り、回復できなくなりうる。これを防ぐため、各国はいつ・どれだけ捕ってよいか制限を定める協定を結ぶ。将来に向け魚の数を健全に保つのを助ける。汚染も共通の問題だ。ごみ、特にプラスチックが陸から海へ流れ込み、海の生き物を害し海全体に広がる。各国はこのごみを減らし海を清掃しようと協力している。海洋保護区も設ける。漁などの有害な活動を制限・禁止する特別な区域で、海の国立公園のようだ。海は広大で見守りにくく容易ではないが、忍耐強い協力と協定で、国々は私たちをつなぎ支える大海を守ることを学びつつある。",
-        quiz: [
-          { q: "Why must countries work together to protect the oceans?", options: ["The sea belongs to no single country", "Each country owns its own ocean", "The ocean is very small"], answer: 0 },
-          { q: "How do countries try to prevent overfishing?", options: ["They make agreements limiting how many fish may be caught", "They catch as many fish as possible", "They ban all boats forever"], answer: 0 },
-          { q: "What is a 'marine protected area'?", options: ["A zone of ocean where fishing and harmful activities are limited or banned", "A new type of fishing boat", "A factory in the sea"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1113-4",
-        title: "Origami: The Art of Paper Folding",
-        level: "★★☆",
-        genre: "日本",
-        text: "Take a simple, flat square of paper. With no scissors and no glue, using only careful folds, you can transform it into a crane, a flower, a box, or a jumping frog. This is origami, the Japanese art of paper folding, a craft that turns a humble sheet of paper into something beautiful through patience and skill alone.\n\nThe name itself describes it perfectly, combining the Japanese words for folding and paper. The rules are simple: you start with a square and you only fold. Yet from these simple beginnings, people have created an astonishing variety of shapes, from easy models for children to incredibly complex designs that take hours to complete.\n\nThe most famous origami model of all is the paper crane. In Japan, the crane is a symbol of good luck and long life. There is a well-known belief that a person who folds one thousand paper cranes may be granted a wish. Because of this, strings of colourful cranes are often folded as a heartfelt wish for peace, health, or recovery from illness.\n\nOrigami is enjoyed by people of all ages. For children, it is a fun game that also teaches patience and careful hands. For adults, it can be a relaxing hobby or even a serious art form.\n\nBeyond its beauty, origami has surprised the world in another way. Scientists and engineers now study its clever folds to help design things that must fold up small and then open out, such as solar panels for spacecraft. A simple paper art has become a source of modern inspiration.",
-        summaryJa: "折り紙、紙を折る芸術について。単純で平らな正方形の紙を取る。はさみも糊も使わず、丁寧に折るだけで、鶴や花、箱、跳ねるカエルに変えられる。これが折り紙、日本の紙を折る芸術で、ただの一枚の紙を忍耐と技だけで美しいものに変える工芸だ。名前自体がそれを完璧に表し、「折る」と「紙」の日本語を合わせている。規則は単純で、正方形から始め、折るだけだ。だがこの単純な始まりから、人々は驚くほど多様な形を生んだ。子ども向けの易しい作品から、完成に何時間もかかる非常に複雑な設計まで。最も有名な折り紙は折り鶴だ。日本で鶴は幸運と長寿の象徴だ。千羽の鶴を折ると願いがかなうかもしれないという有名な言い伝えがある。だから色とりどりの鶴の連なりが、平和や健康、病気からの回復を願う心として折られることが多い。折り紙はあらゆる年齢の人に楽しまれる。子どもには忍耐と器用な手を育てる楽しい遊び、大人にはくつろぎの趣味や本格的な芸術にもなる。美しさを超え、科学者や技術者はその巧妙な折りを研究し、宇宙船の太陽光パネルなど小さく畳んで開く物の設計に役立てている。",
-        quiz: [
-          { q: "What are the basic rules of origami?", options: ["Start with a square and only fold, with no scissors or glue", "Cut and glue many pieces", "Use only round paper"], answer: 0 },
-          { q: "What does the paper crane symbolize in Japan?", options: ["Good luck and long life", "Bad weather", "A kind of money"], answer: 0 },
-          { q: "How has origami inspired scientists and engineers?", options: ["Its folds help design things that fold up small and open out, like spacecraft solar panels", "It replaced all computers", "It is used to build roads"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1113-5",
-        title: "How Do Rainbows Form?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "After a rain shower, when the sun comes out again, we are sometimes rewarded with one of nature's most beautiful sights: a rainbow, a great arch of colour stretching across the sky. For thousands of years, people wondered what rainbows were. Today, we understand that a rainbow is made by sunlight, rain, and a clever trick of light.\n\nThe first secret is that sunlight, which looks white or colourless, is actually a mixture of many colours all travelling together. We usually cannot see them separately, but under the right conditions, they can be split apart.\n\nThis is exactly what happens in a rainbow, and the splitting is done by raindrops. When sunlight enters a tiny, round drop of rain, the light bends as it passes into the water. Because each colour in the light bends by a slightly different amount, the colours begin to spread out and separate. The light then bounces off the back of the raindrop and comes back out, now split into its separate colours.\n\nMillions of raindrops do this at the same time, each sending a particular colour towards your eyes. Together, they form the familiar arch of red, orange, yellow, green, blue, and violet that we call a rainbow.\n\nThis is also why you can only see a rainbow when the sun is behind you and the rain is in front of you. You are standing in just the right place to catch the split light.\n\nSo a rainbow is not really an object in the sky. It is a beautiful pattern of sunlight, painted for a moment by falling rain.",
-        summaryJa: "虹はどうやってできるのかについて。雨上がり、再び日が差すと、時に自然の最も美しい光景の一つ、虹が空に大きな色の弧を描いて現れる。何千年もの間、人々は虹とは何かと不思議がった。今日、虹は日光と雨、そして光の巧妙な技で作られると分かっている。第一の秘密は、白く無色に見える日光が、実は多くの色が共に進む混ざり合いだということだ。普段は別々に見えないが、条件が整うと分けられる。まさにこれが虹で起こり、分けるのは雨粒だ。日光が小さな丸い雨粒に入ると、水に入る際に光が曲がる。光の各色はわずかに異なる量だけ曲がるので、色が広がり分かれ始める。光は雨粒の裏で跳ね返り、今や別々の色に分かれて出てくる。何百万もの雨粒が同時にこれを行い、それぞれが特定の色をあなたの目へ送る。合わさって、赤・橙・黄・緑・青・紫のおなじみの弧、虹になる。だから虹は、太陽が背後、雨が前方にあるときだけ見える。分かれた光を捉えるちょうどよい場所に立っているのだ。虹は空の物体ではなく、落ちる雨が一瞬描く日光の美しい模様だ。",
-        quiz: [
-          { q: "What is sunlight really made of?", options: ["A mixture of many colors travelling together", "Only the color white", "A kind of water"], answer: 0 },
-          { q: "What splits the sunlight into colors in a rainbow?", options: ["Raindrops, which bend each color by a slightly different amount", "The clouds blocking the sun", "The wind"], answer: 0 },
-          { q: "Why can you only see a rainbow in certain positions?", options: ["The sun must be behind you and the rain in front of you", "You must be very high up", "It only works at midnight"], answer: 0 }
         ]
       }
     ]
