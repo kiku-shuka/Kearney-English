@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-21",
+    passages: [
+      {
+        id: "d1121-1",
+        title: "What Makes a Good Negotiation?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Whenever two people or groups want different things but need to reach an agreement, they must negotiate. A negotiation is simply a discussion aimed at reaching a deal that both sides can accept. It happens constantly in business, when agreeing on a price, a salary, or the terms of a contract. But it also happens in daily life, when deciding where to go on holiday with family or friends.\n\nMany people imagine that negotiation is a kind of battle, where one side wins and the other loses. But experts know that the best negotiations are not like this at all. The goal of a good negotiation is usually to find a solution where both sides feel they have gained something. This is sometimes called a win-win result.\n\nHow is this achieved? One key skill is listening. By truly understanding what the other side wants and why, you can often find a solution that works for everyone. Sometimes the other person's most important need is different from what you first assumed.\n\nAnother key is to be clear about your own goals, while staying respectful and calm. Good negotiators are firm about what they need, but they do not attack or insult the other person.\n\nPatience and creativity also help. Rushing often leads to a poor deal, while thinking of new options can unlock an agreement that first seemed impossible.\n\nSo good negotiation is not about defeating the other side. It is a skill of communication and problem-solving, a search for common ground. When it is done well, both sides walk away satisfied, and ready to work together again in the future.",
+        summaryJa: "良い交渉とは何かについて。二人、または二つの集団が異なるものを望みつつ合意に達する必要があるとき、交渉せねばならない。交渉とは単に、双方が受け入れられる取り決めに達することを目指す話し合いだ。価格・給料・契約条件で合意するとき、商売で絶えず起こる。だが家族や友人と休暇の行き先を決めるときなど、日常生活でも起こる。多くの人は交渉を一方が勝ち他方が負ける戦いのように想像する。だが専門家は、最良の交渉はまったくそうでないと知っている。良い交渉の目的はたいてい、双方が何かを得たと感じる解決策を見つけることだ。時に「ウィンウィン」の結果と呼ばれる。どう達成するのか。鍵となる技能の一つは聞くことだ。相手が何を、なぜ望むかを真に理解すれば、皆にとって機能する解決策をしばしば見つけられる。相手の最も重要な必要が、最初の想定と違うこともある。もう一つの鍵は、敬意を保ち冷静でありつつ、自分の目標を明確にすることだ。良い交渉者は必要なことには毅然とするが、相手を攻撃も侮辱もしない。忍耐と創意も助ける。相手を打ち負かすことではない。共通点の探求だ。",
+        quiz: [
+          { q: "What is a negotiation?", options: ["A discussion aimed at reaching a deal both sides can accept", "A battle one side must win", "A kind of contract signed in secret"], answer: 0 },
+          { q: "What is the goal of a good negotiation?", options: ["A 'win-win' result where both sides feel they have gained", "To defeat and insult the other side", "To make the other side lose everything"], answer: 0 },
+          { q: "What is one key skill in negotiation?", options: ["Listening, to truly understand what the other side wants and why", "Shouting the loudest", "Refusing to speak at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1121-2",
+        title: "How Do Noise-Cancelling Headphones Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Imagine sitting on a noisy airplane, with the constant roar of the engines filling your ears. Now you put on a special pair of headphones, press a button, and suddenly, the roar fades away into near silence, even before any music plays. This almost magical trick is done by noise-cancelling headphones, and the science behind them is wonderfully clever.\n\nTo understand it, remember that sound travels as waves, a series of ups and downs moving through the air. The noise of an engine is a particular pattern of these waves. Here is the key idea: if you could create a second sound wave that is the exact opposite of the noise, the two waves would cancel each other out, leaving silence.\n\nThis is exactly what noise-cancelling headphones do. On the outside of the headphones is a tiny microphone, which constantly listens to the noise around you. A small computer inside instantly analyses this noise and creates a new sound wave that is its perfect opposite. Where the noise wave goes up, the new wave goes down, and the reverse.\n\nThis opposite wave is played into your ears through the headphones. When it meets the unwanted noise, the two waves collide and cancel out, so your ear hears almost nothing of the original sound. The roar of the engine simply disappears.\n\nThis clever method works best on steady, low sounds, like an engine or a fan. Sudden, sharp sounds, like a voice, are harder to cancel.\n\nSo noise-cancelling headphones do not block sound like earplugs. Instead, they fight sound with sound, using an opposite wave to create a pocket of calm.",
+        summaryJa: "ノイズキャンセリングヘッドホンの仕組みについて。騒がしい飛行機に座り、絶え間ないエンジンの轟音が耳を満たすと想像しよう。そこで特別なヘッドホンを着け、ボタンを押すと、音楽が流れる前でさえ、突然轟音が消えてほぼ静寂になる。この魔法のような技はノイズキャンセリングヘッドホンによるもので、背後の科学は実に巧妙だ。理解するには、音が波、空気を進む上下の連なりとして伝わることを思い出そう。エンジンの騒音はこの波の特定の模様だ。鍵となる考えはこうだ。もし騒音とちょうど正反対の第二の音波を作れれば、二つの波は互いを打ち消し合い、静寂が残る。これこそノイズキャンセリングヘッドホンが行うことだ。ヘッドホンの外側に小さなマイクがあり、周りの騒音を絶えず聞く。中の小さなコンピューターが即座にこの騒音を分析し、その完全な反対の新しい音波を作る。騒音の波が上がる所で新しい波は下がり、逆も同じだ。この反対の波がヘッドホンから耳に流される。不要な騒音と出会うと二つの波がぶつかり打ち消し合い、耳は元の音をほぼ聞かない。エンジンのような一定で低い音に最もよく効く。耳栓のように遮るのでなく、音で音と戦うのだ。",
+        quiz: [
+          { q: "What is the key idea behind noise-cancelling?", options: ["Creating a sound wave that is the exact opposite of the noise, so they cancel out", "Playing very loud music over the noise", "Blocking the ears with plastic"], answer: 0 },
+          { q: "What does the tiny microphone on the headphones do?", options: ["It constantly listens to the noise around you", "It plays music", "It measures temperature"], answer: 0 },
+          { q: "What kind of sound does this method work best on?", options: ["Steady, low sounds like an engine or a fan", "Sudden, sharp sounds like a voice", "No sounds at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1121-3",
+        title: "What Is a Treaty?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When two or more countries want to agree on something important, they cannot simply shake hands and hope for the best. They need a serious, lasting, written promise that each side can trust. This formal, written agreement between nations is called a treaty, and treaties are one of the main tools that help keep the world running in an orderly way.\n\nA treaty is, in a sense, a contract between countries. Representatives from each nation discuss the details, often over a long time, until they reach an agreement everyone can accept. The terms are then written down carefully, and the leaders of each country formally sign and approve them. Once this is done, each country is expected to keep its promise.\n\nTreaties cover an enormous range of subjects. Some are peace treaties, officially ending a conflict between nations. Others are about trade, setting the rules for how countries buy and sell goods with each other. Many modern treaties deal with shared global problems, such as protecting the environment, banning dangerous weapons, or defending human rights.\n\nWhy do treaties matter so much? Because they allow countries to cooperate and to trust one another. A treaty turns a spoken promise into a clear, public commitment that other nations and the whole world can see.\n\nOf course, treaties are not always perfect. A country may break its promises, and there is no world police force to punish it. Yet most nations keep most treaties, because doing so builds trust and a good reputation. In this way, treaties quietly hold together much of the cooperation that our modern world depends upon.",
+        summaryJa: "条約とは何かについて。二つ以上の国が何か重要なことで合意したいとき、単に握手してうまくいくよう願うわけにはいかない。各側が信頼できる、まじめで永続的な、書かれた約束が要る。この国家間の正式な書面の合意を条約といい、条約は世界を秩序立てて動かす主な道具の一つだ。条約はある意味、国同士の契約だ。各国の代表が、皆が受け入れられる合意に達するまで、しばしば長い時間をかけて細部を話し合う。その条件は丁寧に書き留められ、各国の指導者が正式に署名し承認する。これが済むと、各国は約束を守ると期待される。条約は実に幅広い主題を扱う。紛争を公式に終える平和条約もある。国同士の物の売買の規則を定める貿易のものもある。多くの現代の条約は、環境保護、危険な兵器の禁止、人権の擁護など、世界共通の問題を扱う。なぜ条約はそれほど大切なのか。国が協力し互いを信頼できるようにするからだ。条約は口約束を、他国や世界全体が見られる明確で公的な約束に変える。完璧ではなく破る国もあるが、多くの国は信頼と評判のため守る。現代世界の協力の多くを静かに支える。",
+        quiz: [
+          { q: "What is a treaty?", options: ["A formal, written agreement between nations", "A spoken promise with no record", "A kind of national flag"], answer: 0 },
+          { q: "What is one subject that treaties can cover?", options: ["Peace, trade, the environment, or human rights", "Only the weather", "Only one person's opinion"], answer: 0 },
+          { q: "Why do treaties matter so much?", options: ["They allow countries to cooperate and trust one another", "They make countries enemies", "They are never kept"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1121-4",
+        title: "Kadomatsu: Japan's New Year Decorations",
+        level: "★★☆",
+        genre: "日本",
+        text: "If you visit Japan around the end of December, you will notice a special decoration appearing outside homes, shops, and offices. Standing on either side of many doorways is an arrangement of fresh green bamboo and pine, often tied neatly together. This is a kadomatsu, a traditional decoration made to welcome the New Year, the most important holiday in Japan.\n\nEach part of the kadomatsu carries meaning. The name itself means gate pine. Pine is used because it stays green all through the cold winter, and so it has long been a symbol of long life and strength. The bamboo, which grows quickly and straight, represents growth and honesty. Sometimes a sprig of plum blossom is added too, a hopeful sign of the coming spring.\n\nBut a kadomatsu is more than just a pretty decoration. According to old tradition, it has a special purpose: to welcome the gods of the New Year into the home. The fresh green plants are believed to act as a temporary resting place for these visiting spirits, inviting good fortune and blessings for the year ahead.\n\nFamilies usually put up their kadomatsu in the last days of December and take it down in early January. Because it is made of fresh, natural plants, a kadomatsu does not last long, which is part of its gentle beauty.\n\nSo a kadomatsu is a warm and hopeful sight. Placed carefully at the entrance, it quietly says to the New Year, and to everyone who passes by: you are welcome here, and we hope for good things to come.",
+        summaryJa: "門松、日本の正月飾りについて。十二月の終わりごろ日本を訪れると、家や店、職場の外に特別な飾りが現れるのに気づく。多くの戸口の両脇に、新鮮な緑の竹と松を、しばしばきれいに束ねて立てた飾りがある。これが門松、日本で最も大切な祝日である正月を迎えるために作られる伝統的な飾りだ。門松の各部分に意味がある。名は「門の松」を意味する。松は寒い冬の間ずっと緑を保つので、長らく長寿と強さの象徴だ。速くまっすぐ育つ竹は成長と正直を表す。時に梅の花の小枝も添えられ、来る春の希望ある印となる。だが門松は美しい飾り以上のものだ。古い伝統によれば、特別な目的がある。正月の神々を家に迎えることだ。新鮮な緑の植物は、訪れる霊の一時的な依り代となり、来る年の幸運と恵みを招くと信じられる。家庭はたいてい十二月の末に門松を立て、一月初めに下ろす。新鮮な自然の植物でできているので長持ちせず、それも穏やかな美しさの一部だ。入り口に丁寧に置かれ、新年と道行く皆に静かに歓迎を告げる。",
+        quiz: [
+          { q: "What is a kadomatsu made of?", options: ["Fresh green bamboo and pine", "Metal and plastic", "Paper and glass"], answer: 0 },
+          { q: "Why is pine used in a kadomatsu?", options: ["It stays green all winter, symbolising long life and strength", "It is the cheapest plant", "It smells bad to keep people away"], answer: 0 },
+          { q: "According to tradition, what is the special purpose of a kadomatsu?", options: ["To welcome the gods of the New Year into the home", "To keep out all visitors", "To tell the time"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1121-5",
+        title: "How Do Snowflakes Form?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "On a cold winter day, millions of tiny snowflakes may drift down from the sky, covering the world in soft white. If you catch one on your glove and look closely, you may see something astonishing: a tiny, perfect, six-sided shape, more delicate and beautiful than anything a person could draw. But where do these lovely crystals come from, and how are they made?\n\nA snowflake begins its life high up in a cloud, where the air is freezing cold. Clouds are full of tiny drops of water and water vapour, which is water in the form of an invisible gas. When it is cold enough, this water vapour does not turn into a liquid drop. Instead, it freezes directly onto a tiny speck of dust, forming a minute crystal of ice.\n\nAs this tiny ice crystal moves through the cloud, more water vapour freezes onto it, and it slowly grows larger. Because of the way water molecules naturally join together when they freeze, the crystal always grows into a shape with six sides or six arms. This is why nearly every snowflake has six points.\n\nAs the snowflake travels, it passes through air of slightly different temperatures and wetness. These changing conditions shape its growing arms in countless ways. Since no two snowflakes follow exactly the same path, each one grows into a slightly different pattern. This is the origin of the famous idea that no two snowflakes are exactly alike.\n\nSo each snowflake is a tiny, frozen record of its own journey through the sky, a unique and beautiful work of nature, built from nothing but water and cold.",
+        summaryJa: "雪の結晶はどうできるのかについて。寒い冬の日、何百万もの小さな雪片が空から舞い降り、世界を柔らかな白で覆うことがある。手袋の上で一つ捕らえてよく見ると、驚くべきものが見えるかもしれない。小さく完璧な六角形で、人が描けるどんなものより繊細で美しい。だがこの美しい結晶はどこから来て、どう作られるのか。雪片は、空気が凍えるほど冷たい雲の高い所で生を始める。雲は小さな水滴と水蒸気（目に見えない気体の形の水）で満ちている。十分冷たいと、この水蒸気は液体の滴にならない。代わりに小さなちりの粒に直接凍りつき、ごく小さな氷の結晶になる。この小さな氷の結晶が雲の中を動くうち、さらに水蒸気が凍りつき、ゆっくり大きくなる。水の分子が凍るとき自然に結びつく仕方のため、結晶は常に六辺か六本の腕を持つ形に育つ。だからほぼすべての雪片は六つの先端を持つ。雪片は進むうち、わずかに異なる温度と湿り気の空気を通る。この変わる条件が、育つ腕を無数の仕方で形づくる。同じ道を進む雪片は二つとないので、各々わずかに違う模様に育つ。これが「同じ雪片は二つとない」という有名な考えの由来だ。自分の空の旅の凍った記録だ。",
+        quiz: [
+          { q: "Where does a snowflake begin its life?", options: ["High up in a cloud, where the air is freezing cold", "In the warm ground", "Inside a river"], answer: 0 },
+          { q: "Why does nearly every snowflake have six sides?", options: ["Of the way water molecules naturally join together when they freeze", "Someone cuts them that way", "By pure luck each time"], answer: 0 },
+          { q: "Why is each snowflake slightly different?", options: ["No two follow exactly the same path through changing conditions", "They are all made in a factory", "They are actually all identical"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-20",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What important job does blood do?", options: ["It carries oxygen from the lungs to every part of the body", "It makes the skin blue", "It cools the body like water"], answer: 0 },
           { q: "What gives blood its red colour?", options: ["An iron-rich substance that turns red when it joins with oxygen", "A red dye we eat", "The color of the skin"], answer: 0 },
           { q: "Is blood ever actually blue?", options: ["No, that is a myth; blood is always some shade of red", "Yes, before it has oxygen", "Yes, in the veins"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-14",
-    passages: [
-      {
-        id: "d1114-1",
-        title: "Why Does Competition Matter in Business?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Imagine a town with only one shop selling bread. Because there is nowhere else to go, the shop could charge high prices, sell stale bread, and treat its customers badly. The people would have no choice but to accept it. Now imagine a second bakery opens across the street. Suddenly, everything changes. This change is the power of competition.\n\nCompetition happens when two or more businesses try to win the same customers. To succeed, each business must offer something better than the others. This simple pressure has powerful and positive effects, mostly for the benefit of ordinary customers.\n\nFirst, competition tends to lower prices. If one shop charges too much, customers will simply go to a cheaper rival. To keep their customers, businesses must offer fair prices. Second, competition improves quality. A business that sells poor products will lose customers to one that sells better ones, so each must work hard to improve.\n\nCompetition also encourages new ideas. To stand out from their rivals, businesses invent new products, offer better service, or find clever ways to do things. This constant push for improvement drives much of the progress we enjoy.\n\nOf course, competition can be hard for the businesses themselves. They must work constantly to stay ahead, and some will fail. But for society as a whole, and for customers in particular, competition is usually a very good thing.\n\nSo the next time you enjoy a low price, a good product, or helpful service, remember that competition, the quiet struggle between businesses to win your custom, is often the reason.",
-        summaryJa: "なぜビジネスで競争が大切なのかについて。パンを売る店が一軒しかない町を想像しよう。他に行く所がないので、店は高値をつけ、古いパンを売り、客を粗末に扱えるかもしれない。人々は受け入れるしかない。では通りの向かいに二軒目のパン屋が開いたとしよう。突然すべてが変わる。この変化が競争の力だ。競争は、二つ以上の企業が同じ客を得ようとするときに起こる。成功するには、各企業が他より良い何かを提供せねばならない。この単純な圧力が、主に普通の客の利益のために、強力で良い効果を持つ。第一に、競争は価格を下げる傾向がある。一軒が高すぎれば客は安い競合へ行く。客を保つには公正な価格が要る。第二に、品質を上げる。粗悪な商品の店は良い店に客を奪われるので、各々が改善に努める。競争は新しい発想も促す。目立つために企業は新商品を生み、より良いサービスを提供し、巧妙な方法を見つける。この絶え間ない改善への推進が進歩の多くを生む。企業自身にはつらく、失敗する者もいるが、社会全体、特に客にはたいてい非常に良いことだ。",
-        quiz: [
-          { q: "What is competition in business?", options: ["When two or more businesses try to win the same customers", "When a shop has no rivals", "A kind of tax"], answer: 0 },
-          { q: "How does competition tend to affect prices?", options: ["It tends to lower them, as customers can go to a cheaper rival", "It makes all prices rise", "It has no effect on prices"], answer: 0 },
-          { q: "Why does competition encourage new ideas?", options: ["To stand out from rivals, businesses invent new products and services", "Because the law requires new ideas", "Because customers dislike new things"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1114-2",
-        title: "How Does a Touchscreen Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "We touch them hundreds of times a day, on our phones, at train stations, and in shops. We tap, swipe, and type on smooth glass screens, and somehow the device knows exactly where our finger is. This feels completely natural now, but it is a clever piece of technology. How does a flat sheet of glass know where you are touching it?\n\nThe most common type of touchscreen today uses electricity. The key fact behind it is that the human body conducts electricity, even if only a little. Our skin can carry a tiny electric charge.\n\nUnder the glass of the screen is a very thin, invisible layer that holds a small, even electrical charge across its whole surface. When your finger comes near and touches the glass, your body draws away a tiny amount of this charge at that exact spot. The screen is designed to notice this small change.\n\nSensors around the edges of the screen constantly measure the electrical charge across the surface. When the charge changes at one point, the device can work out precisely where the change happened, and therefore where your finger is. It does this incredibly fast, many times each second, so it can follow your finger smoothly as it moves.\n\nThis is also why these screens often do not respond to a gloved finger or the end of a normal pen. These materials do not conduct electricity, so the screen feels nothing.\n\nSo a touchscreen works by sensing the tiny electrical effect of your own body, turning a simple touch of glass into a precise command.",
-        summaryJa: "タッチスクリーンの仕組みについて。私たちは一日に何百回も、スマホや駅、店でそれに触れる。滑らかなガラスの画面をたたき、なで、入力し、機器はなぜか指の位置を正確に知る。今では完全に自然に感じるが、巧妙な技術だ。平らなガラスの板はどうやって触れられた場所を知るのか。今日最も一般的なタッチスクリーンは電気を使う。背景にある鍵は、人体がわずかながら電気を通すことだ。皮膚は小さな電荷を運べる。画面のガラスの下には、全面に小さく均一な電荷を保つ、非常に薄く目に見えない層がある。指が近づいてガラスに触れると、体がちょうどその場所の電荷をわずかに引き去る。画面はこの小さな変化に気づくよう作られている。画面の縁のセンサーが表面の電荷を絶えず測る。ある点で電荷が変わると、機器は変化が起きた場所、つまり指の位置を正確に割り出せる。毎秒何度も非常に速く行うので、動く指を滑らかに追える。だから手袋の指や普通のペンの先には反応しないことが多い。電気を通さないからだ。体の小さな電気的効果を感じ取るのだ。",
-        quiz: [
-          { q: "What key fact does a common touchscreen rely on?", options: ["The human body conducts a little electricity", "The human body produces light", "Glass is very heavy"], answer: 0 },
-          { q: "What happens when your finger touches the screen?", options: ["It draws away a tiny amount of the screen's electric charge at that spot", "It heats the glass", "It makes a sound"], answer: 0 },
-          { q: "Why does the screen often not respond to a gloved finger?", options: ["The glove does not conduct electricity, so the screen feels nothing", "The glove is too warm", "Gloves are too light"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1114-3",
-        title: "What Is a Peacekeeping Mission?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "When a long and bitter conflict between groups or nations finally comes to an end, the danger is not always over. The two sides may stop fighting, but they often still distrust and fear one another. A single mistake or a small act of violence could easily start the fighting all over again. In these fragile moments, the world sometimes sends in a special kind of help: a peacekeeping mission.\n\nPeacekeepers are soldiers, police, and other workers sent by the international community, usually under the flag of the United Nations, to a place where a conflict has recently stopped. Importantly, they are not sent to fight a war or to take one side. Their job is to help keep the peace that has just been won.\n\nThey do this in several ways. They may stand between the two former enemies, watching the border or the agreed line between them, to make sure neither side breaks the ceasefire. They often help protect ordinary people who have suffered, delivering aid and guarding against violence. They may also help a damaged country slowly rebuild, supporting fair elections or helping former fighters return to normal life.\n\nPeacekeepers are often recognised by their light blue helmets or caps. These bright colours show that they come in peace, not as an enemy army.\n\nThe work is difficult and sometimes dangerous, and it does not always succeed. But at its best, a peacekeeping mission gives a war-torn region a precious chance: a calm space in which a fragile peace can grow strong, and ordinary life can slowly begin again.",
-        summaryJa: "平和維持活動（PKO）とは何かについて。集団や国家の間の長く激しい紛争がついに終わっても、危険は必ずしも去らない。双方が戦いをやめても、なお互いを不信し恐れることが多い。一つの過ちや小さな暴力が、たやすく戦いを再び始めかねない。こうしたもろい瞬間に、世界は時に特別な助けを送る。平和維持活動だ。平和維持要員は、国際社会が、たいてい国連の旗の下で、紛争が最近止まった場所へ送る兵士・警察・その他の働き手だ。重要なのは、戦争をするためでも一方に味方するためでもないことだ。彼らの仕事は、勝ち取ったばかりの平和を保つのを助けることだ。数通りに行う。かつての敵同士の間に立ち、国境や合意された境界線を見張り、どちらも停戦を破らないようにする。苦しんだ普通の人々を守り、援助を届け、暴力を防ぐこともよくある。傷ついた国の再建を助け、公正な選挙を支え、元戦闘員が普通の生活に戻るのを助けることもある。水色のヘルメットや帽子でよく見分けられる。敵でなく平和のために来た印だ。難しく危険で常に成功はしないが、最良の時、戦禍の地に貴重な機会を与える。",
-        quiz: [
-          { q: "What is the job of peacekeepers?", options: ["To help keep a peace that has just been won, not to fight a war", "To take one side and win the war", "To start new conflicts"], answer: 0 },
-          { q: "What is one thing peacekeepers do?", options: ["Watch the line between former enemies to make sure the ceasefire holds", "Choose which side should rule", "Build weapons"], answer: 0 },
-          { q: "Why do peacekeepers wear light blue helmets?", options: ["To show they come in peace, not as an enemy army", "To hide from everyone", "Because blue is the cheapest color"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1114-4",
-        title: "Maneki-neko: Japan's Beckoning Cat",
-        level: "★★☆",
-        genre: "日本",
-        text: "If you have ever visited a Japanese shop or restaurant, you may have noticed a small cat figure sitting near the entrance. It is usually white or golden, with one paw raised high in the air, as if waving hello. This cheerful little cat is the maneki-neko, meaning the beckoning cat, and it is one of Japan's most famous lucky charms.\n\nThe raised paw is the key to its meaning. In Japan, people traditionally beckon others to come closer with a gesture of the hand that looks like this raised paw. So the cat is not waving goodbye; it is inviting good things to come in. A cat with its left paw raised is believed to invite customers and people, while a right paw is thought to invite money and good fortune. This is why so many are placed in shops and businesses.\n\nThe details often carry meaning too. The colour of the cat, the collar it wears, and the coin it sometimes holds can all represent different kinds of luck, such as health, wealth, or success. There are countless charming stories about how the lucky cat first appeared, often involving a cat that saved or helped a kind person.\n\nToday, the maneki-neko is loved far beyond Japan and can be found in shops all around the world. Whether or not a person believes in its power, the little cat with its welcoming paw brings a warm and friendly feeling, silently wishing good luck to everyone who passes by.",
-        summaryJa: "招き猫、日本の縁起物について。日本の店や飲食店を訪れたことがあれば、入り口近くに座る小さな猫の像に気づいたかもしれない。たいてい白か金色で、片方の前足を高く上げ、まるで挨拶しているようだ。この陽気な小さな猫が招き猫で、日本で最も有名な縁起物の一つだ。上げた前足が意味の鍵だ。日本では伝統的に、この上げた前足のように見える手ぶりで人を近くへ招く。だから猫は別れを振っているのでなく、良いものを招き入れているのだ。左の前足を上げた猫は客や人を招き、右の前足は金や幸運を招くと信じられる。だから多くが店や事業に置かれる。細部にも意味があることが多い。猫の色、着けた首輪、時に持つ小判は、健康・富・成功など異なる種類の幸運を表しうる。縁起猫が最初に現れた経緯には、親切な人を救い助けた猫が登場する魅力的な話が数えきれぬほどある。今や招き猫は日本をはるかに超えて愛され、世界中の店で見つかる。力を信じるかどうかにかかわらず、招く前足の小さな猫は温かく親しみある気持ちを運ぶ。",
-        quiz: [
-          { q: "What does 'maneki-neko' mean?", options: ["The beckoning cat", "The sleeping cat", "The running cat"], answer: 0 },
-          { q: "What does the cat's raised paw represent?", options: ["Inviting good things, such as customers or fortune, to come in", "Saying goodbye", "Asking for food"], answer: 0 },
-          { q: "What is believed about a cat with its right paw raised?", options: ["It invites money and good fortune", "It brings bad weather", "It keeps people away"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1114-5",
-        title: "Why Do Stars Twinkle?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "On a clear night, far from city lights, the sky fills with countless stars. If you watch them, you will notice something lovely: many of the stars seem to shimmer and flicker, changing brightness and even colour from moment to moment. This is what we call twinkling. But here is a surprise: the stars themselves are not actually flickering at all. The twinkling happens much closer to home.\n\nA star is a huge, distant sun, shining with a steady light. That light travels across unimaginable distances of empty space to reach us, and during this long journey, it stays calm and even. The trouble only begins in the last tiny part of its journey, when the starlight enters the Earth's atmosphere, the layer of air around our planet.\n\nOur atmosphere is always moving. It is full of pockets of air at different temperatures, which are constantly shifting and swirling. As the thin beam of starlight passes down through these moving layers of air, it is bent this way and that, again and again. By the time it reaches your eye, the light has been nudged around so many times that the star appears to dance and sparkle.\n\nThis is also why planets usually twinkle much less than stars. Planets are far closer to us, so they appear not as a single point but as a tiny disc of light, which the air cannot disturb so easily.\n\nSo the twinkling of the stars is really a gift of our own restless air, turning steady, distant suns into the shimmering jewels of the night sky.",
-        summaryJa: "星はなぜまたたくのかについて。街の灯から離れた晴れた夜、空は無数の星で満ちる。見ていると素敵なことに気づく。多くの星がゆらめき明滅し、刻一刻と明るさや色さえ変える。これをまたたきと呼ぶ。だが驚きがある。星そのものは実はまったく明滅していない。またたきはもっと身近で起こる。星は巨大で遠い太陽で、一定の光で輝く。その光は想像もできない空間の距離を越えて私たちに届き、この長い旅の間、穏やかで一定だ。問題は旅の最後のごく一部、星の光が地球の大気、惑星を包む空気の層に入るときにだけ始まる。大気は常に動いている。異なる温度の空気の塊で満ち、絶えず移り渦巻く。細い星の光がこの動く空気の層を下りて通るうちに、あちこちへ何度も曲げられる。目に届くころには光は何度も押しやられ、星は踊り輝いて見える。だから惑星はたいてい星よりずっとまたたかない。惑星はずっと近く、一点でなく小さな光の円盤に見え、空気が乱しにくいのだ。星のまたたきは、私たち自身の落ち着かない空気の贈り物だ。",
-        quiz: [
-          { q: "Do the stars themselves actually flicker?", options: ["No, their light is steady; the twinkling happens in our atmosphere", "Yes, stars turn on and off", "Yes, they change size"], answer: 0 },
-          { q: "What causes the twinkling?", options: ["Starlight is bent as it passes through moving layers of air", "The stars are blinking", "Clouds cover the stars"], answer: 0 },
-          { q: "Why do planets usually twinkle less than stars?", options: ["They are closer and appear as a tiny disc, which the air cannot disturb so easily", "They are much hotter", "They have no light"], answer: 0 }
         ]
       }
     ]
