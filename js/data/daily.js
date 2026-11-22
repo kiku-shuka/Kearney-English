@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-22",
+    passages: [
+      {
+        id: "d1122-1",
+        title: "What Is a Brand?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Imagine two pairs of shoes sitting side by side. They are made in a similar way and look almost the same. Yet one has a famous name and a well-known symbol on the side, and many people will happily pay much more for it. Why? The answer is one of the most powerful ideas in business: the brand.\n\nA brand is far more than just a company's name or logo. It is the whole identity of a company or product in people's minds. It includes the name, the symbol, the colours, and the style, but also something deeper: the feelings, memories, and promises that customers connect with it. A brand is, in a sense, the reputation of a product.\n\nA strong brand is extremely valuable. When people trust a brand, they feel confident about what they are buying, even before they try it. They expect a certain quality, and this trust makes them likely to choose that product again and again, and to recommend it to others.\n\nBuilding a good brand takes a long time and great care. A company must keep its promises, provide good products, and treat its customers well, year after year. Trust is slowly earned, but it can be quickly lost if a company disappoints its customers.\n\nThis is why companies protect their brands so carefully. A good brand is often worth more than the factories and machines a company owns.\n\nSo a brand is really a relationship of trust between a company and its customers. It is the quiet reason why, faced with two similar products, we so often reach for the name we know.",
+        summaryJa: "ブランドとは何かについて。二足の靴が並んでいると想像しよう。似た作り方で、ほぼ同じに見える。だが一方には有名な名前とよく知られた記号が側面にあり、多くの人は喜んでずっと高く払う。なぜか。答えは商売で最も強力な考えの一つ、ブランドだ。ブランドは単なる会社の名前やロゴをはるかに超える。人々の心の中にある、会社や製品の全体的な独自性だ。名前・記号・色・様式を含むが、より深いもの、客がそれと結びつける感情・記憶・約束も含む。ある意味、製品の評判だ。強いブランドは非常に価値が高い。人はブランドを信頼すると、試す前でさえ買う物に自信を持てる。一定の品質を期待し、この信頼が何度もその製品を選ばせ、他人に勧めさせる。良いブランドを築くには長い時間と大きな注意が要る。会社は約束を守り、良い製品を提供し、客を大切に扱い続けねばならない。信頼はゆっくり得られるが、客を失望させれば素早く失われる。だから会社はブランドを慎重に守る。会社が持つ工場や機械より価値が高いことも多い。会社と客の信頼の関係だ。",
+        quiz: [
+          { q: "What is a brand?", options: ["The whole identity and reputation of a company or product in people's minds", "Only a company's phone number", "A kind of factory machine"], answer: 0 },
+          { q: "Why is a strong brand valuable?", options: ["People trust it, so they feel confident and choose it again and again", "It makes products break faster", "It hides the product's name"], answer: 0 },
+          { q: "How is a good brand built?", options: ["Slowly, by keeping promises and treating customers well year after year", "Instantly, with one advertisement", "By disappointing customers"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1122-2",
+        title: "How Does a Vacuum Cleaner Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "A vacuum cleaner seems to perform a small miracle. You switch it on, move it across a dusty floor, and the dirt simply vanishes, sucked up and out of sight. It feels as though the machine is pulling the dust towards itself with some invisible force. In a way it is, and the secret lies in a simple but clever use of air.\n\nTo understand it, think about air pressure. The air all around us is constantly pushing on everything, in every direction. Normally we do not notice this, because the pushing is equal on all sides. A vacuum cleaner works by upsetting this balance.\n\nInside the machine is a fan, spun quickly by an electric motor. This fan pushes air out of the back of the vacuum cleaner. As air is pushed out, the space inside the machine is left with less air than before. This means the air pressure inside becomes lower than the normal air pressure outside.\n\nNow nature tries to fix the balance. The higher-pressure air outside rushes in to fill the low-pressure space inside, pushing its way through the only opening: the nozzle on the floor. This fast-moving stream of air rushes into the machine, and it carries loose dust and dirt along with it, just as a strong wind carries leaves.\n\nInside the vacuum cleaner, the air passes through a bag or a filter. This traps the dust, while letting the clean air flow on and out of the back.\n\nSo a vacuum cleaner does not really suck. It simply lowers the air pressure inside, and lets the pushing air of the whole world sweep the dust away.",
+        summaryJa: "掃除機の仕組みについて。掃除機は小さな奇跡を行うように見える。スイッチを入れ、ほこりだらけの床の上を動かすと、汚れは単に消え、吸い込まれて見えなくなる。機械が目に見えない力でほこりを引き寄せているかのようだ。ある意味その通りで、秘密は空気の単純だが巧妙な利用にある。理解するには気圧を考えよう。周りの空気は常にあらゆるものをあらゆる方向に押している。普段気づかないのは、押す力が全方向で等しいからだ。掃除機はこの均衡を崩して働く。機械の中には、電動機で素早く回る羽根（ファン）がある。この羽根が空気を掃除機の後ろから押し出す。空気が押し出されると、機械の中は前より空気が少なくなる。つまり内部の気圧が外の普通の気圧より低くなる。すると自然が均衡を直そうとする。外の高い気圧の空気が、内部の低圧の空間を満たそうと勢いよく入り込み、唯一の開口部、床のノズルを通って押し入る。この速く動く空気の流れが機械へ突入し、強い風が葉を運ぶように、ゆるんだほこりや汚れを一緒に運ぶ。中で空気は袋やフィルターを通り、ほこりが捕らえられ、清浄な空気は後ろへ流れ出る。実は「吸う」のでなく、内部の気圧を下げるのだ。",
+        quiz: [
+          { q: "What does a vacuum cleaner's fan do?", options: ["It pushes air out of the back, lowering the air pressure inside", "It blows cold air on the floor", "It heats the dust"], answer: 0 },
+          { q: "Why does air rush into the nozzle?", options: ["Higher-pressure air outside rushes in to fill the low-pressure space inside", "The dust pulls it in", "The floor pushes it"], answer: 0 },
+          { q: "What traps the dust inside the machine?", options: ["A bag or a filter, while clean air flows out the back", "A magnet", "A small fire"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1122-3",
+        title: "What Is a Refugee?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Most people live their whole lives in or near the place where they were born. But sometimes, through no fault of their own, people are forced to leave their homes and even their countries, simply to survive. A person who is forced to flee their own country to escape serious danger is called a refugee.\n\nWhat makes someone a refugee is that they cannot safely stay at home. They may be fleeing a war that has destroyed their town, or they may be in danger because of who they are or what they believe. For such people, leaving is not a choice but a desperate necessity. They often must go quickly, carrying only what they can hold, leaving behind their homes, their jobs, and sometimes their families.\n\nThe journey of a refugee is usually very hard and dangerous. When they reach another country, they arrive with almost nothing, in a place where the language and customs may be strange to them. They need the most basic things: shelter, food, safety, and a chance to rebuild their lives.\n\nThis is why the world has agreed on an important idea: that refugees deserve protection and help. International organisations and many countries work to provide safe places to stay, food, and medical care. The hope is to give refugees a chance to live in safety until they can either return home or build a new life.\n\nBeing a refugee is not a choice, and it can happen to ordinary people anywhere, if their world suddenly falls apart. Helping them reflects a simple, shared belief: that everyone, everywhere, deserves to live in safety.",
+        summaryJa: "難民とは何かについて。多くの人は生まれた場所やその近くで一生を過ごす。だが時に、自らの過失でなく、人々は生き延びるためだけに、家、さらには国を離れることを強いられる。深刻な危険から逃れるため自国から逃げざるを得ない人を難民という。難民たらしめるのは、安全に家にとどまれないことだ。町を破壊した戦争から逃げているかもしれず、何者であるか・何を信じるかゆえに危険にさらされているかもしれない。そうした人々にとって、去ることは選択でなく切実な必要だ。しばしば急いで、持てる物だけを携え、家・仕事・時に家族を後に残して行かねばならない。難民の旅はたいてい非常に厳しく危険だ。別の国に着くと、ほとんど何も持たず、言葉も習慣も馴染みのない場所に降り立つ。最も基本的なもの、住まい・食料・安全、そして生活を立て直す機会が要る。だから世界は重要な考えに合意した。難民は保護と助けに値するということだ。国際機関や多くの国が、安全な滞在先・食料・医療の提供に努める。難民が安全に暮らせるよう願ってのことだ。誰もがどこでも安全に生きるに値するという信念を映す。",
+        quiz: [
+          { q: "What is a refugee?", options: ["A person forced to flee their own country to escape serious danger", "A person on a holiday trip", "A kind of soldier"], answer: 0 },
+          { q: "Why do refugees leave their homes?", options: ["It is a desperate necessity to survive, not a free choice", "They simply want a change of scene", "They are bored"], answer: 0 },
+          { q: "What important idea has the world agreed on?", options: ["That refugees deserve protection and help", "That refugees should be ignored", "That no one should ever move"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1122-4",
+        title: "Geiko and Maiko: Keepers of Japanese Tradition",
+        level: "★★☆",
+        genre: "日本",
+        text: "In the old streets of Kyoto, if you are lucky, you may catch a glimpse of a striking figure: a woman in a beautiful kimono, with an elegant hairstyle and graceful movements, walking quietly to an evening appointment. She is a geiko, or as she is more widely known outside Kyoto, a geisha. A geiko is a highly trained artist, a keeper of traditional Japanese arts.\n\nMany people misunderstand what a geiko is. She is, above all, a professional entertainer and artist, who has spent years mastering traditional skills. These skills include classical Japanese dance, playing traditional musical instruments, singing, and the gentle art of conversation. Her job is to bring beauty, culture, and a warm, refined atmosphere to the gatherings she attends.\n\nBecoming a geiko takes many years of dedicated training. A young woman who is still learning is called a maiko, an apprentice. A maiko can often be recognised by her especially colourful kimono and elaborate hairstyle. She lives and trains in a special house, learning her arts from older, experienced women, step by careful step.\n\nThis world is built on tradition, discipline, and respect. The arts that geiko and maiko perform have been passed down, almost unchanged, for hundreds of years.\n\nToday, there are far fewer geiko than in the past, which makes them even more precious. They are living keepers of a beautiful and ancient culture, carrying the refined arts of old Japan gracefully into the modern world, one careful step, one song, and one dance at a time.",
+        summaryJa: "芸妓と舞妓、日本の伝統の担い手について。京都の古い街で、運が良ければ、印象的な姿を垣間見るかもしれない。美しい着物をまとい、優雅な髪型と上品な所作で、夕方のお座敷へ静かに歩く女性だ。彼女は芸妓、京都の外では芸者としてより広く知られる。芸妓は高度に訓練された芸術家で、日本の伝統芸能の担い手だ。多くの人は芸妓を誤解している。彼女は何より専門の芸人であり芸術家で、何年もかけて伝統の技を習得した人だ。その技には、古典日本舞踊、伝統楽器の演奏、歌、そして会話という穏やかな芸が含まれる。仕事は、出席する集まりに美・文化・温かく洗練された雰囲気をもたらすことだ。芸妓になるには何年もの熱心な修業が要る。まだ学んでいる若い女性は舞妓、見習いと呼ばれる。舞妓は特に色鮮やかな着物と凝った髪型でよく見分けられる。特別な置屋で暮らし修業し、年上の経験ある女性から一歩ずつ芸を学ぶ。この世界は伝統・規律・敬意の上に築かれる。芸は何百年もほぼ変わらず受け継がれてきた。今日、昔よりずっと少なく、一層貴重だ。古い日本の洗練された芸を現代へ優雅に運ぶ、生きた担い手だ。",
+        quiz: [
+          { q: "What is a geiko, above all?", options: ["A highly trained professional entertainer and artist of traditional arts", "A kind of cook", "A sports player"], answer: 0 },
+          { q: "What skills does a geiko master?", options: ["Classical dance, traditional music, singing, and the art of conversation", "Flying planes", "Building houses"], answer: 0 },
+          { q: "What is a 'maiko'?", options: ["An apprentice, a young woman still learning to become a geiko", "A retired geiko", "A type of kimono"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1122-5",
+        title: "Why Do We Get Goosebumps?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "It happens in a flash. A cold wind blows, or a piece of music gives you a thrill, and suddenly the skin on your arms is covered in tiny bumps, and the little hairs stand up on end. We call these goosebumps. They appear on their own, without us choosing them. But what are they, and why does our body make them?\n\nEach tiny bump forms around the root of a single hair. Attached to the base of every hair on your body is a very small muscle. When this muscle tightens, it pulls the hair upright and creates a little bump on the skin. When thousands of these tiny muscles tighten at once, your skin is covered in goosebumps.\n\nBut why does this happen? The surprising answer is that goosebumps are mostly a leftover from our distant ancestors, who were much hairier than we are today. For a furry animal, raising the hairs is very useful. In the cold, raised fur traps a thicker layer of warm air, like fluffing up a blanket, helping the animal stay warm. When facing an enemy, raised fur makes the animal look bigger and more frightening.\n\nHumans have kept this same reaction, even though we have lost most of our fur. So when you feel cold or afraid, your body still tries to fluff up a coat of fur that is no longer there.\n\nInterestingly, we also get goosebumps from strong emotions, like beautiful music or a powerful memory. So goosebumps are a curious little echo of our animal past, written quietly on our skin.",
+        summaryJa: "なぜ鳥肌が立つのかについて。それは一瞬で起こる。冷たい風が吹く、あるいは音楽に感動すると、突然腕の肌が小さな粒で覆われ、細い毛が逆立つ。これを鳥肌という。自分で選ばずひとりでに現れる。だがこれは何で、なぜ体は作るのか。各小さな粒は一本の毛の根の周りにできる。体のすべての毛の根元には、とても小さな筋肉が付いている。この筋肉が縮むと毛を直立させ、肌に小さな粒を作る。何千ものこの小さな筋肉が一度に縮むと、肌は鳥肌で覆われる。だがなぜ起こるのか。意外な答えは、鳥肌が主に、今の私たちよりずっと毛深かった遠い祖先の名残だということだ。毛むくじゃらの動物にとって毛を立てるのはとても役立つ。寒さでは、立った毛が温かい空気の厚い層を閉じ込め、毛布をふくらませるように体を温める。敵に対しては、立った毛が体を大きく恐ろしく見せる。人間はほとんどの毛を失ったのに同じ反応を保っている。だから寒さや恐れを感じると、体はもうない毛皮をなおふくらませようとする。美しい音楽や強い記憶など強い感情でも鳥肌が立つ。動物だった過去の興味深い名残だ。",
+        quiz: [
+          { q: "What creates each goosebump?", options: ["A tiny muscle at the base of a hair tightening and pulling it upright", "A drop of water on the skin", "A small insect"], answer: 0 },
+          { q: "Why do we get goosebumps, according to the passage?", options: ["It is mostly a leftover from our hairier ancestors", "To make us taller", "To clean the skin"], answer: 0 },
+          { q: "How did raised fur help a furry animal?", options: ["It trapped warm air in the cold and made the animal look bigger to enemies", "It helped it swim", "It made it invisible"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-21",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What force pushes a bird upward against gravity?", options: ["Lift", "Gravity", "Cold"], answer: 0 },
           { q: "What is the main source of lift?", options: ["The special curved shape of a bird's wing", "The color of the feathers", "The bird's song"], answer: 0 },
           { q: "Why do birds flap their wings?", options: ["To push air backwards and move forward, creating airflow over the wings", "To keep warm only", "To make noise"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-15",
-    passages: [
-      {
-        id: "d1115-1",
-        title: "What Is a Wholesaler?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "When you buy a bottle of juice at a small local shop, you might imagine that the shopkeeper bought it directly from the company that made it. Sometimes this is true, but very often there is a hidden middle step in between. That step is a business called a wholesaler, and it quietly keeps much of our shopping world running smoothly.\n\nA wholesaler is a business that buys goods in very large amounts from the makers, and then sells them in smaller amounts to shops. The wholesaler does not usually sell to ordinary customers like you and me. Instead, its customers are the shops themselves.\n\nWhy is this middle step so useful? Imagine a small shop that wants to sell a hundred different products. Without wholesalers, the shopkeeper would have to contact a hundred different factories, arrange a hundred deliveries, and buy huge amounts from each. This would be slow, expensive, and almost impossible for a small business.\n\nA wholesaler solves this problem. It buys from many makers and gathers their products together. The small shop can then buy a little of everything from a single wholesaler, in amounts that suit its size. The maker also benefits, because it can sell huge amounts to a few wholesalers instead of dealing with thousands of tiny shops.\n\nSo the wholesaler acts as a helpful bridge between the makers of goods and the shops that sell them. Though customers rarely see them, wholesalers are a vital link in the chain that brings the products we want from the factory to the shelf.",
-        summaryJa: "卸売業者とは何かについて。小さな地元の店でジュースを一本買うとき、店主が作った会社から直接仕入れたと思うかもしれない。そうであることもあるが、間にしばしば隠れた中間の段階がある。それが卸売業者という事業で、私たちの買い物の世界の多くを静かに円滑に動かしている。卸売業者は、作り手から非常に大量に商品を買い、それを小さな量に分けて店に売る事業だ。普通はあなたや私のような一般客には売らない。顧客は店そのものだ。なぜこの中間段階が役立つのか。百種類の異なる商品を売りたい小さな店を想像しよう。卸売業者がなければ、店主は百の工場に連絡し、百の配送を手配し、それぞれから大量に買わねばならない。遅く、高くつき、小さな事業にはほぼ不可能だ。卸売業者はこれを解決する。多くの作り手から買い、商品をまとめる。小さな店は一つの卸売業者から、自分の規模に合う量で少しずつ何でも買える。作り手も、何千もの小さな店を相手にせず少数の卸に大量に売れるので得をする。工場から棚へ商品を運ぶ鎖の不可欠な環だ。",
-        quiz: [
-          { q: "What is a wholesaler?", options: ["A business that buys goods in large amounts from makers and sells them to shops", "A shop that sells to ordinary customers", "A kind of factory worker"], answer: 0 },
-          { q: "Who are a wholesaler's customers?", options: ["The shops themselves, not ordinary customers", "Only children", "The makers only"], answer: 0 },
-          { q: "How does a wholesaler help a small shop?", options: ["The shop can buy a little of everything from one wholesaler", "The shop must contact every factory itself", "The shop cannot buy anything"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1115-2",
-        title: "How Does GPS Know Where You Are?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Your phone can show you exactly where you are on a map, almost anywhere on Earth, within a few metres. This amazing ability comes from a system called GPS, which stands for Global Positioning System. But how can a small phone know its precise place on the whole planet? The answer lies far above your head, in space.\n\nHigh above the Earth, a number of satellites are constantly circling the planet. Each one carries a very accurate clock and is always sending out radio signals. These signals simply say, in effect, I am this satellite, and here is the exact time I sent this message.\n\nYour phone contains a small receiver that listens for these signals. The clever trick is in timing. The signal from a satellite takes a tiny amount of time to travel down to your phone. By measuring exactly how long the signal took to arrive, your phone can work out how far away that satellite is.\n\nKnowing the distance to just one satellite is not enough. But if your phone measures its distance from several satellites at the same time, it can combine this information. There is only one point on Earth that is exactly those distances from all of them at once, and that point is you.\n\nUsing signals from four or more satellites, your phone can calculate its position, and often its height, very accurately.\n\nSo every time you follow a map on your phone, you are quietly using a network of satellites in space, all working together to answer a simple question: where am I?",
-        summaryJa: "GPSはどうやって現在地を知るのかについて。スマホは地球上のほぼどこでも、数メートルの精度で地図上の正確な位置を示せる。この驚くべき能力はGPS（全地球測位システム）という仕組みから来る。だが小さなスマホがどうやって惑星全体での正確な位置を知るのか。答えは頭上はるか、宇宙にある。地球のはるか上空を、多数の衛星が絶えず回っている。各々が非常に正確な時計を積み、常に電波信号を送り出す。信号は要するに「私はこの衛星で、これを送った正確な時刻はこれだ」と言っている。スマホにはこの信号を聞く小さな受信機がある。巧妙な技は時間計測にある。衛星の信号はスマホへ届くのにごくわずかな時間かかる。信号が届くのにかかった時間を正確に測れば、その衛星までの距離が分かる。一つの衛星までの距離だけでは足りない。だが複数の衛星までの距離を同時に測れば、情報を組み合わせられる。地球上でそれら全てからちょうどその距離にある点は一つだけで、それがあなただ。四つ以上の衛星の信号で、位置や高さまで正確に計算できる。宇宙の衛星の網が協力し「私はどこか」に答えている。",
-        quiz: [
-          { q: "What does GPS use to find your location?", options: ["Satellites circling the Earth, sending radio signals", "Cameras on the ground", "A map printed in the phone"], answer: 0 },
-          { q: "How does your phone work out how far away a satellite is?", options: ["By measuring exactly how long the signal took to arrive", "By its color", "By its weight"], answer: 0 },
-          { q: "Why does your phone need several satellites, not just one?", options: ["Only one point on Earth is those exact distances from all of them at once", "One satellite is always broken", "Satellites work only in pairs"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1115-3",
-        title: "How Do International Courts Work?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Within a single country, when two people have a serious disagreement that they cannot solve themselves, they can go to a court. A judge listens to both sides and makes a fair decision, based on the law. But what happens when the disagreement is between two whole countries, or when terrible crimes are committed that shock the whole world? For these situations, the world has created international courts.\n\nAn international court is a special court that deals with matters between nations, or with the most serious crimes of global concern. Unlike a normal national court, it does not belong to any single country. Instead, it is set up by many nations working together, and its judges come from different parts of the world.\n\nThere are different kinds. One type helps settle peaceful disagreements between countries, for example over borders or the use of a shared river. Rather than fighting, the two nations agree to bring their case to the court and to accept its decision. This allows disputes to be solved with words and law, instead of weapons.\n\nAnother type deals with individuals who are accused of the very worst crimes, such as terrible acts committed during wars. These courts aim to show that no one is completely above the law, not even powerful leaders.\n\nInternational courts are not perfect. They often rely on countries choosing to cooperate, and a powerful nation may simply refuse. Yet they represent a hopeful idea: that even between nations, and even in the worst of times, reason, fairness, and law can offer a better path than force.",
-        summaryJa: "国際裁判所はどう機能するのかについて。一つの国の中では、二人が自分たちで解決できない深刻な対立を抱えたとき、裁判所へ行ける。裁判官が双方の言い分を聞き、法に基づいて公正な判断を下す。だが対立が二つの国全体の間にあるとき、あるいは世界を震撼させるひどい犯罪が行われたときはどうなるのか。こうした状況のため、世界は国際裁判所を作った。国際裁判所は、国家間の問題や、世界的に重大な最も深刻な犯罪を扱う特別な裁判所だ。普通の国の裁判所と違い、どの一国にも属さない。多くの国が協力して設け、裁判官は世界の様々な地域から来る。種類は異なる。一つは国家間の平和的な対立、例えば国境や共有の川の利用をめぐる争いの解決を助ける。戦う代わりに、両国が事件を裁判所に持ち込み判断を受け入れると合意する。これで争いを武器でなく言葉と法で解決できる。もう一つは、戦争中のひどい行為など、最悪の犯罪で告発された個人を扱う。強大な指導者でさえ法を完全には超えられないと示すことを目指す。完璧ではなく各国の協力に頼るが、希望ある考えを表す。",
-        quiz: [
-          { q: "What is an international court?", options: ["A court that deals with matters between nations or the worst global crimes", "A normal court belonging to one country", "A kind of parliament"], answer: 0 },
-          { q: "What does one type of international court help settle?", options: ["Peaceful disagreements between countries, like border disputes", "Shopping complaints", "School exams"], answer: 0 },
-          { q: "What is a limitation of international courts?", options: ["They often rely on countries choosing to cooperate, which a powerful nation may refuse", "They have too many judges", "They never make decisions"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1115-4",
-        title: "Koban: Japan's Neighborhood Police Boxes",
-        level: "★★☆",
-        genre: "日本",
-        text: "Walking through a Japanese town or city, you will often come across a small building, not much bigger than a room, sometimes marked with a red lamp. Inside, one or two police officers are usually on duty. This is a koban, a neighbourhood police box, and it is a simple but important part of what makes daily life in Japan feel so safe and orderly.\n\nUnlike a large central police station, a koban is small and local. It is placed right in the middle of the community it serves, near a station, a shopping street, or a residential area. Because it is so close to the people, the officers inside become a familiar and friendly presence, rather than a distant authority.\n\nThe work of a koban officer is wonderfully varied, and much of it has little to do with crime. One of their most common tasks is simply giving directions. Japanese addresses can be confusing, even for locals, so people constantly stop at a koban to ask the way. Officers also look after lost property. In Japan, if you lose your wallet or phone, there is a very good chance an honest person will hand it in at the nearest koban.\n\nOf course, the officers also help in emergencies, keep an eye on the area, and offer a safe place for anyone in trouble.\n\nThe koban system shows a gentle idea about safety: that it comes not only from catching criminals, but from a trusted, helpful presence woven quietly into the daily life of every neighbourhood.",
-        summaryJa: "交番、日本の地域の警察拠点について。日本の町や都市を歩くと、部屋ほどの大きさの小さな建物に、時に赤いランプが付いているのをよく見かける。中ではたいてい一人か二人の警察官が勤務している。これが交番で、日本の日常がこれほど安全で秩序あると感じさせる、簡素だが重要な一部だ。大きな中央の警察署と違い、交番は小さく地域に根ざす。駅や商店街、住宅地の近くなど、奉仕する地域のまさに真ん中に置かれる。人々にとても近いので、中の警察官は遠い権威でなく、親しみある身近な存在になる。交番の警察官の仕事は実に多様で、その多くは犯罪とほとんど関係ない。最も一般的な仕事の一つは道案内だ。日本の住所は地元の人にも紛らわしく、人々は絶えず交番に立ち寄って道を尋ねる。落とし物の管理もする。日本では財布やスマホを落としても、正直な人が最寄りの交番に届けてくれる可能性がとても高い。もちろん緊急時にも助け、地域を見守り、困った人に安全な場所を提供する。安全は犯人を捕まえるだけでなく、信頼され頼れる存在から来るという考えを示す。",
-        quiz: [
-          { q: "What is a koban?", options: ["A small neighbourhood police box, local to the community", "A large central prison", "A kind of train station"], answer: 0 },
-          { q: "What is one of the most common tasks of a koban officer?", options: ["Giving directions to people who are lost", "Building houses", "Flying planes"], answer: 0 },
-          { q: "What idea about safety does the koban system show?", options: ["Safety comes from a trusted, helpful presence in daily life, not only catching criminals", "Safety comes only from high walls", "Safety does not matter"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1115-5",
-        title: "Why Is Blood Red?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "If you have ever had a small cut, you know that human blood is red. It is one of those facts so familiar that we rarely stop to ask why. What is it about our blood that gives it this deep red colour? The answer takes us deep inside the body, down to some of the smallest and busiest parts of us.\n\nBlood has a very important job: it carries oxygen from our lungs to every part of the body, where it is needed to keep us alive. This vital task is done by tiny red blood cells, which float in their millions in our blood.\n\nInside each of these red blood cells is a special substance whose job is to grab and carry oxygen. This substance contains iron. And here is the key: when this iron-rich substance joins with oxygen, it turns a bright red colour. Because our blood is full of these cells, all carrying oxygen, the blood itself looks red.\n\nYou might have heard that blood is blue before it gets oxygen, but this is a myth. Blood is always some shade of red. When it is rich in fresh oxygen, leaving the lungs, it is a bright, vivid red. After it has delivered its oxygen to the body, it becomes a darker, duller red. Our veins can look bluish through the skin, but the blood inside them is still red.\n\nSo the red colour of blood is really the colour of iron meeting oxygen, a tiny chemical signal of the life-giving work happening inside us every second.",
-        summaryJa: "血はなぜ赤いのかについて。小さな切り傷を負ったことがあれば、人間の血が赤いと知っている。あまりに身近で、なぜかと立ち止まって問うことはめったにない。私たちの血の何がこの濃い赤色を与えるのか。答えは体の奥深く、私たちの最も小さく忙しい部分へと導く。血には重要な仕事がある。肺から体の隅々へ酸素を運び、生命を保つのに使う。この大切な仕事は、血中に何百万も浮かぶ小さな赤血球が行う。各赤血球の中には、酸素をつかんで運ぶ仕事をする特別な物質がある。この物質は鉄を含む。ここが鍵だ。この鉄に富む物質が酸素と結びつくと、鮮やかな赤色になる。血はこうした酸素を運ぶ細胞で満ちているので、血自体が赤く見える。酸素を得る前の血は青いと聞いたことがあるかもしれないが、これは俗説だ。血は常に何らかの赤だ。肺を出た新鮮な酸素に富む血は鮮やかな赤。体に酸素を届けた後は暗くくすんだ赤になる。皮膚越しに静脈は青みがかって見えるが、中の血はやはり赤い。血の赤は鉄が酸素と出会う色なのだ。",
-        quiz: [
-          { q: "What important job does blood do?", options: ["It carries oxygen from the lungs to every part of the body", "It makes the skin blue", "It cools the body like water"], answer: 0 },
-          { q: "What gives blood its red colour?", options: ["An iron-rich substance that turns red when it joins with oxygen", "A red dye we eat", "The color of the skin"], answer: 0 },
-          { q: "Is blood ever actually blue?", options: ["No, that is a myth; blood is always some shade of red", "Yes, before it has oxygen", "Yes, in the veins"], answer: 0 }
         ]
       }
     ]
