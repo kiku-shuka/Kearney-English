@@ -235,7 +235,19 @@ KE_DATA.extraSentences = [
   { id: "w2646-s09", ja: "ご質問があればいつでもどうぞ。", en: "Feel free to ask if you have any questions.", note: "feel free to = 遠慮なく～する" },
   { id: "w2646-s10", ja: "そろそろ結論を出しましょう。", en: "Let's try to reach a decision soon.", note: "reach a decision = 結論を出す" },
   { id: "w2646-s11", ja: "想定の範囲内です、ご心配なく。", en: "It's within what we expected, so don't worry.", note: "within what we expected = 想定の範囲内" },
-  { id: "w2646-s12", ja: "引き続きよろしくお願いします。", en: "Thank you, and I look forward to working with you.", note: "look forward to ~ing = ～を楽しみにする" }
+  { id: "w2646-s12", ja: "引き続きよろしくお願いします。", en: "Thank you, and I look forward to working with you.", note: "look forward to ~ing = ～を楽しみにする" },
+  { id: "w2647-s01", ja: "お忙しいところ恐れ入ります。", en: "I'm sorry to bother you when you're busy.", note: "sorry to bother you = お忙しいところ恐れ入ります" },
+  { id: "w2647-s02", ja: "こちらで対応いたします。", en: "I'll handle it on our end.", note: "on our end = こちら側で" },
+  { id: "w2647-s03", ja: "認識に相違があるようです。", en: "It seems we have a different understanding.", note: "different understanding = 認識の相違" },
+  { id: "w2647-s04", ja: "念のため、書面で残しておきましょう。", en: "Just in case, let's put it in writing.", note: "put it in writing = 書面にする" },
+  { id: "w2647-s05", ja: "その案には賛成しかねます。", en: "I'm afraid I can't agree with that idea.", note: "I'm afraid I can't ~ = 残念ながら～できません" },
+  { id: "w2647-s06", ja: "現時点では何とも言えません。", en: "I can't say for certain at this point.", note: "at this point = 現時点では" },
+  { id: "w2647-s07", ja: "優先順位をつけて進めましょう。", en: "Let's prioritize and move forward.", note: "prioritize = 優先順位をつける" },
+  { id: "w2647-s08", ja: "追加の費用が発生する可能性があります。", en: "Additional costs may arise.", note: "arise = 生じる・発生する" },
+  { id: "w2647-s09", ja: "ご協力に感謝いたします。", en: "I appreciate your cooperation.", note: "appreciate = 感謝する" },
+  { id: "w2647-s10", ja: "念のため控えを取っておきます。", en: "I'll keep a copy, just to be safe.", note: "keep a copy = 控えを取る" },
+  { id: "w2647-s11", ja: "そろそろお時間でしょうか。", en: "Are we about out of time?", note: "out of time = 時間切れ" },
+  { id: "w2647-s12", ja: "本日はありがとうございました。", en: "Thank you for your time today.", note: "Thank you for your time = お時間をありがとうございます" }
 ];
 
 /* 型・表現の追加（phrases.js の items と同スキーマ: {id, en, ja, tip}） */
@@ -665,6 +677,24 @@ KE_DATA.extraShadowing = [
       { s: "A", en: "Of course. Would Tuesday afternoon suit you?", ja: "もちろんです。火曜の午後はご都合いかがでしょう？" },
       { s: "B", en: "Tuesday afternoon works. I'll look forward to it.", ja: "火曜の午後で大丈夫です。楽しみにしています。" }
     ]
+  },
+  {
+    id: "w2647-sh1",
+    title: "注文の遅れに関する問い合わせ対応（電話）",
+    level: "★★☆",
+    description: "届くはずの商品がまだ来ないという顧客からの電話に、状況を確認し丁寧に対応する場面。",
+    lines: [
+      { s: "A", en: "Hello, I'm calling about an order that hasn't arrived yet.", ja: "もしもし、まだ届かない注文の件でお電話しました。" },
+      { s: "B", en: "I'm sorry to hear that. May I have your order number?", ja: "申し訳ございません。ご注文番号を伺えますか？" },
+      { s: "A", en: "Yes, it's 4-5-8-2.", ja: "はい、4582です。" },
+      { s: "B", en: "Thank you. Let me check that for you right away.", ja: "ありがとうございます。すぐにお調べいたします。" },
+      { s: "A", en: "It was supposed to arrive three days ago.", ja: "3日前に届くはずだったのですが。" },
+      { s: "B", en: "I see the problem. It seems the delivery was delayed at our warehouse.", ja: "問題が分かりました。弊社の倉庫で配送が遅れたようです。" },
+      { s: "A", en: "So when will it actually arrive?", ja: "では実際いつ届きますか？" },
+      { s: "B", en: "It will be sent today and should reach you by tomorrow.", ja: "本日発送し、明日までにはお届けできる見込みです。" },
+      { s: "A", en: "All right. Thank you for checking.", ja: "わかりました。確認してくださってありがとうございます。" },
+      { s: "B", en: "I'm very sorry for the inconvenience. Please let us know if there's anything else.", ja: "ご不便をおかけして大変申し訳ございません。他に何かございましたらお知らせください。" }
+    ]
   }
 ];
 
@@ -897,6 +927,18 @@ KE_DATA.extraPrep = [
   {
     id: "w2646-t03", ja: "企業は従業員が副業を持つことを認めるべきだと思いますか？", en: "Should companies allow their employees to have side jobs?",
     sample: { point: "Yes, I believe companies should generally allow side jobs, within sensible limits.", reason: "The main reason is that a side job can help workers earn more, learn new skills, and feel more satisfied, which can even benefit their main job.", example: "For example, an employee who writes or designs on the side may bring fresh ideas and energy back to their regular work.", point2: "So as long as the side job does not harm their performance or compete with the company, allowing it is wise." }
+  },
+  {
+    id: "w2647-t01", ja: "企業は環境への配慮を事業の最優先事項の一つにすべきだと思いますか？", en: "Should companies make protecting the environment one of their top priorities?",
+    sample: { point: "Yes, I believe companies should treat protecting the environment as one of their top priorities.", reason: "The main reason is that businesses use a lot of energy and resources, so their choices have a big effect on the planet, and customers increasingly prefer responsible companies.", example: "For example, a factory that reduces waste and uses cleaner energy not only helps the environment but can also save money and attract loyal customers.", point2: "So caring for the environment is not just a duty, but can also be good for business in the long run." }
+  },
+  {
+    id: "w2647-t02", ja: "都会で暮らすのと田舎で暮らすのとでは、どちらが良いと思いますか？", en: "Is it better to live in a big city or in the countryside?",
+    sample: { point: "I think it depends on the person, but for me a quieter life in or near the countryside is more appealing.", reason: "The main reason is that the countryside offers clean air, more space, and a slower pace, while cities offer more jobs, shops, and things to do.", example: "For example, a young person building a career may need the many opportunities of a city, while a family with children might prefer the safety and nature of a smaller town.", point2: "So the best choice really depends on what stage of life you are in and what you value most." }
+  },
+  {
+    id: "w2647-t03", ja: "親は子どもに早いうちからスマートフォンを持たせるべきだと思いますか？", en: "Should parents give children a smartphone at an early age?",
+    sample: { point: "I think children can have a smartphone, but not too early, and always with clear rules.", reason: "The main reason is that a phone can help children stay safe and learn, yet too much screen time can harm their sleep, study, and real friendships.", example: "For example, a simple phone may help a child contact their parents on the way home, but giving a very young child full internet access can expose them to things they are not ready for.", point2: "So rather than a fixed age, what matters most is choosing the right time and setting sensible limits." }
   }
 ];
 
