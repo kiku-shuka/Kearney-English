@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-23",
+    passages: [
+      {
+        id: "d1123-1",
+        title: "What Are Taxes and Why Do We Pay Them?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Almost everyone, in almost every country, pays taxes. When you earn money from a job, a part of it goes to the government. When you buy something in a shop, a little extra is often added to the price. This money, collected by the government from its people and businesses, is called tax. But where does all this money go, and why do we have to pay it?\n\nThe simple answer is that taxes pay for the many things that we all share and use together. Think about the roads you travel on, the street lights at night, or the public parks where children play. Think about schools, hospitals, the police, and firefighters. These services are used by everyone, but they are very expensive to provide. No single person could pay for a hospital or a national road system alone.\n\nSo instead, everyone contributes a share through taxes, and the government uses this large pool of money to provide these services for the whole community. In this way, taxes are a kind of shared payment for a shared life.\n\nThere are different kinds of taxes. Some are taken from the money people earn. Others are added to things we buy. Governments also use taxes to help people in need, such as the elderly, the sick, or those without work.\n\nOf course, people often argue about how high taxes should be, and how the money should be spent. But the basic idea is simple and old: by pooling our money together, we can build and enjoy things that none of us could ever afford on our own.",
+        summaryJa: "税金とは何か、なぜ払うのかについて。ほぼどの国でも、ほぼ誰もが税金を払う。仕事でお金を稼ぐと、その一部が政府へ行く。店で何か買うと、値段に少し上乗せされることが多い。政府が国民や企業から集めるこのお金を税という。だがこのお金はどこへ行き、なぜ払わねばならないのか。単純な答えは、税金が、私たちみなが共有し一緒に使う多くのものの費用を賄うということだ。通る道路、夜の街灯、子どもが遊ぶ公園を考えよう。学校、病院、警察、消防を考えよう。これらは誰もが使うが、提供するのに非常に費用がかかる。一人で病院や国の道路網を払える人はいない。だから代わりに、みなが税金で分担を出し、政府はこの大きな資金の集まりを使い、地域全体にこうしたサービスを提供する。税金は共有の暮らしへの共有の支払いの一種だ。税にはいろいろある。稼いだお金から取られるもの、買う物に加えられるものがある。政府は高齢者・病人・無職の人など困っている人を助けるのにも使う。税の高さや使い道で人々はよく議論する。だが基本の考えは単純で古い。お金を出し合えば、一人では決して賄えないものを築き楽しめる。",
+        quiz: [
+          { q: "What is tax?", options: ["Money collected by the government from people and businesses", "A kind of shop", "A private savings account"], answer: 0 },
+          { q: "What do taxes mainly pay for?", options: ["Shared services like roads, schools, hospitals, and firefighters", "Only the government's holidays", "Nothing at all"], answer: 0 },
+          { q: "What is the basic idea behind taxes?", options: ["By pooling money together, we can afford things no one could alone", "To make everyone poor", "To waste money on purpose"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1123-2",
+        title: "How Does a Microwave Oven Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "A microwave oven can heat a bowl of soup or a plate of leftovers in just a minute or two, far faster than a normal oven. Even more strangely, it heats the food while the plate stays cool and the oven itself does not get hot. How can it cook food so quickly, seemingly from the inside, without any flame or glowing element?\n\nThe secret is a special kind of invisible energy wave, called a microwave. These waves are a bit like radio waves or the waves that carry light, but they have one very useful property: they are very good at giving their energy to water.\n\nAlmost all food contains water, hidden inside it. When you turn on a microwave oven, it fills the inside with these microwaves. The waves pass easily through the plate and into the food, where they reach the tiny particles of water.\n\nHere is the clever part. The microwaves make these water particles vibrate, shaking back and forth incredibly fast, millions of times a second. When any particles move and rub against each other like this, they create heat. So the water inside the food heats up, and this heat spreads through the whole dish, cooking it.\n\nThis explains the mysteries. The plate stays cooler because it usually contains little or no water, so the microwaves pass through it without heating it much. And the food heats quickly because the waves reach the water throughout the food, not just on the surface.\n\nSo a microwave oven cooks not with fire, but by shaking the water already hidden inside your food.",
+        summaryJa: "電子レンジの仕組みについて。電子レンジはスープ一杯や残り物の皿を、普通のオーブンよりはるかに速く、ほんの一、二分で温められる。さらに不思議なことに、皿は冷たいまま、レンジ自体も熱くならずに食べ物を温める。炎も光る発熱体もないのに、なぜ内側からのように素早く調理できるのか。秘密はマイクロ波という特別な目に見えないエネルギーの波だ。この波は電波や光を運ぶ波に少し似ているが、とても有用な性質が一つある。水にエネルギーを与えるのが非常に得意なのだ。ほぼすべての食べ物は内部に水を隠し持つ。電子レンジを入れると、内部がこのマイクロ波で満たされる。波は皿を楽に通り抜けて食べ物に入り、水の小さな粒子に達する。ここが巧妙だ。マイクロ波はこの水の粒子を振動させ、毎秒何百万回も信じられないほど速く前後に揺らす。粒子が動いて互いにこすれ合うと熱が生じる。だから食べ物の中の水が熱くなり、この熱が皿全体に広がって調理する。皿が冷たいのは水をほとんど含まないからで、波はあまり熱さず通り抜ける。炎でなく、食べ物に隠れた水を揺らして調理するのだ。",
+        quiz: [
+          { q: "What are microwaves especially good at?", options: ["Giving their energy to water", "Making bright light", "Freezing food"], answer: 0 },
+          { q: "How do microwaves heat the food?", options: ["They make the water particles vibrate fast, which creates heat", "They set the food on fire", "They blow hot air on it"], answer: 0 },
+          { q: "Why does the plate stay cooler than the food?", options: ["It usually contains little or no water, so microwaves pass through it", "It is made of ice", "The food protects it"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1123-3",
+        title: "What Is World Heritage?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Scattered across our planet are some truly extraordinary places. There are ancient temples and pyramids built thousands of years ago, breathtaking mountains and forests, and historic city centres full of beautiful old buildings. Some of these places are so important and so special that they are considered to belong, in a sense, not just to one country, but to all of humanity. These are known as World Heritage sites.\n\nThe idea behind World Heritage is a hopeful one. It says that certain places are so valuable, either for their natural beauty or for their human history, that the whole world has a shared duty to protect them. The goal is to keep them safe, so that not only we, but also our children and their children far into the future, can see and enjoy them.\n\nAn international organisation keeps an official list of these special places. To be added to the list, a site must be judged to have outstanding value for all people. Famous examples include ancient wonders, great natural parks, and historic old towns from every part of the world.\n\nOnce a place is named a World Heritage site, countries agree to work together to protect it. This may mean guarding it from damage, helping to repair it, or supporting poorer nations that cannot afford to care for a treasure on their own.\n\nSo World Heritage is a beautiful example of global cooperation. It reflects the idea that the greatest treasures of our planet and our history are a gift shared by everyone, and a responsibility shared by all.",
+        summaryJa: "世界遺産とは何かについて。惑星の各地に、実に並外れた場所が点在する。何千年も前に建てられた古代の寺院やピラミッド、息をのむ山や森、美しい古い建物に満ちた歴史的な市街地。こうした場所の一部はあまりに重要で特別なので、ある意味で一国だけでなく全人類に属すると見なされる。これが世界遺産だ。世界遺産の背後の考えは希望に満ちる。ある場所は、自然の美しさゆえ、あるいは人類の歴史ゆえにあまりに価値が高く、世界全体にそれを守る共有の務めがあるというのだ。目的はそれらを安全に保ち、私たちだけでなく、はるか未来の子や孫も見て楽しめるようにすることだ。ある国際機関がこうした特別な場所の公式の一覧を管理する。一覧に加わるには、全ての人にとって傑出した価値があると判断されねばならない。有名な例には、古代の驚異、大自然の公園、世界各地の歴史的な古い町がある。世界遺産に選ばれると、国々は協力して守ると合意する。損傷から守り、修復を助け、自力で守れない貧しい国を支えることもある。地球規模の協力の美しい例だ。",
+        quiz: [
+          { q: "What is the idea behind World Heritage?", options: ["Certain places are so valuable that the whole world should protect them", "Only rich people may visit them", "They should be sold to the highest bidder"], answer: 0 },
+          { q: "Why might a place be named a World Heritage site?", options: ["For its outstanding natural beauty or human history", "Because it is new and modern", "Because it is cheap to build"], answer: 0 },
+          { q: "What do countries agree to do for a World Heritage site?", options: ["Work together to protect it, even helping poorer nations", "Ignore it completely", "Hide it from everyone"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1123-4",
+        title: "Labor Thanksgiving Day: A Japanese Holiday",
+        level: "★★☆",
+        genre: "日本",
+        text: "On the 23rd of November each year, Japan celebrates a national holiday called Labor Thanksgiving Day. On this day, people across the country have a day off from work and school. But it is more than just a day of rest. It is a day set aside to think about the value of work, and to feel grateful for the things that work produces.\n\nThe holiday has deep and ancient roots. For a very long time, around this time of year, Japan held a traditional harvest festival. This was a time to give thanks to nature for a good rice harvest, the food that would feed the people through the coming winter. The modern holiday grew out of this old tradition of gratitude.\n\nToday, the meaning has become broader. Labor Thanksgiving Day is about appreciating all kinds of work and the people who do it, from farmers and factory workers to doctors, teachers, and everyone whose effort helps society run. It is a day to recognise that the comfortable life we enjoy is built on the hard work of countless people.\n\nIn some schools, children make small gifts or draw pictures to thank the workers in their community, such as police officers, firefighters, or local shopkeepers.\n\nIn our busy modern lives, it is easy to take the work of others for granted. Labor Thanksgiving Day offers a gentle, yearly reminder to pause and feel thankful, not only for the food on our tables, but for the effort of all the people who help make our daily lives possible.",
+        summaryJa: "勤労感謝の日、日本の祝日について。毎年十一月二十三日、日本は勤労感謝の日という国民の祝日を祝う。この日、全国の人々が仕事や学校を休む。だが単なる休みの日以上だ。働くことの価値を考え、働きが生み出すものに感謝するために設けられた日だ。この祝日には深く古い由来がある。非常に長い間、この時期に日本は伝統的な収穫祭を行った。良い米の収穫、来る冬の間人々を養う食べ物を自然に感謝する時だった。現代の祝日はこの古い感謝の伝統から生まれた。今日、意味はより広くなった。勤労感謝の日は、農家や工場労働者から医師、教師まで、努力が社会を動かすあらゆる種類の仕事とそれをする人々に感謝することだ。私たちの快適な生活が数えきれぬ人々の努力の上に築かれていると認める日だ。学校によっては、子どもが小さな贈り物を作ったり絵を描いたりして、警察官・消防士・地元の店主など地域の働く人に感謝する。忙しい現代の生活では他者の働きを当たり前に思いがちだ。勤労感謝の日は、立ち止まって感謝する穏やかな年に一度の機会を与えてくれる。",
+        quiz: [
+          { q: "What is Labor Thanksgiving Day about?", options: ["Thinking about the value of work and being grateful for what it produces", "A day only for shopping", "A day to do extra work"], answer: 0 },
+          { q: "What are the holiday's ancient roots?", options: ["A traditional harvest festival giving thanks for a good rice harvest", "A famous battle", "The building of a castle"], answer: 0 },
+          { q: "What do children in some schools do on this day?", options: ["Make gifts or draw pictures to thank community workers", "Stay up all night", "Refuse to go outside"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1123-5",
+        title: "Why Do We Have Fingerprints?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Look closely at the tip of one of your fingers. You will see a pattern of tiny lines, curving into loops, arches, and swirls. These are your fingerprints. They are so familiar that we rarely think about them. Yet they hold two fascinating secrets: every person's fingerprints are unique, and scientists are still not completely certain why we have them at all.\n\nFirst, the uniqueness. The pattern of lines on your fingertips is yours alone. Even identical twins, who share the same genes, have slightly different fingerprints. This is because the patterns are shaped partly by tiny, random events before a baby is born. Because every set of fingerprints is different, they have long been used to identify people, for example in solving crimes.\n\nBut why do we have these ridged patterns in the first place? For a long time, the most popular idea was that fingerprints help us to grip. The theory was that the tiny ridges work like the tread on a car tyre, helping our fingers hold onto smooth or wet objects without slipping. This idea makes sense, though some scientists have questioned how much the ridges really help.\n\nAnother interesting idea is that the ridges make our fingertips more sensitive to touch. As a finger moves across a surface, the ridges may vibrate, helping tiny sensors in the skin feel fine details and textures more clearly.\n\nSo your fingerprints are both a unique signature, found on no one else in the world, and a small, clever tool, quietly helping you grip and feel the world around you.",
+        summaryJa: "なぜ指紋があるのかについて。指先の一つをよく見てみよう。小さな線が曲がって輪や弓、渦を描く模様が見える。これが指紋だ。あまりに身近でめったに考えない。だが二つの魅力的な秘密を持つ。各人の指紋は唯一無二であること、そしてなぜ指紋があるのか科学者はまだ完全には確信していないことだ。まず唯一性。指先の線の模様はあなただけのものだ。同じ遺伝子を持つ一卵性双生児でさえ、指紋はわずかに異なる。模様が、赤ちゃんが生まれる前の小さく偶然の出来事に部分的に形づくられるからだ。どの指紋も違うので、長らく人の識別に、例えば犯罪の解決に使われてきた。だがそもそもなぜこの隆起した模様があるのか。長い間、最も有力な考えは、指紋が握るのを助けるというものだった。小さな隆起が車のタイヤの溝のように働き、滑らかな・濡れた物を滑らずつかむのを助けるという説だ。理にかなうが、隆起が本当にどれだけ助けるか疑う科学者もいる。もう一つの興味深い考えは、隆起が指先を触覚に敏感にするというものだ。指が面を動くと隆起が振動し、肌の小さなセンサーが細かな細部や質感をより鮮明に感じる助けになるのかもしれない。唯一の署名であり巧妙な道具だ。",
+        quiz: [
+          { q: "What is special about each person's fingerprints?", options: ["They are unique; even identical twins differ slightly", "They are all exactly the same", "They change every day"], answer: 0 },
+          { q: "What was the most popular idea about why we have fingerprints?", options: ["The ridges help us grip smooth or wet objects, like a tyre's tread", "They make our hands bigger", "They store water"], answer: 0 },
+          { q: "What is another interesting idea about the ridges?", options: ["They make our fingertips more sensitive to touch and texture", "They help us see", "They produce heat"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-22",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "When do the most vivid dreams usually occur?", options: ["During a stage of sleep when the brain is surprisingly active", "Only when we are fully awake", "Only in the morning"], answer: 0 },
           { q: "What is one popular theory about why we dream?", options: ["Dreaming helps the brain sort and store memories", "Dreams clean our teeth", "Dreams make us taller"], answer: 0 },
           { q: "What is another idea about the purpose of dreams?", options: ["They help us process our emotions in the safety of sleep", "They stop the heart", "They have no effect on the mind"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-16",
-    passages: [
-      {
-        id: "d1116-1",
-        title: "What Is a Budget?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Imagine setting off on a long journey without a map, simply driving in whatever direction feels right. You might get somewhere, but you would probably waste time, fuel, and money. Managing money without a plan is rather similar. To avoid this, people and businesses use a simple but powerful tool called a budget.\n\nA budget is basically a plan for money. It looks ahead over a period of time, such as a month or a year, and compares two things: the money expected to come in, and the money expected to go out. For a family, the money coming in is mainly wages, and the money going out is rent, food, bills, and other costs. For a business, it is sales coming in, and wages, materials, and other costs going out.\n\nMaking a budget has several benefits. First, it shows whether you are living within your means. If more money is going out than coming in, the budget reveals this problem early, before it becomes a crisis. Second, a budget helps you set priorities. By planning ahead, you can make sure there is enough money for the things that matter most, and perhaps save some for the future.\n\nA budget is not meant to be a prison. It is a guide that gives you control and peace of mind. It helps you decide where your money should go, rather than wondering, at the end of the month, where it all went.\n\nWhether for a single person or a huge company, a good budget is the first step towards using money wisely and reaching your goals.",
-        summaryJa: "予算（バジェット）とは何かについて。地図も持たず、ただ正しそうな方向へ車を走らせて長い旅に出ることを想像しよう。どこかには着くかもしれないが、時間も燃料も金も無駄にするだろう。計画なしの金の管理もよく似ている。これを避けるため、人も企業も予算という簡素だが強力な道具を使う。予算は基本的に金の計画だ。一か月や一年といった期間を見通し、二つを比べる。入ってくると見込む金と、出ていくと見込む金だ。家庭なら入るのは主に給料、出るのは家賃・食費・光熱費などだ。企業なら入るのは売上、出るのは給料・材料費などだ。予算を作る利点はいくつかある。第一に、身の丈に合った暮らしをしているか示す。入るより出る方が多ければ、危機になる前に早く問題を明らかにする。第二に、優先順位を決める助けになる。前もって計画すれば、最も大切なことに十分な金を確保し、将来のために蓄えられる。予算は牢獄ではなく、主導権と安心を与える指針だ。金がどこへ行くべきか決める助けになる。賢く金を使い目標に達する第一歩だ。",
-        quiz: [
-          { q: "What is a budget?", options: ["A plan comparing money expected to come in and money expected to go out", "A type of bank", "A kind of loan"], answer: 0 },
-          { q: "What does a budget reveal early?", options: ["Whether more money is going out than coming in", "The weather next week", "Who your friends are"], answer: 0 },
-          { q: "How is a budget best understood?", options: ["As a guide that gives you control and peace of mind", "As a prison that controls you", "As a way to lose money"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1116-2",
-        title: "How Does a Lightbulb Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "With a simple flick of a switch, a dark room fills with light. We do this countless times, rarely wondering how a small glass bulb can turn invisible electricity into bright, useful light. The traditional lightbulb, invented well over a hundred years ago, does this with a wonderfully simple idea: it makes something so hot that it glows.\n\nInside a traditional bulb is a very thin coil of metal wire, called the filament. This filament is usually made of a metal that can survive extremely high temperatures without melting. When you turn on the switch, electricity flows through this thin wire.\n\nHere is the key. The filament is so thin that it strongly resists the flow of electricity. As the electricity pushes through, this resistance makes the wire heat up, and heat up, until it becomes incredibly hot, far hotter than a kitchen oven. Any object that gets hot enough begins to glow, first red, then orange, then brilliant white. The filament becomes so hot that it shines with a bright white light. This is the light we see.\n\nThere is one more clever detail. If the hot metal filament were surrounded by ordinary air, it would quickly burn up. To prevent this, the air is removed from inside the glass bulb, or it is filled with a special gas that does not let the filament burn. This allows the filament to glow for a long time without being destroyed.\n\nSo a simple lightbulb works by using electricity to heat a thin wire until it shines, turning the flow of power into the gift of light.",
-        summaryJa: "電球の仕組みについて。スイッチを軽く入れるだけで、暗い部屋が光で満ちる。私たちは数えきれぬほどこれを行うが、小さなガラスの球がどうやって目に見えない電気を明るく役立つ光に変えるのか、めったに考えない。百年以上前に発明された昔ながらの電球は、実に単純な考えでこれを行う。何かを非常に熱くして光らせるのだ。昔ながらの電球の中には、フィラメントという非常に細い金属線のコイルがある。たいてい極めて高い温度でも溶けない金属でできている。スイッチを入れると電気がこの細い線を流れる。ここが鍵だ。フィラメントはとても細いので電気の流れに強く抵抗する。電気が押し通ると、この抵抗で線が熱くなり続け、台所のオーブンよりはるかに熱い、信じられないほど高温になる。十分熱くなった物は光り始め、まず赤、次に橙、そして輝く白になる。フィラメントは非常に熱くなり明るい白い光で輝く。これが見える光だ。もう一つ巧妙な点がある。熱い金属線が普通の空気に囲まれていればすぐ燃え尽きる。防ぐため、ガラス球の中の空気は抜かれるか、燃えさせない特別な気体で満たされる。これで長く光れる。",
-        quiz: [
-          { q: "What is the filament in a lightbulb?", options: ["A very thin coil of metal wire that glows when heated", "A small battery", "A drop of water"], answer: 0 },
-          { q: "Why does the filament heat up?", options: ["It is so thin that it strongly resists the flow of electricity", "It is filled with fire", "It is rubbed by hand"], answer: 0 },
-          { q: "Why is the air removed from inside the bulb?", options: ["So the hot filament does not quickly burn up", "To make the bulb lighter", "To store light inside"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1116-3",
-        title: "Why Does Money Have Different Values in Different Countries?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "If you travel from one country to another, one of the first things you must do is change your money. You hand over the money of your home country and receive a different kind of money in return. Strangely, you do not always get the same amount back. One unit of your money might buy two units of another country's money, or only half a unit of a third. Why does money have these different values around the world?\n\nAlmost every country has its own money, called its currency. The value of one currency compared to another is called the exchange rate, and this rate is constantly changing. It is decided mainly by supply and demand, just like the price of anything else.\n\nThink of a country's currency as a product that people around the world may want to buy or sell. If a country's economy is strong, and many people want to buy its goods, invest there, or visit as tourists, they will need its currency. This high demand tends to make the currency more valuable. If people lose confidence in a country's economy, demand for its currency falls, and its value tends to drop.\n\nMany things affect this: how healthy a country's economy is, how stable its government seems, and how much its goods are wanted. Because these conditions change daily, exchange rates move up and down all the time.\n\nSo the different values of money reflect the ever-changing confidence of the world in each country's economy, a quiet daily vote on how each nation is doing.",
-        summaryJa: "なぜ国によってお金の価値が違うのかについて。ある国から別の国へ旅すると、まずしなければならないことの一つが両替だ。自国のお金を渡して別の種類のお金を受け取る。不思議なことに、いつも同じ額が返るわけではない。自国のお金一単位が別の国のお金二単位を買えることも、三つ目の国のお金半単位しか買えないこともある。なぜお金は世界でこう違う価値を持つのか。ほぼどの国も自国のお金、通貨を持つ。ある通貨の別の通貨に対する価値を為替レートといい、常に変わっている。主に需要と供給で決まる。他の何の値段とも同じだ。国の通貨を、世界の人々が買ったり売ったりしたい商品と考えよう。経済が強く、その国の商品を買いたい、投資したい、観光したい人が多ければ、その通貨が必要になる。この高い需要は通貨の価値を上げる傾向がある。国の経済への信頼が失われれば、通貨の需要は下がり、価値も下がる傾向がある。経済の健全さ、政府の安定、商品の人気など多くが影響する。こうした条件は日々変わるので、為替レートは絶えず上下する。お金の価値の違いは、各国経済への世界の変わりゆく信頼を映す。",
-        quiz: [
-          { q: "What is an 'exchange rate'?", options: ["The value of one currency compared to another", "A fee for entering a country", "A kind of bank account"], answer: 0 },
-          { q: "What mainly decides a currency's value?", options: ["Supply and demand, like the price of anything else", "The color of the money", "The number of coins printed"], answer: 0 },
-          { q: "What tends to make a currency more valuable?", options: ["High demand, when many people want that country's goods or to invest there", "A weak economy", "No one wanting the currency"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1116-4",
-        title: "The Japanese Love of Punctuality",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, if a friend says they will meet you at three o'clock, they might arrive at ten past three, and no one thinks much of it. In Japan, however, time is treated very differently. Being on time, to the exact minute, is deeply important, and this careful respect for time is a famous and striking feature of Japanese life.\n\nPerhaps the most famous example is Japan's trains. The country's railways are known around the world for being astonishingly punctual. Trains are expected to arrive and depart exactly on schedule, and a delay of even a minute or two is considered a real problem. If a train is late, the railway company may even apologise to its passengers.\n\nThis attitude goes far beyond trains. In schools and workplaces, arriving late is seen as a sign of carelessness and a lack of respect for others. In fact, many Japanese people believe that to be truly polite, you should arrive a little early, not just exactly on time. Arriving five minutes before a meeting is often considered normal.\n\nWhy does this matter so much? At its heart, punctuality in Japan is a form of respect. By being on time, you show that you value other people and do not want to waste their time. It reflects a wider cultural idea that caring for others and the smooth running of society are very important.\n\nFor a visitor, this can take some getting used to. But it also means that in Japan, you can usually rely on things happening exactly when they are supposed to.",
-        summaryJa: "日本の時間厳守の精神について。多くの国では、友人が三時に会おうと言って三時十分に現れても、誰も気にしない。だが日本では時間はまったく違って扱われる。分単位で正確に時間を守ることが深く重要で、この時間への細やかな敬意は日本の生活の有名で際立つ特徴だ。おそらく最も有名な例は日本の電車だ。日本の鉄道は驚くほど正確なことで世界中に知られる。電車は時刻どおりに発着すると期待され、一、二分の遅れさえ本当の問題とされる。遅れれば鉄道会社が乗客に謝ることさえある。この姿勢は電車をはるかに超える。学校や職場で遅刻は、不注意や他者への敬意の欠如の印と見なされる。実際、本当に礼儀正しくあるには、ちょうど時間どおりでなく少し早く着くべきだと多くの日本人が考える。会議の五分前に着くのがよく普通とされる。なぜそれほど大切なのか。根本的に、日本の時間厳守は敬意の一形態だ。時間を守ることで、他人を尊重しその時間を無駄にしたくないと示す。他者への配慮と社会の円滑な運営を重んじる広い文化的考えを映す。訪問者には慣れが要るが、物事が予定どおりに起こると頼れることでもある。",
-        quiz: [
-          { q: "What is a famous example of Japanese punctuality?", options: ["The trains, which are astonishingly punctual", "The weather", "The food"], answer: 0 },
-          { q: "What do many Japanese people believe about being polite with time?", options: ["You should arrive a little early, not just exactly on time", "You should always arrive late", "Time does not matter"], answer: 0 },
-          { q: "At its heart, what is punctuality in Japan?", options: ["A form of respect for other people and their time", "A way to earn money", "A kind of game"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1116-5",
-        title: "How Do Birds Fly?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "For thousands of years, humans looked up at birds gliding through the sky and dreamed of flying too. A bird makes it look so easy, rising into the air and soaring on the wind. But flight is a remarkable feat, and it depends on a clever combination of a bird's body, its wings, and the air itself.\n\nThe secret to staying up in the air is a force called lift. Lift is what pushes a bird upward, against the pull of gravity. The main source of lift is the special shape of a bird's wing. A wing is not flat. It is curved on top and flatter underneath. As the bird moves forward, air flows over and under the wing. Because of the curved shape, the air moving over the top has to travel a little faster, and this creates lower pressure above the wing than below it. The higher pressure underneath then pushes the wing, and the bird, upward.\n\nBut lift alone is not enough. To create this flow of air over the wings, the bird must move forward. Birds do this by flapping their wings, which pushes air backwards and drives the bird ahead, rather like rowing through the air. Once moving fast enough, the wings can also be held still to glide.\n\nBirds are beautifully built for this. Their bones are light, often hollow, and their feathers are both strong and incredibly light.\n\nSo a bird flying overhead is quietly obeying the laws of science, using the shape of its wings and the power of its muscles to turn moving air into the miracle of flight.",
-        summaryJa: "鳥はどうやって飛ぶのかについて。何千年もの間、人間は空を滑る鳥を見上げ、自分も飛ぶことを夢見た。鳥はいとも簡単そうに空へ上がり、風に乗って舞う。だが飛行は見事な技で、鳥の体・翼、そして空気そのものの巧妙な組み合わせに頼る。空中にとどまる秘密は揚力という力だ。揚力は重力の引っ張りに逆らって鳥を上へ押す。揚力の主な源は鳥の翼の特別な形だ。翼は平らでなく、上側が湾曲し下側がより平らだ。鳥が前へ進むと、空気が翼の上と下を流れる。湾曲した形のため、上を流れる空気は少し速く進まねばならず、これが翼の上を下より低い圧力にする。すると下側の高い圧力が翼を、そして鳥を上へ押す。だが揚力だけでは足りない。この空気の流れを翼に作るには、鳥は前へ進まねばならない。鳥は翼を羽ばたいて空気を後ろへ押し、前へ進む。空中を漕ぐようだ。十分速く動けば、翼を静止させて滑空もできる。鳥はこのために美しく作られている。骨は軽くしばしば中空で、羽は丈夫で非常に軽い。鳥は科学の法則に静かに従っているのだ。",
-        quiz: [
-          { q: "What force pushes a bird upward against gravity?", options: ["Lift", "Gravity", "Cold"], answer: 0 },
-          { q: "What is the main source of lift?", options: ["The special curved shape of a bird's wing", "The color of the feathers", "The bird's song"], answer: 0 },
-          { q: "Why do birds flap their wings?", options: ["To push air backwards and move forward, creating airflow over the wings", "To keep warm only", "To make noise"], answer: 0 }
         ]
       }
     ]
