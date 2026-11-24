@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-24",
+    passages: [
+      {
+        id: "d1124-1",
+        title: "What Is a Loan?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Sometimes a person or a business needs a large amount of money that they do not yet have. A young couple may want to buy a house, or a baker may want to open a new shop. Saving up the full amount could take many years, by which time the chance may be gone. For situations like these, there is a very useful tool: the loan.\n\nA loan is simply an amount of money that is borrowed, usually from a bank, and must be paid back over time. The person who borrows receives the money they need right away. In return, they promise to repay it, usually in small, regular amounts over months or years.\n\nBut the borrower must pay back more than they borrowed. The extra amount is called interest, and it is the cost of borrowing the money. It is how the bank earns a profit for lending, and for taking the risk that the loan might not be repaid.\n\nLoans can be very helpful. They allow people to buy important things, like a home, or to start a business that can earn money in the future. In this way, a loan lets you use money now and pay for it gradually, from the income you earn later.\n\nHowever, loans must be used carefully. Because of the interest, borrowing is never free, and borrowing too much can become a heavy burden. If a person cannot make their repayments, they can get into serious trouble.\n\nSo a loan is a powerful tool. Used wisely, it opens doors that savings alone could not. Used carelessly, it can become a weight that is hard to carry.",
+        summaryJa: "ローン（融資・借入）とは何かについて。人や企業が、まだ持っていない大きなお金を必要とすることがある。若い夫婦が家を買いたい、パン屋が新しい店を開きたいなど。全額を貯めるには何年もかかり、その頃には好機が去っているかもしれない。こうした状況のため、とても役立つ道具がある。ローンだ。ローンとは単に、たいてい銀行から借りて、時間をかけて返さねばならないお金だ。借りる人は必要なお金をすぐ受け取る。見返りに、たいてい数か月から数年かけて少しずつ定期的に返すと約束する。だが借り手は借りた以上を返さねばならない。この追加分を利子（金利）といい、お金を借りる費用だ。銀行が貸すこと、そして返されない危険を負うことで利益を得る仕組みだ。ローンはとても役立つ。家など大切な物を買ったり、将来お金を生む事業を始めたりできる。今お金を使い、後で稼ぐ収入から少しずつ払えるのだ。だが慎重に使わねばならない。利子ゆえ借りるのは無料でなく、借りすぎると重い負担になる。返済できなければ深刻な事態になりうる。賢く使えば貯金だけでは開けない扉を開くが、不注意だと重荷になる。",
+        quiz: [
+          { q: "What is a loan?", options: ["Money borrowed that must be paid back over time", "Money given for free", "A kind of shop"], answer: 0 },
+          { q: "Why must a borrower pay back more than they borrowed?", options: ["The extra, called interest, is the cost of borrowing the money", "To punish them", "There is no extra to pay"], answer: 0 },
+          { q: "What is a danger of loans?", options: ["Borrowing too much can become a heavy burden that is hard to repay", "They are always completely free", "They can never be repaid at all"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1124-2",
+        title: "How Does a Pump Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Water does not naturally flow uphill. Yet in our modern world, water travels up into tall buildings, out of deep wells, and through long pipes to reach our homes. How is this possible? The answer is a quiet, essential machine that works tirelessly behind the scenes: the pump. A pump is simply a device for moving liquids, or sometimes gases, from one place to another.\n\nThere are many kinds of pump, but one common type works using a piston, rather like a bicycle pump for air. Imagine a tube with a tight-fitting piston that can slide up and down inside it, and two small one-way doors, called valves.\n\nWhen the piston is pulled up, it creates an empty, low-pressure space below it. Because nature does not like empty space, water is pushed up into this space from below, through a valve that opens to let it in. At the same time, a second valve stays shut, so no water escapes the wrong way.\n\nWhen the piston is then pushed down, the first valve closes, trapping the water. The pressure forces the second valve open, and the water is pushed out and onward through the pipe. By repeating this up-and-down motion again and again, the pump lifts and moves the water, little by little, continuously.\n\nModern pumps often use spinning parts instead of a piston, but the basic idea is the same: using clever movement and pressure to push a liquid where it would not go on its own.\n\nSo the pump is a hidden hero of modern life, quietly lifting water into our homes and keeping the liquids of our world flowing where we need them.",
+        summaryJa: "ポンプの仕組みについて。水は自然には上へ流れない。だが現代の世界では、水は高い建物へ上がり、深い井戸から出て、長い管を通って家々に届く。どうして可能なのか。答えは舞台裏でたゆまず働く静かで不可欠な機械、ポンプだ。ポンプとは単に、液体（時に気体）をある場所から別の場所へ動かす装置だ。多くの種類があるが、よくある一つはピストンを使い、空気用の自転車の空気入れに似ている。管の中にぴったり合うピストンが上下に滑り、弁という小さな一方通行の扉が二つあると想像しよう。ピストンを引き上げると、その下に空の低圧の空間ができる。自然は空の空間を嫌うので、水が下から弁を通って押し上げられる。同時にもう一つの弁は閉じたままで、水が逆に逃げない。次にピストンを押し下げると最初の弁が閉じて水を閉じ込め、圧力が二つ目の弁を開け、水が管へ押し出される。この上下運動を何度も繰り返し、水を少しずつ連続して持ち上げ動かす。現代のポンプはピストンの代わりに回転部品をよく使うが、基本の考えは同じだ。巧妙な動きと圧力で、自力では行かない所へ液体を押す。現代生活の隠れた立役者だ。",
+        quiz: [
+          { q: "What is a pump?", options: ["A device for moving liquids or gases from one place to another", "A kind of water bottle", "A type of pipe only"], answer: 0 },
+          { q: "What happens when the piston is pulled up?", options: ["A low-pressure space forms, and water is pushed up into it through a valve", "The water freezes", "Nothing happens"], answer: 0 },
+          { q: "What is the basic idea of a pump?", options: ["Using clever movement and pressure to push a liquid where it would not go alone", "Making water flow uphill by magic", "Heating water until it rises"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1124-3",
+        title: "What Is a Border?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "If you look at a map of the world, you will see it divided into many countries, each marked by a line around it. These lines are borders, the official edges that separate one country from another. On one side of the line, you are in one nation, with its own government, laws, and language. Take a step across, and you may be in a completely different country.\n\nBut borders are not natural things. The Earth itself has no lines drawn on it. Borders are created by people, through agreements between nations, and sometimes they have taken a very long time to decide.\n\nHow are borders chosen? Often, they follow natural features of the land. A great river or a tall mountain range makes a clear and convenient dividing line between two countries. In other places, borders are straight lines, simply agreed upon and drawn on a map.\n\nAt most borders, there are official crossing points, where travellers must stop. Here, guards may check people's passports, the documents that prove who they are and which country they belong to. This allows countries to know who is entering and leaving.\n\nBorders can be peaceful and open, with people and goods crossing freely and in friendship. Sadly, borders have also sometimes been places of disagreement, when two countries cannot agree on exactly where the line should be.\n\nIn the end, a border is more than just a line on a map. It marks where one community's rules end and another's begin. Understanding borders helps us understand how our world is organised into the many different nations that share it.",
+        summaryJa: "国境とは何かについて。世界地図を見ると、多くの国に分かれ、各国が周りの線で囲まれている。この線が国境、一国を別の国から隔てる公式の縁だ。線の一方では、独自の政府・法律・言語を持つある国にいる。一歩越えれば、まったく別の国にいるかもしれない。だが国境は自然のものではない。地球自体に線は描かれていない。国境は人が、国家間の合意によって作り、時に決めるのに非常に長い時間がかかった。国境はどう選ばれるのか。しばしば土地の自然の特徴に沿う。大きな川や高い山脈は、二国の明確で便利な境界線になる。他の場所では、国境は単に合意して地図に引いた直線のこともある。多くの国境には公式の通過地点があり、旅人は止まらねばならない。ここで警備員が、誰でどの国に属するかを証明する書類、パスポートを調べることがある。これで国は誰が出入りするか把握できる。国境は平和で開かれ、人や物が自由に友好的に行き来することもある。残念ながら、二国が線の位置で合意できないとき、争いの場になったこともある。国境は地図上の線以上で、ある共同体の規則が終わり別の規則が始まる所を示す。",
+        quiz: [
+          { q: "What is a border?", options: ["The official edge that separates one country from another", "A kind of road", "A type of money"], answer: 0 },
+          { q: "How are borders often chosen?", options: ["They often follow natural features, like a river or a mountain range", "They are chosen by the weather", "They move every day"], answer: 0 },
+          { q: "What might happen at an official border crossing?", options: ["Guards may check people's passports", "People must swim across", "Nothing is ever checked"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1124-4",
+        title: "Kendama: A Traditional Japanese Toy",
+        level: "★★☆",
+        genre: "日本",
+        text: "At first glance, a kendama looks like a very simple toy. It is a wooden object, a bit like a hammer or a cross, with three small cups and a sharp point, connected by a string to a ball with a hole in it. Yet this simple-looking toy has delighted and challenged people in Japan for generations, and it requires surprising skill to master.\n\nThe aim of the kendama is to catch the ball in different ways using only one smooth movement of the hand. The simplest trick is to swing the ball up and land it in one of the cups. A harder one is to flip the ball up and catch it perfectly on the sharp point, which fits into the hole in the ball. Skilled players can perform long chains of these tricks, one after another, in a smooth and graceful flow.\n\nThe kendama has been played in Japan for over a hundred years. It is loved partly because it is so simple and portable, needing no batteries or screens, yet it can be enjoyed for a lifetime. A beginner can learn the first catch in a few minutes, but a master can spend years inventing new and difficult tricks.\n\nPlaying with a kendama is more than just fun. It helps develop balance, patience, and concentration, as well as careful control of the body. It teaches the gentle lesson that steady practice brings improvement.\n\nIn recent years, the kendama has become popular far beyond Japan, with players and competitions around the world, proving that a simple wooden toy can bring joy across every border and culture.",
+        summaryJa: "けん玉、日本の伝統的なおもちゃについて。一見、けん玉はとても単純なおもちゃに見える。ハンマーか十字に少し似た木の物で、三つの小さな皿と鋭い先があり、穴の開いた玉と糸でつながっている。だがこの単純そうなおもちゃは、日本で何世代も人々を楽しませ挑ませてきて、習得には驚くほどの技が要る。けん玉の目的は、片手の一つの滑らかな動きだけで、様々な方法で玉を受けることだ。最も簡単な技は玉を振り上げて皿の一つに乗せること。より難しいのは玉を跳ね上げ、鋭い先に完璧に受けること。先が玉の穴に入る。熟練者はこうした技を次々と長くつなげ、滑らかで優雅な流れで行える。けん玉は日本で百年以上親しまれてきた。とても単純で持ち運べ、電池も画面も要らないのに、一生楽しめるから愛される。初心者は数分で最初の技を覚えられるが、達人は新しく難しい技の考案に何年も費やせる。けん玉遊びは楽しいだけでない。バランス・忍耐・集中、そして体の細やかな制御を育てる。地道な練習が上達を生むと教える。近年、日本をはるかに超えて人気になり、世界に選手や大会がある。",
+        quiz: [
+          { q: "What is the aim of the kendama?", options: ["To catch the ball in different ways using one smooth movement of the hand", "To throw the ball as far as possible", "To break the ball"], answer: 0 },
+          { q: "Why is the kendama loved?", options: ["It is simple and portable, yet can be enjoyed for a lifetime", "It needs many batteries", "It can only be played once"], answer: 0 },
+          { q: "What does playing with a kendama help develop?", options: ["Balance, patience, and concentration", "The ability to fly", "A loud voice"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1124-5",
+        title: "How Do Fish Breathe Underwater?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Like almost all animals, fish need oxygen to live. Our own bodies take oxygen from the air using our lungs. But a fish lives its whole life underwater, where there is no air to breathe. So how does a fish get the oxygen it needs? The answer lies in a remarkable body part and a simple, important fact about water.\n\nThe key fact is this: water is not just made of water. Mixed into it, there is a small amount of oxygen gas, dissolved invisibly in the water, rather like sugar dissolved in tea. It is this dissolved oxygen that a fish breathes. Of course, a fish cannot use its lungs, because they would just fill with water. Instead, it uses special organs called gills.\n\nThe gills are usually found on each side of the fish's head, protected by a flap. They are made of many thin, feathery parts, rich with tiny blood vessels. As the fish swims, it takes water into its mouth and pushes it out over its gills. As the water flows past, the gills pull the dissolved oxygen out of it and pass it into the fish's blood. At the same time, waste gas is released from the blood into the water, to be carried away.\n\nIn this clever way, the gills do the same job for a fish that our lungs do for us, taking in oxygen and getting rid of waste.\n\nSo a fish does breathe, just not air. It quietly draws the breath of life from the water itself, using its gills to find the hidden oxygen all around it.",
+        summaryJa: "魚はどうやって水中で呼吸するのかについて。ほぼすべての動物と同じく、魚も生きるのに酸素が要る。私たちの体は肺を使い空気から酸素を取る。だが魚は一生を水中で過ごし、そこには吸う空気がない。では魚はどうやって必要な酸素を得るのか。答えは見事な体の部分と、水についての単純で重要な事実にある。鍵となる事実はこうだ。水はただの水だけでできているのではない。中に少量の酸素の気体が、紅茶に溶けた砂糖のように目に見えず溶け込んでいる。魚が呼吸するのはこの溶けた酸素だ。もちろん魚は肺を使えない。水で満たされてしまうからだ。代わりに、えらという特別な器官を使う。えらはたいてい魚の頭の両側にあり、蓋で守られている。多くの薄く羽毛のような部分でできて、小さな血管に富む。魚は泳ぎながら口に水を取り込み、えらの上を通して外へ押し出す。水が流れる間、えらが溶けた酸素を引き出し、魚の血へ渡す。同時に、不要な気体が血から水へ放たれ運び去られる。この巧妙な仕方で、えらは私たちの肺と同じ仕事をする。魚も呼吸するのだ、空気ではないだけで。",
+        quiz: [
+          { q: "What important fact about water lets fish breathe?", options: ["A small amount of oxygen gas is dissolved in the water", "Water is made only of water", "Water contains no oxygen"], answer: 0 },
+          { q: "What organs does a fish use to breathe?", options: ["Gills", "Lungs, like humans", "Its fins"], answer: 0 },
+          { q: "What do the gills do as water flows past them?", options: ["They pull the dissolved oxygen out of the water into the blood", "They heat the water", "They make the water salty"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-23",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Why are leaves green in summer?", options: ["They are full of chlorophyll, which uses sunlight to make food", "They are painted green", "They are cold"], answer: 0 },
           { q: "Where were the yellow and orange colours during summer?", options: ["Hiding in the leaf, covered up by the stronger green colour", "In the soil", "They did not exist yet"], answer: 0 },
           { q: "What happens as autumn arrives?", options: ["The green chlorophyll breaks down, revealing the yellow and orange colours", "The leaves turn blue", "New green appears"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-17",
-    passages: [
-      {
-        id: "d1117-1",
-        title: "Why Is Good Customer Service Important?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Think about two shops that sell exactly the same product at the same price. In one, the staff are rude, unhelpful, and seem annoyed by your questions. In the other, they are friendly, patient, and genuinely want to help. Which shop would you return to? For almost everyone, the answer is obvious. This simple example shows the power of good customer service.\n\nCustomer service means the way a business treats its customers, not just during a sale, but before and after it too. It includes answering questions kindly, solving problems quickly, and making each customer feel valued and respected. It may seem like a small thing, but it can make or break a business.\n\nThe reasons are powerful. First, good service keeps customers coming back. A happy customer is likely to return again and again, and over the years, this loyalty is worth a great deal of money. It is usually far cheaper to keep an existing customer than to find a new one.\n\nSecond, happy customers talk. A person who receives wonderful service often tells their friends and family, bringing in new customers for free. Sadly, the opposite is also true: a person treated badly may warn many others to stay away.\n\nFinally, good customer service builds a company's reputation, its good name, which is one of its most valuable possessions.\n\nSo customer service is not just about being polite. It is a smart and essential part of running a successful business. In a world where products are often similar, the way customers are treated can be the very thing that sets one business apart.",
-        summaryJa: "なぜ良い顧客対応（カスタマーサービス）が重要なのかについて。同じ商品を同じ値段で売る二つの店を考えよう。一方では店員が無礼で助けにならず、質問に迷惑そうだ。もう一方では親切で辛抱強く、心から助けたがる。どちらの店にまた行くだろう。ほぼ誰にとっても答えは明らかだ。この簡単な例が良い顧客対応の力を示す。顧客対応とは、企業が客を扱う仕方で、販売中だけでなく前後も含む。親切に質問に答え、素早く問題を解決し、各客に大切にされ尊重されていると感じさせることだ。小さなことに見えて、事業の成否を分けうる。理由は強力だ。第一に、良い対応は客を再来させる。満足した客は何度も戻りやすく、長年でこの忠誠は大きな金額に値する。既存の客を保つ方が新しい客を見つけるよりたいてい安い。第二に、満足した客は話す。素晴らしい対応を受けた人は友人や家族に話し、無料で新しい客を連れてくる。残念ながら逆もまた真で、ひどく扱われた人は多くの人に近づくなと警告しうる。最後に、良い対応は企業の評判、最も価値ある財産の一つを築く。礼儀正しさだけでなく、成功する事業に不可欠だ。",
-        quiz: [
-          { q: "What does customer service mean?", options: ["The way a business treats its customers, before, during, and after a sale", "The price of a product", "The size of a shop"], answer: 0 },
-          { q: "Why does good service keep customers coming back?", options: ["Happy customers return again, and this loyalty is worth a lot over time", "Customers must return by law", "It makes products cheaper"], answer: 0 },
-          { q: "How can happy customers bring in new customers for free?", options: ["They tell their friends and family about the wonderful service", "They pay the shop extra", "They never speak to anyone"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1117-2",
-        title: "How Does an Escalator Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "In shopping centres, stations, and airports, escalators carry streams of people smoothly up and down, all day long, without anyone having to lift a foot to climb. They seem to swallow people at one end and deliver them to another floor at the other. But how does this clever moving staircase actually work?\n\nThe heart of an escalator is a long loop of steps joined together in a chain, rather like a very large bicycle chain. This chain of steps runs in a continuous loop, round and round. At the top, powered by a strong electric motor, large toothed wheels pull the chain along, so the steps on the visible side are always climbing upward, carrying passengers with them.\n\nThe clever part is what happens at the top and bottom. The steps do not simply vanish. At each end, they slide under a metal comb and travel back, flat and hidden, underneath the staircase you can see, before rising up again at the other end to begin the journey once more. It is one endless loop.\n\nAnother neat trick is how the steps stay flat and level for you to stand on, even though the staircase is sloped. The steps are cleverly guided along two separate tracks, which keep each step horizontal as it climbs, so you never feel tilted.\n\nThe moving handrail beside you is driven by the same motor, moving at exactly the same speed as the steps, so your hand and feet travel together.\n\nSo an escalator is really an endless staircase on a chain, quietly turning a tiring climb into an effortless, moving ride.",
-        summaryJa: "エスカレーターの仕組みについて。商業施設や駅、空港で、エスカレーターは一日中、人の流れを滑らかに上下へ運び、誰も足を上げて上る必要がない。一方の端で人を飲み込み、もう一方で別の階へ届けるように見える。だがこの巧妙な動く階段は実際どう働くのか。エスカレーターの心臓は、鎖状につながった段の長い輪だ。非常に大きな自転車のチェーンのようなものだ。この段の鎖はぐるぐると連続した輪で回る。上部で強力な電動機に動かされ、大きな歯車が鎖を引き、見える側の段は常に上へ上り、乗客を運ぶ。巧妙なのは上下の端で起こることだ。段は単に消えるのでなく、各端で金属のくしの下へ滑り込み、見える階段の下を平らに隠れて戻り、反対の端でまた上がって旅を繰り返す。一つの終わりなき輪だ。もう一つの妙技は、階段が傾いているのに段が平らで水平に保たれ、立てることだ。段は二本の別々の軌道に沿って巧みに導かれ、上る間も各段を水平に保つので、傾きを感じない。横の動く手すりも同じ電動機で、段とまったく同じ速さで動く。終わりなき階段だ。",
-        quiz: [
-          { q: "What is the heart of an escalator?", options: ["A long loop of steps joined in a chain, driven by a motor", "A single large spring", "A tank of water"], answer: 0 },
-          { q: "What happens to the steps at the top and bottom?", options: ["They slide under a comb and travel back, hidden, before rising again", "They vanish completely", "They are thrown away"], answer: 0 },
-          { q: "How do the steps stay flat for you to stand on?", options: ["They are guided along two tracks that keep each step horizontal", "They are held by hand", "They are not actually flat"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1117-3",
-        title: "How Do the Olympic Games Bring the World Together?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Every few years, something remarkable happens. Athletes from almost every nation on Earth travel to a single city to take part in the Olympic Games. For a short time, the eyes of the whole world turn to one place, to watch people run, jump, swim, and compete. The Olympics are far more than a sports event; they are one of the greatest gatherings of humanity on the planet.\n\nThe modern Olympic Games were revived more than a hundred years ago, with a hopeful dream: that sport could bring people and nations closer together. The idea was that by meeting peacefully in friendly competition, countries that might otherwise distrust one another could build understanding and respect.\n\nThe Games are full of powerful symbols of unity. At the opening ceremony, athletes from every country march together into the stadium. The five rings of the Olympic flag represent the different parts of the world joined as one. For a few weeks, rivals compete not with weapons, but with speed, strength, and skill, and they often embrace as friends afterwards.\n\nOf course, the Olympics are not perfect. They are expensive, and real political tensions in the world do not simply disappear during the Games. Yet something special still happens. People everywhere cheer for astonishing human achievement, and for a moment, differences of language and nation seem to matter a little less.\n\nAt their best, the Olympic Games remind us of a simple, hopeful truth: that despite all our differences, the people of the world can come together, in peace, to celebrate what human beings are capable of.",
-        summaryJa: "オリンピックはどう世界を一つにするのかについて。数年ごとに、ある素晴らしいことが起こる。地球上のほぼすべての国の選手が、オリンピックに参加するため一つの都市へ集まる。短い間、世界中の目が一か所に向き、走り、跳び、泳ぎ、競う人々を見る。オリンピックはスポーツの催しをはるかに超え、地球上で最も大きな人類の集いの一つだ。近代オリンピックは百年以上前に復活した。スポーツが人と国を近づけられるという希望ある夢とともに。友好的な競争の中で平和に出会うことで、互いを不信しうる国々が理解と敬意を築けるという考えだ。大会は団結の力強い象徴に満ちる。開会式では全ての国の選手が共に競技場へ行進する。五輪旗の五つの輪は、一つに結ばれた世界の異なる地域を表す。数週間、競争相手は武器でなく速さ・力・技で競い、後にはしばしば友として抱き合う。もちろん完璧ではない。費用がかかり、世界の現実の政治的緊張が大会中に消えるわけでもない。それでも特別な何かが起こる。人々は驚くべき人間の達成に喝采し、一瞬、言語や国の違いが少し薄れて見える。",
-        quiz: [
-          { q: "What hopeful dream came with reviving the modern Olympics?", options: ["That sport could bring people and nations closer together", "That one country would win everything", "That sport would replace all jobs"], answer: 0 },
-          { q: "What do the five rings of the Olympic flag represent?", options: ["The different parts of the world joined as one", "Five famous athletes", "Five kinds of money"], answer: 0 },
-          { q: "What do the Games remind us, at their best?", options: ["That despite our differences, people can come together in peace", "That only strong countries matter", "That competition is pointless"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1117-4",
-        title: "Mochi: Japan's New Year Rice Cakes",
-        level: "★★☆",
-        genre: "日本",
-        text: "As the New Year approaches in Japan, one special food appears everywhere: mochi. Mochi is a soft, chewy rice cake, and it holds a treasured place in Japanese food and celebration, especially at New Year, the most important holiday of the year.\n\nMochi is not made from ordinary rice. It is made from a special sticky kind of rice, which is first steamed until soft. Then comes the remarkable part. Traditionally, the hot rice is placed in a large wooden bowl and pounded, again and again, with a heavy wooden mallet. This hard work is often done by two people working in rhythm: one pounds while the other quickly turns and wets the rice between blows. Slowly, the grains break down and join into one smooth, white, stretchy mass. This lively, traditional event is called mochitsuki.\n\nThe finished mochi can be used in countless ways. It can be shaped into round cakes, grilled until it puffs up, or added to a special New Year soup called ozoni. It can also be wrapped around sweet fillings to make delicious treats.\n\nMochi carries meaning too. Its stretchy, long shape is linked to wishes for a long life, and round stacked mochi are often displayed as a New Year decoration, offered for good fortune in the year ahead.\n\nOne word of caution: mochi is very sticky, and must be eaten carefully in small bites. But for millions of people in Japan, the soft, chewy taste of mochi is one of the warmest and most cherished flavours of the New Year season.",
-        summaryJa: "日本の正月の餅について。日本で新年が近づくと、特別な食べ物が至る所に現れる。餅だ。餅は柔らかく歯ごたえのある米の餅で、日本の食と祝い、特に一年で最も大切な祝日である正月で大切な位置を占める。餅は普通の米からは作らない。特別な粘りのある種類の米から作り、まず柔らかくなるまで蒸す。それから驚くべき部分が来る。伝統的に、熱い米を大きな木の臼に入れ、重い木の杵で何度もつく。この重労働はしばしば二人が呼吸を合わせて行う。一人がつき、もう一人が合間に素早く米を返し湿らせる。ゆっくり粒が崩れ、一つの滑らかで白く伸びる塊になる。この活気ある伝統行事を餅つきという。できた餅は数えきれぬほど多様に使える。丸い餅に形作り、膨らむまで焼き、お雑煮という特別な正月の汁に入れる。甘い具を包んでおいしい菓子にもする。餅には意味もある。伸びて長い形は長寿の願いに結びつき、丸く重ねた餅はよく正月飾りとして飾られ、来る年の幸運を祈って供えられる。一つ注意、餅はとても粘るので小さく一口ずつ注意して食べねばならない。",
-        quiz: [
-          { q: "What is mochi made from?", options: ["A special sticky kind of rice, steamed and pounded", "Wheat flour and sugar", "Potatoes"], answer: 0 },
-          { q: "What is 'mochitsuki'?", options: ["The traditional event of pounding hot rice into mochi", "A New Year song", "A type of bowl"], answer: 0 },
-          { q: "What does the stretchy, long shape of mochi represent?", options: ["Wishes for a long life", "A short, busy year", "Bad luck"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1117-5",
-        title: "Why Do We Dream?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Every night, when we fall into a deep sleep, our minds often come alive with strange and vivid adventures. We may fly through the air, talk to people from our past, or find ourselves in places that do not exist. These are dreams, and almost everyone has them. Yet, despite how common they are, one of the oldest questions about the human mind remains only partly answered: why do we dream at all?\n\nDreams happen mostly during a certain stage of sleep when the brain is surprisingly active, almost as busy as when we are awake. During this time, our eyes move quickly behind our closed lids, and the most vivid dreams usually occur.\n\nScientists are still not completely sure why we dream, but they have several interesting ideas. One popular theory is that dreaming helps the brain to sort and store memories. During the day, we take in a huge amount of information, and sleep may be the time when the brain decides what to keep and what to let go, weaving the pieces into dreams along the way.\n\nAnother idea is that dreams help us process our emotions. By replaying worries or feelings in the safety of sleep, the mind may be working through difficult experiences, helping us feel calmer when we wake.\n\nDreams may also simply be the brain staying active and practising, trying out ideas and situations while the body rests.\n\nSo the exact purpose of dreams remains one of science's intriguing mysteries. Each night, our sleeping minds create whole worlds, for reasons we are still, slowly, beginning to understand.",
-        summaryJa: "なぜ私たちは夢を見るのかについて。毎晩、深い眠りに落ちると、心はしばしば奇妙で鮮やかな冒険で生き生きとする。空を飛び、過去の人と話し、存在しない場所にいることもある。これが夢で、ほぼ誰もが見る。だがこれほど一般的なのに、人の心に関する最も古い問いの一つは、いまだ部分的にしか答えられていない。そもそもなぜ夢を見るのか。夢は主に、脳が驚くほど活発な、ほぼ起きているときと同じくらい忙しいある睡眠段階で起こる。この間、閉じたまぶたの奥で目が素早く動き、最も鮮やかな夢がたいてい起こる。科学者はなぜ夢を見るかまだ完全には分からないが、いくつか興味深い考えがある。有力な一説は、夢が脳の記憶の整理と保存を助けるというものだ。日中、私たちは膨大な情報を取り込み、睡眠は脳が何を残し何を手放すか決める時かもしれず、その過程で断片を夢に織り込む。もう一つの考えは、夢が感情の処理を助けるというものだ。眠りの安全の中で心配や感情を再生し、難しい経験を乗り越え、目覚めたとき穏やかに感じる助けになるのかもしれない。脳が活動を保ち練習しているだけかもしれない。夢の正確な目的は科学の魅力的な謎のままだ。",
-        quiz: [
-          { q: "When do the most vivid dreams usually occur?", options: ["During a stage of sleep when the brain is surprisingly active", "Only when we are fully awake", "Only in the morning"], answer: 0 },
-          { q: "What is one popular theory about why we dream?", options: ["Dreaming helps the brain sort and store memories", "Dreams clean our teeth", "Dreams make us taller"], answer: 0 },
-          { q: "What is another idea about the purpose of dreams?", options: ["They help us process our emotions in the safety of sleep", "They stop the heart", "They have no effect on the mind"], answer: 0 }
         ]
       }
     ]
