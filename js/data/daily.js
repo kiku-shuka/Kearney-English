@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-25",
+    passages: [
+      {
+        id: "d1125-1",
+        title: "What Is a Subscription Business?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "In the past, when you wanted something, you usually bought it once. You paid for a music CD, a newspaper, or a piece of computer software, and then it was yours to keep. But in recent years, a different way of selling has become hugely popular. Instead of buying things once, we increasingly pay a small amount again and again, usually every month, for ongoing access to a service. This is called the subscription model.\n\nWith a subscription, a customer makes a regular payment, and in return they receive a product or service for as long as they keep paying. Think of a service that lets you watch films and shows, listen to music, or use a piece of software. You do not own these things; you are paying for continued access to them.\n\nWhy have subscriptions become so popular? For the customer, it can feel easier and cheaper to pay a little each month than to buy something expensive all at once. For the company, the benefits are powerful. Instead of selling a product only once, it can earn money from the same customer month after month. This gives the business a steady, predictable income.\n\nSubscriptions now cover an amazing range of things, from films and music to software, online storage, and even regular deliveries of coffee or razors.\n\nOf course, there is a risk for customers. Small monthly payments can quietly add up, and people sometimes keep paying for services they have stopped using.\n\nSo the subscription model is a clever modern idea. It changes buying into renting, creating a lasting relationship, and a steady flow of money, between a company and its customers.",
+        summaryJa: "サブスクリプション（定額制）ビジネスとは何かについて。昔は、何かが欲しいとき、たいてい一度買った。音楽CD、新聞、パソコンのソフトを払えば、それは自分のものになった。だが近年、別の売り方が大いに人気になった。一度買う代わりに、たいてい毎月、少額を何度も払い、サービスへの継続的な利用権を得るのだ。これをサブスクリプションモデルという。サブスクでは、客が定期的に支払い、見返りに払い続ける限り製品やサービスを受ける。映画や番組を見られる、音楽を聴ける、ソフトを使えるサービスを考えよう。それらを所有するのでなく、継続的な利用権に払っている。なぜこれほど人気になったのか。客には、高い物を一度に買うより毎月少し払う方が楽で安く感じられる。企業には利点が強力だ。製品を一度売るだけでなく、同じ客から毎月お金を得られる。安定し予測しやすい収入になる。映画や音楽からソフト、オンライン保存、コーヒーやかみそりの定期配達まで、驚くほど多様に広がる。もちろん客には危険もある。小さな月払いが静かに積み重なり、使わなくなったサービスに払い続けることもある。買うことを借りることに変える巧妙な現代の考えだ。",
+        quiz: [
+          { q: "What is a subscription model?", options: ["Paying a small amount regularly for ongoing access to a service", "Buying something once and owning it forever", "Getting everything for free"], answer: 0 },
+          { q: "Why do companies like subscriptions?", options: ["They earn a steady, predictable income from the same customer month after month", "They can sell a product only once", "They make no money from them"], answer: 0 },
+          { q: "What is a risk for customers?", options: ["Small monthly payments can add up, even for services they no longer use", "They always save money", "They can never cancel"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1125-2",
+        title: "Electric Planes: The Future of Flight?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "For a hundred years, almost every airplane in the sky has been powered by burning fuel, usually a special kind made from oil. These engines are powerful, but they are also noisy and they release gases that can harm the environment. Now, engineers around the world are working on an exciting new idea: airplanes powered not by fuel, but by electricity.\n\nAn electric plane works much like an electric car. Instead of a fuel tank and a burning engine, it carries large batteries and uses electric motors to turn its propellers. Because there is no burning fuel, an electric plane produces no exhaust gases while flying, and it is far quieter than a normal aircraft.\n\nThe benefits could be great. Cleaner air, less noise near airports, and lower running costs would all be welcome. Recently, test flights of small electric aircraft, some carrying several passengers, have shown that the idea really can work.\n\nHowever, there is one very big challenge: batteries. Compared to fuel, batteries are extremely heavy for the amount of energy they store. A plane must be light to fly, so today's heavy batteries make it hard to build an electric plane that can carry many people over a long distance.\n\nFor this reason, the first electric planes are likely to be small, carrying a few passengers on short journeys. As battery technology slowly improves, larger and longer flights may one day become possible.\n\nSo electric planes may not replace big jets soon. But they offer a hopeful vision of a future where flying is cleaner, quieter, and gentler on the world below.",
+        summaryJa: "電気飛行機は飛行の未来かについて。百年間、空のほぼすべての飛行機は、たいてい石油から作る特別な燃料を燃やして動いてきた。このエンジンは強力だが、うるさく、環境を害しうる気体も出す。今、世界中の技術者が、燃料でなく電気で動く飛行機という心躍る新しい考えに取り組んでいる。電気飛行機は電気自動車によく似た仕組みだ。燃料タンクと燃やすエンジンの代わりに、大きな電池を積み、電動機でプロペラを回す。燃やす燃料がないので、飛行中に排気ガスを出さず、普通の航空機よりずっと静かだ。利点は大きくなりうる。きれいな空気、空港近くの騒音の減少、低い運用費はみな歓迎される。最近、数人の乗客を乗せた小型電気機の試験飛行が、この考えが本当に実現できると示した。だが非常に大きな難題が一つある。電池だ。燃料に比べ、電池は蓄えるエネルギー量の割に極めて重い。飛行機は飛ぶのに軽くなければならず、今の重い電池では多人数を長距離運ぶ電気機を作るのは難しい。だから最初は短距離を数人運ぶ小型機になりそうだ。電池技術の向上でいつか大型で長距離も可能になるかもしれない。",
+        quiz: [
+          { q: "How does an electric plane work?", options: ["It carries batteries and uses electric motors to turn its propellers", "It burns coal", "It is pulled by a rope"], answer: 0 },
+          { q: "What is a benefit of electric planes?", options: ["They produce no exhaust gases while flying and are quieter", "They are much louder", "They need no energy at all"], answer: 0 },
+          { q: "What is the big challenge for electric planes?", options: ["Batteries are very heavy for the energy they store", "There are no pilots", "The sky is too small"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1125-3",
+        title: "How Does the World Work to End Hunger?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "In a world that produces more than enough food for everyone, it is a sad and shocking truth that many millions of people still do not have enough to eat. Hunger remains one of the greatest challenges facing humanity. But it is also a problem that the world is actively working to solve, and real progress has been made.\n\nEnding hunger is not only about handing out food, though that is sometimes urgently needed. When a disaster or a conflict suddenly leaves people starving, emergency food aid saves lives. International organisations rush in to deliver meals to those who would otherwise have nothing.\n\nBut the deeper goal is to help people feed themselves for the long term. This means helping farmers in poorer countries to grow more food. Experts share better seeds, teach improved ways of farming, and help build systems to store water and bring crops to market. A farmer who can grow a larger, more reliable harvest can feed their own family and sell the rest.\n\nFighting hunger also means fighting poverty, because often people are hungry simply because they are too poor to buy food. Helping people earn a decent living is one of the best ways to make sure they never go hungry.\n\nThe world has set itself a bold goal: to end hunger completely. This is extremely difficult, but it is not impossible. Through a mix of emergency help, better farming, and the fight against poverty, the number of hungry people has fallen greatly over the years. It is a reminder that, working together, humanity can solve even its oldest problems.",
+        summaryJa: "世界はどう飢餓をなくそうとしているのかについて。皆に十分すぎる食料を生産する世界で、何百万もの人がいまだ十分に食べられないのは悲しく衝撃的な事実だ。飢餓は人類が直面する最大の課題の一つであり続ける。だがこれは世界が積極的に解決に取り組んでいる問題でもあり、本当の進歩も遂げられてきた。飢餓をなくすのは食料を配ることだけではない、時にそれが緊急に必要だとしても。災害や紛争で突然人々が飢えると、緊急食料援助が命を救う。国際機関が駆けつけ、何も持たない人々に食事を届ける。だがより深い目的は、人々が長期的に自力で食べていけるよう助けることだ。貧しい国の農家がもっと食料を育てるのを助けることを意味する。専門家はより良い種を分け、改善された農法を教え、水を蓄え作物を市場へ運ぶ仕組み作りを助ける。より多く確実に収穫できる農家は、自分の家族を養い、残りを売れる。飢餓との戦いは貧困との戦いでもある。人はしばしば、貧しすぎて食料を買えないから飢える。まともな収入を得る手助けが最善策の一つだ。世界は飢餓の完全な根絶という大胆な目標を掲げた。極めて難しいが不可能ではない。飢えた人の数は年々大きく減ってきた。共に取り組めば古い問題さえ解決できる。",
+        quiz: [
+          { q: "What does emergency food aid do?", options: ["It delivers meals to save lives after a disaster or conflict", "It teaches people to swim", "It builds airports"], answer: 0 },
+          { q: "What is the deeper goal of fighting hunger?", options: ["To help people feed themselves for the long term, such as by helping farmers", "To keep people dependent forever", "To grow less food"], answer: 0 },
+          { q: "Why is fighting hunger linked to fighting poverty?", options: ["People are often hungry because they are too poor to buy food", "Poverty has nothing to do with hunger", "Rich people are always hungry"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1125-4",
+        title: "Fukubukuro: Japan's Lucky Bags",
+        level: "★★☆",
+        genre: "日本",
+        text: "On the first days of the New Year, a special kind of excitement fills the shops of Japan. Crowds of eager shoppers line up early in the morning, waiting for the doors to open. They are not there for the usual sales. They are there for something more mysterious and fun: the fukubukuro, or lucky bag.\n\nA fukubukuro is a sealed bag, sold by a shop, filled with a surprise selection of its goods. The special thing is that the buyer cannot see what is inside before they buy it. They know only the price of the bag and, usually, that the goods inside are worth far more than that price. Buying one is a bit like a lucky dip, or a small gamble, with the promise of a good deal.\n\nAlmost every kind of shop takes part. A clothing shop might fill its lucky bags with coats and sweaters, while an electronics shop, a coffee shop, or a bookshop fills theirs with their own products. Part of the fun is the surprise of opening the bag at home to see what you have received.\n\nThe tradition is thought to have begun long ago, partly as a clever way for shops to clear out their old stock at the end of the year. But it grew into a much-loved New Year custom in its own right.\n\nSo the fukubukuro turns ordinary shopping into a small adventure. It mixes the thrill of a surprise, the hope of a bargain, and the fresh, hopeful spirit of the New Year, all into a single, mysterious bag.",
+        summaryJa: "福袋、日本の縁起物の袋について。新年の最初の数日、日本の店に特別な興奮が満ちる。待ちきれない買い物客の群れが朝早く並び、開店を待つ。普通のセールのためではない。もっと不思議で楽しいもの、福袋のためだ。福袋は店が売る封をした袋で、その店の商品の驚きの詰め合わせが入っている。特別なのは、買う前に中身が見えないことだ。分かるのは袋の値段と、たいてい中身がその値段よりずっと価値が高いことだけだ。買うのは福引きや小さな賭けに少し似て、お得の約束がある。ほぼあらゆる店が参加する。衣料品店はコートやセーターを、電器店・喫茶店・書店はそれぞれの商品を詰める。家で袋を開けて何をもらったか見る驚きも楽しみの一部だ。この伝統は昔、店が年末に古い在庫を片付ける巧妙な方法として始まったとも言われる。だがそれ自体が愛される正月の習慣に育った。福袋は普通の買い物を小さな冒険に変える。驚きのわくわく、掘り出し物の希望、新年の新鮮で希望ある気分を、一つの不思議な袋に混ぜ合わせる。",
+        quiz: [
+          { q: "What is a fukubukuro?", options: ["A sealed 'lucky bag' filled with a surprise selection of a shop's goods", "A kind of money", "A New Year card"], answer: 0 },
+          { q: "What is special about buying a fukubukuro?", options: ["You cannot see what is inside before you buy it", "You choose every item yourself", "It is always empty"], answer: 0 },
+          { q: "How is the tradition thought to have begun?", options: ["Partly as a clever way for shops to clear out old stock at year's end", "As a type of sport", "As a government law"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1125-5",
+        title: "Why Do We Cry?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "Crying is one of the most human of all actions. When we are very sad, and sometimes even when we are overjoyed, tears fill our eyes and roll down our cheeks. It is something we all do, yet it is surprisingly mysterious. Why does strong emotion make salty water flow from our eyes?\n\nFirst, it helps to know that not all tears are the same. Scientists describe a few different kinds. Some tears are always there, keeping the surface of the eye wet and healthy. Other tears appear suddenly to wash away something irritating, like the gas from a cut onion or a speck of dust. These kinds of tears are simple and practical.\n\nBut the third kind is special: emotional tears, the ones we cry when we feel strong feelings. Interestingly, humans appear to be the only animals that cry tears because of emotion. Scientists are still not completely sure why we do it, but they have some fascinating ideas.\n\nOne idea is that crying is a signal to other people. Tears are a clear, visible sign that we are feeling something deeply. They may be a way of telling others that we need comfort and support, and they often make people around us want to help.\n\nAnother idea is that crying may actually help us feel better. Many people say they feel calmer and more relaxed after a good cry, as if the tears help to release built-up tension.\n\nSo crying is far more than a sign of weakness. It is a deeply human signal of our feelings, and perhaps a gentle, natural way of helping our hearts to heal.",
+        summaryJa: "なぜ私たちは泣くのかについて。泣くことはあらゆる行動の中で最も人間らしいものの一つだ。とても悲しいとき、時に喜びにあふれたときでさえ、涙が目に満ち頬を伝う。誰もがすることなのに、意外に謎めいている。なぜ強い感情が目から塩水を流させるのか。まず、すべての涙が同じでないと知るとよい。科学者はいくつかの種類を挙げる。常にあって目の表面を潤し健康に保つ涙もある。切った玉ねぎの気体やちりなど刺激物を洗い流そうと突然現れる涙もある。これらは単純で実用的だ。だが三つ目は特別だ。感情の涙、強い感情を抱くとき流す涙だ。興味深いことに、人間は感情で涙を流す唯一の動物らしい。科学者はなぜかまだ完全には分からないが、魅力的な考えがいくつかある。一つは、泣くことが他者への合図だという考えだ。涙は深く何かを感じている明らかで目に見える印だ。慰めと支えが必要だと他者に伝える方法かもしれず、周りの人を助けたくさせることが多い。もう一つは、泣くことが実は気分を良くするという考えだ。思い切り泣いた後、穏やかで楽になると多くの人が言う。たまった緊張を解く助けになるかのようだ。弱さの印をはるかに超える、深く人間的な合図だ。",
+        quiz: [
+          { q: "What is the job of the tears that are always there?", options: ["Keeping the surface of the eye wet and healthy", "Making us sad", "Cleaning the floor"], answer: 0 },
+          { q: "What is special about emotional tears?", options: ["Humans appear to be the only animals that cry from emotion", "All animals cry from emotion", "They are not real tears"], answer: 0 },
+          { q: "What is one idea about why we cry emotionally?", options: ["Crying is a signal that we need comfort and support from others", "Crying makes us taller", "Crying has no purpose at all"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-24",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What surprising discovery have scientists made about crows?", options: ["They are among the most intelligent animals on the planet", "They cannot see at all", "They never make any sound"], answer: 0 },
           { q: "What is one famous skill of some crows?", options: ["Making and using tools, such as bending wire into a hook", "Reading books", "Driving cars"], answer: 0 },
           { q: "What rare ability do crows seem to have?", options: ["Planning for the future, such as saving a tool for a later task", "Living underwater", "Glowing in the dark"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-18",
-    passages: [
-      {
-        id: "d1118-1",
-        title: "Why Do Companies Advertise?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Everywhere we look, we see advertising. It fills our screens, lines the streets on giant posters, and interrupts our videos and music. Companies spend enormous amounts of money on it, often many millions. This raises a simple question: why do businesses pour so much money into advertising, and what are they really trying to achieve?\n\nAt its most basic, advertising has two main goals: to inform and to persuade. The first job is simply to make people aware that a product exists. A company may have made a wonderful new product, but if nobody knows about it, nobody will buy it. Advertising spreads the word, telling customers what is available and where to find it.\n\nThe second job is to persuade. Beyond just giving information, advertising tries to make a product seem attractive and desirable. It may show happy people enjoying the product, or link it to good feelings like fun, comfort, or success. The aim is to make you want it, and to choose it over a rival's product.\n\nAdvertising also helps build a brand, a company's identity and reputation. By showing their name and message again and again, companies hope that customers will remember and trust them.\n\nOf course, as customers, it is wise to watch advertising with a thoughtful eye. Its goal is to sell, so it naturally shows products in the best possible light, and does not mention their faults.\n\nSo advertising is a powerful business tool. It is the main way companies connect with huge numbers of people, telling them a product exists and trying to convince them to buy it.",
-        summaryJa: "企業はなぜ広告を出すのかについて。どこを見ても広告がある。画面を埋め、巨大なポスターで街に並び、動画や音楽を遮る。企業はしばしば何百万もの莫大な金をそれに費やす。ここに単純な疑問が生じる。なぜ企業はこれほど多くの金を広告に注ぎ、本当は何を達成しようとしているのか。最も基本的に、広告には二つの主な目的がある。知らせることと、説得することだ。第一の仕事は単に、製品が存在すると人々に気づかせることだ。素晴らしい新製品を作っても、誰も知らなければ誰も買わない。広告は言葉を広め、何があってどこで手に入るかを客に伝える。第二の仕事は説得だ。情報を与えるだけでなく、製品を魅力的で欲しいものに見せようとする。幸せな人が製品を楽しむ様子を見せ、楽しさ・快適さ・成功などの良い感情に結びつけることもある。狙いはあなたに欲しがらせ、競合の製品より選ばせることだ。広告はブランド、企業の個性と評判も築く。名前とメッセージを繰り返し見せ、客が覚え信頼することを願う。もちろん客としては、広告を思慮深い目で見るのが賢明だ。売るのが目的なので製品を最もよく見せ、欠点には触れない。",
-        quiz: [
-          { q: "What are the two main goals of advertising?", options: ["To inform and to persuade", "To hide products and to confuse", "To lose money"], answer: 0 },
-          { q: "What is the 'inform' job of advertising?", options: ["To make people aware that a product exists", "To make the product disappear", "To lower all prices"], answer: 0 },
-          { q: "Why is it wise to watch advertising thoughtfully?", options: ["Its goal is to sell, so it shows products in the best light and hides faults", "It always tells the complete truth", "It is created by customers"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1118-2",
-        title: "How Does a Loudspeaker Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "From the tiny speaker in your phone to the huge ones at a concert, loudspeakers fill our world with sound: music, voices, and every other noise our devices make. A speaker takes an invisible electrical signal and turns it into sound that we can hear. In a way, it does the exact opposite job of a microphone. But how does it actually create sound from electricity?\n\nFirst, remember what sound really is. Sound is simply a vibration travelling through the air. When something vibrates back and forth quickly, it pushes on the air, creating waves that our ears detect as sound. So to make a sound, a speaker must make the air vibrate.\n\nInside a speaker is a cone, usually made of paper or light plastic, which can move back and forth. Attached to the cone is a coil of wire, which sits near a permanent magnet. Here is the clever part. When the electrical signal, carrying the music, flows through the coil, it turns the coil into a magnet too. As the signal rapidly changes, the coil is pushed and pulled by the nearby permanent magnet, moving back and forth very fast.\n\nBecause the coil is attached to the cone, the cone moves with it, vibrating in and out. This moving cone pushes the air, creating sound waves that travel to your ears. The pattern of the electrical signal becomes the exact pattern of the sound.\n\nSo a loudspeaker is a clever device that uses electricity and a magnet to make a cone dance, turning an invisible signal back into the music and voices we love to hear.",
-        summaryJa: "スピーカーの仕組みについて。スマホの小さなスピーカーからコンサートの巨大なものまで、スピーカーは音楽や声、機器が出すあらゆる音で世界を満たす。スピーカーは目に見えない電気信号を、聞こえる音に変える。ある意味、マイクとちょうど逆の仕事をする。だがどうやって電気から音を作るのか。まず音とは本当は何かを思い出そう。音は単に空気を伝わる振動だ。何かが素早く前後に振動すると空気を押し、波を作り、耳がそれを音として捉える。だから音を出すにはスピーカーは空気を振動させねばならない。スピーカーの中には、紙か軽いプラスチックでできた前後に動けるコーン（円錐）がある。コーンには針金のコイルが付き、永久磁石の近くにある。ここが巧妙だ。音楽を運ぶ電気信号がコイルを流れると、コイルも磁石になる。信号が素早く変わると、コイルは近くの永久磁石に押し引きされ、とても速く前後に動く。コイルはコーンに付いているのでコーンも一緒に動き、出入りして振動する。この動くコーンが空気を押し、耳へ届く音波を作る。電気信号の模様がそのまま音の模様になる。",
-        quiz: [
-          { q: "What is sound, according to the passage?", options: ["A vibration travelling through the air", "A kind of light", "A type of electricity only"], answer: 0 },
-          { q: "What makes the coil move back and forth?", options: ["The changing electrical signal makes it a magnet, pushed and pulled by a permanent magnet", "A small motor turns it", "Someone shakes it by hand"], answer: 0 },
-          { q: "How does the moving cone create sound?", options: ["It pushes the air, creating sound waves that travel to your ears", "It produces light waves", "It stays perfectly still"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1118-3",
-        title: "Why Do Countries Protect Forests Together?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Spread across our planet are vast forests, from the cold pine woods of the north to the steaming rainforests near the equator. These forests are far more than just a lot of trees. They are among the most important and valuable things on Earth, and protecting them has become a task that no single country can manage alone.\n\nWhy do forests matter so much? First, they are home to a huge share of the world's wild animals, plants, and insects. A single rainforest can contain more kinds of life than entire continents elsewhere. Second, forests act like the planet's lungs. Trees take in carbon dioxide, a gas linked to a warming climate, and release the oxygen we breathe. Great forests help keep the whole world's climate in balance.\n\nYet forests are under threat. In many places, they are being cut down for wood or to clear land for farming. When a forest is lost, its animals lose their home, and the carbon stored in the trees is released, which can harm the climate everywhere.\n\nThis is why forests have become a global concern. A rainforest may stand within one country, but the benefits it gives, from clean air to a stable climate, are shared by the whole world. So richer nations sometimes help poorer ones to protect their forests, offering money and support in return for keeping the trees standing.\n\nProtecting forests is a difficult balance between the needs of local people and the needs of the planet. But slowly, the world is learning that these great forests are a treasure belonging, in a sense, to us all.",
-        summaryJa: "なぜ国々は協力して森を守るのかについて。惑星の各地に、北の寒い松林から赤道近くの蒸し暑い熱帯雨林まで、広大な森が広がる。これらの森は単なる多くの木をはるかに超える。地球上で最も重要で価値あるものの一つで、守ることはどの一国も単独では担えない課題になった。なぜ森はそれほど大切なのか。第一に、世界の野生動物・植物・昆虫の大きな割合の住みかだ。一つの熱帯雨林が、他の大陸全体より多くの種類の命を含むこともある。第二に、森は惑星の肺のように働く。木は温暖化に結びつく気体、二酸化炭素を取り込み、私たちが吸う酸素を放つ。大きな森は世界全体の気候の均衡を保つ助けになる。だが森は脅威にさらされている。多くの場所で、木材のため、あるいは農地にするため切り倒されている。森が失われると動物は住みかを失い、木に蓄えられた炭素が放たれ、各地の気候を害しうる。だから森は地球規模の関心事になった。熱帯雨林は一国の中にあっても、与える恵み、清い空気から安定した気候までは世界全体で分かち合う。豊かな国が貧しい国の森の保護を助けることもある。地元の人々と地球の必要の難しい均衡だが、世界は学びつつある。",
-        quiz: [
-          { q: "Why do forests act like the planet's lungs?", options: ["Trees take in carbon dioxide and release the oxygen we breathe", "They pump water like a heart", "They make electricity"], answer: 0 },
-          { q: "What happens when a forest is cut down?", options: ["Animals lose their home and stored carbon is released, harming the climate", "Nothing changes at all", "More animals appear"], answer: 0 },
-          { q: "Why have forests become a global concern?", options: ["A forest stands in one country, but its benefits are shared by the whole world", "Forests belong to no planet", "Trees are worthless"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1118-4",
-        title: "Japanese Gardens: Nature in Miniature",
-        level: "★★☆",
-        genre: "日本",
-        text: "Stepping into a traditional Japanese garden can feel like entering a world of deep peace. There are no loud colours or busy flower beds. Instead, there are carefully placed rocks, quiet pools of water, raked gravel, and a gentle arrangement of trees and moss. A Japanese garden is not just a pretty space; it is a carefully designed work of art, meant to calm the mind and reflect the beauty of nature itself.\n\nThe key idea behind a Japanese garden is to capture the feeling of natural landscapes, such as mountains, rivers, and seas, in a small and peaceful space. A few large rocks might represent distant mountains or islands. A pond or a stream of raked white gravel can suggest a river or the ocean. In this way, a whole landscape is created in miniature.\n\nGreat care is taken over every detail. Designers think about how the garden will look in each season: cherry blossoms in spring, cool green in summer, red leaves in autumn, and quiet snow in winter. Nothing is placed by accident. Even empty space is important, giving the eye room to rest.\n\nOne famous style is the Zen rock garden, where there are almost no plants at all, just rocks set in a bed of gravel, raked into flowing patterns. These gardens are made for quiet thought and meditation.\n\nA Japanese garden teaches a gentle lesson. True beauty does not have to be loud or crowded. By looking carefully at a few simple, natural things, arranged with great care, we can find a deep and lasting sense of calm.",
-        summaryJa: "日本庭園、縮められた自然について。伝統的な日本庭園に足を踏み入れると、深い静けさの世界に入るように感じられる。派手な色やにぎやかな花壇はない。代わりに、丁寧に置かれた石、静かな水の池、整えられた砂利、木と苔の穏やかな配置がある。日本庭園は単なる美しい空間でなく、心を鎮め自然そのものの美を映すために入念に設計された芸術作品だ。日本庭園の核心にある考えは、山・川・海などの自然の風景の趣を、小さく穏やかな空間に捉えることだ。いくつかの大きな石が遠い山や島を表すこともある。池や整えた白砂利の流れが川や海を思わせる。こうして風景全体が縮小して作られる。細部すべてに細心の注意が払われる。設計者は各季節での見え方を考える。春の桜、夏の涼しい緑、秋の紅葉、冬の静かな雪。何一つ偶然に置かれない。余白さえ重要で、目に休む余地を与える。有名な一様式は枯山水で、植物がほとんどなく、砂利の床に石を据え、流れる模様に整える。静かな思索と瞑想のために作られる。本当の美は派手で混み合っている必要はないと教えてくれる。",
-        quiz: [
-          { q: "What is the key idea behind a Japanese garden?", options: ["To capture the feeling of natural landscapes in a small, peaceful space", "To grow as many flowers as possible", "To be as loud and colorful as possible"], answer: 0 },
-          { q: "What might a few large rocks represent?", options: ["Distant mountains or islands", "Cars", "Houses"], answer: 0 },
-          { q: "What is a Zen rock garden?", options: ["A garden with almost no plants, just rocks in raked gravel, for quiet thought", "A garden full of bright flowers", "A vegetable field"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1118-5",
-        title: "Why Do Leaves Change Colour in Autumn?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Each autumn, something beautiful happens in forests and parks across much of the world. The green leaves of summer slowly transform into brilliant shades of yellow, orange, and red, before finally falling to the ground. It is one of nature's most lovely displays. But what causes this magical change of colour?\n\nThe answer begins with the green colour itself. Leaves are green because they are full of a substance called chlorophyll. This remarkable substance has a vital job: it uses sunlight to make food for the tree, through a process called photosynthesis. All through the warm, bright days of spring and summer, the leaves are busy making food, and they are packed with green chlorophyll.\n\nHere is the surprising part. The yellow and orange colours were hiding in the leaf all along, all summer. They were simply covered up by the much stronger green colour.\n\nAs autumn arrives, the days grow shorter and colder. The tree senses that winter is coming and begins to prepare for rest. It stops making food, and the green chlorophyll slowly breaks down and disappears. As the green fades away, the yellow and orange colours that were always there are finally revealed.\n\nThe bright red colours are a little different. In some trees, red pigments are actually made fresh in autumn, which can protect the leaf as it finishes its final work.\n\nSo the glorious colours of autumn are not really new. They are the leaf's true, hidden colours, shining through at last as the tree quietly prepares for the long sleep of winter.",
-        summaryJa: "秋に葉の色が変わるのはなぜかについて。毎秋、世界の多くの地域の森や公園で美しいことが起こる。夏の緑の葉がゆっくりと鮮やかな黄・橙・赤に変わり、ついに地面へ落ちる。自然の最も美しい見せ物の一つだ。だが何がこの魔法のような色の変化を起こすのか。答えは緑色そのものから始まる。葉が緑なのは、葉緑素（クロロフィル）という物質に満ちているからだ。この驚くべき物質には重要な仕事がある。光合成という過程で、日光を使って木のための食べ物を作るのだ。春と夏の暖かく明るい日々ずっと、葉は食べ物作りに忙しく、緑の葉緑素で満たされている。ここが意外な点だ。黄や橙の色は、夏中ずっと葉の中に隠れていた。ただずっと強い緑色に覆われていただけだ。秋が来ると、日は短く寒くなる。木は冬の到来を察し、休む準備を始める。食べ物作りをやめ、緑の葉緑素はゆっくり分解して消える。緑が薄れると、ずっとそこにあった黄や橙の色がついに現れる。鮮やかな赤は少し違う。木によっては赤い色素が実は秋に新しく作られ、葉を守る。秋の輝く色は本当は新しくなく、葉の隠れた真の色なのだ。",
-        quiz: [
-          { q: "Why are leaves green in summer?", options: ["They are full of chlorophyll, which uses sunlight to make food", "They are painted green", "They are cold"], answer: 0 },
-          { q: "Where were the yellow and orange colours during summer?", options: ["Hiding in the leaf, covered up by the stronger green colour", "In the soil", "They did not exist yet"], answer: 0 },
-          { q: "What happens as autumn arrives?", options: ["The green chlorophyll breaks down, revealing the yellow and orange colours", "The leaves turn blue", "New green appears"], answer: 0 }
         ]
       }
     ]
