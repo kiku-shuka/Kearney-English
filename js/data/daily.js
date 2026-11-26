@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-26",
+    passages: [
+      {
+        id: "d1126-1",
+        title: "What Is a Startup?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "We often hear news about young companies that seem to grow from nothing into something huge in just a few years. Many of the technology companies we use every day began this way. Such a new, ambitious company, built around a fresh idea and hoping to grow very quickly, is often called a startup.\n\nA startup is more than just any new small business. A person who opens a local bakery is starting a business, but we would not usually call it a startup. The special feature of a startup is its goal: to find a brand-new idea, product, or way of doing things, and then to grow it as fast as possible, often to a very large size.\n\nBecause startups try to do something new, they involve a lot of risk. The idea might not work, or customers might not want it. Many startups fail. But if the idea does work, the rewards can be enormous.\n\nIn the early days, a startup is often just a few people with a big dream, working long hours with very little money. To grow, they frequently need investment, money from other people who believe in the idea and hope to share in its future success.\n\nWhat drives a startup is usually a desire to solve a problem in a new way, or to change how something is done. The people who build them are willing to take a big chance in the hope of creating something important.\n\nSo a startup is a young company built on a bold new idea, taking great risks in the hope of achieving great and rapid growth.",
+        summaryJa: "スタートアップとは何かについて。わずか数年で何もないところから巨大なものに成長するように見える若い会社のニュースをよく耳にする。私たちが毎日使う技術企業の多くはこうして始まった。新しい着想を中心に築かれ、とても速く成長しようとする、こうした新しく野心的な会社をしばしばスタートアップと呼ぶ。スタートアップは単なる新しい小さな事業以上のものだ。地元のパン屋を開く人は事業を始めているが、普通それをスタートアップとは呼ばない。スタートアップの特別な点はその目標にある。まったく新しい着想・製品・やり方を見つけ、できる限り速く、しばしば非常に大きな規模へ成長させることだ。新しいことをしようとするため、スタートアップは多くの危険を伴う。着想がうまくいかない、客が欲しがらないかもしれない。多くは失敗する。だが着想が当たれば報酬は莫大になりうる。初期には、大きな夢を持つ数人が、ごくわずかな資金で長時間働くことが多い。成長には、着想を信じ将来の成功を分かち合いたい人からのお金、投資が頻繁に必要だ。新しい方法で問題を解決したい、何かのやり方を変えたいという思いが動かす。大きな賭けに出る会社だ。",
+        quiz: [
+          { q: "What is the special feature of a startup?", options: ["Its goal to find a brand-new idea and grow it very fast, often to a large size", "To stay small forever", "To copy an old business exactly"], answer: 0 },
+          { q: "Why do startups involve a lot of risk?", options: ["They try something new, which might not work or customers might not want", "They never try anything new", "They are guaranteed to succeed"], answer: 0 },
+          { q: "What is 'investment' for a startup?", options: ["Money from others who believe in the idea and hope to share in its success", "A tax the startup must pay", "A free gift with no purpose"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1126-2",
+        title: "How Does a 3D Printer Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Imagine a printer that does not print words on flat paper, but instead creates a real, solid object you can pick up and hold, such as a toy, a tool, or a spare part. This is not science fiction. It is a real and increasingly common technology called 3D printing, and it is changing the way we make things.\n\nA normal printer puts a thin layer of ink onto paper. A 3D printer works on a brilliantly simple idea: it builds an object by adding many, many thin layers on top of one another, slowly building it up from the bottom to the top.\n\nFirst, a designer creates a plan of the object on a computer. The computer then slices this design into hundreds of very thin, flat layers, like the pages of a book.\n\nThe printer builds the object one layer at a time. The most common type uses plastic. It heats a thin thread of plastic until it is soft, then squeezes it out through a fine nozzle, drawing one flat layer of the object. This layer quickly cools and hardens. Then the nozzle rises a tiny bit and draws the next layer directly on top. Layer by layer, over minutes or hours, the solid object slowly grows into shape.\n\nThe exciting thing about 3D printing is that one machine can make almost any shape. People use it to make toys, tools, and models, but also important things like custom medical parts and pieces for machines.\n\nSo a 3D printer turns a digital design into a real object, building our ideas into solid form, one thin layer at a time.",
+        summaryJa: "3Dプリンターの仕組みについて。平らな紙に文字を印刷するのでなく、代わりに手に取って持てる本物の固い物、例えばおもちゃや工具、交換部品を作るプリンターを想像しよう。これは空想科学ではない。3Dプリンティングという実在し、ますます一般的になる技術で、物の作り方を変えている。普通のプリンターは紙に薄いインクの層を載せる。3Dプリンターは見事に単純な考えで働く。多くの薄い層を次々と重ねて物を作り、下から上へゆっくり築き上げるのだ。まず設計者がコンピューターで物の設計図を作る。コンピューターはこの設計を、本のページのように何百もの非常に薄い平らな層に切り分ける。プリンターは一度に一層ずつ物を作る。最も一般的な型はプラスチックを使う。細いプラスチックの糸を柔らかくなるまで熱し、細いノズルから押し出して物の平らな一層を描く。この層はすぐ冷えて固まる。次にノズルがわずかに上がり、真上に次の層を描く。層また層と、数分から数時間かけて、固い物がゆっくり形になる。一台でほぼどんな形も作れるのが面白い。おもちゃや工具、医療部品や機械の部品も作る。デジタル設計を本物の物に変えるのだ。",
+        quiz: [
+          { q: "What is the basic idea of 3D printing?", options: ["Building an object by adding many thin layers on top of one another", "Printing ink on flat paper", "Carving a block of stone"], answer: 0 },
+          { q: "What does a common 3D printer do with plastic?", options: ["It heats a thin thread of plastic and squeezes it out to draw each layer", "It freezes the plastic solid", "It paints the plastic different colors"], answer: 0 },
+          { q: "What is exciting about 3D printing?", options: ["One machine can make almost any shape, from toys to medical parts", "It can only make one fixed object", "It cannot make solid things"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1126-3",
+        title: "What Is GDP?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "When we hear in the news that a country's economy is growing or shrinking, this judgement is usually based on a single, very important number. It is called GDP, which stands for Gross Domestic Product. It is one of the most common ways in the world to measure the size and health of a country's economy.\n\nGDP sounds complicated, but the basic idea is simple. GDP is the total value of all the goods and services a country produces in a certain period, usually one year. Imagine adding up the value of every car built, every meal served in a restaurant, every haircut given, and every other product and service made in the country over a year. That huge total is, roughly, the country's GDP.\n\nWhy is this number so useful? It gives us a way to compare the economic size of different countries, and to see whether a single country is doing better or worse over time. When a country's GDP grows, it usually means businesses are producing more, and often that there are more jobs and more wealth. When GDP shrinks, it can be a sign of economic trouble.\n\nHowever, GDP is not a perfect measure. It tells us about the amount of money and production, but it does not directly tell us about people's happiness, their health, the cleanliness of the environment, or how fairly the wealth is shared.\n\nSo GDP is a powerful and widely used tool. It is like a thermometer for a country's economy, giving a quick, useful reading of its size and health, even if it cannot tell the whole story.",
+        summaryJa: "GDPとは何かについて。ニュースで、ある国の経済が成長している、縮小していると聞くとき、その判断はたいてい一つの非常に重要な数字に基づく。GDP、国内総生産と呼ばれるものだ。国の経済の規模と健全さを測る、世界で最も一般的な方法の一つだ。GDPは複雑そうだが、基本の考えは単純だ。GDPとは、ある期間、たいてい一年に、国が生み出すすべての物とサービスの価値の合計だ。作られたすべての車、飲食店で出されたすべての食事、行われたすべての散髪、その他その国で一年に作られたあらゆる製品とサービスの価値を足し合わせると想像しよう。その巨大な合計がおおよそ国のGDPだ。なぜこの数字は役立つのか。異なる国の経済規模を比べ、一国が時とともに良くなっているか悪くなっているかを見る方法を与える。GDPが成長すれば、たいてい企業がより多く生産し、しばしば雇用と富が増える。縮小すれば経済の問題の兆しになりうる。だが完璧な指標ではない。お金と生産の量は教えるが、人々の幸福・健康・環境の清潔さ・富の公平な分配は直接教えない。国の経済の体温計のようだ。",
+        quiz: [
+          { q: "What is GDP?", options: ["The total value of all goods and services a country produces in a period", "The number of people in a country", "A kind of tax"], answer: 0 },
+          { q: "Why is GDP useful?", options: ["It helps compare countries' economic sizes and see if one is doing better over time", "It measures the weather", "It counts the number of cars only"], answer: 0 },
+          { q: "What does GDP NOT directly tell us?", options: ["People's happiness, health, or how fairly wealth is shared", "The total production of a country", "Whether the economy grew"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1126-4",
+        title: "Tenugui: The Versatile Japanese Cloth",
+        level: "★★☆",
+        genre: "日本",
+        text: "Among the many simple and clever things in Japanese daily life is a humble piece of cloth called a tenugui. At first sight, it looks like nothing more than a thin cotton hand towel, usually long and rectangular, and often printed with a beautiful pattern. Yet this simple cloth has been used in countless ways in Japan for hundreds of years.\n\nIts most basic use is just as its name suggests: as a towel. Thin and quick to dry, a tenugui is handy for drying hands or wiping away sweat. Unlike a thick, fluffy towel, it folds up small and dries very fast, making it easy to carry anywhere.\n\nBut the uses of a tenugui go far beyond this. Because it is just a flat piece of cloth, it can be folded, tied, and wrapped in endless ways. People tie it around their heads as a headband while working or at festivals. They use it to wrap a gift or a lunch box, or to cover food. It can be hung on a wall as decoration, thanks to its beautiful designs, or even framed like a small work of art.\n\nThe patterns printed on tenugui are themselves a rich part of Japanese culture. They may show seasonal images, like cherry blossoms in spring or snow in winter, as well as traditional symbols and lucky designs.\n\nSo the tenugui is a wonderful example of Japanese simplicity and usefulness. It is just a plain piece of cloth, yet with a little imagination, it becomes a towel, a wrapper, a headband, and a thing of beauty, all at once.",
+        summaryJa: "手ぬぐい、万能な日本の布について。日本の日常生活の多くの簡素で巧妙なものの中に、手ぬぐいという質素な布がある。一見、薄い綿の手拭き、たいてい細長い長方形で、しばしば美しい模様が染められているだけに見える。だがこの簡素な布は、日本で何百年もの間、数えきれぬ方法で使われてきた。最も基本的な使い方は名の通り、手拭きだ。薄く早く乾く手ぬぐいは、手を拭いたり汗を拭ったりするのに便利だ。厚くふかふかのタオルと違い、小さく畳めてとても速く乾き、どこへでも持ち運びやすい。だが手ぬぐいの用途はこれをはるかに超える。ただの平らな布なので、無限の仕方で折り、結び、包める。働くときや祭りで頭に鉢巻きとして巻く。贈り物や弁当を包んだり、食べ物を覆ったりする。美しい図案のおかげで飾りとして壁に掛けたり、小さな芸術品のように額に入れたりもできる。手ぬぐいに染められた模様自体が日本文化の豊かな一部だ。春の桜や冬の雪などの季節の図、伝統的な象徴や縁起の良い図案を見せる。簡素さと有用さの見事な例だ。",
+        quiz: [
+          { q: "What is a tenugui?", options: ["A thin cotton cloth, often used as a towel but in many other ways too", "A thick winter coat", "A kind of plate"], answer: 0 },
+          { q: "Why is a tenugui easy to carry anywhere?", options: ["It folds up small and dries very fast", "It is very heavy", "It is made of metal"], answer: 0 },
+          { q: "What is one other use of a tenugui?", options: ["A headband, a wrapper for gifts, or a wall decoration", "A pair of shoes", "A cooking pot"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1126-5",
+        title: "How Do Seeds Travel to New Places?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "A plant faces a strange problem. Unlike an animal, it is rooted to one spot and cannot move. Yet to survive, a plant must somehow spread its seeds to new places. If all its seeds simply fell to the ground directly beneath it, the young plants would be crowded together, fighting one another for light, water, and space. So how do plants, which cannot walk, manage to send their seeds out into the world?\n\nThe answer is that plants have evolved many clever and beautiful ways to make their seeds travel, often using the help of wind, animals, or water.\n\nSome plants use the wind. They make very light seeds, sometimes with tiny wings or fluffy parachutes, like those of a dandelion. A puff of wind lifts them up and carries them far away before they gently land.\n\nOther plants use animals. They grow delicious, colourful fruit around their seeds. An animal eats the fruit, travels some distance, and later drops the seeds, together with some natural fertiliser, in a new place. Some seeds have tiny hooks that catch onto an animal's fur, hitching a free ride to somewhere new.\n\nSome plants that live near water make seeds that can float. The water carries them downstream to begin a new life somewhere else. A few plants even launch their seeds themselves, with pods that burst open and fling the seeds out.\n\nSo although a plant cannot move, its children can travel surprisingly far. Through these clever methods, plants quietly spread across the world, finding new ground where the next generation can grow.",
+        summaryJa: "種子はどうやって新しい場所へ旅するのかについて。植物は奇妙な問題に直面する。動物と違い一か所に根を張り、動けない。だが生き延びるには、どうにか種子を新しい場所へ広げねばならない。もしすべての種子が真下の地面にただ落ちれば、若い植物は密集し、光・水・場所を奪い合う。では歩けない植物はどうやって種子を世界へ送り出すのか。答えは、植物が種子を旅させる巧妙で美しい多くの方法を進化させてきたことだ。しばしば風・動物・水の助けを使う。風を使う植物もある。とても軽い種子を作り、時にタンポポのように小さな翼やふわふわの落下傘を付ける。一吹きの風が持ち上げ、遠くへ運んでからそっと着地させる。動物を使う植物もある。種子の周りにおいしく色鮮やかな果実を実らせる。動物が果実を食べ、ある距離を移動し、後で種子を自然の肥料とともに新しい場所に落とす。動物の毛に引っかかる小さなかぎを持ち、ただ乗りする種子もある。水辺の植物は浮く種子を作り、水が下流へ運ぶ。自ら種子を発射する植物さえあり、さやがはじけて種子をまき散らす。動けなくても子は驚くほど遠くへ旅する。巧妙な方法で世界に広がる。",
+        quiz: [
+          { q: "Why do plants need to spread their seeds to new places?", options: ["Otherwise young plants would crowd together, fighting for light, water, and space", "To make the parent plant taller", "They do not need to spread seeds"], answer: 0 },
+          { q: "How do some plants use the wind?", options: ["They make light seeds with tiny wings or fluffy parachutes", "They blow on the seeds themselves", "They push seeds into the ground"], answer: 0 },
+          { q: "How do some plants use animals to spread seeds?", options: ["Animals eat the fruit and later drop the seeds in a new place", "Animals paint the seeds", "Animals teach the seeds to walk"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-25",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "What do archaeologists study?", options: ["Human history, by digging up and examining things people left behind", "Only living animals", "The weather of the future"], answer: 0 },
           { q: "Why is where an object is found so important?", options: ["Deeper layers are usually older, showing the order things happened", "Deeper objects are always treasure", "The location does not matter"], answer: 0 },
           { q: "What are 'artifacts'?", options: ["Objects people left behind, which are like clues to a story", "A kind of modern computer", "Living plants"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-19",
-    passages: [
-      {
-        id: "d1119-1",
-        title: "What Makes a Good Team at Work?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Most important work is not done by one person alone, but by a team. Whether building a bridge, running a shop, or creating a new product, groups of people must work together towards a shared goal. Yet some teams achieve wonderful things, while others, with equally talented members, struggle and fail. What is the secret? What makes a group of people into a good team?\n\nOne of the most important ingredients is clear communication. In a good team, members share information openly, listen carefully to one another, and are not afraid to ask questions or raise problems. When people do not talk clearly, mistakes and misunderstandings quickly appear.\n\nA second key ingredient is trust. Team members must be able to rely on each other to do their part. When there is trust, people feel safe to share new ideas, admit mistakes, and ask for help, without fear of being blamed. This makes the whole team stronger.\n\nGood teams also understand their roles. Each member knows what they are responsible for, and how their work fits with everyone else's. Like players on a sports team, each person has a position, and together they cover the whole field.\n\nFinally, a good team shares a common goal. Everyone understands what they are trying to achieve and why it matters. This shared purpose keeps people pulling in the same direction, even when the work is hard.\n\nSo a good team is far more than a group of clever individuals. It is a group that communicates, trusts, understands its roles, and works together, achieving things that no single person ever could alone.",
-        summaryJa: "良い職場のチームを作るものは何かについて。大切な仕事の多くは一人でなく、チームで行われる。橋を建てるにせよ、店を運営するにせよ、新製品を作るにせよ、人々が共有の目標に向けて協力せねばならない。だが同じくらい有能な人員でも、素晴らしい成果を上げるチームもあれば、苦しみ失敗するチームもある。秘訣は何か。人の集まりを良いチームにするものは何か。最も重要な要素の一つは明確な意思疎通だ。良いチームでは、情報を率直に共有し、互いに注意深く聞き、質問や問題提起を恐れない。明確に話さないと、誤りや誤解がすぐ生じる。第二の鍵は信頼だ。各自が自分の役割を果たすと互いに頼れねばならない。信頼があると、責められる恐れなく新しい考えを共有し、失敗を認め、助けを求められる。これがチーム全体を強くする。良いチームは役割も理解する。各自が何に責任を持ち、自分の仕事が他の皆とどう合うか知る。スポーツのように各自に持ち場があり、共に全体を覆う。最後に、良いチームは共通の目標を分かち合う。皆が何を達成しようとし、なぜ大切かを理解する。賢い個人の集まり以上だ。",
-        quiz: [
-          { q: "What is one of the most important ingredients of a good team?", options: ["Clear communication", "Keeping all information secret", "Never speaking to each other"], answer: 0 },
-          { q: "Why does trust make a team stronger?", options: ["People feel safe to share ideas, admit mistakes, and ask for help", "It lets people avoid all work", "It makes the team smaller"], answer: 0 },
-          { q: "What keeps a good team pulling in the same direction?", options: ["A shared common goal that everyone understands", "Each person having a different secret goal", "No goal at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1119-2",
-        title: "How Do Robots Help Us Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "When many people hear the word robot, they imagine a human-shaped machine from a film. But most real robots look nothing like that. A robot is simply a machine that can be programmed to carry out tasks, often on its own. Today, robots quietly help people in factories, hospitals, warehouses, and many other places, doing work that is hard, dangerous, or simply very repetitive.\n\nThe most common place to find robots is in factories. Here, robotic arms perform the same precise movements over and over, all day long, without ever getting tired or bored. They can weld metal, paint cars, or carefully place tiny parts, often faster and more accurately than a human hand. Because they do not tire, they help make products of a steady, reliable quality.\n\nRobots are especially valuable for jobs that are dangerous for people. They can work with poisonous chemicals, lift very heavy loads, or explore places that are too risky for humans, such as deep underwater or inside a damaged building.\n\nMore and more, robots are also moving beyond factories. In some warehouses, robots race around fetching goods. In hospitals, they may help carry supplies or assist doctors in delicate operations.\n\nRobots are not perfect, and they work best alongside people, not instead of them. A machine can repeat a task, but it cannot yet think, judge, and solve surprising problems the way a human can.\n\nSo robots are powerful helpers. By taking on the hard, dangerous, and repetitive work, they free people to focus on the tasks that need a human mind: thinking, deciding, and creating.",
-        summaryJa: "ロボットはどう私たちの仕事を助けるのかについて。「ロボット」という言葉を聞くと、多くの人は映画の人型の機械を思い浮かべる。だが現実のロボットの多くはそう見えない。ロボットは単に、作業を行うようプログラムできる機械で、しばしば自分で動く。今日、ロボットは工場や病院、倉庫など多くの場所で静かに人を助け、難しい・危険な、あるいは非常に反復的な仕事を行う。ロボットが最もよくいるのは工場だ。ロボットアームが同じ精密な動きを一日中何度も、疲れも飽きもせず繰り返す。金属を溶接し、車を塗り、小さな部品を丁寧に置き、しばしば人の手より速く正確だ。疲れないので、安定し信頼できる品質の製品作りを助ける。人に危険な仕事で特に価値がある。有毒な化学物質を扱い、非常に重い荷を持ち上げ、深海や損傷した建物の中など人に危険すぎる場所を探れる。ますます工場を超えても広がる。倉庫で品物を取りに走り回り、病院で物資を運び、繊細な手術で医師を助けることもある。完璧ではなく、人の代わりでなく人と並んで働くのが最良だ。機械は作業を繰り返せても、人のように考え判断し意外な問題を解くことはまだできない。",
-        quiz: [
-          { q: "What is a robot?", options: ["A machine that can be programmed to carry out tasks, often on its own", "Always a human-shaped machine from a film", "A kind of computer game"], answer: 0 },
-          { q: "Why are robots especially valuable for dangerous jobs?", options: ["They can handle poisons, heavy loads, or risky places instead of people", "They enjoy danger", "They never work at all"], answer: 0 },
-          { q: "Why do robots work best alongside people?", options: ["Robots repeat tasks, but cannot yet think and solve surprising problems like humans", "People slow robots down", "Robots can do absolutely everything alone"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1119-3",
-        title: "What Is Foreign Aid?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "The world is a place of great differences. Some countries are very wealthy, with good schools, modern hospitals, and clean running water for everyone. Others are much poorer, where many people struggle to find enough food, clean water, or basic medical care. To help close this gap, richer countries often give help to poorer ones. This help is called foreign aid.\n\nForeign aid comes in several forms. Sometimes it is emergency aid, given quickly after a disaster such as an earthquake, flood, or famine. This includes food, water, medicine, and shelter to save lives in a crisis.\n\nMore often, foreign aid is about longer-term development. The goal here is not just to help for a day, but to help a country improve itself for the future. Richer nations may provide money and experts to help build schools, hospitals, roads, and clean water systems. They may help train teachers, doctors, and farmers, so that the country can grow stronger on its own.\n\nWhy do countries give aid? Partly out of simple kindness, a wish to help fellow human beings in need. But there are other reasons too. A more stable, healthier, and wealthier world is safer and better for everyone, including the countries that give the aid.\n\nForeign aid is not always simple or perfect. It must be given carefully, so that it truly helps local people and does not create new problems. But at its heart, it reflects a hopeful idea: that the nations of the world have a shared responsibility to help one another, so that fewer people are left behind.",
-        summaryJa: "対外援助（外国援助）とは何かについて。世界は大きな差のある場所だ。とても豊かで、良い学校・近代的な病院・皆のための清潔な水道がある国もある。もっと貧しく、多くの人が十分な食料や清潔な水、基本的な医療を得るのに苦労する国もある。この差を縮めるため、豊かな国はしばしば貧しい国を助ける。この助けを対外援助という。対外援助はいくつかの形で来る。地震・洪水・飢饉などの災害の後に素早く与えられる緊急援助のこともある。危機で命を救う食料・水・薬・住まいを含む。だがより多くの場合、対外援助はより長期の開発に関わる。目的は一日助けることでなく、国が将来に向けて自らを改善するのを助けることだ。豊かな国は、学校・病院・道路・清潔な水の仕組みの建設を助ける資金と専門家を提供する。教師・医師・農家の育成を助け、国が自力で強くなれるようにする。なぜ国は援助するのか。一部は単純な親切、困っている仲間を助けたいという願いからだ。だが他の理由もある。より安定し健康で豊かな世界は、援助する国を含め皆にとって安全で良い。完璧ではないが、国々が互いを助け合う共有の責任という希望を映す。",
-        quiz: [
-          { q: "What is foreign aid?", options: ["Help given by richer countries to poorer ones", "A kind of tax on travel", "A type of weapon"], answer: 0 },
-          { q: "What is the goal of longer-term development aid?", options: ["To help a country improve itself for the future, not just for a day", "To keep the country weak", "To take the country's land"], answer: 0 },
-          { q: "Why do countries give aid, besides kindness?", options: ["A more stable, healthier, wealthier world is safer and better for everyone", "To make the world poorer", "For no reason at all"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1119-4",
-        title: "Osoji: The Japanese Year-End Cleaning",
-        level: "★★☆",
-        genre: "日本",
-        text: "In many countries, people do a big spring cleaning of their homes once a year. In Japan, there is a similar but special tradition, and it happens at the end of the year, in the cold days of December. It is called osoji, which simply means big cleaning, and it is an important way of preparing for the New Year.\n\nOsoji is far more than ordinary tidying up. Towards the end of December, families, schools, offices, and shops all take part in a thorough, deep clean. People clean places that are usually ignored: they wipe high windows, scrub floors, clear out cupboards, and throw away things they no longer need. The whole building is made fresh and spotless.\n\nThe reason behind osoji is both practical and spiritual. On a practical level, it is simply satisfying to begin a new year in a clean and tidy home. But there is a deeper meaning too. The cleaning is a way of clearing away the dust and troubles of the old year, both the physical dirt and, in a sense, the bad luck. By cleaning the home completely, people prepare a pure, fresh space to welcome the New Year and its blessings.\n\nThere is a good feeling in doing osoji together. Family members work side by side, and the hard work creates a sense of a fresh start shared by all.\n\nSo osoji is more than just cleaning. It is a yearly ritual of renewal, a way of closing the old year with care and opening the new one with a clean and hopeful heart.",
-        summaryJa: "大掃除、日本の年末の清掃について。多くの国で、人々は年に一度家の「春の大掃除」をする。日本にも似た特別な伝統があり、年末、十二月の寒い日々に行われる。大掃除と呼ばれ、文字どおり「大きな掃除」を意味し、新年を迎える大切な準備だ。大掃除は普通の片付けをはるかに超える。十二月の終わりごろ、家庭・学校・職場・店がみな徹底した深い清掃に取り組む。普段無視される場所も掃除する。高い窓を拭き、床を磨き、戸棚を片付け、もう要らない物を捨てる。建物全体を新しく、ちりひとつなくする。大掃除の理由は実用的でも精神的でもある。実用面では、清潔で整った家で新年を始めるのは単純に気持ちよい。だがより深い意味もある。掃除は古い年のちりと厄介を、物理的な汚れと、ある意味で悪運を払いのける方法だ。家を完全に清めることで、新年とその恵みを迎える清らかで新鮮な空間を整える。共に大掃除をするのは良い気持ちだ。家族が肩を並べて働き、重労働が皆で分かち合う新たな出発の感覚を生む。年を気持ちよく閉じ、清らかで希望ある心で新年を開く更新の儀式だ。",
-        quiz: [
-          { q: "When does osoji take place?", options: ["At the end of the year, in December, to prepare for the New Year", "In the middle of summer", "Every single morning"], answer: 0 },
-          { q: "What is the deeper meaning of osoji?", options: ["Clearing away the dust and troubles of the old year to welcome a fresh start", "Making the home dirtier", "Hiding things from guests"], answer: 0 },
-          { q: "What good feeling comes from doing osoji together?", options: ["A sense of a fresh start shared by all the family", "A feeling of being completely alone", "Anger at one another"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1119-5",
-        title: "How Clever Are Crows?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "Crows and their relatives, such as ravens, are often overlooked as ordinary black birds. But scientists who study them have made a surprising discovery: these birds are among the most intelligent animals on the whole planet. In fact, some crows can solve problems that would puzzle a young child.\n\nOne of their most famous skills is using tools. Some crows bend a piece of wire into a hook to pull food out of a tube, or use a stick to dig insects out of a log. Making and using a tool to solve a problem was once thought to be something only humans and a few apes could do.\n\nCrows also have remarkable memories. They can remember the faces of individual people for years, and they seem to know which humans have been kind to them and which have been a threat. Recent studies suggest they can even memorise vast areas of land, remembering where food is likely to be found.\n\nThey are clever in social ways too. Crows live in groups, communicate with a wide range of calls, and can even work together to solve a problem or to chase away a larger enemy.\n\nPerhaps most impressively, crows seem able to plan for the future, saving a useful tool for a task they expect to face later. This kind of thinking ahead is very rare in the animal world.\n\nSo the next time you see a crow watching you from a rooftop, remember that behind those dark eyes is one of nature's finest problem-solvers, a feathered genius hiding in plain sight in our towns and cities.",
-        summaryJa: "カラスはどれほど賢いのかについて。カラスやその仲間のワタリガラスは、しばしばありふれた黒い鳥として見過ごされる。だが研究する科学者たちは驚くべき発見をした。これらの鳥は惑星全体で最も知能の高い動物に数えられるのだ。実際、一部のカラスは幼い子どもを困らせるような問題を解ける。最も有名な技の一つは道具の使用だ。あるカラスは針金を曲げてかぎを作り管から食べ物を引き出し、小枝を使って丸太から虫を掘り出す。問題を解くため道具を作り使うのは、かつて人間と一部の類人猿だけができると思われていた。カラスは驚くべき記憶力も持つ。個々の人の顔を何年も覚え、どの人間が親切でどれが脅威だったか分かるようだ。最近の研究は、広い土地を記憶し、食べ物が見つかりそうな場所を覚えられることさえ示す。社会的にも賢い。群れで暮らし、幅広い鳴き声で意思疎通し、問題を解いたり大きな敵を追い払ったりするため協力さえできる。おそらく最も見事なのは、将来の計画ができるらしいことだ。後で直面すると予想する作業のため、役立つ道具を取っておく。この先読みは動物界で非常に珍しい。黒い目の奥に自然屈指の問題解決者がいるのだ。",
-        quiz: [
-          { q: "What surprising discovery have scientists made about crows?", options: ["They are among the most intelligent animals on the planet", "They cannot see at all", "They never make any sound"], answer: 0 },
-          { q: "What is one famous skill of some crows?", options: ["Making and using tools, such as bending wire into a hook", "Reading books", "Driving cars"], answer: 0 },
-          { q: "What rare ability do crows seem to have?", options: ["Planning for the future, such as saving a tool for a later task", "Living underwater", "Glowing in the dark"], answer: 0 }
         ]
       }
     ]
