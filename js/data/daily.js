@@ -7,6 +7,76 @@ window.KE_DATA = window.KE_DATA || {};
 
 KE_DATA.dailyReading = { days: [
     {
+    date: "2026-11-27",
+    passages: [
+      {
+        id: "d1127-1",
+        title: "What Is Black Friday?",
+        level: "★★☆",
+        genre: "ビジネス",
+        text: "Once a year, usually in late November, something remarkable happens in the world of shopping. Shops both large and small offer enormous discounts, and crowds of excited customers rush to buy things at very low prices. Online, websites are flooded with special deals. This great day of bargains has a famous name: Black Friday.\n\nBlack Friday takes place on the day after Thanksgiving, an important autumn holiday in the United States. For many people, this marks the unofficial start of the Christmas shopping season. Shops hope to attract huge numbers of customers with their biggest discounts of the year, and shoppers hope to buy gifts and expensive items at a lower cost.\n\nWhere does the name come from? One popular explanation is about money. Businesses keep records of their profits and losses. Traditionally, a loss was written in red ink, and a profit in black. The idea is that on this very busy shopping day, so many sales are made that shops finally move into the black, meaning they start to make a clear profit.\n\nIn the past, Black Friday meant huge crowds rushing into physical shops the moment they opened. Today, much of the shopping has moved online, and the sales often last for several days, or even the whole week.\n\nWhat began as an American tradition has now spread to many countries around the world. For better or worse, Black Friday has become a global event, a powerful reminder of how a single day of sales can change the shopping habits of millions of people.",
+        summaryJa: "ブラックフライデーとは何かについて。年に一度、たいてい十一月下旬、買い物の世界で注目すべきことが起こる。大小の店が巨大な割引を出し、興奮した客の群れがとても安い値段で物を買おうと押し寄せる。ネットでも特別なお得が殺到する。この大安売りの日には有名な名がある。ブラックフライデーだ。ブラックフライデーは、米国の大切な秋の祝日、感謝祭の翌日に行われる。多くの人にとって、これはクリスマス商戦の非公式な始まりを告げる。店は年で最大の割引で膨大な客を引きつけようとし、買い物客は贈り物や高価な物を安く買おうとする。名の由来は何か。有力な一説はお金に関わる。企業は損益の記録をつける。伝統的に損は赤インク、利益は黒で書かれた。この非常に忙しい買い物の日に、とても多く売れて店がついに「黒字になる」、つまり明確な利益を出し始める、という考えだ。昔は開店した途端に実店舗へ群衆が殺到することを意味した。今や多くがネットに移り、セールは数日、時に一週間続く。米国の伝統が今や世界中に広がった。たった一日のセールが何百万人の買い物習慣を変えうると示す。",
+        quiz: [
+          { q: "When does Black Friday take place?", options: ["On the day after Thanksgiving, in late November", "On New Year's Day", "In the middle of summer"], answer: 0 },
+          { q: "What does Black Friday mark for many people?", options: ["The unofficial start of the Christmas shopping season", "The end of all shopping", "A national day of rest"], answer: 0 },
+          { q: "What is one popular explanation for the name?", options: ["Shops make so many sales that they move 'into the black,' meaning a clear profit", "The sky turns black", "Everyone wears black"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1127-2",
+        title: "How Do Barcodes Work?",
+        level: "★★☆",
+        genre: "テクノロジー",
+        text: "Look at almost any product in a shop, and you will find it: a small rectangle of black lines of different widths, printed on the packaging. This is a barcode. At the checkout, a shop assistant passes it over a scanner, there is a quick beep, and the price appears instantly. It seems simple, but a barcode is a clever way of writing information in a form that a machine can read very quickly.\n\nThe key idea is that a barcode is a code made of lines. The pattern of black bars and the white spaces between them is not just decoration. It represents a number, usually the unique number that identifies that particular product. Thick lines, thin lines, and the gaps between them are arranged in a careful pattern that stands for the digits of this number.\n\nSo how does the machine read it? The scanner shines a beam of light, often a red laser, across the barcode. The black bars absorb the light, while the white spaces reflect it back. A sensor in the scanner detects this pattern of reflected light, measuring where the light bounces back strongly and where it does not. In this way, it reads the pattern of bars and spaces and turns it back into the number.\n\nThe scanner then sends this number to the shop's computer, which looks it up to find the product's name and price.\n\nSo a barcode is simply a number written in light and dark stripes. It is a small, brilliant invention that has made shopping faster and helped shops keep track of millions of products with ease.",
+        summaryJa: "バーコードの仕組みについて。店のほぼどの商品を見ても見つかる。包装に印刷された、幅の異なる黒い線の小さな長方形だ。これがバーコードだ。レジで店員がスキャナーの上を通すと、素早くピッと鳴り、値段が即座に現れる。単純に見えるが、バーコードは機械がとても速く読める形で情報を書く巧妙な方法だ。鍵となる考えは、バーコードが線でできた符号だということだ。黒い棒と間の白い空間の模様は、単なる飾りではない。ある数字、たいていその特定の商品を識別する固有の番号を表す。太い線、細い線、その間の隙間が、この番号の各桁を表す入念な模様に並ぶ。では機械はどう読むのか。スキャナーは光の筋、しばしば赤いレーザーをバーコードに当てる。黒い棒は光を吸収し、白い空間は反射して返す。スキャナーのセンサーがこの反射光の模様を感知し、どこで光が強く跳ね返りどこで返らないかを測る。こうして棒と空間の模様を読み、番号に戻す。スキャナーはこの番号を店のコンピューターに送り、商品名と値段を調べる。要するに、光と暗の縞で書かれた番号だ。買い物を速くし、商品管理を容易にした見事な発明だ。",
+        quiz: [
+          { q: "What does the pattern of lines in a barcode represent?", options: ["A number, usually the one that identifies that product", "Just decoration", "The shop's address"], answer: 0 },
+          { q: "How does the scanner read a barcode?", options: ["It shines light; black bars absorb it and white spaces reflect it back", "It takes a photo and prints it", "It weighs the product"], answer: 0 },
+          { q: "What does the scanner do with the number it reads?", options: ["It sends it to the computer, which finds the product's name and price", "It throws it away", "It changes the price randomly"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1127-3",
+        title: "What Are Human Rights?",
+        level: "★★★",
+        genre: "世界情勢",
+        text: "Imagine being told that you were not allowed to say what you think, or to follow your own beliefs. Imagine being punished without a fair trial, or being treated cruelly simply because of who you are. Most people feel, deep down, that this would be wrong. This feeling points to one of the most important ideas in the modern world: human rights.\n\nHuman rights are the basic rights and freedoms that belong to every single person, simply because they are human. They are not given by a government or earned through hard work. The idea is that every person is born with them, and no one should be allowed to take them away. Importantly, they belong to everyone equally, regardless of their country, their religion, their wealth, or their background.\n\nWhat are these rights? They include the right to life and safety, the freedom to think and speak, the right to be treated fairly and equally under the law, and the right to basic things like food, shelter, and education.\n\nAfter the terrible suffering of past wars, the countries of the world came together and wrote down a list of these rights, agreeing that they should be protected everywhere. This was a historic moment, a shared promise about how all human beings deserve to be treated.\n\nOf course, human rights are not always respected, and in many places people still struggle for them. But the idea itself remains powerful and hopeful. It says that every person, no matter who they are, has a basic dignity that deserves respect, and this belief continues to guide the world toward a fairer future.",
+        summaryJa: "人権とは何かについて。自分の考えを言うことも、自分の信念に従うことも許されないと告げられると想像しよう。公正な裁判なしに罰せられ、ただ自分が何者かという理由で残酷に扱われると想像しよう。ほとんどの人は心の奥で、これは間違っていると感じる。この感覚は現代世界で最も重要な考えの一つ、人権を指している。人権とは、人間であるというだけで、一人一人に属する基本的な権利と自由だ。政府が与えるものでも、努力で得るものでもない。すべての人が生まれながらに持ち、誰もそれを奪えてはならない、という考えだ。重要なのは、国・宗教・富・生い立ちにかかわらず、万人に等しく属することだ。これらの権利とは何か。生命と安全の権利、考え話す自由、法の下で公正かつ平等に扱われる権利、そして食料・住まい・教育といった基本的なものへの権利を含む。過去の戦争のひどい苦しみの後、世界の国々が集まりこれらの権利の一覧を書き記し、どこでも守られるべきだと合意した。歴史的な瞬間、全人類がどう扱われるべきかの共有の約束だった。常に尊重されるわけではなく、多くの場所で人々はなお人権を求めて闘う。だが考え自体は力強く希望に満ちる。",
+        quiz: [
+          { q: "What are human rights?", options: ["Basic rights and freedoms that belong to every person, just for being human", "Rights only for rich people", "Rewards you must earn through work"], answer: 0 },
+          { q: "Who do human rights belong to?", options: ["Everyone equally, regardless of country, religion, wealth, or background", "Only citizens of one country", "Only powerful leaders"], answer: 0 },
+          { q: "What did the countries of the world do after past wars?", options: ["They wrote down a list of rights and agreed to protect them everywhere", "They ignored the problem", "They removed all rights"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1127-4",
+        title: "Shoji: Japanese Paper Sliding Doors",
+        level: "★★☆",
+        genre: "日本",
+        text: "Step inside a traditional Japanese house, and you will notice that the walls are not quite what you might expect. Instead of solid, fixed walls, many of the inner dividers are light screens that can slide smoothly to one side. The most beautiful of these are called shoji: wooden frames filled in not with glass, but with soft white paper.\n\nA shoji screen is made of a delicate grid of thin wooden strips, over which a special, strong paper is stretched. The result is a panel that is light, graceful, and, most importantly, able to let light pass through it. During the day, sunlight shines softly through the white paper, filling the room with a gentle, even glow, without the harsh glare of direct sun.\n\nBecause shoji slide along grooves in the floor and ceiling, they are wonderfully flexible. A single large room can be divided into smaller spaces by sliding the screens closed, or opened up into one big area by sliding them aside. In this way, a Japanese home can easily change to suit the season or the moment.\n\nShoji also connect the inside of a house with the garden and nature outside. When slid open, they frame a view of the garden like a living picture.\n\nThis clever design reflects important ideas in Japanese culture: a love of natural materials, a preference for soft, gentle light, and a flexible, uncluttered way of using space. The shoji is simple, beautiful, and practical, a quiet work of art that forms the very walls of the traditional Japanese home.",
+        summaryJa: "障子、日本の紙の引き戸について。伝統的な日本の家に入ると、壁が予想とは少し違うことに気づく。固定された固い壁の代わりに、内側の仕切りの多くは、片側へ滑らかに滑らせられる軽い建具だ。中でも最も美しいものを障子と呼ぶ。ガラスでなく柔らかな白い紙を張った木の枠だ。障子は細い木の桟の繊細な格子でできて、その上に特別で丈夫な紙が張られる。できあがるのは、軽く優美で、何より光を通せる板だ。昼間、日光が白い紙を柔らかく通り、直射日光のまぶしさなしに、部屋を穏やかで均一な明るさで満たす。障子は床と天井の溝に沿って滑るので、見事に柔軟だ。一つの大きな部屋を、障子を閉じて小さな空間に分けたり、脇へ寄せて一つの広い空間に開いたりできる。こうして日本の家は季節や場面に合わせて容易に変わる。障子は家の内側と外の庭や自然もつなぐ。開ければ庭の眺めを生きた絵のように縁取る。自然素材への愛、柔らかな光の好み、柔軟で簡素な空間の使い方を映す。簡素で美しく実用的な、静かな芸術だ。",
+        quiz: [
+          { q: "What is a shoji screen made of?", options: ["A wooden frame filled with soft white paper", "Thick stone", "Solid metal"], answer: 0 },
+          { q: "Why is a room with shoji filled with a gentle glow?", options: ["Sunlight shines softly through the white paper", "There are many electric lamps", "The paper is painted black"], answer: 0 },
+          { q: "Why are shoji wonderfully flexible?", options: ["They slide to divide a room or open it into one big space", "They are fixed and never move", "They are very heavy"], answer: 0 }
+        ]
+      },
+      {
+        id: "d1127-5",
+        title: "Why Do We Have Two Eyes?",
+        level: "★★☆",
+        genre: "科学・カルチャー",
+        text: "We have two eyes, two ears, and one nose. Having two ears helps us tell which direction a sound comes from. But why do we have two eyes, sitting so close together and both pointing forward? If they both look at the same thing, why not just have one? The answer reveals a wonderful trick that our brain performs every moment, giving us a special power: the ability to see the world in three dimensions.\n\nHere is the key. Although your two eyes are close together, they are not in exactly the same place. Your left eye sees the world from a point a few centimetres to the left of your right eye. This means each eye sees a slightly different view. You can prove this easily: hold up one finger, and look at it while closing one eye, then the other. The finger seems to jump from side to side, because each eye sees it against a slightly different background.\n\nYour clever brain takes these two slightly different pictures and combines them into a single image. By comparing the small differences between the two views, the brain can judge how far away things are. This gives us depth perception, the ability to see that some things are near and others are far.\n\nThis power is incredibly useful. It helps us catch a ball, pour water into a glass, or judge the distance of a step without falling.\n\nSo having two eyes is not just a spare in case one is damaged. It is the secret to seeing a rich, deep, three-dimensional world, built by a brain cleverly combining two flat pictures into one.",
+        summaryJa: "なぜ私たちは目が二つあるのかについて。私たちは目が二つ、耳が二つ、鼻が一つある。耳が二つあると音がどの方向から来るか分かる。だがなぜ目は二つあり、こんなに近くに並び、両方前を向くのか。両方同じ物を見るなら、一つでよいのでは。答えは、脳が毎瞬間行う見事な技を明かす。世界を三次元で見る特別な力を与えるのだ。鍵はこうだ。二つの目は近いが、まったく同じ場所にはない。左目は右目より数センチ左の点から世界を見る。つまり各目はわずかに異なる光景を見る。簡単に確かめられる。指を一本立て、片目を閉じて見て、次にもう片方で見る。指が左右に跳ぶように見える。各目がわずかに異なる背景に対して指を見るからだ。賢い脳はこの二つのわずかに異なる像を取り、一つの像に合わせる。二つの眺めの小さな違いを比べ、物がどれだけ遠いか判断できる。これが奥行き知覚、近い物と遠い物を見分ける力だ。この力はとても役立つ。ボールを捕らえ、コップに水を注ぎ、転ばず段差の距離を測るのを助ける。目が二つあるのは予備のためだけでない。豊かで奥行きある三次元の世界を見る秘密だ。",
+        quiz: [
+          { q: "Why do our two eyes each see a slightly different view?", options: ["They are in slightly different places, a few centimetres apart", "They point in opposite directions", "One eye is much bigger"], answer: 0 },
+          { q: "What does the brain do with the two different pictures?", options: ["It combines them and judges how far away things are", "It throws one away", "It keeps them completely separate"], answer: 0 },
+          { q: "What is 'depth perception' useful for?", options: ["Catching a ball, pouring water, or judging the distance of a step", "Hearing sounds better", "Smelling food"], answer: 0 }
+        ]
+      }
+    ]
+    },
+    {
     date: "2026-11-26",
     passages: [
       {
@@ -422,76 +492,6 @@ KE_DATA.dailyReading = { days: [
           { q: "Where does a snowflake begin its life?", options: ["High up in a cloud, where the air is freezing cold", "In the warm ground", "Inside a river"], answer: 0 },
           { q: "Why does nearly every snowflake have six sides?", options: ["Of the way water molecules naturally join together when they freeze", "Someone cuts them that way", "By pure luck each time"], answer: 0 },
           { q: "Why is each snowflake slightly different?", options: ["No two follow exactly the same path through changing conditions", "They are all made in a factory", "They are actually all identical"], answer: 0 }
-        ]
-      }
-    ]
-    },
-    {
-    date: "2026-11-20",
-    passages: [
-      {
-        id: "d1120-1",
-        title: "What Is Supply and Demand?",
-        level: "★★☆",
-        genre: "ビジネス",
-        text: "Why does a bottle of water cost so little, while a diamond costs a fortune? Why do strawberries become cheaper in summer, and umbrellas sell out on a rainy day? Behind nearly every price in the world lies one of the most important ideas in all of economics: supply and demand.\n\nLet us start with demand. Demand simply means how much of something people want to buy. When many people want a product, we say demand is high. When few people want it, demand is low.\n\nSupply means how much of that product is available for sale. When there is a lot of it, supply is high. When it is rare or hard to make, supply is low.\n\nThe magic happens when these two forces meet, because together they shape the price. When demand is high but supply is low, the price tends to rise. Many buyers are competing for few goods, so sellers can charge more. This is why a rare painting or a ticket to a popular concert can be so expensive. On the other hand, when supply is high but demand is low, the price tends to fall. Sellers must lower prices to attract the few buyers who want their goods.\n\nPrices are always moving as these forces shift. A good harvest increases the supply of fruit, pushing prices down. A sudden craze increases demand for a toy, pushing prices up.\n\nSo supply and demand is a quiet, powerful dance happening behind every price tag. Understanding it helps explain why things cost what they do, all around us, every single day.",
-        summaryJa: "需要と供給とは何かについて。なぜ水のボトルはこれほど安く、ダイヤモンドは大金がかかるのか。なぜイチゴは夏に安くなり、傘は雨の日に売り切れるのか。世界のほぼすべての価格の背後に、経済学で最も重要な考えの一つ、需要と供給がある。需要から始めよう。需要とは単に、人々がどれだけ買いたいかだ。多くの人が欲しければ需要が高いといい、少なければ低いという。供給とは、その製品がどれだけ売りに出ているかだ。たくさんあれば供給が高く、珍しく作りにくければ低い。魔法はこの二つの力が出会うときに起こる。共に価格を形づくるからだ。需要が高く供給が低いと、価格は上がる傾向がある。多くの買い手が少ない品を奪い合うので、売り手は高く付けられる。珍しい絵や人気コンサートの切符が高いのはこのためだ。逆に供給が高く需要が低いと、価格は下がる傾向がある。売り手は、欲しがる少数の買い手を引きつけるため値を下げねばならない。これらの力が動くと価格は常に動く。豊作は果物の供給を増やし値を下げ、突然の流行は玩具の需要を増やし値を上げる。すべての値札の裏の静かで力強い踊りだ。",
-        quiz: [
-          { q: "What does 'demand' mean?", options: ["How much of something people want to buy", "How heavy a product is", "The color of a product"], answer: 0 },
-          { q: "What tends to happen when demand is high but supply is low?", options: ["The price tends to rise", "The price tends to fall to zero", "Nothing changes"], answer: 0 },
-          { q: "Why can a rare painting be so expensive?", options: ["Many buyers compete for few goods, so sellers can charge more", "Paintings are always cheap", "No one wants it"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1120-2",
-        title: "How Does the Internet Work?",
-        level: "★★☆",
-        genre: "テクノロジー",
-        text: "Every day, we use the internet to send messages, watch videos, and visit websites from all over the world. It feels like magic, as if all this information lives inside our own phone or computer. But in reality, the internet is something far more amazing: a vast network connecting millions of computers across the entire planet.\n\nAt its heart, the internet is simply a way for computers to talk to each other. The word itself means a network of networks. All around the world, computers are linked together by cables, including huge cables that run along the bottom of the oceans, and by wireless signals. This web of connections lets a computer in one country send information to a computer in another, in less than a second.\n\nBut how does the information travel? When you send something, such as a photo, it is not sent all in one piece. Instead, it is broken up into many tiny pieces called packets. Each packet travels separately across the network, perhaps even taking different routes, like cars finding their own way through a city. When all the packets arrive at the other end, the receiving computer puts them back together in the right order, and the photo appears, whole again.\n\nTo make sure packets reach the right place, every device on the internet has its own address, a unique number, so information can be sent exactly where it needs to go.\n\nSo the internet is not a single thing, but a giant, worldwide conversation between machines, constantly breaking information into pieces, sending it across the globe, and joining it back together, all in the blink of an eye.",
-        summaryJa: "インターネットの仕組みについて。私たちは毎日、インターネットでメッセージを送り、動画を見て、世界中のウェブサイトを訪れる。まるで魔法のようで、この情報すべてが自分のスマホやパソコンの中にあるかのようだ。だが実際、インターネットはもっと驚くべきもの、惑星全体で何百万ものコンピューターをつなぐ広大なネットワークだ。核心的に、インターネットは単にコンピューター同士が話す手段だ。言葉自体が「ネットワークのネットワーク」を意味する。世界中で、コンピューターはケーブル（海底を走る巨大なケーブルを含む）や無線信号で結ばれている。このつながりの網が、一国のコンピューターから別の国のコンピューターへ、一秒足らずで情報を送らせる。だが情報はどう進むのか。何か、例えば写真を送るとき、一つの塊では送られない。パケットという多くの小さな断片に分けられる。各パケットは別々にネットワークを進み、異なる経路さえ通る。街で各自の道を見つける車のようだ。すべてのパケットが相手側に着くと、受け取るコンピューターが正しい順に組み直し、写真が丸ごと現れる。正しい場所へ届くよう、ネット上の各機器は固有の番号という自分の住所を持つ。機械同士の世界規模の会話だ。",
-        quiz: [
-          { q: "What is the internet, at its heart?", options: ["A vast network connecting millions of computers worldwide", "A single computer in one place", "A kind of television"], answer: 0 },
-          { q: "How does information travel across the internet?", options: ["It is broken into tiny pieces called packets that travel separately", "It is sent all in one large piece", "It travels by post"], answer: 0 },
-          { q: "How do packets reach the right place?", options: ["Every device has its own unique address, a number", "They are guided by hand", "They choose randomly and hope"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1120-3",
-        title: "How Do Scientists Around the World Work Together?",
-        level: "★★★",
-        genre: "世界情勢",
-        text: "Some of the biggest questions in science are far too large for any single person, or even any single country, to answer alone. How did the universe begin? How can we cure a terrible disease? To tackle such enormous challenges, scientists from many different nations join forces, in one of the most hopeful forms of international cooperation.\n\nThis teamwork takes many shapes. Sometimes, countries pool their money and brains to build a single giant machine that no one nation could afford. Enormous telescopes that study distant stars, or huge laboratories that explore the tiny particles inside atoms, are often built and shared by many countries together. Scientists from all over the world travel to use them and share what they discover.\n\nCooperation is also vital in a crisis. When a dangerous new disease appears, scientists across the globe quickly share information about it. By working together and sharing their findings openly, researchers in different countries can develop tests, treatments, and vaccines far faster than any one nation could alone.\n\nMuch of this sharing happens through published research. When scientists make a discovery, they write it up and share it with the world, so that others can check it, learn from it, and build upon it. In this way, human knowledge grows like a great building, with each country adding its own bricks.\n\nScience, at its best, does not really belong to any one nation. A discovery made in one country can help people everywhere. By working together across borders, scientists remind us that curiosity and the search for truth are shared by all of humanity.",
-        summaryJa: "世界中の科学者はどう協力するのかについて。科学の最大級の問いのいくつかは、どの一人、いや一国でも単独では答えるには大きすぎる。宇宙はどう始まったのか。恐ろしい病をどう治せるのか。こうした巨大な課題に挑むため、多くの国の科学者が力を合わせる。国際協力の最も希望ある形の一つだ。この協働は多くの形をとる。どの一国も負担できない一つの巨大な機械を作るため、国々が資金と頭脳を出し合うこともある。遠い星を調べる巨大望遠鏡や、原子内の小さな粒子を探る大きな実験施設は、しばしば多くの国が共同で建設し共有する。世界中の科学者がそれを使いに来て、発見を分かち合う。危機でも協力は不可欠だ。危険な新しい病が現れると、世界中の科学者が素早くその情報を共有する。協力して発見を率直に分かち合うことで、各国の研究者はどの一国よりはるかに速く検査・治療・ワクチンを開発できる。この共有の多くは発表された研究を通じて起こる。科学者は発見を書き世界と分かち合い、他者が確かめ学び積み重ねる。人類の知識は大きな建物のように育つ。科学は本当はどの一国のものでもない。好奇心と真実の探求は全人類が分かち合う。",
-        quiz: [
-          { q: "Why do scientists from many nations join forces?", options: ["Some questions are too large for any single person or country alone", "Because they are forced to by law", "Because science is easy"], answer: 0 },
-          { q: "How does cooperation help in a disease crisis?", options: ["Sharing findings openly lets researchers develop tests and vaccines far faster", "It slows everything down", "It keeps all information secret"], answer: 0 },
-          { q: "How does human knowledge grow, according to the passage?", options: ["Like a great building, with each country adding its own bricks", "By one country keeping all discoveries", "It never grows"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1120-4",
-        title: "Green Tea in Japanese Life",
-        level: "★★☆",
-        genre: "日本",
-        text: "In Japan, there is one drink so common and so loved that it is woven into the very fabric of daily life: green tea. From a simple cup served with a meal to a formal ceremony lasting hours, green tea appears everywhere, enjoyed by people of all ages, all across the country.\n\nGreen tea and black tea actually come from the very same plant. The difference lies in how the leaves are treated after picking. For green tea, the leaves are heated quickly, often with steam, which keeps them green and gives the tea its fresh, slightly grassy taste. For black tea, the leaves are allowed to change colour first.\n\nThere are many kinds of Japanese green tea. The most common everyday tea is sencha, a refreshing drink served in homes and restaurants. A special, powdered green tea called matcha is brighter and stronger, and it is the tea used in the famous Japanese tea ceremony. Matcha is also now popular around the world in sweets and drinks.\n\nGreen tea is more than just a tasty drink. Many people believe it is very good for health, and it has been enjoyed for its calming yet refreshing effect for centuries. Offering a cup of tea to a guest is also a simple, warm act of welcome and respect.\n\nSo green tea is a quiet but constant companion in Japanese life. It is there in a quiet moment alone, in a friendly chat, and in the most solemn of ceremonies, a small green cup holding a long and gentle tradition.",
-        summaryJa: "日本の生活における緑茶（日本茶）について。日本には、あまりに身近で愛され、日常生活の織物そのものに織り込まれた飲み物がある。緑茶だ。食事に添える一杯から、何時間も続く正式な儀式まで、緑茶は至る所に現れ、全国のあらゆる年齢の人に楽しまれる。緑茶と紅茶は実はまったく同じ植物から来る。違いは摘んだ後の葉の扱い方にある。緑茶では葉を素早く、しばしば蒸気で加熱し、緑を保ち、新鮮でやや草のような味を与える。紅茶では先に葉の色を変えさせる。日本の緑茶には多くの種類がある。最も一般的な日常の茶は煎茶で、家庭や飲食店で供されるさわやかな飲み物だ。抹茶という特別な粉末の緑茶はより鮮やかで濃く、有名な茶道で使われる。抹茶は今や世界中で菓子や飲み物に人気だ。緑茶はおいしい飲み物以上のものだ。健康に非常に良いと多くの人が信じ、落ち着かせつつさわやかな効果で何世紀も楽しまれてきた。客に一杯の茶を出すのは、歓迎と敬意の簡素で温かい行為でもある。日本の生活の静かで絶えぬ伴侶だ。",
-        quiz: [
-          { q: "What is the difference between green tea and black tea?", options: ["How the leaves are treated after picking, though they come from the same plant", "They come from totally different plants", "One is a drink and one is a food"], answer: 0 },
-          { q: "What is 'matcha'?", options: ["A special powdered green tea used in the tea ceremony", "A kind of black tea", "A type of coffee"], answer: 0 },
-          { q: "What does offering a cup of tea to a guest show?", options: ["A warm act of welcome and respect", "A wish for them to leave", "A kind of payment"], answer: 0 }
-        ]
-      },
-      {
-        id: "d1120-5",
-        title: "How Do Archaeologists Learn About the Past?",
-        level: "★★☆",
-        genre: "科学・カルチャー",
-        text: "How do we know how people lived thousands of years ago, long before anyone wrote anything down? Much of what we know comes from the patient work of archaeologists, the scientists who study human history by digging up and examining the things that people left behind.\n\nOver thousands of years, old towns, villages, and objects slowly become buried under layers of soil and dust. Archaeologists carefully dig down through these layers to uncover them. But they do not simply dig for treasure. They work slowly and gently, often with small tools and brushes, because exactly where each object is found is just as important as the object itself.\n\nThis is because of a clever idea: deeper usually means older. As the years pass, new layers of earth form on top of old ones. So, in general, objects found in a deeper layer are older than objects found above them. By studying these layers, archaeologists can work out the order in which things happened.\n\nThe objects they find, called artifacts, are like clues in a mystery. A broken pot, an old coin, the remains of a meal, or the foundations of a house can all tell a story. From these pieces, archaeologists work like detectives, slowly building a picture of how people once lived: what they ate, what they believed, and how they worked.\n\nModern science helps too. Special tests can reveal the age of an object or what it was made of.\n\nSo archaeologists are the storytellers of the deep past, reading the silent clues in the earth to bring long-lost lives back to light.",
-        summaryJa: "考古学者はどうやって過去を知るのかについて。誰も何も書き記す前の何千年も昔、人々がどう暮らしたか、私たちはどうして分かるのか。知っていることの多くは考古学者の忍耐強い仕事から来る。人々が残した物を掘り出し調べて人類史を研究する科学者だ。何千年もの間、古い町や村、物は土やちりの層の下にゆっくり埋もれる。考古学者はこれらの層を注意深く掘り下げて現す。だが単に宝を掘るのではない。各物がどこで見つかるかが物そのものと同じくらい重要なので、小さな道具や刷毛でゆっくり丁寧に作業する。これは巧妙な考えによる。深いほどたいてい古い、のだ。年月が経つと古い層の上に新しい土の層ができる。だから一般に、深い層で見つかる物は上の層の物より古い。これらの層を調べ、物事が起きた順序を割り出せる。見つける物は遺物と呼ばれ、謎の手がかりのようだ。割れた壺、古い硬貨、食事の残り、家の基礎、すべてが物語を語りうる。これらの断片から探偵のように、人々がかつてどう暮らし、何を食べ、何を信じ、どう働いたかの像をゆっくり築く。現代科学も助ける。特別な検査で物の年代や材質が分かる。過去の語り部だ。",
-        quiz: [
-          { q: "What do archaeologists study?", options: ["Human history, by digging up and examining things people left behind", "Only living animals", "The weather of the future"], answer: 0 },
-          { q: "Why is where an object is found so important?", options: ["Deeper layers are usually older, showing the order things happened", "Deeper objects are always treasure", "The location does not matter"], answer: 0 },
-          { q: "What are 'artifacts'?", options: ["Objects people left behind, which are like clues to a story", "A kind of modern computer", "Living plants"], answer: 0 }
         ]
       }
     ]
